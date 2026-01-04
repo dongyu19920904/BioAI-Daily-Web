@@ -1,0 +1,273 @@
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="twitter:site" content="@justlikemaki">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo-dark.png">
+<meta name="og:image" content="{{ .Site.BaseURL }}/images/logo-dark.png">
+
+{{ if .Params.robots }}
+  <meta name="robots" content="{{ .Params.robots }}">
+{{ end }}
+
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+  {{ end }}
+{{ end }}
+
+{{- if .Site.Params.adsenseId -}}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{- .Site.Params.adsenseId | safeJS -}}" crossorigin="anonymous"></script>
+{{- end -}}
+
+{{- if site.Params.la51Id -}}
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"{{- site.Params.la51Id | safeJS -}}",ck:"{{- site.Params.la51Id | safeJS -}}",autoTrack:true,hashMode:true})</script>
+{{- end -}}
+
+{{- if .Site.Params.umamiKey -}}
+<script defer src="https://cloud.umami.is/script.js" data-website-id="{{- .Site.Params.umamiKey | safeJS -}}"></script>
+{{- end -}} 
+
+{{- if .Site.Params.ahrefsKey -}}  
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="{{- .Site.Params.ahrefsKey | safeJS -}}" async></script>
+{{- end -}} 
+
+{{/* 只有在配置文件中设置了 clarityID 时，才输出这段脚本 */}}
+{{- if .Site.Params.clarityID -}}    
+<script type="text/javascript">
+// Clarity Analytics Script
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "{{- .Site.Params.clarityID | safeJS -}}");    
+</script>    
+{{- end -}}   
+
+
+<!-- 广告屏蔽器弹窗已移除 - 爱窝啦品牌版本 -->
+
+<script>
+
+// 这是一个自定义脚本，用于处理特定的页面逻辑和功能
+var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.createTemplateTagFirstArg=function(a){return a.raw=a};$jscomp.createTemplateTagFirstArgWithRaw=function(a,b){a.raw=b;return a};
+(function(){var a=window.location.href,b=window.location.pathname;"justlovemaki.github.io"===window.location.hostname&&b.startsWith("/Hextra-AI-Insight-Daily/")&&(b="https://ai.hubtoday.app/"+b.substring(40)+window.location.search+window.location.hash,console.log("Original URL: "+a),console.log("Redirecting to: "+b),window.location.replace(b))})();
+ 
+// 这是一个自定义脚本，用于处理侧边栏菜单的点击阻止逻辑
+document.addEventListener('DOMContentLoaded', function() {
+
+    /**
+     * 为指定的侧边栏菜单应用点击阻止逻辑。
+     * @param {string} selector - 目标 <ul> 元素的 CSS 选择器。
+     * @param {string} menuType - 菜单类型（例如 'Desktop' 或 'Mobile'），用于日志记录。
+     */
+    function applyClickPrevention(selector, menuType) {
+        // 使用提供的选择器查找菜单UL元素
+        // 注意：CSS选择器中的冒号需要用反斜杠转义
+        const menuUl = document.querySelector(selector);
+
+        if (menuUl) {
+            // 选择该UL下所有第一级的<a>标签
+            const firstLevelAnchors = menuUl.querySelectorAll(':scope > li > a');
+            let preventedCount = 0;
+
+            firstLevelAnchors.forEach(anchor => {
+                const parentLi = anchor.closest('li');
+                // 检查这个li内部是否包含一个子菜单（另一个ul）
+                const hasSubmenu = parentLi && parentLi.querySelector('ul');
+
+                // **仅当存在子菜单时**，才阻止链接的默认导航行为
+                if (hasSubmenu) {
+                    anchor.addEventListener('click', function(event) {
+                        // 阻止链接的默认导航行为
+                        event.preventDefault();
+                        console.log(`[${menuType}] Default navigation prevented for:`, anchor.href);
+
+                        // 切换父级li的 'open' 类以展开/折叠子菜单
+                        if (parentLi) {
+                            parentLi.classList.toggle('open');
+                            console.log(`[${menuType}] ${parentLi.classList.contains('open') ? 'Opened' : 'Closed'} submenu for:`, anchor.textContent.trim());
+                        }
+                    });
+                    preventedCount++;
+                }
+            });
+
+            console.log(`[${menuType}] Added click prevention to ${preventedCount} first-level <a> tags with submenus in '${selector}'.`);
+        } else {
+            console.warn(`[${menuType}] The specified UL ('${selector}') was not found.`);
+        }
+    }
+
+    // --- 主逻辑 ---
+
+    // 1. 定义桌面端菜单的选择器（转义冒号，使 querySelector 能匹配类名中包含冒号的 Tailwind-like 类）
+    const desktopMenuSelector = 'ul.hx\\:flex.hx\\:flex-col.hx\\:gap-1.hx\\:max-md\\:hidden'; 
+
+    // 2. 定义移动端菜单的选择器
+    // 通常，移动端菜单的类与桌面端相反（例如，在md及以上屏幕隐藏）
+    // !!! 请根据你的HTML结构检查并确认这个选择器是正确的 !!!
+    const mobileMenuSelector = 'ul.hx\\:flex.hx\\:flex-col.hx\\:gap-1.hx\\:md\\:hidden'; 
+
+    // 3. 分别为桌面和移动端菜单应用逻辑
+    applyClickPrevention(desktopMenuSelector, 'Desktop Menu');
+    applyClickPrevention(mobileMenuSelector, 'Mobile Menu');
+
+});
+
+// 在页面加载完成后执行时间标签本地化
+document.addEventListener('DOMContentLoaded', function() {
+     // 1. 获取所有 <time> 元素
+    const timeElements = document.querySelectorAll('time');
+
+    // 2. 遍历每个元素
+    timeElements.forEach(timeEl => {
+        // 3. 获取 UTC 时间字符串
+        const utcDateTime = timeEl.getAttribute('datetime');
+        if (!utcDateTime) {
+            return; // 跳过没有 datetime 属性的标签
+        }
+
+        // 4. 创建 Date 对象
+        const dateObj = new Date(utcDateTime);
+        if (isNaN(dateObj.getTime())) {
+            return; // 跳过无效的日期
+        }
+
+        // 5. 转换为本地化字符串并更新内容
+        // toLocaleString() 会自动处理时区偏移
+        timeEl.textContent = dateObj.toLocaleString();
+    });
+});
+
+</script>
+
+
+{{ "<!-- ENTERING partial seo-schema.html -->" | safeHTML }}
+
+{{/* --- Publisher Block --- */}}
+{{- $publisher := "" -}}
+{{- with .Site.Params.publisher -}}
+  {{- $p := . -}}
+  {{- $type := .type | default "Organization" -}}
+  {{- $name := .name | default $.Site.Title -}}
+
+  {{- $publisherData := dict "@type" $type "name" $name -}}
+  {{- if eq $type "Organization" -}}
+    {{- with .logo -}}
+      {{- $logoData := dict "@type" "ImageObject" "url" ( . | absURL ) -}}
+      {{- $publisherData = merge $publisherData (dict "logo" $logoData) -}}
+    {{- end -}}
+  {{- else if eq $type "Person" -}}
+    {{- with .url -}}
+      {{- $publisherData = merge $publisherData (dict "url" ( . | absURL )) -}}
+    {{- end -}}
+    {{- with .sameAs -}}
+      {{- $publisherData = merge $publisherData (dict "sameAs" .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $publisher = $publisherData -}}
+{{- end -}}
+
+
+{{/* --- Author Block --- */}}
+{{- $author := "" -}}
+{{/* 1. Check for single author in page Front Matter */}}
+{{- $author_id := .Params.author -}}
+{{- if and $author_id (index .Site.Data.authors $author_id) -}}
+  {{- $authorData := index .Site.Data.authors $author_id -}}
+  {{- $author = dict "@type" "Person" "name" $authorData.name -}}
+  {{- with $authorData.website -}}
+    {{- $author = merge $author (dict "url" ( . | absURL )) -}}
+  {{- end -}}
+{{/* 2. Fallback to global author in hugo.yaml `params` */}}
+{{- else if .Site.Params.author -}}
+  {{- $author = dict "@type" "Person" "name" .Site.Params.author.name -}}
+  {{- with .Site.Params.author.website -}}
+    {{- $author = merge $author (dict "url" ( . | absURL )) -}}
+  {{- end -}}
+{{/* 3. Fallback to global author in hugo.yaml `author` */}}
+{{- else if .Site.Author.name -}}
+  {{- $author = dict "@type" "Person" "name" .Site.Author.name -}}
+  {{- with .Site.Author.website -}}
+    {{- $author = merge $author (dict "url" ( . | absURL )) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if .IsHome -}}
+  {{/* --- WebSite Schema --- */}}
+  {{- $schema := dict "@context" "https://schema.org" "@type" "WebSite" -}}
+  {{- $schema = merge $schema (dict "url" .Site.BaseURL "name" .Site.Title) -}}
+  {{- with .Site.Params.description -}}
+    {{- $schema = merge $schema (dict "description" .) -}}
+  {{- end -}}
+  {{- with $publisher -}}
+    {{- $schema = merge $schema (dict "publisher" .) -}}
+  {{- end -}}
+<script type="application/ld+json">
+{{ $schema }}
+</script>
+
+{{- else if .IsPage -}}
+  {{/* --- Article/TechArticle Schema --- */}}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  {{- $schema := dict "@context" "https://schema.org" "@type" "TechArticle" -}}
+  {{- $schema = merge $schema (dict
+      "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+      "headline" .Title
+      "url" .Permalink
+      "wordCount" .WordCount
+    ) -}}
+
+  {{- $docDesc := .Description | default "" -}}
+  {{- $siteParamDesc := .Site.Params.description | default "" -}}
+  {{- $description := or $docDesc $siteParamDesc -}}
+  {{- with $description -}}
+    {{- $schema = merge $schema (dict "description" .) -}}
+  {{- end -}}
+
+  {{- $image := "" -}}
+  {{- if .Params.image.url -}}
+    {{- $image = .Params.image -}}
+  {{- else if .Site.Params.image.url -}}
+    {{- $image = .Site.Params.image -}}
+  {{- end -}}
+  {{- with $image -}}
+    {{- if ge .width 696 -}}
+      {{- $imageData := dict "@type" "ImageObject" "url" ( .url | absURL ) "width" .width "height" .height -}}
+      {{- $schema = merge $schema (dict "image" $imageData) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with .Type -}}
+    {{- $schema = merge $schema (dict "genre" .) -}}
+  {{- end -}}
+  {{- with .Params.tags -}}
+    {{- $schema = merge $schema (dict "keywords" (delimit . ", ")) -}}
+  {{- end -}}
+
+  {{- $published := .PublishDate | default .Date -}}
+  {{- if not $published.IsZero -}}
+    {{- $schema = merge $schema (dict "datePublished" ($published.Format $iso8601)) -}}
+  {{- end -}}
+  {{- with .Lastmod -}}
+    {{- if not .IsZero -}}
+      {{- $schema = merge $schema (dict "dateModified" (.Format $iso8601)) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with .Site.Copyright -}}
+    {{- $schema = merge $schema (dict "license" .) -}}
+  {{- end -}}
+
+  {{- with $publisher -}}
+    {{- $schema = merge $schema (dict "publisher" .) -}}
+  {{- end -}}
+  {{- with $author -}}
+    {{- $schema = merge $schema (dict "author" .) -}}
+  {{- end -}}
+
+<script type="application/ld+json">
+{{ $schema }}
+</script>
+
+{{- end }}
+{{ "<!-- LEAVING partial seo-schema.html -->" | safeHTML }}

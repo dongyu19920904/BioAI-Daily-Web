@@ -1,0 +1,96 @@
+﻿# Hugo configuration file
+title: BioAI 生命科学日报
+baseURL: "https://dongyu19920904.github.io/BioAI-Daily-Web/"
+
+timezone: Asia/Shanghai
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+hasCJKLanguage: true
+enableInlineShortcodes: true
+
+outputs:
+  home: [html]
+  page: [html]
+  section: [html, rss]
+
+theme: hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - identifier: search
+      name: 搜索
+      weight: 10
+      params:
+        type: search
+    - identifier: documentation
+      name: BioAI日报
+      pageRef: /
+      weight: 1
+    - identifier: about
+      name: 关于
+      pageRef: /about
+      weight: 3
+
+params:
+  description: 每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。
+  descriptionEn: Daily AI + Life Science news and insights, tracking biotech, gene editing, protein prediction, and AI-assisted drug discovery.
+  navbar:
+    displayLogo: false
+    displayTitle: true
+
+  author:
+    name: "BioAI Daily"
+    bio: "AI + 生命科学每日资讯"
+    email: "justlikemaki@qq.com"
+
+  displayUpdatedDate: true
+  dateFormat: "2006/01/02 15:04:05"
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  blog:
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc
+      pagerSize: 10
+    article:
+      displayPagination: true
+
+  toc:
+    displayTags: false
+
+  page:
+    width: wide
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+
+  comments:
+    enable: false
+
+defaultContentLanguage: zh
+languages:
+  zh:
+    languageCode: zh-CN
+    contentDir: content/cn
+    languageName: 简体中文
+    weight: 1
+  en:
+    contentDir: content/en
+    languageName: English
+    title: BioAI Daily | AI + Life Science News
+    weight: 2

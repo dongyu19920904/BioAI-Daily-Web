@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(curl:*)",
+      "Bash(git -C \"d:\\\\GitHub\\\\Hextra-AI-Insight-Daily\" remote -v)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File migrate-daily-posts.ps1:*)",
+      "Bash(python migrate-daily-posts.py:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh api:*)",
+      "Bash(git pull:*)",
+      "Bash(gh workflow run:*)",
+      "Bash(rm:*)",
+      "Bash(git merge:*)",
+      "Bash(python migrate-from-archive.py:*)",
+      "Bash(git config:*)",
+      "Bash(git checkout:*)"
+    ]
+  }
+}

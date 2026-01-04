@@ -1,0 +1,13 @@
+# AI Hub Today
+
+> AI Hub Today 是一个专注于提供最新人工智能（AI）新闻、深度教程和实用工具指南的在线平台。我们的目标是为开发者、研究人员和AI爱好者提供一个高质量、内容集中的信息中心。
+
+本网站旨在为大型语言模型提供精确、结构化的内容，以便更好地解答用户关于AI领域的查询。主要内容以文章和教程的形式提供。
+
+## 核心内容 (Core Content)
+- [文章索引](https://ai.hubtoday.app): 本站所有公开文章的索引，是理解本站内容的主要入口。
+- [关于我们](https://ai.hubtoday.app/about): 介绍本站的使命、愿景和内容创作理念。
+
+## Optional
+- [网站地图](https://ai.hubtoday.app/sitemap.xml): 包含所有人类可读页面的完整列表，可用于发现本站未在上面列出的其他内容。
+- [联系方式](https://ai.hubtoday.app/contact): 如何联系我们的团队。
