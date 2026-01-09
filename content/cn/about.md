@@ -44,6 +44,7 @@ BioAI 生命科学日报是一个专注于 AI + 生命科学交叉领域的日�
 
 - **网站**：[https://news.aibioo.cn](https://news.aibioo.cn)
 - **邮箱**：dongyu199209@outlook.com
+- **微信**：prompt2333
 
 ---
 

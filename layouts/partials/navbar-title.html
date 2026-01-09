@@ -1,7 +1,12 @@
 {{- $logoLink := .Site.Home.RelPermalink -}}
 
 <a class="hx:flex hx:items-center hx:hover:opacity-75 hx:ltr:mr-auto hx:rtl:ml-auto" href="{{ $logoLink }}">
-  <span class="hx:mr-2 hx:font-extrabold hx:inline hx:select-none" title="{{ .Site.Title }}" style="font-size: 1.1rem;">
-    BioAI 生命科学日报
+  <span class="hx:flex hx:flex-col hx:select-none">
+    <span class="hx:font-extrabold" style="font-size: 1.1rem;" title="{{ .Site.Title }}">
+      BioAI 生命科学日报
+    </span>
+    <span style="font-size: 0.7rem; opacity: 0.7; font-weight: normal;">
+      AI × 生物医药 · 每日更新
+    </span>
   </span>
 </a>

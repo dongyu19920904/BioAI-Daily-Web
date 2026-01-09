@@ -8,6 +8,12 @@ cascade:
   type: docs
 ---
 
+<div style="background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%); border: 1px solid #99f6e4; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1.5rem;">
+<p style="margin: 0; font-size: 0.95rem; color: #0f766e;">
+<strong>🧬 BioAI 生命科学日报</strong> — 专注 AI + 生命科学交叉领域，追踪<strong>生物医药、基因编辑、蛋白质预测、AI 药物研发</strong>等前沿进展。面向投资人、产品经理、创业者和学生，每日自动更新。
+</p>
+</div>
+
 ## **今日摘要**
 
 ```
