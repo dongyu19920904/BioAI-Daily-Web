@@ -19,7 +19,7 @@ def extract_title_from_content(content):
     """从内容中提取标题"""
     match = re.search(r'##\s*(.+?)\s*\n', content)
     if match:
-        title = match.group(1).replace('爱窝啦 AI 日报 ', 'AI 日报 ')
+        title = match.group(1).replace('BioAI 生命科学日报 ', 'BioAI 日报 ')
         return title
     return None
 
@@ -44,10 +44,10 @@ def add_blog_front_matter(content, date, title, description):
 title: "{title}"
 date: {date}
 type: blog
-tags: ["AI日报", "每日博客", "AI资讯"]
+tags: ["BioAI日报", "生命科学", "AI资讯"]
 authors:
-  - name: 爱窝啦 AI 观察者
-    link: https://news.aivora.cn
+  - name: BioAI 生命科学日报
+    link: https://news.aibioo.cn
 description: "{description}"
 ---
 

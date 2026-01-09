@@ -1,10 +1,9 @@
 ---
-linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+linkTitle: BioAI Daily
+title: BioAI Daily - AI + Life Science News
 breadcrumbs: false
 next: /en/2025-12/2025-12-06
-description: Your daily source for curated AI news, practical tools, and actionable
-  tutorials to master Artificial Intelligence;
+description: Your daily source for curated AI + Life Science news, tracking biotech, gene editing, protein prediction, and AI-assisted drug discovery.
 cascade:
   type: docs
 ---

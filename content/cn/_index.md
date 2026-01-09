@@ -1,6 +1,6 @@
 ---
-linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+linkTitle: BioAI 日报
+title: BioAI 生命科学日报
 breadcrumbs: false
 next: /2026-01/2026-01-01
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
@@ -20,13 +20,13 @@ cascade:
 
 ## ⚡ 快速导航
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
+- [📰 今日 BioAI 资讯](#今日bioai资讯) - 最新动态速览
 
 
 
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
+> 💡 **提示**：BioAI 生命科学日报每日自动汇总 AI + 生命科学领域的最新动态，追踪生物医药、基因编辑、蛋白质预测等前沿进展。
 
-## **今日AI资讯**
+## **今日BioAI资讯**
 
 ### **👀 只有一句话**
 字节搞了个类Manus的Agent，比原版还好用，免费还送Pro会员。

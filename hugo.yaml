@@ -1,6 +1,6 @@
 ﻿# Hugo configuration file
 title: BioAI 生命科学日报
-baseURL: "https://dongyu19920904.github.io/BioAI-Daily-Web/"
+baseURL: "https://news.aibioo.cn/"
 
 timezone: Asia/Shanghai
 enableRobotsTXT: true

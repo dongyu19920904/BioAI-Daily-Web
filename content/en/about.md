@@ -1,68 +1,50 @@
 ---
-title: About Aivora
+title: About BioAI Daily
 type: about
 sidebar:
   exclude: true
 ---
 
-## 🏠 About Aivora
+## 🏠 About BioAI Life Science Daily
 
-> **Making World-Class AI Tools Accessible to Chinese Users**
+> **Your Daily Source for AI + Life Science News**
 
-Aivora is a platform dedicated to providing AI tool account services, helping Chinese users access world-class AI tools at the lowest cost.
+BioAI Life Science Daily is a platform dedicated to tracking the intersection of Artificial Intelligence and Life Sciences, helping investors, product managers, entrepreneurs, and students stay informed about the latest developments in the BioAI field.
 
-### 🎯 Our Mission
+### 🎯 Our Focus
 
-- **Lower Barriers**: Solve payment and registration challenges for Chinese users
-- **Ensure Stability**: Provide long-term stable and reliable account services
-- **Best Value**: Make advanced AI tools affordable for everyone
+- **Theme**: AI + Life Science (BioAI) intersection
+- **Target Audience**: Investors, product managers, entrepreneurs, and students interested in AI + Life Science
+- **Style**: Professional yet approachable, like a knowledgeable friend sharing industry updates
 
-### ⭐ Core Services
+### ⭐ Our Content
 
-We provide account services for the following AI tools:
+Daily aggregation of the latest developments in AI + Life Science:
 
-#### 🔥 Popular Products
+#### 🧬 Core Coverage Areas
 
-**1. Cursor Pro Switcher ⌨️**
-- ✨ Supports GPT-5.1, Claude, Gemini models
-- ✨ 7-day trial, 24h activation, 4-6 days runtime
-- ✨ $10 credit per account, auto-switch
-- 💰 **Price**: 7days 2accounts/9.9 | 5accounts/21.9 | 20days 10accounts/43.9
+- **🧪 Biopharma**: Drug development, clinical trials, precision medicine
+- **🧬 Gene Editing**: CRISPR technology, gene therapy, genomics
+- **🤖 AI Drug Discovery**: Drug screening, molecular generation, target prediction
+- **🔬 Protein Prediction**: AlphaFold, structural biology, protein engineering
+- **🌱 Synthetic Biology**: Cell factories, metabolic engineering, biofuels
+- **🧠 Neuroscience**: Brain-computer interfaces, neuroscience, cognitive computing
 
-**2. ChatGPT Business Edition 👑**
-- ✨ More stable than Plus, supports CodeX, Sora2, Deep Research
-- 💰 **Price**: 19.9 CNY/month (Official $20/month)
-
-**3. Claude/Gemini/Codex 3-in-1**
-- ✨ 200K context, Opus/Sonnet 4.5
-- 💰 **Permanent Credit**: $20/11.9 | $50/19.9 | $100/32.9 | $200/64.9
-
-#### 💎 Official Accounts (Manual Delivery)
-
-- **Cursor Pro Max Exclusive**: 79 CNY/month
-- **ChatGPT Plus**: 79 CNY/month (account) or 139 CNY/month (top-up)
-- **Claude Pro**: 139 CNY (no warranty) / 159 CNY (with support)
-
-> 📞 **For official accounts, contact WeChat: prompt2333**
-
-### 📰 Aivora AI Daily
-
-This site is Aivora's content service platform, **automatically aggregating global AI news daily**:
+#### 📡 News Sources
 
 - 🔥 Industry hot news
 - 📦 Open source project discoveries
 - 📄 Cutting-edge academic papers
-- 💬 Tech influencer insights
+- 💬 Industry expert insights
 - 🚀 Product feature updates
 
 All content is automatically fetched, generated, and published by **CloudFlare Workers + AI**.
 
 ### 🔗 Contact Us
 
-- **Official Website**: [https://aivora.cn](https://aivora.cn)
-- **Customer Service WeChat**: prompt2333
+- **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
 - **Email**: dongyu199209@outlook.com
 
 ---
 
-**Aivora - Opening the Door to AI World for Chinese Users 🚪✨**
+**BioAI Daily - Your gateway to AI + Life Science developments 🧬✨**
