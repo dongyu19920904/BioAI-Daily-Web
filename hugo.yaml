@@ -40,6 +40,7 @@ menu:
       weight: 3
 
 params:
+  la51Id: "3OeesViIrmuFMAz4"
   description: 每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。
   descriptionEn: Daily AI + Life Science news and insights, tracking biotech, gene editing, protein prediction, and AI-assisted drug discovery.
   navbar:
