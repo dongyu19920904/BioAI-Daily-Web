@@ -1,4 +1,4 @@
-﻿# Hugo configuration file
+# Hugo configuration file
 title: BioAI 生命科学日报
 baseURL: "https://news.aibioo.cn/"
 
