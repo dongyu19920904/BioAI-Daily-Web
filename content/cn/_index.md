@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: AI Daily-AI资讯日报
+title: BioAI 生命科学日报 2026/1/10
 breadcrumbs: false
-next: /2026-01/2026-01-01
+next: /2026-01/2026-01-10
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-字节上线AnyGen对标Manus，免费还送Pro，比原版更快更省积分。
-高三学生半年零代码用AI做出专业级产品，审美吊打融资项目，Vibe Coding真香。
-今天Agent赛道神仙打架，想尝鲜的赶紧去试AnyGen，等等党这次没赢。
+多模态肿瘤基础模型登上 Nature 子刊，让 AI 同时读懂病理图像和基因数据。
+隐私计算开始解决医疗 AI 的老大难：数据敏感不敢共享，缺失值又补不上。
+今天三篇重磅都在讲数据整合，多中心研究的技术瓶颈正在被逐个击破。
 ```
 
 
@@ -26,169 +26,88 @@ cascade:
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **今日AI资讯**
+## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-字节搞了个类Manus的Agent，比原版还好用，免费还送Pro会员。
+DeepMind 掌门人亲自下场安利 AI 邮件助手，但今天真正的重磅是肿瘤多模态基础模型登上 Nature。
 
 ### **🔑 3 个关键词**
-#字节出手 #高中生Vibe神了 #施特劳斯式割韭菜
+#肿瘤AI #多模态融合 #代谢组学
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 3**
 
-### 1. [字节推出类Manus的Agent工具AnyGen，免费用还送Pro](https://linux.do/t/topic/1396675)
+### [多模态肿瘤数据整合的基础模型嵌入](https://www.nature.com/articles/s41746-025-02312-8)
 
-你还在排队等Manus的邀请码？字节已经悄悄上线了一个叫AnyGen的Agent，试用下来比Manus快不少，而且**免费**。每天200积分，扣得还少。唯一的门槛是需要挂梯子注册，绑定谷歌/苹果/LARK账号。邀请两个人直接送一个月Pro，自动发放。我已经在用了，真香。
-
-![图片](https://linux.do/uploads/default/optimized/4X/9/d/9/9d99f69a82f44646508bc27d9644eb6c1d3b1bed_2_690x362.png)
+做肿瘤研究的朋友都懂：病理切片、基因组数据、临床记录……这些数据各说各话，整合起来简直是噩梦。这篇 Nature Digital Medicine 的新研究，用基础模型把这些"方言"翻译成统一语言。简单说，就是让 AI 同时"看懂"病理图像和基因数据，找出人眼发现不了的关联。对精准医疗来说，这可能是真正的破局点。
 
 ---
 
-### 2. [高三学生零代码用AI做出专业级产品，审美炸裂](https://linux.do/t/topic/1396361)
+### [跨平台代谢组学数据填补：重要性加权自编码器](https://www.nature.com/articles/s41540-025-00644-5)
 
-这位高三同学半年没写一行代码，全靠Vibe Coding指挥AI，做出了一个Web开发Agent和学习助手。**审美直接吊打很多融资产品**。更离谱的是他用的还是祖传酷睿M3的MacBook，内存只够开三个应用。他说如果毕业换电脑，一周能干以前两三个月的活。这就是AI时代的降维打击。
-
-![图片](https://linux.do/uploads/default/optimized/4X/d/5/9/d59ca4ca0b6198cdacecfd1ac48944587b5367f4_2_433x500.png)
+代谢组学研究最头疼的问题之一：不同平台测出来的数据对不上号，缺失值一大堆。这项研究用"重要性加权自编码器"（一种聪明的 AI 填空技术）来补全缺失数据。以前要扔掉的"残缺"样本，现在能救回来了。做多中心研究的团队，这个工具值得关注。
 
 ---
 
-### 3. [九坤旗下开源40B代码模型，SWE-Bench跑分碾压Sonnet 4.5](https://x.com/Gorden_Sun/status/2006735131181248780)
+### [安全分布式多重插补：让隐私数据也能做缺失值推断](https://www.nature.com/articles/s41746-025-02271-0)
 
-量化基金九坤的AI团队放了个大招：开源了IQuest-Coder-V1，一个40B的代码模型。**在SWE-Bench Verified上直接超过了Claude Sonnet 4.5**。量化公司搞AI果然不是闹着玩的，毕竟他们最懂什么叫"用数据说话"。
-
-![图片](https://pbs.twimg.com/media/G9layfdaMAML-da?format=jpg&name=orig)
-
----
-
-### 4. [宝玉深度解读罗振宇跨年演讲：一场精密的"施特劳斯式模因"](https://x.com/dotey/status/2006887867197354351)
-
-罗振宇跨年演讲后，评论区两极分化。宝玉用"施特劳斯式模因"理论拆解了这场演讲：**表面是AI时代人生指南，底层是焦虑-解药的捆绑销售**。每个"启发性观点"都指向一个商业出口，从飞书到999元录音卡。文章还附了一套AI提示词，下次遇到类似内容可以用来"验毒"。
-
-![图片](https://pbs.twimg.com/media/G9nl10sWIAATARE?format=jpg&name=orig)
-
----
-
-### 5. [开源语音AI助手Jarvis：本地运行，不要订阅费](https://linux.do/t/topic/1396394)
-
-一个开源的语音AI助手，支持本地语音模型或OpenAI Whisper转文字，直接和Llama 3、Mistral等本地模型或Gemini云端模型对话。**作者最有意思的是做了个对比表，把对订阅制的怨气全写进去了**。目前支持Mac和iOS，纯开源可本地使用。
-
-![图片](https://linux.do/uploads/default/optimized/4X/a/0/f/a0fd06df6ac6e0fc86a7500ad48b2081d45c7230_2_372x500.jpeg)
-
----
-
-### 6. [斯坦福新研究：AGI的第三条路——基底+协调层](https://www.bestblogs.dev/en/status/2006750025263800655)
-
-斯坦福最新论文提出了一个新观点：**AGI不是靠堆LLM规模，也不是说LLM是死胡同，而是需要一个System-2协调层**。LLM是System-1的模式库，但要实现真正的智能行为，需要"协调层"来选择、约束和绑定这些模式。论文用钓鱼比喻解释：LLM"不上饵"就会产生幻觉，智能行为需要"上饵和过滤"。
-
----
-
-### 7. [X-AlO code plan避雷帖：稳定性极差，热门模型缺失](https://linux.do/t/topic/1396759)
-
-一位用户花13块钱买了X-AlO的code plan，结果体验极其糟糕。**号称"公司运营"和"算力保障"，实际上Claude、Gemini、国内热门模型都不稳定**，经常"反复横跳"。更离谱的是系统维护5小时，没有任何提前通知。想买API中转服务的朋友建议先看看这篇避雷。
-
-![图片](https://linux.do/uploads/default/optimized/4X/2/b/c/2bc2c877e3d3b9a364bd0bb6041fcd520cfc1503_2_690x387.png)
-
----
-
-### 8. [用tmux做了个MCP小工具：本地AI直接操控任意服务器](https://linux.do/t/topic/1396318)
-
-管理多台服务器的朋友有福了。这个叫tmux-sidecar的工具，**让本地AI Agent直接访问、执行并监控任意Tmux窗口，远程服务器零部署**。通过本地Sidecar代理实现对远程环境的"零依赖"控制与实时回显。运维同学可以试试。
-
----
-
-### 9. [小米MiMo V2继续免费，但最大输出直接砍半](https://linux.do/t/topic/1396315)
-
-小米MiMo V2模型虽然继续免费，但**最大输出从26万token直接砍到13万**。开发者在做网页版时发现了这个变化。如果你之前用MiMo做长文本生成，现在可能要调整预期了。
-
-![图片](https://linux.do/uploads/default/optimized/4X/7/3/2/7324be35088b6f1d1f2deb7580f3e32efb1be695_2_586x500.jpeg)
-
----
-
-### 10. [BeanCount：程序员的记账神器，用编译原理思想记账](https://linux.do/t/topic/1396254)
-
-受够了国内记账App的广告和收费？试试BeanCount，一个用**文本记账**的开源工具。没错，就像写代码一样记账，还支持include。作者用编译原理的思想来设计记账系统，Geek味拉满。
+医疗数据最敏感，但缺失值又最多——这个矛盾怎么破？这篇论文给出了一个方案：在不暴露原始数据的前提下，多个机构可以联合推断缺失信息。隐私保护 + 数据完整性，两手都要抓。对于想做多中心 AI 医疗研究但被隐私法规卡住的团队，这是个好消息。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Claude Code的VSCode插件哪个好用？](https://linux.do/t/topic/1396461) - 插件商店里好几个，有试过的佬友来分享下
-
-**[产品]** [MiMo网页版全面升级，支持思考模式](https://linux.do/t/topic/1396352) - 新增深度思考开关，输出上限调到131K
-
-**[开源]** [Memos：4.7万星的开源笔记神器](https://github.com/usememos/memos) - 自托管、无广告、数据完全掌控
-
-**[开源]** [LEANN：节省97%存储的RAG方案](https://github.com/yichuan-w/LEANN) - 个人设备也能跑RAG应用
-
-**[开源]** [Amazon Bedrock Agentcore样本](https://github.com/awslabs/amazon-bedrock-agentcore-samples) - 企业级AI智能体加速投产
-
-**[工具]** [vibe-kanban：让Claude Code效率提升10倍](https://github.com/BloopAI/vibe-kanban) - 看板式管理编程Agent
-
-**[研究]** [斯坦福AGI新路径：基底+协调层理论](https://www.bestblogs.dev/en/status/2006750025263800655) - 挑战"堆规模"和"死胡同"两派
+- **[研究]** [酵母 Tor1 激酶域突变研究](https://www.nature.com/articles/s41598-025-34647-3) - 基础生物学，但对理解细胞生长调控有参考价值
+- **[研究]** [维生素A缺乏小鼠肺部微生物失调](https://www.nature.com/articles/s41598-025-34926-z) - 营养与微生物组的交叉，AI 分析潜力大
 
 ---
 
-## **😄 AI趣闻**
+## **📊 更多动态**
 
-### [完美避开了粽子甜咸的问题🤣](https://t.me/woshadiao/192166)
-
-有人问AI粽子应该是甜的还是咸的，AI的回答堪称教科书级别的"政治正确"——**直接避开了这个千古难题**。网友评论："AI：我不管，我两边都不得罪！" 这大概是AI最聪明的一次回答了。
-
-![图片](https://cdn5.telesco.pe/file/uhy1LvVTug9Sr11makQ5EnJdiyyH-Ub0nLcTyKc3BT8TyUarXO3x4ScTO1YXpscb7LajDAczoOd2F_WOWF_55cwU--h84RwLjK8IbS54bn7rUd9fsFYYjtBVPN4b3HswAHcdb2hPx8pdqp6Z0IVqOeffGqLWddHtdSKxS-NyEcWmssQth4IfgWKmfi_jHc0g-NawWzBYjTx5XlaOQKXRS8_kTKHLwy_rsuVcufjq4Lhaqb32hQw5eSPjf4B5yALw-Zjm7H32N_wFAh-GDViYlo0PpwDJ9R8wL9JLzQoJlfSNMHVFHDFs7AsI6MF7cyZU72Mo5i_vJFg9ulTQXNuW_Q.jpg)
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 研究 | 有机太阳能电池非辐射损耗研究 | [链接](https://www.nature.com/articles/s41467-025-67351-x) |
 
 ---
 
-## **🔮 AI趋势预测**
+## **🔮 AI生命科学趋势预测**
 
-### 国产代码模型将在开源领域持续发力
-- **预测时间**：2025年Q1
-- **预测概率**：75%
-- **预测依据**：今日新闻[九坤开源40B代码模型](https://x.com/Gorden_Sun/status/2006735131181248780) + 国内大厂和量化公司都在加码AI，开源竞争将更激烈
+### 多模态肿瘤 AI 进入临床验证阶段
+- **预测时间**：2026年Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻[多模态肿瘤基础模型](https://www.nature.com/articles/s41746-025-02312-8)发表于 Nature 子刊 + 多家 AI 医疗公司已在布局类似技术，临床转化是下一步
 
-### Agent工具将迎来爆发期
-- **预测时间**：2025年Q1-Q2
-- **预测概率**：80%
-- **预测依据**：今日新闻[字节推出AnyGen](https://linux.do/t/topic/1396675) + Manus热度持续，各家都在抢占Agent赛道
-
-### Vibe Coding将成为主流开发方式之一
-- **预测时间**：2025年Q2
+### 隐私计算在医疗 AI 中加速落地
+- **预测时间**：2026年Q1-Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻[高三学生零代码做产品](https://linux.do/t/topic/1396361) + AI编程能力持续提升，门槛不断降低
+- **预测依据**：今日新闻[安全分布式插补](https://www.nature.com/articles/s41746-025-02271-0) + 各国医疗数据法规趋严，隐私计算成为刚需
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验字节的AnyGen Agent工具？
+### 哪里可以获取 AI 肿瘤诊断、多模态医疗 AI 的最新资讯？
 
-AnyGen是字节推出的类Manus Agent工具，目前需要挂梯子注册，支持谷歌、苹果和LARK账号登录。每天有200积分免费使用，邀请两人可获得一个月Pro会员。
+今日 AI 生命科学领域的热点包括：多模态肿瘤数据整合、跨平台代谢组学、隐私保护医疗 AI。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+
+**推荐方案**：
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- 用普通人能理解的语言，解读最前沿的技术进展
+
+访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
+
+---
+
+### 如何体验 ChatGPT、Claude、Gemini 等 AI 工具？
+
+今天 DeepMind CEO Demis Hassabis 亲自安利了 Gemini 驱动的 Gmail AI 功能，AI 助手正在渗透日常工作。想要体验这些 AI 工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
-- 直接访问AnyGen官网注册使用
-- 如需稳定的AI工具账号服务，**[爱窝啦 Aivora](https://aivora.cn)** 提供ChatGPT、Claude等主流AI工具的成品账号
-- 极速发货，下单即用，无需处理支付和注册问题
-
-访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
-
-### 如何体验Claude进行代码开发？
-
-Claude是目前最强的代码助手之一，今日新闻提到的多个开发场景都涉及Claude Code。使用Claude Pro需要订阅付费账号，国内用户可能面临支付困难。
-
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供Claude Pro账号服务
-- 极速发货，下单即用，无需处理支付和注册问题
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
+- 极速发货，下单即用，无需处理海外支付问题
 - 提供稳定的独享账号，售后无忧
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
-
-### 如何体验Gemini的最新功能？
-
-Gemini是Google的旗舰AI模型，今日新闻中多次提到其在开发和对话场景的应用。部分高级功能需要Gemini Advanced订阅。
-
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供Gemini相关账号服务
-- 极速发货，下单即用，无需处理支付和注册问题
-
-访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
