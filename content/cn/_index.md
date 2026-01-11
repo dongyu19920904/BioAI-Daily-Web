@@ -1,8 +1,8 @@
 ---
 linkTitle: AI Daily
-title: BioAI 生命科学日报 2026/1/11
+title: AI Daily-AI资讯日报
 breadcrumbs: false
-next: /2026-01/2026-01-11
+next: /2026-01/2026-01-10
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
