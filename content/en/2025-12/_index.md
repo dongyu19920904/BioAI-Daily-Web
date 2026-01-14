@@ -1,7 +1,7 @@
 ---
 title: 2025-12
-weight: 97488
+weight: 999688
 breadcrumbs: false
 sidebar:
-  open: true
+  open: false
 ---
