@@ -170,6 +170,7 @@ jobs:
               MONTH=$(echo "$filename" | cut -c 6-7)
               DAY=$(echo "$filename" | cut -c 9-10)
               DAY_NO_ZERO=$(echo $DAY | sed 's/^0*//')
+              MONTH_NO_ZERO=$(echo $MONTH | sed 's/^0*//')
               TARGET_MONTH_DIR="$TARGET_CONTENT_DIR/$YEAR_MONTH"
 
               if [ ! -d "$TARGET_MONTH_DIR" ]; then
@@ -201,8 +202,8 @@ jobs:
 
 
               (
-                printf -- "---\nlinkTitle: %s-%s-日报\ntitle: %s-%s-日报-AI资讯日报\nweight: %d\nbreadcrumbs: false\ncomments: true\ndescription: \"%s\"\n---\n\n" \
-                  "$MONTH" "$DAY" "$MONTH" "$DAY" "$weight" "$local_description"
+                printf -- "---\nlinkTitle: %s-%s-日报\ntitle: BioAI 生命科学日报 %s/%s/%s\nweight: %d\nbreadcrumbs: false\ncomments: true\ndescription: \"%s\"\n---\n\n" \
+                  "$MONTH" "$DAY" "$YEAR" "$MONTH_NO_ZERO" "$DAY_NO_ZERO" "$weight" "$local_description"
                 cat "$source_file"
               ) > "$TARGET_FILE"
               echo "已归档到 $TARGET_FILE (或已更新)"
@@ -262,7 +263,14 @@ jobs:
           echo "--- 步骤 4: 更新主索引页面 (content/cn/_index.md) ---"
           TARGET_INDEX="$TARGET_CONTENT_DIR/_index.md"
           
-          FRONTMATTER="---\nlinkTitle: AI Daily\ntitle: AI Daily-AI资讯日报\nbreadcrumbs: false\n"
+          LATEST_NOTE_DATE=$(basename "$LATEST_NOTE" .md)
+          LATEST_YEAR=$(echo "$LATEST_NOTE_DATE" | cut -d- -f1)
+          LATEST_MONTH=$(echo "$LATEST_NOTE_DATE" | cut -d- -f2)
+          LATEST_DAY=$(echo "$LATEST_NOTE_DATE" | cut -d- -f3)
+          LATEST_MONTH_NO_ZERO=$(echo "$LATEST_MONTH" | sed 's/^0*//')
+          LATEST_DAY_NO_ZERO=$(echo "$LATEST_DAY" | sed 's/^0*//')
+          HOME_TITLE="BioAI 生命科学日报 ${LATEST_YEAR}/${LATEST_MONTH_NO_ZERO}/${LATEST_DAY_NO_ZERO}"
+          FRONTMATTER="---\nlinkTitle: BioAI 生命科学日报\ntitle: ${HOME_TITLE}\nbreadcrumbs: false\n"
           # The 'next' link should point to the second latest note, which is now an archived page.
           if [ -n "$SECOND_LATEST_NOTE" ] && [ "$LATEST_NOTE" != "$SECOND_LATEST_NOTE" ]; then # Ensure there IS a second latest note
             FILENAME_SECOND_LATEST=$(basename "$SECOND_LATEST_NOTE" .md)
