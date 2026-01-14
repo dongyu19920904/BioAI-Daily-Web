@@ -121,6 +121,8 @@ jobs:
         if: steps.find_changed_files.outputs.continue == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_API_URL: ${{ vars.GEMINI_API_URL }}
         run: |
           import os
           import sys
@@ -154,10 +156,21 @@ jobs:
 
           # --- Configure Gemini API ---
           try:
-              genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+              api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+              api_url = os.getenv("GEMINI_API_URL") or os.getenv("GOOGLE_API_URL")
+              if not api_key:
+                  print("Error: GEMINI_API_KEY/GOOGLE_API_KEY is not set.")
+                  sys.exit(1)
+
+              config_kwargs = {"api_key": api_key}
+              if api_url:
+                  config_kwargs["client_options"] = {"api_endpoint": api_url}
+                  config_kwargs["transport"] = "rest"
+              genai.configure(**config_kwargs)
               model = genai.GenerativeModel('gemini-2.5-flash')
           except Exception as e:
-              print(f"Error configuring Gemini API: {e}")
+              endpoint_msg = f" (endpoint: {api_url})" if api_url else ""
+              print(f"Error configuring Gemini API{endpoint_msg}: {e}")
               sys.exit(1)
 
           # --- Translation function ---
@@ -474,6 +487,8 @@ jobs:
         shell: python
 
       - name: Commit and push changes
+        env:
+          TARGET_BRANCH: ${{ github.event.workflow_run.head_branch || github.ref_name }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
@@ -484,5 +499,6 @@ jobs:
           else
             echo "检测到文件变更，正在提交..."
             git commit -m "chore(i18n): Auto-translate EN content with FM updates"
-            git push
+            target_branch="${TARGET_BRANCH:-main}"
+            git push origin "HEAD:${target_branch}"
           fi 
