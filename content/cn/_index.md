@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/1/14
+title: BioAI 生命科学日报 2026/1/13
 breadcrumbs: false
-next: /2026-01/2026-01-13
+next: /2026-01/2026-01-12
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Google Veo 3.1 支持竖屏和4K，短视频创作者终于不用手动裁剪了。
-Claude Skills 生态爆发，一句话生成播客、PPT、思维导图，知识库玩法又升级。
-今天的主题是"降低门槛"，开发者工具正在变成普通人也能用的产品。
+DeepSeek给AI装上"字典"，知识查表、推理留给算力，可能是Transformer后最重要的效率突破。
+睡眠药物意外发现：BMB-101让REM睡眠翻倍却不延长总时长，睡眠医学几十年来罕见。
+今天的关键词是"效率"——AI架构、睡眠质量、机器人视觉都在追求更少投入换更大产出。
 ```
 
 
@@ -26,136 +26,144 @@ Claude Skills 生态爆发，一句话生成播客、PPT、思维导图，知识
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **今日AI资讯**
+## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-Google Veo 3.1 升级支持竖屏和4K，视频生成赛道又卷起来了。
+DeepSeek让AI学会"翻字典"了——这可能是Transformer架构诞生以来最重要的效率突破之一。
 
 ### **🔑 3 个关键词**
-#视频生成升级 #Claude破圈 #Skills生态爆发
+#AI架构创新 #睡眠医学 #机器人视觉
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Google Veo 3.1 大升级：竖屏模式+4K来了](https://x.com/GeminiApp/status/2011189020211245334)
+### 1. [美国药企发现：一款癫痫新药竟能让REM睡眠时间翻倍](https://www.mittrchina.com/news/detail/15770)
 
-短视频创作者狂喜的一天。Google 的视频生成模型 Veo 3.1 终于听到了用户的呼声——**竖屏模式正式上线**，再也不用手动裁剪横屏视频发抖音了。更猛的是，分辨率直接拉到 1080p 和 4K，目前在 Flow 里可用。表现力也增强了，参考图片的还原度更高。Gemini Plus/Pro/Ultra 会员现在就能玩。Google 这波更新，明显是冲着短视频赛道来的。
+睡眠药物领域有个老大难问题：几乎所有助眠药都会压缩REM睡眠（快速眼动期），而这恰恰是记忆巩固和情绪调节的关键阶段。Bright Minds公司的BMB-101在癫痫临床试验中意外发现：患者REM睡眠从56分钟飙升到107分钟，增幅90%，总睡眠时长却几乎不变。这意味着它不是让你睡更久，而是让你睡得更"值"。如果后续验证成功，这可能是睡眠医学几十年来最大的突破。
 
-![图片](https://linux.do/uploads/default/optimized/4X/a/4/f/a4fb32a7c980c2e6ba66eae337d44fbeb776f4dd_2_330x500.jpeg)
-
----
-
-### 2. [Claude Code 创始人揭秘：Cowork 是怎么诞生的](https://x.com/dotey/status/2011090515429614031)
-
-一个产品从"程序员玩具"变成"全民工具"的故事。Claude Code 创始人 Boris Cherny 分享了一段经历：2024年底他刚发布内测版，第二天就发现同事已经在用它写代码了。几个月后，**数据科学家、设计师、财务、销售**全都在用——有人拿它控制烤箱，有人用它恢复婚礼照片。于是 Anthropic 顺势推出了 Cowork，把 AI Agent 能力包装成普通人也能用的形态。**用户行为是最好的产品经理**，这话说得太对了。
+![AI资讯图片](https://p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/f89b006810444fd09abcf26509346bbe~tplv-obj.image?lk3s=ef143cfe&traceid=2026011316410204BFB2321223B96DE656&x-expires=2147483647&x-signature=PuXxUVb3hV4%2BwxmJsw4dK84lwq8%3D)
 
 ---
 
-### 3. [NotebookLM Skill 升级：一句话生成播客、PPT、思维导图](https://x.com/vista8/status/2011028677187014891)
+### 2. [上交00后团队造出机器人眼球，让机器人学会"主动看"](https://www.mittrchina.com/news/detail/15772)
 
-以前用 NotebookLM 还得手动一个个提问，现在装上这个 Skill 后，**直接把整个 NotebookLM 搬到命令行**了。一句话就能生成思维导图、音频播客、PPT，还能自动解读 YouTube 视频。更骚的操作是：先问"我提什么问题能覆盖所有内容"，然后让它递归提问，最后写入 Markdown。没看过的视频也能总结个七七八八。知识库玩法又升级了。
+以前的机器人摄像头就像固定在三脚架上的老相机——只能傻傻地盯着一个方向。上海交大杨佳澍团队开发的EyeVLA系统，让机器人拥有了真正的"眼球"：能转动、能变焦、能根据语言指令自主调整视角。测试中，它能自动放大看清盒子里笔的品牌小字。未来在仓库找货、工厂检测零件、帮老人找药，都能派上用场。
 
-![图片](https://pbs.twimg.com/media/G-iY17XX0AAVgsr.jpg)
-
----
-
-### 4. [Claude Code Skills 使用指南：从入门到精通](https://linux.do/t/topic/1444241)
-
-Skills 和 Commands 到底怎么用？这篇帖子讲得很清楚。**Skills 是带脚本的智能插件**，可以自动触发；Commands 是纯提示词版的工作流，需要手动调用。用户级放 `~/.claude/skills/`，项目级放项目根目录下。装好 skill-creator 后，一句话就能让 Claude Code 帮你创建新 Skill。还有个 mcp-builder 能帮你创建 MCP 服务，比如连接 MySQL。整个生态越来越像插件市场了。
+![AI资讯图片](https://p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/de87f1b920054607bc0876368c22a42c~tplv-obj.image?lk3s=ef143cfe&traceid=20260113193424CBC6279316DFEF77EF90&x-expires=2147483647&x-signature=MWGZ%2BnIFbwggmMUlX7TI9wABx2Q%3D)
 
 ---
 
-### 5. [OpenCode 启动慢？从29秒优化到3秒的方法](https://linux.do/t/topic/1443795)
+### 3. [DeepSeek新论文：给AI装上"字典"，让它不用死记硬背](https://www.mittrchina.com/news/detail/15769)
 
-如果你的 OpenCode 启动要等半天，问题可能出在插件配置上。作者发现 `package.json` 里用了 `latest` 版本号，导致**每次启动都重新下载插件**。解决方法很简单：把 `latest` 换成具体版本号，然后 `bun install` 一下。启动时间从 29 秒直接降到 3-5 秒。顺便分享了几个实用插件：oh-my-opencode（多 Agent 编排）、opencode-antigravity-auth（用 Gemini 3 Pro）、动态上下文剪枝等。
+想象一下：以前的AI模型像个不能带参考书的考生，连"法国首都是巴黎"这种固定知识都要现场推导。DeepSeek的Engram架构给模型装了一本"百科全书"——遇到固定知识点直接查表，把宝贵的算力留给复杂推理。实验显示，这套方案在知识测试上提升3-4分，在推理任务上竟然也提升了5分。更绝的是，1000亿参数的记忆表可以放在便宜的CPU内存里，延迟增加不到3%。
 
----
-
-### 6. [个人工作流开源：300+ 超智能开发专家 + Hooks 调优系统](https://linux.do/t/topic/1443939)
-
-这个项目把 Claude Code 从"通用聊天助手"升级成了"懂你项目的专业开发伙伴"。核心是通过 **Hooks 系统在会话生命周期中自动执行智能操作**：启动时自动检测项目类型、推荐 Skills；代码修改后强制更新文档。内置 300+ 专家智能体，涵盖后端、前端、测试、安全、架构、DevOps。用 Ollama 做本地推理，零配置启动。适合想把 Claude Code 玩出花的开发者。
-
-![图片](https://linux.do/uploads/default/optimized/4X/1/6/4/164185706c5a30debbed0287b814154035d594b6_2_690x354.png)
+![AI资讯图片](https://p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/c1993bb852cd4343aec90851f8e41481~tplv-obj.image?lk3s=ef143cfe&traceid=202601131618511800A2A62B3FDD834438&x-expires=2147483647&x-signature=GbUbebCIZgKdQNYCEgh1eyGmQK4%3D)
 
 ---
 
-### 7. [bm.md：支持 MCP 和 Skills 的 Markdown 编辑器](https://x.com/op7418/status/2011073463755424065)
+### 4. [Unitaid投3100万美元，要把HIV预防药送进非洲理发店](https://www.statnews.com/pharmalot/2026/01/13/aids-hiv-gilead-unitaid-africa-lenacapavir/?utm_campaign=rss)
 
-公众号排版党的福音来了。bm.md 这个 Markdown 编辑器完成度极高，**图片添加丝滑流畅，内置主题样式漂亮**。关键是支持 MCP 和 Skills，可以让 AI 自动帮忙排版。目标是让内容创作者专注写作，不用再折腾微信公众号的排版问题。基于 TanStack Start 构建，目前是预览版，有问题可以提 issue 让 AI 改。
-
-![图片](https://pbs.twimg.com/media/G-jDyh0a4AAXI9c?format=jpg&name=orig)
+吉利德的lenacapavir是个神奇的HIV预防药——打一针管半年，保护率接近100%。但问题是：最需要它的人往往去不了医院。联合国Unitaid想了个办法：在南非和赞比亚，通过药店、理发店这些"非传统渠道"发放药物，覆盖性工作者、孕妇等高风险人群。这可能是消灭HIV的关键一步。
 
 ---
 
-### 8. [DeepSeek 网页界面焕新：更圆润丝滑了](https://linux.do/t/topic/1444275)
+### 5. [a16z前合伙人出走创业，瞄准AI+消费健康赛道](https://www.statnews.com/2026/01/13/andreessen-horowitz-alum-vijay-pande-plans-new-vc-firm/?utm_campaign=rss)
 
-白天还是老 UI，深夜再访问发现**界面变圆润了**。DeepSeek 悄悄更新了网页端设计，整体视觉更现代。虽然功能没变，但用户体验确实提升了一档。国产大模型在产品细节上越来越用心了。
-
-![图片](https://linux.do/uploads/default/optimized/4X/6/3/b/63bbc2ed47557b5a1ba36de71b45d1438b310558_2_690x316.png)
+Vijay Pande从顶级VC a16z离职后，正在募集一支最高4亿美元的新基金VZVC，重点押注AI和消费健康领域。虽然规模比a16z小很多，但对于新基金来说已经相当可观。在JPM医疗大会上，他正在密集见创业者。AI+健康赛道的热度，从资本流向可见一斑。
 
 ---
 
-### 9. [Claude Cowork 祛魅：其实就是 20G Linux 容器 + Claude Code](https://linux.do/t/topic/1444268)
+### 6. [FDA老将离职后开炮：政治正在损害药品审批](https://www.statnews.com/2026/01/13/richard-pazdur-jpm-fda-chaos-at-agency-stat-event/?utm_campaign=rss)
 
-有人扒出了 Cowork 的底层实现：**一个带 AppleVM 的 20G Linux 容器环境 + 200M 的 Claude Code**。初始化时会下载 rootfs.img.zst 镜像。所以本质上是已有产物的套皮组合体，并没有什么魔法。不过话说回来，能把这些东西整合成普通人能用的产品，本身就是价值所在。技术祛魅归祛魅，产品化能力还是要认的。
-
-![图片](https://linux.do/uploads/default/optimized/4X/a/e/9/ae9852467b91ed6c697bb90da33d826df5b2b413_2_690x125.png)
+FDA资深监管官员Richard Pazdur上月离职后首次公开发声，直言政治任命官员与药品审评人员之间的"防火墙已被突破"。他特别点名批评了一个新的加速审评券项目——相关会议只在FDA局长办公室旁的小会议室举行，连审评团队都进不去。这番话在JPM大会上引发震动。
 
 ---
 
-### 10. [Google 市值涨势恐怖：距离英伟达只差 10.5%](https://linux.do/t/topic/1444252)
+### 7. [研究揭示DNA内部隐藏世界：首次绘制活细胞基因组时空图谱](http://paper.sciencenet.cn/htmlpaper/2026/1/202611310476349145309.shtm?id=145309)
 
-Google 市值突破 4 万亿美元，距离超越英伟达只剩 10.5%。不到一周前刚超过苹果成为世界第二，现在又在追赶老黄。AI 浪潮下，**搜索巨头正在用 Gemini 重新定义自己的价值**。股价是市场对未来的投票，看来华尔街对 Google 的 AI 转型很买账。
+《自然》新研究绘制出迄今最详尽的人类活细胞DNA折叠图谱，展示了基因组结构如何随时间变化。这不是静态快照，而是动态电影——揭示了此前隐藏的基因调控机制。对于理解疾病发生和开发新疗法，这是基础性的突破。
 
-![图片](https://linux.do/uploads/default/optimized/4X/6/e/f/6ef02493f94efc7cf175bfd958cf500395248d0b_2_690x135.png)
+---
+
+### 8. [睡眠不足7小时可能缩短寿命](http://paper.sciencenet.cn/htmlpaper/2026/1/2026113104610349145310.shtm?id=145310)
+
+俄勒冈健康与科学大学的新研究发现，经常睡眠不足与寿命缩短存在关联。研究发表于《睡眠进展》。虽然"睡眠重要"不是新闻，但这项研究提供了更直接的寿命关联证据。结合今天BMB-101的REM睡眠发现，睡眠科学正在迎来新的研究热潮。
+
+---
+
+### 9. [机制可解释性入选MIT十大突破技术：拆解AI黑箱](https://www.mittrchina.com/news/detail/15767)
+
+Anthropic、OpenAI、DeepMind都在做同一件事：给AI做"脑部CT"。通过电路追踪、稀疏自编码器等技术，研究者开始能够识别模型内部哪些神经元对应"金门大桥"、哪些对应"迈克尔·乔丹"。这不只是学术好奇心——当AI越来越多地参与医疗诊断、药物研发时，理解它"为什么这么想"变得至关重要。
+
+![AI资讯图片](https://p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/cd4c6133561444b2be2b2b6b5e6479ec~tplv-obj.image?lk3s=ef143cfe&traceid=202601131349106ABD524A3EF24ACBC6CE&x-expires=2147483647&x-signature=erODWPjIUInuUSR6SjZCUgSoTeI%3D)
+
+---
+
+### 10. [AI医疗诊断新基准：MedEinst测试AI是否会"先入为主"](https://arxiv.org/abs/2601.06636)
+
+医生有时会犯"思维定势"错误——看到典型症状就下结论，忽略非典型证据。AI也会这样吗？MedEinst基准包含5383对临床病例，专门测试AI是否会被"陷阱"误导。结果显示：即使是最强的模型，在正确诊断常规病例的同时，也会高频误诊"陷阱"病例。研究团队还提出了ECR-Agent来缓解这个问题。
 
 ---
 
 ## **📌 值得关注**
 
-- **[产品]** [CherryStudio + OpenWebUI 二合一方案](https://linux.do/t/topic/1444103) - 汉化界面、模型计费、Gemini 原生支持，屯屯鼠的终极解决方案
-- **[开源]** [社媒舆情分析 Skills 开源](https://linux.do/t/topic/1443713) - 用 Claude Skills 实现简易版"微舆"，自动分析抖音、微博等平台
-- **[产品]** [X 开放普通会员发长文](https://x.com/vista8/status/2011145409230782784) - 配图上传优化版 Skill 开源，支持 Markdown 标签和浏览器持久化
-- **[研究]** [MiroThinker 1.5 的 Agent 压缩方式](https://x.com/dotey/status/2011101836397384152) - 在 256K 上下文里塞 400 次 Tool Use，Thought 链就是动态摘要
-- **[商业]** [百川开源医疗模型 Baichuan-M3](https://x.com/Gorden_Sun/status/2011091819023778177) - 基于 Qwen3-235B 微调，幻觉率低
-- **[其他]** [疑似马斯克 AI 登顶韩服 LOL](https://linux.do/t/topic/1444085) - 游戏 AI 开始好玩起来了，200ms 延迟是瓶颈
+**[研究]** [皮肤病AI数据集全球审计：SkinMap发现深肤色样本仅占5.8%](https://arxiv.org/abs/2601.00840) - 111万张图片的大规模分析，揭示AI皮肤病诊断的系统性偏见
+
+**[研究]** [半监督3D血管分割新方法DiCo：动态协作网络](https://arxiv.org/abs/2601.07377) - 让师生模型角色动态切换，提升血管分割精度
+
+**[研究]** [脑MRI重建新框架ReBrain：从稀疏CT切片恢复完整MRI](https://arxiv.org/abs/2511.17068) - 检索增强扩散模型，解决CT到MRI的跨模态重建难题
+
+**[开源]** [HealthChain：医疗AI的中间件层](https://github.com/dotimplement/HealthChain) - 填补医疗AI应用开发的基础设施空白
+
+**[开源]** [Open-Health：AI健康助手，数据完全本地化](https://github.com/OpenHealthForAll/open-health) - 3.7k星，隐私优先的个人健康管理方案
+
+**[开源]** [DeepPurpose：药物-靶点相互作用预测工具包](https://github.com/kexinhuang12345/DeepPurpose) - 1.1k星，覆盖DTI、DDI、蛋白质功能预测
 
 ---
 
-## **😄 AI趣闻**
+## **🔮 AI生命科学趋势预测**
 
-### [某佬友一次性充值14万刀，整了个1000人的 Claude Team](https://linux.do/t/topic/1443871)
-
-今天最壕的 AI 新闻：有人直接 done 了 14 万美元，开了个 1000 人的 Claude Team 账号。评论区一片"大佬带带我"的呼声。这年头，AI 订阅费都能卷成团购了 😂
-
-![图片](https://linux.do/uploads/default/optimized/4X/4/7/d/47dfa40a99314a275f49bc8dfa6c93660dc4125c_2_690x398.jpeg)
-
----
-
-## **🔮 AI趋势预测**
-
-### Claude Skills 生态将迎来爆发期
-- **预测时间**：2025年Q1
-- **预测概率**：80%
-- **预测依据**：今日多条 Skills 相关新闻（[NotebookLM Skill](https://x.com/vista8/status/2011028677187014891)、[PPT 生成 Skill](https://x.com/op7418/status/2011109939377516681)、[300+ 专家 Skills](https://linux.do/t/topic/1443939)）+ Anthropic 官方推出 Cowork 降低使用门槛，Skills 正在从开发者工具走向大众市场
-
-### 视频生成模型将支持更长时长
-- **预测时间**：2025年Q2
-- **预测概率**：70%
-- **预测依据**：今日 [Veo 3.1 升级](https://x.com/GeminiApp/status/2011189020211245334) 重点在画质和格式，下一步大概率是时长突破。目前主流模型都卡在几秒到十几秒，谁先突破分钟级谁就能抢占市场
-
-### AI Agent 将深入医疗健康领域
-- **预测时间**：2025年Q1-Q2
+### AlphaFold竞品密集发布
+- **预测时间**：2026年Q1
 - **预测概率**：75%
-- **预测依据**：[Claude Code 用户已在分析 DNA 和医疗记录](https://x.com/dotey/status/2011090515429614031) + Anthropic 推出 HIPAA 合规版本，医疗场景的合规性和专业性门槛正在被打破
+- **预测依据**：DeepSeek的Engram架构展示了新的蛋白质表征思路，结合近期多家公司在结构预测领域的动作，预计将有2-3个重要竞品在Q1发布
+
+### AI睡眠药物进入临床热潮
+- **预测时间**：2026年Q2
+- **预测概率**：60%
+- **预测依据**：今日新闻BMB-101的REM睡眠发现引发广泛关注，加上该公司刚完成1.75亿美元融资，预计将带动更多AI辅助睡眠药物研发进入临床阶段
+
+### 医疗AI可解释性成为监管焦点
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：70%
+- **预测依据**：机制可解释性入选MIT十大突破技术，FDA官员公开批评审批透明度问题，预计监管机构将出台医疗AI可解释性相关指导文件
 
 ---
 
 ## **❓ 相关问题**
 
-### 如何体验 Claude Code 和 Cowork？
+### 哪里可以获取AI制药、睡眠医学、机器人视觉等AI生命科学领域的最新资讯？
 
-Claude Code 需要 Claude Pro 订阅（$20/月）才能使用，Cowork 目前仅对 Claude Max 订阅用户开放。对于国内用户，可能面临支付困难或账号注册限制。
+今日AI生命科学领域的热点包括：BMB-101的REM睡眠突破、DeepSeek的Engram架构创新、以及机器人主动视觉系统EyeVLA。想要持续追踪这类**AI + 生命科学交叉领域**的前沿动态？
 
-**解决方案**：访问 **[爱窝啦 Aivora](https://aivora.cn)** 获取成品账号，极速发货，售后无忧。
+**推荐方案**：
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- 用普通人能理解的语言，解读最前沿的技术进展
+
+访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
+
+---
+
+### 如何体验Claude、ChatGPT等AI工具来辅助生命科学研究？
+
+今日多篇研究使用了Claude、GPT-4等大模型进行医学文本分析和推理验证。想要体验这些AI工具，但面临支付困难或账号注册限制？
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
+- 极速发货，下单即用，无需处理海外支付问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
