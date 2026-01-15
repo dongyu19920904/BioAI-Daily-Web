@@ -126,6 +126,7 @@ jobs:
           import os
           import sys
           import re
+          import time
           import yaml # For front matter processing
           import google.generativeai as genai
 
@@ -171,6 +172,23 @@ jobs:
               endpoint_msg = f" (endpoint: {api_url})" if api_url else ""
               print(f"Error configuring Gemini API{endpoint_msg}: {e}")
               sys.exit(1)
+
+          def is_retryable_error(error):
+              message = str(error)
+              return "429" in message or "RESOURCE_EXHAUSTED" in message or "Too Many Requests" in message
+
+          def generate_with_retry(prompt, max_retries=2, base_delay=1.0):
+              attempt = 0
+              while True:
+                  try:
+                      return model.generate_content(prompt)
+                  except Exception as e:
+                      if not is_retryable_error(e) or attempt >= max_retries:
+                          raise
+                      delay = base_delay * (2 ** attempt)
+                      print(f"Rate limited, retrying in {delay:.1f}s (attempt {attempt + 1}/{max_retries + 1})")
+                      time.sleep(delay)
+                      attempt += 1
 
           # --- Translation function ---
           def translate_text(text_to_translate):
@@ -240,7 +258,7 @@ jobs:
 
               """
               try:
-                  response = model.generate_content(prompt)
+                  response = generate_with_retry(prompt)
                   translated_content = ""
                   if response.parts:
                       for part in response.parts:
