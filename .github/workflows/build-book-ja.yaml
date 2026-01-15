@@ -115,21 +115,22 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         if: steps.find_changed_files.outputs.continue == 'true'
-        run: pip install google-generativeai PyYAML
+        run: pip install requests PyYAML
 
-      - name: Translate changed files using Gemini
+      - name: Translate changed files using Anthropic
         if: steps.find_changed_files.outputs.continue == 'true'
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-          GEMINI_API_URL: ${{ vars.GEMINI_API_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_URL: ${{ vars.ANTHROPIC_API_URL }}
+          ANTHROPIC_MODEL: "claude-haiku-4-5-20251001"
         run: |
           import os
           import sys
           import re
           import time
+          import json
           import yaml # For front matter processing
-          import google.generativeai as genai
+          import requests
 
           # --- Helper function to strip basic Markdown/HTML for description ---
           def strip_markdown_html(text):
@@ -155,41 +156,53 @@ jobs:
               text = re.sub(r'\s+', ' ', text).strip()
               return text
 
-          # --- Configure Gemini API ---
-          try:
-              api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-              api_url = os.getenv("GEMINI_API_URL") or os.getenv("GOOGLE_API_URL")
-              if not api_key:
-                  print("Error: GEMINI_API_KEY/GOOGLE_API_KEY is not set.")
-                  sys.exit(1)
-
-              config_kwargs = {"api_key": api_key}
-              if api_url:
-                  config_kwargs["client_options"] = {"api_endpoint": api_url}
-                  config_kwargs["transport"] = "rest"
-              genai.configure(**config_kwargs)
-              model = genai.GenerativeModel('gemini-2.5-flash')
-          except Exception as e:
-              endpoint_msg = f" (endpoint: {api_url})" if api_url else ""
-              print(f"Error configuring Gemini API{endpoint_msg}: {e}")
+          # --- Configure Anthropic API ---
+          api_key = os.getenv("ANTHROPIC_API_KEY")
+          api_url = os.getenv("ANTHROPIC_API_URL") or "https://code.newcli.com/claude/aws"
+          model_name = os.getenv("ANTHROPIC_MODEL") or os.getenv("DEFAULT_ANTHROPIC_MODEL") or "claude-haiku-4-5-20251001"
+          if not api_key:
+              print("Error: ANTHROPIC_API_KEY is not set.")
               sys.exit(1)
+          api_url = api_url.rstrip("/")
 
-          def is_retryable_error(error):
-              message = str(error)
-              return "429" in message or "RESOURCE_EXHAUSTED" in message or "Too Many Requests" in message
+          def is_retryable_status(status_code):
+              return status_code == 429
 
-          def generate_with_retry(prompt, max_retries=2, base_delay=1.0):
+          def call_anthropic(prompt, max_retries=2, base_delay=1.0):
               attempt = 0
+              url = f"{api_url}/v1/messages"
+              headers = {
+                  "Content-Type": "application/json",
+                  "Authorization": f"Bearer {api_key}"
+              }
+              payload = {
+                  "model": model_name,
+                  "messages": [{"role": "user", "content": prompt}],
+                  "max_tokens": 2048
+              }
               while True:
-                  try:
-                      return model.generate_content(prompt)
-                  except Exception as e:
-                      if not is_retryable_error(e) or attempt >= max_retries:
-                          raise
+                  response = requests.post(url, headers=headers, json=payload, timeout=180)
+                  if response.status_code == 200:
+                      return response.json()
+                  if is_retryable_status(response.status_code) and attempt < max_retries:
                       delay = base_delay * (2 ** attempt)
                       print(f"Rate limited, retrying in {delay:.1f}s (attempt {attempt + 1}/{max_retries + 1})")
                       time.sleep(delay)
                       attempt += 1
+                      continue
+                  raise RuntimeError(f"Anthropic API error ({response.status_code}): {response.text}")
+
+          def extract_anthropic_text(data):
+              blocks = data.get("content") if isinstance(data, dict) else None
+              if not blocks:
+                  return ""
+              texts = []
+              for block in blocks:
+                  if isinstance(block, dict) and block.get("type") == "text":
+                      text = block.get("text")
+                      if text:
+                          texts.append(text)
+              return "".join(texts).strip()
 
           # --- Translation function ---
           def translate_text(text_to_translate):
@@ -259,27 +272,11 @@ jobs:
 
               """
               try:
-                  response = generate_with_retry(prompt)
-                  translated_content = ""
-                  if response.parts:
-                      for part in response.parts:
-                          if hasattr(part, 'text'):
-                              translated_content += part.text
-                  else: # older versions might directly use response.text
-                      translated_content = response.text if hasattr(response, 'text') else ''
-
-                  # Handle potential API error structure where response.text might not exist but parts do.
-                  # Also, ensure we don't fail if response or response.text is None.
-                  if not translated_content and hasattr(response, 'prompt_feedback'):
-                     print(f"Warning: Translation might have issues. Prompt feedback: {response.prompt_feedback}")
-                     return "" # Or handle as error
-                  
+                  data = call_anthropic(prompt)
+                  translated_content = extract_anthropic_text(data)
                   return translated_content.strip() if translated_content else ""
-
               except Exception as e:
                   print(f"An error occurred during translation: {e}")
-                  if hasattr(e, 'response') and hasattr(e.response, 'prompt_feedback'):
-                      print(f"Prompt Feedback: {e.response.prompt_feedback}")
                   return None
 
           # --- NEW: Load default description from hugo.yaml ---
