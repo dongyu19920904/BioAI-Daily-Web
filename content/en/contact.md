@@ -4,100 +4,49 @@ type: page
 sidebar:
   exclude: true
 ---
-```
-# Contact Aivora
+# Contact Aiwoola
 
-Thanks for visiting Aivora AI Daily! We're super happy to hear your thoughts and suggestions.
+Thanks for stopping by the Aiwoola AI Daily! We'd love to hear your thoughts and feedback.
 
-Got questions, partnership ideas, or need support for your AI tool account? Reach out to us using the methods below.
+If you have any questions, partnership opportunities, or need support with AI tool accounts, feel free to reach out through any of the channels below.
 
 ---
 
-## 📞 How to Reach Us
+## 📬 Contact Us
 
-### WeChat Customer Service
+### Customer Service WeChat
 
 **WeChat ID: aiwoola**
 
-To get these services, just scan the QR code or search for our WeChat customer service.
+Add our support team via QR code or search to get help with:
+- 🛒 AI tool account purchase inquiries
+- 💡 Technical support for usage issues
+- 🤝 Business partnership discussions
+- 📰 Content submissions and suggestions
 
-- AI tool account purchase inquiries
-- Technical support for usage issues
-- Business cooperation discussions
-- Content submissions and suggestions
+### Email
 
-### Email Us
+**[support@aivora.cn](mailto:support@aivora.cn)**
 
-**Email: [support@aivora.cn](mailto:support@aivora.cn)**
-
-Email is perfect for:
-
+Perfect for:
 - Detailed technical questions
-- Business cooperation proposals
+- Business partnership proposals
 - Bulk purchase inquiries
 
 ### Official Website
 
-[https://aivora.cn](https://aivora.cn)
+**[https://aivora.cn](https://aivora.cn)**
 
-Head over to our official website to check out:
-
-- The latest account package prices
-- Our terms of service and guarantees
-- User guides
-
----
-
-## 🕒 Service Hours
-
-- **Customer Service Online Hours**: Daily 9:00 AM - 11:00 PM (GMT+8)
-- **Email Response Time**: Within 24 hours
-
-We're committed to quick responses and serving every user with heart! ❤️
-```
-# Contact Aivora
-
-Thanks for visiting Aivora AI Daily! We're super happy to hear your thoughts and suggestions.
-
-Got questions, partnership ideas, or need support for your AI tool account? Reach out to us using the methods below.
+Visit us to explore:
+- Latest account package pricing
+- Terms of service and guarantees
+- User guides and documentation
 
 ---
 
-## 📞 How to Reach Us
+## ⏰ Service Hours
 
-### WeChat Customer Service
+- **Customer service availability**: 9:00 AM - 11:00 PM daily (GMT+8)
+- **Email response time**: Within 24 hours
 
-**WeChat ID: aiwoola**
-
-To get these services, just scan the QR code or search for our WeChat customer service:
-- AI tool account purchase inquiries
-- Technical support for usage issues
-- Business cooperation discussions
-- Content submissions and suggestions
-
-### Email Us
-
-**Email: [support@aivora.cn](mailto:support@aivora.cn)**
-
-Email is perfect for:
-- Detailed technical questions
-- Business cooperation proposals
-- Bulk purchase inquiries
-
-### Official Website
-
-[https://aivora.cn](https://aivora.cn)
-
-Head over to our official website to check out:
-- The latest account package prices
-- Our terms of service and guarantees
-- User guides
-
----
-
-## 🕒 Service Hours
-
-- **Customer Service Online Hours**: Daily 9:00 AM - 11:00 PM (GMT+8)
-- **Email Response Time**: Within 24 hours
-
-We're committed to quick responses and serving every user with heart! ❤️
+We're committed to quick responses and dedicated support for every user! 💪

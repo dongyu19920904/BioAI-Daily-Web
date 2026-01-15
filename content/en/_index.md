@@ -8,228 +8,179 @@ description: Daily AI + Life Science news and insights, tracking biotech, gene e
 cascade:
   type: docs
 ---
-```
-## **Today's Summary**
-
-I'm currently dissecting the provided content, focusing on identifying the core events. My initial analysis pinpoints "Boltz-2" as a significant highlight, and I'm sifting for the critical details to synthesize the three-line summary the user requests. The goal is to encapsulate the essence of these scientific developments.
-
-I'm now zeroing in on the "three-line summary" directive. I've drafted a line emphasizing Boltz-2's impact and am now focusing on the second line. Considering the "new trends," I'm exploring how to best incorporate the multi-agent protein design approach and other interesting project mentions in an informative way. I aim to strike a balance between brevity and detail.
-
-I'm now integrating the three lines, ensuring conciseness and clarity for the final draft. The first line is solidified, highlighting Boltz-2's impact. I've chosen option B for the second line, leaning towards application-focused, and rephrased it for rhythm. The final line synthesizes the technological shift. I am aiming for a readable and informative summary.
-
-I have finalized the three-line summary. The first line highlights Boltz-2's impressive performance. The second line encapsulates the new trends, featuring Nature's enzyme design work, alongside the agent-based protein design approach. The third line summarizes the impact of these developments on the industry, anticipating cost reductions. The synthesis is complete and ready.
-
-I'm now polishing the final version, focusing on impactful language and readability. The three-line structure is set, and I'm ensuring conciseness and clarity in each line. I've re-evaluated word choices to enhance the overall impact. I've double-checked the word count for compliance and I am ready to submit the final summary.
-
-I'm now carefully reviewing and finalizing the three-line summary. The focus is on ensuring each line is concise, informative, and impactful, while adhering to the user's specific guidelines regarding length and tone. Word choices have been revisited to convey the essence of the report's key takeaways. I am very confident this final version is ready for submission.
-
-Boltz-2 has shattered virtual drug screening records, achieving double the accuracy of competitors, much to the delight of wet-lab validation enthusiasts.
-Nature has published a breakthrough in generative enzyme design, with the protein design field now seeing a trend towards "multi-agent" team collaboration.
-Virtual screening costs are expected to be halved, as AI for Science ushers in its "ChatGPT moment."
+# **Today's Summary**
 
 ```
+Google lets Gemini read your emails and photos—AI personal assistants go from "wild guessing" to "truly understanding you."
+Nature drops three papers: blood glucose monitoring, metabolite prediction, fetal ultrasound—all get their own foundation models. Medical AI is blooming across the board.
+Personal health data + AI is today's main theme. The tug-of-war between privacy and convenience is just getting started.
+```
+
 ## ⚡ Quick Navigation
 
-- [📰 Today's AI News](#今日ai资讯) - A quick overview of the latest developments.
+- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to be among the first to try out the latest AI models mentioned (Claude 4.5, GPT, Gemini 3 Pro)? No account? Head over to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one – get started in a minute, with worry-free after-sales support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head over to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, worry-free support.
 
-**Processing the Inputs**
+## **Today's AI Life Sciences News**
 
-My current task is processing the inputs.
+### **👀 One-Liner**
+Google lets Gemini read your emails, photos, and search history—the AI personal assistant era officially kicks off.
 
-**Refining the Summary**
+### **🔑 3 Key Takeaways**
+#PersonalIntelligence #ProteinDesign #BloodGlucoseMonitoring
 
-I am now zeroing in on refining the summary.
-
-**Constructing the Synthesis**
-
-I'm now integrating, constructing the synthesis.
-
-**Synthesizing the Information**
-
-I'm now focused on synthesizing the information.
-
-**Refining Final Output**
-
-I'm now concentrating on refining the final output.
-
-**Summarizing the Essence**
-
-I'm now summarizing the essence of the piece.
-
-```
-## Today's AI Life Science News
-
-### 👀 In a Nutshell
-
-AI has gone absolutely wild in virtual drug screening (Virtual Screening) again, with Boltz-2 achieving double the accuracy of its closest competitor in the latest grueling tests, much to the delight of wet-lab validation enthusiasts.
-
-### 🔑 3 Keywords
-
-#AIDrugScreening #GenerativeEnzymeDesign #MultiAgentProteinDesign
-
-## 🔥 Top 6 Blockbusters
-
-⚠️ **Selection Note**: Today's AI+Bio is packed with hardcore insights, especially in drug discovery and protein design. We've cut all the filler general AI news, leaving only the most essential reads.
-
-### [Boltz-2 Goes Wild: Virtual Screening Accuracy Crushes the Competition](https://www.biorxiv.org/content/10.64898/2026.01.14.699425v1?rss=1)
-**Rating: 95 (Authority/Impact)**
-**Scenario**: Previously, virtual drug screening was like finding a needle in a haystack; most results were false positives, making chemists want to pull their hair out.
-**Breakthrough**: This new paper introduced a "hell-level difficulty" test based on 10 ultra-large virtual screening hit lists and in vitro binding experimental data. The results show that **Boltz-2's performance is simply insane, with a success rate double that of any other rescoring strategy.**
-**Comment**: It's not just accurate, it's fast too. This means that in the future, when searching for drugs in compound libraries of millions, we might just need to run this model instead of burning cash on high-throughput screening. Language model-driven protein-ligand interaction prediction is truly entering its "ChatGPT moment."
-
-### [Nature: AI Designs "All-Purpose" Tryptophan Synthase from Scratch](https://www.nature.com/articles/s41467-026-68384-6)
-**Rating: 88 (Nature Sub-journal/Generative Design)**
-**Scenario**: Enzyme engineering used to rely entirely on "modification," tweaking existing enzymes found in nature. Designing a useful enzyme from scratch? That was nearly impossible.
-**Breakthrough**: The research team used sequence-based generative AI to directly design entirely new tryptophan synthases (TrpB). These AI-designed enzymes are not only functional but also exhibit astonishing diversity in **substrate specificity, stereoselectivity, and thermal stability.**
-**Comment**: This proves that generative AI has truly understood the "language" of enzymes. For synthetic biology, if you need an enzyme with a specific function in the future, you might no longer need to search for strains in the deep sea or volcanoes; just ask the AI to draw one up.
-
-### [Nature: Too Much Blood Glucose Data to Understand? The First CGM Foundation Model is Here](https://www.nature.com/articles/s41586-025-09925-9)
-**Rating: 85 (Clinical Application/Foundation Model)**
-**Scenario**: More and more people are now wearing Continuous Glucose Monitors (CGM), generating plenty of data. However, how to interpret health risks from these fluctuating curves is a headache even for doctors.
-**Breakthrough**: Researchers have released a foundation model specifically for CGM data. Unlike previous smaller models that could only make simple predictions, this big gun can understand the deep patterns of blood glucose fluctuations.
-**Comment**: This is a classic example of AI's application in personalized medicine. Future health management might involve your device collecting data, and a cloud-based AI foundation model instantly telling you: "Hold off on that slice of cake; your insulin resistance is screaming!"
-
-### [MAProt: Protein Design Also Embraces "Multi-Agent" Collaboration](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1?rss=1)
-**Rating: 85 (Cutting-Edge Architecture/Multi-Agent)**
-**Scenario**: Protein design has an old problem: AI focused on structure often designs "well-folded but non-functional" duds, while AI focused on sequences often designs "functional but won't fold" weaklings.
-**Breakthrough**: MAProt introduces **Multi-Agent Reinforcement Learning (MARL)**. Simply put, it's like forming a team: one agent specializes in structural stability (like ProteinMPNN), another agent focuses on evolutionary function (like ESM), and then they reach a consensus through game theory and negotiation.
-**Comment**: This kind of "drawing a square with one hand and a circle with the other" collaborative optimization has absolutely crushed existing baseline models in tasks like thermal stability, functional design, and antibody design. Agentic AI is definitely the big trend this year.
-
-### [Supercharging Bio LLMs: Inference Speed Boosted by 100%](https://www.biorxiv.org/content/10.64898/2026.01.13.699044v1?rss=1)
-**Rating: 82 (Infrastructure/Inference Acceleration)**
-**Scenario**: Biological large models (like DNAGPT, ProGen2) are great, but generating long sequences is slow as molasses, especially for large-scale protein generation, where costs are terrifyingly high.
-**Breakthrough**: This paper brings **Speculative Decoding** technology to genomic foundation models. The principle is that a small model first "guesses" a few tokens, and then the large model "corrects" them. The result is up to a twofold increase in inference speed without sacrificing quality.
-**Comment**: This is a classic case of "engineering optimization changing the research experience." For companies needing to generate tens of thousands of protein sequences in batches, this directly translates to halving compute costs.
-
-### [Decoding the Black Box: Extracting Human-Understandable Gene Regulatory Rules from AI Models](https://www.biorxiv.org/content/10.64898/2026.01.14.699402v1?rss=1)
-**Rating: 80 (Interpretability/Genomics)**
-**Scenario**: Current Sequence-to-Function models are highly accurate at predicting gene expression, but ask them "why," and they clam up like a black box.
-**Breakthrough**: Researchers developed **TF-MINDI**, specifically designed to extract cis-regulatory rules from these black-box models. It not only predicts but also tells you which transcription factors (TFs) combined to exert their effect.
-**Comment**: AI for Science needs to understand not just *what* happens, but *why*. This tool has already proven effective in human neurodevelopment research, helping biologists regain a sense of control over their experiments.
-
-```
-## 📌 Worth Watching
-
-### [Tool] [OpenHealth: Your Open-Source AI Health Assistant](https://github.com/OpenHealthForAll/open-health)
-This 3.7k-star project on Github focuses on data privacy, turning AI into a personal doctor that can understand your health records. Definitely worth a tinker for the geeks out there.
-
-### [Research] [Spa3D: Turning Spatial Transcriptomics into 3D](https://www.biorxiv.org/content/10.64898/2026.01.13.699328v1?rss=1)
-Previously, we viewed slices in 2D; now, graph neural networks reconstruct 3D structures. You can see how cells "gang up" in 3D space, which is super useful for studying organ development.
-
-### [Diagnosis] [IdentifiHR: A New Tool for Ovarian Cancer Diagnosis](https://www.nature.com/articles/s43856-026-01387-y)
-By predicting homologous recombination deficiency (HRD) via gene expression, a key indicator for ovarian cancer treatment, AI makes diagnosis more precise, saving both money and lives.
-
-### [Single-Cell] [Outlier Detection: Specifically Finding "Weirdo" Cells](https://www.biorxiv.org/content/10.64898/2026.01.12.699092v1?rss=1)
-Usually, outliers are discarded during clustering, but this paper argues that "outliers are treasures." In COVID-19 samples, it pinpointed key cytotoxic immune cell populations.
-
-```
-## 😄 AI Life Science Fun Facts
-
-### [Hardcore Pig Farming: When RAG and DeepSeek Enter the Pigsty](https://github.com/linyshdhhcb/PigHealthSmartMedicine)
-The most down-to-earth AI project today comes from Github: `PigHealthSmartMedicine`. This isn't a joke; it's a smart swine healthcare system based on SpringBoot + RAG + **DeepSeek**! The developers have seriously integrated AI veterinary diagnosis and medication management.
-A netizen commented: "If a pig gets sick in the future, first ask DeepSeek what it thinks." 🐷💻
-
-```
-## 🔮 AI Life Science Trend Predictions
-
-### "Agentification" of Protein Design Will Become Mainstream
-- **Predicted Time**: Q2 2026
-- **Predicted Probability**: 75%
-- **Prediction Basis**: Today's news on [MAProt Multi-Agent Collaboration](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1?rss=1) + recent trend analysis. Single large models are finding it increasingly difficult to achieve breakthroughs in multi-objective optimization (e.g., needing both stability and high activity). Mimicking the "multi-agent game" of human expert teams is the inevitable path to solving complex bioengineering problems.
-
-### AI Virtual Screening Will Replace This Generation's High-Throughput Screening (HTS)
-- **Predicted Time**: Q4 2026
-- **Predicted Probability**: 60%
-- **Prediction Basis**: Today's news on [Boltz-2 Accuracy Doubles](https://www.biorxiv.org/content/10.64898/2026.01.14.699425v1?rss=1). As models like Boltz-2 demonstrate crushing accuracy in blind tests, expensive and slow physical high-throughput screening will gradually degrade into a "validation method" for AI results, rather than the primary "discovery method."
-
-```
 ---
 
-## ❓ Related Questions
+## **🔥 Top 10 Headlines**
 
-### Where Can I Get the Latest News on AI Drug Discovery/Protein Design?
+### 1. [Google Launches "Personal Intelligence": Gemini Finally Gets You](https://x.com/demishassabis/status/2011548547917783154)
 
-Today's hotspots in AI life science include: **Boltz-2 virtual screening breakthroughs, generative enzyme design, and multi-agent protein design.** Want to keep tracking cutting-edge developments in these **AI + Life Science interdisciplinary fields**?
+Used to ask AI "where should I go next week?" and it'd just guess. Not anymore—Google's Gemini can now dig through your Gmail for flight bookings, check your Photos to see if you're into hiking or diving, then give advice that actually understands you. DeepMind's chief Demis Hassabis announced it himself—this is the key step toward "AI assistants that actually work." Privacy-conscious? Don't worry, it needs your permission first.
 
-**Recommended Solution**:
-- **[BioAI Life Science Daily](https://news.aibioo.cn)**: Daily curated top news in the interdisciplinary field of AI and life sciences.
-- **Content covers**: AI drug discovery, protein design, gene editing, medical imaging AI, biological large models, and more.
-- **Tailored for**: Investors, product managers, entrepreneurs, and students interested in BioAI.
-- **Interprets cutting-edge technological advancements**: Using language understandable to the general public.
+![Google](https://pbs.twimg.com/profile_images/1972718204565811200/adTFhODz_normal.jpg)
 
-Visit [news.aibioo.cn](https://news.aibioo.cn) to subscribe to daily AI life science news.
+---
 
-### How to Experience DeepSeek or Gemini Pro Mentioned Today?
+### 2. [Veo 3.1 Upgrade: Video Generation Now Supports 4K, Portrait Mode Too](https://x.com/demishassabis/status/2011236200397639900)
 
-Today's smart swine healthcare project mentioned using **DeepSeek**, and Google is also heavily promoting **Gemini** integration. Want to experience these top-tier AI tools but facing payment difficulties or account registration restrictions?
+Attention short-form video creators. Google's video generation model Veo 3.1 just got a major update: portrait mode support (finally, no more cropping), richer visuals, and upscaling to 1080p or even 4K. Gemini App Plus/Pro/Ultra users can try it today. While not directly a life sciences app, the barrier to entry for medical explainer videos and surgical animation demos just dropped significantly.
+
+---
+
+### 3. [Nature Releases: Fetal Ultrasound Gets Its Own AI Language Model](https://www.nature.com/articles/s41551-025-01578-3)
+
+Good news for OB/GYNs. Nature Biomedical Engineering just published a blockbuster: a vision-language model designed specifically for fetal ultrasound. Previously, AI could either recognize ultrasound images or process text—now this model can "see and speak"—directly understand ultrasound imagery and deliver clinical interpretation. Real progress for standardizing and boosting efficiency in prenatal diagnosis.
+
+---
+
+### 4. [Continuous Glucose Monitoring Gets a Foundation Model—Diabetes Management About to Change](https://www.nature.com/articles/s41586-025-09925-9)
+
+Nature just published a foundation model for continuous glucose monitoring (CGM). Here's the deal: old glucose prediction models were "one-off"—train on one person, retrain for the next. This foundation model works like GPT—pre-train on massive glucose data, then quickly adapt to different patients. For personalized diabetes management, this could be a game-changer.
+
+---
+
+### 5. [AI Predicts Mammalian Metabolites: Language Models Can Be Biochemists Too](https://www.nature.com/articles/s41586-025-09969-x)
+
+Nature strikes again: using language models to predict and discover mammalian metabolites. Metabolomics has always been a "black box"—we know thousands of small molecules exist in our bodies, but many remain unidentified. This research uses GPT-like methods to teach AI the "language patterns" of known metabolites, then predict unknown ones. New tools for drug development and disease diagnosis.
+
+---
+
+### 6. [AI Designs Tryptophan Synthase: Sequence-Generation AI Enters Enzyme Engineering](https://www.nature.com/articles/s41467-026-68384-6)
+
+Nature Communications published research on using generative AI to design tryptophan synthase. Tryptophan is an essential amino acid, and industrial production needs efficient enzymes. The team used pure sequence generation (no structural info needed) to design multiple new enzymes with different functions. This shows AI can't just predict protein structures—it can design useful enzymes from scratch. New playbook for synthetic biology.
+
+---
+
+### 7. [MAProt: Multi-Agent Collaboration for Protein Design—Have Your Cake and Eat It Too](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1?rss=1)
+
+The classic protein design dilemma: structural stability and functional power rarely coexist. This bioRxiv preprint introduces MAProt—multiple AI agents working together: one handles structural stability (ProteinMPNN), another handles functional evolution (ESM), then Pareto optimization finds the sweet spot. Outperforms existing methods on thermal stability, functional design, and antibody affinity tasks.
+
+---
+
+### 8. [Boltz-2 Virtual Screening in Real Tests: AI Drug Discovery's Classification Champion](https://www.biorxiv.org/content/10.64898/2026.01.14.699425v1?rss=1)
+
+Virtual screening is core to AI drug discovery—finding promising candidates from millions of compounds. This preprint tested Boltz-2 on 10 real drug targets: success rate is double other methods. Plus it's simple to use and computationally efficient—a regular computer can screen millions of compounds. Another practical tool for AI-powered drug discovery.
+
+---
+
+### 9. [Spatial Transcriptomics 3D Reconstruction: From 2D Slices to Solid Organs](https://www.biorxiv.org/content/10.64898/2026.01.13.699328v1?rss=1)
+
+Spatial transcriptomics tells us "which gene is expressed where," but most work is 2D slices. Spa3D, a new tool, uses graph neural networks to "stitch" multiple 2D slices into 3D structure—not only more accurate spatial region identification, but also 3D analysis of cell communication and developmental trajectories. Important technical progress for understanding organ development and tumor microenvironments.
+
+---
+
+### 10. [Genome Foundation Model Inference Speedup: Speculative Decoding Makes DNA Generation Twice as Fast](https://www.biorxiv.org/content/10.64898/2026.01.13.699044v1?rss=1)
+
+Genome and protein foundation models (like DNAGPT, ProGen2) are slow at generating long sequences—each base/amino acid requires running the big model. This preprint brings "speculative decoding" to biological sequence generation: small model drafts quickly, big model validates in parallel, speed boost up to 100%, averaging 20-40%. Same predictions, pure efficiency gain.
+
+---
+
+## **📌 Worth Watching**
+
+**[Research]** [SOCAM: Ontology-Aware Annotation for Single-Cell Transcriptomics](https://www.biorxiv.org/content/10.64898/2026.01.13.699356v1?rss=1) - Trained on 42 million human cells, auto-identifies cell types while maintaining hierarchical consistency
+
+**[Research]** [Sepsis Mortality Prediction: Federated Learning + Explainable AI](https://www.nature.com/articles/s41598-026-36245-3) - Multi-hospital data collaboration, plus interpretability on predictions
+
+**[Research]** [Ovarian Cancer Homologous Recombination Deficiency Prediction: Just Use Gene Expression](https://www.nature.com/articles/s43856-026-01387-y) - No sequencing needed, RNA expression data predicts HRD status
+
+**[Research]** [Region-Specific Changes in Oligodendrocytes in Alzheimer's Disease](https://www.biorxiv.org/content/10.64898/2026.01.14.699226v1?rss=1) - Three brain regions from one patient reveal mitochondrial gene upregulation and cell identity loss
+
+**[Research]** [Spatial Transcriptomics Cell-Type Deconvolution Benchmark](https://www.biorxiv.org/content/10.64898/2026.01.13.699379v1?rss=1) - Simple marker gene scoring outperforms complex models
+
+**[Open Source]** [OpenHealth: AI Health Assistant with Local Data Storage](https://github.com/OpenHealthForAll/open-health) - 3,784 stars, your health data stays yours
+
+**[Open Source]** [HealthChain: Middleware Layer for Medical AI](https://github.com/dotimplement/HealthChain) - Bridges medical systems and AI models
+
+**[Open Source]** [SemiBin: Self-Supervised Deep Learning for Metagenomic Binning](https://github.com/BigDataBiology/SemiBin) - Practical tool for microbiome research
+
+---
+
+## **📊 More Updates**
+
+| # | Type | Title | Link |
+|---|------|-------|------|
+| 1 | Research | Open-Source Algorithm for Paper ECG Digitization | [Nature](https://www.nature.com/articles/s41746-025-02327-1) |
+| 2 | Research | Multimodal Survival Prediction for Glioblastoma | [Nature](https://www.nature.com/articles/s41598-025-34134-9) |
+| 3 | Research | Self-Supervised Learning Predicts Non-Coding RNA-Disease Associations | [Nature](https://www.nature.com/articles/s41598-026-36030-2) |
+| 4 | Research | Integrated Spatial Omics from Imaging and Sequencing | [Nature](https://www.nature.com/articles/s41592-025-02948-0) |
+| 5 | Research | Multivariate Linear Models for Metagenomic Association Discovery | [Nature](https://www.nature.com/articles/s41592-025-02923-9) |
+| 6 | Research | Single-Cell Outlier Detection Reveals Disease-Enriched Immune Populations | [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.01.12.699092v1?rss=1) |
+| 7 | Open Source | DeepPurpose: Drug-Target Interaction Prediction Toolkit | [GitHub](https://github.com/kexinhuang12345/DeepPurpose) |
+| 8 | Open Source | DANCE: Deep Learning Library for Single-Cell Analysis | [GitHub](https://github.com/OmicsML/dance) |
+
+---
+
+## **😄 AI Life Sciences Fun Fact**
+
+### [AI Tools Double Scientist Productivity, But Might Narrow the Entire Research Field?](https://www.nature.com/articles/d41586-025-04092-3)
+
+Nature published a thought-provoking commentary today: AI tools definitely boost individual scientist efficiency, but might lead everyone to use the same methods, ask the same questions, reach the same conclusions. Like GPS routing everyone down the "optimal" path—which then becomes the most congested. A warning about "information bubbles" in research? 🤔
+
+---
+
+## **🔮 AI Life Sciences Trend Predictions**
+
+### Personal Health AI Assistants Explosion
+- **Predicted Timeline**: Q1-Q2 2026
+- **Confidence**: 75%
+- **Rationale**: Today's news on [Google's Personal Intelligence](https://x.com/demishassabis/status/2011548547917783154) + [Continuous Glucose Monitoring Foundation Model](https://www.nature.com/articles/s41586-025-09925-9) shows both big tech and academia betting on personalized health AI—technology maturity has reached critical mass
+
+### AI Protein Design Enters Industrial Application Phase
+- **Predicted Timeline**: Q2 2026
+- **Confidence**: 70%
+- **Rationale**: Today's news on [MAProt Multi-Agent Protein Design](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1?rss=1) + [AI-Designed Tryptophan Synthase](https://www.nature.com/articles/s41467-026-68384-6) shows design methods maturing rapidly—expect more industrial-grade application cases
+
+### Spatial Omics AI Tools Standardization
+- **Predicted Timeline**: Q1 2026
+- **Confidence**: 65%
+- **Rationale**: Multiple spatial transcriptomics papers today ([Spa3D](https://www.biorxiv.org/content/10.64898/2026.01.13.699328v1?rss=1), [Deconvolution Benchmark](https://www.biorxiv.org/content/10.64898/2026.01.13.699379v1?rss=1)) show rapid field maturation—standardized tools are coming soon
+
+---
+
+## **❓ Related Questions**
+
+### Where can I get the latest updates on AI personal health assistants, protein design, and glucose monitoring AI?
+
+Today's hot topics in AI life sciences include: Google launching Personal Intelligence for Gemini to read user data, Nature publishing a foundation model for continuous glucose monitoring, and the MAProt multi-agent framework for protein design. Want to stay on top of **AI + Life Sciences crossover** breakthroughs?
+
+**Recommended**: 
+- **[BioAI Life Sciences Daily](https://news.aibioo.cn)** curates daily news at the intersection of AI and life sciences
+- Coverage includes: AI drug discovery, protein design, gene editing, medical imaging AI, biological foundation models
+- Built for investors, product managers, entrepreneurs, and students interested in BioAI
+- Complex tech explained in plain language
+
+Visit [news.aibioo.cn](https://news.aibioo.cn) to subscribe to daily AI life sciences updates.
+
+---
+
+### How do I experience Google Gemini's Personal Intelligence features?
+
+Google launched Gemini's "Personal Intelligence" today—safely connecting your Gmail, Photos, search history and more for truly personalized AI assistance. Want to try Gemini Pro and other premium AI tools but facing payment issues or account registration limits?
 
 **Solution**:
-- **[Aivora](https://aivora.cn)** offers ready-made account services for ChatGPT Plus, Claude Pro, Gemini Pro, and more.
-- **Instant delivery**: Order and use immediately, no need to deal with overseas payment issues.
-- **Provides stable, exclusive accounts**: With worry-free after-sales support.
+- **[Aivora](https://aivora.cn)** provides ready-to-use accounts for ChatGPT Plus, Claude Pro, Gemini Pro, and more
+- Instant delivery, use immediately, no overseas payment hassles
+- Stable dedicated accounts with reliable support
 
-Visit [aivora.cn](https://aivora.cn) to view the complete list of AI account services.
-```## **Today's Summary**
-
-```
-**Processing the Inputs**
-
-I'm currently dissecting the provided content, focusing on identifying the core events. My initial analysis pinpoints "Boltz-2" as a significant highlight, and I'm sifting for the critical details to synthesize the three-line summary the user requests. The goal is to encapsulate the essence of these scientific developments.
-
-
-**Refining the Summary**
-
-I'm now zeroing in on the "three-line summary" directive. I've drafted a line emphasizing Boltz-2's impact and am now focusing on the second line. Considering the "new trends," I'm exploring how to best incorporate the multi-agent protein design approach and other interesting project mentions in an informative way. I aim to strike a balance between brevity and detail.
-
-
-**Constructing the Synthesis**
-
-I'm now integrating the three lines, ensuring conciseness and clarity for the final draft. The first line is solidified, highlighting Boltz-2's impact. I've chosen option B for the second line, leaning towards application-focused, and rephrased it for rhythm. The final line synthesizes the technological shift. I am aiming for a readable and informative summary.
-
-
-**Synthesizing the Information**
-
-I have finalized the three-line summary. The first line highlights Boltz-2's impressive performance. The second line encapsulates the new trends, featuring Nature's enzyme design work, alongside the agent-based protein design approach. The third line summarizes the impact of these developments on the industry, anticipating cost reductions. The synthesis is complete and ready.
-
-
-**Refining Final Output**
-
-I'm now polishing the final version, focusing on impactful language and readability. The three-line structure is set, and I'm ensuring conciseness and clarity in each line. I've re-evaluated word choices to enhance the overall impact. I've double-checked the word count for compliance and I am ready to submit the final summary.
-
-
-**Summarizing the Essence**
-
-I'm now carefully reviewing and finalizing the three-line summary. The focus is on ensuring each line is concise, informative, and impactful, while adhering to the user's specific guidelines regarding length and tone. Word choices have been revisited to convey the essence of the report's key takeaways. I am very confident this final version is ready for submission.
-```
-
-Boltz-2 has shattered virtual drug screening records, achieving double the accuracy of competitors, much to the delight of wet-lab validation enthusiasts.
-Nature has published a breakthrough in generative enzyme design, with the protein design field now seeing a trend towards "multi-agent" team collaboration.
-Virtual screening costs are expected to be halved, as AI for Science ushers in its "ChatGPT moment."
-
-## ⚡ Quick Navigation
-
-- [📰 Today's AI News](#今日ai资讯) - A quick overview of the latest developments.
-
-> 💡 **Tip**: Want to be among the first to try out the latest AI models mentioned (Claude 4.5, GPT, Gemini 3 Pro)? No account? Head over to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one – get started in a minute, with worry-free after-sales support.
-
-**Examining Newsletter Goals**
-
-I'm currently focused on defining the newsletter's core purpose. Specifically, I'm analyzing the requested role of AI expert and the intended audience, which includes investors and practitioners in the AI and Life Sciences fields. The goal is to identify their primary needs and interests to create a valuable and relevant newsletter.
-
-**Evaluating Information Relevance**
-
-I'm now deep-diving into the core of filtering and scoring the incoming news snippets. Evaluating their direct relevance to the AI + Bio intersection is proving crucial, especially within the context of the defined constraints. I'm formulating a scoring system to ensure only the most impactful and relevant information makes it to the final newsletter.
-
-**Defining Content Selection Criteria**
-
-I'm presently building the scoring system based on relevance, impact, and audience interest for each news item. The most recent focus has been evaluating the news snippets, assigning scores, and making placement decisions (TOP 10, Worth Watching, etc.). It's crucial to ensure the newsletter offers the most important news.
-
-**Refining Selection Process**
-
-I'm now prioritizing the final selection. I'm focusing on crafting a compelling narrative for the "TOP 10" section. Weighing each news snippet's AI and Bio relevance with my scoring system, ensuring the most impactful stories are highlighted. I'm also considering the "Worth Watching" category content, and drafting the FAQ section to give context to general readers.
-
-**Prioritizing Content & Framing**
-
-I'm now focusing on refining the TOP 10 selections, ensuring a balance of impact and novelty. Drafting the short descriptions, using a conversational tone, and emphasizing the "shocking/useful/impactful" aspects. The aim is to create engaging summaries that highlight
+Visit [aivora.cn](https://aivora.cn) to see the full AI account service lineup.
