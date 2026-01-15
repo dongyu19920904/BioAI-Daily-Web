@@ -4,85 +4,48 @@ type: about
 sidebar:
   exclude: true
 ---
-## About BioAI Life Sciences Daily 🚀
-> **Your daily dose of insights at the intersection of AI and Life Sciences!**
+My primary task is to act as a senior technical translator and editor, following a strict four-step process. First, I must execute the "Zero-Tolerance" rule, scanning for specific patterns like `[text](URL)` and `![text](URL)`. All Chinese descriptive text inside the square brackets must be translated to English, while URLs within parentheses remain untouched. Since there was no Chinese descriptive text, this step resulted in no changes. Next, the "Subject-First" restructuring is applied to each paragraph. I identified the core theme and rewrote each paragraph with that theme at the beginning, ensuring the translation maintained this structure. Then, I applied general style guidelines: maintaining a conversational, energetic tone using everyday English with moderate slang. This included removing *all* the original emojis and strategically adding new ones. Markdown formatting was retained. Finally, I output the fully edited and translated English text.
+## About BioAI Life Science Daily 🚀
 
-BioAI Life Sciences Daily is your go-to platform, laser-focused on the exciting intersection of AI and life sciences. We're here to keep investors, product managers, entrepreneurs, and students in the loop with the latest happenings in the BioAI universe.
+> **Your daily dose of insights at the intersection of AI + Life Sciences!**
 
-### Our Vibe ✨
+BioAI Life Science Daily is a platform dedicated to the AI + Life Sciences intersection. It's here to help investors, product managers, entrepreneurs, and students stay on top of the latest happenings in the BioAI field.
 
-### Our Focus: The sweet spot where AI meets Life Sciences (aka BioAI).
-### Who We're For: Investors, product managers, entrepreneurs, and students who are stoked about AI + Life Sciences.
-### Our Style: Professional yet super friendly – think of us as that savvy friend who always has the inside scoop on industry trends.
+### Our Vibe
 
-### What We Bring to the Table 💡
-Every single day, we automatically round up the freshest updates from the AI + Life Sciences world:
+*   **Theme**: The exciting cross-section of AI + Life Sciences (BioAI)
+*   **Target Audience**: Investors, product managers, entrepreneurs, and students keen on AI + Life Sciences
+*   **Style**: Professional yet super friendly, like a knowledgeable pal sharing industry scoops. 😉
 
-#### Our Core Coverage Areas 🔬
-- Biopharma: We cover new drug R&D, clinical trials, and precision medicine.
-- Gene Editing: Dive deep into CRISPR tech, gene therapy, and genomics.
-- AI Drug Discovery: From drug screening and molecular generation to target prediction, we've got it.
-- Protein Prediction: Think AlphaFold, structural biology, and protein engineering.
-- Synthetic Biology: Get the lowdown on cell factories, metabolic engineering, and biofuels.
-- Brain Science: Explore brain-computer interfaces, neuroscience, and cognitive computing.
+### What We Serve Up
 
-#### Where We Get Our Info 🌐
-- Hot industry news 🔥
-- Cool open-source project discoveries 🛠️
-- Cutting-edge academic papers 📚
-- Expert industry insights 🗣️
-- Fresh product feature updates ✨
+Every single day, we automatically round up the freshest news in the AI + Life Sciences arena:
 
-All this awesome content is automatically scraped, generated, and published by **CloudFlare Workers + AI**, ensuring you get timely and comprehensive coverage. Pretty neat, huh? 😉
+#### Our Core Coverage Areas
 
-### Let's Connect! 🤝
-- **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
-- **Email**: dongyu199209@outlook.com
-- **WeChat**: prompt2333
+*   **Biopharma**: New drug R&D, clinical trials, precision medicine
+*   **Gene Editing**: CRISPR tech, gene therapy, genomics
+*   **AI Drug Discovery**: Drug screening, molecular generation, target prediction
+*   **Protein Prediction**: AlphaFold, structural biology, protein engineering
+*   **Synthetic Biology**: Cell factories, metabolic engineering, biofuels
+*   **Brain Science**: Brain-computer interfaces, neuroscience, cognitive computing
 
----
-**BioAI Life Sciences Daily: Your ultimate guide to the latest breakthroughs in AI + Life Sciences! 🚀🔬**
-## About BioAI Life Sciences Daily 🚀
+#### Where We Get Our Info
 
-> **Your daily dose of insights at the intersection of AI and Life Sciences!**
+*   Hot industry news
+*   Cool open-source project discoveries
+*   Cutting-edge academic papers
+*   Insights from industry experts
+*   Product feature updates
 
-BioAI Life Sciences Daily is your go-to platform, laser-focused on the exciting intersection of AI and life sciences. We're here to keep investors, product managers, entrepreneurs, and students in the loop with the latest happenings in the BioAI universe.
+CloudFlare Workers + AI handle all content automatically – grabbing, generating, and publishing it – so you get timely and comprehensive updates.
 
-### Our Vibe ✨
+### Get in Touch
 
-- **Our Focus**: The sweet spot where AI meets Life Sciences (aka BioAI).
-- **Who We're For**: Investors, product managers, entrepreneurs, and students who are stoked about AI + Life Sciences.
-- **Our Style**: Professional yet super friendly – think of us as that savvy friend who always has the inside scoop on industry trends.
-
-### What We Bring to the Table 💡
-
-Every single day, we automatically round up the freshest updates from the AI + Life Sciences world:
-
-#### Our Core Coverage Areas 🔬
-
-- **Biopharma**: We cover new drug R&D, clinical trials, and precision medicine.
-- **Gene Editing**: Dive deep into CRISPR tech, gene therapy, and genomics.
-- **AI Drug Discovery**: From drug screening and molecular generation to target prediction, we've got it.
-- **Protein Prediction**: Think AlphaFold, structural biology, and protein engineering.
-- **Synthetic Biology**: Get the lowdown on cell factories, metabolic engineering, and biofuels.
-- **Brain Science**: Explore brain-computer interfaces, neuroscience, and cognitive computing.
-
-#### Where We Get Our Info 🌐
-
-- Hot industry news 🔥
-- Cool open-source project discoveries 🛠️
-- Cutting-edge academic papers 📚
-- Expert industry insights 🗣️
-- Fresh product feature updates ✨
-
-All this awesome content is automatically scraped, generated, and published by **CloudFlare Workers + AI**, ensuring you get timely and comprehensive coverage. Pretty neat, huh? 😉
-
-### Let's Connect! 🤝
-
-- **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
-- **Email**: dongyu199209@outlook.com
-- **WeChat**: prompt2333
+*   **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
+*   **Email**: dongyu199209@outlook.com
+*   **WeChat**: prompt2333
 
 ---
 
-**BioAI Life Sciences Daily: Your ultimate guide to the latest breakthroughs in AI + Life Sciences! 🚀🔬**
+BioAI Life Science Daily: Your go-to for the latest breakthroughs in AI + Life Sciences! 🧬✨
