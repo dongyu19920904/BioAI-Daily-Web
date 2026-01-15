@@ -6,7 +6,7 @@ on:
       source_repo:
         description: '要拉取代码的源仓库 (格式: owner/repo)'
         required: true
-        default: 'dongyu19920904/Hextra-AI-Insight-Daily' # <<< 请修改为你的源仓库
+        default: 'dongyu19920904/CloudFlare-BioAI-Daily' # <<< 请修改为你的源仓库
       source_branch:
         description: '要拉取的源分支'
         required: true
@@ -37,8 +37,8 @@ jobs:
       - name: Clone source repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.inputs.source_repo || github.repository }}
-          ref: ${{ github.event.inputs.source_branch || github.ref_name }} # Fallback to current branch
+          repository: ${{ github.event.inputs.source_repo || 'dongyu19920904/CloudFlare-BioAI-Daily' }}
+          ref: ${{ github.event.inputs.source_branch || 'main' }} # Fallback to current branch
           path: 'clone'
 
       # 第2步：替换图片 URL (如果需要)
