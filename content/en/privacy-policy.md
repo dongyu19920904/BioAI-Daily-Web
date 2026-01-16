@@ -130,7 +130,7 @@ You have the right to delete or request assistance in deleting the Personal Data
 
 Our Service may give you the ability to delete certain information about you from within the Service.
 
-You may update, modify, or delete your information at any time by logging into your Account, if you have one, and visiting the account settings section that allows you to manage your Personal Information. You may also contact us to request access to, correct, or delete any Personal Information that you have provided to us.
+You may update, amend, or delete your information at any time by logging into your Account, if you have one, and visiting the account settings section that allows you to manage your Personal Information. You may also contact us to request access to, correct, or delete any Personal Information that you have provided to us.
 
 Please note, however, that we may need to retain certain information when we have a legal obligation or lawful basis to do so.
 
@@ -159,7 +159,7 @@ Our Service does not address anyone under the age of 13. We do not knowingly col
 If we need to rely on consent as a legal basis for processing your information and your country requires consent from a parent, we may require your parent's consent before we collect and use that information.
 
 ## Links to Other Websites
-Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's website. We strongly advise you to review the Privacy Policy of every website you visit.
+Our Service may contain links to other websites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
 
@@ -168,7 +168,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "Last Updated" date at the top of this Privacy Policy.
 
-You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+Your continued use of the Service following the posting of revised Privacy Policy means that you accept and agree to the changes. It is your responsibility to review this Privacy Policy periodically for updates. Changes to this Privacy Policy are effective when they are posted on this page.
 
 ## Contact Us
 If you have any questions about this Privacy Policy, you can contact us by:

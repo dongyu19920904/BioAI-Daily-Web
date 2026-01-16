@@ -48,7 +48,7 @@ Everyone knows PROTAC by now, but precise in vivo control has always been the he
 
 ### 3. [Human Genetics Guides Discovery of CARD9 Inhibitors, New Target for Crohn's Disease](https://www.cell.com/cell/fulltext/S0092-8674(25)01426-6?rss=yes)
 
-Some people are naturally resistant to Crohn's disease—the secret's hidden in CARD9 gene variants. The research team flipped the script: first identified compounds that bind CARD9, then verified whether they could mimic the protective variant's effects. Result? Found a small molecule that suppresses inflammatory signaling in immune cells and mouse models alike. This "start from human genetics" drug discovery playbook is worth AI pharma companies copying.
+Some people are naturally resistant to Crohn's disease—the secret's hidden in CARD9 gene variants. The research team flipped the script: first identified compounds that bind CARD9, then verified whether they could mimic the protective variant's effect. Result? Found a small molecule that suppresses inflammatory signaling in immune cells and mouse models. This "start from human genetics" drug discovery playbook is worth AI pharma companies copying.
 
 ---
 
@@ -58,39 +58,39 @@ How painful is single-cell sequencing data processing? Inconsistent formats, ted
 
 ---
 
-### 5. [AtlasMap: A "Map-Style" Browser for Tens of Millions of Single-Cell Atlases](https://www.biorxiv.org/content/10.64898/2026.01.14.699595v1?rss=1)
+### 5. [AtlasMap: A "Map-Style" Browser for Millions of Single Cells](https://www.biorxiv.org/content/10.64898/2026.01.14.699595v1?rss=1)
 
-Existing single-cell visualization tools choke the moment you hit tens of millions of cells. AtlasMap flipped the approach: like Google Maps, using tile-based hierarchical rendering. 11 million cells? Launch latency under 1 second, browser memory footprint under 5MB. cellxgene and UCSC Cell Browser straight-up crash at this scale—AtlasMap runs smooth as butter. If you're building large-scale single-cell atlases, bookmark this one.
+Existing single-cell visualization tools choke when you hit tens of millions of cells. AtlasMap flipped the approach: like Google Maps, using tile-based hierarchical rendering. 11 million cells? Launch latency under 1 second, browser memory footprint under 5MB. cellxgene and UCSC Cell Browser straight-up crash at this scale—AtlasMap runs smooth as butter. If you're building large-scale single-cell atlases, bookmark this one.
 
 ---
 
 ### 6. [DynaGraph: Interpretable Dynamic Graph Learning for Electronic Health Records](https://www.nature.com/articles/s41746-025-02328-0)
 
-Electronic health records are a goldmine, but the complexity of time-series + multimodal data turns most models into black boxes. DynaGraph uses dynamic graph learning to model how patient states evolve over time—and here's the kicker: it's interpretable. Doctors can see *why* the model made that prediction, which is huge for clinical deployment. AI healthcare can't just chase accuracy; it needs to earn doctors' trust.
+Electronic health records are a goldmine, but the complexity of time-series + multimodal data turns most models into black boxes. DynaGraph uses dynamic graph learning to model how patient states change over time—and here's the kicker: it's interpretable. Doctors can see why the model made that prediction, which is huge for clinical deployment. AI healthcare can't just chase accuracy; it needs to earn doctors' trust.
 
 ---
 
 ### 7. [Deep Computational Radar Achieves Non-Contact 12-Lead ECG](https://www.nature.com/articles/s44385-025-00060-8)
 
-ECG without electrodes? This paper pulled it off using radar + deep learning. Non-contact acquisition, standard 12-lead ECG output. Picture this: grandma sleeping at home, a radar device at the bedside silently monitoring her heart, auto-alerts if something's wrong. The next frontier for wearables? Probably "non-wearables."
+ECG without electrodes? This paper pulled it off using radar + deep learning. Non-contact acquisition, standard 12-lead ECG output. Picture this: grandma sleeping at home, a radar device at the bedside silently monitoring her heart, alerts automatically if something's off. The next frontier for wearables might be "non-wearables."
 
 ---
 
 ### 8. [Multi-Omics + Machine Learning Decodes Fibrosis Regulatory Networks in MASLD-to-MASH Progression](https://www.nature.com/articles/s41746-026-02352-8)
 
-How fatty liver (MASLD) progresses to fatty liver inflammation (MASH) has always been murky. This study integrated multi-omics data and used machine learning to systematically decode cellular heterogeneity and fibrosis regulatory networks. For AI pharma companies, the targets and biomarkers from this kind of research are gold for drug discovery.
+How metabolic dysfunction-associated fatty liver disease (MASLD) progresses to metabolic dysfunction-associated steatohepatitis (MASH) has always been murky. This study integrated multi-omics data and used machine learning to systematically decode cellular heterogeneity and fibrosis regulatory networks. For AI pharma companies, the targets and biomarkers from this research are gold for drug discovery.
 
 ---
 
 ### 9. [Pathology Foundation Models Predict Breast Cancer Recurrence Risk](https://www.nature.com/articles/s41746-025-02334-2)
 
-Post-surgery breast cancer recurrence is every patient's nightmare, but current prediction methods are either expensive or inaccurate. This paper used pathology slide foundation models to predict recurrence risk—and it's interpretable, showing doctors which tissue features the model focused on. AI pathology is graduating from "it works" to "it works well."
+Post-surgery breast cancer recurrence is every patient's nightmare, but current prediction methods are either expensive or inaccurate. This paper used pathology slide foundation models to predict recurrence risk—and it's interpretable, showing doctors which tissue features the model focused on. AI pathology is moving from "it works" to "it works well."
 
 ---
 
 ### 10. [Awesome-AI-Agents-for-Healthcare: Comprehensive Resource Hub for Medical AI Agents](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
 
-New GitHub repo rounding up medical AI Agent resources—514 stars and climbing. Covers latest Agentic AI applications in healthcare, papers, and tools. Want to get into medical AI Agents? This repo is a solid starting point. Open-source community power: helping you skip the detours.
+New GitHub repo rounding up medical AI Agent resources—514 stars and climbing. Covers latest Agentic AI applications in healthcare, papers, and tools. If you're getting into medical AI Agents, this repo is a solid starting point. Open-source community power: helping you skip the detours.
 
 ---
 
@@ -131,7 +131,7 @@ New GitHub repo rounding up medical AI Agent resources—514 stars and climbing.
 ### AlphaFold 3 Major Update or Competitor Release
 - **Predicted Timeline**: Q1-Q2 2026
 - **Confidence**: 70%
-- **Rationale**: Multiple protein-related studies today continue citing AlphaFold; industry demand for next-gen protein structure prediction tools is intense; DeepMind historically releases updates before major conferences
+- **Rationale**: Multiple protein-related studies today cite AlphaFold; industry demand for next-gen protein structure prediction is intense; DeepMind historically releases updates before major conferences
 
 ### Medical AI Agents Enter Clinical Pilots
 - **Predicted Timeline**: Q2 2026
@@ -146,7 +146,7 @@ New GitHub repo rounding up medical AI Agent resources—514 stars and climbing.
 ### Brain-Targeted Drug Delivery Technology Achieves Major Breakthrough
 - **Predicted Timeline**: Q1 2026
 - **Confidence**: 65%
-- **Rationale**: Today's Cell publication on [nanoparticles bypassing blood-brain barrier](https://www.cell.com/cell/fulltext/S0092-8674(25)01421-7?rss=yes) generating widespread attention; multiple pharma companies likely to pursue preclinical studies
+- **Rationale**: Today's Cell publication on [nanoparticles bypassing blood-brain barrier](https://www.cell.com/cell/fulltext/S0092-8674(25)01421-7?rss=yes) generating widespread attention; multiple pharma companies likely pursuing preclinical studies
 
 ---
 
@@ -168,7 +168,7 @@ Visit [news.aibioo.cn](https://news.aibioo.cn) to subscribe to daily AI life sci
 
 ### How can I experience the latest AI tools for biomedical data analysis?
 
-Today's research showcases AI's power in single-cell analysis, medical imaging, drug discovery, and beyond. Want to try ChatGPT, Claude, and other AI tools to supercharge your research, but facing payment hurdles or account registration restrictions?
+Today's research showcases AI's power in single-cell analysis, medical imaging, drug discovery, and beyond. Want to try ChatGPT, Claude, and other AI tools to supercharge your research, but facing payment issues or account registration barriers?
 
 **Solution**:
 - **[Aivora](https://aivora.cn)** provides ready-to-use accounts for ChatGPT Plus, Claude Pro, Gemini Pro, and more
