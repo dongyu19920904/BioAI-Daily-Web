@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/1/15
+title: BioAI 生命科学日报 2026/1/16
 breadcrumbs: false
-next: /2026-01/2026-01-15
+next: /2026-01/2026-01-16
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-谷歌让 Gemini 读取你的邮件、照片和搜索记录，真正"懂你"的 AI 助理上线了。
-开源健康数据平台扎堆冒头，可穿戴设备数据终于能统一管理了。
-个人化 AI 和隐私保护正在博弈，这波趋势值得持续关注。
+DeepMind 让 Gemini 读取你的邮件和照片，个人 AI 助手从概念变成现实。
+IDPFold2 攻克"软趴趴"蛋白质预测难题，AI 制药终于能看清靶点动态全貌了。
+今天空间组学、测序平台都有大动作，做生物信息的值得细看。
 ```
 
 
@@ -29,94 +29,92 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-谷歌让 Gemini 读懂你的邮件、照片和搜索记录，AI 私人助理时代真的来了。
+DeepMind 让 Gemini 读懂你的邮件和照片，个人 AI 助手时代真的来了。
 
 ### **🔑 3 个关键词**
-#个人化AI #健康数据平台 #蛋白质设计
+#个人AI助手 #空间转录组学 #蛋白质构象预测
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [谷歌推出"个人智能"：Gemini 终于能读懂你了](https://x.com/demishassabis/status/2011548547917783154)
+### 1. [DeepMind 发布"个人智能"：Gemini 终于能读懂你的生活了](https://x.com/demishassabis/status/2011548547917783154)
 
-以前问 AI "我下周去哪玩"，它只能瞎猜。现在不一样了。DeepMind 掌门人 Demis Hassabis 宣布：Gemini 可以在你授权后，安全地连接 Gmail、Google Photos、搜索历史，给出真正"懂你"的建议。比如根据邮件里的机票日期和相册里的爱好，帮你规划行程。这不是通用 AI，是**你的** AI。隐私党可能要皱眉，但这确实是数字助理的一大步。
+以前问 AI"我下周去哪玩"，它只能瞎猜。现在不一样了——Demis Hassabis 亲自官宣，Gemini 可以在你授权后，直接读取 Gmail 里的机票信息、Google Photos 里的旅行照片，然后给你量身定制建议。这不是科幻片，是今天就能用的功能。对医疗健康领域来说，想象一下：AI 能读懂你的体检报告邮件、健身记录照片，然后给出个性化健康建议。这扇门，正在打开。
 
 ![Google](https://pbs.twimg.com/profile_images/1972718204565811200/adTFhODz_normal.jpg)
 
 ---
 
-### 2. [Open-Wearables：把你所有可穿戴设备的健康数据统一起来](https://github.com/the-momentum/open-wearables)
+### 2. [IDPFold2：终于有人搞定了"软趴趴"蛋白质的结构预测](https://www.biorxiv.org/content/10.64898/2026.01.14.699584v1?rss=1)
 
-手环一个 App，手表一个 App，体脂秤又一个 App——数据散落一地，谁受得了？Open-Wearables 是一个自托管平台，把所有可穿戴设备的健康数据整合成一个 AI-ready 的 API。开发者狂喜。想用 AI 分析自己的睡眠、心率、运动数据？这个开源项目帮你打通任督二脉。340 星，值得关注。
-
----
-
-### 3. [WellAlly-Health：Claude 驱动的智能健康助手](https://github.com/huifer/WellAlly-health)
-
-记症状、管药物、追踪病历、多学科会诊分析——这些事以前要跑好几趟医院。WellAlly-Health 把 Claude AI 和医学专业知识结合，通过自然语言对话帮你搞定。580 星，开源可自部署。适合想把健康管理"智能化"的个人用户和小团队。不过提醒一句：AI 建议仅供参考，别拿它当医生。
+AlphaFold 预测蛋白质结构很牛，但遇到那些"没骨头"的无序区域（IDR）就抓瞎了。IDPFold2 用了一个很聪明的办法：让不同类型的蛋白质区域走不同的"专家通道"（Mixture-of-Experts），折叠域归折叠域，无序区归无序区。结果？不管是单个蛋白还是大型复合物，都能准确预测构象集合。做 AI 制药的朋友注意了，这工具能帮你看清药物靶点的"动态全貌"。
 
 ---
 
-### 4. [OpenHealth：3700+ 星的开源 AI 健康助手](https://github.com/OpenHealthForAll/open-health)
+### 3. [DeepSpaceDB 2.0：628 个 Xenium 数据集，一键探索](https://www.biorxiv.org/content/10.64898/2026.01.15.699623v1?rss=1)
 
-又一个"你的数据，你做主"的项目。OpenHealth 让你用自己的健康数据训练 AI 助手，完全本地化，不上传云端。3784 星，社区活跃。适合对隐私极度敏感、又想享受 AI 健康管理的用户。缺点是需要一定技术门槛，小白可能要折腾一阵。
-
----
-
-### 5. [Awesome-AI-Agents-for-Healthcare：医疗 AI Agent 资源大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
-
-想了解医疗领域的 AI Agent 最新进展？这个 GitHub 仓库帮你整理好了。从论文到项目，从框架到应用，400 星的资源库，适合研究者、产品经理和投资人快速入门。收藏吃灰？不，这次真的值得翻一翻。
+搞空间转录组学的都知道，Xenium 数据又大又杂，下载下来还得自己处理格式。DeepSpaceDB 2.0 直接把 628 个公开数据集打包好，统一格式，浏览器里就能实时查看基因表达、圈选感兴趣区域。响应速度？亚秒级。这对做肿瘤微环境、组织发育研究的团队来说，省下的时间够多发一篇文章了。
 
 ---
 
-### 6. [DeepPurpose：药物-靶点预测的深度学习工具箱](https://github.com/kexinhuang12345/DeepPurpose)
+### 4. [胎儿超声 AI：让机器"看懂"产检影像](https://www.nature.com/articles/s41551-025-01578-3)
 
-做 AI 制药的朋友应该不陌生。DeepPurpose 是一个专注于药物-靶点相互作用（DTI）、药物性质、蛋白质功能预测的深度学习工具箱。1116 星，持续更新。想快速跑通一个 DTI 预测模型？这个库能帮你省下大量造轮子的时间。
-
----
-
-### 7. [HealthChain：医疗 AI 的"中间件"来了](https://github.com/dotimplement/HealthChain)
-
-医疗 AI 开发最头疼的是什么？数据格式不统一、接口五花八门、合规要求复杂。HealthChain 自称是"医疗 AI 缺失的中间件层"，帮你处理这些脏活累活。174 星，项目还年轻，但方向很对。做医疗 AI 产品的团队可以关注。
+产检超声图像解读，一直是个技术活。这篇 Nature Biomedical Engineering 的论文提出了一个视觉-语言模型，专门针对胎儿超声设计。它不只是识别图像，还能理解医生的自然语言描述，辅助诊断。对基层医院来说，这可能意味着更少的漏诊和误诊。AI 医疗影像，又往前迈了一步。
 
 ---
 
-### 8. [MAProt：多智能体协作的蛋白质设计新框架](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1?rss=1)
+### 5. [StrAcTable：蛋白质-配体复合物数据集，自动化生成](https://www.biorxiv.org/content/10.64898/2026.01.15.699426v1?rss=1)
 
-蛋白质设计的老难题：结构稳定和功能性能往往不可兼得。MAProt 用多智能体强化学习解决这个问题——一个 Agent 管结构（ProteinMPNN），一个管功能（ESM/SaProt），再用帕累托优化让它们"谈判"出最优解。实验显示，在热稳定性、功能蛋白、高亲和力抗体设计上都超越了现有方法。AI 制药的朋友，这篇值得细读。
-
----
-
-### 9. [Boltz-2 在虚拟筛选中碾压其他方法](https://www.biorxiv.org/content/10.64898/2026.01.14.699425v1?rss=1)
-
-虚拟筛选（从百万化合物中找潜在药物）一直是 AI 制药的核心战场。这篇预印本测试了 Boltz-2 在十个超大规模筛选数据集上的表现——结果是：成功率是其他方法的两倍。而且分类简单、高效、鲁棒，普通硬件就能跑百万级化合物排序。AI 制药的基础设施又进了一步。
+做 AI 制药的都知道，数据集质量决定模型上限。StrAcTable 把 ChEMBL 的活性数据和 PDB 的结构数据自动对接，生成了 20,063 个带标注的蛋白质-配体复合物。关键是：这个流程是自动化的，可以持续更新。以后训练分子对接模型，数据来源稳了。
 
 ---
 
-### 10. [连续血糖监测的基础模型来了](https://www.nature.com/articles/s41586-025-09925-9)
+### 6. [CycloneSEQ vs ONT：国产纳米孔测序，准确率追上来了](https://www.biorxiv.org/content/10.64898/2026.01.14.699587v1?rss=1)
 
-糖尿病患者的福音。Nature 发表了一个专门针对连续血糖监测（CGM）数据的基础模型。以前 CGM 数据分析要靠规则或小模型，现在有了大模型加持，血糖预测、异常检测、个性化建议都能更精准。这是 AI+慢病管理的重要里程碑。
+BGI 的 CycloneSEQ 和 Oxford Nanopore 正面 PK，结果出乎意料：更新后的 CycloneSEQ 准确率达到 96%（峰值 97.7%），和 ONT R10.4.1 只差 0.8%。同源多聚物表现甚至超过了 R9.4.1。更重要的是，研究者还开发了两种信号比对策略，让 CycloneSEQ 也能做甲基化检测。国产测序平台，正在打破垄断。
+
+---
+
+### 7. [数字孪生诊断轻度认知障碍：跨模态、跨中心都能用](https://www.nature.com/articles/s43856-025-01281-z)
+
+轻度认知障碍（MCI）的早期诊断一直很难，不同医院、不同设备的数据差异大。这项研究用"数字孪生"方法，让 AI 模型在不同数据模态和医疗中心之间都能保持稳定表现。对阿尔茨海默病的早期筛查来说，这是个好消息。
+
+---
+
+### 8. [皮肤病 AI 诊断：联邦学习解决数据孤岛](https://www.nature.com/articles/s41598-025-31730-7)
+
+皮肤病图像数据分散在各家医院，直接汇总有隐私风险。这项研究用联邦迁移学习，让模型在不共享原始数据的情况下，也能从异构数据中学习。结果？诊断准确率提升，数据隐私也保住了。医疗 AI 落地的一个现实路径。
+
+---
+
+### 9. [MaAsLin 3：微生物组关联分析，更准更稳](https://www.nature.com/articles/s41592-025-02923-9)
+
+微生物组数据分析的老朋友 MaAsLin 出 3.0 了。这次升级主要解决了多变量线性模型在元组学数据上的稳定性问题，发现关联更可靠。做肠道菌群、口腔微生物研究的，可以升级了。
+
+---
+
+### 10. [Open-Health：开源 AI 健康助手，数据全在本地](https://github.com/OpenHealthForAll/open-health)
+
+3785 星的开源项目，主打"你的数据你做主"。它能整合你的健康数据，用 AI 给出个性化建议，但所有数据都存在本地，不上传云端。对隐私敏感的用户来说，这可能是目前最好的选择。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [SparkyFitness：家庭健康追踪 AI 助手](https://github.com/CodeWithCJ/SparkyFitness) - 1995 星，适合全家一起用的健康管理工具
+**[研究]** [生长曲线模型预测儿童狼疮临床表型](https://www.biorxiv.org/content/10.64898/2026.01.13.699292v1?rss=1) - 用纵向转录组数据预测疾病进展，发现组蛋白基因模块与狼疮相关
 
-**[产品]** [TalkHeal：AI 心理健康支持助手](https://github.com/eccentriccoder01/TalkHeal) - 基于 Gemini Pro，24/7 情绪支持和心理日记
+**[研究]** [DBiTplus：同一组织切片上整合成像和测序空间组学](https://www.nature.com/articles/s41592-025-02948-0) - 多模态空间组学整合的新方法
 
-**[产品]** [Hia：血液报告 AI 分析 Agent](https://github.com/harshhh28/hia) - 上传血检报告，AI 帮你解读健康指标
+**[研究]** [缺血性中风病理动态建模](https://www.nature.com/articles/s41746-025-02222-9) - 用连续场和向量流模拟中风进展
 
-**[研究]** [胎儿超声的视觉语言模型](https://www.nature.com/articles/s41551-025-01578-3) - Nature 子刊，AI 理解胎儿超声影像
+**[研究]** [组织病理学异质性泛化：基于原型的多实例学习](https://www.nature.com/articles/s41746-025-02289-4) - 解决病理 AI 跨数据集泛化难题
 
-**[研究]** [语言模型预测哺乳动物代谢物](https://www.nature.com/articles/s41586-025-09969-x) - Nature 正刊，AI 发现新代谢物
+**[开源]** [HealthChain：医疗 AI 的中间件层](https://github.com/dotimplement/HealthChain) - 174 星，填补医疗 AI 基础设施空白
 
-**[研究]** [AI 生成色氨酸合成酶](https://www.nature.com/articles/s41467-026-68384-6) - 序列生成 AI 设计多功能酶
+**[开源]** [DeepPurpose：药物-靶点相互作用预测工具包](https://github.com/kexinhuang12345/DeepPurpose) - 1116 星，生物信息学深度学习工具箱
 
-**[开源]** [SemiBin：宏基因组分箱的自监督深度学习](https://github.com/BigDataBiology/SemiBin) - 148 星，微生物组研究利器
-
-**[开源]** [ProteinFlow：蛋白质结构数据处理流水线](https://github.com/adaptyvbio/ProteinFlow) - 269 星，深度学习蛋白质设计的数据预处理
+**[开源]** [SemiBin：宏基因组分箱的自监督深度学习](https://github.com/BigDataBiology/SemiBin) - 148 星，微生物组分析利器
 
 ---
 
@@ -124,41 +122,40 @@ cascade:
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 研究 | 脑胶质瘤多模态生存预测模型 FA-DeepMSM | [链接](https://www.nature.com/articles/s41598-025-34134-9) |
-| 2 | 研究 | 自监督学习预测非编码 RNA 与疾病关联 | [链接](https://www.nature.com/articles/s41598-026-36030-2) |
-| 3 | 研究 | 单细胞转录组的本体感知细胞注释方法 SOCAM | [链接](https://www.biorxiv.org/content/10.64898/2026.01.13.699356v1?rss=1) |
-| 4 | 研究 | 空间转录组 3D 重建方法 Spa3D | [链接](https://www.biorxiv.org/content/10.64898/2026.01.13.699328v1?rss=1) |
-| 5 | 研究 | 单细胞异常值检测揭示疾病相关免疫细胞群 | [链接](https://www.biorxiv.org/content/10.64898/2026.01.12.699092v1?rss=1) |
-| 6 | 研究 | 脓毒症死亡率预测的联邦学习框架 | [链接](https://www.nature.com/articles/s41598-026-36245-3) |
-| 7 | 研究 | 卵巢癌同源重组缺陷基因表达预测 | [链接](https://www.nature.com/articles/s43856-026-01387-y) |
-| 8 | 工具 | 纸质心电图数字化开源算法 | [链接](https://www.nature.com/articles/s41746-025-02327-1) |
+| 1 | 研究 | 小鼠皮层视频分割数据集 | [链接](https://www.nature.com/articles/s41597-026-06580-1) |
+| 2 | 研究 | 慢性淋巴细胞白血病动态调控网络推断 | [链接](https://www.nature.com/articles/s41540-025-00645-4) |
+| 3 | 研究 | 蛋白质组学缺失值的贝叶斯层次建模 | [链接](https://www.biorxiv.org/content/10.64898/2026.01.15.699650v1?rss=1) |
+| 4 | 研究 | 多植物转录组图谱揭示保守与谱系特异性防御 | [链接](https://www.biorxiv.org/content/10.64898/2026.01.14.699558v1?rss=1) |
+| 5 | 研究 | 肿瘤蛋白质组学的空间回归分析 | [链接](https://www.biorxiv.org/content/10.64898/2026.01.14.699547v1?rss=1) |
+| 6 | 开源 | WellAlly-health：Claude AI 健康助手 | [链接](https://github.com/huifer/WellAlly-health) |
+| 7 | 开源 | Awesome-AI-Agents-for-Healthcare | [链接](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) |
 
 ---
 
-## **🔮 AI生命科学趋势预测**
+## **🔮 AI 生命科学趋势预测**
 
-### 个人化健康 AI 助手爆发
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[谷歌推出个人智能](https://x.com/demishassabis/status/2011548547917783154) + 多个开源健康 AI 项目（OpenHealth、WellAlly）获得高关注，表明市场需求旺盛
-
-### AI 虚拟筛选成为制药标配
-- **预测时间**：2026年Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[Boltz-2 虚拟筛选表现优异](https://www.biorxiv.org/content/10.64898/2026.01.14.699425v1?rss=1) + AI 制药公司持续获得融资，技术成熟度快速提升
-
-### 可穿戴健康数据标准化加速
+### Xenium 空间转录组学数据爆发式增长
 - **预测时间**：2026年Q1
+- **预测概率**：75%
+- **预测依据**：今日新闻 [DeepSpaceDB 2.0](https://www.biorxiv.org/content/10.64898/2026.01.15.699623v1?rss=1) 已收录 628 个数据集 + 10x Genomics 持续推广 Xenium 平台，数据量将快速积累
+
+### 蛋白质动态构象预测工具进入主流 AI 制药流程
+- **预测时间**：2026年Q2
 - **预测概率**：60%
-- **预测依据**：今日新闻[Open-Wearables 开源项目](https://github.com/the-momentum/open-wearables) + 苹果、谷歌等大厂持续布局健康数据生态
+- **预测依据**：今日新闻 [IDPFold2](https://www.biorxiv.org/content/10.64898/2026.01.14.699584v1?rss=1) 解决了无序区域预测难题 + 制药公司对靶点动态结构的需求日益增长
+
+### 国产纳米孔测序平台市场份额提升
+- **预测时间**：2026年Q2
+- **预测概率**：55%
+- **预测依据**：今日新闻 [CycloneSEQ 性能对标 ONT](https://www.biorxiv.org/content/10.64898/2026.01.14.699587v1?rss=1) + 国内测序成本敏感型市场需求
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 健康助手、蛋白质设计、医疗 AI Agent 的最新资讯？
+### 哪里可以获取 AI 蛋白质结构预测、空间转录组学的最新资讯？
 
-今日 AI 生命科学领域的热点包括：谷歌个人智能、开源健康 AI 平台、多智能体蛋白质设计框架。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：DeepMind 个人智能发布、IDPFold2 蛋白质构象预测、DeepSpaceDB 2.0 空间转录组学数据库。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -172,7 +169,7 @@ cascade:
 
 ### 如何体验 Gemini 的个人智能功能？
 
-今日谷歌宣布 Gemini 可以连接 Gmail、Google Photos 等个人数据，提供个性化建议。想要体验这些 AI 工具，但面临支付困难或账号注册限制？
+今日 DeepMind 发布了 Gemini 的"个人智能"功能，可以读取用户的 Gmail、Google Photos 等数据提供个性化建议。想要体验这些 AI 工具，但面临账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
