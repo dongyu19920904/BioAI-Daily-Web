@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Medea 把组学分析从一个月压到几分钟，靶点识别准确率提升 46%，AI 开始接手湿实验室。
-虚拟细胞建模首次建立扩展定律，体外药筛成本可能要变天。
-GitHub 上医疗 Agent 项目扎堆冒头，本地化健康数据管理成了新热点。
+Medea和 PersonaAI 两款组学智能体同日亮相，能自动读论文、提假设、跑验证，AI 副驾驶时代来了。
+CellFluxV2 用流匹配技术把药物筛选的批次噪音剥干净，图像保真度比扩散模型高 77%。
+开源健康工具扎堆上新，数据本地存、隐私自己控，GitHub 星标都在涨。
 ```
 
 
@@ -27,74 +27,86 @@ GitHub 上医疗 Agent 项目扎堆冒头，本地化健康数据管理成了新
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
 
-### **🔑 3个关键词**
-#AI医疗Agent #虚拟细胞建模 #多组学分析
+### **🔑 3 个关键词**
+#AI医疗健康 #蛋白质结构预测 #生物组学分析
 
 ---
 
-## **🔥 重磅 TOP 7**
+## **🔥 重磅 TOP 10**
 
-### [Medea：专为药物发现打造的组学AI Agent](https://www.biorxiv.org/content/10.64898/2026.01.16.696667v1?rss=1)
+### 1. [Medea：专为药物发现打造的 AI 组学智能体](https://www.biorxiv.org/content/10.64898/2026.01.16.696667v1?rss=1)
 
-以前做一个完整的组学分析要多久？从研究设计到文献回顾再到数据验证，没个把月下不来。Medea 把这事儿压缩到了分钟级。这个 AI Agent 整合了 20 个工具，覆盖单细胞转录组、癌症脆弱性图谱、通路数据库和机器学习模型。最狠的是它的"验证-推理-预测"闭环——先从56 万篇衰老相关论文里提假设，再让Agent 自己去单细胞数据里跑验证。在靶点识别、合成致死和免疫治疗响应预测三个任务上，比现有方法分别提升了 46%、22% 和 24%。药物研发的人可以关注下，这可能是 AI 真正进入湿实验室的开端。
-
----
-
-### [CellFluxV2：虚拟细胞建模终于有了扩展定律](https://www.biorxiv.org/content/10.64898/2026.01.19.696785v1?rss=1)
-
-"虚拟细胞"这个概念喊了好多年，但一直卡在批次效应这个老大难问题上。CellFluxV2 用 flow matching 学的是同一批次内、扰动前后的分布级变换，直接把批次效应和真实扰动效果解耦了。图像保真度比扩散模型和 GAN 基线提升最高 77%。更重要的是，这是第一次在虚拟细胞建模里建立了扩展定律——模型越大、数据越多，效果越好，而且能泛化到没见过的扰动。体外药物筛选的成本有望大幅下降。
+以前做靶点发现，得在文献堆里泡上几周，还不一定能找到靠谱的线索。现在 Medea 来了——它能自动读完56 万篇衰老相关论文，自己提假设，再用单细胞 RNA 数据验证。在靶点识别上，比现有方法提升46%。这不是替代科学家，而是给你配了个能读能算的 AI 副驾驶。
 
 ---
 
-### [BiOmics：多组学解读的基础Agent](https://www.biorxiv.org/content/10.64898/2026.01.17.699830v1?rss=1)
+### 2. [CellFluxV2：虚拟细胞模型的图像生成基础模型](https://www.biorxiv.org/content/10.64898/2026.01.19.696785v1?rss=1)
 
-现在的 AI要么是黑箱预测、要么只会检索文献，BiOmics 想两手都抓。它搞了个双轨架构：一条是显式推理空间，负责可解释的逻辑链条；另一条是隐式嵌入空间，处理高维关联。实测在三个任务上都超过了专用算法：发现间接致病变异、无参考细胞注释、以及针对特定数据集的药物重定位。对于天天跟多组学数据打交道的人，这可能是个值得试试的新工具。
-
----
-
-### [Open Health：你的健康数据终于能自己掌控了](https://github.com/OpenHealthForAll/open-health)
-
-3787 星，这个开源项目火得有道理。它干的事很简单但很刚需：把你散落在各个可穿戴设备、体检报告、医疗记录里的数据整合起来，然后用AI 帮你分析。关键是数据存在本地，不用担心隐私泄露。适合那些想认真管理自己健康数据、但又不信任商业平台的人。
+药物筛选最头疼的问题之一：批次效应。不同批次的细胞图像差异大，AI 很容易被带偏。CellFluxV2 用流匹配技术，学会从"正常细胞"到"受扰动细胞"的变化规律，把真正的药物效应和批次噪音分开。图像保真度比扩散模型高 77%，还能做细胞状态插值——离虚拟细胞又近了一步。
 
 ---
 
-### [HealthChain：医疗AI 的中间件终于来了](https://github.com/dotimplement/HealthChain)
+### 3. [BiOmics：多组学自主解读的基础智能体](https://www.biorxiv.org/content/10.64898/2026.01.17.699830v1?rss=1)
 
-医疗 AI 落地为什么这么难？一个被忽视的原因是缺少连接模型和临床系统的中间层。HealthChain 就是来填这个坑的——它处理数据格式转换、合规校验、审计日志这些脏活累活，让开发者专注于模型本身。对于想把 AI 模型部署到医院的团队，这个开源项目可以省掉大量重复劳动。
-
----
-
-### [WellAlly：Claude 加持的智能健康助手](https://github.com/huifer/WellAlly-health)
-
-634 星的项目，把 Claude 和医疗专业知识结合起来。用自然语言就能记录症状、管理药物、追踪病历，还能做多学科会诊分析。虽然不能替代真正的医生，但作为日常健康管理的辅助工具，体验相当丝滑。
+现有的 AI 工具要么是"黑盒子"，要么只会简单查文献。BiOmics 不一样——它有双轨架构：一条用知识图谱做显式推理，另一条在高维嵌入空间里找关联。能做到什么？发现间接致病变异、无参考细胞注释、药物重定位排序。从"拟合数据"升级到"知识驱动解读"。
 
 ---
 
-### [AI 医疗 Agent 资源大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
+### 4. [PersonaAI：衰老研究的交互式 AI 共同科学家](https://www.biorxiv.org/content/10.64898/2026.01.16.699755v1?rss=1)
 
-561 星的 Awesome 列表，把医疗领域的 AI Agent 最新进展整理得明明白白。从论文到开源项目到商业产品，一网打尽。想入门或者追踪这个领域动态的，收藏这一个就够了。
+衰老机制研究难在哪？细胞异质性高、数据量爆炸、文献读不完。PersonaAI 把56 万篇论文装进大脑，用 RAG 提假设，再让自主智能体跑单细胞数据验证。最酷的是：限制它只能读 2020 年前的文献，结果它自己推出了 2021 年后才发表的发现。这叫真推理，不是复读机。
+
+---
+
+### 5. [eTRex：全癌种转录调控因子功能图谱](https://www.biorxiv.org/content/10.64898/2026.01.16.699950v1?rss=1)
+
+癌症的本质是基因表达失控，而转录调控因子是幕后推手。eTRex 分析了 4819 个癌症相关 ATAC-seq 数据集，画出了一张保留"上下文特异性"的泛癌图谱。用 CRISPR 筛选和突变数据验证后，有些 AlphaMissense 判错的变异，它给纠正过来了。网页版已开放，药物靶点优先排序可以用起来。
+
+---
+
+### 6. [人脑理解语言的方式，竟然和 GPT 很像](https://www.sciencedaily.com/releases/2026/01/260120000308.htm)
+
+科学家让人听长播客，同时扫描大脑活动，发现了一件有趣的事：人脑理解语言的过程是"逐层展开"的，像极了 GPT 类大模型的分层处理机制。这研究不是要证明"人脑等于 AI"，而是给神经科学和AI 搭了座桥——或许能反过来启发更好的语言模型设计。
+
+---
+
+### 7. [OpenHealth：你的 AI 健康助手，数据自己掌控](https://github.com/OpenHealthForAll/open-health)
+
+市面上健康 App 一大堆，但数据都存在别人服务器上。OpenHealth 是开源的，数据本地存。结合 AI 给你个性化健康建议，隐私党可以放心用。GitHub 星标已破 3700，说明大家真的很需要这种"数据主权在我"的健康工具。
+
+---
+
+### 8. [Awesome AI Agents for Healthcare资源合集](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
+
+如果你想了解 AI 智能体在医疗健康领域的最新进展，这个GitHub 仓库值得收藏。收录了各类 Agent 框架、论文、工具，更新频繁。562 星，社区活跃度不错。适合产品经理找灵感、研究者跟踪前沿。
+
+---
+
+### 9. [HealthChain：医疗 AI 的中间件层](https://github.com/dotimplement/HealthChain)
+
+医疗 AI 落地最大的障碍不是模型不够强，而是集成太复杂——数据格式不统一、合规要求高、系统对接难。HealthChain 定位"缺失的中间件层"，帮你把 AI 能力嵌入现有医疗系统。176 星还在早期，但切的痛点很准。
+
+---
+
+### 10. [DeepPurpose：药物-靶点相互作用深度学习工具包](https://github.com/kexinhuang12345/DeepPurpose)
+
+做AI 制药的同学应该不陌生，这个工具包覆盖了药物-靶点相互作用（DTI）、药物性质预测、蛋白质功能预测等多个任务。1120 星，文档齐全。想快速搭建药物发现 pipeline 的，拿来就能用。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [Open Wearables](https://github.com/the-momentum/open-wearables) - 把所有可穿戴设备数据统一成一个 AI-ready API，自托管，395 星
+**[产品]** [SparkyFitness：家庭健康追踪 AI 工具](https://github.com/CodeWithCJ/SparkyFitness) - 全家一起记录饮食、运动、饮水，AI驱动，2000+ 星说明需求真实存在
 
-**[产品]** [SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) - 全家一起用的 AI 健康追踪，食物、运动、饮水一站式管理，2020 星
+**[产品]** [WellAlly-Health：Claude驱动的智能健康助手](https://github.com/huifer/WellAlly-health) - 症状记录、用药管理、多学科会诊分析，中文友好
 
-**[研究]** [SemiBin](https://github.com/BigDataBiology/SemiBin) - 用自监督深度学习做宏基因组分箱，比传统方法准确率高不少
+**[研究]** [SemiBin：宏基因组分
 
-**[研究]** [DeepPurpose](https://github.com/kexinhuang12345/DeepPurpose) - 药物-靶点相互作用预测工具包，1120 星，生信方向的老牌项目
+## **😄 AI生命科学趣闻**
+暂无合适内容
 
-**[研究]** [ProteinFlow](https://github.com/adaptyvbio/ProteinFlow) - 蛋白质结构数据处理流水线，专为深度学习应用设计
+## **🔮 AI生命科学趋势预测**
+暂无合适内容
 
----
-
-## **📊 更多动态**
-
-| 类型 | 标题 | 链接 |
-|------|------|------|
-| 研究 | 空间转录组分割误差的影响与校正 | [Nature Genetics](https://www.nature.com/articles/s41588-025-02497-4) |
-| 研究 | 用可解释 KAN 网络预测酶分类号| [Nature](https://www.nature.com/articles/s44387-025-00059-x) |
-| 研究 | 统计遗传学的AI 协作科学家 | [Nature Genetics](https://www.nature.com/articles/s41588-025-02487-6) |
-| 研究 | 基于 3D 基因组筛选 circRNA 的AML 机器学习预测 | [npj Systems Biology](https://www.nature.
+## **❓相关问题**
+暂无合适内容
