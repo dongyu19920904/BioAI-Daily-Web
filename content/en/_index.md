@@ -56,7 +56,7 @@ MYC is an infamous oncogene, but how does it help cancer cells evade the immune 
 Enzyme catalytic efficiency (kcat) is a key parameter in drug design and industrial biotechnology, but traditional methods struggle to predict it accurately. **This research developed an AI model based on residue-aware attention mechanisms, combined with pre-trained protein representations (similar to BERT in NLP), significantly improving kcat prediction accuracy.** It's like equipping AI with a "microscope" so it can see how each amino acid residue contributes to enzyme activity. This technology can accelerate enzyme engineering and drug design, helping scientists find the "perfect enzyme" faster.
 
 ### 8. [Single-Cell Genomic Evolution Map of Pancreatic Cancer](https://www.nature.com/articles/s41588-025-02468-9)
-Pancreatic cancer is one of the deadliest cancers, partly because its genome is highly heterogeneous (different cancer cells have different genetic mutations). **This research used single-cell sequencing to map the genomic evolution landscape of pancreatic cancer, revealing how cancer cells "evolve" drug resistance under treatment pressure.** It's like filming an "evolution documentary" of cancer, letting doctors predict which cancer cells might "rebel" and adjust treatment strategies accordingly. Published in *Nature Genetics*, this research provides new tools for precision oncology.
+Pancreatic cancer is one of the deadliest cancers, partly because its genome is highly heterogeneous (different cancer cells have different genetic mutations). **This research used single-cell sequencing to map the genomic evolution of pancreatic cancer, revealing how cancer cells "evolve" drug resistance under treatment pressure.** It's like filming an "evolution documentary" of cancer, letting doctors predict which cancer cells might "rebel" and adjust treatment strategies accordingly. Published in *Nature Genetics*, this research provides new tools for precision oncology.
 
 ### 9. [How AI Becomes Biomedical Research's "Programming Assistant"](https://www.nature.com/articles/s41551-025-01587-2)
 Large language models (LLMs) have already proven their worth in programming, but can they be reliable "data science assistants" in biomedical research? **This review explores how to make LLMs more reliable in biomedical data analysis, including reducing "hallucinations" (AI fabricating non-existent code or results) and validating output accuracy.** It's like equipping AI with a "quality inspector" to ensure generated code won't mislead research. For biologists who aren't coding experts, this could be a game-changer—soon you'll be able to write data analysis scripts just by chatting with AI.
@@ -69,10 +69,10 @@ Glaucoma is the world's second leading cause of blindness, and early prediction 
 ## 📌 Worth Watching
 
 ### [Product]
-- **[cyto: Ultra-Fast Processor for 10x-Flex Single-Cell Sequencing](https://www.biorxiv.org/content/10.64898/2026.01.21.700936v1?rss=1)** - Processes 320,000 cell datasets in just 13 minutes, 16.5x faster than CellRanger, with 2.4x less memory usage. Single-cell sequencing is entering the "billion-cell era," and this tool makes large-scale analysis no longer a dream.
+- **[cyto: Ultra-Fast Processor for 10x-Flex Single-Cell Sequencing](https://www.biorxiv.org/content/10.64898/2026.01.21.700936v1?rss=1)** - Processes 320,000 cell datasets in just 13 minutes, 16.5x faster than CellRanger with 2.4x less memory. Single-cell sequencing is entering the "billion-cell era," and this tool makes large-scale analysis no longer a dream.
 
 ### [Research]
-- **[Pear Pangenome: Uncovering Transcription Factors for Drought Adaptation](https://www.biorxiv.org/content/10.64898/2026.01.20.700718v1?rss=1)** - Built a pangenome from 31 pear species, discovering that drought-adapted pear varieties show selective clearance in transcription factor regions. This provides genetic targets for breeding drought-resistant fruit trees.
+- **[Pear Pangenome: Revealing Transcription Factors for Drought Adaptation](https://www.biorxiv.org/content/10.64898/2026.01.20.700718v1?rss=1)** - Built a pangenome from 31 pear species, discovering that drought-adapted pear varieties show selective clearance in transcription factor regions. This provides genetic targets for breeding drought-resistant fruit trees.
 - **[Machine Learning Predicts Sepsis Prognosis: Lymphocyte Count is Key](https://www.nature.com/articles/s41598-025-33980-x)** - A machine learning model based on lymphocyte counts can predict adverse outcomes in sepsis patients. Simple and practical, this model could become a routine ICU tool.
 
 ---
@@ -80,7 +80,7 @@ Glaucoma is the world's second leading cause of blindness, and early prediction 
 ## 😄 AI Life Sciences Fun Fact
 
 ### [Did AI Ever Predict Proteins as "Spaghetti"?](https://www.nature.com/articles/s42003-026-09551-9)
-While today's news doesn't feature any real "spaghetti" mishaps, the research on AI predicting enzyme activity reminds us: early protein structure prediction AIs did make some hilarious mistakes, like predicting simple proteins as twisted "spaghetti" shapes. Thankfully, today's AI has evolved to accurately predict residue-level enzyme activity—from "spaghetti" to "Michelin three-star," AI's progress is breathtakingly fast. 😂
+While today's news doesn't feature any real "spaghetti" mishaps, the research on AI predicting enzyme activity reminds us: early protein structure prediction AIs did make some hilarious mistakes, like predicting simple proteins as twisted "spaghetti" shapes. Thankfully, today's AI has evolved to accurately predict enzyme activity at the residue level—from "spaghetti" to "Michelin three-star," AI's progress is truly mind-blowing. 😂
 
 ---
 
@@ -94,12 +94,12 @@ While today's news doesn't feature any real "spaghetti" mishaps, the research on
 ### Single-Cell Sequencing Cost Drops to $1 Per Cell
 - **Predicted Timeline**: Q1 2026
 - **Prediction Confidence**: 65%
-- **Rationale**: Today's news on [cyto ultra-fast processor](https://www.biorxiv.org/content/10.64898/2026.01.21.700936v1?rss=1) + dramatic computational cost reduction (31.7x CPU time savings) will push sequencing service providers to lower prices, accelerating single-cell technology adoption.
+- **Rationale**: Today's news on [cyto ultra-fast processor](https://www.biorxiv.org/content/10.64898/2026.01.21.700936v1?rss=1) + dramatic reduction in computational costs (31.7x CPU time reduction) will drive sequencing service providers to lower prices, accelerating single-cell technology adoption.
 
 ### MYC Inhibition-Based Cancer Immunotherapy Gets Approved
 - **Predicted Timeline**: Q2 2026
 - **Prediction Confidence**: 55%
-- **Rationale**: Today's news on [MYC suppressing immune signals](https://www.cell.com/cell/fulltext/S0092-8674(25)01432-1?rss=yes) + MYC is a hot cancer research target with multiple MYC inhibitors in clinical trials; this research provides new theoretical support for immunotherapy applications.
+- **Rationale**: Today's news on [MYC suppressing immune signals](https://www.cell.com/cell/fulltext/S0092-8674(25)01432-1?rss=yes) + MYC is a hot target in cancer research with multiple MYC inhibitors in clinical trials; this research provides new theoretical support for immunotherapy applications.
 
 ---
 
@@ -110,10 +110,10 @@ While today's news doesn't feature any real "spaghetti" mishaps, the research on
 Today's AI life sciences hotspots include: **brain language processing similarities with GPT, cancer alleviating Alzheimer's mechanisms, brain lysosomal proteome mapping**. Want to continuously track cutting-edge developments in **AI + life sciences intersections**?
 
 **Recommended Solution**:
-- **[BioAI Life Sciences Daily](https://news.aibioo.cn)** curates daily AI and life sciences crossover breakthroughs
+- **[BioAI Life Sciences Daily](https://news.aibioo.cn)** curates daily news at the intersection of AI and life sciences
 - Coverage includes: AI drug discovery, protein design, gene editing, medical imaging AI, biological large models, and more
 - Designed for investors, product managers, entrepreneurs, and students interested in BioAI
-- Complex tech explained in everyday language
+- Complex technologies explained in everyday language
 
 Visit [news.aibioo.cn](https://news.aibioo.cn) to subscribe to daily AI life sciences updates.
 
@@ -128,4 +128,4 @@ Today's news mentions that **large language models (LLMs) are becoming "programm
 - Lightning-fast delivery, ready to use upon purchase, no overseas payment hassles
 - Stable dedicated accounts with reliable after-sales support
 
-Visit [aivora.cn](https://aivora.cn) to see the complete AI account service lineup.
+Visit [aivora.cn](https://aivora.cn) to see the complete list of AI account services.
