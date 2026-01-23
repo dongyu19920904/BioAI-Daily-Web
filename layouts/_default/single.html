@@ -11,8 +11,44 @@
         <div class="content">
           {{ .Content }}
         </div>
+
+        <div class="hx:mt-8 hx:flex hx:flex-col hx:gap-3 hx:sm:flex-row hx:sm:justify-between">
+          {{ with .PrevInSection }}
+            <a class="hx:rounded-xl hx:border hx:border-gray-200/70 hx:bg-white/60 hx:px-4 hx:py-3 hx:text-sm hx:transition hover:hx:border-primary-300 hover:hx:shadow-sm hx:dark:border-neutral-800 hx:dark:bg-neutral-900/60" href="{{ .RelPermalink }}">
+              <div class="hx:text-xs hx:text-gray-500">ÉÏÒ»ÆÚ</div>
+              <div class="hx:mt-1 hx:font-semibold">{{ .Title }}</div>
+            </a>
+          {{ end }}
+          {{ with .NextInSection }}
+            <a class="hx:rounded-xl hx:border hx:border-gray-200/70 hx:bg-white/60 hx:px-4 hx:py-3 hx:text-sm hx:transition hover:hx:border-primary-300 hover:hx:shadow-sm hx:dark:border-neutral-800 hx:dark:bg-neutral-900/60 hx:sm:text-right" href="{{ .RelPermalink }}">
+              <div class="hx:text-xs hx:text-gray-500">ÏÂÒ»ÆÚ</div>
+              <div class="hx:mt-1 hx:font-semibold">{{ .Title }}</div>
+            </a>
+          {{ end }}
+        </div>
+
+        {{ $related := where (where site.RegularPages "Section" .Section) "RelPermalink" "ne" .RelPermalink }}
+        {{ $related = first 3 $related }}
+        {{ if gt (len $related) 0 }}
+          <div class="hx:mt-8 hx:rounded-xl hx:border hx:border-gray-200/70 hx:bg-white/60 hx:p-4 hx:dark:border-neutral-800 hx:dark:bg-neutral-900/40">
+            <div class="hx:flex hx:items-center hx:justify-between hx:gap-2">
+              <h2 class="hx:text-base hx:font-semibold">ÍÆ¼öÔÄ¶Á</h2>
+              <a class="hx:text-sm hx:text-gray-600 hover:hx:text-primary-600" href="{{ "/" | relLangURL }}">¸ü¶àÈÕ±¨ ¡ú</a>
+            </div>
+            <ul class="hx:mt-3 hx:grid hx:gap-3 hx:md:grid-cols-3">
+              {{ range $related }}
+                <li class="hx:rounded-lg hx:border hx:border-gray-200/70 hx:bg-white hx:p-3 hx:transition hover:hx:border-primary-300 hover:hx:shadow-sm hx:dark:border-neutral-800 hx:dark:bg-neutral-900/60">
+                  <a class="hx:block" href="{{ .RelPermalink }}">
+                    <div class="hx:text-xs hx:text-gray-500">{{ .Date.Format "2006/01/02" }}</div>
+                    <div class="hx:mt-1 hx:text-sm hx:font-semibold">{{ .Title }}</div>
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
         
-        {{/* çˆ±çªå•¦æ¨å¹¿æ¨¡å— */}}
+        {{/* çˆ±çªå•¦æ¨å¹¿æ¨¡å?*/}}
         {{ partial "custom/aivora-promo.html" . }}
 
         <div class="hx:mt-16"></div>

@@ -34,6 +34,14 @@ menu:
       name: BioAI日报
       pageRef: /
       weight: 1
+    - identifier: personal-home
+      name: ������ҳ
+      weight: 2
+      url: "https://yuyu.aivora.cn"
+    - identifier: ai-daily
+      name: AI�ձ�
+      weight: 2.5
+      url: "https://news.aivora.cn"
     - identifier: about
       name: 关于
       pageRef: /about
@@ -41,8 +49,7 @@ menu:
 
 params:
   la51Id: "3OeesViIrmuFMAz4"
-  description: 每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。
-  descriptionEn: Daily AI + Life Science news and insights, tracking biotech, gene editing, protein prediction, and AI-assisted drug discovery.
+  description: 每日自动汇�?AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展�?  descriptionEn: Daily AI + Life Science news and insights, tracking biotech, gene editing, protein prediction, and AI-assisted drug discovery.
   navbar:
     displayLogo: false
     displayTitle: true
@@ -88,8 +95,7 @@ languages:
   zh:
     languageCode: zh-CN
     contentDir: content/cn
-    languageName: 简体中文
-    weight: 1
+    languageName: 简体中�?    weight: 1
   en:
     contentDir: content/en
     languageName: English
