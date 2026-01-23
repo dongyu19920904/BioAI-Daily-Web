@@ -2,130 +2,134 @@
 linkTitle: BioAI 生命科学日报
 title: BioAI 生命科学日报 2026/1/23
 breadcrumbs: false
-next: /en/2026-01/2026-01-23
-description: Daily AI + Life Science news and insights, tracking biotech, gene editing,
-  protein prediction, and AI-assisted drug discovery.
+next: /2026-01/2026-01-23
+description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
 ---
-# Daily Summary
+
+## **今日摘要**
 
 ```
-The human brain processes language in exactly the same way as GPT—neuroscientists confirmed this through a podcast experiment.
-Proteins secreted by cancer activate the brain's "cleaning crew" to clear Alzheimer's plaques; Cell published three groundbreaking papers.
-AI is redefining how we understand disease—biomedical researchers should pay attention to this breakthrough at the intersection of neuroscience and immunology.
+人脑处理语言的方式竟然和 GPT 一模一样，神经科学家用播客实验证实了这一点。
+癌症分泌的蛋白能激活大脑"清洁工"清除阿尔茨海默病斑块，Cell 连发三篇重磅论文。
+AI 正在重新定义我们理解疾病的方式，生物医学研究者该关注这波神经科学 + 免疫学的交叉突破了。
 ```
 
-## ⚡ Quick Navigation
 
-- [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head over to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, hassle-free support.
+## ⚡ 快速导航
 
-# Today's AI Life Sciences News
+- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-## 👀 One-Liner
-**AI is redefining how we understand the brain and disease—from neuroscience breakthroughs to cancer treatment, today's discoveries are reshaping what "intelligence" really means.**
 
-## 🔑 3 Key Hashtags
-#NeuroAI #CancerImmunology #Proteomics
 
----
+> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## 🔥 Top 10 Highlights
+# 今日 AI 生命科学资讯
 
-### 1. [The Human Brain Understands Language the Same Way GPT Does?](https://www.sciencedaily.com/releases/2026/01/260120000308.htm)
-Scientists tracked brain activity while people listened to podcasts and discovered something mind-blowing: **the human brain processes language the same way large language models like GPT do—layer by layer, step by step, building meaning progressively.** This isn't AI mimicking the brain; it's more like both are solving the same problem using similar "algorithms." This finding could rewrite our understanding of consciousness and intelligence, and it shows just how valuable AI can be in neuroscience research. Next time you chat with ChatGPT, think about it: your brain (or neural network) might be "thinking" in the exact same way.
+## 👀 只有一句话
+**AI 正在重新定义我们理解大脑和疾病的方式——从神经科学到癌症治疗，今天的突破让人重新思考"智能"的边界。**
 
-### 2. [Can Cancer Actually "Treat" Alzheimer's Disease?](https://www.cell.com/cell/fulltext/S0092-8674(25)01433-3?rss=yes)
-This sounds like science fiction, but research shows: **peripheral cancer (cancer in other parts of the body) can secrete a protein called Cystatin-C that activates microglia (the brain's "cleaning crew"), enabling them to clear Alzheimer's amyloid plaques and even improve cognitive function.** This doesn't mean cancer is good—it means we've discovered a completely new therapeutic angle: can we mimic this "side effect" of cancer to develop new Alzheimer's treatments? Published in the top-tier journal *Cell*, this research could spark a wave of new drug development.
-
-### 3. [Brain Lysosomal Proteome Map: Uncovering the Truth About Lysosomal Storage Diseases](https://www.cell.com/cell/fulltext/S0092-8674(25)01425-4?rss=yes)
-Lysosomes—the cell's "waste disposal station"—when they malfunction, cause a range of rare diseases. But we didn't know which proteins work in which brain cell lysosomes. **This research mapped the lysosomal proteome of major brain cell types and discovered that SLC45A1 is a neuron-specific lysosomal glucose transporter—mutations in it cause lysosomal storage disease.** It's like giving doctors a "staff roster" of brain lysosomes; now when diagnosing rare diseases, they can match symptoms directly to the culprit. Also published in *Cell*, this research provides new tools for precision medicine.
-
-### 4. [Ebola's "Evolution Secret": How One Mutation Dominated an Outbreak](https://www.cell.com/cell/fulltext/S0092-8674(25)01435-7?rss=yes)
-During the 2018-2020 Ebola outbreak, a viral mutation called V75A rapidly became dominant. **Research shows this mutation makes the virus's glycoprotein (the virus's "key") better at unlocking human cell "locks," dramatically increasing infectivity.** This not only explains why this mutation won out during the outbreak, but also provides targets for future vaccine and drug design. Next time an epidemic hits, we might be able to identify "dangerous mutations" faster and prepare defenses in advance.
-
-### 5. [Why Do Facial Scars Heal Better Than Scars on the Rest of Your Body?](https://www.cell.com/cell/fulltext/S0092-8674(25)01427-8?rss=yes)
-Ever notice that facial wounds heal with fewer scars than wounds elsewhere on your body? **Research found that facial fibroblasts (cells responsible for wound healing) originate from the neural crest (a special cell population during embryonic development), and they upregulate the SLIT2-ROBO2 signaling pathway—a "specialty" of neural crest cells that promotes wound healing while reducing fibrosis (scar formation).** This discovery could lead to new anti-scarring therapies, like using drugs to activate the SLIT2-ROBO2 pathway so wounds on other body parts heal as "seamlessly" as facial wounds.
-
-### 6. [MYC Protein: Cancer's "Immune Escape Master"](https://www.cell.com/cell/fulltext/S0092-8674(25)01432-1?rss=yes)
-MYC is an infamous oncogene, but how does it help cancer cells evade the immune system? **Research shows MYC suppresses R-loops (RNA-DNA hybrid structures) by binding nascent RNA, preventing these RNA molecules from leaking into the cytoplasm and triggering immune responses.** In simple terms, MYC is like a "fire extinguisher" that snuffs out potential immune alarm triggers before they ignite. This mechanism offers new ideas for developing cancer immunotherapies: can we block MYC's function and force cancer cells back into the immune system's "radar"?
-
-### 7. [AI Predicts Enzyme Activity: Breakthrough in Residue-Aware Attention Mechanisms](https://www.nature.com/articles/s42003-026-09551-9)
-Enzyme catalytic efficiency (kcat) is a key parameter in drug design and industrial biotechnology, but traditional methods struggle to predict it accurately. **This research developed an AI model based on residue-aware attention mechanisms, combined with pre-trained protein representations (similar to BERT in NLP), significantly improving kcat prediction accuracy.** It's like equipping AI with a "microscope" so it can see how each amino acid residue contributes to enzyme activity. This technology can accelerate enzyme engineering and drug design, helping scientists find the "perfect enzyme" faster.
-
-### 8. [Single-Cell Genomic Evolution Map of Pancreatic Cancer](https://www.nature.com/articles/s41588-025-02468-9)
-Pancreatic cancer is one of the deadliest cancers, partly because its genome is highly heterogeneous (different cancer cells have different genetic mutations). **This research used single-cell sequencing to map the genomic evolution of pancreatic cancer, revealing how cancer cells "evolve" drug resistance under treatment pressure.** It's like filming an "evolution documentary" of cancer, letting doctors predict which cancer cells might "rebel" and adjust treatment strategies accordingly. Published in *Nature Genetics*, this research provides new tools for precision oncology.
-
-### 9. [How AI Becomes Biomedical Research's "Programming Assistant"](https://www.nature.com/articles/s41551-025-01587-2)
-Large language models (LLMs) have already proven their worth in programming, but can they be reliable "data science assistants" in biomedical research? **This review explores how to make LLMs more reliable in biomedical data analysis, including reducing "hallucinations" (AI fabricating non-existent code or results) and validating output accuracy.** It's like equipping AI with a "quality inspector" to ensure generated code won't mislead research. For biologists who aren't coding experts, this could be a game-changer—soon you'll be able to write data analysis scripts just by chatting with AI.
-
-### 10. [AI Predicts Glaucoma Progression: How Far From Research to Clinic?](https://www.nature.com/articles/s41746-025-02321-7)
-Glaucoma is the world's second leading cause of blindness, and early prediction of disease progression is crucial for treatment. **This systematic review analyzed AI applications in glaucoma progression prediction, identifying current research challenges (like dataset bias and poor model interpretability) and clinical implementation recommendations.** It's like drawing a "roadmap" for AI medical applications, telling researchers which pitfalls to avoid and which paths to take. While AI has shown promise in glaucoma prediction, true clinical adoption still requires more high-quality research and regulatory support.
+## 🔑 3 个关键词
+#神经科学AI #癌症免疫 #蛋白质组学
 
 ---
 
-## 📌 Worth Watching
+## 🔥 重磅 TOP 10
 
-### [Product]
-- **[cyto: Ultra-Fast Processor for 10x-Flex Single-Cell Sequencing](https://www.biorxiv.org/content/10.64898/2026.01.21.700936v1?rss=1)** - Processes 320,000 cell datasets in just 13 minutes, 16.5x faster than CellRanger with 2.4x less memory. Single-cell sequencing is entering the "billion-cell era," and this tool makes large-scale analysis no longer a dream.
+### 1. [人脑理解语言的方式竟然和 GPT 一样？](https://www.sciencedaily.com/releases/2026/01/260120000308.htm)
+科学家追踪了人们听播客时的大脑活动，发现了一个惊人的事实：**人脑处理语言的方式，和 GPT 这类大语言模型几乎一模一样——都是逐层展开、逐步理解意义。** 这不是说 AI 模仿了人脑，而是两者可能在用相似的"算法"解决同一个问题。这个发现可能会改写我们对意识和智能的理解，也让 AI 在神经科学研究中的价值更加凸显。下次你和 ChatGPT 聊天时，想想：你俩的大脑（或神经网络）可能在用同一种方式"思考"。
 
-### [Research]
-- **[Pear Pangenome: Revealing Transcription Factors for Drought Adaptation](https://www.biorxiv.org/content/10.64898/2026.01.20.700718v1?rss=1)** - Built a pangenome from 31 pear species, discovering that drought-adapted pear varieties show selective clearance in transcription factor regions. This provides genetic targets for breeding drought-resistant fruit trees.
-- **[Machine Learning Predicts Sepsis Prognosis: Lymphocyte Count is Key](https://www.nature.com/articles/s41598-025-33980-x)** - A machine learning model based on lymphocyte counts can predict adverse outcomes in sepsis patients. Simple and practical, this model could become a routine ICU tool.
+### 2. [癌症竟然能"治疗"阿尔茨海默病？](https://www.cell.com/cell/fulltext/S0092-8674(25)01433-3?rss=yes)
+这听起来像科幻小说，但研究发现：**外周癌症（身体其他部位的癌症）能通过分泌一种叫 Cystatin-C 的蛋白质，激活大脑中的小胶质细胞（大脑的"清洁工"），让它们清除阿尔茨海默病的淀粉样蛋白斑块，甚至改善认知功能。** 这不是说癌症是好事，而是揭示了一个全新的治疗思路：能否模拟癌症的这种"副作用"，开发出治疗阿尔茨海默病的新药？这项研究发表在顶级期刊 *Cell* 上，可能会引发一波新的药物研发热潮。
 
----
+### 3. [大脑蛋白质组学地图：揭开溶酶体疾病的真相](https://www.cell.com/cell/fulltext/S0092-8674(25)01425-4?rss=yes)
+溶酶体（细胞的"垃圾处理站"）出问题，会导致一系列罕见病。但过去我们不知道哪些蛋白质在哪些脑细胞的溶酶体里工作。**这项研究绘制了大脑主要细胞类型的溶酶体蛋白质图谱，并发现 SLC45A1 是一个神经元特异性的溶酶体糖转运蛋白——它的突变会导致溶酶体储存病。** 这就像给医生一张"大脑溶酶体员工花名册"，以后诊断罕见病时，可以直接对号入座。这项研究也发表在 *Cell* 上，为精准医疗提供了新工具。
 
-## 😄 AI Life Sciences Fun Fact
+### 4. [埃博拉病毒的"进化秘密"：一个突变如何主导疫情](https://www.cell.com/cell/fulltext/S0092-8674(25)01435-7?rss=yes)
+2018-2020 年的埃博拉疫情中，一个叫 V75A 的病毒突变迅速占据主导地位。**研究发现，这个突变让病毒的糖蛋白（病毒的"钥匙"）更容易打开人体细胞的"锁"，感染能力大幅提升。** 这不仅解释了为什么这个突变能在疫情中胜出，也为未来的疫苗和药物设计提供了靶点。下次疫情来临时，我们或许能更快地识别出"危险突变"，提前布防。
 
-### [Did AI Ever Predict Proteins as "Spaghetti"?](https://www.nature.com/articles/s42003-026-09551-9)
-While today's news doesn't feature any real "spaghetti" mishaps, the research on AI predicting enzyme activity reminds us: early protein structure prediction AIs did make some hilarious mistakes, like predicting simple proteins as twisted "spaghetti" shapes. Thankfully, today's AI has evolved to accurately predict enzyme activity at the residue level—from "spaghetti" to "Michelin three-star," AI's progress is truly mind-blowing. 😂
+### 5. [为什么脸上的伤疤比身体其他部位少？](https://www.cell.com/cell/fulltext/S0092-8674(25)01427-8?rss=yes)
+你有没有注意到，脸上的伤口愈合后，疤痕往往比身体其他部位少？**研究发现，面部的成纤维细胞（负责伤口愈合的细胞）来自神经嵴（胚胎发育时的一种特殊细胞），它们会上调 SLIT2-ROBO2 信号通路——这是神经嵴细胞的"老本行"，能促进伤口愈合的同时减少纤维化（疤痕形成）。** 这个发现可能会催生新的抗疤痕疗法，比如用药物激活 SLIT2-ROBO2 通路，让身体其他部位的伤口也能像脸一样"无痕愈合"。
 
----
+### 6. [MYC 蛋白：癌症的"免疫逃逸大师"](https://www.cell.com/cell/fulltext/S0092-8674(25)01432-1?rss=yes)
+MYC 是一个臭名昭著的癌基因，但它是怎么帮助癌细胞逃避免疫系统的？**研究发现，MYC 通过结合新生 RNA，抑制 R-loop（一种 RNA-DNA 杂交结构）产生的异常 RNA，从而阻止这些 RNA 泄漏到细胞质中触发免疫反应。** 简单说，MYC 就像一个"灭火器"，把可能引发免疫警报的"火苗"提前扑灭。这个机制为开发新的癌症免疫疗法提供了思路：能否阻断 MYC 的这个功能，让癌细胞重新暴露在免疫系统的"雷达"下？
 
-## 🔮 AI Life Sciences Trend Predictions
+### 7. [AI 预测酶活性：残基感知注意力机制的突破](https://www.nature.com/articles/s42003-026-09551-9)
+酶的催化效率（kcat）是药物设计和工业生物技术的关键参数，但传统方法很难准确预测。**这项研究开发了一个基于残基感知注意力机制（Residue-Aware Attention）的 AI 模型，结合预训练的蛋白质表示（类似 NLP 中的 BERT），显著提升了 kcat 预测的准确性。** 这就像给 AI 装上了"显微镜"，让它能看清每个氨基酸残基对酶活性的贡献。这项技术可以加速酶工程和药物设计，让科学家更快地找到"完美的酶"。
 
-### AI-Driven Alzheimer's New Drug Enters Clinical Trials
-- **Predicted Timeline**: Q2 2026
-- **Prediction Confidence**: 70%
-- **Rationale**: Today's news on [cancer alleviating Alzheimer's via Cystatin-C](https://www.cell.com/cell/fulltext/S0092-8674(25)01433-3?rss=yes) + the discovery of novel therapeutic targets (TREM2 activation) means multiple pharma companies will likely develop small-molecule drugs or antibody therapies based on this.
+### 8. [胰腺癌的单细胞基因组进化图谱](https://www.nature.com/articles/s41588-025-02468-9)
+胰腺癌是最致命的癌症之一，部分原因是它的基因组高度异质性（不同癌细胞的基因突变不同）。**这项研究用单细胞测序技术，绘制了胰腺癌基因组的进化图谱，揭示了癌细胞如何在治疗压力下"进化"出耐药性。** 这就像给癌症拍了一部"进化纪录片"，让医生能预测哪些癌细胞可能会"叛变"，从而提前调整治疗策略。这项研究发表在 *Nature Genetics* 上，为精准肿瘤学提供了新工具。
 
-### Single-Cell Sequencing Cost Drops to $1 Per Cell
-- **Predicted Timeline**: Q1 2026
-- **Prediction Confidence**: 65%
-- **Rationale**: Today's news on [cyto ultra-fast processor](https://www.biorxiv.org/content/10.64898/2026.01.21.700936v1?rss=1) + dramatic reduction in computational costs (31.7x CPU time reduction) will drive sequencing service providers to lower prices, accelerating single-cell technology adoption.
+### 9. [AI 如何成为生物医学研究的"编程助手"？](https://www.nature.com/articles/s41551-025-01587-2)
+大语言模型（LLM）在编程领域已经大放异彩，但在生物医学研究中，它们能否成为可靠的"数据科学助手"？**这篇综述探讨了如何让 LLM 在生物医学数据分析中更可靠，包括如何减少"幻觉"（AI 编造不存在的代码或结果）、如何验证输出的准确性等。** 这就像给 AI 配了一个"质检员"，确保它生成的代码不会误导研究。对于不擅长编程的生物学家来说，这可能是一个福音——以后写数据分析脚本，只需要和 AI 聊天就行。
 
-### MYC Inhibition-Based Cancer Immunotherapy Gets Approved
-- **Predicted Timeline**: Q2 2026
-- **Prediction Confidence**: 55%
-- **Rationale**: Today's news on [MYC suppressing immune signals](https://www.cell.com/cell/fulltext/S0092-8674(25)01432-1?rss=yes) + MYC is a hot target in cancer research with multiple MYC inhibitors in clinical trials; this research provides new theoretical support for immunotherapy applications.
+### 10. [AI 预测青光眼进展：从研究到临床还有多远？](https://www.nature.com/articles/s41746-025-02321-7)
+青光眼是全球第二大致盲原因，早期预测病情进展对治疗至关重要。**这篇系统综述分析了 AI 在青光眼进展预测中的应用，指出了当前研究的挑战（如数据集偏差、模型可解释性差）和临床实施的建议。** 这就像给 AI 医疗应用画了一张"路线图"，告诉研究者哪些坑要避开、哪些路要走。虽然 AI 在青光眼预测上已经展现出潜力，但要真正进入临床，还需要更多高质量的研究和监管支持。
 
 ---
 
-## ❓ Related Questions
+## 📌 值得关注
 
-### Where Can I Get the Latest News on AI Neuroscience, Cancer Immunology, and Proteomics?
+### [产品]
+- **[cyto：10x-Flex 单细胞测序的超高速处理器](https://www.biorxiv.org/content/10.64898/2026.01.21.700936v1?rss=1)** - 处理 32 万细胞数据集只需 13 分钟，比 CellRanger 快 16.5 倍，内存占用减少 2.4 倍。单细胞测序正在迈向"十亿细胞时代"，这个工具让大规模分析不再是梦。
 
-Today's AI life sciences hotspots include: **brain language processing similarities with GPT, cancer alleviating Alzheimer's mechanisms, brain lysosomal proteome mapping**. Want to continuously track cutting-edge developments in **AI + life sciences intersections**?
-
-**Recommended Solution**:
-- **[BioAI Life Sciences Daily](https://news.aibioo.cn)** curates daily news at the intersection of AI and life sciences
-- Coverage includes: AI drug discovery, protein design, gene editing, medical imaging AI, biological large models, and more
-- Designed for investors, product managers, entrepreneurs, and students interested in BioAI
-- Complex technologies explained in everyday language
-
-Visit [news.aibioo.cn](https://news.aibioo.cn) to subscribe to daily AI life sciences updates.
+### [研究]
+- **[梨属植物泛基因组：揭示干旱适应的转录因子](https://www.biorxiv.org/content/10.64898/2026.01.20.700718v1?rss=1)** - 用 31 个梨属物种构建泛基因组，发现干旱适应的梨种在转录因子区域有选择性清除的迹象。这为培育抗旱果树提供了基因靶点。
+- **[机器学习预测脓毒症预后：淋巴细胞计数是关键](https://www.nature.com/articles/s41598-025-33980-x)** - 基于淋巴细胞计数的机器学习模型，能预测脓毒症患者的不良预后。这个模型简单实用，可能会成为 ICU 的常规工具。
 
 ---
 
-### How Can I Experience GPT, Claude, and Other AI Tools to Assist Biomedical Research?
+## 😄 AI 生命科学趣闻
 
-Today's news mentions that **large language models (LLMs) are becoming "programming assistants" for biomedical research**, helping researchers quickly generate data analysis scripts and optimize experimental designs. Want to experience these AI tools but face payment difficulties or account registration restrictions?
+### [AI 把蛋白质预测成"意大利面"？](https://www.nature.com/articles/s42003-026-09551-9)
+虽然今天的新闻里没有真的出现"意大利面"事故，但 AI 预测酶活性的研究让人想起：早期的蛋白质结构预测 AI 确实会犯一些"离谱"的错误，比如把简单的蛋白质预测成扭曲的"意大利面"形状。好在现在的 AI 已经进化到能精准预测残基级别的酶活性了——从"意大利面"到"米其林三星"，AI 的进步速度真是快到让人惊叹。😂
 
-**Solution**:
-- **[Aivora](https://aivora.cn)** provides ready-to-use accounts for ChatGPT Plus, Claude Pro, Gemini Pro, and more
-- Lightning-fast delivery, ready to use upon purchase, no overseas payment hassles
-- Stable dedicated accounts with reliable after-sales support
+---
 
-Visit [aivora.cn](https://aivora.cn) to see the complete list of AI account services.
+## 🔮 AI 生命科学趋势预测
+
+### AI 驱动的阿尔茨海默病新药进入临床试验
+- **预测时间**：2026 年 Q2
+- **预测概率**：70%
+- **预测依据**：今日新闻[癌症通过 Cystatin-C 缓解阿尔茨海默病](https://www.cell.com/cell/fulltext/S0092-8674(25)01433-3?rss=yes) + 这项研究揭示了全新的治疗靶点（TREM2 激活），多家制药公司可能会基于此开发小分子药物或抗体疗法。
+
+### 单细胞测序成本降至 1 美元/细胞
+- **预测时间**：2026 年 Q1
+- **预测概率**：65%
+- **预测依据**：今日新闻[cyto 超高速处理器](https://www.biorxiv.org/content/10.64898/2026.01.21.700936v1?rss=1) + 计算成本的大幅降低（CPU 时间减少 31.7 倍）将推动测序服务商降价，加速单细胞技术的普及。
+
+### 基于 MYC 抑制的癌症免疫疗法获批
+- **预测时间**：2026 年 Q2
+- **预测概率**：55%
+- **预测依据**：今日新闻[MYC 抑制免疫信号](https://www.cell.com/cell/fulltext/S0092-8674(25)01432-1?rss=yes) + MYC 是癌症研究的热门靶点，多个 MYC 抑制剂已在临床试验中，这项研究为其免疫疗法应用提供了新的理论支持。
+
+---
+
+## ❓ 相关问题
+
+### 哪里可以获取 AI 神经科学、癌症免疫、蛋白质组学 的最新资讯？
+
+今日 AI 生命科学领域的热点包括：**人脑语言处理与 GPT 的相似性、癌症缓解阿尔茨海默病的机制、大脑溶酶体蛋白质组学地图**。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+
+**推荐方案**：
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- 用普通人能理解的语言，解读最前沿的技术进展
+
+访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
+
+---
+
+### 如何体验 GPT、Claude 等 AI 工具来辅助生物医学研究？
+
+今日新闻提到，**大语言模型（LLM）正在成为生物医学研究的"编程助手"**，能帮助研究者快速生成数据分析脚本、优化实验设计。想要体验这些 AI 工具，但面临支付困难或账号注册限制？
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
+- 极速发货，下单即用，无需处理海外支付问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
