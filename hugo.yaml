@@ -1,5 +1,5 @@
-# Hugo configuration file
-title: BioAI 生命科学日报
+﻿# Hugo configuration file
+title: BioAI 鐢熷懡绉戝鏃ユ姤
 baseURL: "https://news.aibioo.cn/"
 
 timezone: Asia/Shanghai
@@ -26,37 +26,37 @@ markup:
 menu:
   main:
     - identifier: search
-      name: 搜索
+      name: 鎼滅储
       weight: 10
       params:
         type: search
     - identifier: documentation
-      name: BioAI日报
+      name: BioAI鏃ユ姤
       pageRef: /
       weight: 1
     - identifier: personal-home
-      name: ������ҳ
+      name: 个人主页
       weight: 2
       url: "https://yuyu.aivora.cn"
     - identifier: ai-daily
-      name: AI�ձ�
+      name: AI日报
       weight: 2.5
       url: "https://news.aivora.cn"
     - identifier: about
-      name: 关于
+      name: 鍏充簬
       pageRef: /about
       weight: 3
 
 params:
   la51Id: "3OeesViIrmuFMAz4"
-  description: 每日自动汇�?AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展�?  descriptionEn: Daily AI + Life Science news and insights, tracking biotech, gene editing, protein prediction, and AI-assisted drug discovery.
+  description: 姣忔棩鑷姩姹囨€?AI + 鐢熷懡绉戝棰嗗煙鏈€鏂板姩鎬侊紝杩借釜鐢熺墿鍖昏嵂銆佸熀鍥犵紪杈戙€佽泲鐧借川棰勬祴銆丄I杈呭姪鑽墿鐮斿彂绛夊墠娌胯繘灞曘€?  descriptionEn: Daily AI + Life Science news and insights, tracking biotech, gene editing, protein prediction, and AI-assisted drug discovery.
   navbar:
     displayLogo: false
     displayTitle: true
 
   author:
     name: "BioAI Daily"
-    bio: "AI + 生命科学每日资讯"
+    bio: "AI + 鐢熷懡绉戝姣忔棩璧勮"
     email: "justlikemaki@qq.com"
 
   displayUpdatedDate: true
@@ -95,9 +95,10 @@ languages:
   zh:
     languageCode: zh-CN
     contentDir: content/cn
-    languageName: 简体中�?    weight: 1
+    languageName: 绠€浣撲腑鏂?    weight: 1
   en:
     contentDir: content/en
     languageName: English
     title: BioAI Daily | AI + Life Science News
     weight: 2
+
