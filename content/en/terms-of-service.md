@@ -18,17 +18,17 @@ The Site provides users with paid subscription content and membership services, 
 ## 2. User Registration & Account
 - Users must provide a valid email address and set a password to register an account.
 - Users are responsible for the security of their account and all activities on it. **Transferring or sharing accounts is prohibited**.
-- The Site reserves the right to **suspend or terminate** a user's account if they violate these terms.
+- The Site reserves the right to **suspend or terminate** user accounts in cases of violation of these terms.
 
 ## 3. Paid Subscription Services
 - Subscription services are billed on a monthly/annual basis, with fees clearly displayed on the checkout page.
 - All payments are processed through third-party payment platforms (such as Stripe or PayPal). The Site does not store your payment information.
 - Subscriptions will **automatically renew** unless you cancel before the end of your current billing cycle.
-- **14-Day Refund Policy**: Users purchasing a subscription for the first time may request a full refund within 14 days of purchase if they are unsatisfied with the service. Please contact us using the email address provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, **no refunds will be issued** unless required by law.
+- **14-Day Refund Policy**: Users purchasing a subscription for the first time may request a full refund within 14 days of purchase if they are unsatisfied with the service. Please contact us via the email address provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, **no refunds will be issued** unless required by law.
 
 ## 4. Content Use & Intellectual Property
 - All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
-- Users receive only a **non-exclusive, non-transferable right to access** the content for personal learning and reading.
+- Users receive only a **non-exclusive, non-transferable right of access** for personal learning and reading purposes.
 - For commercial use or extensive quotation, please contact the Site to obtain authorization.
 
 ## 5. User Conduct Standards
@@ -41,8 +41,8 @@ The Site provides users with paid subscription content and membership services, 
 - If content becomes temporarily inaccessible due to force majeure, server failures, or third-party service interruptions, the Site **assumes no liability for damages**.
 
 ## 7. Disclaimer
-- Information provided by the Site is for reference only and **does not constitute** professional advice (such as financial, legal, or medical advice).
-- The Site **is not responsible** for any direct or indirect losses incurred by users from using the Site's content or services.
+- Information provided by the Site is for reference only and **does not constitute** any professional advice (such as financial, legal, or medical advice).
+- The Site **is not responsible** for any direct or indirect losses incurred by users as a result of using the Site's content or services.
 
 ## 8. Governing Law
 - These Terms of Service are governed by and construed in accordance with the laws of the State of California, USA, without regard to conflict of law principles.
