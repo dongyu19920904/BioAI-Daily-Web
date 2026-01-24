@@ -72,7 +72,7 @@ Smartbands, watches, rings—each one has its own app and data format. Want to a
 
 ### 7. [WellAlly-Health: Claude-Powered Intelligent Health Assistant](https://github.com/huifer/WellAlly-health)
 
-⭐ 646 stars. A health assistant built on Claude AI that logs symptoms, manages meds, tracks medical history, and even does multidisciplinary case analysis. Natural language interface, super low barrier to entry. Great for regular folks who want AI managing their personal health.
+⭐ 646 stars. A health assistant built on Claude AI that logs symptoms, manages meds, tracks medical history, and even does multidisciplinary case analysis. Natural language interface, super low barrier to entry. Great for regular users who want AI managing their personal health.
 
 ---
 
@@ -90,7 +90,7 @@ Anyone building medical AI knows: training the model is just day one. Plugging i
 
 ### 10. [LLM Clinical Questioning Efficiency Benchmark: How Good Are AI Doctors at Asking Questions?](https://www.nature.com/articles/s41598-026-37022-y)
 
-AI doctors need more than just answers—they need to ask the right questions. This research built a benchmark specifically for evaluating how well large language models conduct clinical interviews. Spoiler: current LLMs have tons of room to improve. Essential reading if you're building an AI diagnostic product.
+AI doctors need more than just answers—they need to ask the right questions. This research built a benchmark specifically for evaluating how well large language models perform at clinical questioning. Spoiler: current LLMs have tons of room to improve. Essential reading if you're building an AI diagnostic product.
 
 ---
 
@@ -108,4 +108,4 @@ AI doctors need more than just answers—they need to ask the right questions. T
 
 **[Open Source]** [DANCE: Deep Learning Library for Single-Cell Analysis](https://github.com/OmicsML/dance) - One-stop toolkit for single-cell AI analysis.
 
-**[Product]** [Hia: AI Dia](text appears to be cut off in original)
+**[Product]** [Hia: AI Diagnostic Assistant](https://www.hia.ai) - Coming soon.
