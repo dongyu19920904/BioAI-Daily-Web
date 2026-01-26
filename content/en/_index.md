@@ -42,25 +42,25 @@ Gene editing just got a new player. Researchers used AI to design potent CRISPR-
 
 ### 2. [Modelling drug-induced cellular perturbation responses with a biologically informed dual-branch transformer](https://www.nature.com/articles/s42256-025-01165-w)
 
-What happens when a drug enters a cell? We used to find out through slow, tedious experiments. Now this dual-branch Transformer model feeds biological knowledge directly into AI to predict how drugs perturb cells. For AI drug discovery, it's like giving drug screening an "X-ray vision."
+What happens when a drug enters a cell? We used to figure that out through slow, tedious experiments. Now this dual-branch Transformer model feeds biological knowledge directly into AI to predict how drugs perturb cells. For AI drug discovery, it's like giving drug screening an "X-ray vision."
 
 ---
 
 ### 3. [Computational design of generalist cyclopropanases with stereodivergent selectivity](https://www.nature.com/articles/s41467-026-68327-1)
 
-Great news for enzyme engineers. A research team used computational methods to design "generalist" cyclopropanases that can precisely control product stereochemistry. In plain English: synthesizing certain drug molecules used to be a gamble, but now AI helps you hit the bullseye every time.
+Great news for enzyme engineers. A research team used computational methods to design "generalist" cyclopropanases that can precisely control the stereochemistry of products. In plain English: synthesizing certain drug molecules used to be a gamble, but now AI helps you hit the bullseye every time.
 
 ---
 
 ### 4. [Multimodal digital biopsy for preoperative prediction of occult peritoneal metastasis in gastric cancer](https://www.nature.com/articles/s41746-025-02268-9)
 
-What's the biggest fear before gastric cancer surgery? Missed peritoneal metastasis. This study uses multimodal AI for "digital biopsy" to predict occult peritoneal metastasis before surgery. For surgeons, it could change surgical decisions; for patients, avoiding one unnecessary surgery is a win.
+What's the biggest fear before gastric cancer surgery? Missed peritoneal metastasis. This study uses multimodal AI for "digital biopsy" to predict occult peritoneal metastasis before surgery. For surgeons, this could change surgical decisions; for patients, avoiding one unnecessary surgery is a win.
 
 ---
 
 ### 5. [Algorithmic antibiotic decision-making in urinary tract infection using prescriber-informed prediction of treatment utility](https://www.nature.com/articles/s41746-026-02369-z)
 
-Antibiotic overuse is a global headache. This algorithm combines doctor prescribing habits to predict the best treatment for urinary tract infections. It's not replacing doctors—it's giving them a "second opinion." Precise medication use, less resistance, this is what AI healthcare should look like.
+Antibiotic overuse is a global headache. This algorithm combines doctor prescribing patterns to predict the best treatment for urinary tract infections. It's not replacing doctors—it's giving them a "second opinion." Precise medication use, less resistance, this is what AI healthcare should look like.
 
 ---
 
@@ -78,9 +78,9 @@ Open-source health AI assistant with 3,788 stars. The standout feature? "Your da
 
 ---
 
-### 8. [WellAlly-health - Intelligent Health Assistant](https://github.com/huifer/WellAlly-health)
+### 8. [WellAlly-health - Smart Health Assistant](https://github.com/huifer/WellAlly-health)
 
-Claude AI combined with a medical expert knowledge base. Tracks symptoms, manages medications, monitors medical history, and even does multidisciplinary consultation analysis. 654 stars, very user-friendly for Chinese speakers. Perfect for anyone wanting to use AI to manage family health.
+Claude AI combined with a medical expert knowledge base. Tracks symptoms, manages medications, monitors medical records, and even does multidisciplinary consultation analysis. 654 stars, very user-friendly for Chinese speakers. Perfect for anyone wanting to use AI to manage family health.
 
 ⭐ 654
 
@@ -94,9 +94,9 @@ The "encyclopedia" of medical AI agents is here. 580 stars, featuring the latest
 
 ---
 
-### 10. [DeepMind Singapore Office Opens with Demis Hassabis in Attendance](https://x.com/demishassabis/status/2015437360167583918)
+### 10. [DeepMind Singapore Office Opens, Demis Hassabis Personally Attends](https://x.com/demishassabis/status/2015437360167583918)
 
-Demis Hassabis met with Singapore officials to announce DeepMind's new Singapore office is officially open—and they're hiring! Singapore's AI ambitions are serious, and DeepMind's choice to set up shop here signals that Asia-Pacific AI life sciences competition is about to heat up.
+Demis Hassabis meets with Singapore officials to announce DeepMind's Singapore office is officially open—and they're hiring! Singapore's AI ambitions are serious, and DeepMind's choice to set up shop here signals that Asia-Pacific AI life sciences competition is about to heat up.
 
 ![Tweet Image](https://pbs.twimg.com/media/G_hFgM-WcAAEKD4.jpg)
 
@@ -138,7 +138,7 @@ Demis Hassabis met with Singapore officials to announce DeepMind's new Singapore
 
 ### [AI Creativity Showdown: 100,000 Humans vs GPT-4—Results Are Surprising](https://www.sciencedaily.com/releases/2026/01/260125083356.htm)
 
-Researchers pitted GPT-4 against 100,000 people in a creativity contest, and AI beat the "average person." But don't panic—the top 10% of creative humans? AI still can't catch up. Especially with poetry and storytelling, AI still falls short. So if you're average, maybe worry a bit; if you're a genius, keep relaxing. 😂
+Researchers pitted GPT-4 against 100,000 people in a creativity contest, and AI beat the "average person." But don't panic—the top 10% of creative humans? AI still can't touch them. Especially when it comes to poetry and storytelling, AI falls short. So if you're average, maybe worry a bit; if you're a genius, keep chilling. 😂
 
 ---
 
@@ -147,12 +147,12 @@ Researchers pitted GPT-4 against 100,000 people in a creativity contest, and AI 
 ### CRISPR Inhibitors Enter Preclinical Research
 - **Predicted Timeline**: Q2 2026
 - **Prediction Confidence**: 70%
-- **Rationale**: Today's news on [De novo design of potent CRISPR–Cas13 inhibitors](https://www.nature.com/articles/s41589-025-02136-3) shows AI-designed potent inhibitors; following typical academic-to-industry timelines, preclinical research should launch within six months
+- **Rationale**: Today's news on [De novo design of potent CRISPR–Cas13 inhibitors](https://www.nature.com/articles/s41589-025-02136-3) showcases AI-designed potent inhibitors; following typical academic-to-industry timelines, preclinical research should launch within six months
 
 ### DeepMind Asia-Pacific Life Sciences Projects Announced
 - **Predicted Timeline**: Q1-Q2 2026
 - **Prediction Confidence**: 65%
-- **Rationale**: Today's news on [DeepMind Singapore office opening](https://x.com/demishassabis/status/2015437360167583918) and Singapore government's focus on AI life sciences suggest localized collaboration projects are coming
+- **Rationale**: Today's news on [DeepMind Singapore office opening](https://x.com/demishassabis/status/2015437360167583918) and Singapore government's emphasis on AI life sciences suggest localized collaboration projects are coming
 
 ### Open-Source Medical AI Agent Ecosystem Explodes
 - **Predicted Timeline**: Q1 2026
@@ -186,4 +186,4 @@ Today's news featured the WellAlly-health project, showcasing Claude AI's powerf
 - Lightning-fast delivery, ready to use immediately—no overseas payment hassles
 - Stable dedicated accounts with reliable support
 
-Visit [aivora.cn](https://aivora.cn) to see the complete list of AI account services.
+Visit [aivora.cn](https://aivora.cn) to see the full list of AI account services.

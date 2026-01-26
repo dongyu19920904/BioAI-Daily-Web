@@ -8,7 +8,7 @@ sidebar:
 
 Thanks for stopping by the Aiwoola AI Daily! We'd love to hear your thoughts and feedback.
 
-If you have any questions, partnership opportunities, or need support with AI tool accounts, feel free to reach out through any of the channels below.
+If you have any questions, partnership opportunities, or need support with AI tool accounts, reach out to us through any of the channels below.
 
 ---
 
@@ -18,7 +18,7 @@ If you have any questions, partnership opportunities, or need support with AI to
 
 **WeChat ID: aiwoola**
 
-Add our support team via QR code or search to get help with:
+Add our support team via QR code or search, and get help with:
 - 🛒 AI tool account purchase inquiries
 - 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
@@ -37,7 +37,7 @@ Perfect for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit us to explore:
+Visit our site to explore:
 - Latest account package pricing
 - Terms of service and guarantees
 - User guides and documentation
