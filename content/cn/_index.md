@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/1/27
+title: BioAI 生命科学日报 2026/1/28
 breadcrumbs: false
-next: /2026-01/2026-01-27
+next: /2026-01/2026-01-28
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-AI设计出CRISPR基因编辑的"刹车"，强效抑制剂让基因治疗更安全可控。
-DeepMind新加坡办公室开张，Hassabis亲自站台，亚太AI生命科学竞争升温。
-开源医疗AI项目扎堆冒头，想入局的可以从GitHub上那几个千星项目开始。
+AAV基因治疗突破包装极限，大基因终于能塞进病毒载体了，遗传病治疗迎来新曙光。
+AI免疫图谱、单细胞降噪工具扎堆发布，生物数据分析正在变得更聪明。
+基因治疗和免疫研究的人今天必看前两条，技术天花板正在被捅破。
 ```
 
 
@@ -29,98 +29,72 @@ DeepMind新加坡办公室开张，Hassabis亲自站台，亚太AI生命科学�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-DeepMind 在新加坡开新办公室，Demis Hassabis 亲自站台——AI 生命科学的亚洲版图正在扩张。
+今天最炸的消息：AAV基因治疗突破包装极限，大基因终于能"塞进去"了。
 
 ### **🔑 3 个关键词**
-#AI制药 #蛋白质设计 #健康AI
+#基因治疗 #AI免疫图谱 #单细胞分析
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 7**
 
-### 1. [De novo design of potent CRISPR–Cas13 inhibitors](https://www.nature.com/articles/s41589-025-02136-3)
+### 1. [AAVLINK：基因治疗的"大件快递"终于能发了](https://www.cell.com/cell/fulltext/S0092-8674(25)01488-6?rss=yes)
 
-基因编辑领域迎来新玩家。研究人员用 AI 从头设计出了强效的 CRISPR-Cas13 抑制剂——这意味着什么？以前我们只能"开启"基因编辑，现在终于有了精准的"刹车"。这对基因治疗的安全性是个巨大利好，临床应用又近了一步。
-
----
-
-### 2. [Modelling drug-induced cellular perturbation responses with a biologically informed dual-branch transformer](https://www.nature.com/articles/s42256-025-01165-w)
-
-药物进入细胞后会发生什么？以前只能做实验慢慢试。现在这个双分支 Transformer 模型，把生物学知识直接"喂"给 AI，预测药物对细胞的扰动效应。对 AI 制药来说，这相当于给新药筛选装上了"透视眼"。
+做基因治疗的人都知道一个痛：AAV病毒载体太小，大基因根本塞不进去。就像你想用信封寄一台电脑——不可能。现在Cell发了个重磅：AAVLINK系统用DNA重组技术，把大基因"拆成零件"分批寄送，到了细胞里再组装。Dravet综合征、Phelan-McDermid综合征这些以前没法治的遗传病，终于看到曙光了。基因治疗的天花板，被捅破了一个洞。
 
 ---
 
-### 3. [Computational design of generalist cyclopropanases with stereodivergent selectivity](https://www.nature.com/articles/s41467-026-68327-1)
+### 2. [AI构建免疫细胞知识图谱ICKG，解码免疫程序](https://www.nature.com/articles/s44387-025-00060-4)
 
-酶工程师的福音来了。研究团队用计算方法设计出了"通才型"环丙烷化酶，能精准控制产物的立体构型。翻译成人话：以前合成某些药物分子像开盲盒，现在 AI 帮你指哪打哪。
-
----
-
-### 4. [Multimodal digital biopsy for preoperative prediction of occult peritoneal metastasis in gastric cancer](https://www.nature.com/articles/s41746-025-02268-9)
-
-胃癌手术前最怕什么？腹膜转移没查出来。这项研究用多模态 AI 做"数字活检"，术前就能预测隐匿性腹膜转移。对外科医生来说，这可能改变手术决策；对患者来说，少挨一刀就是福。
+免疫系统复杂到什么程度？几百种细胞、上万个基因、无数种状态组合。以前研究免疫，就像盲人摸象。这篇Nature子刊用AI构建了一个"免疫细胞知识图谱"（ICKG），把免疫细胞的各种状态、功能、相互作用全部串起来。最厉害的是它能解释免疫程序——为什么这个细胞在这个时候做这件事。做肿瘤免疫、自身免疫研究的，这个工具值得收藏。
 
 ---
 
-### 5. [Algorithmic antibiotic decision-making in urinary tract infection using prescriber-informed prediction of treatment utility](https://www.nature.com/articles/s41746-026-02369-z)
+### 3. [ESFS：单细胞数据里的"降噪神器"](https://www.biorxiv.org/content/10.64898/2026.01.26.701684v1?rss=1)
 
-抗生素滥用是全球难题。这个算法结合医生的处方习惯，预测尿路感染的最佳用药方案。不是取代医生，而是给医生一个"第二意见"。精准用药，减少耐药性，这才是 AI 医疗该有的样子。
-
----
-
-### 6. [The future of mathematical oncology in the age of AI](https://www.nature.com/articles/s41540-026-00656-9)
-
-肿瘤学遇上 AI 会怎样？这篇综述给出了路线图：从数学建模到 AI 预测，癌症治疗正在从"经验医学"走向"精准医学"。如果你想了解 AI 肿瘤学的未来，这篇必读。
+单细胞测序数据噪音大，这是公认的痛点。传统方法要么靠插补（容易引入假信号），要么靠降维（丢失信息）。ESFS另辟蹊径：直接在基因表达空间里筛选特征，不做任何"美颜"处理。结果呢？在人类胚胎、小鼠结肠、胶质母细胞瘤等8个数据集上，都挖出了传统方法漏掉的生物学信号。做单细胞分析的，可以试试这个新武器。
 
 ---
 
-### 7. [OpenHealth - AI Health Assistant | Powered by Your Data](https://github.com/OpenHealthForAll/open-health)
+### 4. [器官贴合的"折纸"生物电子贴片，精准递送基因](https://www.cell.com/cell/fulltext/S0092-8674(25)01434-5?rss=yes)
 
-开源健康 AI 助手，3788 星。亮点在于"你的数据你做主"——所有健康数据本地存储，AI 分析完全在你自己的设备上跑。隐私党狂喜。想搭建个人健康管理系统的，可以直接上手。
-
-⭐ 3788
+基因治疗最怕什么？脱靶。你想治肝脏，结果药跑到心脏去了。这篇Cell用剪纸（kirigami）结构设计了一种生物电子贴片POCKET，能像保鲜膜一样完美贴合器官表面，然后用电场把药物精准送进细胞。零脱靶效应。这不是科幻，是真的做出来了。器官级别的精准递送，以后可能就靠这个了。
 
 ---
 
-### 8. [WellAlly-health - 智能健康助手](https://github.com/huifer/WellAlly-health)
+### 5. [脑瘤MRI分类：多尺度注意力CNN+SVM，准确率再创新高](https://www.nature.com/articles/s41598-026-36164-3)
 
-Claude AI + 医学专家知识库的结合体。能记录症状、管理用药、追踪病历，还能做多学科会诊分析。654 星，中文友好。适合想用 AI 管理家人健康的朋友。
-
-⭐ 654
+脑瘤分类一直是医学影像AI的热门赛道。这篇论文把多尺度通道注意力CNN和SVM结合起来，在MRI图像上做脑瘤分类。技术细节不展开，但结果很能打。对于放射科医生来说，这类工具正在从"辅助参考"变成"不可或缺"。
 
 ---
 
-### 9. [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
+### 6. [2型糖尿病的全球分子机制图谱](https://www.nature.com/articles/s42255-025-01444-1)
 
-医疗 AI Agent 的"百科全书"来了。580 星，收录了最新的医疗 AI 智能体研究和应用。想入门医疗 AI Agent？从这个 repo 开始。
-
-⭐ 580
+2型糖尿病影响全球几亿人，但不同人群的发病机制可能完全不同。这篇Nature Metabolism整合了全球多个人群的数据，在疾病相关组织中解析了2型糖尿病的分子机制。简单说：以前我们知道糖尿病是什么，现在开始搞清楚为什么。精准医疗的基础，就是这样一点点搭起来的。
 
 ---
 
-### 10. [DeepMind 新加坡办公室开张，Demis Hassabis 亲自站台](https://x.com/demishassabis/status/2015437360167583918)
+### 7. [心梗背后的"心脑免疫三角"](https://www.cell.com/cell/fulltext/S0092-8674(25)01506-5?rss=yes)
 
-Demis Hassabis 和新加坡部长会面，宣布 DeepMind 新加坡办公室正式开张，而且正在招人！新加坡的 AI 野心不小，DeepMind 选择在这里布局，亚太区的 AI 生命科学竞争要升温了。
-
-![Tweet Image](https://pbs.twimg.com/media/G_hFgM-WcAAEKD4.jpg)
+心梗不只是心脏的事。这篇Cell揭示了一条神经免疫通路：感觉迷走神经→下丘脑室旁核→交感神经上颈神经节，三个节点组成一个"心脑免疫环路"，在心梗中扮演关键角色。这意味着什么？未来治心梗，可能不只是放支架，还要调神经、调免疫。心血管研究的新方向，值得关注。
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [HealthChain - 医疗 AI 中间件](https://github.com/dotimplement/HealthChain) - 医疗 AI 开发者的"瑞士军刀"，填补了中间件空白
+**[开源]** [Open-Wearables](https://github.com/the-momentum/open-wearables) - 自托管平台，把各种可穿戴设备的健康数据统一成一个AI-ready的API，开发者福音
 
-**[开源]** [DeepPurpose - 药物-靶点预测工具包](https://github.com/kexinhuang12345/DeepPurpose) - 1123 星，DTI、DDI、蛋白质功能预测一站式搞定
+**[开源]** [HealthChain](https://github.com/dotimplement/HealthChain) - 医疗AI的中间件层，解决数据流转的痛点
 
-**[开源]** [ProteinFlow - 蛋白质结构数据处理流水线](https://github.com/adaptyvbio/ProteinFlow) - 深度学习做蛋白质设计的必备工具
+**[开源]** [OpenHealth](https://github.com/OpenHealthForAll/open-health) - 3.7k星的AI健康助手，数据完全由你掌控
 
-**[开源]** [SemiBin - 宏基因组分箱工具](https://github.com/BigDataBiology/SemiBin) - 自监督深度学习做微生物组分析
+**[开源]** [ProteinFlow](https://github.com/adaptyvbio/ProteinFlow) - 蛋白质结构数据处理流水线，专为深度学习设计
 
-**[开源]** [ClairS - 长读长体细胞变异检测](https://github.com/HKU-BAL/ClairS) - 港大出品，深度学习检测体细胞小变异
+**[研究]** [空间代谢通量分析揭示肿瘤Warburg效应异质性](https://www.nature.com/articles/s41540-026-00654-x) - 肾肿瘤和结直肠癌的代谢地图
 
-**[研究]** [转座子对果蝇大脑剪接多样性的贡献](https://www.biorxiv.org/content/10.64898/2026.01.22.701052v1?rss=1) - 大脑复杂性的分子基础又有新发现
+**[研究]** [非侵入性表皮采样预测皮肤癌](https://www.nature.com/articles/s41698-026-01302-7) - DNA甲基化+机器学习，皮肤癌筛查新思路
 
-**[研究]** [AI 创造力测试：10 万人 vs GPT-4](https://www.sciencedaily.com/releases/2026/01/260125083356.htm) - AI 能打败普通人，但顶尖创意者仍遥遥领先
+**[工具]** [GLYCAM细菌碳水化合物建模工具](https://www.biorxiv.org/content/10.64898/2026.01.26.700271v1?rss=1) - 细菌糖链3D建模，做糖生物学的可以试试
 
 ---
 
@@ -128,48 +102,39 @@ Demis Hassabis 和新加坡部长会面，宣布 DeepMind 新加坡办公室正�
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 开源 | Lotti - 本地优先的 AI 健康助手 | [链接](https://github.com/matthiasn/lotti) |
-| 2 | 开源 | SparkyFitness - 家庭健康追踪 | [链接](https://github.com/CodeWithCJ/SparkyFitness) |
-| 3 | 开源 | Open-Wearables - 可穿戴数据统一平台 | [链接](https://github.com/the-momentum/open-wearables) |
-| 4 | 开源 | TransformerCPI - 化合物-蛋白质相互作用预测 | [链接](https://github.com/lifanchen-simm/transformerCPI) |
-| 5 | 开源 | DANCE - 单细胞分析深度学习库 | [链接](https://github.com/OmicsML/dance) |
-| 6 | 开源 | DeepMicrobes - 宏基因组分类 | [链接](https://github.com/MicrobeLab/DeepMicrobes) |
-| 7 | 资源 | Awesome Healthcare Datasets | [链接](https://github.com/geniusrise/awesome-healthcare-datasets) |
-
----
-
-## **😄 AI生命科学趣闻**
-
-### [AI 创造力大战：10 万人类 vs GPT-4，结果出人意料](https://www.sciencedaily.com/releases/2026/01/260125083356.htm)
-
-研究人员让 GPT-4 和 10 万人比创造力，结果 AI 打败了"普通人"。但别慌——最有创意的那 10% 人类，AI 还是追不上。尤其是写诗和讲故事，AI 还是差点意思。所以，如果你是普通人，可能要担心了；如果你是天才，继续躺平。😂
+| 1 | 研究 | 机器学习预测HbA1c与血糖关系 | [链接](https://www.nature.com/articles/s41598-025-20234-z) |
+| 2 | 研究 | 空气污染致急性冠脉综合征死亡风险预测 | [链接](https://www.nature.com/articles/s41598-025-15410-0) |
+| 3 | 研究 | 造血谱系分化中的可变剪接功能图谱 | [链接](https://www.nature.com/articles/s41467-026-68811-8) |
+| 4 | 开源 | DeepPurpose：药物-靶点相互作用预测工具包 | [链接](https://github.com/kexinhuang12345/DeepPurpose) |
+| 5 | 开源 | SemiBin：宏基因组分箱深度学习工具 | [链接](https://github.com/BigDataBiology/SemiBin) |
+| 6 | 开源 | DANCE：单细胞分析深度学习库 | [链接](https://github.com/OmicsML/dance) |
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### CRISPR 抑制剂进入临床前研究
+### 基因治疗大基因递送技术将迎来临床验证潮
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻 [De novo design of potent CRISPR–Cas13 inhibitors](https://www.nature.com/articles/s41589-025-02136-3) 展示了 AI 设计的强效抑制剂，按照学术到产业的转化节奏，临床前研究应在半年内启动
+- **预测依据**：今日新闻[AAVLINK系统发表于Cell](https://www.cell.com/cell/fulltext/S0092-8674(25)01488-6?rss=yes) + 多家基因治疗公司已在布局大基因递送管线，技术突破后临床推进将加速
 
-### DeepMind 亚太区生命科学项目公布
+### 免疫细胞图谱类工具将成为肿瘤免疫研究标配
 - **预测时间**：2026年Q1-Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻 [DeepMind 新加坡办公室开张](https://x.com/demishassabis/status/2015437360167583918)，新加坡政府对 AI 生命科学的重视，预计会有本地化合作项目
-
-### 开源医疗 AI Agent 生态爆发
-- **预测时间**：2026年Q1
 - **预测概率**：75%
-- **预测依据**：今日多个医疗 AI 开源项目（OpenHealth 3788星、WellAlly 654星、Awesome-AI-Agents-for-Healthcare 580星）显示社区热度持续上升
+- **预测依据**：今日新闻[AI免疫细胞知识图谱ICKG发布](https://www.nature.com/articles/s44387-025-00060-4) + 单细胞+空间组学数据爆发，急需系统性解读工具
+
+### 可穿戴健康数据开源生态将快速成长
+- **预测时间**：2026年Q1
+- **预测概率**：65%
+- **预测依据**：今日新闻[Open-Wearables获429星](https://github.com/the-momentum/open-wearables) + 健康数据隐私意识提升，自托管方案需求增长
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、CRISPR 基因编辑、医疗 AI 的最新资讯？
+### 哪里可以获取 AI基因治疗/免疫图谱/单细胞分析 的最新资讯？
 
-今日 AI 生命科学领域的热点包括：AI 设计 CRISPR 抑制剂、药物扰动预测模型、胃癌术前 AI 诊断。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：AAVLINK基因治疗突破、AI免疫细胞知识图谱、单细胞数据降噪新方法。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -181,9 +146,9 @@ Demis Hassabis 和新加坡部长会面，宣布 DeepMind 新加坡办公室正�
 
 ---
 
-### 如何体验 Claude AI 等前沿 AI 工具？
+### 如何体验 ChatGPT、Claude 等 AI 工具来辅助生命科学研究？
 
-今日新闻中，WellAlly-health 项目展示了 Claude AI 在医疗健康领域的强大能力。想要体验 Claude 等 AI 工具，但面临支付困难或账号注册限制？
+今天的多篇研究都展示了AI在生命科学中的强大应用——从免疫图谱构建到单细胞数据分析。想要用 ChatGPT 或 Claude 辅助你的研究，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
