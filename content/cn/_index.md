@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/1/28
+title: BioAI 生命科学日报 2026/1/29
 breadcrumbs: false
-next: /2026-01/2026-01-28
+next: /2026-01/2026-01-29
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-AAV基因治疗突破包装极限，大基因终于能塞进病毒载体了，遗传病治疗迎来新曙光。
-AI免疫图谱、单细胞降噪工具扎堆发布，生物数据分析正在变得更聪明。
-基因治疗和免疫研究的人今天必看前两条，技术天花板正在被捅破。
+开源社区爆发，OpenHealth和Open-Wearables让你的健康数据不再被大公司绑架。
+Cell发了tau蛋白降解机制新发现，阿尔茨海默病治疗又多了一个靶点。
+数据自主权正在成为健康AI的新战场，关注前两个开源项目。
 ```
 
 
@@ -29,72 +29,92 @@ AI免疫图谱、单细胞降噪工具扎堆发布，生物数据分析正在变
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-今天最炸的消息：AAV基因治疗突破包装极限，大基因终于能"塞进去"了。
+今天开源社区爆发了：从可穿戴健康数据到AI医疗助手，一大波"数据自主权"项目正在重塑个人健康管理的游戏规则。
 
 ### **🔑 3 个关键词**
-#基因治疗 #AI免疫图谱 #单细胞分析
+#开源健康AI #可穿戴数据 #tau蛋白研究
 
 ---
 
-## **🔥 重磅 TOP 7**
+## **🔥 重磅 TOP 10**
 
-### 1. [AAVLINK：基因治疗的"大件快递"终于能发了](https://www.cell.com/cell/fulltext/S0092-8674(25)01488-6?rss=yes)
+### 1. [OpenHealth：3800星的开源AI健康助手，数据完全归你](https://github.com/OpenHealthForAll/open-health)
 
-做基因治疗的人都知道一个痛：AAV病毒载体太小，大基因根本塞不进去。就像你想用信封寄一台电脑——不可能。现在Cell发了个重磅：AAVLINK系统用DNA重组技术，把大基因"拆成零件"分批寄送，到了细胞里再组装。Dravet综合征、Phelan-McDermid综合征这些以前没法治的遗传病，终于看到曙光了。基因治疗的天花板，被捅破了一个洞。
-
----
-
-### 2. [AI构建免疫细胞知识图谱ICKG，解码免疫程序](https://www.nature.com/articles/s44387-025-00060-4)
-
-免疫系统复杂到什么程度？几百种细胞、上万个基因、无数种状态组合。以前研究免疫，就像盲人摸象。这篇Nature子刊用AI构建了一个"免疫细胞知识图谱"（ICKG），把免疫细胞的各种状态、功能、相互作用全部串起来。最厉害的是它能解释免疫程序——为什么这个细胞在这个时候做这件事。做肿瘤免疫、自身免疫研究的，这个工具值得收藏。
+以前想用AI分析自己的健康数据？要么把隐私交给大公司，要么自己从零搭建。现在这个项目直接给你一个开箱即用的方案——所有数据本地存储，AI分析能力拉满。3790颗星说明社区已经投票了。**想掌控自己健康数据的朋友，这个值得收藏。**
 
 ---
 
-### 3. [ESFS：单细胞数据里的"降噪神器"](https://www.biorxiv.org/content/10.64898/2026.01.26.701684v1?rss=1)
+### 2. [Open-Wearables：把Apple Watch、Garmin、Oura的数据统一成一个AI-ready API](https://github.com/the-momentum/open-wearables)
 
-单细胞测序数据噪音大，这是公认的痛点。传统方法要么靠插补（容易引入假信号），要么靠降维（丢失信息）。ESFS另辟蹊径：直接在基因表达空间里筛选特征，不做任何"美颜"处理。结果呢？在人类胚胎、小鼠结肠、胶质母细胞瘤等8个数据集上，都挖出了传统方法漏掉的生物学信号。做单细胞分析的，可以试试这个新武器。
-
----
-
-### 4. [器官贴合的"折纸"生物电子贴片，精准递送基因](https://www.cell.com/cell/fulltext/S0092-8674(25)01434-5?rss=yes)
-
-基因治疗最怕什么？脱靶。你想治肝脏，结果药跑到心脏去了。这篇Cell用剪纸（kirigami）结构设计了一种生物电子贴片POCKET，能像保鲜膜一样完美贴合器官表面，然后用电场把药物精准送进细胞。零脱靶效应。这不是科幻，是真的做出来了。器官级别的精准递送，以后可能就靠这个了。
+手腕上戴着Apple Watch，手指上套着Oura，跑步用Garmin——数据散落在三个App里，想做个整体分析？难。这个自托管平台直接把所有可穿戴设备数据统一成一个API，专门为AI分析优化。**433星，刚起步但潜力巨大。**
 
 ---
 
-### 5. [脑瘤MRI分类：多尺度注意力CNN+SVM，准确率再创新高](https://www.nature.com/articles/s41598-026-36164-3)
+### 3. [CRISPR筛选揭示tau蛋白稳态机制，阿尔茨海默病研究重大突破](https://www.cell.com/cell/fulltext/S0092-8674(25)01487-4?rss=yes)
 
-脑瘤分类一直是医学影像AI的热门赛道。这篇论文把多尺度通道注意力CNN和SVM结合起来，在MRI图像上做脑瘤分类。技术细节不展开，但结果很能打。对于放射科医生来说，这类工具正在从"辅助参考"变成"不可或缺"。
-
----
-
-### 6. [2型糖尿病的全球分子机制图谱](https://www.nature.com/articles/s42255-025-01444-1)
-
-2型糖尿病影响全球几亿人，但不同人群的发病机制可能完全不同。这篇Nature Metabolism整合了全球多个人群的数据，在疾病相关组织中解析了2型糖尿病的分子机制。简单说：以前我们知道糖尿病是什么，现在开始搞清楚为什么。精准医疗的基础，就是这样一点点搭起来的。
+Cell今天发了一篇重磅：用CRISPR在iPSC衍生的神经元里做筛选，发现E3泛素连接酶CRL5SOCS4负责给tau蛋白打上"降解标签"。更关键的是，CUL5的表达水平和人类阿尔茨海默病的抗性相关。**这不是纯基础研究——线粒体功能障碍会改变tau的降解方式，直接指向新的治疗靶点。**
 
 ---
 
-### 7. [心梗背后的"心脑免疫三角"](https://www.cell.com/cell/fulltext/S0092-8674(25)01506-5?rss=yes)
+### 4. [WellAlly-Health：Claude驱动的智能医疗助手，多学科会诊分析](https://github.com/huifer/WellAlly-health)
 
-心梗不只是心脏的事。这篇Cell揭示了一条神经免疫通路：感觉迷走神经→下丘脑室旁核→交感神经上颈神经节，三个节点组成一个"心脑免疫环路"，在心梗中扮演关键角色。这意味着什么？未来治心梗，可能不只是放支架，还要调神经、调免疫。心血管研究的新方向，值得关注。
+症状记录、用药管理、病历追踪、多学科会诊分析——这个项目把Claude AI和医学专业知识结合起来，通过自然语言交互完成这些任务。661星，中文友好。**注意：AI建议仅供参考，别拿来替代医生。**
+
+---
+
+### 5. [SparkyFitness：2000+星的家庭健康追踪系统，AI驱动](https://github.com/CodeWithCJ/SparkyFitness)
+
+一家人的饮食、运动、饮水、健康数据，全部在一个平台上追踪。2083颗星说明需求是真实的——很多家庭确实需要一个共享的健康管理工具，而不是每个人各用各的App。**AI加持让数据分析更智能。**
+
+---
+
+### 6. [Lotti：隐私优先的AI数字助手，支持离线运行](https://github.com/matthiasn/lotti)
+
+1079星的项目，核心卖点是"你的数据，你做主"。可以和任务对话、获取智能摘要、追踪重要事项——所有数据本地存储。最酷的是可以按类别选择不同的AI提供商，甚至完全离线运行。**对隐私敏感的用户，这是个好选择。**
+
+---
+
+### 7. [人机协作医疗：大语言模型在临床的系统综述和Meta分析](https://www.nature.com/articles/s41746-026-02382-2)
+
+Nature子刊发了一篇系统综述，专门研究人类和大语言模型在临床医学中的协作效果。不是讨论"AI能不能替代医生"，而是研究"人+AI怎么配合最有效"。**这个视角很务实，值得关注。**
+
+---
+
+### 8. [DeepPurpose：药物-靶点相互作用预测的深度学习工具包](https://github.com/kexinhuang12345/DeepPurpose)
+
+1123星的老牌项目，覆盖药物-靶点相互作用(DTI)、药物性质预测、蛋白质-蛋白质相互作用(PPI)、药物-药物相互作用(DDI)、蛋白质功能预测。**AI制药入门必备工具箱。**
+
+---
+
+### 9. [AI让自己"自言自语"，学习效率大幅提升](https://www.sciencedaily.com/releases/2026/01/260127112130.htm)
+
+有意思的研究：让AI进行内部"喃喃自语"，配合短期记忆，能帮助AI更快适应新任务、切换目标、处理复杂挑战。训练数据需求大幅降低。**这可能为更灵活、更像人类的AI系统铺平道路——包括医疗AI。**
+
+---
+
+### 10. [Awesome AI Agents for Healthcare：医疗AI Agent最新进展汇总](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
+
+591星的资源汇总，专门追踪Agentic AI和AI Agent在医疗领域的最新进展。**想了解医疗AI Agent前沿的，这个列表是个好起点。**
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [Open-Wearables](https://github.com/the-momentum/open-wearables) - 自托管平台，把各种可穿戴设备的健康数据统一成一个AI-ready的API，开发者福音
+**[开源]** [ProteinFlow](https://github.com/adaptyvbio/ProteinFlow) - 蛋白质结构数据处理管线，专为深度学习应用设计，271星
 
-**[开源]** [HealthChain](https://github.com/dotimplement/HealthChain) - 医疗AI的中间件层，解决数据流转的痛点
+**[开源]** [DANCE](https://github.com/OmicsML/dance) - 单细胞分析的深度学习库和基准平台，384星
 
-**[开源]** [OpenHealth](https://github.com/OpenHealthForAll/open-health) - 3.7k星的AI健康助手，数据完全由你掌控
+**[开源]** [HealthChain](https://github.com/dotimplement/HealthChain) - 医疗AI的中间件层，解决集成痛点
 
-**[开源]** [ProteinFlow](https://github.com/adaptyvbio/ProteinFlow) - 蛋白质结构数据处理流水线，专为深度学习设计
+**[研究]** [脂质纳米颗粒数据库](https://www.nature.com/articles/s41467-026-68818-1) - 核酸递送的结构-功能建模，数据驱动设计
 
-**[研究]** [空间代谢通量分析揭示肿瘤Warburg效应异质性](https://www.nature.com/articles/s41540-026-00654-x) - 肾肿瘤和结直肠癌的代谢地图
+**[研究]** [轻量级CNN肺癌分类临床验证](https://www.nature.com/articles/s41598-026-36652-6) - 组织病理学图像多分类
 
-**[研究]** [非侵入性表皮采样预测皮肤癌](https://www.nature.com/articles/s41698-026-01302-7) - DNA甲基化+机器学习，皮肤癌筛查新思路
+**[研究]** [多模态视网膜衰老时钟](https://www.nature.com/articles/s41598-026-36518-x) - OCT和眼底成像预测生物年龄
 
-**[工具]** [GLYCAM细菌碳水化合物建模工具](https://www.biorxiv.org/content/10.64898/2026.01.26.700271v1?rss=1) - 细菌糖链3D建模，做糖生物学的可以试试
+**[工具]** [Hia健康洞察Agent](https://github.com/harshhh28/hia) - 分析血液报告，提供详细健康洞察
+
+**[工具]** [Doctor-Dok](https://github.com/Doctor-One/doctor-dok) - 医疗PDF/图片解析成JSON，支持AI对话
 
 ---
 
@@ -102,39 +122,41 @@ AI免疫图谱、单细胞降噪工具扎堆发布，生物数据分析正在变
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 研究 | 机器学习预测HbA1c与血糖关系 | [链接](https://www.nature.com/articles/s41598-025-20234-z) |
-| 2 | 研究 | 空气污染致急性冠脉综合征死亡风险预测 | [链接](https://www.nature.com/articles/s41598-025-15410-0) |
-| 3 | 研究 | 造血谱系分化中的可变剪接功能图谱 | [链接](https://www.nature.com/articles/s41467-026-68811-8) |
-| 4 | 开源 | DeepPurpose：药物-靶点相互作用预测工具包 | [链接](https://github.com/kexinhuang12345/DeepPurpose) |
-| 5 | 开源 | SemiBin：宏基因组分箱深度学习工具 | [链接](https://github.com/BigDataBiology/SemiBin) |
-| 6 | 开源 | DANCE：单细胞分析深度学习库 | [链接](https://github.com/OmicsML/dance) |
+| 1 | 研究 | 大语言模型医学能力的细粒度评估 | [Nature](https://www.nature.com/articles/s41598-026-36627-7) |
+| 2 | 研究 | AI驱动的低成本康复游戏用于中风评估 | [Nature](https://www.nature.com/articles/s41746-026-02383-1) |
+| 3 | 研究 | 深度学习识别黄斑山螈个体 | [Nature](https://www.nature.com/articles/s41598-026-36092-2) |
+| 4 | 研究 | 侧位头颅X光片性别估计的混合CNN | [Nature](https://www.nature.com/articles/s41598-026-36147-4) |
+| 5 | 数据集 | 儿童尺骨桡骨骨折X光数据集 | [Nature](https://www.nature.com/articles/s41597-026-06666-w) |
+| 6 | 开源 | SemiBin：宏基因组分箱的自监督深度学习 | [GitHub](https://github.com/BigDataBiology/SemiBin) |
+| 7 | 开源 | ClairS：长读长体细胞变异检测 | [GitHub](https://github.com/HKU-BAL/ClairS) |
+| 8 | 开源 | TransformerCPI：化合物-蛋白质相互作用预测 | [GitHub](https://github.com/lifanchen-simm/transformerCPI) |
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 基因治疗大基因递送技术将迎来临床验证潮
-- **预测时间**：2026年Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻[AAVLINK系统发表于Cell](https://www.cell.com/cell/fulltext/S0092-8674(25)01488-6?rss=yes) + 多家基因治疗公司已在布局大基因递送管线，技术突破后临床推进将加速
-
-### 免疫细胞图谱类工具将成为肿瘤免疫研究标配
+### 开源健康AI平台整合潮
 - **预测时间**：2026年Q1-Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻[AI免疫细胞知识图谱ICKG发布](https://www.nature.com/articles/s44387-025-00060-4) + 单细胞+空间组学数据爆发，急需系统性解读工具
+- **预测依据**：今日多个开源健康AI项目（[OpenHealth](https://github.com/OpenHealthForAll/open-health)、[Open-Wearables](https://github.com/the-momentum/open-wearables)）获得高关注度，社区对"数据自主权"的需求明确。预计未来2-3个月会出现整合这些工具的统一平台或标准。
 
-### 可穿戴健康数据开源生态将快速成长
+### tau蛋白靶向药物研发加速
+- **预测时间**：2026年Q2
+- **预测概率**：60%
+- **预测依据**：今日Cell发表的[CRISPR筛选研究](https://www.cell.com/cell/fulltext/S0092-8674(25)01487-4?rss=yes)揭示了CRL5SOCS4和CUL5在tau蛋白降解中的关键作用，为阿尔茨海默病治疗提供了新靶点。预计制药公司会快速跟进。
+
+### 医疗AI Agent商业化落地
 - **预测时间**：2026年Q1
-- **预测概率**：65%
-- **预测依据**：今日新闻[Open-Wearables获429星](https://github.com/the-momentum/open-wearables) + 健康数据隐私意识提升，自托管方案需求增长
+- **预测概率**：70%
+- **预测依据**：[Awesome AI Agents for Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)等资源汇总显示医疗AI Agent技术已相对成熟，结合[人机协作医疗研究](https://www.nature.com/articles/s41746-026-02382-2)的发表，预计近期会有更多商业化产品推出。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI基因治疗/免疫图谱/单细胞分析 的最新资讯？
+### 哪里可以获取AI健康数据管理和开源医疗AI的最新资讯？
 
-今日 AI 生命科学领域的热点包括：AAVLINK基因治疗突破、AI免疫细胞知识图谱、单细胞数据降噪新方法。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日AI生命科学领域的热点包括：开源健康AI平台（OpenHealth、Open-Wearables）、tau蛋白研究突破、以及医疗AI Agent进展。想要持续追踪这类**AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -146,9 +168,9 @@ AI免疫图谱、单细胞降噪工具扎堆发布，生物数据分析正在变
 
 ---
 
-### 如何体验 ChatGPT、Claude 等 AI 工具来辅助生命科学研究？
+### 如何体验Claude等AI工具来分析健康数据？
 
-今天的多篇研究都展示了AI在生命科学中的强大应用——从免疫图谱构建到单细胞数据分析。想要用 ChatGPT 或 Claude 辅助你的研究，但面临支付困难或账号注册限制？
+今日新闻中，[WellAlly-Health](https://github.com/huifer/WellAlly-health)展示了Claude AI在医疗助手中的应用，包括症状记录、用药管理和多学科会诊分析。想要体验Claude等AI工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
