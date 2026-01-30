@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/1/30
+title: BioAI 生命科学日报 2026/1/31
 breadcrumbs: false
-next: /2026-01/2026-01-30
+next: /2026-01/2026-01-31
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-AlphaGenome 登上 Nature 封面，DeepMind 开放权重，基因组 AI 迎来 AlphaFold 级别的里程碑。
-医疗 AI Agent 资源库、可穿戴数据统一平台扎堆出现，开发者工具链正在成型。
-今天的信号很明确：AI 正从蛋白质往上游的 DNA、往下游的临床两头渗透。
+AlphaGenome 登上 Nature 封面，DeepMind 再次开放模型权重，基因组 AI 进入"读懂 DNA"时代。
+浏览器里跑单细胞分析、本地存储的健康助手——隐私优先的生物 AI 工具正在批量涌现。
+今天的主题很明确：AI 生命科学的基础设施正在下沉到普通研究者手里。
 ```
 
 
@@ -29,92 +29,92 @@ AlphaGenome 登上 Nature 封面，DeepMind 开放权重，基因组 AI 迎来 A
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-DeepMind 的 AlphaGenome 登上 Nature 封面，基因组 AI 进入新纪元。
+DeepMind 的 AlphaGenome 登上 Nature 封面，基因组 AI 正式进入"读懂 DNA"的新纪元。
 
 ### **🔑 3 个关键词**
-#基因组AI #AI医疗Agent #可穿戴健康
+#基因组AI #蛋白质预测 #健康数据平台
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [AlphaGenome 登上 Nature 封面，DeepMind 开放模型权重](https://x.com/demishassabis/status/2016763919646478403)
+### 1. [AlphaGenome 登上 Nature 封面，DeepMind 开放模型权重给学术界](https://x.com/demishassabis/status/2016763919646478403)
 
-还记得 AlphaFold 预测蛋白质结构时的震撼吗？这次 DeepMind 把目光投向了更底层的东西——DNA。AlphaGenome 能预测基因变异的分子影响，帮科学家理解那些"看不懂"的遗传密码。最关键的是：模型权重向学术界开放。Demis Hassabis 亲自发推庆祝，这是继 AlphaFold 之后又一个里程碑式的 AI4Science 成果。
+还记得 AlphaFold 预测蛋白质结构时的震撼吗？这次 DeepMind 把目光投向了更底层的东西——DNA 本身。AlphaGenome 能预测基因变异对分子层面的影响，简单说就是：给它一段 DNA 序列，它能告诉你这段代码"跑起来"会发生什么。更良心的是，模型权重直接开放给学术研究者。Demis Hassabis 亲自发推庆祝，这是继 AlphaFold 之后，AI 生命科学领域又一个里程碑式的时刻。
 
 ![Tweet Image](https://pbs.twimg.com/media/G_wyReGW0AA5rNm.jpg)
 
 ---
 
-### 2. [Awesome-AI-Agents-for-Healthcare：医疗 AI Agent 资源大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
+### 2. [ORILINX：用基因组语言模型绘制 DNA 复制起点图谱](https://www.biorxiv.org/content/10.64898/2026.01.29.702604v1?rss=1)
 
-想入门医疗 AI Agent 却不知从何下手？这个 GitHub 仓库帮你整理好了。从最新论文到开源项目，从临床应用到技术架构，594 颗星说明社区认可度不低。对于想在医疗领域做 Agent 的开发者来说，这是个省时省力的起点。
-
----
-
-### 3. [Open-Wearables：可穿戴健康数据的开源统一平台](https://github.com/the-momentum/open-wearables)
-
-手环、手表、戒指……你的健康数据散落在十几个 App 里，想做个整合分析？难。Open-Wearables 提供自托管方案，把各种可穿戴设备的数据统一成一个 AI-ready 的 API。437 星，对于想用自己数据训练健康模型的极客来说，这是个宝藏。
+DNA 复制从哪里开始？这个问题困扰了科学家很久。现在，研究团队把基因组语言模型"调教"成了一个复制起点探测器。有意思的是，模型学到的特征远超人类已知的 GC 含量和 G-四链体基序——它自己发现了新规律。更实用的是，这套方法不仅适用于人类，还能推广到小鼠、绵羊甚至鸡。代码已开源，想玩的可以直接上手。
 
 ---
 
-### 4. [药物相互作用预测：从计算发现到临床应用的机器学习综述](https://www.nature.com/articles/s41746-026-02400-3)
+### 3. [CytoVerse：单细胞 AI 基础模型直接在浏览器里跑](https://www.biorxiv.org/content/10.64898/2026.01.29.702554v1?rss=1)
 
-吃多种药的人最怕什么？药物打架。这篇 Nature 子刊综述系统梳理了 AI 预测药物相互作用的方法演进，从实验室到病床边的全链条。对于做 AI 制药或临床决策支持的团队，这是份不错的技术地图。
-
----
-
-### 5. [深度神经网络驱动的疾病标志物筛选](https://www.nature.com/articles/s41598-025-34115-y)
-
-以前找疾病标志物像大海捞针，现在 AI 能帮你缩小范围。这项研究用深度学习做生物统计分析，提升了标志物筛选的效率和准确性。对于做早期诊断或精准医疗的团队，值得关注方法论。
+以前做单细胞分析，要么排队等服务器，要么担心数据隐私。CytoVerse 说：都不用了。它把单细胞 RNA 测序的基础模型塞进了浏览器，用 ONNX 部署，完全不需要服务器端计算。更狠的是，它能在客户端搜索超过 2000 万个细胞的参考数据库。对于跨机构合作来说，这意味着可以共享分析结果而不暴露原始数据。隐私党狂喜。
 
 ---
 
-### 6. [多组学+机器学习：脓毒症预后生物标志物新发现](https://www.nature.com/articles/s41598-026-37342-z)
+### 4. [Open-Health：开源 AI 健康助手，你的数据你做主](https://github.com/OpenHealthForAll/open-health)
 
-脓毒症（sepsis）是 ICU 里的头号杀手，早期识别高危患者能救命。这项研究整合转录组、代谢组、蛋白组三重数据，用机器学习找到了新的预后标志物和代谢特征。三组学联合分析的思路，对其他复杂疾病研究也有借鉴意义。
-
----
-
-### 7. [可穿戴生物电子设备：压力的量化评估与分类](https://www.nature.com/articles/s41467-025-67747-9)
-
-"你压力大吗？"以前只能靠问卷，现在可以靠设备量化了。这款多模态可穿戴设备能综合评估压力水平，还能细分压力类型。发表在 Nature Communications，对于做心理健康监测或企业员工健康管理的团队，这是个硬件+算法的参考案例。
+市面上的健康 App 要么收费，要么拿你的数据去"喂"广告。Open-Health 走了另一条路：完全开源，数据存在本地。它能整合各种健康数据，用 AI 给你个性化建议。GitHub 上已经 3795 星，说明确实戳中了痛点。想要一个不偷窥你的健康管家？这个值得一试。
 
 ---
 
-### 8. [scTREND：单细胞时序风险预测新框架](https://www.biorxiv.org/content/10.64898/2026.01.26.701686v1?rss=1)
+### 5. [WellAlly-Health：Claude AI 加持的智能医疗助手](https://github.com/huifer/WellAlly-health)
 
-癌症预后预测的难点在于：不同细胞状态、不同时间点、不同基因突变，风险都不一样。scTREND 是个无需预先标注细胞类型的框架，能做时间分辨、条件依赖的风险建模。在黑色素瘤、COVID-19、肾癌空间转录组数据上都验证过了。单细胞+临床预后的桥梁，又近了一步。
-
----
-
-### 9. [Tau 蛋白分子特征区分六种痴呆症](https://www.cell.com/cell/fulltext/S0092-8674(25)01484-9?rss=yes)
-
-阿尔茨海默病、额颞叶痴呆……这些 Tau 蛋白病变导致的痴呆症，临床上很难区分。FLEXITau 平台提供了肽段级别的 Tau 分子图谱，用机器学习实现了疾病分类。这不仅是诊断工具，更是药物靶点发现的基础。发表在 Cell，分量十足。
+把 Claude 的对话能力和医疗专业知识结合起来会怎样？WellAlly-Health 给出了答案。它能帮你记录症状、管理用药、追踪病历，还能提供多学科会诊分析。虽然不能替代真正的医生，但作为日常健康管理的助手，这个组合确实很香。671 星，热度还在上升。
 
 ---
 
-### 10. [CellRank：单细胞命运预测的统一框架](https://www.nature.com/articles/s41596-025-01314-w)
+### 6. [SparkyFitness：全家人的 AI 健康追踪系统](https://github.com/CodeWithCJ/SparkyFitness)
 
-细胞从干细胞变成神经元、肌肉细胞……这个"命运"怎么预测？CellRank 提供了一个数据视角无关的统一方法，发表在 Nature Protocols。对于做发育生物学、再生医学、肿瘤异质性研究的团队，这是个实用工具。
+一个人健身容易坚持不下去，全家一起呢？SparkyFitness 就是为家庭场景设计的：追踪饮食、运动、饮水、健康数据，全家人一起用。2086 星说明家庭健康管理确实是个刚需。AI 加持的功能让它不只是个记录工具，还能给出个性化建议。
+
+---
+
+### 7. [基因组语言模型解码 MYC 基因座，发现可成药的超保守 RNA 元件](https://www.biorxiv.org/content/10.64898/2026.01.29.702547v1?rss=1)
+
+MYC 是癌症研究的"老熟人"了，但一直很难下手。这项研究用 CRISPR 饱和诱变在碱基对分辨率上绘制了 MYC 基因座的功能图谱，发现了一个惊人的事实：67% 的功能必需碱基对是非编码的。更重要的是，他们在 3' UTR 区域发现了一个超保守 RNA 元件，用反义寡核苷酸靶向它就能选择性杀死 MYC 依赖的癌细胞。新的治疗靶点？值得关注。
+
+---
+
+### 8. [deepmriprep：用深度神经网络做脑部 MRI 预处理](https://www.nature.com/articles/s43588-026-00953-7)
+
+脑部 MRI 的体素形态学分析（VBM）预处理一直是个耗时的活儿。deepmriprep 用深度学习把这个流程自动化了，发表在 Nature Computational Science 上。对于神经影像研究者来说，这意味着更快的数据处理速度和更一致的结果。
+
+---
+
+### 9. [可信赖的酶分类号预测：层级可解释 Transformer](https://www.nature.com/articles/s41467-026-68727-3)
+
+酶的 EC 编号预测听起来很学术，但对药物研发和代谢工程来说至关重要。这篇 Nature Communications 论文提出了一个层级可解释的 Transformer 模型，不仅预测准确，还能告诉你为什么这么预测。可解释性在生物 AI 领域越来越重要了。
+
+---
+
+### 10. [BrainFuse：连接生物神经建模和 AI 的统一基础设施](https://papers.cool/arxiv/2601.21407)
+
+神经科学和 AI 本该是亲兄弟，但现实是：AI 框架不支持生物物理细节，神经模拟工具又不适合梯度优化。BrainFuse 试图打通这堵墙，在单个神经形态芯片上部署了约 38000 个 Hodgkin-Huxley 神经元和 1 亿个突触，功耗仅 1.98W。对于想把真实神经动力学引入 AI 的研究者，这是个值得关注的工具。
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [HealthChain：医疗 AI 的中间件层](https://github.com/dotimplement/HealthChain) - 解决医疗 AI 落地的"最后一公里"问题
+**[开源]** [Open-Wearables](https://github.com/the-momentum/open-wearables) - 自托管平台，把各种可穿戴设备的健康数据统一成一个 AI 友好的 API
 
-**[开源]** [Hia：血液报告 AI 分析 Agent](https://github.com/harshhh28/hia) - 上传报告，秒出健康洞察
+**[开源]** [DeepPurpose](https://github.com/kexinhuang12345/DeepPurpose) - 药物-靶点相互作用预测的深度学习工具包，生物信息学必备
 
-**[开源]** [OpenHealth：本地优先的 AI 健康助手](https://github.com/OpenHealthForAll/open-health) - 3792 星，数据隐私党的福音
+**[开源]** [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) - 医疗健康领域 AI Agent 的最新进展汇总
 
-**[开源]** [DeepPurpose：药物-靶点相互作用预测工具包](https://github.com/kexinhuang12345/DeepPurpose) - 1123 星，AI 制药入门必备
+**[研究]** [跨物种毒性发现一致性大规模研究](https://www.biorxiv.org/content/10.64898/2026.01.29.702667v1?rss=1) - 整合了 7565 种药物的临床前和临床安全数据，还配了个多智能体 AI 系统
 
-**[研究]** [癌症影像组学分类：临床前模型验证](https://www.nature.com/articles/s41598-026-37757-8) - 从动物实验到临床的桥梁
+**[研究]** [基底神经节单细胞和表观基因组资源](https://www.biorxiv.org/content/10.64898/2026.01.29.702575v1?rss=1) - 跨人类、猕猴、狨猴、小鼠的比较表观基因组分析平台
 
-**[研究]** [多组学深度学习提升乳腺癌 PET-CT 预后预测](https://www.nature.com/articles/s41698-026-01283-7) - 影像+组学的融合范式
+**[研究]** [改进大规模单细胞注释模型的层级交叉熵损失](https://www.nature.com/articles/s43588-025-00945-z) - 发表在 Nature Computational Science
 
-**[研究]** [OCD 患者眶额皮层神经活动与行为动态关联](https://www.cell.com/cell/fulltext/S0092-8674(25)01486-2?rss=yes) - 脑机接口治疗强迫症的新线索
+**[产品]** [Hia 健康洞察 Agent](https://github.com/harshhh28/hia) - 分析血液报告并提供详细健康洞察的 AI Agent
 
 ---
 
@@ -122,40 +122,39 @@ DeepMind 的 AlphaGenome 登上 Nature 封面，基因组 AI 进入新纪元。
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 开源 | SemiBin：宏基因组分箱的自监督深度学习 | [链接](https://github.com/BigDataBiology/SemiBin) |
-| 2 | 开源 | ProteinFlow：蛋白质结构数据处理流水线 | [链接](https://github.com/adaptyvbio/ProteinFlow) |
-| 3 | 开源 | ClairS：长读长体细胞变异检测 | [链接](https://github.com/HKU-BAL/ClairS) |
-| 4 | 开源 | DANCE：单细胞分析深度学习库 | [链接](https://github.com/OmicsML/dance) |
-| 5 | 研究 | 微生物代谢物社区策展知识库 | [链接](https://www.biorxiv.org/content/10.64898/2026.01.24.701521v1?rss=1) |
-| 6 | 研究 | 细胞迁移动力学的模拟推断 | [链接](https://www.nature.com/articles/s41540-026-00648-9) |
-| 7 | 研究 | 癌症标志物框架25年演进 | [链接](https://www.cell.com/cell/fulltext/S0092-8674(25)01498-9?rss=yes) |
+| 1 | 研究 | 深度学习集成框架用于肾肿瘤多亚型分类 | [Nature](https://www.nature.com/articles/s41598-026-37283-7) |
+| 2 | 研究 | 机器学习预测 ICU 入院时耐碳青霉烯肠杆菌定植 | [Nature](https://www.nature.com/articles/s41598-026-37927-8) |
+| 3 | 研究 | 癌症微阵列数据特征选择的堆驱动进化框架 | [Nature](https://www.nature.com/articles/s41598-026-37803-5) |
+| 4 | 开源 | DeepMicrobes：宏基因组深度学习分类 | [GitHub](https://github.com/MicrobeLab/DeepMicrobes) |
+| 5 | 开源 | SemiBin：自监督深度学习宏基因组分箱 | [GitHub](https://github.com/BigDataBiology/SemiBin) |
+| 6 | 开源 | ProteinFlow：蛋白质结构数据深度学习处理管线 | [GitHub](https://github.com/adaptyvbio/ProteinFlow) |
 
 ---
 
-## **🔮 AI 生命科学趋势预测**
+## **🔮 AI生命科学趋势预测**
 
 ### AlphaGenome 衍生工具爆发
 - **预测时间**：2026年Q1-Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻 [AlphaGenome 登上 Nature 封面](https://x.com/demishassabis/status/2016763919646478403) + DeepMind 开放模型权重，学术界和初创公司将快速构建下游应用
+- **预测依据**：今日新闻 [AlphaGenome 登上 Nature 封面](https://x.com/demishassabis/status/2016763919646478403) + DeepMind 开放模型权重给学术界，历史上 AlphaFold 开源后 3 个月内出现了大量衍生工具和应用
 
-### 医疗 AI Agent 进入临床试点
+### 浏览器端单细胞分析成为新趋势
 - **预测时间**：2026年Q2
 - **预测概率**：60%
-- **预测依据**：今日新闻 [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) 显示社区活跃度高 + 多家医院已在探索 AI Agent 辅助诊疗
+- **预测依据**：今日新闻 [CytoVerse 浏览器端单细胞 AI](https://www.biorxiv.org/content/10.64898/2026.01.29.702554v1?rss=1) + 隐私合规要求日益严格，边缘计算在医疗领域的需求持续增长
 
-### 可穿戴健康数据标准化加速
+### 开源健康数据平台整合加速
 - **预测时间**：2026年Q1
-- **预测概率**：55%
-- **预测依据**：今日新闻 [Open-Wearables](https://github.com/the-momentum/open-wearables) 和 [可穿戴压力评估设备](https://www.nature.com/articles/s41467-025-67747-9) + 苹果、Google 等大厂持续布局健康数据生态
+- **预测概率**：70%
+- **预测依据**：今日多个开源健康项目热度上升（[Open-Health](https://github.com/OpenHealthForAll/open-health) 3795星、[Open-Wearables](https://github.com/the-momentum/open-wearables)）+ 用户对数据隐私的关注度持续提升
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 基因组学、医疗 AI Agent 的最新资讯？
+### 哪里可以获取 AI 基因组学和单细胞分析的最新资讯？
 
-今日 AI 生命科学领域的热点包括：AlphaGenome 登上 Nature 封面、医疗 AI Agent 资源整合、可穿戴健康数据平台。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：AlphaGenome 登上 Nature 封面、CytoVerse 浏览器端单细胞分析、以及多个开源健康数据平台的崛起。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -167,9 +166,9 @@ DeepMind 的 AlphaGenome 登上 Nature 封面，基因组 AI 进入新纪元。
 
 ---
 
-### 如何体验 ChatGPT 等 AI 工具来辅助生命科学研究？
+### 如何体验 Claude 等 AI 工具用于健康数据分析？
 
-今日多个开源项目（如 Hia、OpenHealth）展示了如何用 AI 分析健康数据。想要体验 ChatGPT、Claude 等 AI 工具辅助研究，但面临支付困难或账号注册限制？
+今日新闻中，[WellAlly-Health](https://github.com/huifer/WellAlly-health) 展示了 Claude AI 在医疗健康领域的应用潜力。想要体验 Claude 等 AI 工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
