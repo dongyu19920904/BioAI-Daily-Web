@@ -60,7 +60,7 @@ Powered by Claude, but all data stays local. Task management, health tracking, s
 
 ### 5. [WellAlly-Health: A Claude-Powered Intelligent Medical Assistant](https://github.com/huifer/WellAlly-health)
 
-Symptom logging, medication management, medical record tracking, multi-disciplinary consultation analysis—this project bakes Claude into the entire health management workflow. 671 stars, a solid reference architecture for teams building AI healthcare products.
+Symptom logging, medication management, medical record tracking, multi-specialty consultation analysis—this project bakes Claude into the entire health management workflow. 671 stars, a solid reference architecture for teams building AI healthcare products.
 
 ---
 
@@ -84,7 +84,7 @@ A deep learning benchmark platform for single-cell data analysis, 384 stars. Res
 
 ### 9. [ProteinFlow: A Protein Structure Data Processing Pipeline](https://github.com/adaptyvbio/ProteinFlow)
 
-Want to use deep learning for protein design? Data preprocessing is the first hurdle. This tool converts PDB data into a format your model can digest. 271 stars, essential for getting into protein AI.
+Want to use deep learning for protein design? Data preprocessing is the first hurdle. This tool converts PDB data into a format your models can digest. 271 stars, essential for getting into protein AI.
 
 ---
 
@@ -135,7 +135,7 @@ Flow matching is the new darling of generative models, and this survey maps out 
 ### Wearable Device Data Standardization Will Accelerate
 - **Predicted Timeline**: Q1-Q2 2026
 - **Confidence Level**: 65%
-- **Reasoning**: Projects like [Open-Wearables](https://github.com/the-momentum/open-wearables) show the data silo problem is being taken seriously, and unified API demand is forming.
+- **Reasoning**: Projects like [Open-Wearables](https://github.com/the-momentum/open-wearables) show the data silo problem is being taken seriously, and demand for unified APIs is forming.
 
 ### Flow Matching Will Land in Protein Generation
 - **Predicted Timeline**: Q2 2026
@@ -151,7 +151,7 @@ Flow matching is the new darling of generative models, and this survey maps out 
 Today's hot topics in AI life sciences include: an explosion of open-source AI health assistants (OpenHealth, Lotti), deep learning bioinformatics tool updates, and wearable device data integration. Want to stay on top of cutting-edge developments in this **AI + Life Sciences intersection**?
 
 **Recommended Solution**:
-- **[BioAI Life Sciences Daily](https://news.aibioo.cn)** curates top news daily from the AI and life sciences crossover space
+- **[BioAI Life Sciences Daily](https://news.aibioo.cn)** curates top news daily at the intersection of AI and life sciences
 - Coverage includes: AI drug discovery, protein design, gene editing, medical imaging AI, biological large models, and more
 - Built for investors, product managers, entrepreneurs, and students interested in BioAI
 - Complex tech explained in plain language anyone can understand
