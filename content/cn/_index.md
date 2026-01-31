@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/1/31
+title: BioAI 生命科学日报 2026/2/1
 breadcrumbs: false
-next: /2026-01/2026-01-31
+next: /2026-02/2026-02-01
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-AlphaGenome 登上 Nature 封面，DeepMind 再次开放模型权重，基因组 AI 进入"读懂 DNA"时代。
-浏览器里跑单细胞分析、本地存储的健康助手——隐私优先的生物 AI 工具正在批量涌现。
-今天的主题很明确：AI 生命科学的基础设施正在下沉到普通研究者手里。
+GitHub上涌现一批开源AI健康助手，OpenHealth拿下3800星，本地部署、数据自主成卖点。
+深度学习工具箱扎堆更新，从蛋白质设计到宏基因组分析，生信圈正在被AI重新武装。
+开源社区在抢跑个人健康管理赛道，商业公司该紧张了。
 ```
 
 
@@ -29,92 +29,90 @@ AlphaGenome 登上 Nature 封面，DeepMind 再次开放模型权重，基因组
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-DeepMind 的 AlphaGenome 登上 Nature 封面，基因组 AI 正式进入"读懂 DNA"的新纪元。
+今天GitHub上扎堆冒出一批AI健康助手项目，开源社区正在悄悄重塑个人健康管理的玩法。
 
 ### **🔑 3 个关键词**
-#基因组AI #蛋白质预测 #健康数据平台
+#AI健康助手 #深度学习生信 #开源医疗
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [AlphaGenome 登上 Nature 封面，DeepMind 开放模型权重给学术界](https://x.com/demishassabis/status/2016763919646478403)
+### 1. [OpenHealth：3800星的开源AI健康助手来了](https://github.com/OpenHealthForAll/open-health)
 
-还记得 AlphaFold 预测蛋白质结构时的震撼吗？这次 DeepMind 把目光投向了更底层的东西——DNA 本身。AlphaGenome 能预测基因变异对分子层面的影响，简单说就是：给它一段 DNA 序列，它能告诉你这段代码"跑起来"会发生什么。更良心的是，模型权重直接开放给学术研究者。Demis Hassabis 亲自发推庆祝，这是继 AlphaFold 之后，AI 生命科学领域又一个里程碑式的时刻。
-
-![Tweet Image](https://pbs.twimg.com/media/G_wyReGW0AA5rNm.jpg)
+以前想用AI管理自己的健康数据？要么交给大厂，要么自己从零搭。现在这个开源项目直接把"AI健康助手"打包好了——你的数据你做主，本地部署，隐私无忧。3795颗星说明社区已经投票通过。适合想折腾又怕数据泄露的技术党。
 
 ---
 
-### 2. [ORILINX：用基因组语言模型绘制 DNA 复制起点图谱](https://www.biorxiv.org/content/10.64898/2026.01.29.702604v1?rss=1)
+### 2. [SparkyFitness：全家一起用的AI健康追踪器](https://github.com/CodeWithCJ/SparkyFitness)
 
-DNA 复制从哪里开始？这个问题困扰了科学家很久。现在，研究团队把基因组语言模型"调教"成了一个复制起点探测器。有意思的是，模型学到的特征远超人类已知的 GC 含量和 G-四链体基序——它自己发现了新规律。更实用的是，这套方法不仅适用于人类，还能推广到小鼠、绵羊甚至鸡。代码已开源，想玩的可以直接上手。
-
----
-
-### 3. [CytoVerse：单细胞 AI 基础模型直接在浏览器里跑](https://www.biorxiv.org/content/10.64898/2026.01.29.702554v1?rss=1)
-
-以前做单细胞分析，要么排队等服务器，要么担心数据隐私。CytoVerse 说：都不用了。它把单细胞 RNA 测序的基础模型塞进了浏览器，用 ONNX 部署，完全不需要服务器端计算。更狠的是，它能在客户端搜索超过 2000 万个细胞的参考数据库。对于跨机构合作来说，这意味着可以共享分析结果而不暴露原始数据。隐私党狂喜。
+一个人健身容易放弃？这个项目瞄准的是"全家桶"场景——食物、运动、喝水、健康指标，一家人一起追踪。2089星，说明"家庭健康管理"这个需求确实存在。产品经理可以抄作业了。
 
 ---
 
-### 4. [Open-Health：开源 AI 健康助手，你的数据你做主](https://github.com/OpenHealthForAll/open-health)
+### 3. [DeepPurpose：生信深度学习工具箱，1125星](https://github.com/kexinhuang12345/DeepPurpose)
 
-市面上的健康 App 要么收费，要么拿你的数据去"喂"广告。Open-Health 走了另一条路：完全开源，数据存在本地。它能整合各种健康数据，用 AI 给你个性化建议。GitHub 上已经 3795 星，说明确实戳中了痛点。想要一个不偷窥你的健康管家？这个值得一试。
-
----
-
-### 5. [WellAlly-Health：Claude AI 加持的智能医疗助手](https://github.com/huifer/WellAlly-health)
-
-把 Claude 的对话能力和医疗专业知识结合起来会怎样？WellAlly-Health 给出了答案。它能帮你记录症状、管理用药、追踪病历，还能提供多学科会诊分析。虽然不能替代真正的医生，但作为日常健康管理的助手，这个组合确实很香。671 星，热度还在上升。
+做药物-靶点预测、蛋白质功能分析的同学注意了。这个工具箱把DTI、DDI、PPI等任务打包成一站式方案，省得你到处找轮子。1125星，生信圈的"瑞士军刀"。
 
 ---
 
-### 6. [SparkyFitness：全家人的 AI 健康追踪系统](https://github.com/CodeWithCJ/SparkyFitness)
+### 4. [Lotti：本地优先的AI健康助手，数据不出门](https://github.com/matthiasn/lotti)
 
-一个人健身容易坚持不下去，全家一起呢？SparkyFitness 就是为家庭场景设计的：追踪饮食、运动、饮水、健康数据，全家人一起用。2086 星说明家庭健康管理确实是个刚需。AI 加持的功能让它不只是个记录工具，还能给出个性化建议。
-
----
-
-### 7. [基因组语言模型解码 MYC 基因座，发现可成药的超保守 RNA 元件](https://www.biorxiv.org/content/10.64898/2026.01.29.702547v1?rss=1)
-
-MYC 是癌症研究的"老熟人"了，但一直很难下手。这项研究用 CRISPR 饱和诱变在碱基对分辨率上绘制了 MYC 基因座的功能图谱，发现了一个惊人的事实：67% 的功能必需碱基对是非编码的。更重要的是，他们在 3' UTR 区域发现了一个超保守 RNA 元件，用反义寡核苷酸靶向它就能选择性杀死 MYC 依赖的癌细胞。新的治疗靶点？值得关注。
+Claude加持，但数据全存本地。任务管理、健康追踪、智能摘要，还能选不同AI供应商甚至离线跑。1080星，隐私党狂喜。
 
 ---
 
-### 8. [deepmriprep：用深度神经网络做脑部 MRI 预处理](https://www.nature.com/articles/s43588-026-00953-7)
+### 5. [WellAlly-Health：Claude驱动的智能医疗助手](https://github.com/huifer/WellAlly-health)
 
-脑部 MRI 的体素形态学分析（VBM）预处理一直是个耗时的活儿。deepmriprep 用深度学习把这个流程自动化了，发表在 Nature Computational Science 上。对于神经影像研究者来说，这意味着更快的数据处理速度和更一致的结果。
-
----
-
-### 9. [可信赖的酶分类号预测：层级可解释 Transformer](https://www.nature.com/articles/s41467-026-68727-3)
-
-酶的 EC 编号预测听起来很学术，但对药物研发和代谢工程来说至关重要。这篇 Nature Communications 论文提出了一个层级可解释的 Transformer 模型，不仅预测准确，还能告诉你为什么这么预测。可解释性在生物 AI 领域越来越重要了。
+症状记录、用药管理、病历追踪、多学科会诊分析——这个项目把Claude塞进了健康管理全流程。671星，适合想做AI医疗产品的团队参考架构。
 
 ---
 
-### 10. [BrainFuse：连接生物神经建模和 AI 的统一基础设施](https://papers.cool/arxiv/2601.21407)
+### 6. [Awesome-AI-Agents-for-Healthcare：医疗AI Agent资源大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
 
-神经科学和 AI 本该是亲兄弟，但现实是：AI 框架不支持生物物理细节，神经模拟工具又不适合梯度优化。BrainFuse 试图打通这堵墙，在单个神经形态芯片上部署了约 38000 个 Hodgkin-Huxley 神经元和 1 亿个突触，功耗仅 1.98W。对于想把真实神经动力学引入 AI 的研究者，这是个值得关注的工具。
+想了解医疗领域的AI Agent最新进展？这个repo帮你整理好了。599星，入门必收藏。
+
+---
+
+### 7. [Open-Wearables：可穿戴设备数据统一平台](https://github.com/the-momentum/open-wearables)
+
+手环、手表、戒指……数据散落一地？这个自托管平台把所有可穿戴设备数据统一成一个AI-ready的API。451星，做健康数据分析的可以关注。
+
+---
+
+### 8. [DANCE：单细胞分析深度学习库](https://github.com/OmicsML/dance)
+
+单细胞数据分析的深度学习基准平台，384星。做组学AI的研究者可以拿来跑benchmark。
+
+---
+
+### 9. [ProteinFlow：蛋白质结构数据处理流水线](https://github.com/adaptyvbio/ProteinFlow)
+
+想用深度学习做蛋白质设计？数据预处理是第一道坎。这个工具帮你把PDB数据处理成模型能吃的格式。271星，蛋白质AI入门必备。
+
+---
+
+### 10. [Flow Matching遇上生命科学：综述来了](https://www.nature.com/articles/s44387-025-00066-y)
+
+Flow matching（流匹配）是生成模型的新宠，这篇综述梳理了它在生物和生命科学中的应用。想了解前沿方法论的可以读一读。
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [Open-Wearables](https://github.com/the-momentum/open-wearables) - 自托管平台，把各种可穿戴设备的健康数据统一成一个 AI 友好的 API
+**[开源]** [Hia：AI血液报告分析助手](https://github.com/harshhh28/hia) - 上传血检报告，AI帮你解读，143星
 
-**[开源]** [DeepPurpose](https://github.com/kexinhuang12345/DeepPurpose) - 药物-靶点相互作用预测的深度学习工具包，生物信息学必备
+**[开源]** [DeepMicrobes：宏基因组分类深度学习工具](https://github.com/MicrobeLab/DeepMicrobes) - 微生物组研究者可以试试
 
-**[开源]** [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) - 医疗健康领域 AI Agent 的最新进展汇总
+**[开源]** [SemiBin：自监督学习做宏基因组分箱](https://github.com/BigDataBiology/SemiBin) - 153星，微生物组分析新选择
 
-**[研究]** [跨物种毒性发现一致性大规模研究](https://www.biorxiv.org/content/10.64898/2026.01.29.702667v1?rss=1) - 整合了 7565 种药物的临床前和临床安全数据，还配了个多智能体 AI 系统
+**[开源]** [ClairS：长读长体细胞变异检测](https://github.com/HKU-BAL/ClairS) - 港大出品，深度学习方法
 
-**[研究]** [基底神经节单细胞和表观基因组资源](https://www.biorxiv.org/content/10.64898/2026.01.29.702575v1?rss=1) - 跨人类、猕猴、狨猴、小鼠的比较表观基因组分析平台
+**[研究]** [混合量子CNN识别多种眼病](https://www.nature.com/articles/s41598-026-38063-z) - 量子+AI+眼科，三合一
 
-**[研究]** [改进大规模单细胞注释模型的层级交叉熵损失](https://www.nature.com/articles/s43588-025-00945-z) - 发表在 Nature Computational Science
+**[研究]** [Nanobody可开发性分析工具](https://www.nature.com/articles/s42003-026-09594-y) - 纳米抗体设计的新帮手
 
-**[产品]** [Hia 健康洞察 Agent](https://github.com/harshhh28/hia) - 分析血液报告并提供详细健康洞察的 AI Agent
+**[开源]** [TransformerCPI：化合物-蛋白质相互作用预测](https://github.com/lifanchen-simm/transformerCPI) - Transformer架构做CPI
 
 ---
 
@@ -122,57 +120,57 @@ MYC 是癌症研究的"老熟人"了，但一直很难下手。这项研究用 C
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 研究 | 深度学习集成框架用于肾肿瘤多亚型分类 | [Nature](https://www.nature.com/articles/s41598-026-37283-7) |
-| 2 | 研究 | 机器学习预测 ICU 入院时耐碳青霉烯肠杆菌定植 | [Nature](https://www.nature.com/articles/s41598-026-37927-8) |
-| 3 | 研究 | 癌症微阵列数据特征选择的堆驱动进化框架 | [Nature](https://www.nature.com/articles/s41598-026-37803-5) |
-| 4 | 开源 | DeepMicrobes：宏基因组深度学习分类 | [GitHub](https://github.com/MicrobeLab/DeepMicrobes) |
-| 5 | 开源 | SemiBin：自监督深度学习宏基因组分箱 | [GitHub](https://github.com/BigDataBiology/SemiBin) |
-| 6 | 开源 | ProteinFlow：蛋白质结构数据深度学习处理管线 | [GitHub](https://github.com/adaptyvbio/ProteinFlow) |
+| 1 | 开源 | AI Healthcare Chatbot | [链接](https://github.com/arvindsis11/Ai-Healthcare-Chatbot) |
+| 2 | 开源 | TalkHeal心理健康助手 | [链接](https://github.com/eccentriccoder01/TalkHeal) |
+| 3 | 开源 | HealthChain医疗AI中间件 | [链接](https://github.com/dotimplement/HealthChain) |
+| 4 | 开源 | Doctor-Dok医疗数据框架 | [链接](https://github.com/Doctor-One/doctor-dok) |
+| 5 | 资源 | Awesome Healthcare Datasets | [链接](https://github.com/geniusrise/awesome-healthcare-datasets) |
+| 6 | 研究 | 深度学习框架检测辣椒病虫害 | [链接](https://www.nature.com/articles/s41598-025-34477-3) |
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### AlphaGenome 衍生工具爆发
-- **预测时间**：2026年Q1-Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻 [AlphaGenome 登上 Nature 封面](https://x.com/demishassabis/status/2016763919646478403) + DeepMind 开放模型权重给学术界，历史上 AlphaFold 开源后 3 个月内出现了大量衍生工具和应用
+### 开源AI健康助手将迎来整合潮
+- **预测时间**：2026年Q2
+- **预测概率**：70%
+- **预测依据**：今日多个开源健康AI项目（[OpenHealth](https://github.com/OpenHealthForAll/open-health)、[Lotti](https://github.com/matthiasn/lotti)）获得高星标，社区需求明确，预计会有团队尝试整合这些分散项目
 
-### 浏览器端单细胞分析成为新趋势
+### 可穿戴设备数据标准化加速
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：65%
+- **预测依据**：[Open-Wearables](https://github.com/the-momentum/open-wearables)等项目出现，说明数据孤岛问题已被重视，统一API的需求正在形成
+
+### Flow Matching在蛋白质生成领域落地
 - **预测时间**：2026年Q2
 - **预测概率**：60%
-- **预测依据**：今日新闻 [CytoVerse 浏览器端单细胞 AI](https://www.biorxiv.org/content/10.64898/2026.01.29.702554v1?rss=1) + 隐私合规要求日益严格，边缘计算在医疗领域的需求持续增长
-
-### 开源健康数据平台整合加速
-- **预测时间**：2026年Q1
-- **预测概率**：70%
-- **预测依据**：今日多个开源健康项目热度上升（[Open-Health](https://github.com/OpenHealthForAll/open-health) 3795星、[Open-Wearables](https://github.com/the-momentum/open-wearables)）+ 用户对数据隐私的关注度持续提升
+- **预测依据**：[Flow Matching综述](https://www.nature.com/articles/s44387-025-00066-y)发表，方法论成熟度提升，预计会有更多蛋白质设计工具采用该方法
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 基因组学和单细胞分析的最新资讯？
+### 哪里可以获取AI健康助手、开源医疗AI的最新资讯？
 
-今日 AI 生命科学领域的热点包括：AlphaGenome 登上 Nature 封面、CytoVerse 浏览器端单细胞分析、以及多个开源健康数据平台的崛起。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日AI生命科学领域的热点包括：开源AI健康助手爆发（OpenHealth、Lotti）、深度学习生信工具更新、可穿戴设备数据整合。想要持续追踪这类**AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
-- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
-- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选AI与生命科学交叉领域的重磅新闻
+- 内容涵盖：AI制药、蛋白质设计、基因编辑、医学影像AI、生物大模型等
+- 专为对BioAI感兴趣的投资人、产品经理、创业者、学生打造
 - 用普通人能理解的语言，解读最前沿的技术进展
 
-访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
+访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日AI生命科学资讯。
 
 ---
 
-### 如何体验 Claude 等 AI 工具用于健康数据分析？
+### 如何体验Claude等AI工具来分析健康数据？
 
-今日新闻中，[WellAlly-Health](https://github.com/huifer/WellAlly-health) 展示了 Claude AI 在医疗健康领域的应用潜力。想要体验 Claude 等 AI 工具，但面临支付困难或账号注册限制？
+今日多个项目（如[WellAlly-Health](https://github.com/huifer/WellAlly-health)、[Lotti](https://github.com/matthiasn/lotti)）都集成了Claude来做健康数据分析。想要体验这些AI工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供ChatGPT Plus、Claude Pro、Gemini Pro等成品账号服务
 - 极速发货，下单即用，无需处理海外支付问题
 - 提供稳定的独享账号，售后无忧
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
