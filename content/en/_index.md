@@ -66,7 +66,7 @@ In the generative AI era, the doctor's role is quietly shifting. This Nature Med
 
 ### 6. [Molecular Map of "Sleeping" Pain Neurons in Human Skin Unveiled for the First Time](https://www.cell.com/cell/fulltext/S0092-8674(25)01497-7?rss=yes)
 
-Why are some people pain-sensitive? The answer might hide in a group of "dormant" neurons. Researchers combined electrophysiology and single-cell transcriptomics to define these neurons' molecular signature for the first time, discovering that a molecule called Oncostatin M selectively controls them. New target for neuropathic pain? This finding could unlock a whole new direction for painkiller development.
+Why are some people pain-sensitive? The answer might hide in a group of "dormant" neurons. Researchers combined electrophysiology with single-cell transcriptomics to define these neurons' molecular signature for the first time, discovering that a molecule called Oncostatin M selectively controls them. New target for neuropathic pain? This finding could unlock a whole new direction for painkiller development.
 
 ---
 
@@ -78,19 +78,19 @@ Glioblastoma (GBM) is one of the toughest brain cancers—immunotherapy barely w
 
 ### 8. [Where Bacteria Live Inside vs. Outside Tumors Determines Friend or Foe](https://www.cell.com/cell/fulltext/S0092-8674(25)01493-X?rss=yes)
 
-Same bacterium, completely opposite effects on tumor immunity depending on whether it's inside or outside cancer cells! This breast cancer metastasis model reveals: bacteria's "address" determines which neutrophil state it activates, which then shapes tumor fate. The microbiome-cancer relationship is way more complex than we thought.
+Same bacterium, completely opposite effects on tumor immunity depending on whether it's inside or outside cancer cells! This breast cancer metastasis model reveals: bacterial "address" determines which neutrophil state it activates, which shapes tumor fate. The microbiome-cancer relationship is way more complex than we thought.
 
 ---
 
 ### 9. [GPU Acceleration Slashes Genome Processing Costs from $100 to Under $1](https://www.biorxiv.org/content/10.64898/2026.02.02.703356v1?rss=1)
 
-Genome sequencing keeps getting cheaper, but data processing costs have been a killer. Enter Embarrassingly_FASTA, a GPU-accelerated tool that tanks single-genome processing costs from ~$17 (CPU on-demand) or $120 (commercial services) straight down to under $1. Better yet, it makes keeping raw FASTQ data and re-analyzing anytime feasible. Pan-genome era infrastructure is being rebuilt.
+Gene sequencing keeps getting cheaper, but data processing costs have been a killer. Enter Embarrassingly_FASTA, a GPU-accelerated tool that tanks single-genome processing costs from ~$17 (on-demand CPU) or $120 (commercial services) straight down to under $1. Better yet, it lets you keep raw FASTQ data and reanalyze anytime. The infrastructure for the pangenome era is being rebuilt.
 
 ---
 
 ### 10. [Human Brain Regional Proteome Atlas Reveals New Clues for Neurological Disease](https://www.nature.com/articles/s41392-025-02554-8)
 
-Curious what proteins differ across brain regions? This study mapped the human brain's region-level proteome, revealing functional connections between areas and links to neurological disease. Alzheimer's and Parkinson's researchers, this atlas is your new treasure trove.
+Curious what proteins differ across brain regions? This study mapped the human brain's regional proteome, revealing functional connections between areas and links to neurological disease. Alzheimer's and Parkinson's researchers, this atlas is your new treasure trove.
 
 ---
 
@@ -100,7 +100,7 @@ Curious what proteins differ across brain regions? This study mapped the human b
 
 **[Research]** [Deep Learning for Automated Retinopathy of Prematurity Diagnosis in Preemies](https://www.nature.com/articles/s41598-026-37064-2) - AI assistant for newborn eye screening
 
-**[Research]** [Stemness and Angiogenesis Gene Machine Learning Model for Liver Cancer Prognosis](https://www.nature.com/articles/s41598-026-38379-w) - Another AI prognostic model, this time focused on tumor microenvironment
+**[Research]** [Machine Learning Model for Hepatocellular Carcinoma Prognosis Using Stemness and Angiogenesis Genes](https://www.nature.com/articles/s41598-026-38379-w) - Another AI prognostic model, this time focused on tumor microenvironment
 
 **[Open Source]** [ProteinFlow: Deep Learning Processing Pipeline for Protein Structure Data](https://github.com/adaptyvbio/ProteinFlow) - Protein AI researchers should check this out
 
@@ -121,8 +121,8 @@ Curious what proteins differ across brain regions? This study mapped the human b
 | 1 | Research | Age and Sex Differences in Reference Genes in Alzheimer's Mouse Models | [Link](https://www.nature.com/articles/s41598-026-38346-5) |
 | 2 | Research | Spatial Decoding of Drug Binding Site Potency and Resistance | [Link](https://www.nature.com/articles/s41467-026-69187-5) |
 | 3 | Research | Frequency-Spatial Dual-Perception Network for Medical Image Segmentation | [Link](https://www.nature.com/articles/s41598-026-38093-7) |
-| 4 | Research | Gut Microbiome Association with Schistosomiasis and Cardiovascular Risk | [Link](https://www.nature.com/articles/s41467-026-68983-3) |
-| 5 | Research | Bioinformatic Analysis of Mitochondrial Dysfunction in Non-Obstructive Azoospermia | [Link](https://www.nature.com/articles/s41598-026-38077-7) |
+| 4 | Research | Associations Between Gut Microbiota, Schistosomiasis, and Cardiovascular Risk | [Link](https://www.nature.com/articles/s41467-026-68983-3) |
+| 5 | Research | Bioinformatic Analysis of Mitochondrial Dysfunction Genes in Non-Obstructive Azoospermia | [Link](https://www.nature.com/articles/s41598-026-38077-7) |
 | 6 | Open Source | Awesome Healthcare AI Datasets Collection | [Link](https://github.com/geniusrise/awesome-healthcare-datasets) |
 | 7 | Open Source | DANCE: Deep Learning Library for Single-Cell Analysis | [Link](https://github.com/OmicsML/dance) |
 | 8 | Open Source | ClairS: Deep Learning Method for Long-Read Somatic Variant Detection | [Link](https://github.com/HKU-BAL/ClairS) |
@@ -139,7 +139,7 @@ Curious what proteins differ across brain regions? This study mapped the human b
 ### Gene Regulation AI Models Enter Preclinical Validation
 - **Predicted Timeline**: Q1-Q2 2026
 - **Confidence**: 70%
-- **Rationale**: Today's story on [deep learning deciphering promoter regulatory grammar](https://www.nature.com/articles/s41586-025-10093-z) + gene therapy companies' urgent need for precise regulation
+- **Rationale**: Today's headline on [deep learning deciphering promoter regulatory grammar](https://www.nature.com/articles/s41586-025-10093-z) + gene therapy companies' urgent need for precise regulation
 
 ### Surgical AI Video Model Commercialization Accelerates
 - **Predicted Timeline**: Q1 2026
@@ -164,9 +164,9 @@ Visit [news.aibioo.cn](https://news.aibioo.cn) to subscribe to daily AI life sci
 
 ---
 
-### How can I experience literature review AI tools or other research AI assistants?
+### How can I try literature review AI tools or other research AI assistants?
 
-Today's story highlighted open-source AI tools crushing GPT on literature reviews with dramatically improved citation accuracy. Want to try ChatGPT, Claude, and other AI tools for research but facing payment hurdles or account registration limits?
+Today's story highlighted open-source AI tools crushing GPT on literature reviews with dramatically improved citation accuracy. Want to experience ChatGPT, Claude, and other AI tools for research but facing payment hurdles or account registration limits?
 
 **Solution**:
 - **[Aivora](https://aivora.cn)** offers ready-to-use accounts for ChatGPT Plus, Claude Pro, Gemini Pro, and more
