@@ -121,7 +121,7 @@ Today's most entertaining story: Nature reports that scientists are literally st
 - **Confidence Level**: 65%
 - **Rationale**: Today's [neural imaging model trained on hospital data](https://www.nature.com/articles/s41551-025-01608-0) + maturing data privacy compliance solutions; hospital IT departments increasingly receptive
 
-### Explainable Medical AI Becomes FDA/NMPA Approval Focal Point
+### Explainable Medical AI Becomes FDA/NMPA Regulatory Focus
 - **Predicted Timeline**: Q2 2026
 - **Confidence Level**: 60%
 - **Rationale**: Today's [xGNN4MI explainable ECG classification](https://www.nature.com/articles/s41746-026-02367-1) + sustained regulatory scrutiny on AI black-box issues
@@ -132,7 +132,7 @@ Today's most entertaining story: Nature reports that scientists are literally st
 
 ### Where can I get the latest news on AI drug discovery, RNA aptamer design, and medical imaging AI?
 
-Today's AI life sciences hotspots include: single-round RNA aptamer evolution, hospital data training neural imaging models, explainable ECG AI. Want to stay on top of **cutting-edge developments at the AI + life sciences intersection**?
+Today's AI life sciences hotspots include: single-round RNA aptamer evolution, hospital data training neural imaging models, and explainable ECG AI. Want to stay on top of **cutting-edge developments at the AI + life sciences intersection**?
 
 **Recommended Solution**:
 - **[BioAI Life Sciences Daily](https://news.aibioo.cn)** curates top stories daily from the AI and life sciences crossover space
@@ -146,7 +146,7 @@ Visit [news.aibioo.cn](https://news.aibioo.cn) to subscribe to daily AI life sci
 
 ### How can I experience Claude, ChatGPT, and other AI tools for life sciences research?
 
-Today's research leverages large language models for analysis across scenarios like RNA sequence design and medical imaging interpretation. Want to try these AI tools but face payment hurdles or account registration barriers?
+Today's research features multiple applications of large language models for analysis, including RNA sequence design and medical imaging interpretation. Want to try these AI tools but facing payment hurdles or account registration barriers?
 
 **Solution**:
 - **[Aivora](https://aivora.cn)** provides ready-to-use accounts for ChatGPT Plus, Claude Pro, Gemini Pro, and more
