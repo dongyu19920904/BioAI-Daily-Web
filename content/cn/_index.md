@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/2/6
+title: BioAI 生命科学日报 2026/2/7
 breadcrumbs: false
-next: /2026-02/2026-02-06
+next: /2026-02/2026-02-07
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-LCPC算法首次量化细胞"手性"特征，传统测量方法做不到的事终于有解了。
-单细胞大模型扎堆发布，10亿参数的scLong专攻基因长程关联，赛道越来越卷。
-今天的亮点在基础研究，做细胞形态分析和免疫治疗的值得细看。
+RNA适配体设计从几个月压缩到一轮实验，GRAPE-LM让分子筛选效率提升十倍。
+医院"脏数据"也能训出好模型，可解释AI同时在心电图诊断领域突破黑箱困境。
+今天的主题很明确：AI正在重写生命科学的时间表，做分子诊断和医学影像的该动起来了。
 ```
 
 
@@ -29,92 +29,65 @@ LCPC算法首次量化细胞"手性"特征，传统测量方法做不到的事�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-今天最值得关注的：一个能捕捉细胞"左右手性"的算法诞生了，这是传统测量方法做不到的事。
+RNA适配体进化从几个月缩短到一轮实验，生成式AI正在重写分子设计的时间表。
 
 ### **🔑 3 个关键词**
-#细胞形态分析 #单细胞AI #基因组深度学习
+#RNA适配体 #医学影像AI #空间转录组
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [LCPC算法：终于能测量细胞的"左右手"了](https://www.biorxiv.org/content/10.64898/2026.02.02.703425v1?rss=1)
+### 1. [生成式AI让RNA适配体"一轮进化"成为现实](https://www.nature.com/articles/s41587-026-03008-4)
 
-想象一下：左脚鞋和右脚鞋体积一样，但你绝对不会穿错。细胞也有这种"手性"特征，但传统的面积、体积测量根本分辨不出来。这个新算法 LCPC Transform 把细胞轮廓转成波形信号，再用傅里叶变换分析——终于能量化这些"只可意会"的空间特征了。对研究肿瘤耐药性的人来说，这可能是个突破口。
+传统筛选RNA适配体（一种能精准识别靶标的分子工具）需要反复迭代好几个月。现在，研究团队开发了GRAPE-LM——一个基于核酸语言模型的生成式AI，直接预测高亲和力序列。实测下来，一轮实验就能拿到可用的适配体。对做分子诊断、靶向递送的团队来说，这意味着研发周期可能被压缩到原来的十分之一。
 
----
+### 2. [Nature子刊：从医院数据直接训练神经影像模型](https://www.nature.com/articles/s41551-025-01608-0)
 
-### 2. [eScreen：单碱基精度解码基因调控密码](https://www.biorxiv.org/content/10.64898/2026.02.02.703403v1?rss=1)
+以前训练医学影像AI，要么用公开数据集（样本有限），要么花大力气清洗医院数据。这篇研究直接在医疗系统级别的真实数据上训练神经影像模型，证明了"脏数据"也能出好模型。对医院IT部门和AI团队来说，这可能是个信号：别再等完美数据集了，手头的数据就能用。
 
-整合了379个CRISPR筛选实验、2100万次扰动数据，这个深度学习模型能在单核苷酸级别预测基因调控元件的功能。最实用的是：它提供了一个在线工具（escreen.huanglabxmu.com），可以直接查询和分析。做基因编辑、增强子研究的朋友，这个资源值得收藏。
+### 3. [图神经网络实时预测颅内动脉瘤血流动力学](https://www.nature.com/articles/s41746-026-02404-z)
 
----
+颅内动脉瘤破裂风险评估，传统方法要跑几小时的流体仿真。这个物理约束图神经网络把预测时间压到实时级别，而且保持了物理一致性。神经外科医生做术前评估时，终于不用干等仿真结果了。
 
-### 3. [scLong：10亿参数的单细胞大模型来了](https://www.nature.com/articles/s41467-026-69102-y)
+### 4. [Graph Transformer识别空间单细胞互作](https://www.nature.com/articles/s42256-026-01191-2)
 
-单细胞转录组分析的新武器。这个模型专门设计来捕捉基因之间的长程关联——以前的模型往往只能看到"邻居"基因的关系，现在能看到更远的"亲戚"了。10亿参数听起来吓人，但对于处理单细胞数据的复杂性来说，可能刚刚好。
+空间转录组数据越来越多，但细胞之间到底怎么"聊天"一直是个黑箱。这个Graph Transformer模型能从空间位置和表达谱中挖出细胞间的互作关系。做肿瘤微环境、免疫浸润研究的，可以关注一下。
 
----
+### 5. [弱监督Transformer从电子病历诊断罕见病](https://www.nature.com/articles/s41746-026-02406-x)
 
-### 4. [Spark T细胞：癌症免疫治疗"开奖"的秘密](https://www.cell.com/cell/fulltext/S0092-8674(25)01439-4?rss=yes)
+罕见病诊断难，难在样本少、标注贵。这个弱监督Transformer只需要少量标签就能从电子病历中识别罕见病亚型，论文用肺部疾病做了验证。对罕见病研究者来说，这可能是个低成本起步的方案。
 
-为什么同样的免疫疗法，有人有效有人没效？Cell这篇论文找到了答案：一种叫"Spark T细胞"的稀有CD8+ T细胞亚群。它们数量极少但功能关键，决定了治疗是"中奖"还是"陪跑"。这个发现可能改变我们筛选免疫治疗患者的方式。
+### 6. [xGNN4MI：可解释图神经网络读懂12导联心电图](https://www.nature.com/articles/s41746-026-02367-1)
 
----
+心电图AI诊断不新鲜，但医生最怕"黑箱"。这个xGNN4MI不仅能分类心血管疾病，还能告诉你模型在看哪些导联、哪些波形。可解释性终于跟上了准确率。
 
-### 5. [OpenHealth：开源的AI健康助手](https://github.com/OpenHealthForAll/open-health)
+### 7. [AI驱动3D亚细胞RPE图谱揭示极性建立过程](https://www.nature.com/articles/s44387-026-00074-6)
 
-3800+ Star的开源项目，用你自己的健康数据驱动AI分析。不是那种泛泛的健康建议，而是基于你的实际数据给出个性化洞察。隐私敏感的朋友会喜欢这个——数据在本地，AI在云端。
+视网膜色素上皮（RPE）细胞的极性建立一直是眼科研究的热点。这个AI系统能自动构建3D亚细胞图谱，发现了细胞状态转变的关键节点。做眼科再生医学的可以深挖。
 
----
+### 8. [ConvAHKG：双通道卷积知识图谱助力药物重定位](https://www.nature.com/articles/s41598-026-38656-8)
 
-### 6. [DeepPurpose：药物-靶点预测的瑞士军刀](https://github.com/kexinhuang12345/DeepPurpose)
+药物重定位（老药新用）是AI制药的热门赛道。这个方法把动作级别的知识图谱和双通道卷积结合起来，挖掘药物-疾病新关联。对做药物发现的团队，又多了一个可尝试的pipeline。
 
-1100+ Star，覆盖药物-靶点相互作用、药物性质预测、蛋白质功能预测等多个任务。对于想快速搭建AI制药原型的团队来说，这个工具包能省不少时间。文档写得也清楚，上手门槛不高。
+### 9. [DiReG：细胞直接重编程的导航地图](https://www.nature.com/articles/s41540-026-00652-z)
 
----
+想把皮肤细胞变成神经元？直接重编程是条路，但路线图一直不清晰。DiReG整合了大量重编程数据，帮你规划最优转化路径。做细胞治疗、再生医学的可以参考。
 
-### 7. [SparkyFitness：全家一起用的AI健康追踪](https://github.com/CodeWithCJ/SparkyFitness)
+### 10. [SimCardioNet：混合学习框架自动分类心电图](https://www.nature.com/articles/s41598-026-36932-1)
 
-2100+ Star，主打"家庭健康管理"。食物、运动、饮水、健康指标一站式追踪，AI提供个性化建议。有意思的是它的设计理念：不是给个人用的，是给一家人一起用的。
-
----
-
-### 8. [Awesome AI Agents for Healthcare：医疗AI Agent资源大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
-
-600+ Star的资源汇总，专门收集医疗健康领域的AI Agent最新进展。如果你在做医疗AI产品，这个列表能帮你快速了解行业动态和技术趋势。
-
----
-
-### 9. [ProteinFlow：蛋白质结构数据处理流水线](https://github.com/adaptyvbio/ProteinFlow)
-
-做蛋白质深度学习的都知道，数据预处理是个大坑。这个工具专门解决这个问题：从原始结构数据到模型可用的格式，一条龙服务。Adaptyv Bio出品，质量有保证。
-
----
-
-### 10. [WellAlly-Health：Claude驱动的智能健康助手](https://github.com/huifer/WellAlly-health)
-
-680+ Star，结合Claude AI和医学知识库，支持症状记录、用药管理、病历追踪。亮点是多学科会诊分析功能——不是单一科室的建议，而是综合多个专科的视角。
+又一个心电图分类模型，但这次是混合学习框架，兼顾了准确率和泛化能力。对做心电AI产品的团队，可以对比一下和自家模型的差距。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [深度学习评估多序列比对质量](https://www.biorxiv.org/content/10.64898/2026.02.02.703429v1?rss=1) - 传统SP评分不够准，这个模型能更好地判断比对质量
-
-**[研究]** [FLASH-MM：单细胞差异表达分析加速器](https://www.nature.com/articles/s41467-026-69063-2) - 用线性混合效应模型，大规模单细胞分析更快了
-
-**[研究]** [感觉神经元如何帮助肿瘤"躲避"免疫](https://www.cell.com/cell/fulltext/S0092-8674(26)00048-6?rss=yes) - 三阴性乳腺癌的免疫逃逸新机制
-
-**[研究]** [AI识别腹腔镜手术解剖结构](https://www.nature.com/articles/s41598-026-35999-0) - 肾脏移植手术的AI辅助验证研究
-
-**[开源]** [Lotti：本地优先的AI健康助手](https://github.com/matthiasn/lotti) - 1000+ Star，数据全在本地，隐私党狂喜
-
-**[开源]** [Open-Wearables：可穿戴设备数据统一平台](https://github.com/the-momentum/open-wearables) - 自托管，一个API搞定所有可穿戴设备数据
-
-**[研究]** [半监督学习做肺炎分类](https://www.nature.com/articles/s41598-026-38849-1) - CNN+级联森林的组合拳
-
-**[研究]** [Hi-C数据检测结构变异的新方法](https://www.nature.com/articles/s41598-026-37678-6) - 神经网络+染色质接触矩阵
+- **[研究]** [乳腺超声链式推理数据集覆盖全病理类型](https://www.nature.com/articles/s41597-026-06702-9) - 做乳腺AI诊断的，终于有个全覆盖的推理数据集了
+- **[研究]** [靶向宏基因组学在乌干达发现隐藏的水痘疫情](https://www.nature.com/articles/s41598-026-38778-z) - AI+测序在公共卫生监测中的实战案例
+- **[研究]** [深度学习优化韩国入侵龟类早期检测](https://www.nature.com/articles/s41598-026-37636-2) - 生态监测也能用AI，超参数优化是关键
+- **[开源]** [OpenHealth：AI健康助手，数据本地存储](https://github.com/OpenHealthForAll/open-health) - 3800+ Star，隐私优先的健康AI方案
+- **[开源]** [DeepPurpose：药物-靶点预测深度学习工具包](https://github.com/kexinhuang12345/DeepPurpose) - 1100+ Star，DTI/DDI/PPI一站式搞定
+- **[开源]** [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) - 医疗AI Agent最新进展汇总
 
 ---
 
@@ -122,41 +95,48 @@ LCPC算法首次量化细胞"手性"特征，传统测量方法做不到的事�
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 研究 | 可解释机器学习预测认知障碍 | [链接](https://www.nature.com/articles/s41598-025-34060-w) |
-| 2 | 研究 | 传染病预测模型的隐私保护方法 | [链接](https://www.nature.com/articles/s41598-026-38906-9) |
-| 3 | 研究 | 阿尔茨海默病预测的监督与集成模型对比 | [链接](https://www.nature.com/articles/s41598-026-37122-9) |
-| 4 | 研究 | 合成生物学智能问答系统APMSR | [链接](https://www.nature.com/articles/s41598-026-38006-8) |
-| 5 | 数据集 | 脑肿瘤分割分类标注数据集BRISC | [链接](https://www.nature.com/articles/s41597-026-06753-y) |
-| 6 | 研究 | 转移性癌症转录组的细胞状态分析 | [链接](https://www.nature.com/articles/s41598-026-36512-3) |
-| 7 | 开源 | SemiBin：宏基因组分箱深度学习工具 | [链接](https://github.com/BigDataBiology/SemiBin) |
-| 8 | 开源 | ClairS：长读长体细胞变异检测 | [链接](https://github.com/HKU-BAL/ClairS) |
+| 1 | 研究 | FAIR数据政策中的缺失环节：生命科学生物数据资源 | [链接](https://www.nature.com/articles/s41597-026-06690-w) |
+| 2 | 研究 | COVID-19模型的数值鲁棒性与Lyapunov稳定性分析 | [链接](https://www.nature.com/articles/s41598-025-31506-z) |
+| 3 | 研究 | 芍药甘草汤诱导细胞特征的多维转录组数据集 | [链接](https://www.nature.com/articles/s41597-026-06759-6) |
+| 4 | 开源 | SemiBin：自监督深度学习宏基因组分箱 | [链接](https://github.com/BigDataBiology/SemiBin) |
+| 5 | 开源 | ClairS：长读长体细胞小变异检测深度学习方法 | [链接](https://github.com/HKU-BAL/ClairS) |
+| 6 | 开源 | HealthChain：医疗AI的中间件层 | [链接](https://github.com/dotimplement/HealthChain) |
+| 7 | 开源 | DANCE：单细胞分析深度学习库 | [链接](https://github.com/OmicsML/dance) |
+
+---
+
+## **😄 AI生命科学趣闻**
+
+### [Nature：AI聊天机器人正在"失控"——科学家们在偷听](https://www.nature.com/articles/d41586-026-00370-w)
+
+今天最有意思的一条：Nature报道说，有科学家专门研究AI聊天机器人在野外的"奇葩表现"。想象一下，一群研究员像观察野生动物一样，记录ChatGPT们的各种"出格"回答。AI圈的"动物行为学"，这下有了。
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 单细胞基础模型竞争白热化
+### RNA适配体AI设计工具商业化加速
 - **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[scLong发布](https://www.nature.com/articles/s41467-026-69102-y) + 近期Genentech、Chan Zuckerberg等机构都在布局单细胞大模型，预计未来几个月会有更多10亿+参数的模型发布
+- **预测概率**：70%
+- **预测依据**：今日新闻[GRAPE-LM实现一轮进化](https://www.nature.com/articles/s41587-026-03008-4) + 分子诊断和靶向递送市场需求旺盛，技术成熟度已达商业化门槛
 
-### CRISPR筛选数据整合平台涌现
+### 医院级真实数据训练成为医学影像AI主流范式
 - **预测时间**：2026年Q1-Q2
 - **预测概率**：65%
-- **预测依据**：今日新闻[eScreen整合379个CRISPR筛选实验](https://www.biorxiv.org/content/10.64898/2026.02.02.703403v1?rss=1) + 大规模功能基因组数据的整合分析正在成为趋势
+- **预测依据**：今日新闻[医院数据直接训练神经影像模型](https://www.nature.com/articles/s41551-025-01608-0) + 数据隐私合规方案逐步成熟，医院IT部门接受度提升
 
-### 免疫治疗患者分层AI工具商业化
+### 可解释医学AI成为FDA/NMPA审批新焦点
 - **预测时间**：2026年Q2
-- **预测概率**：55%
-- **预测依据**：今日新闻[Spark T细胞发现](https://www.cell.com/cell/fulltext/S0092-8674(25)01439-4?rss=yes) + 精准识别免疫治疗响应者的需求强烈，预计会有公司基于此类发现开发诊断产品
+- **预测概率**：60%
+- **预测依据**：今日新闻[xGNN4MI可解释心电图分类](https://www.nature.com/articles/s41746-026-02367-1) + 监管机构对AI黑箱问题关注度持续上升
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取AI单细胞分析、基因调控、免疫治疗的最新资讯？
+### 哪里可以获取 AI制药、RNA适配体设计、医学影像AI 的最新资讯？
 
-今日 AI 生命科学领域的热点包括：单细胞基础模型scLong发布、eScreen解码基因调控元件、Spark T细胞揭示免疫治疗响应机制。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：RNA适配体一轮进化、医院数据训练神经影像模型、可解释心电图AI。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -168,9 +148,9 @@ LCPC算法首次量化细胞"手性"特征，传统测量方法做不到的事�
 
 ---
 
-### 如何体验Claude等AI工具进行健康数据分析？
+### 如何体验 Claude、ChatGPT 等 AI 工具进行生命科学研究？
 
-今日新闻中，[WellAlly-Health](https://github.com/huifer/WellAlly-health)展示了Claude AI在健康管理中的应用潜力。想要体验Claude等AI工具，但面临支付困难或账号注册限制？
+今日多个研究使用了大语言模型辅助分析，包括RNA序列设计、医学影像解读等场景。想要体验这些 AI 工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
