@@ -154,7 +154,7 @@ The Company may disclose your Personal Data in good faith believing that such ac
 The security of your Personal Data is important to us, but please remember that no method of transmission over the Internet or electronic storage method is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
 
 ## Children's Privacy
-Our Service is not directed to anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under 13. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us. If we discover that we have collected Personal Data from anyone under 13 without verified parental consent, we will take steps to delete such information from our servers.
+Our Service is not directed to anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under 13. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us. If we discover that we have collected Personal Data from anyone under 13 without verified parental consent, we will take steps to remove that information from our servers.
 
 If we need to rely on consent as the legal basis for processing your information, and your country/region requires parental consent, we may request your parent's consent before we collect and use that information.
 
