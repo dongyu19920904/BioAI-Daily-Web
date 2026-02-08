@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/2/8
+title: BioAI 生命科学日报 2026/2/9
 breadcrumbs: false
-next: /2026-02/2026-02-08
+next: /2026-02/2026-02-09
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-AI用少样本学习发现了能杀死超级细菌的新型抗菌肽，数据稀缺不再是药物研发的死穴。
-帕金森诊断搬到视频会议上，联邦学习让皮肤病AI既准又不泄露隐私，远程医疗门槛在降。
-抗生素耐药危机有了新解法，做AI制药的今天值得细读。
+机器学习从宏基因组里挖出CRISPR-Cas9的新PAM序列，基因编辑工具箱又扩容了。
+开源健康AI扎堆上线，从养猪到养老全覆盖，数据隐私党终于有本地方案了。
+今天适合收藏，OpenHealth和HealthChain两个项目值得跑一遍。
 ```
 
 
@@ -29,90 +29,84 @@ AI用少样本学习发现了能杀死超级细菌的新型抗菌肽，数据稀
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-今天最炸裂的是：AI 发现了能干掉超级细菌的新型抗菌肽，而且只用了"少样本学习"。
+今天开源圈扎堆搞健康AI，从养猪到养老全覆盖，但真正硬核的是那个挖掘CRISPR新玩法的机器学习研究。
 
 ### **🔑 3 个关键词**
-#AI抗菌肽 #帕金森AI诊断 #深度学习分子设计
+#AI健康管理 #CRISPR机器学习 #开源医疗
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [AI 用"少样本学习"发现抗超级细菌的新型抗菌肽](https://www.nature.com/articles/s41467-026-69306-2)
+### 1. [机器学习挖出CRISPR-Cas9的"隐藏菜单"](https://www.nature.com/articles/s41467-026-69098-5)
 
-鲍曼不动杆菌——这个名字听起来人畜无害，实际上是医院里最难缠的超级细菌之一。传统药物研发要筛选成千上万个分子，耗时数年。现在，研究团队用预训练+微调的少样本学习管线，直接"猜"出了有效的抗菌肽。**数据少？没关系，AI 学会了举一反三。** 这对抗生素耐药性危机来说，可能是个转折点。
-
----
-
-### 2. [帕金森病诊断新突破：视频会议+机器学习就能评估症状](https://www.nature.com/articles/s41746-026-02426-7)
-
-以前评估帕金森病，得专门跑医院、做一堆复杂测试。现在呢？**开个视频会议，AI 就能分析你的运动和认知症状。** 研究团队整合了大规模数据集，训练出的模型让远程诊断变得可行。对于行动不便的患者来说，这简直是福音——不用出门，就能获得专业评估。
+做基因编辑的朋友都知道，Cas9认不认你的靶点，全看PAM序列对不对。以前大家只知道几种常见的PAM，就像只会点招牌菜。现在这篇Nature Communications的研究，用机器学习从海量宏基因组数据里"淘金"，挖出了一大堆新的PAM序列。这意味着什么？以前编辑不了的位点，现在可能有戏了。基因治疗的工具箱又厚了一层。
 
 ---
 
-### 3. [深度学习生成的 3D 分子，到底靠不靠谱？这篇论文给出了答案](https://www.nature.com/articles/s41467-026-69303-5)
+### 2. [OpenHealth：3800星的开源健康AI助手](https://github.com/OpenHealthForAll/open-health)
 
-AI 设计分子已经不是新鲜事了，但有个问题一直悬而未决：**AI 画出来的分子结构，在现实中真的能存在吗？** 这篇 Nature Communications 论文专门研究了深度学习生成的 3D 分子构象，评估它们的合理性和有效性。结论是：有些靠谱，有些纯属"AI 幻觉"。**做 AI 制药的朋友，这篇必读。**
-
----
-
-### 4. [DermaGPT：联邦学习+多模态，皮肤病诊断也能保护隐私了](https://www.nature.com/articles/s41598-026-38715-0)
-
-皮肤病诊断 AI 不少，但数据隐私一直是痛点——谁愿意把自己的皮肤照片上传到云端？DermaGPT 用联邦学习解决了这个问题：**数据不出本地，模型照样能训练。** 还加了个"元学习信任函数"，让诊断结果更可解释。隐私和准确性，这次都要了。
+想象一下，你的健康数据不用交给任何公司，全存在自己电脑上，还能用AI帮你分析。OpenHealth就是干这个的。3800+星的热度说明大家对"数据隐私+AI健康"这个组合有多渴望。支持本地运行，想用哪个AI模型自己选。对隐私敏感又想玩AI健康管理的朋友，这个值得收藏。
 
 ---
 
-### 5. [阿尔茨海默病预测：多任务学习模型来了](https://www.nature.com/articles/s41598-026-37820-4)
+### 3. [HealthChain：医疗AI的"中间件"来了](https://github.com/dotimplement/HealthChain)
 
-预测阿尔茨海默病，单一指标往往不够用。这个新模型用多任务学习，同时预测多个复杂性状。**一个模型，多个输出，效率直接翻倍。** 对于早期筛查和干预来说，这类工具越来越重要。
-
----
-
-### 6. [AI 找到登革热病毒聚合酶的稳定抑制剂](https://www.nature.com/articles/s41598-026-38864-2)
-
-登革热每年感染数亿人，但有效药物寥寥无几。研究团队用分子动力学模拟+结合自由能分析，从黄酮类化合物中筛出了一个稳定的 NS5 聚合酶抑制剂。**从天然产物到候选药物，AI 加速了这个过程。** 热带病研究者可以关注一下。
+做过医疗AI开发的都懂，最头疼的不是模型，是怎么把AI塞进医院那套老系统里。HealthChain定位就是这个"中间层"——帮你把AI能力和医疗系统对接起来。虽然星数不算爆炸，但解决的是真痛点。想在医疗场景落地AI的团队，可以关注一下。
 
 ---
 
-### 7. [亨廷顿病多靶点抑制剂：AI 从天然化合物中"挖"出来了](https://www.nature.com/articles/s41598-026-38430-w)
+### 4. [DeepPurpose：药物-靶点预测的瑞士军刀](https://github.com/kexinhuang12345/DeepPurpose)
 
-亨廷顿病是典型的"无药可治"神经退行性疾病。这项研究用计算机模拟，从天然化合物中发现了多靶点抑制剂。**一个分子打多个靶点，这是复杂疾病治疗的新思路。** 虽然还在早期，但方向值得期待。
-
----
-
-### 8. [OpenHealth：开源 AI 健康助手，数据完全由你掌控](https://github.com/OpenHealthForAll/open-health)
-
-想要一个 AI 健康助手，但又担心数据被上传到云端？OpenHealth 是个开源项目，**所有数据都存在本地，AI 分析完全离线。** GitHub 上已经 3800+ Star，说明需求确实存在。对隐私敏感的用户，这个值得一试。
+做AI制药的同学应该不陌生。DeepPurpose是个深度学习工具包，专门搞药物-靶点相互作用（DTI）、药物性质预测、蛋白质功能预测这些活儿。1100+星，文档齐全，适合想快速上手AI制药的新人。老手也能拿来当baseline跑实验。
 
 ---
 
-### 9. [DeepPurpose：药物-靶点相互作用预测的深度学习工具包](https://github.com/kexinhuang12345/DeepPurpose)
+### 5. [生猪健康智慧医药系统：RAG+大模型养猪](https://github.com/linyshdhhcb/PigHealthSmartMedicine)
 
-做 AI 制药的同学应该不陌生——DeepPurpose 是个老牌工具包，支持药物-靶点相互作用（DTI）、药物性质预测、蛋白质功能预测等多种任务。**一站式解决生物信息学深度学习需求。** 最近又更新了，1100+ Star，社区活跃度不错。
+没看错，这是个用RAG（检索增强生成）+DeepSeek大模型做的"AI兽医"系统。养殖户拍张照，AI帮你判断猪生了啥病、该用啥药。虽然听起来有点土味，但农业AI+生命科学的交叉，市场空间可不小。技术栈也挺新：SpringBoot3 + Spring AI + Ollama。
 
 ---
 
-### 10. [仿生智能皮肤：能隐藏图像、还能变形](https://www.sciencedaily.com/releases/2026/02/260206034836.htm)
+### 6. [Awesome Healthcare AI Agents：医疗AI Agent资源大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
 
-这个有点科幻了。宾州州立大学的研究者受章鱼皮肤启发，开发了一种智能水凝胶——**可以根据热、液体或拉伸改变外观、纹理和形状。** 图像和信息可以"隐藏"在皮肤里，触发后才显现。虽然离临床应用还远，但脑洞确实大。
+最近Agent概念火得一塌糊涂，医疗领域也不例外。这个repo收集了医疗AI Agent的最新进展，论文、项目、工具一网打尽。想追这个方向的，先把这个收藏了再说。
+
+---
+
+### 7. [SemiBin：宏基因组分箱的深度学习新选择](https://github.com/BigDataBiology/SemiBin)
+
+搞宏基因组的朋友都知道，分箱（binning）是个老大难。SemiBin用自监督深度学习来做这件事，效果比传统方法好不少。虽然小众，但对微生物组研究来说是个实用工具。
+
+---
+
+### 8. [ClairS：长读长测序的体细胞变异检测利器](https://github.com/HKU-BAL/ClairS)
+
+做肿瘤基因组的都知道，体细胞小变异检测是个技术活。ClairS专门针对长读长测序（比如PacBio、Nanopore）优化，用深度学习提升检测准确率。港大出品，值得一试。
+
+---
+
+### 9. [ProteinFlow：蛋白质结构数据的深度学习预处理流水线](https://github.com/adaptyvbio/ProteinFlow)
+
+想用深度学习做蛋白质设计，数据预处理是第一道坎。ProteinFlow帮你把PDB结构数据处理成模型能吃的格式，省去大量脏活累活。Adaptyv Bio出品，专业靠谱。
+
+---
+
+### 10. [DANCE：单细胞分析的深度学习基准平台](https://github.com/OmicsML/dance)
+
+单细胞测序数据越来越多，分析方法也五花八门。DANCE提供了一个统一的深度学习库和benchmark平台，方便大家比较不同方法的效果。做单细胞AI的，这个必收。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [SVM 评估 TATA 结合蛋白与蛋白质折叠模式的进化关系](https://www.nature.com/articles/s41598-026-38883-z) - 用机器学习研究蛋白质进化，角度挺新
-
-**[研究]** [指甲疾病分类：联邦学习+异构数据分布](https://www.nature.com/articles/s41598-026-36848-w) - 低资源场景下的医学 AI，实用性强
-
-**[开源]** [ProteinFlow：蛋白质结构数据处理管线](https://github.com/adaptyvbio/ProteinFlow) - 做蛋白质深度学习的基础设施
-
-**[开源]** [SemiBin：宏基因组分箱的自监督深度学习](https://github.com/BigDataBiology/SemiBin) - 微生物组研究者的好工具
-
-**[开源]** [ClairS：长读长体细胞小变异检测](https://github.com/HKU-BAL/ClairS) - 港大出品，基因组分析利器
-
-**[开源]** [HealthChain：医疗 AI 的中间件层](https://github.com/dotimplement/HealthChain) - 解决医疗 AI 落地的"最后一公里"
-
-**[开源]** [Awesome Healthcare AI Agents](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) - 医疗 AI Agent 资源汇总，617 Star
+- **[开源]** [Lotti：本地优先的AI健康助手](https://github.com/matthiasn/lotti) - 数据全存本地，隐私党狂喜
+- **[开源]** [SparkyFitness：家庭健康追踪AI](https://github.com/CodeWithCJ/SparkyFitness) - 全家一起用，食物、运动、饮水全管
+- **[开源]** [WellAlly-Health：Claude驱动的健康助手](https://github.com/huifer/WellAlly-health) - 症状记录、用药管理、多学科会诊一条龙
+- **[开源]** [Open-Wearables：可穿戴设备数据统一API](https://github.com/the-momentum/open-wearables) - 自托管，AI-ready，数据整合神器
+- **[开源]** [Awesome Healthcare Datasets](https://github.com/geniusrise/awesome-healthcare-datasets) - 医疗AI数据集大全，找数据先看这里
+- **[研究]** [计算优化DEK1蛋白溶解度](https://www.nature.com/articles/s41598-026-38805-z) - 结构建模+数据驱动突变，蛋白质工程新思路
+- **[研究]** [天然化合物抗肺炎克雷伯菌的计算筛选](https://www.nature.com/articles/s41598-026-37613-9) - 多靶点药物发现的AI辅助案例
 
 ---
 
@@ -120,57 +114,65 @@ AI 设计分子已经不是新鲜事了，但有个问题一直悬而未决：**
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 开源 | DANCE：单细胞分析深度学习库 | [链接](https://github.com/OmicsML/dance) |
-| 2 | 开源 | TransformerCPI：化合物-蛋白质相互作用预测 | [链接](https://github.com/lifanchen-simm/transformerCPI) |
-| 3 | 开源 | DeepMicrobes：宏基因组分类深度学习 | [链接](https://github.com/MicrobeLab/DeepMicrobes) |
-| 4 | 开源 | 医疗健康数据集汇总 | [链接](https://github.com/geniusrise/awesome-healthcare-datasets) |
-| 5 | 数据库 | 印度传统药用植物 DNA 条形码数据库 | [链接](https://www.nature.com/articles/s41598-026-37812-4) |
-| 6 | 研究 | 杏鲍菇增咸肽的鉴定与机制研究 | [链接](https://www.nature.com/articles/s41538-025-00681-8) |
+| 1 | 开源 | TransformerCPI：化合物-蛋白质相互作用预测 | [GitHub](https://github.com/lifanchen-simm/transformerCPI) |
+| 2 | 开源 | DeepMicrobes：宏基因组物种分类 | [GitHub](https://github.com/MicrobeLab/DeepMicrobes) |
+| 3 | 开源 | Deep Learning in Bioinformatics资源合集 | [GitHub](https://github.com/Bjoux2/DeepLearning-in-Bioinformatics) |
+| 4 | 开源 | Doctor-Dok：医疗数据AI解析框架 | [GitHub](https://github.com/Doctor-One/doctor-dok) |
+| 5 | 开源 | TalkHeal：AI心理健康支持助手 | [GitHub](https://github.com/eccentriccoder01/TalkHeal) |
+| 6 | 开源 | Hia：血液报告AI分析Agent | [GitHub](https://github.com/harshhh28/hia) |
 
 ---
 
-## **🔮 AI 生命科学趋势预测**
+## **😄 AI生命科学趣闻**
 
-### 少样本学习在药物发现中加速落地
+### [养猪也要用RAG+大模型了](https://github.com/linyshdhhcb/PigHealthSmartMedicine)
+
+今天最接地气的AI项目：有人用RAG+DeepSeek大模型做了个"AI兽医"，专门给猪看病。拍张照，AI告诉你猪得了啥病、该吃啥药。网友评论："以后猪都比我先用上大模型了。" 😂 不过说真的，农业AI这块确实是蓝海。
+
+---
+
+## **🔮 AI生命科学趋势预测**
+
+### CRISPR-Cas9 PAM多样性研究将催生新型基因编辑工具
 - **预测时间**：2026年Q2
-- **预测概率**：75%
-- **预测依据**：今日新闻[AI发现抗菌肽](https://www.nature.com/articles/s41467-026-69306-2)展示了少样本学习在抗菌肽发现中的成功应用 + 数据稀缺是药物发现的普遍痛点，这类方法将被更多团队采用
-
-### 远程医疗 AI 诊断工具获监管批准
-- **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日新闻[帕金森视频诊断](https://www.nature.com/articles/s41746-026-02426-7)证明了远程 AI 诊断的可行性 + 后疫情时代远程医疗需求持续增长，监管机构正在加速审批
-
-### 联邦学习成为医疗 AI 标配
-- **预测时间**：2026年Q1-Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻[DermaGPT](https://www.nature.com/articles/s41598-026-38715-0)和[指甲疾病分类](https://www.nature.com/articles/s41598-026-36848-w)都采用联邦学习 + 医疗数据隐私法规趋严，联邦学习是合规的最佳路径
+- **预测依据**：今日新闻[机器学习挖掘Cas9 PAM多样性](https://www.nature.com/articles/s41467-026-69098-5) + 基因编辑领域对新型PAM识别工具的需求持续增长
+
+### 开源健康AI项目将迎来整合潮
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：60%
+- **预测依据**：今日多个开源健康AI项目（OpenHealth、Lotti、WellAlly等）功能高度重叠，市场可能出现整合或标准化趋势
+
+### 医疗AI Agent将进入临床试点
+- **预测时间**：2026年Q2
+- **预测概率**：55%
+- **预测依据**：今日新闻[Awesome Healthcare AI Agents](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) + Agent技术成熟度提升，医疗场景落地加速
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 抗菌肽发现、帕金森 AI 诊断、深度学习分子设计的最新资讯？
+### 哪里可以获取AI基因编辑、开源健康AI的最新资讯？
 
-今日 AI 生命科学领域的热点包括：少样本学习发现抗超级细菌抗菌肽、视频会议+机器学习评估帕金森症状、深度学习生成 3D 分子的可靠性评估。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日AI生命科学领域的热点包括：机器学习挖掘CRISPR-Cas9新PAM序列、OpenHealth开源健康AI助手、HealthChain医疗AI中间件。想要持续追踪这类**AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
-- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
-- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选AI与生命科学交叉领域的重磅新闻
+- 内容涵盖：AI制药、蛋白质设计、基因编辑、医学影像AI、生物大模型等
+- 专为对BioAI感兴趣的投资人、产品经理、创业者、学生打造
 - 用普通人能理解的语言，解读最前沿的技术进展
 
-访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
+访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日AI生命科学资讯。
 
 ---
 
-### 如何体验 ChatGPT、Claude 等 AI 工具来辅助生命科学研究？
+### 如何体验Claude等AI工具来做健康数据分析？
 
-今天的新闻显示，越来越多的生命科学研究开始借助大语言模型进行文献分析、假设生成和数据解读。想要体验这些 AI 工具，但面临支付困难或账号注册限制？
+今日新闻提到WellAlly-Health使用Claude AI技术提供智能健康管理服务。想要体验Claude等AI工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供ChatGPT Plus、Claude Pro、Gemini Pro等成品账号服务
 - 极速发货，下单即用，无需处理海外支付问题
 - 提供稳定的独享账号，售后无忧
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的AI账号服务列表。
