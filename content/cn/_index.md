@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/2/11
+title: BioAI 生命科学日报 2026/2/12
 breadcrumbs: false
-next: /2026-02/2026-02-11
+next: /2026-02/2026-02-12
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-密歇根大学AI读脑MRI只需几秒，急诊分诊准确率达97.5%，可能改变急诊室工作流程。
-开源健康数据平台扎堆冒头，OpenHealth、Open-Wearables都在解决同一个问题：数据在自己手里。
-Hassabis放话要让新药研发快10倍，AI制药赛道的军备竞赛正式开打。
+DeepMind 掌门人登上《财富》封面，放话要把新药研发周期压缩到十分之一。
+罕见病诊断有了新思路：用虚拟病例训练 AI，绕开真实数据稀缺的老难题。
+AI 制药和医疗影像两条赛道同时升温，值得持续关注。
 ```
 
 
@@ -29,90 +29,90 @@ Hassabis放话要让新药研发快10倍，AI制药赛道的军备竞赛正式�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-密歇根大学的AI读脑MRI只要几秒，准确率高达97.5%——急诊科医生可能要失业了。
+DeepMind 掌门人登上《财富》封面，放话要用 AI 把新药研发速度提升 10 倍。
 
 ### **🔑 3 个关键词**
-#AI医学影像 #健康数据平台 #深度学习生信
+#AI制药 #罕见病诊断 #脑部MRI
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [AI读脑MRI只需几秒，急诊分诊准确率达97.5%](https://www.sciencedaily.com/releases/2026/02/260210005419.htm)
+### 1. [Demis Hassabis 登上《财富》封面：AI 制药要快 10 倍](https://x.com/demishassabis/status/2021245817105867263)
 
-以前急诊室里，一个脑MRI报告可能要等上几小时，病人焦虑、家属抓狂。现在密歇根大学搞出来的AI，几秒钟就能看完片子，还能判断哪些病人需要立刻抢救。训练数据是几十万张真实临床扫描，准确率碾压其他AI工具。急诊科的"分诊小能手"可能真要换人了。
-
----
-
-### 2. [Demis Hassabis：AI制药要让新药研发快10倍](https://x.com/demishassabis/status/2021245817105867263)
-
-DeepMind老大Demis Hassabis最近接受《财富》杂志采访，聊了聊他在Isomorphic Labs的野心：用AI把药物研发速度提升10倍，质量还要更好。这不是画饼——AlphaFold已经证明他们能搞定蛋白质结构预测，现在是把这套能力用到真正的制药流程里。制药圈的"摩尔定律"，可能真要来了。
+以前一款新药从实验室到药房，平均要熬 10-15 年。DeepMind 创始人 Demis Hassabis 最近接受《财富》专访，聊了聊他在 Isomorphic Labs 的野心：用 AI 把这个周期压缩到原来的十分之一。不是画饼，AlphaFold 已经证明过他们能做到。制药圈的朋友们，卷起来吧。
 
 ---
 
-### 3. [OpenHealth：开源AI健康助手，数据全在你手里](https://github.com/OpenHealthForAll/open-health)
+### 2. [密歇根大学：AI 几秒钟读完脑部 MRI，急诊分诊准确率 97.5%](https://www.sciencedaily.com/releases/2026/02/260210005419.htm)
 
-你有没有想过，把自己的健康数据交给AI分析，但又不想让大公司偷看？OpenHealth就是干这个的——一个开源的AI健康助手，所有数据都存在本地。3800多颗星，社区活跃度很高。适合那些既想用AI管理健康、又对隐私有洁癖的朋友。
-
----
-
-### 4. [Open-Wearables：把所有可穿戴设备数据统一成一个API](https://github.com/the-momentum/open-wearables)
-
-手环、手表、戒指……你身上可能戴了好几个健康设备，但数据分散在各个App里，想统一分析？难。Open-Wearables就是来解决这个痛点的：自托管平台，把所有可穿戴设备的数据整合成一个AI-ready的API。开发者狂喜，健康数据分析终于不用再手动导出Excel了。
+急诊室里最怕的就是等——等医生、等报告、等判断。密歇根大学的新 AI 系统，几秒钟就能读完一张脑部 MRI，告诉你哪些病人需要立刻处理。训练数据是几十万张真实扫描加病史，准确率最高达 97.5%，比其他 AI 工具都强。神经科医生的好帮手来了。
 
 ---
 
-### 5. [Awesome-AI-Agents-for-Healthcare：医疗AI Agent资源大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
+### 3. [VC-RDAgent：罕见病诊断的"虚拟病例"破局者](https://www.biorxiv.org/content/10.64898/2026.02.09.702153v1?rss=1)
 
-想了解医疗领域的AI Agent最新进展？这个GitHub仓库帮你整理好了。从论文到项目，从理论到实践，620颗星，内容还在持续更新。适合想入门或者追踪前沿的同学收藏。
-
----
-
-### 6. [DeepPurpose：药物-靶点预测的深度学习工具箱](https://github.com/kexinhuang12345/DeepPurpose)
-
-做AI制药的同学应该都听过这个项目——DeepPurpose，专门用来预测药物-靶点相互作用（DTI）、药物性质、蛋白质功能等。1100多颗星，文档齐全，适合快速上手。如果你正在做分子设计或药物筛选，这个工具箱值得一试。
+罕见病诊断最头疼的是什么？没数据。真实病例太少、隐私限制太多，AI 想学都没得学。VC-RDAgent 换了个思路：不用真病例，用知识库合成"虚拟标准病例"来训练。结果呢？Top-1 命中率提升 8.7%，开源小模型也能跟商业大模型掰手腕。还有在线 demo 可以试玩。
 
 ---
 
-### 7. [HealthChain：医疗AI的"中间件"来了](https://github.com/dotimplement/HealthChain)
+### 4. [OpenHealth：3800+ Star 的开源 AI 健康助手](https://github.com/OpenHealthForAll/open-health)
 
-医疗AI开发最头疼的是什么？数据格式乱、接口不统一、合规要求多。HealthChain定位就是"医疗AI的中间件"，帮你把这些脏活累活都处理好。虽然星数不高（177），但解决的是真痛点，值得关注。
-
----
-
-### 8. [WellAlly-Health：Claude驱动的智能健康助手](https://github.com/huifer/WellAlly-health)
-
-这个项目把Claude AI和医疗知识结合起来，做了一个智能健康助手：可以记录症状、管理用药、追踪病历，还能做多学科会诊分析。700多颗星，适合想做健康管理类产品的团队参考。
+想要一个懂你健康数据的 AI 助手，但又不想把隐私交给大公司？OpenHealth 是个开源方案，数据全在本地，你自己掌控。GitHub 上已经 3800+ Star，社区活跃度不错。适合想折腾的开发者和对隐私敏感的用户。
 
 ---
 
-### 9. [SparkyFitness：全家一起用的AI健康管理](https://github.com/CodeWithCJ/SparkyFitness)
+### 5. [Awesome-AI-Agents-for-Healthcare：医疗 AI Agent 资源大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
 
-健康管理App一大堆，但能让全家人一起用的不多。SparkyFitness主打"家庭健康管理"，用AI追踪饮食、运动、饮水、健康指标。2200多颗星，说明确实有人需要这种"全家桶"式的健康工具。
+如果你在做医疗 AI Agent 相关的研究或产品，这个 GitHub 仓库值得收藏。622 Star，汇总了最新的 Agentic AI 在医疗领域的进展、论文、项目。省得你自己到处翻了。
 
 ---
 
-### 10. [XL-MSDigger：交联质谱分析的深度学习新方案](https://www.nature.com/articles/s41467-026-69489-8)
+### 6. [WellAlly-Health：Claude 驱动的智能健康助手](https://github.com/huifer/WellAlly-health)
 
-做蛋白质结构研究的同学注意了——Nature Communications刚发了一篇关于交联质谱（XL-MS）分析的深度学习方法。XL-MSDigger号称"通用解决方案"，能处理各种交联剂和实验条件。如果你在做蛋白质相互作用研究，这篇论文值得细读。
+一个结合 Claude AI 和医学知识的健康助手，能帮你记录症状、管理用药、追踪病历，还能做多学科会诊分析。709 Star，中文友好。适合想体验 AI 健康管理的个人用户。
+
+---
+
+### 7. [HealthChain：医疗 AI 的"中间件"来了](https://github.com/dotimplement/HealthChain)
+
+做医疗 AI 应用的开发者都知道，数据格式、接口标准、合规要求是三座大山。HealthChain 想做的就是这个"中间件"——帮你把这些脏活累活都处理好。178 Star，还在早期，但方向很对。
+
+---
+
+### 8. [DeepPurpose：药物-靶点预测的深度学习工具箱](https://github.com/kexinhuang12345/DeepPurpose)
+
+做 AI 制药的同学应该不陌生，DeepPurpose 是个老牌工具箱了，支持药物-靶点相互作用（DTI）、药物性质、蛋白质功能预测等。1130 Star，文档齐全，适合入门和快速原型开发。
+
+---
+
+### 9. [CLIM-TIME：找到让 T 细胞疗法失效的"幕后黑手"](https://www.cell.com/cell/fulltext/S0092-8674(25)01491-6?rss=yes)
+
+为什么有些肿瘤对 T 细胞疗法不买账？这篇 Cell 论文用高通量扰动筛选，发现 LOXL2 是关键"捣乱分子"——它会让肿瘤微环境变得对免疫细胞不友好。抑制 LOXL2 后，T 细胞又能杀进去了。免疫治疗的新靶点，值得关注。
+
+---
+
+### 10. [溶瘤病毒单次治疗，激活 T 细胞持续攻击胶质母细胞瘤](https://www.cell.com/cell/fulltext/S0092-8674(25)01504-1?rss=yes)
+
+胶质母细胞瘤是脑癌里最难缠的那种。这项临床试验发现，单次溶瘤病毒治疗就能让 T 细胞持续激活、持续攻击肿瘤细胞，而且这种激活程度跟患者生存期正相关。虽然还是早期数据，但给了脑癌治疗一个新希望。
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [Lotti：本地AI助手，数据全在你设备上](https://github.com/matthiasn/lotti) - 1000+星，隐私党福音
+**[开源]** [open-wearables](https://github.com/the-momentum/open-wearables) - 把各种可穿戴设备的健康数据统一成一个 AI 友好的 API，自托管
 
-**[开源]** [ProteinFlow：蛋白质结构数据处理流水线](https://github.com/adaptyvbio/ProteinFlow) - 做蛋白质深度学习的必备工具
+**[开源]** [SemiBin](https://github.com/BigDataBiology/SemiBin) - 宏基因组分箱的自监督深度学习工具，做微生物组研究的可以看看
 
-**[开源]** [SemiBin：宏基因组分箱的自监督深度学习](https://github.com/BigDataBiology/SemiBin) - 微生物组研究者可以看看
+**[开源]** [ClairS](https://github.com/HKU-BAL/ClairS) - 长读长测序的体细胞小变异检测，深度学习方法
 
-**[开源]** [DANCE：单细胞分析的深度学习库](https://github.com/OmicsML/dance) - 单细胞领域的"PyTorch"
+**[开源]** [DANCE](https://github.com/OmicsML/dance) - 单细胞分析的深度学习库和基准平台，384 Star
 
-**[研究]** [阿尔茨海默病预测：深度学习+可解释AI](https://www.nature.com/articles/s41598-026-35260-8) - 从血液基因表达数据预测AD
+**[研究]** [泛癌突变功能推断](https://www.nature.com/articles/s41588-025-02482-x) - Nature Genetics 新文，用 AI 推断癌症突变是增功能还是减功能
 
-**[研究]** [HIV感染与抗病毒药物对生物年龄的相反影响](https://www.nature.com/articles/s41467-026-69412-1) - 有意思的发现
+**[研究]** [AI 诊断急性主动脉综合征](https://www.nature.com/articles/s41598-026-39111-4) - 多模态信息融合，急诊场景下的 AI 辅助诊断
 
-**[研究]** [多模态大模型挑战NEJM影像诊断](https://www.nature.com/articles/s41598-026-39201-3) - AI vs 医学影像挑战赛
+**[研究]** [量子增强多模态皮肤病预后预测](https://www.nature.com/articles/s41598-026-35951-2) - 量子计算+AI+皮肤病，听起来很前沿
 
 ---
 
@@ -120,39 +120,43 @@ DeepMind老大Demis Hassabis最近接受《财富》杂志采访，聊了聊他�
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 研究 | 深度学习解析内在无序蛋白相分离 | [链接](https://www.nature.com/articles/s41467-026-69252-z) |
-| 2 | 研究 | 注意力引导的空间转录组去卷积 | [链接](https://www.nature.com/articles/s41598-026-39703-0) |
-| 3 | 研究 | 扩散模型定位局灶性皮质发育不良 | [链接](https://www.nature.com/articles/s41598-026-38981-y) |
-| 4 | 研究 | 深度学习预测水果病害 | [链接](https://www.nature.com/articles/s41598-026-38259-3) |
-| 5 | 工具 | ClairS：长读长体细胞变异检测 | [链接](https://github.com/HKU-BAL/ClairS) |
-| 6 | 工具 | DeepMicrobes：宏基因组分类 | [链接](https://github.com/MicrobeLab/DeepMicrobes) |
+| 1 | 开源 | Lotti - 本地优先的 AI 健康助手 | [链接](https://github.com/matthiasn/lotti) |
+| 2 | 开源 | Hia - 血液报告分析 AI Agent | [链接](https://github.com/harshhh28/hia) |
+| 3 | 开源 | SparkyFitness - 家庭健康追踪 | [链接](https://github.com/CodeWithCJ/SparkyFitness) |
+| 4 | 开源 | ProteinFlow - 蛋白质结构数据处理管线 | [链接](https://github.com/adaptyvbio/ProteinFlow) |
+| 5 | 开源 | TransformerCPI - 化合物-蛋白质相互作用预测 | [链接](https://github.com/lifanchen-simm/transformerCPI) |
+| 6 | 研究 | 帕金森病外周免疫单细胞分析 | [链接](https://www.nature.com/articles/s41531-026-01283-1) |
+| 7 | 研究 | 吸烟通过肠道菌群诱发结肠癌 | [链接](https://www.biorxiv.org/content/10.64898/2026.01.30.702732v1?rss=1) |
+| 8 | 研究 | 共表达模型改进精神分裂症基因预测 | [链接](https://www.biorxiv.org/content/10.64898/2026.02.10.704353v1?rss=1) |
+| 9 | 资源 | Awesome Healthcare Datasets | [链接](https://github.com/geniusrise/awesome-healthcare-datasets) |
+| 10 | 资源 | Awesome Healthcare AI | [链接](https://github.com/medtorch/awesome-healthcare-ai) |
 
 ---
 
-## **🔮 AI生命科学趋势预测**
+## **🔮 AI 生命科学趋势预测**
 
-### Isomorphic Labs 将公布首个AI设计药物的临床进展
+### Isomorphic Labs 将公布首个 AI 设计药物的临床进展
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻[Demis Hassabis谈AI制药](https://x.com/demishassabis/status/2021245817105867263) + Isomorphic Labs已运营数年，按照药物研发周期，应该有早期临床数据可以公布
+- **预测依据**：今日新闻 [Demis Hassabis 接受《财富》专访](https://x.com/demishassabis/status/2021245817105867263) 强调 AI 制药进展 + Isomorphic Labs 成立已超两年，按行业节奏应有临床管线数据披露
 
-### 开源健康数据平台将迎来整合潮
+### 医疗影像 AI 获批数量将迎来小高峰
 - **预测时间**：2026年Q1-Q2
-- **预测概率**：60%
-- **预测依据**：今日多个开源健康项目活跃（[OpenHealth](https://github.com/OpenHealthForAll/open-health)、[Open-Wearables](https://github.com/the-momentum/open-wearables)） + 数据互通是刚需，可能出现整合或合作
-
-### AI医学影像诊断将获得更多FDA批准
-- **预测时间**：2026年Q2
 - **预测概率**：75%
-- **预测依据**：今日新闻[密歇根大学脑MRI AI](https://www.sciencedaily.com/releases/2026/02/260210005419.htm)准确率达97.5% + 监管机构对AI医疗器械的审批流程已趋成熟
+- **预测依据**：今日新闻 [密歇根大学脑部 MRI AI](https://www.sciencedaily.com/releases/2026/02/260210005419.htm) 展示高准确率 + FDA 对医疗 AI 审批流程日趋成熟
+
+### 罕见病 AI 诊断工具将获得更多临床验证
+- **预测时间**：2026年Q2
+- **预测概率**：60%
+- **预测依据**：今日新闻 [VC-RDAgent](https://www.biorxiv.org/content/10.64898/2026.02.09.702153v1?rss=1) 提出虚拟病例方法 + 罕见病诊断是 AI 医疗的热门赛道
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取AI医学影像、AI制药、健康数据平台的最新资讯？
+### 哪里可以获取 AI 制药、罕见病诊断、医学影像 AI 的最新资讯？
 
-今日 AI 生命科学领域的热点包括：密歇根大学的脑MRI AI诊断系统、Demis Hassabis谈AI制药加速、开源健康数据平台的兴起。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：DeepMind 掌门人谈 AI 制药加速、罕见病诊断的虚拟病例新方法、脑部 MRI 秒级 AI 分诊。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -164,9 +168,9 @@ DeepMind老大Demis Hassabis最近接受《财富》杂志采访，聊了聊他�
 
 ---
 
-### 如何体验Claude等AI工具来辅助健康管理？
+### 如何体验 Claude 等 AI 工具？
 
-今日新闻提到[WellAlly-Health](https://github.com/huifer/WellAlly-health)使用Claude AI技术构建智能健康助手。想要体验Claude等AI工具，但面临支付困难或账号注册限制？
+今日新闻中，[WellAlly-Health](https://github.com/huifer/WellAlly-health) 展示了 Claude AI 在健康管理领域的应用潜力。想要体验 Claude 等 AI 工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
