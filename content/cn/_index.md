@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/2/14
+title: BioAI 生命科学日报 2026/2/15
 breadcrumbs: false
-next: /2026-02/2026-02-14
+next: /2026-02/2026-02-15
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Gemini 3 Deep Think 发布，数学物理化学推理能力刷新纪录，科研辅助进入新阶段。
-MitoDrift 用线粒体 DNA 追踪细胞谱系，不改基因就能看清肿瘤演化，思路很野。
-开源健康 AI 扎堆冒头，隐私派的春天来了。
+OpenHealth 等开源健康 AI 平台扎堆冒出，个人健康数据终于有了本地化的 AI 管家。
+evoCancerGPT 用 276 万癌细胞数据训练 GPT，能预测单个病人的肿瘤演化轨迹。
+开源健康 AI 和单细胞癌症预测是今天两个值得深挖的方向。
 ```
 
 
@@ -29,74 +29,64 @@ MitoDrift 用线粒体 DNA 追踪细胞谱系，不改基因就能看清肿瘤�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-Gemini 3 Deep Think 来了，数学物理化学全能选手，科学家们的新玩具。
+今天最火的是开源健康AI平台扎堆冒出来，家庭健康管理要被AI彻底改写了。
 
 ### **🔑 3 个关键词**
-#AI科研助手 #医学影像AI #线粒体追踪
+#AI健康管理 #基因组分析 #药物发现
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Gemini 3 Deep Think 升级：科学推理能力再创新高](https://x.com/demishassabis/status/2022053593910821164)
+### 1. [OpenHealth：你的健康数据终于有了AI管家](https://github.com/OpenHealthForAll/open-health)
+以前体检报告拿回来就吃灰，血糖血压记了一堆也不知道啥意思。OpenHealth 这个开源项目直接把你的健康数据喂给 AI，帮你分析趋势、给出建议。3800+ Star 说明大家早就想要这个了。自己部署，数据不出门，隐私党狂喜。
 
-还记得上次被数学题难住的感觉吗？DeepMind 刚发布的 Gemini 3 Deep Think 可能要让这种感觉成为历史。ARC-AGI-2 跑出 84.6%，Humanity's Last Exam 无工具拿下 48.4%，Codeforces 评分 3455 Elo。更关键的是，它不只是刷榜——数学、物理、化学领域的研究者已经开始用它辅助复杂研究工作了。Google AI Ultra 用户现在就能在 Gemini App 里体验。
+### 2. [SparkyFitness：全家一起被AI管着健康](https://github.com/CodeWithCJ/SparkyFitness)
+一个人减肥太孤独？这个项目让全家人一起追踪饮食、运动、喝水。AI 帮你盯着，谁偷吃了薯片一目了然。2300+ Star，适合想搞家庭健康 PK 的。
 
-![Tweet Image](https://pbs.twimg.com/media/HA_G4P8XoAA-lBH.png)
+### 3. [WellAlly-Health：Claude 当你的私人医生](https://github.com/huifer/WellAlly-health)
+把 Claude AI 塞进健康管理系统里，能记症状、管药物、追踪病历，还能搞多学科会诊分析。听起来像是把三甲医院的服务搬到手机上了。700+ Star，中文友好。
 
-### 2. [MitoDrift：用线粒体 DNA 追踪人体细胞"家谱"](https://www.biorxiv.org/content/10.64898/2026.02.12.705660v1?rss=1)
+### 4. [Awesome-AI-Agents-for-Healthcare：医疗AI Agent大全](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
+想知道医疗领域的 AI Agent 发展到哪一步了？这个 Awesome List 帮你整理好了。从诊断到治疗，从影像到基因，一网打尽。做医疗AI的必收藏。
 
-想知道你身体里的细胞是怎么"传宗接代"的吗？这篇预印本提出了 MitoDrift 框架，利用线粒体 DNA 的自然突变作为"条形码"，追踪人体细胞的谱系关系。在衰老研究中，它发现了克隆多样性随年龄下降的规律；在多发性骨髓瘤治疗中，它能捕捉到传统方法看不到的克隆重塑。无需基因工程改造，直接用人体自带的"标签"做追踪，这思路很妙。
+### 5. [Open-Wearables：可穿戴设备数据终于能统一了](https://github.com/the-momentum/open-wearables)
+Apple Watch、小米手环、Oura Ring……数据散落一地。这个自托管平台把所有可穿戴设备的健康数据统一成一个 AI-ready 的 API。开发者福音，终于不用一个个对接了。
 
-### 3. [OpenHealth：开源的 AI 健康助手，数据全在你手里](https://github.com/OpenHealthForAll/open-health)
+### 6. [evoCancerGPT：用GPT预测癌症怎么演化](https://www.biorxiv.org/content/10.64898/2026.02.12.705621v1?rss=1)
+这篇预印本有点猛。研究者训练了一个 GPT 模型，用 276 万个癌细胞的单细胞数据，让它学会预测肿瘤下一步会怎么变。单个病人级别的精准预测，离个性化治疗又近了一步。
 
-3800+ Star 的开源项目，主打一个"你的数据你做主"。上传健康数据，AI 帮你分析，但所有信息都存在本地。对于那些既想用 AI 管理健康、又担心隐私泄露的人来说，这可能是个不错的选择。
+### 7. [机器学习发现TDP-43聚集抑制剂](https://www.biorxiv.org/content/10.64898/2026.02.12.705375v1?rss=1)
+ALS（渐冻症）和额颞叶痴呆的罪魁祸首 TDP-43 蛋白聚集，一直没有好药。这个团队用图神经网络+XGBoost 筛出两个候选化合物，在线虫模型里真的改善了运动缺陷。AI 制药又下一城。
 
-### 4. [蛋白质语言模型用于 PPI 预测？小心这个坑](https://www.nature.com/articles/s42256-025-01176-7)
+### 8. [AI加速药物靶点发现：3D结构是关键](https://www.nature.com/articles/s41698-026-01310-7)
+Nature 子刊这篇讲的是用 AI 分析蛋白质和化合物的 3D 结构来找药物靶点。比传统方法快多少？文章没说具体数字，但"accelerate"这个词用得很自信。
 
-Nature Machine Intelligence 发了篇"打假"文章：用预训练蛋白质语言模型做蛋白质-蛋白质相互作用预测，可能存在方法论缺陷。具体是什么坑？文章没给摘要，但标题已经够让做这个方向的人紧张了。建议相关研究者赶紧去看原文。
+### 9. [BioVault：让全球生物医学数据协作不再难](https://www.biorxiv.org/content/10.64898/2026.02.12.705603v1?rss=1)
+跨国医学研究最头疼的就是数据隐私。BioVault 的思路很妙：代码去找数据，而不是数据搬家。已经在约旦和加勒比海地区的糖尿病研究中验证过了。资源有限的机构也能参与全球协作。
 
-### 5. [3D 医学影像 + AI：只用 2D 编码器就能搞定](https://www.nature.com/articles/s41598-026-39526-z)
-
-3D 医学影像分析一直是个"吃算力"的活儿。这篇论文提出了一个数据高效的视觉-语言模型，只用 2D 编码器就能处理 3D 影像。对于资源有限的医疗机构来说，这可能意味着更低的部署门槛。
-
-### 6. [大语言模型在急诊科表现如何？全面基准测试来了](https://www.nature.com/articles/s44387-026-00078-2)
-
-急诊科是医疗 AI 最难啃的骨头之一——时间紧、情况复杂、容错率低。这篇研究对 LLM 在急诊场景的表现做了全面评估。结果如何？去看原文吧，这关系到 AI 能不能真正进入急诊室。
-
-### 7. [DeepPurpose：药物-靶点预测的深度学习工具箱](https://github.com/kexinhuang12345/DeepPurpose)
-
-1100+ Star 的生物信息学工具，覆盖药物-靶点相互作用（DTI）、药物性质预测、蛋白质功能预测等多个任务。做 AI 制药的同学应该不陌生，最近又更新了。
-
-### 8. [WellAlly-Health：Claude 驱动的智能健康助手](https://github.com/huifer/WellAlly-health)
-
-结合 Claude AI 和医学专业知识，帮用户记录症状、管理用药、追踪病历，还能提供多学科会诊分析。700+ Star，中文友好。不过老规矩：AI 建议仅供参考，别拿它当医生。
-
-### 9. [机器学习预测多囊肾病患者的 CKD 分期](https://www.nature.com/articles/s41598-026-39885-7)
-
-日本的全国队列研究，用机器学习预测常染色体显性多囊肾病（ADPKD）患者的慢性肾病分期。这类研究的价值在于：早期识别高风险患者，提前干预。
-
-### 10. [深度学习分析肩袖肌肉脂肪含量](https://www.nature.com/articles/s41598-026-38108-3)
-
-用深度学习算法在临床 T1 加权 MRI 上定量分析肩袖肌肉的脂肪比例。听起来很细分，但对于肩袖损伤的诊断和预后评估很有价值。
+### 10. [DeepPurpose：药物-靶点预测的深度学习工具箱](https://github.com/kexinhuang12345/DeepPurpose)
+做 AI 制药的应该都知道这个库。药物-靶点相互作用、药物性质、蛋白质功能预测，一站式搞定。1100+ Star，持续更新中。
 
 ---
 
 ## **📌 值得关注**
 
-**[开源]** [SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) - 家庭健康追踪工具，AI 驱动，2200+ Star
+**[开源]** [Lotti - 本地优先的AI健康助手](https://github.com/matthiasn/lotti) - 数据全存本地，支持离线运行，隐私控的最爱
 
-**[开源]** [HealthChain](https://github.com/dotimplement/HealthChain) - 医疗 AI 的中间件层，解决集成痛点
+**[开源]** [HealthChain - 医疗AI的中间件](https://github.com/dotimplement/HealthChain) - 填补医疗AI落地的最后一公里
 
-**[开源]** [Hia](https://github.com/harshhh28/hia) - 血液报告分析 AI Agent，一键解读体检单
+**[研究]** [CodonRL：强化学习优化mRNA密码子](https://www.biorxiv.org/content/10.64898/2026.02.12.705465v1?rss=1) - mRNA疫苗设计又有新工具了
 
-**[研究]** [ECG 分类的轻量级 Transformer](https://www.nature.com/articles/s41598-026-35531-4) - 边缘设备也能跑的心电图 AI
+**[研究]** [miRarchitect：机器学习设计人工microRNA](https://www.biorxiv.org/content/10.64898/2026.02.12.705546v1?rss=1) - 基因沉默的精准设计平台
 
-**[研究]** [眼病多分类：EfficientNetB0 融合技术](https://www.nature.com/articles/s41598-026-35357-0) - 深度学习诊断眼科疾病
+**[研究]** [MassID：代谢组学数据近乎完整注释](https://www.biorxiv.org/content/10.64898/2026.02.11.704864v1?rss=1) - 深度学习+FDR控制，代谢物鉴定新标杆
 
-**[研究]** [分子对接发现胶质母细胞瘤新靶点](https://www.nature.com/articles/s41598-026-39629-7) - CDK6 抑制剂的计算筛选
+**[研究]** [VIPerturb-seq：全基因组单细胞扰动筛选](https://www.biorxiv.org/content/10.64898/2026.02.12.705613v1?rss=1) - 通量提升50倍，虚拟细胞要来了
 
-**[资源]** [Awesome Healthcare AI Datasets](https://github.com/geniusrise/awesome-healthcare-datasets) - 医疗健康数据集大全
+**[数据集]** [CardioEHR：中国心血管患者电子病历数据集](https://www.nature.com/articles/s41597-026-06855-7) - 中国数据，开放获取
+
+**[产品]** [Hia - AI血液报告分析Agent](https://github.com/harshhh28/hia) - 上传报告就能出健康洞察
 
 ---
 
@@ -104,41 +94,41 @@ Nature Machine Intelligence 发了篇"打假"文章：用预训练蛋白质语�
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 开源 | open-wearables：可穿戴设备数据统一 API | [GitHub](https://github.com/the-momentum/open-wearables) |
-| 2 | 开源 | Doctor-Dok：医疗数据解析框架 | [GitHub](https://github.com/Doctor-One/doctor-dok) |
-| 3 | 开源 | DANCE：单细胞分析深度学习库 | [GitHub](https://github.com/OmicsML/dance) |
-| 4 | 开源 | SemiBin：宏基因组分箱工具 | [GitHub](https://github.com/BigDataBiology/SemiBin) |
-| 5 | 开源 | ClairS：长读长体细胞变异检测 | [GitHub](https://github.com/HKU-BAL/ClairS) |
-| 6 | 开源 | ProteinFlow：蛋白质结构数据处理流水线 | [GitHub](https://github.com/adaptyvbio/ProteinFlow) |
-| 7 | 研究 | 图神经网络用于疫情响应建模 | [Nature](https://www.nature.com/articles/s41598-026-39431-5) |
-| 8 | 研究 | 鱼类过敏多表位免疫疗法设计 | [Nature](https://www.nature.com/articles/s41598-026-39519-y) |
+| 1 | 研究 | 神经形态计算机能解物理方程了 | [链接](https://www.sciencedaily.com/releases/2026/02/260213223923.htm) |
+| 2 | 研究 | 肝癌AI诊断的细胞外囊泡基因模型 | [链接](https://www.nature.com/articles/s41598-026-40020-9) |
+| 3 | 研究 | 肺癌miRNA年龄特异性失调分析 | [链接](https://www.biorxiv.org/content/10.64898/2026.02.12.705605v1?rss=1) |
+| 4 | 研究 | 主动脉夹层乳酸化相关生物标志物 | [链接](https://www.nature.com/articles/s41598-026-40139-9) |
+| 5 | 研究 | 去中心化医疗AI模型系统综述 | [链接](https://www.nature.com/articles/s41746-025-02329-z) |
+| 6 | 工具 | CPLfold：RNA二级结构快速预测 | [链接](https://www.biorxiv.org/content/10.64898/2026.02.12.704779v1?rss=1) |
+| 7 | 工具 | Theseus：序列-图比对新算法 | [链接](https://www.biorxiv.org/content/10.64898/2026.02.12.705572v1?rss=1) |
+| 8 | 数据集 | CBCT影像组学标准化数据集 | [链接](https://www.nature.com/articles/s41597-026-06781-8) |
 
 ---
 
-## **🔮 AI 生命科学趋势预测**
+## **🔮 AI生命科学趋势预测**
 
-### Gemini 系列将推出专门的生命科学版本
+### 开源健康AI平台整合潮
 - **预测时间**：2026年Q2
-- **预测概率**：55%
-- **预测依据**：今日新闻 [Gemini 3 Deep Think 升级](https://x.com/demishassabis/status/2022053593910821164) 强调了科学领域应用 + DeepMind 在 AlphaFold 上的成功经验，专业化版本是自然延伸
-
-### 线粒体 DNA 谱系追踪技术将进入临床试验
-- **预测时间**：2026年Q3
-- **预测概率**：45%
-- **预测依据**：今日新闻 [MitoDrift 框架](https://www.biorxiv.org/content/10.64898/2026.02.12.705660v1?rss=1) 在多发性骨髓瘤中展示了临床价值 + 无需基因工程的特性降低了监管门槛
-
-### 开源医疗 AI 助手将迎来整合潮
-- **预测时间**：2026年Q1-Q2
 - **预测概率**：70%
-- **预测依据**：今日多个开源健康 AI 项目（OpenHealth、WellAlly-Health、Hia 等）功能高度重叠，市场需要更完整的解决方案
+- **预测依据**：今日新闻显示 OpenHealth、SparkyFitness、WellAlly 等多个开源健康AI项目同时活跃，社区需求明显。预计会出现整合型项目或标准化接口。
+
+### 单细胞AI模型进入临床验证
+- **预测时间**：2026年Q2-Q3
+- **预测概率**：55%
+- **预测依据**：今日 [evoCancerGPT](https://www.biorxiv.org/content/10.64898/2026.02.12.705621v1?rss=1) 展示了单细胞级别的癌症演化预测能力，加上 VIPerturb-seq 的通量突破，临床转化条件逐渐成熟。
+
+### AI制药神经退行性疾病管线扩张
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：65%
+- **预测依据**：今日 [TDP-43抑制剂发现](https://www.biorxiv.org/content/10.64898/2026.02.12.705375v1?rss=1) 显示AI在神经退行性疾病药物发现上取得实质进展，预计更多公司会跟进这个方向。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 科研助手、医学影像 AI、细胞谱系追踪的最新资讯？
+### 哪里可以获取 AI 健康管理和 AI 制药的最新资讯？
 
-今日 AI 生命科学领域的热点包括：Gemini 3 Deep Think 的科学推理能力升级、MitoDrift 线粒体谱系追踪框架、以及多个医学影像 AI 研究进展。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：开源健康AI平台爆发（OpenHealth、SparkyFitness）、AI预测癌症演化（evoCancerGPT）、机器学习发现神经退行性疾病药物。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -150,9 +140,9 @@ Nature Machine Intelligence 发了篇"打假"文章：用预训练蛋白质语�
 
 ---
 
-### 如何体验 Gemini 3 Deep Think？
+### 如何体验 Claude AI 驱动的健康管理工具？
 
-今日 DeepMind 发布了 Gemini 3 Deep Think 升级版，在数学、科学、推理领域创下新纪录，Google AI Ultra 用户已可在 Gemini App 中体验。想要体验这些 AI 工具，但面临支付困难或账号注册限制？
+今日新闻中，[WellAlly-Health](https://github.com/huifer/WellAlly-health) 展示了将 Claude AI 集成到健康管理系统中的应用，提供症状记录、药物管理、多学科会诊分析等功能。想要体验 Claude 等 AI 工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
