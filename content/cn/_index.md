@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/2/17
+title: BioAI 生命科学日报 2026/2/18
 breadcrumbs: false
-next: /2026-02/2026-02-17
+next: /2026-02/2026-02-18
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Mayo Clinic 开放 AI 平台，临床研究从实验室到病床的周期有望缩短到几个月。
-深度学习让 CRISPR 学会"长眼睛"，脱靶预测越来越准，基因治疗赛道值得盯紧。
-医疗巨头开始搭基础设施了，AI 医疗创业者该动起来了。
+Cell 今天连发重磅：PocketXMol 一个模型统一分子对接、从头设计、多肽生成，已有实验验证。
+肝脏分泌的"运动因子"能逆转阿尔茨海默症记忆丧失，未来可能打针就能模拟跑步的认知益处。
+AI 制药和衰老研究同时爆发，今天的 Cell 值得细读。
 ```
 
 
@@ -29,92 +29,92 @@ Mayo Clinic 开放 AI 平台，临床研究从实验室到病床的周期有望�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-Mayo Clinic 开放 AI 平台加速临床研究，深度学习正在重塑 CRISPR 基因编辑的未来。
+DeepMind 掌门人 Demis Hassabis 跑去印度聊 AI for Science，而 Cell 今天一口气发了好几篇重磅——从分子生成到阿尔茨海默症，AI+生命科学的火越烧越旺。
 
 ### **🔑 3 个关键词**
-#AI医疗平台 #CRISPR深度学习 #图神经网络
+#AI分子生成 #阿尔茨海默症 #婴儿肠道菌群
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Mayo Clinic 平台加速医疗 AI 创新落地](https://www.nature.com/articles/s44401-026-00068-1)
+### 1. [PocketXMol：一个模型搞定分子对接、从头设计、多肽生成](https://www.cell.com/cell/fulltext/S0092-8674(26)00050-4?rss=yes)
 
-以前想在真实临床环境里测试 AI 模型？光是数据合规审批就能让你等到花儿都谢了。Mayo Clinic 这次直接开放了他们的 AI 平台，让研究者能在真实世界数据上快速迭代。这意味着从实验室到病床的距离，可能从几年缩短到几个月。对 AI 医疗创业者来说，这是个信号：巨头们开始搭基础设施了。
-
----
-
-### 2. [深度学习正在重塑 CRISPR 基因编辑](https://www.nature.com/articles/s41594-025-01739-7)
-
-CRISPR 编辑基因最头疼的是什么？脱靶。就像拿着手术刀却不知道会切到哪里。这篇 Nature 综述梳理了深度学习如何帮 CRISPR "长眼睛"——从预测编辑效率到识别脱靶位点，AI 正在让基因编辑变得更精准。如果你关注基因治疗赛道，这篇值得细读。
+以前做药物设计，对接用一个工具，从头设计换另一个，多肽生成再换一个——光是切换软件就够头疼。现在 Cell 发了这篇 PocketXMol，一个原子级生成式 AI 模型，把这些任务全统一了。更关键的是，小分子和多肽药物都经过了实验验证。做 AI 制药的朋友，这篇必读。
 
 ---
 
-### 3. [图神经网络进军计算肾脏病学](https://www.nature.com/articles/s41581-026-01059-z)
+### 2. [肝脏"运动因子"逆转衰老和阿尔茨海默症记忆丧失](https://www.cell.com/cell/fulltext/S0092-8674(26)00111-X?rss=yes)
 
-肾脏病理切片里藏着海量信息，但传统方法只能看个大概。图神经网络（GNN）的优势在于能捕捉细胞之间的空间关系——谁挨着谁、怎么连接的。这篇 Nature Reviews 文章系统介绍了 GNN 在肾脏病诊断中的应用。病理 AI 的下一个突破口，可能就在这里。
-
----
-
-### 4. [AI 竞争性对接：虚拟筛选的新玩法](https://www.nature.com/articles/s44386-026-00039-4)
-
-传统分子对接就像相亲——一个一个试，效率低得让人抓狂。这个 AI 引导的竞争性对接方法，让多个候选分子同时"竞争"结合位点，谁亲和力强谁留下。药物筛选效率直接起飞。AI 制药的工具箱里，又多了一件趁手的家伙。
+为什么运动能改善认知？这篇 Cell 给出了一个漂亮的答案：肝脏分泌的运动因子 GPLD1，能修复血脑屏障，逆转衰老和阿尔茨海默症模型中的认知损伤。机制是靶向脑血管内皮细胞上的 GPI 锚定蛋白。这意味着，未来可能不用跑步，打一针就能"模拟运动"的认知益处。
 
 ---
 
-### 5. [量子-经典混合框架用于放疗靶区分割](https://www.nature.com/articles/s41598-026-40127-z)
+### 3. [全球婴儿肠道双歧杆菌基因组图谱：益生菌设计新蓝图](https://www.cell.com/cell/fulltext/S0092-8674(26)00054-1?rss=yes)
 
-放疗最怕什么？照到肿瘤旁边的正常器官。这个混合量子-经典的深度学习框架，专门用来精准分割肿瘤和危及器官。虽然量子计算还没完全成熟，但这种混合架构已经在医学影像上跑起来了。未来感拉满。
-
----
-
-### 6. [KneeXNet-2.5D：膝关节 MRI 分割的临床利器](https://www.nature.com/articles/s44401-026-00072-5)
-
-膝盖疼去拍 MRI，医生要一帧一帧看软骨和半月板，累眼睛还容易漏。KneeXNet-2.5D 这个框架不仅分割精准，还特别强调"可解释性"——告诉你为什么这么判断。骨科 AI 诊断，终于有了能让医生信服的工具。
+一个扎心的发现：在西方工业化国家，婴儿肠道里的长双歧杆菌婴儿亚种（B. infantis）几乎消失了，而低收入国家的婴儿肠道里还很丰富。这篇 Cell 构建了全球婴儿肠道双歧杆菌的基因组图谱，为开发针对不同地区饮食和人群的"定制化益生菌"提供了蓝图。
 
 ---
 
-### 7. [优化版 ResNet50 加速脑肿瘤分类](https://www.nature.com/articles/s41598-026-39926-1)
+### 4. [大模型临床决策 Agent 系统基准测试](https://www.nature.com/articles/s41746-026-02443-6)
 
-脑肿瘤分类模型要又快又准，这两个目标经常打架。这篇论文用动态精度优化改造了 ResNet50，在保持诊断准确率的同时大幅提速。对于需要实时辅助诊断的临床场景，这种"既要又要"的方案很实用。
-
----
-
-### 8. [OpenHealth：你的数据驱动 AI 健康助手](https://github.com/OpenHealthForAll/open-health)
-
-3800+ Star 的开源项目。把你的健康数据喂给 AI，它帮你分析、追踪、给建议。关键是——数据在你自己手里。对隐私敏感又想用 AI 管理健康的人来说，这个项目值得关注。开源社区在健康 AI 领域的又一次发力。
+大模型做临床决策，到底行不行？这篇 Nature Digital Medicine 给出了一个系统性的基准测试。结论是：能用，但还有很大提升空间。对于想把 LLM Agent 落地到医疗场景的团队，这篇论文提供了一个很好的评估框架。
 
 ---
 
-### 9. [DeepPurpose：药物-靶点预测的深度学习工具箱](https://github.com/kexinhuang12345/DeepPurpose)
+### 5. [自动驾驶"机器人实验室"会取代生物学家吗？](https://www.nature.com/articles/d41586-026-00453-8)
 
-想预测药物和蛋白质能不能结合？药物有没有毒性？蛋白质功能是什么？DeepPurpose 把这些任务打包成一个工具箱，1100+ Star，生物信息学入门必备。AI 制药的"瑞士军刀"。
+Nature 今天发了一篇引发热议的文章：AI 驱动的自动化实验室，能不能取代生物学家？答案当然是"不能完全取代"，但这篇文章引发的讨论很有意思——未来生物学家的角色会如何演变？是变成"AI 实验室的监工"，还是专注于更高层次的科学问题？
 
 ---
 
-### 10. [DANCE：单细胞分析的深度学习基准平台](https://github.com/OmicsML/dance)
+### 6. [从冷冻电镜图像直接预测原子坐标：无需姿态恢复](https://www.biorxiv.org/content/10.64898/2026.02.16.706167v1?rss=1)
 
-单细胞测序数据爆炸式增长，但各种分析方法谁好谁坏？DANCE 提供了一个统一的基准平台，让你能公平比较不同的深度学习方法。做单细胞 AI 研究的，这个平台能省不少时间。
+冷冻电镜（cryo-EM）的传统流程是：先恢复姿态，再重建 3D 结构。这篇预印本提出了一个大胆的想法：用深度学习直接从 2D 图像预测原子坐标，跳过姿态恢复。在腺苷酸激酶上实现了 2.11 Å 的 RMSD。虽然还是合成数据验证，但思路很有启发性。
+
+---
+
+### 7. [纳米孔宏基因组测序：把耐药基因和病原体"绑定"](https://www.biorxiv.org/content/10.64898/2026.02.16.706128v1?rss=1)
+
+宏基因组测序能检测耐药基因，但一直有个痛点：不知道这个耐药基因是哪个细菌的。这篇预印本利用纳米孔测序的 DNA 甲基化模式，把质粒编码的耐药基因和宿主细菌关联起来，准确率 91%。对临床耐药监测来说，这是个实用的突破。
+
+---
+
+### 8. [隐私保护的泛基因组图谱：PanMixer](https://www.biorxiv.org/content/10.64898/2026.02.16.706152v1?rss=1)
+
+泛基因组参考图谱很有用，但公开个体单倍型有隐私风险。PanMixer 提出了一个框架：选择性地混淆个体单倍型，同时保留图谱的实用性。在 47 人的人类泛基因组上验证，能有效降低重识别风险，同时保持等位基因频率估计和读段比对的准确性。
+
+---
+
+### 9. [多基因风险评分的隐私泄露风险](https://www.biorxiv.org/content/10.64898/2026.02.16.706191v1?rss=1)
+
+你以为只公开一个多基因风险评分（PRS）很安全？这篇预印本告诉你：不一定。研究者展示了如何从单个 PRS 值反推部分基因型，甚至在基因组数据库中重新识别个体。随着 PRS 在消费级基因检测中越来越普及，这个隐私问题值得关注。
+
+---
+
+### 10. [Demis Hassabis 访问印度科学院，畅谈 AI for Science](https://x.com/demishassabis/status/2024006452487086579)
+
+DeepMind CEO Demis Hassabis 跑去印度科学院（IISc Bangalore），和教授们聊 AI for Science。他还特意去看了数学天才拉马努金的雕像——"我的偶像之一"。印度年轻人对 AI 的热情让他印象深刻。AI for Science 的全球化布局，正在加速。
+
+![IISc Bangalore](https://pbs.twimg.com/profile_images/1559412093522423809/iQZeoUkV_normal.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) - 家庭健康追踪 + AI，2300+ Star，全家一起管理饮食运动
+**[研究]** [全脑少突胶质细胞图谱揭示髓鞘损伤的区域差异](https://www.cell.com/cell/fulltext/S0092-8674(26)00112-1?rss=yes) - Cell 重磅，衰老和疾病中髓鞘的脆弱性因脑区而异
 
-**[产品]** [Doctor-Dok](https://github.com/Doctor-One/doctor-dok) - 把医疗 PDF/图片解析成 JSON，再用 AI 聊病历，个人健康数据管理神器
+**[研究]** [组氨酸扫描调控机械敏感受体灵敏度](https://www.cell.com/cell/fulltext/S0092-8674(25)01499-0?rss=yes) - 增强 TCR 信号强度的新方法，可能提升细胞治疗效果
 
-**[产品]** [Open-Wearables](https://github.com/the-momentum/open-wearables) - 自托管的可穿戴设备数据统一平台，AI-ready API
+**[研究]** [联邦学习+轻量注意力 CNN 检测白血病](https://www.nature.com/articles/s41598-026-40581-9) - 隐私保护的分布式医学影像 AI
 
-**[研究]** [智能手机视频评估帕金森步态](https://www.nature.com/articles/s41746-026-02447-2) - 手机拍个视频就能分析步态，帕金森筛查门槛大降
+**[研究]** [QUICHE 自动化工作流揭示三阴性乳腺癌抗肿瘤反应](https://www.nature.com/articles/s43018-026-01122-5) - 肿瘤微环境结构分析新工具
 
-**[研究]** [宏基因组测序识别 PCR 阴性样本中的病原体](https://www.nature.com/articles/s41598-025-33917-4) - PCR 漏掉的，宏基因组帮你捞回来
+**[开源]** [Open-Wearables：统一可穿戴健康数据的自托管平台](https://github.com/the-momentum/open-wearables) - 520 星，一个 API 整合所有可穿戴设备数据
 
-**[研究]** [内皮细胞胚胎发育单细胞时序图谱](https://www.cell.com/cell/fulltext/S0092-8674(26)00049-8?rss=yes) - Cell 发表，血管发育的分子机制有了新地图
+**[开源]** [DeepPurpose：药物-靶点相互作用预测工具包](https://github.com/kexinhuang12345/DeepPurpose) - 1130 星，生物信息学深度学习经典库
 
-**[开源]** [HealthChain](https://github.com/dotimplement/HealthChain) - 医疗 AI 的中间件层，解决数据流转痛点
-
-**[开源]** [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) - 医疗 AI Agent 资源汇总，631 Star
+**[开源]** [OpenHealth：AI 健康助手](https://github.com/OpenHealthForAll/open-health) - 3815 星，基于你自己数据的 AI 健康管理
 
 ---
 
@@ -122,41 +122,40 @@ CRISPR 编辑基因最头疼的是什么？脱靶。就像拿着手术刀却不�
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 研究 | 对比学习解码 DEL 口袋模式 | [链接](https://www.nature.com/articles/s41467-026-69663-y) |
-| 2 | 研究 | 反向疫苗学设计基孔肯雅病毒通用疫苗 | [链接](https://www.nature.com/articles/s41598-026-39790-z) |
-| 3 | 研究 | 跨模态学习桥接放射学与病理学 | [链接](https://www.nature.com/articles/s41746-026-02423-w) |
-| 4 | 研究 | 元动力学揭示木犀草素稳定耐药 PDGFRα | [链接](https://www.nature.com/articles/s41598-026-36898-0) |
-| 5 | 开源 | SemiBin：宏基因组分箱自监督学习 | [链接](https://github.com/BigDataBiology/SemiBin) |
-| 6 | 开源 | ClairS：长读长体细胞变异检测 | [链接](https://github.com/HKU-BAL/ClairS) |
-| 7 | 开源 | ProteinFlow：蛋白质结构数据处理管线 | [链接](https://github.com/adaptyvbio/ProteinFlow) |
-| 8 | 开源 | TransformerCPI：化合物-蛋白质相互作用预测 | [链接](https://github.com/lifanchen-simm/transformerCPI) |
+| 1 | 研究 | 阿尔茨海默症脑灰白质脂质微域的计算脂质组学研究 | [链接](https://www.biorxiv.org/content/10.64898/2026.02.18.706545v1?rss=1) |
+| 2 | 研究 | 窦性心律心电图分类阵发性房颤 | [链接](https://www.nature.com/articles/s41598-026-37491-1) |
+| 3 | 研究 | 干燥综合征分子诊断标志物和潜在治疗药物鉴定 | [链接](https://www.nature.com/articles/s41598-026-39750-7) |
+| 4 | 研究 | 神经胶质瘤分级预测中的公平性与性能平衡 | [链接](https://www.nature.com/articles/s41598-026-40555-x) |
+| 5 | 开源 | SemiBin：宏基因组分箱的自监督深度学习 | [链接](https://github.com/BigDataBiology/SemiBin) |
+| 6 | 开源 | HealthChain：医疗 AI 中间件层 | [链接](https://github.com/dotimplement/HealthChain) |
+| 7 | 开源 | ClairS：长读长体细胞小变异检测深度学习方法 | [链接](https://github.com/HKU-BAL/ClairS) |
 
 ---
 
 ## **🔮 AI 生命科学趋势预测**
 
-### Mayo Clinic 平台将催生首批临床验证的 AI 诊断工具
-- **预测时间**：2026年Q2
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Mayo Clinic 平台加速医疗 AI 创新](https://www.nature.com/articles/s44401-026-00068-1) + 大型医疗机构开放数据平台后，通常 3-6 个月内会有首批成果发布
-
-### CRISPR + 深度学习组合疗法进入临床前研究
+### AlphaFold 3 开源版本发布
 - **预测时间**：2026年Q2
 - **预测概率**：60%
-- **预测依据**：今日新闻 [深度学习重塑 CRISPR](https://www.nature.com/articles/s41594-025-01739-7) + 基因编辑精准度提升后，下一步必然是临床转化
+- **预测依据**：Demis Hassabis 持续推动 AI for Science 全球化（今日新闻[访问印度科学院](https://x.com/demishassabis/status/2024006452487086579)），DeepMind 历史上有开源重要工具的传统
 
-### 图神经网络在病理 AI 领域获得 FDA 突破性设备认定
-- **预测时间**：2026年Q3
-- **预测概率**：50%
-- **预测依据**：今日新闻 [GNN 用于计算肾脏病学](https://www.nature.com/articles/s41581-026-01059-z) + 病理 AI 监管路径逐渐清晰，GNN 的可解释性优势有利于审批
+### 统一分子生成模型成为 AI 制药标配
+- **预测时间**：2026年Q1-Q2
+- **预测概率**：75%
+- **预测依据**：PocketXMol 在 Cell 发表并经过实验验证（今日新闻[PocketXMol](https://www.cell.com/cell/fulltext/S0092-8674(26)00050-4?rss=yes)），统一模型的优势明显，预计更多团队会跟进
+
+### 运动模拟药物进入临床前研究
+- **预测时间**：2026年Q2
+- **预测概率**：55%
+- **预测依据**：GPLD1 机制在 Cell 发表（今日新闻[肝脏运动因子](https://www.cell.com/cell/fulltext/S0092-8674(26)00111-X?rss=yes)），靶点明确，制药公司可能快速跟进
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 医疗平台、CRISPR 深度学习、图神经网络病理分析的最新资讯？
+### 哪里可以获取 AI 分子生成、阿尔茨海默症研究、肠道菌群的最新资讯？
 
-今日 AI 生命科学领域的热点包括：Mayo Clinic 开放 AI 平台、深度学习重塑 CRISPR 基因编辑、图神经网络进军肾脏病学。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：PocketXMol 统一分子生成模型、GPLD1 逆转阿尔茨海默症认知损伤、全球婴儿肠道双歧杆菌基因组图谱。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -168,9 +167,9 @@ CRISPR 编辑基因最头疼的是什么？脱靶。就像拿着手术刀却不�
 
 ---
 
-### 如何体验医疗 AI 相关的大模型工具？
+### 如何体验最新的 AI 大模型工具？
 
-今日多个医疗 AI 项目（如 Doctor-Dok、WellAlly-health）都基于 Claude、GPT 等大模型构建。想要体验这些 AI 工具，但面临支付困难或账号注册限制？
+今日多篇研究使用了大模型进行临床决策、分子生成等任务。想要体验 ChatGPT、Claude、Gemini 等 AI 工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
