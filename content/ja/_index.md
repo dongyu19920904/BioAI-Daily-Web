@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/2/17
+title: BioAI 生命科学日报 2026/2/20
 breadcrumbs: false
-next: /2026-02/2026-02-17
+next: /2026-02/2026-02-20
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Mayo Clinic 开放 AI 平台，临床研究从实验室到病床的周期有望缩短到几个月。
-深度学习让 CRISPR 学会"长眼睛"，脱靶预测越来越准，基因治疗赛道值得盯紧。
-医疗巨头开始搭基础设施了，AI 医疗创业者该动起来了。
+DeepMind 掌门人 Hassabis 跑去印度站台 AI for Science，信号明确。
+Nature 子刊发了篇用计算模型"预测并抑制"癫痫发作的研究，思路有意思。
+今天素材太少，安静的一天，适合补课。
 ```
 
 
@@ -29,134 +29,60 @@ Mayo Clinic 开放 AI 平台，临床研究从实验室到病床的周期有望�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-Mayo Clinic 开放 AI 平台加速临床研究，深度学习正在重塑 CRISPR 基因编辑的未来。
+今天素材太少了，AI+生命科学的硬核新闻几乎没有，只能说：Demis Hassabis 去印度聊 AI for Science 了。
 
 ### **🔑 3 个关键词**
-#AI医疗平台 #CRISPR深度学习 #图神经网络
+#AI科学 #癫痫建模 #DNA甲基化
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Mayo Clinic 平台加速医疗 AI 创新落地](https://www.nature.com/articles/s44401-026-00068-1)
+**⚠️ 筛选说明**：今日素材仅4条，经评分后，真正属于 AI+生命科学交叉领域的新闻极少，宁缺毋滥，仅收录以下内容：
 
-以前想在真实临床环境里测试 AI 模型？光是数据合规审批就能让你等到花儿都谢了。Mayo Clinic 这次直接开放了他们的 AI 平台，让研究者能在真实世界数据上快速迭代。这意味着从实验室到病床的距离，可能从几年缩短到几个月。对 AI 医疗创业者来说，这是个信号：巨头们开始搭基础设施了。
+### 1. [Demis Hassabis 访问印度理工学院，畅聊 AI for Science](https://x.com/demishassabis/status/2024006452487086579)
 
----
+DeepMind 掌门人 Demis Hassabis 跑去印度了。在班加罗尔理工学院，他和教授们聊了 AI 如何推动科学研究。他说印度年轻人对 AI 的热情让他印象深刻。顺便还去拜了拜数学天才拉马努金的雕像——这位可是他的偶像。虽然没有具体技术发布，但 DeepMind 老大亲自站台"AI for Science"，信号很明确：AI+科学研究是他们的重点方向。
 
-### 2. [深度学习正在重塑 CRISPR 基因编辑](https://www.nature.com/articles/s41594-025-01739-7)
+![IISc Bangalore](https://pbs.twimg.com/profile_images/1559412093522423809/iQZeoUkV_normal.jpg)
 
-CRISPR 编辑基因最头疼的是什么？脱靶。就像拿着手术刀却不知道会切到哪里。这篇 Nature 综述梳理了深度学习如何帮 CRISPR "长眼睛"——从预测编辑效率到识别脱靶位点，AI 正在让基因编辑变得更精准。如果你关注基因治疗赛道，这篇值得细读。
+### 2. [Nature 新研究：用计算模型重建和抑制癫痫发作](https://www.nature.com/articles/s41598-026-39645-7)
 
----
+癫痫患者的福音？这篇 Nature 子刊论文用计算建模的方法，尝试"重建"癫痫发作的过程，然后通过模型参考控制来抑制它。简单说就是：先用 AI 模拟你的大脑怎么抽搐，再找办法让它别抽。虽然还在研究阶段，但这个思路——用计算模型理解并干预神经疾病——是 AI+神经科学的典型应用。
 
-### 3. [图神经网络进军计算肾脏病学](https://www.nature.com/articles/s41581-026-01059-z)
+### 3. [DNA 甲基化参考面板优化指南：细胞类型解卷积的新方法](https://www.nature.com/articles/s42003-026-09745-1)
 
-肾脏病理切片里藏着海量信息，但传统方法只能看个大概。图神经网络（GNN）的优势在于能捕捉细胞之间的空间关系——谁挨着谁、怎么连接的。这篇 Nature Reviews 文章系统介绍了 GNN 在肾脏病诊断中的应用。病理 AI 的下一个突破口，可能就在这里。
-
----
-
-### 4. [AI 竞争性对接：虚拟筛选的新玩法](https://www.nature.com/articles/s44386-026-00039-4)
-
-传统分子对接就像相亲——一个一个试，效率低得让人抓狂。这个 AI 引导的竞争性对接方法，让多个候选分子同时"竞争"结合位点，谁亲和力强谁留下。药物筛选效率直接起飞。AI 制药的工具箱里，又多了一件趁手的家伙。
-
----
-
-### 5. [量子-经典混合框架用于放疗靶区分割](https://www.nature.com/articles/s41598-026-40127-z)
-
-放疗最怕什么？照到肿瘤旁边的正常器官。这个混合量子-经典的深度学习框架，专门用来精准分割肿瘤和危及器官。虽然量子计算还没完全成熟，但这种混合架构已经在医学影像上跑起来了。未来感拉满。
-
----
-
-### 6. [KneeXNet-2.5D：膝关节 MRI 分割的临床利器](https://www.nature.com/articles/s44401-026-00072-5)
-
-膝盖疼去拍 MRI，医生要一帧一帧看软骨和半月板，累眼睛还容易漏。KneeXNet-2.5D 这个框架不仅分割精准，还特别强调"可解释性"——告诉你为什么这么判断。骨科 AI 诊断，终于有了能让医生信服的工具。
-
----
-
-### 7. [优化版 ResNet50 加速脑肿瘤分类](https://www.nature.com/articles/s41598-026-39926-1)
-
-脑肿瘤分类模型要又快又准，这两个目标经常打架。这篇论文用动态精度优化改造了 ResNet50，在保持诊断准确率的同时大幅提速。对于需要实时辅助诊断的临床场景，这种"既要又要"的方案很实用。
-
----
-
-### 8. [OpenHealth：你的数据驱动 AI 健康助手](https://github.com/OpenHealthForAll/open-health)
-
-3800+ Star 的开源项目。把你的健康数据喂给 AI，它帮你分析、追踪、给建议。关键是——数据在你自己手里。对隐私敏感又想用 AI 管理健康的人来说，这个项目值得关注。开源社区在健康 AI 领域的又一次发力。
-
----
-
-### 9. [DeepPurpose：药物-靶点预测的深度学习工具箱](https://github.com/kexinhuang12345/DeepPurpose)
-
-想预测药物和蛋白质能不能结合？药物有没有毒性？蛋白质功能是什么？DeepPurpose 把这些任务打包成一个工具箱，1100+ Star，生物信息学入门必备。AI 制药的"瑞士军刀"。
-
----
-
-### 10. [DANCE：单细胞分析的深度学习基准平台](https://github.com/OmicsML/dance)
-
-单细胞测序数据爆炸式增长，但各种分析方法谁好谁坏？DANCE 提供了一个统一的基准平台，让你能公平比较不同的深度学习方法。做单细胞 AI 研究的，这个平台能省不少时间。
+这篇 Nature Communications 论文解决了一个技术问题：怎么优化 DNA 甲基化（一种表观遗传标记）的参考数据，让"细胞类型解卷积"更准确。翻译成人话就是：从一堆混合细胞的数据里，精准识别出每种细胞的比例。这对癌症早筛、免疫研究都很关键。虽然偏方法论，但对做生物信息学的同学很有参考价值。
 
 ---
 
 ## **📌 值得关注**
 
-**[产品]** [SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) - 家庭健康追踪 + AI，2300+ Star，全家一起管理饮食运动
+**⚠️ 说明**：今日素材中，Bibby AI（LaTeX 编辑器）是纯 AI 工具，与生命科学无直接交叉，不收录。
 
-**[产品]** [Doctor-Dok](https://github.com/Doctor-One/doctor-dok) - 把医疗 PDF/图片解析成 JSON，再用 AI 聊病历，个人健康数据管理神器
-
-**[产品]** [Open-Wearables](https://github.com/the-momentum/open-wearables) - 自托管的可穿戴设备数据统一平台，AI-ready API
-
-**[研究]** [智能手机视频评估帕金森步态](https://www.nature.com/articles/s41746-026-02447-2) - 手机拍个视频就能分析步态，帕金森筛查门槛大降
-
-**[研究]** [宏基因组测序识别 PCR 阴性样本中的病原体](https://www.nature.com/articles/s41598-025-33917-4) - PCR 漏掉的，宏基因组帮你捞回来
-
-**[研究]** [内皮细胞胚胎发育单细胞时序图谱](https://www.cell.com/cell/fulltext/S0092-8674(26)00049-8?rss=yes) - Cell 发表，血管发育的分子机制有了新地图
-
-**[开源]** [HealthChain](https://github.com/dotimplement/HealthChain) - 医疗 AI 的中间件层，解决数据流转痛点
-
-**[开源]** [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) - 医疗 AI Agent 资源汇总，631 Star
-
----
-
-## **📊 更多动态**
-
-| # | 类型 | 标题 | 链接 |
-|---|------|------|------|
-| 1 | 研究 | 对比学习解码 DEL 口袋模式 | [链接](https://www.nature.com/articles/s41467-026-69663-y) |
-| 2 | 研究 | 反向疫苗学设计基孔肯雅病毒通用疫苗 | [链接](https://www.nature.com/articles/s41598-026-39790-z) |
-| 3 | 研究 | 跨模态学习桥接放射学与病理学 | [链接](https://www.nature.com/articles/s41746-026-02423-w) |
-| 4 | 研究 | 元动力学揭示木犀草素稳定耐药 PDGFRα | [链接](https://www.nature.com/articles/s41598-026-36898-0) |
-| 5 | 开源 | SemiBin：宏基因组分箱自监督学习 | [链接](https://github.com/BigDataBiology/SemiBin) |
-| 6 | 开源 | ClairS：长读长体细胞变异检测 | [链接](https://github.com/HKU-BAL/ClairS) |
-| 7 | 开源 | ProteinFlow：蛋白质结构数据处理管线 | [链接](https://github.com/adaptyvbio/ProteinFlow) |
-| 8 | 开源 | TransformerCPI：化合物-蛋白质相互作用预测 | [链接](https://github.com/lifanchen-simm/transformerCPI) |
+暂无更多符合 AI+生命科学交叉领域的新闻。
 
 ---
 
 ## **🔮 AI 生命科学趋势预测**
 
-### Mayo Clinic 平台将催生首批临床验证的 AI 诊断工具
+### DeepMind 加速 AI for Science 布局
 - **预测时间**：2026年Q2
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Mayo Clinic 平台加速医疗 AI 创新](https://www.nature.com/articles/s44401-026-00068-1) + 大型医疗机构开放数据平台后，通常 3-6 个月内会有首批成果发布
+- **预测依据**：今日新闻 [Demis Hassabis 访问印度](https://x.com/demishassabis/status/2024006452487086579) 明确提到"AI for Science"是重点方向 + DeepMind 近期在 AlphaFold、材料科学等领域持续发力，预计会有新的科学 AI 工具发布。
 
-### CRISPR + 深度学习组合疗法进入临床前研究
+### 计算神经科学+AI 干预方案进入临床前研究
 - **预测时间**：2026年Q2
-- **预测概率**：60%
-- **预测依据**：今日新闻 [深度学习重塑 CRISPR](https://www.nature.com/articles/s41594-025-01739-7) + 基因编辑精准度提升后，下一步必然是临床转化
-
-### 图神经网络在病理 AI 领域获得 FDA 突破性设备认定
-- **预测时间**：2026年Q3
-- **预测概率**：50%
-- **预测依据**：今日新闻 [GNN 用于计算肾脏病学](https://www.nature.com/articles/s41581-026-01059-z) + 病理 AI 监管路径逐渐清晰，GNN 的可解释性优势有利于审批
+- **预测概率**：55%
+- **预测依据**：今日新闻 [癫痫计算建模研究](https://www.nature.com/articles/s41598-026-39645-7) 展示了用模型控制神经疾病的可行性 + 脑机接口和神经调控领域投资持续升温。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 医疗平台、CRISPR 深度学习、图神经网络病理分析的最新资讯？
+### 哪里可以获取 AI for Science、计算神经科学 的最新资讯？
 
-今日 AI 生命科学领域的热点包括：Mayo Clinic 开放 AI 平台、深度学习重塑 CRISPR 基因编辑、图神经网络进军肾脏病学。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：DeepMind 掌门人畅聊 AI for Science、癫痫计算建模研究、DNA 甲基化分析方法。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -168,9 +94,9 @@ CRISPR 编辑基因最头疼的是什么？脱靶。就像拿着手术刀却不�
 
 ---
 
-### 如何体验医疗 AI 相关的大模型工具？
+### 如何体验 ChatGPT、Claude 等 AI 工具？
 
-今日多个医疗 AI 项目（如 Doctor-Dok、WellAlly-health）都基于 Claude、GPT 等大模型构建。想要体验这些 AI 工具，但面临支付困难或账号注册限制？
+想用 AI 辅助科研写作、文献检索、数据分析，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
