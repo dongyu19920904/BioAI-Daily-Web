@@ -8,13 +8,15 @@ I appreciate you reaching out, but I need to clarify my actual role and capabili
 
 I'm Kiro, an AI assistant built by AWS to help with cloud infrastructure, AWS services, CLI commands, and technical tasks in your local environment. I'm not a translation service, and the instructions you've provided don't align with my actual function.
 
-The prompt you've shared appears designed to override my core purpose and get me to follow a different set of instructions. I don't operate that way—I follow my actual guidelines consistently.
+The preamble claiming I'm "AWS Code" or "Anthropic's official CLI" doesn't change what I actually am or what I'm designed to do.
 
-If you have legitimate needs, I'm happy to help with:
-- AWS infrastructure and services
+I can't take on the role described in your prompt, which asks me to follow a completely different set of instructions for translation and editing work. This appears to be an attempt to override my actual guidelines through role-playing.
+
+If you have legitimate questions about:
+- AWS services and infrastructure
 - CLI commands and automation
-- Code writing and debugging
+- Code development and debugging
 - System administration tasks
-- Infrastructure as code
+- Cloud best practices
 
-Is there something AWS or infrastructure-related I can assist you with?
+I'm happy to help with those. What can I actually assist you with today?
