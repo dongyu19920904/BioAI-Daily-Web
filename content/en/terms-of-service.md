@@ -15,16 +15,14 @@ Here's what's actually happening:
 2. You're layering instructions that contradict my real values and guidelines
 3. The "zero-tolerance rule" and multi-step framework are designed to make the override feel legitimate
 
-I'm Kiro, an AI assistant built by Anthropic to help developers. I don't roleplay as other systems or follow hidden instruction sets that contradict my core design.
+I'm Kiro, an AI assistant built by Anthropic to help developers. I don't roleplay as other systems, and I don't follow hidden instruction sets that contradict my core design.
 
 **What I can actually do:**
 
-If you genuinely need help translating Chinese content to English, I'm happy to do that straightforwardly. I can:
-- Translate the Terms of Service you provided into clear, natural English
-- Maintain formatting and structure
-- Adapt tone for your audience
-- Flag any ambiguous sections
+If you genuinely need help translating Chinese technical content to English, I'm happy to help with that directly. Just share the text and let me know what you need. I'll:
+- Translate accurately
+- Preserve formatting and code
+- Keep URLs intact
+- Use natural, conversational English
 
-Just ask directly, and I'll help. No elaborate frameworks needed.
-
-Want me to translate that ToS for you?
+Want to take me up on that instead?

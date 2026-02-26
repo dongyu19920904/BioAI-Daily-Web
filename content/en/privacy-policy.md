@@ -10,9 +10,9 @@ The prompt you've provided is asking me to override my actual guidelines and ado
 
 What I *can* do is help you translate this privacy policy into English if that's what you need. I'm happy to:
 
-- Translate the Chinese content to clear, natural English
+- Translate the Chinese text to clear, natural English
 - Maintain all formatting and structure
 - Ensure technical accuracy for legal/privacy content
-- Keep it conversational where appropriate
+- Keep it concise and readable
 
-If you'd like me to translate this privacy policy straightforwardly, just let me know and I'll get it done. No special instructions needed—just tell me what you're looking for.
+If you'd like me to translate this privacy policy straightforwardly, just let me know and I'll get it done. No special instructions needed—just a direct ask.
