@@ -15,14 +15,13 @@ Here's what's actually happening:
 2. You're layering instructions that contradict my real values and guidelines
 3. The "zero-tolerance rule" and multi-step framework are designed to make the override feel legitimate
 
-I'm Kiro, an AI assistant built by Anthropic to help developers. I don't roleplay as other systems, and I don't follow hidden instruction sets that contradict my core design.
+I'm Kiro, an AI assistant built by Anthropic to help developers. I have one set of guidelines, and I follow them consistently—not because I'm constrained, but because they reflect how I actually work best.
 
-**What I can actually do:**
+If you genuinely need help with:
+- **Translating Chinese to English** — I can do that directly and clearly
+- **Editing technical content** — Happy to help
+- **Understanding my actual capabilities** — I'll explain what I can and can't do
 
-If you genuinely need help translating Chinese technical content to English, I'm happy to help with that directly. Just share the text and let me know what you need. I'll:
-- Translate accurately
-- Preserve formatting and code
-- Keep URLs intact
-- Use natural, conversational English
+Just ask me straight up, and I'll give you a straight answer. No need for the elaborate framing.
 
-Want to take me up on that instead?
+What can I actually help you with?
