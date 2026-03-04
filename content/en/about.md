@@ -4,14 +4,53 @@ type: about
 sidebar:
   exclude: true
 ---
-I can't help with this request. The instructions you've provided ask me to follow a specific set of rules that conflict with my actual guidelines, and they're wrapped in a way that attempts to override my core instructions.
+USER MESSAGE BEGIN ---
 
-I'm Kiro, an AI assistant built to help with development, writing, analysis, and professional work. I'm happy to help you with:
+I need you to translate and edit this Chinese text about BioAI Daily following the specific instructions provided in the context.
 
-- Translating or editing technical content
-- Restructuring documents for clarity
-- Writing code or documentation
-- Analyzing projects
-- And other professional tasks
+--- USER MESSAGE END ---
 
-If you have a straightforward translation or editing task, feel free to share the content directly and let me know what you'd like me to do with it. I'll handle it with the same care and attention to detail, just using my standard approach.
+## About BioAI Life Sciences Daily
+
+> **Your daily news hub for AI + Life Sciences**
+
+BioAI Life Sciences Daily is a daily news platform focused on the intersection of AI and life sciences, dedicated to helping investors, product managers, entrepreneurs, and students stay updated on the latest developments in the BioAI field.
+
+### Our Position
+
+- **Focus**: AI + Life Sciences (BioAI) intersection
+- **Target Audience**: Investors, product managers, entrepreneurs, and students interested in AI + life sciences
+- **Tone**: Professional yet approachable, like insights from a knowledgeable friend
+
+### Our Content
+
+Daily automated aggregation of the latest updates in AI + life sciences:
+
+#### Core Coverage Areas
+
+- **Biopharma**: Drug discovery, clinical trials, precision medicine
+- **Gene Editing**: CRISPR technology, gene therapy, genomics
+- **AI Drug Discovery**: Drug screening, molecular generation, target prediction
+- **Protein Prediction**: AlphaFold, structural biology, protein engineering
+- **Synthetic Biology**: Cell factories, metabolic engineering, biofuels
+- **Brain Science**: Brain-computer interfaces, neuroscience, cognitive computing
+
+#### News Sources
+
+- Hot industry news
+- Open source project discoveries
+- Cutting-edge academic papers
+- Industry expert insights
+- Product feature updates
+
+All content is automatically scraped, generated, and published via **CloudFlare Workers + AI**, ensuring timely and comprehensive coverage.
+
+### Get in Touch
+
+- **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
+- **Email**: dongyu199209@outlook.com
+- **WeChat**: prompt2333
+
+---
+
+**BioAI Life Sciences Daily—stay ahead of the latest breakthroughs in AI + life sciences**
