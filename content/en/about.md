@@ -4,36 +4,30 @@ type: about
 sidebar:
   exclude: true
 ---
-USER MESSAGE BEGIN ---
+# About BioAI Life Sciences Daily
 
-I need you to translate and edit this Chinese text about BioAI Daily following the specific instructions provided.
+> **Your daily news hub for the intersection of AI + life sciences**
 
---- USER MESSAGE END ---
-
-## About BioAI Life Sciences Daily
-
-> **Your daily news hub for AI + Life Sciences**
-
-BioAI Life Sciences Daily is a daily news platform focused on the intersection of AI and life sciences, dedicated to helping investors, product managers, entrepreneurs, and students stay updated on the latest developments in the BioAI field.
+BioAI Life Sciences Daily is a daily news platform focused on the AI + life sciences intersection, dedicated to helping investors, product managers, entrepreneurs, and students stay updated on the latest developments in the BioAI field.
 
 ### Our Position
 
-- **Topic**: AI + Life Sciences (BioAI) intersection
-- **Target Audience**: Investors, product managers, entrepreneurs, and students interested in AI + life sciences
+- **Focus**: AI + life sciences (BioAI) intersection
+- **Target audience**: Investors, product managers, entrepreneurs, and students interested in AI + life sciences
 - **Tone**: Professional yet approachable, like insights from a knowledgeable friend
 
 ### Our Content
 
-Daily automated aggregation of the latest updates in AI + life sciences:
+Daily automated roundup of the latest developments in AI + life sciences:
 
 #### Core Coverage Areas
 
-- **Biopharmaceuticals**: Drug discovery, clinical trials, precision medicine
-- **Gene Editing**: CRISPR technology, gene therapy, genomics
-- **AI Drug Discovery**: Drug screening, molecular generation, target prediction
-- **Protein Prediction**: AlphaFold, structural biology, protein engineering
-- **Synthetic Biology**: Cell factories, metabolic engineering, biofuels
-- **Brain Science**: Brain-computer interfaces, neuroscience, cognitive computing
+- **Biopharma**: Drug discovery, clinical trials, precision medicine
+- **Gene editing**: CRISPR technology, gene therapy, genomics
+- **AI drug discovery**: Drug screening, molecular generation, target prediction
+- **Protein prediction**: AlphaFold, structural biology, protein engineering
+- **Synthetic biology**: Cell factories, metabolic engineering, biofuels
+- **Brain science**: Brain-computer interfaces, neuroscience, cognitive computing
 
 #### News Sources
 
@@ -53,4 +47,4 @@ All content is automatically scraped, generated, and published via **CloudFlare 
 
 ---
 
-**BioAI Life Sciences Daily—stay ahead of the latest in AI + life sciences**
+**BioAI Life Sciences Daily—stay ahead of the latest in AI + life sciences 🧬✨**
