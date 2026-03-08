@@ -4,12 +4,6 @@ type: page
 sidebar:
   exclude: true
 ---
-USER MESSAGE BEGIN ---
-
-I need you to translate and edit the Chinese Terms of Service document provided above according to the detailed instructions given in the context.
-
---- USER MESSAGE END ---
-
 # Terms of Service
 
 *Effective Date: June 1, 2025*
@@ -19,27 +13,27 @@ I need you to translate and edit the Chinese Terms of Service document provided 
 Welcome to **ai.hubtoday** (hereinafter referred to as the "**Site**" or "**we**"). Please read the following Terms of Service carefully before using our Site. Your access to or use of the Site indicates that you agree to and accept these terms.
 
 ## 1. Service Overview
-The Site provides users with paid subscription content and membership services, including but not limited to blog articles, exclusive resources, e-books, community interaction, and more. Some content is restricted to subscription users only.
+The Site provides users with paid subscription content and membership services, including but not limited to blog articles, exclusive resources, e-books, community interaction, and more. Some content is restricted to subscribers only.
 
 ## 2. User Registration and Account
 - Users must provide a valid email address and set a password to register an account.
-- Users are responsible for the security of their account and all activities on it. **Accounts may not be transferred or shared.**
+- Users are responsible for the security of their account and all activities associated with it. **Account transfer or sharing is prohibited**.
 - The Site reserves the right to **suspend or terminate** user accounts in cases of violation of these terms.
 
-## 3. Paid Subscription Service
+## 3. Paid Subscription Services
 - Subscription services are billed on a monthly/annual basis, with fees clearly displayed on the checkout page.
 - All payments are processed through third-party payment platforms (such as Stripe or PayPal). The Site does not store your payment information.
 - Subscriptions will **automatically renew** unless you cancel before the end of your current billing cycle.
 - **14-Day Refund Policy**: Users purchasing a subscription for the first time may request a full refund within 14 days of purchase if unsatisfied with the service. Please contact us using the email address provided at the end of these terms and explain your reason for the refund. Each user is eligible for only one refund. After 14 days or for non-first-time subscriptions, **no refunds will be issued** unless required by law.
 
 ## 4. Content Use and Intellectual Property
-- All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, or used for commercial purposes without authorization.
-- Users receive a **non-exclusive, non-transferable right** to access content for personal learning and reading purposes only.
+- All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
+- Users receive **non-exclusive, non-transferable access rights** for personal learning and reading purposes only.
 - For commercial use or extensive quotation, please contact the Site to obtain authorization.
 
 ## 5. User Conduct Standards
-- **Users may not** upload, publish, or distribute any illegal, harassing, false, offensive, or rights-infringing content.
-- **Users may not** use technical means to bulk download, scrape, or crack member-only content.
+- **Uploading, publishing, or distributing any illegal, harassing, false, offensive, or rights-infringing content is prohibited**.
+- **Using technical means to bulk download, scrape, or crack member content is prohibited**.
 - The Site reserves the right to remove inappropriate content and **ban violating users**.
 
 ## 6. Service Changes and Interruptions

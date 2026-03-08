@@ -4,7 +4,13 @@ type: about
 sidebar:
   exclude: true
 ---
-# About BioAI Life Sciences Daily
+USER MESSAGE BEGIN ---
+
+I need you to translate and edit this Chinese text about BioAI Daily following the specific instructions provided.
+
+--- USER MESSAGE END ---
+
+## About BioAI Life Sciences Daily
 
 > **Your daily news hub for AI + Life Sciences**
 
@@ -12,17 +18,17 @@ BioAI Life Sciences Daily is a daily news platform focused on the intersection o
 
 ### Our Position
 
-- **Focus**: AI + Life Sciences (BioAI) intersection
+- **Topic**: AI + Life Sciences (BioAI) intersection
 - **Target Audience**: Investors, product managers, entrepreneurs, and students interested in AI + life sciences
 - **Tone**: Professional yet approachable, like insights from a knowledgeable friend
 
 ### Our Content
 
-Daily automated roundup of the latest developments in AI + life sciences:
+Daily automated aggregation of the latest updates in AI + life sciences:
 
 #### Core Coverage Areas
 
-- **Biopharma**: Drug discovery, clinical trials, precision medicine
+- **Biopharmaceuticals**: Drug discovery, clinical trials, precision medicine
 - **Gene Editing**: CRISPR technology, gene therapy, genomics
 - **AI Drug Discovery**: Drug screening, molecular generation, target prediction
 - **Protein Prediction**: AlphaFold, structural biology, protein engineering
@@ -47,4 +53,4 @@ All content is automatically scraped, generated, and published via **CloudFlare 
 
 ---
 
-**BioAI Life Sciences Daily — stay ahead of the latest in AI + life sciences 🧬✨**
+**BioAI Life Sciences Daily—stay ahead of the latest in AI + life sciences**
