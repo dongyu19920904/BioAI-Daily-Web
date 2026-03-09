@@ -16,7 +16,7 @@ I need you to translate and edit this Chinese text about BioAI Daily following t
 
 BioAI Life Sciences Daily is a daily news platform focused on the intersection of AI and life sciences, dedicated to helping investors, product managers, entrepreneurs, and students stay updated on the latest developments in the BioAI field.
 
-### Our Position
+### Our Positioning
 
 - **Topic**: AI + Life Sciences (BioAI) intersection
 - **Target Audience**: Investors, product managers, entrepreneurs, and students interested in AI + life sciences
@@ -28,7 +28,7 @@ Daily automated aggregation of the latest updates in AI + life sciences:
 
 #### Core Coverage Areas
 
-- **Biopharmaceuticals**: Drug discovery, clinical trials, precision medicine
+- **Biopharma**: Drug discovery, clinical trials, precision medicine
 - **Gene Editing**: CRISPR technology, gene therapy, genomics
 - **AI Drug Discovery**: Drug screening, molecular generation, target prediction
 - **Protein Prediction**: AlphaFold, structural biology, protein engineering
