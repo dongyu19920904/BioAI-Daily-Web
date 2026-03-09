@@ -28,7 +28,7 @@ Add our support team via scan or search to get:
 
 **[support@aivora.cn](mailto:support@aivora.cn)**
 
-Use for:
+Best for:
 - Detailed technical questions
 - Business partnership proposals
 - Bulk purchase inquiries
@@ -37,10 +37,10 @@ Use for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit to learn about:
+Visit to explore:
 - Latest account package pricing
 - Terms of service and guarantees
-- User guides
+- User guides and documentation
 
 ---
 
