@@ -1,8 +1,8 @@
 ---
 linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/3/12
+title: BioAI 生命科学日报 2026/3/9
 breadcrumbs: false
-next: /2026-03/2026-03-12
+next: /2026-03/2026-03-08
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI 辅助药物研发等前沿进展。"
 cascade:
   type: docs
@@ -11,110 +11,88 @@ cascade:
 ## **今日摘要**
 
 ```
-AlphaFold2 学会预测药物分子结合位点，AI 制药设计精准度再升级。
-西地那非（伟哥成分）意外治疗线粒体疾病，老药新用省时省钱。
-病毒感染留下表观遗传印记会加速肺癌，联合疗法可逆转。
+BioAI 今天继续围绕“能不能跨机构、跨设备、跨模态稳定工作”这件事往前推。
+从联邦临床预测、纵向隐私计算，到乳腺癌筛查、糖网分级、帕金森视频量化，大家都不再只比单点精度，而是开始比可部署性。
+这意味着 2026 年的生命科学 AI，已经从“论文验证”正式进入“真实网络中的工程化竞争”。
 ```
-
-
 
 ## ⚡ 快速导航
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
+- [🧬 今日AI生命科学资讯](#今日ai生命科学资讯) - 今天最重要的临床与研究主线
+- [🔥 重磅 TOP 10](#-重磅-top-10) - 先看 7 条关键论文/方法
+- [📌 值得关注](#-值得关注) - 继续跟踪的工具和补充方向
+- [🔮 AI趋势预测](#-ai趋势预测) - 后续值得盯的 3 个变化
 
-
-
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
-
-## **今日 AI 生命科学资讯**
+## **今日AI生命科学资讯**
 
 ### **👀 只有一句话**
-AlphaFold2 又进化了，这次直接预测药物分子怎么跟蛋白质结合。
+多中心协作、模型解释性和跨设备泛化，正在一起决定下一代临床 AI 的成败。
 
 ### **🔑 3 个关键词**
-#AI药物设计 #蛋白质预测 #癌症早筛
-
-## **🔥 重磅 TOP 10**
-
-### [AF2BIND：用 AlphaFold2 预测小分子结合位点](https://www.nature.com/articles/s41592-026-03011-2)
-还记得 AlphaFold2 预测蛋白质结构有多牛吗？现在它又学会了新技能：直接告诉你药物分子会粘在蛋白质的哪个位置。AF2BIND 利用 AlphaFold2 的"配对表示"（pair representation）来预测小分子结合位点，这意味着药物设计师不用再盲目试错，能更精准地设计靶向药物。发表在 Nature Methods 上，权威性拉满。
-
-### [干细胞筛选发现西地那非可治疗线粒体疾病](https://www.cell.com/cell/fulltext/S0092-8674(26)00173-X?rss=yes)
-Leigh 综合征是一种严重的线粒体疾病，以前没药可治。研究团队用患者来源的干细胞模型（2D 和 3D）筛选了一堆药，发现治疗勃起功能障碍的西地那非（伟哥的主要成分）竟然有效。在哺乳动物模型中延长了寿命，6 名 Leigh 综合征患者的临床症状也有改善。这就是药物重定位的魅力：老药新用，省时省钱。发表在 Cell 上。
-
-### [呼吸道病毒感染会加速肺癌生长](https://www.cell.com/cell/fulltext/S0092-8674(26)00220-5?rss=yes)
-重症 COVID-19 患者后续肺癌风险更高，这不是巧合。病毒性肺炎会在肺部留下持久的表观遗传"印记"，促进肿瘤支持性中性粒细胞的产生，同时削弱 T 细胞免疫。好消息是，联合使用 CXCR2 抑制剂和 PD-L1 阻断剂可以逆转这种效应。这项研究解释了为什么病毒感染和癌症之间存在关联，也为预防提供了新思路。发表在 Cell 上。
-
-### [衰老小鼠大脑的细胞特异性转座子去甲基化](https://www.cell.com/cell/fulltext/S0092-8674(26)00222-9?rss=yes)
-衰老的大脑到底发生了什么？这项研究用多组学单细胞图谱揭示了答案：不同细胞类型的转座子甲基化变化、3D 基因组边界的加强，以及区域异质性的衰老特征。这份资源为理解大脑衰老的分子机制提供了基础，也为神经退行性疾病研究指明了方向。发表在 Cell 上。
-
-### [人类小脑的特异性特征与 ZP2 调控的突触发育](https://www.cell.com/cell/fulltext/S0092-8674(26)00221-7?rss=yes)
-人类小脑有哪些独特之处？研究发现，人类小脑存在特异性的转录组和调控特征，其中 ZP2 蛋白在突触调控中扮演关键角色。ZP2 的表达由脑桥苔藓纤维诱导，会降低突触蛋白和神经元活性。这项研究为理解人类小脑的进化发育提供了新见解。发表在 Cell 上。
-
-### [隐私保护的多模态癌症早筛框架](https://www.nature.com/articles/s41598-026-42537-5)
-癌症早筛很重要，但患者隐私也很重要。这个因果多模态框架在保护隐私的前提下实现了早期癌症检测和自适应测试。结合了多种数据模态（影像、基因组等），既能提高检测准确性，又不会泄露患者敏感信息。这对于大规模癌症筛查项目来说是个好消息。
-
-### [DeepStackVEGF：集成深度学习预测血管生成因子](https://www.nature.com/articles/s41598-026-40134-0)
-血管内皮生长因子（VEGF）在肿瘤血管生成中起关键作用，预测它的表达水平对癌症治疗很重要。DeepStackVEGF 用堆叠集成深度学习框架来预测 VEGF，比单一模型更准确。这种方法可以帮助医生更好地评估抗血管生成疗法的效果。
-
-### [双分支深度学习框架识别脑电情绪](https://www.nature.com/articles/s41598-026-42998-8)
-从脑电信号（EEG）识别情绪听起来很科幻，但这个双分支深度学习框架做到了。它能从 EEG 信号中提取特征，准确识别不同的情绪状态。这对于脑机接口、心理健康监测、甚至游戏体验优化都有潜在应用。
-
-### [混合 CNN 模型优化黑色素瘤检测](https://www.nature.com/articles/s41598-026-42711-9)
-黑色素瘤早期发现很关键，但人工诊断容易漏诊。这项研究用元启发式算法优化混合 CNN 模型，提高了黑色素瘤检测的准确性。模型能从皮肤图像中自动识别可疑病变，辅助皮肤科医生做出更准确的诊断。
-
-### [集成深度学习模型用于乳腺癌医学图像检索](https://www.nature.com/articles/s41598-026-38218-y)
-乳腺癌检测需要快速准确地从大量医学图像中找到相似病例。这个集成深度学习框架能高效检索相关图像，帮助医生快速找到参考案例，提高诊断效率和准确性。
-
-## **📌 值得关注**
-
-**[研究]** [Retentive Network 促进长序列 RNA 语言建模](https://www.nature.com/articles/s42003-026-09757-x) - RNA 序列太长，传统模型处理不过来，这个新架构解决了这个问题
-
-**[研究]** [本体驱动的关联规则挖掘改进基因-疾病发现](https://www.nature.com/articles/s41598-026-42584-y) - 把知识图谱和数据挖掘结合起来，找基因和疾病的关系更准了
-
-**[研究]** [从头设计功能性核酸适配体](https://www.nature.com/articles/s43588-026-00965-3) - AI 设计核酸适配体，这些分子可以特异性结合靶标，用于诊断和治疗
-
-**[研究]** [双分支深度学习框架用于肺癌分类](https://www.nature.com/articles/s41598-026-42290-9) - 又一个 AI 辅助肺癌诊断的工具，准确率在提升
-
-**[工具]** [开源自动化装置测试小鼠传递推理](https://www.nature.com/articles/s41598-026-43430-x) - 成本低、开源的小鼠认知测试装置，神经科学研究者的福音
-
-## **📊 更多动态**
-
-| # | 类型 | 标题 | 链接 |
-|---|------|------|------|
-| 1 | 研究 | EffectorFisher：泛基因组蛋白质异构体谱与疾病表型关联预测真菌致病效应子 | [链接](https://www.nature.com/articles/s41598-026-43646-x) |
-| 2 | 研究 | 序列运动分层执行的行为证据 | [链接](https://www.nature.com/articles/s44271-026-00436-5) |
-| 3 | 研究 | RNA 编辑蛋白敲低重塑 HepaRG 转录组和药物基因表达 | [链接](https://www.nature.com/articles/s41598-026-43323-z) |
-| 4 | 研究 | 埃及尿路感染患者多重耐药大肠杆菌的基因组特征 | [链接](https://www.nature.com/articles/s41598-026-40536-0) |
-| 5 | 研究 | X 射线晶体结构和四溴硫桥联二喹啉的计算研究 | [链接](https://www.nature.com/articles/s41598-026-42845-w) |
-| 6 | 数据集 | 健康成人手部生物力学运动学、动力学、肌电图和影像数据集 | [链接](https://www.nature.com/articles/s41597-026-06939-4) |
-| 7 | 研究 | 帝企鹅生活方式改变加速表观遗传衰老 | [链接](https://www.nature.com/articles/s41467-026-70527-8) |
-| 8 | 研究 | 表观遗传记忆的随机建模 | [链接](https://www.nature.com/articles/s41540-026-00664-9) |
-| 9 | 研究 | 飞蛾信息素结合蛋白 2 的异源表达、结构分析和功能表征 | [链接](https://www.nature.com/articles/s41598-026-43384-0) |
-
-## **❓ 相关问题**
-
-### 哪里可以获取 AI 药物设计、蛋白质预测、癌症早筛的最新资讯？
-
-今日 AI 生命科学领域的热点包括：AlphaFold2 预测小分子结合位点、干细胞筛选发现线粒体疾病新疗法、病毒感染与肺癌关系的突破。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
-
-**推荐方案**：
-- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
-- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
-- 用普通人能理解的语言，解读最前沿的技术进展
-
-访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
+#多中心健康分析 #可解释诊断 #临床可部署性
 
 ---
 
-### 如何体验最新的 AI 工具和模型？
+## **🔥 重磅 TOP 10**
 
-今天的新闻提到了 AlphaFold2、深度学习模型等前沿 AI 技术在生命科学中的应用。想要体验 ChatGPT、Claude、Gemini 等 AI 工具，但面临支付困难或账号注册限制？
+### 1. [Federated learning with continual update for privacy-preserving clinical event prediction across distributed hospitals using MCN-GNN](https://www.nature.com/articles/s41598-026-40964-y)
+如果说医疗 AI 这几年最大的现实难题是什么，那一定有“多家医院的数据不能直接汇总，但模型又必须持续升级”这一条。MCN-GNN 这篇工作有价值的地方，不只是在联邦学习里塞了图结构，而是把“持续更新”这件事摆到台面上。真正能跑进医院网络的模型，不能只会第一次训练，还得会长期活着。
 
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
-- 极速发货，下单即用，无需处理海外支付问题
-- 提供稳定的独享账号,售后无忧
+### 2. [VALORIS: One-shot and lossless vertical logistic regression for privacy-protecting multi-site health analytics](https://www.nature.com/articles/s41598-026-41936-y)
+医疗数据经常是“你有部分特征、我有另一部分特征”，谁都不敢全量给出去。VALORIS 的目标很直接：尽量少交互、尽量不丢信息、还能做跨机构的联合分析。对真实世界的健康分析平台来说，这类方法比“更大模型”更接近刚需。
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+### 3. [Performance of breast cancer risk prediction algorithms across mammography systems in the UK screening programme](https://www.nature.com/articles/s41746-026-02507-7)
+乳腺癌筛查是最能检验 AI 是否“能上临床”的场景之一，因为一旦跨设备、跨筛查流程，就会暴露出很多算法在训练集里看不见的问题。这篇工作把不同乳腺摄影系统下的风险预测表现摊开来看，意义不在于单次成绩，而在于帮大家认清：真正上线之前，泛化验证永远绕不过去。
+
+### 4. [BigEye: a clinically interpretable deep learning framework for diabetic retinopathy detection and stage prediction](https://www.nature.com/articles/s41598-026-43573-x)
+眼底影像一直是临床 AI 最容易出成果的战场，但现在竞争重点已经变了。大家不再满足于“分得准”，而是想知道它为什么这么分、能不能顺手给出分期依据。BigEye 把临床可解释性抬上来，说明这个方向正在往真正的医生工作流靠近。
+
+### 5. [Interpretable and granular video-based quantification of motor characteristics from the finger-tapping test in Parkinson’s disease](https://www.nature.com/articles/s41531-026-01307-w)
+视频量化神经运动体征这件事，过去一直很诱人，但真正难的是把“视频里的一团动作”拆成医生能用的精细信号。这篇工作强调 granular 和 interpretable，说明它不只是给一个粗标签，而是试图输出可分解、可解释的运动学特征。数字神经学接下来会越来越像一个独立赛道。
+
+### 6. [Integrated multi-omics analysis identifies and validates endoplasmic reticulum stress and mitophagy-related biomarkers in MASLD](https://www.nature.com/articles/s41598-026-43311-3)
+MASLD 这种复杂疾病，单一组学往往只能看到局部。多组学整合的价值，在于把机制、标志物和验证链路同时往前推。这篇工作再次提醒大家：BioAI 的竞争，不只是模型复杂度，而是谁能把“发现—解释—验证”链路拉得更完整。
+
+### 7. [The relationship between genomic variation and genetic load: insights from small island populations](https://www.biorxiv.org/content/10.64898/2026.03.06.710193v1?rss=1)
+小岛屿人群的数据很特别，因为它们经常能把一般人群里不显眼的遗传结构放大出来。这篇 preprint 对群体遗传和疾病风险建模都有启发：很多 AI 模型真正需要的，不只是更多样本，而是更有结构特征的样本。
+
+---
+
+## **📌 值得关注**
+
+- **[研究]** [Integrative analysis reveals extensive interactions among C2H2 zinc finger proteins at chromatin loop anchors](https://www.biorxiv.org/content/10.64898/2026.03.06.710197v1?rss=1) — 3D 基因组与调控网络交叉地带，后续很可能继续冒出新工具。
+- **[研究]** [FMCL: a transformer-based feature-map classifier learning approach for enhanced brain tumor detection in MRI](https://www.nature.com/articles/s41598-026-42450-x) — 影像 AI 继续卷，但这类结构改进对 MRI 场景仍然有参考价值。
+- **[项目]** [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) — 健康应用侧的 AI 产品实践，可以作为 consumer health 的参考样本。
+- **[项目]** [AltimateAI/vscode-dbt-power-user](https://github.com/AltimateAI/vscode-dbt-power-user) — 对生物数据工程和科研数据流水线的工程协作也有借鉴意义。
+
+---
+
+## **🔮 AI趋势预测**
+
+### 医疗联邦学习将从“能联”转向“能持续更新”
+- **预测时间**：未来 1-2 个月
+- **预测概率**：75%
+- **预测依据**：今天的联邦临床预测工作把持续更新摆到了核心位置，这会成为下一阶段的必答题。
+
+### 影像与视频诊断模型会更强调“解释层”建设
+- **预测时间**：2026 年 Q2
+- **预测概率**：70%
+- **预测依据**：乳腺筛查、糖网、帕金森三条线都在往可解释和可迁移方向收敛，说明监管与临床接受度已经开始反向塑造模型设计。
+
+### 多组学整合会更强调验证闭环，而不是只报相关性
+- **预测时间**：未来 1-2 个月
+- **预测概率**：65%
+- **预测依据**：越来越多研究把“identify and validate”写进标题，领域标准正在变严。
+
+---
+
+## **❓ 相关问题**
+
+### 多中心健康分析的下一步瓶颈会落在算法、算力，还是治理？
+从今天的信号看，治理和持续更新机制，可能比单纯模型结构更卡脖子。
+
+### 为什么临床 AI 越来越强调解释性？
+因为真正上线面对的不是 benchmark，而是医生、质控、伦理和监管的联合拷问。
+
+### BioAI 接下来最值得看的，是哪种“可部署性”指标？
+跨设备、跨医院、跨时间窗口的稳定性，可能会比单次测试集精度更有含金量。
