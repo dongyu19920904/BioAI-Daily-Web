@@ -28,7 +28,7 @@ Add our support team by scanning the QR code or searching the ID to get:
 
 **[support@aivora.cn](mailto:support@aivora.cn)**
 
-Best for:
+Use email for:
 - Detailed technical questions
 - Business partnership proposals
 - Bulk purchase inquiries
@@ -49,4 +49,4 @@ Visit to explore:
 - **Customer service availability**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to quick responses and dedicated service for every user! 💪
+We're committed to fast responses and dedicated service for every user! 💪
