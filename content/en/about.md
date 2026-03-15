@@ -4,13 +4,7 @@ type: about
 sidebar:
   exclude: true
 ---
-USER MESSAGE BEGIN ---
-
-I need to translate and edit this Chinese text about BioAI Daily following specific rules about bracket content, topic-first restructuring, and style guidelines.
-
---- USER MESSAGE END ---
-
-## About BioAI Life Sciences Daily
+# About BioAI Life Sciences Daily
 
 > **Your daily news hub for AI + Life Sciences**
 
@@ -18,13 +12,13 @@ BioAI Life Sciences Daily is a daily news platform focused on the intersection o
 
 ### Our Position
 
-- **Topic**: AI + Life Sciences (BioAI) intersection
+- **Focus**: AI + Life Sciences (BioAI) intersection
 - **Target Audience**: Investors, product managers, entrepreneurs, and students interested in AI + life sciences
 - **Tone**: Professional yet approachable, like insights from a knowledgeable friend
 
 ### Our Content
 
-Daily automated aggregation of the latest updates in AI + life sciences:
+Daily automated roundup of the latest developments in AI + life sciences:
 
 #### Core Coverage Areas
 
@@ -33,7 +27,7 @@ Daily automated aggregation of the latest updates in AI + life sciences:
 - **AI Drug Discovery**: Drug screening, molecular generation, target prediction
 - **Protein Prediction**: AlphaFold, structural biology, protein engineering
 - **Synthetic Biology**: Cell factories, metabolic engineering, biofuels
-- **Brain Science**: Brain-computer interfaces, neuroscience, cognitive computing
+- **Neuroscience**: Brain-computer interfaces, neuroscience, cognitive computing
 
 #### News Sources
 

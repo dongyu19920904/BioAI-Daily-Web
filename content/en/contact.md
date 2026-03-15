@@ -18,7 +18,7 @@ If you have any questions, partnership opportunities, or need support with AI to
 
 **WeChat ID: aiwoola**
 
-Add us or search to connect with our team for:
+Add our support team by scanning the QR code or searching the ID to get:
 - 🛒 AI tool account purchase inquiries
 - 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
@@ -49,4 +49,4 @@ Visit to explore:
 - **Customer service availability**: 9:00 AM - 11:00 PM daily (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and dedicated support for every user! 💪
+We're committed to quick responses and dedicated support for every user! 💪
