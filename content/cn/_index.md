@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-- Creating automation for editorial workflows
-If you're looking to build something technical around this newsletter workflow, I'm here to help. Otherwise, you might want to use a different tool or context for pure content editing tasks.
-What would you like to work on?
+AlphaFold3 设计出选择性 IL-2 激活剂，让 CAR T 疗法更安全，结构预测精度达 0.724 ipTM。
+长读测序的甲基化信号被 LongHap 挖掘，基因相位分析错误率降低，医学变异检测更准。
+AI 制药从"暴力筛选"进化到"智能设计"，蛋白质语言模型正在重塑药物研发流程。
 ```
 
 
@@ -26,4 +26,83 @@ What would you like to work on?
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-I can't discuss that.
+## **今日 AI 生命科学资讯**
+
+### **👀 只有一句话**
+AlphaFold3 助力 CAR T 细胞疗法设计，AI 制药从预测蛋白质结构走向精准免疫治疗。
+
+### **🔑 3 个关键词**
+#AI蛋白质设计 #CAR-T疗法 #深度学习医疗诊断
+
+---
+
+## **🔥 重磅 TOP 5**
+
+### [AlphaFold3 加持：AI 设计出选择性 IL-2 激活剂，让 CAR T 细胞疗法更安全](https://www.biorxiv.org/content/10.64898/2026.03.10.710391v1?rss=1)
+
+CAR T 细胞疗法治疗癌症效果惊人，但有个致命问题：用 IL-2 激活 CAR T 细胞时，会同时激活调节性 T 细胞（Tregs），导致严重副作用。现在研究团队用 AlphaFold3 和物理约束机器学习，设计出了"正交"IL-2/IL-2Rβ 系统——只激活 CAR T 细胞，不碰其他免疫细胞。设计的变体结构质量指标 ipTM 达到 0.724，与野生型的结构偏差仅 0.843 埃。这意味着 AI 不仅能预测蛋白质结构，还能精准设计出更安全的免疫疗法。
+
+!![a roller coaster lit up at night with red lights](https://images.unsplash.com/photo-1677864234709-bde08838fb9d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+---
+
+### [长读测序数据的甲基化信号，让基因变异相位分析更准确](https://www.biorxiv.org/content/10.64898/2026.03.11.710820v1?rss=1)
+
+基因测序不只是读 ATCG 序列，还能读出 DNA 甲基化修饰——但现有的相位分析工具都忽略了这个信息。LongHap 是首个整合序列和甲基化数据的相位分析方法，通过识别差异甲基化位点来优化单倍型重建。测试显示，LongHap 的错误率比 WhatsHap、HapCUT2 等工具更低，相位块连续性更好，尤其在医学相关基因的变异分析中表现出色。这意味着，长读测序的"隐藏信息"终于被 AI 挖掘出来了。
+
+---
+
+### [深度学习 + Swin Transformer：乳腺癌诊断准确率再提升](https://www.nature.com/articles/s41598-026-37969-y)
+
+乳腺癌影像诊断一直是 AI 医疗的热门赛道，但传统 CNN 模型在处理复杂病灶时容易漏诊。这篇论文提出了基于 Swin Transformer 和双注意力多尺度融合网络的新框架，能更好地捕捉影像中的细微特征。Swin Transformer 的分层结构让模型既能看到局部细节，又能理解全局上下文，诊断准确率显著提升。AI 影像诊断正在从"能用"走向"好用"。
+
+---
+
+### [蛋白质语言模型 ESM-2：用"肽空间"加速环肽药物设计](https://www.biorxiv.org/content/10.64898/2026.03.10.710724v1?rss=1)
+
+环肽药物设计的难点在于：化学空间太大，随机筛选效率低。研究团队用蛋白质语言模型 ESM-2 构建了一个"肽空间"——把环肽的物理化学性质映射到高维向量空间，然后在这个空间里均匀采样，而不是瞎猜。实验证明，这种方法设计出的 β2-微球蛋白结合肽，比随机筛选的候选分子质量更高。AI 不再是"暴力搜索"，而是"智能导航"。
+
+---
+
+### [DeepMind 伦敦新总部 Platform 37 启用，致敬 AlphaGo Move 37](https://x.com/demishassabis/status/2032056115908039142)
+
+DeepMind CEO Demis Hassabis 宣布，伦敦新总部 Platform 37 正式启用，名字致敬 AlphaGo 在对战李世石时的传奇一手 Move 37。新大楼一层将开设"AI Exchange"公共空间，举办展览和活动，帮助公众了解 AI。虽然这不是技术突破，但 DeepMind 在 AI + 生命科学领域（AlphaFold、AlphaProteo）的影响力有目共睹，新总部可能会孵化出更多改变世界的项目。
+
+---
+
+## **📌 值得关注**
+
+- **[研究]** [新型苯并咪唑-烷磺酸盐化合物作为胆碱酯酶抑制剂](https://www.nature.com/articles/s41598-026-39534-z) - 阿尔茨海默病药物研发的新方向，体外和计算机模拟验证通过
+- **[研究]** [序列数据分析和数据挖掘用于痴呆症早期诊断](https://www.nature.com/articles/s41598-026-43382-2) - AI 预测模型能提前发现痴呆症风险，早诊早治
+- **[研究]** [设计微型蛋白抑制剂阻断补体 C9，防止膜攻击复合物组装](https://www.nature.com/articles/s41467-026-70667-x) - 用 AI 设计的微型蛋白，能精准阻断免疫系统的"自杀式攻击"
+- **[研究]** [多尺度跨模态融合框架用于药物-靶点结合预测](https://www.nature.com/articles/s41598-026-44048-9) - MSCMF-DTB 框架整合多种数据模态，提升 AI 制药的靶点预测准确率
+- **[研究]** [基于共识的氨基酸可交换性度量 DEX，改进密码子替换模型](https://www.biorxiv.org/content/10.64898/2026.03.09.710665v1?rss=1) - 新的氨基酸距离度量方法，让分子进化模型更准确
+
+---
+
+## **❓ 相关问题**
+
+### 哪里可以获取 AI 蛋白质设计、CAR-T 疗法、深度学习医疗诊断的最新资讯?
+
+今日 AI 生命科学领域的热点包括：AlphaFold3 助力 CAR T 细胞疗法设计、长读测序甲基化信号优化基因变异分析、Swin Transformer 提升乳腺癌诊断准确率。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+
+**推荐方案**：
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- 用普通人能理解的语言，解读最前沿的技术进展
+
+访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
+
+---
+
+### 如何体验 AlphaFold3 等前沿 AI 工具？
+
+今日新闻提到 AlphaFold3 在 CAR T 细胞疗法设计中的应用，DeepMind 的 AI 工具正在改变生命科学研究。想要体验这些前沿 AI 工具，但面临技术门槛或资源限制？
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
+- 极速发货，下单即用，无需处理海外支付问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
