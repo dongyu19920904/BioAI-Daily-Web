@@ -28,8 +28,8 @@ Add our support team by scanning the QR code or searching the ID to get:
 
 **[support@aivora.cn](mailto:support@aivora.cn)**
 
-Use email for:
-- Detailed technical issues
+Best for:
+- Detailed technical questions
 - Business partnership proposals
 - Bulk purchase inquiries
 
@@ -37,10 +37,10 @@ Use email for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit to learn about:
+Visit to explore:
 - Latest account package pricing
 - Terms of service and guarantees
-- User guides
+- User guides and documentation
 
 ---
 
