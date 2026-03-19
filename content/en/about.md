@@ -4,53 +4,48 @@ type: about
 sidebar:
   exclude: true
 ---
-USER MESSAGE BEGIN ---
 
-I need you to translate and edit this Chinese text about BioAI Daily following the specific instructions provided.
+## 🏠 关于 BioAI 生命科学日报
 
---- USER MESSAGE END ---
+> **AI + 生命科学交叉领域的每日资讯站**
 
-## 🏠 About BioAI Life Sciences Daily
+BioAI 生命科学日报是一个专注于 AI + 生命科学交叉领域的日报平台，致力于帮助投资人、产品经理、创业者和学生了解 BioAI 领域的最新动态。
 
-> **Your daily news hub for AI + Life Sciences**
+### 🎯 我们的定位
 
-BioAI Life Sciences Daily is a daily news platform focused on the intersection of AI and life sciences, dedicated to helping investors, product managers, entrepreneurs, and students stay updated on the latest developments in the BioAI field.
+- **主题**：AI + 生命科学（BioAI）交叉领域
+- **目标用户**：对 AI+生命科学感兴趣的投资人、产品经理、创业者、学生
+- **风格**：专业但亲切，像懂行的朋友分享行业动态
 
-### 🎯 Our Position
+### ⭐ 我们的内容
 
-- **Topic**: AI + Life Sciences (BioAI) intersection
-- **Target Audience**: Investors, product managers, entrepreneurs, and students interested in AI + life sciences
-- **Tone**: Professional yet approachable, like insights from a knowledgeable friend
+每日自动汇总 AI + 生命科学领域的最新动态：
 
-### ⭐ Our Content
+#### 🧬 核心覆盖领域
 
-Daily automated aggregation of the latest updates in AI + life sciences:
+- **🧪 生物医药**：新药研发、临床试验、精准医疗
+- **🧬 基因编辑**：CRISPR 技术、基因治疗、基因组学
+- **🤖 AI 药物研发**：药物筛选、分子生成、靶点预测
+- **🔬 蛋白质预测**：AlphaFold、结构生物学、蛋白质工程
+- **🌱 合成生物学**：细胞工厂、代谢工程、生物燃料
+- **🧠 脑科学**：脑机接口、神经科学、认知计算
 
-#### 🧬 Core Coverage Areas
+#### 📡 资讯来源
 
-- **🧪 Biopharmaceuticals**: Drug discovery, clinical trials, precision medicine
-- **🧬 Gene Editing**: CRISPR technology, gene therapy, genomics
-- **🤖 AI Drug Discovery**: Drug screening, molecular generation, target prediction
-- **🔬 Protein Prediction**: AlphaFold, structural biology, protein engineering
-- **🌱 Synthetic Biology**: Cell factories, metabolic engineering, biofuels
-- **🧠 Neuroscience**: Brain-computer interfaces, neuroscience, cognitive computing
+- 🔥 行业热点新闻
+- 📦 开源项目发现
+- 📄 前沿学术论文
+- 💬 行业专家观点
+- 🚀 产品功能更新
 
-#### 📡 News Sources
+所有内容由 **CloudFlare Workers + AI** 自动抓取、生成、发布，确保及时、全面。
 
-- 🔥 Industry hot topics
-- 📦 Open source project discoveries
-- 📄 Cutting-edge academic papers
-- 💬 Industry expert insights
-- 🚀 Product feature updates
+### 🔗 联系我们
 
-All content is automatically scraped, generated, and published via **CloudFlare Workers + AI**, ensuring timely and comprehensive coverage.
-
-### 🔗 Get in Touch
-
-- **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
-- **Email**: dongyu199209@outlook.com
-- **WeChat**: prompt2333
+- **网站**：[https://news.aibioo.cn](https://news.aibioo.cn)
+- **邮箱**：dongyu199209@outlook.com
+- **微信**：prompt2333
 
 ---
 
-**BioAI Life Sciences Daily—stay ahead of the latest in AI + life sciences 🧬✨**
+**BioAI 生命科学日报，让你了解 AI + 生命科学的最新进展 🧬✨**
