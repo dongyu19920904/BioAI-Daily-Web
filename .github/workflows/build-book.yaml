@@ -6,7 +6,7 @@ on:
       source_repo:
         description: '要拉取代码的源仓库 (格式: owner/repo)'
         required: true
-        default: 'dongyu19920904/CloudFlare-BioAI-Daily' # <<< 请修改为你的源仓库
+        default: 'dongyu19920904/BioAI-Daily-Web' # Worker 当前直接写入这个仓库
       source_branch:
         description: '要拉取的源分支'
         required: true
@@ -37,7 +37,7 @@ jobs:
       - name: Clone source repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.inputs.source_repo || 'dongyu19920904/CloudFlare-BioAI-Daily' }}
+          repository: ${{ github.event.inputs.source_repo || 'dongyu19920904/BioAI-Daily-Web' }}
           ref: ${{ github.event.inputs.source_branch || 'main' }} # Fallback to current branch
           path: 'clone'
 
