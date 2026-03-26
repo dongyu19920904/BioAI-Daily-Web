@@ -2,7 +2,7 @@
 linkTitle: BioAI 生命科学日报
 title: BioAI 生命科学日报 2026/3/27
 breadcrumbs: false
-next: /2026-03/2026-03-27
+next: /2026-03/2026-03-26
 description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI 辅助药物研发等前沿进展。"
 cascade:
   type: docs
