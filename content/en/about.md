@@ -1,47 +1,51 @@
 ---
-title: About AI Longevity Daily
+title: 关于 AI生命延续学日报
 type: about
 sidebar:
   exclude: true
 ---
 
-# About AI Longevity Daily
+## 🏠 关于 AI生命延续学日报
 
-> **A daily briefing on AI + longevity, aging, rejuvenation, and biological age**
+> **AI + 长寿 / 延寿 / 衰老研究的每日资讯站**
 
-AI Longevity Daily is a focused news site covering the intersection of AI and longevity science. It is designed for investors, founders, operators, researchers, and curious learners who want to follow the most important developments in aging biology and lifespan intervention without wading through the whole life science universe.
+AI生命延续学日报是一个专注于 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化 交叉方向的日报平台，致力于帮助投资人、产品经理、创业者和学生更高效地了解这个细分领域的最新动态。
 
-### Our Position
+### 🎯 我们的定位
 
-- **Focus**: AI + longevity, aging, rejuvenation, biological age, and lifespan intervention
-- **Audience**: investors, founders, product builders, researchers, and students interested in longevity
-- **Style**: clear, practical, and easy to follow
+- **主题**：AI生命延续学，聚焦长寿、延寿、衰老、生物年龄与年轻化
+- **目标用户**：对 AI+长寿 / 衰老研究感兴趣的投资人、产品经理、创业者、学生
+- **风格**：专业但亲切，像懂行的朋友分享行业动态
 
-### What We Cover
+### ⭐ 我们的内容
 
-- **Longevity research**: healthspan, lifespan extension, and aging biology
-- **Aging mechanisms**: cellular senescence, mitochondria, autophagy, epigenetics, and immune aging
-- **Interventions**: longevity therapeutics, senolytics, rejuvenation strategies, and age-related disease prevention
-- **AI drug discovery**: models, screening systems, and target discovery tied to aging and longevity
-- **Biological age**: clocks, biomarkers, and age-measurement tools
-- **Research tools**: datasets, platforms, models, and open-source infrastructure for longevity science
+每日自动汇总 AI生命延续学 领域的最新动态：
 
-### Sources
+#### 🧬 核心覆盖领域
 
-- Breaking research news
-- Preprints and papers
-- Open-source tools and datasets
-- Product and platform updates
-- Industry commentary
+- **🧬 长寿研究**：健康寿命、寿命提升、长寿生物学
+- **🕰️ 衰老机制**：细胞衰老、线粒体、自噬、端粒、表观遗传时钟
+- **💊 延寿干预**：抗衰药物、衰老细胞清除、生物年龄干预、年轻化策略
+- **🤖 AI 长寿药物研发**：药物筛选、分子生成、靶点预测、平台模型
+- **📊 生物年龄与标志物**：生物年龄时钟、年龄相关生物标志物、衰老评估
+- **🔬 相关工具与平台**：为长寿 / 衰老研究服务的数据平台、模型和开源工具
 
-All content is aggregated and published with **Cloudflare Workers + AI**.
+#### 📡 资讯来源
 
-### Contact
+- 🔥 行业热点新闻
+- 📦 开源项目发现
+- 📄 前沿学术论文
+- 💬 行业专家观点
+- 🚀 产品功能更新
 
-- **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
-- **Email**: dongyu199209@outlook.com
-- **WeChat**: prompt2333
+所有内容由 **CloudFlare Workers + AI** 自动抓取、生成、发布，确保及时、全面。
+
+### 🔗 联系我们
+
+- **网站**：[https://news.aibioo.cn](https://news.aibioo.cn)
+- **邮箱**：dongyu199209@outlook.com
+- **微信**：prompt2333
 
 ---
 
-**AI Longevity Daily helps you track the most important AI + longevity developments, faster.**
+**AI生命延续学日报，让你更快看懂 AI + 长寿 / 延寿 / 衰老研究的最新进展 🧬✨**
