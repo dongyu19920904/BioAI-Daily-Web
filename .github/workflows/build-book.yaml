@@ -202,7 +202,7 @@ jobs:
 
 
               (
-                printf -- "---\nlinkTitle: %s-%s-日报\ntitle: BioAI 生命科学日报 %s/%s/%s\nweight: %d\nbreadcrumbs: false\ncomments: true\ndescription: \"%s\"\n---\n\n" \
+                printf -- "---\nlinkTitle: %s-%s-日报\ntitle: AI生命延续学日报 %s/%s/%s\nweight: %d\nbreadcrumbs: false\ncomments: true\ndescription: \"%s\"\n---\n\n" \
                   "$MONTH" "$DAY" "$YEAR" "$MONTH_NO_ZERO" "$DAY_NO_ZERO" "$weight" "$local_description"
                 cat "$source_file"
               ) > "$TARGET_FILE"
@@ -269,8 +269,8 @@ jobs:
           LATEST_DAY=$(echo "$LATEST_NOTE_DATE" | cut -d- -f3)
           LATEST_MONTH_NO_ZERO=$(echo "$LATEST_MONTH" | sed 's/^0*//')
           LATEST_DAY_NO_ZERO=$(echo "$LATEST_DAY" | sed 's/^0*//')
-          HOME_TITLE="BioAI 生命科学日报 ${LATEST_YEAR}/${LATEST_MONTH_NO_ZERO}/${LATEST_DAY_NO_ZERO}"
-          FRONTMATTER="---\nlinkTitle: BioAI 生命科学日报\ntitle: ${HOME_TITLE}\nbreadcrumbs: false\n"
+          HOME_TITLE="AI生命延续学日报 ${LATEST_YEAR}/${LATEST_MONTH_NO_ZERO}/${LATEST_DAY_NO_ZERO}"
+          FRONTMATTER="---\nlinkTitle: AI生命延续学日报\ntitle: ${HOME_TITLE}\nbreadcrumbs: false\n"
           # The 'next' link should point to the second latest note, which is now an archived page.
           if [ -n "$SECOND_LATEST_NOTE" ] && [ "$LATEST_NOTE" != "$SECOND_LATEST_NOTE" ]; then # Ensure there IS a second latest note
             FILENAME_SECOND_LATEST=$(basename "$SECOND_LATEST_NOTE" .md)

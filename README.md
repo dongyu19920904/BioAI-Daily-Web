@@ -1,8 +1,8 @@
-﻿#  BioAI 生命科学日报 - 前端
+#  AI生命延续学日报 - 前端
 
-> AI + 生命科学领域每日资讯聚合网站
+> AI + 长寿 / 延寿 / 衰老研究领域每日资讯聚合网站
 
-基于 [Hugo](https://gohugo.io/) + [Hextra](https://imfing.github.io/hextra/) 主题构建的静态网站，用于展示 BioAI 生命科学日报内容。
+基于 [Hugo](https://gohugo.io/) + [Hextra](https://imfing.github.io/hextra/) 主题构建的静态网站，用于展示 AI生命延续学日报内容。
 
 ##  特性
 

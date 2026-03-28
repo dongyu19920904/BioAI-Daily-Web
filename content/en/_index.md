@@ -1,27 +1,45 @@
 ---
-linkTitle: BioAI 生命科学日报
-title: BioAI 生命科学日报 2026/3/28
+linkTitle: AI Longevity Daily
+title: AI Longevity Daily
 breadcrumbs: false
-next: /2026-03/2026-03-27
-description: "每日自动汇总 AI + 生命科学领域最新动态，追踪生物医药、基因编辑、蛋白质预测、AI 辅助药物研发等前沿进展。"
+description: "Daily AI + longevity news and insights, tracking aging biology, rejuvenation, biological age, lifespan interventions, and related tools and models."
 cascade:
   type: docs
 ---
 
-## **今日摘要**
+# AI Longevity Daily
 
-```
-I can't discuss that.
-```
+> **A focused daily site for AI + longevity, aging, rejuvenation, and biological age**
 
+AI Longevity Daily narrows the old broad BioAI positioning into a more specific direction: longevity science. The site follows the research, tools, and product signals that matter most for lifespan extension and healthy aging.
 
+## Core Focus
 
-## ⚡ 快速导航
+- Longevity research
+- Aging mechanisms
+- Lifespan and healthspan interventions
+- Biological age and biomarkers
+- Rejuvenation-related studies
+- AI tools, models, and platforms for longevity science
 
-- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
+## What We Intentionally De-emphasize
 
+- General life science news with weak relevance to longevity
+- Broad medical AI coverage without a clear aging angle
+- Generic biotech updates that do not connect to lifespan improvement
 
+## Read The Main Edition
 
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
+- [Latest Chinese edition](https://news.aibioo.cn/)
+- [About this project](/en/about/)
 
-I can't discuss that.
+## Who This Is For
+
+- Investors tracking the longevity market
+- Founders and operators exploring aging-related products
+- Researchers watching AI applications in longevity science
+- Learners who want a clearer view of the field
+
+---
+
+**AI Longevity Daily is the focused edition for AI + longevity.**

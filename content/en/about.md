@@ -1,51 +1,47 @@
 ---
-title: 关于 BioAI 生命科学日报
+title: About AI Longevity Daily
 type: about
 sidebar:
   exclude: true
 ---
 
-## 🏠 关于 BioAI 生命科学日报
+# About AI Longevity Daily
 
-> **AI + 生命科学交叉领域的每日资讯站**
+> **A daily briefing on AI + longevity, aging, rejuvenation, and biological age**
 
-BioAI 生命科学日报是一个专注于 AI + 生命科学交叉领域的日报平台，致力于帮助投资人、产品经理、创业者和学生了解 BioAI 领域的最新动态。
+AI Longevity Daily is a focused news site covering the intersection of AI and longevity science. It is designed for investors, founders, operators, researchers, and curious learners who want to follow the most important developments in aging biology and lifespan intervention without wading through the whole life science universe.
 
-### 🎯 我们的定位
+### Our Position
 
-- **主题**：AI + 生命科学（BioAI）交叉领域
-- **目标用户**：对 AI+生命科学感兴趣的投资人、产品经理、创业者、学生
-- **风格**：专业但亲切，像懂行的朋友分享行业动态
+- **Focus**: AI + longevity, aging, rejuvenation, biological age, and lifespan intervention
+- **Audience**: investors, founders, product builders, researchers, and students interested in longevity
+- **Style**: clear, practical, and easy to follow
 
-### ⭐ 我们的内容
+### What We Cover
 
-每日自动汇总 AI + 生命科学领域的最新动态：
+- **Longevity research**: healthspan, lifespan extension, and aging biology
+- **Aging mechanisms**: cellular senescence, mitochondria, autophagy, epigenetics, and immune aging
+- **Interventions**: longevity therapeutics, senolytics, rejuvenation strategies, and age-related disease prevention
+- **AI drug discovery**: models, screening systems, and target discovery tied to aging and longevity
+- **Biological age**: clocks, biomarkers, and age-measurement tools
+- **Research tools**: datasets, platforms, models, and open-source infrastructure for longevity science
 
-#### 🧬 核心覆盖领域
+### Sources
 
-- **🧪 生物医药**：新药研发、临床试验、精准医疗
-- **🧬 基因编辑**：CRISPR 技术、基因治疗、基因组学
-- **🤖 AI 药物研发**：药物筛选、分子生成、靶点预测
-- **🔬 蛋白质预测**：AlphaFold、结构生物学、蛋白质工程
-- **🌱 合成生物学**：细胞工厂、代谢工程、生物燃料
-- **🧠 脑科学**：脑机接口、神经科学、认知计算
+- Breaking research news
+- Preprints and papers
+- Open-source tools and datasets
+- Product and platform updates
+- Industry commentary
 
-#### 📡 资讯来源
+All content is aggregated and published with **Cloudflare Workers + AI**.
 
-- 🔥 行业热点新闻
-- 📦 开源项目发现
-- 📄 前沿学术论文
-- 💬 行业专家观点
-- 🚀 产品功能更新
+### Contact
 
-所有内容由 **CloudFlare Workers + AI** 自动抓取、生成、发布，确保及时、全面。
-
-### 🔗 联系我们
-
-- **网站**：[https://news.aibioo.cn](https://news.aibioo.cn)
-- **邮箱**：dongyu199209@outlook.com
-- **微信**：prompt2333
+- **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
+- **Email**: dongyu199209@outlook.com
+- **WeChat**: prompt2333
 
 ---
 
-**BioAI 生命科学日报，让你了解 AI + 生命科学的最新进展 🧬✨**
+**AI Longevity Daily helps you track the most important AI + longevity developments, faster.**
