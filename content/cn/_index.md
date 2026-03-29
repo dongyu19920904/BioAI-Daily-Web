@@ -1,8 +1,8 @@
 ---
-linkTitle: AI生命延续学日报
+linkTitle:  AI生命延续学日报 
 title: AI生命延续学日报 2026/3/29
 breadcrumbs: false
-next: /2026-03/2026-03-28
+next: /2026-03/2026-03-29
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,7 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-I can't discuss that.
+- 或者设置一个"候选池"机制：平时积累相关素材,凑够3-5条高质量内容再发
+- 素材源可以重点关注：Longevity subreddit、aging research Twitter账号、Nature Aging等期刊
+宁缺毋滥是对的。读者会感谢你没有浪费他们的时间。
 ```
 
 
@@ -24,4 +26,23 @@ I can't discuss that.
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-I can't discuss that.
+看完这批素材，我得直说：**今天没法写日报**。
+
+原因很简单——这些内容跟 **AI生命延续学**（长寿研究、衰老机制、延寿干预、生物年龄）基本不沾边：
+
+**素材分析**：
+- **基因测序工具**（LongHap）：技术很酷，但跟延寿无关
+- **CAR-T 免疫治疗**（IL-2 设计）：癌症治疗，不是抗衰老
+- **环肽药物设计**：通用药物发现，没提长寿
+- **DeepMind 新办公楼**：公司新闻，跟研究方向无关
+- **乳腺癌诊断**、**痴呆预测**、**药物靶点预测**：都是疾病诊断/治疗，不是衰老研究
+- **健身 App**（SparkyFitness）：普通健康管理工具
+
+**核心问题**：
+这批素材是 **泛生物医药 AI**，不是 **AI生命延续学**。按照日报定位，我不能为了凑数而强行把"癌症免疫治疗"或"痴呆预测"包装成"延寿研究"——这会误导读者。
+
+**建议**：
+1. 等明天有更相关的素材（如：AI 预测生物年龄、衰老细胞分析、长寿药物筛选、NAD+ 代谢研究等）
+2. 或者调整素材来源，增加 longevity/aging/rejuvenation 关键词的抓取
+
+今天就先不发了，宁缺毋滥。
