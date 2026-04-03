@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-生物年龄测试正在经历信任重估，企鹅研究证实久坐吃饱会加速衰老，长寿医疗开始接入 AI 工作流
-三月盘点显示衰老指标体系在洗牌，4 天模拟衰老的芯片平台和甲基化时钟对比研究同时出现
-如果你在做健康寿命产品，现在该盯的是"哪种时钟能真正指导干预"而不只是算年龄
+今天先看FGF21-SIRT1延缓椎间盘退变，代谢通路再现可干预衰老表型，离“延寿落地”更近一步
+新趋势是邻近信号转强：多组学年龄钟+痴呆风险建模、机器学习预测虚弱转归，AI开始先拿老年功能衰退做入口
+行动上优先盯代谢-炎症-虚弱三线交叉，短期看生物标志物和风险分层，别把纯工具新闻当成长寿突破
 ```
 
 
@@ -26,84 +26,47 @@ cascade:
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## 今日 AI 生命延续学资讯
+## **今日 AI生命延续学资讯**
 
-### 👀 只有一句话
-生物年龄这把尺子，今天又被狠狠拧了一下。
+### **👀 只有一句话**
+今天直接长寿信号偏少，先看最值得优先浏览的 10 条强相关内容，再补看邻近信号。
 
-### 🔑 3 个关键词
-#生物年龄 #健康寿命 #衰老干预
+### **🔑 3 个关键词**
+#AI生命延续学 #长寿研究 #邻近信号
 
-## 🔥 重磅 TOP 5（强相关）
+## **🔥 重磅 TOP 10**
 
-### [三月年轻化研究大盘点：从生物年龄争议到抗衰芯片](https://lifespan.io/news/rejuvenation-roundup-march-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-march-2026)
-如果你最近只想补一篇长寿圈“月报”，这篇最省时间。它把三月最值得看的东西一口气打包了：生物年龄测试到底靠不靠谱、MRI 模型怎么看脑衰老、4 天模拟几十年衰老过程的芯片平台、还有一堆和炎症、线粒体、肠脑轴相关的新结果。对做 AI 长寿的人来说，最有价值的不是某个单点突破，而是“哪些指标真能量化衰老”这件事开始重新洗牌了。  
-![Horoscope prescription](https://lifespan.io/wp-content/uploads/2026/03/horoscope-prescription-256x144.jpg)
+### 1. [Rejuvenation Roundup March 2026](https://lifespan.io/news/rejuvenation-roundup-march-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-march-2026)
 
-### [企鹅也被“久坐吃饱”整老了：生物年龄直接快进](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging)
-这条很有画面感：野外企鹅长期挨饿加高运动，进了动物园后反而像过上了“现代人生活”——吃得稳、动得少。结果呢？研究者用甲基化时钟（用 DNA 变化估算生物年龄）一测，动物园企鹅的生物年龄明显更老，快了大约 2.5 到 6.5 年。更扎心的是，它们总体活得更久，但健康状态未必更年轻。这对做健康寿命产品的人是个提醒：寿命和健康寿命，真不是一回事。  
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 For many hundreds of years, Easter has been associated with rebirth and rejuvenation. Let&#8217;s see what&#8217;s been done last month to r...
+### 2. [How a Growth Factor and SIRT1 Might Combat Disc Degeneration](https://lifespan.io/news/how-a-growth-factor-and-sirt1-might-combat-disc-degeneration/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-a-growth-factor-and-sirt1-might-combat-disc-degeneration)
 
-### [Chia Health 上线长寿医疗 MCP：把 AI 助手接进远程医疗流程](https://github.com/chia-health/chia-mcp)
-以前聊长寿方案，信息散在问诊、药房、支付、处方流程里，来回切页面很折腾。Chia Health 这次把 MCP 服务器直接做成了远程医疗工作流接口，能接入 GLP-1、NAD+、肽类等长寿/体重管理相关服务，还强调 HIPAA 合规。它不是“返老还童黑科技”，但对做 AI 医疗代理、长寿服务助手的人来说，这更像是真正能落地的一块基础设施。  
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 Researchers publishing in Aging Cell have discovered that using FGF21 to upregulate the sirtuin SIRT1 delays spinal disc degeneration in a r...
+### 3. [Becoming Well-Fed and Sedentary Accelerates Penguin Aging](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging)
 
-## 📌 值得关注
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 A recent study suggests that the transition of king penguins from the wild to a zoo environment, which resembles a sedentary, well-fed Weste...
+### 4. [Microplastic and Nanoplastic Exposure in the Context of Aging](https://www.fightaging.org/archives/2026/04/microplastic-and-nanoplastic-exposure-in-the-context-of-aging/)
 
-**[研究]** [FGF21 可能通过 SIRT1 拖慢椎间盘衰老](https://lifespan.io/news/how-a-growth-factor-and-sirt1-might-combat-disc-degeneration/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-a-growth-factor-and-sirt1-might-combat-disc-degeneration) - 腰背痛背后是细胞衰老，SIRT1 这条老牌通路又冒头了。  
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 Animal studies show that ascending doses of nanoplastic particle infiltration into tissues eventually rise to the level of inducing dysfunct...
+### 5. [How an Enzyme&#8217;s Depletion Makes Fat Worse](https://lifespan.io/news/how-an-enzymes-depletion-makes-fat-worse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-an-enzymes-depletion-makes-fat-worse)
 
-**[研究]** [脂肪细胞少了 Pck1，炎症性衰老会更凶](https://lifespan.io/news/how-an-enzymes-depletion-makes-fat-worse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-an-enzymes-depletion-makes-fat-worse) - 脂肪不是仓库，更像会“变老发炎”的器官，这条靶点值得盯。  
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 In Aging Cell , researchers have described how the enzyme Pck1, a core part of metabolic activity, is required for staving off senescence in...
+### 6. [Machine Learning Approaches to Identify Physical, Psychological, and Social Predictors of Worsening Frailty Transitions Among Community-Dwelling Older Adults: A Longitudinal Cohort Study.](https://pubmed.ncbi.nlm.nih.gov/41918302/)
 
-**[其他]** [微塑料暴露可能在长期里推高衰老风险](https://www.fightaging.org/archives/2026/04/microplastic-and-nanoplastic-exposure-in-the-context-of-aging/) - 证据还没完全坐实，但氧化应激、线粒体损伤、细胞衰老这套链条已经很眼熟。  
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 Journal: Geriatrics & gerontology international Authors: Chen IH, Yeh TP, Tang YH, Kuo FL, Chen CH, Lin YK Type: Journal Article Query: ("ag...
+### 7. [chia-health/chia-mcp](https://github.com/chia-health/chia-mcp)
 
-**[研究]** [阿尔茨海默病早期信号常被漏掉，研究者想提前抓住它](https://news.google.com/rss/articles/CBMipwFBVV95cUxPWk44Vk00Y2Z3UU5NRllSamtMa1hnbU9QMklQeldoQnhaRktIUnhXcjhxblRKLUdPcFREWW94Q245OHE1SDVvbjdHLThrOWJhWUtlZ1ptM1RYdlNaMnJkQm9pTWlfbk5GRU9wdS1wcldIVC1hMllUSzJEdmctSjc2djd2SmZwTGxyZi1uZGg5a0RQVE9hWkRqZjVLcmdvWVRsZEVEUW9QUQ?oc=5) - 神经退行性疾病是健康寿命的大头，谁能更早发现，谁就更值钱。  
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 Chia Health MCP Server — Patient workflow integration for a licensed US telehealth platform. Browse GLP-1 medications (semaglutide, tirzepat...
+### 8. [shayanmostafaei/Omics_ADRD_Integrated_Modeling](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling)
 
-## 😄 AI生命延续学趣闻
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine learning techniques to predict ...
+### 9. [Emerging Roles of Small-molecule Derivatives in Modulating Neurodegenerative Pathways: From Molecular Targets to Therapeutic Applications.](https://pubmed.ncbi.nlm.nih.gov/41879495/)
 
-### [企鹅版“现代生活方式”实验：活更久，但老得更快](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging)
-今天最扎心的一幕，大概是企鹅替人类先交了作业：吃得好、动得少、环境安全，确实能活更久；但一看生物年龄，身体却提前“报废”了。像不像很多都市人的年度体检？  
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 Journal: Mini reviews in medicinal chemistry Authors: Singh K, Sethi P, Jain D, Gupta JK, Alsaidan OA, Alzarea SI, Kumar A, Tabish M, Sharma...
+### 10. [Fight Aging! Newsletter, March 30th 2026](https://www.fightaging.org/archives/2026/03/fight-aging-newsletter-march-30th-2026/)
 
-## 🔮 AI生命延续学趋势预测
+这条和长寿 / 衰老主题有一定直接关系，值得先看。 Fight Aging! publishes news and commentary relevant to the goal of ending all age-related disease, to be achieved by bringing the mechanisms...
 
-### 生物年龄测试会迎来一轮“信任重估”
-- **预测时间**：2026年5月
-- **预测概率**：78%
-- **预测依据**：今日新闻[三月年轻化研究大盘点：从生物年龄争议到抗衰芯片](https://lifespan.io/news/rejuvenation-roundup-march-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-march-2026)里，一边有对常见生物年龄测试的公开质疑，另一边又有多种时钟和死亡预测指标对比。接下来 1-2 个月，市场会更关心“哪种时钟真能指导干预”，而不只是“能不能算出一个年龄数”。  
+## **📌 值得关注**
 
-### 更多“快速衰老模拟平台”会冒出来
-- **预测时间**：2026年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[三月年轻化研究大盘点：从生物年龄争议到抗衰芯片](https://lifespan.io/news/rejuvenation-roundup-march-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-march-2026)提到 4 天重建衰老过程的人体微生理系统。对 AI 筛药和抗衰验证来说，这类平台能把“等一年看结果”压缩成“几天先筛一轮”，资本和创业团队都会继续追。  
-
-### 生活方式 + 时钟评估，会成为健康寿命产品的主线
-- **预测时间**：2026年6月
-- **预测概率**：72%
-- **预测依据**：今日新闻[企鹅也被“久坐吃饱”整老了：生物年龄直接快进](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging)直接把运动、饮食节律和甲基化年龄挂上钩。未来 1-3 个月，围绕饮食、运动、睡眠做生物年龄反馈的产品，存在感会继续变强。  
-
-### 长寿服务会更像“AI 代理 + 医疗流程接口”
-- **预测时间**：2026年5月
-- **预测概率**：58%
-- **预测依据**：今日新闻[Chia Health 上线长寿医疗 MCP：把 AI 助手接进远程医疗流程](https://github.com/chia-health/chia-mcp)说明一个很现实的方向：真正难的不是聊天，而是把问诊、支付、处方、随访串起来。接下来会有更多长寿/慢病管理平台开放可调用接口，而不是只做一个前台页面。  
-
-## ❓ 相关问题
-
-### 哪里可以获取 生物年龄、健康寿命、衰老干预 的最新资讯？
-
-今日 AI生命延续学 领域的热点包括：**生物年龄测试可信度之争、企鹅研究揭示“久坐吃饱”会加速衰老、长寿医疗 MCP 开始接入真实服务流程**。想要持续追踪这类 **AI + 长寿 / 延寿 / 衰老研究** 的前沿动态？
-
-**推荐方案**：
-- **[AI生命延续学日报](https://news.aibioo.cn)** 每日精选 AI 与长寿、延寿、衰老研究相关的重磅新闻
-- 内容涵盖：长寿研究、衰老机制、生物年龄、年轻化、延寿干预，以及相关药物、平台、模型、工具
-- 专为对 AI生命延续学 感兴趣的投资人、产品经理、创业者、学生打造
-- 用普通人能理解的语言，解读最前沿的技术进展
-
-访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI生命延续学资讯。
-
-### 如何体验常用 AI 工具来追踪长寿研究和生命科学信息？
-
-像今天这种资讯里，既有生物年龄时钟、又有长寿医疗工作流接口，信息很碎，很多人会直接用 ChatGPT、Claude、Gemini 来整理论文、总结新闻、做研究笔记。想体验这些 AI 工具，但卡在支付或账号注册上？
-
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
-- 极速发货，下单即用，无需处理海外支付问题
-- 提供稳定的独享账号，售后无忧
-
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+今天更适合把它当作“邻近赛道观察日”：重点看 AI 药物设计、疾病早筛、生物标志物和健康数据工具的后续外溢。
