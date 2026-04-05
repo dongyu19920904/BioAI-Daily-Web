@@ -1,8 +1,8 @@
 ---
-linkTitle: AI生命延续学日报
+linkTitle:  AI生命延续学日报 
 title: AI生命延续学日报 2026/4/5
 breadcrumbs: false
-next: /2026-04/2026-04-04
+next: /2026-04/2026-04-05
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -12,7 +12,7 @@ cascade:
 
 ```
 今天最值得先看的是 生命延续资讯 1。
-本期筛出 9 条重点信号，其中强相关 6 条、邻近相关 3 条。
+本期筛出 8 条重点信号，其中强相关 6 条、邻近相关 2 条。
 如果只再追一条后续线索，可以继续看 生命延续资讯 2。
 ```
 
@@ -58,6 +58,5 @@ cascade:
 
 ## **👀 值得关注**
 
-- **[资讯]** [生命延续资讯 1](https://news.google.com/rss/articles/CBMipgFBVV95cUxPelI1UWx1NVNNdVFQbmFvLU13cHE2UlQ0dEVGTUpSLWFyOS13T1lfa0o5TVhuaGw4aE9vWDF5MXE3bEpnNFM0T1B6QzFuX1JFaWpKWnhmTUI4VzVqR1g2dnZrdmUtU18tRjhIODlOeWEzUHJCeWQ5TWlxdThrMnU4U3h4TlRuQU92dmJRRFNPRnFQWEVVeXBDMFpDcHBPMW5kNWlyeU93?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
-- **[资讯]** [生命延续资讯 2](https://news.google.com/rss/articles/CBMid0FVX3lxTE1sbUZmYk1pV3JYMDVKclctMmlTT0t2c0l2UjNTUVI5LUxWZXJUc0FoTG14UVdaSTZ3ZjNrcHNpNW5vdjNORVBoQU5EazlwY290U2tjZ1prb1BMSE5qYWdscWNKR2FRa0x6VzY0Snh6RmZaU0tFNklj?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
-- **[研究]** [长寿研究信号 3](https://pubmed.ncbi.nlm.nih.gov/41879495/) - 这条研究信号和 长寿研究 有明确连接，适合放进后续跟踪清单。
+- **[资讯]** [生命延续资讯 1](https://news.google.com/rss/articles/CBMipwFBVV95cUxPWk44Vk00Y2Z3UU5NRllSamtMa1hnbU9QMklQeldoQnhaRktIUnhXcjhxblRKLUdPcFREWW94Q245OHE1SDVvbjdHLThrOWJhWUtlZ1ptM1RYdlNaMnJkQm9pTWlfbk5GRU9wdS1wcldIVC1hMllUSzJEdmctSjc2djd2SmZwTGxyZi1uZGg5a0RQVE9hWkRqZjVLcmdvWVRsZEVEUW9QUQ?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[研究]** [长寿研究信号 2](https://pubmed.ncbi.nlm.nih.gov/41879495/) - 这条研究信号和 长寿研究 有明确连接，适合放进后续跟踪清单。
