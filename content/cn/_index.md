@@ -36,18 +36,18 @@ AI 已经开始盯上“变老这件事”本身了。
 
 ## 🔥 重磅 TOP 5
 
-### [机器学习盯住老人“变脆弱”前的拐点](https://pubmed.ncbi.nlm.nih.gov/41918302/)
+### [利用机器学习识别社区老年人衰弱恶化转变的身体、心理与社会预测因素：一项纵向队列研究](https://pubmed.ncbi.nlm.nih.gov/41918302/)
 很多老人不是一下子衰弱的，而是先从“走得慢一点、累得快一点”开始。这篇纵向队列研究用机器学习，把身体、心理和社交因素一起放进模型里，找谁更可能从稳定状态滑向衰弱。对做长寿产品的人来说，这很关键：真正值钱的不是等人老了再救，而是更早拦住下坡路。
 
-### [长寿门诊也接入 MCP 了，Chia Health 想让 AI 真能干活](https://github.com/chia-health/chia-mcp)
+### [chia-health/chia-mcp 项目](https://github.com/chia-health/chia-mcp)
 以前聊长寿服务，很多 AI 还停留在“会回答问题”。这个开源项目更接地气：它把美国远程医疗流程做成 MCP 服务，能浏览 GLP-1、NAD+、肽类和 longevity treatments，还强调 HIPAA 合规。说白了，AI 不只是陪聊了，它开始摸到真实医疗工作流的门把手。
 
 ## 📌 值得关注
 
-- **[研究]** [动脉脉搏谐波或许能提前看出“衰弱前期”](https://pubmed.ncbi.nlm.nih.gov/41932586/) - 这类新标志物一旦稳定，后面最容易接上 AI 做早筛
-- **[研究]** [动物园里的国王企鹅，吃得好动得少，老得更快](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging) - 很像人类现代生活方式，给衰老建模提供了个反差样本
-- **[研究]** [脂肪细胞里的 Pck1 下降，会把衰老推得更狠](https://lifespan.io/news/how-an-enzymes-depletion-makes-fat-worse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-an-enzymes-depletion-makes-fat-worse) - 脂肪衰老不是小事，它常常连着炎症、胰岛素抵抗和健康寿命
-- **[其他]** [三月年轻化动态汇总：从数据库到动物实验都在往前拱](https://lifespan.io/news/rejuvenation-roundup-march-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-march-2026) - 如果你想一口气补上最近长寿圈进展，这篇很适合当索引
+- **[研究]** [动脉脉搏谐波改变：连接血管功能障碍与衰弱前期的新型生物标志物](https://pubmed.ncbi.nlm.nih.gov/41932586/) - 这类新标志物一旦稳定，后面最容易接上 AI 做早筛
+- **[研究]** [吃得过饱、活动减少会加速企鹅衰老](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging) - 很像人类现代生活方式，给衰老建模提供了个反差样本
+- **[研究]** [一种酶的减少为何会让脂肪组织恶化](https://lifespan.io/news/how-an-enzymes-depletion-makes-fat-worse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-an-enzymes-depletion-makes-fat-worse) - 脂肪衰老不是小事，它常常连着炎症、胰岛素抵抗和健康寿命
+- **[其他]** [2026年3月抗衰老进展汇总](https://lifespan.io/news/rejuvenation-roundup-march-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-march-2026) - 如果你想一口气补上最近长寿圈进展，这篇很适合当索引
 
 ## ♻️ 近 3 日补位
 
@@ -58,7 +58,7 @@ AI 已经开始盯上“变老这件事”本身了。
 
 ## 😄 AI生命延续学趣闻
 
-### [动物园里的国王企鹅，过上“吃得好又不爱动”的日子后老得更快](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging)
+### [吃得过饱、活动减少会加速企鹅衰老](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging)
 今天最扎心的一条，不是给人看的，是给企鹅看的。研究发现，野外转进动物园后，国王企鹅因为更久坐、吃得更稳，衰老居然加快了。听起来像企鹅版“办公室肥宅警告”，但它确实把现代生活方式和加速衰老的关系讲明白了。
 
 ## 🔮 AI生命延续学趋势预测
@@ -66,17 +66,17 @@ AI 已经开始盯上“变老这件事”本身了。
 ### 衰弱预测模型会更快走向社区筛查
 - **预测时间**：2026年5月
 - **预测概率**：72%
-- **预测依据**：今日新闻[机器学习盯住老人“变脆弱”前的拐点](https://pubmed.ncbi.nlm.nih.gov/41918302/) 说明研究已经不满足于描述衰弱，而是在找可预测的转折点。接下来 1-2 个月，类似模型大概率会继续往社区、养老和健康管理场景靠。
+- **预测依据**：今日新闻[利用机器学习识别社区老年人衰弱恶化转变的身体、心理与社会预测因素：一项纵向队列研究](https://pubmed.ncbi.nlm.nih.gov/41918302/) 说明研究已经不满足于描述衰弱，而是在找可预测的转折点。接下来 1-2 个月，类似模型大概率会继续往社区、养老和健康管理场景靠。
 
 ### “可执行”的长寿 AI 工具会多起来，不再只会聊天
 - **预测时间**：2026年Q2
 - **预测概率**：68%
-- **预测依据**：今日新闻[长寿门诊也接入 MCP 了，Chia Health 想让 AI 真能干活](https://github.com/chia-health/chia-mcp) 已经把 AI 接进真实远程医疗流程。近期 MCP 和代理式工作流持续升温，长寿服务工具很可能从问答助手升级为流程助手。
+- **预测依据**：今日新闻[chia-health/chia-mcp 项目](https://github.com/chia-health/chia-mcp) 已经把 AI 接进真实远程医疗流程。近期 MCP 和代理式工作流持续升温，长寿服务工具很可能从问答助手升级为流程助手。
 
 ### 衰老标志物会更偏向“无创、连续、便宜”
 - **预测时间**：2026年6月
 - **预测概率**：64%
-- **预测依据**：今日新闻[动脉脉搏谐波或许能提前看出“衰弱前期”](https://pubmed.ncbi.nlm.nih.gov/41932586/) 反映出一个很清楚的方向：研究者越来越想用更轻量的信号捕捉衰老风险。接下来很可能看到更多围绕脉搏、步态、日常行为数据的生物年龄或衰弱模型。
+- **预测依据**：今日新闻[动脉脉搏谐波改变：连接血管功能障碍与衰弱前期的新型生物标志物](https://pubmed.ncbi.nlm.nih.gov/41932586/) 反映出一个很清楚的方向：研究者越来越想用更轻量的信号捕捉衰老风险。接下来很可能看到更多围绕脉搏、步态、日常行为数据的生物年龄或衰弱模型。
 
 ## ❓ 相关问题
 
