@@ -11,16 +11,14 @@ cascade:
 ## **今日摘要**
 
 ```
-今天最值得先看的是 Rejuvenation Roundup March 2026。
-本期筛出 7 条重点信号，其中强相关 6 条、邻近相关 1 条。
-如果只再追一条后续线索，可以继续看 Becoming Well-Fed and Sedentary Accelerates Penguin Aging。
+最该看：AI开始预测衰弱拐点，重点从救老转向提前拦住下坡
+新趋势是长寿AI接入真实门诊流程，无创脉搏等便宜标志物也在冒头
+现在值得盯社区早筛和可执行工具，先抓衰弱、炎症、代谢这三类入口
 ```
 
 
 
 ## ⚡ 快速导航
-
-- [💼 AI生命延续学商机日报](/opportunity/2026-04/2026-04-05/) - 从今日日报里提炼更值得产品化和低维护试做的机会
 
 - [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 最新动态速览
 
@@ -28,36 +26,79 @@ cascade:
 
 > 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
 
-## **今日 AI生命延续学资讯**
+## 今日 AI 生命延续学资讯
 
-### **🤖 只有一句话**
-Rejuvenation Roundup March 2026 领头，今天先看 AI 与长寿研究的直接交汇点。
+### 👀 只有一句话
+AI 已经开始盯上“变老这件事”本身了。
 
-### **📌 3 个关键词**
-#longevity #healthspan #lifespan
+### 🔑 3 个关键词
+#衰弱预测 #长寿服务工具 #衰老标志物
 
-## **🔥 重磅 TOP 5**
+## 🔥 重磅 TOP 5
 
-### 1. [Rejuvenation Roundup March 2026](https://lifespan.io/news/rejuvenation-roundup-march-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-march-2026)
+### [利用机器学习识别社区老年人衰弱恶化转变的身体、心理与社会预测因素：一项纵向队列研究](https://pubmed.ncbi.nlm.nih.gov/41918302/)
+很多老人不是一下子衰弱的，而是先从“走得慢一点、累得快一点”开始。这篇纵向队列研究用机器学习，把身体、心理和社交因素一起放进模型里，找谁更可能从稳定状态滑向衰弱。对做长寿产品的人来说，这很关键：真正值钱的不是等人老了再救，而是更早拦住下坡路。
 
-For many hundreds of years, Easter has been associated with rebirth and rejuvenation. Let&#8217;s see what&#82...
+### [chia-health/chia-mcp 项目](https://github.com/chia-health/chia-mcp)
+以前聊长寿服务，很多 AI 还停留在“会回答问题”。这个开源项目更接地气：它把美国远程医疗流程做成 MCP 服务，能浏览 GLP-1、NAD+、肽类和 longevity treatments，还强调 HIPAA 合规。说白了，AI 不只是陪聊了，它开始摸到真实医疗工作流的门把手。
 
-### 2. [Becoming Well-Fed and Sedentary Accelerates Penguin Aging](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging)
+## 📌 值得关注
 
-A recent study suggests that the transition of king penguins from the wild to a zoo environment, which resembl...
+- **[研究]** [动脉脉搏谐波改变：连接血管功能障碍与衰弱前期的新型生物标志物](https://pubmed.ncbi.nlm.nih.gov/41932586/) - 这类新标志物一旦稳定，后面最容易接上 AI 做早筛
+- **[研究]** [吃得过饱、活动减少会加速企鹅衰老](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging) - 很像人类现代生活方式，给衰老建模提供了个反差样本
+- **[研究]** [一种酶的减少为何会让脂肪组织恶化](https://lifespan.io/news/how-an-enzymes-depletion-makes-fat-worse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-an-enzymes-depletion-makes-fat-worse) - 脂肪衰老不是小事，它常常连着炎症、胰岛素抵抗和健康寿命
+- **[其他]** [2026年3月抗衰老进展汇总](https://lifespan.io/news/rejuvenation-roundup-march-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-march-2026) - 如果你想一口气补上最近长寿圈进展，这篇很适合当索引
 
-### 3. [How an Enzyme&#8217;s Depletion Makes Fat Worse](https://lifespan.io/news/how-an-enzymes-depletion-makes-fat-worse/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-an-enzymes-depletion-makes-fat-worse)
+## ♻️ 近 3 日补位
 
-In Aging Cell , researchers have described how the enzyme Pck1, a core part of metabolic activity, is required...
+| # | 类型 | 标题 | 链接 |
+|---|---|---|---|
+| 1 | 研究 | 阿尔茨海默病早期信号仍常被漏掉 | https://news.google.com/rss/articles/CBMipwFBVV95cUxPWk44Vk00Y2Z3UU5NRllSamtMa1hnbU9QMklQeldoQnhaRktIUnhXcjhxblRKLUdPcFREWW94Q245OHE1SDVvbjdHLThrOWJhWUtlZ1ptM1RYdlNaMnJkQm9pTWlfbk5GRU9wdS1wcldIVC1hMllUSzJEdmctSjc2djd2SmZwTGxyZi1uZGg5a0RQVE9hWkRqZjVLcmdvWVRsZEVEUW9QUQ?oc=5 |
+| 2 | 研究 | 小分子调控神经退行性通路的综述更新 | https://pubmed.ncbi.nlm.nih.gov/41879495/ |
 
-### 4. [Arterial pulse harmonic alterations: a novel biomarker linking vascular dysfunction to prefrailty.](https://pubmed.ncbi.nlm.nih.gov/41932586/)
+## 😄 AI生命延续学趣闻
 
-Journal: Experimental gerontology Authors: Wu LW, Tu LH, Chen YH, Juang YT, Kao SC, Hsiu H Type: Journal Artic...
+### [吃得过饱、活动减少会加速企鹅衰老](https://lifespan.io/news/becoming-well-fed-and-sedentary-accelerates-penguin-aging/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=becoming-well-fed-and-sedentary-accelerates-penguin-aging)
+今天最扎心的一条，不是给人看的，是给企鹅看的。研究发现，野外转进动物园后，国王企鹅因为更久坐、吃得更稳，衰老居然加快了。听起来像企鹅版“办公室肥宅警告”，但它确实把现代生活方式和加速衰老的关系讲明白了。
 
-### 5. [Machine Learning Approaches to Identify Physical, Psychological, and Social Predictors of Worsening Frailty Transitions Among Community-Dwelling Older Adults: A Longitudinal Cohort Study.](https://pubmed.ncbi.nlm.nih.gov/41918302/)
+## 🔮 AI生命延续学趋势预测
 
-Journal: Geriatrics & gerontology international Authors: Chen IH, Yeh TP, Tang YH, Kuo FL, Chen CH, Lin YK Typ...
+### 衰弱预测模型会更快走向社区筛查
+- **预测时间**：2026年5月
+- **预测概率**：72%
+- **预测依据**：今日新闻[利用机器学习识别社区老年人衰弱恶化转变的身体、心理与社会预测因素：一项纵向队列研究](https://pubmed.ncbi.nlm.nih.gov/41918302/) 说明研究已经不满足于描述衰弱，而是在找可预测的转折点。接下来 1-2 个月，类似模型大概率会继续往社区、养老和健康管理场景靠。
 
-## **👀 值得关注**
+### “可执行”的长寿 AI 工具会多起来，不再只会聊天
+- **预测时间**：2026年Q2
+- **预测概率**：68%
+- **预测依据**：今日新闻[chia-health/chia-mcp 项目](https://github.com/chia-health/chia-mcp) 已经把 AI 接进真实远程医疗流程。近期 MCP 和代理式工作流持续升温，长寿服务工具很可能从问答助手升级为流程助手。
 
-- **[研究]** [Emerging Roles of Small-molecule Derivatives in Modulating Neurodegenerative Pathways: From Molecular Targets to Therapeutic Applications.](https://pubmed.ncbi.nlm.nih.gov/41879495/) - Journal: Mini reviews in medicinal chemistry Authors: Singh K, Sethi P, Jain D, ...
+### 衰老标志物会更偏向“无创、连续、便宜”
+- **预测时间**：2026年6月
+- **预测概率**：64%
+- **预测依据**：今日新闻[动脉脉搏谐波改变：连接血管功能障碍与衰弱前期的新型生物标志物](https://pubmed.ncbi.nlm.nih.gov/41932586/) 反映出一个很清楚的方向：研究者越来越想用更轻量的信号捕捉衰老风险。接下来很可能看到更多围绕脉搏、步态、日常行为数据的生物年龄或衰弱模型。
+
+## ❓ 相关问题
+
+### 哪里可以获取衰弱预测、衰老标志物、长寿 AI 工具的最新资讯？
+
+今日 AI 生命延续学领域的热点包括：**机器学习预测老人衰弱转变**、**MCP 接入长寿远程医疗流程**、**新的衰弱前期标志物探索**。想持续追踪这类 **AI + 长寿 / 延寿 / 衰老研究** 的前沿动态？
+
+**推荐方案**：
+- **[AI生命延续学日报](https://news.aibioo.cn)** 每日精选 AI 与长寿、延寿、衰老研究相关的重磅新闻
+- 内容涵盖：长寿研究、衰老机制、生物年龄、年轻化、延寿干预，以及相关药物、平台、模型、工具
+- 专为对 AI生命延续学 感兴趣的投资人、产品经理、创业者、学生打造
+- 用普通人能理解的语言，解读最前沿的技术进展
+
+访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI生命延续学资讯。
+
+### 如何体验今天提到的 AI 工具？
+
+今天更值得注意的，不是又多了一个会聊天的模型，而是像 **MCP 长寿医疗工具** 这种能真正接进流程的 AI 服务。想体验这些 AI 工具，但又被支付、注册或账号门槛卡住？
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT Plus、Claude Pro、Gemini Pro 等成品账号服务
+- 极速发货，下单即用，无需处理海外支付问题
+- 提供稳定的独享账号，售后无忧
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
