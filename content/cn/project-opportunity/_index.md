@@ -1,11 +1,11 @@
 ---
 linkTitle: AI生命延续学资讯商机项目
-title: AI生命延续学资讯商机项目 2026/4/16
+title: AI生命延续学资讯商机项目 2026/4/15
 breadcrumbs: false
 description: "聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 赛道里，更适合做成项目、改造开源工具、推广账号网址和组织共创的资讯商机项目栏目。 每天自动生成并更新最新一期。"
 cascade:
   type: docs
-next: /project-opportunity/2026-04/2026-04-16
+next: /project-opportunity/2026-04/2026-04-15
 ---
 
 ## ⚡ 快速导航
@@ -31,9 +31,9 @@ shayanmostafaei/Omics_ADRD_Integrated_Modeling 今天值得先做成一个偏「
 - 第一波流量从哪里来：先从今日日报、同主题资讯、相关社群讨论和搜索长尾词切入。
 - 第一笔钱怎么来：优先验证咨询、资料包、合作定制、联盟推荐或工具导航位。
 - 今天先做什么：先把入口页上线，再写 1 条导流内容，把适合直接包装成 aivora.cn 上的专题工具页、资料页、研究对比页。
-### [lightbluetitan/neurodatasets-py](https://github.com/lightbluetitan/neurodatasets-py)
-lightbluetitan/neurodatasets-py 今天值得先做成一个偏「长寿核心项目」的最小落地页，因为 The neurodatasets package provides a curated collection of neuroscience and brain-related datasets for data an...
-- 适合改造成什么：先做成一个围绕 lightbluetitan/neurodatasets-py 的专题页、工具页或案例页，优先承担日报流量承接与转化。
+### [janursa/GRNimmuneClock](https://github.com/janursa/GRNimmuneClock)
+janursa/GRNimmuneClock 今天值得先做成一个偏「长寿核心项目」的最小落地页，因为 GRN-derived immune aging clock based on transcriptomics, developed by Jalil Nourisa in Prof. Yang Li's Lab
+- 适合改造成什么：先做成一个围绕 janursa/GRNimmuneClock 的专题页、工具页或案例页，优先承担日报流量承接与转化。
 - 最小改造版：保留它最核心的一项能力，只补 1 个清晰入口页、1 段中文说明和 1 个固定 CTA。
 - 如何挂自己的账号 / 网站：把 aivora.cn 放进 README、导航页和页面底部 CTA，并同步挂公众号 / 社群 / GitHub 主页入口。
 - 第一波流量从哪里来：先从今日日报、同主题资讯、相关社群讨论和搜索长尾词切入。
@@ -64,9 +64,9 @@ Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # 
 - 推广文案切入点：先讲“为什么今天该看这条线索”，再讲“看完之后你能立刻获得什么”。
 - 链接放在哪里：统一落到 aivora.cn 的专题页、导航页或报名页，不分散到太多页面。
 - 最可能转化成什么：订阅、咨询、进群、共创报名、赞助洽谈或资料包下载。
-### [Insights on # geroscience pre-clinical and clinical # trials to promote healthy # aging from the Intrinsic...](https://mastodon.social/@macesari/116260094825626271)
-Insights on # geroscience pre-clinical and clinical # trials to promote healthy # aging from the Intrinsic... 最适合作为今天的推广切入点，因为 Insights on # geroscience pre-clinical and clinical # trials to promote healthy # aging from the Int...
-- 适合推广什么：优先推广与 Insights on # geroscience pre-clinical and clinical # trials to promote healthy # aging from the Intrinsic... 强相关的专题页、订阅入口、项目 Demo 或资料合集。
+### [David Sinclair Longevity Protocol: How to Reverse Your Biological Age with # Supplements Is it possible to...](https://mastodon.social/@lifestylebeauty/116399666344771963)
+David Sinclair Longevity Protocol: How to Reverse Your Biological Age with # Supplements Is it possible to... 最适合作为今天的推广切入点，因为 David Sinclair Longevity Protocol: How to Reverse Your Biological Age with # Supplements Is it possi...
+- 适合推广什么：优先推广与 David Sinclair Longevity Protocol: How to Reverse Your Biological Age with # Supplements Is it possible to... 强相关的专题页、订阅入口、项目 Demo 或资料合集。
 - 适合推广给谁：先推给对 AI + longevity、工具改造、专题内容和社群共创有兴趣的人。
 - 推广文案切入点：先讲“为什么今天该看这条线索”，再讲“看完之后你能立刻获得什么”。
 - 链接放在哪里：统一落到 aivora.cn 的专题页、导航页或报名页，不分散到太多页面。
@@ -74,15 +74,15 @@ Insights on # geroscience pre-clinical and clinical # trials to promote healthy 
 
 ## 可共创 / 可招募
 
-### [rsinghlab/TimeFlies](https://github.com/rsinghlab/TimeFlies)
-rsinghlab/TimeFlies 适合今天就发起共创或招募，因为 snRNA-seq aging clock for the Drosophila head. Companion code for Tennant et al., Scientific Reports...
+### [shayanmostafaei/Proteomic-Aging-Clock-ProtAge-](https://github.com/shayanmostafaei/Proteomic-Aging-Clock-ProtAge-)
+shayanmostafaei/Proteomic-Aging-Clock-ProtAge- 适合今天就发起共创或招募，因为 Code for constructing the Proteomic Aging Clock (ProtAge) using Olink-based proteomics data and Stac...
 - 可以找谁一起做：优先找会内容整理、前端页面、自动化脚本、数据抓取或社群分发的人。
 - 你出什么：你负责选题、入口页、节奏控制和 aivora.cn 的流量承接。
 - 对方出什么：对方负责把素材整理成页面、工具、脚本或可重复执行的 SOP。
 - 最小协作方式：先一起做 1 个页面、1 个数据表或 1 条内容链路，不先谈大项目。
 - 如何让共创也帮你引流：把协作者名字、项目链接和报名入口都统一挂回 aivora.cn。
-### [anbai106/SleepChart](https://github.com/anbai106/SleepChart)
-anbai106/SleepChart 适合今天就发起共创或招募，因为 This is the repository for sharing the R script the GAM modeling between sleep duration and 23 biolo...
+### [shayanmostafaei/Metabolomic-Aging-Clock-MetaboAge-](https://github.com/shayanmostafaei/Metabolomic-Aging-Clock-MetaboAge-)
+shayanmostafaei/Metabolomic-Aging-Clock-MetaboAge- 适合今天就发起共创或招募，因为 Code for constructing the Metabolomic Aging Clock (MetaboAge) using NMR-based metabolomics data and ...
 - 可以找谁一起做：优先找会内容整理、前端页面、自动化脚本、数据抓取或社群分发的人。
 - 你出什么：你负责选题、入口页、节奏控制和 aivora.cn 的流量承接。
 - 对方出什么：对方负责把素材整理成页面、工具、脚本或可重复执行的 SOP。
