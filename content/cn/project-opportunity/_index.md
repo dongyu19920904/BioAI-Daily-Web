@@ -1,11 +1,11 @@
 ---
 linkTitle: AI生命延续学资讯商机项目
-title: AI生命延续学资讯商机项目 2026/4/14
+title: AI生命延续学资讯商机项目 2026/4/16
 breadcrumbs: false
 description: "聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 赛道里，更适合做成项目、改造开源工具、推广账号网址和组织共创的资讯商机项目栏目。 每天自动生成并更新最新一期。"
 cascade:
   type: docs
-next: /project-opportunity/2026-04/2026-04-14
+next: /project-opportunity/2026-04/2026-04-16
 ---
 
 ## ⚡ 快速导航
@@ -19,94 +19,79 @@ next: /project-opportunity/2026-04/2026-04-14
 # 今日 AI生命延续学资讯商机项目
 
 ## 一句话结论
-
-今天最值得抓的是"生物年龄时钟横评 + 单细胞精度升级"这条线——它同时适合做成导航页、对比工具和付费资料包，而 Sens.ai 的 EEG 脑龄时钟是今天最适合蹭热度做推广内容的单条资讯。
-
----
+今天最值得先抓的是围绕「shayanmostafaei/Omics_ADRD_Integrated_Modeling」做一个能挂到 aivora.cn 的最小专题入口，并把相关内容沉淀成持续更新的流量资产；核心依据是：This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), an...。
 
 ## 今日最值得改造的 GitHub 项目
 
-### [一、mdozmorov/Aging_clock × BASE-II 16项标志物横评 → 生物年龄时钟导航站](https://github.com/mdozmorov/Aging_clock)
-
-这个 repo 本身就是一份"衰老时钟论文 + 数据资源"的整理清单，维护者已经帮你把最难的文献筛选做完了。今天 BASE-II 横评 16 种标志物的论文刚出，两者叠在一起，正好是做"生物年龄时钟横评导航页"的最佳时机——不是泛生命科学，是直接服务"我该用哪个时钟评估自己的干预效果"这个高频问题。
-
-- 适合改造成什么：aivora.cn 上的「生物年龄时钟选型导航页」，按甲基化/蛋白质组/转录组/EEG 分类，每个时钟标注适用场景、开源状态、精度等级
-- 最小改造版：Fork repo → 把 README 里的论文列表转成 Markdown 表格 → 加一列"适合哪类用户/场景" → 部署成静态页面，页脚放 aivora.cn 订阅入口
-- 如何挂自己的账号/网址：README 顶部加 banner："更多 AI 延寿学资讯 → aivora.cn"；页面底部加"本页由 aivora.cn 维护，欢迎订阅日报"
-- 第一波流量从哪里来：把这个页面链接发进 longevity 相关 GitHub Discussion、Reddit r/longevity、微信群；同时把 BASE-II 横评论文解读发公众号，文末挂导航页链接
-- 第一笔钱怎么来：导航页上线后，在"工具推荐"区放联盟链接（生物年龄检测产品/补剂品牌）；或直接卖一份「生物年龄时钟选型指南 PDF」，定价 29-49 元
-- 今天先做什么：Fork mdozmorov/Aging_clock，把现有列表整理成带"适用场景"列的表格，30 分钟内出第一版，推到 GitHub Pages
-
----
-
-### [二、wangsoap/XAIFramework × 衰老药物高通量筛选综述 → 可解释 AI 衰老生物标志物工具包装页](https://github.com/wangsoap/XAIFramework)
-
-这个 repo 把可解释机器学习（XAI）用于生物年龄 + 虚弱预测的生物标志物发现，和今天高通量筛选综述里"AI 辅助命中化合物识别"的方向高度吻合。对想做 AI 延寿学工具站的人来说，这是一个可以直接包装成"AI 衰老生物标志物发现工具"介绍页的现成项目。
-
-- 适合改造成什么：aivora.cn 上的「AI 衰老生物标志物发现工具专题页」，重点讲"XAI 怎么帮研究者找到真正有意义的衰老指标"
-- 最小改造版：写一篇 1500 字的项目解读（中文），配上 repo 的核心图表，做成 aivora.cn 专题文章，文末放 GitHub 链接 + 订阅入口
-- 如何挂自己的账号/网址：在 repo 的 README 里提交 PR 或 Issue，建议作者加"中文解读"链接，指向 aivora.cn 的专题页
-- 第一波流量从哪里来：把专题页分发到生信/机器学习微信群、知乎"衰老研究"话题、公众号
-- 第一笔钱怎么来：专题页底部放"AI 延寿学工具定制咨询"入口，或把这个案例打包进「AI 延寿学工具开发 SOP 资料包」一起卖
-
----
+### [shayanmostafaei/Omics_ADRD_Integrated_Modeling](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling)
+shayanmostafaei/Omics_ADRD_Integrated_Modeling 今天值得先做成一个偏「长寿核心项目」的最小落地页，因为 This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine l...
+- 适合改造成什么：先做成一个围绕 shayanmostafaei/Omics_ADRD_Integrated_Modeling 的专题页、工具页或案例页，优先承担日报流量承接与转化。
+- 最小改造版：保留它最核心的一项能力，只补 1 个清晰入口页、1 段中文说明和 1 个固定 CTA。
+- 如何挂自己的账号 / 网站：把 aivora.cn 放进 README、导航页和页面底部 CTA，并同步挂公众号 / 社群 / GitHub 主页入口。
+- 第一波流量从哪里来：先从今日日报、同主题资讯、相关社群讨论和搜索长尾词切入。
+- 第一笔钱怎么来：优先验证咨询、资料包、合作定制、联盟推荐或工具导航位。
+- 今天先做什么：先把入口页上线，再写 1 条导流内容，把适合直接包装成 aivora.cn 上的专题工具页、资料页、研究对比页。
+### [lightbluetitan/neurodatasets-py](https://github.com/lightbluetitan/neurodatasets-py)
+lightbluetitan/neurodatasets-py 今天值得先做成一个偏「长寿核心项目」的最小落地页，因为 The neurodatasets package provides a curated collection of neuroscience and brain-related datasets for data an...
+- 适合改造成什么：先做成一个围绕 lightbluetitan/neurodatasets-py 的专题页、工具页或案例页，优先承担日报流量承接与转化。
+- 最小改造版：保留它最核心的一项能力，只补 1 个清晰入口页、1 段中文说明和 1 个固定 CTA。
+- 如何挂自己的账号 / 网站：把 aivora.cn 放进 README、导航页和页面底部 CTA，并同步挂公众号 / 社群 / GitHub 主页入口。
+- 第一波流量从哪里来：先从今日日报、同主题资讯、相关社群讨论和搜索长尾词切入。
+- 第一笔钱怎么来：优先验证咨询、资料包、合作定制、联盟推荐或工具导航位。
+- 今天先做什么：先把入口页上线，再写 1 条导流内容，把适合直接包装成 aivora.cn 上的专题工具页、资料页、研究对比页。
 
 ## 今日最值得做成内容的资讯
 
-### [一、Sens.ai EEG 脑龄时钟达到 MRI 级精度 → 脑龄检测赛道横评内容](https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSVo3NV9BZUxzTDRMSE93M1dUNkNQYzlZSW11cFFVdWdTVGtVZnZxMUkwbHh5NDJSeHRLVEYwUTJXUmpYRTgzUHJJbGk1MkNKemlIS1V5cHVHOVFwdVZCcDRnSkRUNjNKZWlJaGVFYlhxY01aZjRkeUZKamU4RWtxUERPeENGODlrTWZzaHNiVHhDeUU3NGRxanRyVlBKUzQ0cjF1ZG5RMmx0bGNsVWs4eURRR0hzTWxKU0NMb2dsVzNVelg2OHVMZ1AxSDhYYUxuNk1fNHQ1aENhVzdMTjlIREhR?oc=5)
-
-这条是今天最适合做推广内容的单条资讯。EEG 比 MRI 便宜 10 倍以上，如果精度真的对齐，意味着脑龄检测的门槛大幅降低——这对普通人有直接意义，不是学术圈内部讨论。内容角度清晰：不是"又一个 AI 医疗产品"，而是"脑龄检测从医院走向消费级的关键节点"。
-
-- 可以写成什么内容：「脑龄检测现在能做了吗？EEG vs MRI vs 认知测试横评」——做成公众号长文或知乎回答，带上 Sens.ai、SleepChart（anbai106/SleepChart）和 scAgeClock 三个方向的对比
-- 适合发到哪里：公众号首发，同步知乎、小红书（"我的脑龄比实际年龄小/大"这类标题在小红书有自然流量）
-- 怎么导流到你的项目/账号：文末固定话术："持续追踪脑龄/生物年龄检测进展 → 关注 aivora.cn 日报订阅"；评论区置顶进群二维码
-- 可以卖什么或收集什么线索：收集"想了解自己脑龄检测方案"的用户线索，后续可以做付费咨询或团购检测服务的导流分成
-
----
-
-### [二、Senolytic 清除衰老细胞减少老年小鼠流感炎症 → Senolytic 科普专题页](https://onlinelibrary.wiley.com/doi/10.1111/acel.70480?af=R)
-
-Senolytic 是目前最接近"普通人能理解且愿意付费了解"的抗衰方向之一。这篇论文把 senolytic 和老年人免疫/炎症直接挂钩，不是纯机制研究，有明确的应用指向。适合做成一个持续更新的专题页，而不是一篇读完就扔的文章。
-
-- 可以写成什么内容：aivora.cn 上的「Senolytic 追踪专题页」——汇总所有 senolytic 相关论文进展、在研药物、补剂替代方案（如槲皮素+达沙替尼），每周更新一条
-- 适合发到哪里：专题页本身做 SEO 落地页；每次更新发一条公众号/微信群推送，带专题页链接
-- 怎么导流到你的项目/账号：专题页顶部放"订阅 Senolytic 进展提醒"邮件收集表单
-- 可以卖什么或收集什么线索：收集对 senolytic 补剂方案感兴趣的用户，后续做联盟推荐（补剂品牌）或付费「Senolytic 入门资料包」
-
----
+### [Clearance of Senescent Cells by BCLXL‐PROTAC: A Novel Approach to Treat COPD?](https://onlinelibrary.wiley.com/doi/10.1111/acel.70487?af=R)
+Clearance of Senescent Cells by BCLXL‐PROTAC: A Novel Approach to Treat COPD? 更适合被做成持续更新的内容资产，而不是看完就结束，因为 [图片: Clearance of Senescent Cells by BCLXL-PROTAC: A Novel Approach to Treat COPD? https://onlinelibrary.wiley...
+- 可以写成什么内容：专题解读、项目对比、工具拆解、研究追踪或 FAQ 页面。
+- 适合发到哪里：先发公众号、社群、博客，再挂到 aivora.cn 的专题页和导航页。
+- 怎么导流到你的项目 / 账号：在文末固定放 aivora.cn 专题入口、订阅入口和合作入口。
+- 可以卖什么或收集什么线索：先收集订阅、咨询、进群和合作意向，再逐步尝试资料包或专题赞助。
+### [Cell Type‐Specific Expression of p16, p21, and p53 Reveals Age‐Dependent Glial Senescence in the AppNL‐G‐F Mouse Model of Alzheimer's Disease](https://onlinelibrary.wiley.com/doi/10.1111/acel.70478?af=R)
+Cell Type‐Specific Expression of p16, p21, and p53 Reveals Age‐Dependent Glial Senescence in the AppNL‐G‐F Mouse Model of Alzheimer's Disease 更适合被做成持续更新的内容资产，而不是看完就结束，因为 [图片: Cell Type-Specific Expression of p16, p21, and p53 Reveals Age-Dependent Glial Senescence in the AppNL-G-...
+- 可以写成什么内容：专题解读、项目对比、工具拆解、研究追踪或 FAQ 页面。
+- 适合发到哪里：先发公众号、社群、博客，再挂到 aivora.cn 的专题页和导航页。
+- 怎么导流到你的项目 / 账号：在文末固定放 aivora.cn 专题入口、订阅入口和合作入口。
+- 可以卖什么或收集什么线索：先收集订阅、咨询、进群和合作意向，再逐步尝试资料包或专题赞助。
 
 ## 今日可推广的切入点
 
-### ["16 种生物年龄时钟，你该用哪一个？"——标准化压力下的选型内容](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling)
-
-BASE-II 横评 16 种标志物这篇论文，是今天最适合做成推广内容的学术素材。它的价值不在于结论，而在于"原来时钟之间差这么多"这个认知冲击——这对普通用户和从业者都有吸引力。
-
-- 适合推广什么：aivora.cn 的「生物年龄时钟导航页」+ 日报订阅入口
-- 适合推广给谁：做健康管理/抗衰咨询的从业者、对生物年龄检测感兴趣的个人用户、longevity 圈的研究者和爱好者
-- 推广文案切入点："市面上生物年龄时钟越来越多，但没人告诉你它们之间差多少——柏林老龄化研究刚刚横评了 16 种，结论让人意外。完整解读 + 选型建议在这里：[aivora.cn 链接]"
-- 链接放在哪里：公众号文末、微信群置顶、知乎回答末尾、GitHub README 的"延伸阅读"区、mdozmorov/Aging_clock 的 Issue 区
-- 最可能转化成什么：日报订阅用户、进群咨询、「生物年龄时钟选型指南」资料包购买
-
----
+### [Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intrinsic Ca...](https://mastodon.social/@macesari/116294537138721516)
+Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intrinsic Ca... 最适合作为今天的推广切入点，因为 Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intri...
+- 适合推广什么：优先推广与 Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intrinsic Ca... 强相关的专题页、订阅入口、项目 Demo 或资料合集。
+- 适合推广给谁：先推给对 AI + longevity、工具改造、专题内容和社群共创有兴趣的人。
+- 推广文案切入点：先讲“为什么今天该看这条线索”，再讲“看完之后你能立刻获得什么”。
+- 链接放在哪里：统一落到 aivora.cn 的专题页、导航页或报名页，不分散到太多页面。
+- 最可能转化成什么：订阅、咨询、进群、共创报名、赞助洽谈或资料包下载。
+### [Insights on # geroscience pre-clinical and clinical # trials to promote healthy # aging from the Intrinsic...](https://mastodon.social/@macesari/116260094825626271)
+Insights on # geroscience pre-clinical and clinical # trials to promote healthy # aging from the Intrinsic... 最适合作为今天的推广切入点，因为 Insights on # geroscience pre-clinical and clinical # trials to promote healthy # aging from the Int...
+- 适合推广什么：优先推广与 Insights on # geroscience pre-clinical and clinical # trials to promote healthy # aging from the Intrinsic... 强相关的专题页、订阅入口、项目 Demo 或资料合集。
+- 适合推广给谁：先推给对 AI + longevity、工具改造、专题内容和社群共创有兴趣的人。
+- 推广文案切入点：先讲“为什么今天该看这条线索”，再讲“看完之后你能立刻获得什么”。
+- 链接放在哪里：统一落到 aivora.cn 的专题页、导航页或报名页，不分散到太多页面。
+- 最可能转化成什么：订阅、咨询、进群、共创报名、赞助洽谈或资料包下载。
 
 ## 可共创 / 可招募
 
-### [招募"AI 延寿学工具站"共建者——用 mdozmorov/Aging_clock 和 SleepChart 起步](https://github.com/mdozmorov/Aging_clock)
-
-这个方向适合拉人一起做的原因很简单：数据整理、论文翻译、页面维护这三件事都可以拆分，不需要每个人都懂技术，但每个人的贡献都能直接变成可见的内容资产。
-
-- 可以找谁一起做：生信/医学背景的研究生（有论文阅读能力）、做健康自媒体的博主（有分发渠道）、前端开发者（能做静态页面）
-- 你出什么：项目框架、aivora.cn 的流量入口、日报分发渠道、选题方向
-- 对方出什么：论文整理/翻译、数据更新、页面开发、社群分发
-- 最小协作方式：建一个飞书多维表格，每人认领一个时钟方向的资料整理；每周同步一次，产出直接发布到 aivora.cn 专题页
-- 如何让共创也帮你引流：每个共建者在自己的账号发布"我参与维护了这个 AI 延寿学工具导航"，统一带 aivora.cn 链接；共建者名单放在专题页底部，形成互相背书的效果
-
----
+### [rsinghlab/TimeFlies](https://github.com/rsinghlab/TimeFlies)
+rsinghlab/TimeFlies 适合今天就发起共创或招募，因为 snRNA-seq aging clock for the Drosophila head. Companion code for Tennant et al., Scientific Reports...
+- 可以找谁一起做：优先找会内容整理、前端页面、自动化脚本、数据抓取或社群分发的人。
+- 你出什么：你负责选题、入口页、节奏控制和 aivora.cn 的流量承接。
+- 对方出什么：对方负责把素材整理成页面、工具、脚本或可重复执行的 SOP。
+- 最小协作方式：先一起做 1 个页面、1 个数据表或 1 条内容链路，不先谈大项目。
+- 如何让共创也帮你引流：把协作者名字、项目链接和报名入口都统一挂回 aivora.cn。
+### [anbai106/SleepChart](https://github.com/anbai106/SleepChart)
+anbai106/SleepChart 适合今天就发起共创或招募，因为 This is the repository for sharing the R script the GAM modeling between sleep duration and 23 biolo...
+- 可以找谁一起做：优先找会内容整理、前端页面、自动化脚本、数据抓取或社群分发的人。
+- 你出什么：你负责选题、入口页、节奏控制和 aivora.cn 的流量承接。
+- 对方出什么：对方负责把素材整理成页面、工具、脚本或可重复执行的 SOP。
+- 最小协作方式：先一起做 1 个页面、1 个数据表或 1 条内容链路，不先谈大项目。
+- 如何让共创也帮你引流：把协作者名字、项目链接和报名入口都统一挂回 aivora.cn。
 
 ## 今天就开工
-
-- 先抓哪 3 个线索：① mdozmorov/Aging_clock repo 的现有列表结构；② BASE-II 16 种标志物横评论文的核心结论（直接读 Abstract）；③ Sens.ai EEG 脑龄时钟的产品页和定价
-- 先做哪 1 个最小页面/最小项目：Fork mdozmorov/Aging_clock → 把列表整理成"时钟类型 / 适用场景 / 开源状态 / 精度参考"四列表格 → 部署到 GitHub Pages，页脚加 aivora.cn 订阅链接，30-60 分钟内可上线
-- 先发哪 1 条推广内容：公众号/微信群发一条："市面上生物年龄时钟到底哪个准？柏林老龄化研究横评了 16 种，我整理了一份选型导航 → [aivora.cn 链接]"，带上 BASE-II 论文截图
-- 先挂哪 1 个 aivora.cn 入口链接：在 GitHub Pages 导航页的页脚固定放："本页由 [aivora.cn](https://aivora.cn) AI生命延续学日报维护 · 订阅每日更新"
-- 先设计哪 1 个成交/咨询/进群动作：在导航页和公众号文末放一个"加入 AI 延寿学工具共建群"的入口（微信群二维码或表单），进群门槛设为"转发本文到朋友圈截图"，第一批共创者从这里来
+- 先抓哪 3 个线索：shayanmostafaei/Omics_ADRD_Integrated_Modeling、Clearance of Senescent Cells by BCLXL‐PROTAC: A Novel Approach to Treat COPD?、Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intrinsic Ca...
+- 先做哪 1 个最小页面 / 最小项目：先围绕「shayanmostafaei/Omics_ADRD_Integrated_Modeling」做一个能承接日报流量的最小专题页，并把订阅、合作、进群入口挂到 aivora.cn。
+- 先发哪 1 条推广内容：先发一条围绕「Clearance of Senescent Cells by BCLXL‐PROTAC: A Novel Approach to Treat COPD?」的导流内容，标题直接回答“今天为什么值得看”。
+- 先挂哪 1 个 aivora.cn 入口链接：优先挂专题页入口，其次是订阅页和合作报名页。
+- 先设计哪 1 个成交 / 咨询 / 进群动作：先收 1 个咨询或 1 个进群动作，再决定后续是否扩成资料包或合作服务。
