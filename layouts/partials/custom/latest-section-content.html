@@ -1,0 +1,19 @@
+{{- $pageContext := .page -}}
+{{- $section := .section -}}
+{{- $emptyMessage := .emptyMessage -}}
+{{- $pages := slice -}}
+{{- range $pageContext.Site.RegularPages -}}
+  {{- $base := .File.BaseFileName -}}
+  {{- if and (eq .Section $section) (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" $base) -}}
+    {{- $pages = $pages | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
+{{- if gt (len $latest) 0 -}}
+  {{- $page := index $latest 0 -}}
+  <div class="latest-section-surface latest-section-surface--{{ $section }}">
+    {{- $page.Content -}}
+  </div>
+{{- else -}}
+  <p>{{ $emptyMessage }}</p>
+{{- end -}}
