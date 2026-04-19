@@ -9,9 +9,17 @@
   {{- end -}}
 {{- end -}}
 {{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
+{{- $eyebrow := cond (eq $section "project-opportunity") "Info Project Edition" "Opportunity Edition" -}}
+{{- $introTitle := cond (eq $section "project-opportunity") "最新 AI 延续学资讯商机" "最新 AI 延续学商机" -}}
+{{- $introText := cond (eq $section "project-opportunity") "偏外部项目、资讯线索和资源入口的一条线，适合继续延展和追踪。" "从生命科学和长寿研究里提炼更值得继续做的方向。" -}}
 {{- if gt (len $latest) 0 -}}
   {{- $page := index $latest 0 -}}
   <div class="latest-section-surface latest-section-surface--{{ $section }}">
+    <div class="latest-section-surface__intro">
+      <span class="latest-section-surface__eyebrow">{{ $eyebrow }}</span>
+      <h2 class="latest-section-surface__intro-title">{{ $introTitle }}</h2>
+      <p class="latest-section-surface__intro-text">{{ $introText }}</p>
+    </div>
     {{- $page.Content -}}
   </div>
 {{- else -}}
