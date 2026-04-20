@@ -1,16 +1,5 @@
-{{- $pages := slice -}}
-{{- range .Site.RegularPages -}}
-  {{- $base := .File.BaseFileName -}}
-  {{- if and (eq .Section "opportunity") (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" $base) -}}
-    {{- $pages = $pages | append . -}}
-  {{- end -}}
-{{- end -}}
-{{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
-{{- if gt (len $latest) 0 -}}
-  {{- $page := index $latest 0 -}}
-  <div class="latest-opportunity-wrapper">
-    {{- $page.Content -}}
-  </div>
-{{- else -}}
-  <p>最新一期 AI生命延续学商机日报还在生成中，稍后刷新即可查看。</p>
-{{- end -}}
+{{ partial "custom/latest-section-content.html" (dict
+  "page" .
+  "section" "opportunity"
+  "emptyMessage" "最新一期 AI生命延续学商机日报还在生成中，稍后刷新即可查看。"
+) }}
