@@ -11,16 +11,16 @@ cascade:
 ## **今日摘要**
 
 ```
-今天最值得先看的是 Cellular senescence and metabolic aging in type 2 diabetes: mechanistic insights and translational implications.。
+今天最值得先看的是 细胞衰老与代谢老化在2型糖尿病中的机制解析与转化意义。
 本期筛出 14 条重点信号，其中强相关 9 条、邻近相关 5 条。
-如果只再追一条后续线索，可以继续看 Chronic Kidney Disease and Cellular Senescence.。
+如果只再追一条后续线索，可以继续看 慢性肾病与细胞衰老的关联研究。
 ```
 
 
 
 ## ⚡ 快速导航
 
-- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 最新动态速览
+- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 先看《细胞衰老与代谢老化在2型糖尿病中的机制解析与转化意义》，再追《慢性肾病与细胞衰老的关联研究》
 
 
 
@@ -36,37 +36,37 @@ cascade:
 
 ## **🔥 重磅 TOP 5**
 
-### 1. [Cellular senescence and metabolic aging in type 2 diabetes: mechanistic insights and translational implications.](https://pubmed.ncbi.nlm.nih.gov/41948554/)
+### 1. [细胞衰老与代谢老化在2型糖尿病中的机制解析与转化意义](https://pubmed.ncbi.nlm.nih.gov/41948554/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 2. [Chronic Kidney Disease and Cellular Senescence.](https://pubmed.ncbi.nlm.nih.gov/41977388/)
+### 2. [慢性肾病与细胞衰老的关联研究](https://pubmed.ncbi.nlm.nih.gov/41977388/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 3. [Natural killer cells: gatekeepers of healthy aging in longevity medicine.](https://pubmed.ncbi.nlm.nih.gov/41882798/)
+### 3. [自然杀伤细胞：长寿医学中健康老龄化的守门人](https://pubmed.ncbi.nlm.nih.gov/41882798/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 4. [Targeting immunosenescence in lung diseases: mechanistic insights and clinical interventions.](https://pubmed.ncbi.nlm.nih.gov/41952158/)
+### 4. [靶向肺部疾病中的免疫衰老：机制与临床干预进展](https://pubmed.ncbi.nlm.nih.gov/41952158/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 5. [Epigenetic ageing and the risk of Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/41469193/)
+### 5. [表观遗传衰老与帕金森病风险的关联](https://pubmed.ncbi.nlm.nih.gov/41469193/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
 ## **👀 值得关注**
 
-- **[社区]** [Dr Michael Mosley approved diet could slash risk of Alzheimer’s disease It could also reduce your risk of c...](https://vive.im/@mediterraneandiet/116424369154997927) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
-- **[社区]** [Dr Michael Mosley approved diet could slash risk of Alzheimer’s disease It could also reduce your risk of c...](https://vive.im/@dc/116424141576154668) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
-- **[社区]** [A new study with 45k participants finds that greater adherence to a healthful #plantbased diet is linked to...](https://fed.brid.gy/r/https://bsky.app/profile/did:plc:bdbuhq46rj2nerrfacwh4flu/post/3mjow3y2hdk27) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
-- **[社区]** [Over 53 million family caregivers worldwide provide daily, often unseen care for loved ones. Eleanor Gaccet...](https://mastodon.social/@rix_15/116414906416906220) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
-- **[资讯]** [Clearing amyloid beta shows no significant impact on dementia severity](https://www.news-medical.net/news/20260416/Clearing-amyloid-beta-shows-no-significant-impact-on-dementia-severity.aspx) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[社区]** [Michael Mosley 推荐饮食法或可大幅降低阿尔茨海默症风险](https://vive.im/@mediterraneandiet/116424369154997927) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
+- **[社区]** [Michael Mosley 推荐饮食法或可大幅降低阿尔茨海默症风险](https://vive.im/@dc/116424141576154668) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
+- **[社区]** [4.5万人研究：坚持健康植物性饮食与多种疾病风险降低显著相关](https://fed.brid.gy/r/https://bsky.app/profile/did:plc:bdbuhq46rj2nerrfacwh4flu/post/3mjow3y2hdk27) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
+- **[社区]** [全球逾5300万家庭照护者默默承担日常护理重担](https://mastodon.social/@rix_15/116414906416906220) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
+- **[资讯]** [清除淀粉样蛋白β对痴呆严重程度无显著改善](https://www.news-medical.net/news/20260416/Clearing-amyloid-beta-shows-no-significant-impact-on-dementia-severity.aspx) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
 
 ## **😄 AI生命延续学趣闻**
 
-### [Dr Michael Mosley approved diet could slash risk of Alzheimer’s disease It could also reduce your risk of c...](https://vive.im/@mediterraneandiet/116424369154997927)
+### [Michael Mosley 推荐饮食法或可大幅降低阿尔茨海默症风险](https://vive.im/@mediterraneandiet/116424369154997927)
 今天最有意思的点，不一定是它有多“炸”，而是它把 脑衰老 这条线讲得更具体了。换成普通话说，就是赛道里那些看起来抽象的方向，开始能被写成更容易跟踪的真实信号了。
 
 ## **🔮 AI生命延续学趋势预测**
@@ -74,24 +74,24 @@ cascade:
 ### 长寿研究 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[Cellular senescence and metabolic aging in type 2 diabetes: mechanistic insights and translational implications.](https://pubmed.ncbi.nlm.nih.gov/41948554/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[细胞衰老与代谢老化在2型糖尿病中的机制解析与转化意义](https://pubmed.ncbi.nlm.nih.gov/41948554/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ### 长寿研究 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[Chronic Kidney Disease and Cellular Senescence.](https://pubmed.ncbi.nlm.nih.gov/41977388/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[慢性肾病与细胞衰老的关联研究](https://pubmed.ncbi.nlm.nih.gov/41977388/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ### 长寿研究 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[Natural killer cells: gatekeepers of healthy aging in longevity medicine.](https://pubmed.ncbi.nlm.nih.gov/41882798/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[自然杀伤细胞：长寿医学中健康老龄化的守门人](https://pubmed.ncbi.nlm.nih.gov/41882798/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ## **❓ 相关问题**
 
 ### 今天最值得先追哪一条？
 
-如果时间有限，先看 [Cellular senescence and metabolic aging in type 2 diabetes: mechanistic insights and translational implications.](https://pubmed.ncbi.nlm.nih.gov/41948554/)。它更接近今天最核心的生命延续学主线，适合拿来判断接下来是继续追研究、追工具，还是追真实服务场景。
+如果时间有限，先看 [细胞衰老与代谢老化在2型糖尿病中的机制解析与转化意义](https://pubmed.ncbi.nlm.nih.gov/41948554/)。它更接近今天最核心的生命延续学主线，适合拿来判断接下来是继续追研究、追工具，还是追真实服务场景。
 
 ### 还有哪条适合继续跟踪？
 
-可以继续留意 [Dr Michael Mosley approved diet could slash risk of Alzheimer’s disease It could also reduce your risk of c...](https://vive.im/@mediterraneandiet/116424369154997927)。这类条目未必是当天最强爆点，但往往更适合作为后续一两周的跟踪线索。
+可以继续留意 [Michael Mosley 推荐饮食法或可大幅降低阿尔茨海默症风险](https://vive.im/@mediterraneandiet/116424369154997927)。这类条目未必是当天最强爆点，但往往更适合作为后续一两周的跟踪线索。
