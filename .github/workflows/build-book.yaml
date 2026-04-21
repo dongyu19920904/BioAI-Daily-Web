@@ -31,11 +31,11 @@ jobs:
     steps:
       # 第0步：检出当前仓库代码
       - name: Checkout current repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # 第1步：拉取源仓库代码
       - name: Clone source repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ github.event.inputs.source_repo || 'dongyu19920904/BioAI-Daily-Web' }}
           ref: ${{ github.event.inputs.source_branch || 'main' }} # Fallback to current branch
