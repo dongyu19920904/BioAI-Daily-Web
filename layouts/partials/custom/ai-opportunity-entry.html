@@ -1,14 +1,30 @@
-{{ partial "custom/section-entry-card.html" (dict
-  "page" .
-  "section" "opportunity"
-  "defaultLink" ("/opportunity" | relLangURL)
-  "defaultTitle" "AI生命延续学商机日报"
-  "defaultText" "把今日日报里的长寿、延寿、衰老研究继续提炼成更适合做情报产品、专题库、咨询和低维护服务的机会判断。"
-  "badgeText" "Opportunity Daily"
-  "badgeClass" "hx:text-emerald-700 hx:dark:text-emerald-300"
-  "borderClass" "hx:border-emerald-200/70 hx:dark:border-emerald-900/70"
-  "bgClass" "hx:bg-emerald-50/70 hx:dark:bg-emerald-950/30"
-  "buttonClass" "hx:bg-emerald-600 hover:hx:bg-emerald-500"
-  "buttonLabel" "查看商机日报"
-  "ariaLabel" "AI生命延续学商机日报入口"
-) }}
+{{- $pages := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $base := .File.BaseFileName -}}
+  {{- if and (eq .Section "opportunity") (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" $base) -}}
+    {{- $pages = $pages | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
+{{- $entryLink := "/opportunity" | relLangURL -}}
+{{- $entryTitle := "AI生命延续学商机日报" -}}
+{{- $entryText := "把今日日报里的长寿 / 延寿 / 衰老研究，继续提炼成更适合做情报产品、专题库、咨询和低维护服务的机会判断。" -}}
+{{- if gt (len $latest) 0 -}}
+  {{- $page := index $latest 0 -}}
+  {{- $entryLink = $page.RelPermalink -}}
+  {{- $entryTitle = printf "最新一期：%s" $page.Title -}}
+  {{- with $page.Description -}}
+    {{- $entryText = . -}}
+  {{- end -}}
+{{- end -}}
+
+<aside class="hx:mt-8 hx:rounded-2xl hx:border hx:border-emerald-200/70 hx:bg-emerald-50/70 hx:p-4 hx:dark:border-emerald-900/70 hx:dark:bg-emerald-950/30" aria-label="AI生命延续学商机日报入口">
+  <div class="hx:text-xs hx:font-semibold hx:uppercase hx:tracking-[0.18em] hx:text-emerald-700 hx:dark:text-emerald-300">Opportunity Daily</div>
+  <div class="hx:mt-3 hx:flex hx:flex-col hx:gap-4 hx:md:flex-row hx:md:items-end hx:md:justify-between">
+    <div class="hx:max-w-3xl">
+      <h2 class="hx:text-lg hx:font-semibold hx:text-slate-900 hx:dark:text-slate-100">{{ $entryTitle }}</h2>
+      <p class="hx:mt-2 hx:text-sm hx:leading-6 hx:text-slate-700 hx:dark:text-slate-300">{{ $entryText }}</p>
+    </div>
+    <a class="hx:inline-flex hx:items-center hx:justify-center hx:rounded-xl hx:bg-emerald-600 hx:px-4 hx:py-2.5 hx:text-sm hx:font-medium hx:text-white hover:hx:bg-emerald-500" href="{{ $entryLink }}">查看商机日报</a>
+  </div>
+</aside>

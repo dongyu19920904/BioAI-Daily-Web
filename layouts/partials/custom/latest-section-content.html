@@ -16,13 +16,8 @@
   {{- $page := index $latest 0 -}}
   <div class="latest-section-surface latest-section-surface--{{ $section }}">
     <div class="latest-section-surface__intro">
-      <div class="latest-section-surface__intro-head">
-        <div>
-          <span class="latest-section-surface__eyebrow">{{ $eyebrow }}</span>
-          <h2 class="latest-section-surface__intro-title">{{ $introTitle }}</h2>
-        </div>
-        <a class="latest-section-surface__jump" href="{{ $page.RelPermalink }}">打开独立页面</a>
-      </div>
+      <span class="latest-section-surface__eyebrow">{{ $eyebrow }}</span>
+      <h2 class="latest-section-surface__intro-title">{{ $introTitle }}</h2>
       <p class="latest-section-surface__intro-text">{{ $introText }}</p>
     </div>
     {{- $page.Content -}}
