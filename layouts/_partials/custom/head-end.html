@@ -699,175 +699,6 @@ html.dark {
   display: none;
 }
 
-.bio-section-page,
-.bio-doc-page {
-  display: grid;
-  gap: 1.2rem;
-  padding-bottom: 2rem;
-}
-
-.bio-section-hero,
-.bio-doc-masthead,
-.bio-doc-shell {
-  border-radius: 1.9rem;
-  border: 1px solid rgba(20, 184, 166, 0.14);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(240, 253, 250, 0.96)),
-    #ffffff;
-  box-shadow: 0 28px 72px -56px rgba(15, 23, 42, 0.42);
-}
-
-.bio-section-hero {
-  display: grid;
-  gap: 1rem;
-  padding: clamp(1.1rem, 2vw, 1.55rem);
-}
-
-.bio-section-hero--project {
-  background:
-    radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 28%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 251, 235, 0.96)),
-    #ffffff;
-}
-
-.bio-section-hero__copy,
-.bio-doc-masthead__copy {
-  display: grid;
-  gap: 0.58rem;
-}
-
-.bio-section-hero__eyebrow,
-.bio-doc-masthead__eyebrow {
-  display: inline-flex;
-  width: fit-content;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: #0f766e;
-}
-
-.bio-section-hero__title,
-.bio-doc-masthead__title {
-  margin: 0;
-  font-size: clamp(1.9rem, 3.6vw, 3.1rem);
-  line-height: 0.96;
-  letter-spacing: -0.05em;
-  text-wrap: balance;
-  color: #0f172a;
-}
-
-.bio-section-hero__text,
-.bio-doc-masthead__text {
-  max-width: 48rem;
-  color: #475569;
-  line-height: 1.82;
-}
-
-.bio-section-hero__actions,
-.bio-doc-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.72rem;
-}
-
-.bio-section-hero__primary,
-.bio-section-hero__secondary,
-.bio-doc-actions__primary,
-.bio-doc-actions__secondary,
-.latest-section-surface__jump {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 2.85rem;
-  padding: 0.78rem 1.1rem;
-  border-radius: 999px;
-  text-decoration: none !important;
-  font-weight: 700;
-  transition:
-    transform 0.24s ease,
-    box-shadow 0.24s ease,
-    background-color 0.24s ease,
-    border-color 0.24s ease,
-    color 0.24s ease;
-}
-
-.bio-section-hero__primary,
-.bio-doc-actions__primary {
-  background: linear-gradient(135deg, #0f766e, #0f3f3c);
-  color: #ecfeff !important;
-  box-shadow: 0 18px 34px -24px rgba(15, 118, 110, 0.45);
-}
-
-.bio-section-hero__secondary,
-.bio-doc-actions__secondary,
-.latest-section-surface__jump {
-  border: 1px solid rgba(15, 118, 110, 0.14);
-  background: rgba(255, 255, 255, 0.76);
-  color: #0f4a44 !important;
-}
-
-.bio-section-hero__primary:hover,
-.bio-section-hero__secondary:hover,
-.bio-doc-actions__primary:hover,
-.bio-doc-actions__secondary:hover,
-.latest-section-surface__jump:hover {
-  transform: translateY(-2px);
-}
-
-.bio-section-hero__pills,
-.bio-doc-masthead__meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-}
-
-.bio-section-hero__pills span,
-.bio-doc-masthead__meta span {
-  display: inline-flex;
-  align-items: center;
-  border-radius: 999px;
-  border: 1px solid rgba(15, 118, 110, 0.12);
-  background: rgba(255, 255, 255, 0.76);
-  padding: 0.34rem 0.74rem;
-  font-size: 0.76rem;
-  font-weight: 700;
-  color: #0f766e;
-}
-
-.bio-doc-masthead {
-  display: grid;
-  gap: 0.95rem;
-  padding: clamp(1.1rem, 2vw, 1.55rem);
-}
-
-.bio-doc-masthead--project {
-  background:
-    radial-gradient(circle at top right, rgba(245, 158, 11, 0.1), transparent 28%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 251, 235, 0.96)),
-    #ffffff;
-}
-
-.bio-doc-shell {
-  padding: clamp(1.15rem, 2vw, 1.6rem);
-}
-
-.bio-doc-shell--plain {
-  margin-top: 0.35rem;
-}
-
-.bio-doc-shell .content {
-  margin: 0;
-}
-
-.bio-doc-shell .content > h1:first-child {
-  display: none;
-}
-
-.bio-doc-shell .content > *:first-child {
-  margin-top: 0;
-}
-
 .section-entry-card {
   margin: 1.45rem 0 1.8rem;
   padding: 1.05rem 1.1rem 1.15rem;
@@ -919,13 +750,6 @@ html.dark {
   border-bottom: 1px solid rgba(15, 118, 110, 0.12);
 }
 
-.latest-section-surface__intro-head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 0.9rem;
-}
-
 .latest-section-surface__intro-title {
   margin: 0;
   font-size: clamp(1.45rem, 2.6vw, 2rem);
@@ -957,8 +781,6 @@ html.dark .bio-cover__text,
 html.dark .bio-rail-card__text,
 html.dark .bio-rail-card__list,
 html.dark .bio-quick-card__text,
-.dark .bio-section-hero__text,
-.dark .bio-doc-masthead__text,
 html.dark .section-entry-card__text,
 html.dark .latest-section-surface__intro-text {
   color: #cbd5e1;
@@ -967,9 +789,6 @@ html.dark .latest-section-surface__intro-text {
 html.dark .bio-cover__secondary,
 html.dark .bio-rail-card,
 html.dark .bio-quick-card,
-html.dark .bio-section-hero,
-html.dark .bio-doc-masthead,
-html.dark .bio-doc-shell,
 html.dark .section-entry-card,
 html.dark .latest-section-surface,
 html.dark .bio-home__content {
@@ -980,8 +799,6 @@ html.dark .bio-home__content {
 }
 
 html.dark .bio-quick-card--primary,
-html.dark .bio-section-hero--opportunity,
-html.dark .bio-doc-masthead--opportunity,
 html.dark .latest-section-surface--opportunity {
   background:
     radial-gradient(circle at top right, rgba(45, 212, 191, 0.15), transparent 28%),
@@ -990,8 +807,6 @@ html.dark .latest-section-surface--opportunity {
 }
 
 html.dark .section-entry-card,
-html.dark .bio-section-hero--project,
-html.dark .bio-doc-masthead--project,
 html.dark .latest-section-surface--project-opportunity {
   background:
     radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 28%),
@@ -1002,8 +817,6 @@ html.dark .latest-section-surface--project-opportunity {
 html.dark .bio-cover__title,
 html.dark .bio-rail-card__title,
 html.dark .bio-quick-card__title,
-html.dark .bio-section-hero__title,
-html.dark .bio-doc-masthead__title,
 html.dark .section-entry-card__headline,
 html.dark .latest-section-surface__intro-title {
   color: #ecfeff;
@@ -1013,27 +826,10 @@ html.dark .bio-cover__eyebrow,
 html.dark .latest-section-surface__eyebrow,
 html.dark .bio-rail-card__eyebrow,
 html.dark .bio-quick-card__label,
-html.dark .bio-section-hero__eyebrow,
-html.dark .bio-doc-masthead__eyebrow,
 html.dark .section-entry-card__signal,
 html.dark .section-entry-card__meta span,
 html.dark .section-entry-card__eyebrow {
   color: #5eead4;
-}
-
-html.dark .bio-section-hero__pills span,
-html.dark .bio-doc-masthead__meta span {
-  border-color: rgba(45, 212, 191, 0.12);
-  background: rgba(255, 255, 255, 0.04);
-  color: #5eead4;
-}
-
-html.dark .bio-section-hero__secondary,
-html.dark .bio-doc-actions__secondary,
-html.dark .latest-section-surface__jump {
-  border-color: rgba(45, 212, 191, 0.12);
-  background: rgba(255, 255, 255, 0.04);
-  color: #d5fffb !important;
 }
 
 html.dark .latest-section-surface__intro {
@@ -1052,20 +848,12 @@ html.dark .latest-section-surface__intro {
 }
 
 @media (max-width: 768px) {
-  .bio-section-hero__actions,
-  .bio-doc-actions,
-  .latest-section-surface__intro-head,
   .bio-cover__actions,
   .section-entry-card__body {
     flex-direction: column;
     align-items: stretch;
   }
 
-  .latest-section-surface__jump,
-  .bio-section-hero__primary,
-  .bio-section-hero__secondary,
-  .bio-doc-actions__primary,
-  .bio-doc-actions__secondary,
   .bio-cover__primary,
   .bio-cover__secondary,
   .section-entry-card__button {
