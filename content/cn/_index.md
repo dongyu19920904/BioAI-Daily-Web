@@ -11,16 +11,16 @@ cascade:
 ## **今日摘要**
 
 ```
-今天最值得先看的是 Schizophrenia and accelerated ageing: systematic review and future research directions.。
+今天最值得先看的是 精神分裂症与加速衰老：系统综述与未来研究方向。
 本期筛出 14 条重点信号，其中强相关 9 条、邻近相关 5 条。
-如果只再追一条后续线索，可以继续看 Epigenetic Age Feedback as a Catalyst for Sustained Lifestyle Change: One-Year Results from the EU iHelp Study.。
+如果只再追一条后续线索，可以继续看 表观遗传年龄反馈促进持续生活方式改变：EU iHelp研究一年期结果。
 ```
 
 
 
 ## ⚡ 快速导航
 
-- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 最新动态速览
+- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 先看《精神分裂症与加速衰老：系统综述与未来研究方向》，再追《表观遗传年龄反馈促进持续生活方式改变：EU iHelp研究一年期结果》
 
 
 
@@ -36,37 +36,37 @@ cascade:
 
 ## **🔥 重磅 TOP 5**
 
-### 1. [Schizophrenia and accelerated ageing: systematic review and future research directions.](https://pubmed.ncbi.nlm.nih.gov/42015596/)
+### 1. [精神分裂症与加速衰老：系统综述与未来研究方向](https://pubmed.ncbi.nlm.nih.gov/42015596/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 2. [Epigenetic Age Feedback as a Catalyst for Sustained Lifestyle Change: One-Year Results from the EU iHelp Study.](https://pubmed.ncbi.nlm.nih.gov/42029636/)
+### 2. [表观遗传年龄反馈促进持续生活方式改变：EU iHelp研究一年期结果](https://pubmed.ncbi.nlm.nih.gov/42029636/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 3. [Epigenetic ageing and the risk of Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/41469193/)
+### 3. [表观遗传衰老与帕金森病风险的关联研究](https://pubmed.ncbi.nlm.nih.gov/41469193/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 4. [Toward actionable interventions in human aging (12th ARDD meeting, 2025).](https://pubmed.ncbi.nlm.nih.gov/41944812/)
+### 4. [迈向可落地的人类衰老干预：第12届ARDD会议综述（2025）](https://pubmed.ncbi.nlm.nih.gov/41944812/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 5. [High-throughput screening for ageing and age-related disease drug discovery: Advances and challenges.](https://pubmed.ncbi.nlm.nih.gov/41966413/)
+### 5. [衰老及老年病药物发现的高通量筛选：进展与挑战](https://pubmed.ncbi.nlm.nih.gov/41966413/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
 ## **👀 值得关注**
 
-- **[资讯]** [AI Cracks the Code on Alzheimer’s Greatest Mystery - Yahoo](https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkVHNExraE5JX1pIV042ZG1rSE1pX3U1MXNMUEkxbGxrbEwxa3RWbVlxQkJtcEE1X2M5MkhIZlNZNTlxRl9SUmZiSV9IYXVJVVBGWFg2bHhJWWtCN0xaSFFoQW83NWRVb3Bzd21uaW9kVDRtOTF6WXR1aXdGbzVYZnJBNUVjQkYyUFU5Zg?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
-- **[资讯]** [CWRU receives $6.2M to identify Alzheimer’s genetic targets - Cleveland.com](https://news.google.com/rss/articles/CBMipgFBVV95cUxOXzVFLVZRNnZ0a1E4M0dQaGx6MXlheGhRRFBkZVUzSV9LVUxpTi1FMXpSYkI0TndCSThlb2FDTTVoR09mbWQta2tETlJ0UldfM2dkY09tRE5jZHBxUmdHUzNTX0tBN2VERXFQV1o4RzUyRWY0OGpYX3RHUjk0d2pheGZrS0tWTHFKSFdHaDA5ekNCTXVXenFjeEZfTDJIcnV0aFIwOTRR0gG6AUFVX3lxTE1fSkZOWlJFNkprM0tjZjJwNTViYk1vMXUyNkxNMnZVcl9tcEladmhfX2s5cXgxbUo4emRNM0owdU42M2M3OVNDa0FmTjZGVnNGaW5zMFJ4SUp3cTA4bjZwQTVXa3ZCeDNIRGxScGxLUFU0ZzZ0YVMweEhDMTBqRUxUV3pQTDc4NmNIamctUXBEV0dkV2tqTnl4RjRZbFpwbEJoZ2F3RFJad2ZUc3otYW5GbkRBNUhrWGRBUQ?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
-- **[资讯]** [Using AI to Predict Alzheimer’s Disease - GE HealthCare](https://news.google.com/rss/articles/CBMilgFBVV95cUxQVGdNaUoyRC1SZmF6Mnk2bzBQT0NCZGw2TldxbDM0NlVDa0Iwa01abGVZNWtFUzdWdV83QnR5NEgwbl8zS0NZWXhST1E1WVRUZDAwUzg2RTJ0N1dEYktxazhDdWgzMEdlZDdZNlVBRVluM014Y25ZVHRmXy1Xdl96T2VUeU1zR0NwZi0tX2paMmFsaFg2Nnc?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
-- **[资讯]** [Can your dreams predict dementia? AI algorithm detects warning signs 15 years early - Futura, le média qui explore le monde](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeC00eG52bDdPMWNiTnctM05KOW9EeHZNcDJ5T1BGTS14aENDclg3WXJMRnZGcWx0MFVEclduMEpPMEw3QVBvWWpSMDBjZ1ZlbzJyRTI2cFBuX2lDNXVDOWpDWEhTN2ZpQ2dMMDNGUENSemtfUnV1UGo2V1lIOV9LcnlfeEVfUGE2UnloV3RiNTFtYklydjZJSnpjOVM3VHRrMkphOTBLUkZiZG1SX0xWcWZkcUM0SGhSYjZN?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
-- **[资讯]** [Park Christian freshmen develop AI glasses app for dementia support - InForum](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNblNZc1JVNVBRVmM2dHEyTmFmb0QwbDNWUUVqV1VsYnBXQ3lzRjhnVEpCMjYxeFpFM3RFRm96c3lnaWk1alNLTFBwNWtRZ2k4UzgtWGFYalFBNXl3bXQ1emNOUm5Ia1c4dGJJQi1oQ3VoV3BEY080RTd2WjU3MDJGNUdnRWhCdEVqVUxkTDBPR1J4V3cwTGsyb1pYSHpmbEVKckFrMmJIbjY?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[资讯]** [AI破解阿尔茨海默症最大谜题](https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkVHNExraE5JX1pIV042ZG1rSE1pX3U1MXNMUEkxbGxrbEwxa3RWbVlxQkJtcEE1X2M5MkhIZlNZNTlxRl9SUmZiSV9IYXVJVVBGWFg2bHhJWWtCN0xaSFFoQW83NWRVb3Bzd21uaW9kVDRtOTF6WXR1aXdGbzVYZnJBNUVjQkYyUFU5Zg?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[资讯]** [CWRU获620万美元资助，用于识别阿尔茨海默症遗传靶点](https://news.google.com/rss/articles/CBMipgFBVV95cUxOXzVFLVZRNnZ0a1E4M0dQaGx6MXlheGhRRFBkZVUzSV9LVUxpTi1FMXpSYkI0TndCSThlb2FDTTVoR09mbWQta2tETlJ0UldfM2dkY09tRE5jZHBxUmdHUzNTX0tBN2VERXFQV1o4RzUyRWY0OGpYX3RHUjk0d2pheGZrS0tWTHFKSFdHaDA5ekNCTXVXenFjeEZfTDJIcnV0aFIwOTRR0gG6AUFVX3lxTE1fSkZOWlJFNkprM0tjZjJwNTViYk1vMXUyNkxNMnZVcl9tcEladmhfX2s5cXgxbUo4emRNM0owdU42M2M3OVNDa0FmTjZGVnNGaW5zMFJ4SUp3cTA4bjZwQTVXa3ZCeDNIRGxScGxLUFU0ZzZ0YVMweEhDMTBqRUxUV3pQTDc4NmNIamctUXBEV0dkV2tqTnl4RjRZbFpwbEJoZ2F3RFJad2ZUc3otYW5GbkRBNUhrWGRBUQ?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[资讯]** [GE HealthCare：用AI预测阿尔茨海默症](https://news.google.com/rss/articles/CBMilgFBVV95cUxQVGdNaUoyRC1SZmF6Mnk2bzBQT0NCZGw2TldxbDM0NlVDa0Iwa01abGVZNWtFUzdWdV83QnR5NEgwbl8zS0NZWXhST1E1WVRUZDAwUzg2RTJ0N1dEYktxazhDdWgzMEdlZDdZNlVBRVluM014Y25ZVHRmXy1Xdl96T2VUeU1zR0NwZi0tX2paMmFsaFg2Nnc?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[资讯]** [梦境能预测痴呆？AI算法可提前15年检测预警信号](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeC00eG52bDdPMWNiTnctM05KOW9EeHZNcDJ5T1BGTS14aENDclg3WXJMRnZGcWx0MFVEclduMEpPMEw3QVBvWWpSMDBjZ1ZlbzJyRTI2cFBuX2lDNXVDOWpDWEhTN2ZpQ2dMMDNGUENSemtfUnV1UGo2V1lIOV9LcnlfeEVfUGE2UnloV3RiNTFtYklydjZJSnpjOVM3VHRrMkphOTBLUkZiZG1SX0xWcWZkcUM0SGhSYjZN?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[资讯]** [高中生开发AI眼镜应用，为痴呆症患者提供辅助支持](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNblNZc1JVNVBRVmM2dHEyTmFmb0QwbDNWUUVqV1VsYnBXQ3lzRjhnVEpCMjYxeFpFM3RFRm96c3lnaWk1alNLTFBwNWtRZ2k4UzgtWGFYalFBNXl3bXQ1emNOUm5Ia1c4dGJJQi1oQ3VoV3BEY080RTd2WjU3MDJGNUdnRWhCdEVqVUxkTDBPR1J4V3cwTGsyb1pYSHpmbEVKckFrMmJIbjY?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
 
 ## **😄 AI生命延续学趣闻**
 
-### [AI Cracks the Code on Alzheimer’s Greatest Mystery - Yahoo](https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkVHNExraE5JX1pIV042ZG1rSE1pX3U1MXNMUEkxbGxrbEwxa3RWbVlxQkJtcEE1X2M5MkhIZlNZNTlxRl9SUmZiSV9IYXVJVVBGWFg2bHhJWWtCN0xaSFFoQW83NWRVb3Bzd21uaW9kVDRtOTF6WXR1aXdGbzVYZnJBNUVjQkYyUFU5Zg?oc=5)
+### [AI破解阿尔茨海默症最大谜题](https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkVHNExraE5JX1pIV042ZG1rSE1pX3U1MXNMUEkxbGxrbEwxa3RWbVlxQkJtcEE1X2M5MkhIZlNZNTlxRl9SUmZiSV9IYXVJVVBGWFg2bHhJWWtCN0xaSFFoQW83NWRVb3Bzd21uaW9kVDRtOTF6WXR1aXdGbzVYZnJBNUVjQkYyUFU5Zg?oc=5)
 今天最有意思的点，不一定是它有多“炸”，而是它把 脑衰老 这条线讲得更具体了。换成普通话说，就是赛道里那些看起来抽象的方向，开始能被写成更容易跟踪的真实信号了。
 
 ## **🔮 AI生命延续学趋势预测**
@@ -74,24 +74,24 @@ cascade:
 ### 长寿研究 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[Schizophrenia and accelerated ageing: systematic review and future research directions.](https://pubmed.ncbi.nlm.nih.gov/42015596/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[精神分裂症与加速衰老：系统综述与未来研究方向](https://pubmed.ncbi.nlm.nih.gov/42015596/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ### 长寿研究 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[Epigenetic Age Feedback as a Catalyst for Sustained Lifestyle Change: One-Year Results from the EU iHelp Study.](https://pubmed.ncbi.nlm.nih.gov/42029636/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[表观遗传年龄反馈促进持续生活方式改变：EU iHelp研究一年期结果](https://pubmed.ncbi.nlm.nih.gov/42029636/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ### 长寿研究 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[Epigenetic ageing and the risk of Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/41469193/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[表观遗传衰老与帕金森病风险的关联研究](https://pubmed.ncbi.nlm.nih.gov/41469193/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ## **❓ 相关问题**
 
 ### 今天最值得先追哪一条？
 
-如果时间有限，先看 [Schizophrenia and accelerated ageing: systematic review and future research directions.](https://pubmed.ncbi.nlm.nih.gov/42015596/)。它更接近今天最核心的生命延续学主线，适合拿来判断接下来是继续追研究、追工具，还是追真实服务场景。
+如果时间有限，先看 [精神分裂症与加速衰老：系统综述与未来研究方向](https://pubmed.ncbi.nlm.nih.gov/42015596/)。它更接近今天最核心的生命延续学主线，适合拿来判断接下来是继续追研究、追工具，还是追真实服务场景。
 
 ### 还有哪条适合继续跟踪？
 
-可以继续留意 [AI Cracks the Code on Alzheimer’s Greatest Mystery - Yahoo](https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkVHNExraE5JX1pIV042ZG1rSE1pX3U1MXNMUEkxbGxrbEwxa3RWbVlxQkJtcEE1X2M5MkhIZlNZNTlxRl9SUmZiSV9IYXVJVVBGWFg2bHhJWWtCN0xaSFFoQW83NWRVb3Bzd21uaW9kVDRtOTF6WXR1aXdGbzVYZnJBNUVjQkYyUFU5Zg?oc=5)。这类条目未必是当天最强爆点，但往往更适合作为后续一两周的跟踪线索。
+可以继续留意 [AI破解阿尔茨海默症最大谜题](https://news.google.com/rss/articles/CBMijAFBVV95cUxPSkVHNExraE5JX1pIV042ZG1rSE1pX3U1MXNMUEkxbGxrbEwxa3RWbVlxQkJtcEE1X2M5MkhIZlNZNTlxRl9SUmZiSV9IYXVJVVBGWFg2bHhJWWtCN0xaSFFoQW83NWRVb3Bzd21uaW9kVDRtOTF6WXR1aXdGbzVYZnJBNUVjQkYyUFU5Zg?oc=5)。这类条目未必是当天最强爆点，但往往更适合作为后续一两周的跟踪线索。
