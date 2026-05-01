@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/4/30
+title: AI生命延续学日报 2026/5/1
 breadcrumbs: false
-next: /en/2026-04/2026-04-29
+next: /en/2026-04/2026-04-30
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,98 +11,102 @@ cascade:
 # Daily Summary
 
 ```
-The must-read story today is scAgeClock: a single-cell transcriptomic human aging clock model based on gated multi-head attention neural networks.
-It's not just a precision upgrade—from measuring age to predicting Parkinson's risk, the boundaries of aging clock applications are being rapidly redrawn.
-If you want to follow one more thread, check out Can epigenetic age feedback drive lasting lifestyle change? EU iHelp one-year results.
+The most worth watching today is Multi-omics reveals metabolic rejuvenation mechanism of Losartan in aged mice and pre-frail elderly men.
+Senescent cell research is shifting from "pan-clearance" to precision subtype targeting, with p21⁺TREM2⁺ macrophages becoming the new target.
+If you can only follow one more lead, continue with p21⁺TREM2⁺ senescent macrophages drive inflammaging and metabolic dysfunction-associated fatty liver disease.
 ```
 
 ## ⚡ Quick Navigation
 
-- [📰 Today's AI Longevity Science News](#todays-ai-longevity-science-news) - Start with [scAgeClock: Single-Cell Transcriptomic Human Aging Clock Model Based on Gated Multi-Head Attention Neural Networks](https://pubmed.ncbi.nlm.nih.gov/41935096/), then follow up with [Can Epigenetic Age Feedback Drive Lasting Lifestyle Change? EU iHelp One-Year Results](https://pubmed.ncbi.nlm.nih.gov/42029636/)
+- [📰 Today's AI Longevity Science News](#todays-ai-longevity-science-news) - Start with "Multi-omics reveals metabolic rejuvenation mechanism of Losartan in aged mice and pre-frail elderly men," then follow up with "p21⁺TREM2⁺ senescent macrophages drive inflammaging and metabolic dysfunction-associated fatty liver disease"
 
-> 💡 **Tip**: Want early access to the latest AI models mentioned in this piece (Claude 4.5, GPT, Gemini 3 Pro)? No account? Grab one at [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content)—one minute setup, hassle-free support.
+> 💡 **Tip**: Want to experience the latest AI models mentioned in the article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, hassle-free support.
 
 ## **Today's AI Longevity Science News**
 
 ### **👀 One-Liner**
-Single-cell aging clocks just arrived, jumping biological age measurement from "class average" to "individual student scores"—the game changed today.
+An old blood pressure drug from decades ago is now proven by multi-omics data to trigger metabolic rejuvenation in elderly people—the "old drug, new use" pathway is closer than we thought.
 
 ### **🔑 3 Key Takeaways**
-#SingleCellAgingClock #BiologicalAgeIntervention #ImmunosenescenceNewTargets
+#MetabolicRejuvenation #PrecisionSenescentCellClearance #OldDrugNewUse
 
 ---
 
-## **🔥 Top 5 Stories**
+## **🔥 Top 6 Highlights**
 
-### 1. [scAgeClock: Single-Cell Transcriptomic Human Aging Clock Model Based on Gated Multi-Head Attention Neural Networks](https://pubmed.ncbi.nlm.nih.gov/41935096/)
+### 1. [Multi-omics reveals metabolic rejuvenation mechanism of Losartan in aged mice and pre-frail elderly men](https://pubmed.ncbi.nlm.nih.gov/42017270/)
 
-Measuring biological age used to rely on "mixed signals" from blood or tissue—like judging a student by class average, massive information loss. scAgeClock cranks the resolution down to individual cells, using single-cell transcriptomic data (gene expression snapshots per cell) plus gated multi-head attention neural networks (an AI architecture that auto-focuses on what matters). What does this mean? Soon you won't just hear "your biological age is 45"—you'll hear "your immune cells are aging, but your stem cells are young." This is a real dimensional leap for precision anti-aging intervention assessment.
-
----
-
-### 2. [Can Epigenetic Age Feedback Drive Lasting Lifestyle Change? EU iHelp One-Year Results](https://pubmed.ncbi.nlm.nih.gov/42029636/)
-
-When doctors say "eat less salt, exercise more," most people forget by the time they leave the office. But what if you saw a number: "your epigenetic age is 6 years older than your actual age"? EU iHelp tracked this for a full year, testing whether DNA methylation (cellular "age markers") feedback actually sticks with people. The answer: yes. Concrete biological age numbers drive behavior change way better than generic health advice. For biological age tools, this is a strong signal—technology alone isn't enough; turning numbers into action is the next battleground.
+Ever wonder if an old blood pressure pill on the market for decades might be quietly reversing aging? Today's published research used multi-omics—simultaneously analyzing genes, proteins, metabolites, and more—to systematically document metabolic changes from Losartan (a common antihypertensive) in aged mice and "pre-frail" elderly men. The results show it can shift metabolic state toward a younger direction across multiple molecular layers. This isn't a "might work" guess—it's a mechanism map backed by data. For longevity researchers, this "old drug, new use" pathway has low costs and solid safety records, making it worth serious attention for follow-up clinical progress.
 
 ---
 
-### 3. [Epigenetic Aging and Parkinson's Disease Risk Association Study](https://pubmed.ncbi.nlm.nih.gov/41469193/)
+### 2. [p21⁺TREM2⁺ senescent macrophages drive inflammaging and metabolic dysfunction-associated fatty liver disease](https://pubmed.ncbi.nlm.nih.gov/41991686/)
 
-Early prediction of Parkinson's disease (the neurodegenerative disorder affecting movement control) has always been tough. This research directly links epigenetic aging estimators to Parkinson's risk, finding that people with accelerated biological age face significantly higher disease risk. It's not just academic—it means aging clock applications are expanding from "how old am I" to "what disease will I get." After Alzheimer's and cardiovascular disease, Parkinson's is now on the aging clock prediction map. Once this trend solidifies, the clinical value of aging clocks gets repriced.
-
----
-
-### 4. [High-Throughput Screening for Drug Discovery in Aging and Age-Related Diseases: Progress and Challenges](https://pubmed.ncbi.nlm.nih.gov/41966413/)
-
-Finding a drug that slows aging meant testing thousands of compounds one by one the old way—slow, expensive, low success rates. This review systematically maps high-throughput screening progress (testing massive compound libraries at once) in aging drug discovery, with heavy focus on AI's role: from model organism screening to AI-assisted compound prediction, the whole pipeline is being rebuilt. "Artificial intelligence" is explicitly in the keywords—this isn't casual talk. If you're tracking the AI pharma × anti-aging intersection, this deserves a deep read.
+Your liver quietly ages, often not because of how much you drink, but because a group of "stuck-but-not-dead" immune cells keep setting fires inside. This research pinpoints a special class of senescent macrophages (p21⁺TREM2⁺) as core drivers of inflammaging (chronic low-grade inflammation accumulating with age) and metabolic dysfunction-associated fatty liver. Simply put: it's not the fat itself causing trouble—it's these aging immune cells constantly fanning the flames. Once this target is precisely cleared, theory suggests you could simultaneously suppress aging inflammation and liver metabolic damage. For senolytic (senescent cell-clearing drug) research, this is a new, concrete combat target.
 
 ---
 
-### 5. [T Cell Immunosenescence Pathogenic Mechanisms and Therapeutic Targets in Inflammatory Skin Diseases](https://onlinelibrary.wiley.com/doi/10.1111/acel.70527?af=R)
+### 3. [Toward actionable human anti-aging interventions—12th ARDD Conference Summary (2025)](https://pubmed.ncbi.nlm.nih.gov/41944812/)
 
-Skin aging isn't just about wrinkles. This *Aging Cell* review reveals a deeper mechanism: T cells from immunosenescence (immune cells that degrade with age) actively drive inflammatory skin diseases like eczema and psoriasis. This "aging immunity → skin inflammation" pathway is both a new angle for aging mechanism research and a new application scene for immunosenescence-targeting interventions. Immune system aging is increasingly seen as a core driver of systemic aging.
+The annual ARDD (Aging Research & Drug Discovery) conference is one of the densest intelligence hubs in the global aging research community. This year's review just published, with author rosters spanning Anne Brunet, Ana Maria Cuervo, Birgitte Pedersen, and other leading figures, covering autophagy, epigenetic reprogramming, exercise interventions, AI biomarkers, and more. That word in the title—"actionable interventions"—is this year's core signal: the entire field is shifting from "understanding mechanisms" to "how do we actually use this." This review is essentially a 2025 landscape map of aging research—worth bookmarking for slow reading.
 
-![T Cell Immunosenescence](https://onlinelibrary.wiley.com/cms/asset/547fc486-358c-4055-af9f-c522ca63bffa/acel70527-toc-0001-m.png)
+---
+
+### 4. [Multi-angle photos enhance facial age prediction accuracy](https://pubmed.ncbi.nlm.nih.gov/42040255/)
+
+Snap a frontal photo and AI guesses your age—sounds like entertainment, but it's real science in biological aging research. The problem: single-photo error margins never shrink enough. This research proposes an intuitively simple fix: feed the model multiple angle photos simultaneously, giving AI richer facial information. Results show prediction accuracy clearly improves. Facial age clocks appeal because they're nearly free, non-invasive, and massively scalable; each accuracy bump raises its credibility as a biological age proxy. This direction is shifting from "interesting concept" to "genuinely usable tool."
+
+---
+
+### 5. [Cardiovascular aging: Biomarkers, signaling pathways, disease, and therapeutic targets—A review](https://pubmed.ncbi.nlm.nih.gov/42010239/)
+
+Why do heart diseases mainly "target" the elderly? Not coincidence—it's aging leaving systematic fingerprints on the cardiovascular system. This review maps core aging hallmarks (cellular senescence, mitochondrial dysfunction, chronic inflammation), key signaling pathways, and the most promising therapeutic targets. For longevity researchers or AI drug discovery folks, the value of such reviews is clear: they organize a complex field's "target map," making it a solid starting point for screening intervention directions. Cardiovascular aging drives the world's leading cause of death—any breakthrough here has massive impact.
+
+---
+
+### 6. [Targeting immunosenescence in lung disease: Mechanism analysis and clinical intervention](https://pubmed.ncbi.nlm.nih.gov/41952158/)
+
+The lungs are one of aging's most overlooked battlegrounds. This review specifically maps how immunosenescence (immune system decline with age) drives lung cancer, pulmonary fibrosis, COPD, and even severe COVID. The keyword "senolytics" (senescent cell-clearing drugs) appears, signaling this isn't just describing problems—it's seriously discussing intervention pathways. Pulmonary immunosenescence correlates tightly with systemic aging; progress here has direct reference value for overall longevity strategy, especially for researchers and investors tracking "aging-related chronic disease."
 
 ---
 
 ## **📌 Worth Watching**
 
-**[Research]** [Toward Actionable Human Aging Interventions—12th ARDD Conference Review (2025)](https://pubmed.ncbi.nlm.nih.gov/41944812/) — Annual consensus from top aging researchers like Brunet, Cuervo, and Seluanov, laying out 2025's debate points and actionable directions in aging intervention. Basically a high-density field map worth bookmarking.
+Today's materials are all covered in Top 6—no additional items.
 
 ---
 
 ## **😄 AI Longevity Science Fun Fact**
 
-### [scAgeClock: Single-Cell Transcriptomic Human Aging Clock Model Based on Gated Multi-Head Attention Neural Networks](https://pubmed.ncbi.nlm.nih.gov/41935096/)
+### [Multi-angle photos enhance facial age prediction accuracy](https://pubmed.ncbi.nlm.nih.gov/42040255/)
 
-Measuring biological age used to be like parents checking only the final exam score, ignoring which subjects dragged things down. With scAgeClock, it's like getting individual report cards—immune cells failing, stem cells acing it, nerve cells doing okay. First reaction from some people: "So can I selectively rejuvenate just the failing parts?" Researchers probably didn't expect the tool to spark conversations about "localized de-aging."
+Someone stood in front of a mirror rotating their phone just so AI could guess their age more accurately. Researchers found single frontal photos always left error margins too wide—so they had subjects snap multiple angles. Accuracy really did improve. The subtle part: after all that effort, the AI reports you're three years older than you actually are. Science is serious, but the results aren't always what you want to hear.
 
 ---
 
 ## **🔮 AI Longevity Science Trend Predictions**
 
-### Single-Cell Aging Clocks Will Become the New Standard for Anti-Aging Intervention Assessment
-- **Timeline**: Q3 2026
-- **Confidence**: 65%
-- **Rationale**: Today's [scAgeClock: Single-Cell Transcriptomic Human Aging Clock Model Based on Gated Multi-Head Attention Neural Networks](https://pubmed.ncbi.nlm.nih.gov/41935096/) proves single-cell resolution aging measurement is viable. Combined with dropping single-cell sequencing costs, commercialization and clinical adoption barriers are falling fast. Once someone packages this into a usable product, traditional blood methylation clocks face direct competition.
+### "Old drug, new use" aging interventions entering systematic validation phase
+- **Predicted timeframe**: Q2-Q3 2026
+- **Prediction confidence**: 72%
+- **Rationale**: Today's news [Multi-omics reveals metabolic rejuvenation mechanism of Losartan in aged mice and pre-frail elderly men](https://pubmed.ncbi.nlm.nih.gov/42017270/) provides complete mechanism-level data support. Established drugs (antihypertensives, metformin, rapamycin, etc.) are being "rescanned" with multi-omics tools for aging intervention signals. These studies cost less, have clearer regulatory pathways, and expect more similar mechanism validation papers to cluster-publish in coming months, driving small clinical trial launches.
 
-### Biological Age Feedback Will Be Integrated Into Consumer Health Intervention Products
-- **Timeline**: Q2-Q3 2026
-- **Confidence**: 70%
-- **Rationale**: [Can Epigenetic Age Feedback Drive Lasting Lifestyle Change? EU iHelp One-Year Results](https://pubmed.ncbi.nlm.nih.gov/42029636/) provides clinical proof that "biological age number feedback drives behavior change"—exactly what consumer longevity products (wearables, health apps, functional foods) need. With this data backing, product launches accelerate.
+### Facial biological age clocks moving toward multimodal fusion
+- **Predicted timeframe**: Q2-Q3 2026
+- **Prediction confidence**: 65%
+- **Rationale**: Today's news [Multi-angle photos enhance facial age prediction accuracy](https://pubmed.ncbi.nlm.nih.gov/42040255/) shows single-input precision bottlenecks breaking through multi-angle solutions. Natural next step: facial + voice + gait + blood biomarker multimodal fusion clocks. Once these tools hit accuracy targets, they'll become low-cost entry points for large-scale population aging screening.
 
-### Aging Clock Applications Will Expand From "Age Measurement" to "Disease Risk Prediction"
-- **Timeline**: Q2-Q4 2026
-- **Confidence**: 75%
-- **Rationale**: [Epigenetic Aging and Parkinson's Disease Risk Association Study](https://pubmed.ncbi.nlm.nih.gov/41469193/) is the latest puzzle piece. After Alzheimer's and cardiovascular disease, Parkinson's is now on the aging clock prediction map. Once this trend solidifies, aging clock clinical value gets repriced.
+### Senolytic target research shifting from "pan-clearance" to "precision cell subtype"
+- **Predicted timeframe**: Q2-Q4 2026
+- **Prediction confidence**: 68%
+- **Rationale**: Today's news [p21⁺TREM2⁺ senescent macrophages drive inflammaging and metabolic dysfunction-associated fatty liver disease](https://pubmed.ncbi.nlm.nih.gov/41991686/) locks specific cell subtypes as targets rather than broadly "clearing all senescent cells." This trend aligns with recent senolytic research—precision targeting specific tissues and cell types of senescent cells means fewer side effects and more predictable outcomes. Expect more "subtype-specific senolytic" preclinical data in coming months.
 
 ---
 
 ## **❓ Related Questions**
 
-### Where can I continuously track the latest progress on single-cell aging clocks and biological age AI tools?
+### Where can I continuously track the latest research on "old drug, new use" aging interventions?
 
-Single-cell aging clocks (like scAgeClock) represent a paradigm shift from "tissue averages" to "cell-level resolution" in biological age measurement—this direction moves fast with new models, open-source code, and clinical validation milestones worth monitoring. Studies like EU iHelp on behavior intervention are advancing in parallel; together they're reshaping the practical value of "biological age."
+Losartan-class established drug aging intervention research is at a critical juncture—shifting from mechanism validation to clinical trials. Multi-omics data is maturing, regulatory pathways are clearer, and new clinical launches and data releases are worth close monitoring in coming months. This information scatters across PubMed, ClinicalTrials, and longevity research institution updates—time-consuming to filter.
 
-**Recommended**: Visit [**AI Longevity Science Daily**](https://news.aibioo.cn) for daily curated updates on longevity, lifespan extension, aging, biological age, aging interventions, and AI applications—save time filtering noise, stay ahead of the curve.
+**Recommended approach**: Visit **[AI Longevity Science Daily](https://news.aibioo.cn)** for daily curated updates on longevity, life extension, aging interventions, biological age, and AI applications—skip the manual database monitoring.

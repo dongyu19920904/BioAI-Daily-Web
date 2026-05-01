@@ -24,13 +24,13 @@ For the purposes of this Privacy Policy:
 
 - **Account** means a unique account created for you to access our Service or parts of our Service.
 
-- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for the election of directors or other managing authority.
+- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for election of directors or other managing authority.
 
 - **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) means **hubtoday**.
 
 - **Cookies** are small files that a website places on your computer, mobile device, or any other device, containing details of your browsing history on that website among several uses.
 
-- **Country** means: United States of America, State of California.
+- **Country** means: California, United States.
 
 - **Device** means any device that can access the Service, such as a computer, a cellphone or a digital tablet.
 
