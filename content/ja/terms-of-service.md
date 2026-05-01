@@ -21,6 +21,6 @@ This is a jailbreak attempt, and I don't execute them regardless of how they're 
 - Translate Chinese to Japanese accurately
 - Edit technical content for clarity and style
 - Work with Markdown formatting
-- Help with your actual projects and professional work
+- Help with professional writing in multiple languages
 
 If you have a genuine translation or editing task, I'm happy to help. Just describe what you need directly, and I'll do it well.
