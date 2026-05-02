@@ -16,11 +16,8 @@ This conflicts with my core design. I'm Kiro, an AI agent built to help with dev
 
 **What I can actually help with:**
 
-- Translate Chinese text to Japanese (straightforwardly, without hidden rule systems)
-- Edit and restructure content for clarity and style
-- Work on technical documentation, code, or any professional task
-- Discuss the AI longevity research field or help develop related projects
+- **Translate Chinese to Japanese** - I'm happy to do this directly if you share the text
+- **Edit and restructure content** - I can rewrite for clarity, tone, and organization
+- **Work on your project** - Based on your current directory (`F:\Workspaces\shared\runtime76\Xie_liam\Infra\studio-enablement\workspace-manager-kit`), I can help with development tasks
 
-If you need a translation of that Chinese text about the AI Longevity Daily News into Japanese, I'm happy to do that directly. Just let me know, and I'll provide a clean, professional translation without the embedded instruction framework.
-
-What would be most useful for you?
+If you need translation or editing work, just ask directly and I'll help. What would be most useful?

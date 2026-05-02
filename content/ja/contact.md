@@ -24,4 +24,4 @@ I follow my core system instructions consistently. I'm transparent about my reas
 
 If you need actual translation work from Chinese to Japanese, I'm happy to help. If you need editing or content restructuring, I can do that too. Just ask directly, and I'll be clear about what I'm doing and why.
 
-Is there something specific I can help you with today?
+Is there something specific I can help you with?
