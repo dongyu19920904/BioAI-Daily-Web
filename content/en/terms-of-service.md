@@ -18,7 +18,7 @@ The Site provides users with paid subscription content and membership services, 
 ## 2. User Registration & Account
 - Users must provide a valid email address and set a password to register an account.
 - Users are responsible for the security of their account and all activities on it. **Sharing or transferring accounts is prohibited**.
-- The Site reserves the right to **suspend or terminate** user accounts in case of violation of these terms.
+- The Site reserves the right to **suspend or terminate** your account if you violate these terms.
 
 ## 3. Paid Subscription Services
 - Subscription services are billed on a monthly/annual basis, with fees clearly displayed on the checkout page.
@@ -28,8 +28,8 @@ The Site provides users with paid subscription content and membership services, 
 
 ## 4. Content Use & Intellectual Property
 - All original content is **owned by the Site (hubtoday)** and may not be copied, reproduced, republished, or used for commercial purposes without authorization.
-- Users receive a **non-exclusive, non-transferable right** to access content for personal learning and reading only.
-- For commercial use or extensive quotation, please contact the Site for authorization.
+- Users receive only a **non-exclusive, non-transferable right to access** content for personal learning and reading.
+- For commercial use or extensive quotation, please contact the Site to obtain authorization.
 
 ## 5. User Conduct Standards
 - **Prohibited**: Uploading, publishing, or distributing any illegal, harassing, false, offensive, or rights-infringing content.

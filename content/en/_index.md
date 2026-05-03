@@ -1,121 +1,121 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/5/2
+title: AI生命延续学日报 2026/5/3
 breadcrumbs: false
-next: /en/2026-05/2026-05-01
+next: /en/2026-05/2026-05-02
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
   type: docs
 ---
-# Daily Summary
+# Today's Summary
 
 ```
-The most worth reading today is the novel longevity drug SRN-901 with multi-target intervention in aging pathways, extending both lifespan and healthspan.
-Multi-target combination intervention (SRN-901 simultaneously targeting four pathways) and drug repurposing are accelerating in parallel, indicating that single-target narratives are outdated.
-If you can only follow one additional lead, continue tracking multi-omics reveals metabolic rejuvenation mechanism of losartan in aged mice and pre-frail older men.
+The most essential read today is From Aging Clocks to Organ Networks: How Biological Age-Driven Asynchronous Organ Aging Affects Mortality Risk.
+Bidirectional associations, AI drug screening, SIRT1 mechanisms… today multiple research threads point simultaneously to one signal: aging intervention is moving from concept to actionable.
+If you can only follow one more lead, continue with High-Throughput Methods for Drug Screening in Aging and Age-Related Diseases: Progress and Challenges.
 ```
 
 ## ⚡ Quick Navigation
 
-- [📰 Today's AI Longevity Science News](#todays-ai-longevity-science-news) - Start with "Novel Longevity Drug SRN-901 with Multi-Target Intervention in Aging Pathways, Extending Lifespan and Healthspan," then follow up with "Multi-Omics Reveals Metabolic Rejuvenation Mechanism of Losartan in Aged Mice and Pre-Frail Older Men"
+- [📰 Today's AI Longevity Science News](#todays-ai-longevity-science-news) - Start with "From Aging Clocks to Organ Networks: How Biological Age-Driven Asynchronous Organ Aging Affects Mortality Risk," then follow up with "High-Throughput Methods for Drug Screening in Aging and Age-Related Diseases: Progress and Challenges"
 
-> 💡 **Tip**: Want to experience the latest AI models mentioned in the article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, hassle-free support.
+> 💡 **Tip**: Want early access to the latest AI models mentioned in this article (Claude 4.5, GPT, Gemini 3 Pro)? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute setup, worry-free support.
 
 ## **Today's AI Longevity Science News**
 
 ### **👀 One-Liner**
-A common blood pressure drug triggered "metabolic rejuvenation" in older adults—drug repurposing's life-extension logic now has multi-omics-level hard evidence.
+Your organs are aging at different speeds, and this "internal time lag" is being proven as the most critical variable for predicting when you'll die.
 
-### **🔑 3 Key Hashtags**
-#DrugRepurposing #MultiTargetAgingIntervention #InflammatoryAgingMechanism
-
----
-
-## **🔥 Top 6 Headlines**
-
-### 1. [Novel Longevity Drug SRN-901 with Multi-Target Intervention in Aging Pathways, Extending Lifespan and Healthspan](https://pubmed.ncbi.nlm.nih.gov/42011226/)
-
-The old playbook for longevity drugs was betting on single targets—either clear senescent cells, activate autophagy, or boost NAD+. SRN-901 flips the script: it bundles mTOR inhibition, autophagy activation (cellular self-cleaning), NAD+ supplementation (core energy metabolism), mitochondrial autophagy (clearing damaged mitochondria), and senolytics (removing senescent cells) into one molecule, hitting all at once. The paper shows it simultaneously extended both lifespan and healthspan in animal models. Multi-target synergistic aging intervention is the core competitive direction for this track going forward—worth tracking long-term.
+### **🔑 3 Key Terms**
+#AsynchronousOrganAging #BiologicalAgingClockUpgrade #ActionableAgingIntervention
 
 ---
 
-### 2. [Multi-Omics Reveals Metabolic Rejuvenation Mechanism of Losartan in Aged Mice and Pre-Frail Older Men](https://pubmed.ncbi.nlm.nih.gov/42017270/)
+## **🔥 Top 6 Highlights**
 
-Losartan is a decades-old blood pressure drug—cheap, safe, billions taking it worldwide. But this paper just dropped yesterday re-examines it through multi-omics (simultaneously analyzing genes, proteins, metabolites across multiple layers) and finds it triggers systemic "metabolic rejuvenation" in aged mice and frail older men—not just blood pressure control, but molecular-level reversal of some aging hallmarks. Co-authors include Luigi Ferrucci, a core figure at NIA (National Institute on Aging), so clinical translation potential is real. An old drug almost anyone can get prescribed might be hiding longevity mechanisms we haven't fully decoded yet.
+### 1. [From Aging Clocks to Organ Networks: How Biological Age-Driven Asynchronous Organ Aging Affects Mortality Risk](https://pubmed.ncbi.nlm.nih.gov/41655608/)
 
----
-
-### 3. [p21⁺TREM2⁺ Senescent Macrophages Drive Inflammaging and Metabolic-Associated Fatty Liver Disease](https://pubmed.ncbi.nlm.nih.gov/41991686/)
-
-Your liver harbors a battalion of "veteran" immune cells that stopped working right but keep pumping out inflammatory signals, dragging neighboring cells into senescence. This paper pinpoints p21⁺TREM2⁺ senescent macrophages as key drivers of inflammaging (chronic low-grade inflammation driving aging) and metabolic fatty liver. The payoff is direct: this gives senolytics a concrete new target and explains why clearing senescent cells might simultaneously improve metabolic disease. Fatty liver + aging + immunity—three threads converge here.
+Picture this: your heart is 40 years old, but your kidneys are already 65. It's not a metaphor—it's literally happening inside everyone's body right now. This review, published in *Ageing Research Reviews*, systematically maps out the concept of "organ biological age asynchrony"—different organs age at different rates, and they drag each other down, accelerating mutual decline and forming a complex aging network. Researchers combined multi-omics data with aging clocks to sketch this network. The takeaway is straightforward: a single "whole-body biological age score" isn't enough anymore. Next-generation aging clocks must read aging progress organ-by-organ and system-by-system to truly predict mortality risk.
 
 ---
 
-### 4. [Bidirectional Association Between Biological Aging and Cardiovascular Health—INSPIRE-T Lifespan Cohort Study](https://pubmed.ncbi.nlm.nih.gov/41979831/)
+### 2. [High-Throughput Methods for Drug Screening in Aging and Age-Related Diseases: Progress and Challenges](https://pubmed.ncbi.nlm.nih.gov/41966413/)
 
-"Poor cardiovascular health → age faster"—everyone knows that direction. But the reverse? INSPIRE-T cohort delivers a more complex answer: biological age (actual body aging rate) and cardiovascular health show **bidirectional association**—higher biological age means higher cardiovascular risk; conversely, cardiovascular status also shapes your biological age trajectory. This matters hugely for clinical applications of biological age clocks: they're not just "measurement tools" but potentially early warning indicators of cardiovascular intervention outcomes. Cohort-level evidence beats single-mechanism studies by a mile.
-
----
-
-### 5. [Immunosenescence in Pulmonary Disease: Mechanistic Insights and Clinical Intervention Progress](https://pubmed.ncbi.nlm.nih.gov/41952158/)
-
-Lung cancer, pulmonary fibrosis, COPD, long COVID—these seemingly different lung diseases share a common aging driver: immunosenescence (immune system decline with age). This review systematically maps how immunosenescence operates in pulmonary disease and catalogs existing clinical evidence for senolytics and other interventions. For readers tracking the aging-chronic disease intersection, this is a "map-type" article—threading scattered research threads into one clear logical chain. High archival value.
+Finding a drug that slows aging isn't the hard part—screening speed is. This review catalogs how AI accelerates "high-throughput screening"—testing thousands of compounds at once—in aging drug discovery. The keywords explicitly mention "Artificial intelligence," and AI here isn't hype; it's genuinely helping researchers find the few worth advancing from mountains of candidate molecules. The article also flags current pain points: the gap between model organisms and human aging mechanisms, data standardization issues, and translating in vitro screening results into real intervention effects. This track is moving from "can we do it?" to "how do we do it better?", and AI is the core engine driving acceleration.
 
 ---
 
-### 6. [Toward Translatable Human Anti-Aging Interventions—12th ARDD Conference Review (2025)](https://pubmed.ncbi.nlm.nih.gov/41944812/)
+### 3. [Bidirectional Association Between Biological Aging and Cardiovascular Health: Findings from the INSPIRE-T Cohort Study](https://pubmed.ncbi.nlm.nih.gov/41979831/)
 
-ARDD (Aging Research and Drug Discovery Conference) is the field's most important annual gathering. The 2025 12th edition review just dropped, with an author roster that's basically the aging research "hall of fame"—Ana Maria Cuervo, Anne Brunet, Bente Klarlund Pedersen and other top scholars are all in. Core theme: "From mechanism research to translatable human aging interventions," covering autophagy, epigenetic reprogramming, exercise intervention, senescent cell clearance and more. Want to quickly grasp the field's 2025 progress? This paper saves you reading dozens of others—it's the fastest entry point.
+The default logic has always been: poor cardiovascular health → accelerated aging. But this study from France's INSPIRE-T longevity cohort reveals a messier answer—it's bidirectional. Accelerated biological age pushes up cardiovascular risk; deteriorating cardiovascular status makes biological age run faster. They feed each other, creating a vicious cycle. Researchers used multiple biological age metrics like Furman's inflammatory aging index (iAge) to quantify this link. Clinically, this means blood pressure and cholesterol alone aren't enough—biological age itself should be an independent dimension in cardiovascular risk assessment, not an afterthought.
 
 ---
 
-## **📌 Worth Watching**
+### 4. [Toward Actionable Human Aging: 12th ARDD Conference Review (2025)](https://pubmed.ncbi.nlm.nih.gov/41944812/)
 
-**[Research]** [Novel Longevity Drug SRN-901 with Multi-Target Intervention in Aging Pathways, Extending Lifespan and Healthspan](https://pubmed.ncbi.nlm.nih.gov/42011226/) — mTOR + NAD+ + senolytics + mitochondrial autophagy all firing together—this combo is rare in literature, and upcoming human trial milestones deserve continuous tracking.
+Every year, the ARDD (Aging Research and Drug Discovery) conference is where the global aging research community gathers. This review synthesizes the 2025 conference, with an author list packed with household names: Brunet, Cuervo, Seluanov… just the author roster tells you this isn't ordinary. This year's theme is "actionable"—moving beyond aging mechanisms to focus on "what can we intervene with right now?" It covers autophagy (cellular self-cleaning), epigenetic reprogramming, senolytics (drugs that clear senescent cells), and more. Want the fastest route to understanding 2025's aging intervention landscape? This is it.
 
-**[Research]** [Multi-Omics Reveals Metabolic Rejuvenation Mechanism of Losartan in Aged Mice and Pre-Frail Older Men](https://pubmed.ncbi.nlm.nih.gov/42017270/) — Ferrucci is an NIA core figure; his research typically has strong clinical translation potential. Drug repurposing is low-cost with solid safety data already in hand.
+---
 
-**[Research]** [Bidirectional Association Between Biological Aging and Cardiovascular Health—INSPIRE-T Lifespan Cohort Study](https://pubmed.ncbi.nlm.nih.gov/41979831/) — Bidirectional design makes conclusions more reliable, providing cohort-level backing for biological age clocks as cardiovascular clinical indicators.
+### 5. [Advanced Glycation End Products Downregulate SIRT1, Promoting Osteoclast Activation via RANKL Signaling and Driving Chondrocyte Senescence in Osteoarthritis](https://pubmed.ncbi.nlm.nih.gov/42067949/)
+
+Osteoarthritis has always been framed as a "wear-and-tear disease," but this *Aging Cell* study offers a more precise aging mechanism. Advanced glycation end products (AGEs—harmful byproducts from sugar-protein reactions in high-blood-sugar environments) suppress SIRT1, a key longevity protein, which then activates osteoclast signaling and pushes chondrocytes into senescence. In other words, osteoarthritis progression is partly cellular senescence erupting locally in joints. If this mechanism holds, SIRT1 activators or AGE-clearing strategies open new application windows—not just anti-aging, but direct intervention in joint degeneration. Both research communities should watch this.
+
+---
+
+### 6. [Alzheimer's Disease Progression Prediction Model Based on Normalizing Flow Neural Processes](https://pubmed.ncbi.nlm.nih.gov/42008564/)
+
+Alzheimer's toughest challenge: every patient's disease trajectory is wildly different, and traditional models struggle with this individual variation. This study uses "normalizing flows"—a deep learning method that precisely models probability distributions—to predict individual disease trajectories, not just average outcomes. It can tell you "this person's cognitive decline will likely accelerate around this timepoint," not "the average patient will do this." For brain aging research and identifying early intervention windows, these individualized prediction models are becoming essential—intervention windows are narrow, and missing one means missing it.
+
+---
+
+## **📌 Worth Watching (3 Items)**
+
+**[Research]** [From Aging Clocks to Organ Networks: How Biological Age-Driven Asynchronous Organ Aging Affects Mortality Risk](https://pubmed.ncbi.nlm.nih.gov/41655608/) - Single biological age scores are outdated; organ-specific aging clocks are next. Teams building biological age tools should read this carefully.
+
+**[Research]** [Advanced Glycation End Products Downregulate SIRT1, Promoting Osteoclast Activation via RANKL Signaling and Driving Chondrocyte Senescence in Osteoarthritis](https://pubmed.ncbi.nlm.nih.gov/42067949/) - Joint degeneration is cellular senescence at work; the AGEs-SIRT1 mechanism chain is clear. Anti-aging drug teams should monitor this.
+
+**[Research]** [Alzheimer's Disease Progression Prediction Model Based on Normalizing Flow Neural Processes](https://pubmed.ncbi.nlm.nih.gov/42008564/) - From "average prediction" to "individual trajectory," brain aging AI tools are quietly getting sharper. Early intervention researchers should pay attention.
 
 ---
 
 ## **😄 AI Longevity Science Trivia**
 
-### [Multi-Omics Reveals Metabolic Rejuvenation Mechanism of Losartan in Aged Mice and Pre-Frail Older Men](https://pubmed.ncbi.nlm.nih.gov/42017270/)
+### [From Aging Clocks to Organ Networks: How Biological Age-Driven Asynchronous Organ Aging Affects Mortality Risk](https://pubmed.ncbi.nlm.nih.gov/41655608/)
 
-Sometimes science's plot twists are pure drama: Losartan quietly did its job in cardiology for decades—nobody thought it had anything to do with "life extension." Then researchers re-scanned it with multi-omics and found it was secretly pulling off something major in older adults—metabolic-level rejuvenation. It's like discovering your twenty-year-old rice cooker doubles as an air purifier. The researchers probably didn't expect a blood pressure drug paper to get this much heat from the longevity crowd.
+Aging researchers have it rough sometimes. You finally get everyone to accept "biological age"—that your real age isn't what's on your ID—and then a review drops saying: sorry, one biological age isn't enough; every organ has its own age, and they sabotage each other. Soon your health report might look like an organ age reconciliation statement—heart 40, kidneys 65, liver… never mind, I don't want to know.
 
 ---
 
 ## **🔮 AI Longevity Science Trend Predictions**
 
-### Multi-Target Aging Intervention Drugs Will Become Next Funding Wave Hotspot
-- **Prediction Timeline**: 2026 Q2-Q3
-- **Prediction Probability**: 70%
-- **Prediction Rationale**: Today's news [Novel Longevity Drug SRN-901 with Multi-Target Intervention in Aging Pathways, Extending Lifespan and Healthspan](https://pubmed.ncbi.nlm.nih.gov/42011226/) sends a clear signal: single-target longevity drug narratives are being replaced by multi-target synergy. Combined with sustained capital inflow into senolytics, NAD+, and mTOR tracks, investors will likely concentrate bets on "combination intervention" logic companies or pipelines within the next quarter.
+### Organ-Level Biological Age Clock Tools Will See Concentrated Productization
+- **Predicted Timeline**: Q3 2026
+- **Confidence**: 65%
+- **Rationale**: Today's news [From Aging Clocks to Organ Networks: How Biological Age-Driven Asynchronous Organ Aging Affects Mortality Risk](https://pubmed.ncbi.nlm.nih.gov/41655608/) explicitly flags single whole-body biological age limitations. Combined with maturing multi-omics infrastructure, conditions for organ-specific clocks to move from academic concept to usable tools are aligning. A review systematizing this direction is itself a signal—productization usually follows.
 
-### Drug Repurposing Research in Aging Will Noticeably Accelerate
-- **Prediction Timeline**: 2026 Q2
-- **Prediction Probability**: 75%
-- **Prediction Rationale**: Today's news [Multi-Omics Reveals Metabolic Rejuvenation Mechanism of Losartan in Aged Mice and Pre-Frail Older Men](https://pubmed.ncbi.nlm.nih.gov/42017270/) is the textbook case—existing drugs re-interpreted through multi-omics reveal longevity potential. This pathway is low-cost with solid safety data; AI-assisted multi-omics analysis dramatically boosts efficiency. Expect more teams to follow suit.
+### AI High-Throughput Screening Platforms Will Deliver First Preclinical Results in Aging Drug Discovery
+- **Predicted Timeline**: Q2-Q3 2026
+- **Confidence**: 55%
+- **Rationale**: Today's review [High-Throughput Methods for Drug Screening in Aging and Age-Related Diseases: Progress and Challenges](https://pubmed.ncbi.nlm.nih.gov/41966413/) shows AI screening shifting from methodology discussion to tackling real challenges. Multiple platforms are accumulating sufficient screening data; preclinical candidate announcements are approaching.
 
-### Senolytics in Metabolic Disease Clinical Trials Will Increase
-- **Prediction Timeline**: 2026 Q2-Q3
-- **Prediction Probability**: 65%
-- **Prediction Rationale**: Today's news [p21⁺TREM2⁺ Senescent Macrophages Drive Inflammaging and Metabolic-Associated Fatty Liver Disease](https://pubmed.ncbi.nlm.nih.gov/41991686/) gives senolytics a concrete metabolic disease target. Current senolytic trials focus mainly on osteoarthritis and pulmonary fibrosis—metabolic disease is notably sparse. This paper could become the scientific basis for new IND applications.
+### Biological Age Will Enter Clinical Guideline Discussions for Cardiovascular Risk Assessment
+- **Predicted Timeline**: Q3-Q4 2026
+- **Confidence**: 45%
+- **Rationale**: Today's [Bidirectional Association Between Biological Aging and Cardiovascular Health: Findings from the INSPIRE-T Cohort Study](https://pubmed.ncbi.nlm.nih.gov/41979831/) provides cohort-level evidence for bidirectional links. Large cohort data is necessary for guideline updates, but the evidence-to-guideline path takes time, so confidence is conservative.
 
-### Biological Age Clocks Will Be Incorporated as Secondary Endpoints in Cardiovascular Trials
-- **Prediction Timeline**: 2026 Q3
-- **Prediction Probability**: 55%
-- **Prediction Rationale**: Today's news [Bidirectional Association Between Biological Aging and Cardiovascular Health—INSPIRE-T Lifespan Cohort Study](https://pubmed.ncbi.nlm.nih.gov/41979831/) provides cohort-level evidence for biological age clocks as clinical indicators. Once bidirectional association replicates across more studies, regulators and researchers will be motivated to incorporate biological age into cardiovascular trial design.
+### SIRT1 Activators Will See New Preclinical Research in Osteoarthritis
+- **Predicted Timeline**: Q2-Q3 2026
+- **Confidence**: 60%
+- **Rationale**: Today's [Advanced Glycation End Products Downregulate SIRT1, Promoting Osteoclast Activation via RANKL Signaling and Driving Chondrocyte Senescence in Osteoarthritis](https://pubmed.ncbi.nlm.nih.gov/42067949/) clarifies the AGEs-SIRT1-chondrocyte senescence chain. Clearer mechanisms attract follow-up teams—multiple labs typically pursue such targets in parallel within 6-12 months.
 
 ---
 
 ## **❓ Related Questions**
 
-### Where can I continuously track the latest research on multi-target longevity drugs and aging interventions?
+### Where can I continuously track the latest research on organ biological age asynchrony?
 
-Multi-target aging intervention (simultaneously targeting mTOR, NAD+, senolytics, mitochondrial autophagy and other pathways) is currently the most active direction in longevity research, with high-frequency paper and clinical trial updates. Manual PubMed searches easily miss critical nodes. Key changes worth monitoring include: new drugs entering human trials, breakthrough publications in top journals, and multi-omics re-interpretation of existing drugs in aging.
+Organ asynchronous aging is one of the most compelling frontiers in biological age research—the finding that different organs age at different rates and influence each other is reshaping our understanding of "biological age" itself. Worth monitoring: new organ-specific clock models, open multi-omics datasets, and the transition from academic papers to usable tools.
 
-**Recommended approach**: Visit **[AI Longevity Science Daily](https://news.aibioo.cn)**, get curated daily updates on longevity, lifespan extension, aging, biological age, aging interventions and AI applications—skip the noise, save information-filtering time.
+**Recommended**: Visit **[AI Longevity Science Daily](https://news.aibioo.cn)** for daily curated updates on longevity, life extension, aging, biological age, aging interventions, and AI applications—cut through the noise and save research time.
