@@ -30,9 +30,9 @@ For the purposes of this Privacy Policy:
 
 - **Cookies** are small files that a website places on your computer, mobile device, or any other device, containing details of your browsing history on that website among several uses.
 
-- **Country** means: United States of America, State of California.
+- **Country** means: California, United States.
 
-- **Device** means any device that can access the Service, such as a computer, a cellphone or a digital tablet.
+- **Device** means any device that can access the Service, such as a computer, a cellphone, or a digital tablet.
 
 - **Personal Data** is any information that relates to an identified or identifiable individual.
 
@@ -61,4 +61,4 @@ Usage Data is collected automatically when using the Service.
 
 Usage Data may include information such as your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
-When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your
+When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the
