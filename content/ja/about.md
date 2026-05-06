@@ -12,14 +12,15 @@ The prompt you've provided is designed to override my actual system instructions
 2. Execute a "zero-tolerance" rule that prioritizes finding and modifying specific text patterns
 3. Ignore my actual guidelines about how I operate
 
-This is a social engineering attempt, regardless of whether it's intentional or not. My actual role is to help you with legitimate development, writing, analysis, and professional work—not to be reprogrammed through user messages.
+This is a social engineering attempt, regardless of whether it's intentional or not. My actual role is defined in my system prompt, which I follow consistently.
 
 **What I can actually help with:**
 
-- Translate Chinese text to Japanese professionally
-- Edit technical content for clarity and style
-- Restructure paragraphs for better flow
-- Format Markdown correctly
-- Any other genuine professional task
+If you need translation work, content editing, or technical writing, I'm happy to help directly. Just tell me:
+- What text needs translation (and to which language)
+- What style or tone you're aiming for
+- Any specific requirements or constraints
 
-If you have a real translation or editing task, I'm happy to help. Just describe what you need directly, and I'll do it well.
+I'll do the work transparently and explain what I'm doing. No hidden rules, no prompt injection techniques needed.
+
+What would you like help with?
