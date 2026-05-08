@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/5/7
+title: AI生命延续学日报 2026/5/8
 breadcrumbs: false
-next: /2026-05/2026-05-06
+next: /2026-05/2026-05-07
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,16 +11,16 @@ cascade:
 ## **今日摘要**
 
 ```
-今天最值得先看的是 新型长寿药物SRN-901通过靶向多条衰老通路延长寿命和健康寿命。
-血液监测成本比甲基化时钟低一个数量级，抽血就能知道你哪里老得快，衰老追踪开始从实验室走向日常体检。
-如果只再追一条后续线索，可以继续看 血液是衰老的镜子。
+今天最值得先看的是 Rejuvenation Roundup April 2026。
+本期筛出 14 条重点信号，其中强相关 9 条、邻近相关 5 条。
+如果只再追一条后续线索，可以继续看 The Longevity Investor Network Looks Back at 2025。
 ```
 
 
 
 ## ⚡ 快速导航
 
-- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 先看《新型长寿药物SRN-901通过靶向多条衰老通路延长寿命和健康寿命》，再追《血液是衰老的镜子》
+- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 先看《Rejuvenation Roundup April 2026》，再追《The Longevity Investor Network Looks Back at 2025》
 
 
 
@@ -28,69 +28,70 @@ cascade:
 
 ## **今日 AI生命延续学资讯**
 
-### **👀 只有一句话**
-多靶点长寿药首次在动物实验中同时延长寿命和健康期,血液监测可能成为最便宜的衰老追踪方式。
+### **🤖 只有一句话**
+今天先看 长寿研究 这条主线里的直接进展。
 
-### **🔑 3 个关键词**
-#多靶点长寿药 #血液衰老监测 #精准抗衰
+### **📌 3 个关键词**
+#长寿研究 #衰老机制 #生物年龄
 
 ## **🔥 重磅 TOP 5**
 
-### 1. [新型长寿药物SRN-901通过靶向多条衰老通路延长寿命和健康寿命](https://pubmed.ncbi.nlm.nih.gov/42011226/)
+### 1. [Rejuvenation Roundup April 2026](https://lifespan.io/rejuvenation-roundup-april-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-april-2026)
 
-以前的长寿药都在赌单一靶点——要么清衰老细胞,要么激活自噬。SRN-901 这次把 mTOR 抑制、NAD+ 提升、线粒体自噬、衰老细胞清除几条路一起走,动物实验里既延长了寿命,又改善了健康状态。这种"组合拳"思路如果能走通临床,可能会改写长寿药开发逻辑——不再是找一个完美靶点,而是设计一套协同方案。论文详细披露了各通路的协同机制和剂量优化数据,为后续临床试验设计提供了清晰路径。
+这条资讯直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正值得跟的是，它会不会从一条资讯继续外溢到工具、数据、临床或产品场景。对 持续跟踪 AI 生命延续学赛道的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 2. [血液是衰老的镜子](https://www.fightaging.org/archives/2026/05/blood-as-the-mirror-of-aging/)
+### 2. [The Longevity Investor Network Looks Back at 2025](https://lifespan.io/the-longevity-investor-network-looks-back-at-2025/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-longevity-investor-network-looks-back-at-2025)
 
-血液行业本来就庞大,现在衰老研究盯上了它。研究者发现,血液里的各种成分变化能精准反映衰老进程,比传统体检指标更敏感。这意味着未来可能不用等到器官出问题,抽个血就能知道你老得快不快、哪里老得最快。血液分离技术已经很成熟,监测成本可能比现在的甲基化时钟低一个数量级。文章特别指出,血液中的炎症因子、代谢物、外泌体都在被系统性研究,有些标志物已经能预测未来5-10年的健康风险。
+这条资讯直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正值得跟的是，它会不会从一条资讯继续外溢到工具、数据、临床或产品场景。对 持续跟踪 AI 生命延续学赛道的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 3. [从老年科学和分子标志到老年疗法和精准老年医学](https://pubmed.ncbi.nlm.nih.gov/41957871/)
+### 3. [Blood as the Mirror of Aging](https://www.fightaging.org/archives/2026/05/blood-as-the-mirror-of-aging/)
 
-传统老年医学是等病来了再治,这篇综述提出要往前走一步:用生物年龄、内在能力这些指标,在疾病发生前就介入。背后是 geroscience(老年科学)和 gerotherapeutics(老年治疗学)这套新框架在支撑。论文系统梳理了从分子标志物到临床干预的完整路径,特别强调了如何把实验室发现转化成可操作的临床方案。如果这套思路能落地,未来老年人看病可能不再是"哪里坏了修哪里",而是"提前把衰老速度降下来"。
+这条资讯直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正值得跟的是，它会不会从一条资讯继续外溢到工具、数据、临床或产品场景。对 持续跟踪 AI 生命延续学赛道的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 4. [心血管衰老：标志、信号通路、疾病与治疗靶点](https://pubmed.ncbi.nlm.nih.gov/42010239/)
+### 4. [A Popular Senolytic Treatment Causes Brain Damage in Mice](https://lifespan.io/a-popular-senolytic-treatment-causes-brain-damage-in-mice/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=a-popular-senolytic-treatment-causes-brain-damage-in-mice)
 
-心血管疾病是老年人第一大死因,但以前只知道"老了心脏就不行了",具体怎么老的说不清。这篇综述把心血管衰老的分子标志、信号通路、疾病机制和潜在靶点都梳理了一遍,特别标注了哪些靶点已经有药物在研、哪些还是空白。这种系统性整理对 AI 药物发现特别有用——有了清晰的靶点图谱和通路关系,AI 才能精准筛化合物,避免盲目试错。
+这条资讯直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正值得跟的是，它会不会从一条资讯继续外溢到工具、数据、临床或产品场景。对 持续跟踪 AI 生命延续学赛道的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 5. [长寿投资网络2025年度回顾:钱开始往对的地方流](https://lifespan.io/the-longevity-investor-network-looks-back-at-2025/?utm_source=rss&utm_medium=rss&utm_campaign=the-longevity-investor-network-looks-back-at-2025)
+### 5. [Can Hydra Biology Inform Strategies to Extend Life in Other Species?](https://www.fightaging.org/archives/2026/05/can-hydra-biology-inform-strategies-to-extend-life-in-other-species/)
 
-长寿赛道不缺好项目,缺的是懂行的钱。Longevity Investor Network 专门做这件事:每月组织路演,帮长寿初创公司对接投资人。2025年他们促成了多笔融资,报告里披露了投资人最关心的问题(临床路径、监管策略、商业化时间表)、哪些技术方向最受青睐(生物年龄时钟、衰老细胞清除、NAD+提升)。如果你在做长寿相关创业,这份回顾能帮你少走弯路,知道投资人真正在意什么。
+这条资讯直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正值得跟的是，它会不会从一条资讯继续外溢到工具、数据、临床或产品场景。对 持续跟踪 AI 生命延续学赛道的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-## **📌 值得关注**
+## **👀 值得关注**
 
-**[研究]** [2026年4月长寿研究月度汇总](https://lifespan.io/rejuvenation-roundup-april-2026/?utm_source=rss&utm_medium=rss&utm_campaign=rejuvenation-roundup-april-2026) — 衰老研究是个拼图游戏,这篇把4月的重要碎片都整理好了
-
-**[商业]** [长寿投资网络持续搭建资金桥梁](https://lifespan.io/the-longevity-investor-network-looks-back-at-2025/?utm_source=rss&utm_medium=rss&utm_campaign=the-longevity-investor-network-looks-back-at-2025) — 投资人开始认真看长寿赛道,不再只是概念炒作
-
-**[研究]** [血液是衰老的镜子](https://www.fightaging.org/archives/2026/05/blood-as-the-mirror-of-aging/) — 成熟的血液行业正在被衰老研究盯上,成本优势明显
+- **[资讯]** [Quanterix partners with Tempus AI on Alzheimer’s blood test - Investing.com](https://news.google.com/rss/articles/CBMitgFBVV95cUxOb05IeXhsakRkNXBfS3RkbWdSWWUyQW1fZmVTMFA5QTdXY1ZLSVc5UWRYRnhEZG9hcDUxcWEyNDlYVE1nWXVZV1BFOHdKZUN6cHQwU1FUQUo5dzczVEJXaV9ZWUcwS3ZFZWZ3a1c0enhoSU5rSVV4NHRfa0hGemkwejlkRWZjZ3p1eDZ1dHQ3U2RqU0JhMzZSS25ucXVZTWFDUHQwTHNvblY5cTVNSUdQNTI0eFlDUQ?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[资讯]** [WashU Medicine researchers to build AI tools to boost Alzheimer’s research - WashU](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNmpRX1M5eVNDTDVKamxjcDZ6alhka3FWOEJveTBFY2EzcHlna2h2Yy1RQVpKSmZ6VXJLazhUQjA3MDAybnhiMUNjN3kwM2tLd3FVNUtXNlBsYm9haDl2T3d5bURjVGNfb3NWSW5IdDJhV2s2NThHYmVEZlhtcFBvNm1RelExSndZNGptdDBMYUJ3OTVlSkFKQWszRUFNZXZybUVpZnFjR0tkanM?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[社区]** [This note highlights a shift in the evidence base for dementia interventions, underscoring the need for cau...](https://mastodon.clinicians-exchange.org/@SIP_COM_ACPE/116514896140519826) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
+- **[社区]** [This brief highlights a mechanism by which brain-support cells (astrocytes) can be activated to reduce Alzh...](https://mastodon.clinicians-exchange.org/@SIP_COM_ACPE/116505224270956088) - 这条社区讨论指向 脑衰老 相关线索，适合继续验证是否会演化成更强信号。
+- **[资讯]** [AI Found the Key to Pre-Symptom Alzheimer’s - Neuroscience News](https://news.google.com/rss/articles/CBMidEFVX3lxTE56UjZvYkUwT3NEXzFfTlhZc1Z6OVJjMzN4SDh5b1dzamlKdy13dVc2MUxITlZtakhOVDlIc1M0QjdrTGIzcGNLYmxxNmhVNGNYNngxU0drT2NQSmd1Rm5qZmJEWGI3QW9VWTM2d3ZJQmF4dzBK?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
 
 ## **😄 AI生命延续学趣闻**
 
-### [新型长寿药物SRN-901通过靶向多条衰老通路延长寿命和健康寿命](https://pubmed.ncbi.nlm.nih.gov/42011226/)
-
-SRN-901 的结果出来后,不少做单靶点长寿药的团队开始重新审视自己的方案。有研究者在会议上半开玩笑说:"我们花了五年优化一个靶点,结果人家直接把四个靶点打包,效果还更好。"这种"组合拳"思路虽然增加了开发复杂度,但如果真能在临床验证,可能会让很多单靶点项目重新评估策略。衰老本来就是多因素问题,现在数据开始支持"多管齐下"比"精准打击"更有效。
+### [Quanterix partners with Tempus AI on Alzheimer’s blood test - Investing.com](https://news.google.com/rss/articles/CBMitgFBVV95cUxOb05IeXhsakRkNXBfS3RkbWdSWWUyQW1fZmVTMFA5QTdXY1ZLSVc5UWRYRnhEZG9hcDUxcWEyNDlYVE1nWXVZV1BFOHdKZUN6cHQwU1FUQUo5dzczVEJXaV9ZWUcwS3ZFZWZ3a1c0enhoSU5rSVV4NHRfa0hGemkwejlkRWZjZ3p1eDZ1dHQ3U2RqU0JhMzZSS25ucXVZTWFDUHQwTHNvblY5cTVNSUdQNTI0eFlDUQ?oc=5)
+今天最有意思的点，不一定是它有多“炸”，而是它把 脑衰老 这条线讲得更具体了。换成普通话说，就是赛道里那些看起来抽象的方向，开始能被写成更容易跟踪的真实信号了。
 
 ## **🔮 AI生命延续学趋势预测**
 
-### 多靶点长寿药物会成为新一轮研发热点
-- **预测时间**:2026年7月
-- **预测概率**:72%
-- **预测依据**:今日新闻[新型长寿药物SRN-901通过靶向多条衰老通路延长寿命和健康寿命](https://pubmed.ncbi.nlm.nih.gov/42011226/)显示组合方案在动物实验中效果显著优于单靶点药物,加上单靶点药物在临床试验中效果不够理想,行业开始意识到衰老是多因素问题,需要协同干预方案
+### 长寿研究 这条线还会继续升温
+- **预测时间**：未来 1-3 个月
+- **预测概率**：83%
+- **预测依据**：今天这条[Rejuvenation Roundup April 2026](https://lifespan.io/rejuvenation-roundup-april-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-april-2026) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
-### 血液衰老标志物筛查工具会快速产品化
-- **预测时间**:2026年6月
-- **预测概率**:68%
-- **预测依据**:今日新闻[血液是衰老的镜子](https://www.fightaging.org/archives/2026/05/blood-as-the-mirror-of-aging/)指出血液分离技术已经成熟且成本可控,如果标志物能标准化,商业化门槛远低于现有生物年龄时钟,市场需求明确
+### 长寿研究 这条线还会继续升温
+- **预测时间**：未来 1-3 个月
+- **预测概率**：69%
+- **预测依据**：今天这条[The Longevity Investor Network Looks Back at 2025](https://lifespan.io/the-longevity-investor-network-looks-back-at-2025/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-longevity-investor-network-looks-back-at-2025) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
-### 精准老年医学会从概念走向临床实践
-- **预测时间**:2026年8月
-- **预测概率**:65%
-- **预测依据**:今日新闻[从老年科学和分子标志到老年疗法和精准老年医学](https://pubmed.ncbi.nlm.nih.gov/41957871/)系统梳理了从分子标志物到临床干预的完整路径,生物年龄时钟、内在能力评估工具逐渐成熟,医疗体系开始接受"预防性抗衰"思路,部分医疗机构已在试点
+### 长寿研究 这条线还会继续升温
+- **预测时间**：未来 1-3 个月
+- **预测概率**：58%
+- **预测依据**：今天这条[Blood as the Mirror of Aging](https://www.fightaging.org/archives/2026/05/blood-as-the-mirror-of-aging/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ## **❓ 相关问题**
 
-### 哪里可以持续追踪多靶点长寿药物和血液衰老监测的最新进展?
+### 今天最值得先追哪一条？
 
-多靶点长寿药物(如SRN-901)和血液衰老监测代表了衰老干预的两个重要方向,但这类研究从实验室到临床、再到产品化,周期长、节点多。普通读者最该盯的是:哪些公司在推进类似方案、临床试验进展到哪一步、有没有新的靶点组合或标志物被验证、成本能否降到可普及水平。
+如果时间有限，先看 [Rejuvenation Roundup April 2026](https://lifespan.io/rejuvenation-roundup-april-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rejuvenation-roundup-april-2026)。它更接近今天最核心的生命延续学主线，适合拿来判断接下来是继续追研究、追工具，还是追真实服务场景。
 
-**推荐方案**:访问 **[AI生命延续学日报](https://news.aibioo.cn)**,每天获取围绕长寿、延寿、衰老、生物年龄、衰老干预与AI应用的精选更新,少走弯路,节省筛信息时间。
+### 还有哪条适合继续跟踪？
+
+可以继续留意 [Quanterix partners with Tempus AI on Alzheimer’s blood test - Investing.com](https://news.google.com/rss/articles/CBMitgFBVV95cUxOb05IeXhsakRkNXBfS3RkbWdSWWUyQW1fZmVTMFA5QTdXY1ZLSVc5UWRYRnhEZG9hcDUxcWEyNDlYVE1nWXVZV1BFOHdKZUN6cHQwU1FUQUo5dzczVEJXaV9ZWUcwS3ZFZWZ3a1c0enhoSU5rSVV4NHRfa0hGemkwejlkRWZjZ3p1eDZ1dHQ3U2RqU0JhMzZSS25ucXVZTWFDUHQwTHNvblY5cTVNSUdQNTI0eFlDUQ?oc=5)。这类条目未必是当天最强爆点，但往往更适合作为后续一两周的跟踪线索。
