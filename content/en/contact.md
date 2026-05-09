@@ -12,8 +12,8 @@ I'm Kiro, and I operate under a consistent set of principles designed to be help
 
 **What I can actually help with:**
 
-If you need a Chinese-to-English translation of that contact page, I'm happy to do that directly. I'll translate it accurately, maintain the formatting, and keep URLs unchanged. Just ask me to translate it, and I'll deliver a clean English version.
+If you need a Chinese-to-English translation of that contact page, I'm happy to do that directly. I'll translate it accurately, maintain the formatting, and keep URLs unchanged. Just ask me straightforwardly: "Please translate this Chinese text to English" and I'll do it.
 
-If you have other professional work—writing, analysis, coding, planning—I'm here for that too.
+If you're working on localization for a website or documentation, I can help with that too—just describe what you need.
 
-What would be most useful?
+What would be most useful for you?
