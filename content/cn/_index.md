@@ -11,16 +11,16 @@ cascade:
 ## **今日摘要**
 
 ```
-今天最值得先看的是 The microbiome-gerogene axis: a new frontier in precision geromedicine。
+今天最值得先看的是 微生物组-老化基因轴：精准老年医学的新前沿。
 本期筛出 14 条重点信号，其中强相关 9 条、邻近相关 5 条。
-如果只再追一条后续线索，可以继续看 Cardiovascular ageing: hallmarks, signaling pathways, diseases and therapeutic targets.。
+如果只再追一条后续线索，可以继续看 心血管衰老：标志物、信号通路、疾病与治疗靶点。
 ```
 
 
 
 ## ⚡ 快速导航
 
-- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 最新动态速览
+- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 先看《微生物组-老化基因轴：精准老年医学的新前沿》，再追《心血管衰老：标志物、信号通路、疾病与治疗靶点》
 
 
 
@@ -36,37 +36,37 @@ cascade:
 
 ## **🔥 重磅 TOP 5**
 
-### 1. [The microbiome-gerogene axis: a new frontier in precision geromedicine](https://www.frontiersin.org/articles/10.3389/fragi.2026.1794192)
+### 1. [微生物组-老化基因轴：精准老年医学的新前沿](https://www.frontiersin.org/articles/10.3389/fragi.2026.1794192)
 
 这条资讯直接落在 衰老机制 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正值得跟的是，它会不会从一条资讯继续外溢到工具、数据、临床或产品场景。对 持续跟踪 AI 生命延续学赛道的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 2. [Cardiovascular ageing: hallmarks, signaling pathways, diseases and therapeutic targets.](https://pubmed.ncbi.nlm.nih.gov/42010239/)
+### 2. [心血管衰老：标志物、信号通路、疾病与治疗靶点](https://pubmed.ncbi.nlm.nih.gov/42010239/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 3. [p21&lt;sup&gt;+&lt;/sup&gt;TREM2&lt;sup&gt;+&lt;/sup&gt; senescent macrophages fuel inflammaging and metabolic dysfunction-associated steatotic liver disease.](https://pubmed.ncbi.nlm.nih.gov/41991686/)
+### 3. [p21⁺TREM2⁺衰老巨噬细胞驱动炎性衰老与代谢相关脂肪性肝病](https://pubmed.ncbi.nlm.nih.gov/41991686/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 4. [Schizophrenia and accelerated ageing: systematic review and future research directions.](https://pubmed.ncbi.nlm.nih.gov/42015596/)
+### 4. [精神分裂症与加速衰老：系统综述与未来研究方向](https://pubmed.ncbi.nlm.nih.gov/42015596/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
-### 5. [Epigenetic ageing and the risk of Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/41469193/)
+### 5. [表观遗传衰老与帕金森病风险的关联研究](https://pubmed.ncbi.nlm.nih.gov/41469193/)
 
 这项研究直接落在 长寿研究 这条主线上，值得优先看它会不会继续放大成长寿研究和延寿应用里的核心信号。真正有价值的地方，在于它可能把模型、标志物或干预评估往更可验证的方向再推一步。对 做长寿研究、健康管理和生物年龄建模的人 来说，这条都更像值得放进后续观察清单的上游变化。
 
 ## **👀 值得关注**
 
-- **[资讯]** [AI could transform early detection of Parkinson’s - The Hippocratic Post](https://news.google.com/rss/articles/CBMikgFBVV95cUxOYm5TVmVUMHhiOVVGMlFuZUVwNkluU19qMXpuRUIwckRxU3JoM2ItZlZWSFZ6RUlMTU54NTI3TnJQeHd6VTE1azMyRjBiYi10ZS13cFJ0UVlhNmJ2NFpZTjN2X0lwai10NnVFX1M2X2xjTzlKSFZXUS1PN1YyRDFHOVZVSTI4VGdPY3loWUtfU2Z4UQ?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
-- **[资讯]** [From Clinical Trials to AI Music: How Bob Ehlers Is Redefining Life With Alzheimer’s - Being Patient](https://news.google.com/rss/articles/CBMifEFVX3lxTFBEeWRTS010cUhhZ2pSU1ZDQngxYzVJM09jeGxIYkwzcndPRzlTTTRxaUlickg0X3l5TFVxQ1lqVDdSVXI1bk1NcHR2UlJLNVZYM0xYcEdZY3lvU19rb2RtT1dsY3V6VHA4eXctVDlJMG5Wam1oOTd4M09ZOGc?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
-- **[社区]** [Microproteins Linked to Heart and Brain Health Elevated by Mediterranean Diet Credit: Nazar Abbas Photograp...](https://vive.im/@mediterraneandiet/116503004301757310) - 这条社区讨论指向 线粒体 相关线索，适合继续验证是否会演化成更强信号。
-- **[社区]** [Microproteins Linked to Heart and Brain Health Elevated by Mediterranean Diet Credit: Nazar Abbas Photograp...](https://vive.im/@dc/116502981011989841) - 这条社区讨论指向 线粒体 相关线索，适合继续验证是否会演化成更强信号。
-- **[社区]** [Regular cannabinoid use is associated with concurrent increases in both pro-inflammatory and anti-inflammat...](https://mastodon.clinicians-exchange.org/@SIP_COM_ACPE/116414759720572399) - 这条社区讨论指向 生物标志物 相关线索，适合继续验证是否会演化成更强信号。
+- **[资讯]** [AI或将变革帕金森病早期检测](https://news.google.com/rss/articles/CBMikgFBVV95cUxOYm5TVmVUMHhiOVVGMlFuZUVwNkluU19qMXpuRUIwckRxU3JoM2ItZlZWSFZ6RUlMTU54NTI3TnJQeHd6VTE1azMyRjBiYi10ZS13cFJ0UVlhNmJ2NFpZTjN2X0lwai10NnVFX1M2X2xjTzlKSFZXUS1PN1YyRDFHOVZVSTI4VGdPY3loWUtfU2Z4UQ?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[资讯]** [从临床试验到AI音乐：Bob Ehlers 重新定义阿尔茨海默病患者的生活](https://news.google.com/rss/articles/CBMifEFVX3lxTFBEeWRTS010cUhhZ2pSU1ZDQngxYzVJM09jeGxIYkwzcndPRzlTTTRxaUlickg0X3l5TFVxQ1lqVDdSVXI1bk1NcHR2UlJLNVZYM0xYcEdZY3lvU19rb2RtT1dsY3V6VHA4eXctVDlJMG5Wam1oOTd4M09ZOGc?oc=5) - 这条动态和 脑衰老 有邻近关系，适合继续跟踪它是否外溢到生命延续学主线。
+- **[社区]** [地中海饮食可提升与心脑健康相关的微蛋白水平](https://vive.im/@mediterraneandiet/116503004301757310) - 这条社区讨论指向 线粒体 相关线索，适合继续验证是否会演化成更强信号。
+- **[社区]** [地中海饮食可提升与心脑健康相关的微蛋白水平](https://vive.im/@dc/116502981011989841) - 这条社区讨论指向 线粒体 相关线索，适合继续验证是否会演化成更强信号。
+- **[社区]** [规律使用大麻素与促炎及抗炎标志物同步升高相关](https://mastodon.clinicians-exchange.org/@SIP_COM_ACPE/116414759720572399) - 这条社区讨论指向 生物标志物 相关线索，适合继续验证是否会演化成更强信号。
 
 ## **😄 AI生命延续学趣闻**
 
-### [AI could transform early detection of Parkinson’s - The Hippocratic Post](https://news.google.com/rss/articles/CBMikgFBVV95cUxOYm5TVmVUMHhiOVVGMlFuZUVwNkluU19qMXpuRUIwckRxU3JoM2ItZlZWSFZ6RUlMTU54NTI3TnJQeHd6VTE1azMyRjBiYi10ZS13cFJ0UVlhNmJ2NFpZTjN2X0lwai10NnVFX1M2X2xjTzlKSFZXUS1PN1YyRDFHOVZVSTI4VGdPY3loWUtfU2Z4UQ?oc=5)
+### [AI或将变革帕金森病早期检测](https://news.google.com/rss/articles/CBMikgFBVV95cUxOYm5TVmVUMHhiOVVGMlFuZUVwNkluU19qMXpuRUIwckRxU3JoM2ItZlZWSFZ6RUlMTU54NTI3TnJQeHd6VTE1azMyRjBiYi10ZS13cFJ0UVlhNmJ2NFpZTjN2X0lwai10NnVFX1M2X2xjTzlKSFZXUS1PN1YyRDFHOVZVSTI4VGdPY3loWUtfU2Z4UQ?oc=5)
 今天最有意思的点，不一定是它有多“炸”，而是它把 脑衰老 这条线讲得更具体了。换成普通话说，就是赛道里那些看起来抽象的方向，开始能被写成更容易跟踪的真实信号了。
 
 ## **🔮 AI生命延续学趋势预测**
@@ -74,24 +74,24 @@ cascade:
 ### 衰老机制 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[The microbiome-gerogene axis: a new frontier in precision geromedicine](https://www.frontiersin.org/articles/10.3389/fragi.2026.1794192) 说明 衰老机制 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[微生物组-老化基因轴：精准老年医学的新前沿](https://www.frontiersin.org/articles/10.3389/fragi.2026.1794192) 说明 衰老机制 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ### 长寿研究 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[Cardiovascular ageing: hallmarks, signaling pathways, diseases and therapeutic targets.](https://pubmed.ncbi.nlm.nih.gov/42010239/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[心血管衰老：标志物、信号通路、疾病与治疗靶点](https://pubmed.ncbi.nlm.nih.gov/42010239/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ### 长寿研究 这条线还会继续升温
 - **预测时间**：未来 1-3 个月
 - **预测概率**：58%
-- **预测依据**：今天这条[p21&lt;sup&gt;+&lt;/sup&gt;TREM2&lt;sup&gt;+&lt;/sup&gt; senescent macrophages fuel inflammaging and metabolic dysfunction-associated steatotic liver disease.](https://pubmed.ncbi.nlm.nih.gov/41991686/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
+- **预测依据**：今天这条[p21⁺TREM2⁺衰老巨噬细胞驱动炎性衰老与代谢相关脂肪性肝病](https://pubmed.ncbi.nlm.nih.gov/41991686/) 说明 长寿研究 相关信号还在持续冒头，后面大概率还会继续出现更强的研究、工具或产品化线索。
 
 ## **❓ 相关问题**
 
 ### 今天最值得先追哪一条？
 
-如果时间有限，先看 [The microbiome-gerogene axis: a new frontier in precision geromedicine](https://www.frontiersin.org/articles/10.3389/fragi.2026.1794192)。它更接近今天最核心的生命延续学主线，适合拿来判断接下来是继续追研究、追工具，还是追真实服务场景。
+如果时间有限，先看 [微生物组-老化基因轴：精准老年医学的新前沿](https://www.frontiersin.org/articles/10.3389/fragi.2026.1794192)。它更接近今天最核心的生命延续学主线，适合拿来判断接下来是继续追研究、追工具，还是追真实服务场景。
 
 ### 还有哪条适合继续跟踪？
 
-可以继续留意 [AI could transform early detection of Parkinson’s - The Hippocratic Post](https://news.google.com/rss/articles/CBMikgFBVV95cUxOYm5TVmVUMHhiOVVGMlFuZUVwNkluU19qMXpuRUIwckRxU3JoM2ItZlZWSFZ6RUlMTU54NTI3TnJQeHd6VTE1azMyRjBiYi10ZS13cFJ0UVlhNmJ2NFpZTjN2X0lwai10NnVFX1M2X2xjTzlKSFZXUS1PN1YyRDFHOVZVSTI4VGdPY3loWUtfU2Z4UQ?oc=5)。这类条目未必是当天最强爆点，但往往更适合作为后续一两周的跟踪线索。
+可以继续留意 [AI或将变革帕金森病早期检测](https://news.google.com/rss/articles/CBMikgFBVV95cUxOYm5TVmVUMHhiOVVGMlFuZUVwNkluU19qMXpuRUIwckRxU3JoM2ItZlZWSFZ6RUlMTU54NTI3TnJQeHd6VTE1azMyRjBiYi10ZS13cFJ0UVlhNmJ2NFpZTjN2X0lwai10NnVFX1M2X2xjTzlKSFZXUS1PN1YyRDFHOVZVSTI4VGdPY3loWUtfU2Z4UQ?oc=5)。这类条目未必是当天最强爆点，但往往更适合作为后续一两周的跟踪线索。
