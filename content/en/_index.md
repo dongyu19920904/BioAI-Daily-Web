@@ -2,134 +2,130 @@
 linkTitle: AI生命延续学日报
 title: AI生命延续学日报 2026/5/12
 breadcrumbs: false
-next: /2026-05/2026-05-11
-description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
+next: /en/2026-05/2026-05-11
+description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
+  biological age, lifespan interventions, and related tools and models.
 cascade:
   type: docs
 ---
-
-## **今日摘要**
+# **Today's Summary**
 
 ```
-今天最值得先看的是 新型长寿药物 SRN-901 多靶点干预衰老通路，延长寿命与健康寿命。
-老药氯沙坦已有人体代谢年轻化证据，说明延寿研究正在加速从动物跨向真实人体。
-如果只再追一条后续线索，可以继续看 干扰素相关炎性衰老将表观遗传年龄加速与多病共患联系起来。
+The most worth watching today is the novel longevity drug SRN-901 with multi-target intervention in aging pathways, extending both lifespan and healthspan.
+The old drug Losartan already has evidence of metabolic rejuvenation in humans, indicating that lifespan extension research is accelerating from animals to real human bodies.
+If you can only follow one more lead, continue watching how interferon-related inflammatory aging links epigenetic age acceleration to multimorbidity.
 ```
 
+## ⚡ Quick Navigation
 
+- [📰 Today's AI Longevity Science News](#todays-ai-longevity-science-news) - First check out "Novel Longevity Drug SRN-901 with Multi-Target Intervention in Aging Pathways, Extending Lifespan and Healthspan," then follow up with "Interferon-Related Inflammatory Aging Links Epigenetic Age Acceleration to Multimorbidity"
 
-## ⚡ 快速导航
+> 💡 **Tip**: Want to experience the latest AI models mentioned in the article (Claude 4.5, GPT, Gemini 3 Pro) right away? No account? Head to [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to grab one—one minute to get started, worry-free support.
 
-- [📰 今日 AI生命延续学资讯](#今日-ai-生命延续学资讯) - 先看《新型长寿药物 SRN-901 多靶点干预衰老通路，延长寿命与健康寿命》，再追《干扰素相关炎性衰老将表观遗传年龄加速与多病共患联系起来》
+## **Today's AI Longevity Science News**
 
+### **👀 One-Liner**
+A new drug SRN-901 quietly published a paper hitting four aging pathways simultaneously—the concept of multi-target synergistic lifespan extension is turning into data.
 
-
-> 💡 **提示**：想第一时间体验文中提到的最新 AI 模型（Claude 4.5、GPT、Gemini 3 Pro）？没有账号？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 领个号，一分钟上手，售后无忧。
-
-## **今日 AI生命延续学资讯**
-
-### **👀 只有一句话**
-一款同时打击四条衰老通路的新药 SRN-901 悄悄发论文了，多靶点协同延寿的思路正在从概念变成数据。
-
-### **🔑 3 个关键词**
-#多靶点延寿药 #炎性衰老机制 #老药新用
+### **🔑 3 Key Takeaways**
+#multi-target-longevity-drugs #inflammatory-aging-mechanisms #old-drugs-new-uses
 
 ---
 
-## **🔥 重磅 TOP 6**
+## **🔥 Top 6 Headlines**
 
-### 1. [新型长寿药物 SRN-901 多靶点干预衰老通路，延长寿命与健康寿命](https://pubmed.ncbi.nlm.nih.gov/42011226/)
+### 1. [Novel Longevity Drug SRN-901 with Multi-Target Intervention in Aging Pathways, Extending Lifespan and Healthspan](https://pubmed.ncbi.nlm.nih.gov/42011226/)
 
-大多数延寿药只盯一个靶点——要么清衰老细胞，要么激活自噬，要么补 NAD+。SRN-901 不一样，它同时瞄准了 mTOR（细胞生长调控）、自噬（细胞自我清理）、线粒体自噬（清除受损线粒体）和 Senolytics（清除衰老细胞）四条通路，结果在动物实验里同时延长了寿命和健康寿命。
+Most longevity drugs target just one pathway—either clearing senescent cells, activating autophagy, or boosting NAD+. SRN-901 is different. It simultaneously targets mTOR (cell growth regulation), autophagy (cellular self-cleaning), mitophagy (clearing damaged mitochondria), and senolytics (removing senescent cells)—four pathways at once. In animal studies, it extended both lifespan and healthspan.
 
-这件事的新意不在于"又一个长寿药"，而在于多靶点协同这个思路——衰老本来就是系统性失调，单点干预效果有限，这篇论文在尝试给出一个更整体的答案。值得持续跟进后续临床数据。
-
----
-
-### 2. [干扰素相关炎性衰老将表观遗传年龄加速与多病共患联系起来](https://pubmed.ncbi.nlm.nih.gov/41999740/)
-
-为什么有些人老得特别快，而且一病就是好几种病一起来？这篇论文给出了一个具体机制：干扰素（免疫系统的一种信号分子）持续激活，会推动表观遗传时钟加速，同时引发"炎性衰老"（inflammaging，慢性低度炎症），最终导致多种疾病同时出现。
-
-关键在于"表观遗传年龄加速"这个桥梁——它把免疫失调和多病共存串联起来了。对做生物年龄时钟研究的人来说，这条通路值得认真看，因为它暗示干扰素信号可能是一个可干预的衰老加速器。
+The novelty isn't "another longevity drug," but the multi-target synergy approach. Aging is systemic dysfunction; single-point interventions have limited effects. This paper attempts a more holistic answer. Worth tracking for follow-up clinical data.
 
 ---
 
-### 3. [多组学揭示 Losartan 在老龄小鼠与衰弱前期老年男性中促代谢年轻化的机制](https://pubmed.ncbi.nlm.nih.gov/42017270/)
+### 2. [Interferon-Related Inflammatory Aging Links Epigenetic Age Acceleration to Multimorbidity](https://pubmed.ncbi.nlm.nih.gov/41999740/)
 
-氯沙坦（Losartan）本来是一个普通的降压药，结果这篇论文用多组学（同时分析基因组、蛋白质组、代谢组等多层数据）发现，它在老年小鼠和衰弱老年男性身上都触发了代谢层面的"年轻化"信号。
+Why do some people age faster and get multiple diseases at once? This paper reveals a specific mechanism: sustained interferon activation (an immune signaling molecule) accelerates the epigenetic clock while triggering inflammaging (chronic low-grade inflammation), ultimately causing multiple diseases to appear simultaneously.
 
-老药新用，而且有人体数据支撑——这是这篇论文最值钱的地方。衰老研究里最难的一步就是从动物跨到人，这里已经迈出去了。多组学的分析框架也给后续研究提供了一个可复用的方法论。
-
----
-
-### 4. [p21⁺TREM2⁺衰老巨噬细胞驱动炎性衰老与代谢相关脂肪性肝病](https://pubmed.ncbi.nlm.nih.gov/41991686/)
-
-脂肪肝（MASLD，代谢功能障碍相关脂肪性肝病）和衰老的关系，比大多数人以为的要深。这篇论文发现，带有 p21⁺TREM2⁺ 标记的衰老巨噬细胞（一种免疫细胞）是关键推手——它们持续释放炎症信号，既加速炎性衰老，又直接驱动脂肪肝进展。
-
-这条线索的价值在于：它把"清除衰老细胞"（Senolytics）这个干预方向和代谢疾病治疗连接起来了。如果这类衰老巨噬细胞可以被靶向清除，脂肪肝的治疗思路可能会被重写。
+The key is the "epigenetic age acceleration" bridge—it connects immune dysregulation to multimorbidity. For researchers working on biological age clocks, this pathway deserves serious attention because it suggests interferon signaling may be an actionable aging accelerator.
 
 ---
 
-### 5. [心血管衰老：标志特征、信号通路、相关疾病与治疗靶点综述](https://pubmed.ncbi.nlm.nih.gov/42010239/)
+### 3. [Multi-Omics Reveals the Mechanism of Losartan-Induced Metabolic Rejuvenation in Aged Mice and Pre-Frail Older Men](https://pubmed.ncbi.nlm.nih.gov/42017270/)
 
-心血管疾病是全球老年人死亡的头号原因，但它和衰老的关系到底有多深？这篇综述系统梳理了心血管衰老的核心标志（hallmarks）、信号通路、相关疾病和潜在治疗靶点，相当于给这个领域画了一张完整的地图。
+Losartan is an ordinary blood pressure drug, but this paper used multi-omics (simultaneously analyzing genomics, proteomics, metabolomics, and more) to discover it triggers metabolic "rejuvenation" signals in both aged mice and frail older men.
 
-对做衰老干预研究的人来说，这类综述的价值在于"靶点清单"——哪些通路已经有药，哪些还是空白，一眼就能看出来。心血管衰老和全身衰老的机制高度重叠，这张图也适用于更广泛的延寿研究。
-
----
-
-### 6. [利用多角度照片提升人脸年龄预测精度](https://pubmed.ncbi.nlm.nih.gov/42040255/)
-
-用一张脸照预测生物年龄，这个方向已经有不少团队在做。但这篇论文发现了一个简单到有点意外的改进：用多角度照片（而不是单张正面照）输入 AI 模型，预测精度明显提升。
-
-成本低、门槛低、效果提升——这三点加在一起，让这个方向的产品化路径变得更清晰。面部年龄作为生物年龄的非侵入性代理指标，如果精度能继续提升，未来在消费级健康产品里的应用空间相当大。
+Old drug, new use—with human data backing it up. That's the real value here. The hardest step in aging research is crossing from animals to humans, and this work has already taken that leap. The multi-omics framework also provides a reusable methodology for follow-up studies.
 
 ---
 
-## **📌 值得关注**
+### 4. [p21⁺TREM2⁺ Senescent Macrophages Drive Inflammatory Aging and Metabolic Dysfunction-Associated Fatty Liver Disease](https://pubmed.ncbi.nlm.nih.gov/41991686/)
 
-**[研究]** [多组学揭示 Losartan 在老龄小鼠与衰弱前期老年男性中促代谢年轻化的机制](https://pubmed.ncbi.nlm.nih.gov/42017270/) — 降压老药在人体层面触发代谢年轻化信号，老药新用赛道又多了一个有人体数据支撑的案例，值得关注后续临床设计怎么跟进。
+The connection between fatty liver (MASLD) and aging runs deeper than most people think. This paper identifies p21⁺TREM2⁺ senescent macrophages (a type of immune cell) as key drivers—they continuously release inflammatory signals, both accelerating inflammaging and directly driving fatty liver progression.
 
-**[研究]** [p21⁺TREM2⁺衰老巨噬细胞驱动炎性衰老与代谢相关脂肪性肝病](https://pubmed.ncbi.nlm.nih.gov/41991686/) — Senolytics 和代谢疾病的交叉点正在变得越来越具体，这条线索对做衰老干预产品的团队有直接参考价值。
-
----
-
-## **😄 AI生命延续学趣闻**
-
-### [利用多角度照片提升人脸年龄预测精度](https://pubmed.ncbi.nlm.nih.gov/42040255/)
-
-本来是个好消息——多角度照片能让 AI 面部年龄预测更准。结果一想，"更准"这件事对很多人来说未必是好事。以前正面照还能靠角度藏住一点岁月，现在侧脸、仰角全部交出去，AI 给你算出来的生物年龄可能比你愿意承认的数字大上好几岁。研究者说这是"精度提升"，用户心里可能是另一种感受。不过话说回来，测得准才能干预得准——这才是这件事真正的意义。
+The value of this lead: it connects "senescent cell clearance" (senolytics) to metabolic disease treatment. If these senescent macrophages can be selectively eliminated, fatty liver therapeutics could be rewritten.
 
 ---
 
-## **🔮 AI生命延续学趋势预测**
+### 5. [Cardiovascular Aging: Hallmarks, Signaling Pathways, Associated Diseases, and Therapeutic Targets—A Comprehensive Review](https://pubmed.ncbi.nlm.nih.gov/42010239/)
 
-### 多靶点衰老干预药物将成为新一轮研究热点
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻 [新型长寿药物 SRN-901 多靶点干预衰老通路，延长寿命与健康寿命](https://pubmed.ncbi.nlm.nih.gov/42011226/) 释放了一个明确信号——单靶点干预的天花板已经被反复讨论，研究界开始认真尝试协同打击多条衰老通路。这个思路一旦有更多动物实验跟进，会快速吸引资本和临床团队入场。
+Cardiovascular disease is the leading cause of death in older adults globally, but how deep does its connection to aging really run? This review systematically maps cardiovascular aging's core hallmarks, signaling pathways, associated diseases, and potential therapeutic targets—essentially drawing a complete roadmap of the field.
 
-### 炎性衰老将成为生物年龄时钟的新评分维度
-- **预测时间**：2026年Q2-Q3
-- **预测概率**：65%
-- **预测依据**：今日新闻 [干扰素相关炎性衰老将表观遗传年龄加速与多病共患联系起来](https://pubmed.ncbi.nlm.nih.gov/41999740/) 把免疫炎症信号和表观遗传时钟直接挂钩，这意味着下一代生物年龄时钟很可能会把炎症标志物纳入评分体系，而不只是依赖甲基化数据。
-
-### 老药新用在衰老干预领域的论文和临床试验将明显增多
-- **预测时间**：2026年Q2-Q4
-- **预测概率**：75%
-- **预测依据**：今日新闻 [多组学揭示 Losartan 在老龄小鼠与衰弱前期老年男性中促代谢年轻化的机制](https://pubmed.ncbi.nlm.nih.gov/42017270/) 已有人体数据，加上二甲双胍、雷帕霉素等老药的延寿研究持续推进，老药新用的路径成本低、监管障碍小，是目前最快能推进到临床的方向之一。
-
-### 非侵入性生物年龄评估工具将加速产品化
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [利用多角度照片提升人脸年龄预测精度](https://pubmed.ncbi.nlm.nih.gov/42040255/) 表明，面部年龄这个方向的技术门槛在持续降低。结合消费级健康设备的普及，非侵入性生物年龄评估很可能在未来几个月内出现第一批真正可用的消费产品。
+For aging intervention researchers, the value of such reviews is the "target checklist"—which pathways already have drugs, which are still blank spaces. You can see at a glance. Cardiovascular aging mechanisms heavily overlap with systemic aging, so this map applies broadly to longevity research.
 
 ---
 
-## **❓ 相关问题**
+### 6. [Enhancing Facial Age Prediction Accuracy Using Multi-Angle Photography](https://pubmed.ncbi.nlm.nih.gov/42040255/)
 
-### 哪里可以持续追踪多靶点衰老干预药物的最新研究进展？
+Predicting biological age from a single face photo—several teams are already working on this. But this paper found a surprisingly simple improvement: feeding multi-angle photos (instead of just a frontal shot) into AI models significantly boosts prediction accuracy.
 
-多靶点衰老干预是目前延寿研究里最活跃的方向之一——SRN-901 这类同时打击 mTOR、自噬、线粒体自噬和衰老细胞清除四条通路的药物，代表了研究界从"单点干预"向"系统性干预"的思路转变。这类进展散落在 PubMed、bioRxiv 和各大长寿公司的官方渠道，自己筛信息成本很高。
+Low cost, low barrier, clear improvement—these three factors together make the product path clearer. If facial age as a non-invasive biological age proxy can keep improving in accuracy, the consumer health product applications down the road are substantial.
 
-**推荐方案**：访问 **[AI生命延续学日报](https://news.aibioo.cn)**，每天获取围绕长寿、延寿、衰老、生物年龄、衰老干预与 AI 应用的精选更新，少走弯路，节省筛信息时间。
+---
+
+## **📌 Worth Watching**
+
+**[Research]** [Multi-Omics Reveals the Mechanism of Losartan-Induced Metabolic Rejuvenation in Aged Mice and Pre-Frail Older Men](https://pubmed.ncbi.nlm.nih.gov/42017270/) — An old blood pressure drug triggers metabolic rejuvenation signals in humans. The old-drugs-new-uses track just gained another case with human data backing it. Worth tracking how follow-up clinical designs evolve.
+
+**[Research]** [p21⁺TREM2⁺ Senescent Macrophages Drive Inflammatory Aging and Metabolic Dysfunction-Associated Fatty Liver Disease](https://pubmed.ncbi.nlm.nih.gov/41991686/) — The intersection of senolytics and metabolic disease is becoming increasingly concrete. This lead has direct reference value for teams building aging intervention products.
+
+---
+
+## **😄 AI Longevity Science Fun Fact**
+
+### [Enhancing Facial Age Prediction Accuracy Using Multi-Angle Photography](https://pubmed.ncbi.nlm.nih.gov/42040255/)
+
+Good news on the surface—multi-angle photos make AI facial age prediction more accurate. But think about it: "more accurate" might not feel like good news to everyone. Before, a frontal photo let you hide a bit of time with the right angle. Now you're handing over side profiles and overhead shots, and the AI calculates your biological age might be several years older than you'd like to admit. Researchers call it "accuracy improvement," but users might feel differently. That said, measuring accurately is how you intervene effectively—that's the real point here.
+
+---
+
+## **🔮 AI Longevity Science Trend Predictions**
+
+### Multi-Target Aging Intervention Drugs Will Become a New Research Hotspot
+- **Predicted Timeline**: Q3 2026
+- **Confidence**: 70%
+- **Rationale**: Today's news on [Novel Longevity Drug SRN-901 with Multi-Target Intervention in Aging Pathways, Extending Lifespan and Healthspan](https://pubmed.ncbi.nlm.nih.gov/42011226/) sends a clear signal—the ceiling of single-target intervention has been repeatedly discussed, and the research community is now seriously trying coordinated strikes on multiple aging pathways. Once more animal studies follow up on this approach, it will rapidly attract capital and clinical teams.
+
+### Inflammatory Aging Will Become a New Scoring Dimension for Biological Age Clocks
+- **Predicted Timeline**: Q2-Q3 2026
+- **Confidence**: 65%
+- **Rationale**: Today's news on [Interferon-Related Inflammatory Aging Links Epigenetic Age Acceleration to Multimorbidity](https://pubmed.ncbi.nlm.nih.gov/41999740/) directly ties immune inflammatory signals to the epigenetic clock. This suggests next-generation biological age clocks will likely incorporate inflammatory markers into scoring systems, not just rely on methylation data.
+
+### Old-Drug-New-Use Papers and Clinical Trials in Aging Intervention Will Increase Significantly
+- **Predicted Timeline**: Q2-Q4 2026
+- **Confidence**: 75%
+- **Rationale**: Today's news on [Multi-Omics Reveals the Mechanism of Losartan-Induced Metabolic Rejuvenation in Aged Mice and Pre-Frail Older Men](https://pubmed.ncbi.nlm.nih.gov/42017270/) already has human data. Combined with ongoing longevity research on metformin, rapamycin, and other old drugs, the old-drug-new-use pathway has low costs and minimal regulatory barriers—it's currently the fastest route to clinical advancement.
+
+### Non-Invasive Biological Age Assessment Tools Will Accelerate Toward Commercialization
+- **Predicted Timeline**: Q3 2026
+- **Confidence**: 60%
+- **Rationale**: Today's news on [Enhancing Facial Age Prediction Accuracy Using Multi-Angle Photography](https://pubmed.ncbi.nlm.nih.gov/42040255/) shows the technical barrier for facial age assessment keeps dropping. Combined with the proliferation of consumer health devices, non-invasive biological age assessment will likely see its first truly usable consumer products within months.
+
+---
+
+## **❓ Related Questions**
+
+### Where can I continuously track the latest research on multi-target aging intervention drugs?
+
+Multi-target aging intervention is currently one of the most active directions in longevity research—drugs like SRN-901 that simultaneously hit mTOR, autophagy, mitophagy, and senescent cell clearance represent the research community's shift from "single-point intervention" to "systemic intervention." These advances are scattered across PubMed, bioRxiv, and various longevity company channels. Filtering information yourself is costly.
+
+**Recommended Solution**: Visit **[AI Longevity Science Daily](https://news.aibioo.cn)** to get curated daily updates on longevity, lifespan extension, aging, biological age, aging interventions, and AI applications. Save time, avoid detours, and reduce information filtering overhead.
