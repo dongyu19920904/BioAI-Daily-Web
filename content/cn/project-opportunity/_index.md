@@ -16,86 +16,86 @@ next: /project-opportunity/2026-05-13
 
 ## 今日优先项目
 
-### gangcai/scAgeClock — 单细胞转录组衰老时钟
-
-基于门控多头注意力神经网络的人类衰老时钟模型，技术路线新颖，昨日刚发布，是目前少见的将 Transformer 架构引入单细胞衰老时钟的开源实现。星数虽少但方向精准，适合抢先试跑留存第一手笔记。
-
-- **证据来源：** [gangcai/scageclock](https://github.com/gangcai/scageclock)，GitHub，2026-05-12
-- **可信度：** 中（代码刚发布，尚无同行引用，但技术描述具体）
-- **它解决什么问题：** 用单细胞 RNA 数据估算个体生物学年龄，比传统 DNA 甲基化时钟分辨率更高
-- **可做成什么：** 试跑教程（Colab/本地）、与 TsankovLab/sc_Aging_clock 对比评测文章、数据集整理（公开 scRNA-seq 衰老数据集清单）
-- **售后或合规风险：** 低（纯研究工具，无临床声明）
-- **今天最小动作：** clone 仓库，跑通 README 示例数据，截图记录环境依赖和运行时间，写一篇"5分钟跑通 scAgeClock"笔记草稿
-
----
-
 ### biomarkersParkinson/paradigma — 帕金森数字生物标志物工具箱
 
-14 星、Python、维护活跃，专注帕金森病可穿戴/数字生物标志物提取，是目前 GitHub 上少见的专病数字生物标志物开源工具箱。帕金森早筛是商业化最近的神经退行性疾病赛道之一。
+这是一个专注于帕金森病数字生物标志物的 Python 工具箱，今天刚发布，方向精准、可直接试跑。虽然 star 数低（14），但属于主动维护的新项目，切入 aging/biomarker 赛道的稀缺工具型资源。
 
-- **证据来源：** [biomarkersParkinson/paradigma](https://github.com/biomarkersParkinson/paradigma)，GitHub，2026-05-11
-- **可信度：** 中高（有具体功能描述，星数在同类小众项目中属活跃）
-- **它解决什么问题：** 从可穿戴设备数据中提取帕金森相关数字生物标志物（步态、震颤等）
-- **可做成什么：** 工具拆解教程、与公开帕金森数据集（如 mPower）对接的 demo、面向养老机构的轻咨询选题
-- **售后或合规风险：** 中（涉及疾病检测，需明确"研究用途"免责声明）
-- **今天最小动作：** 阅读文档，整理支持的传感器类型和输出指标，写一份"paradigma 能做什么"的功能地图笔记
-
----
-
-### neurogenetics/ADRD_Brain_Aging — ADRD 脑衰老 Jupyter 项目集
-
-阿尔茨海默症及相关痴呆（ADRD）方向的 Jupyter Notebook 集合，昨日发布，星数极少但方向直接命中 dementia/brain aging 核心词。适合作为数据集和分析思路的参考素材库。
-
-- **证据来源：** [neurogenetics/ADRD_Brain_Aging](https://github.com/neurogenetics/ADRD_Brain_Aging)，GitHub，2026-05-12
-- **可信度：** 低中（内容尚不明确，需打开仓库确认 notebook 质量）
-- **它解决什么问题：** 提供 ADRD 脑衰老相关分析流程和数据处理示例
-- **可做成什么：** 内容拆解、数据集整理、作为 ADRD 教程系列的素材来源
-- **售后或合规风险：** 低
-- **今天最小动作：** 打开仓库，浏览所有 notebook 文件名和 README，判断是否有可复现的完整分析流程，记录结论
+- **证据来源：** [biomarkersParkinson/paradigma](https://github.com/biomarkersParkinson/paradigma)，GitHub，2026-05-13T07:19:38Z
+- **可信度：** 中（新项目，功能待验证，但来源机构名称专业）
+- **它解决什么问题：** 从可穿戴设备或传感器数据中提取帕金森相关数字生物标志物，填补临床与研究之间的工具空白
+- **可做成什么：** 试跑教程 / 数据集整理 / 面向神经科研究者的轻咨询入口
+- **售后或合规风险：** 中（涉及医疗数据，不可直接用于临床诊断，需明确免责声明）
+- **今天最小动作：** `git clone` 后跑示例数据，记录环境依赖和输出格式，写一篇"5分钟上手"笔记
 
 ---
 
-### Tolion Brain Coach 发布 — AI 脑健康 App 竞品信号
+### neurogenetics/ADRD_Brain_Aging — 阿尔茨海默症与脑老化研究代码库
 
-Tolion Health AI 发布首款 AI 驱动的脑健康/长寿/阿尔茨海默预防移动应用，是今日最直接的商业竞品信号。不适合立刻复制，但值得拆解其产品定位和用户承诺话术。
+来自神经遗传学团队的 ADRD（阿尔茨海默症及相关痴呆）脑老化项目，Jupyter Notebook 格式，适合直接拆解分析流程。方向与当前 longevity/dementia 热点高度吻合。
 
-- **证据来源：** [Business Wire，2026-05-12](https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdFFDQ0ZHVUhJdG1xQkRtbUhHbzNiRHRSRGYxck1CcktubDQxemhyVnBIZXV1VDhpWGNOSW1iS1FOV0RQcXRoOHBqOXliRlktSmRZemlhT29lcG1ZSl84VVdURE1xNjg3Si1ZdE9DaHhXc3VZS29QQjAzUTNuUlo4d3VjeGRFWE1fbVdIV05DYTVacmlCN3h4dTJaeUFYNnFMR0hZVVJwUUd2UnV0VjBpRDNkSUZQWm5peGM4OVh5YXJEdEhqSFlqSUdoal9TdDRQMS1QVFk2UEliaFZuQ05sNVpHRVJ3endFVGk5cll3LXFtS1VxR0RDQ3JaQzRxamxGNzE1MWxkTUI2SzlGcFVHV3QzOUhLVFVnS2FrUnJfc1dtdmJ2bEZqaExyUXp5Zmozb3Q0NEljcWVVQ1E5Y1NuTHhnbWFNRzNkWGRHallVc3RWenRlbi15NA)
-- **可信度：** 高（Business Wire 官方发布）
-- **它解决什么问题：** 消费者端脑健康管理和痴呆预防
-- **可做成什么：** 竞品分析文章、"AI 脑健康 App 全景图"内容选题
-- **售后或合规风险：** 高（直接声称预防阿尔茨海默，监管风险极高，不适合直接模仿其宣传话术）
-- **今天最小动作：** 搜索 Tolion Brain Coach 官网和 App Store 页面，截图其功能描述和免责声明，存入竞品档案
+- **证据来源：** [neurogenetics/ADRD_Brain_Aging](https://github.com/neurogenetics/ADRD_Brain_Aging)，GitHub，2026-05-12T21:26:31Z
+- **可信度：** 中（机构账号，但 star 数极低，内容深度待核实）
+- **它解决什么问题：** 提供 ADRD 相关脑老化的分析流程和数据处理范式，可作为研究复现基础
+- **可做成什么：** 数据集整理 / 分析流程拆解教程 / 面向科研读者的内容选题
+- **售后或合规风险：** 低（纯研究工具，无直接临床应用）
+- **今天最小动作：** 打开 Notebook，记录数据输入格式和分析步骤，判断是否有可复现的公开数据集
+
+---
+
+### gangcai/scAgeClock — 单细胞转录组衰老时钟模型
+
+基于门控多头注意力神经网络的单细胞衰老时钟，是当前 aging clock 研究的前沿方向。与同日出现的 TsankovLab/sc_Aging_clock 形成双线索，说明该方向今天有集中活动。
+
+- **证据来源：** [gangcai/scageclock](https://github.com/gangcai/scageclock)，GitHub，2026-05-12T20:22:42Z；[TsankovLab/sc_Aging_clock](https://github.com/TsankovLab/sc_Aging_clock)，GitHub，2026-05-12T19:05:28Z
+- **可信度：** 中（两个独立团队同日发布同类工具，方向可信；具体模型性能未验证）
+- **它解决什么问题：** 用单细胞数据估算生物学年龄，比传统 DNA 甲基化时钟分辨率更高
+- **可做成什么：** 技术对比文章（scAgeClock vs TsankovLab vs 传统 Horvath clock）/ 试跑教程 / 数据集整理
+- **售后或合规风险：** 低（研究工具，无直接临床输出）
+- **今天最小动作：** 同时 clone 两个项目，对比 README 和依赖，记录各自数据输入格式差异，选一个先跑示例
+
+---
+
+### Tolion Brain Coach — AI 脑健康移动应用上线
+
+商业产品信号：Tolion Health AI 发布首款面向阿尔茨海默症预防的 AI 个性化移动应用，是 longevity 赛道商业化落地的直接案例，适合做竞品分析和内容选题。
+
+- **证据来源：** [Business Wire via Google News](https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdFFDQ0ZHVUhJdG1xQkRtbUhHbzNiRHRSRGYxck1CcktubDQxemhyVnBIZXV1VDhpWGNOSW1iS1FOV0RQcXRoOHBqOXliRlktSmRZemlhT29lcG1ZSl84VVdURE1xNjg3Si1ZdE9DaHhXc3VZS29QQjAzUTNuUlo4d3VjeGRFWE1fbVdIV05DYTVacmlCN3h4dTJaeUFYNnFMR0hZVVJwUUd2UnV0VjBpRDNkSUZQWm5peGM4OVh5YXJEdEhqSFlqSUdoal9TdDRQMS1QVFk2UEliaFZuQ05sNVpHRVJ3endFVGk5cll3LXFtS1VxR0RDQ3JaQzRxamxGNzE1MWxkTUI2SzlGcFVHV3QzOUhLVFVnS2FrUnJfc1dtdmJ2bEZqaExyUXp5Zmozb3Q0NEljcWVVQ1E5Y1NuTHhnbWFNRzNkWGRHallVc3RWenRlbi15NA)，2026-05-12
+- **可信度：** 高（Business Wire 为付费新闻稿渠道，信息可信；产品效果未经独立验证）
+- **它解决什么问题：** 面向普通用户的脑健康自我管理，降低阿尔茨海默症风险的消费级入口
+- **可做成什么：** 竞品拆解文章 / 商业模式分析 / 面向中文用户的同类产品选题
+- **售后或合规风险：** 中（涉及健康声明，内容需注明"非医疗建议"）
+- **今天最小动作：** 搜索 Tolion Brain Coach 官网和 App Store 页面，截图记录功能点和定价，写竞品笔记
 
 ---
 
 ## 可二次开发方向
 
-- **scAgeClock vs sc_Aging_clock 横向评测教程**：两个单细胞衰老时钟项目同日出现，写一篇"2026年单细胞衰老时钟开源工具对比"，对比架构、数据要求、输出格式，是高价值的技术内容。
-- **帕金森数字生物标志物数据集清单**：基于 paradigma 工具箱，整理公开可用的帕金森可穿戴数据集（mPower、PPMI 等），做成可检索的数据资源页，服务研究者和开发者。
-- **ADRD/衰老 GitHub 项目周报**：今日出现 3 个相关项目，说明该方向发布频率在上升，可建立自动化监控（GitHub RSS + 关键词过滤），每周输出一期"衰老 AI 项目雷达"。
-- **MMP9 跨疾病生物标志物科普拆解**：论文"MMP9 as a shared immune-related gene in Alzheimer's and Huntington's diseases"提供了一个跨疾病生物标志物叙事角度，可拆解成面向非专业读者的科普文章，切入"神经退行性疾病共同机制"选题。
+- **单细胞衰老时钟横向对比教程：** 将 scAgeClock、TsankovLab/sc_Aging_clock 与经典 Horvath/Hannum 时钟做方法论对比，整理成面向生信研究者的中文教程，填补中文社区空白。
+- **帕金森数字生物标志物数据流水线：** 基于 paradigma 工具箱，搭建从可穿戴设备原始数据到生物标志物输出的完整 pipeline，配合公开数据集（如 mPower）做端到端演示。
+- **ADRD 脑老化分析流程可视化：** 将 ADRD_Brain_Aging 的 Notebook 改造成交互式 Streamlit/Gradio 应用，让非编程背景的研究者也能上传数据跑分析。
+- **longevity 商业产品数据库：** 以 Tolion Brain Coach、Neurophet 等为起点，建立一个持续更新的 AI longevity 商业产品追踪表（功能、定价、目标用户、融资状态），可作为付费 newsletter 或知识星球内容。
 
 ---
 
 ## 值得观察
 
-- **TsankovLab/sc_Aging_clock**：仅 1 星，内容尚不明确，但 TsankovLab 是有学术背景的实验室账号，值得在一周内回访确认 notebook 质量和数据来源。
-- **ASGH 2026 健康老龄化经济战略**：geneonline.com 报道 ASGH 2026 将健康老龄化定位为经济战略，会议内容可能产出政策方向和资金流向信号，值得在会后跟踪摘要。
-- **Neurophet 阿尔茨海默影像 AI（ASNR 2026）**：韩国公司在国际神经放射学会议展示影像 AI，是亚洲市场商业化进展的信号，值得跟踪其产品落地路径。
-- **ScienceAlert"预测长寿的关键单一因素"**：社交信号传播量可观，但原始研究尚未核实，待确认论文来源后可作为科普选题。
+- **MMP9 跨疾病转录组分析（PubMed）：** MMP9 作为阿尔茨海默症与亨廷顿病共享免疫基因的发现，若后续有更多复现研究，可能成为多神经退行性疾病通用生物标志物的切入点。暂时等待更多独立验证。来源：[PubMed 42030987](https://pubmed.ncbi.nlm.nih.gov/42030987/)
+- **ASGH 2026 健康老龄化经济战略报告：** geneonline.com 报道的 ASGH 2026 会议信号，说明 longevity 正从学术议题转向经济政策议题，值得跟踪会议后续白皮书和政策文件。来源：[geneonline.com](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbFhLanFVVlRYa3BPNGNtOUhfTXc3c2ttTmpuV08yT0J6Mm0yVWxudzdWMjVQa1NjcE1pWEtWMGZwLUhjdmdjNVVMMDdPNTJPdWRKSWUzLXNsNE4wREVYRF9hb09HRFFEQ2lrWmlFWW8zX0F0eVZlcVdHRnFHdjliLVZrbFJJOFlzU1pUd1ZlZEhpRTZvTmlHMmtFQnVtX0x2VFJtSTE0WkJWLWpaQ3hiU3lsaGhHMWRw)
+- **Neurophet 阿尔茨海默症影像 AI（ASNR 2026）：** 韩国公司在国际神经放射学会议亮相，代表亚洲 longevity AI 影像赛道的商业化进展，值得关注其后续融资和产品落地。来源：[koreabiomed.com](https://news.google.com/rss/articles/CBMibkFVX3lxTE1CdFNHRmJEcEsxZHp2ZG52X3IzOU9BZ3c0Z0xUVVJSejl0VnVvdlBucXZDMW53VmtXTzRTT0NqaGRlMms3MUpZTzRpYjlSTEV6a3dJN3hCODZseDRiaDBjY3hFQ0xGN1FJV1RjZE130gFyQVVfeXFMTzNhMDBIMUpPWm1xaWtvbmFsMGZUN3d0LWNMdFdQdGd3eVBkd0dfd1FjaEU3WDZrcU1UNG1iX21rOWU5eUNvVmkza2VlODJRNnVpSFhCUE5KRjljY1NuQnMzdVJsaFh3UDNKNFBpLU9WbGR3)
+- **SPISE 指数 + 集成机器学习心血管风险分层（PubMed）：** CKM 综合征（心脏-肾脏-代谢）与衰老男性的交叉研究，方法论（集成 ML + 生物标志物）可迁移到 longevity 风险评估场景，但需等待更多临床数据。来源：[PubMed 42101474](https://pubmed.ncbi.nlm.nih.gov/42101474/)
 
 ---
 
 ## 今天别碰
 
-- **Tolion Brain Coach 宣传话术复制**：直接声称"预防阿尔茨海默"属于高风险医疗声明，在中国大陆、香港、台湾及多数司法管辖区均面临广告法和医疗器械监管风险，不可直接模仿其宣传语。
-- **儿科脓毒症 AKI 代谢组学论文（PubMed）**：与衰老/长寿主题偏离，数据集为两中心前瞻性研究，不公开，无法复现，维护成本高，今日跳过。
-- **自然绿地与长寿 Mastodon 帖子**：来源为个人博客，无原始研究链接，证据等级极低，不适合作为内容依据。
+- **儿科脓毒症 AKI 尿液代谢组学论文（PubMed 42015601）：** 与 aging/longevity 核心赛道偏离，目标人群（儿科重症）与本项目受众不匹配，数据获取门槛高，今天不值得投入时间。
+- **Mastodon 社交信号（自然绿地健康 / 长寿预测因子）：** 两条社交帖子内容泛化、无原始数据支撑，博客质量未知，不适合作为今天的内容或工具开发依据。
+- **TsankovLab/sc_Aging_clock（单独跑）：** 仅 1 star，README 信息极少，在 scAgeClock 已有更完整文档的情况下，今天单独投入时间跑这个项目性价比低，建议作为对比项附带处理。
 
 ---
 
 ## 今日动作
 
-- **今天先试跑：** `gangcai/scageclock` — clone 仓库，跑通示例数据，记录依赖环境
-- **今天先写：** "paradigma 工具箱能做什么"功能地图笔记（500字内，供后续教程用）
-- **今天先收藏：** Tolion Brain Coach 官网截图 + ADRD_Brain_Aging 仓库结构截图，存入竞品/素材档案
+- **今天先试跑：** `biomarkersParkinson/paradigma` — clone 后跑示例，记录依赖和输出
+- **今天先写：** scAgeClock vs TsankovLab/sc_Aging_clock 对比笔记（方法、数据格式、适用场景）
+- **今天先收藏：** Tolion Brain Coach 官网 + App Store 页面截图，存入竞品追踪表；ADRD_Brain_Aging Notebook 存入研究代码库清单
