@@ -1,97 +1,101 @@
 ---
-linkTitle: AI生命延续学资讯商机项目
-title: AI生命延续学资讯商机项目 2026/4/15
+linkTitle: 项目商机
+title: AI生命延续学资讯商机项目
 breadcrumbs: false
-description: "聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 赛道里，更适合做成项目、改造开源工具、推广账号网址和组织共创的资讯商机项目栏目。 每天自动生成并更新最新一期。"
+description: "从 AI 生命延续学开源项目和研究线索里筛选可跟进的项目机会。"
 cascade:
   type: docs
-next: /project-opportunity/2026-04/2026-04-15
+next: /project-opportunity/2026-05-13
 ---
 
-## ⚡ 快速导航
+# AI生命延续学资讯商机项目
 
-- [🧩 今日最值得改造的 GitHub 项目](#今日最值得改造的-github-项目) - 直接找今天最值得抄、最值得改的开源项目
-- [📰 今日最值得做成内容的资讯](#今日最值得做成内容的资讯) - 看今天哪些资讯适合做成栏目和专题
-- [📚 今日可推广的切入点](#今日可推广的切入点) - 找今天最适合挂链接和推广的入口
-- [🫂 可共创 / 可招募](#可共创--可招募) - 看今天哪些方向适合拉人一起做
-- [✅ 今天就开工](#今天就开工) - 直接给出今天的执行动作
+报告日期：2026-05-13
 
-# 今日 AI生命延续学资讯商机项目
+---
 
-## 一句话结论
-今天最值得先抓的是围绕「shayanmostafaei/Omics_ADRD_Integrated_Modeling」做一个能挂到 aivora.cn 的最小专题入口，并把相关内容沉淀成持续更新的流量资产；核心依据是：This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), an...。
+## 今日优先项目
 
-## 今日最值得改造的 GitHub 项目
+### gangcai/scAgeClock — 单细胞转录组衰老时钟
 
-### [shayanmostafaei/Omics_ADRD_Integrated_Modeling](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling)
-shayanmostafaei/Omics_ADRD_Integrated_Modeling 今天值得先做成一个偏「长寿核心项目」的最小落地页，因为 This project combines multi-omics biological aging clocks, polygenic risk scores (PRS), and advanced machine l...
-- 适合改造成什么：先做成一个围绕 shayanmostafaei/Omics_ADRD_Integrated_Modeling 的专题页、工具页或案例页，优先承担日报流量承接与转化。
-- 最小改造版：保留它最核心的一项能力，只补 1 个清晰入口页、1 段中文说明和 1 个固定 CTA。
-- 如何挂自己的账号 / 网站：把 aivora.cn 放进 README、导航页和页面底部 CTA，并同步挂公众号 / 社群 / GitHub 主页入口。
-- 第一波流量从哪里来：先从今日日报、同主题资讯、相关社群讨论和搜索长尾词切入。
-- 第一笔钱怎么来：优先验证咨询、资料包、合作定制、联盟推荐或工具导航位。
-- 今天先做什么：先把入口页上线，再写 1 条导流内容，把适合直接包装成 aivora.cn 上的专题工具页、资料页、研究对比页。
-### [janursa/GRNimmuneClock](https://github.com/janursa/GRNimmuneClock)
-janursa/GRNimmuneClock 今天值得先做成一个偏「长寿核心项目」的最小落地页，因为 GRN-derived immune aging clock based on transcriptomics, developed by Jalil Nourisa in Prof. Yang Li's Lab
-- 适合改造成什么：先做成一个围绕 janursa/GRNimmuneClock 的专题页、工具页或案例页，优先承担日报流量承接与转化。
-- 最小改造版：保留它最核心的一项能力，只补 1 个清晰入口页、1 段中文说明和 1 个固定 CTA。
-- 如何挂自己的账号 / 网站：把 aivora.cn 放进 README、导航页和页面底部 CTA，并同步挂公众号 / 社群 / GitHub 主页入口。
-- 第一波流量从哪里来：先从今日日报、同主题资讯、相关社群讨论和搜索长尾词切入。
-- 第一笔钱怎么来：优先验证咨询、资料包、合作定制、联盟推荐或工具导航位。
-- 今天先做什么：先把入口页上线，再写 1 条导流内容，把适合直接包装成 aivora.cn 上的专题工具页、资料页、研究对比页。
+基于门控多头注意力神经网络的人类衰老时钟模型，技术路线新颖，昨日刚发布，是目前少见的将 Transformer 架构引入单细胞衰老时钟的开源实现。星数虽少但方向精准，适合抢先试跑留存第一手笔记。
 
-## 今日最值得做成内容的资讯
+- **证据来源：** [gangcai/scageclock](https://github.com/gangcai/scageclock)，GitHub，2026-05-12
+- **可信度：** 中（代码刚发布，尚无同行引用，但技术描述具体）
+- **它解决什么问题：** 用单细胞 RNA 数据估算个体生物学年龄，比传统 DNA 甲基化时钟分辨率更高
+- **可做成什么：** 试跑教程（Colab/本地）、与 TsankovLab/sc_Aging_clock 对比评测文章、数据集整理（公开 scRNA-seq 衰老数据集清单）
+- **售后或合规风险：** 低（纯研究工具，无临床声明）
+- **今天最小动作：** clone 仓库，跑通 README 示例数据，截图记录环境依赖和运行时间，写一篇"5分钟跑通 scAgeClock"笔记草稿
 
-### [Clearance of Senescent Cells by BCLXL‐PROTAC: A Novel Approach to Treat COPD?](https://onlinelibrary.wiley.com/doi/10.1111/acel.70487?af=R)
-Clearance of Senescent Cells by BCLXL‐PROTAC: A Novel Approach to Treat COPD? 更适合被做成持续更新的内容资产，而不是看完就结束，因为 [图片: Clearance of Senescent Cells by BCLXL-PROTAC: A Novel Approach to Treat COPD? https://onlinelibrary.wiley...
-- 可以写成什么内容：专题解读、项目对比、工具拆解、研究追踪或 FAQ 页面。
-- 适合发到哪里：先发公众号、社群、博客，再挂到 aivora.cn 的专题页和导航页。
-- 怎么导流到你的项目 / 账号：在文末固定放 aivora.cn 专题入口、订阅入口和合作入口。
-- 可以卖什么或收集什么线索：先收集订阅、咨询、进群和合作意向，再逐步尝试资料包或专题赞助。
-### [Cell Type‐Specific Expression of p16, p21, and p53 Reveals Age‐Dependent Glial Senescence in the AppNL‐G‐F Mouse Model of Alzheimer's Disease](https://onlinelibrary.wiley.com/doi/10.1111/acel.70478?af=R)
-Cell Type‐Specific Expression of p16, p21, and p53 Reveals Age‐Dependent Glial Senescence in the AppNL‐G‐F Mouse Model of Alzheimer's Disease 更适合被做成持续更新的内容资产，而不是看完就结束，因为 [图片: Cell Type-Specific Expression of p16, p21, and p53 Reveals Age-Dependent Glial Senescence in the AppNL-G-...
-- 可以写成什么内容：专题解读、项目对比、工具拆解、研究追踪或 FAQ 页面。
-- 适合发到哪里：先发公众号、社群、博客，再挂到 aivora.cn 的专题页和导航页。
-- 怎么导流到你的项目 / 账号：在文末固定放 aivora.cn 专题入口、订阅入口和合作入口。
-- 可以卖什么或收集什么线索：先收集订阅、咨询、进群和合作意向，再逐步尝试资料包或专题赞助。
+---
 
-## 今日可推广的切入点
+### biomarkersParkinson/paradigma — 帕金森数字生物标志物工具箱
 
-### [Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intrinsic Ca...](https://mastodon.social/@macesari/116294537138721516)
-Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intrinsic Ca... 最适合作为今天的推广切入点，因为 Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intri...
-- 适合推广什么：优先推广与 Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intrinsic Ca... 强相关的专题页、订阅入口、项目 Demo 或资料合集。
-- 适合推广给谁：先推给对 AI + longevity、工具改造、专题内容和社群共创有兴趣的人。
-- 推广文案切入点：先讲“为什么今天该看这条线索”，再讲“看完之后你能立刻获得什么”。
-- 链接放在哪里：统一落到 aivora.cn 的专题页、导航页或报名页，不分散到太多页面。
-- 最可能转化成什么：订阅、咨询、进群、共创报名、赞助洽谈或资料包下载。
-### [David Sinclair Longevity Protocol: How to Reverse Your Biological Age with # Supplements Is it possible to...](https://mastodon.social/@lifestylebeauty/116399666344771963)
-David Sinclair Longevity Protocol: How to Reverse Your Biological Age with # Supplements Is it possible to... 最适合作为今天的推广切入点，因为 David Sinclair Longevity Protocol: How to Reverse Your Biological Age with # Supplements Is it possi...
-- 适合推广什么：优先推广与 David Sinclair Longevity Protocol: How to Reverse Your Biological Age with # Supplements Is it possible to... 强相关的专题页、订阅入口、项目 Demo 或资料合集。
-- 适合推广给谁：先推给对 AI + longevity、工具改造、专题内容和社群共创有兴趣的人。
-- 推广文案切入点：先讲“为什么今天该看这条线索”，再讲“看完之后你能立刻获得什么”。
-- 链接放在哪里：统一落到 aivora.cn 的专题页、导航页或报名页，不分散到太多页面。
-- 最可能转化成什么：订阅、咨询、进群、共创报名、赞助洽谈或资料包下载。
+14 星、Python、维护活跃，专注帕金森病可穿戴/数字生物标志物提取，是目前 GitHub 上少见的专病数字生物标志物开源工具箱。帕金森早筛是商业化最近的神经退行性疾病赛道之一。
 
-## 可共创 / 可招募
+- **证据来源：** [biomarkersParkinson/paradigma](https://github.com/biomarkersParkinson/paradigma)，GitHub，2026-05-11
+- **可信度：** 中高（有具体功能描述，星数在同类小众项目中属活跃）
+- **它解决什么问题：** 从可穿戴设备数据中提取帕金森相关数字生物标志物（步态、震颤等）
+- **可做成什么：** 工具拆解教程、与公开帕金森数据集（如 mPower）对接的 demo、面向养老机构的轻咨询选题
+- **售后或合规风险：** 中（涉及疾病检测，需明确"研究用途"免责声明）
+- **今天最小动作：** 阅读文档，整理支持的传感器类型和输出指标，写一份"paradigma 能做什么"的功能地图笔记
 
-### [shayanmostafaei/Proteomic-Aging-Clock-ProtAge-](https://github.com/shayanmostafaei/Proteomic-Aging-Clock-ProtAge-)
-shayanmostafaei/Proteomic-Aging-Clock-ProtAge- 适合今天就发起共创或招募，因为 Code for constructing the Proteomic Aging Clock (ProtAge) using Olink-based proteomics data and Stac...
-- 可以找谁一起做：优先找会内容整理、前端页面、自动化脚本、数据抓取或社群分发的人。
-- 你出什么：你负责选题、入口页、节奏控制和 aivora.cn 的流量承接。
-- 对方出什么：对方负责把素材整理成页面、工具、脚本或可重复执行的 SOP。
-- 最小协作方式：先一起做 1 个页面、1 个数据表或 1 条内容链路，不先谈大项目。
-- 如何让共创也帮你引流：把协作者名字、项目链接和报名入口都统一挂回 aivora.cn。
-### [shayanmostafaei/Metabolomic-Aging-Clock-MetaboAge-](https://github.com/shayanmostafaei/Metabolomic-Aging-Clock-MetaboAge-)
-shayanmostafaei/Metabolomic-Aging-Clock-MetaboAge- 适合今天就发起共创或招募，因为 Code for constructing the Metabolomic Aging Clock (MetaboAge) using NMR-based metabolomics data and ...
-- 可以找谁一起做：优先找会内容整理、前端页面、自动化脚本、数据抓取或社群分发的人。
-- 你出什么：你负责选题、入口页、节奏控制和 aivora.cn 的流量承接。
-- 对方出什么：对方负责把素材整理成页面、工具、脚本或可重复执行的 SOP。
-- 最小协作方式：先一起做 1 个页面、1 个数据表或 1 条内容链路，不先谈大项目。
-- 如何让共创也帮你引流：把协作者名字、项目链接和报名入口都统一挂回 aivora.cn。
+---
 
-## 今天就开工
-- 先抓哪 3 个线索：shayanmostafaei/Omics_ADRD_Integrated_Modeling、Clearance of Senescent Cells by BCLXL‐PROTAC: A Novel Approach to Treat COPD?、Insights on # Geroscience Pre-Clinical and Clinical Trials to Promote Healthy # Aging from the Intrinsic Ca...
-- 先做哪 1 个最小页面 / 最小项目：先围绕「shayanmostafaei/Omics_ADRD_Integrated_Modeling」做一个能承接日报流量的最小专题页，并把订阅、合作、进群入口挂到 aivora.cn。
-- 先发哪 1 条推广内容：先发一条围绕「Clearance of Senescent Cells by BCLXL‐PROTAC: A Novel Approach to Treat COPD?」的导流内容，标题直接回答“今天为什么值得看”。
-- 先挂哪 1 个 aivora.cn 入口链接：优先挂专题页入口，其次是订阅页和合作报名页。
-- 先设计哪 1 个成交 / 咨询 / 进群动作：先收 1 个咨询或 1 个进群动作，再决定后续是否扩成资料包或合作服务。
+### neurogenetics/ADRD_Brain_Aging — ADRD 脑衰老 Jupyter 项目集
+
+阿尔茨海默症及相关痴呆（ADRD）方向的 Jupyter Notebook 集合，昨日发布，星数极少但方向直接命中 dementia/brain aging 核心词。适合作为数据集和分析思路的参考素材库。
+
+- **证据来源：** [neurogenetics/ADRD_Brain_Aging](https://github.com/neurogenetics/ADRD_Brain_Aging)，GitHub，2026-05-12
+- **可信度：** 低中（内容尚不明确，需打开仓库确认 notebook 质量）
+- **它解决什么问题：** 提供 ADRD 脑衰老相关分析流程和数据处理示例
+- **可做成什么：** 内容拆解、数据集整理、作为 ADRD 教程系列的素材来源
+- **售后或合规风险：** 低
+- **今天最小动作：** 打开仓库，浏览所有 notebook 文件名和 README，判断是否有可复现的完整分析流程，记录结论
+
+---
+
+### Tolion Brain Coach 发布 — AI 脑健康 App 竞品信号
+
+Tolion Health AI 发布首款 AI 驱动的脑健康/长寿/阿尔茨海默预防移动应用，是今日最直接的商业竞品信号。不适合立刻复制，但值得拆解其产品定位和用户承诺话术。
+
+- **证据来源：** [Business Wire，2026-05-12](https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdFFDQ0ZHVUhJdG1xQkRtbUhHbzNiRHRSRGYxck1CcktubDQxemhyVnBIZXV1VDhpWGNOSW1iS1FOV0RQcXRoOHBqOXliRlktSmRZemlhT29lcG1ZSl84VVdURE1xNjg3Si1ZdE9DaHhXc3VZS29QQjAzUTNuUlo4d3VjeGRFWE1fbVdIV05DYTVacmlCN3h4dTJaeUFYNnFMR0hZVVJwUUd2UnV0VjBpRDNkSUZQWm5peGM4OVh5YXJEdEhqSFlqSUdoal9TdDRQMS1QVFk2UEliaFZuQ05sNVpHRVJ3endFVGk5cll3LXFtS1VxR0RDQ3JaQzRxamxGNzE1MWxkTUI2SzlGcFVHV3QzOUhLVFVnS2FrUnJfc1dtdmJ2bEZqaExyUXp5Zmozb3Q0NEljcWVVQ1E5Y1NuTHhnbWFNRzNkWGRHallVc3RWenRlbi15NA)
+- **可信度：** 高（Business Wire 官方发布）
+- **它解决什么问题：** 消费者端脑健康管理和痴呆预防
+- **可做成什么：** 竞品分析文章、"AI 脑健康 App 全景图"内容选题
+- **售后或合规风险：** 高（直接声称预防阿尔茨海默，监管风险极高，不适合直接模仿其宣传话术）
+- **今天最小动作：** 搜索 Tolion Brain Coach 官网和 App Store 页面，截图其功能描述和免责声明，存入竞品档案
+
+---
+
+## 可二次开发方向
+
+- **scAgeClock vs sc_Aging_clock 横向评测教程**：两个单细胞衰老时钟项目同日出现，写一篇"2026年单细胞衰老时钟开源工具对比"，对比架构、数据要求、输出格式，是高价值的技术内容。
+- **帕金森数字生物标志物数据集清单**：基于 paradigma 工具箱，整理公开可用的帕金森可穿戴数据集（mPower、PPMI 等），做成可检索的数据资源页，服务研究者和开发者。
+- **ADRD/衰老 GitHub 项目周报**：今日出现 3 个相关项目，说明该方向发布频率在上升，可建立自动化监控（GitHub RSS + 关键词过滤），每周输出一期"衰老 AI 项目雷达"。
+- **MMP9 跨疾病生物标志物科普拆解**：论文"MMP9 as a shared immune-related gene in Alzheimer's and Huntington's diseases"提供了一个跨疾病生物标志物叙事角度，可拆解成面向非专业读者的科普文章，切入"神经退行性疾病共同机制"选题。
+
+---
+
+## 值得观察
+
+- **TsankovLab/sc_Aging_clock**：仅 1 星，内容尚不明确，但 TsankovLab 是有学术背景的实验室账号，值得在一周内回访确认 notebook 质量和数据来源。
+- **ASGH 2026 健康老龄化经济战略**：geneonline.com 报道 ASGH 2026 将健康老龄化定位为经济战略，会议内容可能产出政策方向和资金流向信号，值得在会后跟踪摘要。
+- **Neurophet 阿尔茨海默影像 AI（ASNR 2026）**：韩国公司在国际神经放射学会议展示影像 AI，是亚洲市场商业化进展的信号，值得跟踪其产品落地路径。
+- **ScienceAlert"预测长寿的关键单一因素"**：社交信号传播量可观，但原始研究尚未核实，待确认论文来源后可作为科普选题。
+
+---
+
+## 今天别碰
+
+- **Tolion Brain Coach 宣传话术复制**：直接声称"预防阿尔茨海默"属于高风险医疗声明，在中国大陆、香港、台湾及多数司法管辖区均面临广告法和医疗器械监管风险，不可直接模仿其宣传语。
+- **儿科脓毒症 AKI 代谢组学论文（PubMed）**：与衰老/长寿主题偏离，数据集为两中心前瞻性研究，不公开，无法复现，维护成本高，今日跳过。
+- **自然绿地与长寿 Mastodon 帖子**：来源为个人博客，无原始研究链接，证据等级极低，不适合作为内容依据。
+
+---
+
+## 今日动作
+
+- **今天先试跑：** `gangcai/scageclock` — clone 仓库，跑通示例数据，记录依赖环境
+- **今天先写：** "paradigma 工具箱能做什么"功能地图笔记（500字内，供后续教程用）
+- **今天先收藏：** Tolion Brain Coach 官网截图 + ADRD_Brain_Aging 仓库结构截图，存入竞品/素材档案
