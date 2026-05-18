@@ -5,92 +5,84 @@ breadcrumbs: false
 description: "从 AI 生命延续学开源项目和研究线索里筛选可跟进的项目机会。"
 cascade:
   type: docs
-next: /project-opportunity/2026-05-16
+next: /project-opportunity/2026-05-18
 ---
 
 # AI生命延续学资讯商机项目
 
-报告日期：2026-05-16
+报告日期：2026-05-18
 
 ---
 
 ## 今日优先项目
 
-### BioAge — 多算法生物年龄计算库
+### dayoonkwon/BioAge — 生物年龄多算法计算库
 
-这是今天素材里技术成熟度最高、可直接试跑的项目。170 stars、R 语言实现、整合多种 biomarker 算法，是做生物年龄科普内容或轻工具的最佳起点。
+170 stars、R 语言、2026-05-16 活跃，是目前 GitHub 上覆盖生物年龄算法最全的开源实现之一。对内容创作者、数据科学教育者和轻咨询场景都有直接可用价值。
 
-- **证据来源：** [dayoonkwon/BioAge](https://github.com/dayoonkwon/BioAge)（GitHub Trending，2026-05-16）
-- **可信度：** 高（有代码、有 stars、有明确算法描述）
-- **它解决什么问题：** 用血液 biomarker（如 CRP、白蛋白、肌酐等）计算生物年龄，比实际年龄更能反映健康状态，是 longevity 领域的核心指标之一
-- **可做成什么：** 试跑教程（R 环境 + 示例数据）、科普文章「你的生物年龄怎么算」、数据集整理（配合公开 NHANES 数据）、轻咨询切入点（帮用户解读自己的体检指标）
-- **售后或合规风险：** 低（不涉及诊断，仅计算参考值；明确标注"非医疗建议"即可）
-- **今天最小动作：** clone 仓库，用内置示例数据跑通一个算法（如 Klemera-Doubal），截图记录输出，写成「5分钟跑通生物年龄计算」笔记
-
----
-
-### SleepChart — 睡眠时长与23个生物老化时钟的 GAM 建模
-
-stars 虽少（2），但方向极准：睡眠 × 生物老化时钟是当前 longevity 研究的热点交叉点，且代码已公开可复现。
-
-- **证据来源：** [anbai106/SleepChart](https://github.com/anbai106/SleepChart)（GitHub Trending，2026-05-14）
-- **可信度：** 中（代码公开，但 stars 极少，需自行验证数据来源和方法）
-- **它解决什么问题：** 量化睡眠时长对多种表观遗传时钟（如 Horvath、PhenoAge）的非线性影响，回答"睡多少小时最抗老"这个大众关心的问题
-- **可做成什么：** 数据可视化教程、科普选题「睡7小时 vs 9小时，生物年龄差几岁」、与 BioAge 项目联动的系列内容
-- **售后或合规风险：** 低（学术复现，不涉及个人诊断）
-- **今天最小动作：** 读 README，确认数据集是否公开可得；若可得，收藏并列入下周试跑计划
+- **证据来源：** [dayoonkwon/BioAge](https://github.com/dayoonkwon/BioAge)，GitHub Trending，2026-05-16
+- **可信度：** 高（代码公开、stars 可验证、算法有文献依据）
+- **它解决什么问题：** 将 Klemera-Doubal、Levine PhenoAge 等多种生物年龄算法统一封装，研究者和开发者无需从头复现
+- **可做成什么：** 试跑教程（用示例数据跑通各算法并对比输出）、科普拆解（各算法原理差异对比图文）、轻量数据集整理（配套公开血液指标数据集索引）
+- **售后或合规风险：** 低（纯计算工具，不涉及诊断建议）
+- **今天最小动作：** clone 仓库，用内置示例数据跑通至少两种算法，截图记录输出差异，写成「5分钟跑通生物年龄计算」笔记草稿
 
 ---
 
-### ad-scrnaseq-biomarker-identification — 阿尔茨海默症单细胞 RNA-seq biomarker 识别
+### SoumilBhandari/NeuraBand — 阿尔茨海默症神经生物标志物可穿戴原型
 
-Jupyter Notebook 格式，适合直接学习和改写。方向对准 AD 早筛，是当前最热的研究赛道之一。
+方向极准：BLE 实时流传输 + 临床仪表盘 + 移动端，覆盖 Alzheimer 早筛场景。stars 虽只有 3，但发布于 2026-05-16，是极新的原型项目，适合作为内容选题和技术拆解素材。
 
-- **证据来源：** [jovin11/ad-scrnaseq-biomarker-identification](https://github.com/jovin11/ad-scrnaseq-biomarker-identification)（GitHub Trending，2026-05-15）
-- **可信度：** 中（新项目，1 star，需检查数据来源和方法完整性）
-- **它解决什么问题：** 从单细胞转录组数据中识别 AD 相关 biomarker，是 AD 早期诊断研究的上游工作
-- **可做成什么：** 技术拆解笔记（scRNA-seq 流程科普）、数据集整理（公开 AD 单细胞数据库索引）、面向生信从业者的教程内容
-- **售后或合规风险：** 低（纯研究工具，无临床应用声明）
-- **今天最小动作：** 打开 Notebook，检查数据来源是否为公开数据集（如 GEO），记录方法流程，判断是否值得写拆解文章
+- **证据来源：** [SoumilBhandari/NeuraBand](https://github.com/SoumilBhandari/NeuraBand)，GitHub Trending，2026-05-16
+- **可信度：** 中（项目描述完整，但 stars 极少，功能实现程度未经验证，需自行阅读代码确认）
+- **它解决什么问题：** 尝试用低成本可穿戴设备被动采集神经生物标志物，降低 Alzheimer 早期筛查门槛
+- **可做成什么：** 技术拆解文章（BLE 数据流 + 临床仪表盘架构解析）、选题素材（「开源可穿戴如何追踪阿尔茨海默症」）、二次开发起点（替换传感器或对接其他数据源）
+- **售后或合规风险：** 中（若延伸为实际医疗建议则风险升高；纯技术拆解风险低）
+- **今天最小动作：** 阅读 README 和主要代码文件，确认实际实现了哪些功能，记录「描述 vs 实现」的差距，决定是否值得深入
+
+---
+
+### anbai106/SleepChart — 睡眠时长与23种生物衰老时钟的 GAM 建模
+
+睡眠与衰老时钟的关系是高传播度科普选题，代码是 R 脚本，可直接复现，适合做「可复现研究」教程。
+
+- **证据来源：** [anbai106/SleepChart](https://github.com/anbai106/SleepChart)，GitHub Trending，2026-05-14
+- **可信度：** 中（代码公开，但 stars 仅 2，论文来源需自行核实）
+- **它解决什么问题：** 量化睡眠时长对多种生物衰老时钟的非线性影响
+- **可做成什么：** 可复现教程（跑通 GAM 建模脚本 + 可视化输出）、科普图文（睡眠与衰老时钟关系的数据可视化解读）
+- **售后或合规风险：** 低
+- **今天最小动作：** 查看仓库是否附带数据或数据获取说明，评估复现难度，记录所需数据集来源
 
 ---
 
 ## 可二次开发方向
 
-- **BioAge × NHANES 数据管道：** 用 BioAge 库对接美国 NHANES 公开数据，构建一个可复现的"人群生物年龄分布"数据集，可做成交互式图表或定期更新的数据报告。
-
-- **睡眠-老化时钟科普系列：** 以 SleepChart 的 GAM 结果为基础，制作「睡眠习惯 × 生物年龄」的可视化科普系列，每期聚焦一个老化时钟（Horvath、GrimAge、PhenoAge），适合公众号或 newsletter。
-
-- **AD biomarker 追踪页：** 整合 MMP9 论文、scRNA-seq 项目、Neurophet 影像 AI 等多个来源，建立一个「阿尔茨海默症早筛 biomarker 进展」的定期更新资料库，面向家有老人的用户或医疗从业者。
-
-- **Tolion Brain Coach 竞品拆解：** 以 Tolion Brain Coach 发布为切入点，整理「AI 脑健康 App」赛道的产品地图（功能、定价、目标用户、数据来源），可做成行业分析报告或选题素材库。
+- **BioAge 多算法对比可视化工具：** 基于 BioAge 仓库，做一个输入血液指标 → 输出多种生物年龄算法对比图的 Shiny App 或 Streamlit 小工具，面向健康科普博主和自我量化用户。
+- **Alzheimer 开源项目追踪页：** 整合 NeuraBand、ad-scrnaseq-biomarker-identification 等项目，建立一个定期更新的「Alzheimer AI 开源项目索引」，可做成 Notion 数据库或静态网页，服务研究者和内容创作者。
+- **睡眠 × 衰老时钟科普数据库：** 以 SleepChart 为起点，收集睡眠相关衰老研究的公开数据集和复现代码，整理成可引用的资料库，适合做学术科普内容。
+- **CKM 综合征 + 机器学习风险分层教程：** 基于 SPISE index 论文（PubMed 42101474），拆解心血管风险分层的集成学习方法，写成面向临床数据科学入门者的教程。
 
 ---
 
 ## 值得观察
 
-- **NeuraBand（可穿戴神经 biomarker 追踪）：** 概念方向极好（10项神经 biomarker + BLE 实时传输 + 临床仪表盘），但目前仅 1 star、JavaScript 实现，硬件部分完整性未知。等待更多代码提交和社区反馈后再评估。[链接](https://github.com/SoumilBhandari/NeuraBand)
-
-- **MMP9 作为 AD 与 HD 共享免疫基因：** 跨组织转录组分析发现 MMP9 在阿尔茨海默症和亨廷顿病中共享，若结论可复现，是 biomarker 内容的好素材。需等待全文获取后验证方法。[PubMed](https://pubmed.ncbi.nlm.nih.gov/42030987/)
-
-- **ASGH 2026 健康老龄化经济战略：** geneonline 报道显示健康老龄化正从医疗议题转向经济战略，值得跟踪会议后续报告和政策文件，可能带来新的内容选题或合作机会。
-
-- **"预测长寿的关键因素"ScienceAlert 报道：** Mastodon 社交信号显示该文传播度高，但来源为二手社交分享，需找到原始研究论文验证结论后再用于内容创作。
+- **Tolion Brain Coach（Tolion Health AI）：** 商业产品已发布，定位 AI 驱动脑健康个性化应用。值得持续跟踪其用户反馈、定价模式和功能迭代，作为竞品分析和市场验证参考。来源：[Business Wire, 2026-05-12](https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdFFDQ0ZHVUhJdG1xQkRtbUhHbzNiRHRSRGYxck1CcktubDQxemhyVnBIZXV1VDhpWGNOSW1iS1FOV0RQcXRoOHBqOXliRlktSmRZemlhT29lcG1ZSl84VVdURE1xNjg3Si1ZdE9DaHhXc3VZS29QQjAzUTNuUlo4d3VjeGRFWE1fbVdIV05DYTVacmlCN3h4dTJaeUFYNnFMR0hZVVJwUUd2UnV0VjBpRDNkSUZQWm5peGM4OVh5YXJEdEhqSFlqSUdoal9TdDRQMS1QVFk2UEliaFZuQ05sNVpHRVJ3endFVGk5cll3LXFtS1VxR0RDQ3JaQzRxamxGNzE1MWxkTUI2SzlGcFVHV3QzOUhLVFVnS2FrUnJfc1dtdmJ2bEZqaExyUXp5Zmozb3Q0NEljcWVVQ1E5Y1NuTHhnbWFNRzNkWGRHallVc3RWenRlbi15NA)
+- **Neurophet Alzheimer 影像 AI（ASNR 2026）：** 韩国公司在顶级神经放射学会议展示 Alzheimer 影像 AI，代表亚洲市场的商业化进展，值得关注其技术路线和监管进展。来源：[koreabiomed.com, 2026-05-12](https://news.google.com/rss/articles/CBMibkFVX3lxTE1CdFNHRmJEcEsxZHp2ZG52X3IzOU9BZ3c0Z0xUVVJSejl0VnVvdlBucXZDMW53VmtXTzRTT0NqaGRlMms3MUpZTzRpYjlSTEV6a3dJN3hCODZseDRiaDBjY3hFQ0xGN1FJV1RjZE130gFyQVVfeXFMTzNhMDBIMUpPWm1xaWtvbmFsMGZUN3d0LWNMdFdQdGd3eVBkd0dfd1FjaEU3WDZrcU1UNG1iX21rOWU5eUNvVmkza2VlODJRNnVpSFhCUE5KRjljY1NuQnMzdVJsaFh3UDNKNFBpLU9WbGR3)
+- **MMP9 跨组织转录组分析（Alzheimer + Huntington 共享免疫基因）：** 跨疾病共享生物标志物研究，若结论可复现，是高质量科普选题。需等待全文获取后再评估。来源：[PubMed 42030987](https://pubmed.ncbi.nlm.nih.gov/42030987/)
+- **ASGH 2026「健康老龄化作为经济战略」：** 会议信号显示 longevity 正从学术议题转向政策和投资议题，值得跟踪会议摘要和演讲内容。来源：[geneonline.com, 2026-05-12](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbFhLanFVVlRYa3BPNGNtOUhfTXc3c2ttTmpuV08yT0J6Mm0yVWxudzdWMjVQa1NjcE1pWEtWMGZwLUhjdmdjNVVMMDdPNTJPdWRKSWUzLXNsNE4wREVYRF9hb09HRFFEQ2lrWmlFWW8zX0F0eVZlcVdHRnFHdjliLVZrbFJJOFlzU1pUd1ZlZEhpRTZvTmlHMmtFQnVtX0x2VFJtSTE0WkJWLWpaQ3hiU3lsaGhHMWRw)
 
 ---
 
 ## 今天别碰
 
-- **SPISE 指数 + 集成机器学习用于 CKM 综合征心血管风险分层：** 论文方向偏向肾脏-心血管代谢，与 longevity/aging 核心赛道关联较弱；全文未获取，无法验证方法和结论；受众窄，内容转化成本高。
-
-- **儿科脓毒症相关急性肾损伤的尿液代谢组学预测：** 与本项目的 aging/longevity/dementia 方向完全不符，数据集为两中心前瞻性研究，不公开可得，今天无法操作。
-
-- **Mastodon 自然绿地健康博客帖：** 来源为个人博客的社交分享，无原始研究支撑，内容泛化，不具备差异化价值，不适合作为今天的内容或工具基础。
+- **jovin11/ad-scrnaseq-biomarker-identification：** stars 仅 1，发布 3 天，单细胞 RNA-seq 分析管线复现门槛高，数据获取和计算资源需求大，今天投入产出比极低。待其积累更多社区验证后再评估。
+- **Mastodon 社交信号（自然绿地健康 / 长寿预测因子）：** 两条社交帖子均无原始数据或论文链接支撑，属于二手传播内容，不适合作为今天的内容或产品依据。
+- **儿科脓毒症 AKI 代谢组学论文（PubMed 42015601）：** 与 aging/longevity/dementia 核心方向偏离，且为儿科临床研究，合规和数据获取门槛高，不在今日优先范围内。
 
 ---
 
 ## 今日动作
 
-- **今天先试跑：** clone `dayoonkwon/BioAge`，用内置示例数据跑通 Klemera-Doubal 算法，记录输出截图
-- **今天先写：** 「5分钟用 R 计算你的生物年龄」入门笔记（基于 BioAge 试跑结果）
-- **今天先收藏：** `anbai106/SleepChart` + MMP9 论文全文链接，列入下周内容计划
+- **今天先试跑：** clone `dayoonkwon/BioAge`，用内置示例数据跑通 PhenoAge 和 KDM 两种算法，记录输出和环境配置步骤
+- **今天先写：** 「开源生物年龄计算：5分钟跑通 BioAge 的3种算法」教程草稿（面向有 R 基础的读者）
+- **今天先收藏：** `SoumilBhandari/NeuraBand` 仓库 + Tolion Brain Coach 产品页，加入竞品/选题追踪清单；`anbai106/SleepChart` 加入「可复现研究」待跑清单
