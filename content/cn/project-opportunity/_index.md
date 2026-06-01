@@ -5,97 +5,97 @@ breadcrumbs: false
 description: "从 AI 生命延续学开源项目和研究线索里筛选可跟进的项目机会。"
 cascade:
   type: docs
-next: /project-opportunity/2026-05-30
+next: /project-opportunity/2026-06-01
 ---
 
 # AI生命延续学资讯商机项目
 
-报告日期：2026-05-30
+报告日期：2026-06-01
 
 ---
 
 ## 今日优先项目
 
-### ShengAnlin/BioContextAD — 阿尔茨海默症早筛生物标志物框架
+### 1. mdozmorov/Aging_clock — 表观遗传时钟数据与论文汇总库
 
-这是今天素材里技术密度最高、方向最准的项目。用生物标志物引导的 context engineering 做 AD 早筛，切中"AI + biomarker + dementia"三个热点交叉口，且代码刚发布不久，适合第一批试跑者建立内容壁垒。
+这是目前 GitHub 上最系统的 epigenetic clock 资料聚合库，star 数 38 且持续更新，适合作为内容选题和数据集入口。对做衰老科普、生物年龄工具或研究综述的人来说，这是今天最值得精读的单一资源。
 
-- **证据来源：** [ShengAnlin/BioContextAD](https://github.com/ShengAnlin/BioContextAD)（GitHub，2026-05-27，Python）
-- **可信度：** 中（star 数极低，尚无同行引用，但代码真实存在，方向有论文支撑）
-- **它解决什么问题：** 将患者生物标志物数据注入 LLM context，辅助 AD 早期筛查决策，降低漏诊率
-- **可做成什么：** 试跑教程 / 技术拆解文章 / 与 mdozmorov/Aging_clock 数据集联动的 demo
-- **售后或合规风险：** 高（涉及医疗诊断辅助，不可对外宣称诊断效力，需加免责声明）
-- **今天最小动作：** clone 仓库，跑通 README 示例，记录环境依赖和报错，写一篇"能跑通吗"的第一手测评笔记
-
----
-
-### irimia-laboratory/Graph_UNet — 脑老化皮层形态 GNN
-
-USC Irimia 实验室的正式论文配套代码，研究方向是用图神经网络识别正常认知与阿尔茨海默症中的局部脑老化形态。学术可信度高，是少见的"有论文背书 + 代码公开"组合。
-
-- **证据来源：** [irimia-laboratory/Graph_UNet](https://github.com/irimia-laboratory/Graph_UNet)（GitHub，2026-05-27，Jupyter Notebook）；论文标题"Graph Neural Network Reveals the Cortical Morphology of Local Brain Aging in Normal Cognition and Alzheimer's Disease"
-- **可信度：** 高（实验室官方仓库，论文已发表）
-- **它解决什么问题：** 用 MRI 皮层形态数据 + GNN 区分正常老化与 AD 病理老化
-- **可做成什么：** 论文精读拆解 / Jupyter Notebook 逐步注释教程 / 面向神经科医生的科普内容
-- **售后或合规风险：** 低（纯研究代码，不涉及直接诊断输出）
-- **今天最小动作：** 打开 Notebook，截图关键可视化结果，整理成"这个 GNN 在看什么"的图文选题草稿
+- **证据来源：** [mdozmorov/Aging_clock](https://github.com/mdozmorov/Aging_clock)（GitHub Trending，2026-05-30 活跃）
+- **可信度：** 高（学术维护者，R 语言，持续更新，star 数在小众领域属于高质量信号）
+- **它解决什么问题：** 汇聚 Horvath clock、GrimAge 等主流表观遗传时钟的数据集和论文，降低研究者入门门槛
+- **可做成什么：** 数据集整理 / 中文论文导读 / 「生物年龄时钟全景图」教程 / 为 BACalc 项目提供数据源
+- **售后或合规风险：** 低（纯研究资料，无直接医疗建议）
+- **今天最小动作：** clone 仓库，整理其中引用的 5 篇核心论文，写一份「表观遗传时钟入门地图」笔记草稿
 
 ---
 
-### mdozmorov/Aging_clock — 表观遗传时钟数据与论文汇总
+### 2. msbCyricTohoku/BACalc — 数据集无关的生物年龄计算器
 
-star 数 38，是今天素材里社区认可度最高的项目。作为 R 语言整理的表观遗传时钟资料库，适合作为内容创作的"原材料仓库"和数据集整理的起点。
+刚发布（2026-06-01），star 仅 1，但「Dataset Agnostic」设计思路有差异化价值——意味着可以接入不同来源的生物标志物数据而不依赖单一数据集。今天是最早发现窗口期。
 
-- **证据来源：** [mdozmorov/Aging_clock](https://github.com/mdozmorov/Aging_clock)（GitHub，2026-05-20，R）
-- **可信度：** 高（持续维护，star 数在同类小众项目中属高位）
-- **它解决什么问题：** 汇总 Horvath clock 等主流表观遗传年龄预测模型的数据和文献，降低研究入门门槛
-- **可做成什么：** 中文版"表观遗传时钟入门地图"内容 / 数据集整理 / 与 BioContextAD 联动的 biomarker 数据源
-- **售后或合规风险：** 低（纯数据整理，无诊断声明）
-- **今天最小动作：** 浏览 README 和 paper list，挑出 3 篇引用次数高的时钟论文，标注中文摘要，作为后续内容选题库
+- **证据来源：** [msbCyricTohoku/BACalc](https://github.com/msbCyricTohoku/BACalc)（GitHub Trending，2026-06-01 发布）
+- **可信度：** 中（新项目，代码未经社区验证，但方向明确）
+- **它解决什么问题：** 提供可插拔的生物年龄计算框架，不绑定特定数据集
+- **可做成什么：** 试跑教程 / 接入 Aging_clock 数据集做对比测试 / 写「如何用 BACalc 计算你的生物年龄」入门文章
+- **售后或合规风险：** 中（计算结果不能作为医疗诊断依据，需在内容中明确免责）
+- **今天最小动作：** `git clone`，读 README 和主要 Python 文件，记录输入格式和依赖，判断能否在本地跑通示例
 
 ---
 
-### nopara73/LongevityWorldCup — 生物年龄运动竞技平台
+### 3. nopara73/LongevityWorldCup — 开源长寿运动平台
 
-开源的长寿运动平台，含生物年龄计算器、运动员档案和公开排行榜。方向新颖，将"longevity"游戏化，适合做产品拆解或社区运营内容。star 数低但刚发布，值得早期关注。
+以「竞技」形式呈现生物年龄排行榜，有运动员档案和公开排行榜，是少见的将 longevity 做成社区产品的尝试。star 17，HTML 项目，适合快速部署和二次开发。
 
-- **证据来源：** [nopara73/LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup)（GitHub，2026-05-30，HTML）
-- **可信度：** 中（项目真实，但功能完整度和数据质量未知）
-- **它解决什么问题：** 让普通人通过竞技排行榜追踪和比较生物年龄，增加 longevity 行为的社交动力
-- **可做成什么：** 产品拆解文章 / "生物年龄计算器横评"选题 / 轻咨询（帮健康类 App 参考其游戏化设计）
-- **售后或合规风险：** 中（生物年龄计算方法需核实科学依据，避免夸大宣传）
-- **今天最小动作：** 打开网站/仓库，测试生物年龄计算器，记录用了哪些输入指标，截图备用
+- **证据来源：** [nopara73/LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup)（GitHub Trending，2026-06-01）
+- **可信度：** 中（活跃但小众，商业模式未验证）
+- **它解决什么问题：** 将生物年龄量化变成可分享、可竞争的社区体验，降低普通用户参与门槛
+- **可做成什么：** 内容拆解（「长寿竞技是什么」科普）/ 本地化部署教程 / 为中文用户做汉化 fork
+- **售后或合规风险：** 中（排行榜数据准确性存疑，需注明数据来源和局限性）
+- **今天最小动作：** 打开项目，查看生物年龄计算器的实现逻辑，截图记录 UI 设计，评估汉化工作量
+
+---
+
+### 4. irimia-laboratory/Graph_UNet — 脑老化 GNN 模型
+
+USC Irimia 实验室发布的图神经网络代码，用于研究正常认知和阿尔茨海默病中的局部脑老化皮层形态。star 仅 1 但来自可信学术实验室，是 AD 影像 AI 方向的早期信号。
+
+- **证据来源：** [irimia-laboratory/Graph_UNet](https://github.com/irimia-laboratory/Graph_UNet)（GitHub Trending，2026-05-27）
+- **可信度：** 高（学术实验室来源，对应已发表论文）
+- **它解决什么问题：** 用 GNN 分析脑结构老化模式，辅助 AD 早期识别
+- **可做成什么：** 论文解读文章 / Jupyter Notebook 试跑记录 / 与 Neurophet 新闻结合做「AD 影像 AI 全景」选题
+- **售后或合规风险：** 低（学术代码，内容层面无医疗建议风险）
+- **今天最小动作：** 读论文标题对应的 Jupyter Notebook，记录模型输入数据格式（是否需要 MRI 数据），判断能否用公开数据集复现
 
 ---
 
 ## 可二次开发方向
 
-- **BioContextAD × Aging_clock 联动 demo：** 用 Aging_clock 的表观遗传数据作为 BioContextAD 的 biomarker 输入，构建一个"从甲基化数据到 AD 风险评估"的端到端 Notebook 教程，技术门槛适中，内容稀缺性高。
-- **Graph_UNet 可视化科普系列：** 将论文中的皮层形态图可视化结果拆解成"AI 如何看大脑老化"系列图文，面向神经科医生或健康科技从业者，不需要复现模型，只需读懂 Notebook 输出。
-- **生物年龄计算器横评数据库：** 整合 LongevityWorldCup、现有商业 App（如 Elysium、InsideTracker）和学术工具的计算方法差异，做成对比表格，适合作为付费资料或咨询底稿。
-- **SPISE + CKM 心血管风险分层教程：** 基于 PubMed 论文（Wang et al., *The Aging Male*），整理 SPISE 指数与集成机器学习在老年男性心血管风险分层中的应用逻辑，写成面向临床数据科学方向的技术笔记。
+- **「生物年龄计算器横评」工具页**：整合 BACalc、LongevityWorldCup 的计算逻辑，加入 Aging_clock 数据集，做一个可以输入血液指标、输出多种时钟对比结果的轻量 Web 工具。
+- **表观遗传时钟中文知识库**：基于 Aging_clock 仓库的论文列表，逐篇写 200 字中文摘要，整理成 Notion 或 Obsidian 数据库，可作为付费资料包或订阅通讯内容。
+- **AD 影像 AI 进展追踪页**：结合 Graph_UNet 代码、Neurophet ASNR 2026 新闻、MMP9 论文，建立一个定期更新的「阿尔茨海默病 AI 诊断进展」监测页，服务医疗科技从业者。
+- **SPISE + 机器学习心血管风险教程**：基于 PubMed 论文（Wang et al.），写一篇「如何用集成学习做心血管风险分层」的技术教程，目标读者为临床数据科学从业者。
 
 ---
 
 ## 值得观察
 
-- **Tolion Brain Coach（Tolion Health AI）：** AI 驱动的脑健康移动应用，方向正确，但目前只有 Business Wire 新闻稿，无独立评测或用户数据，等 App Store 评分和真实用户反馈出现后再深入。来源：[Business Wire, 2026-05-12](https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdFFDQ0ZHVUhJdG1xQkRtbUhHbzNiRHRSRGYxck1CcktubDQxemhyVnBIZXV1VDhpWGNOSW1iS1FOV0RQcXRoOHBqOXliRlktSmRZemlhT29lcG1ZSl84VVdURE1xNjg3Si1ZdE9DaHhXc3VZS29QQjAzUTNuUlo4d3VjeGRFWE1fbVdIV05DYTVacmlCN3h4dTJaeUFYNnFMR0hZVVJwUUd2UnV0VjBpRDNkSUZQWm5peGM4OVh5YXJEdEhqSFlqSUdoal9TdDRQMS1QVFk2UEliaFZuQ05sNVpHRVJ3endFVGk5cll3LXFtS1VxR0RDQ3JaQzRxamxGNzE1MWxkTUI2SzlGcFVHV3QzOUhLVFVnS2FrUnJfc1dtdmJ2bEZqaExyUXp5Zmozb3Q0NEljcWVVQ1E5Y1NuTHhnbWFNRzNkWGRHallVc3RWenRlbi15NA)
-- **Neurophet 阿尔茨海默症影像 AI（ASNR 2026）：** 韩国公司在神经放射学年会展示影像 AI，是商业落地信号，但技术细节和监管状态不明，跟踪其 FDA/CE 申请进展。来源：[koreabiomed.com, 2026-05-12](https://news.google.com/rss/articles/CBMibkFVX3lxTE1CdFNHRmJEcEsxZHp2ZG52X3IzOU9BZ3c0Z0xUVVJSejl0VnVvdlBucXZDMW53VmtXTzRTT0NqaGRlMms3MUpZTzRpYjlSTEV6a3dJN3hCODZseDRiaDBjY3hFQ0xGN1FJV1RjZE130gFyQVVfeXFMTzNhMDBIMUpPWm1xaWtvbmFsMGZUN3d0LWNMdFdQdGd3eVBkd0dfd1FjaEU3WDZrcU1UNG1iX21rOWU5eUNvVmkza2VlODJRNnVpSFhCUE5KRjljY1NuQnMzdVJsaFh3UDNKNFBpLU9WbGR3)
-- **MMP9 跨组织转录组分析（AD + HD）：** Li et al. 在 *Artificial Cells* 发表的 MMP9 作为 AD 和亨廷顿病共享免疫基因的研究，是 multi-disease biomarker 方向的早期信号，值得跟踪后续引用。来源：[PubMed 42030987](https://pubmed.ncbi.nlm.nih.gov/42030987/)
-- **ASGH 2026 健康老龄化经济战略报告：** geneonline.com 报道的会议信号，说明 longevity 正在从研究议题转向经济政策议题，适合作为行业背景素材积累，暂不需要立刻行动。来源：[geneonline.com, 2026-05-12](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbFhLanFVVlRYa3BPNGNtOUhfTXc3c2ttTmpuV08yT0J6Mm0yVWxudzdWMjVQa1NjcE1pWEtWMGZwLUhjdmdjNVVMMDdPNTJPdWRKSWUzLXNsNE4wREVYRF9hb09HRFFEQ2lrWmlFWW8zX0F0eVZlcVdHRnFHdjliLVZrbFJJOFlzU1pUd1ZlZEhpRTZvTmlHMmtFQnVtX0x2VFJtSTE0WkJWLWpaQ3hiU3lsaGhHMWRw)
+- **Tolion Brain Coach**：AI 驱动的脑健康移动应用，方向正确（AD 预防 + 个性化），但目前仅有 Business Wire 发布稿，无独立评测或用户数据，等待 App Store 上线后的真实反馈。
+- **ASGH 2026「健康老龄化经济策略」议题**：geneonline.com 报道显示 longevity 正在从研究议题转向经济政策议题，值得跟踪会议后续白皮书和政策文件。
+- **MMP9 作为 AD 与 HD 共享免疫基因**：跨组织转录组分析发现 MMP9 在两种神经退行性疾病中的共性，若后续有功能验证，可能成为多靶点生物标志物方向的重要节点。
+- **ScienceAlert「预测长寿的关键单一因素」**：Mastodon 社交信号指向一篇 ScienceAlert 文章，话题传播性强，适合做科普选题，但需先核实原始研究来源再写。
 
 ---
 
 ## 今天别碰
 
-- **儿科脓毒症 AKI 代谢组学论文（Qian et al.）：** 与 longevity / aging 主题偏离，数据来自两中心临床研究，不可得，且儿科肾损伤方向与本项目受众不符，今天跳过。
-- **Mastodon 社交信号（自然绿地健康 / 单一因素预测长寿）：** 两条帖子均为二手科普内容，无原始数据或代码，信息密度低，不适合作为今天的行动依据。
-- **LongevityWorldCup 生物年龄计算器直接商用：** 项目刚发布、star 极低、计算方法未经同行评审，若直接引用其生物年龄结论对外输出内容，存在科学可信度风险，需先核实其算法来源。
+- **儿科脓毒症 AKI 代谢组学论文（Qian et al.）**：虽然用了可解释机器学习，但研究对象是儿科重症，与 longevity / aging 主题偏离，且临床数据不可公开获取，二次开发价值极低。
+- **Mastodon 自然绿地健康帖子**：内容为博客级科普，无原始数据或可操作资源，信号质量低，不值得今天花时间。
+- **直接复现 Graph_UNet 做 AD 诊断产品**：模型需要 MRI 数据，数据获取合规成本高，医疗器械监管风险重，不适合作为商业切入点，仅适合内容层面解读。
 
 ---
 
 ## 今日动作
 
-- **今天先试跑：** clone `ShengAnlin/BioContextAD`，跑通基础示例，记录依赖环境和报错，写第一手测评笔记
-- **今天先写：** 基于 `irimia-laboratory/Graph_UNet` 的 Notebook 截图，起草"AI 如何用图神经网络看大脑老化"图文选题大纲
-- **今天先收藏：** `mdozmorov/Aging_clock` 的 paper list，挑出 3 篇高引用表观遗传时钟论文，加中文摘要标注，存入选题库
+- **今天先试跑：** `git clone https://github.com/msbCyricTohoku/BACalc`，在本地 Python 环境跑通示例，记录输入输出格式
+- **今天先写：** 基于 Aging_clock 仓库，写「表观遗传时钟入门：5 个你需要知道的生物年龄模型」草稿提纲
+- **今天先收藏：** [mdozmorov/Aging_clock](https://github.com/mdozmorov/Aging_clock) 加星并导出论文列表；[irimia-laboratory/Graph_UNet](https://github.com/irimia-laboratory/Graph_UNet) 加星备用
