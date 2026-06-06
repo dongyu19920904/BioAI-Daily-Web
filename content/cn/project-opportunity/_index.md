@@ -5,110 +5,84 @@ breadcrumbs: false
 description: "从 AI 生命延续学开源项目和研究线索里筛选可跟进的项目机会。"
 cascade:
   type: docs
-next: /project-opportunity/2026-06-05
+next: /project-opportunity/2026-06-06
 ---
 
 # AI生命延续学资讯商机项目
 
-报告日期：2026-06-05
+报告日期：2026-06-06
 
 ---
 
 ## 今日优先项目
 
-### mdozmorov/Aging_clock — 表观遗传时钟数据与论文汇编
+### CosinorAge — 昼夜节律生物钟 Python 包
 
-在所有今日 GitHub 素材中 star 数最高（38），且持续维护，是进入表观遗传时钟领域的最佳起点。内容含数据集、R 代码和配套论文列表，可直接用于教程制作或数据整理。
+ETH Zurich CDHI 实验室昨日发布，用穿戴设备活动数据预测生物年龄，方法论来自 Cosinor 节律分析，是可穿戴+衰老时钟的交叉口，切入点明确。
 
-- **证据来源：** [GitHub - mdozmorov/Aging_clock](https://github.com/mdozmorov/Aging_clock)（2026-06-04 活跃，38 stars，R 语言）
-- **可信度：** 高（公开代码 + 论文引用，可独立核实）
-- **它解决什么问题：** 研究者需要一个集中汇总主流衰老时钟实现与参考文献的资源库，避免重复检索散落各处的论文和代码
-- **可做成什么：** 中文试跑教程（R 环境搭建 + 跑通一个时钟示例）、数据集清单整理、"表观遗传时钟选型指南"内容
-- **售后或合规风险：** 低（纯研究工具，不涉及临床建议）
-- **今天最小动作：** clone 仓库，跑通 README 里最基础的一个时钟示例，截图记录环境依赖，写成 500 字试跑笔记
-
----
-
-### jazoller96/mammalian-methyl-clocks — 哺乳动物甲基化时钟系数库
-
-提供多个哺乳动物内在表观遗传时钟的系数和年龄转换公式，且附引用说明，是 Aging_clock 的上游数据源之一。与上一条联合使用可构成完整的"数据来源 → 应用实现"内容链。
-
-- **证据来源：** [GitHub - jazoller96/mammalian-methyl-clocks](https://github.com/jazoller96/mammalian-methyl-clocks)（2026-06-05 发布，8 stars，R 语言）
-- **可信度：** 中（新仓库，star 数少，但内容具体可查；需自行核对引用论文）
-- **它解决什么问题：** 研究者复现或比较不同物种衰老时钟时，系数散落在各篇论文附表中，该仓库做了统一整理
-- **可做成什么：** "表观遗传时钟系数从哪来"解析文章、与 Aging_clock 联合的数据集对比表
-- **售后或合规风险：** 低
-- **今天最小动作：** 收藏 + 检查 README 中引用的论文列表，标记出哪些时钟有公开数据集可下载
+- **证据来源：** [GitHub - ADAMMA-CDHI-ETH-Zurich/CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge)（2026-06-05 发布，11 stars，昨日新鲜）
+- **可信度：** 高（ETH Zurich 机构背书，代码已公开）
+- **它解决什么问题：** 用可穿戴加速度计数据估算生物年龄，无需血液检测，降低衰老评估门槛
+- **可做成什么：** 试跑教程（Python 本地运行）、可穿戴数据+生物钟科普内容、接 Apple Health/Garmin 数据的轻工具演示
+- **售后或合规风险：** 低（不涉及诊断，纯研究工具）
+- **今天最小动作：** `pip install` 试跑官方示例数据，截图记录输出，写一篇"5分钟跑出你的昼夜节律生物年龄"笔记
 
 ---
 
-### balajiprincejoshva-byte/Multi-Omics-Aging-Framework — 多组学深度学习衰老框架
+### paradigma — 帕金森数字生物标志物工具箱
 
-Python 实现，整合多组学数据做生物年龄预测和部分表观重编程靶点优先级排序，方向非常准确。Star 数仅 1，但今天刚活跃，属于早期发现窗口。
+专注帕金森病的数字生物标志物 Python 库，stars 16 且近期活跃，方向精准对应 aging/dementia 上游风险监测。
 
-- **证据来源：** [GitHub - balajiprincejoshva-byte/Multi-Omics-Aging-Framework](https://github.com/balajiprincejoshva-byte/Multi-Omics-Aging-Framework)（2026-06-04，1 star，Python）
-- **可信度：** 低-中（极新，代码质量和数据来源未经社区验证；但功能描述具体，方向切中 longevity + biomarker 主题）
-- **它解决什么问题：** 单一组学数据预测生物年龄精度有限，该框架尝试融合多组学信号
-- **可做成什么：** 早期试跑记录（跑通即有内容）、"多组学衰老预测入门"选题、若代码质量尚可可做二次封装 demo
-- **售后或合规风险：** 低（研究框架，非临床工具）
-- **今天最小动作：** 读完 README + requirements.txt，判断是否有示例数据可直接跑；若有，记录运行结果，哪怕是报错截图也有教程价值
-
----
-
-### nopara73/LongevityWorldCup — 开源长寿运动平台
-
-含生物年龄计算器、运动员档案和公开排行榜，是面向普通用户的 longevity 可视化应用。HTML 实现，易于二次改造。作为内容选题切入点比作为技术工具更有价值。
-
-- **证据来源：** [GitHub - nopara73/LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup)（2026-06-05，17 stars，HTML）
-- **可信度：** 中（代码公开可查，但生物年龄计算器所用公式来源需核实）
-- **它解决什么问题：** 让普通人以"竞技"形式参与生物年龄测量和追踪，降低 longevity 概念的参与门槛
-- **可做成什么：** "如何用开源工具测你的生物年龄"科普内容、部署 demo 截图教程、轻工具改造（汉化或加中文字段）
-- **售后或合规风险：** 中（生物年龄计算器若公式来源不透明，对外输出时需注明非医疗建议）
-- **今天最小动作：** 在本地打开 HTML，找到生物年龄计算器的具体公式或引用，判断是否可用于内容
+- **证据来源：** [GitHub - biomarkersParkinson/paradigma](https://github.com/biomarkersParkinson/paradigma)（2026-06-02，16 stars，Python）
+- **可信度：** 中（有机构背景，但缺临床验证文献链接，需自行核查 README）
+- **它解决什么问题：** 从穿戴或传感器数据中提取帕金森相关数字生物标志物，支持远程监测场景
+- **可做成什么：** 试跑教程、"数字生物标志物科普"内容系列、与 CosinorAge 对比选题
+- **售后或合规风险：** 中（帕金森相关，需明确注明"仅研究用途，不作诊断"）
+- **今天最小动作：** 阅读 README 和 example notebook，记录数据格式要求，评估能否接公开数据集试跑
 
 ---
 
-### Tolion Brain Coach — AI 大脑健康 & 阿尔茨海默预防应用（商业新闻）
+### tAge — 转录组生物年龄 R 包
 
-已上线的商业产品，提供个性化脑健康方案，定位阿尔茨海默预防。对于内容创作者，这是一个可拆解竞品、提取用户痛点的参考信号。
+Gladyshev Lab（哈佛系衰老研究重要实验室）出品，基于基因表达数据预测生物年龄，适合有生信背景的受众做深度内容。
 
-- **证据来源：** [Business Wire via Google News](https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdFFDQ0ZHVUhJdG1xQkRtbUhHbzNiRHRSRGYxck1CcktubDQxemhyVnBIZXV1VDhpWGNOSW1iS1FOV0RQcXRoOHBqOXliRlktSmRZemlhT29lcG1ZSl84VVdURE1xNjg3Si1ZdE9DaHhXc3VZS29QQjAzUTNuUlo4d3VjeGRFWE1fbVdIV05DYTVacmlCN3h4dTJaeUFYNnFMR0hZVVJwUUd2UnV0VjBpRDNkSUZQWm5peGM4OVh5YXJEdEhqSFlqSUdoal9TdDRQMS1QVFk2UEliaFZuQ05sNVpHRVJ3endFVGk5cll3LXFtS1VxR0RDQ3JaQzRxamxGNzE1MWxkTUI2SzlGcFVHV3QzOUhLVFVnS2FrUnJfc1dtdmJ2bEZqaExyUXp5Zmozb3Q0NEljcWVVQ1E5Y1NuTHhnbWFNRzNkWGRHallVc3RWenRlbi15NA)（2026-05-12，Business Wire）
-- **可信度：** 高（官方新闻稿，产品已声明上线）
-- **它解决什么问题：** 为有家族阿尔茨海默风险的用户提供个性化脑健康干预方案
-- **可做成什么：** 竞品分析文章、"AI 脑健康 App 横评"选题、轻咨询素材
-- **售后或合规风险：** 高（涉及阿尔茨海默预防声称，转述时必须注明非医疗建议，且产品效果未经独立验证）
-- **今天最小动作：** 下载或注册体验 Tolion Brain Coach，记录 onboarding 流程和核心功能点，作为竞品笔记存档
+- **证据来源：** [GitHub - Gladyshev-Lab/tAge](https://github.com/Gladyshev-Lab/tAge)（2026-06-04，14 stars，R/Jupyter）
+- **可信度：** 高（Gladyshev Lab 在衰老时钟领域有高被引论文记录）
+- **它解决什么问题：** 从基因表达谱直接估算转录组年龄，不依赖甲基化数据，补充现有时钟方案
+- **可做成什么：** 生信受众教程、"衰老时钟对比"专题（DNAm / CosinorAge / tAge 三横比较）、数据集整理
+- **售后或合规风险：** 低（纯研究工具，基因表达数据使用公开数据集）
+- **今天最小动作：** 收藏 + 检索 Gladyshev Lab 近期配套论文，确认 tAge 的 benchmark 数据集
 
 ---
 
 ## 可二次开发方向
 
-- **表观遗传时钟中文教程系列：** 以 `Aging_clock` + `mammalian-methyl-clocks` 为素材，做"从零跑通一个 DNA 甲基化年龄预测模型"的 R 语言教程，面向中文生信爱好者，目前该方向中文内容极少。
-- **生物年龄计算器对比工具：** 整理 `LongevityWorldCup`、各主流在线生物年龄测试（Levine PhenoAge 等）的计算公式和数据需求，做成一张可比较的选型表或轻量级 Web 页面。
-- **Longevity GitHub 项目追踪 Newsletter：** 建立一个每周自动爬取 aging / longevity / epigenetic-clock 相关 GitHub 新仓库的监控 pipeline，输出周报。今日素材已验证该方向有持续信号。
-- **MMP9 / 神经退行疾病共享 biomarker 科普内容：** 以今日 PubMed 论文（MMP9 在阿尔茨海默与亨廷顿中的共享免疫基因）为锚点，写"跨病转录组分析如何找到共同靶点"的方法论科普，面向数据科学背景读者。
+- **衰老时钟横向对比数据库：** 将 CosinorAge / tAge / TimeFlies 的输入格式、数据要求、预测目标整理成一张对比表，做成可查阅的静态页面或 Notion 数据库，服务生信入门受众。
+- **"帕金森数字生物标志物"教程系列：** 基于 paradigma 的公开示例数据，写 3 篇递进式教程（数据格式 → 特征提取 → 可视化），配合 Alzheimer imaging AI（Neurophet）新闻做横向关联内容。
+- **可穿戴数据 → 生物年龄 Pipeline 演示：** 串联 CosinorAge + 公开 Fitbit/NHANES 数据，做一个本地可运行的 Jupyter Notebook，适合作为付费资料包或 GitHub 教程仓库。
+- **ASGH 2026 会议追踪专题：** geneonline.com 报道 healthy aging 成为经济策略主题，可整理会议摘要、演讲者、赞助商，做成一份"2026 longevity 产业地图"内容资产。
 
 ---
 
 ## 值得观察
 
-- **Multi-Omics-Aging-Framework：** 方向准确但仓库太新（1 star，昨天创建），代码质量和数据依赖尚不清楚。等 1-2 周看是否有更新和 issue 讨论，再决定是否深入。
-- **ASGH 2026 健康老龄化经济策略会议：** geneonline.com 的报道指向一个正在形成的政策和资本叙事（阿尔茨海默 → AI → 经济战略），值得追踪后续产出的白皮书或演讲实录。
-- **Neurophet 阿尔茨海默影像 AI（ASNR 2026）：** 韩国影像 AI 公司在国际放射学会议亮相，代表亚洲 longevity AI 商业化进程；若有公开 demo 或论文发布，可作为竞品分析素材。
-- **ScienceAlert "预测长寿最关键因素"研究：** 社交媒体上传播量可观，但原始论文信息不明，需找到 DOI 才能评估可信度。若论文可靠，是优质科普选题。
+- **TimeFlies（果蝇 snRNA-seq 衰老时钟）：** 发表于 Scientific Reports，仅 2 stars，但方法论可迁移到哺乳动物单细胞数据。目前太小众，等 6 个月看是否有后续引用或人类数据扩展。[链接](https://github.com/rsinghlab/TimeFlies)
+- **Tolion Brain Coach：** AI 驱动的阿尔茨海默预防 App，2026-05-12 发布，商业方向明确，但目前只有 PR 稿，无独立临床数据或用户反馈。等 App Store 评分和媒体第三方评测出来再做内容。
+- **MMP9 跨组织转录分析（PubMed）：** 阿尔茨海默和亨廷顿共享免疫基因的跨组织研究，方向有趣，但摘要信息不完整，需获取全文才能判断数据是否可复现或有工具开源。
+- **SPISE + 集成机器学习 CKM 综合征风险分层（PubMed）：** 心血管/肾脏/代谢交叉的老年男性研究，biomarker 角度有价值，但数据集不公开，暂时只适合跟踪方法论。
 
 ---
 
 ## 今天别碰
 
-- **Tolion Brain Coach 效果声称的二次传播：** 产品刚上线，无独立临床验证数据，转述"预防阿尔茨海默"类声称面临较高合规风险，在有进一步证据前不宜作为推荐内容传播。
-- **儿科脓毒症相关 AKI 代谢组学论文（PubMed）：** 今日素材中该论文与 longevity / aging 主题关联最弱，属于检索噪声，不值得花时间处理。
-- **Mastodon 自然绿地健康帖子：** 信号强度极低（单个博主，无数据支撑），内容方向过于泛化，商机切入点不清晰，跳过。
+- **Mastodon 社交信号（自然绿地/长寿预测因子）：** 两条帖子均为科普转发，无原始数据、无代码、无可操作资产，内容质量低，不值得花时间整理。
+- **儿童脓毒症 AKI 尿代谢组学论文：** 主题偏离 aging/longevity 核心，数据为两中心临床数据不公开，无法复现，风险中等（儿科临床敏感性）。
+- **Neurophet Alzheimer's imaging AI（ASNR 2026）：** 纯商业 PR，没有开源代码或公开模型权重，韩国公司产品，进入门槛高，今天没有可操作动作。
 
 ---
 
 ## 今日动作
 
-- **今天先试跑：** clone `mdozmorov/Aging_clock`，在 R 环境中跑通一个基础示例，记录依赖版本和报错信息
-- **今天先写：** "表观遗传时钟是什么 + 今天能用哪些开源工具测生物年龄"500 字入门选题草稿
-- **今天先收藏：** `jazoller96/mammalian-methyl-clocks` + `balajiprincejoshva-byte/Multi-Omics-Aging-Framework`，加标注"待一周后复查活跃度"
+- **今天先试跑：** CosinorAge — `pip install`，跑官方示例，记录输入格式和输出结果截图
+- **今天先写：** "2026 衰老时钟工具横向对比：CosinorAge vs tAge vs 传统 DNAm 时钟，你该用哪个？"选题大纲
+- **今天先收藏：** paradigma（标注"帕金森数字生物标志物，待接公开数据集试跑"）+ tAge（标注"Gladyshev Lab，查配套论文"）
