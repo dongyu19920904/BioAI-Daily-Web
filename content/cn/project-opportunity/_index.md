@@ -5,105 +5,97 @@ breadcrumbs: false
 description: "从 AI 生命延续学开源项目和研究线索里筛选可跟进的项目机会。"
 cascade:
   type: docs
-next: /project-opportunity/2026-06-09
+next: /project-opportunity/2026-06-10
 ---
 
 # AI生命延续学资讯商机项目
 
-报告日期：2026-06-09
+报告日期：2026-06-10
 
 ---
 
 ## 今日优先项目
 
-### ShengAnlin/BioContextAD — 阿尔茨海默早筛的生物标志物上下文框架
+### Gladyshev-Lab/tAge — 转录组生物年龄预测 R 包
 
-刚发布（今日 11:13 UTC），star 数极低但方向精准：将生物标志物数据嵌入 LLM 上下文工程，用于 AD 早期筛查。这是目前少见的「biomarker + prompt engineering」交叉项目，正好卡在临床 AI 与 LLM 应用之间的空白地带。
+来自哈佛 Gladyshev 实验室（epigenetic clock 领域顶尖团队），用基因表达数据预测生物年龄，发布仅两天、已获 15 star，属于小众但方向极准的工具。可直接对接现有 RNA-seq 数据集，门槛比甲基化时钟低。
 
-- **证据来源：** [ShengAnlin/BioContextAD](https://github.com/ShengAnlin/BioContextAD)（GitHub，2026-06-09）
-- **可信度：** 中（新项目，代码尚未经外部验证，但描述清晰、语言 Python，可直接审查）
-- **它解决什么问题：** 把血液/影像等生物标志物作为上下文注入 LLM，辅助 AD 早期筛查决策
-- **可做成什么：** 试跑教程 / 技术拆解博文 / 与 BACalc 联动做数据流演示
-- **售后或合规风险：** 高（AD 筛查涉及医疗诊断，任何对外输出必须明确标注"非临床诊断"）
-- **今天最小动作：** clone 项目、读 README 和主入口代码，记录数据输入格式，写一篇「这个项目到底在做什么」的技术笔记
-
----
-
-### msbCyricTohoku/BACalc — 数据集无关的生物年龄计算器
-
-"Dataset Agnostic"是关键词——意味着它不绑定特定队列数据，可接入自定义数据集。star 数虽低，但这类工具型项目是内容教程和小工具开发的天然素材。
-
-- **证据来源：** [msbCyricTohoku/BACalc](https://github.com/msbCyricTohoku/BACalc)（GitHub，2026-06-06）
-- **可信度：** 中（新项目，需读源码验证"agnostic"声明是否属实）
-- **它解决什么问题：** 让研究者用自己的生物标志物数据计算生物年龄，而不依赖固定训练集
-- **可做成什么：** 试跑教程 / 与公开 NHANES 数据对接的 demo / 轻量 Web 封装小工具
-- **售后或合规风险：** 低（研究工具属性，不做诊断输出）
-- **今天最小动作：** clone + 用样本数据跑通一次，截图记录输入/输出格式
+- **证据来源：** [https://github.com/Gladyshev-Lab/tAge](https://github.com/Gladyshev-Lab/tAge)（GitHub，2026-06-08）
+- **可信度：** 高（实验室背书，Jupyter Notebook 附示例）
+- **它解决什么问题：** 让研究者无需甲基化测序即可从 RNA-seq 估算生物年龄，降低实验成本
+- **可做成什么：** 试跑教程（R + Bioconductor 环境）、数据集整理（GEO 公开 RNA-seq）、对比其他时钟（Horvath、PhenoAge）的横向评测文章
+- **售后或合规风险：** 低（纯研究工具，不涉及临床建议）
+- **今天最小动作：** clone 仓库，按 README 跑 demo 数据，记录安装坑点，起草「5分钟上手 tAge」笔记
 
 ---
 
-### mdozmorov/Aging_clock — 表观遗传时钟数据与论文资料库
+### ADAMMA-CDHI-ETH-Zurich/CosinorAge — 可穿戴数据生物年龄预测
 
-39 star、持续维护、R 语言，收录了主流 epigenetic clock 相关数据集和文献索引。不是最新但是最全，是构建「衰老时钟知识库」内容的底层资料。
+ETH Zurich 数字健康团队出品，基于昼夜节律（Cosinor 模型）从可穿戴设备活动数据预测生物年龄，11 star、发布于 2026-06-05，Python 实现门槛低。可穿戴数据获取路径比基因组宽得多，面向消费级市场潜力更大。
 
-- **证据来源：** [mdozmorov/Aging_clock](https://github.com/mdozmorov/Aging_clock)（GitHub，更新至 2026-06-06）
-- **可信度：** 高（star 数相对稳定，长期维护，内容可核查）
-- **它解决什么问题：** 系统整理了 Horvath clock、GrimAge 等表观遗传年龄预测模型的数据源和文献
-- **可做成什么：** 整理成中文知识库 / 作为 BACalc 和 BioContextAD 的文献背景素材 / 系列科普内容
-- **售后或合规风险：** 低
-- **今天最小动作：** fork 或 star，整理其中引用的 3-5 篇核心论文标题，加入个人文献库
+- **证据来源：** [https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge)（GitHub，2026-06-05）
+- **可信度：** 高（ETH Zurich 机构仓库，Python 包结构规范）
+- **它解决什么问题：** 用手腕活动节律（非血液、非基因）估算生物年龄，可接入 Apple Watch / Garmin 导出数据
+- **可做成什么：** 轻量 demo（用公开 NHANES 加速度计数据跑通）、对比文章（CosinorAge vs tAge）、面向健康 APP 开发者的集成教程
+- **售后或合规风险：** 低（结果定位为参考指标，非诊断）
+- **今天最小动作：** `pip install` 后用示例数据跑通，截图留存，记录输入格式要求
 
 ---
 
-### nopara73/LongevityWorldCup — 开源长寿运动竞技平台
+### Raffer0654/gnpc-pipeline — 器官年龄时钟流水线
 
-C# 项目，提供生物年龄计算、运动员档案和排行榜。gamification + longevity 方向，商业化路径清晰（社区、付费档案、品牌合作）。star 18，今日刚上 GitHub Trending。
+极早期（1 star，2026-06-08），描述为「organ age clock pipeline gnpc」，Python 实现。方向与多器官生物钟研究吻合（近年 Nature 多篇器官特异性老化论文背景），值得今天就先占位跟踪。
 
-- **证据来源：** [nopara73/LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup)（GitHub，2026-06-09）
-- **可信度：** 中（项目结构可验证，但平台实际用户数未知）
-- **它解决什么问题：** 用竞技排行榜机制激励用户追踪和改善生物年龄
-- **可做成什么：** 内容拆解（"长寿游戏化是什么"）/ 接入 BACalc 做功能对比评测
-- **售后或合规风险：** 低（非医疗诊断，竞技娱乐属性）
-- **今天最小动作：** 浏览项目主页和 README，截图排行榜设计，写一条选题笔记
+- **证据来源：** [https://github.com/Raffer0654/gnpc-pipeline](https://github.com/Raffer0654/gnpc-pipeline)（GitHub，2026-06-08）
+- **可信度：** 低（个人仓库，无文档，无论文引用）
+- **它解决什么问题：** 潜在方向为计算各器官独立衰老速度（liver age、brain age 等），若有配套论文则价值升级
+- **可做成什么：** 暂时只适合收藏观察；若后续有论文或 README 完善，可做拆解教程
+- **售后或合规风险：** 低（尚不可用于实际应用）
+- **今天最小动作：** Star 并设 Watch，搜索「gnpc organ age」看是否有关联预印本
+
+---
+
+### MMP9 跨组织转录分析 — AD 与 HD 共享免疫基因
+
+发表于 *Artificial Cells, Nanomedicine, and Biotechnology*，识别 MMP9 为阿尔茨海默病与亨廷顿病的共享免疫相关基因。跨病种共享 biomarker 是当前 AD 早筛的热点切入点，且 MMP9 有血液检测可行性。
+
+- **证据来源：** [https://pubmed.ncbi.nlm.nih.gov/42030987/](https://pubmed.ncbi.nlm.nih.gov/42030987/)（PubMed，2026-06）
+- **可信度：** 中（同行评审期刊，但该期刊影响因子中等，结论需看样本量）
+- **它解决什么问题：** 为神经退行性疾病提供潜在跨病种早期血液 biomarker
+- **可做成什么：** 科普拆解文（「一个基因，两种脑病」）、MMP9 相关研究进展整理数据库、面向轻咨询客户的 biomarker 图谱
+- **售后或合规风险：** 中（需注明「研究阶段，非临床诊断依据」）
+- **今天最小动作：** 阅读摘要，记录样本量和使用的数据集，判断是否值得全文精读
 
 ---
 
 ## 可二次开发方向
 
-- **biomarker → LLM 上下文管道教程**：以 BioContextAD 为基础，写「如何把血液指标结构化后输入 LLM 做健康问答」的可复现教程，附代码和注意事项（强调非诊断用途）。
-
-- **生物年龄计算器横向评测页**：整合 BACalc、LongevityWorldCup 的计算逻辑，对比输入指标、算法差异、输出可解释性，做成静态对比表或 Notion 数据库。
-
-- **表观遗传时钟中文索引**：基于 Aging_clock 仓库，整理成「10 个主流衰老时钟模型」的中文卡片式内容，每张卡片包含：原论文、数据集来源、可复现代码链接。
-
-- **AD 早筛 AI 工具地图**：以 BioContextAD、Neurophet、Tolion Brain Coach 为节点，构建一个「AD AI 早筛工具」全景图，标注技术路线（影像 / 血液标志物 / 行为数据）和商业化阶段。
+- **「生物年龄时钟横评」教程系列**：将 tAge（转录组）、CosinorAge（可穿戴）、Horvath（甲基化）三类时钟的输入要求、精度、适用场景做成对比表格和分步教程，目标受众是有数据但不知选哪种工具的研究者。
+- **公开老化数据集导航页**：整理 GEO、UK Biobank 开放子集、NHANES 加速度计数据等可配合上述工具直接试跑的数据源，附接入方式和许可证说明，做成可持续更新的 Notion 或 GitHub Pages 资料库。
+- **AD/脑健康 APP 竞品追踪 newsletter**：以 Tolion Brain Coach 为起点，持续追踪同类产品（功能、定价、监管状态），每月一期，面向投资人、创业者和关注脑健康的读者。
+- **SPISE + CKM 心血管风险分层教程**：将 PubMed 论文（[https://pubmed.ncbi.nlm.nih.gov/42101474/](https://pubmed.ncbi.nlm.nih.gov/42101474/)）中的集成机器学习方法拆解为可复现的 Python 流水线，服务有慢性病数据的临床研究者。
 
 ---
 
 ## 值得观察
 
-- **Tolion Brain Coach**（[Business Wire, 2026-05-12](https://news.google.com/rss/articles/CBMi2AJBVV95cUxP...)）：商业 AI 脑健康 App 已上线，但目前只有新闻稿，无独立测评或用户数据。值得跟踪其应用商店评分和用户反馈，3 个月后再评估值不值得做测评内容。
-
-- **Neurophet AD 影像 AI（ASNR 2026）**（[koreabiomed.com, 2026-05-12](https://news.google.com/rss/articles/CBMibkFVX3lxTE1C...)）：韩国医疗影像 AI 企业在神经放射学年会上展示 AD 影像产品，值得关注其技术路线（是否开放 API 或数据集）。
-
-- **SPISE 指数 + 集成机器学习用于 CKM 心血管风险分层**（[PubMed 42101474](https://pubmed.ncbi.nlm.nih.gov/42101474/)）：老龄男性心血管风险预测，方法论（biomarker + ensemble ML）可迁移至衰老评估场景，但论文全文尚未核查，暂列观察。
-
-- **MMP9 跨组织转录组分析（AD 与 HD 共享免疫基因）**（[PubMed 42030987](https://pubmed.ncbi.nlm.nih.gov/42030987/)）：若 MMP9 确认为 AD/HD 共享 biomarker，对 BioContextAD 类项目的特征工程有直接价值，等论文全文可得后复盘。
+- **rsinghlab/TimeFlies**（果蝇 snRNA-seq 衰老时钟）：配套 *Scientific Reports* 论文已发表（doi:10.1038/s41598-026-48613-0），2 star 但有正式引用。果蝇模型直接商业价值低，但方法论（单细胞 RNA 时钟）可迁移到人类数据；等待社区是否有人移植到哺乳动物数据集。
+- **Neurophet 脑影像 AI**：韩国公司在 ASNR 2026 展示 AD 影像诊断 AI，属于监管审批赛道（FDA/CE）。值得追踪其审批进展和技术发表，作为「AD 影像 AI 监管路径」选题的素材来源。
+- **ASGH 2026 健康老龄化经济战略**：geneonline 报道将健康老龄化定位为经济战略，值得持续跟踪该会议的论文摘要和政策声明，作为宏观叙事背景储备。
+- **「超越饮食和运动的长寿预测因子」ScienceAlert 报道**：Mastodon 社交信号显示该文传播力强，原始研究值得找到一手论文核实，若方法可靠可做拆解选题。
 
 ---
 
 ## 今天别碰
 
-- **Mastodon 社交信号（自然绿地健康/单一长寿因子帖子）**：两条社交帖子均无可验证的原始数据或代码，内容泛化，不构成项目机会，纯作背景噪音处理。
-
-- **儿科脓毒症相关 AKI 代谢组学论文**（PubMed 42015601）：与 aging / longevity / dementia 核心方向交叉极弱，方法论（尿液代谢组学 + XML）虽有参考价值，但今天没有可操作的切入点。
-
-- **直接复制 BioContextAD 做 AD 筛查产品**：项目刚发布，代码未经外部验证，医疗声明合规壁垒极高，今天不适合做任何面向用户的产品封装。
+- **Tolion Brain Coach（直接复制产品方向）**：商业发布的移动 APP，进入需要 FDA SaMD 监管合规、临床验证和用户数据隐私合规（HIPAA），开发和法律成本极高；作为选题背景可以，作为产品对标请先评估合规路径。
+- **儿科脓毒症 AKI 尿代谢组学论文**：与本项目核心方向（aging/longevity/dementia）偏差较大，数据为两中心前瞻性研究数据，不公开可得，无法复现，维护成本高。
+- **自然环境与长寿 Mastodon 帖**：来源为个人博客转发，无一手数据，内容泛化，缺乏可操作的技术或数据切入点，不适合今天投入时间。
 
 ---
 
 ## 今日动作
 
-- **今天先试跑：** `msbCyricTohoku/BACalc` — clone + 用内置样本数据跑通，记录输入格式和输出字段
-- **今天先写：** 技术笔记《BioContextAD 在做什么：biomarker 上下文工程用于 AD 早筛》，读完 README 和主文件后写，500 字以内，标注"非临床诊断"
-- **今天先收藏：** `mdozmorov/Aging_clock` → fork 并整理 3 篇核心引用论文到个人文献库；`nopara73/LongevityWorldCup` → star 并记录排行榜设计截图
+- **今天先试跑：** CosinorAge（`pip install` + 示例数据，记录输入格式和输出结构，耗时约 30–60 分钟）
+- **今天先写：** tAge vs CosinorAge 输入要求对比笔记（为后续横评教程打底）
+- **今天先收藏：** gnpc-pipeline（Star + Watch）、MMP9 论文全文 PDF、ASGH 2026 报道原文
