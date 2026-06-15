@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/15
+title: AI生命延续学日报 2026/6/16
 breadcrumbs: false
-next: /2026-06/2026-06-15
+next: /2026-06/2026-06-16
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Parabilis 以 7.7 亿美元刷新生物科技 IPO 纪录，首日暴涨 58%，"难成药靶点"赛道正式起飞。
-胶原蛋白原来是液态水滴，颠覆教科书五十年，癌症治疗或有全新切入口。
-今天融资、基础发现、AI工具三线齐发，AI生命科学的热度不像在降温。
+普林斯顿团队在 Cell 发文：AI 看细胞"形状"就能预测药物基因调控，制药筛选效率有望大幅提升。
+血液测器官真实年龄、大脑年龄 MRI 开源工具同日出现，"生物年龄检测"产品化近在眼前。
+今天的核心是数据基础设施在悄悄就位，AI 制药的下一波爆发不缺算法，缺的是这类高质量图谱。
 ```
 
 
@@ -29,110 +29,93 @@ Parabilis 以 7.7 亿美元刷新生物科技 IPO 纪录，首日暴涨 58%，"�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-胶原蛋白在细胞里不是固体，是"液态水滴"——这个发现可能颠覆我们对癌症治疗的理解。
+普林斯顿用 AI "看"细胞的形状，就能预测药物怎么调控基因——制药研发又少了一道黑箱。
 
 ### **🔑 3 个关键词**
-#AI制药 #蛋白质结构 #衰老生物学
+#AI制药 #细胞形态学 #基因调控
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 10（或更少）**
 
-> **评分说明**：本日素材中，纯 AI+生命科学深度交叉的内容集中在药物结合力预测和单细胞扰动预测方向；生命科学基础研究（胶原蛋白、GRK2、GLP-1）本身有重要价值，但 AI 介入程度有限。严格按标准筛选，本日入选 **7 条**，不以通用 AI 凑数。
-
----
-
-**1. [RicciBind：用"曲率"看懂蛋白质和药物怎么抱在一起](https://papers.cool/arxiv/2606.14159)**
-
-药物研发里最难的问题之一：这个分子到底和靶点贴不贴合？传统方法只看"静态快照"，RicciBind 引入了 Ricci 曲率（一种描述分子局部"紧密程度"的几何工具）+ 最优传输（把蛋白和配体的结构做跨域对齐），让模型既能看清局部结合细节，又能捕捉整体互动模式。在多个基准数据集上跑赢了现有方法。AI 制药里，预测越准，筛掉废弃候选物越早，省的钱是以亿计的。
+> 今日素材中，真正属于 AI + 生命科学交叉领域的高质量新闻共 **3 条**，其余新闻属于纯生物医学/社会学研究，无 AI 深度交叉，严格排除。宁缺毋滥。
 
 ---
 
-**2. [CPES：给蛋白质-配体结合加一层"物理直觉"](https://papers.cool/arxiv/2606.14217)**
+**1. [AI 通过细胞"形状"预测基因调控，为药物研发开辟新路](https://www.genengnews.com/topics/drug-discovery/ai-predicts-gene-regulation-for-drug-discovery-using-condensate-morphology/)**
 
-跟 RicciBind 同天出现，但思路不同。CPES 的切入点是：分子是会动的，单一构象根本不够用。它从势能面（分子在空间中的能量地图）推导曲率谱描述符，再用谱交叉注意力比较"结合前"和"结合后"的构象变化。结果不只是精度更高，还能告诉你"为什么"——这在新药设计中是稀缺的可解释性。
+你有没有想过，细胞里那些微小的"液滴"（生物分子凝聚体，是细胞内调控基因的关键结构）形状一变，就意味着药物在起效？普林斯顿的研究团队就发现了这件事。
 
----
+他们用深度学习分析这些凝聚体的形状变化，把数百个人类细胞在不同药物作用下的图像分成四类——包括与细胞应激反应相关的"帽形"和"项链形"，还有一个前所未见的"花形"。这个"花形"是已知抗癌药 topotecan 触发的，而且背后藏着一个以前没人注意到的基因调控机制。
 
-**3. [CisTransCell：基因一敲，AI 预测整个细胞会怎么变](https://papers.cool/arxiv/2606.13713)**
-
-想知道敲掉某个基因，细胞会发生什么？以前要做实验，现在 CisTransCell 直接预测。它的聪明之处在于同时考虑了两件事：这个基因的编码序列（产物是什么）和调控序列（谁控制它的开关）。更厉害的是，它能做"零样本预测"——训练时没见过这个基因，一样能推断。对筛选基因编辑靶点、理解细胞信号通路，这个工具很实用。
+意义很直接：以后筛药，不用等你说"这药有没有效"，看看细胞长什么样就知道了。制药公司的实验室效率，理论上能大幅提升。研究发表在顶刊 *Cell*。
 
 ---
 
-**4. [胶原蛋白原来在细胞里是"液态水滴"——颠覆了几十年的教科书](https://www.genengnews.com/topics/translational-medicine/collagen-resides-inside-cells-in-liquid-condensate-like-form/)**
+**2. [从血液预测器官真实年龄，疾病风险早知道](https://www.news-medical.net/news/20260615/Blood-based-indicator-assesses-organ-age-to-predict-disease-risk.aspx)**
 
-教科书说胶原蛋白是长达 400nm 的硬质棒状分子。巴塞罗那 CRG 研究所的团队用高分辨率活细胞成像一看：不对，在细胞里它是液态小液滴，会合并、分裂、和周围交换物质。这意味着细胞出口这么小，却能运出这么大的分子，靠的不是我们以为的"囊泡运输"，而是类似毛细管作用的"液态挤出"。更重要的是：癌细胞就是靠疯狂分泌胶原蛋白筑起"屏障"，躲过化疗和免疫攻击。找到这个机制，就找到了一个新的靶点。
+身份证上写着 45 岁，你的心脏可能已经"活"到 60 岁了。
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Low-Res_Picture-1_S_Bhattacharyya-300x300.jpg)
+这项研究用血液中的生物标志物来评估各器官的"生物年龄"（不是日历年龄，而是器官实际的老化程度），从而预测疾病风险。不同的人，不同器官的老化速度差异极大。这个方向结合 AI 分析大规模血液组学数据，正在成为精准预防医学的核心工具之一。
 
----
+对普通人来说，未来体检报告里多一列"你的肝脏比你年轻 5 岁"，不是不可能。
 
-**5. [司美格鲁肽让生物衰老钟慢了 9%](https://www.fightaging.org/archives/2026/06/glp-1-receptor-agonists-slow-epigenetic-aging-a-measure-of-the-harms-done-by-excess-visceral-fat/)**
-
-减肥药司美格鲁肽（GLP-1 受体激动剂）越来越像一个"万能药"。最新研究对 108 名 HIV 相关腹型肥胖患者跟踪 32 周，用表观遗传时钟（通过 DNA 甲基化变化来衡量细胞实际年龄的工具）测量，发现用药组的生物衰老速度减慢了 9%（DunedinPACE 时钟），全因死亡风险相关的衰老指标也显著改善。本质上这是一次关于"减掉内脏脂肪=减慢衰老"的大规模人体确认实验。
+![Blood-based indicator assesses organ age to predict disease risk](https://www.news-medical.net/image-handler/picture/2017/6/Anatomical_structure_of_biological_animal_cell_with_organelles-eranicle_1d73b50575dc4546875a4a2fc7d429a6-620x480.jpg)
 
 ---
 
-**6. [一管血测 11 个器官的"生物年龄"，比生日蜡烛可信多了](https://medicalxpress.com/news/2026-06-blood-biological-ages-disease-years.html)**
+**3. [单细胞免疫图谱绘制人类全生命周期，婴儿免疫特征首次揭示](https://www.nature.com/articles/s41467-026-73729-2)**
 
-你的心脏可能只有 40 岁，但肾脏已经 60 岁了——这不是玄学，而是最新研究的发现。通过一次血液检测，研究团队能同时估算 11 个器官系统各自的生物年龄，从而在疾病真正发作前数年预测风险。这种"器官级别分辨率"的衰老检测，如果走向临床，会从根本上改变体检的逻辑。
+从出生到老年，你的免疫系统其实是一套完全不同的"操作系统"。
 
----
+这篇发表在 *Nature Communications* 的研究，用单细胞测序技术（把每一个免疫细胞单独分析，相当于给免疫系统做了超高分辨率的人口普查）绘制了健康人类跨越整个生命周期的免疫系统地图。最关键的发现：婴儿的免疫特征是独一无二的，与成人截然不同。
 
-**7. [Parabilis 完成 7.7 亿美元 IPO，生物科技史上最大 IPO](https://www.genengnews.com/topics/cancer/stockwatch-parabilis-medicines-makes-wall-street-history-with-770-5m-ipo/)**
-
-生物科技寒冬结束了？Parabilis Medicines 以 7.705 亿美元刷新了药企 IPO 历史纪录，首日股价直接跳涨 58%。这家公司的核心技术叫"Helicon"——一类稳定的螺旋肽，专门攻击过去被认为"无法成药"的蛋白靶点。他们的先导候选药物 zolucatetide 已获 FDA 快速通道认定，瞄准罕见肿瘤和多种癌症。同期，Regeneron 签了一个总价值超 23 亿美元的合作协议。这不只是一家公司的上市，是整个"攻克难成药靶点"赛道的标志性时刻。
+这份地图是 AI 辅助药物开发、个性化疫苗设计的重要基础数据。你懂 AI 预测，但 AI 预测的前提是有足够好的数据——这张图，就是那个"前提"。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [GRK2 蛋白聚集是阿尔茨海默病线粒体损伤的新机制](https://www.fightaging.org/archives/2026/06/grk2-aggregation-as-a-cause-of-mitochondrial-dysfunction-in-alzheimers-disease/) - 除了淀粉样蛋白，阿尔茨海默病里又发现新的致病蛋白聚集，小分子干预在小鼠模型中有效
+**[研究]** [单次注射基因疗法延长老年小鼠健康寿命](https://www.news-medical.net/news/20260615/Single-dose-gene-therapy-extends-healthy-lifespan-in-older-mice.aspx) — 巴塞罗那自治大学团队：一针 FGF21 基因疗法，让老年小鼠活得更健康，抗衰老赛道又多一个候选方向。
 
-**[研究]** [内脏脂肪减掉后留下 10 年"代谢遗产"，糖尿病风险降 28%](https://medicalxpress.com/news/2026-06-visceral-fat-loss-year-metabolic.html) - 体重反弹了，但曾经减掉的内脏脂肪的好处还在，本古里安大学研究佐证"减脂优先"策略
+![Single-dose gene therapy extends healthy lifespan in older mice](https://www.news-medical.net/image-handler/picture/2014/7/Gene_Therapy-620x480.jpg)
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [胶原蛋白在细胞里原来是个"液态球"，教科书错了几十年](https://www.genengnews.com/topics/translational-medicine/collagen-resides-inside-cells-in-liquid-condensate-like-form/)
+### [用 MRI 一张图就能估算"大脑年龄"，代码开源了](https://github.com/GodPascal/brain-age-prediction)
 
-研究员 Bhattacharyya 本来只是用肝细胞做工具研究，结果显微镜下看到一堆亮闪闪的球形结构愣在那里。导师 Malhotra 第一反应："这肯定是实验出错了。"——没想到之后几个月的实验全在证明：没出错，真的就是液态水滴。细胞生物学界研究胶原蛋白五十年，居然从来没人在活细胞里直接看过它的真实形态。😅
+有人在 GitHub 上传了一个工具：给它一张 T1 加权 MRI（一种常见的脑部核磁共振扫描），它能估算出你大脑的"生理年龄"，在 CPU 上跑，装在一个容器里，开箱即用。目前只有 1 颗星，估计作者自己也觉得有点孤独。
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Low-Res_Picture-1_S_Bhattacharyya-300x300.jpg)
+最妙的是，如果你的大脑比实际年龄年轻——那恭喜你；如果比实际年龄老……嗯，至少你早知道了。🧠
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### AI 辅助蛋白质-配体结合预测进入制药公司标准流程
+### 细胞形态 AI 进入主流药物筛选流程
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日同天出现两篇结合力预测论文（[CPES](https://papers.cool/arxiv/2606.14217)、[RicciBind](https://papers.cool/arxiv/2606.14159)），均在多个基准超越 SOTA + 近期 AI 制药公司融资热潮显示工业界对这类工具需求旺盛。
+- **预测依据**：今日 [普林斯顿 Cell 论文](https://www.genengnews.com/topics/drug-discovery/ai-predicts-gene-regulation-for-drug-discovery-using-condensate-morphology/) 已展示从形态预测基因调控的可行性；近期多家 AI 制药公司（Recursion、Phenomic AI）均在加码表型筛选（phenotypic screening），该技术路线进入商业化仅差一步。
 
-### 针对胶原蛋白分泌通路（TANGO1）的抗纤维化/抗肿瘤疗法进入早期研发
+### 血液多器官生物年龄检测产品化加速
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：65%
+- **预测依据**：今日 [血液器官年龄指标研究](https://www.news-medical.net/news/20260615/Blood-based-indicator-assesses-organ-age-to-predict-disease-risk.aspx) 持续推进；Elysium Health、Biological Age 等公司已在商业化轨道上，下半年极可能推出消费级多器官年龄报告产品。
+
+### 单细胞免疫图谱数据推动婴幼儿疫苗个性化设计
 - **预测时间**：2026年Q4
 - **预测概率**：55%
-- **预测依据**：今日 CRG 研究[揭示 TANGO1 的"泊位"功能](https://www.genengnews.com/topics/translational-medicine/collagen-resides-inside-cells-in-liquid-condensate-like-form/) + 肝纤维化、肺纤维化和肿瘤微环境均是高度活跃的赛道，机制一清晰，药企跟进通常在6-12个月内。
-
-### GLP-1 类药物"抗衰老"适应症临床试验启动
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：60%
-- **预测依据**：今日研究证实[司美格鲁肽减慢生物衰老 9%](https://www.fightaging.org/archives/2026/06/glp-1-receptor-agonists-slow-epigenetic-aging-a-measure-of-the-harms-done-by-excess-visceral-fat/) + 诺和诺德等公司已在布局 GLP-1 超适应症研究，衰老是其中最具吸引力的方向。
-
-### 器官级生物年龄血液检测走向商业化试点
-- **预测时间**：2026年Q3
-- **预测概率**：50%
-- **预测依据**：今日报道[单管血测 11 个器官生物年龄](https://medicalxpress.com/news/2026-06-blood-biological-ages-disease-years.html) + 精准健康检测赛道融资活跃，从学术论文到商业 PoC 通常在 3-6 个月内。
+- **预测依据**：今日 [Nature Communications 免疫图谱研究](https://www.nature.com/articles/s41467-026-73729-2) 揭示婴儿独特免疫特征；多个大型儿童免疫学项目正在积累数据，AI 辅助疫苗设计有望在年底出现概念验证性成果。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、蛋白质结构预测、抗衰老生物学的最新资讯？
+### 哪里可以获取 AI 制药、细胞生物学 AI、抗衰老 AI 的最新资讯？
 
-今日 AI 生命科学领域的热点包括：蛋白质-配体结合力 AI 预测的两大新方法（RicciBind、CPES）、胶原蛋白液态凝聚态的基础发现与癌症治疗意义、以及 GLP-1 类药物放缓生物衰老的新证据。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域热点包括：**AI 通过细胞形态预测药物基因调控**（普林斯顿 Cell 论文）、**血液多器官生物年龄预测**、**全生命周期单细胞免疫图谱**。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -144,13 +127,13 @@ Parabilis 以 7.7 亿美元刷新生物科技 IPO 纪录，首日暴涨 58%，"�
 
 ---
 
-### 如何体验 Claude 或 Gemini 来辅助阅读生命科学论文？
+### 如何体验 Claude 和 Gemini 来辅助阅读生命科学论文？
 
-今日涉及的蛋白质曲率预测、单细胞扰动分析等论文，专业门槛较高。Claude 和 Gemini 非常擅长帮你消化这类学术内容——输入摘要，让它用大白话解释核心贡献，或者帮你快速梳理方法和结论。如果面临账号注册或支付困难：
+今日多篇重磅研究（如 Cell 上的凝聚体形态深度学习论文）涉及高密度专业术语。用 Claude 或 Gemini 来辅助理解论文摘要、提炼研究亮点、整理文献综述，是科研从业者和学生的高效工作流。想要体验这些工具，但面临支付或注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Perplexity、Consensus 等 AI 工具入口
-- 特别适合科研场景：Consensus 和 Perplexity 擅长论文检索，Claude 和 Gemini 擅长长文理解和摘要分析
+- 覆盖官方号、中转额度、多模型组合包，以及适合科研检索的 Consensus、Perplexity 入口
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整 AI 账号服务列表。
