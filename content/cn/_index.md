@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/14
+title: AI生命延续学日报 2026/6/15
 breadcrumbs: false
-next: /2026-06/2026-06-13
+next: /2026-06/2026-06-15
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-SonoThera 拿下1.25亿美元，用超声波导航基因药物精准入靶，剑指无药可治的儿童肌萎缩症。
-75千瓦激光塞进显微镜，90%的人类蛋白质从此能看清楚，制药靶点挖掘的瓶颈松动了。
-基因递送、虚拟细胞、睡眠神经干预同时爆发，今天值得多看几条。
+Parabilis 以 7.7 亿美元刷新生物科技 IPO 纪录，首日暴涨 58%，"难成药靶点"赛道正式起飞。
+胶原蛋白原来是液态水滴，颠覆教科书五十年，癌症治疗或有全新切入口。
+今天融资、基础发现、AI工具三线齐发，AI生命科学的热度不像在降温。
 ```
 
 
@@ -26,101 +26,113 @@ SonoThera 拿下1.25亿美元，用超声波导航基因药物精准入靶，剑
 
 > 💡 **提示**：想体验文中提到的 GPT、Claude、Gemini、Codex、Cursor、Grok 等工具，但不想折腾海外支付、注册、额度和教程？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 按场景选择官方号、镜像、Cursor 方案或中转入口，官网自助下单，卡密秒发。
 
-## 今日 AI 生命科学资讯
+## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-超声波+基因治疗组合拳融资1.25亿美元，传统基因疗法的三大死穴正在被一家新公司逐一破解。
+胶原蛋白在细胞里不是固体，是"液态水滴"——这个发现可能颠覆我们对癌症治疗的理解。
 
 ### **🔑 3 个关键词**
-#基因递送 #AI虚拟细胞 #睡眠神经科学
+#AI制药 #蛋白质结构 #衰老生物学
 
 ---
 
-## 🔥 重磅 TOP 10
+## **🔥 重磅 TOP 10**
 
-> 评分说明：本期高质量 AI+生命科学交叉素材共5条，严格按标准筛选，宁缺毋滥。
-
----
-
-**1. [SonoThera 融资1.25亿美元：用超声波"导航"基因药物精准入靶](https://www.genengnews.com/topics/drug-discovery/sonothera-raises-125m-to-develop-ultrasound-mediated-genetic-medicines/)**
-
-传统基因疗法有个致命伤：药打进去，去哪儿你说了不算。SonoThera 偏偏要反其道而行之——他们用超声波（RIPPLE技术）当"导航系统"，把基因药物精准送到骨骼肌、心脏、肾脏、甚至大脑，不仅能反复给药，还能携带"全长肌营养不良蛋白"这种超大载荷。这次B轮超额认购，ARK Invest、拜耳Leaps、强生JJDC等顶级机构全部押注。首个临床试验针对杜氏肌营养不良症（DMD，一种目前几乎无药可治的儿童肌肉萎缩病），2027年启动。
+> **评分说明**：本日素材中，纯 AI+生命科学深度交叉的内容集中在药物结合力预测和单细胞扰动预测方向；生命科学基础研究（胶原蛋白、GRK2、GLP-1）本身有重要价值，但 AI 介入程度有限。严格按标准筛选，本日入选 **7 条**，不以通用 AI 凑数。
 
 ---
 
-**2. [激光相位板突破 Cryo-EM 极限：90%的人类蛋白质终于"现形"了](https://www.genengnews.com/topics/drug-discovery/laser%e2%80%91driven-phase-contrast-enhances-cryo%e2%80%91em-resolution-of-small-proteins/)**
+**1. [RicciBind：用"曲率"看懂蛋白质和药物怎么抱在一起](https://papers.cool/arxiv/2606.14159)**
 
-做药物研发，最头疼的事之一就是：你想研究的靶点蛋白太小，根本拍不清楚。UC Berkeley的物理学家直接甩出一个暴力解法——把一束"比军用激光还强"的75千瓦激光聚焦到几微米宽，塞进电子显微镜里。结果？那些以前模糊一团的小蛋白，现在清晰得像换了4K屏幕。人类蛋白质组里约90%的蛋白都属于"太小"这个范畴，这一突破直接打开了一扇巨门，论文发在《Science》上。
-
-![AI资讯图片](https://www.genengnews.com/wp-content/uploads/2026/06/Low-Res_lpp_images_vertical-276x300.jpg)
+药物研发里最难的问题之一：这个分子到底和靶点贴不贴合？传统方法只看"静态快照"，RicciBind 引入了 Ricci 曲率（一种描述分子局部"紧密程度"的几何工具）+ 最优传输（把蛋白和配体的结构做跨域对齐），让模型既能看清局部结合细节，又能捕捉整体互动模式。在多个基准数据集上跑赢了现有方法。AI 制药里，预测越准，筛掉废弃候选物越早，省的钱是以亿计的。
 
 ---
 
-**3. [OCOO-T：用"AI虚拟细胞"预测基因扰动后的细胞反应](https://papers.cool/arxiv/2606.12838)**
+**2. [CPES：给蛋白质-配体结合加一层"物理直觉"](https://papers.cool/arxiv/2606.14217)**
 
-药物筛选有个老大难：同一个基因被敲掉，不同细胞里的反应可能截然不同，实验做不完。OCOO-T 用一个极简的 Transformer 架构（不需要复杂的编码器堆叠），直接模拟细胞在基因、化学、细胞因子扰动下的转录反应。在三个主流基准测试上跑到了最优性能。对 AI 制药圈来说，这是"虚拟细胞"（in-silico cellular simulation）工具箱里新增的一把利器——在实验室外先把药物对细胞的效果"算"出来。
-
----
-
-**4. [基因组锚定的个性化生理解读：AI健康监测的"冷启动"问题终于有解法了](https://papers.cool/arxiv/2606.13556)**
-
-你有没有想过：为什么同样是心率变异性55ms，对你来说可能是警报，对别人却是正常？这篇论文提出用每个人的基因组数据作为贝叶斯先验（简单说：先用你的基因给身体状态设一个基准），再用实时生理数据不断修正，从而区分"体质本来就这样"和"环境或行为导致的变化"。对可穿戴设备、个性化健康AI来说，这个框架相当于解决了"刚开始用时什么都不准"的冷启动痛点。
+跟 RicciBind 同天出现，但思路不同。CPES 的切入点是：分子是会动的，单一构象根本不够用。它从势能面（分子在空间中的能量地图）推导曲率谱描述符，再用谱交叉注意力比较"结合前"和"结合后"的构象变化。结果不只是精度更高，还能告诉你"为什么"——这在新药设计中是稀缺的可解释性。
 
 ---
 
-**5. [科学家在小鼠大脑里"伪造睡眠"，记忆和学习能力真的恢复了](https://lifespan.io/inducing-nrem-like-neuronal-patterns-mimics-sleep-benefits/)**
+**3. [CisTransCell：基因一敲，AI 预测整个细胞会怎么变](https://papers.cool/arxiv/2606.13713)**
 
-睡不够觉的人有福了——不是让你少睡，而是这个研究方向很可能改变认知障碍的治疗逻辑。威斯康星大学的团队用光遗传学（用光控制神经元）在清醒小鼠的局部大脑区域"模拟"深度睡眠的神经放电模式，结果：睡眠压力下降、突触强度恢复、记忆测试成绩和正常睡足觉的小鼠一样好。关键发现是——起作用的不是"少放电"，而是那个特定的"开/关"交替节律本身。距离人类应用还很远，但对老年认知衰退的干预研究，这是重要一步。
-
-![AI资讯图片](https://lifespan.io/wp-content/uploads/2026/06/Firing-neurons-262x187.jpg)
+想知道敲掉某个基因，细胞会发生什么？以前要做实验，现在 CisTransCell 直接预测。它的聪明之处在于同时考虑了两件事：这个基因的编码序列（产物是什么）和调控序列（谁控制它的开关）。更厉害的是，它能做"零样本预测"——训练时没见过这个基因，一样能推断。对筛选基因编辑靶点、理解细胞信号通路，这个工具很实用。
 
 ---
 
-## 📌 值得关注
+**4. [胶原蛋白原来在细胞里是"液态水滴"——颠覆了几十年的教科书](https://www.genengnews.com/topics/translational-medicine/collagen-resides-inside-cells-in-liquid-condensate-like-form/)**
 
-**[研究]** [EEG信号自动识别深度睡眠，准确率87%](https://papers.cool/arxiv/2606.13017) - 290名老年女性的34万条EEG数据验证，为睡眠神经反馈干预提供了可靠的"感知引擎"
+教科书说胶原蛋白是长达 400nm 的硬质棒状分子。巴塞罗那 CRG 研究所的团队用高分辨率活细胞成像一看：不对，在细胞里它是液态小液滴，会合并、分裂、和周围交换物质。这意味着细胞出口这么小，却能运出这么大的分子，靠的不是我们以为的"囊泡运输"，而是类似毛细管作用的"液态挤出"。更重要的是：癌细胞就是靠疯狂分泌胶原蛋白筑起"屏障"，躲过化疗和免疫攻击。找到这个机制，就找到了一个新的靶点。
 
----
-
-## 😄 AI生命科学趣闻
-
-### [激光功率超过军用武器，就为了拍清楚一个蛋白质](https://www.genengnews.com/topics/drug-discovery/laser%e2%80%91driven-phase-contrast-enhances-cryo%e2%80%91em-resolution-of-small-proteins/)
-
-75千瓦激光，聚焦到几微米宽——这比焊接用的激光还猛，比军用激光炮还亮。科学家拿这个"核弹级光源"干啥？就是想把一个小蛋白拍得更清楚一点。穆勒教授淡定表示："这是有史以来最亮的连续激光焦点。" 网友：合着诺贝尔奖级别的显微镜，缺的就是一把军火级激光😂
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Low-Res_lpp_images_vertical-276x300.jpg)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Low-Res_Picture-1_S_Bhattacharyya-300x300.jpg)
 
 ---
 
-## 🔮 AI生命科学趋势预测
+**5. [司美格鲁肽让生物衰老钟慢了 9%](https://www.fightaging.org/archives/2026/06/glp-1-receptor-agonists-slow-epigenetic-aging-a-measure-of-the-harms-done-by-excess-visceral-fat/)**
 
-### SonoThera 超声基因递送技术进入IND申报阶段
-- **预测时间**：2026年Q4
-- **预测概率**：75%
-- **预测依据**：[SonoThera融资1.25亿美元](https://www.genengnews.com/topics/drug-discovery/sonothera-raises-125m-to-develop-ultrasound-mediated-genetic-medicines/)，公司明确表示将推进DMD临床，B轮完成后通常12-18个月内进入IND申请窗口
+减肥药司美格鲁肽（GLP-1 受体激动剂）越来越像一个"万能药"。最新研究对 108 名 HIV 相关腹型肥胖患者跟踪 32 周，用表观遗传时钟（通过 DNA 甲基化变化来衡量细胞实际年龄的工具）测量，发现用药组的生物衰老速度减慢了 9%（DunedinPACE 时钟），全因死亡风险相关的衰老指标也显著改善。本质上这是一次关于"减掉内脏脂肪=减慢衰老"的大规模人体确认实验。
 
-### Cryo-EM 激光相位板技术商业化提速
+---
+
+**6. [一管血测 11 个器官的"生物年龄"，比生日蜡烛可信多了](https://medicalxpress.com/news/2026-06-blood-biological-ages-disease-years.html)**
+
+你的心脏可能只有 40 岁，但肾脏已经 60 岁了——这不是玄学，而是最新研究的发现。通过一次血液检测，研究团队能同时估算 11 个器官系统各自的生物年龄，从而在疾病真正发作前数年预测风险。这种"器官级别分辨率"的衰老检测，如果走向临床，会从根本上改变体检的逻辑。
+
+---
+
+**7. [Parabilis 完成 7.7 亿美元 IPO，生物科技史上最大 IPO](https://www.genengnews.com/topics/cancer/stockwatch-parabilis-medicines-makes-wall-street-history-with-770-5m-ipo/)**
+
+生物科技寒冬结束了？Parabilis Medicines 以 7.705 亿美元刷新了药企 IPO 历史纪录，首日股价直接跳涨 58%。这家公司的核心技术叫"Helicon"——一类稳定的螺旋肽，专门攻击过去被认为"无法成药"的蛋白靶点。他们的先导候选药物 zolucatetide 已获 FDA 快速通道认定，瞄准罕见肿瘤和多种癌症。同期，Regeneron 签了一个总价值超 23 亿美元的合作协议。这不只是一家公司的上市，是整个"攻克难成药靶点"赛道的标志性时刻。
+
+---
+
+## **📌 值得关注**
+
+**[研究]** [GRK2 蛋白聚集是阿尔茨海默病线粒体损伤的新机制](https://www.fightaging.org/archives/2026/06/grk2-aggregation-as-a-cause-of-mitochondrial-dysfunction-in-alzheimers-disease/) - 除了淀粉样蛋白，阿尔茨海默病里又发现新的致病蛋白聚集，小分子干预在小鼠模型中有效
+
+**[研究]** [内脏脂肪减掉后留下 10 年"代谢遗产"，糖尿病风险降 28%](https://medicalxpress.com/news/2026-06-visceral-fat-loss-year-metabolic.html) - 体重反弹了，但曾经减掉的内脏脂肪的好处还在，本古里安大学研究佐证"减脂优先"策略
+
+---
+
+## **😄 AI生命科学趣闻**
+
+### [胶原蛋白在细胞里原来是个"液态球"，教科书错了几十年](https://www.genengnews.com/topics/translational-medicine/collagen-resides-inside-cells-in-liquid-condensate-like-form/)
+
+研究员 Bhattacharyya 本来只是用肝细胞做工具研究，结果显微镜下看到一堆亮闪闪的球形结构愣在那里。导师 Malhotra 第一反应："这肯定是实验出错了。"——没想到之后几个月的实验全在证明：没出错，真的就是液态水滴。细胞生物学界研究胶原蛋白五十年，居然从来没人在活细胞里直接看过它的真实形态。😅
+
+![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Low-Res_Picture-1_S_Bhattacharyya-300x300.jpg)
+
+---
+
+## **🔮 AI生命科学趋势预测**
+
+### AI 辅助蛋白质-配体结合预测进入制药公司标准流程
 - **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：[UC Berkeley论文发表于Science](https://www.genengnews.com/topics/drug-discovery/laser%e2%80%91driven-phase-contrast-enhances-cryo%e2%80%91em-resolution-of-small-proteins/)，Biohub已在开发双激光版本，Thermo Fisher Krios平台集成路径清晰，商业化合作谈判可能已在进行
+- **预测概率**：70%
+- **预测依据**：今日同天出现两篇结合力预测论文（[CPES](https://papers.cool/arxiv/2606.14217)、[RicciBind](https://papers.cool/arxiv/2606.14159)），均在多个基准超越 SOTA + 近期 AI 制药公司融资热潮显示工业界对这类工具需求旺盛。
 
-### AI虚拟细胞工具在药物筛选平台中规模部署
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：55%
-- **预测依据**：[OCOO-T等虚拟细胞模型](https://papers.cool/arxiv/2606.12838)在Tahoe100M等大规模数据集上验证完毕，Recursion、Insilico等AI制药公司正在积极整合此类模型进入湿实验室决策流程
-
-### 基于基因组锚定的可穿戴健康AI产品落地
+### 针对胶原蛋白分泌通路（TANGO1）的抗纤维化/抗肿瘤疗法进入早期研发
 - **预测时间**：2026年Q4
-- **预测概率**：45%
-- **预测依据**：[贝叶斯基因组先验框架](https://papers.cool/arxiv/2606.13556)提供了完整的工程实现路径，Apple Health、Oura等平台已积累足够的基因+生理联合数据，技术与商业条件趋于成熟
+- **预测概率**：55%
+- **预测依据**：今日 CRG 研究[揭示 TANGO1 的"泊位"功能](https://www.genengnews.com/topics/translational-medicine/collagen-resides-inside-cells-in-liquid-condensate-like-form/) + 肝纤维化、肺纤维化和肿瘤微环境均是高度活跃的赛道，机制一清晰，药企跟进通常在6-12个月内。
+
+### GLP-1 类药物"抗衰老"适应症临床试验启动
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：60%
+- **预测依据**：今日研究证实[司美格鲁肽减慢生物衰老 9%](https://www.fightaging.org/archives/2026/06/glp-1-receptor-agonists-slow-epigenetic-aging-a-measure-of-the-harms-done-by-excess-visceral-fat/) + 诺和诺德等公司已在布局 GLP-1 超适应症研究，衰老是其中最具吸引力的方向。
+
+### 器官级生物年龄血液检测走向商业化试点
+- **预测时间**：2026年Q3
+- **预测概率**：50%
+- **预测依据**：今日报道[单管血测 11 个器官生物年龄](https://medicalxpress.com/news/2026-06-blood-biological-ages-disease-years.html) + 精准健康检测赛道融资活跃，从学术论文到商业 PoC 通常在 3-6 个月内。
 
 ---
 
-## ❓ 相关问题
+## **❓ 相关问题**
 
-### 哪里可以获取 AI 基因递送、虚拟细胞与神经科学 AI 的最新资讯？
+### 哪里可以获取 AI 制药、蛋白质结构预测、抗衰老生物学的最新资讯？
 
-今日 AI 生命科学领域的热点包括：超声介导基因药物平台融资、激光相位板突破蛋白结构解析极限、AI虚拟细胞预测转录扰动响应。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：蛋白质-配体结合力 AI 预测的两大新方法（RicciBind、CPES）、胶原蛋白液态凝聚态的基础发现与癌症治疗意义、以及 GLP-1 类药物放缓生物衰老的新证据。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -132,13 +144,13 @@ SonoThera 拿下1.25亿美元，用超声波导航基因药物精准入靶，剑
 
 ---
 
-### 如何体验 Claude、Gemini 等适合科研文献阅读的 AI 工具？
+### 如何体验 Claude 或 Gemini 来辅助阅读生命科学论文？
 
-今日日报中多篇论文来自 arXiv，涉及贝叶斯推断、转录组学、EEG信号处理等专业方向。阅读这类文献，Claude 和 Gemini 在长文本理解与学术解读上表现尤为出色；Consensus、Perplexity 则更适合快速检索相关领域文献。面临支付困难或账号注册限制？
+今日涉及的蛋白质曲率预测、单细胞扰动分析等论文，专业门槛较高。Claude 和 Gemini 非常擅长帮你消化这类学术内容——输入摘要，让它用大白话解释核心贡献，或者帮你快速梳理方法和结论。如果面临账号注册或支付困难：
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 中转、Gemini 年卡、Perplexity、Consensus 等科研友好型 AI 工具入口
-- 覆盖官方号、镜像、中转额度、多模型组合包等多种方案
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Perplexity、Consensus 等 AI 工具入口
+- 特别适合科研场景：Consensus 和 Perplexity 擅长论文检索，Claude 和 Gemini 擅长长文理解和摘要分析
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
