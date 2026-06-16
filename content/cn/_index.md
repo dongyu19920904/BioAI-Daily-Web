@@ -2,7 +2,7 @@
 linkTitle: AI生命延续学日报
 title: AI生命延续学日报 2026/6/16
 breadcrumbs: false
-next: /2026-06/2026-06-15
+next: /2026-06/2026-06-16
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-普林斯顿团队在 Cell 发文：AI 看细胞"形状"就能预测药物基因调控，制药筛选效率有望大幅提升。
-血液测器官真实年龄、大脑年龄 MRI 开源工具同日出现，"生物年龄检测"产品化近在眼前。
-今天的核心是数据基础设施在悄悄就位，AI 制药的下一波爆发不缺算法，缺的是这类高质量图谱。
+机器学习构建的肝脏衰老指数在3.7万人中验证，肝脏"老1个标准差"死亡风险最高飙升85%。
+纳米造影剂歪打正着变抗癌武器，前列腺癌"冷肿瘤"联合免疫疗法完全缓解率达50%。
+衰老干预从检测到治疗都在提速，这期每条都值得点开。
 ```
 
 
@@ -29,93 +29,112 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-普林斯顿用 AI "看"细胞的形状，就能预测药物怎么调控基因——制药研发又少了一道黑箱。
+一滴血就能知道你的肝脏"实际年龄"——而它比你的身份证年龄更能预测你什么时候死。
 
 ### **🔑 3 个关键词**
-#AI制药 #细胞形态学 #基因调控
+#衰老时钟 #基因疗法 #纳米颗粒抗癌
 
 ---
 
-## **🔥 重磅 TOP 10（或更少）**
+## **🔥 重磅 TOP 10**
 
-> 今日素材中，真正属于 AI + 生命科学交叉领域的高质量新闻共 **3 条**，其余新闻属于纯生物医学/社会学研究，无 AI 深度交叉，严格排除。宁缺毋滥。
+**1. [一滴血测出肝脏"真实年龄"，预测死亡风险比年龄更准](https://www.fightaging.org/archives/2026/06/a-liver-aging-clock-predicts-all-cause-mortality/)**
 
----
+生日蛋糕上的蜡烛不算数。研究人员用机器学习构建了"肝脏衰老指数"（LAI），整合3个临床指标+8个血浆生物标志物+2个影像数据，在超过3.7万人的队列中验证：肝脏"比实际老1个标准差"，全因死亡风险飙升22%-85%，肝癌风险直接翻3-8倍。更离谱的是，它还扯出了阿尔茨海默症里的淀粉样蛋白通路——肝脏衰老和脑子老化居然有共同机制。衰老时钟越来越精了，下一步就看能不能干预。
 
-**1. [AI 通过细胞"形状"预测基因调控，为药物研发开辟新路](https://www.genengnews.com/topics/drug-discovery/ai-predicts-gene-regulation-for-drug-discovery-using-condensate-morphology/)**
-
-你有没有想过，细胞里那些微小的"液滴"（生物分子凝聚体，是细胞内调控基因的关键结构）形状一变，就意味着药物在起效？普林斯顿的研究团队就发现了这件事。
-
-他们用深度学习分析这些凝聚体的形状变化，把数百个人类细胞在不同药物作用下的图像分成四类——包括与细胞应激反应相关的"帽形"和"项链形"，还有一个前所未见的"花形"。这个"花形"是已知抗癌药 topotecan 触发的，而且背后藏着一个以前没人注意到的基因调控机制。
-
-意义很直接：以后筛药，不用等你说"这药有没有效"，看看细胞长什么样就知道了。制药公司的实验室效率，理论上能大幅提升。研究发表在顶刊 *Cell*。
+[图片: Blood-based indicator assesses organ age to predict disease risk](https://www.news-medical.net/image-handler/picture/2017/6/Anatomical_structure_of_biological_animal_cell_with_organelles-eranicle_1d73b50575dc4546వవ్yfd842630990c-620x480.jpg)
 
 ---
 
-**2. [从血液预测器官真实年龄，疾病风险早知道](https://www.news-medical.net/news/20260615/Blood-based-indicator-assesses-organ-age-to-predict-disease-risk.aspx)**
+**2. [打一针基因疗法，老年小鼠健康寿命显著延长](https://www.news-medical.net/news/20260615/Single-dose-gene-therapy-extends-healthy-lifespan-in-older-mice.aspx)**
 
-身份证上写着 45 岁，你的心脏可能已经"活"到 60 岁了。
+想象你70岁时打一针，然后活得比同龄人更健康更久。巴塞罗那自治大学的团队做到了——至少在老年小鼠身上。他们用单次基因疗法让小鼠表达代谢因子FGF21（一种调控能量代谢的激素），结果健康寿命明显延长。不是让它们多活几天，是真正意义上的"活得好"。小鼠到人还有很长的路，但这个方向越来越清晰了。
 
-这项研究用血液中的生物标志物来评估各器官的"生物年龄"（不是日历年龄，而是器官实际的老化程度），从而预测疾病风险。不同的人，不同器官的老化速度差异极大。这个方向结合 AI 分析大规模血液组学数据，正在成为精准预防医学的核心工具之一。
-
-对普通人来说，未来体检报告里多一列"你的肝脏比你年轻 5 岁"，不是不可能。
-
-![Blood-based indicator assesses organ age to predict disease risk](https://www.news-medical.net/image-handler/picture/2017/6/Anatomical_structure_of_biological_animal_cell_with_organelles-eranicle_1d73b50575dc4546875a4a2fc7d429a6-620x480.jpg)
+[图片: Single-dose gene therapy extends healthy lifespan in older mice](https://www.news-medical.net/image-handler/picture/2014/7/Gene_Therapy-620x480.jpg)
 
 ---
 
-**3. [单细胞免疫图谱绘制人类全生命周期，婴儿免疫特征首次揭示](https://www.nature.com/articles/s41467-026-73729-2)**
+**3. [纳米颗粒让前列腺癌的"冷肿瘤"瞬间变热，联合免疫治疗完全缓解率达50%](https://www.genengnews.com/topics/cancer/silica-nanoparticles-induce-ferroptosis-reprogram-immunity-in-prostate-cancer-models/)**
 
-从出生到老年，你的免疫系统其实是一套完全不同的"操作系统"。
+免疫疗法在前列腺癌上一直撞墙——这类肿瘤太"冷"了，免疫细胞进不去。威尔·康奈尔医学院的研究给出了新思路：用超小二氧化硅纳米颗粒（C' dots）靶向肿瘤，一边触发癌细胞"铁死亡"（ferroptosis，一种铁依赖的细胞死亡方式），一边重塑免疫微环境，把冷肿瘤强制加热。单用C' dots加免疫检查点阻断，40%的小鼠完全缓解；再加一种靶向免疫抑制的药物，完全缓解率升至50%。这些颗粒最初只是成像用的造影剂，结果歪打正着变成了治疗武器。
 
-这篇发表在 *Nature Communications* 的研究，用单细胞测序技术（把每一个免疫细胞单独分析，相当于给免疫系统做了超高分辨率的人口普查）绘制了健康人类跨越整个生命周期的免疫系统地图。最关键的发现：婴儿的免疫特征是独一无二的，与成人截然不同。
+[图片: Silica Nanoparticles Induce Ferroptosis, Reprogram Immunity in Prostate Cancer Models](https://www.genengnews.com/wp-content/uploads/2026/06/Low-Res_Bradbury_-Enhanced-Immune-Response-in-Tumor-300x201.jpg)
 
-这份地图是 AI 辅助药物开发、个性化疫苗设计的重要基础数据。你懂 AI 预测，但 AI 预测的前提是有足够好的数据——这张图，就是那个"前提"。
+---
+
+**4. [如何训练"会做生物学推理"的AI？100多个模型对比给出答案](https://papers.cool/arxiv/2606.16517)**
+
+训一个能真正理解基因组、转录组、蛋白质的AI，到底要怎么训？这篇论文跑了100多个生物推理模型，系统研究了预训练、有监督微调（SFT）、强化学习（RL）三个阶段的影响。结论有点反直觉：SFT让模型在训练集上越来越强，但泛化能力反而下降；而RL能部分挽回泛化能力。最优策略是"少量SFT + 大量RL"。对做AI制药、生物大模型的团队来说，这是很实在的训练指南。
+
+---
+
+**5. [EEGDash：把791个神经电生理公开数据集打包成可直接调用的机器学习接口](https://papers.cool/arxiv/2606.16041)**
+
+做脑机接口或神经AI的朋友都懂那种痛苦：好不容易找到一个公开数据集，光是下载、格式转换、清洗就要写几千行代码，还不一定能跑起来。EEGDash直接把791个数据集（涵盖近4万名被试、超8.6万小时数据）封装成可导入的Python类，支持EEG、MEG、肌电、功能性近红外等多种模态，配上语义搜索和自动标签。对神经AI研究者来说，这个工具可能值得现在就去试试。
+
+---
+
+**6. [衰老细胞如何为肿瘤"盖房子"——炎性肠病与结肠癌的机制新解](https://lifespan.io/how-senescent-cells-grow-the-homes-of-cancerous-tumors/)**
+
+这篇综述讲了一个有点细思极恐的故事：随着年龄增长，肠道里的衰老细胞越来越多，它们分泌SASP（衰老相关分泌表型，可以理解为"炎症毒素鸡尾酒"），不仅促进炎症，还刺激长出一堆结构畸形的新血管——而这些血管，恰好是肿瘤最喜欢的生长环境。更麻烦的是，这种病理性血管生长对传统抗VEGF疗法不太敏感。研究者建议把清除衰老细胞的药物（senolytics）和抗血管生成疗法结合起来。慢性肠炎患者要注意了。
+
+[图片: How Senescent Cells Grow the Homes of Cancerous Tumors](https://lifespan.io/wp-content/uploads/2026/06/Cancer-angiogenesis-262x187.jpg)
+
+---
+
+**7. [百岁老人坚持健康生活方式，死亡风险降低54.8%](https://www.fightaging.org/archives/2026/06/quantifying-the-effects-of-lifestyle-choices-impacting-cardiovascular-health-on-mortality/)**
+
+"都100岁了，还有必要管饮食运动吗？"这项研究用3.1万人的数据（年龄跨度30-116岁）给出了明确答案：有。在百岁老人群体中，高心血管健康评分者的全因死亡风险低了整整54.8%。最关键的两个因素是体力活动和体重管理。数据说明，健康生活方式的红利不会因为年龄而消失，甚至效果量在最老的人群里更为显著。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [单次注射基因疗法延长老年小鼠健康寿命](https://www.news-medical.net/news/20260615/Single-dose-gene-therapy-extends-healthy-lifespan-in-older-mice.aspx) — 巴塞罗那自治大学团队：一针 FGF21 基因疗法，让老年小鼠活得更健康，抗衰老赛道又多一个候选方向。
+**[研究]** [大脑MRI一键估算脑年龄的开源工具上线](https://github.com/GodPascal/brain-age-prediction) - 用T1加权MRI预测脑年龄，单容器CPU可跑，研究者可直接用
 
-![Single-dose gene therapy extends healthy lifespan in older mice](https://www.news-medical.net/image-handler/picture/2014/7/Gene_Therapy-620x480.jpg)
+**[研究]** [肥胖是否加速大脑衰老？新研究正在找答案](https://www.news-medical.net/news/20260615/Study-investigates-whether-obesity-accelerates-brain-aging.aspx) - 肥胖增加痴呆风险已知，但大脑里发生了什么还不清楚，这项研究在往里挖
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [用 MRI 一张图就能估算"大脑年龄"，代码开源了](https://github.com/GodPascal/brain-age-prediction)
+### [造影剂跨界当抗癌药，二氧化硅纳米颗粒的"斜杠人生"](https://www.genengnews.com/topics/cancer/silica-nanoparticles-induce-ferroptosis-reprogram-immunity-in-prostate-cancer-models/)
 
-有人在 GitHub 上传了一个工具：给它一张 T1 加权 MRI（一种常见的脑部核磁共振扫描），它能估算出你大脑的"生理年龄"，在 CPU 上跑，装在一个容器里，开箱即用。目前只有 1 颗星，估计作者自己也觉得有点孤独。
+本来只是个做成像的"工具人"，结果在血液里偷偷吸附了铁离子，进入肿瘤之后把癌细胞氧化崩溃——这哪是造影剂，这分明是个卧底。研究人员自己都说"没想到"。科研界名言又添一条：你永远不知道一个实验材料的副业会有多猛。😂
 
-最妙的是，如果你的大脑比实际年龄年轻——那恭喜你；如果比实际年龄老……嗯，至少你早知道了。🧠
+![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Low-Res_Bradbury_-Enhanced-Immune-Response-in-Tumor-300x201.jpg)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 细胞形态 AI 进入主流药物筛选流程
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日 [普林斯顿 Cell 论文](https://www.genengnews.com/topics/drug-discovery/ai-predicts-gene-regulation-for-drug-discovery-using-condensate-morphology/) 已展示从形态预测基因调控的可行性；近期多家 AI 制药公司（Recursion、Phenomic AI）均在加码表型筛选（phenotypic screening），该技术路线进入商业化仅差一步。
-
-### 血液多器官生物年龄检测产品化加速
+### 肝脏衰老时钟走向临床验证
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：65%
-- **预测依据**：今日 [血液器官年龄指标研究](https://www.news-medical.net/news/20260615/Blood-based-indicator-assesses-organ-age-to-predict-disease-risk.aspx) 持续推进；Elysium Health、Biological Age 等公司已在商业化轨道上，下半年极可能推出消费级多器官年龄报告产品。
+- **预测概率**：70%
+- **预测依据**：今日新闻[肝脏衰老指数LAI](https://www.fightaging.org/archives/2026/06/a-liver-aging-clock-predicts-all-cause-mortality/)已在3.7万人队列完成外部验证，性能超越年龄指标 + 近期多个液体活检和生物标志物公司正在寻找高价值切入点，肝脏衰老检测商业化条件趋于成熟
 
-### 单细胞免疫图谱数据推动婴幼儿疫苗个性化设计
-- **预测时间**：2026年Q4
+### 生物推理大模型训练范式标准化
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日论文[生物推理模型训练阶段研究](https://papers.cool/arxiv/2606.16517)系统梳理了100+模型的训练规律，"少SFT多RL"结论清晰 + AI制药头部公司（Recursion、Insilico等）正面临模型泛化瓶颈，这类指导性研究会被快速吸收
+
+### C' dots纳米颗粒启动人体临床试验
+- **预测时间**：2026年Q4-2027年Q1
 - **预测概率**：55%
-- **预测依据**：今日 [Nature Communications 免疫图谱研究](https://www.nature.com/articles/s41467-026-73729-2) 揭示婴儿独特免疫特征；多个大型儿童免疫学项目正在积累数据，AI 辅助疫苗设计有望在年底出现概念验证性成果。
+- **预测依据**：今日新闻[C' dots前列腺癌研究](https://www.genengnews.com/topics/cancer/silica-nanoparticles-induce-ferroptosis-reprogram-immunity-in-prostate-cancer-models/)显示动物实验完全缓解率达50% + Cornell团队此前已有C' dots进入I期临床的成功先例，研究团队明确表示正在推进转化应用
+
+### FGF21基因疗法人体延寿试验启动
+- **预测时间**：2026年Q4
+- **预测概率**：45%
+- **预测依据**：今日新闻[单次基因疗法延长小鼠健康寿命](https://www.news-medical.net/news/20260615/Single-dose-gene-therapy-extends-healthy-lifespan-in-older-mice.aspx) + 抗衰老基因疗法赛道融资持续活跃（Rejuvenate Bio、Turn Biotechnologies等），监管机构对衰老干预适应症也在逐步放开
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、细胞生物学 AI、抗衰老 AI 的最新资讯？
+### 哪里可以获取 AI + 生命科学（衰老时钟/基因疗法/纳米抗癌）的最新资讯？
 
-今日 AI 生命科学领域热点包括：**AI 通过细胞形态预测药物基因调控**（普林斯顿 Cell 论文）、**血液多器官生物年龄预测**、**全生命周期单细胞免疫图谱**。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：机器学习驱动的肝脏衰老时钟、单次基因疗法延长健康寿命、纳米颗粒重编程肿瘤免疫微环境。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -127,13 +146,13 @@ cascade:
 
 ---
 
-### 如何体验 Claude 和 Gemini 来辅助阅读生命科学论文？
+### 如何体验 Claude / Gemini 等 AI 工具来辅助生命科学研究？
 
-今日多篇重磅研究（如 Cell 上的凝聚体形态深度学习论文）涉及高密度专业术语。用 Claude 或 Gemini 来辅助理解论文摘要、提炼研究亮点、整理文献综述，是科研从业者和学生的高效工作流。想要体验这些工具，但面临支付或注册限制？
+今日多篇论文（生物推理模型训练、EEGDash神经数据平台）都涉及大量文献整理和跨数据集分析——这类工作用 Claude 或 Gemini 辅助效率会高很多。但国内访问这些工具常常遇到支付或注册障碍？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Perplexity、Consensus 等 AI 工具入口
-- 覆盖官方号、中转额度、多模型组合包，以及适合科研检索的 Consensus、Perplexity 入口
+- 其中 Consensus 和 Perplexity 特别适合科研文献检索；Claude 和 Gemini 适合长文档分析和跨语言整理
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
