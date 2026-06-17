@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/17
+title: AI生命延续学日报 2026/6/18
 breadcrumbs: false
-next: /2026-06/2026-06-17
+next: /2026-06/2026-06-18
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-一针 FGF21 基因疗法让中年鼠寿命延长 20%，认知直接回滚到幼年水平，人体临床在路上。
-默克砸 5.1 亿押注 Protillion 的"先跑实验、再训 AI"新范式，AI 制药的数据飞轮逻辑正在被大药厂验证。
-抗衰老赛道今天靶点、机制、钱一起来了，关注基因疗法和 senolytic 方向的人别错过。
+今日AI+生命科学交叉信号全面缺席，生物制造和基础医学研究撑场。
+炎症老化、阿尔茨海默遗传风险、基因疗法生产平台——都是扎实研究，但没有AI的影子。
+空窗期正常，明天继续盯；今天可以补课炎症老化机制那篇。
 ```
 
 
@@ -29,138 +29,64 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-一针基因疗法，老年鼠多活了 20%——而且是从中年才开始打的。
+今天的素材罕见地集体"缺席"AI——全是生物制造和基础医学研究，AI+生命科学今日无重磅。
 
 ### **🔑 3 个关键词**
-#AI制药 #衰老生物学 #基因疗法
+#生物制造 #炎症老化 #脑年龄分析
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
----
-
-**1. [晚年基因疗法让小鼠寿命延长 20%](https://lifespan.io/late-life-gene-therapy-boosts-lifespan-in-mice-by-20/)**
-
-13 个月大的小鼠（相当于人类中年），打一针就够了。这针用腺相关病毒（AAV，一种安全的基因递送载体）把 FGF21 基因送进腿部肌肉，把肌肉变成永久的荷尔蒙工厂。结果：中位寿命从 28 个月涨到 34 个月，涨了 20.5%。更离谱的是，体重降回年轻水平，认知测试成绩相当于 2 个月大的幼鼠，心脏、肾脏、大脑的老化损伤几乎消失。这个方案的研究团队已在通过 Kriya Therapeutics 推进人体临床，方向很明确。唯一的遗憾：大多数实验只用了雄鼠，雌鼠数据还不完整。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Lab-mouse-facing-viewer-262x187.jpg)
-
----
-
-**2. [默克联手 Protillion，押注 AI 抗体设计，潜在里程碑金额高达 5.1 亿美元](https://www.genengnews.com/topics/artificial-intelligence/merck-protillion-launch-ai-drug-discovery-collaboration-with-up-to-510m-in-milestone-payments/)**
-
-传统做法是先有 AI 模型，再去找数据训练——Protillion 反过来干。他们的 Prot-MaP 平台（把蛋白质固定在 Illumina 基因测序芯片上做大规模筛查）一次能测 100 万个蛋白质变体，48 小时出结果，而以前同等工作要花好几个月。默克看上的正是这套"先生成海量实验数据、再用 AI 学习"的闭环逻辑，两家首先瞄准炎症性疾病。5.1 亿美元的里程碑付款，是默克这半年来第 N 次押注 AI 制药了——它还同时跟 Google Cloud、Tempus AI、Mayo Clinic 合作。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/06/2026-06-15_Curtis-Layton-1396-252x300.jpg)
-
----
-
-**3. [BrainWorld：用结构 MRI 引导，生成长达 400 帧的全脑 4D fMRI 动态](https://papers.cool/arxiv/2606.17742)**
-
-想象一下：手里有一张大脑的"建筑图纸"（结构 MRI），能不能据此预测大脑未来的"用电动态"（功能 MRI）？BrainWorld 做到了。它横跨 22 个数据集，覆盖不同人群和脑状态，生成的序列比现有方法更稳定、更长，还能反过来增强下游任务的预测性能。对 AI+ 神经科学研究者来说，这套框架意味着可以用更少的实际扫描数据，生成更多可用的训练样本——采集一次脑成像的费用动辄几千块，这个价值不小。
-
----
-
-**4. [ASTEROID：用 Transformer 预测分子动力学，跑分碾压传统模拟](https://papers.cool/arxiv/2606.17668)**
-
-做药物研发，经常要模拟分子在溶液里的运动——这叫分子动力学模拟（MD），算起来贼慢，一个中等分子可能要算好几天。ASTEROID 把 MD 轨迹看成时空序列，一次性预测多步原子坐标，绕开了传统的逐步迭代。关键是它同时抓住了局部和远程的空间交互，以及短期和长期的时间依赖。在量子力学分子数据集上，准确率和计算效率都优于现有方法。AI 加速 MD 模拟，是今年计算制药最热的方向之一。
-
----
-
-**5. [衰老细胞分泌的 Thrombospondin-1 破坏骨再生——靶点找到了](https://www.fightaging.org/archives/2026/06/thrombospondin-1-secreted-by-senescent-cells-impairs-bone-regeneration/)**
-
-老年人骨折之所以难愈合，其中一个原因终于被摸清了。衰老细胞（senescent cells）分泌的 Thbs1 蛋白，会关掉附近巨噬细胞的"垃圾清理"系统（线粒体自噬），让这些细胞变成促炎状态，进而形成"Thbs1 → 炎症 → 抑制成骨 → 更多 Thbs1"的恶性循环。研究团队用 AAV9（另一种基因递送载体）在大鼠骨缺损处敲低 Thbs1，成功促进了骨修复。Thbs1 现在是一个明确的抗衰老干预靶点。
-
----
-
-**6. [Tau PET 跨站点数据协同：新模型让阿尔茨海默病追踪更精准](https://papers.cool/arxiv/2606.17420)**
-
-追踪阿尔茨海默病进展，要靠 Tau PET 成像（通过放射性示踪剂观察大脑中 Tau 蛋白沉积）。但全球不同医院用不同的扫描仪和示踪剂，数据根本没法直接比——就像每个人用不同单位报体温，华氏、摄氏全混着。FKRSBM 模型通过"最优传输"数学框架，把不同来源的数据校准到同一标准，同时不抹去真实的生物差异。比 CycleGAN 和现有扩散模型都更准，下游疾病分类性能也更好。多中心临床试验的数据质量问题，这是一个很务实的解法。
-
----
-
-**7. [血液蛋白揭示哪些衰老细胞会提高疾病风险](https://www.news-medical.net/news/20260616/Blood-proteins-reveal-which-aging-cells-may-raise-disease-risk.aspx)**
-
-不是所有"老化细胞"都同等危险。这项研究通过血液中的蛋白质特征，把不同类型的衰老细胞和具体疾病风险挂上了钩。对抗衰老药物（senolytics，清除衰老细胞的药）的研发来说，这意味着可以更精准地找到"哪种细胞最该清"——而不是一刀切地把所有衰老细胞都干掉。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_840332_17816669886372193.jpg)
-
----
-
-**8. [司美格鲁肽、ω-3 和饮食，都能改变表观遗传衰老时钟](https://www.news-medical.net/news/20260616/Semaglutide-omega-3s-and-diet-shift-epigenetic-aging-clocks-in-human-studies.aspx)**
-
-表观遗传衰老时钟（通过 DNA 甲基化模式来估算生物年龄）是当下最热的抗衰老研究工具。这篇系统综述分析了 41 项人体研究，发现司美格鲁肽（GLP-1 减肥针）、ω-3 脂肪酸和饮食干预，都能让时钟读数往年轻方向移动。但作者也泼了冷水：这些时钟目前还是"研究指标"，还不是经过临床验证的替代终点。换句话说，时钟变年轻不等于人真的变年轻，要有点数。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_840323_178165910897373.jpg)
-
----
-
-**9. [年龄相关的肌肉流失，会让肿瘤长得更快](https://www.news-medical.net/news/20260616/Age-related-muscle-loss-linked-to-increased-tumor-growth.aspx)**
-
-Duke-NUS 的研究发现了一个以前没人注意到的联系：老年人肌肉萎缩（肌少症），导致肌肉释放的胞外囊泡（extracellular vesicles，细胞间通信的"快递包裹"）减少，而这些囊泡本来有抑制肿瘤生长的作用。少了这道"天然防线"，肿瘤就长得更快了。这为癌症和衰老的关联提供了一个新的机制解释，也为"保持肌肉量"的临床价值又加了一个理由。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Physical_Activity-620x480.jpg)
-
----
-
-**10. [慢性炎症的"年龄开关"找到了：R-loop 结构是幕后黑手](https://www.news-medical.net/news/20260616/New-study-reveals-cause-of-chronic-inflammation-with-age.aspx)**
-
-MD 安德森癌症中心发现，衰老导致慢性炎症（inflammaging，炎症性衰老）的一个关键原因：细胞核里的 R-loop 结构（一种 DNA-RNA 杂合体，正常细胞会及时清理它）随年龄积累，触发了持续性炎症信号。这是一个之前完全未知的机制。理论上，清除 R-loop 的干预手段，可能成为抑制衰老相关慢性炎症的新方向。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Protein-620x480.jpg)
+> ⚠️ **今日特别说明**
+>
+> 经过严格的100分制评分筛选，今日收到的10条素材中，**没有一条达到AI+生命科学交叉领域的入选标准（80分以上）**。
+>
+> 素材以生物制造工艺优化（色谱纯化、基因疗法生产、细菌表达系统、溶剂回收）和纯基础医学研究（炎症老化机制、阿尔茨海默遗传风险）为主，均**缺乏AI技术的实质性应用**。强行将"未来可用于AI制药"写入会违反本日报的核心原则。
+>
+> **今日重磅版块从缺。**
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [裸鼹鼠的静息代谢率在衰老过程中保持稳定](https://www.fightaging.org/archives/2026/06/naked-mole-rats-exhibit-a-consistently-low-resting-metabolic-rate-with-aging/) — 长寿动物研究的经典标本又出新数据：裸鼹鼠随年龄增长代谢率几乎不变，可能是它"不怎么老"的原因之一
+> 今日无符合 AI+生命科学交叉领域标准（60-79分）的素材入选。
 
-**[研究]** [胚胎期清除衰老细胞，导致严重的神经血管缺陷](https://www.news-medical.net/news/20260617/Researchers-eliminate-embryonic-senescent-cells-triggering-severe-neurovascular-flaws.aspx) — 反直觉发现：衰老细胞不全是坏的，胚胎发育阶段它们对构建血脑屏障不可或缺
+---
 
-**[商业]** [Danaher 生物工艺峰会六大要点](https://www.genengnews.com/topics/bioprocessing/six-takeaways-from-the-danaher-bioprocessing-summit/) — AI 驱动的生物制造、数字孪生、连续生物工艺……巨头们已经在行动，下一个十年的竞争从工厂开始
+## **📊 更多动态**
+
+以下为今日领域相关但不涉及AI的生命科学动态，供感兴趣的读者参考：
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 研究 | R-loop核酸结构与炎症老化的新发现，FDA批准药物selinexor显示改善效果 | [查看](https://www.genengnews.com/topics/drug-discovery/age-related-inflammation-linked-to-r-loop-nucleic-acids-opens-therapies/) |
+| 2 | 研究 | USC分析17000名参与者数据，揭示Hispanic人群阿尔茨海默遗传风险的差异 | [查看](https://www.news-medical.net/news/20260617/USC-study-reveals-nuanced-Alzheimers-genetic-risk-in-Hispanic-populations.aspx) |
+| 3 | 商业 | NorthX与enGenes合作建立E.coli蛋白生产一体化平台 | [查看](https://www.genengnews.com/topics/bioprocessing/bacterial-expression-tech-prompts-northx-and-engenes-collaboration/) |
+| 4 | 产品 | CGT Catapult推出基因疗法连续生产平台，寻求合作方 | [查看](https://www.genengnews.com/topics/bioprocessing/continuous-production-platform-offers-new-gene-therapy-options/) |
+| 5 | 研究 | 老化肌肉释放更少胞外囊泡，可能削弱抗肿瘤信号 | [查看](https://medicalxpress.com/news/2026-06-scientists-uncover-physical-older-adults.html) |
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [老鼠：我现在认知水平和两个月大时一样！](https://lifespan.io/late-life-gene-therapy-boosts-lifespan-in-mice-by-20/)
-
-今天最让人哭笑不得的发现：治疗组小鼠 27 个月大时做记忆测试（新物体识别），成绩相当于 2 个月大的幼鼠。研究人员用最认真的学术语言写道："我们无法询问啮齿动物能否看清视力表。" 😂 但数据是实实在在的——一针基因疗法，把认知功能真的"回滚"了。老年鼠表示：只有我真正赢麻了。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/06/AAV-results.png)
+今日素材中无符合趣闻板块标准的内容，本板块从缺。
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### FGF21 基因疗法进入人体 I 期临床试验
-- **预测时间**：2026年Q4
-- **预测概率**：70%
-- **预测依据**：今日新闻[晚年基因疗法让小鼠寿命延长20%](https://lifespan.io/late-life-gene-therapy-boosts-lifespan-in-mice-by-20/) + Kriya Therapeutics 已在推进同一团队的 FGF21 肝病疗法进入临床，代谢抗衰方向的 I 期申报窗口已打开
+今日素材以生物制造工艺和基础医学研究为主，缺乏足够的AI+生命科学信号支撑可靠预测。勉强预测会变成"瞎猜"，违背预测原则，本板块今日从缺。
 
-### 默克与多家 AI 制药公司的合作管线，首批候选分子进入临床前评估
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：75%
-- **预测依据**：今日新闻[默克与Protillion合作](https://www.genengnews.com/topics/artificial-intelligence/merck-protillion-launch-ai-drug-discovery-collaboration-with-up-to-510m-in-milestone-payments/) + 默克在过去6个月密集布局AI制药（Google Cloud、Tempus AI、Mayo Clinic、Quotient、Infinimmune），节奏如此之密，首批输出结果大概率在年底前公开亮相
-
-### Tau PET 跨站点数据协同方法写入多中心阿尔茨海默病临床试验协议
-- **预测时间**：2026年Q3
-- **预测概率**：55%
-- **预测依据**：今日论文[FKRSBM 模型](https://papers.cool/arxiv/2606.17420) 在 ADNI/HABS-HD 等主流数据集上验证，已具备实际部署条件；ADNI 联盟历来对新协同方法采纳速度较快
-
-### 基于衰老细胞 SASP 靶点的 senolytic 新药进入 IND 申报
-- **预测时间**：2026年Q4
-- **预测概率**：60%
-- **预测依据**：今日新闻[Thbs1 靶点](https://www.fightaging.org/archives/2026/06/thrombospondin-1-secreted-by-senescent-cells-impairs-bone-regeneration/) + [血液蛋白与衰老细胞风险](https://www.news-medical.net/news/20260616/Blood-proteins-reveal-which-aging-cells-may-raise-disease-risk.aspx) 共同指向 SASP 精准靶向的可行性，叠加当前 senolytic 赛道融资活跃，新靶点到 IND 的转化周期正在压缩
+如需基于近期积累的行业趋势做预测，建议结合明日素材一并判断。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、衰老生物学与基因疗法的最新资讯？
+### 哪里可以获取 AI + 生命科学领域的最新资讯？
 
-今日 AI 生命科学领域的热点包括：FGF21 基因疗法延长小鼠寿命 20%、默克砸 5.1 亿押注 AI 抗体设计平台 Protillion、以及多项衰老机制新靶点的重磅研究。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日生命科学领域的热点包括：炎症老化机制新发现（R-loop与selinexor）、阿尔茨海默遗传风险的族群差异研究、基因疗法连续生产平台进展。想要持续追踪 **AI + 生命科学交叉领域**的前沿动态（包括AI制药、蛋白质设计、医学影像AI等每日真正的交叉突破）？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -172,13 +98,13 @@ MD 安德森癌症中心发现，衰老导致慢性炎症（inflammaging，炎�
 
 ---
 
-### 如何体验 Claude、Gemini 等 AI 工具来追踪生命科学研究进展？
+### 如何用 AI 工具辅助生命科学研究和文献检索？
 
-今天多篇论文（BrainWorld、ASTEROID、FKRSBM）都是高密度学术内容，理解起来有一定门槛。用 Claude 或 Gemini 这类 AI 辅助阅读文献、整理研究脉络，能大幅降低认知负担。但面对账号注册限制或支付问题？
+今日多篇素材涉及炎症老化机制、阿尔茨海默遗传风险等前沿研究，科研人员和学生往往需要快速消化大量文献。想高效追踪这类生命科学研究进展，但苦于文献太多、工具门槛高？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
-- 覆盖官方号、镜像、中转额度、多模型组合包和部分科研检索工具
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Consensus（专为科研论文检索设计）、Perplexity、Claude、Gemini 等适合研究和资料整理的 AI 工具入口
+- 覆盖官方号、镜像、中转额度、多模型组合包和科研检索工具
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整的 AI 工具服务列表。
