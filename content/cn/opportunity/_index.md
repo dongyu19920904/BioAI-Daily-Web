@@ -16,68 +16,68 @@ next: /opportunity/2026-06/2026-06-20/
 
 ## 先看信号
 
-- **脑免疫细胞重编程打 Alzheimer**：OLE 分子在模型中恢复小胶质细胞保护功能、减少斑块——这是今天社交传播潜力最高的科普选题，大众情绪共鸣强。
-- **表观遗传药物靶向血管周脂肪**：转录抑制剂改善心代谢疾病症状，"血管周围脂肪"概念冷门但可视化强，适合做差异化内容。
-- **衰老细胞清除（Senolytic）+ 干细胞组合疗法**：小鼠实验阶段，Fight Aging! 报道，这个赛道受众黏性高，适合做「前沿进度追踪」系列内容。
-- **tAge 生物年龄预测 R 包上线**（Gladyshev Lab，19 stars）：可直接跑基因表达数据，是今天最适合做「工具拆解」内容的 GitHub 项目。
-- **帕金森数字生物标志物工具箱 paradigma 上线**：Python 工具，可穿戴数据+生物标志物场景，适合 AI 健康硬件观察选题。
+- **LongevityWorldCup 上线 GitHub Trending**：开源"生物年龄运动会"项目今日登榜，把抗衰测量做成竞技赛事，内容选题天然自带传播性。
+- **Alzheimer's 脑免疫细胞重编程**：ScienceDaily 报道新分子 OLE 在小鼠模型中减少斑块、改善记忆——今天可以用来做一期深度科普，痴呆家属群高需求。
+- **衰老细胞（senolytic）+干细胞组合疗法**：Fight Aging! 报道小鼠实验结果，抗衰领域组合策略话题热，但仍是动物数据，内容需保守表达。
+- **pyaging 已有 127 星**：GPU 优化版衰老时钟 Python 库持续被关注，工具导航类内容需求稳定。
+- **表观遗传药物靶向血管周围脂肪**：Lifespan.io 报道转录抑制剂改善心脏代谢病血管指标，心血管+抗衰交叉选题，读者盘大。
 
 ---
 
 ## 今日主推
 
-### 机会一：Alzheimer 脑免疫细胞重编程——今天最值得发的科普选题
+### 机会一：围绕 LongevityWorldCup 做"生物年龄竞技"内容矩阵
 
-今天这条新闻具备大众传播的三要素：熟悉疾病（老年痴呆）、新奇角色（免疫细胞被"重新编程"）、积极信号（记忆改善）。适合做成微信/小红书/公众号高点击标题，转化读者进群或订阅日报。注意：这是动物模型阶段，**不能写成"有望治愈老年痴呆"或任何疗效承诺**，只能写"研究信号"。
+这个项目把生物年龄计算器、运动员档案和公开排行榜整合成竞技平台，今天就在 GitHub Trending——自带故事感，非常适合做自媒体选题和工具导航文章。早做早占坑，等项目成熟了流量会反哺你。
 
-- **证据来源**：ScienceDaily - Dementia，2026-06-19，[Scientists reprogram brain immune cells to fight Alzheimer's](https://www.sciencedaily.com/releases/2026/06/260619020506.htm)
-- **可信度**：中（动物模型，未进入临床）
-- **适合做什么**：内容选题（公众号/小红书/视频脚本）、读者引流进群
-- **售后或合规风险**：中——措辞必须保守，标注"动物实验阶段"，不能引导购买任何相关产品
-- **今天最小动作**：写一篇 800 字科普《科学家发现可"重置"大脑免疫细胞的分子——老年痴呆研究出现新方向》，结尾引导读者关注日报或进群，今天发出。
+- **证据来源**：[nopara73/LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup)，GitHub Trending 2026-06-20
+- **可信度**：高（项目真实可访问，今日实时上榜）
+- **适合做什么**：内容选题 / 工具导航 / 项目跟进观察
+- **售后或合规风险**：低（介绍开源工具，不涉及医疗建议）
+- **今天最小动作**：Fork 或 Star 项目，截图排行榜 UI，写一篇"有人把抗衰做成了世界杯——这个开源项目在追踪谁老得最慢"，发自媒体账号，末尾挂项目链接和你的 AI 健康工具导航群二维码。
 
 ---
 
-### 机会二：tAge 生物年龄预测工具——做一篇「工具拆解」内容
+### 机会二：Alzheimer's OLE 分子科普——痴呆家属是高黏度受众
 
-Gladyshev Lab（哈佛衰老研究知名团队）刚发布 tAge R 包，用基因表达数据预测转录组生物年龄。19 stars，刚上线，做内容有时间窗口优势。这个工具对普通用户门槛高，但**对关注生物年龄赛道的读者极有价值**，可以做成「工具导航卡片」或「背景解读」，不需要自己跑代码。
+ScienceDaily 今日报道新分子 OLE 在 Alzheimer's 动物模型中表现出保护性效果，话题对痴呆患者家属和中老年健康关注者极具吸引力。这个选题在微信生态里打开率高，转化付费咨询或资料包的路径清晰。
 
-- **证据来源**：GitHub Trending，[Gladyshev-Lab/tAge](https://github.com/Gladyshev-Lab/tAge)，2026-06-17，19 stars，Jupyter Notebook
-- **可信度**：高（Gladyshev Lab 是衰老领域一线实验室）
-- **适合做什么**：工具导航内容、资料包、项目跟进卡片
-- **售后或合规风险**：低（只是介绍工具，不涉及诊断建议）
-- **今天最小动作**：整理一张「tAge 是什么 / 能干什么 / 谁在用 / 和其他生物年龄工具的区别」的导航卡片，500 字以内，可作为日报附加内容或单独发布。
+- **证据来源**：[Scientists reprogram brain immune cells to fight Alzheimer's](https://www.sciencedaily.com/releases/2026/06/260619020506.htm)，ScienceDaily 2026-06-19
+- **可信度**：中（动物模型结论，尚未进入人体临床，须保守表达）
+- **适合做什么**：内容选题 / 付费资料包 / 轻咨询导流
+- **售后或合规风险**：中（必须注明"动物实验结果，不代表人体疗效"，不能写成治疗建议）
+- **今天最小动作**：写一篇"科学家找到一个新分子，帮大脑免疫细胞重新'认出'阿尔兹海默斑块——目前是动物实验，但思路很新"，在痴呆家属群或中老年健康群发布，文末引导加你的付费答疑群或健康科普资料包。
 
 ---
 
 ## 可测试小机会
 
-- **「血管周围脂肪」科普选题**：表观遗传药物靶向 perivascular fat 的概念在中文互联网几乎空白，可以做一篇"你不知道的血管老化机制"，差异化强，SEO 友好。来源：[Lifespan.io, 2026-06-19](https://lifespan.io/epigenetic-drug-targets-fat-improving-blood-vessel-health/)，可信度中（动物/细胞实验）。
-- **「术前康复（Prehab）」老年健康资料包**：脊柱手术术前康复研究显示老年人受益，这个概念可以扩展成「老年人手术前该怎么准备」的付费资料包或知识星球内容，需求真实，合规风险低。来源：[MedicalXpress, 2026-06-19](https://medicalxpress.com/news/2026-06-prehab-boost-seniors-recuperation-spinal.html)，可信度中。
-- **帕金森数字生物标志物工具观察**：paradigma 工具箱（Python，16 stars）是可穿戴+生物标志物的典型案例，适合做「AI 健康硬件 + 数字生物标志物」系列的一篇观察笔记，帮助读者理解这个赛道的工具层现状。来源：[GitHub, biomarkersParkinson/paradigma](https://github.com/biomarkersParkinson/paradigma)。
-- **Senolytic + 干细胞组合疗法进度追踪卡片**：Fight Aging! 的报道适合做成「衰老细胞清除赛道进度表」，按时间线整理从 Dasatinib/Quercetin 到现在的组合疗法进展，可作为付费资料包的一部分。来源：[Fight Aging!, 2026-06-19](https://www.fightaging.org/archives/2026/06/a-combination-senolytic-and-stem-cell-therapy-assessed-in-a-mouse-model-of-aging/)，可信度中（小鼠模型）。
+- **"衰老时钟工具横评"资料包**：pyaging（127★）、tAge（Gladyshev Lab）、LongevityWorldCup 三个项目今天同时在视野里，整理成一份"2026年生物年龄计算工具对比清单"，定价 9.9~19.9 发卡站，受众是量化自我爱好者和抗衰内容创作者。
+- **"心脏代谢病×抗衰"科普选题**：Lifespan.io 报道表观遗传药物靶向血管周围脂肪，心血管×衰老交叉点读者量大，今天可以写"血管周围那层脂肪，可能是心脏老化的开关"——保守表达，不承诺疗效，适合中老年健康号。
+- **Parkinson's 数字生物标志物工具观察**：[biomarkersParkinson/paradigma](https://github.com/biomarkersParkinson/paradigma) 今日上榜，可穿戴 + 神经退行性疾病方向，适合做一条"AI 怎么用手机传感器检测帕金森早期信号"的短视频或图文，跑跑看完播率。
+- **"手术前训练（Prehab）科普"轻选题**：MedicalXpress 报道老年人脊柱融合手术前康复训练可降低并发症，这是适合中老年读者的实用选题，门槛低、合规风险低，可快速产出一篇"老年人做手术前，医生建议先做这件事"。
 
 ---
 
 ## 项目和工具线索
 
-- **[Gladyshev-Lab/tAge](https://github.com/Gladyshev-Lab/tAge)**（R, 19 stars）：转录组生物年龄预测，Gladyshev Lab 出品，值得持续跟进，是生物年龄工具导航的必收项目。
-- **[biomarkersParkinson/paradigma](https://github.com/biomarkersParkinson/paradigma)**（Python, 16 stars）：帕金森数字生物标志物工具箱，可穿戴数据场景，适合 AI 健康硬件观察方向的读者了解数据层。
-- **[neurogenetics/ADRD_Brain_Aging](https://github.com/neurogenetics/ADRD_Brain_Aging)**（Jupyter, 4 stars）：ADRD（老年痴呆及相关疾病）脑老化项目，代码量小但方向明确，适合作为「痴呆风险研究工具」导航的背景素材。
-- **[Chinmayee04-sys/Digital-biomarkers-using-machine-learning](https://github.com/Chinmayee04-sys/Digital-biomarkers-using-machine-learning)**（TypeScript, 1 star）：用面部情绪识别检测心理健康风险，技术实现简单，适合拿来做「数字生物标志物入门案例」的教程素材，不建议直接推荐给用户作为工具使用。
+- **[lucascamillomd/pyaging](https://github.com/lucascamillomd/pyaging)**（127★，Python）：GPU 优化衰老时钟集合，适合做工具导航文章或教程，Star 并持续观察版本更新。
+- **[Gladyshev-Lab/tAge](https://github.com/Gladyshev-Lab/tAge)**（19★，R/Jupyter）：哈佛 Gladyshev 实验室出品的转录组生物年龄预测包，品牌背书强，适合在资料包里作为"顶级实验室工具"推荐。
+- **[nopara73/LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup)**（19★，C#）：今日新上榜，开源生物年龄竞技平台，跟进项目进展，有机会做成"抗衰量化运动"系列内容。
+- **[biomarkersParkinson/paradigma](https://github.com/biomarkersParkinson/paradigma)**（16★，Python）：帕金森数字生物标志物工具箱，可穿戴+神经退行方向，适合 AI 健康硬件观察类内容，收藏备用。
 
 ---
 
 ## 今天别碰
 
-- **OLE 分子治疗 Alzheimer 的"疗效解读"内容**：今天这条新闻传播潜力大，但也最容易踩坑。OLE 仅在动物模型中测试，写成"新药有望上市"或"这种方法能改善记忆"是错误的，会带来合规风险和读者信任损耗。只能写研究信号，不能写疗效。
-- **Senolytic 抗衰药物导购或代理线索**：今天的组合疗法是小鼠实验，距离人用还有多个阶段。此前围绕 Dasatinib、Quercetin 的"抗衰补剂"灰色市场投诉多，合规重，今天不是追这个方向的时机。
-- **EEG Foundation Model / ICU 脑电检测方向**：今天的 EEG burst-suppression 检测论文面向 ICU 临床场景，受众极窄，变现路径长，与当前一人公司能力不匹配，跳过。
+- **Senolytic + 干细胞组合疗法内容**：Fight Aging! 的报道来自小鼠实验，组合疗法尚无人体临床数据。如果今天写这个方向并暗示"可以做/买"，合规风险高，容易被平台限流或引发读者投诉。先观察，等临床进展。
+- **OLE 分子治疗 AD 的"突破性"标题党**：动物模型结果距离人体应用还有很长距离，写成"攻克阿尔兹海默症新希望"等夸张标题会透支读者信任，且有误导风险。只能写成"早期研究信号观察"。
+- **表观遗传药物靶向血管的应用推荐**：Lifespan.io 报道的转录抑制剂仍在实验室阶段，没有上市产品，不能在内容里引导读者寻找或购买"类似药物"，否则售后和合规压力都很大。
 
 ---
 
 ## 今日动作
 
-- **今天该写什么**：优先写 Alzheimer 脑免疫细胞科普（800 字，保守措辞，引导进群），同步整理 tAge 工具导航卡片（500 字）。
-- **今天该试什么**：克隆或浏览 tAge 和 paradigma 两个 GitHub 项目，记录「能干什么 / 用户是谁 / 门槛高不高」，作为工具导航内容的原始素材。
-- **今天该避开什么**：避免把任何今日动物实验写成疗效结论；避免碰 Senolytic 补剂代理话题；EEG 临床方向今天不投入时间。
+- **今天该写什么**：① "有人把抗衰做成了世界杯——LongevityWorldCup 是什么"（主推，趁今日热榜）；② "科学家找到新分子，帮大脑免疫细胞对抗阿尔兹海默——动物实验新信号"（痴呆家属群导流）
+- **今天该试什么**：整理 pyaging + tAge + LongevityWorldCup 三个工具，做一张"2026生物年龄计算工具清单"图文，上发卡站测试付费意愿（定价 9.9 起）
+- **今天该避开什么**：避免把动物实验结论写成疗效承诺；避免追 senolytic 组合疗法热点；避免推荐任何尚未上市的实验性药物或疗法
