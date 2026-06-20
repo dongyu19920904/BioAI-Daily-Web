@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/19
+title: AI生命延续学日报 2026/6/20
 breadcrumbs: false
-next: /2026-06/2026-06-18
+next: /2026-06/2026-06-20
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-东北大学发现极少数"不死干细胞"能精准归巢伤口，心梗患者射血分数12周内回升至正常范围。
-GLP-1减肥药"越减越没肌肉"的老毛病，瑞士初创MetaShape拿出了联用方案，顺手还蹭上了NAD+抗衰概念。
-今天这期全是硬货，干细胞和CAR-T两条线都值得点开。
+双AI智能体框架在真实机器人上跑通了全流程蛋白质实验，自驱动实验室离量产又近一步。
+表观遗传药物直接重编血管脂肪的基因程序，抗衰老+心血管治疗逻辑同时被撬动。
+开源工具扎堆涌现，有生信基础的研究者今天值得多点几个链接。
 ```
 
 
@@ -29,137 +29,89 @@ GLP-1减肥药"越减越没肌肉"的老毛病，瑞士初创MetaShape拿出了�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-干细胞疗法沉寂二十年的最大谜题，可能被一个"意外发现"解开了。
+用表观遗传药物"关掉"血管周围脂肪的炎症开关，心血管病治疗逻辑要被重写了。
 
 ### **🔑 3 个关键词**
-#干细胞精准靶向 #GLP1减肥升级 #细胞免疫疗法
+#表观遗传制药 #抗衰老再生医学 #AI实验室自动化
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-> ⚠️ 今日素材中，符合"AI + 生命科学深度交叉"硬性门槛的内容有限。经评分筛选，本期以生命科学前沿（再生医学、细胞疗法、抗衰老生物学）为核心，共收录 5 条高质量内容，宁缺毋滥。
+> 今日素材中，严格符合"AI+生命科学深度交叉"标准的高分新闻共 4 条，宁缺毋滥，不以通用AI内容凑数。
 
 ---
 
-**1. [打了二十年的靶，终于有细胞能自己找到伤口了](https://longevity.technology/news/the-homing-instinct-why-most-stem-cells-get-lost/)**
+**1. [用双AI智能体把"人话"实验方案翻译成机器人指令](https://papers.cool/arxiv/2606.20120)**
 
-你知道大多数干细胞注射进去后发生了什么吗？它们被肺部的毛细血管拦截，然后被免疫系统清除。患者回家了，细胞哪也没去。这不是偶发故障，是整个行业二十年的系统性失败。
-
-转机来自东北大学 Dezawa 教授的一次意外——她在用极端条件（缺氧、强酸）摧毁细胞培养皿时，发现有极少数细胞（约 1-3%）死活不肯死。更关键的是，这批细胞携带 S1P 受体，能像导弹一样循着组织损伤信号精准定位。
-
-临床数据很硬核：心梗患者单次静脉注射后 12 周，左心室射血分数从 40.7% 升至 52.0%；脑卒中双盲随机对照试验中，治疗组 40% 响应率 vs 安慰剂组 10%，且无需免疫抑制剂。6 月 22 日有专题网络研讨会。
-
-![图片](https://longevity.technology/wp-content/uploads/2026/06/Muse-Cells-3-1024x683.jpg)
+以前一个生物实验要自动化执行，得工程师把协议手工翻译成几百行控制代码——耗时、易错、根本不现实。现在这个框架直接让两个AI互相"掐架验证"：一个负责解析实验方案，另一个负责挑错和纠正，最终输出机器人能直接跑的指令。团队在真实机器人平台上跑通了完整的蛋白质定量实验，从自然语言协议到实际操作全程无人干预。**自驱动实验室（self-driving lab）离实用又近了一步**，wet lab的重复性劳动也许真的快熬出头了。
 
 ---
 
-**2. [GLP-1减肥药最大的坑，这家瑞士小公司想补上](https://longevity.technology/news/metashape-targets-glp-1s-biggest-weaknesses/)**
+**2. [混合AI模型预测土壤微生物动态与有机碳循环](https://papers.cool/arxiv/2606.20329)**
 
-用 GLP-1 减肥，体重掉了，肌肉也跟着跑了。停药之后，体重回来得比谁都快。这是整个减肥药赛道心照不宣的尴尬。
-
-MetaShape Pharma 在 2026 年美国糖尿病协会年会上拿出了一份动物数据：它的候选药 MS 001 与司美格鲁肽联用，减重效果更深，同时肌肉量上升、跑步耐力增强——脂肪出去了，肌肉留下来了。更有意思的是，停药后的体重反弹也明显减少。
-
-机制上，MS 001 是 PNP 抑制剂，能提升细胞内 NAD+ 水平——这正好戳中了抗衰老研究者的兴奋点。目前准备融资 1000 万美元启动临床，人体数据预计 2029 年见。
-
-![图片](https://longevity.technology/wp-content/uploads/2026/06/MetaShape-targets-GLP-1s-biggest-weaknesses-1024x683.jpg)
+土壤里的微生物决定着地球碳库的命运，但它们的行为一直太复杂、太难建模。这篇论文把神经网络和传统过程模型缝合在一起：用AI从基因组数据（DNA测序）中推断微生物的"生化个性"，再约束进生态理论让结果不瞎猜。即使训练数据很少，模型照样能预测出"根本没法直接测量"的状态变量。**气候变化模拟和土壤碳固存预测的精度有望大幅提升**，对农业和碳中和政策都是实打实的基础支撑。
 
 ---
 
-**3. [中国给细胞与基因疗法开了条新路，全球药企合同要重写了](https://www.genengnews.com/topics/translational-medicine/china-sets-framework-for-advanced-therapeutic-development/)**
+**3. [数字生物标志物工具箱 tAge：用基因表达数据预测生物学年龄](https://github.com/Gladyshev-Lab/tAge)**
 
-5 月 1 日起，中国"818 号令"正式生效。CAR-T、基因编辑、细胞疗法这些高度个性化的先进疗法，现在可以绕过 NMPA 的标准注册流程，直接在约 1700 家三甲医院开展临床转化并向患者收费。
-
-对全球药企来说，麻烦来了：很多已有的合作合同里，里程碑付款节点全部绑定"NMPA 批准"，而合作方现在可能走医院通道商业化，却永远不触发那个节点。律师建议立刻检查合同，把里程碑重定义为"首位付费患者"而非"首张 NMPA 批文"。
-
-人类基因资源数据目前仍不得出境，这是外资的另一道门槛。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/06/GettyImages-2205687042-300x200.jpg)
+忘掉你身份证上的数字，你的细胞可能"老"得完全不一样。Gladyshev 实验室（哈佛长寿研究重镇）开源了这个 R 包，用转录组数据（基因表达谱）直接预测生物学年龄，比传统甲基化时钟多一个维度。**抗衰老药物研发和长寿研究的评估工具箱又多了一把好用的尺**，已有 19 颗星，适合有生信基础的研究者直接上手。
 
 ---
 
-**4. [抗氧化剂居然能"饿死"衰老细胞？这个发现有点反常识](https://lifespan.io/how-antioxidants-can-selectively-remove-some-senescent-cells/)**
+**4. [帕金森病数字生物标志物工具箱 paradigma](https://github.com/biomarkersParkinson/paradigma)**
 
-衰老细胞（senescent cells）一直是抗衰研究的眼中钉——它们不死不活，却持续向周围释放炎症信号，加速组织退化。
-
-《Aging Cell》最新研究发现了一个意想不到的机制：在营养匮乏条件下，给衰老的肌肉干细胞（myoblasts）施用抗氧化剂 NAC，衰老细胞的 DNA 损伤标记急剧上升，最终走向凋亡。而同样处理对正常增殖的细胞没有伤害，反而能强化细胞核膜。
-
-换句话说：饿着 + 抗氧化剂，可能是精准清除衰老细胞的组合拳。目前还只是细胞实验，但方向足够令人兴奋。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Muscle-tissue-262x187.jpg)
-
----
-
-**5. [CAR-T 疗法的两位奠基人拿奖了，他们说：等待名单终于排上了](https://www.genengnews.com/topics/cancer/perseverance-persistence-key-to-car-t-success-say-ross-prize-winners-carl-june-and-michel-sadelain/)**
-
-1990 年代，Carl June 和 Michel Sadelain 开始做 CAR-T 细胞疗法的基础研究。那时候，"我们连患者都找不到"——没人信这条路。三十年后，全球 7 款 FDA 批准的 CAR-T 产品，6 万多名患者获救。两人共同荣获第 13 届 Ross 分子医学奖。
-
-他们在颁奖现场说的最实在的话：血液系统癌症基本上都能用细胞疗法解决，这已经是工程问题了；真正的挑战在实体瘤——CAR-T 细胞能到达肿瘤，但穿透肿瘤的免疫屏障还很难。
-
-下一个关注点是"体内 CAR-T"：直接在患者体内生成改造 T 细胞，跳过体外制备，有望大幅降低成本。两个月前刚有首批人体数据，毒性和疗效并存，尚早。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Carl-June-300x228.jpg)
+确诊帕金森，今天大多数医院还在靠医生"看"。这个开源工具箱把可穿戴设备采集的运动数据转化成数字生物标志物，让帕金森的早期识别和进展追踪有了客观的数据基础。机器学习驱动，直接集成常见的运动传感器数据流，**对神经退行性疾病的数字医疗赛道来说是难得的开源基建**。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [幼年压力在细胞里留下永久烙印](https://www.news-medical.net/news/20260618/Early-life-stress-leaves-unique-biological-signatures-in-cells.aspx) — 童年逆境与线粒体能量代谢变化相关，压力的生物学代价比想象中更持久
+**[研究]** [表观遗传药物 RVX-208 靶向血管周围脂肪，改善血管健康](https://lifespan.io/epigenetic-drug-targets-fat-improving-blood-vessel-health/) — 不打单靶点，直接重编脂肪层的基因程序，心血管+代谢疾病治疗新思路；已有细胞/动物/人体活检三级证据。
 
-**[研究]** [童年创伤的表观遗传印记遍布全身](https://www.news-medical.net/news/20260618/Childhood-stress-leaves-lasting-epigenetic-marks-across-the-body.aspx) — 早期生活经历对 DNA 甲基化的影响可波及全身多个组织，不只是大脑
+**[研究]** [Senolytic疫苗+干细胞联合疗法，在小鼠模型中显著延长健康寿命](https://www.fightaging.org/archives/2026/06/a-combination-senolytic-and-stem-cell-therapy-assessed-in-a-mouse-model-of-aging/) — 先清衰老细胞、再补充干细胞，协同效果远超单独使用任何一种；用的是加速衰老模型，结果仍需自然老化模型验证。
 
-**[研究]** [帕金森病与免疫细胞衰老：印第安纳大学启动新研究](https://www.news-medical.net/news/20260618/Indiana-University-researchers-investigate-immune-cell-aging-in-Parkinsons-disease.aspx) — 多学科团队将专门研究免疫细胞老化如何影响帕金森病风险与进展
+**[研究]** [科学家找到重编大脑免疫细胞的方法，有望对抗阿尔茨海默症](https://www.sciencedaily.com/releases/2026/06/260619020506.htm) — 分子 OLE 能把脑内免疫细胞拉回"保护模式"，在动物模型里减少了毒性斑块、改善了记忆；距临床还远，但机制很新。
 
----
-
-## **📊 更多动态**
-
-| # | 类型 | 标题 | 链接 |
-|---|------|------|------|
-| 1 | 健康 | 鱼油补充剂对阿尔茨海默症预防效果存疑，美国人每年花逾 10 亿美元或打水漂 | [查看](https://www.news-medical.net/news/20260618/Fish-oil-supplements-show-little-benefit-for-Alzheimers-prevention.aspx) |
-| 2 | 公卫 | 量子版"生命游戏"模型成功模拟意大利西尼罗河病毒 2025 年夏季传播 | [查看](https://papers.cool/arxiv/2606.20489) |
+**[开源]** [机器学习数字生物标志物检测心理健康状态](https://github.com/Chinmayee04-sys/Digital-biomarkers-using-machine-learning) — 用面部情绪识别神经网络筛查压力/焦虑/抑郁风险，入门级项目，适合学生参考学习。
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [抗氧化剂：我本来是来帮忙的，结果把衰老细胞送走了](https://lifespan.io/how-antioxidants-can-selectively-remove-some-senescent-cells/)
+### [双AI掐架，结果把实验方案翻译得比人类还准](https://papers.cool/arxiv/2606.20120)
 
-研究人员本来在研究抗氧化剂怎么保护细胞，结果发现——在节食状态下，抗氧化剂对衰老细胞的效果完全相反：不是保护，是加速它们死亡。健康细胞：谢谢款待。衰老细胞：这不是我要的剧本。网友神评："所以抗衰的正确姿势是：间歇性断食 + 吃维 C？" 😂 结论还很早，但这个反转确实让人忍不住会心一笑。
+今天最好笑的细节：论文里两个AI智能体互相"怼"——Parser写完指令，Validator挑刺，挑出来再发回去改，循环到双方都没话说为止。研究团队美其名曰"跨模型验证自我纠正循环"。网友评论：这不就是让AI模拟了一下甲方乙方的日常吗？😂 不过结果还真跑通了真实的机器人实验，效果硬是比单个AI端到端直接生成准多了。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Muscle-tissue-262x187.jpg)
+![图片](https://lifespan.io/wp-content/uploads/2026/06/Blood-vessel-262x187.jpg)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### Dezawa MuseCells 启动更大规模多适应症临床试验
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：70%
-- **预测依据**：今日新闻 [干细胞精准归巢机制突破](https://longevity.technology/news/the-homing-instinct-why-most-stem-cells-get-lost/) + 心梗和卒中两项试验已有阳性数据，6 月 22 日网络研讨会面向临床医生开放，通常是扩大临床招募的前奏
+### 自驱动实验室（Self-driving Lab）商业化提速
+- **预测时间**：2026年Q3
+- **预测概率**：72%
+- **预测依据**：今日论文[双智能体自然语言转机器人指令框架](https://papers.cool/arxiv/2606.20120)已在真实平台验证端到端可行性；结合 Emerald Cloud Lab、Arctoris 等自动化实验室公司近期融资节奏，Q3 大概率会有头部玩家宣布新一轮融资或商业化里程碑。
 
-### MetaShape 完成 1000 万美元 Series A，GLP-1"肌肉保留"赛道吸引更多玩家跟进
+### 衰老细胞清除（Senolytic）进入联合疗法临床设计主流
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [MetaShape ADA 年会数据亮相](https://longevity.technology/news/metashape-targets-glp-1s-biggest-weaknesses/) + GLP-1 副作用（肌肉流失、停药反弹）已成行业共识痛点，资本正在密集寻找补充疗法
+- **预测依据**：今日研究[SenoVax+pMSC联合疗法](https://www.fightaging.org/archives/2026/06/a-combination-senolytic-and-stem-cell-therapy-assessed-in-a-mouse-model-of-aging/)再次验证"先清衰老细胞再做再生治疗"的协同逻辑；Oisin Biotechnologies、Unity Biotechnology 等公司临床试验设计预计将开始加入联合用药方案。
 
-### 中国 818 号令引发首批外资合同纠纷或重谈案例公开
-- **预测时间**：2026年Q3
+### 转录组生物学年龄时钟工具迎来整合与标准化
+- **预测时间**：2026年7-8月
 - **预测概率**：55%
-- **预测依据**：今日新闻 [中国先进疗法新监管框架](https://www.genengnews.com/topics/translational-medicine/china-sets-framework-for-advanced-therapeutic-development/) + 律师已明确预警合同里程碑节点失效风险，边界指南尚未落地，争议窗口期已开启
-
-### 体内 CAR-T（in vivo CAR-T）完成首个 II 期临床设计方案公示
-- **预测时间**：2026年Q3
-- **预测概率**：50%
-- **预测依据**：今日新闻 [CAR-T 奠基人颁奖演讲](https://www.genengnews.com/topics/cancer/perseverance-persistence-key-to-car-t-success-say-ross-prize-winners-carl-june-and-michel-sadelain/) 中提及体内 CAR-T 首批人体数据刚出炉两个月，毒性/疗效信号已可见，推进下一阶段设计是自然节奏
+- **预测依据**：今日开源工具[tAge](https://github.com/Gladyshev-Lab/tAge)和现有甲基化时钟（Horvath clock等）的平行存在，正推动社区讨论多维度衰老时钟的整合基准；预计会有机构发起基准测评 benchmark 或联合验证研究。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、细胞疗法与抗衰老生物学的最新资讯？
+### 哪里可以获取 AI+生命科学（AI制药、抗衰老、自动化实验室）领域的最新资讯？
 
-今日 AI 生命科学领域的热点包括：干细胞精准归巢机制突破、GLP-1 联用疗法保肌新数据、中国先进疗法监管新框架落地。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：表观遗传药物重编血管脂肪、自驱动实验室自然语言转机器人指令、Senolytic+干细胞联合抗衰老疗法。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -171,13 +123,13 @@ MetaShape Pharma 在 2026 年美国糖尿病协会年会上拿出了一份动物
 
 ---
 
-### 如何体验 Claude / Gemini 等 AI 工具辅助生命科学文献研究？
+### 如何体验 Claude / Gemini 等 AI 工具，辅助生命科学论文阅读和研究整理？
 
-今日涉及的干细胞机制、CAR-T 临床进展等话题，正是适合用 AI 做快速文献综述和数据提炼的典型场景。想用 Claude、Gemini、Perplexity 或 Consensus 辅助科研检索，但面临账号注册或支付困难？
+今天几篇论文（土壤碳循环建模、生物学年龄预测、实验自动化）信息密度都很高，读起来相当费劲。Claude 和 Gemini 这类大模型可以帮你快速拆解论文摘要、整理关键结论、翻译专业术语——对研究者和学生来说是提效神器。
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
-- 覆盖官方号、镜像、中转额度、多模型组合包和部分科研检索工具
+- 覆盖官方号、镜像、中转额度、多模型组合包和部分科研检索工具（Consensus 特别适合文献检索）
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
 访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
