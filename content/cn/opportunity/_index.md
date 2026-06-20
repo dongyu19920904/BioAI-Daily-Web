@@ -5,7 +5,7 @@ breadcrumbs: false
 description: "从 AI 生命延续学资讯里提炼可验证、可低成本测试的内容、产品和服务机会。"
 cascade:
   type: docs
-next: /opportunity/2026-06-19
+next: /opportunity/2026-06/2026-06-19/
 ---
 
 # AI生命延续学商机日报

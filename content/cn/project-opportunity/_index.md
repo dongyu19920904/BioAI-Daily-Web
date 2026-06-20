@@ -5,7 +5,7 @@ breadcrumbs: false
 description: "从 AI 生命延续学开源项目和研究线索里筛选可跟进的项目机会。"
 cascade:
   type: docs
-next: /project-opportunity/2026-06-19
+next: /project-opportunity/2026-06/2026-06-19/
 ---
 
 # AI生命延续学资讯商机项目
