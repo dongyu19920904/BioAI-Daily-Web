@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/22
+title: AI生命延续学日报 2026/6/23
 breadcrumbs: false
-next: /2026-06/2026-06-22
+next: /2026-06/2026-06-23
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Intellia 的 CRISPR 疗法 lonvo-z 在 Phase III 拿下 87% 发作减少率，一针永久治愈罕见病不再是幻想，FDA 申请已在路上。
-衰老研究今天扎堆爆发：肠道菌对肺部发信号、免疫系统才是菌群"物业"、长寿家族基因熄灭炎症——老化机制正在被逐层拆解。
-关注基因疗法和抗衰老赛道的人，今天这期值得从头读到尾。
+北卡罗来纳大学发布里程碑数据：新型HIV疫苗成功激活T细胞，直击病毒最难逃脱区域。
+AbbVie 109亿吞下Apogee，免疫炎症并购潮今年已连续三起，Dupixent的专利保卫战打响了。
+神经免疫交叉研究密集爆发，关注自闭症和认知衰老方向的研究者，今天值得细读。
 ```
 
 
@@ -29,154 +29,126 @@ Intellia 的 CRISPR 疗法 lonvo-z 在 Phase III 拿下 87% 发作减少率，�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-老年免疫系统"叛变"之谜有新解——它不是在保护你，而是在和你的肠道、大脑、肺同时开战。
+百年免疫学难题有了新突破——今天，科学家同时找到了 HIV 疫苗新希望和衰老认知退化的分子根源。
 
 ### **🔑 3 个关键词**
-#免疫衰老 #肠-肺轴 #基因编辑
+#HIV疫苗 #认知衰老 #免疫发育
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [CRISPR一针永久消灭遗传性血管水肿，Phase III数据震撼发布](https://www.genengnews.com/topics/translational-medicine/stockwatch-positive-phase-iii-data-sells-investors-on-intellia/)**
+**1. [新型 HIV 疫苗成功激活最前线的免疫细胞](https://www.news-medical.net/news/20260622/New-vaccines-successfully-boost-frontline-immune-cells-against-HIV.aspx)**
 
-一生中要靠每月注射来压制发作、花费超百万美元的遗传性血管水肿（一种会导致全身突发肿胀的罕见病）患者，可能很快只需打一针就完事了。Intellia Therapeutics 的 CRISPR 基因编辑疗法 lonvo-z，在 Phase III HAELO 试验里连续拿下主要终点和三项关键次要终点——攻击发作频率降低87%，多数患者做到了"零发作、零长期用药"。公司已经开始向 FDA 滚动提交上市申请，目标是2027年上半年正式入市。等了几十年，一次性治愈不再是幻想。股价一周暴涨29%，市场已经在投票了。
+几十年来，HIV 疫苗研究屡屡碰壁，核心问题只有一个：怎么让免疫系统精准打击病毒最"要害"的部位？北卡罗来纳大学刚在《临床研究杂志》发表了一项里程碑临床试验——他们开发的新疫苗能显著增强 T 细胞（免疫系统的前线战士），专门攻击 HIV 最保守、最难逃脱的区域。这是真正意义上的方向性突破，不是小修小补。
 
----
-
-**2. [Huntington's病基因疗法获FDA松口，一度被叫停的AMT-130重获生机](https://www.genengnews.com/topics/translational-medicine/stockwatch-positive-phase-iii-data-sells-investors-on-intellia/)**
-
-去年被FDA否定的Huntington's病基因疗法AMT-130，命运在一夜之间逆转。uniQure宣布FDA改变立场，接受其Phase I/II三年随访数据作为加速审批BLA申请的主要依据——此前卡审批的负责人Vinay Prasad已于4月辞职。Huntington's是一种无药可治的致命神经退行性疾病，这消息对患者群体来说几乎是绝处逢生。股价单日飙涨78%。
+![图片](https://www.news-medical.net/image-handler/picture/2017/1/A_doctor_makes_a_vaccination_to_a_child-Yuganov_Konstantin_cdbf1b05417f45e89b8268af4858e1c9-620x480.jpg)
 
 ---
 
-**3. [衰老免疫细胞为何越老越"叛变"？自身免疫病激增的真相找到了](https://www.news-medical.net/news/20260621/Aging-immune-cells-may-explain-why-autoimmunity-rises-later-in-life.aspx)**
+**2. [科学家找到了年老后"脑子变慢"的分子根源](https://medicalxpress.com/news/2026-06-molecular-age-cognitive-decline.html)**
 
-年纪越大，反而越容易得类风湿、狼疮这些"免疫攻击自己"的病——这个悖论困扰科学家多年。最新综述揭示：衰老的免疫细胞陷入一种矛盾状态，对外部病原体越来越迟钝，却对自身组织越来越敏感。这一发现直接指向"免疫衰老"（immunosenescence）是老年自身免疫病爆发的核心机制，为靶向性干预老年免疫疾病提供了新思路。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_840598_17820854055215087.jpg)
+为什么人上了年纪，记忆力、反应速度都会下滑？这个问题困扰了医学界很久。凯斯西储大学和克利夫兰VA医疗中心的研究团队，刚识别出了一个关键分子机制，可能是年龄相关认知退化的"元凶"。更重要的是：找到病因，才能开药。这个发现直接指向了新的治疗靶点，对老年脑健康保护意义重大。
 
 ---
 
-**4. [肠道细菌给肺部"发信号"，长寿菌株让肺纤维化减少40%](https://lifespan.io/how-gut-bacteria-affect-lung-fibrosis/)**
+**3. [AbbVie 109亿美元收购 Apogee：这颗棋子专门狙击 Dupixent](https://www.genengnews.com/topics/translational-medicine/abbvie-to-acquire-apogee-therapeutics-for-10-9b/)**
 
-肠道里住着什么菌，居然能决定你的肺会不会变硬？研究人员发现，百岁老人肠道中的一株乳酸菌L9，能通过血液向肺部传递化学信号，让老年小鼠的肺纤维化（一种肺组织变硬、呼吸越来越困难的疾病）评分下降30%，胶原蛋白沉积减少40%。机制是：L9产生的短链脂肪酸抑制了特定免疫细胞（Th17）的招募，切断了炎症到纤维化的传导链。肠-肺轴，真不是玄学。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Lungs-affected-262x187.jpg)
+109亿美元。今年生物制药圈第三大并购案就这样定了。AbbVie 花重金买下 Apogee，核心资产是一款名叫 zumilokibart 的 IL-13 抑制剂（一种治疗炎症的靶向药），剑指当前年销售额 181 亿美元的 Dupixent。最厉害的地方：这药可能三到六个月才打一针。Apogee 股价当天暴涨 47%，吃瓜群众人均羡慕。
 
 ---
 
-**5. [免疫系统才是肠道菌群的"物业"，老了就"欠管"了](https://lifespan.io/the-immune-system-maintains-the-microbiome/)**
+**4. [自闭症社交障碍背后，可能藏着一群"入侵大脑"的免疫细胞](https://www.genengnews.com/topics/translational-medicine/brain-infiltrating-t-cells-linked-to-social-deficits-in-autism-mouse-model/)**
 
-为什么人老了肠道菌群会失衡？通常的解释是"好菌减少了"，但这只是表象。PLOS Biology 最新论文提出一个颠覆性假说：免疫系统才是肠道菌群多样性的主动维护者，它持续监控哪种细菌在扩张，一旦有菌"坐大"就启动抑制。衰老让这套"物业管理"失灵，才导致菌群失调——这意味着单纯补充益生菌可能不够，恢复免疫监控才是根治之道。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Microbiome-262x187.jpg)
+36个孩子里大约有1个会被诊断为自闭症谱系障碍（ASD），但究竟是什么让他们难以建立社交连接？九州大学的研究给出了一个意想不到的线索：一种叫 γδ T 细胞的免疫细胞，会在发育期"闯入"大脑，通过 IL-17A 信号扰乱社交行为。关键实验更直接——把这些细胞从小鼠大脑里清除，社交能力就回来了。发表于《科学·免疫学》。
 
 ---
 
-**6. [人工"制造睡眠"在小鼠实验中成功，记忆恢复效果和真睡一样](https://lifespan.io/inducing-nrem-like-neuronal-patterns-mimics-sleep-benefits/)**
+**5. [母乳里的一种脂肪酸，可能重塑婴儿终身免疫力](https://www.genengnews.com/topics/translational-medicine/breast-milk-fatty-acid-shapes-immune-development-in-mice/)**
 
-睡不好觉？科学家正在研究怎么"骗过"大脑。威斯康星大学团队在 Nature Neuroscience 发表研究：用光遗传学手段在清醒小鼠大脑中人工模拟非快速眼动睡眠（NREM）的神经放电模式，结果大脑突触真的完成了"清理重置"，记忆测试表现与正常睡眠组完全持平。关键发现：起作用的不是降低神经元放电总量，而是那个特定的"开/关"节律本身。离人用还很远，但对抗认知衰退的思路打开了。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Firing-neurons-262x187.jpg)
+"母乳对宝宝好"大家都知道，但好在哪里？芝加哥大学找到了一个具体答案：母乳中含量最高的反式脂肪酸 TVA（反式油酸，来自牛羊肉和乳制品），能在哺乳期重新编程婴儿的免疫细胞，让他们面对流感病毒和沙门氏菌时活得更久、康复更快。更震撼的是：这个效应一直延续到成年期。发表于顶刊《科学》。
 
 ---
 
-**7. [长寿家族的基因里藏着什么秘密？罕见突变"熄灭"慢性炎症](https://www.sciencedaily.com/releases/2026/06/260621060301.htm)**
+**6. [有种蝴蝶几乎不会衰老——科学家想知道为什么](https://www.sciencedaily.com/releases/2026/06/260622014302.htm)**
 
-为什么有些家族就是老得慢、活得久、病得晚？对长寿家族的基因研究发现了一批罕见变异，其中最突出的一个能显著抑制慢性炎症（inflammaging，即"炎性衰老"）——这正是心血管病、认知衰退、癌症等老年病的共同上游因素。如果这条通路能被药物模拟，相当于找到了抗衰老的"天然处方"。
-
----
-
-**8. [细胞骨架蛋白Tubulin意外成为阿尔茨海默症和帕金森症的新靶点](https://www.sciencedaily.com/releases/2026/06/260620100432.htm)**
-
-贝勒医学院的研究带来了神经退行性疾病领域久违的新思路。科学家发现，细胞内负责"货运铁路"的骨架蛋白Tubulin，能主动将τ蛋白（Tau）和α-突触核蛋白从"结团成毒"的路径上拉回来，引导它们去做有用的工作。这意味着或许不用去"消灭"这些蛋白，而是重新"调度"它们的去向——这和目前绝大多数临床药物的思路完全不同。
+寿命比同类长好几倍，老了也看不出衰老迹象。这不是科幻小说，而是 Heliconius 蝴蝶的真实状态。科学家发现它们独特的"以花粉为食"习惯或许是原因之一，但更深层的进化机制还在研究中。为什么要关注一只蝴蝶？因为解码它的长寿基因，可能为人类抗衰老研究打开全新视角。
 
 ---
 
-**9. [血液癌症突变竟然会触发阿尔茨海默症？意外发现打开新筛查思路](https://www.sciencedaily.com/releases/2026/06/260612032044.htm)**
+**7. [宠物探访疗法进入长期护理机构——效果超出预期](https://medicalxpress.com/news/2026-06-pet-small-moment-home-term.html)**
 
-癌症和老年痴呆，乍看是两个风马牛不相及的病，但研究人员发现它们可能共享一个上游：与血液癌症相关的特定基因突变，会让大脑中的免疫细胞（小胶质细胞）变得过度炎症化，从而诱发阿尔茨海默症。更实际的价值在于：或许可以通过血液基因检测提前识别老年痴呆高风险人群，甚至借用现有的癌症治疗药物来干预。
+住在护理院的老人，最缺的不是药，而是"家的感觉"。阿尔伯塔大学的护理研究人员正在跑一个试点项目：让治疗犬定期探访长期护理机构。刚发表在 BMC Geriatrics 的研究显示，这对住院老人和医护人员都有明显益处。方法简单，成本不高，却可能成为老年心理健康干预的标配。
 
 ---
 
-**10. [磷脂酰胆碱不足=线粒体老化？补充这种营养素让细胞"返老还童"](https://www.sciencedaily.com/releases/2026/06/260610003119.htm)**
-
-线粒体（细胞的"发电站"）为什么随年龄衰退？研究人员发现了一个此前被忽视的关键因素：磷脂酰胆碱（一种构成细胞膜的磷脂分子）水平下降。更令人兴奋的是，在衰老生物体中补充这种物质后，线粒体功能恢复到了更年轻的状态。这表明衰老的某些维度，可能并不是"不可逆损伤"，而是可以通过营养干预来逆转的功能性下降。
+*（今日核心交叉素材共7条，以上为全部评分通过内容。）*
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [运动拟似物研究综述：锻炼如何对抗免疫衰老](https://www.fightaging.org/archives/2026/06/reviewing-exercise-and-exercise-mimetics-as-an-approach-to-slow-aging/) — 运动是目前对抗衰老最有实证支撑的干预手段，这篇综述系统梳理了其对免疫系统的作用机制，以及"运动模拟药物"的最新进展。
-
-**[研究]** [大脑连接图谱能预测握力衰退？身体虚弱可能始于脑子](https://www.fightaging.org/archives/2026/06/features-of-the-brain-connectome-are-predictive-of-grip-strength/) — 老年人握力下降长期被认为是肌肉问题，但MRI数据显示大脑功能连接的变化就能预测握力，为脑-肌肉老化互动提供了新视角。
-
-**[研究]** [Klotho：大脑抗衰老的"隐形守护者"，神经退行性疾病新靶点](https://www.fightaging.org/archives/2026/06/reviewing-what-is-known-of-klotho-in-brain-aging/) — 这个基因在长寿研究界已是明星，最新综述详细梳理了Klotho如何同时保护脑脊液屏障、突触可塑性和线粒体功能，多家公司已在开发基于Klotho的疗法。
-
-**[研究]** [葡萄糖胺关节保健品可能加速阿尔茨海默症进展？](https://www.sciencedaily.com/releases/2026/06/260610003044.htm) — 大规模研究发现服用葡萄糖胺的用户痴呆风险高出25%，机制线索也已找到。大量中老年人在服用这种补充剂，这个发现需要引起认真关注。
-
-**[研究]** [Buck研究所科学家揭示：更年期代谢应激如何加速大脑老化](https://www.buckinstitute.org/blog/faces-of-discoveryparminder-singh-phd/) — 研究聚焦更年期后卵巢信号中断对下丘脑的影响，以及高糖饮食如何在这一窗口期叠加加速大脑衰老，为女性专属衰老研究提供了重要方向。
+*今日素材中，严格符合 AI+生命科学 交叉领域的内容已全部纳入 TOP，以下板块本期无额外符合标准的条目，不作强行补充。*
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [科学家在清醒小鼠脑里"假装睡觉"，记忆真的被修复了](https://lifespan.io/inducing-nrem-like-neuronal-patterns-mimics-sleep-benefits/)
+### [有种蝴蝶几乎不会变老，科学家：我们要向昆虫学习长寿](https://www.sciencedaily.com/releases/2026/06/260622014302.htm)
 
-睡眠研究界出了个"存在主义"实验：研究人员用光纤和基因工程让清醒的小鼠大脑"以为自己在睡觉"，结果大脑突触真的按照睡眠程序完成了清理，记忆测试分数和睡了一整夜的组一样高。网友第一反应："以后上班可以一边开会一边睡觉了？" 研究人员冷静表示：离人用还很远，不过理论上，"部分脑区睡觉、其余保持清醒"在海豚身上早就实现了。等等党：开始计时。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Firing-neurons-262x187.jpg)
+今天最离谱的反差：人类花数十亿在抗衰老研究上，结果蝴蝶已经默默进化出了"几乎不衰老"的能力。研究人员一本正经地开始研究 Heliconius 蝴蝶的长寿秘密，网友评论神同步："所以我们的终极答案是……多吃花粉？" 🦋
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### Intellia lonvo-z获FDA批准成为首个上市的体内CRISPR疗法
-- **预测时间**：2027年Q1-Q2
-- **预测概率**：72%
-- **预测依据**：今日新闻[Phase III数据全面达标，BLA滚动提交中](https://www.genengnews.com/topics/translational-medicine/stockwatch-positive-phase-iii-data-sells-investors-on-intellia/) + 公司已明确预期2026年底完成BLA申请，FDA通道顺畅，目前无重大安全信号。
+### 免疫细胞与神经发育交叉研究进入爆发期
 
-### 针对更年期神经保护的靶向疗法进入临床试验
-- **预测时间**：2026年Q4
-- **预测概率**：55%
-- **预测依据**：今日新闻[Buck研究所揭示卵巢-下丘脑信号中断机制](https://www.buckinstitute.org/blog/faces-of-discoveryparminder-singh-phd/) + 女性衰老研究近年获得大量资金关注，机制研究已相对清晰，转化进度加快。
+- **预测时间**：2026年Q3
+- **预测概率**：75%
+- **预测依据**：今日新闻 [自闭症社交障碍与脑内 T 细胞的关联](https://www.genengnews.com/topics/translational-medicine/brain-infiltrating-t-cells-linked-to-social-deficits-in-autism-mouse-model/) + 近期神经免疫学研究密度显著上升，多个顶刊集中发表相关成果，预计将引发跟进研究潮。
 
-### 肠道菌群联合免疫调节的抗衰老临床方案开始招募
+---
+
+### 生物制药并购浪潮持续，免疫炎症赛道成争抢焦点
+
+- **预测时间**：2026年Q3
+- **预测概率**：80%
+- **预测依据**：今日新闻 [AbbVie 109亿收购 Apogee](https://www.genengnews.com/topics/translational-medicine/abbvie-to-acquire-apogee-therapeutics-for-10-9b/) + 今年前三大并购均集中在免疫/炎症赛道，Dupixent 2031年专利到期窗口正在吸引大量资本布局。
+
+---
+
+### HIV 疫苗研究迎来新一轮临床加速
+
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：60%
-- **预测依据**：今日新闻[L9菌株减少肺纤维化40%](https://lifespan.io/how-gut-bacteria-affect-lung-fibrosis/) + [免疫监控是菌群稳态关键](https://lifespan.io/the-immune-system-maintains-the-microbiome/) — 两项研究共同指向"免疫+微生物组"联合干预的必要性，该方向已有多个研究团队在准备试验方案。
-
-### 磷脂酰胆碱作为抗衰老营养补充剂的人体临床试验启动
-- **预测时间**：2026年Q4
-- **预测概率**：50%
-- **预测依据**：今日新闻[补充磷脂酰胆碱逆转线粒体衰老](https://www.sciencedaily.com/releases/2026/06/260610003119.htm) + 该物质已有现成食品级补充剂，监管门槛较低，从基础研究到人体试验的转化周期较短。
+- **预测概率**：65%
+- **预测依据**：今日新闻 [HIV 新疫苗激活 T 细胞的里程碑临床数据](https://www.news-medical.net/news/20260622/New-vaccines-successfully-boost-frontline-immune-cells-against-HIV.aspx) + 历史规律表明，里程碑级临床结果发表后，通常触发 6-12 个月内的同类研究加速跟进和资金涌入。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取AI制药、基因编辑、抗衰老研究的最新资讯？
+### 哪里可以获取 AI 制药、免疫学突破、抗衰老研究的最新资讯？
 
-今日热点包括：CRISPR疗法Phase III突破性数据、免疫系统如何调控肠道菌群与衰老、肠-肺轴细菌信号机制。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日重点涵盖：HIV 疫苗 T 细胞激活里程碑临床、年龄相关认知退化的分子病因发现、AbbVie 百亿并购免疫炎症管线。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 覆盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
 - 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
-- 用普通人能看懂的语言，解读最前沿的技术进展
+- 用普通人能理解的语言，解读最前沿的技术进展
 
 访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
 
 ---
 
-### 如何在国内便捷使用 Claude 或 Perplexity 等 AI 工具辅助文献检索？
+### 如何高效检索生命科学、免疫学、抗衰老相关的学术论文？
 
-今天的资讯涉及大量来自 Nature Neuroscience、PLOS Biology、NEJM 等顶级期刊的一手研究，用 Claude 梳理论文逻辑、用 Perplexity 或 Consensus 快速检索相关文献，是生命科学从业者和研究者高效追踪前沿的标准工具组合。面临支付或账号注册困难？
+今日多篇重磅研究发表于《科学》《科学·免疫学》《临床研究杂志》等顶刊，科研人员和学生往往需要快速检索相关文献、提炼核心结论。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Perplexity、Consensus、Codex 等 AI 工具入口
-- 覆盖官方号、中转额度、多模型组合包及科研检索工具入口
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Consensus（专为论文检索设计的 AI 工具）、Perplexity、Claude、Gemini、ChatGPT 等多种 AI 入口
+- 其中 Consensus 和 Perplexity 特别适合科研资料整理和文献综述
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
