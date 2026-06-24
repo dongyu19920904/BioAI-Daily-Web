@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/23
+title: AI生命延续学日报 2026/6/24
 breadcrumbs: false
-next: /2026-06/2026-06-22
+next: /2026-06/2026-06-24
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-衰老细胞"炎症开关"被锁定：XPO1 蛋白偷运 R-loop 出逃是元凶，阻断它能让小鼠肝脏损伤减轻、寿命延长。
-朊病毒里藏着抗菌药——AI 扫出 1179 个候选抗菌肽，其中 2 种已在小鼠身上打败顽固耐药菌。
-今天的核心是"找到了为什么"，从炎症机制到耐药菌克星，有具体靶点的科学值得重点看。
+华盛顿大学研究揭示，90后生物年龄比父母同龄时老近一个标准差，与早发肺癌风险强相关。
+基因编辑鼻祖Sangamo申请破产，礼来抢走核心技术；衰老炎症机制、认知衰退靶点同日出新成果。
+今天是衰老研究的大日子，抗衰老赛道的投资人和从业者值得全文细读。
 ```
 
 
@@ -29,130 +29,151 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-衰老细胞里有个"叛徒"——它把本该留在细胞核里的分子偷运出去，点燃了全身炎症，而科学家刚刚抓住了它。
+年轻人正在以比父母更快的速度"变老"——这可能就是早发癌症激增的真相。
 
 ### **🔑 3 个关键词**
-#衰老炎症 #AI抗菌肽 #脑老化时钟
+#生物年龄加速 #基因编辑寒冬 #衰老机制研究
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [衰老细胞的炎症开关找到了：R-loop 出逃是元凶](https://lifespan.io/a-transcriptional-failure-leads-to-systemic-inflammation/)**
+**1. [生物年龄每快一个标准差，早发癌症风险涨22%](https://lifespan.io/biological-aging-may-be-driving-increased-early-onset-cancer/)**
 
-你有没有想过，为什么人老了全身总是"慢性发炎"？最新研究给出了一个具体答案：衰老细胞里，本来待在细胞核内正常工作的 RNA-DNA 杂合体（R-loop），被一种叫 XPO1 的蛋白质偷运到了细胞质。跑出去的 R-loop 会引发连锁反应，最终让衰老细胞不断向外"喷毒"（SASP，即衰老相关分泌表型），搞坏周围健康细胞。研究者在老年小鼠身上用药物 KPT-330 阻断了这个运输通道，结果：肝脏损伤减轻、炎症下降、寿命延长。这不只是机制发现，背后已经有了明确的干预靶点。
+华盛顿大学团队拿出了一组让人背后发凉的数据：用血液生化指标测出的"生物年龄差"，在90后这一代比60年代出生的人足足宽了0.92个标准差。翻译成人话——同样是30岁，90后的身体可能比他们父母当年"老"得多。更扎心的是，这个差距跟肺癌风险的关联高达57%。这不是遗传，调整了基因风险后结论依然成立。现代环境到底对我们的身体做了什么？研究没给答案，但提供了一把量尺。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/06/RNA-and-DNA-interaction-262x187.jpg)
-
----
-
-**2. [一针 FGF21 基因疗法，老年小鼠心肝肾脑同步改善](https://www.fightaging.org/archives/2026/06/fgf21-gene-therapy-improves-health-in-aged-mice/)**
-
-热量限制（少吃）能延寿，这事大家都知道。但谁愿意真的一辈子少吃？研究者直接找到热量限制背后的关键分子——FGF21，用 AAV 基因疗法（一种病毒载体，把基因"打进"肌肉细胞）把它注射到老年小鼠体内。结果惊人：体重正常化、胰岛素敏感性改善、肝脏解毒能力恢复、肾病减缓、心脏功能改善、认知提升——几乎是全身翻新。背后机制涉及线粒体功能增强、蛋白质稳态恢复和炎症逆转。少吃的所有好处，一针搞定。离人体试验还有距离，但方向感极强。
+![图片](https://lifespan.io/wp-content/uploads/2026/06/Young-man-as-old-man-262x187.jpg)
 
 ---
 
-**3. [AI 在朊病毒里挖出新型抗菌武器，连耐药菌都能杀](https://www.genengnews.com/topics/translational-medicine/ai-discovers-potential-antimicrobial-prionin-peptides/)**
+**2. [基因编辑先驱Sangamo申请破产，礼来、安斯泰来火速接盘](https://www.genengnews.com/topics/genome-editing/gene-editing-pioneer-sangamo-files-for-chapter-11-bankruptcy-agrees-to-sell-assets/)**
 
-朊病毒（prion）是让人闻风丧胆的"疯牛病蛋白"，谁会想到它体内藏着抗菌武器？宾夕法尼亚大学团队用深度学习平台 APEX 1.1，扫描了近 3000 种朊病毒相关蛋白里的 1930 万个片段，找到 1179 个候选抗菌肽，命名为"prionin"。合成测试：59 种能杀细菌，2 种在小鼠皮肤感染模型里，对顽固耐药菌鲍曼不动杆菌（Acinetobacter baumannii）的疗效媲美现有抗生素。这个研究真正令人兴奋的不只是结果——而是 AI 改变了"去哪里找药"这个问题本身。
+"基因组编辑"这个词，最早就是Sangamo的科学家们叫出来的。1995年成立，锌指核酸酶（ZFN，一种早期基因编辑工具）时代的开路人，却在CRISPR浪潮中被边缘化——创始人Lanphier当年觉得CRISPR"太粗糙"，没有跟进。三十年后，公司申请破产。礼来抢走了核心递送平台和锌指技术，安斯泰来拿走了法布雷病项目。一个时代的落幕，也是一段固执的代价。
 
----
-
-**4. [脑 CT 自动诊断模型 Brain-Adapter：不用标注，照样跑赢专科模型](https://papers.cool/arxiv/2606.23494)**
-
-急性脑出血、梗塞、创伤——这些病分秒必争，但 3D 脑部 CT 的自动诊断一直是硬骨头，因为模型训练需要大量专家标注，成本极高。Brain-Adapter 换了个思路：用现成的影像-语言大模型（VLM）处理 2D 切片，再用 MIL（多实例学习）把切片组合成 3D 判断，诊断报告的文字本身就当标签——不需要额外标注。实验结果显著优于现有 3D 模型。真正的价值在于：把"需要专家喂数据"的门槛大幅降低，让 AI 脑部诊断在资源有限的医院也能落地。
+![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Lanphier-CROP11111-260x300.jpg)
 
 ---
 
-**5. [精神分裂症基因图谱大扩容：新方法一口气发现 641 个新关联基因](https://www.genengnews.com/topics/translational-medicine/long%e2%80%91range-gene-networks-uncover-641-new-schizophrenia%e2%80%91associated-genes/)**
+**3. [AI智能体工作流DeepBD：先天缺陷基因变异诊断准确率达92.9%](https://papers.cool/arxiv/2606.24779)**
 
-以前研究精神分裂症的基因，只盯着变异位点附近的"邻居基因"。Lieber 研究所团队开发了 INGENE 和 MODULE 两个新模型，能捕捉远距离基因之间的调控关系——就像从看单个路灯，变成看整个城市的电网。结合 10 万人以上的遗传数据，新方法识别出 766 个关联基因，其中 641 个是以前从未发现的。汇聚点集中在谷氨酸信号、神经发育、免疫通路。这不是小幅优化，是对精神疾病遗传学底层逻辑的重新理解。
-
----
-
-**6. [AI 驱动分子性质预测的"闭环自动研究"：让机器自己改进自己的研究流程](https://papers.cool/arxiv/2606.22731)**
-
-AI 制药的瓶颈之一是：筛选出来的分子，在验证集上表现好，但换个数据集就崩。这篇论文做了个严格测试：让语言模型 Agent 自动修改特征、模型架构和外部数据，然后在从未见过的测试集上打分。跨 36 个药物属性预测任务，验证结果真实可泛化——其中外部数据引入让 CYP2C9 底物预测提升 0.17。更关键的是，它提供了一套判断"AI 的改进是真改进还是过拟合"的方法论框架，对 AI 制药领域极具参考价值。
+先天性出生缺陷的基因诊断，难在哪？不是测序，而是测完之后那堆候选变异的排序——婴儿的表型不完整，证据来源七零八落。DeepBD用一套"分层智能体"工作流来解决这个问题：LLM负责整理病历，专用证据引擎打分，专家模块精炼候选，最后AI综合输出诊断。在18622个真实病例训练后，Top-5召回率达91.2%。临床遗传科医生的夜班，或许快要轻松一点了。
 
 ---
 
-**7. [稀有视网膜病诊断突破：Evo-RAD 自进化 Agent 比基础模型高出 21%](https://papers.cool/arxiv/2606.22955)**
+**4. [衰老细胞的炎症武器找到了：R-loop DNA偷渡出细胞核](https://www.fightaging.org/archives/2026/06/dna-r-loops-in-the-cytoplasm-drive-senescent-cell-inflammatory-signaling/)**
 
-稀有病之所以难诊，是因为数据少，AI 根本没见过。Evo-RAD 的思路很聪明：把"检索参考病例"变成一个强化学习任务——Agent 在诊断过程中动态删掉误导性样本、补入同类样本，直到参考集足够纯净再下判断。在视网膜稀有病基准测试上，比视网膜专用基础模型高出 21%，代码已开源。这套"自进化检索"逻辑不只适用于眼科，任何稀有病 AI 诊断都可以借鉴。
-
----
-
-**8. [单细胞染色质时钟 sc-ChromAging：CD4+ 初始 T 细胞是最准的生物年龄指针](https://www.fightaging.org/archives/2026/06/a-chromatin-accessibility-aging-clock-assessed-in-many-different-immune-cell-types/)**
-
-生物年龄时钟领域有个老问题：用血细胞测出来的"年龄"，能代表全身吗？这篇研究用单细胞染色质可及性测序（scATAC-seq，检测哪些基因处于"开放可读"状态）构建了新时钟 sc-ChromAging，覆盖 25 种免疫细胞亚型。结论有点出乎意料：预测精度最高的不是各种效应细胞，而是 CD4+ 初始 T 细胞——因为这类细胞接触外界抗原少，染色质的变化更纯粹地反映"内在衰老程序"。这为未来的衰老测量提供了更精准的细胞层面锚点。
+为什么衰老细胞会让整个身体慢性发炎（科学家叫它"inflammaging"）？新研究发现了一个关键机制：衰老细胞会把一种叫R-loop的三链核酸结构从细胞核"偷运"出来，扔到细胞质里，触发免疫系统的cGAS-STING通路疯狂报警。更妙的是，用一种叫KPT-330的药物阻断这条偷运通道，炎症信号减弱了，小鼠的健康寿命（healthspan）也延长了。这是一个清晰的干预靶点。发表在Nature Aging。
 
 ---
 
-**9. [用脑电图给非洲人群建大脑年龄模型：MIRASOL 开源项目](https://github.com/Oluwapelumi-Solagbade/MIRASOL-Brain-Age-2026)**
+**5. [早发癌症与生物年龄加速：血液生化指标揭示代际健康鸿沟](https://www.news-medical.net/news/20260624/Faster-biological-aging-may-explain-rising-early-onset-cancers.aspx)**
 
-现有大脑年龄 AI 模型几乎全部基于欧美白人数据，泛化到其他族群时误差极大。这个 MICCAI 2026 竞赛项目（MIRASOL）尝试用 EEG 脑电图在非洲人群中构建大脑年龄预测模型，直接针对数据多样性这个核心盲点。目前开源代码已在 GitHub 上发布，关注 AI 健康公平性的研究者值得一看。
+同一项Washington大学研究，Medical News Today从另一角度切入：关注的是这对"代际健康趋势"和预防医学意味着什么。PhenoAge（用9项血液指标估算生物年龄的工具）首次被大规模用于跨代比较，结果显示年轻一代的肺、肠道和子宫正在以更快的速度"提前老去"。个体化癌症风险预测，从此有了新的生物标志物方向。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_840856_17822874416038895.jpg)
 
 ---
 
-**10. [走路能预测寿命？老年人迈步速度是长寿晴雨表](https://medicalxpress.com/news/2026-06-quickly-older-adults-longevity.html)**
+**6. [雌激素暴露时间越长，65-80岁女性大脑越健康](https://www.news-medical.net/news/20260623/Lifetime-estrogen-exposure-linked-to-improved-brain-health-in-women.aspx)**
 
-Ben-Gurion 大学研究发现，老年人在同时执行认知任务（比如边走路边数数）时，迈出第一步的速度，是预测长期存活率的独立指标。这个简单测试背后捕捉的是神经肌肉活力和认知处理速度的综合状态——两者同时退化，才是真正的风险信号。未来可穿戴设备结合 AI 分析步态，或许比年度体检更早发现问题。
+堪萨斯大学追踪了459名65至80岁女性，发现一生中雌激素暴露时间越长（月经来得早、绝经晚、或使用激素替代），大脑健康指标越好。不是偶然，是系统性关联。对于讨论女性认知衰老和阿尔茨海默症预防策略，这是一块重要的拼图。
+
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Hormone-620x480.jpg)
+
+---
+
+**7. [认知衰退的分子开关被找到了](https://www.news-medical.net/news/20260623/Researchers-identify-molecular-cause-of-age-related-cognitive-decline.aspx)**
+
+Case Western Reserve大学和克利夫兰VA医疗中心联合宣布：找到了年龄相关认知衰退的一个关键分子机制。具体是什么分子，摘要没有完全披露，但研究者称"可能为保护大脑健康的新疗法铺路"。随着衰老机制研究密集爆发，大脑老化的干预靶点正在快速积累。
+
+![图片](https://www.news-medical.net/image-handler/picture/2017/1/HEALTHCARE_shutterstock_493063267_99928a5e003043f896998f01b025b9f6-620x480.jpg)
+
+---
+
+**8. [修复心脏的药，顺手治好了肾——ENPP1抑制剂意外开拓新适应症](https://www.fightaging.org/archives/2026/06/reduced-circulating-enpp1-improves-kidney-regeneration/)**
+
+有意思的跨器官故事：一款原本为心脏病后修复开发的单克隆抗体AD-NP1（刚获FDA批准进入1期临床），UCLA研究者发现它在肾损伤小鼠里同样有效——阻断ENPP1蛋白后，肾脏瘢痕少了，功能恢复快了。更值得期待的问题是：对衰老导致的慢性肾功能下降，这个机制还管用吗？答案还在路上。
+
+---
+
+**9. [USC改良版地中海饮食让小鼠活得更久更健康](https://www.news-medical.net/news/20260623/USC-study-links-modified-Mediterranean-diet-to-longer-lifespan.aspx)**
+
+以植物和鱼为主、低蛋白，再搭配少量色氨酸（常见于鸡蛋、肉类和乳制品中的氨基酸），这套组合在小鼠实验里延长了健康寿命、降低了虚弱程度和脂肪量。发表在Cell Metabolism。从地中海饮食到"精调版地中海饮食"，营养与长寿的边界正在被一点点细化。
+
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Protein-620x480.jpg)
+
+---
+
+**10. [Medicare的AI审批系统：替医生省时间，还是给病人添堵？](https://medicalxpress.com/news/2026-06-medicare-ai-snarls-patients-doctors.html)**
+
+一位65岁的牧场主，每季度开车2.5小时进城打一针硬膜外麻醉。Medicare（美国老年医疗保险）现在用AI系统来审批这类申请——结果是：大量误判、延误、医生被迫花更多时间对付算法而不是病人。这是医疗AI落地最真实的困境：算法优化了系统效率，却可能在个体层面制造新的痛苦。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [年轻一代生物性衰老加速，与早发癌症率上升有关](https://medicalxpress.com/news/2026-06-faster-aging-younger-generations-linked.html) - 每一代人的生物衰老速度都比上一代快，细胞损伤累积更早，值得持续追踪
+**[研究]** [表观遗传时钟作为表观漂移的定量读数](https://www.nature.com/articles/s43587-026-01152-9) — Nature Aging新论文，表观遗传时钟的理论框架再进化，衰老测量工具正在走向精细化
 
-**[研究]** [力量训练与长寿关联再获证据：不用每天举铁，但要坚持](https://medicalxpress.com/news/2026-06-people-weights-longer.html) - 新研究再次确认举重对寿命的正面影响，健身不只是体型问题
+**[研究]** [血液代谢组揭示中年大脑健康：基因、微生物组和暴露组的交叉影响](https://www.nature.com/articles/s43587-026-01149-4) — 中年期血液代谢物如何预测大脑老化，多组学交叉分析，Nature Aging出品
 
-**[开源]** [闭环自动研究用于分子性质预测（论文+代码）](https://papers.cool/arxiv/2606.22731) - AI 自动优化药物属性预测流程，并严格验证泛化性，方法论框架可复用
+**[研究]** [老年医学试验的分层终点与获胜统计](https://www.nature.com/articles/s43587-026-01158-3) — 抗衰老临床试验设计方法论更新，直接影响未来Geromedicine试验的标准制定
 
-**[产品]** [Evo-RAD 稀有视网膜病诊断框架开源](https://github.com/SDH-Lab/Evo-RAD) - 自进化检索 Agent，稀有病诊断提升 21%，已可直接调用
+**[产品]** [VectorBuilder+MaxCyte联手打造新一代CAR-T细胞工程平台](https://www.genengnews.com/topics/bioprocessing/nextgen-platform-combines-vectorbuilder-and-maxcyte-technologies-to-boost-clinical-grade-cell-engineering/) — MiniVec质粒+Flow电穿孔，解决CAR-T规模化生产里的安全性和成本难题
 
----
-
-## **😄 AI 生命科学趣闻**
-
-### [AI 在"疯牛病蛋白"里找到了抗菌药](https://www.genengnews.com/topics/translational-medicine/ai-discovers-potential-antimicrobial-prionin-peptides/)
-
-朊病毒（prion）大概是生物学里名声最差的蛋白——跟疯牛病、克雅氏病绑定，人见人怕。结果 AI 扫了一遍，淡定地说：嗯，里面藏着 1179 个可能的抗菌肽。研究者：……你确定？AI：已在小鼠身上验证，疗效媲美现有抗生素。这大概是 2026 年最离谱的"废物利用"研究，朊病毒：我也没想到自己有这天。😂
+**[开源]** [猕猴前额叶皮层脑衰老转录组学数据集开源](https://github.com/mateomics/Macaca_mulatta_brain_aging_Transcriptomics_2026) — RNA-seq分析流程全套开放，做灵长类脑衰老研究的可以直接取用
 
 ---
 
-## **🔮 AI 生命科学趋势预测**
+## **📊 更多动态**
 
-### FGF21 相关疗法进入人体安全性试验
-- **预测时间**：2026年 Q3-Q4
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 商业 | 加州生命科学产业：经济产值$3940亿，但三大集群就业同步下滑，"生物科技寒冬"持续 | [查看](https://www.genengnews.com/topics/translational-medicine/california-still-golden-despite-job-losses-industry-group/) |
+| 2 | 研究 | 机器人支持老年人居家健康：改善体能、平衡与社交信心的随机试验 | [查看](https://medicalxpress.com/news/2026-06-robots-health-older-people-trial.html) |
+
+---
+
+## **😄 AI生命科学趣闻**
+
+### [修心脏的药跑去修肾了：科学家：我也没想到](https://www.fightaging.org/archives/2026/06/reduced-circulating-enpp1-improves-kidney-regeneration/)
+
+一款专门为心脏病后修复研发的抗体药物AD-NP1，UCLA研究者"顺手"拿来测了一下肾脏损伤——结果真的有效。网友评：这是科研界的"原来你也在这里"时刻。更离谱的是，科学家现在认真的问题是：它会不会还能用在其他器官？目前答案是：说不定。🫀➡️🫘
+
+---
+
+## **🔮 AI生命科学趋势预测**
+
+### 生物年龄检测进入临床癌症风险筛查视野
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：72%
+- **预测依据**：今日[华盛顿大学研究](https://lifespan.io/biological-aging-may-be-driving-increased-early-onset-cancers/)在Nature Medicine发表，PhenoAge与早发癌症的关联引发广泛关注 + 生物年龄标志物商业化（Elysium、TruDiagnostic等）正在加速，临床整合窗口已打开
+
+### ENPP1抑制剂1期临床数据首次披露
+- **预测时间**：2026年Q4
 - **预测概率**：65%
-- **预测依据**：今日新闻 [FGF21 基因疗法在老年小鼠中全面改善健康](https://www.fightaging.org/archives/2026/06/fgf21-gene-therapy-improves-health-in-aged-mouse/) + AAV 基因疗法平台已成熟，多家长寿公司（如 Rejuvenate Bio）已在跟进类似靶点，动物数据积累正接近申请 IND 临界点
+- **预测依据**：今日[UCLA肾脏研究](https://www.fightaging.org/archives/2026/06/reduced-circulating-enpp1-improves-kidney-regeneration/)显示AD-NP1已获FDA批准进入1期临床 + 通常1期试验启动后6-9个月有初步安全性数据披露
 
-### SASP/炎症干预成为新一波抗衰老药物管线热点
-- **预测时间**：2026年 Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [R-loop 出逃导致系统性炎症](https://lifespan.io/a-transcriptional-failure-leads-to-systemic-inflammation/) + XPO1 抑制剂 KPT-330 已有临床用药历史（用于血液肿瘤），在衰老领域的适应症扩展路径相对清晰，多家 senolytic 公司正在关注 SASP 调控方向
-
-### AI 驱动抗菌肽发现进入临床前加速阶段
-- **预测时间**：2026年 Q4
+### 衰老细胞SASP靶向药物（XPO1通路）进入临床前验证加速期
+- **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日新闻 [AI 发现 prionin 抗菌肽](https://www.genengnews.com/topics/translational-medicine/ai-discovers-potential-antimicrobial-prionin-peptides/) + 抗生素耐药性已被 WHO 列为全球紧急威胁，AI 抗菌肽发现赛道（Hexagon Bio、Invaio Sciences 等）正在加速，本研究成果发表在 Nature Microbiology，资本关注度将随之上升
+- **预测依据**：今日[Nature Aging论文](https://www.fightaging.org/archives/2026/06/dna-r-loops-in-the-cytoplasm-drive-senescent-cell-inflammatory-signaling/)明确了R-loop/XPO1/cGAS-STING通路在SASP中的作用，KPT-330已有临床使用先例（血液肿瘤适应症），抗衰老适应症的临床前研究很可能加速启动
 
-### 多组学生物年龄时钟走向临床整合
-- **预测时间**：2026年 Q3
-- **预测概率**：55%
-- **预测依据**：今日新闻 [sc-ChromAging 单细胞染色质时钟](https://www.fightaging.org/archives/2026/06/a-chromatin-accessibility-aging-clock-assessed-in-many-different-immune-cell-types/) + 生物年龄测量赛道（TruAge、Elysium、Novos 等）竞争加剧，单细胞精度时钟将成为下一代产品差异化卖点
+### Sangamo核心技术资产拍卖结束，ZFN平台在礼来管线中重新"上岗"
+- **预测时间**：2026年Q3
+- **预测概率**：78%
+- **预测依据**：今日[Sangamo破产新闻](https://www.genengnews.com/topics/genome-editing/gene-editing-pioneer-sangamo-files-for-chapter-11-bankruptcy-agrees-to-sell-assets/)显示礼来已是"stalking horse bidder"，破产拍卖流程通常在申请后60-90天完成，礼来整合ZFN平台后极可能将其应用于神经/代谢疾病基因疗法管线
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、抗衰老研究、脑部 AI 诊断的最新资讯？
+### 哪里可以获取 AI + 生物衰老 / 早发癌症 / 基因编辑 最新资讯？
 
-今日 AI 生命科学热点包括：**FGF21 基因疗法让老年小鼠全身器官改善**、**AI 从朊病毒中挖出新型抗菌肽**、**衰老细胞炎症机制被精确定位到分子层面**。想要持续追踪这类 AI + 生命科学交叉领域的前沿动态？
+今日热点包括：生物年龄加速与早发癌症的代际关联研究（Nature Medicine）、衰老细胞炎症信号的分子机制新发现（Nature Aging）、基因编辑先驱Sangamo破产后的资产流向。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、衰老生物学等
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型、衰老与长寿科学等
 - 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
 - 用普通人能理解的语言，解读最前沿的技术进展
 
@@ -160,13 +181,14 @@ Ben-Gurion 大学研究发现，老年人在同时执行认知任务（比如边
 
 ---
 
-### 如何体验 Claude、Perplexity 等适合做科研资料整理的 AI 工具？
+### 如何用 AI 工具高效检索衰老与癌症相关的生命科学论文？
 
-今日多篇研究来自 Nature Microbiology、Nature Genetics 等顶刊，想要高效检索、理解和整理这类文献，Claude（擅长长文本分析）、Perplexity（实时联网检索）和 Consensus（专门检索学术论文）是科研工作者最常用的 AI 工具组合。如果面临支付困难或账号注册限制——
+今日多篇核心研究来自 Nature Aging、Nature Medicine、Cell Metabolism 等顶级期刊，要追踪这类文献，仅靠 Google Scholar 已经不够用了。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、Perplexity、Consensus、ChatGPT、Cursor、Codex 等 AI 工具入口
-- 覆盖官方号、中转额度、多模型组合包和科研检索工具
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Consensus（专为论文检索设计的 AI 搜索引擎）、Perplexity、Claude、Gemini、Codex 等工具入口
+- Consensus 可以直接用自然语言提问（如"生物年龄和癌症风险的关系"），返回有据可查的研究摘要
+- 覆盖官方号、中转额度、多模型组合包，支持科研检索和资料整理全流程
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整的 AI 工具服务列表。
