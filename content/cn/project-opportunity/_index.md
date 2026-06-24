@@ -5,96 +5,84 @@ breadcrumbs: false
 description: "从 AI 生命延续学开源项目和研究线索里筛选可跟进的项目机会。"
 cascade:
   type: docs
-next: /project-opportunity/2026-06/2026-06-23/
+next: /project-opportunity/2026-06/2026-06-24/
 ---
 
-# AI生命延续学资讯商机项目
+# AI生命延续学资讯商机日报
 
-报告日期：2026-06-23
+报告日期：2026-06-24
 
 ---
 
 ## 今日优先项目
 
-### 1. GodPascal/brain-age-prediction — 单容器脑年龄估算工具
+### 1. 生物学年龄加速与早发癌症关联研究
 
-有同行评审论文背书（Human Brain Mapping 2025），代码可在 CPU 上直接跑，门槛极低。是"生物年龄 vs 实际年龄"叙事里难得有完整可复现流程的工具，适合做教程内容。
+这是今天最直接可转化为自媒体内容的新闻线索。"年轻人为什么越来越多得癌症"本身就是高流量话题，而这篇报道给出了一个可量化的生物学解释框架（生物学年龄 vs 实际年龄），非常适合做科普拆解。
 
-- **证据来源：** [GodPascal/brain-age-prediction](https://github.com/GodPascal/brain-age-prediction)，Rajabli et al., Human Brain Mapping 2025
-- **可信度：** 高（有发表论文，官方代码仓库）
-- **它解决什么问题：** 用一张 T1 加权 MRI 图像估算大脑年龄，量化大脑老化程度
-- **可做成什么：** 试跑教程 / README 拆解 / "脑年龄检测是什么"科普选题 / 工具导航收录
-- **售后或合规风险：** 中（不可描述为临床诊断工具；只做信息科普）
-- **今天最小动作：** 读完 README，记录"环境要求 / 输入格式 / 输出结果"3 个要点，写成一条小红书选题草稿："你的大脑比你老多少岁？这个开源工具可以帮你估算"
-
----
-
-### 2. 论文：Uncertainty-Aware Longitudinal Forecasting of Alzheimer's Disease Progression
-
-用 Temporal Fusion Transformer + 不确定性分解来预测 AD 多时间点进展轨迹，比单步分类更贴近真实临床需求。这是 2026 年 AD 预测方向上少见的"概率轨迹"框架，适合做深度内容拆解。
-
-- **证据来源：** [arxiv/2606.24604](https://papers.cool/arxiv/2606.24604)，Papers.cool cs.AI，2026-06-23
-- **可信度：** 中（预印本，未注明同行评审状态）
-- **它解决什么问题：** AD 进展预测不只要给"最可能诊断"，还要量化未来多个时间点的不确定性
-- **可做成什么：** 论文拆解内容 / "AI 如何预测阿尔茨海默症进展"科普文章 / 研究笔记
-- **售后或合规风险：** 低（纯研究内容拆解，不涉及诊断建议）
-- **今天最小动作：** 读摘要+方法部分，整理 3 个要点：①用了什么模型 ②如何处理不确定性 ③比基线好多少，写成一条简报或内容草稿
+- **证据来源：** [Faster biological aging may explain rising early-onset cancers](https://www.news-medical.net/news/20260624/Faster-biological-aging-may-explain-rising-early-onset-cancers.aspx) — News-Medical Aging，2026-06-24
+- **可信度：** 中（新闻摘要，需核查原始研究期刊）
+- **它解决什么问题：** 为早发癌症的流行趋势提供生物学年龄加速的解释视角，连接 epigenetic clock / biological age biomarker 与癌症风险
+- **可做成什么：** 自媒体内容拆解（小红书/公众号）、"生物学年龄检测"话题选题库、longevity 科普导航卡片
+- **售后或合规风险：** 低（信息整理，不涉及诊断建议）
+- **今天最小动作：** 打开原文，整理 3 个核心论点，写一条小红书选题草稿："你的身体比你老 10 岁？生物学年龄加速与癌症风险的关系"
 
 ---
 
-### 3. 新闻：Accelerated Biological Aging May Drive Early-Onset Cancer Risk
+### 2. USC 地中海饮食延寿研究（Cell Metabolism）
 
-生物性加速老化与年轻人癌症风险上升的关联研究，是"老化≠只是老年人问题"这条叙事线最近较好的新闻入口，读者共情感强。
+发表在 Cell Metabolism，有明确的动物实验数据，涉及低蛋白饮食 + 特定氨基酸配比延长健康寿命。这类"饮食干预 longevity"内容在中文健康自媒体持续高热，且可以做成饮食对比表、食谱参考。
 
-- **证据来源：** [News-Medical, 2026-06-22](https://www.news-medical.net/news/20260622/Accelerated-biological-aging-may-drive-rising-early-onset-cancer-risk.aspx)
-- **可信度：** 中（新闻报道，需回查原始研究）
-- **它解决什么问题：** 解释为什么年轻人癌症发病率在上升，可能与生物年龄加速有关
-- **可做成什么：** 选题钩子 / 自媒体开篇引用 / "你的生物年龄在加速吗"系列内容引子
-- **售后或合规风险：** 中（涉及癌症，表达需保守；只写"研究观察"，不做干预建议）
-- **今天最小动作：** 点进原文，找原始论文来源，记下期刊名和关键结论一句话，备用为选题引用素材
+- **证据来源：** [USC study links modified Mediterranean diet to longer lifespan](https://www.news-medical.net/news/20260623/USC-study-links-modified-Mediterranean-diet-to-longer-lifespan.aspx) — News-Medical Aging，2026-06-23，原刊 Cell Metabolism
+- **可信度：** 中高（顶级期刊，但为小鼠实验，人体外推需保守）
+- **它解决什么问题：** 探索植物性 + 鱼类低蛋白饮食配合特定氨基酸（蛋/肉/奶中常见）对健康寿命、虚弱度和体脂的影响
+- **可做成什么：** 饮食对比表（Mediterranean vs 普通饮食的营养结构差异）、"抗衰饮食指南"内容系列、资料库词条
+- **售后或合规风险：** 低（仅做研究观察整理，不给个人饮食处方）
+- **今天最小动作：** 找到 Cell Metabolism 原文摘要，做一张"这项研究说了什么 / 没说什么"的两列对比笔记，防止过度解读
 
 ---
 
-### 4. shayanmostafaei/Omics_ADRD_Integrated_Modeling — 多组学 AD 风险预测
+### 3. Macaca mulatta 脑老化转录组数据集
 
-结合多组学老化时钟、多基因风险评分（PRS）和 UK Biobank 数据预测 AD/ADRD，方法栈完整（R+Python），适合做"AI 如何读懂基因来预测老年痴呆"内容方向的参考案例。
+星数极低（1 star）但今天刚发布，是灵长类背外侧前额叶皮层老化的 RNA-seq 完整分析流程，包含 DESeq2 差异表达 + GO/GSEA 功能富集。对 aging / neuroscience 方向的内容创作者，这是一个可以做"数据集导航"或"试跑教程"的原始材料。
 
-- **证据来源：** [shayanmostafaei/Omics_ADRD_Integrated_Modeling](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling)，2026-03-25
-- **可信度：** 中（GitHub 项目，无同行评审论文链接，但方法描述具体）
-- **它解决什么问题：** 整合基因组学、表观组学老化时钟与机器学习，预测 AD 发病风险
-- **可做成什么：** 资料库收录 / 工具导航 / "多组学老化时钟是什么"科普拆解
-- **售后或合规风险：** 中（基因风险评分不等于诊断，必须保守表达）
-- **今天最小动作：** 收藏仓库，读 README 确认数据来源是否公开，标注"UK Biobank 数据需申请，不可直接复现"
+- **证据来源：** [mateomics/Macaca\_mulatta\_brain\_aging\_Transcriptomics\_2026](https://github.com/mateomics/Macaca_mulatta_brain_aging_Transcriptomics_2026) — GitHub，2026-06-24
+- **可信度：** 中（新鲜发布，代码和数据需自行验证；无同行评审背书）
+- **它解决什么问题：** 提供灵长类脑老化基因表达分析的可复现流程，可作为 dementia / neurodegeneration 方向的参考数据
+- **可做成什么：** 试跑 README 教程、"longevity 数据集导航"词条、面向技术读者的自媒体拆解（"用猴脑数据理解人类大脑老化"）
+- **售后或合规风险：** 低（开源数据，学术分析，无临床涉及）
+- **今天最小动作：** 打开 GitHub README，确认数据来源是否公开可得（GEO/SRA 登录号），记录流程步骤，存入自建的"longevity 数据集清单"
 
 ---
 
 ## 可二次开发方向
 
-- **脑年龄科普工具导航页：** 收录 brain-age-prediction、MIRASOL 等项目，做成"脑年龄估算工具全景图"，标注运行门槛、数据需求、适用人群，适合自媒体或独立站。
-- **AD 进展预测方法对比表：** 整理近 1 年 AD longitudinal prediction 的论文，做"单步分类 vs 多时间点概率预测"方法对比，输出为可复用的研究笔记或 newsletter 内容。
-- **生物老化 + 早发癌症关联资料包：** 围绕"accelerated aging biomarkers"整理近 3 篇论文，做成"生物年龄检测有哪些指标"信息整理文档，适合健康号内容储备。
-- **心脏老化 PRDM16 研究跟踪页：** 将"Scientists trace cardiac aging"新闻作为起点，建立"心脏衰老分子机制"研究跟踪卡片，后续关注 PRDM16 基因相关临床转化动向。
+- **"生物学年龄 vs 实际年龄"科普图谱**：整理现有 epigenetic clock（Horvath、GrimAge、DunedinPACE 等）的原理和检测方式，做成导航资料库，定期更新。今天可以先建一个 Notion 表格框架。
+- **抗衰饮食研究追踪专栏**：以 Cell Metabolism、Nature Aging、Aging Cell 为主要来源，每周整理 1-2 篇动物/人体饮食干预研究，保守表达，只写"研究观察"而非"建议"。读者积累后可做付费资料包。
+- **灵长类/模式生物老化数据集导航**：像 mateomics 这类小众 GitHub 项目很多，但缺乏中文整理。可建立一个"longevity 开源数据集清单"，定期收录 GEO、GitHub、Zenodo 上的相关数据，服务有数据分析需求的研究生和工程师读者。
+- **基因编辑公司兴衰观察专栏**：Sangamo 破产 + 资产被礼来/其他方收购，是基因治疗商业化进程的重要信号。可做"基因编辑公司生死追踪"系列，整理融资、破产、收购事件，供读者了解行业现实，不涉及投资建议。
 
 ---
 
 ## 值得观察
 
-- **MIRASOL-Brain-Age-2026（EEG + 非洲人群）：** Star 数极低（1），但 MICCAI 2026 收录项目，EEG 脑年龄 + 非洲人群这个切口在多样性研究里稀缺，等论文正式发表后值得做一篇拆解。
-- **RaDaR 罕见病诊断 LLM：** 32B 开源推理模型，训练数据量大，随机对照试验背书。与 longevity 相关性较间接，但"AI 辅助罕见病诊断"本身是值得持续跟踪的合规边界案例。
-- **心理特质 × 阿尔茨海默症分子亚型：** ROS/MAP 队列数据，神经质与孤独感与分子进展相关，"人生目标感"有保护性关联。这条叙事线（心理健康 → 认知老化）社交传播性极强，等正式发表后适合做选题。
+- **DeepBD（遗传性出生缺陷变异优先级 AI 流程）**：arxiv 2606.24779，是一个结合变异效应预测 + 表型本体 + 临床文献的 agentic 工作流。目前与 longevity 主线关联较弱，但其变异解读框架对 aging genomics 方向有参考价值，等待 GitHub 开源或同行评审后再深入。
+- **礼来收购 Sangamo ZFN 平台**：锌指核酸酶是基因编辑老技术，但礼来此次收购意图值得持续跟踪——是否会用于神经退行性疾病或抗衰靶点，需观察后续管线公告。
+- **早发癌症 + 生物学年龄加速研究的原始论文**：今天新闻来自 News-Medical 摘要，原始研究期刊和样本量尚未确认。等原文可得后，再决定是否做深度拆解。
+- **USC Cell Metabolism 饮食研究人体转化进展**：当前仅为小鼠数据，但 USC Longevity Institute（Valter Longo 团队关联方向）的后续人体试验值得跟踪，届时才有可操作的内容价值。
 
 ---
 
 ## 今天别碰
 
-- **Omics_ADRD 直接复现跑模型：** UK Biobank 原始数据需单独申请授权，不可直接下载使用，复现成本极高，今天不值得投入时间。
-- **任何"脑年龄/生物年龄检测服务"商业落地：** 现有工具均为研究级别，不具备医疗器械资质；包装成付费检测或干预建议面临高合规风险，明确回避。
-- **3D Scene Understanding 论文（Agentic Collaborative Cognition）：** 与 aging/longevity 方向无关联，不在本项目选题范围内，跳过。
+- **DeepBD 遗传诊断流程直接用于内容推荐**：该论文涉及胎儿/新生儿基因诊断，属于高合规风险的临床领域，不适合做成面向大众的内容或工具，法律和医疗责任风险极高。
+- **Sangamo 破产资产追踪投机内容**：基因编辑资产收购涉及复杂的知识产权和临床管线状态，数据不透明，做成"投资机会"类内容风险高、核实成本大，暂时只宜作为行业观察背景。
+- **基于今日小鼠饮食研究直接产出"人类抗衰食谱"**：Cell Metabolism 小鼠数据外推到人体的边界尚不清晰，做成具体饮食建议会产生误导风险，且在中国平台属于擦边医疗建议。
 
 ---
 
 ## 今日动作
 
-- **今天先试跑：** `GodPascal/brain-age-prediction` — 读完 README，确认 Apptainer 环境要求，记录"能否在本机或云端 CPU 跑通"的可行性笔记
-- **今天先写：** 基于 AD 进展预测论文（arxiv/2606.24604）整理 3 条要点，起草一条"AI 如何预测阿尔茨海默症发展轨迹"小红书/公众号选题
-- **今天先收藏：** `shayanmostafaei/Omics_ADRD_Integrated_Modeling` 存入工具库，标注数据限制；`news-medical` 早发癌症老化新闻存入选题素材池
+- **今天先试跑：** 打开 [mateomics/Macaca\_mulatta\_brain\_aging\_Transcriptomics\_2026](https://github.com/mateomics/Macaca_mulatta_brain_aging_Transcriptomics_2026)，读 README，记录数据集来源登录号和分析步骤，存入数据集导航清单
+- **今天先写：** 针对"生物学年龄加速与早发癌症"新闻，起草一条小红书/朋友圈选题：核心论点 + 一个"你可以做什么"的保守行动建议（比如了解生物学年龄检测的存在，而不是推荐具体产品）
+- **今天先收藏：** USC Cell Metabolism 原文摘要链接 + Sangamo 破产新闻，存入"行业事件归档"，备下周做基因编辑公司兴衰观察专栏
