@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/24
+title: AI生命延续学日报 2026/6/25
 breadcrumbs: false
-next: /2026-06/2026-06-23
+next: /2026-06/2026-06-25
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-华盛顿大学研究揭示，90后生物年龄比父母同龄时老近一个标准差，与早发肺癌风险强相关。
-基因编辑鼻祖Sangamo申请破产，礼来抢走核心技术；衰老炎症机制、认知衰退靶点同日出新成果。
-今天是衰老研究的大日子，抗衰老赛道的投资人和从业者值得全文细读。
+葡萄糖胺被《Nature Metabolism》点名：阿尔茨海默症患者服用后死亡风险升25%，700万美国患者可能正在踩坑。
+百岁老人血浆里找到37个"抗衰蛋白"，大肠杆菌被重新编码以低成本量产GLP-1减肥药，今天的长寿赛道很忙。
+家里老人在吃关节保健品的，这期值得认真看。
 ```
 
 
@@ -29,98 +29,92 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-年轻人正在以比父母更快的速度"变老"——这可能就是早发癌症激增的真相。
+葡萄糖胺（关节保健品）可能在悄悄加速阿尔茨海默症进展，美国7百万痴呆患者或正在踩坑。
 
 ### **🔑 3 个关键词**
-#生物年龄加速 #基因编辑寒冬 #衰老机制研究
+#阿尔茨海默症代谢机制 #长寿生化研究 #脑信号AI分析
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [生物年龄每快一个标准差，早发癌症风险涨22%](https://lifespan.io/biological-aging-may-be-driving-increased-early-onset-cancer/)**
+**1. [大脑里的"糖衣炸弹"：过度糖基化可能是阿尔茨海默症的幕后推手](https://lifespan.io/glycosylations-role-in-alzheimers-disease/)**
 
-华盛顿大学团队拿出了一组让人背后发凉的数据：用血液生化指标测出的"生物年龄差"，在90后这一代比60年代出生的人足足宽了0.92个标准差。翻译成人话——同样是30岁，90后的身体可能比他们父母当年"老"得多。更扎心的是，这个差距跟肺癌风险的关联高达57%。这不是遗传，调整了基因风险后结论依然成立。现代环境到底对我们的身体做了什么？研究没给答案，但提供了一把量尺。
+你知道关节保健品葡萄糖胺吗？美国约700万阿尔茨海默症患者里，有不少人在服用它——而这项发表于《Nature Metabolism》的新研究显示，它可能正在加速病情恶化。佛罗里达大学团队发现，阿尔茨海默症患者脑组织中存在大规模"超糖基化"（蛋白质被过量糖分子修饰），这不是结果，而是病因之一。实验中减少糖基化，小鼠记忆明显改善；补充葡萄糖胺，则记忆进一步恶化。更扎心的是：2.4万名阿尔茨海默症患者的健康记录显示，服用葡萄糖胺者死亡风险增加25%，疾病进展速度也快25%。这条代谢通路完全独立于淀粉样斑块和tau蛋白，是全新的治疗靶点。家里有老人在吃葡萄糖胺保健品的，这篇研究值得认真看一下。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Young-man-as-old-man-262x187.jpg)
-
----
-
-**2. [基因编辑先驱Sangamo申请破产，礼来、安斯泰来火速接盘](https://www.genengnews.com/topics/genome-editing/gene-editing-pioneer-sangamo-files-for-chapter-11-bankruptcy-agrees-to-sell-assets/)**
-
-"基因组编辑"这个词，最早就是Sangamo的科学家们叫出来的。1995年成立，锌指核酸酶（ZFN，一种早期基因编辑工具）时代的开路人，却在CRISPR浪潮中被边缘化——创始人Lanphier当年觉得CRISPR"太粗糙"，没有跟进。三十年后，公司申请破产。礼来抢走了核心递送平台和锌指技术，安斯泰来拿走了法布雷病项目。一个时代的落幕，也是一段固执的代价。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Lanphier-CROP11111-260x300.jpg)
+![图片](https://lifespan.io/wp-content/uploads/2026/06/Alzheimers-MRI-262x187.jpg)
 
 ---
 
-**3. [AI智能体工作流DeepBD：先天缺陷基因变异诊断准确率达92.9%](https://papers.cool/arxiv/2606.24779)**
+**2. [痴呆症每年正在吞噬美国8180亿美元，而这只是冰山一角](https://www.news-medical.net/news/20260624/Hidden-costs-push-United-States-dementia-toll-to-historic-high.aspx)**
 
-先天性出生缺陷的基因诊断，难在哪？不是测序，而是测完之后那堆候选变异的排序——婴儿的表型不完整，证据来源七零八落。DeepBD用一套"分层智能体"工作流来解决这个问题：LLM负责整理病历，专用证据引擎打分，专家模块精炼候选，最后AI综合输出诊断。在18622个真实病例训练后，Top-5召回率达91.2%。临床遗传科医生的夜班，或许快要轻松一点了。
+8180亿美元——2026年，美国用于阿尔茨海默症及相关痴呆的费用将达到这个历史峰值，这还没算上"隐形成本"：无数家庭成员放弃工作、牺牲健康去照顾患者。南加州大学主导的这项研究揭示，真实的社会负担远比官方数据难看得多。每延误一年找到有效治疗手段，损失就在滚雪球。这个数字本身就是一个强烈的研发信号：谁能在痴呆症防治上打出哪怕一个小突破，市场空间大到难以想象。
 
----
-
-**4. [衰老细胞的炎症武器找到了：R-loop DNA偷渡出细胞核](https://www.fightaging.org/archives/2026/06/dna-r-loops-in-the-cytoplasm-drive-senescent-cell-inflammatory-signaling/)**
-
-为什么衰老细胞会让整个身体慢性发炎（科学家叫它"inflammaging"）？新研究发现了一个关键机制：衰老细胞会把一种叫R-loop的三链核酸结构从细胞核"偷运"出来，扔到细胞质里，触发免疫系统的cGAS-STING通路疯狂报警。更妙的是，用一种叫KPT-330的药物阻断这条偷运通道，炎症信号减弱了，小鼠的健康寿命（healthspan）也延长了。这是一个清晰的干预靶点。发表在Nature Aging。
+![图片](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
 
 ---
 
-**5. [早发癌症与生物年龄加速：血液生化指标揭示代际健康鸿沟](https://www.news-medical.net/news/20260624/Faster-biological-aging-may-explain-rising-early-onset-cancers.aspx)**
+**3. [百岁老人血液里藏着什么秘密？583个蛋白质给出了新线索](https://www.fightaging.org/archives/2026/06/fundamental-research-into-centenarian-biochemistry-continues/)**
 
-同一项Washington大学研究，Medical News Today从另一角度切入：关注的是这对"代际健康趋势"和预防医学意味着什么。PhenoAge（用9项血液指标估算生物年龄的工具）首次被大规模用于跨代比较，结果显示年轻一代的肺、肠道和子宫正在以更快的速度"提前老去"。个体化癌症风险预测，从此有了新的生物标志物方向。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_840856_17822874416038895.jpg)
+活过100岁的人，血液里的蛋白质组成和普通人真的不一样。SWISS100队列研究用蛋白质组学（大规模系统分析蛋白质的技术）分析了百岁老人的血浆，对比80-90岁住院老人和30-60岁健康人，找到了583个差异表达蛋白。其中37个蛋白质在百岁老人身上呈现出"更年轻"的特征，涉及细胞凋亡调控、代谢酶通路、免疫炎症反应和神经营养信号。重要的是：这不是"百岁老人不老"，他们依然虚弱、死亡率高——但研究者希望从他们身上找到哪些衰老过程最关键、最值得干预。这37个蛋白或许就是下一代抗衰药物研发的路标。
 
 ---
 
-**6. [雌激素暴露时间越长，65-80岁女性大脑越健康](https://www.news-medical.net/news/20260623/Lifetime-estrogen-exposure-linked-to-improved-brain-health-in-women.aspx)**
+**4. [AI多智能体框架BrainAgent：让脑电信号分析不再是专家的专利](https://papers.cool/arxiv/2606.25400)**
 
-堪萨斯大学追踪了459名65至80岁女性，发现一生中雌激素暴露时间越长（月经来得早、绝经晚、或使用激素替代），大脑健康指标越好。不是偶然，是系统性关联。对于讨论女性认知衰老和阿尔茨海默症预防策略，这是一块重要的拼图。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Hormone-620x480.jpg)
+以前分析脑电图（EEG）数据，需要神经科学背景加上编程能力，门槛高到劝退大多数人。BrainAgent换了个思路：用大语言模型驱动多个专门子智能体，把自然语言指令自动转化成完整的脑信号处理流程。一个中央"指挥官"智能体负责拆解任务、调度专业子智能体，端到端自动执行复杂分析。论文还建立了一套脑信号分析的系统性评测基准。对脑机接口（BCI）和临床神经监测来说，这意味着更多非专家团队能真正用上这些工具，而不是停留在"听说过"阶段。
 
 ---
 
-**7. [认知衰退的分子开关被找到了](https://www.news-medical.net/news/20260623/Researchers-identify-molecular-cause-of-age-related-cognitive-decline.aspx)**
+**5. [可穿戴设备听诊AI遇到真实场景：皮肤贴合传感器会让模型崩多惨？](https://papers.cool/arxiv/2606.25116)**
 
-Case Western Reserve大学和克利夫兰VA医疗中心联合宣布：找到了年龄相关认知衰退的一个关键分子机制。具体是什么分子，摘要没有完全披露，但研究者称"可能为保护大脑健康的新疗法铺路"。随着衰老机制研究密集爆发，大脑老化的干预靶点正在快速积累。
-
-![图片](https://www.news-medical.net/image-handler/picture/2017/1/HEALTHCARE_shutterstock_493063267_99928a5e003043f896998f01b025b9f6-620x480.jpg)
+手机录音做的呼吸声AI模型，贴到胸前的可穿戴传感器上，结果怎样？BCoughBench基准测试给出了一个让人清醒的答案：平均AUROC（区分疾病的准确率指标）从0.785直接跌到0.689-0.723；性别分类任务更夸张，准确率从0.954崩到0.596。测试覆盖了五种模拟皮肤贴合传感器的条件，没有一个模型达到临床灵敏度要求。好消息是年龄预测任务相对稳健。这篇论文用数据说明了一件事：实验室跑分漂亮的呼吸声AI，在真实可穿戴设备上可能完全不可用，临床落地前必须重新测。
 
 ---
 
-**8. [修复心脏的药，顺手治好了肾——ENPP1抑制剂意外开拓新适应症](https://www.fightaging.org/archives/2026/06/reduced-circulating-enpp1-improves-kidney-regeneration/)**
+**6. [联邦学习+单细胞免疫数据：跨医院分析不共享数据，现在真的可以做到了](https://papers.cool/arxiv/2606.24938)**
 
-有意思的跨器官故事：一款原本为心脏病后修复开发的单克隆抗体AD-NP1（刚获FDA批准进入1期临床），UCLA研究者发现它在肾损伤小鼠里同样有效——阻断ENPP1蛋白后，肾脏瘢痕少了，功能恢复快了。更值得期待的问题是：对衰老导致的慢性肾功能下降，这个机制还管用吗？答案还在路上。
-
----
-
-**9. [USC改良版地中海饮食让小鼠活得更久更健康](https://www.news-medical.net/news/20260623/USC-study-links-modified-Mediterranean-diet-to-longer-lifespan.aspx)**
-
-以植物和鱼为主、低蛋白，再搭配少量色氨酸（常见于鸡蛋、肉类和乳制品中的氨基酸），这套组合在小鼠实验里延长了健康寿命、降低了虚弱程度和脂肪量。发表在Cell Metabolism。从地中海饮食到"精调版地中海饮食"，营养与长寿的边界正在被一点点细化。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Protein-620x480.jpg)
+多家医院的免疫单细胞数据想联合分析，偏偏每家医院的患者数据都不能出门。联邦张量分解方法解决了这个两难：每家机构只把自己数据的"子空间"（数学上的低维压缩表示）发出去，协调节点用堆叠SVD合并，数学上等价于把所有数据集中处理。在261名系统性红斑狼疮患者的数据上，它恢复出的干扰素程序（免疫反应的核心特征）准确率达到0.998，跨机构、跨人种群体的表现几乎没有损失。隐私攻击测试也显示安全聚合将攻击成功率从0.91压到0.61。对AI制药公司来说，这套方法意味着可以在不触碰原始数据的情况下，联合全球多家医院的免疫数据训练更强的疾病模型。
 
 ---
 
-**10. [Medicare的AI审批系统：替医生省时间，还是给病人添堵？](https://medicalxpress.com/news/2026-06-medicare-ai-snarls-patients-doctors.html)**
+**7. [基因扰动后细胞会怎样反应？Stable-Shift让预测首次超越GEARS](https://papers.cool/arxiv/2606.24940)**
 
-一位65岁的牧场主，每季度开车2.5小时进城打一针硬膜外麻醉。Medicare（美国老年医疗保险）现在用AI系统来审批这类申请——结果是：大量误判、延误、医生被迫花更多时间对付算法而不是病人。这是医疗AI落地最真实的困境：算法优化了系统效率，却可能在个体层面制造新的痛苦。
+药物开发里有一个经典难题：改变某个基因后，细胞的整体基因表达会怎样变化？实验验证每个靶点既贵又慢。Stable-Shift用结构化方法预测"没见过的基因"被扰动后的转录响应：把训练数据的响应压缩成低秩基（一种数学骨架），再结合蛋白质互作网络、基因本体注释和控制细胞表达统计，用图卷积预测新基因的坐标。在K562细胞的Perturb-seq基准上，余弦相似度0.592，超过此前最强方法GEARS（0.569）。虽然提升幅度不大，但方向是对的——用生物学先验知识而非纯数据驱动来填补外推空缺，这个思路值得持续关注。
 
 ---
 
-## **📌 值得关注**
+**8. ["端粒河流"免疫疗法将启动人类一期临床试验](https://www.fightaging.org/archives/2026/06/the-telomere-rivers-approach-aiming-at-an-initial-academic-phase-1-trial/)**
 
-**[研究]** [表观遗传时钟作为表观漂移的定量读数](https://www.nature.com/articles/s43587-026-01152-9) — Nature Aging新论文，表观遗传时钟的理论框架再进化，衰老测量工具正在走向精细化
+听起来像科幻：往肌肉里注射一针，帮"老化"的免疫细胞（CD4+ T细胞）恢复年轻状态，让它们释放含端粒的结构体（被称为"端粒河流"），进而影响全身其他组织的健康？Sentcell公司就在做这件事，且一期临床试验预计今年内启动。要说有多大把握？作者自己也表示怀疑——小鼠实验的寿命延长幅度异常大，样本数量又少，历史上这类研究复现率堪忧。但有人愿意掏钱做人体安全性试验，说明至少有机构认为值得一试。这类试验最大的意义在于：用人体数据检验这个"端粒河流"机制是否真实存在。
 
-**[研究]** [血液代谢组揭示中年大脑健康：基因、微生物组和暴露组的交叉影响](https://www.nature.com/articles/s43587-026-01149-4) — 中年期血液代谢物如何预测大脑老化，多组学交叉分析，Nature Aging出品
+---
 
-**[研究]** [老年医学试验的分层终点与获胜统计](https://www.nature.com/articles/s43587-026-01158-3) — 抗衰老临床试验设计方法论更新，直接影响未来Geromedicine试验的标准制定
+**9. [重新"编码"大肠杆菌，GLP-1减肥药量产成本有望大幅降低](https://www.genengnews.com/topics/bioprocessing/recoded-e-coli-promises-more-scalable-weight-loss-drug-production/)**
 
-**[产品]** [VectorBuilder+MaxCyte联手打造新一代CAR-T细胞工程平台](https://www.genengnews.com/topics/bioprocessing/nextgen-platform-combines-vectorbuilder-and-maxcyte-technologies-to-boost-clinical-grade-cell-engineering/) — MiniVec质粒+Flow电穿孔，解决CAR-T规模化生产里的安全性和成本难题
+司美格鲁肽（GLP-1减肥药）为什么这么贵？因为生产它的化学合成工艺极难规模化，还会产生大量有毒废料。Constructive Bio重新编码了一株大肠杆菌（E. coli）——把合成蛋白质需要的密码子从64个减到61个，空出3个位置用于引入"非天然氨基酸"，这正是GLP-1类药物结构里的关键成分。这株工程菌可以用发酵工厂的标准流程生产，理论上扩到数千升级别。工业发酵结果已经显示出有希望的产量，相关数据将在波士顿生物工艺峰会上公布。能不能真正降低减肥药价格，还需要等实际量产数据，但这个技术路线本身值得关注。
 
-**[开源]** [猕猴前额叶皮层脑衰老转录组学数据集开源](https://github.com/mateomics/Macaca_mulatta_brain_aging_Transcriptomics_2026) — RNA-seq分析流程全套开放，做灵长类脑衰老研究的可以直接取用
+![图片](https://www.genengnews.com/wp-content/uploads/2026/06/Vivienne-20240228-v5-small-300x166.png)
+
+---
+
+**10. [AI辅助科研复现：效率提升4-6倍，但遇到模糊工作流就开始"摆烂"](https://papers.cool/arxiv/2606.25879)**
+
+一篇已发表的生命科学论文，能不能让AI把实验完整复现出来？研究团队在FABRIC国际测试平台上试了三个案例，其中包括压力蛋白稳态基因组学流程（典型的生命科学计算管线）。LLM编程助手在环境搭建、代码调试方面表现不错，复现工作量减少了4-6倍。但一旦遇到"分析阶段缺乏明确工作流定义"的情况，AI就开始需要人工介入来确认执行顺序。结论清晰：AI能加速科研复现，但不能替代研究者对实验逻辑的理解。对计算生物学团队来说，这套工具现在就可以用起来。
+
+---
+
+## **📌 值得关注（5条）**
+
+- **[研究]** [AI评估阿尔茨海默症相关数据中微生物组模型的鲁棒性](https://papers.cool/arxiv/2606.24995) — 六个肠道微生物组数据集测试显示，表格基础模型在真实扰动下性能普遍下降，零值插补破坏力最强，值得做微生物组AI研究的团队关注
+
+- **[研究]** [葡萄糖富集通过非自主DAF-2/胰岛素样受体信号加速线虫生殖衰老](https://www.nature.com/articles/s42003-026-10564-7) — 高糖加速衰老的机制研究，在秀丽隐杆线虫（C. elegans，衰老研究经典模型）中揭示了新信号通路，为限糖延寿研究添了一块拼图
+
+- **[研究]** [研究发现胆固醇调控的Ral依赖性新通路，已有Phase I安全性验证药物等待临床测试](https://www.genengnews.com/topics/drug-discovery/drug-targets-ldl-receptor-pathway-to-control-cholesterol/) — 完全独立于他汀类的新靶点，且候选药物早已完成人体安全测试，心血管领域的潜在新选项
+
+- **[研究]** [更年期症状负担：早发性卵巢功能不全与正常绝经期的系统性比较](https://www.news-medical.net/news/20260624/Study-compares-menopause-symptom-burden-across-different-age-groups.aspx) — 心理和泌尿生殖症状负担相似，但年龄差异下的个体经历可能被平均数据掩盖，对女性健康AI研究有参考价值
+
+- **[研究]** [骨质减少症（骨密度下降的早期阶段）在人群中被大量低估和漏诊](https://www.sciencedaily.com/releases/2026/06/260624025511.htm) — 无症状、难发现，骨折才知道——AI骨密度筛查工具有明显的临床需求缺口
 
 ---
 
@@ -128,52 +122,55 @@ Case Western Reserve大学和克利夫兰VA医疗中心联合宣布：找到了�
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 商业 | 加州生命科学产业：经济产值$3940亿，但三大集群就业同步下滑，"生物科技寒冬"持续 | [查看](https://www.genengnews.com/topics/translational-medicine/california-still-golden-despite-job-losses-industry-group/) |
-| 2 | 研究 | 机器人支持老年人居家健康：改善体能、平衡与社交信心的随机试验 | [查看](https://medicalxpress.com/news/2026-06-robots-health-older-people-trial.html) |
+| 1 | 研究 | 智能体系统作为压缩器：用信息论量化AI系统智能程度（含蛋白质序列压缩场景） | [查看](https://papers.cool/arxiv/2606.25960) |
+| 2 | 研究 | AI伴侣对认知发育风险的长期模拟评估：儿童和青少年是最脆弱群体 | [查看](https://papers.cool/arxiv/2606.25396) |
+| 3 | 护理 | 痴呆症护理中的语言细节：赞美的时机与方式如何影响患者配合 | [查看](https://medicalxpress.com/news/2026-06-dementia.html) |
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [修心脏的药跑去修肾了：科学家：我也没想到](https://www.fightaging.org/archives/2026/06/reduced-circulating-enpp1-improves-kidney-regeneration/)
+### [关节保健品葡萄糖胺：卖的是膝盖，坑的可能是大脑](https://lifespan.io/glycosylations-role-in-alzheimers-disease/)
 
-一款专门为心脏病后修复研发的抗体药物AD-NP1，UCLA研究者"顺手"拿来测了一下肾脏损伤——结果真的有效。网友评：这是科研界的"原来你也在这里"时刻。更离谱的是，科学家现在认真的问题是：它会不会还能用在其他器官？目前答案是：说不定。🫀➡️🫘
+"这东西对膝盖好" ——这句话让葡萄糖胺成了全球最畅销的保健品之一。结果今天一篇《Nature Metabolism》论文告诉你：阿尔茨海默症患者服用它，死亡风险升25%，病情进展快25%。研究者本人也说："美国有700万阿尔茨海默症患者，很多人正在吃一种可能让病情更快变差的保健品。" 这不是最讽刺的地方——最讽刺的是，葡萄糖胺促进糖基化的机制在健康大脑里完全没问题，正常人的大脑有自我保护机制……只有已经患病的大脑才会被它"火上浇油"。保健品行业需要好好看看这篇论文了。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/06/Alzheimers-MRI-262x187.jpg)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 生物年龄检测进入临床癌症风险筛查视野
+### 葡萄糖胺与痴呆症关联研究启动前瞻性临床验证
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：72%
-- **预测依据**：今日[华盛顿大学研究](https://lifespan.io/biological-aging-may-be-driving-increased-early-onset-cancers/)在Nature Medicine发表，PhenoAge与早发癌症的关联引发广泛关注 + 生物年龄标志物商业化（Elysium、TruDiagnostic等）正在加速，临床整合窗口已打开
+- **预测概率**：70%
+- **预测依据**：今日新闻[超糖基化是阿尔茨海默症代谢驱动因素](https://lifespan.io/glycosylations-role-in-alzheimers-disease/) + 研究作者明确呼吁设计严格临床试验，电子健康记录数据已显示强关联信号，监管机构和医学界关注度将快速上升
 
-### ENPP1抑制剂1期临床数据首次披露
+### CTSA抑制剂（胆固醇新靶点）进入Phase II概念验证试验
 - **预测时间**：2026年Q4
-- **预测概率**：65%
-- **预测依据**：今日[UCLA肾脏研究](https://www.fightaging.org/archives/2026/06/reduced-circulating-enpp1-improves-kidney-regeneration/)显示AD-NP1已获FDA批准进入1期临床 + 通常1期试验启动后6-9个月有初步安全性数据披露
-
-### 衰老细胞SASP靶向药物（XPO1通路）进入临床前验证加速期
-- **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日[Nature Aging论文](https://www.fightaging.org/archives/2026/06/dna-r-loops-in-the-cytoplasm-drive-senescent-cell-inflammatory-signaling/)明确了R-loop/XPO1/cGAS-STING通路在SASP中的作用，KPT-330已有临床使用先例（血液肿瘤适应症），抗衰老适应症的临床前研究很可能加速启动
+- **预测依据**：今日新闻[Ral依赖性胆固醇调控通路及CTSA抑制剂研究](https://www.genengnews.com/topics/drug-discovery/drug-targets-ldl-receptor-pathway-to-control-cholesterol/) + 候选药物SAR164653已完成Phase I安全性验证，研究者明确表示正寻求推进临床试验，路径比典型新药短得多
 
-### Sangamo核心技术资产拍卖结束，ZFN平台在礼来管线中重新"上岗"
+### AI脑电分析工具涌现，BCI临床场景适用性开始被系统评测
 - **预测时间**：2026年Q3
-- **预测概率**：78%
-- **预测依据**：今日[Sangamo破产新闻](https://www.genengnews.com/topics/genome-editing/gene-editing-pioneer-sangamo-files-for-chapter-11-bankruptcy-agrees-to-sell-assets/)显示礼来已是"stalking horse bidder"，破产拍卖流程通常在申请后60-90天完成，礼来整合ZFN平台后极可能将其应用于神经/代谢疾病基因疗法管线
+- **预测概率**：75%
+- **预测依据**：今日论文[BrainAgent多智能体脑信号分析框架](https://papers.cool/arxiv/2606.25400) + [BCoughBench可穿戴传感器基准](https://papers.cool/arxiv/2606.25116) 同日发布，说明领域已形成"建工具→建评测框架"的节奏，下一步自然是面向真实临床场景的系统性验证
+
+### 百岁老人蛋白质组研究锁定首批抗衰候选靶点
+- **预测时间**：2026年Q3
+- **预测概率**：55%
+- **预测依据**：今日新闻[SWISS100队列发现37个"更年轻"蛋白质特征](https://www.fightaging.org/archives/2026/06/fundamental-research-into-centenarian-biochemistry-continues/) + 近期多个长寿组学研究持续汇聚，TAME（二甲双胍抗衰老试验）联盟的标准蛋白集正在成为行业基准，后续药靶筛选节奏会加快
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI + 生物衰老 / 早发癌症 / 基因编辑 最新资讯？
+### 哪里可以获取 AI 制药、阿尔茨海默症机制研究、长寿生化进展 的最新资讯？
 
-今日热点包括：生物年龄加速与早发癌症的代际关联研究（Nature Medicine）、衰老细胞炎症信号的分子机制新发现（Nature Aging）、基因编辑先驱Sangamo破产后的资产流向。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：超糖基化作为阿尔茨海默症代谢驱动机制（葡萄糖胺风险警示）、百岁老人蛋白质组学揭示37个长寿相关蛋白、AI多智能体框架推动脑信号分析民主化。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型、衰老与长寿科学等
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
 - 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
 - 用普通人能理解的语言，解读最前沿的技术进展
 
@@ -181,14 +178,13 @@ Case Western Reserve大学和克利夫兰VA医疗中心联合宣布：找到了�
 
 ---
 
-### 如何用 AI 工具高效检索衰老与癌症相关的生命科学论文？
+### 如何体验适合科研和生命科学文献检索的 AI 工具？
 
-今日多篇核心研究来自 Nature Aging、Nature Medicine、Cell Metabolism 等顶级期刊，要追踪这类文献，仅靠 Google Scholar 已经不够用了。
+今日资讯中涉及大量需要深度文献检索和论文理解的场景——从《Nature Metabolism》阿尔茨海默症机制研究，到 arxiv 最新蛋白质扰动预测论文，光靠搜索引擎很难高效追踪。想要用 AI 工具加速阅读论文、整理研究进展，但面临账号注册或支付困难？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Consensus（专为论文检索设计的 AI 搜索引擎）、Perplexity、Claude、Gemini、Codex 等工具入口
-- Consensus 可以直接用自然语言提问（如"生物年龄和癌症风险的关系"），返回有据可查的研究摘要
-- 覆盖官方号、中转额度、多模型组合包，支持科研检索和资料整理全流程
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、Perplexity、Consensus 等适合科研检索和文献理解的 AI 工具入口
+- Consensus 专为论文检索设计，Perplexity 擅长实时资讯整合，Claude 和 Gemini 适合长文阅读和逻辑推理
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整的 AI 工具服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
