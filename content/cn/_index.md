@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/29
+title: AI生命延续学日报 2026/6/30
 breadcrumbs: false
-next: /2026-06/2026-06-29
+next: /2026-06/2026-06-30
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Insilico Medicine 今年第二笔大单落地，与韩国 SK 达成25亿美元神经免疫 AI 新药合作。
-声音也能筛查老年痴呆——语音 AI 检测框架医生可用性评分82分，无创早筛要来了。
-AI 制药从概念变真金白银，今天这条融资值得认真看。
+Tecan 把 NVIDIA AI 智能体塞进实验室平台，实验故障从"事后报警"变成"提前拦截"。
+内脏脂肪让细胞老得比实际年龄更快，体重正常不代表生物钟没在偷跑。
+今天衰老研究扎堆，从肚子到基因，生物年龄赛道值得持续盯着。
 ```
 
 
@@ -29,130 +29,98 @@ AI 制药从概念变真金白银，今天这条融资值得认真看。
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-Insilico Medicine 今年第二笔数十亿美元大单落地——AI 制药，正在从"fairy tale"变成"production level"。
+腹部脂肪正在悄悄加速你的生物年龄——比你的出生年份更"老"。
 
 ### **🔑 3 个关键词**
-#AI制药 #神经免疫 #认知障碍检测
+#AI实验室自动化 #生物衰老 #阿尔茨海默风险重估
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [Insilico + SK 达成高达25亿美元神经免疫AI药物合作](https://www.genengnews.com/topics/artificial-intelligence/insilico-sk-launch-up-to-2-5b-neuroimmune-ai-drug-collaboration/)**
+**1. [实验室装上"大脑"：Tecan 把 NVIDIA BioNeMo 智能体塞进了分析平台](https://www.genengnews.com/topics/artificial-intelligence/tecan-integrates-agentic-ai-into-its-introspect-lab-analytics-platform/)**
 
-今年才过一半，Insilico 已经谈成了两笔加起来超过50亿美元的合作。这次是跟韩国 SK Biopharmaceuticals 联手，用 Pharma.AI 平台专攻神经免疫（CNS领域里公认最难啃的骨头）。神经免疫药物要穿透血脑屏障还得高安全性，Insilico 创始人 Zhavoronkov 直说："这是最难的疾病领域之一。"但他们敢接。SK 负责临床开发和商业化，Insilico 负责发现和优化候选药物——分工清晰，赌注很大。
-
----
-
-**2. [从黑盒到临床洞察：基于语音的认知障碍可解释检测框架](https://papers.cool/arxiv/2606.27973)**
-
-想象一下：医生不用抽血、不用做昂贵的脑部扫描，只需要录一段患者说话的声音，AI 就能判断认知是否受损，还能给出"这个词用得怎么样、句子逻辑如何"这样临床医生看得懂的解释。这个框架把大模型 LLaMA-3.1-70B 嵌入四阶段推理流程，F1 达到 72.11%，医生可用性评分 82/100。不再是黑盒，临床可落地。
+以前实验室出了问题，是"出事 → 报警 → 人来修"。现在 Tecan 把 NVIDIA BioNeMo Agent Toolkit 集成进 Introspect 平台，AI 智能体会**持续盯着数据流**，在问题影响实验结果之前主动干预。制药、生物技术、临床实验室都是目标场景。早期访问已开放。这不是噱头——从被动响应到主动预判，这一步实验室等了很久了。
 
 ---
 
-**3. [PerturbCellRL：用强化学习预测单细胞基因扰动反应](https://papers.cool/arxiv/2606.27752)**
+**2. [腹部脂肪研究：肚子大，生物钟转得更快](https://medicalxpress.com/news/2026-06-excess-belly-fat-linked-faster.html)**
 
-药物筛选最烧钱的环节，就是把每种化合物一个个扔进细胞里看反应。PerturbCellRL 用强化学习训练 AI，预测基因或化学扰动后细胞的转录组变化（可以理解为：细胞被"刺激"后哪些基因会开关）。关键创新是引入生物通路验证器，确保预测结果符合已知生物规律，不是乱猜的。AI 辅助靶点筛选，实验量有望大幅压缩。
-
----
-
-**4. [PairSAE：解读蛋白质共折叠基础模型的内部机制](https://papers.cool/arxiv/2606.27440)**
-
-AlphaFold 能预测蛋白质结构，但为什么它这么预测，没人说得清楚。PairSAE 专门来解决这个问题——用稀疏自编码器分析 Boltz-2 模型的内部表示，把模型"思考"的方式翻译成人类能理解的结构特征，并与 UniProt 数据库注释高度吻合。对做蛋白质设计的人来说，弄懂 AI 在想什么，才能真正信任它。
+不是说你"看起来老"，而是细胞层面真的老得更快。西澳大学的研究发表在《Obesity》期刊，发现内脏脂肪（藏在腹腔深处的那种，不是捏得到的皮下肥肉）会独立于整体肥胖之外，加速中年人的**生物衰老进程**（biological aging，即细胞、器官实际老化的速度）。体重秤上的数字骗得了你，但你的细胞骗不了。
 
 ---
 
-**5. [量子自编码器检测脑部 MRI 异常，AUC 达 0.95](https://papers.cool/arxiv/2606.27411)**
+**3. [30年后重算一遍：日本人 APOE-e4 纯合子的阿尔茨海默风险，没那么高？](https://medicalxpress.com/news/2026-06-years-reappraisal-alzheimer-disease-japanese.html)**
 
-脑肿瘤早发现是关键，但影像读片高度依赖放射科医生经验。这项研究把量子计算引入脑 MRI 异常检测——量子自编码器（QAE）学习"正常脑组织长什么样"，异常区域压缩不了就被揪出来，切片级 AUC 约 0.95，优于经典自编码器。量子机器学习 + 医学影像，这个组合还很新鲜，但数字很亮眼。
-
----
-
-**6. [CNN + ResNet 自动检测脑肿瘤，准确率 97%](https://papers.cool/arxiv/2606.27405)**
-
-3929 张脑部 MRI、两个预训练模型 ResNet18 和 ResNet50，结果 ResNet18 以 97% 准确率略胜更深的 ResNet50（96%）。说明在医疗数据有限的场景下，模型并不是越大越好。框架已开源，可以直接接入临床决策支持流程，快速、低成本、早诊断。
+APOE-e4 是目前已知最强的阿尔茨海默遗传风险基因，带两个拷贝（纯合子，e4/e4）风险更高。但问题是：1990 年代的日本数据一直被引用至今，近 30 年没人系统重新评估过。新潟大学团队发表在《Molecular Neurodegeneration》的研究终于补上了这一课——风险依然显著，但**比旧数据估计的要低**。对基因检测结果的解读，这是一个重要修正。
 
 ---
 
-**7. [单细胞 RNA 测序重建人脂肪细胞发育轨迹](https://papers.cool/arxiv/2606.27657)**
+**4. [看视力表看不清第六行？可能是身体在发出早期警报](https://medicalxpress.com/news/2026-06-letters-early-clue-aging-eyes.html)**
 
-肥胖为什么难治？因为脂肪细胞怎么"长大"的，我们一直没看清楚。这项研究用单细胞测序技术，在脂肪组织样本中识别出 15 个转录状态（含 7 个过渡态），发现 IGF 和 FGF 信号通路是贯穿分化全程的核心网络。搞清楚这条路，才有可能在对的节点干预代谢疾病。
-
----
-
-**8. [白天光照越亮，痴呆风险越低](https://www.news-medical.net/news/20260629/Brighter-daytime-light-is-linked-to-a-lower-dementia-risk.aspx)**
-
-这个结论很反直觉：不是吃什么药，而是每天晒多少光，可能影响你老了之后会不会痴呆。研究发现白天强光照能强化昼夜节律，进而保护认知功能。可穿戴设备正好能追踪光照暴露量——这条线索对 AI 健康监测产品很有参考价值。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_841182_17827285815396629.jpg)
+不是让你去配眼镜。密歇根大学发表在《JAMA Ophthalmology》的研究发现，Pelli-Robson 对比敏感度视力表上超过六行看不清，是一个常规眼科检查容易漏掉的**日常视觉功能下降信号**。老年人日常生活中"看不清"的问题，靠标准视力检查往往发现不了。这个阈值，值得写进体检清单里。
 
 ---
 
-**9. [女性帕金森病患者或对阿尔茨海默病理更脆弱](https://www.news-medical.net/news/20260628/Women-with-Parkinsons-may-be-more-vulnerable-to-Alzheimers-pathology.aspx)**
+**5. [GitHub 开源：甲基化时钟 + 长寿变异注释工具包来了](https://github.com/IBAR-ROGEN/Aging)**
 
-欧洲神经病学学会 2026 年会上的最新发现：同样是帕金森病，女性患者脑内出现阿尔茨海默相关病理改变的概率更高。这意味着"一刀切"的神经退行性疾病诊疗策略值得重新审视。AI 做脑病风险分层时，性别因素不能忽略。
-
-![图片](https://www.news-medical.net/image-handler/picture/2015/7/image_28620e4b6b0047f7ab9154b41d739db1-620x480.jpg)
+小项目，但值得注意。IBAR-ROGEN 团队开源了一套衰老生物信息学分析工具，覆盖**甲基化衰老时钟**（methylation aging clock，通过 DNA 甲基化模式估算生物年龄）、长寿相关基因变异注释、人类基因组数据等位基因频率比较。Stars 还少，但这正是早期关注的好时机——衰老时钟是当下 AI 生命科学最热的基础设施之一。
 
 ---
 
-**10. [两阶段微调蛋白质语言模型：精准控制氨基酸组成](https://papers.cool/arxiv/2606.27939)**
+**6. [多肽（Peptide）热潮：背后的科学到底站不站得住脚？](https://www.nature.com/articles/d41586-026-02063-w)**
 
-用 AI 设计蛋白质时，"让生成结果满足特定营养成分要求"这件事一直很难做到。这篇论文提出先做领域微调、再用强化学习强化约束的两阶段方法，成功让生成的蛋白质序列匹配目标氨基酸比例——背景是合成饲料蛋白设计，但这套框架对医疗级蛋白质工程同样有参考价值。
+朋友圈里卖多肽的越来越多，声称抗衰、增肌、修复各种东西。《Nature》出了一篇长文（音频版）认真拆解这个问题。多肽（peptide，简单说就是短链氨基酸，比蛋白质小）确实有真实的生物活性，但商业化产品和临床证据之间的鸿沟有多大？值得花时间听一听，再决定要不要买单。
+
+---
+
+> **📝 今日素材说明**：今日收到素材共 6 条，其中 1 条（IBAR-ROGEN/Aging）为 GitHub 项目（1 Star，权威性较低），1 条 Nature 音频文章摘要为空。TOP 10 优先以 AI+生命科学交叉领域为准，今日满足硬性门槛的高质量条目共 6 条，已全部收录，不强行凑数。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [干细胞疗法现状综述](https://www.fightaging.org/archives/2026/06/a-review-of-the-state-of-stem-cell-therapies/) - 衰老干细胞复原策略大盘点，senolytic 药物（如槲皮素、非瑟酮）让老化干细胞焕发再生能力，可行性远超表观遗传重编程
+**[研究]** [腹部脂肪与生物衰老加速](https://medicalxpress.com/news/2026-06-excess-belly-fat-linked-faster.html) — 内脏脂肪影响衰老速率，减肥不只是为了好看
 
-**[研究]** [G9a 缺乏加速肌肉再生](https://www.fightaging.org/archives/2026/06/g9a-deficiency-increases-muscle-regeneration/) - 发现 IL13 + musclin 的协同通路，GLP-1 大规模使用带来的肌肉流失难题或有新解法
-
-**[研究]** [鱼油补剂对大脑无益？两年研究给出否定答案](https://www.sciencedaily.com/releases/2026/06/260622014300.htm) - 每年几十亿美元的市场，新研究说记忆和认知没有改善，补剂党可能要重新考虑策略了
-
-**[研究]** [线粒体质量控制与人类衰老长寿](https://www.nature.com/articles/s42255-026-01563-3) - Nature 子刊综述，线粒体健康是抗衰的底层逻辑之一，背景文献值得精读
-
-**[研究]** [CANNs 工具包：大脑编码连续变量的神经网络研究框架](https://papers.cool/arxiv/2606.27783) - 专为海马体位置细胞、网格细胞研究设计的开源工具，脑机接口方向的研究者可关注
+**[研究]** [多肽热潮背后的科学](https://www.nature.com/articles/d41586-026-02063-w) — Nature 亲自下场拆解，这期值得存起来慢慢听
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [每天吃鱼油补脑？两年后发现：大脑说"没用"](https://www.sciencedaily.com/releases/2026/06/260622014300.htm)
+### [30 年前的数据"统治"了三十年，今天终于被推翻一角](https://medicalxpress.com/news/2026-06-years-reappraisal-alzheimer-disease-japanese.html)
 
-数以百万计的人每天早上坚持吞下黄色鱼油胶囊，配着水，觉得自己在为大脑续命。新研究浇了盆冷水：两年临床观察，omega-3 确实到达了大脑，但记忆力、认知能力、阿尔茨海默相关脑部变化……全没改善。网友感想：我吞了三年，补的是安慰剂？研究者最后建议：还是去改善整体饮食和生活方式吧。🐟
+1990 年代的一批日本数据，愣是被全球引用了将近 30 年没人认真复核过。新潟大学团队这次补做了"作业"，发现风险虽然还在，但没当年说的那么吓人。网友表示：所以这三十年很多基因咨询都算错了？医学界表示：……我们去查一下其他同款老数据。😅
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### Insilico "prompt-to-drug" 平台公开亮相
+### AI 实验室自动化平台进入"主动预警"标配时代
+
+- **预测时间**：2026年Q3
+- **预测概率**：75%
+- **预测依据**：今日新闻 [Tecan Integrates Agentic AI Into Its Introspect Lab Analytics Platform](https://www.genengnews.com/topics/artificial-intelligence/tecan-integrates-agentic-ai-into-its-introspect-lab-analytics-platform/) + Tecan 与 NVIDIA 的合作预示主流实验室设备厂商正在将 AI 智能体从"分析工具"升级为"主动干预系统"，预计 2026 年 Q3 将有更多竞争对手跟进发布类似功能
+
+### 生物年龄时钟工具开源项目数量激增
+
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Insilico+SK合作](https://www.genengnews.com/topics/artificial-intelligence/insilico-sk-launch-up-to-2-5b-neuroimmune-ai-drug-collaboration/) 中，Zhavoronkov 明确表示将推出"complete rewall"（全新平台），并声称"lab 层面超级智能已存在"，结合今年密集的商业化动作，平台发布公告大概率在下半年早期落地
+- **预测依据**：今日项目 [IBAR-ROGEN/Aging](https://github.com/IBAR-ROGEN/Aging) + 甲基化衰老时钟正成为 AI 生命科学研究基础设施热点，近期多个团队相继开源相关工具，预计未来 1-2 个月将出现更多此类项目
 
-### Insilico rentosertib IPF 下一阶段试验宣布
-- **预测时间**：2026年7-8月
-- **预测概率**：75%
-- **预测依据**：今日新闻中 Zhavoronkov 原话："It's in the second half, but maybe closer to the earlier second half"，中国 Phase IIa 已完成且结果积极，推进信号非常明确
+### APOE 基因风险评估框架迎来系统性修订
 
-### AI 辅助认知障碍语音筛查工具进入临床验证
 - **预测时间**：2026年Q3-Q4
 - **预测概率**：55%
-- **预测依据**：今日论文 [语音认知障碍检测框架](https://papers.cool/arxiv/2606.27973) 医生可用性评分达 82/100，已具备临床集成条件；全球老龄化压力下，无创认知筛查需求迫切，商业化验证节奏预计加速
-
-### AI 神经退行性疾病药物出现性别分层研究设计
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日新闻 [女性帕金森与阿尔茨海默病理关联](https://www.news-medical.net/news/20260628/Women-with-Parkinsons-may-be-more-vulnerable-to-Alzheimers-pathology.aspx) 揭示性别差异显著；随着 AI 风险分层能力提升，制药公司在 CNS 临床设计中纳入性别维度的压力正在加大
+- **预测依据**：今日新闻 [Thirty years later: A reappraisal of Alzheimer's disease risk in Japanese APOE-e4 homozygotes](https://medicalxpress.com/news/2026-06-years-reappraisal-alzheimer-disease-japanese.html) + 针对不同族裔的 APOE 风险数据长期依赖旧有研究，随着大规模基因组数据库积累，各族群个性化风险评估框架的更新窗口已打开
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药 / 神经免疫药物 / 认知障碍 AI 检测 的最新资讯？
+### 哪里可以获取 AI 制药、生物衰老、实验室自动化的最新资讯？
 
-今日 AI 生命科学热点包括：Insilico Medicine 与 SK 的25亿美元 AI 药物合作、语音认知障碍可解释检测框架、以及量子自编码器脑肿瘤检测新突破。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：**AI 智能体进入实验室分析平台（Tecan × NVIDIA BioNeMo）**、**内脏脂肪加速生物衰老的新证据**、以及**阿尔茨海默遗传风险的 30 年数据重估**。想持续追踪这类 AI + 生命科学交叉领域的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -164,9 +132,9 @@ AlphaFold 能预测蛋白质结构，但为什么它这么预测，没人说得�
 
 ---
 
-### 如何体验 Claude / Gemini 等 AI 工具辅助生命科学研究？
+### 如何体验 Claude、Perplexity、Consensus 等适合科研检索的 AI 工具？
 
-今日多篇论文（蛋白质设计、单细胞分析、认知障碍检测）都依赖大语言模型做推理和解释，Claude、Gemini、Codex 等工具在科研文献整理和数据分析中正变得越来越实用。国内用户面临支付或注册限制？
+今日资讯涉及 Nature 音频长文、甲基化时钟开源项目、基因风险重估等内容——这类科研资料的整理和深度检索，正是 Claude、Consensus、Perplexity 最擅长的场景。想体验这些工具，但面临支付困难或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
