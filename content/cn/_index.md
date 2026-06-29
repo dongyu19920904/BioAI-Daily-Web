@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/6/28
+title: AI生命延续学日报 2026/6/29
 breadcrumbs: false
-next: /2026-06/2026-06-27
+next: /2026-06/2026-06-29
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-NIH 首次绘出人体17种组织"僵尸细胞"精确分布图，靶向清除疗法终于有了坐标。
-百岁老人血液锁定37个"逆龄蛋白"，FGF21基因疗法让老鼠全身返老还童，长寿干预进入靶点爆发期。
-今天这期含金量很高，关注抗衰赛道的人建议从头看到尾。
+Insilico Medicine 今年第二笔大单落地，与韩国 SK 达成25亿美元神经免疫 AI 新药合作。
+声音也能筛查老年痴呆——语音 AI 检测框架医生可用性评分82分，无创早筛要来了。
+AI 制药从概念变真金白银，今天这条融资值得认真看。
 ```
 
 
@@ -29,130 +29,134 @@ NIH 首次绘出人体17种组织"僵尸细胞"精确分布图，靶向清除疗
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-NIH 首次绘制出人类衰老"僵尸细胞"全身地图，17种组织同时开盘，靶向清除时代正式开幕。
+Insilico Medicine 今年第二笔数十亿美元大单落地——AI 制药，正在从"fairy tale"变成"production level"。
 
 ### **🔑 3 个关键词**
-#细胞衰老图谱 #生物年龄时钟 #长寿干预
+#AI制药 #神经免疫 #认知障碍检测
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [NIH 首次完成人类细胞衰老全身图谱，17种组织同步绘制](https://www.fightaging.org/archives/2026/06/mapping-the-burden-of-cellular-senescence-in-aged-humans-in-detail/)**
+**1. [Insilico + SK 达成高达25亿美元神经免疫AI药物合作](https://www.genengnews.com/topics/artificial-intelligence/insilico-sk-launch-up-to-2-5b-neuroimmune-ai-drug-collaboration/)**
 
-你知道身体里有一种"僵尸细胞"吗？它们停止分裂，但拒绝死亡，还不停释放有毒信号搅乱周围组织。NIH SenNet 联盟这次一口气绘出了 17 种人体组织里这些细胞的分布地图，精确到单细胞级别。更关键的是：他们发现衰老不是一个统一程序，而是按组织、触发原因各自演化的"多版本系统"。这张图谱，相当于给靶向清除衰老细胞的疗法提供了精确坐标。清除战争，开始有了地图。
-
----
-
-**2. [FGF21 基因疗法让老年小鼠"全身返老还童"](https://www.fightaging.org/archives/2026/06/fgf21-gene-therapy-improves-health-in-aged-mice/)**
-
-一针打进肌肉，然后呢？老年小鼠的体重正常了，胰岛素敏感了，肾病逆转了，心脏更健康了，认知也改善了——几乎全身器官同步受益。这用的是 AAV 病毒载体（一种专门用来递送基因的工具），把 FGF21 这个"热量限制核心调控因子"直接送进细胞持续表达。等于用基因工程模拟了严格节食的全身效果，但你不需要真的挨饿。距离人体试验还有距离，但动物数据实在太漂亮。
+今年才过一半，Insilico 已经谈成了两笔加起来超过50亿美元的合作。这次是跟韩国 SK Biopharmaceuticals 联手，用 Pharma.AI 平台专攻神经免疫（CNS领域里公认最难啃的骨头）。神经免疫药物要穿透血脑屏障还得高安全性，Insilico 创始人 Zhavoronkov 直说："这是最难的疾病领域之一。"但他们敢接。SK 负责临床开发和商业化，Insilico 负责发现和优化候选药物——分工清晰，赌注很大。
 
 ---
 
-**3. [41项人类干预研究汇总：哪些东西真的能让表观遗传年龄变年轻？](https://www.fightaging.org/archives/2026/06/a-list-of-interventions-known-to-reduce-epigenetic-age-in-humans/)**
+**2. [从黑盒到临床洞察：基于语音的认知障碍可解释检测框架](https://papers.cool/arxiv/2606.27973)**
 
-这是目前最全的一份人类"逆龄干预清单"。研究者系统梳理了 41 项人体研究，找到能降低下一代表观遗传时钟（衡量生物年龄的算法）的干预手段：运动、富含植物的饮食、GLP-1 药物司美格鲁肽、热量限制、欧米伽-3、复合维生素等都有效。有意思的反例：烟酰胺核糖苷（NR）、雷帕霉素、抗衰老药（senolytic）没有检测到效果，血浆置换甚至加速了表观遗传衰老。这份清单，是目前最接近"有据可查的逆龄操作手册"的东西。
-
----
-
-**4. [XPO1 抑制剂能关掉衰老细胞的"炎症广播"](https://www.fightaging.org/archives/2026/06/dna-r-loops-in-the-cytoplasm-drive-senescent-cell-inflammatory-signaling/)**
-
-衰老细胞为什么这么有害？核心原因是它们持续释放炎症信号（SASP），毒害周围组织。研究者这次找到了一个新机制：衰老细胞会把细胞核里的 R-loop（一种三链核酸结构）导出到细胞质，激活 cGAS-STING 炎症通路持续报警。用 KPT-330（一种 XPO1 抑制剂）堵住这个"出口"，小鼠的炎性衰老明显减轻，寿命延长。不用杀死衰老细胞，只需关掉它的"扩音器"——这个思路很有意思。
+想象一下：医生不用抽血、不用做昂贵的脑部扫描，只需要录一段患者说话的声音，AI 就能判断认知是否受损，还能给出"这个词用得怎么样、句子逻辑如何"这样临床医生看得懂的解释。这个框架把大模型 LLaMA-3.1-70B 嵌入四阶段推理流程，F1 达到 72.11%，医生可用性评分 82/100。不再是黑盒，临床可落地。
 
 ---
 
-**5. [从治心脏病的药，意外发现可以修复受损肾脏](https://www.fightaging.org/archives/2026/06/reduced-circulating-enpp1-improves-kidney-regeneration/)**
+**3. [PerturbCellRL：用强化学习预测单细胞基因扰动反应](https://papers.cool/arxiv/2606.27752)**
 
-AD-NP1 本来是针对心肌梗死后心脏修复开发的单克隆抗体，已获 FDA 批准进入人体一期临床试验。科学家发现，它靶向的蛋白 ENPP1 在肾损伤后同样大量分泌，阻断它能显著加速肾组织修复、减少纤维化。老鼠实验中，肾功能指标4周内大幅恢复。一个药，两个器官，逻辑相通——背后是同一条"修复阻断"机制。对慢性肾病患者来说，这个方向值得关注。
-
----
-
-**6. [Klotho 蛋白：大脑抗衰的"稳定器"，机制综述来了](https://www.fightaging.org/archives/2026/06/reviewing-what-is-known-of-klotho-in-brain-aging/)**
-
-这篇综述把 Klotho 蛋白的角色说得很清楚：它不是针对某种特定神经退行性疾病的，而是同时稳定大脑里的钙信号、线粒体功能、神经炎症、髓鞘修复等多条核心通路。Klotho 水平下降，几乎所有神经退行性疾病的风险都会升高。目前已有公司在开发基于 Klotho 片段或基因疗法的产品。如果你关注阿尔茨海默症或认知衰退，这个靶点值得放进关注名单。
+药物筛选最烧钱的环节，就是把每种化合物一个个扔进细胞里看反应。PerturbCellRL 用强化学习训练 AI，预测基因或化学扰动后细胞的转录组变化（可以理解为：细胞被"刺激"后哪些基因会开关）。关键创新是引入生物通路验证器，确保预测结果符合已知生物规律，不是乱猜的。AI 辅助靶点筛选，实验量有望大幅压缩。
 
 ---
 
-**7. [表观遗传衰老时钟延伸到 25 种免疫细胞亚型，精度大幅提升](https://www.fightaging.org/archives/2026/06/a-chromatin-accessibility-aging-clock-assessed-in-many-different-immune-cell-types/)**
+**4. [PairSAE：解读蛋白质共折叠基础模型的内部机制](https://papers.cool/arxiv/2606.27440)**
 
-以前的衰老时钟大多用混合血液样本，分辨率像素很低。这次研究者用单细胞染色质可及性技术（可以理解为：单细胞分辨率的基因"开关状态"扫描），把衰老时钟的精度延伸到 25 种免疫细胞亚型。最准的那个？CD4+ 初始 T 细胞。原因也很直观：这类细胞几乎不受外部抗原干扰，染色质变化主要反映的就是内在衰老程序。生物年龄检测的精度，正在从人群统计走向个体画像。
-
----
-
-**8. [长寿险公司视角：表观遗传时钟现在值得用来给人定价吗？](https://www.fightaging.org/archives/2026/06/an-insurance-industry-viewpoint-on-the-utility-of-aging-clocks/)**
-
-保险公司对"能不能用生物年龄给人重新定价"这件事研究得比大多数人认真。结论有点扎心：**目前还不行**。现有表观遗传时钟是统计模型，设计目标是群体层面准确，落到个人身上误差很大；而且预测死亡风险的能力，暂时还赢不过传统指标（年龄、血压、BMI、吸烟史）。对创业者来说，这篇文章说清楚了一个很重要的市场准入门槛：时钟要真正商业化，需要先在个体层面证明自己。
+AlphaFold 能预测蛋白质结构，但为什么它这么预测，没人说得清楚。PairSAE 专门来解决这个问题——用稀疏自编码器分析 Boltz-2 模型的内部表示，把模型"思考"的方式翻译成人类能理解的结构特征，并与 UniProt 数据库注释高度吻合。对做蛋白质设计的人来说，弄懂 AI 在想什么，才能真正信任它。
 
 ---
 
-**9. [百岁老人血液里有 37 种蛋白质"逆龄"，新靶点正在浮现](https://www.fightaging.org/archives/2026/06/fundamental-research-into-centenarian-biochemistry-continues/)**
+**5. [量子自编码器检测脑部 MRI 异常，AUC 达 0.95](https://papers.cool/arxiv/2606.27411)**
 
-SWISS100 队列研究对百岁老人的血液蛋白质组做了系统分析，与 80-90 岁住院老人、30-60 岁健康人三组对比，找出 583 个差异蛋白。其中 37 个蛋白质在百岁老人中呈现出比实际年龄"更年轻"的特征，主要涉及细胞程序性死亡调控、代谢酶通路、细胞外基质稳定性和神经营养信号。这不是"百岁老人基因彩票"研究，而是在找可以主动干预的生化靶点。药物开发者应该盯着这 37 个蛋白。
+脑肿瘤早发现是关键，但影像读片高度依赖放射科医生经验。这项研究把量子计算引入脑 MRI 异常检测——量子自编码器（QAE）学习"正常脑组织长什么样"，异常区域压缩不了就被揪出来，切片级 AUC 约 0.95，优于经典自编码器。量子机器学习 + 医学影像，这个组合还很新鲜，但数字很亮眼。
 
 ---
 
-**10. [运动保护大脑的核心机制锁定：线粒体质量控制](https://www.fightaging.org/archives/2026/06/exercise-acts-on-mitochondrial-quality-control-to-slow-brain-aging/)**
+**6. [CNN + ResNet 自动检测脑肿瘤，准确率 97%](https://papers.cool/arxiv/2606.27405)**
 
-运动为什么能延缓大脑衰老？这篇综述给出了目前最清晰的机制链条：运动激活 AMPK/SIRT1/PGC-1α 通路，推动线粒体新生；同时通过 cAMP/PKA/Drp1 和 AMPK/mTOR 调控线粒体的分裂融合与自噬清除。简单说：运动帮大脑的"发电厂"完成新陈代谢，淘汰废旧设备，换上新机组。这也解释了为什么运动模拟药物（exercise mimetics）是目前抗衰领域最值得开发的方向之一——找到激活这条通路的分子，就是找到"不用跑步的运动"。
+3929 张脑部 MRI、两个预训练模型 ResNet18 和 ResNet50，结果 ResNet18 以 97% 准确率略胜更深的 ResNet50（96%）。说明在医疗数据有限的场景下，模型并不是越大越好。框架已开源，可以直接接入临床决策支持流程，快速、低成本、早诊断。
+
+---
+
+**7. [单细胞 RNA 测序重建人脂肪细胞发育轨迹](https://papers.cool/arxiv/2606.27657)**
+
+肥胖为什么难治？因为脂肪细胞怎么"长大"的，我们一直没看清楚。这项研究用单细胞测序技术，在脂肪组织样本中识别出 15 个转录状态（含 7 个过渡态），发现 IGF 和 FGF 信号通路是贯穿分化全程的核心网络。搞清楚这条路，才有可能在对的节点干预代谢疾病。
+
+---
+
+**8. [白天光照越亮，痴呆风险越低](https://www.news-medical.net/news/20260629/Brighter-daytime-light-is-linked-to-a-lower-dementia-risk.aspx)**
+
+这个结论很反直觉：不是吃什么药，而是每天晒多少光，可能影响你老了之后会不会痴呆。研究发现白天强光照能强化昼夜节律，进而保护认知功能。可穿戴设备正好能追踪光照暴露量——这条线索对 AI 健康监测产品很有参考价值。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_841182_17827285815396629.jpg)
+
+---
+
+**9. [女性帕金森病患者或对阿尔茨海默病理更脆弱](https://www.news-medical.net/news/20260628/Women-with-Parkinsons-may-be-more-vulnerable-to-Alzheimers-pathology.aspx)**
+
+欧洲神经病学学会 2026 年会上的最新发现：同样是帕金森病，女性患者脑内出现阿尔茨海默相关病理改变的概率更高。这意味着"一刀切"的神经退行性疾病诊疗策略值得重新审视。AI 做脑病风险分层时，性别因素不能忽略。
+
+![图片](https://www.news-medical.net/image-handler/picture/2015/7/image_28620e4b6b0047f7ab9154b41d739db1-620x480.jpg)
+
+---
+
+**10. [两阶段微调蛋白质语言模型：精准控制氨基酸组成](https://papers.cool/arxiv/2606.27939)**
+
+用 AI 设计蛋白质时，"让生成结果满足特定营养成分要求"这件事一直很难做到。这篇论文提出先做领域微调、再用强化学习强化约束的两阶段方法，成功让生成的蛋白质序列匹配目标氨基酸比例——背景是合成饲料蛋白设计，但这套框架对医疗级蛋白质工程同样有参考价值。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [大脑连接组可以预测握力，物理衰弱有神经根源](https://www.fightaging.org/archives/2026/06/features-of-the-brain-connectome-are-predictive-of-grip-strength/) - 手握力弱不只是肌肉问题，大脑功能网络的特征同样能预测，衰弱评估可能需要加入脑影像维度
+**[研究]** [干细胞疗法现状综述](https://www.fightaging.org/archives/2026/06/a-review-of-the-state-of-stem-cell-therapies/) - 衰老干细胞复原策略大盘点，senolytic 药物（如槲皮素、非瑟酮）让老化干细胞焕发再生能力，可行性远超表观遗传重编程
 
-**[研究]** [运动通过多条通路逆转免疫衰老，综述梳理最新机制](https://www.fightaging.org/archives/2026/06/reviewing-exercise-and-exercise-mimetics-as-an-approach-to-slow-aging/) - NET负担、IGF-1信号、肠道菌群……运动的抗衰机制比想象中宽，运动模拟药物开发有了新方向
+**[研究]** [G9a 缺乏加速肌肉再生](https://www.fightaging.org/archives/2026/06/g9a-deficiency-increases-muscle-regeneration/) - 发现 IL13 + musclin 的协同通路，GLP-1 大规模使用带来的肌肉流失难题或有新解法
 
-**[研究]** [LRP5 蛋白是新型抗血栓靶点，副作用比阿司匹林小得多](https://www.fightaging.org/archives/2026/06/a-better-approach-to-reducing-thrombosis-risk/) - 老年心血管病的血栓预防一直被出血风险困扰，这个WNT信号通路新靶点有望打破两难困境
+**[研究]** [鱼油补剂对大脑无益？两年研究给出否定答案](https://www.sciencedaily.com/releases/2026/06/260622014300.htm) - 每年几十亿美元的市场，新研究说记忆和认知没有改善，补剂党可能要重新考虑策略了
 
-**[研究]** [黄斑变性与癌症风险相关：背后是同一套衰老机制在作怪](https://www.fightaging.org/archives/2026/06/why-does-the-presence-of-neovascular-macular-degeneration-correlate-with-increased-cancer-risk/) - 眼睛和肿瘤看似风马牛，共同的炎性衰老和SASP机制把它们串在一起
+**[研究]** [线粒体质量控制与人类衰老长寿](https://www.nature.com/articles/s42255-026-01563-3) - Nature 子刊综述，线粒体健康是抗衰的底层逻辑之一，背景文献值得精读
 
-**[商业]** [Sentcell "端粒河流"疗法即将启动人体一期临床试验](https://www.fightaging.org/archives/2026/06/the-telomere-rivers-approach-aiming-at-an-initial-academic-phase-1-trial/) - 争议性较大的免疫年轻化技术迈出实验室，今年将正式验证安全性和生物活性
+**[研究]** [CANNs 工具包：大脑编码连续变量的神经网络研究框架](https://papers.cool/arxiv/2606.27783) - 专为海马体位置细胞、网格细胞研究设计的开源工具，脑机接口方向的研究者可关注
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [保险公司认真研究了生物年龄时钟，然后告诉你：现在还不能信](https://www.fightaging.org/archives/2026/06/an-insurance-industry-viewpoint-on-the-utility-of-aging-clocks/)
+### [每天吃鱼油补脑？两年后发现：大脑说"没用"](https://www.sciencedaily.com/releases/2026/06/260622014300.htm)
 
-花大价钱测出"生物年龄46岁"，结果保险公司说：不认。他们的理由非常现实：这些时钟是给人群做统计的，落到你一个人头上，误差大到没法用。更扎心的是——目前所有生物年龄指标，预测你的死亡风险都还不如"你多大岁数、有没有抽烟、血压多少"这几个问题管用。长寿科技公司的市场教育，任重道远。😅
+数以百万计的人每天早上坚持吞下黄色鱼油胶囊，配着水，觉得自己在为大脑续命。新研究浇了盆冷水：两年临床观察，omega-3 确实到达了大脑，但记忆力、认知能力、阿尔茨海默相关脑部变化……全没改善。网友感想：我吞了三年，补的是安慰剂？研究者最后建议：还是去改善整体饮食和生活方式吧。🐟
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 人类衰老细胞图谱数据集全面开放
+### Insilico "prompt-to-drug" 平台公开亮相
 - **预测时间**：2026年Q3
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Insilico+SK合作](https://www.genengnews.com/topics/artificial-intelligence/insilico-sk-launch-up-to-2-5b-neuroimmune-ai-drug-collaboration/) 中，Zhavoronkov 明确表示将推出"complete rewall"（全新平台），并声称"lab 层面超级智能已存在"，结合今年密集的商业化动作，平台发布公告大概率在下半年早期落地
+
+### Insilico rentosertib IPF 下一阶段试验宣布
+- **预测时间**：2026年7-8月
 - **预测概率**：75%
-- **预测依据**：今日新闻[NIH SenNet首波成果发布](https://www.fightaging.org/archives/2026/06/mapping-the-burden-of-cellular-senescence-in-aged-humans-in-detail/) + NIH联盟研究通常在论文发表后3-6个月内开放底层数据集，届时将催生大量 AI 训练数据和靶点挖掘工具
+- **预测依据**：今日新闻中 Zhavoronkov 原话："It's in the second half, but maybe closer to the earlier second half"，中国 Phase IIa 已完成且结果积极，推进信号非常明确
 
-### 首个 AI 辅助设计的衰老细胞清除药物进入临床
+### AI 辅助认知障碍语音筛查工具进入临床验证
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：60%
-- **预测依据**：今日多项研究[XPO1抑制机制](https://www.fightaging.org/archives/2026/06/dna-r-loops-in-the-cytoplasm-drive-senescent-cell-inflammatory-signaling/)和[ENPP1靶点](https://www.fightaging.org/archives/2026/06/reduced-circulating-enpp1-improves-kidney-regeneration/)同步推进 + AI制药公司的管线中衰老相关靶点占比近年快速提升，临界点将近
-
-### 表观遗传时钟开始被纳入部分保险核保流程（试点）
-- **预测时间**：2026年Q4
-- **预测概率**：45%
-- **预测依据**：今日新闻[保险行业分析报告](https://www.fightaging.org/archives/2026/06/an-insurance-industry-viewpoint-on-the-utility-of-aging-clocks/)虽然给出保守结论，但同时指出年轻人群和无传统风险因素人群存在例外 + 部分欧洲保险科技公司已在小范围测试生物标志物定价模型
-
-### FGF21 基因疗法启动人体安全性试验
-- **预测时间**：2026年Q4-2027年Q1
 - **预测概率**：55%
-- **预测依据**：今日新闻[FGF21 AAV疗法动物数据全面积极](https://www.fightaging.org/archives/2026/06/fgf21-gene-therapy-improves-health-in-aged-mice/) + 多个基因疗法平台（Rejuvenate Bio等）已在推进类似管线，动物→人体的转化窗口正在打开
+- **预测依据**：今日论文 [语音认知障碍检测框架](https://papers.cool/arxiv/2606.27973) 医生可用性评分达 82/100，已具备临床集成条件；全球老龄化压力下，无创认知筛查需求迫切，商业化验证节奏预计加速
+
+### AI 神经退行性疾病药物出现性别分层研究设计
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻 [女性帕金森与阿尔茨海默病理关联](https://www.news-medical.net/news/20260628/Women-with-Parkinsons-may-be-more-vulnerable-to-Alzheimers-pathology.aspx) 揭示性别差异显著；随着 AI 风险分层能力提升，制药公司在 CNS 临床设计中纳入性别维度的压力正在加大
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI + 衰老生物学 / 细胞衰老 / 长寿干预 最新资讯？
+### 哪里可以获取 AI 制药 / 神经免疫药物 / 认知障碍 AI 检测 的最新资讯？
 
-今日热点包括：NIH 首次完成人类细胞衰老全身图谱、FGF21 基因疗法动物全身健康获益、41项人类逆龄干预系统综述。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学热点包括：Insilico Medicine 与 SK 的25亿美元 AI 药物合作、语音认知障碍可解释检测框架、以及量子自编码器脑肿瘤检测新突破。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、衰老生物学、生物大模型等
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
 - 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
 - 用普通人能理解的语言，解读最前沿的技术进展
 
@@ -160,13 +164,13 @@ SWISS100 队列研究对百岁老人的血液蛋白质组做了系统分析，�
 
 ---
 
-### 如何用 AI 工具高效检索衰老研究、长寿生物学论文？
+### 如何体验 Claude / Gemini 等 AI 工具辅助生命科学研究？
 
-今日资讯涉及大量交叉学科研究（细胞衰老图谱、表观遗传时钟、基因疗法），文献量庞大，人工筛选效率极低。想用 AI 工具加速科研资料整理和论文检索？
+今日多篇论文（蛋白质设计、单细胞分析、认知障碍检测）都依赖大语言模型做推理和解释，Claude、Gemini、Codex 等工具在科研文献整理和数据分析中正变得越来越实用。国内用户面临支付或注册限制？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Consensus（AI 学术论文搜索）、Perplexity（实时联网问答）、Claude、Gemini、Codex 等科研向 AI 工具入口
-- Consensus 专门面向论文检索，能直接回答"某干预对衰老的效果如何"这类问题并给出文献支撑
-- 覆盖官方号、中转额度、多模型组合包，官网自助下单，卡密秒发
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
+- 覆盖官方号、镜像、中转额度、多模型组合包和部分科研检索工具
+- 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
