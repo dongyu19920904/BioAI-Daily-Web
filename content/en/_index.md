@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Tecan 把 NVIDIA AI 智能体塞进实验室平台，实验故障从"事后报警"变成"提前拦截"。
-内脏脂肪让细胞老得比实际年龄更快，体重正常不代表生物钟没在偷跑。
-今天衰老研究扎堆，从肚子到基因，生物年龄赛道值得持续盯着。
+人类细胞里藏着一段灵长类专属的衰老加速RNA，敲掉它细胞就老得更慢。
+年轻人生物年龄"跑偏"、神经退行预测、量子算药，今天的论文扎堆往同一个方向指。
+衰老研究正在从描述走向干预，做这个赛道的团队，可以开始盯靶点了。
 ```
 
 
@@ -29,98 +29,136 @@ Tecan 把 NVIDIA AI 智能体塞进实验室平台，实验故障从"事后报�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-腹部脂肪正在悄悄加速你的生物年龄——比你的出生年份更"老"。
+年轻人正在以比老一代更快的速度生物老化——而科学家终于找到了一条隐藏在细胞深处、只有灵长类才有的"加速衰老开关"。
 
 ### **🔑 3 个关键词**
-#AI实验室自动化 #生物衰老 #阿尔茨海默风险重估
+#生物衰老 #神经退行性疾病AI #量子计算制药
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [实验室装上"大脑"：Tecan 把 NVIDIA BioNeMo 智能体塞进了分析平台](https://www.genengnews.com/topics/artificial-intelligence/tecan-integrates-agentic-ai-into-its-introspect-lab-analytics-platform/)**
+**1. [年轻人癌症高发，原来是生物年龄"跑快了"](https://www.news-medical.net/news/20260629/Faster-biological-aging-may-help-explain-rising-cancer-rates-in-younger-adults.aspx)**
 
-以前实验室出了问题，是"出事 → 报警 → 人来修"。现在 Tecan 把 NVIDIA BioNeMo Agent Toolkit 集成进 Introspect 平台，AI 智能体会**持续盯着数据流**，在问题影响实验结果之前主动干预。制药、生物技术、临床实验室都是目标场景。早期访问已开放。这不是噱头——从被动响应到主动预判，这一步实验室等了很久了。
+30多岁确诊癌症，不是"运气差"——新研究发现，后出生的年代群体普遍存在生物年龄加速老化的现象（用"系统性年龄偏差时钟"测量），而这种加速与早发肺癌、胃肠道癌、子宫癌的风险显著挂钩。换句话说：日历年龄相同，但有些人的细胞已经"老"了一个代际。这不是危言耸听，而是测量工具终于够精准了。
 
----
-
-**2. [腹部脂肪研究：肚子大，生物钟转得更快](https://medicalxpress.com/news/2026-06-excess-belly-fat-linked-faster.html)**
-
-不是说你"看起来老"，而是细胞层面真的老得更快。西澳大学的研究发表在《Obesity》期刊，发现内脏脂肪（藏在腹腔深处的那种，不是捏得到的皮下肥肉）会独立于整体肥胖之外，加速中年人的**生物衰老进程**（biological aging，即细胞、器官实际老化的速度）。体重秤上的数字骗得了你，但你的细胞骗不了。
+![图片](https://www.news-medical.net/images/news/ImageForNews_841273_17827861818953602.jpg)
 
 ---
 
-**3. [30年后重算一遍：日本人 APOE-e4 纯合子的阿尔茨海默风险，没那么高？](https://medicalxpress.com/news/2026-06-years-reappraisal-alzheimer-disease-japanese.html)**
+**2. [发现"灵长类专属衰老开关"：一段非编码RNA，只有猴子和人才有](https://lifespan.io/how-a-primate-specific-rna-strand-worsens-senescence/)**
 
-APOE-e4 是目前已知最强的阿尔茨海默遗传风险基因，带两个拷贝（纯合子，e4/e4）风险更高。但问题是：1990 年代的日本数据一直被引用至今，近 30 年没人系统重新评估过。新潟大学团队发表在《Molecular Neurodegeneration》的研究终于补上了这一课——风险依然显著，但**比旧数据估计的要低**。对基因检测结果的解读，这是一个重要修正。
+小鼠实验里永远找不到这个东西——研究人员在人类和灵长类体内发现了一段叫 LINC01021 的长非编码RNA（不编码蛋白质，但调控基因表达），它在7种组织中随年龄显著上升，强制激活它会让细胞提前进入"僵尸状态"（细胞衰老），敲掉它则细胞衰老明显减缓。机制路径：LINC01021 → 耗尽稳定RNA的蛋白 DAZAP1 → RBMX 崩溃 → P53 飙升 → 衰老。人源化小鼠验证了体内效果。这是衰老研究里罕见的"人类特有靶点"，未来mRNA或基因疗法或许可以直接干预。
 
----
-
-**4. [看视力表看不清第六行？可能是身体在发出早期警报](https://medicalxpress.com/news/2026-06-letters-early-clue-aging-eyes.html)**
-
-不是让你去配眼镜。密歇根大学发表在《JAMA Ophthalmology》的研究发现，Pelli-Robson 对比敏感度视力表上超过六行看不清，是一个常规眼科检查容易漏掉的**日常视觉功能下降信号**。老年人日常生活中"看不清"的问题，靠标准视力检查往往发现不了。这个阈值，值得写进体检清单里。
+![图片](https://lifespan.io/wp-content/uploads/2026/06/Monkeys-and-people-262x187.jpg)
 
 ---
 
-**5. [GitHub 开源：甲基化时钟 + 长寿变异注释工具包来了](https://github.com/IBAR-ROGEN/Aging)**
+**3. [用量子计算+机器学习算蛋白质-药物结合能，成本比 IBM Quantum 方案低一大截](https://papers.cool/arxiv/2606.30551)**
 
-小项目，但值得注意。IBAR-ROGEN 团队开源了一套衰老生物信息学分析工具，覆盖**甲基化衰老时钟**（methylation aging clock，通过 DNA 甲基化模式估算生物年龄）、长寿相关基因变异注释、人类基因组数据等位基因频率比较。Stars 还少，但这正是早期关注的好时机——衰老时钟是当下 AI 生命科学最热的基础设施之一。
-
----
-
-**6. [多肽（Peptide）热潮：背后的科学到底站不站得住脚？](https://www.nature.com/articles/d41586-026-02063-w)**
-
-朋友圈里卖多肽的越来越多，声称抗衰、增肌、修复各种东西。《Nature》出了一篇长文（音频版）认真拆解这个问题。多肽（peptide，简单说就是短链氨基酸，比蛋白质小）确实有真实的生物活性，但商业化产品和临床证据之间的鸿沟有多大？值得花时间听一听，再决定要不要买单。
+这套方案实实在在跑了 SARS-CoV-2 主蛋白酶和 FDA 批准的抗病毒药 Amantadine。核心创新：把受限玻尔兹曼机（RBM，一种生成式 ML 模型）嵌入量子化学计算流程，同时换掉了计算复杂度更高的参数初始化方式。结果：在模拟器上以更少的算力完成了同等精度的药物结合能计算。量子计算制药距离真正落地还远，但"更省钱地算清楚电子结构"这一步，今天迈出去了。
 
 ---
 
-> **📝 今日素材说明**：今日收到素材共 6 条，其中 1 条（IBAR-ROGEN/Aging）为 GitHub 项目（1 Star，权威性较低），1 条 Nature 音频文章摘要为空。TOP 10 优先以 AI+生命科学交叉领域为准，今日满足硬性门槛的高质量条目共 6 条，已全部收录，不强行凑数。
+**4. [ENC-ODE：用神经微分方程预测阿尔茨海默病生物标志物的变化轨迹](https://papers.cool/arxiv/2606.30398)**
+
+临床数据稀疏、随访时间不规律——这是神经退行性疾病研究的两大噩梦。ENC-ODE 用连续时间的神经常微分方程（Neural ODE）来建模临床事件，不压缩历史信息，而是用注意力机制对不同时间点的事件加权聚合。在 ADNI（阿尔茨海默病神经影像倡议）数据集上，性能超过主流序列模型。代码已开源：https://github.com/JardinDelSol/enc-ode，做认知衰退预测研究的值得拉下来跑一跑。
+
+---
+
+**5. [青光眼视野变化预测，终于从"给一个答案"进化到"给一个概率分布"](https://papers.cool/arxiv/2606.30417)**
+
+同一个青光眼患者，下次复查视野会变成什么样？传统模型给你一个数字，这个数字可能完全错。新研究用扩散模型（Diffusion Model）来生成"可能的未来视野分布"，而不是单点预测——结果在两个独立队列上都做到了更好的校准度。对眼科AI来说，这是从"我告诉你答案"到"我告诉你不确定性在哪里"的重要一跃。个性化治疗计划需要的正是这种带置信区间的预测。
+
+---
+
+**6. [BrainJanus：第一个把大脑信号、视觉和语言统一在一个模型里的框架](https://papers.cool/arxiv/2606.30319)**
+
+以前脑信号解码（把脑电/fMRI翻译成图像或文字）和编码（把图像/文字转成大脑预测信号）是两套独立系统。BrainJanus 用一个统一的自回归框架把这四件事（图像→大脑、文字→大脑、大脑→图像、大脑→文字）全装进去了，还保留了可解释的生物拓扑结构，并展示了零样本泛化能力。脑机接口的下一步，不只是"读出脑信号"，而是"和大脑双向对话"。
+
+---
+
+**7. [血液代谢组学：一管血，看透你的生活方式如何影响认知老化轨迹](https://www.news-medical.net/news/20260629/Blood-metabolism-maps-how-lifestyle-tracks-function-in-cognitive-aging.aspx)**
+
+研究横跨认知正常（CN）、轻度认知损伤（MCI）到阿尔茨海默病（AD）三个阶段，用通路级血液代谢组学（分析血液里的代谢产物如何协同变化）找到了饮食和运动相关的代谢信号——能量代谢、氨基酸、脂质、炎症、氧化应激和肠道微生物相关通路都榜上有名。这些信号与体能、认知和日常功能表现直接挂钩。距离"一管血预测你还有几年认知健康期"，又近了一步。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_841275_17827899358872133.jpg)
+
+---
+
+**8. [细胞衰老与"干细胞性"之间的爱恨纠葛，终于有人系统梳理了](https://www.news-medical.net/news/20260629/Scientists-map-how-cellular-senescence-and-stemness-interact-in-disease.aspx)**
+
+细胞衰老（变成"僵尸细胞"，停止分裂但不死）和干细胞性（细胞保持自我更新和分化能力）——这两者听起来是对立的，但新综述揭示它们的关系复杂得多：某些情境下衰老促进干细胞激活，另一些情境下又抑制组织再生。搞清楚这个动态关系，是癌症、纤维化、老年疾病治疗策略的基础。发表在《Aging》杂志第18卷，做衰老研究的必读。
+
+![图片](https://www.news-medical.net/image-handler/picture/2019/5/shutterstock_499282837_f18bafe030744de991560feceed98d20-620x480.jpg)
+
+---
+
+**9. [脑MRI配准新框架 DrivenMorph：用"驱动力"概念让深度学习解释得通了](https://papers.cool/arxiv/2606.30183)**
+
+医学影像配准（把不同时间或不同模态的脑部图像精准对齐）一直有个痛点：深度学习跑得准但说不清为什么。DrivenMorph 借鉴了经典的 Demons 算法思路，引入局部差异建模作为"物理驱动力"，让形变过程有了可解释的力学依据。在多个3D脑MRI数据集上超越了现有方法，还把差异建模和形变解耦，方便模块化调整。神经退行性疾病的纵向追踪，需要大量这类精准配准。
+
+---
+
+**10. [DNA语言模型：transformer预训练那么贵，到底值不值？](https://papers.cool/arxiv/2606.30140)**
+
+DNABERT2 这类基因组 transformer 模型要预训练好几周，算力烧得心疼。这项研究系统评估了三件事：重度预训练对下游任务到底带来多少提升？BPE 分词（把DNA序列切块的方式）对基因组任务合不合适？结果还在 peer review 中，但这个问题本身就很关键——AI制药和基因组学研究现在砸了大量资源在基础模型上，有没有人算过ROI？这篇是难得的"反向审视"。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [腹部脂肪与生物衰老加速](https://medicalxpress.com/news/2026-06-excess-belly-fat-linked-faster.html) — 内脏脂肪影响衰老速率，减肥不只是为了好看
+**[研究]** [Arc蛋白如何推动阿尔茨海默病的Tau蛋白扩散](https://www.news-medical.net/news/20260629/Scientists-discover-how-Arc-protein-spreads-Alzheimers-brain-pathology.aspx) - 搞清楚毒性Tau的传播机制，是开发"阻断扩散"疗法的前提，值得持续关注
 
-**[研究]** [多肽热潮背后的科学](https://www.nature.com/articles/d41586-026-02063-w) — Nature 亲自下场拆解，这期值得存起来慢慢听
+**[研究]** [新型病毒模型在不用毒素的情况下复现帕金森症状](https://www.news-medical.net/news/20260629/New-viral-model-triggers-Parkinsons-symptoms-without-using-toxins.aspx) - 更接近真实病理的动物模型，意味着未来药物筛选结果更可信
+
+**[研究]** [脑肿瘤分割的不确定性建模框架SIUM](https://papers.cool/arxiv/2606.30374) - 缺失某种MRI模态时还能给出可靠分割结果，临床场景中这个能力极其实用，代码已开源
+
+**[开源]** [IBAR-ROGEN/Aging：甲基化衰老时钟+长寿变异注释工具集](https://github.com/IBAR-ROGEN/Aging) - 做基因组衰老研究的实用工具包，虽然 star 数还少，但功能覆盖很全
+
+**[临床]** [出院后新开镇静剂处方显著增加老年人跌倒风险](https://www.news-medical.net/news/20260629/New-sedative-prescriptions-increase-fall-risks-for-discharged-older-adults.aspx) - 老年医疗的真实痛点；AI辅助用药审查在这个场景有明确价值
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [30 年前的数据"统治"了三十年，今天终于被推翻一角](https://medicalxpress.com/news/2026-06-years-reappraisal-alzheimer-disease-japanese.html)
+### [只有人和猴子才有这段RNA，科学家用人源化小鼠证明它会让你"老得更快"](https://lifespan.io/how-a-primate-specific-rna-strand-worsens-senescence/)
 
-1990 年代的一批日本数据，愣是被全球引用了将近 30 年没人认真复核过。新潟大学团队这次补做了"作业"，发现风险虽然还在，但没当年说的那么吓人。网友表示：所以这三十年很多基因咨询都算错了？医学界表示：……我们去查一下其他同款老数据。😅
+今天最离谱的研究：科学家费尽周折做了个"装了人类基因的小鼠"，就为了证明人类自带一段会加速衰老的 RNA——这段 RNA 在老鼠身上根本不存在。结论？这只小鼠比普通小鼠更早变得虚弱、爪力更差、炎症更重。网友可能的反应："所以进化给了我们更大的脑子，同时附赠了一个提前老化的定时炸弹？" 研究者自己也承认：小鼠不是人，有些让我们变老的东西，恰好是让我们成为"人"的东西。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/06/Monkeys-and-people-262x187.jpg)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### AI 实验室自动化平台进入"主动预警"标配时代
-
+### 生物衰老时钟进入临床验证加速期
 - **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Tecan Integrates Agentic AI Into Its Introspect Lab Analytics Platform](https://www.genengnews.com/topics/artificial-intelligence/tecan-integrates-agentic-ai-into-its-introspect-lab-analytics-platform/) + Tecan 与 NVIDIA 的合作预示主流实验室设备厂商正在将 AI 智能体从"分析工具"升级为"主动干预系统"，预计 2026 年 Q3 将有更多竞争对手跟进发布类似功能
+- **预测依据**：今日新闻[年轻人生物老化加速与早发癌症相关](https://www.news-medical.net/news/20260629/Faster-biological-aging-may-help-explain-rising-cancer-rates-in-younger-adults.aspx) + [血液代谢组学追踪认知老化](https://www.news-medical.net/news/20260629/Blood-metabolism-maps-how-lifestyle-tracks-function-in-cognitive-aging.aspx)。多个团队正在用不同维度（甲基化、代谢组、蛋白组）测量生物年龄，今年内很可能出现多指标融合的标准化临床评估方案。
 
-### 生物年龄时钟工具开源项目数量激增
-
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日项目 [IBAR-ROGEN/Aging](https://github.com/IBAR-ROGEN/Aging) + 甲基化衰老时钟正成为 AI 生命科学研究基础设施热点，近期多个团队相继开源相关工具，预计未来 1-2 个月将出现更多此类项目
-
-### APOE 基因风险评估框架迎来系统性修订
-
+### LINC01021 等灵长类特异lncRNA进入靶向干预早期研究
 - **预测时间**：2026年Q3-Q4
 - **预测概率**：55%
-- **预测依据**：今日新闻 [Thirty years later: A reappraisal of Alzheimer's disease risk in Japanese APOE-e4 homozygotes](https://medicalxpress.com/news/2026-06-years-reappraisal-alzheimer-disease-japanese.html) + 针对不同族裔的 APOE 风险数据长期依赖旧有研究，随着大规模基因组数据库积累，各族群个性化风险评估框架的更新窗口已打开
+- **预测依据**：今日新闻[LINC01021加速灵长类衰老的机制研究](https://lifespan.io/how-a-primate-specific-rna-strand-worsens-senescence/)。人源化小鼠模型已验证体内效果，mRNA疗法和反义寡核苷酸技术成熟度足够，预计会有团队启动干预设计的早期实验。
+
+### 神经退行性疾病AI预测工具走向前瞻性临床试验
+- **预测时间**：2026年Q4
+- **预测概率**：65%
+- **预测依据**：今日论文[ENC-ODE预测阿尔茨海默生物标志物演变](https://papers.cool/arxiv/2606.30398) + [青光眼视野扩散模型预测](https://papers.cool/arxiv/2606.30417)。AI预测工具从回顾性验证转向前瞻性临床嵌入，已有机构在排队；模型开源加速了这一转化进程。
+
+### 量子-经典混合计算在药物结合能计算上出现商业化案例
+- **预测时间**：2026年Q4
+- **预测概率**：50%
+- **预测依据**：今日论文[量子ML混合流程计算蛋白质-配体结合能](https://papers.cool/arxiv/2606.30551)。该团队已在模拟器上跑通工业级蛋白质系统，下一步是真实量子硬件验证；IBM、Fujitsu等均有商业化动机推动落地。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、生物衰老、实验室自动化的最新资讯？
+### 哪里可以获取 AI+生物衰老/神经退行性疾病/量子计算制药 的最新资讯？
 
-今日 AI 生命科学领域的热点包括：**AI 智能体进入实验室分析平台（Tecan × NVIDIA BioNeMo）**、**内脏脂肪加速生物衰老的新证据**、以及**阿尔茨海默遗传风险的 30 年数据重估**。想持续追踪这类 AI + 生命科学交叉领域的前沿动态？
+今日 AI 生命科学领域的热点包括：生物衰老时钟与早发癌症的关联研究、灵长类特异性衰老 RNA 靶点发现、量子计算+机器学习加速药物结合能计算。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -132,9 +170,9 @@ APOE-e4 是目前已知最强的阿尔茨海默遗传风险基因，带两个拷
 
 ---
 
-### 如何体验 Claude、Perplexity、Consensus 等适合科研检索的 AI 工具？
+### 如何体验 Claude、Gemini 等 AI 工具来辅助生命科学文献研究？
 
-今日资讯涉及 Nature 音频长文、甲基化时钟开源项目、基因风险重估等内容——这类科研资料的整理和深度检索，正是 Claude、Consensus、Perplexity 最擅长的场景。想体验这些工具，但面临支付困难或账号注册限制？
+今日多篇论文涉及神经退行性疾病预测、衰老机制和量子化学计算，这类专业文献整理和理解恰好是 Claude、Gemini、Codex 等工具的强项——快速提炼论文核心、解释复杂生物学机制、辅助写综述框架。想使用这些工具，但面临支付或账号注册限制？
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
