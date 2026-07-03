@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/2
+title: AI生命延续学日报 2026/7/3
 breadcrumbs: false
-next: /2026-07/2026-07-01
+next: /2026-07/2026-07-03
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-BCG疫苗打完12个月后，大脑免疫环境真的变了，老药新用刷新了阿尔茨海默预防的想象边界。
-抗衰老研究全面爆发：基因疗法让老年小鼠寿命延长20%，脑微结构AI模型一口气用了5.5万人数据。
-神经退行性疾病的防治逻辑正在被重写，今天这期值得从头看到尾。
+3000名APOE4基因携带者加入超大型真实世界研究，阿尔茨海默症或许能靠生活方式"活出来"。
+Broad Institute开源工具Affinage给近2万个人类基因写完了功能说明书，药物靶点筛选有了新基础设施。
+今天修复>管控的逻辑贯穿全场，做抗衰老或心血管赛道的人值得从头读到尾。
 ```
 
 
@@ -29,134 +29,138 @@ BCG疫苗打完12个月后，大脑免疫环境真的变了，老药新用刷新
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-抗TB疫苗竟然能重塑大脑免疫环境、降低阿尔茨海默风险——这个发现，比任何新药都更让人兴奋。
+携带阿尔茨海默症基因不等于必然得病——3000人的超大型研究，正在用真实生活数据改写这个结论。
 
 ### **🔑 3 个关键词**
-#抗衰老研究 #神经退行性疾病 #AI医学影像
+#阿尔茨海默预防 #AI蛋白质组学 #损伤修复疗法
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [BCG疫苗可能重塑大脑免疫环境，改变阿尔茨海默标志物](https://medicalxpress.com/news/2026-06-bcg-vaccine-rewire-brain-immunity.html)**
+**1. [3000名高危基因携带者联合研究：阿尔茨海默症或许可以"活出来"](https://longevity.technology/news/landmark-study-challenges-alzheimers-gene-risk/)**
 
-一种几十年前就有的结核病疫苗，打在皮肤上，结果12个月后，大脑里的免疫环境居然发生了变化。Mass General Brigham的研究人员发现，BCG疫苗可能重塑大脑免疫微环境，为"BCG接种者患阿尔茨海默风险更低"这个现象提供了生物学解释。老药新用，而且是完全想不到的方向。这条线索值得所有关注痴呆症的人死死盯住。
+以前，拿到APOE4（阿尔茨海默症最强遗传风险基因）检测报告，感觉就像被宣判。现在，Prema Cognition和Phoenix社区联手剑桥大学，招募超过3000名APOE4基因携带者，用数字认知评测工具PREMAZ持续追踪他们的睡眠、运动、饮食和脑健康变化。目标很清晰：找出哪些生活方式能真正对抗基因风险。这不是又一个临床试验，而是数千人同时在跑自己的"人体实验"，数据汇总起来才能看见规律。如果成功，痴呆预防或许会像心脏病防控一样，有清晰的临床指南可循。
 
----
-
-**2. [TRCGL-Net：用AI生成罕见病X光片，让诊断不再"偏心"](https://papers.cool/arxiv/2607.00975)**
-
-临床数据有个残酷的现实：常见病数据一堆，罕见病数据少得可怜，AI模型自然也学坏了——诊断常见病准、诊断罕见病一塌糊涂。TRCGL-Net用文本引导的扩散模型（一种AI图像生成技术）来"补课"，专门生成罕见疾病的胸片样本。在PadChest数据集上，罕见病识别准确率达到mAP 0.4904，整体mAUC 0.8989，全面超越现有方法。AI会"自己补数据"了，这对罕见病诊断是大好事。
-
-![图片](https://papers.cool/arxiv/2607.00975)
+![图片](https://longevity.technology/wp-content/uploads/2026/07/Landmark-study-challenges-Alzheimers-gene-risk-1024x683.jpg)
 
 ---
 
-**3. [蛋白质设计新方法：Diffeomorphic Optimization让结构更精准](https://papers.cool/arxiv/2607.00947)**
+**2. [AI预测阿尔茨海默早期阶段：深度神经网络+集成学习找到关键生物标志物](https://papers.cool/arxiv/2607.02142)**
 
-蛋白质设计的老大难问题之一：AI在优化蛋白质结构时，很容易"走偏"，跑出生物学上不合理的结构。这篇论文用微分几何的方法，让优化过程始终沿着"合理结构的流形"前进。结果很惊艳——二级结构精准度从63.3%跳到91.3%，在蛋白质能量评分上也大幅压低。搞药物设计的团队，这个工具值得试试。
-
----
-
-**4. [ILLUME+：AI预测癌症药物响应，还能解释"为什么这个药有效"](https://papers.cool/arxiv/2607.00931)**
-
-预测哪个肿瘤患者对哪种药有效，AI已经做得不差。但临床医生真正头疼的是："你凭什么这么说？"ILLUME+是一个可解释AI框架，不只给出基因重要性打分，还能捕捉多基因协同作用——也就是那些"组合起来才导致耐药"的分子机制。精准肿瘤学的落地，可解释性才是真正的门槛。
+症状出现之前，大脑已经在悄悄"报警"了。这项研究用ADNI（阿尔茨海默症神经影像数据库）的临床数据，把逻辑回归、Extra Trees、KNN和LightGBM叠在一起，训练出一个集成模型，再加一个人工神经网络做对比。不只是预测病情，还找出了哪些生物标志物最关键——这对早期干预意义重大。因为阿尔茨海默症目前无法治愈，能早发现一天，就能多一天的主动管理窗口。
 
 ---
 
-**5. [BrainFIBRE：55,592人脑影像训练的脑微结构基础模型](https://papers.cool/arxiv/2607.00573)**
+**3. [Affinage：AI逐一读完人类19293个蛋白质编码基因的论文，给每个基因写"功能说明书"](https://papers.cool/arxiv/2607.02217)**
 
-用55,592名英国生物银行参与者的扩散MRI数据，训练出了一个专门分析大脑微观结构的基础模型。BrainFIBRE能预测年龄、性别、脑血管病变和认知能力，在不同种族队列上都表现稳定。更关键的是，它输出的表示具有神经生物学可解释性，能揭示任务特异性的脑结构交互模式。这是迄今最系统的脑微结构AI基础模型之一。
-
----
-
-**6. [AgentODE：LLM引导的ODE发现框架，专攻罕见病小数据建模](https://papers.cool/arxiv/2607.00733)**
-
-罕见病研究的困境人尽皆知：患者少、数据稀、噪声大、还有隐私限制。AgentODE用大语言模型来提出候选数学模型（ODE结构），再用智能体迭代优化参数，全程只依赖群体统计数据，不需要个人数据。在一种罕见皮肤病（仅46名患者、231条观测数据）上验证，居然恢复出了机理一致的模型结构。小数据建模的新路径，做罕见病研究的不要错过。
+想象一下：人类基因组里有近两万个蛋白质编码基因，其中大量基因的功能要么空白，要么就是几十年前记录的陈旧描述。Broad Institute团队打造的Affinage，让大语言模型从原始文献里逐一提取直接实验证据，给每个基因生成可复用的结构化注释。和UniProt权威数据库正面比拼，99.1%的基因注释质量胜出。数据已开放：[affinage.wi.mit.edu](https://affinage.wi.mit.edu)。对做药物靶点筛选和生物信息分析的人来说，这是一份能直接用上的基础设施级工具。
 
 ---
 
-**7. [亨廷顿病小鼠：激活VIP神经元，让病变大脑重新学会学习](https://www.genengnews.com/topics/translational-medicine/in-huntingtons-mouse-optogenetic-activation-of-vip-neurons-restores-brain-function/)**
+**4. [Repair Bio拿到FDA"稀有病证据原则"资格：动脉硬化或许真的可以被"修复"而非只是"管控"](https://longevity.technology/news/repair-bio-advances-plaque-regression-program-with-fda-nod/)**
 
-亨廷顿病（一种遗传性神经退行性疾病）的神经机制，终于有了新突破。UC San Diego的团队发现，大脑皮层中一类叫VIP的抑制性神经元在患病小鼠中几乎"沉默"了，而用光遗传学技术重新激活它们，小鼠的运动学习能力显著恢复——而且效果在刺激停止后持续了数天。最令人振奋的是：即使基因缺陷存在，精准干预特定脑回路就能显著改善症状。
+几十年来，心血管病治疗的逻辑是"降低风险、减缓进展"——说白了就是跟病共存。Repair Biotechnologies想的不一样：用mRNA疗法直接清除细胞内积累的游离胆固醇，也就是动脉斑块（粥样硬化斑块）的核心毒性驱动因素。他们的REP-0003刚获得FDA的RDEP（稀有病证据原则）资格认定，切入口是先天性高胆固醇血症，这是一个罕见但病情极重的群体。更有意思的是：动物实验里，治疗后运动耐力显著提升——这不只是"斑块少了一点"，而是功能性修复的信号。如果思路成立，心血管老化或许会成为"损伤修复"这条新赛道的第一个临床证明场。
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/06/low-res-1-1-300x101.jpeg)
-
----
-
-**8. [抗衰老晚期基因疗法：给老年小鼠肌肉注射FGF21，寿命延长20%](https://lifespan.io/rejuvenation-roundup-june-2026/)**
-
-六月抗衰老研究月报里最炸裂的一条：用病毒载体把FGF21蛋白的基因送进老年小鼠的肌肉细胞，雄性小鼠中位寿命延长了20%，多项健康指标也显著改善。这是"晚年干预依然有效"的又一个有力证据。距离人类临床还很远，但方向感非常清晰。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/07/Rejuvenation-Roundup-June-2026-262x187.png)
+![图片](https://longevity.technology/wp-content/uploads/2026/07/Repair-Bio-advances-plaque-regression-program-with-FDA-nod-1024x683.jpg)
 
 ---
 
-**9. [蛋白质柔性预测新框架CAL：比经典模型精准34.5%](https://papers.cool/arxiv/2607.00879)**
+**5. [STAR3：AI放射报告系统，终于学会"看病变趋势"而不只是"看这张片子"](https://papers.cool/arxiv/2607.02024)**
 
-蛋白质的"柔性"（B因子，即原子运动幅度）对理解蛋白质功能和药物结合位点至关重要。CAL用交换代数理论构建局部代数描述符，在364个蛋白质的基准测试上比经典高斯网络模型精准了34.5%。更重要的是，它能跨蛋白质进行盲预测。药物设计和蛋白质工程团队，这个工具值得关注。
+放射科医生最头疼的事之一：对比新旧片子找变化，同时还要结合病历写报告，每天几十上百份。STAR3框架把这件事拆成三层——先用目标检测器定位解剖区域，再结合当前临床信息和前后片对比变化，检索最相关的报告语句。在MIMIC-CXR胸片数据集上，多项指标超越现有检索式方法。核心价值在于：它不只是"生成文字"，而是真正模拟了医生"纵向追踪病情"的思维方式。
 
 ---
 
-**10. [阿尔茨海默生物标志物可预测极高龄老人的快速认知下滑](https://www.news-medical.net/news/20260701/Alzheimere28099s-disease-biomarkers-predict-rapid-cognitive-decline-in-very-old-adults.aspx)**
+**6. [MolSight：会"看懂"分子结构图的视觉语言模型，药物设计迎来新工具](https://papers.cool/arxiv/2607.01982)**
 
-长期以来，"老了就会糊涂"被当作不可避免的自然规律。这项研究挑战了这个假设：阿尔茨海默病的生物标志物（如脑脊液中的特定蛋白水平）能有效预测极高龄老人中哪些人会快速认知衰退。这意味着认知下滑不是命运，是可以被预警的疾病信号。早筛早干预，这条路越来越清晰了。
+给AI看一张化学分子结构图，它能理解里面的化学键拓扑、原子连接方式吗？MolSight专门为此而生：一个模块注入化学键连接信息，另一个模块让视觉特征和化学符号语义对齐。结果是在多个化学视觉理解任务上，碾压了现有的分子语言模型和专用工具。对做分子设计和药物筛选的研究者来说，这个工具值得关注。
 
-![图片](https://www.news-medical.net/image-handler/picture/2016/2/Alzheimers_amyloid_plaque_-_Juan_Gaertner_9638f1223d534b518a192c8478871d65-620x480.jpg)
+---
+
+**7. [AI预测药物溶解度：终于能分清"是分子形状的问题"还是"是化学性质的问题"](https://papers.cool/arxiv/2607.02212)**
+
+一个新药候选分子溶不溶于水，直接决定它能不能做成药——这是早期药物研发里最基础、也最烦人的筛选关卡。这项研究用"双支路"深度学习框架，把理化描述符和分子图拓扑分开训练，最后才合并预测。好处是：你能看到这次预测是因为整体化学性质，还是分子结构特征导致的，而不是一个黑盒子给出答案。在AqSolDB和BigSolDB2两个数据集上表现优秀，而且解释性远超现有方法。
+
+---
+
+**8. [SA-HGNN：用脑电图识别抑郁症，双曲空间里"看见"大脑的层级结构](https://papers.cool/arxiv/2607.02063)**
+
+抑郁症患者的大脑功能连接不是平铺直叙的，它有层级、有嵌套——但普通图神经网络在欧几里得空间里很难捕捉这种结构。SA-HGNN引入双曲几何（一种天然适合树状和层级结构的数学空间），动态构建个性化大脑网络拓扑，再用注意力机制过滤噪声。在公开脑电数据集上，静息态和任务态两类范式下均超越现有方法。用脑电波早期筛查抑郁症——这条路正在变得越来越可行。
+
+---
+
+**9. [蛋白质组学下一个瓶颈不是仪器，是信任——ASMS 2026大会发出的最强信号](https://www.genengnews.com/topics/omics/asms-2026-solving-proteomics-next-bottleneck/)**
+
+"质谱仪已经不是限制了。"——Cedars-Sinai医院蛋白质组学负责人在今年ASMS大会上说出这句话，震了全场。仪器越来越快，能检测血液中的蛋白质已从数百种跑到数千种。但阻碍蛋白质组学真正进入临床的，是样本制备标准化、数据可重复性和医生教育这些"无聊但关键"的问题。AI开始介入实时数据采集和分析，但研究者的共识是：现阶段是"实验室助手"，不是"魔法预言机"。整合蛋白质组学、多组学、影像和临床数据的"数字孪生"模型，是大家公认的未来方向。
+
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Jennifer-Van-Eyk-2-1-300x210.jpg)
+
+---
+
+**10. [Resolution Therapeutics：用mRNA直接给体内免疫细胞"发软件更新"，肝硬化治疗或告别移植等待](https://longevity.technology/news/resolution-therapeutics-broadens-regenerative-therapy-pipeline/)**
+
+终末期肝硬化的患者，命运曾经只有一条路：等待肝脏移植，等待一个稀缺的捐献器官。Resolution Therapeutics宣布推出全新的体内再生巨噬细胞疗法（RMT）——用脂质纳米颗粒（就是mRNA新冠疫苗用的那种"快递小车"）把遗传指令直接送进体内，让免疫细胞就地转变为"修复模式"。不用抽取细胞、不用实验室改造、不用回输。和需要个性化制造的RTX001相比，这就像从"一台一台手工维修发动机"，升级成了"远程推送系统更新"。今年晚些时候，两条路线的早期数据都会出来，届时值得密切关注。
+
+![图片](https://longevity.technology/wp-content/uploads/2026/07/Resolution-Therapeutics-broadens-regenerative-therapy-pipeline-1024x683.jpg)
 
 ---
 
 ## **📌 值得关注（5条）**
 
-**[研究]** [抑郁样行为可能加速灵长类内分泌衰老](https://www.news-medical.net/news/20260701/Depression-like-behavior-may-accelerate-endocrine-aging-in-primates.aspx) — 情绪状态和衰老速度居然直接相关，心理健康就是长寿干预的一部分
+**[研究]** [血压与大脑年龄的关联研究（开源项目）](https://github.com/Yuangang-Pan/Association-of-blood-pressure-with-brain-ages) - 用DWI和T1脑成像数据分析血压对大脑年龄的影响，小众但扎实，关注脑老化的研究者可以看看
 
-**[研究]** [调节IL-11依赖的基质硬度可延缓卵巢衰老](https://www.nature.com/articles/s43587-026-01159-2) — 卵巢衰老机制有新解，靶向组织硬度是个全新的干预角度，发在Nature子刊
+**[开源]** [古代DNA衰老时钟：用BED文件预测古人死亡年龄](https://github.com/Malaevleo/aDNA_aging_clocks) - 把衰老时钟延伸到古DNA样本，用现代机器学习推断古人的生物年龄，脑洞很大
 
-**[研究]** [造血前体细胞可能"缓冲"造血干细胞的衰老](https://www.fightaging.org/archives/2026/07/evidence-for-hematopoietic-progenitor-cells-to-buffer-the-aging-of-hematopoietic-stem-cells/) — 骨髓干细胞老化有了新发现，中间层细胞可能是维持血液系统健康的隐藏英雄
+**[研究]** [心理压力通过肠道菌群加速免疫老化](https://www.news-medical.net/news/20260702/Psychological-stress-accelerates-immune-aging-through-the-gut-microbiota.aspx) - 压力→肠道菌群失调→免疫系统提前老化，这条链路正在被越来越多研究证实，对抗衰老干预有指导意义
 
-**[研究]** [数字正念干预对晚年抑郁有效，结合EEG反馈更精准](https://medicalxpress.com/news/2026-07-digital-mindfulness-intervention-beneficial-late.html) — FocusZen系统减轻了老年抑郁、焦虑和睡眠问题，数字健康+神经反馈的组合路线值得持续关注
+**[研究]** [黑人女性比白人女性早近10年患高血压](https://www.news-medical.net/news/20260703/Racial-disparities-in-hypertension-onset-among-women.aspx) - 健康公平领域的重要发现，AI健康监测和早筛系统在设计时必须考虑这类族裔差异
 
-**[研究]** [细胞衰老协同再生疗法：显著延长健康寿命和寿命](https://lifespan.io/rejuvenation-roundup-june-2026/) — "清除衰老细胞+再生干预"双管齐下，效果远超单一疗法，组合抗衰是大趋势
+**[商业]** [亿万富翁死亡数据：财富买来的寿命延长，比你想象的少多了](https://longevity.technology/news/what-billionaire-deaths-say-about-wealth-health-and-where-you-live/) - 27国389位亿万富翁死亡数据分析：美国富人只多活3.7年，德法荷几乎为零。公共医疗越强，钱能买到的额外寿命越少
+
+![图片](https://longevity.technology/wp-content/uploads/2026/07/What-billionaire-deaths-say-about-wealth-health-and-where-you-live-1024x686.png)
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [生物黑客大战：硅谷亿万富翁们在拿自己的身体做实验](https://www.fightaging.org/archives/2026/07/self-experimentation-to-slow-aging-is-rarely-presented-in-a-good-light/)
+### [亿万富翁也逃不过：财富溢价换来的寿命，居然只有3.7年](https://longevity.technology/news/what-billionaire-deaths-say-about-wealth-health-and-where-you-live/)
 
-Bryan Johnson每天注射肽类、吃一堆未经FDA批准的补剂，然后在社交媒体上广播。科学家怎么说？Nir Barzilai："这些东西有生物学依据，但没临床证据。" Matt Kaeberlein叫它"信噪比问题"。最妙的是：研究衰老几十年的专家们都说"可能有用，但我们真不知道"。这大概是人类史上最贵的、最公开的、最乐观的自我实验 😂
+30000倍的财富差距，换来的寿命差距——3.7年。研究人员分析了全球389位亿万富翁的死亡数据，发现在美国，超级富豪比普通人也就多活不到四年。更绝的是：在德国、法国、荷兰这些公共医疗强国，富人的"寿命溢价"几乎归零。网友神评：钱买不到的东西，排第一的是时间，排第二的可能是全民医保。😂
+
+![图片](https://longevity.technology/wp-content/uploads/2026/07/What-billionaire-deaths-say-about-wealth-health-and-where-you-live-1024x686.png)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### BCG疫苗开启阿尔茨海默预防临床试验
-- **预测时间**：2026年Q4
-- **预测概率**：70%
-- **预测依据**：今日新闻 [BCG vaccine may rewire brain immunity](https://medicalxpress.com/news/2026-06-bcg-vaccine-rewire-brain-immunity.html) + BCG已有成熟安全记录，机理研究发表在Communications Medicine，下一步启动预防性临床试验的条件已基本成熟
-
-### 多模态脑影像AI诊断工具进入临床验证阶段
+### APOE4携带者生活方式干预进入临床验证高峰期
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：65%
-- **预测依据**：今日 [BrainFIBRE](https://papers.cool/arxiv/2607.00573) 展示了55,592人规模的脑微结构基础模型，叠加近期神经影像AI论文爆发式增长，商业化和临床验证将加速跟进
-
-### AI药物响应预测进入可解释性竞赛
-- **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日 [ILLUME+](https://papers.cool/arxiv/2607.00931) 代表了一个明确信号——单纯"预测准确"已不够，FDA和临床机构对可解释性的要求将推动这一赛道竞争白热化
+- **预测依据**：今日新闻[Prema Cognition与Phoenix社区启动3000人研究](https://longevity.technology/news/landmark-study-challenges-alzheimers-gene-risk/) + 近期多个认知追踪平台（数字评测、可穿戴设备）相继进入阿尔茨海默早期预防赛道，数据积累到临界点将引发研究爆发
 
-### 基因疗法延寿从小鼠向非人灵长类推进
-- **预测时间**：2026年Q4
-- **预测概率**：55%
-- **预测依据**：六月月报中晚年FGF21基因疗法延寿20% + 多组学抗衰研究密集发表，资本和学术机构有充分动力推动向非人灵长类验证
+### 体内mRNA免疫细胞重编程疗法公布首批临床前数据
+- **预测时间**：2026年Q3
+- **预测概率**：70%
+- **预测依据**：今日新闻[Resolution Therapeutics宣布体内RMT项目](https://longevity.technology/news/resolution-therapeutics-broadens-regenerative-therapy-pipeline/)，公司已签订多个LNP技术转让协议，明确表示早期数据将于今年晚些时候披露
+
+### AI药物溶解度/ADMET预测工具迎来可解释性升级浪潮
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻[双支路溶解度预测框架](https://papers.cool/arxiv/2607.02212)展示了"化学贡献vs结构贡献"可分解方向 + FDA和各大药企持续施压要求AI辅助决策更透明，可解释性将成为药物AI的核心竞争力
+
+### 基因组规模AI注释工具加速进入制药靶点筛选流程
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日新闻[Affinage开放19293个基因的LLM功能注释](https://papers.cool/arxiv/2607.02217) + 开源即引爆的规律明显，Broad Institute背书的工具往往在3个月内被大型制药公司内部集成试用
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取AI+神经退行性疾病、抗衰老研究的最新资讯？
+### 哪里可以获取AI与阿尔茨海默症预防、蛋白质组学、损伤修复疗法的最新资讯？
 
-今日 AI 生命科学领域的热点包括：BCG疫苗与阿尔茨海默病的免疫机制、亨廷顿病神经回路干预突破、以及大规模脑微结构基础模型BrainFIBRE。想要持续追踪这类 **AI + 生命科学交叉领域** 的前沿动态？
+今日 AI 生命科学领域的热点包括：3000人APOE4基因携带者预防研究、AI基因组注释工具Affinage、体内mRNA免疫细胞重编程疗法进展。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -168,13 +172,13 @@ Bryan Johnson每天注射肽类、吃一堆未经FDA批准的补剂，然后在�
 
 ---
 
-### 如何用AI工具高效检索衰老、痴呆症、基因疗法等前沿论文？
+### 如何在国内使用 Claude 和 Gemini 辅助科研文献整理与生命科学研究？
 
-今天的内容涉及大量高密度的基础研究——从造血干细胞衰老缓冲机制，到IL-11调控卵巢衰老，再到蛋白质柔性预测。对于需要快速定位和消化这类文献的研究者、学生和投资人，专业的AI检索工具能大幅提升效率。
+今日多条新闻涉及大量学术文献和基因组数据整理工作——从Affinage用LLM批量解读基因功能文献，到APOE4研究的多维度数据分析，这类任务对AI工具的文献理解和推理能力要求很高。想用上 Claude、Gemini 或 Consensus 这类科研友好型 AI 工具，但面临支付或账号注册问题？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Consensus（专为论文检索设计）、Perplexity（实时搜索+引用溯源）、Claude（长文献理解和总结）等工具入口
-- 覆盖官方号、中转额度和多模型组合包，适合不同使用频次的用户
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 中转、Gemini 年卡、Consensus（科研文献专用搜索引擎）、ChatGPT、Perplexity 等 AI 工具入口
+- 对做文献综述、靶点筛选、生物信息分析的研究者，Claude 和 Gemini 的长上下文能力尤其适合处理大批量论文
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
 访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
