@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/6
+title: AI生命延续学日报 2026/7/7
 breadcrumbs: false
-next: /2026-07/2026-07-05
+next: /2026-07/2026-07-07
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Insilico Medicine × 武田6亿美元合作落地，大药企开始把AI当核心研发入口而非辅助工具。
-子宫也会老化、血糖悄悄伤脑、酸奶可能延缓衰老时钟——抗衰老研究的战场正在全面扩张。
-今天内容密度很高，关注AI制药和抗衰老赛道的人，值得完整看一遍。
+Isomorphic Labs 完成 21 亿美元融资，AI 制药赛道单轮融资额再创新高。
+衰老细胞"偷走"干细胞活力的机制被系统梳理，清除衰老细胞或可逆转多种组织衰退。
+钱在烧、机制在挖，但药还要等七年——今天适合收藏，不适合冲动入场。
 ```
 
 
@@ -29,126 +29,141 @@ Insilico Medicine × 武田6亿美元合作落地，大药企开始把AI当核�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-子宫也会老化——49岁以上女性即使用捐卵，活产率依然大幅下降，生命延续的边界正在被重新丈量。
+数十亿美金正在涌入 AI 制药，但第一款 AI 设计的药物离患者还有七年——钱烧的是"未来"，不是"现在"。
 
 ### **🔑 3 个关键词**
-#子宫衰老 #抗衰老药物筛选 #大脑老化生物标志物
+#AI制药 #衰老机制 #多组学整合
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [Insilico Medicine × 武田制药：6亿美元AI制药大合同落地](https://www.genengnews.com/topics/translational-medicine/stockwatch-new-uc-data-sparks-smoother-sailing-for-abivax/)**
+**1. [制药巨头疯狂砸钱 AI，数十亿美元涌入药物发现赛道](https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery/)**
 
-一笔6亿美元的合作，把AI制药的价值说得清清楚楚。武田制药选中Insilico Medicine，用其端到端AI平台（从靶点识别到候选分子筛选，全程AI驱动）跑药物发现，武田负责拿到候选分子后的全球开发和商业化。这不是"合作研究"的含糊承诺，是真金白银买断后续权利。对整个AI制药行业来说，这条消息的信号意义远大于金额本身：大型药企开始把AI当作核心研发入口，而不只是辅助工具了。
+就在大家还在争论"AI能不能做药"的时候，资本已经用行动投票了。Isomorphic Labs（DeepMind 的制药子公司）刚完成 **21 亿美元** 融资，Inceptive 与 Alnylam 签下 **20 亿美元** 合作，Chai Discovery 拿到辉瑞的合同……这波钱砸的不是某一款药，而是"药物设计引擎"本身。有分析师直接说：AI 制药的估值已经跟临床数据脱钩了，资本在追的是"计算潜力"。讽刺的是，一位 CEO 在 LinkedIn 上泼冷水：**别指望 AI 设计的分子在七年内上市**。等待党，你们的耐心还要继续。
 
----
-
-**2. [科学家首次揭开阿尔茨海默症杀死脑细胞的机制](https://www.sciencedaily.com/releases/2026/06/260626124701.htm)**
-
-几十年了，没人真正搞清楚阿尔茨海默症怎么把神经元一个个杀死的。现在终于有了答案——研究人员发现了一个此前完全被忽视的细胞死亡机制，而且它在额颞叶痴呆里同样活跃。这意味着什么？意味着针对这个机制开发"拦截药物"的窗口打开了。不是缓解症状，是从源头阻断细胞死亡过程。当然，从机制发现到新药上市还有漫长的路，但第一块砖总算砌上了。
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/5_Cryptic_Credit-IsoLabs--300x209.png)
 
 ---
 
-**3. [子宫老化：49岁之后，借卵也难保活产](https://www.news-medical.net/news/20260705/Uterine-aging-may-reduce-donor-egg-pregnancy-success-after-49.aspx)**
+**2. [用 AI 重新定义酶的"找搭档"难题：最大 CYP 数据集出炉](https://papers.cool/arxiv/2607.05084)**
 
-大家都知道卵子会老化，但子宫也会老化——这件事终于有了大型研究数据支撑。49岁以上女性即使用年轻捐献者的卵子，活产率依然显著下降，流产风险同步上升。这打破了一个长期存在的隐性假设：只要解决卵子质量，高龄妊娠就能成功。子宫内膜的老化机制，正在成为生育医学和抗衰老研究交汇的新前沿。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/6/Pregnancy-620x480.jpg)
+酶是生命里的"分子工厂"，但问题是——同一个反应，可能有几百种酶都能催化，你怎么知道该用哪个？现有的 AI 模型号称预测能力很强，但这篇论文直接打脸：**换一批没见过的酶和底物，大多数模型跟随机猜没什么区别**。研究团队建了迄今最大的细胞色素 P450（一类关键代谢酶）数据集——**768 种酶、2922 个反应**，发现只有用"双分子结构预测"思路训练的模型才真正有效。对 AI 制药从业者来说，这是一记清醒剂：**跑分好看不等于真的能用**。
 
 ---
 
-**4. [网络医学框架筛选抗衰老药物：2358个长寿基因上阵](https://www.fightaging.org/archives/2026/07/a-better-approach-to-screening-for-existing-drugs-that-slow-aging/)**
+**3. [AI + 超声波，让运动神经元病诊断不再是"噩梦级"操作](https://www.news-medical.net/news/20260706/Advancing-Motor-Neuron-Disease-Diagnosis-with-Non-Invasive-Ultrasound-and-AI.aspx)**
 
-药物重定向（把已上市的药找新用途）是抗衰老研究的一条捷径，但一直缺乏系统性工具。这项发表在《Nature Aging》上的研究换了个思路：把2358个与长寿相关的基因映射到人类蛋白质相互作用网络上，再用6442种已知化合物去测"网络距离"，同时引入一个叫pAGE的新指标，判断药物是否能逆转衰老相关的基因表达变化。简单说：这是一张更精准的"老药新用"地图，而且结果是可解释的。不是黑盒输出，而是告诉你具体哪条分子通路被影响了。
+运动神经元病（就是那种会让肌肉逐渐失控的疾病）确诊过程极其痛苦——得插针做肌电图，患者怕、医生累。Hodson-Tole 教授团队把超声波和 AI 结合，**完全不扎针**就能评估肌肉状态。无创、快速、患者友好。对神经退行性疾病的诊断来说，这条路比"越来越复杂的检查仪器"走得更聪明。
 
----
-
-**5. [每天吃酸奶+运动12周，真的能让"生物钟"慢下来](https://www.fightaging.org/archives/2026/07/dunedin-pace-of-aging-clock-responds-to-lifestyle-interventions/)**
-
-听起来像保健品广告，但这是一项随机对照试验（RCT，科学金标准）。50岁以上超重男性，坚持12周运动+饮食干预（每天吃含长双歧杆菌BB536的酸奶），DNA甲基化衰老时钟DunedinPACE显示：衰老速度减慢了约2.2%。这个数字听起来不大，但关键在于：它提供了证据，证明生活方式干预能在短期内被衰老时钟捕捉到。衰老时钟作为干预工具是否可信，这篇研究往前推进了一步。
+![图片](https://www.news-medical.net/images/news/ImageForNews_841306_1782820502037380.jpg)
 
 ---
 
-**6. [血糖高了，大脑老得更快](https://medicalxpress.com/news/2026-07-higher-blood-glucose-linked-faster.html)**
+**4. [多组学整合 + 深度神经网络，乳腺癌分型和生存预测新框架](https://papers.cool/arxiv/2607.05306)**
 
-人类大脑从三四十岁就开始慢慢萎缩，但有些人萎缩得特别快——最新研究把矛头指向了血糖。血糖水平偏高与大脑加速老化之间存在关联，会加剧记忆力下降、认知衰退，甚至提升相关脑疾病风险。这不是糖尿病患者才需要关心的事：即使血糖在"正常偏高"范围，大脑可能已经在悄悄付出代价。对AI生命科学领域来说，血糖作为大脑衰老的生物标志物（biomarker），有望成为可穿戴设备+AI监测的重要切入点。
-
----
-
-**7. [双语者的大脑更年轻？神经科学家说可能是真的](https://medicalxpress.com/news/2026-07-language-aging-brain.html)**
-
-在2026年欧洲神经科学学会（FENS）论坛上，研究人员展示了一个有点反直觉的发现：会说两种以上语言的人，大脑连接性衰退更慢，在测量指标上看起来更"年轻"。机制上的解释是长期双语使用对神经网络的持续锻炼效应。这不是叫大家立刻去学外语来抗衰老，但它提示了一件事：认知储备（cognitive reserve）在延缓大脑老化上，可能比我们想象的更有力。
+以前的癌症预测模型要么"好懂但不准"，要么"准但看不懂"。这篇论文提出 **Pathway Activity Autoencoder**，把生物通路（相当于细胞里的"操作手册"）直接嵌进神经网络结构，既保留了可解释性，又提升了预测性能。用在乳腺癌上：**基因表达、蛋白质和 microRNA 这三层数据贡献最大**。临床医生拿到的不只是一个"黑箱概率值"，而是有生物意义的洞察。这是 AI 医学真正落地的方向之一。
 
 ---
 
-**8. [NeuroBloom：免费的多发性硬化认知康复平台，开源了](https://github.com/Adit-Mugdha-das/NeuroBloom)**
+**5. [视网膜图像里藏着糖尿病并发症的"全身信号"——Causal-RetiGraph 来解读](https://papers.cool/arxiv/2607.05204)**
 
-多发性硬化（MS，一种慢性神经系统疾病）患者的认知监测和康复，长期缺乏低门槛的数字化工具。NeuroBloom是一个免费开源的Web平台，包含35个自适应认知任务，覆盖6个认知域，内置数字生物标志物提取，还支持孟加拉语/英语双语，医患协作工作流也做进去了。星数不多，但方向很硬——神经系统疾病的数字化认知评估，正是AI+生命科学落地医疗场景的典型路径之一。
-
----
-
-**9. [Abivax溃疡性结肠炎新药：临床数据让股价单周暴涨63%](https://www.genengnews.com/topics/translational-medicine/stockwatch-new-uc-data-sparks-smoother-sailing-for-abivax/)**
-
-这条消息值得关注，不只是因为股价。Abivax的obefazimod是一个机制非常特别的小分子药——它通过上调一种叫miR-124的抗炎微RNA来压制炎症，而不是直接封锁某个靶点。Phase III补充数据显示，即便是对诱导期没有应答的"难治患者"，在第44周仍有37.2%达到临床缓解。如果今年NDA（新药申请）顺利提交，这款药有望成为溃疡性结肠炎治疗的新选择。从HIV药物重新定向到炎症疾病，这本身也是一个教科书级的药物重定向案例。
+眼底拍一张照，能看出你的肾有没有问题？听起来玄，但原理是真的：糖尿病损害的是全身微血管，眼底只是最容易观察的窗口。Causal-RetiGraph 把视网膜图像特征和 NHANES（美国国家营养健康调查）全身数据打通，**糖化血红蛋白、尿蛋白、血压**成为最强的糖尿病视网膜病变预测信号，模型二分类准确率达 **90.55%，AUROC 达 97.11%**。AI 眼科不只是"看眼睛"，它在做全身代谢的侦探。
 
 ---
 
-**10. [既然子宫也老化，抗衰老疗法的下一个靶点是什么？](https://www.news-medical.net/news/20260705/Uterine-aging-may-reduce-donor-egg-pregnancy-success-after-49.aspx)**
+**6. [衰老的"幕后黑手"找到了——老化细胞在偷干细胞的工作](https://www.fightaging.org/archives/2026/07/age-related-cellular-senescence-harms-stem-cell-function/)**
 
-结合今天的第一条和第三条新闻来看，一个趋势正在成形：生殖系统老化（子宫内膜功能衰退）正在吸引越来越多的科学关注，而不再只是"卵巢储备"一个维度。子宫内膜的衰老机制，与细胞衰老（senescence）、炎症、干细胞功能下降高度相关——而这些，恰好是当前抗衰老研究最热的几个靶点方向。未来1-2年，针对子宫老化的干预研究可能会快速增多。
+这是一篇综述，但信息量炸裂。衰老细胞（senescent cells）不只是自己"废了"，它们还会**主动压制干细胞的自我更新能力**，从肌肉卫星细胞到骨髓干细胞，全面受损。更麻烦的是：在癌症里，衰老细胞反而会帮肿瘤。好消息是，**用药物或基因手段清除衰老细胞，多种组织功能可以逆转**。抗衰老不只是"保持年轻感"，更是在修复一套被破坏的组织维修系统。
 
-![图片](https://www.news-medical.net/image-handler/picture/2014/6/Pregnancy-620x480.jpg)
+---
+
+**7. [骨骼 + 肌肉的细胞对话，第一张高分辨率"空间转录组地图"](https://www.news-medical.net/news/20260706/New-spatially-resolved-transcriptomic-map-reveals-how-bone-and-muscle-cells-communicate.aspx)**
+
+骨头和肌肉一直被认为是"邻居"，但它们到底怎么互相发信号、互相影响？这项研究用空间转录组技术（可以理解为：能看出"哪个细胞在哪个位置说了什么话"的显微技术），在小鼠体内绘制了**迄今最详细的骨-肌通讯地图**。对骨质疏松、肌少症研究来说，这是从"知道有联系"迈向"知道联系机制"的关键一步。
+
+![图片](https://www.news-medical.net/image-handler/picture/2018/7/Osteoporosis_stage_3_of_4_-_upper_limb_bones_-_3d_rendering_-_Crevis_M1_62ee9a3e223b497ca6798e45d894de93-620x480.jpg)
+
+---
+
+**8. [肌肉丢了，骨头也跟着垮——"骨肌减少症"的基因密码被解开](https://lifespan.io/how-muscle-loss-and-bone-loss-are-related/)**
+
+60 岁以后，很多人会同时面临肌肉萎缩（肌少症）和骨质疏松，这不是巧合。基于 UK Biobank 的大规模研究发现：**近三分之一与这两种病相关的蛋白质是共用的**，NF-κB 炎症通路是核心线索，还有 12 个基因区域同时影响两种疾病。有趣的是，肌肉量和骨质疏松风险呈 U 形关系——太少有问题，练得太猛也会伤骨头。抗炎，可能才是同时防住这两种"老年杀手"的真正入口。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/07/Man-with-dumbbell-262x187.png)
+
+---
+
+**9. [BCG 疫苗竟然能重塑大脑免疫环境？阿尔茨海默症预防新线索](https://www.news-medical.net/news/20260706/BCG-vaccine-may-remodel-the-human-brains-immune-environment.aspx)**
+
+BCG 是预防结核病的老疫苗，但 Mass General Brigham 的研究者发现：它可能在大脑里做了更多事——**重塑了大脑的免疫微环境**，这或许正是此前观察到"接种 BCG 的人得阿尔茨海默症风险更低"的生物学原因。从结核病疫苗到神经退行性疾病预防，这个跨界发现让人眼前一亮。当然，从"生物机制可能存在"到"可以用于临床预防"还有很长的路。
+
+![图片](https://www.news-medical.net/image-handler/picture/2016/3/Bacterial_infection_tuberculosis.red_cells_in_blue_background.AFB_3%2b_-_toeytoey_b32b49df7608432793064092cdd06966-620x480.jpg)
+
+---
+
+**10. [表观遗传学"加速衰老"的真实案例：一种罕见突变揭开老化机制](https://www.fightaging.org/archives/2026/07/a-rare-epigenetic-accelerated-aging-condition/)**
+
+有一种罕见病患者，他们的 DNA 甲基化（控制基因"开关"的化学标记）会异常升高，表现出跟自然衰老极其相似的症状——干细胞功能衰退、骨骼问题、血液异常。研究发表在 *Nature Genetics*：**DNMT3A 基因的功能增益突变，在人类和小鼠中都重现了衰老的表观遗传特征**。这个"天然实验"给科学家提供了一个罕见窗口：表观遗传变化可能不只是衰老的"结果"，而是"原因"之一。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [药物重定向的网络医学新框架](https://doi.org/10.1038/s43587-026-01161-8) — 这篇Nature Aging论文提供了一套系统性筛选"老药抗衰新用途"的分析框架，可直接作为AI+衰老研究的方法论参考
+**[研究]** [AI 驱动的缺失数据填补框架应用于阿尔茨海默数据集](https://papers.cool/arxiv/2607.05279) — Emputation 框架处理阿尔茨海默病研究中的缺失数据，在准确性和分布评估上均表现出色，纵向临床研究的痛点有望缓解
 
-**[研究]** [DunedinPACE衰老时钟对生活方式干预的响应](https://doi.org/10.18632/aging.206386) — 12周RCT证明DNA甲基化衰老时钟可捕捉生活方式干预效果，为衰老时钟的临床验证积累证据
+**[研究]** [微生物组研究新范式：从"谁在那里"到"在做什么"](https://www.genengnews.com/resources/ebooks/unlocking-microbiome-function-with-anaerobic-workflows-and-metabolic-phenotyping/) — 代谢表型分析正在取代单纯的基因测序，微生物的"行为"比"身份"更重要，这是益生菌和活体生物治疗产品研发的关键转折点
 
-**[商业]** [Abivax完成9.2亿美元融资，现金跑道延至2029年](https://www.genengnews.com/topics/translational-medicine/stockwatch-new-uc-data-sparks-smoother-sailing-for-abivax/) — 单笔融资规模罕见，NDA提交在即，今年下半年是关键观察窗口
-
----
-
-## **😄 AI生命科学趣闻**
-
-### [每天吃酸奶，科学家说你的"生物年龄时钟"真的慢了](https://www.fightaging.org/archives/2026/07/dunedin-pace-of-aging-clock-responds-to-lifestyle-interventions/)
-
-今天最让人想立刻去超市的研究：吃12周酸奶+做运动，DNA甲基化衰老时钟真的慢了2.2%。这下酸奶品牌的市场部得疯了——"延缓衰老，从每日一杯酸奶开始"这个广告语已经在路上了吧？😂 当然，研究者很谨慎地说"需要更大规模长期研究"，但科学严谨归严谨，酸奶今晚还是得买一瓶。
+**[研究]** [结直肠癌无创液体生物标志物研究综述](https://www.news-medical.net/news/20260706/New-study-highlights-noninvasive-biomarkers-for-colorectal-cancer-detection.aspx) — 不用手术、不用活检，从血液或粪便中检测癌症信号正在成为现实，早筛的门槛在降低
 
 ---
 
-## **🔮 AI生命科学趋势预测**
+## **📊 更多动态**
 
-### Insilico Medicine AI制药平台涌现更多大型合作
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 研究 | DHA 补充剂对认知功能无明显改善（24个月随机试验） | [链接](https://medicalxpress.com/news/2026-07-docosahexaenoic-acid-supplement-cognitive.html) |
+| 2 | 论文 | 几何因果模型：从分子数据到 DNA 语言模型的因果推断新框架 | [链接](https://papers.cool/arxiv/2607.05153) |
+
+---
+
+## **😄 AI 生命科学趣闻**
+
+### [AI 制药烧了几十亿，CEO 自己说：别指望七年内见到成品](https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery/)
+
+Isomorphic 刚融了 21 亿美元，各家 AI 制药公司热火朝天，结果 Converge Bio 的 CEO 在 LinkedIn 上公开写道："别期望 AI 设计的分子七年内上市。"投资人：我投的是未来！CEO：对，是很遥远的未来。😂 有趣的是，这篇文章同时引用了他"现在就该投"的建议——前后一读，全是辩证法。
+
+---
+
+## **🔮 AI 生命科学趋势预测**
+
+### AI 制药公司首个 AI 设计分子进入关键临床里程碑
+- **预测时间**：2026年Q4
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Pharma Races to Scale AI](https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery/) 显示多家公司管线已进入合作深化阶段 + Insilico Medicine、Recursion 等已有候选分子在临床，年内公布阶段性数据概率较高
+
+### 衰老细胞清除（Senolytics）疗法进入更大规模临床试验
 - **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日新闻 [Takeda × Insilico 6亿美元合作](https://www.genengnews.com/topics/translational-medicine/stockwatch-new-uc-data-sparks-smoother-sailing-for-abivax/) + 大型药企正在加速将AI制药平台纳入核心研发流程，Insilico的端到端平台已被验证，极可能吸引更多大厂跟进签约
+- **预测依据**：今日综述 [Age-Related Cellular Senescence](https://www.fightaging.org/archives/2026/07/age-related-cellular-senescence-harms-stem-cell-function/) 系统梳理了干细胞-衰老拮抗机制 + Unity Biotechnology、Mayo Clinic 等多个 Senolytic 临床试验正在进行中，中期数据窗口集中在下半年
 
-### 子宫内膜老化干预研究进入快速扩张期
+### 眼底 AI 扩展为"全身代谢筛查"工具，获监管机构关注
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：65%
-- **预测依据**：今日新闻 [子宫老化影响捐卵妊娠成功率](https://www.news-medical.net/news/20260705/Uterine-aging-may-reduce-donor-egg-pregnancy-success-after-49.aspx) + 细胞衰老清除疗法（senolytic）已开始在多个器官系统开展临床研究，子宫内膜是明确的下一个靶器官方向
-
-### DNA甲基化衰老时钟进入临床试验主流评估体系
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日新闻 [DunedinPACE响应生活方式干预](https://www.fightaging.org/archives/2026/07/dunedin-pace-of-aging-clock-responds-to-lifestyle-interventions/) + 多个正在进行的抗衰老临床试验已将表观遗传时钟纳入次要终点，随着验证数据积累，监管机构接受度将提升
-
-### 血糖-大脑老化关联推动AI连续血糖监测新应用落地
-- **预测时间**：2026年8月-10月
 - **预测概率**：60%
-- **预测依据**：今日新闻 [高血糖与大脑加速老化相关](https://medicalxpress.com/news/2026-07-higher-blood-glucose-linked-faster.html) + CGM（连续血糖监测）设备已进入消费级市场，AI+脑健康+血糖监测的三角组合正在形成商业化产品路径
+- **预测依据**：今日论文 [Causal-RetiGraph](https://papers.cool/arxiv/2607.05204) 展示了视网膜 AI 与系统性代谢通路的强关联 + FDA 已批准多款眼底 AI 诊断工具，将其延伸至糖尿病肾病、心血管风险筛查是下一个自然步骤
+
+### BCG 疫苗与阿尔茨海默症预防的临床试验数据公布
+- **预测时间**：2026年Q4
+- **预测概率**：55%
+- **预测依据**：今日研究 [BCG vaccine may remodel the human brain's immune environment](https://www.news-medical.net/news/20260706/BCG-vaccine-may-remodel-the-human-brains-immune-environment.aspx) 提供了生物机制解释 + 多项 BCG 与痴呆预防的 RCT 试验（包括 TREAT-AD）正在进行，部分有望年内报告结果
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI制药、抗衰老研究、大脑老化 的最新资讯？
+### 哪里可以获取 AI 制药、衰老机制与多组学分析 的最新资讯？
 
-今日 AI 生命科学领域的热点包括：Insilico × 武田6亿美元AI制药合作、阿尔茨海默症细胞死亡新机制发现、子宫衰老对生育的影响以及DNA甲基化衰老时钟的临床验证。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：数十亿美元涌入 AI 药物设计平台（Isomorphic、Chai Discovery、Inceptive）、衰老细胞对干细胞功能的系统性损害机制、以及多组学深度学习在癌症分型中的应用。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -160,13 +175,13 @@ Insilico Medicine × 武田6亿美元合作落地，大药企开始把AI当核�
 
 ---
 
-### 如何体验 Claude / Gemini 等 AI 工具来辅助生命科学研究？
+### 如何体验 Claude、Gemini 等 AI 工具辅助生命科学研究？
 
-今日多条抗衰老和AI制药新闻背后，涉及大量论文检索、数据解读和行业分析工作——这些恰好是 Claude、Gemini、Perplexity、Consensus 等 AI 工具最擅长的场景。从筛选PubMed文献、解读网络医学框架论文，到梳理药企合作协议细节，AI工具已经成为生命科学从业者的日常研究加速器。
+今日新闻提到 Anthropic 收购 AI 制药公司 Coefficient Bio，并披露 Claude 正在被训练生物化学和生物信息学知识——这意味着 Claude 在科研辅助场景的能力正在快速进化。如果你在做文献调研、实验方案整理、多组学数据分析报告，Claude、Gemini、Perplexity、Consensus 都是值得尝试的工具。面临账号注册或支付问题？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Perplexity、Consensus 等多种 AI 工具入口
-- 覆盖官方号、中转额度、多模型组合包和科研检索工具
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 中转、Gemini 年卡、Perplexity、Consensus 等科研向 AI 工具入口
+- 覆盖官方号、镜像、中转额度和多模型组合包
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
