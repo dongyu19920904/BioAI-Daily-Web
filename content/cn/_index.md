@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/7
+title: AI生命延续学日报 2026/7/8
 breadcrumbs: false
-next: /2026-07/2026-07-06
+next: /2026-07/2026-07-08
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Isomorphic Labs 完成 21 亿美元融资，AI 制药赛道单轮融资额再创新高。
-衰老细胞"偷走"干细胞活力的机制被系统梳理，清除衰老细胞或可逆转多种组织衰退。
-钱在烧、机制在挖，但药还要等七年——今天适合收藏，不适合冲动入场。
+抗抑郁老药mianserin让老鼠寿命延长17.5%，机制清晰、发表在Nature子刊，老药新用再次逆袭。
+大片段基因编辑三路并进，Novartis和Vertex合计砸115亿美元押注新靶点，并购潮不是说说而已。
+今天适合深读前两条，钙离子通路和ADC弹头创新，可能是下半年最值得盯的两个方向。
 ```
 
 
@@ -29,141 +29,140 @@ Isomorphic Labs 完成 21 亿美元融资，AI 制药赛道单轮融资额再创
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-数十亿美金正在涌入 AI 制药，但第一款 AI 设计的药物离患者还有七年——钱烧的是"未来"，不是"现在"。
+一颗老药（抗抑郁药）让老鼠多活了17.5%——衰老研究最不按套路出牌的一天。
 
 ### **🔑 3 个关键词**
-#AI制药 #衰老机制 #多组学整合
+#钙离子稳态 #基因组大片段编辑 #生命科学并购潮
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [制药巨头疯狂砸钱 AI，数十亿美元涌入药物发现赛道](https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery/)**
+**1. [一颗抗抑郁药，让老鼠寿命延长17.5%](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/)**
 
-就在大家还在争论"AI能不能做药"的时候，资本已经用行动投票了。Isomorphic Labs（DeepMind 的制药子公司）刚完成 **21 亿美元** 融资，Inceptive 与 Alnylam 签下 **20 亿美元** 合作，Chai Discovery 拿到辉瑞的合同……这波钱砸的不是某一款药，而是"药物设计引擎"本身。有分析师直接说：AI 制药的估值已经跟临床数据脱钩了，资本在追的是"计算潜力"。讽刺的是，一位 CEO 在 LinkedIn 上泼冷水：**别指望 AI 设计的分子在七年内上市**。等待党，你们的耐心还要继续。
+年迈的老鼠毛发暗淡、脊背弯曲、肌肉无力——直到研究人员给它们用了mianserin（一种几十年前就上市的抗抑郁药）。四个月后，这批老鼠体型更大、毛色更亮、骨质更好，中位寿命延长了17.5%。背后的机制是：细胞老化时，内质网（细胞内的"蛋白质加工厂"）会漏出过多钙离子（Ca²⁺），引发连锁炎症反应，加速衰老。mianserin恰好能堵住这个漏洞。老药新用，这次指向的是衰老本身。
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/07/5_Cryptic_Credit-IsoLabs--300x209.png)
-
----
-
-**2. [用 AI 重新定义酶的"找搭档"难题：最大 CYP 数据集出炉](https://papers.cool/arxiv/2607.05084)**
-
-酶是生命里的"分子工厂"，但问题是——同一个反应，可能有几百种酶都能催化，你怎么知道该用哪个？现有的 AI 模型号称预测能力很强，但这篇论文直接打脸：**换一批没见过的酶和底物，大多数模型跟随机猜没什么区别**。研究团队建了迄今最大的细胞色素 P450（一类关键代谢酶）数据集——**768 种酶、2922 个反应**，发现只有用"双分子结构预测"思路训练的模型才真正有效。对 AI 制药从业者来说，这是一记清醒剂：**跑分好看不等于真的能用**。
+[图片: Calcium Treatment Survival](https://lifespan.io/wp-content/uploads/2026/07/Calcium-Treatment-Survival.png)
 
 ---
 
-**3. [AI + 超声波，让运动神经元病诊断不再是"噩梦级"操作](https://www.news-medical.net/news/20260706/Advancing-Motor-Neuron-Disease-Diagnosis-with-Non-Invasive-Ultrasound-and-AI.aspx)**
+**2. [人类独有的RNA片段，让细胞老得更快](https://lifespan.io/how-a-primate-specific-rna-strand-worsens-senescence/)**
 
-运动神经元病（就是那种会让肌肉逐渐失控的疾病）确诊过程极其痛苦——得插针做肌电图，患者怕、医生累。Hodson-Tole 教授团队把超声波和 AI 结合，**完全不扎针**就能评估肌肉状态。无创、快速、患者友好。对神经退行性疾病的诊断来说，这条路比"越来越复杂的检查仪器"走得更聪明。
+有一段叫LINC01021的RNA，只存在于灵长类动物（包括人类）体内，老鼠没有。研究人员发现，它在7种不同组织中都随年龄增长而升高，强行"植入"这段RNA的老鼠，衰老速度明显加快——握力下降、炎症标志物飙升。更麻烦的是：这段东西人类独有，没法直接用鼠模型研究对策。这提醒我们，衰老研究里，老鼠终究不是人。
 
-![图片](https://www.news-medical.net/images/news/ImageForNews_841306_1782820502037380.jpg)
-
----
-
-**4. [多组学整合 + 深度神经网络，乳腺癌分型和生存预测新框架](https://papers.cool/arxiv/2607.05306)**
-
-以前的癌症预测模型要么"好懂但不准"，要么"准但看不懂"。这篇论文提出 **Pathway Activity Autoencoder**，把生物通路（相当于细胞里的"操作手册"）直接嵌进神经网络结构，既保留了可解释性，又提升了预测性能。用在乳腺癌上：**基因表达、蛋白质和 microRNA 这三层数据贡献最大**。临床医生拿到的不只是一个"黑箱概率值"，而是有生物意义的洞察。这是 AI 医学真正落地的方向之一。
+![图片](https://lifespan.io/wp-content/uploads/2026/06/Monkeys-and-people-262x187.jpg)
 
 ---
 
-**5. [视网膜图像里藏着糖尿病并发症的"全身信号"——Causal-RetiGraph 来解读](https://papers.cool/arxiv/2607.05204)**
+**3. [大片段基因编辑的圣杯之战：桥接重组酶、CASTs、环状单链DNA全场竞技](https://www.genengnews.com/topics/genome-editing/the-quest-for-large-scale-dna/)**
 
-眼底拍一张照，能看出你的肾有没有问题？听起来玄，但原理是真的：糖尿病损害的是全身微血管，眼底只是最容易观察的窗口。Causal-RetiGraph 把视网膜图像特征和 NHANES（美国国家营养健康调查）全身数据打通，**糖化血红蛋白、尿蛋白、血压**成为最强的糖尿病视网膜病变预测信号，模型二分类准确率达 **90.55%，AUROC 达 97.11%**。AI 眼科不只是"看眼睛"，它在做全身代谢的侦探。
+CRISPR很强，但它只能精确修改"一个字母"——面对大段基因缺失、倒位、重复这类结构性遗传病，它束手无策。现在三支队伍同时出发：Arc Institute的**桥接重组酶**（bridge recombinases）能做0.93Mb级别的染色体倒位；哈佛和Broad Institute进化出**evoCAST**，基因整合效率提升200倍；Full Circle Therapeutics用**环状单链DNA**（cssDNA）绕过免疫系统的识别。基因治疗的下一个战场，已经悄悄开打了。
 
----
-
-**6. [衰老的"幕后黑手"找到了——老化细胞在偷干细胞的工作](https://www.fightaging.org/archives/2026/07/age-related-cellular-senescence-harms-stem-cell-function/)**
-
-这是一篇综述，但信息量炸裂。衰老细胞（senescent cells）不只是自己"废了"，它们还会**主动压制干细胞的自我更新能力**，从肌肉卫星细胞到骨髓干细胞，全面受损。更麻烦的是：在癌症里，衰老细胞反而会帮肿瘤。好消息是，**用药物或基因手段清除衰老细胞，多种组织功能可以逆转**。抗衰老不只是"保持年轻感"，更是在修复一套被破坏的组织维修系统。
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/GE_Hsu_Arc-Institute-1024x742.jpg)
 
 ---
 
-**7. [骨骼 + 肌肉的细胞对话，第一张高分辨率"空间转录组地图"](https://www.news-medical.net/news/20260706/New-spatially-resolved-transcriptomic-map-reveals-how-bone-and-muscle-cells-communicate.aspx)**
+**4. [Novartis花15亿美元买下一家"新型弹头"公司](https://www.genengnews.com/topics/cancer/novartis-to-acquire-myricx-bio-for-up-to-1-5b-adding-cancer-fighting-adc-payload-platform/)**
 
-骨头和肌肉一直被认为是"邻居"，但它们到底怎么互相发信号、互相影响？这项研究用空间转录组技术（可以理解为：能看出"哪个细胞在哪个位置说了什么话"的显微技术），在小鼠体内绘制了**迄今最详细的骨-肌通讯地图**。对骨质疏松、肌少症研究来说，这是从"知道有联系"迈向"知道联系机制"的关键一步。
+抗体偶联药物（ADC，可以理解为"精准制导导弹"）是当下最火的抗癌技术，但现有的"弹头"（payload）有毒性大、肿瘤容易耐药等问题。Myricx Bio用的是一种全新弹头——NMTi，靶向癌细胞的代谢关键酶，在TOPO-1耐药模型中仍有效。Novartis掏了11亿美元现金、外加4亿里程碑付款，把这家从帝国理工和Francis Crick研究所孵化的公司收入囊中。这是Novartis今年第三次大手笔押注肿瘤管线。
 
-![图片](https://www.news-medical.net/image-handler/picture/2018/7/Osteoporosis_stage_3_of_4_-_upper_limb_bones_-_3d_rendering_-_Crevis_M1_62ee9a3e223b497ca6798e45d894de93-620x480.jpg)
-
----
-
-**8. [肌肉丢了，骨头也跟着垮——"骨肌减少症"的基因密码被解开](https://lifespan.io/how-muscle-loss-and-bone-loss-are-related/)**
-
-60 岁以后，很多人会同时面临肌肉萎缩（肌少症）和骨质疏松，这不是巧合。基于 UK Biobank 的大规模研究发现：**近三分之一与这两种病相关的蛋白质是共用的**，NF-κB 炎症通路是核心线索，还有 12 个基因区域同时影响两种疾病。有趣的是，肌肉量和骨质疏松风险呈 U 形关系——太少有问题，练得太猛也会伤骨头。抗炎，可能才是同时防住这两种"老年杀手"的真正入口。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/07/Man-with-dumbbell-262x187.png)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Myricx-CEO-300x200.jpg)
 
 ---
 
-**9. [BCG 疫苗竟然能重塑大脑免疫环境？阿尔茨海默症预防新线索](https://www.news-medical.net/news/20260706/BCG-vaccine-may-remodel-the-human-brains-immune-environment.aspx)**
+**5. [Vertex豪掷100亿美元，从囊性纤维化跨界内分泌病](https://www.genengnews.com/topics/translational-medicine/vertex-eyes-expansion-beyond-cystic-fibrosis-with-planned-10b-crinetics-buyout/)**
 
-BCG 是预防结核病的老疫苗，但 Mass General Brigham 的研究者发现：它可能在大脑里做了更多事——**重塑了大脑的免疫微环境**，这或许正是此前观察到"接种 BCG 的人得阿尔茨海默症风险更低"的生物学原因。从结核病疫苗到神经退行性疾病预防，这个跨界发现让人眼前一亮。当然，从"生物机制可能存在"到"可以用于临床预防"还有很长的路。
+Vertex是囊性纤维化（一种遗传性肺病）领域的绝对霸主，Q1那块业务贡献了公司98%的收入。但一棵树上结不了无限果子，所以他们用100亿美元收购了Crinetics——后者有一款已获批的罕见病药物Palsonify，还有两个三期候选管线。消息一出，Crinetics股价直接翻倍。Vertex估算这两款药峰值年收入可超50亿美元。
 
-![图片](https://www.news-medical.net/image-handler/picture/2016/3/Bacterial_infection_tuberculosis.red_cells_in_blue_background.AFB_3%2b_-_toeytoey_b32b49df7608432793064092cdd06966-620x480.jpg)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Reshma-Kewalramani-MD-Vertex-CEO-300x300.jpg)
 
 ---
 
-**10. [表观遗传学"加速衰老"的真实案例：一种罕见突变揭开老化机制](https://www.fightaging.org/archives/2026/07/a-rare-epigenetic-accelerated-aging-condition/)**
+**6. [太空飞行加速肝脏衰老？宇航员的肝细胞给出新线索](https://www.news-medical.net/news/20260707/Molecular-changes-in-the-liver-of-space-travelers-provide-clues-about-aging.aspx)**
 
-有一种罕见病患者，他们的 DNA 甲基化（控制基因"开关"的化学标记）会异常升高，表现出跟自然衰老极其相似的症状——干细胞功能衰退、骨骼问题、血液异常。研究发表在 *Nature Genetics*：**DNMT3A 基因的功能增益突变，在人类和小鼠中都重现了衰老的表观遗传特征**。这个"天然实验"给科学家提供了一个罕见窗口：表观遗传变化可能不只是衰老的"结果"，而是"原因"之一。
+在失重、辐射、昼夜节律紊乱的太空环境里，宇航员的肝脏发生了什么？研究人员发现，太空旅行引发的肝脏分子层面变化，与地球上的正常衰老高度相似。这不只是航天医学的问题——太空是一个"极端加速版衰老实验室"，从这里找到的干预靶点，有望转化为地球上的抗衰疗法。
+
+![图片](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
+
+---
+
+**7. [AI筛查早产儿失明：分类器+血管分割，组合拳打出更好的效果](https://papers.cool/arxiv/2607.05825)**
+
+早产儿视网膜病变（ROP）是可预防的儿童失明主因，但在肯尼亚这样的低收入国家，专科眼科医生极度稀缺。这项研究分析了121名肯尼亚早产儿的1635张眼底图像，发现单独用AI图像分类器漏诊率低但过度转诊；加入血管分割模型之后，特异性大幅提升。两者组合的集成方案，平衡准确率达到0.803。AI正在帮助那些最缺医疗资源的角落守住视力。
+
+---
+
+**8. [Canopy：专为代谢工程设计的异质图基础模型](https://papers.cool/arxiv/2607.06224)**
+
+想让微生物帮你生产某种化学品？现在有了更强的AI设计工具。Canopy把基因、蛋白质、代谢物、反应通路、发酵实验等690万个节点整合进一张统一知识图谱，用ESM-2（蛋白质序列）、MoLFormer（分子结构）、PubMedBERT（生物医学文本）三种专业模型联合编码。在发酵产量预测任务上，R²=0.41，比传统表格机器学习方法（最好只有0.24）显著提升。AI辅助菌株设计，又向工业化又近了一步。
+
+---
+
+**9. [AI攻克乳腺钙化跨医院诊断难题](https://papers.cool/arxiv/2607.06549)**
+
+同一个AI模型，在A医院训练好，搬到B医院就掉精度——这是医疗AI最头疼的"域偏移"问题。这项研究用风格迁移技术（CycleGAN等）先把不同医院的乳腺钼靶图像"统一风格"，再用Swin Transformer V2做钙化良恶性分类。在跨机构外部验证集上，AUC从0.68提升至0.72-0.73。不需要目标医院重新标注数据，直接迁移——这种思路对AI医疗落地非常实用。
+
+---
+
+**10. [脑白质年龄预测开源代码库上线](https://github.com/zayleakua/White-Matter-Brain-Age)**
+
+脑白质（大脑神经纤维外的保护层）的老化程度，是神经退行性疾病的重要早期信号。这个GitHub项目开源了基于ROI（感兴趣区域）分析和3D-ResNet的脑白质/灰质年龄预测模型代码。星标虽少，但对做神经影像AI研究的同学来说，这是现成的起点。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [AI 驱动的缺失数据填补框架应用于阿尔茨海默数据集](https://papers.cool/arxiv/2607.05279) — Emputation 框架处理阿尔茨海默病研究中的缺失数据，在准确性和分布评估上均表现出色，纵向临床研究的痛点有望缓解
+**[研究]** [CEST MRI物理约束重建：扫描时间缩短，代谢图谱更精准](https://papers.cool/arxiv/2607.06132) - 用洛伦兹物理先验约束AI重建稀疏采样MRI，脑代谢成像质量大幅提升，临床实用性更强
 
-**[研究]** [微生物组研究新范式：从"谁在那里"到"在做什么"](https://www.genengnews.com/resources/ebooks/unlocking-microbiome-function-with-anaerobic-workflows-and-metabolic-phenotyping/) — 代谢表型分析正在取代单纯的基因测序，微生物的"行为"比"身份"更重要，这是益生菌和活体生物治疗产品研发的关键转折点
+**[研究]** [三模态融合AI量化肺病严重程度](https://papers.cool/arxiv/2607.06356) - 同时输入胸部影像、肺部分割图和语言描述，AI评分比单模态基线更准，还能输出不确定性估计
 
-**[研究]** [结直肠癌无创液体生物标志物研究综述](https://www.news-medical.net/news/20260706/New-study-highlights-noninvasive-biomarkers-for-colorectal-cancer-detection.aspx) — 不用手术、不用活检，从血液或粪便中检测癌症信号正在成为现实，早筛的门槛在降低
+**[研究]** [深度学习解析淋巴瘤肿瘤微环境](https://papers.cool/arxiv/2607.06129) - 弥漫大B细胞淋巴瘤（DLBCL）的AI病理分析，从肿瘤微环境角度自动化提取空间特征，助力精准分型
 
----
+**[研究]** [多模态分子表示学习加速虚拟药物筛选](https://papers.cool/arxiv/2607.05736) - 三支路融合3D几何、SMILES拓扑语法和理化描述符，QM9基准上原子化能预测MAE仅0.0207 eV，参数不到百万
 
-## **📊 更多动态**
-
-| # | 类型 | 标题 | 链接 |
-|---|------|------|------|
-| 1 | 研究 | DHA 补充剂对认知功能无明显改善（24个月随机试验） | [链接](https://medicalxpress.com/news/2026-07-docosahexaenoic-acid-supplement-cognitive.html) |
-| 2 | 论文 | 几何因果模型：从分子数据到 DNA 语言模型的因果推断新框架 | [链接](https://papers.cool/arxiv/2607.05153) |
+**[开源]** [甲基化衰老时钟+长寿变异注释工具包](https://github.com/IBAR-ROGEN/Aging) - ROGEN项目开源的生物信息学工具，覆盖DNA甲基化年龄时钟和人类基因组等位基因频率比较，衰老研究者可直接取用
 
 ---
 
-## **😄 AI 生命科学趣闻**
+## **😄 AI生命科学趣闻**
 
-### [AI 制药烧了几十亿，CEO 自己说：别指望七年内见到成品](https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery/)
+### [一颗治抑郁的老药，意外成了"长寿候选药"](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/)
 
-Isomorphic 刚融了 21 亿美元，各家 AI 制药公司热火朝天，结果 Converge Bio 的 CEO 在 LinkedIn 上公开写道："别期望 AI 设计的分子七年内上市。"投资人：我投的是未来！CEO：对，是很遥远的未来。😂 有趣的是，这篇文章同时引用了他"现在就该投"的建议——前后一读，全是辩证法。
+科研界有一个经典剧情：花大钱开发全新靶向药，结果被一颗已经卖了几十年的老药逆袭。mianserin本来是1970年代就上市的抗抑郁药，研究人员原本只是在找"比2-APB副作用少"的替代方案（2-APB会让老鼠发抖，这显然不行）。没想到mianserin一上场，老鼠寿命直接延长17.5%，毛色还变亮了。网友评论可以想象："等等，抗抑郁药顺手抗衰老？" 😂 当然，从老鼠到人还有很长的路——但这个意外发现，已经足够让衰老研究圈兴奋一阵了。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/07/Calcium-ion-262x187.png)
 
 ---
 
-## **🔮 AI 生命科学趋势预测**
+## **🔮 AI生命科学趋势预测**
 
-### AI 制药公司首个 AI 设计分子进入关键临床里程碑
-- **预测时间**：2026年Q4
+### 钙离子通路成为抗衰老药物新热点
+- **预测时间**：2026年Q3-Q4
 - **预测概率**：70%
-- **预测依据**：今日新闻 [Pharma Races to Scale AI](https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery/) 显示多家公司管线已进入合作深化阶段 + Insilico Medicine、Recursion 等已有候选分子在临床，年内公布阶段性数据概率较高
+- **预测依据**：今日新闻[mianserin延长小鼠寿命17.5%](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/) + 该研究发表于Nature Communications，具有较高转化可信度；预计会触发多个衰老研究团队跟进验证，IP3R抑制剂和S100A6靶向药开发或进入早期布局
 
-### 衰老细胞清除（Senolytics）疗法进入更大规模临床试验
+### ADC新payload军备竞赛加速，NMTi机制将迎来更多临床数据
 - **预测时间**：2026年Q3
 - **预测概率**：75%
-- **预测依据**：今日综述 [Age-Related Cellular Senescence](https://www.fightaging.org/archives/2026/07/age-related-cellular-senescence-harms-stem-cell-function/) 系统梳理了干细胞-衰老拮抗机制 + Unity Biotechnology、Mayo Clinic 等多个 Senolytic 临床试验正在进行中，中期数据窗口集中在下半年
+- **预测依据**：今日新闻[Novartis 15亿美元收购Myricx Bio](https://www.genengnews.com/topics/cancer/novartis-to-acquire-myricx-bio-for-up-to-1-5b-adding-cancer-fighting-adc-payload-platform/) + ADC赛道已进入"弹头创新"竞争阶段，Novartis收购完成后将加速NMTi-ADC的IND申报，预计B7-H3和HER2靶点的临床前数据会在年底前公开
 
-### 眼底 AI 扩展为"全身代谢筛查"工具，获监管机构关注
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：60%
-- **预测依据**：今日论文 [Causal-RetiGraph](https://papers.cool/arxiv/2607.05204) 展示了视网膜 AI 与系统性代谢通路的强关联 + FDA 已批准多款眼底 AI 诊断工具，将其延伸至糖尿病肾病、心血管风险筛查是下一个自然步骤
-
-### BCG 疫苗与阿尔茨海默症预防的临床试验数据公布
+### 大片段基因编辑技术进入首批IND申报阶段
 - **预测时间**：2026年Q4
 - **预测概率**：55%
-- **预测依据**：今日研究 [BCG vaccine may remodel the human brain's immune environment](https://www.news-medical.net/news/20260706/BCG-vaccine-may-remodel-the-human-brains-immune-environment.aspx) 提供了生物机制解释 + 多项 BCG 与痴呆预防的 RCT 试验（包括 TREAT-AD）正在进行，部分有望年内报告结果
+- **预测依据**：今日新闻[桥接重组酶/evoCAST/cssDNA技术综述](https://www.genengnews.com/topics/genome-editing/the-quest-for-large-scale-dna/) + Stylus Medicine等公司已明确in vivo应用方向；大片段编辑效率和特异性已达到概念验证级别，距离首个IND仍需解决递送问题，但Q4前提交的可能性正在上升
+
+### AI医疗影像跨机构泛化成为FDA/NMPA审查新关注点
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻[乳腺钙化AI跨医院域适应框架](https://papers.cool/arxiv/2607.06549) + 近期多项研究显示跨机构性能下降是AI医疗器械落地核心风险；预计监管机构将在新指南中明确要求提交多中心外部验证数据
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、衰老机制与多组学分析 的最新资讯？
+### 哪里可以获取 AI 制药、抗衰老研究、基因编辑 最新资讯？
 
-今日 AI 生命科学领域的热点包括：数十亿美元涌入 AI 药物设计平台（Isomorphic、Chai Discovery、Inceptive）、衰老细胞对干细胞功能的系统性损害机制、以及多组学深度学习在癌症分型中的应用。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：钙离子稳态与抗衰老药物新发现、大片段基因编辑技术竞赛升级、生命科学赛道百亿级并购潮。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -175,13 +174,13 @@ Isomorphic 刚融了 21 亿美元，各家 AI 制药公司热火朝天，结果 
 
 ---
 
-### 如何体验 Claude、Gemini 等 AI 工具辅助生命科学研究？
+### 如何体验 Claude / Gemini 等 AI 工具做生命科学文献研究？
 
-今日新闻提到 Anthropic 收购 AI 制药公司 Coefficient Bio，并披露 Claude 正在被训练生物化学和生物信息学知识——这意味着 Claude 在科研辅助场景的能力正在快速进化。如果你在做文献调研、实验方案整理、多组学数据分析报告，Claude、Gemini、Perplexity、Consensus 都是值得尝试的工具。面临账号注册或支付问题？
+今日日报中，Canopy代谢工程基础模型、多项AI医学论文分析等内容，都涉及大量生物医学文献的快速理解与整理。如果你想用 Claude 或 Gemini 做文献摘要、Consensus 做精准科研检索，但面临账号注册或支付门槛？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 中转、Gemini 年卡、Perplexity、Consensus 等科研向 AI 工具入口
-- 覆盖官方号、镜像、中转额度和多模型组合包
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
+- 覆盖官方号、镜像、中转额度、多模型组合包和科研检索工具
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
