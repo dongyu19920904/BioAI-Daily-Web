@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/9
+title: AI生命延续学日报 2026/7/10
 breadcrumbs: false
-next: /2026-07/2026-07-08
+next: /2026-07/2026-07-10
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ECGLight 实现手机端全流程心电图心梗筛查，覆盖2万张数据，基层医疗AI落地迈出扎实一步。
-衰老研究工具链密集开源：24种表观遗传时钟打包可用，多组学阿尔茨海默预测代码齐全，门槛肉眼可见地降低。
-今天的重点在"工具普惠"——AI正把过去只属于顶级实验室的能力，交给普通研究者。
+虚拟细胞军备赛升级，Arc、Xaira、GenBio AI争建"细胞版PDB"，Biohub砸5亿押注数据基础设施。
+GLP-1药物独吞今年处方药增量三分之一，Mounjaro涨99%，AI制药的下一个靶点已经很明显了。
+代谢、肿瘤、神经退行性疾病三条线同时爆发，今天这期值得从头看到尾。
 ```
 
 
@@ -29,152 +29,154 @@ ECGLight 实现手机端全流程心电图心梗筛查，覆盖2万张数据，�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-AI 正在把"预测你什么时候老"这件事，从实验室搬进你的手机。
+虚拟细胞正在突破"只看RNA"的局限，向多尺度、跨时间的完整生命模拟进化——药物发现的底层逻辑，正在被重写。
 
 ### **🔑 3 个关键词**
-#AI制药 #衰老时钟 #神经退行性疾病
+#虚拟细胞 #AI制药 #联邦学习
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [用手机拍一张纸质心电图，AI 帮你筛查心梗——还能在没网的偏远诊所跑起来](https://papers.cool/arxiv/2607.07683)**
+**1. [虚拟细胞进化：从单一RNA到多尺度生命模拟](https://www.genengnews.com/topics/artificial-intelligence/virtual-cells-go-multiscale-to-predict-complex-biology/)**
 
-偏远山区的诊所没有高速网络，没有GPU服务器，但有纸质心电图。这个问题困扰了无数基层医生。ECGLight 直接在手机端跑完"拍照→数字化→心梗筛查"全流程，在21799张心电图上完成训练和验证，还加了 SHAP 可解释性分析（一种帮你看懂 AI 为什么这么判断的工具）。基层医疗的 AI 普惠，这是个很扎实的方向。
+想象一下：不用给患者做活检，直接从基因组出发，用电脑模拟免疫细胞在疾病状态下的全部行为。这不是科幻，是今天虚拟细胞领域正在拼命靠近的现实。Arc Institute的STATE、Xaira的X-Cell（49亿参数）、GenBio AI的"数字生物体"……各路玩家正在突破"RNA一条腿走路"的局限。Biohub甚至砸了5亿美元专门建数据基础设施。核心洞察：就像蛋白质数据库PDB奠定了AlphaFold的基础，现在大家在抢的，是"细胞的PDB"。
 
-![图片](https://papers.cool/arxiv/2607.07683)
-
----
-
-**2. [图神经网络预测药物副作用，准确率从 70% 飙到 89%](https://papers.cool/arxiv/2607.07611)**
-
-同时吃多种药——这在老年人里极为普遍，但药物之间的相互作用（DDI）复杂到连医生都难以全部掌握。研究者只改了一个损失函数（模型学习的"评分标准"），ClinicalFocal Loss 让图神经网络更专注于"容易漏掉的危险组合"，准确率暴涨 19 个百分点，漏报率从 30% 降到 9%。一个小改动，临床意义却很大。
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/AI_GenBio-Virtual-Cell-Graphic-Firefly-Upscaler-2x-scale-1024x576.jpg)
 
 ---
 
-**3. [不打造影剂，AI 帮你"合成"增强版脑部 MRI](https://papers.cool/arxiv/2607.07553)**
+**2. [DrugGen-2：把疾病背景塞进药物设计的AI](https://papers.cool/arxiv/2607.08404)**
 
-肾功能不好的患者没法打造影剂，但肿瘤诊断又离不开增强 MRI。AA-ViT 这个模型直接用普通 MRI（T1/T2/FLAIR 序列）合成高质量增强图像，三位神经放射科医生和一位神经外科医生打分均值 3.94/5，给出了罕见的临床初步认可。省钱、缩短扫描时间、还规避了造影剂风险。
-
----
-
-**4. [细胞轨迹分析从此不再是生物信息专家的专利](https://papers.cool/arxiv/2607.07467)**
-
-单细胞转录组分析（研究每个细胞的基因表达，追踪细胞如何"成长"）一直是门槛极高的活儿。SpaCellAgent 用多智能体 LLM 框架，把这个全流程自动化了——你说人话，它出结果。在 6 个异质数据集上，分析效率提升超 40%，代码已开源。这对没有专职生信工程师的实验室来说，是真正的降维打击。
+传统AI造药有个盲点——它只盯着靶点蛋白，完全无视"这个病到底是什么"。DrugGen-2直接把疾病上下文一起喂给模型，用GPT-2微调+强化学习生成候选分子。拿糖尿病肾病五个靶点测试，预测结合亲和力全面超越参照药物依那普利（-8.283）。最高候选分子跑到了-9.917。这个思路如果推广开来，药物重定向（用老药治新病）的效率会直接起飞。
 
 ---
 
-**5. [多组学 + 机器学习预测阿尔茨海默症，开源项目来了](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling)**
+**3. [联邦深度学习：跨医院预测心血管风险，隐私不泄露](https://papers.cool/arxiv/2607.08595)**
 
-UK Biobank（英国大型生物样本库）的数据，加上多组学生物衰老时钟（epigenetic clocks，一种通过 DNA 甲基化推算生理年龄的工具）和多基因风险评分（PRS），这个开源项目尝试预测阿尔茨海默症及相关痴呆。提供完整的 R+Python 代码，包括生存分析和竞争风险模型。做相关研究的同学可以直接拿去用。
-
----
-
-**6. [24 种表观遗传衰老时钟，打包成一个离线 AI 技能](https://github.com/gangchen/epiage-skill)**
-
-GrimAge、Horvath、PhenoAge……这些衰老时钟（通过 DNA 甲基化估算生理年龄的算法）散落在各处，跑一遍得装一堆依赖。epiage-skill 把 24 种打包成一个可安装的 Agent 技能，只需 pandas+numpy，完全离线。对做衰老研究的人来说，这种"开箱即用"节省的时间，真的不是一点点。
+荷兰两个队列、15万+参与者的心血管风险数据，医院之间绝对不能直接共享。联邦学习（让模型去数据那里训练，而不是数据来模型这里）完美解决了这个矛盾。结果：模型预测准确度（C统计量）从0.728提升到0.739，听起来不大，但在临床预测模型里这是实质性进步。这套框架的价值不只是心血管，任何需要多中心数据又怕隐私泄露的AI医疗项目，都可以直接借鉴。
 
 ---
 
-**7. [威尔康奈尔医学院拿到 837 万美元联邦基金，研究高风险人群的阿尔茨海默症基因疗法](https://www.news-medical.net/news/20260708/Weill-Cornell-Medicine-receives-federal-grant-to-study-new-gene-therapy-for-Alzheimers-disease.aspx)**
+**4. [ABB机器人×罗氏诊断：实验室物理AI来了](https://www.news-medical.net/news/20260709/ABB-Robotics-collaborates-with-Roche-to-bring-physical-AI-to-laboratories.aspx)**
 
-美国国家老龄化研究所砸下 837 万美元（五年期），支持威尔康奈尔医学院研究针对高遗传风险人群的阿尔茨海默基因疗法。基因疗法做阿尔茨海默，是目前最受关注的赛道之一。这笔钱不算最大，但来自联邦政府，信号意义强烈。
+工业机器人巨头ABB和体外诊断龙头罗氏宣布全球合作，目标是把"物理AI"（能在真实物理空间里自主操作的机器人系统）落地到临床实验室。以前说AI进实验室，大多是软件层面的数据分析；这次直接是机械臂上场，自动完成样本处理、检测流程。实验室自动化这条赛道，巨头开始认真了。
 
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Gene_Therapy-620x480.jpg)
-
----
-
-**8. [意大利数据：极端长寿不再只属于"蓝色地带"](https://www.news-medical.net/news/20260709/New-Italian-data-show-extreme-longevity-is-spreading-beyond-the-blue-zones.aspx)**
-
-蓝色地带（Blue Zones，全球几个百岁老人聚集的地方）一直是长寿研究的圣地。但意大利一项覆盖1982-2025年的全国生态分析显示：极端长寿指标在扩散，不再局限于传统区域。更低的糖尿病死亡率、更少的脑血管病，加上健康的饮食结构，是关联因素。这类数据，是训练长寿预测 AI 模型的重要原材料。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_842063_17835698323997123.png)
+![图片](https://www.news-medical.net/images/news/ImageForNews_842120_1783604429018193.png)
 
 ---
 
-**9. [PTSD 让人衰老得更快——25年随访数据说话](https://www.news-medical.net/news/20260708/Study-links-PTSD-to-accelerated-biological-aging-and-chronic-disease.aspx)**
+**5. [神经退行性疾病的未来解剖学：AI预测大脑慢性退变](https://papers.cool/arxiv/2607.08270)**
 
-9·11后的世贸中心救援人员，追踪了 25 年。研究发现 PTSD 与加速的生物衰老（biological aging，指实际生理年龄比日历年龄老得更快）以及慢性病风险显著相关。这不只是心理健康议题——它正在成为衰老生物标志物研究的重要切入点，也提示了心理应激在"衰老时钟"中的权重。
-
-![图片](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
+痴呆、帕金森这类病，MRI信号变化极其微弱，以前的生成模型根本"看不出"进展——要么陷入"恒等崩塌"（直接复制当前图像），要么产生满屏噪点。Latent Drift用了一个聪明策略：在压缩的语义空间里学习"变化"，而不是在全分辨率图像上硬撑。配合有限标量量化压制噪声，3D脑部MRI纵向预测效果全面超越扩散模型和Transformer基线。更早预判病程走向，临床试验设计会更精准。
 
 ---
 
-**10. [痴呆脑中有多种蛋白质同时捣乱，新研究摸清了共存规律](https://www.news-medical.net/news/20260708/Study-advances-understanding-of-mixed-protein-pathologies-in-dementia.aspx)**
+**6. [UCSF×三星：用手机追踪大脑十年变化](https://www.news-medical.net/news/20260709/UCSF-and-Samsung-launch-remote-study-on-aging-brain-health.aspx)**
 
-阿尔茨海默症脑里的淀粉样蛋白、帕金森相关的 α-突触核蛋白……老龄化的大脑常常不是"一种病"，而是多种蛋白病理同时存在。搞清楚这些"混合病理"的共存规律，是 AI 辅助神经退行性疾病诊断和靶点发现的前提。这项研究推进了这个基础认知。
+UCSF神经科学研究中心Neuroscape联合三星，发起一项完全远程的脑健康衰老研究——不用去医院，用三星设备在家就能参与，追踪十年间大脑随年龄的逐年变化。这是"消费电子+学术研究"联手切入老龄化赛道的典型案例。数据规模一旦跑起来，喂给AI做认知衰退预测模型，想象空间很大。
 
-![图片](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Neuroscience-620x480.jpg)
+
+---
+
+**7. [OmniChem：化学AI幻觉减少79%，分子设计能力暴增](https://papers.cool/arxiv/2607.08403)**
+
+AI在化学领域有个老问题：模型只会"模仿语言模式"，不懂真正的化学逻辑，经常一本正经地胡说八道（幻觉）。G-Frame框架强迫模型把领域约束内化为推理结构，合成了36万条思维链数据训练7B模型OmniChem。最终幻觉率暴降79.46%，在化学基准测试上追平GPT-4o mini。分子设计和合成路径规划的实际能力也同步提升。对AI制药公司来说，这意味着AI建议的可信度直接上了一个台阶。
+
+---
+
+**8. [CASL-VAE：AI解析阿尔茨海默症的生物异质性](https://papers.cool/arxiv/2607.08254)**
+
+阿尔茨海默症的难点之一是：它不是一种病，而是许多种表现各异的疾病混在一起。CASL-VAE用对比潜变量模型，在没有配对数据的情况下，把"疾病特异性变异"和"正常个体差异"分开。在神经影像数据验证中，模型成功识别出阿尔茨海默的生物学亚型，且亚型划分具有生物学合理性。对精准医疗的意义：不同亚型可能需要完全不同的治疗策略。
+
+---
+
+**9. [屏蔽宇宙射线来研究衰老：地下实验室方案](https://lifespan.io/an-experimental-proposal-for-blocking-ambient-radiation/)**
+
+这个想法有点反直觉：把细胞养在地下600米深的实验室里——屏蔽掉从宇宙射线碰撞大气层产生的μ子（一种不可避免的基本粒子）——看看"被辐射扰动"这件事，到底贡献了多少表观遗传衰老。表观遗传损伤里2/3到9/10是随机因素，辐射是最大嫌疑之一。有趣的是，果蝇在低辐射环境下DNA修复机制反而变弱了。这项提案选址西班牙Canfranc地下实验室，结果还没出来，但逻辑链极其清晰。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/07/Underground-laboratory-262x187.png)
+
+---
+
+**10. [2026年全球最畅销10款药：GLP-1独吞三分之一增量](https://www.genengnews.com/industry-news/top-10-best-selling-drugs-2026/)**
+
+美国人2026年处方药支出即将突破1万亿美元，同比增长9.3%——而增量的三分之一来自GLP-1类药物（就是Ozempic、Mounjaro这类减肥/糖尿病药）。Mounjaro销售额同比暴涨99%，Zepbound更是直接涨了174.9%。对AI制药公司来说，这份榜单是最直接的市场信号：代谢疾病、肿瘤（Keytruda高居第一）、免疫疾病，是未来五年最值得押注的管线方向。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [肠道菌群多样性与老年女性虚弱程度直接挂钩](https://www.news-medical.net/news/20260708/Study-links-gut-bacteria-diversity-to-frailty-in-seniors.aspx) - 哥德堡大学新发现，肠道微生态或成衰老干预新靶点
+**[研究]** [农业基因组学+AI精准育种提速](https://www.genengnews.com/topics/omics/ag-genomics-begins-to-bear-fruit/) - 把30年田间试验压缩进一个生长季，CRISPR无转基因编辑正在颠覆农业育种节奏
 
-**[研究]** [低氧疗法（Hypoxia therapy）对线粒体脑部疾病展现治疗潜力](https://www.news-medical.net/news/20260708/Hypoxia-therapy-shows-promise-for-treating-mitochondrial-brain-disorders.aspx) - "少点氧气"反而能帮线粒体疾病？听起来反直觉，但数据支持
+**[研究]** [AI评估框架缺失"心理能力"维度](https://papers.cool/arxiv/2607.08285) - 当AI开始充当医疗顾问和健康教练，光测准确率已经远远不够了
 
-**[商业]** [富士胶片入选 FDA PreCheck 试点项目，七家药企制造商争夺监管快速通道](https://www.genengnews.com/topics/bioprocessing/fujifilm-selected-with-six-others-in-fda-precheck-pilot-manufacturing-program/) - 32 亿美元工厂 + FDA 直通车，生物药供应链提速信号
+**[研究]** [先进细胞分选：更温柔、更自动化、更临床级](https://www.genengnews.com/topics/translational-medicine/advanced-cell-sorting-balances-precision-scale-and-simplicity/) - CAR-T等细胞疗法的制造底层工具正在静悄悄升级，闭合微流控+GMP合规是大方向
 
-**[研究]** [fMRI 脑连接组上的图生成模型稳定性研究](https://papers.cool/arxiv/2607.07510) - 用扩散模型生成脑连接图谱，并加了稳定性约束，方法论有参考价值
+**[研究]** [脂肪代谢调控新机制被发现](https://www.news-medical.net/news/20260709/Study-uncovers-mechanism-that-regulates-how-the-body-uses-stored-fat-to-produce-energy.aspx) - CNIC和UCLA联手解析储脂产能的基础机制，代谢疾病干预潜在新靶点
+
+**[研究]** [乳腺癌与心房颤动共病热点研究](https://www.news-medical.net/news/20260710/Global-hotspots-where-breast-cancer-and-atrial-fibrillation-overlap.aspx) - 两大高发病症高度重叠，呼吁整合预防策略，也暗示多病共患AI模型的需求窗口
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [24种衰老时钟打包成 Agent 技能，"测测你的真实年龄"现在只需一行命令](https://github.com/gangchen/epiage-skill)
+### [科学家建议把细胞养到地下600米深处研究衰老](https://lifespan.io/an-experimental-proposal-for-blocking-ambient-radiation/)
 
-以前跑一个衰老时钟要装一堆奇怪的生物信息库，配置环境能让人直接老十岁。现在有人把 24 种衰老算法——从大名鼎鼎的 GrimAge 到 Horvath Clock——全打包成一个可安装的 Agent 技能，纯 pandas+numpy，离线就能跑。网友锐评："这工具存在的意义，可能就是让你知道你的生理年龄比你以为的大……然后焦虑地去用另一款长寿 AI 产品。" 😂
+把细胞送进地下矿洞、屏蔽宇宙射线来研究衰老——这个方案在正经学术期刊《Aging and Disease》上发表了。更绝的是：上次有人把果蝇养进低辐射环境，结果果蝇的DNA修复能力直接退化了。网友神评："原来我们靠被宇宙射线轰击才能维持年轻？那我以后出门不打伞了。" 😂 当然，研究者的真实目的是定量测量辐射对表观遗传衰老的贡献，还是挺严肃的。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/07/Underground-laboratory-262x187.png)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 轻量级 AI 诊断工具加速进入基层医疗
-- **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [ECGLight 手机端心电图 AI](https://papers.cool/arxiv/2607.07683) 展示了"无网络、无算力"场景下的可行路径 + 全球基层医疗数字化需求持续上升，低算力 AI 医疗器械审批加速
+### 虚拟细胞进入临床验证阶段
+- **预测时间**：2026年Q4
+- **预测概率**：70%
+- **预测依据**：今日新闻[虚拟细胞多尺度预测](https://www.genengnews.com/topics/artificial-intelligence/virtual-cells-go-multiscale-to-predict-complex-biology/) + Cellular Intelligence已与Novo Nordisk达成帕金森细胞疗法协议，进入Phase II-ready阶段；Arc、Xaira、GenBio AI等多家公司在2026年上半年密集发布模型和数据集，临床转化窗口正在打开
 
-### 多组学衰老预测模型进入临床验证阶段
+### AI药物分子设计工具进入药企标准工作流
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：65%
-- **预测依据**：今日 [Omics_ADRD 开源项目](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling) + [epiage-skill](https://github.com/gangchen/epiage-skill) 双双上线，工具层已趋于成熟；衰老时钟商业化落地（如 TruDiagnostic、Elysium Health）正在积累临床数据
+- **预测概率**：75%
+- **预测依据**：今日新闻[DrugGen-2疾病感知药物设计](https://papers.cool/arxiv/2607.08404) + GLP-1赛道竞争白热化（[2026畅销药榜单](https://www.genengnews.com/industry-news/top-10-best-selling-drugs-2026/)），药企迫切需要提速管线；AI分子生成工具幻觉率持续下降，可信度门槛逐渐达到企业采购标准
 
-### 无造影剂 MRI AI 合成技术获得更多临床认证
+### 联邦学习医疗平台迎来政策利好
 - **预测时间**：2026年Q3
 - **预测概率**：60%
-- **预测依据**：今日 [AA-ViT 脑部 MRI 合成模型](https://papers.cool/arxiv/2607.07553) 已获神经科临床团队初步验证 + 造影剂短缺和肾病患者禁忌症推动医院采购无造影剂解决方案
+- **预测依据**：今日新闻[跨机构心血管风险联邦学习](https://papers.cool/arxiv/2607.08595) + 欧美医疗数据隐私法规持续收紧，联邦学习成为多中心AI医疗研究的最低阻力路径，监管机构对此技术路线的接受度正在上升
 
-### AI 药物相互作用预测工具进入临床信息系统
-- **预测时间**：2026年Q4
-- **预测概率**：50%
-- **预测依据**：今日 [DDI 图神经网络准确率突破 89%](https://papers.cool/arxiv/2607.07611) + 老龄化社会多药共用（polypharmacy）问题日益突出，医院 HIS 系统集成 AI DDI 预警需求迫切
+### 消费电子+学术机构深脑健康数据联盟扩大
+- **预测时间**：2026年Q3
+- **预测概率**：65%
+- **预测依据**：今日新闻[UCSF×三星脑健康远程研究](https://www.news-medical.net/news/20260709/UCSF-and-Samsung-launch-remote-study-on-aging-brain-health.aspx) + 苹果、Google等已在健康追踪赛道持续投入，学术机构迫切需要大规模真实世界数据，双方结合是必然趋势
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI + 衰老科学 / AI制药 / AI医学影像的最新资讯？
+### 哪里可以获取 AI 制药、虚拟细胞、脑健康 AI 领域的最新资讯？
 
-今日热点包括：AI 手机端心电图诊断、多组学衰老时钟开源工具、无造影剂 MRI AI 合成，以及阿尔茨海默症基因疗法新进展。想持续追踪 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学的热点包括：虚拟细胞突破单一RNA局限走向多尺度模拟、DrugGen-2将疾病上下文引入药物设计、联邦学习实现跨机构隐私安全的心血管预测。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
-- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、衰老时钟、生物大模型等
-- 专为对 BioAI 感兴趣的投资人、产品经理、创业者和学生打造
-- 用普通人能理解的语言解读最前沿技术进展
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- 用普通人能理解的语言，解读最前沿的技术进展
 
 访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
 
 ---
 
-### 如何体验 Claude / Gemini 等 AI 工具来辅助生命科学研究和文献检索？
+### 如何体验 Claude、Gemini 等 AI 工具辅助科研文献阅读？
 
-今日多篇论文涉及多组学数据分析、衰老时钟建模、细胞轨迹推断等复杂研究场景——这些恰好是 Claude、Gemini、Consensus 等 AI 工具最能发挥价值的地方：帮你读论文、整理方法论、生成分析代码。如果面临支付困难或账号注册限制，可以考虑：
+今日多篇论文（虚拟细胞、联邦学习、Latent Drift）内容密度极高，用 AI 辅助快速消化这类文献已经是许多研究者的日常。但 Claude、Gemini、Consensus 等工具在国内使用存在支付和访问门槛。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 中转、Gemini 年卡、Consensus（专业学术文献检索）、Perplexity、ChatGPT 等 AI 工具入口
-- 覆盖科研检索、代码辅助、多模型组合包，适合生命科学研究和资料整理场景
-- 官网自助下单，卡密秒发；具体商品以网站当前页面为准
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Consensus、Perplexity、Codex、Cursor 等 AI 工具入口
+- 覆盖官方号、镜像、中转额度、多模型组合包；Consensus 适合论文检索，Claude/Gemini 适合长文献理解和整理
+- 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
