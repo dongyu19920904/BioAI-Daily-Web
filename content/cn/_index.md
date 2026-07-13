@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/12
+title: AI生命延续学日报 2026/7/13
 breadcrumbs: false
-next: /2026-07/2026-07-11
+next: /2026-07/2026-07-13
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-百岁老人的长寿秘密正在被拆解：BPIFB4 和 SIRT6 两个关键蛋白机制相继揭示，离口服抗衰药又近一步。
-两块钱的达沙替尼+槲皮素把小鼠肾脏"时光倒流"，偏偏太便宜没药厂愿意做大试验。
-衰老机制研究正密集爆发，关注长寿赛道的人，这期不能跳过。
+Insilico AI设计的药物杀进三期临床，同步宣布H1盈利3500万美元，AI制药"烧钱换管线"的故事终于见到真金白银。
+痴呆风险因国家差异巨大、本地化X光AI准确率碾压人工——"一套模型打天下"的时代正在终结。
+今天值得重点看：AI制药从概念股变现金牛，这个拐点来得比多数人预期的早。
 ```
 
 
@@ -29,147 +29,130 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-百岁老人的"长寿基因"背后，藏着一个让衰老慢下来的关键蛋白机制——科学家正在把它做成药。
+AI制药公司Insilico靠一款AI研发的药物杀进三期临床，顺手预告盈利——历史首次。
 
 ### **🔑 3 个关键词**
-#衰老干预 #神经退行性疾病 #细胞衰老治疗
+#AI制药 #痴呆防控 #生物年龄
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [百岁老人体内的长寿变体 BPIFB4：抗炎的秘密藏在血小板里](https://www.fightaging.org/archives/2026/07/better-understanding-the-immunomodulatory-effect-of-the-longevity-associated-variant-of-bpifb4/)**
+**1. [Insilico Medicine AI药物进入三期临床，预告首次盈利](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-insilico-projects-profit-revenue-leaps-as-ai-developed-lead-candidate-moves-to-phase-iii/)**
 
-你有没有想过，为什么有些人活到100岁，身体还像年轻人一样灵活？科学家发现百岁老人体内有一种特殊蛋白变体 BPIFB4，它通过调控血小板表面的 CD47 蛋白（可以理解为"免疫调节开关"）来压制慢性炎症。更惊喜的是，这个蛋白口服还有效——这意味着理论上可以做成一颗抗炎、抗衰老的药片。目前研究者已在小鼠上验证了跨物种效果，离人体试验又近了一步。
-
----
-
-**2. [SIRT6 长寿变体：百岁老人细胞更年轻的分子秘密](https://www.fightaging.org/archives/2026/07/sirt6-variants-found-in-centenarians-produce-a-lower-burden-of-cellular-senescence/)**
-
-同样是研究百岁老人，这次盯上的是 SIRT6 基因。研究者把百岁老人特有的 SIRT6 变体直接敲进人类胚胎干细胞，发现这些细胞的衰老速度显著变慢——衰老细胞（那些"占位不作为"的老废细胞）的积累也大幅减少。更有意思的是，用海藻提取物藻褐素（Fucoidan）激活 SIRT6，也能部分复制这个效果。这给了那些不愿意等基因疗法的人一个"补充剂路线"的想象空间。
+用AI从零设计一款药、推进到三期临床，这事儿今天真实发生了。Insilico的rentosertib是全球第一批完全由AI原创设计并走到临床三期的药物之一，靶向肺纤维化（IPF）。更炸裂的是，公司同步宣布H1 2026净利润预计达$33.5-39.5M，去年同期还亏着$19.2M。收入翻了近4倍，达$102-106M。Jefferies直接给了Buy，目标价HK$100。AI制药"烧钱换管线"的叙事，正在被这张财报撕碎。
 
 ---
 
-**3. [达沙替尼+槲皮素联合用药：小鼠肾脏年轻了](https://www.fightaging.org/archives/2026/07/senolytic-treatment-with-dasatinib-and-quercetin-rejuvenates-the-aging-kidney-in-mice/)**
+**2. [SAGEAgent：AI帮癌症患者决定"到底要做哪些检查"](https://papers.cool/arxiv/2607.09521)**
 
-两种廉价的药：达沙替尼（一种仿制化疗药）+ 槲皮素（超市里就能买到的补充剂）。把它们喂给老年小鼠8个月，多组学数据显示肾脏衰老标志物下降、抗衰蛋白 Klotho 恢复、纤维化减少，甚至细胞间的"衰老信号网络"也被重置了。目前人体小型试验结果初步乐观。唯一的问题是：因为它们太便宜，没有药厂愿意出钱做大规模临床试验。这才是最讽刺的地方。
-
----
-
-**4. [肠道细菌的代谢产物咪唑丙酸酯：阿尔茨海默症的隐藏推手](https://www.fightaging.org/archives/2026/07/imidazole-propionate-generated-by-gut-microbes-accelerates-neurodegeneration/)**
-
-1196名认知正常的成年人，血液中咪唑丙酸酯（ImP，一种由肠道细菌产生的代谢物）越高，认知测试分数越低，阿尔茨海默生物标志物越差。动物实验进一步证实，长期注射 ImP 会加速 tau 蛋白异常磷酸化（tau 蛋白异常堆积是阿尔茨海默症的核心病理之一）。这意味着管好你的肠道菌群，可能真的在延缓痴呆。干预 ImP 或许是未来预防路线中被低估的一张牌。
+每个癌症患者都要做一套完整的检查吗？不一定。SAGEAgent是一个LLM驱动的临床智能体，像一位有经验的医生，根据患者当前的诊断状态逐步决策：这个患者，下一步基因检测值得做吗？在神经胶质瘤队列上，它在保持预测准确率的同时，把"诊断负担"（有创检查次数）降低了55%。少扎一针、少抽一管血——这不只是效率，是真实的患者体验。
 
 ---
 
-**5. [Arc 蛋白：tau 蛋白在神经元之间"传染"的搬运工](https://www.fightaging.org/archives/2026/07/arc-is-involved-in-transmission-of-tau-between-neurons-in-alzheimers-disease/)**
+**3. [KRONOS：会"续写分子"的3D药物生成AI](https://papers.cool/arxiv/2607.09277)**
 
-阿尔茨海默症有个让人头疼的特性：tau 蛋白病变会像病毒一样在神经元间扩散，越蔓越广。研究者终于逮到了关键"搬运工"——Arc 蛋白。它负责把 tau 蛋白打包进细胞外囊泡（可以理解为细胞发出的"快递包裹"），送给下一个神经元。敲除 Arc 基因后，神经元间的 tau 传播几乎完全消失。这为开发"切断传播链"的疗法提供了明确靶点。
-
----
-
-**6. [痴呆风险因素因国而异：一刀切的预防策略行不通](https://medicalxpress.com/news/2026-07-dementia-factors-world-large.html)**
-
-USC 领导的超大规模研究，横跨14个国家和地区、超过21.4万名老年人。结论有点颠覆认知：低教育水平、高血压、吸烟虽然都是公认的痴呆风险，但各国"最危险的因素"差异极大。言下之意——全球统一的痴呆预防指南可能是低效的，精准防控才是未来方向。这对 AI 驱动的个性化健康风险模型来说，是一个很强的需求信号。
+之前的3D分子生成AI有个硬伤：必须提前告诉它"这个分子有多少个原子"。KRONOS把自回归模型和扩散模型融合，像写文章一样逐步生成分子，还支持"给我一个能接上这个片段的新分子"——在QM9和GEOM-Drugs基准上表现领先。药物设计从"给答案"变成了"续写故事"。
 
 ---
 
-**7. [用脑血管类器官修复心脏微血管：猪心实验成功](https://www.fightaging.org/archives/2026/07/vascular-organoids-to-regrow-microvessels-in-heart-tissue/)**
+**4. [COAST：从病理切片图像预测肿瘤内基因表达](https://papers.cool/arxiv/2607.09166)**
 
-心脏大血管堵了可以搭桥手术，但那些细如发丝的微血管呢？目前没有任何疗法能针对性修复。研究者用人血提取的内皮祖细胞和骨髓来源的干细胞，培育出血管类器官（一种微型"人造组织"），贴在猪的缺血心脏表面，4周后心功能改善、类器官中的细胞甚至迁移进了心肌深层。如果这条路能走到临床，将是心脏病治疗领域真正的突破。
-
----
-
-**8. [衰老细胞让干细胞"失业"：全身器官修复能力因此衰退](https://www.fightaging.org/archives/2026/07/age-related-cellular-senescence-harms-stem-cell-function/)**
-
-衰老细胞（senescent cells）和干细胞之间存在一场零和博弈：衰老细胞越多，干细胞越"干不了活"。综述研究梳理了肌肉、骨髓、牙髓、胰腺多个组织的证据——衰老细胞的存在会直接压制附近干细胞的自我更新能力。清除衰老细胞之后，干细胞功能在多种组织中显著恢复。这为"先清衰老细胞，再激活干细胞"的联合治疗策略提供了理论依据。
+空间转录组学（一种可以测出细胞在组织中哪个位置表达什么基因的技术）贵且慢。COAST提出一个新框架：直接从H&E病理切片图像预测基因表达，同时学习"绝对表达量"和"相对表达量差异"。在多个数据集上指标全面提升。这意味着很多医院的普通病理切片，未来也能挖出基因层面的信息。
 
 ---
 
-**9. [BCG 疫苗训练免疫系统，或可延缓阿尔茨海默症](https://www.fightaging.org/archives/2026/07/assessing-the-merits-of-trained-immunity-via-bcg-vaccination-to-treat-or-prevent-alzheimer-s-disease/)**
+**5. [泰国AI胸部X光系统：87万张片子训练，准确率碾压人工](https://papers.cool/arxiv/2607.09305)**
 
-BCG（卡介苗，一种已有百年历史的结核病疫苗）打完之后，不只是对结核有效——它能持久改变免疫细胞的"训练状态"（即训练免疫效应）。最新小型临床试验发现，在没有阿尔茨海默症病理的老年人中，打完 BCG 后脑脊液中的淀粉样蛋白 β（阿尔茨海默症核心病理蛋白）水平下降，血液中水平升高，提示大脑在"清理"这些毒性蛋白。安全性好，效果有苗头——这是一个值得认真做大规模试验的方向。
-
----
-
-**10. [哈佛将举办全球最大长寿生物技术会议](https://www.news-medical.net/news/20260711/Harvard-University-hosts-the-worlds-largest-conference-dedicated-to-longevity-biotechnology.aspx)**
-
-10月1日至3日，第13届衰老研究与药物发现（ARDD）大会将在哈佛大学举行。这是全球规模最大、专注于长寿生物技术的年度盛会，汇聚衰老研究和抗衰药物领域最顶级的科学家和创业者。如果你是这个领域的投资人或创业者，这场会议值得提前关注。
-
-![图片](https://www.news-medical.net/image-handler/picture/2019/5/Drug_use_and_prohibited_substances._-_Image_-_Monika_Gruszewicz_A1_b3acfd6d2daf44ecbd36979af20eb378-620x480.jpg)
+东南亚放射科医生严重短缺，这套系统用87万张泰国本地X光片训练，平均AUROC 0.994，覆盖9种常见胸部疾病。更难得的是：在泰国13家不同医院的独立测试集上，AUROC仍保持0.970。5位胸科医生实际使用后，分类一致率93.6%，SUS可用性评分89分（满分100）。本地化训练这件事，真的很重要。
 
 ---
 
-## **📌 值得关注**
+**6. [全球214,000人研究：痴呆风险因素因国家差异巨大](https://www.news-medical.net/news/20260712/Global-study-reveals-country-specific-patterns-in-dementia-risk-factors.aspx)**
 
-**[研究]** [DNA 甲基化异常导致的罕见加速衰老综合征](https://www.fightaging.org/archives/2026/07/a-rare-epigenetic-accelerated-aging-condition/) — DNMT3A 功能增益突变重现了衰老相关的表观遗传改变，为表观遗传驱动衰老的因果关系提供了直接证据
+USC领衔，横跨14个国家和地区，超过21万名老年人参与。结论颠覆直觉：高血压、低教育水平、吸烟这些"通用风险因子"，在不同国家的重要性完全不同。一刀切的痴呆预防方案，在很多地方根本行不通。对AI制药和精准健康来说，这意味着本地化数据的价值被严重低估了。
 
-**[研究]** [DunedinPACE 表观时钟对生活方式干预有响应](https://www.fightaging.org/archives/2026/07/dunedin-pace-of-aging-clock-responds-to-lifestyle-interventions/) — 12周运动+益生菌饮食，DunedinPACE 时钟显示衰老速度减慢 2.2%；时钟能不能信任仍有争议，但这个数据值得跟踪
-
-**[研究]** [帕金森早期症状患者脑脊液引流受损](https://www.fightaging.org/archives/2026/07/impaired-glymphatic-drainage-of-cerebrospinal-fluid-in-early-stages-of-synucleinopathy/) — 快速眼动睡眠行为障碍（帕金森前驱症状）患者的脑脊液引流系统已显现异常，或可成为早期诊断生物标志物
-
-**[研究]** [网络医学框架筛选现有药物的抗衰老潜力](https://www.fightaging.org/archives/2026/07/a-better-approach-to-screening-for-existing-drugs-that-slow-aging/) — 将2358个长寿相关基因映射到人类蛋白互作网络，对6442种化合物系统评分；老药新用赛道的新工具
-
-**[研究]** [哥伦比亚大学发现血清素与心脏瓣膜病的意外关联](https://www.sciencedaily.com/releases/2026/07/260711010131.htm) — 携带特定基因变体且服用 SSRI 抗抑郁药的患者，二尖瓣关闭不全进展更快；基因-药物交互作用不容忽视
-
-**[开源]** [BrainRotViT：用 Transformer-ResNet 混合架构解释大脑衰老](https://github.com/wjalal/BrainRotViT) — 从 3D 脑结构 MRI 预测大脑衰老，可解释性设计，小项目但方向扎实
+![Global study reveals country-specific patterns in dementia risk factors](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
 
 ---
 
-## **📊 更多动态**
+**7. [老了再改变生活方式，还来得及吗？数据说：来得及](https://www.fightaging.org/archives/2026/07/it-is-never-too-late-to-make-better-lifestyle-choices/)**
 
-| # | 类型 | 标题 | 链接 |
-|---|------|------|------|
-| 1 | 综述 | 肠道菌群通过"肠-脑-肌肉轴"影响认知与肌肉衰老的已知机制 | [查看](https://www.fightaging.org/archives/2026/07/known-ways-in-which-the-gut-microbiome-influences-aging-of-muscle-and-brain/) |
-| 2 | 研究 | 心肌梗死后衰老细胞的时空异质性与 SASP 驱动的不良重构 | [查看](https://www.fightaging.org/archives/2026/07/senescent-cells-contribute-to-damage-and-dysfunction-following-a-heart-attack/) |
-| 3 | 临床 | 在线数字疗法6个月显著降低痴呆照护者抑郁和焦虑水平 | [查看](https://medicalxpress.com/news/2026-07-online-therapy-lowers-depression-anxiety.html) |
-| 4 | 综述 | 干细胞来源视网膜内皮细胞修复受损视网膜（小鼠模型） | [查看](https://www.fightaging.org/archives/2026/07/retinal-endothelial-cells-derived-from-induced-pluripotent-stem-cells-repair-damaged-retinas-in-mice/) |
+6765名中国老年人，随访近6年。那些中途开始改善生活方式（饮食、睡眠、社交、运动）的人，认知损伤风险直接降到低生活质量组的1/3（HR=0.368），认知衰退速度也明显放缓。没有AI，没有药物——只是睡好、动起来、多出门。这是2026年最朴素也最有说服力的数据之一。
+
+---
+
+**8. [SYNRARE：专门生成"罕见病"电子病历的合成数据工具](https://papers.cool/arxiv/2607.09404)**
+
+AI训练罕见病模型，最大的拦路虎是数据：病例太少、隐私限制太多。SYNRARE基于Synthea框架，提供图形界面，能生成"只在某个定义好的维度上和普通患者不同"的罕见病合成电子病历。研究者可以精确控制罕见程度，用于AI算法基准测试。已开源，立即可用。
+
+---
+
+**9. [基于细胞替换的衰老治疗：从器官移植到原位再生](https://www.fightaging.org/archives/2026/07/considering-replacement-based-therapies-to-treat-aging/)**
+
+干细胞移植、3D生物打印器官、CAR-T疗法、脑机接口——这篇综述把所有"换零件"式的抗衰老策略系统梳理了一遍，并指出它们与"清除分子损伤"技术的协同潜力。核心观点：单靠修复不够，必须替换。对关注长寿科学路线图的读者，这是今天最值得存档的一篇。
+
+---
+
+**10. [pyaging：GPU加速的Python生物年龄时钟工具库](https://github.com/lucascamillomd/pyaging)**
+
+想计算一个人的"生物年龄"而不是日历年龄？pyaging提供一套GPU优化的老龄化时钟算法，127颗星，Python直接调用。对做衰老相关AI研究或产品开发的朋友，这是今天最实用的开源工具之一。
+
+---
+
+## **📌 值得关注（5-10条）**
+
+**[研究]** [空间映射+衰老细胞靶向：老年小鼠脑白质中的"僵尸细胞"被锁定了](https://www.nature.com/articles/s43587-026-01154-7) — Nature子刊，用空间转录组学精确定位了老化脑白质中的衰老小胶质细胞，找到了新的衰老干预靶点
+
+**[研究]** [特征充分性分析（FSA）：AI医疗决策中"数据够用了吗"的量化框架](https://papers.cool/arxiv/2607.09165) — 心脏术后通气预测和10年死亡率预测两个案例验证，帮助AI模型判断"现有数据是否足以给出可信预测"，对临床部署很有价值
+
+**[开源]** [LongevityWorldCup：开源生物年龄竞技平台](https://github.com/nopara73/LongevityWorldCup) — 有生物年龄计算器、运动员档案和公开排行榜，把抗衰老变成了一场比赛，脑洞很大
+
+**[商业]** [拉丁美洲痴呆率正在上升，与欧美背道而驰](https://medicalxpress.com/news/2026-07-dementia-latino-populations-multidecade.html) — 华盛顿大学和纽卡斯尔大学联合研究，这片被忽视的市场正在成为全球痴呆负担的新重心
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [两块钱的补充剂 vs. 数十亿美元的抗衰老赛道](https://www.fightaging.org/archives/2026/07/senolytic-treatment-with-dasatinib-and-quercetin-rejuvenates-the-aging-kidney-in-mice/)
+### [开源"长寿世界杯"：把生物年龄比赛搞成奥运会风格](https://github.com/nopara73/LongevityWorldCup)
 
-今日最离谱的现实：达沙替尼+槲皮素这对组合，在小鼠里几乎把肾脏"时光倒流"，人体小试验也初步乐观。但整个抗衰老产业砸了几十亿在各种新药上，没人愿意给这两个便宜货做大型临床试验——因为它们太便宜，根本没法赚钱。网友表示：科学把答案给了你，但资本不允许你用它。😂
+有人把"活得更年轻"搞成了体育竞技——LongevityWorldCup是一个开源平台，你可以计算自己的生物年龄，创建运动员档案，然后上排行榜跟全球选手比"谁更年轻"。目前才21颗星，正处于"没人知道但概念离谱"阶段。网友可能的评论：这届奥运会冠军不是跑最快的，是DNA最年轻的 😂
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 衰老细胞清除疗法（Senolytics）启动首个大规模肾脏专项临床试验
+### AI制药公司集体迈入盈利元年
 - **预测时间**：2026年Q3-Q4
+- **预测概率**：70%
+- **预测依据**：今日新闻 [Insilico预告H1 2026首次盈利，收入同比增长近4倍](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-insilico-projects-profit-revenue-leaps-as-ai-developed-lead-candidate-moves-to-phase-iii/) + Recursion、Exscientia等同期也在加速推进临床管线，"AI制药能否真正赚钱"的答案正在从模糊变清晰
+
+### rentosertib三期临床读数成为AI制药里程碑
+- **预测时间**：2026年Q4 - 2027年Q1
 - **预测概率**：55%
-- **预测依据**：今日新闻 [达沙替尼+槲皮素多组学肾脏研究](https://www.fightaging.org/archives/2026/07/senolytic-treatment-with-dasatinib-and-quercetin-rejuvenates-the-aging-kidney-in-mice/) 提供了系统级机制证据 + Unity Biotechnology、Mayo Clinic 等机构在该赛道持续推进，数据积累已临近触发大型试验阈值
+- **预测依据**：今日新闻 [rentosertib启动320人三期随机对照试验](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-insilico-projects-profit-revenue-leaps-as-ai-developed-lead-candidate-moves-to-phase-iii/) + 若三期成功，将是首个完全由AI原创设计的药物获批，预计吸引全行业高度关注和监管机构快速跟进
 
-### BCG 疫苗的阿尔茨海默症预防试验规模扩大至数百人
-- **预测时间**：2026年8-10月
-- **预测概率**：65%
-- **预测依据**：今日新闻 [BCG 诱导训练免疫的小型临床结果](https://www.fightaging.org/archives/2026/07/assessing-the-merits-of-trained-immunity-via-bcg-vaccination-to-treat-or-prevent-alzheimer-s-disease/) 展示了可测量的脑脊液淀粉样蛋白变化 + 小试验安全信号干净，学术资助方通常在此阶段推进扩大试验
-
-### 肠道菌群-阿尔茨海默症靶向干预进入 IND 申请阶段
-- **预测时间**：2026年Q4
-- **预测概率**：50%
-- **预测依据**：今日新闻 [咪唑丙酸酯与阿尔茨海默症因果关联研究](https://www.fightaging.org/archives/2026/07/imidazole-propionate-generated-by-gut-microbes-accelerates-neurodegeneration/) 同时提供了基因组关联证据和动物机制验证，满足 IND 前数据包的核心要求
-
-### SIRT6 激活药物（非基因疗法路线）公布首个人体安全性数据
+### 痴呆预防AI从"通用模型"转向"国家/族群特异化模型"
 - **预测时间**：2026年Q3
-- **预测概率**：45%
-- **预测依据**：今日新闻 [百岁老人 SIRT6 变体研究](https://www.fightaging.org/archives/2026/07/sirt6-variants-found-in-centenarians-produce-a-lower-burden-of-cellular-senescence/) 指出藻褐素等天然激活剂已在细胞和动物模型验证 + 多家生物技术公司已在该靶点布局小分子候选药物
+- **预测概率**：65%
+- **预测依据**：今日新闻 [21万人跨国研究显示痴呆风险因素因国家差异巨大](https://www.news-medical.net/news/20260712/Global-study-reveals-country-specific-patterns-in-dementia-risk-factors.aspx) + 拉丁美洲痴呆率上升趋势 + 泰国本地化胸部X光AI的成功，都在推动"本地化训练数据"成为下一个竞争焦点
+
+### 生物年龄测量工具进入消费级产品
+- **预测时间**：2026年Q3
+- **预测概率**：60%
+- **预测依据**：今日开源项目 [pyaging](https://github.com/lucascamillomd/pyaging) 和 [LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) 均在2026年7月13日活跃更新 + 生物年龄算法GPU加速成熟 + 消费者对长寿健康的关注度持续攀升，商业化窗口正在打开
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI + 衰老研究 / 抗衰老生物技术的最新资讯？
+### 哪里可以获取 AI 制药 / 生物年龄 / 痴呆防控 AI 最新资讯？
 
-今日热点涵盖：百岁老人长寿基因（BPIFB4、SIRT6）的分子机制解析、达沙替尼+槲皮素联合衰老细胞清除疗法的多组学研究、肠道代谢物咪唑丙酸酯与阿尔茨海默症的因果关联，以及全球最大长寿生物技术会议（ARDD）即将在哈佛召开。
-
-想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域热点包括：Insilico Medicine AI药物冲击三期临床并预告首次盈利、癌症患者智能诊断决策AI（SAGEAgent）将有创检查负担降低55%、跨国痴呆风险因素差异研究重塑精准预防思路。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、衰老机制研究、医学影像 AI、生物大模型等
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
 - 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
 - 用普通人能理解的语言，解读最前沿的技术进展
 
@@ -177,14 +160,13 @@ BCG（卡介苗，一种已有百年历史的结核病疫苗）打完之后，�
 
 ---
 
-### 如何高效整理衰老研究和长寿生物技术的科研文献？
+### 如何体验 Claude / Gemini 做科研文献整理和生命科学资料分析？
 
-今日资讯中涉及大量前沿研究论文——从 SIRT6 变体的表观基因组分析，到多组学 Senolytics 数据，再到肠道菌群与神经退行性疾病的机制研究。这类交叉领域文献量大、专业门槛高，靠手动检索效率很低。
+今日资讯中，SAGEAgent、COAST、FSA等多个研究方向都涉及复杂文献综合与临床数据解读。Claude 和 Gemini 非常适合做论文摘要整理、多组学背景解读、以及研究思路梳理。Consensus 和 Perplexity 则适合快速检索循证医学文献。面临注册门槛或支付困难？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Consensus（专为科研文献检索设计的 AI 工具）、Perplexity、Claude、Gemini 等工具入口
-- Consensus 可以直接检索同行评审论文并给出结论摘要，特别适合追踪衰老、痴呆、细胞衰老等领域的研究进展
-- Claude 和 Gemini 则适合深度阅读长篇论文、辅助整理研究笔记
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Codex、Perplexity、Consensus 等 AI 工具入口
+- 覆盖官方号、中转额度、多模型组合包和科研检索工具
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整的 AI 账号服务列表。
