@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/13
+title: AI生命延续学日报 2026/7/14
 breadcrumbs: false
-next: /2026-07/2026-07-12
+next: /2026-07/2026-07-14
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Insilico AI设计的药物杀进三期临床，同步宣布H1盈利3500万美元，AI制药"烧钱换管线"的故事终于见到真金白银。
-痴呆风险因国家差异巨大、本地化X光AI准确率碾压人工——"一套模型打天下"的时代正在终结。
-今天值得重点看：AI制药从概念股变现金牛，这个拐点来得比多数人预期的早。
+量子机器学习框架 Q²SAR 预测阿尔茨海默靶点 AUC 达 0.875，比经典模型高出 7 个百分点。
+肠道菌群、眼动追踪、骨骼基因图谱同日亮相，低成本衰老生物标志物赛道正在集体爆发。
+老龄化 AI 诊断的风口已经不是"将来"，是现在。
 ```
 
 
@@ -29,126 +29,144 @@ Insilico AI设计的药物杀进三期临床，同步宣布H1盈利3500万美元
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-AI制药公司Insilico靠一款AI研发的药物杀进三期临床，顺手预告盈利——历史首次。
+量子计算闯入阿尔茨海默症药物筛选，直接跑赢经典 AI 模型——这件事比你想象的离现实更近。
 
 ### **🔑 3 个关键词**
-#AI制药 #痴呆防控 #生物年龄
+#AI制药 #阿尔茨海默症 #衰老生物标志物
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [Insilico Medicine AI药物进入三期临床，预告首次盈利](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-insilico-projects-profit-revenue-leaps-as-ai-developed-lead-candidate-moves-to-phase-iii/)**
+**1. [量子机器学习杀入药物筛选，阿尔茨海默靶点预测 AUC 达 0.875](https://papers.cool/arxiv/2607.11701)**
 
-用AI从零设计一款药、推进到三期临床，这事儿今天真实发生了。Insilico的rentosertib是全球第一批完全由AI原创设计并走到临床三期的药物之一，靶向肺纤维化（IPF）。更炸裂的是，公司同步宣布H1 2026净利润预计达$33.5-39.5M，去年同期还亏着$19.2M。收入翻了近4倍，达$102-106M。Jefferies直接给了Buy，目标价HK$100。AI制药"烧钱换管线"的叙事，正在被这张财报撕碎。
-
----
-
-**2. [SAGEAgent：AI帮癌症患者决定"到底要做哪些检查"](https://papers.cool/arxiv/2607.09521)**
-
-每个癌症患者都要做一套完整的检查吗？不一定。SAGEAgent是一个LLM驱动的临床智能体，像一位有经验的医生，根据患者当前的诊断状态逐步决策：这个患者，下一步基因检测值得做吗？在神经胶质瘤队列上，它在保持预测准确率的同时，把"诊断负担"（有创检查次数）降低了55%。少扎一针、少抽一管血——这不只是效率，是真实的患者体验。
+经典 AI 模型在预测药物活性时总有一道坎迈不过去——分子数据的非线性太复杂，传统方法经常在临床后期才栽跟头。这篇论文提出的 Q²SAR 框架，把分子描述符编码进量子希尔伯特空间（可以理解为一个维度爆炸的"特征放大器"），针对阿尔茨海默症关键靶点 DYRK1A 激酶的预测 AUC 达到 0.875，比经典梯度提升模型高出整整 7 个百分点。量子计算还在早期，但这个方向已经开始真实碾压经典方法了。
 
 ---
 
-**3. [KRONOS：会"续写分子"的3D药物生成AI](https://papers.cool/arxiv/2607.09277)**
+**2. [AI 无插补 Transformer 跨队列预测阿尔茨海默症，校准置信度有突破](https://papers.cool/arxiv/2607.11656)**
 
-之前的3D分子生成AI有个硬伤：必须提前告诉它"这个分子有多少个原子"。KRONOS把自回归模型和扩散模型融合，像写文章一样逐步生成分子，还支持"给我一个能接上这个片段的新分子"——在QM9和GEOM-Drugs基准上表现领先。药物设计从"给答案"变成了"续写故事"。
-
----
-
-**4. [COAST：从病理切片图像预测肿瘤内基因表达](https://papers.cool/arxiv/2607.09166)**
-
-空间转录组学（一种可以测出细胞在组织中哪个位置表达什么基因的技术）贵且慢。COAST提出一个新框架：直接从H&E病理切片图像预测基因表达，同时学习"绝对表达量"和"相对表达量差异"。在多个数据集上指标全面提升。这意味着很多医院的普通病理切片，未来也能挖出基因层面的信息。
+临床数据永远是残缺的——病人今天没做这项检查，明天换了医院，数据格式又不一样。传统做法是"插补"（用统计方法填充缺失值），但这样会引入系统偏差，让模型看起来更自信、其实更脆。NITROGEN 模型直接绕开这个坑，用掩码注意力机制在缺失数据上直接学习，在 ADNI（7858 次扫描）上训练，跨两个独立队列验证，同时还能告诉你"我不确定，因为缺少重要检查"。这才是真正可以部署在临床的 AI。
 
 ---
 
-**5. [泰国AI胸部X光系统：87万张片子训练，准确率碾压人工](https://papers.cool/arxiv/2607.09305)**
+**3. [骨骼基因图谱发布：半百万人数据解锁逆转骨质疏松新靶点](https://www.genengnews.com/topics/omics/genetic-map-opens-door-to-development-of-new-therapies-to-reverse-bone-loss/)**
 
-东南亚放射科医生严重短缺，这套系统用87万张泰国本地X光片训练，平均AUROC 0.994，覆盖9种常见胸部疾病。更难得的是：在泰国13家不同医院的独立测试集上，AUROC仍保持0.970。5位胸科医生实际使用后，分类一致率93.6%，SUS可用性评分89分（满分100）。本地化训练这件事，真的很重要。
+50 岁以上几乎每两个人就有一个受骨骼疾病困扰，但现有药物基本只能"踩刹车"——阻止继续恶化，没法真正重建骨骼。Garvan 研究所联合国际团队，用单细胞 RNA 测序结合 UK Biobank 50 万人数据，绘制出史上最详细的骨骼细胞-基因调控图谱，识别出 34 种细胞类型，其中超过一半的相关基因此前从没被发现过。更意外的发现：血管细胞在骨骼修复中扮演关键角色，完全超出预期。数据已开放给全球研究者。
 
----
-
-**6. [全球214,000人研究：痴呆风险因素因国家差异巨大](https://www.news-medical.net/news/20260712/Global-study-reveals-country-specific-patterns-in-dementia-risk-factors.aspx)**
-
-USC领衔，横跨14个国家和地区，超过21万名老年人参与。结论颠覆直觉：高血压、低教育水平、吸烟这些"通用风险因子"，在不同国家的重要性完全不同。一刀切的痴呆预防方案，在很多地方根本行不通。对AI制药和精准健康来说，这意味着本地化数据的价值被严重低估了。
-
-![Global study reveals country-specific patterns in dementia risk factors](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Low-Res_141A8709_Peter_C_Ryan_C-300x200.jpg)
 
 ---
 
-**7. [老了再改变生活方式，还来得及吗？数据说：来得及](https://www.fightaging.org/archives/2026/07/it-is-never-too-late-to-make-better-lifestyle-choices/)**
+**4. [EEG 脑机接口 + 强化学习，3D 运动解码精度提升 41%](https://papers.cool/arxiv/2607.11530)**
 
-6765名中国老年人，随访近6年。那些中途开始改善生活方式（饮食、睡眠、社交、运动）的人，认知损伤风险直接降到低生活质量组的1/3（HR=0.368），认知衰退速度也明显放缓。没有AI，没有药物——只是睡好、动起来、多出门。这是2026年最朴素也最有说服力的数据之一。
-
----
-
-**8. [SYNRARE：专门生成"罕见病"电子病历的合成数据工具](https://papers.cool/arxiv/2607.09404)**
-
-AI训练罕见病模型，最大的拦路虎是数据：病例太少、隐私限制太多。SYNRARE基于Synthea框架，提供图形界面，能生成"只在某个定义好的维度上和普通患者不同"的罕见病合成电子病历。研究者可以精确控制罕见程度，用于AI算法基准测试。已开源，立即可用。
+用脑电波控制假肢或康复机器人，一直有个老大难问题：预测轨迹总有残差误差，越用越跑偏。这篇论文的思路很聪明——先用 CNN-LSTM 解码运动轨迹，再专门训练一个强化学习"修正剂"，在预测结果上做二次纠偏。结果：2D 场景相关系数从 0.508 提升到 0.718，误差降了 40%。脑机接口的精度天花板，又被往上顶了一截。
 
 ---
 
-**9. [基于细胞替换的衰老治疗：从器官移植到原位再生](https://www.fightaging.org/archives/2026/07/considering-replacement-based-therapies-to-treat-aging/)**
+**5. [AI 追踪细胞谱系分裂，Higher-Order Cell Tracking 刷新生物成像基准](https://papers.cool/arxiv/2607.11754)**
 
-干细胞移植、3D生物打印器官、CAR-T疗法、脑机接口——这篇综述把所有"换零件"式的抗衰老策略系统梳理了一遍，并指出它们与"清除分子损伤"技术的协同潜力。核心观点：单靠修复不够，必须替换。对关注长寿科学路线图的读者，这是今天最值得存档的一篇。
-
----
-
-**10. [pyaging：GPU加速的Python生物年龄时钟工具库](https://github.com/lucascamillomd/pyaging)**
-
-想计算一个人的"生物年龄"而不是日历年龄？pyaging提供一套GPU优化的老龄化时钟算法，127颗星，Python直接调用。对做衰老相关AI研究或产品开发的朋友，这是今天最实用的开源工具之一。
+活细胞成像里最烦的事之一：细胞分裂时，传统追踪算法会把"母子关系"搞混，谱系重建一塌糊涂。HOCT 用边为中心的架构 + 三维几何先验，专门解决细胞分裂导致的节点混淆问题。Cell Tracking Challenge 上刷到最优，而且只需 400 条人工标注就能微调，错误率降低 59%。对做药物筛选、癌细胞观察的实验室来说，这个工具值得认真看一眼。
 
 ---
 
-## **📌 值得关注（5-10条）**
+**6. [前列腺 MRI 的 AI 诊断：预处理方式竟然决定了你能不能漏诊高危癌症](https://papers.cool/arxiv/2607.11385)**
 
-**[研究]** [空间映射+衰老细胞靶向：老年小鼠脑白质中的"僵尸细胞"被锁定了](https://www.nature.com/articles/s43587-026-01154-7) — Nature子刊，用空间转录组学精确定位了老化脑白质中的衰老小胶质细胞，找到了新的衰老干预靶点
+同样的 MRI 图像，用不同的预处理方式走进 AI 模型，结果大相径庭——高危前列腺癌的检出率完全不一样。这项研究系统比较了去噪、Gibbs 伪影校正、扭曲校正等流程对 ADC 图和 PI-RADS（前列腺癌风险分级系统）自动评分的影响，最终发现完整预处理管线能显著减少高危病例的误判。换句话说：AI 诊断的"公平性"，在数据进模型之前就已经被决定了。
 
-**[研究]** [特征充分性分析（FSA）：AI医疗决策中"数据够用了吗"的量化框架](https://papers.cool/arxiv/2607.09165) — 心脏术后通气预测和10年死亡率预测两个案例验证，帮助AI模型判断"现有数据是否足以给出可信预测"，对临床部署很有价值
+---
 
-**[开源]** [LongevityWorldCup：开源生物年龄竞技平台](https://github.com/nopara73/LongevityWorldCup) — 有生物年龄计算器、运动员档案和公开排行榜，把抗衰老变成了一场比赛，脑洞很大
+**7. [拉美痴呆率二十年显著上升，全球预防压力急剧增大](https://www.news-medical.net/news/20260713/Study-reveals-substantial-rise-in-Latin-American-dementia-rates.aspx)**
 
-**[商业]** [拉丁美洲痴呆率正在上升，与欧美背道而驰](https://medicalxpress.com/news/2026-07-dementia-latino-populations-multidecade.html) — 华盛顿大学和纽卡斯尔大学联合研究，这片被忽视的市场正在成为全球痴呆负担的新重心
+华盛顿大学 + 纽卡斯尔大学联合研究：过去二十年，拉丁美洲和加勒比地区多个站点的成人痴呆患病率大幅攀升。这不只是南美的问题——全球人口老龄化在发展中地区的速度远超医疗体系的准备速度，而 AI 辅助早筛、低成本数字诊断工具的需求正在这里急速膨胀。
+
+![图片](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
+
+---
+
+**8. [肠道菌群特征可识别老年女性衰弱风险，死亡率预测有了新生物标志物](https://www.news-medical.net/news/20260713/Distinct-gut-microbiome-signatures-identify-frailty-in-older-women.aspx)**
+
+衰弱（Frailty）是老龄化研究里的核心难题：你很难在病人倒下之前预测到它。这项研究发现，老年女性肠道菌群（肠道中数以亿计的微生物群落）的特定变化模式，与体能下降和死亡率显著相关。肠道菌群正在成为衰老生物标志物里最有潜力的方向之一，也是 AI 分析多组学数据的天然战场。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_842301_17839449637714604.jpg)
+
+---
+
+**9. [ADC 抗体偶联药物制造分析挑战白皮书：从铂耐药卵巢癌 Phase I 说起](https://www.genengnews.com/resources/ebooks/analytical-challenges-for-antibody-drug-conjugate-adc-manufacturing/)**
+
+ADC（抗体偶联药物）是当下肿瘤药领域最火的赛道之一——把精准制导的抗体和高毒性弹头绑在一起，只炸肿瘤细胞。但制造难度地狱级：抗体-连接子-毒素三者的比例（DAR 值）、纯度、稳定性……任何一个环节出问题都可能让临床数据崩盘。这份白皮书系统梳理了当前分析挑战，铂耐药卵巢癌的 Phase I 数据已经验证了方向。AI 辅助质控在这条链路上的渗透，只是时间问题。
+
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/GEN_eB_Veranova_Cover_070926-791x1024.jpg)
+
+---
+
+**10. [眼球运动的一致性下降，揭示老年人面孔识别退化的认知根源](https://www.news-medical.net/news/20260714/Face-recognition-declines-with-age-may-lie-in-how-your-eyes-move.aspx)**
+
+老年人认不出熟人的脸，不只是"眼神变差了"——最新研究指出，真正的根源在于眼球扫描模式的一致性下降（认知控制减弱导致注视策略紊乱）。这个发现对 AI 辅助认知衰退筛查很有意义：眼动追踪是低成本、非侵入式的数字生物标志物，下一步用 AI 分析眼球运动一致性来预警认知老化，逻辑完全成立。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_842403_17840275194881556.jpg)
+
+---
+
+## **📌 值得关注**
+
+**[研究]** [黑色素瘤表型切换的定量数学模型](https://papers.cool/arxiv/2607.11820) - 用多尺度 PDE 建模黑色素瘤细胞群体，揭示单细胞可逆不等于群体可逆，对肿瘤侵袭预测有重要启示
+
+**[研究]** [量子神经集合函数优化 AI 药物筛选化合物选择](https://papers.cool/arxiv/2607.11555) - 用连续松弛替代蒙特卡洛采样，让 AI 制药的化合物集合优化更稳定高效
+
+**[开源]** [NeuroBloom：多发性硬化患者免费认知康复平台](https://github.com/Adit-Mugdha-das/NeuroBloom) - 35 项自适应认知任务 + 孟加拉语/英语双语，数字生物标志物提取，临床与患者工作流联动，适合低资源地区
+
+**[研究]** [脑衰老解剖功能模型：161 名健康受试者识别年龄相关生物标志物](https://github.com/SaraYCano/Antomical-modelo-of-the-whole-brain-associated-with-age) - 结合 BOLD 信号与 DTI 结构连接，用机器学习刻画 10-80 岁脑老化轨迹
+
+**[商业]** [2060 Longevity 生态系统访谈：欧洲长寿投资基金的"S&P500"构想](https://lifespan.io/gabriel-cian-on-building-the-2060-longevity-ecosystem/) - 3060 Fund of Funds 想做长寿赛道的指数基金，覆盖约 250 家初创公司，思路大胆
+
+---
+
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 社会研究 | 欧洲高收入国家痴呆非正式护理年成本 1280 亿欧元，超过医疗系统直接支出 | [查看](https://medicalxpress.com/news/2026-07-unpaid-caregivers-shoulder-dementia-health.html) |
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [开源"长寿世界杯"：把生物年龄比赛搞成奥运会风格](https://github.com/nopara73/LongevityWorldCup)
+### [量子计算来预测阿尔茨海默药物，等等，量子计算机现在就能用了？](https://papers.cool/arxiv/2607.11701)
 
-有人把"活得更年轻"搞成了体育竞技——LongevityWorldCup是一个开源平台，你可以计算自己的生物年龄，创建运动员档案，然后上排行榜跟全球选手比"谁更年轻"。目前才21颗星，正处于"没人知道但概念离谱"阶段。网友可能的评论：这届奥运会冠军不是跑最快的，是DNA最年轻的 😂
+论文里量子框架把经典 AI 跑分打得落花流水，网友第一反应："量子计算机不是还在实验室里吗？" 作者也很实诚：框架是真的，但"量子架构成熟后"才能真正规模化部署——所以这是一张画出来的饼，但画得确实很香。等量子计算机量产那天，AI 制药界可能要重新洗牌了。😅
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### AI制药公司集体迈入盈利元年
+### 无插补多模态临床 AI 成为新标准
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：70%
-- **预测依据**：今日新闻 [Insilico预告H1 2026首次盈利，收入同比增长近4倍](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-insilico-projects-profit-revenue-leaps-as-ai-developed-lead-candidate-moves-to-phase-iii/) + Recursion、Exscientia等同期也在加速推进临床管线，"AI制药能否真正赚钱"的答案正在从模糊变清晰
+- **预测概率**：72%
+- **预测依据**：今日论文 [NITROGEN](https://papers.cool/arxiv/2607.11656) 展示了跨队列鲁棒性，FDA 和 EMA 对 AI 辅助诊断工具的数据完整性要求日趋严格，多家医疗 AI 公司正将"免插补"作为竞争壁垒
 
-### rentosertib三期临床读数成为AI制药里程碑
-- **预测时间**：2026年Q4 - 2027年Q1
-- **预测概率**：55%
-- **预测依据**：今日新闻 [rentosertib启动320人三期随机对照试验](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-insilico-projects-profit-revenue-leaps-as-ai-developed-lead-candidate-moves-to-phase-iii/) + 若三期成功，将是首个完全由AI原创设计的药物获批，预计吸引全行业高度关注和监管机构快速跟进
-
-### 痴呆预防AI从"通用模型"转向"国家/族群特异化模型"
+### 眼动追踪成为认知衰老早筛数字生物标志物
 - **预测时间**：2026年Q3
 - **预测概率**：65%
-- **预测依据**：今日新闻 [21万人跨国研究显示痴呆风险因素因国家差异巨大](https://www.news-medical.net/news/20260712/Global-study-reveals-country-specific-patterns-in-dementia-risk-factors.aspx) + 拉丁美洲痴呆率上升趋势 + 泰国本地化胸部X光AI的成功，都在推动"本地化训练数据"成为下一个竞争焦点
+- **预测依据**：今日研究 [眼球运动与面孔识别退化](https://www.news-medical.net/news/20260714/Face-recognition-declines-with-age-may-lie-in-how-your-eyes-move.aspx) 明确了认知-眼动关联，苹果 Vision Pro、Meta Ray-Ban 等设备已内置眼动追踪，数据采集门槛急速下降
 
-### 生物年龄测量工具进入消费级产品
-- **预测时间**：2026年Q3
+### ADC 药物 AI 质控工具迎来爆发
+- **预测时间**：2026年Q4
+- **预测概率**：68%
+- **预测依据**：今日 [ADC 制造分析白皮书](https://www.genengnews.com/resources/ebooks/analytical-challenges-for-antibody-drug-conjugate-adc-manufacturing/) 显示行业痛点高度集中在 DAR 值控制和纯度检测，多家 CRO/CDMO 已公开引入 AI 辅助质控，监管框架也在收紧
+
+### 拉美/发展中国家 AI 痴呆早筛商业化加速
+- **预测时间**：2026年Q3-Q4
 - **预测概率**：60%
-- **预测依据**：今日开源项目 [pyaging](https://github.com/lucascamillomd/pyaging) 和 [LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) 均在2026年7月13日活跃更新 + 生物年龄算法GPU加速成熟 + 消费者对长寿健康的关注度持续攀升，商业化窗口正在打开
+- **预测依据**：今日 [拉美痴呆率研究](https://www.news-medical.net/news/20260713/Study-reveals-substantial-rise-in-Latin-American-dementia-rates.aspx) 量化了需求缺口，WHO 全球老龄化行动计划 2026 年中期审查在即，低成本 AI 诊断工具的政策采购窗口正在打开
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药 / 生物年龄 / 痴呆防控 AI 最新资讯？
+### 哪里可以获取 AI 制药、阿尔茨海默症 AI 诊断、骨骼基因组学 的最新资讯？
 
-今日 AI 生命科学领域热点包括：Insilico Medicine AI药物冲击三期临床并预告首次盈利、癌症患者智能诊断决策AI（SAGEAgent）将有创检查负担降低55%、跨国痴呆风险因素差异研究重塑精准预防思路。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域热点包括：量子机器学习突破 DYRK1A 靶点药物预测、无插补 Transformer 跨队列预测阿尔茨海默症、骨骼基因图谱解锁逆转骨质疏松新靶点。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -160,13 +178,13 @@ AI训练罕见病模型，最大的拦路虎是数据：病例太少、隐私限
 
 ---
 
-### 如何体验 Claude / Gemini 做科研文献整理和生命科学资料分析？
+### 如何体验 Claude 和 Gemini 来辅助生命科学文献研究？
 
-今日资讯中，SAGEAgent、COAST、FSA等多个研究方向都涉及复杂文献综合与临床数据解读。Claude 和 Gemini 非常适合做论文摘要整理、多组学背景解读、以及研究思路梳理。Consensus 和 Perplexity 则适合快速检索循证医学文献。面临注册门槛或支付困难？
+今日多篇论文（NITROGEN、Q²SAR、HOCT）横跨临床 AI、量子计算、细胞追踪等交叉领域，想读懂这些论文、提炼核心洞见、或者整理成研究笔记，Claude 和 Gemini 是非常趁手的工具。但直接访问官方渠道对国内用户存在支付和注册门槛。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Codex、Perplexity、Consensus 等 AI 工具入口
-- 覆盖官方号、中转额度、多模型组合包和科研检索工具
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Perplexity、Consensus 等多款 AI 工具的使用入口
+- 覆盖科研论文阅读、文献检索（Consensus/Perplexity）、长文本分析（Claude/Gemini）等场景
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整服务列表。
