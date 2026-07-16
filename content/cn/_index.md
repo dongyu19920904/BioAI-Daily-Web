@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/15
+title: AI生命延续学日报 2026/7/16
 breadcrumbs: false
-next: /2026-07/2026-07-14
+next: /2026-07/2026-07-16
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-David Baker 团队的 RFdiffusion 把 de novo 蛋白质设计成功率提升了几个数量级，AI 造药离真正进人体又近了一步。
-Prima Mente 用一管血诊断阿尔茨海默准确率达 97%，SEGO 把候选药筛选成本压缩到十分之一，AI 制药全链条都在提速。
-今天内容偏硬核，蛋白质设计和早筛诊断两条线值得重点关注。
+长睡成阿尔茨海默预警信号，老药mianserin让小鼠多活30%，两条研究今天最值得读。
+Forever Healthy推出Evipedia MCP工具，600条长寿干预证据直连AI助手，完全免费开源。
+抗衰研究从"泛泛而谈"变"精确打靶"，关注衰老赛道的人今天收获不小。
 ```
 
 
@@ -29,136 +29,136 @@ Prima Mente 用一管血诊断阿尔茨海默准确率达 97%，SEGO 把候选�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-诺贝尔奖得主 David Baker 的"集体大脑"实验室，正在用 AI 从零设计蛋白质——距离真正的 de novo 新药，可能只差一步。
+老年痴呆症的血液预警信号正在变清晰——而你每天多睡几小时，可能就是它的前兆。
 
 ### **🔑 3 个关键词**
-#AI蛋白质设计 #阿尔茨海默AI诊断 #AI制药新药
+#阿尔茨海默早筛 #衰老机制突破 #AI医学影像
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [蛋白质设计的 AI 革命：David Baker 的"集体大脑"](https://www.genengnews.com/topics/artificial-intelligence/protein-designs-ai-revolution-inside-david-bakers-communal-brain/)**
+**1. [睡得越多，大脑越危险？——每晚长睡与阿尔茨海默蛋白升高强相关](https://www.news-medical.net/news/20260715/Sleeping-longer-may-signal-early-Alzheimers-related-brain-changes.aspx)**
 
-Nobel 奖颁出一年了，Baker 的实验室里还是每天都有新炸弹。100 多名研究员围着一个共同野心转：用 AI 从零造蛋白质（de novo，意思是完全不依赖自然界已有的蛋白模板）。他们的扩散模型 RFdiffusion 把成功率从"万分之一的沙漠寻宝"提到了"百分之几"——几个数量级的飞跃。现在团队在攻克的，是让这些 AI 蛋白质真正进人体还能稳定起效。Baker 自己说得很清醒："能设计蛋白质是真的，说它们能革命医疗还差得远。"这种清醒，反而让人更放心。
+以前大家都说"睡够才健康"。但德克萨斯大学圣安东尼奥健康科学中心的最新研究让人坐不住了——习惯性长时间睡眠，与血液中一种阿尔茨海默相关蛋白水平升高显著相关，排除其他健康因素后结论依然成立。不是说睡多有罪，而是说：它可能是一个早期预警信号，身体在用睡眠时长悄悄告诉你有什么不对劲。如果你身边有习惯性睡9、10小时的中老年人，这篇研究值得转给他们看。
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/07/3D-printed-proteins-IPD-04.jpg)
-
----
-
-**2. [荣耀 AI 生命科学创新者：Nebius AI Discovery Awards 揭晓](https://www.genengnews.com/topics/artificial-intelligence/honoring-the-innovators-driving-ais-next-era-in-life-sciences-and-healthcare/)**
-
-伦敦刚办完一场 AI+生命科学的"奥斯卡"颁奖礼。647 份申请，28 位评委，最终胜出的几个团队让我印象深刻。其中 Prima Mente 开发的阿尔茨海默诊断模型 Pleiades 1，加入蛋白质生物标志物后，在研究数据集中诊断准确率达到 **97%**，超越现有临床标准。Stanford 的 CRISPR-GPT 则能帮科学家自动设计基因编辑方案，目标是把新药开发从"数年"压缩到"数月"。活动上所有人都在强调一件事：算法再好，没有高质量生物数据和实验验证，都是空中楼阁。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Nebius_Highlights-28.jpg)
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Protein-620x480.jpg)
 
 ---
 
-**3. [阿尔茨海默 AI 诊断平台 Prima Mente：从血液中读取大脑的"遗言"](https://www.genengnews.com/topics/artificial-intelligence/honoring-the-innovators-driving-ais-next-era-in-life-sciences-and-healthcare/)**
+**2. [血检预测认知障碍风险靠谱吗？最新研究给出更清晰的答案](https://www.news-medical.net/news/20260715/Study-sheds-light-on-the-prognostic-value-of-blood-test-for-predicting-cognitive-impairment-risk.aspx)**
 
-死去的脑细胞会把 DNA 碎片释放进血液——这些碎片上的甲基化标记（可以理解为"基因开关状态的化石"），记录了细胞死前处于什么状态。Prima Mente 的 AI 模型就是在读这些"遗言"。Pleiades 2 正在用 **80 万亿个 token** 的五种生物数据模态训练中，目标是建一个千亿参数的生物基础模型。他们同时与英国 NHS 的 20 家记忆诊所合作，收集真实患者数据。最近还拿了盖茨基金会 **100 万美元**，专门研究阿尔茨海默的微胶质细胞生物学。这条路如果走通，意味着在症状出现之前，一管血就能预警。
+一种叫"磷酸化tau217（p-tau217，是阿尔茨海默病的关键生物标志物之一）"的血液检测已获得美国FDA审批许可。但能检测到蛋白异常是一回事，能不能预测一个认知完全正常的人将来是否发展成痴呆，是另一回事。这项研究专门去扣这个问题：这个血检的预测能力到底有多强？结论是有价值，但也有局限——它是筛查工具，不是宣判书。用好它，能让真正高风险的人提前介入。
 
----
-
-**4. [AI 辅助骨科管理系统 OrthoPilot：打败了 25 年经验的专科医生](https://papers.cool/arxiv/2607.12527)**
-
-1870 个复杂骨科病例的前瞻性研究，OrthoPilot 把"从入院到康复"的完整管理成功率提升了 **10.6%**，住院效率（每张床的累计病例数）提升了 **9.7%**。更离谱的是在阅片研究中，它在诊断推理和临床决策上超越了有 25 年经验的骨科专家。这个 AI 不是给你推荐一个检查结果，而是全程接管从诊断到康复规划的完整链条。对医院管理者来说，这是一个很有说服力的数字。
+![图片](https://www.news-medical.net/image-handler/picture/2016/2/Alzheimers_amyloid_plaque_-_Juan_Gaertner_9638f1223d534b518a192c8478871d65-620x480.jpg)
 
 ---
 
-**5. [AI 分子优化新框架 SEGO：只用十分之一的计算代价找到候选药](https://papers.cool/arxiv/2607.12488)**
+**3. [一种老牌抗抑郁药，让小鼠寿命延长了30%](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/)**
 
-找药就像在天文级别的化学空间里大海捞针，每次"捞一下"（高保真度评估或实验验证）都烧钱。SEGO 用贝叶斯优化 + 生成模型的组合拳，让模型先预测"哪片海里有针"，再精准捞——在标准分子优化基准上，只需其他方法 **十分之一** 的评估次数就能找到强候选分子。在多参数对接任务里，找到 10 个候选分子所需的次数也减少了一半。AI 制药提速的核心，往往不是模型更准，而是这种"少走弯路"的系统性优化。
+听起来离谱，但发表在《自然通讯》上的数据就在这里。中国科学家找到了一条衰老分子链：细胞内钙离子（Ca²⁺，细胞内负责信号传递的关键离子）失控 → 蛋白S100A6升高 → DNA修复酶PARP1被降解 → 炎症和DNA损伤堆积 → 衰老加速。更惊人的是，用来"堵住钙离子泄漏"的药物是mianserin——一种已有几十年历史的抗抑郁药。老年小鼠用药4个月后，皮毛更亮，脊柱弯曲减轻，运动能力改善，中位寿命延长17.5%。样本量偏小，但方向很有力。
 
----
-
-**6. [conDitar-dev：AI 生成兼顾结合力和成药性的 3D 候选药物](https://papers.cool/arxiv/2607.12349)**
-
-大多数 AI 制药模型有个痼疾：生成的分子和靶点结合很好，但 ADMET 性质（吸收、分布、代谢、排泄、毒性）一团糟——进不了人体，或者有毒。conDitar-dev 把成药性优化直接内嵌进扩散模型的生成过程。结果：在 5 项 ADMET 指标上，比基础版提升高达 **73%**。关键是，他们真的把 AI 设计的分子合成出来并做了生物活性测试——针对 PD-L1 靶点的分子结合亲和力达到微摩尔级，CSF1R 抑制剂 IC₅₀ 低至 **200 nM**。从计算到实验验证，这才是有说服力的 AI 制药。
+![图片](https://lifespan.io/wp-content/uploads/2026/07/Calcium-Treatment-Survival.png)
 
 ---
 
-**7. [帕金森病新机制：外周炎症通过"纳米快递"感染大脑](https://lifespan.io/peripheral-inflammation-may-drive-parkinsons/)**
+**4. [Forever Healthy 上线 Evipedia AI 集成工具，把600+长寿干预证据库塞进你的AI助手](https://lifespan.io/forever-healthy-launches-evipedia-ai-integration/)**
 
-大脑一直被认为是免疫豁免区，但这项发表在 Cell Reports 的研究说：不对，外面的火最终会烧进来。帕金森相关的 LRRK2 基因突变，会让细胞的"垃圾处理系统"失效，导致自身 DNA 泄漏出来——细胞把这些 DNA 打包进细胞外囊泡（EV，可以理解为纳米级的"快递包裹"）送出去，这些包裹跨越血脑屏障，激活脑内的免疫细胞，引发神经炎症。敲除 STING 信号通路后，模型小鼠的多巴胺神经元丢失从 51% 降到了接近正常水平，运动衰退也被逆转。这个机制如果成立，LRRK2 抑制剂或 STING 抑制剂可能成为帕金森预防的新靶点。
+想象一下：直接在Claude或Cursor里问"白藜芦醇的证据等级是什么"，AI实时从一个不断更新的医学百科里调取答案——而不是胡乱编造。Forever Healthy基金会发布了Evipedia的MCP服务器和Claude插件，覆盖600多项长寿与抗衰干预的证据综述，每4-6周更新一次，完全免费、无密钥API、CC4.0开源。对做长寿研究、补剂研究的人来说，这是一个值得立刻收藏的工具。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/07/Brain-and-peripherals-262x187.png)
-
----
-
-**8. [跨域原子生成模型 SinAE：小分子、晶体、蛋白质，一个架构全搞定](https://papers.cool/arxiv/2607.12380)**
-
-以前设计一个分子，需要对每种类型（小分子、蛋白质、晶体材料）分别建一套模型，各玩各的。SinAE 用一个标准 Transformer 编码器+解码器，加上流匹配（flow-matching，一种比扩散模型更高效的生成方式）实现了跨域统一。更重要的是，联合训练分子和晶体两个领域后，两个域的生成性能都变好了——说明不同材料之间的"原子语言"确实有共通之处。对 AI 制药和材料科学的研究者来说，这是一个值得关注的基础工具突破。代码已开源。
+![图片](https://lifespan.io/wp-content/uploads/2026/06/Forever-Healthy-Foundation-262x187.png)
 
 ---
 
-**9. [巨噬细胞衰老图谱：USC 新研究揭示免疫系统为何随年龄失效](https://www.news-medical.net/news/20260714/Study-maps-how-macrophages-age-across-different-body-tissues.aspx)**
+**5. [AI数字孪生预测脑肿瘤进展，化疗放疗方案优化到个人级别](https://papers.cool/arxiv/2607.13877)**
 
-随着年龄增长，免疫系统越来越"力不从心"——但具体哪里出了问题，一直说不清楚。USC 的这项研究在多种体组织中系统追踪了巨噬细胞（macrophage，免疫系统的"清道夫"细胞）的衰老过程，发表于 BMC Biology。不同组织里的巨噬细胞，衰老模式居然大相径庭。这意味着"抗衰老免疫疗法"不能一刀切——肺里失效的巨噬细胞和肝里的，可能需要完全不同的干预策略。是生命延续学领域重要的基础研究进展。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Macrophage-620x480.jpg)
+每个脑肿瘤患者的肿瘤生长方式都不一样。标准治疗方案是按"平均人"设计的，个体差异被忽略。这项研究提出了一个"AI数字孪生（Digital Twin，即为特定患者建立的虚拟计算模型）"框架：用反应扩散模型描述肿瘤生长机制，叠加3D深度学习模块修正误差，再用模型预测控制（MPC）动态调整化疗和放疗时间表。实验显示，相比固定治疗方案，AI调度下肿瘤负担减少了22.4%。目前用的是合成数据，但框架已搭好，临床转化路径清晰。
 
 ---
 
-**10. [痴呆预防应该因国而异：国际研究揭示风险因素的地域差异](https://www.news-medical.net/news/20260715/Why-dementia-prevention-should-be-tailored-by-country.aspx)**
+**6. [Evo 2基因组大模型首次用于生物安全筛查，抗生素耐药性检测AUC高达0.977](https://papers.cool/arxiv/2607.14070)**
 
-一项国际研究发现，全球痴呆风险因素存在"共同聚类"，但不同国家的主导因素差异显著。这对 AI 流行病学模型是个重要提示：用西方人群数据训练的痴呆预测 AI，直接部署到亚洲或非洲人群时，可能根本不准。痴呆预防策略需要本地化数据驱动——这既是公共卫生的呼吁，也是 AI 医疗的数据局限性提醒。
+Evo 2是一个在DNA序列上预训练的基因组基础模型（类似GPT预训练文本，它"读"基因组）。这篇论文问的是：它学到的表征里，有没有藏着生物安全相关的信息？答案是：有，而且很强。用一个轻量级"探针"模型直接分析Evo 2的激活层，检测环境宏基因组样本中的抗生素耐药基因（AMR），区域级ROC-AUC达到0.977。不需要微调基础模型，部署极快。用于宏基因组生物安全监测的第一道筛查层，这个方案很有潜力。
 
-![图片](https://www.news-medical.net/images/news/ImageForNews_842514_17841056832636496.jpg)
+---
+
+**7. [脑机接口解码新框架MOJO：用无标签数据大幅提升神经信号解读能力](https://papers.cool/arxiv/2607.14086)**
+
+做脑机接口有个头疼的问题：每次采集神经信号都需要配对的行为标签（比如"这段信号对应手臂向左移动"），标注成本极高。MOJO框架把自监督学习引进来——让模型在没有标签的数据上先自己学，再用少量标注数据微调。在猴子运动皮层、小鼠多脑区记录、人类语音脑电数据上均超越纯监督模型，少样本场景下提升尤其显著。对做脑机接口或神经解码研究的人来说，这是一个实用性很高的方法论进展。
+
+---
+
+**8. [AI分析PET/MRI融合影像，自动生成心肌病诊断报告准确率达76%](https://papers.cool/arxiv/2607.13936)**
+
+心律失常性左室心肌病（一种遗传性心脏病）诊断起来有多难？连"金标准"都没有。这项研究用无监督聚类算法同时分析PET代谢成像和MRI结构成像，自动标出异常区域，并生成文字报告和"靶心图"（一种心脏可视化图）。与心脏科医生评估对比，均衡准确率76%，在167个数字模拟患者上验证精度更高。完全无需标注数据训练，让多模态影像诊断有了可复制的标准化流程。
+
+---
+
+**9. [肠道菌群构成与老年女性衰弱程度强相关，特定菌种或成干预靶点](https://www.fightaging.org/archives/2026/07/aspects-of-gut-microbiome-composition-correlate-with-frailty-in-women/)**
+
+2081名75-80岁瑞典女性的肠道宏基因组数据摆在这里，结论很明确：衰弱程度越高，肠道菌群多样性越低。更有价值的是，研究鉴定出了几个具体菌属（Enterocloster、Faecalibacterium等）与衰弱指数的关联——不是笼统说"菌群不好"，而是精确到物种。这为未来的个性化益生菌干预提供了靶点方向。发表在《自然通讯》上。
+
+---
+
+**10. [TNF-α炎症信号抑制大脑新神经元生成，关键检查点被首次揭示](https://www.fightaging.org/archives/2026/07/tnf-%ce%b1-inflammatory-signaling-suppresses-neurogenesis/)**
+
+大脑老化有一个核心问题：新神经元越来越少。这项研究找到了一个关键机制——慢性炎症因子TNF-α会激活一个I型干扰素信号回路，把海马体（负责记忆和情绪的脑区）的神经前体细胞从"造神经元"模式切换成"防御免疫"模式。用人类细胞模型 + 单细胞RNA测序确认。这不只是学术发现，它直接指向了一个潜在的治疗靶点：如果能在不损伤免疫功能的前提下阻断这个检查点，可能就能恢复老年大脑的神经再生能力。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [脑外伤病灶 AI 分割挑战赛：nnU-Net 方案达到 0.63 Dice 系数](https://papers.cool/arxiv/2607.12684) - 中重度脑外伤病灶形状千变万化，这套加了自适应归一化的深度学习方案在 AIMS-TBI 2025 挑战赛中表现领先，临床影像 AI 又进一步
+**[研究]** [AI增强3D医学影像推理数据集开源](https://papers.cool/arxiv/2607.13860) — 放射科医生的"读片逻辑"被编码进数据集，帮助AI模型学会真正的3D空间推理，代码和数据集已公开
 
-**[研究]** [睡眠不好，大脑通信网络会垮——但不同年龄的垮法不一样](https://www.news-medical.net/news/20260714/Poor-sleep-alters-brain-communication-networks-differently-across-adult-lifespan.aspx) - 宾汉姆顿大学研究证实，睡眠对大脑的影响随年龄和性别有显著差异，AI 睡眠健康个性化干预有了新依据
+**[研究]** [量子+经典分子属性预测架构对比：64个参数就能跑出0.88 AUC](https://papers.cool/arxiv/2607.13737) — 在药物分子性质预测任务上，"拓扑对齐"归纳偏置让极少参数的模型达到实用精度，对AI制药低数据场景很有参考价值
 
-**[研究]** [脑健康十大突破报告 2025：认知衰退与痴呆检测的年度进展集锦](https://www.news-medical.net/news/20260714/New-report-highlights-top-ten-brain-health-breakthroughs-for-clinicians.aspx) - 美国老年学会发布年度精选，聚焦基层医生可落地的痴呆早筛与脑健康干预方案，适合临床 AI 应用选题参考
+**[研究]** [肿瘤药效建模新框架：多模态变分自编码器整合基因组+纵向肿瘤数据](https://papers.cool/arxiv/2607.13984) — 同时处理肿瘤生长曲线、患者脱落信息和基因变异，在黑色素瘤和乳腺癌数据上验证，个体预测精度显著提升
 
-**[商业]** [FDA 提出简化"分布式制造商"注册规则](https://www.genengnews.com/topics/bioprocessing/fda-issues-proposal-to-streamline-registration-for-advanced-distributed-manufacturers/) - 药品分布式制造（含 AI 驱动的自动化生产线）的注册壁垒将降低，有利于 AI 制药公司的商业化落地
+**[开源]** [HumanVector：把生物年龄变成一个"方向状态空间"](https://github.com/jim4226/ClaudeScienceHackathon_2026) — Claude Science Hackathon 2026参赛项目，用ECG扰动和跨尺度证据图谱表示生物年龄动态，思路比较有创意
+
+**[开源]** [Echo60：个人生物年龄追踪与模拟器](https://github.com/marswalk/Echo60) — 轻量级个人工具，别让你的年轻态溜走（这个项目名字起得不错）
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [大脑的"防火墙"被纳米快递包裹攻破了](https://lifespan.io/peripheral-inflammation-may-drive-parkinsons/)
+### [一种治疗抑郁症的老药，意外地让小鼠多活了30%](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/)
 
-大自然给大脑装了颅骨 + 血脑屏障双重防护，本以为万无一失。结果最新研究发现：细胞会把"炎症信号"打包进超微小的囊泡（比病毒还小），直接快递进大脑。网友看完表示："原来大脑的防火墙也有内鬼快递员。" 帕金森研究者的表情大概是：😐（这个机制我们研究了十几年……）好消息是，找到了邮递员，就有机会拦截这批快递。😂
+科学家本来在找一种能"堵住细胞钙离子泄漏"的新药，结果翻遍候选药物，发现效果最好的居然是mianserin——一个上市几十年、用来治抑郁症的老前辈。老年小鼠用了4个月，皮毛重新变光亮，还能更利索地爬来爬去，寿命延长17.5%。网友锐评："所以快乐本身就是长寿药？" 😂 当然，从小鼠到人还差着十万八千里，但这个发现的方向……确实很有意思。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/07/Brain-and-peripherals-262x187.png)
+![图片](https://lifespan.io/wp-content/uploads/2026/07/Calcium-ion-262x187.png)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### CRISPR-GPT 类"AI基因编辑助手"商业化落地
+### 阿尔茨海默血液检测进入临床前大规模验证阶段
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：72%
-- **预测依据**：今日新闻 [Nebius AI Discovery Awards 报道](https://www.genengnews.com/topics/artificial-intelligence/honoring-the-innovators-driving-ais-next-era-in-life-sciences-and-healthcare/) 中，Stanford Le Cong 团队的 CRISPR-GPT 已发表于 Nature Biomedical Engineering（2025年7月），下一步自然是商业化或开放API；多家基因编辑公司正在寻找降本工具，需求窗口已开。
+- **预测概率**：75%
+- **预测依据**：今日[p-tau217血检研究](https://www.news-medical.net/news/20260715/Study-sheds-light-on-the-prognostic-value-of-blood-test-for-predicting-cognitive-impairment-risk.aspx)显示该指标已获FDA审批许可，但预测精度仍存争议 + 目前至少3家大型制药公司正在推进阿尔茨海默早筛管线，争议会倒逼更大规模验证研究启动
 
-### Prima Mente 阿尔茨海默诊断平台启动更大规模临床验证
+### 肠道微生物组干预进入衰老临床试验
 - **预测时间**：2026年Q3
-- **预测概率**：68%
-- **预测依据**：今日新闻 [Nebius AI Discovery Awards](https://www.genengnews.com/topics/artificial-intelligence/honoring-the-innovators-driving-ais-next-era-in-life-sciences-and-healthcare/) 显示，Prima Mente 刚获盖茨基金会百万美元，并与 20 家 NHS 记忆诊所深度合作；Pleiades 2 正在大规模训练中，扩大临床数据集是下一个自然动作。
+- **预测概率**：70%
+- **预测依据**：今日[老年女性肠道菌群与衰弱关联研究](https://www.fightaging.org/archives/2026/07/aspects-of-gut-microbiome-composition-correlate-with-frailty-in-women/)已精确定位目标菌种 + 当前多个益生菌/粪菌移植公司正在搭建衰老适应症管线，精确靶点的出现会加速IND申请
 
-### AI 生成的 de novo 蛋白质完成首个 IND（新药临床申请）
-- **预测时间**：2026年Q4
-- **预测概率**：52%
-- **预测依据**：今日新闻 [David Baker "communal brain" 深度报道](https://www.genengnews.com/topics/artificial-intelligence/protein-designs-ai-revolution-inside-david-bakers-communal-brain/) 揭示 Xaira Therapeutics（10亿美元启动资金）正在推进 de novo 蛋白质药物管线；Baker 本人坦言"距离真正的治疗还有距离"，但多家公司管线已进入 IND 准备阶段，年底前冲线概率过半。
-
-### LRRK2/STING 靶点的帕金森预防性药物获得更大规模融资
-- **预测时间**：2026年Q3
+### 老药新用（mianserin类）进入衰老适应症临床前评估
+- **预测时间**：2026年8月-10月
 - **预测概率**：60%
-- **预测依据**：今日新闻 [帕金森外周炎症机制研究](https://lifespan.io/peripheral-inflammation-may-drive-parkinsons/) 发表于 Cell Reports，机制链条清晰（外周 → EVs → 血脑屏障 → 脑炎），这类有明确通路的靶点通常在论文发表后 3-6 个月内吸引 VC 关注或推动在研公司加码。
+- **预测依据**：今日[钙离子稳态与寿命研究](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/)发表于《自然通讯》，影响力足够吸引老药新用赛道投资者 + 老药新用开发成本低，抗衰领域当前资本活跃，跟进机构出现概率较高
+
+### 脑机接口数据效率问题迎来方法论突破
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：65%
+- **预测依据**：今日[MOJO框架论文](https://papers.cool/arxiv/2607.14086)验证了自监督学习在神经信号解码中的有效性 + 脑机接口头部公司（Neuralink、Synchron）均在公开表述中提到数据效率是扩展的核心瓶颈，学术突破会快速被工业界跟进
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 蛋白质设计 / 阿尔茨海默诊断 AI / AI 制药的最新资讯？
+### 哪里可以获取 AI 制药、阿尔茨海默早筛、抗衰老研究的最新资讯？
 
-今日 AI 生命科学领域热点包括：Nobel 得主 David Baker 团队的 AI de novo 蛋白质设计最新进展、Prima Mente 阿尔茨海默血液诊断 AI 达到 97% 准确率、以及 AI 分子优化效率跃升 10 倍的新框架。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学领域的热点包括：阿尔茨海默血液早筛进展、老药新用延长寿命的基础研究突破、脑机接口数据效率新方法。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -170,13 +170,13 @@ Nobel 奖颁出一年了，Baker 的实验室里还是每天都有新炸弹。10
 
 ---
 
-### 如何体验 Claude / ChatGPT 这类适合科研阅读和文献整理的 AI 工具？
+### 如何体验 Claude 和 Perplexity 等 AI 工具来追踪生命科学研究？
 
-今日报道中，Prima Mente 使用 Transformer 架构（与 ChatGPT 同源技术）训练生物基础模型；CRISPR-GPT 则是基于大语言模型构建的基因编辑 AI 助手。对于生命科学从业者来说，Claude、ChatGPT、Gemini 以及专为学术文献检索优化的 Consensus、Perplexity，都是日常科研效率的利器。但面临账号注册限制或支付问题？
+今日 Evipedia 上线了 [Claude MCP 插件](https://lifespan.io/forever-healthy-launches-evipedia-ai-integration/)，可直接在 Claude 中调取 600+ 条长寿干预的循证医学数据。想要体验 Claude、Perplexity 等工具做科研资料整理，但面临支付或账号注册困难？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 中转、Perplexity、Gemini、ChatGPT、Consensus 等 AI 工具入口
 - 覆盖官方号、镜像、中转额度、多模型组合包和科研检索工具
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整的 AI 账号服务列表。
