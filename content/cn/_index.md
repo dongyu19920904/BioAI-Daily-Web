@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/16
+title: AI生命延续学日报 2026/7/17
 breadcrumbs: false
-next: /2026-07/2026-07-15
+next: /2026-07/2026-07-17
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-长睡成阿尔茨海默预警信号，老药mianserin让小鼠多活30%，两条研究今天最值得读。
-Forever Healthy推出Evipedia MCP工具，600条长寿干预证据直连AI助手，完全免费开源。
-抗衰研究从"泛泛而谈"变"精确打靶"，关注衰老赛道的人今天收获不小。
+IBEC 团队用眼药水让盲鼠重见光明，prosthe6 化合物无需手术直接激活残存神经细胞，2亿失明患者有了新方向。
+衰老研究今天扎堆爆发：胸腺逆龄、免疫清洁工失效、脂滴指纹、细胞器对话，四条机制同时有了新进展。
+做衰老或脑科学研究的人注意了，今天的开源工具含金量很高，值得收藏。
 ```
 
 
@@ -29,140 +29,138 @@ Forever Healthy推出Evipedia MCP工具，600条长寿干预证据直连AI助手
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-老年痴呆症的血液预警信号正在变清晰——而你每天多睡几小时，可能就是它的前兆。
+盲鼠重见光明——一滴眼药水，就能让退化的视网膜"开机"，200万人的噩梦或许有了解法。
 
 ### **🔑 3 个关键词**
-#阿尔茨海默早筛 #衰老机制突破 #AI医学影像
+#视网膜修复 #衰老免疫 #表观遗传时钟
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [睡得越多，大脑越危险？——每晚长睡与阿尔茨海默蛋白升高强相关](https://www.news-medical.net/news/20260715/Sleeping-longer-may-signal-early-Alzheimers-related-brain-changes.aspx)**
+**1. [盲鼠重见光明：光激活小分子药物以眼药水形式恢复视觉](https://www.genengnews.com/topics/drug-discovery/see-blind-mice-consortiums-drugs-restore-sight/)**
 
-以前大家都说"睡够才健康"。但德克萨斯大学圣安东尼奥健康科学中心的最新研究让人坐不住了——习惯性长时间睡眠，与血液中一种阿尔茨海默相关蛋白水平升高显著相关，排除其他健康因素后结论依然成立。不是说睡多有罪，而是说：它可能是一个早期预警信号，身体在用睡眠时长悄悄告诉你有什么不对劲。如果你身边有习惯性睡9、10小时的中老年人，这篇研究值得转给他们看。
+全球 2 亿人正在失明，现有的治疗方案要么需要做手术，要么只对极少数特定基因突变患者有效。IBEC 研究团队开发的 prosthe6 化合物走了一条完全不同的路：直接给眼睛里残存的神经细胞装上"分子假体"，见到光就变形、发出信号，模拟已经死掉的感光细胞工作。更惊人的是，眼药水滴进去就行，不需要手术、不需要基因改造，室内灯光就够用。盲鼠治疗后，重新跑到阴暗角落待着——这个行为，正是它们"看见"了的证明。自然，从小鼠到人类还有很长的路，但这个方向太值得期待了。
 
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Protein-620x480.jpg)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/RSortino-JMartinez-300x223.jpeg)
 
 ---
 
-**2. [血检预测认知障碍风险靠谱吗？最新研究给出更清晰的答案](https://www.news-medical.net/news/20260715/Study-sheds-light-on-the-prognostic-value-of-blood-test-for-predicting-cognitive-impairment-risk.aspx)**
+**2. [激活 GPR40 受体，对抗小鼠胸腺老化](https://lifespan.io/activating-a-key-receptor-fights-thymic-involution-in-mice/)**
 
-一种叫"磷酸化tau217（p-tau217，是阿尔茨海默病的关键生物标志物之一）"的血液检测已获得美国FDA审批许可。但能检测到蛋白异常是一回事，能不能预测一个认知完全正常的人将来是否发展成痴呆，是另一回事。这项研究专门去扣这个问题：这个血检的预测能力到底有多强？结论是有价值，但也有局限——它是筛查工具，不是宣判书。用好它，能让真正高风险的人提前介入。
+胸腺（thymus）是"训练"免疫 T 细胞的器官，但它偏偏是全身老化最快的器官之一——到中年几乎萎缩成脂肪团，免疫力跟着一路下滑。研究人员发现，用 GW9508 这个化合物激活 GPR40 受体后，老龄小鼠的胸腺平均重量增加了 50%，T 细胞数量回升，衰老细胞（senescent cells）比例从 85% 骤降到 20%。低剂量比高剂量效果更好——这个反直觉的发现值得格外关注。对做衰老研究的人来说，GPR40 可能是一个被长期低估的靶点。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/07/The-thymus-262x187.png)
+
+---
+
+**3. [Stanford 发现"吃掉"免疫细胞的受体，或是器官老化的关键驱动因素](https://www.news-medical.net/news/20260716/Researchers-identify-immune-cell-receptor-that-drives-organ-aging-process.aspx)**
+
+同样是衰老免疫研究，Stanford Medicine 这次盯上的是另一个问题：为什么老化的器官会越来越"乱"？研究在小鼠和人类细胞中都发现，随着年龄增长，一种免疫细胞越来越失去"吃掉"另一种免疫细胞的能力——导致死亡细胞残骸在器官里堆积，炎症加剧，功能下降。用一句话概括：**清洁工老了，垃圾就堆积了**。这个受体，可能就是让器官加速老化的隐藏开关之一。
+
+![图片](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
+
+---
+
+**4. [AI 自动化脑科学研究：BrainPilot 多智能体系统开源](https://papers.cool/arxiv/2607.15079)**
+
+脑科学研究有个老大难问题：文献量庞大、模态繁杂，一个研究问题往往要横跨文献检索、数据分析、结果解释好几个环节。BrainPilot 把这一套流程全部交给了多智能体系统——主 PI 智能体统筹，专家子智能体负责具体领域，背后搭着 7233 条索引知识库和 72 个可复用方法单元。最关键的是，每一步都留有可审计日志，还内置了"反幻觉"审查模块。完全开源，性能追上了闭源最优框架，成本更低。脑科学研究者们，工具来了。
+
+---
+
+**5. [衰老细胞都爱"囤脂肪"：脂滴积累或成衰老细胞的通用标志](https://www.news-medical.net/news/20260716/Study-suggests-lipid-droplet-accumulation-is-a-conserved-feature-of-senescent-cells.aspx)**
+
+一个有趣的发现：无论是什么原因造成的细胞衰老（senescence），这些衰老细胞似乎都会不约而同地在内部积累大量脂滴（lipid droplets）。这个现象在不同物种、不同细胞类型中都观察到了——意味着脂滴积累可能是衰老细胞的"通用指纹"。未来的意义很实际：如果能用这个特征精准识别和清除体内的衰老细胞，衰老干预的精度会大幅提升。
 
 ![图片](https://www.news-medical.net/image-handler/picture/2016/2/Alzheimers_amyloid_plaque_-_Juan_Gaertner_9638f1223d534b518a192c8478871d65-620x480.jpg)
 
 ---
 
-**3. [一种老牌抗抑郁药，让小鼠寿命延长了30%](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/)**
+**6. [AI 筛查轻度认知障碍（MCI）：参数高效微调 + 可解释注意力图](https://papers.cool/arxiv/2607.15047)**
 
-听起来离谱，但发表在《自然通讯》上的数据就在这里。中国科学家找到了一条衰老分子链：细胞内钙离子（Ca²⁺，细胞内负责信号传递的关键离子）失控 → 蛋白S100A6升高 → DNA修复酶PARP1被降解 → 炎症和DNA损伤堆积 → 衰老加速。更惊人的是，用来"堵住钙离子泄漏"的药物是mianserin——一种已有几十年历史的抗抑郁药。老年小鼠用药4个月后，皮毛更亮，脊柱弯曲减轻，运动能力改善，中位寿命延长17.5%。样本量偏小，但方向很有力。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/07/Calcium-Treatment-Survival.png)
+轻度认知障碍（MCI）是阿尔茨海默症之前的早期窗口期，抓住它就可能有机会干预。这篇论文用一个很聪明的方案解决了临床 AI 的两个老大难：数据少 + 模型黑盒。方法是冻结 DINOv2 视觉大模型（不用全量训练，省钱省时），只训练 3 个轻量化提示令牌（prompt tokens），空间可解释性直接从注意力图（attention maps）里读出来——不是事后补的，而是结构天然自带的。在神经心理学绘图测试上，MCI 分类 AUC 达到 0.795，比重型架构还好 11 个百分点。
 
 ---
 
-**4. [Forever Healthy 上线 Evipedia AI 集成工具，把600+长寿干预证据库塞进你的AI助手](https://lifespan.io/forever-healthy-launches-evipedia-ai-integration/)**
+**7. [儿童脑部 MRI 的多模态对比学习：脑肿瘤分类 AUC 提升 22.6%](https://papers.cool/arxiv/2607.14995)**
 
-想象一下：直接在Claude或Cursor里问"白藜芦醇的证据等级是什么"，AI实时从一个不断更新的医学百科里调取答案——而不是胡乱编造。Forever Healthy基金会发布了Evipedia的MCP服务器和Claude插件，覆盖600多项长寿与抗衰干预的证据综述，每4-6周更新一次，完全免费、无密钥API、CC4.0开源。对做长寿研究、补剂研究的人来说，这是一个值得立刻收藏的工具。
-
-![图片](https://lifespan.io/wp-content/uploads/2026/06/Forever-Healthy-Foundation-262x187.png)
+医学 AI 有个大坑叫"假阴性"——明明两个病人病情相似，模型却把它们当成负样本对，导致表征质量下降。MseaCL 的解决思路：让放射科报告的语义相似度来"指导"对比学习，告诉模型哪些样本不能随便当负例排斥。在儿科脑部 MRI 数据集上，下游任务脑肿瘤分子分类的 AUC 提升了至少 22.6%。在儿科数据本就稀缺的场景里，这个提升相当有分量。
 
 ---
 
-**5. [AI数字孪生预测脑肿瘤进展，化疗放疗方案优化到个人级别](https://papers.cool/arxiv/2607.13877)**
+**8. [24 个表观遗传衰老时钟，打包成一个可本地运行的 AI 智能体技能](https://github.com/gangchen/epiage-skill)**
 
-每个脑肿瘤患者的肿瘤生长方式都不一样。标准治疗方案是按"平均人"设计的，个体差异被忽略。这项研究提出了一个"AI数字孪生（Digital Twin，即为特定患者建立的虚拟计算模型）"框架：用反应扩散模型描述肿瘤生长机制，叠加3D深度学习模块修正误差，再用模型预测控制（MPC）动态调整化疗和放疗时间表。实验显示，相比固定治疗方案，AI调度下肿瘤负担减少了22.4%。目前用的是合成数据，但框架已搭好，临床转化路径清晰。
-
----
-
-**6. [Evo 2基因组大模型首次用于生物安全筛查，抗生素耐药性检测AUC高达0.977](https://papers.cool/arxiv/2607.14070)**
-
-Evo 2是一个在DNA序列上预训练的基因组基础模型（类似GPT预训练文本，它"读"基因组）。这篇论文问的是：它学到的表征里，有没有藏着生物安全相关的信息？答案是：有，而且很强。用一个轻量级"探针"模型直接分析Evo 2的激活层，检测环境宏基因组样本中的抗生素耐药基因（AMR），区域级ROC-AUC达到0.977。不需要微调基础模型，部署极快。用于宏基因组生物安全监测的第一道筛查层，这个方案很有潜力。
+这个开源项目很极客：把 GrimAge V1/V2、Horvath、Hannum、PhenoAge、DunedinPoAm 等 24 个主流表观遗传衰老时钟（用 DNA 甲基化数据估算生物年龄的算法）打包成一个可安装的智能体"技能"（agent skill），本地运行，只依赖 pandas 和 numpy，零额外依赖。做生物年龄研究的同学，这个工具可以直接装进自己的 AI agent 工作流，直接调用生物年龄估算。
 
 ---
 
-**7. [脑机接口解码新框架MOJO：用无标签数据大幅提升神经信号解读能力](https://papers.cool/arxiv/2607.14086)**
+**9. [多组学 + 机器学习预测阿尔茨海默症：整合表观遗传时钟与多基因风险评分](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling)**
 
-做脑机接口有个头疼的问题：每次采集神经信号都需要配对的行为标签（比如"这段信号对应手臂向左移动"），标注成本极高。MOJO框架把自监督学习引进来——让模型在没有标签的数据上先自己学，再用少量标注数据微调。在猴子运动皮层、小鼠多脑区记录、人类语音脑电数据上均超越纯监督模型，少样本场景下提升尤其显著。对做脑机接口或神经解码研究的人来说，这是一个实用性很高的方法论进展。
-
----
-
-**8. [AI分析PET/MRI融合影像，自动生成心肌病诊断报告准确率达76%](https://papers.cool/arxiv/2607.13936)**
-
-心律失常性左室心肌病（一种遗传性心脏病）诊断起来有多难？连"金标准"都没有。这项研究用无监督聚类算法同时分析PET代谢成像和MRI结构成像，自动标出异常区域，并生成文字报告和"靶心图"（一种心脏可视化图）。与心脏科医生评估对比，均衡准确率76%，在167个数字模拟患者上验证精度更高。完全无需标注数据训练，让多模态影像诊断有了可复制的标准化流程。
+这个开源项目把好几条线索拧在一起：生物衰老时钟（epigenetic aging clocks）+ 多基因风险评分（PRS）+ 机器学习，用英国生物样本库（UK Biobank）的数据预测阿尔茨海默症及相关痴呆（ADRD）。包含完整的 R 和 Python 代码，覆盖数据预处理、模型构建、生存分析和可视化。对做痴呆风险预测研究的人来说，这是一个可以直接上手跑起来的完整管线。
 
 ---
 
-**9. [肠道菌群构成与老年女性衰弱程度强相关，特定菌种或成干预靶点](https://www.fightaging.org/archives/2026/07/aspects-of-gut-microbiome-composition-correlate-with-frailty-in-women/)**
+**10. [过氧化物酶体减少如何加速衰老：线粒体是关键中间人](https://www.fightaging.org/archives/2026/07/more-on-the-mechanisms-by-which-reducing-age-related-peroxisome-loss-extends-life/)**
 
-2081名75-80岁瑞典女性的肠道宏基因组数据摆在这里，结论很明确：衰弱程度越高，肠道菌群多样性越低。更有价值的是，研究鉴定出了几个具体菌属（Enterocloster、Faecalibacterium等）与衰弱指数的关联——不是笼统说"菌群不好"，而是精确到物种。这为未来的个性化益生菌干预提供了靶点方向。发表在《自然通讯》上。
-
----
-
-**10. [TNF-α炎症信号抑制大脑新神经元生成，关键检查点被首次揭示](https://www.fightaging.org/archives/2026/07/tnf-%ce%b1-inflammatory-signaling-suppresses-neurogenesis/)**
-
-大脑老化有一个核心问题：新神经元越来越少。这项研究找到了一个关键机制——慢性炎症因子TNF-α会激活一个I型干扰素信号回路，把海马体（负责记忆和情绪的脑区）的神经前体细胞从"造神经元"模式切换成"防御免疫"模式。用人类细胞模型 + 单细胞RNA测序确认。这不只是学术发现，它直接指向了一个潜在的治疗靶点：如果能在不损伤免疫功能的前提下阻断这个检查点，可能就能恢复老年大脑的神经再生能力。
+过氧化物酶体（peroxisomes）是细胞里负责解毒和脂肪代谢的小器官，老化过程中会大量减少。去年研究者发现抑制这种减少能延长秀丽隐杆线虫寿命，这次他们搞清楚了为什么：过氧化物酶体减少会连带损伤线粒体，让线粒体从"年轻的管状形态"退化；反过来，维持过氧化物酶体数量的动物，老年时线粒体依然保持年轻状态。两个细胞器相互影响、共同决定寿命——这个双向信号机制，为衰老干预提供了一个新的攻击点。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [AI增强3D医学影像推理数据集开源](https://papers.cool/arxiv/2607.13860) — 放射科医生的"读片逻辑"被编码进数据集，帮助AI模型学会真正的3D空间推理，代码和数据集已公开
+**[研究]** [进化出来的细胞蛋白折叠应激反应，对长寿而言并非最优解](https://www.fightaging.org/archives/2026/07/the-evolved-balance-of-unfolded-protein-response-activity-in-a-cell-is-suboptimal-for-longevity/) — 线虫研究发现，细胞内质网与细胞质的蛋白质应激响应之间存在此消彼长的权衡，进化选择的这个平衡点对长寿并不友好——打破这个平衡反而能延寿
 
-**[研究]** [量子+经典分子属性预测架构对比：64个参数就能跑出0.88 AUC](https://papers.cool/arxiv/2607.13737) — 在药物分子性质预测任务上，"拓扑对齐"归纳偏置让极少参数的模型达到实用精度，对AI制药低数据场景很有参考价值
+**[研究]** [前列腺 MRI 癌症分级 AI：因果对抗框架揭示年龄/BMI 是"捷径偏差"来源](https://papers.cool/arxiv/2607.14720) — 用因果推断框架审查深度学习模型，发现压制年龄、BMI 等临床变量后，前列腺癌分级 AUC 反而提升，提示这些变量在模型中是捷径而非有效信号
 
-**[研究]** [肿瘤药效建模新框架：多模态变分自编码器整合基因组+纵向肿瘤数据](https://papers.cool/arxiv/2607.13984) — 同时处理肿瘤生长曲线、患者脱落信息和基因变异，在黑色素瘤和乳腺癌数据上验证，个体预测精度显著提升
+**[研究]** [合成医学图像用于 COVID-19 CT 分类的偏差缓解与偏差检测](https://papers.cool/arxiv/2607.14984) — 人口统计学条件化生成器既能在训练时平衡少数群体，又能在评估时精准检测分类器偏差，效率是真实数据的约 100 倍
 
-**[开源]** [HumanVector：把生物年龄变成一个"方向状态空间"](https://github.com/jim4226/ClaudeScienceHackathon_2026) — Claude Science Hackathon 2026参赛项目，用ECG扰动和跨尺度证据图谱表示生物年龄动态，思路比较有创意
-
-**[开源]** [Echo60：个人生物年龄追踪与模拟器](https://github.com/marswalk/Echo60) — 轻量级个人工具，别让你的年轻态溜走（这个项目名字起得不错）
+**[健康]** [英国剑桥学者呼吁修订蛋白质摄入与运动指南：从"防缺乏"到"优化健康寿命"](https://lifespan.io/optimizing-guidelines-toward-optimal-health-outcomes/) — 低肌肉力量的全因死亡风险是高力量组的 200%，有氧能力极低者死亡风险高 400%——比吸烟危害大得多，但官方指南还停留在最低标准
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [一种治疗抑郁症的老药，意外地让小鼠多活了30%](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/)
+### [盲鼠治好了，靠的是眼药水，不是手术刀](https://www.genengnews.com/topics/drug-discovery/see-blind-mice-consortiums-drugs-restore-sight/)
 
-科学家本来在找一种能"堵住细胞钙离子泄漏"的新药，结果翻遍候选药物，发现效果最好的居然是mianserin——一个上市几十年、用来治抑郁症的老前辈。老年小鼠用了4个月，皮毛重新变光亮，还能更利索地爬来爬去，寿命延长17.5%。网友锐评："所以快乐本身就是长寿药？" 😂 当然，从小鼠到人还差着十万八千里，但这个发现的方向……确实很有意思。
+十几年前的科幻桥段：让盲人重见光明，需要复杂的电子眼植入手术。今天 IBEC 的实验结果是：给小鼠滴两滴眼药水，它就跑去躲在暗处了——因为它看见灯了。研究者自己都说"这是一个真实的可能性"。网友表示：从手术台到眼药水柜台，这个跨越有点大 😂
 
-![图片](https://lifespan.io/wp-content/uploads/2026/07/Calcium-ion-262x187.png)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/RSortino-JMartinez-300x223.jpeg)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 阿尔茨海默血液检测进入临床前大规模验证阶段
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：75%
-- **预测依据**：今日[p-tau217血检研究](https://www.news-medical.net/news/20260715/Study-sheds-light-on-the-prognostic-value-of-blood-test-for-predicting-cognitive-impairment-risk.aspx)显示该指标已获FDA审批许可，但预测精度仍存争议 + 目前至少3家大型制药公司正在推进阿尔茨海默早筛管线，争议会倒逼更大规模验证研究启动
+### prosthe6 视网膜修复化合物启动人体安全性研究
+- **预测时间**：2026年Q4
+- **预测概率**：55%
+- **预测依据**：今日新闻 [prosthe6化合物动物试验结果](https://www.genengnews.com/topics/drug-discovery/see-blind-mice-consortiums-drugs-restore-sight/) 显示动物安全性初步达标，Eyelumina 公司正在成形并寻求融资，研究团队明确表示下一步目标是"评估安全性和配方"，向人体试验推进的路径已清晰
 
-### 肠道微生物组干预进入衰老临床试验
-- **预测时间**：2026年Q3
-- **预测概率**：70%
-- **预测依据**：今日[老年女性肠道菌群与衰弱关联研究](https://www.fightaging.org/archives/2026/07/aspects-of-gut-microbiome-composition-correlate-with-frailty-in-women/)已精确定位目标菌种 + 当前多个益生菌/粪菌移植公司正在搭建衰老适应症管线，精确靶点的出现会加速IND申请
-
-### 老药新用（mianserin类）进入衰老适应症临床前评估
-- **预测时间**：2026年8月-10月
-- **预测概率**：60%
-- **预测依据**：今日[钙离子稳态与寿命研究](https://lifespan.io/rescuing-calcium-ion-homeostasis-extends-mouse-lifespan/)发表于《自然通讯》，影响力足够吸引老药新用赛道投资者 + 老药新用开发成本低，抗衰领域当前资本活跃，跟进机构出现概率较高
-
-### 脑机接口数据效率问题迎来方法论突破
+### GPR40 靶向药物在人类胸腺/免疫衰老领域的临床前研究升温
 - **预测时间**：2026年Q3-Q4
 - **预测概率**：65%
-- **预测依据**：今日[MOJO框架论文](https://papers.cool/arxiv/2607.14086)验证了自监督学习在神经信号解码中的有效性 + 脑机接口头部公司（Neuralink、Synchron）均在公开表述中提到数据效率是扩展的核心瓶颈，学术突破会快速被工业界跟进
+- **预测依据**：今日新闻 [GPR40激活对抗胸腺衰老](https://lifespan.io/activating-a-key-receptor-fights-thymic-involution-in-mice/) 数据亮眼，多条机制均已获证，同期Stanford发现免疫清除受体与器官衰老的关联——免疫衰老研究正密集产出，该靶点进入更多实验室研究的概率很高
+
+### AI 脑科学自动化工具（BrainPilot 类）进入实验室实际部署
+- **预测时间**：2026年Q3
+- **预测概率**：70%
+- **预测依据**：今日新闻 [BrainPilot开源多智能体系统](https://papers.cool/arxiv/2607.15079) 已经完全开源且性能对标闭源框架，进入实验室的门槛极低；结合近期 AI 科研自动化工具（如 AI Scientist 系列）快速扩散的趋势，3个月内真实部署案例出现概率较高
+
+### 表观遗传衰老时钟进入更多 AI Agent 工作流，标准化程度提升
+- **预测时间**：2026年Q3
+- **预测概率**：75%
+- **预测依据**：今日开源项目 [epiage-skill](https://github.com/gangchen/epiage-skill) 将 24 个衰老时钟打包为 agent 技能，极大降低使用门槛；结合 [多组学ADRD预测项目](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling) 等工具链成熟的趋势，表观遗传时钟作为标准化模块被更广泛集成是大概率事件
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 制药、阿尔茨海默早筛、抗衰老研究的最新资讯？
+### 哪里可以获取 AI + 生命科学领域最新资讯？
 
-今日 AI 生命科学领域的热点包括：阿尔茨海默血液早筛进展、老药新用延长寿命的基础研究突破、脑机接口数据效率新方法。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日热点包括：眼药水形式的视网膜修复化合物在动物实验中取得突破、多个衰老免疫机制研究密集产出、AI辅助脑科学研究工具开源。想持续追踪这类 **AI + 生命科学交叉领域**前沿动态？
 
 **推荐方案**：
-- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域重磅新闻
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型、衰老研究等
 - 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
 - 用普通人能理解的语言，解读最前沿的技术进展
 
@@ -170,13 +168,13 @@ Evo 2是一个在DNA序列上预训练的基因组基础模型（类似GPT预训
 
 ---
 
-### 如何体验 Claude 和 Perplexity 等 AI 工具来追踪生命科学研究？
+### 如何体验适合生命科学研究者的 AI 工具？
 
-今日 Evipedia 上线了 [Claude MCP 插件](https://lifespan.io/forever-healthy-launches-evipedia-ai-integration/)，可直接在 Claude 中调取 600+ 条长寿干预的循证医学数据。想要体验 Claude、Perplexity 等工具做科研资料整理，但面临支付或账号注册困难？
+今日资讯中出现了 BrainPilot（AI辅助脑科学研究）、表观遗传衰老时钟 agent 技能等工具，背后都依赖强大的语言模型支撑文献理解、数据分析和实验方案生成。想用上 Claude、Gemini、Consensus、Perplexity 等更适合科研场景的 AI 工具，但面临支付或注册的麻烦？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 中转、Perplexity、Gemini、ChatGPT、Consensus 等 AI 工具入口
-- 覆盖官方号、镜像、中转额度、多模型组合包和科研检索工具
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
+- 覆盖官方号、镜像、中转额度、多模型组合包及科研检索工具
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整 AI 账号服务列表。
