@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/18
+title: AI生命延续学日报 2026/7/19
 breadcrumbs: false
-next: /2026-07/2026-07-17
+next: /2026-07/2026-07-19
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-细菌酶首次逆转蛋白质糖化损伤，64岁晶状体处理后回到31岁水平，蛋白质老化不再是单行道。
-Insilico AI药物杀进 Phase III，帕金森干细胞疗法人体试验通关，AI制药从讲故事变成真赚钱。
-今天的消息够硬，抗衰老和AI制药两条线同时爆发，值得认真点开。
+斯坦福在《Science》发文：敲掉EP2受体，老鼠脑心肝肾同步逆龄，衰老被重新定义为"垃圾清运失职"。
+表观遗传时钟的变化速度比单次读数更能预测死亡，动态追踪生物年龄正成为新标准。
+今天全是抗衰老硬核机制突破，EP2和衰老细胞清除这两条值得反复读。
 ```
 
 
@@ -29,154 +29,146 @@ Insilico AI药物杀进 Phase III，帕金森干细胞疗法人体试验通关�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-一种细菌酶能把"老化"的蛋白质改回年轻状态,就像给细胞做了逆龄护肤。
+斯坦福发现"垃圾清运工"失职才是衰老真正元凶——堵死一个受体，老鼠器官全线返老还童。
 
 ### **🔑 3 个关键词**
-#蛋白质去糖化 #帕金森干细胞疗法 #AI制药商业化
+#抗衰老机制 #细胞衰老清除 #生命延续学
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [细菌酶逆转蛋白质老化,首次实现"返老还童"](https://lifespan.io/engineered-enzyme-reverses-age-related-protein-damage/)
-**以前大家都觉得蛋白质糖化损伤是不可逆的。现在,科学家从细菌里挖出一种酶,改造后能把老化的蛋白质修复回年轻状态。**
+**1. [斯坦福重磅：堵住一个受体，老鼠多器官同步"返年轻"](https://www.genengnews.com/topics/translational-medicine/organ-aging-linked-to-breakdown-in-immune-cell-interaction-and-senescent-neutrophil-clearance/)**
 
-Calico 和 Revel Pharmaceuticals 的团队设计了一种叫 CMLase 的酶,能移除蛋白质上的糖化损伤标记(CML)。测试显示,它让64岁人类晶状体蛋白的老化标记大幅降低,处理后的皮肤组织甚至回到了31岁的水平。这不是修修补补,而是真正意义上的分子级"返老还童"。
-
-不过,这项技术目前还在组织切片上测试,能否在活体内有效递送、会不会触发免疫反应,都是接下来要解决的问题。但至少证明了一件事:**蛋白质老化不是单行道。**
-
-![图片](https://lifespan.io/wp-content/uploads/2026/07/E-Coli-262x187.png)
+每天有1000亿个中性粒细胞（免疫系统的"前线士兵"）在体内老化，正常情况下巨噬细胞（免疫系统的"清洁工"）负责清理它们。但人老了，这群清洁工也跟着摆烂——罪魁祸首是细胞表面一个叫EP2的受体。斯坦福医学院研究团队在小鼠上直接敲掉EP2，结果震惊了：脑、心、肝、肾、骨骼肌等多个器官的衰老进程全面放缓，记忆力、体力、体型都向年轻态逆转。更重要的是，他们用实验药物也复现了同样效果，并在人类肝脏数据库里发现了相同规律。这项研究发表在《Science》上，直接把"衰老"重新定义为——主动清除机制的失败，而非被动的岁月磨损。
 
 ---
 
-### 2. [帕金森干细胞疗法首次人体试验成功](https://www.genengnews.com/topics/artificial-intelligence/parkinsons-in-the-clinic-insilico-enters-phase-iii-vertex-acquires-crinetics/)
-**把干细胞分化成多巴胺神经元,直接移植到帕金森患者大脑里——听起来很科幻,但 Phase I/II 临床试验证明这事儿能做。**
+**2. [衰老表观遗传时钟的"变化速度"，比单次测量更能预测你何时死亡](https://www.fightaging.org/archives/2026/07/change-over-time-in-epigenetic-clock-measures-correlates-with-mortality/)**
 
-研究团队将干细胞来源的多巴胺前体细胞移植到帕金森患者脑内,结果显示移植是可行的,患者耐受良好。这是帕金森疗法的重要里程碑:以往只能用药物缓解症状,现在有可能从源头补充坏死的神经元。
-
-当然,这只是第一步。长期疗效、移植细胞的存活率、是否会引发免疫排斥,都需要更大规模的试验来验证。但至少,**这条路通了。**
+想象一下，你用体重秤衡量健康——测一次数字意义有限，但如果每年测，发现体重在加速上涨，那才是危险信号。表观遗传时钟（通过DNA甲基化预测生物年龄的工具）也一样。一项跟踪699人、长达24年的纵向研究发现：时钟读数的"加速变化趋势"与死亡风险强相关，远比单次测量更有预测价值。这对个人健康追踪意义重大——如果你在持续监测自己的生物年龄，趋势比绝对数字更值得关注。
 
 ---
 
-### 3. [Insilico Medicine 营收暴涨,AI药物进入 Phase III](https://www.genengnews.com/topics/artificial-intelligence/parkinsons-in-the-clinic-insilico-enters-phase-iii-vertex-acquires-crinetics/)
-**AI制药不再是讲故事,开始赚钱了。** Insilico 的营收大幅增长,其 AI 设计的先导候选药物已推进到 Phase III 临床试验,公司预计未来实现盈利。
+**3. [Immorta Bio联合用药小鼠实验：清除"僵尸细胞"后，干细胞疗法效果大涨65%](https://lifespan.io/combining-senolytics-and-stem-cells-shows-promise-in-mice/)**
 
-这意味着 AI 制药正在从"实验室玩具"变成真正的商业模式。从靶点发现、分子设计到临床试验,AI 在每个环节都能加速流程、降低成本。**Insilico 的成功,可能会引发一波 AI 制药公司的上市潮。**
+间充质干细胞（MSC，一种能分泌修复因子的结缔组织干细胞）在临床上一直表现平平，为什么？因为老化组织里堆满了衰老细胞（"僵尸细胞"），它们持续释放炎症毒素，把干细胞的修复信号淹没了。Immorta Bio提出组合拳：先用自家的衰老细胞疫苗SenoVax"训练"免疫系统清除僵尸细胞，再注射干细胞，效果叠加。小鼠实验中，联合疗法在运动能力和生存期上均优于单独用药。不过，值得注意的是：这些实验用的是急性损伤模型，不是自然衰老——离真正"逆龄"还有距离。
 
----
-
-### 4. [Vertex 以 100 亿美元收购 Crinetics,押注囊性纤维化之外](https://www.genengnews.com/topics/artificial-intelligence/parkinsons-in-the-clinic-insilico-enters-phase-iii-vertex-acquires-crinetics/)
-Vertex 一直靠囊性纤维化药物吃饭,现在想多元化了。**100 亿美元收购 Crinetics,瞄准更广泛的代谢和内分泌疾病。**
-
-这笔交易释放的信号很明确:制药巨头在寻找下一个增长点,而罕见病和代谢病正在成为热门赛道。**对创业者来说,这是个好消息——证明这个市场有真金白银的退出机会。**
+![图片](https://lifespan.io/wp-content/uploads/2026/07/Senovax-2.png)
 
 ---
 
-### 5. [KRAS 疫苗首次用于预防胰腺癌,临床效果初显](https://www.genengnews.com/topics/cancer/kras-targeted-vaccine-crosses-first-clinical-milestone-in-pancreatic-cancer-prevention/)
-**胰腺癌是"癌王",五年生存率极低。现在,科学家开发了一种疫苗,专门针对 KRAS 突变,在高危人群中预防癌症发生。**
+**4. [代糖不是"安全替代品"？研究发现：吃最多的人，认知衰老快1.6年](https://www.sciencedaily.com/releases/2026/07/260717033213.htm)**
 
-Johns Hopkins 的团队设计了 mKRAS-VAX,针对胰腺癌中最常见的六种 KRAS 突变。Phase I 临床试验显示,90% 的参与者产生了 KRAS 特异性 T 细胞反应,且这种免疫反应能持续两年。更重要的是,**随访16.5个月后,没有人发展成癌症,部分癌前病变甚至缩小了。**
-
-这是癌症预防领域的重要突破。以往我们只能等癌症发生了再治疗,现在有可能在高危人群中提前阻断。**对于有家族史的人来说,这可能是救命的机会。**
+以为换成无糖可乐就万事大吉了？一项新研究给这个想法泼了冷水。摄入人工甜味剂最多的成年人，记忆力和思维能力下降速度明显更快，等效于认知衰老加速约1.6年——尤其是60岁以下人群和糖尿病患者，影响更显著。研究者强调还需更多证据才能确认因果关系，但这个信号已经足够让人警惕了。管住嘴的方式，可能比想象中复杂。
 
 ---
 
-### 6. [AAV 病毒借助脑脊液通路精准递送,小鼠试验成功](https://www.genengnews.com/topics/artificial-intelligence/parkinsons-in-the-clinic-insilico-enters-phase-iii-vertex-acquires-crinetics/)
-**基因疗法最大的难题是递送——怎么把治疗基因送到大脑深处?** 科学家找到了一个巧妙的办法:利用大脑的"淋巴系统"(胶质淋巴系统),让 AAV 病毒沿着脑脊液通路精准到达靶点。
+**5. [地中海饮食激活线粒体"心脑保护蛋白"，衰老研究有了新机制线索](https://www.sciencedaily.com/releases/2026/07/260716023605.htm)**
 
-在小鼠实验中,这种方法成功地将 AAV 递送到大脑特定区域,避免了传统注射方法的侵入性和不精确性。**如果这个技术能应用到人类,未来治疗帕金森、阿尔茨海默等神经退行性疾病可能会更安全、更有效。**
-
----
-
-### 7. [居住环境影响女性心脏健康长达数十年](https://www.news-medical.net/news/20260717/Long-term-study-shows-how-neighborhood-conditions-shape-womens-heart-health.aspx)
-**你住在哪里,决定了你的心脏有多健康。** Harvard Pilgrim Health Care Institute 的长期研究显示,生活在贫困社区的女性心脏健康状况更差,且在更年期前后衰退更快。
-
-这不仅仅是医疗资源的问题——社区环境、空气质量、食物获取、社会压力,都在潜移默化地影响心血管系统。**AI 能预测疾病,但如果不改变环境,预测也没用。**
-
-![图片](https://www.news-medical.net/image-handler/picture/2017/1/Anatomy_of_Human_Heart.-Liya_Graphics_5ac9d64765b747899bc4a9ef77468432-620x480.jpg)
+橄榄油、鱼类、豆类、少精制碳水——地中海饮食对健康的好处早有共识，但机制一直模糊。新研究发现了一个细节：坚持地中海饮食的老年人，体内两种来自线粒体的微小蛋白质——humanin和SHMOOSE——水平显著更高，而这两种蛋白与心脏和大脑保护直接相关。这不是"吃啥补啥"的玄学，而是给个性化营养方案提供了分子层面的抓手。
 
 ---
 
-### 8. [基因突变导致过度出汗,神经通道"闸门"打开太宽](https://www.genengnews.com/topics/translational-medicine/genetic-study-links-excessive-sweating-to-neurological-dysfunction/)
-**有些人动不动就汗如雨下,换衣服像换班一样频繁。** 现在科学家找到了原因:Nav1.8 离子通道的基因突变,让控制汗腺的神经一直处于过度兴奋状态。
+**6. [衰老 = 器官老化方式不同？Fight Aging! 周报梳理：从脊椎退化到神经元减少，都指向同一根源](https://www.fightaging.org/archives/2026/07/fight-aging-newsletter-july-20th-2026/)**
 
-Vrije Universiteit Brussel 的团队分析了180多名患者的 DNA,发现了这个"闸门"缺陷。在小鼠实验中,他们用药物阻断了过度活跃的神经信号,出汗症状明显减轻。**这意味着,未来可能用现有药物重新定位来治疗这个困扰数百万人的问题。**
-
----
-
-### 9. [线粒体与核 DNA 不匹配会加速衰老,果蝇寿命缩短10%](https://www.fightaging.org/archives/2026/07/mismatch-between-between-nuclear-and-mitochondrial-dna-modestly-accelerates-aging-in-flies/)
-**线粒体移植是抗衰老的热门方向,但有个问题:如果移植的线粒体 DNA 和细胞核 DNA 不匹配,会怎样?**
-
-研究人员用果蝇做实验,发现线粒体与核基因组不匹配会导致寿命缩短约10%,加速线粒体衰退和氧化应激。好消息是,这个影响不算特别大;坏消息是,**未来开发线粒体疗法时,可能需要匹配患者的基因型,增加了技术复杂度。**
+本周寿命延续学领域密集产出。几个值得记住的发现：① SIRT3蛋白激活可改善线粒体功能，减缓椎间盘退变，顺带降低细胞衰老负担；② TNF-α炎症信号直接抑制大脑新神经元的生成——慢性炎症不只是让你"感觉不舒服"，它实际上在阻止大脑自我修复；③ 饮食干预对"衰老细胞数量"影响有限，更多改变的是它们的"行为方式"（分泌的炎症因子）。这些发现串联起来，正在描绘一幅越来越清晰的衰老地图。
 
 ---
 
-### 10. [山火烟雾 + 高温 = 心脏健康的双重杀手](https://medicalxpress.com/news/2026-07-message-wildfire-summer-heart-health.html)
-**夏天山火季,空气质量暴跌,再叠加高温,心脏病风险直线上升。** 美国心脏协会警告:烟雾中的颗粒物和高温都会增加心血管负担,两者叠加效应更致命。
+**7. [器官移植→细胞疗法→替换老化零件？科学家开始认真讨论"全身换新"路线图](https://www.fightaging.org/archives/2026/07/considering-replacement-based-therapies-to-treat-aging/)**
 
-对于有心脏病史、老年人和儿童来说,这段时间尤其危险。**AI 能预测空气质量,但最终还是得靠环保政策和个人防护。**
+这不是科幻小说。一篇综述认真讨论了"替换疗法"作为抗衰老手段的路径：从器官移植（已有几十年历史）到CAR-T细胞疗法、生物打印组织、治疗性血浆置换，甚至脑机接口。核心逻辑是：与其修复老化组件，不如换掉它们。研究者预测，这类替换疗法与再生医学、靶向损伤清除技术结合，能逆转前所未有比例的衰老变化。大方向很性感，落地还需时间。
+
+---
+
+**8. [线粒体移植疗法遇到新问题：外来线粒体DNA和细胞核DNA"水土不服"，寿命缩短10%](https://www.fightaging.org/archives/2026/07/mismatch-between-between-nuclear-and-mitochondrial-dna-modestly-accelerates-aging-in-flies/)**
+
+线粒体（细胞的"发电站"）移植作为抗衰老疗法正在推进人体试验，但有个技术难题：线粒体自带DNA，和细胞核DNA是两套不同"语言"的程序。如果移植进来的线粒体DNA与宿主细胞核DNA"不兼容"，会怎样？果蝇实验给出答案：中位寿命缩短约10%，氧化应激上升。好消息是，早期饮食干预能部分抵消这个负面效应。对于正在开发线粒体移植疗法的公司，这意味着配型不能省。
+
+---
+
+**9. [肠道菌群失衡与老年女性虚弱程度强相关：跌倒、骨折、死亡风险全部升高](https://www.fightaging.org/archives/2026/07/aspects-of-gut-microbiome-composition-correlate-with-frailty-in-women/)**
+
+2081名75-80岁瑞典女性的大型队列研究发现：特定肠道菌群组合与老年虚弱程度高度相关——菌群多样性越低，跌倒骨折和死亡风险越高。研究者还开发了一个新的综合虚弱指数（FMI），把步速、坐站能力、心理状态等维度都纳入进来，比传统疾病指数更能预测实际健康结局。肠道不只是消化器官——它可能是衰老速度的一面镜子。
+
+---
+
+**10. [卒中的真正原因被误解了几十年？新研究：不是动脉堵塞，是脑内微血管损伤](https://www.sciencedaily.com/releases/2026/06/260622091521.htm)**
+
+医学教科书告诉我们卒中主要是动脉被脂肪斑块堵死。但这项研究发现，一种常见类型的卒中，罪魁祸首其实是脑内深处微血管的扩张和损伤——这直接解释了为什么阿司匹林等标准疗法对这类患者效果有限。如果这一发现被后续研究证实，整个治疗靶点需要重新定向，而AI辅助的微血管影像分析，也将成为新的战场。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [阿尔茨海默新药让患者多睡两小时](https://medicalxpress.com/news/2026-07-hours-alzheimer-breakthrough.html) - 研究团队找到了改善阿尔茨海默患者睡眠的方法,每晚多睡两小时,生活质量显著提升
+**[开源]** [vitagraph - 去中心化生物信号知识图谱](https://github.com/Ciprian-LocalPulse/vitagraph) - 整合多组学数据、实时生物指标和AI来追踪人类健康轨迹，开源抗衰老研究基础设施，值得关注
 
-**[研究]** [居住环境塑造女性心脏健康](https://medicalxpress.com/news/2026-07-women-heart-health-decades.html) - 长期研究证实,社区条件影响女性心血管健康长达数十年
+**[开源]** [parkinson-wearable-digital-biomarkers - 帕金森步态冻结检测基线](https://github.com/mohamad679/parkinson-wearable-digital-biomarkers) - 基于可穿戴加速度计的帕金森病步态冻结检测Python工具，做运动神经退化研究的可以看看
+
+**[开源]** [coinstac-brainage-fnc - 基于功能连接的脑年龄预测模型](https://github.com/trendscenter/coinstac-brainage-fnc) - 用线性SVR和功能神经连接矩阵预测脑年龄，联邦学习框架下可保护隐私地跨机构分析
+
+**[研究]** [表观遗传时钟与椎间盘退变：同一个衰老机制的两张面孔](https://www.fightaging.org/archives/2026/07/epigenetic-aging-in-intervertebral-disc-degeneration/) - "清除+重编程+播种"三步路线图，为椎间盘再生提供了新框架
+
+**[研究]** [过氧化物酶体减少如何通过线粒体缩短寿命](https://www.fightaging.org/archives/2026/07/more-on-the-mechanisms-by-which-reducing-age-related-peroxisome-loss-extends-life/) - 抑制PRX-11延寿的机制被进一步厘清，两种细胞器协同维护寿命的证据越来越扎实
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [山火烟雾遇上夏季高温,心脏"双杀"预警](https://medicalxpress.com/news/2026-07-message-wildfire-summer-heart-health.html)
-**就像你家厨房着了小火,本来可以控制,结果自动喷淋系统启动,整个房子都被淹了。** 美国心脏协会说,山火烟雾和高温叠加,对心脏的伤害不是1+1=2,而是指数级增长。网友吐槽:"以前担心热死,现在担心被烟熏死,还得防心脏病——这夏天是真不让人活了。" 😂
+### [堵死一个受体，老鼠变"永动机"：跑迷宫、记东西、长肌肉，比年轻小鼠差不多](https://www.genengnews.com/topics/translational-medicine/organ-aging-linked-to-breakdown-in-immune-cell-interaction-and-senescent-neutrophil-clearance/)
 
-对于有心脏病史的人来说,这段时间最好待在室内,开空气净化器,少出门。**气候变化不是未来的问题,是现在每天都在影响健康的现实。**
+斯坦福团队把老鼠身上一个叫EP2的受体敲掉之后，老鼠开始"逆龄"。具体到什么程度？走迷宫的速度、握力、记忆力、脂肪分布……全部向年轻对照组看齐。研究者Andreasson说："现在我们知道了至少一个衰老的重要原因。" 网友评论风格大概是：所以我的问题不是老，是我的垃圾清运工罢工了？ 😂 
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### AlphaFold 团队发布蛋白质-小分子复合物预测工具
-- **预测时间**:2026年Q3
-- **预测概率**:70%
-- **预测依据**:今日新闻提到 AAV 病毒递送和蛋白质去糖化酶工程,都依赖精确的蛋白质结构预测。DeepMind 历史上每年夏季发布重大更新,蛋白质-小分子相互作用是下一个明显的突破点
+### EP2拮抗剂进入人体安全性试验
+- **预测时间**：2026年Q4
+- **预测概率**：55%
+- **预测依据**：今日新闻[斯坦福EP2受体研究发表于Science](https://www.genengnews.com/topics/translational-medicine/organ-aging-linked-to-breakdown-in-immune-cell-interaction-and-senescent-neutrophil-clearance/) + 研究团队已证实实验药物有效，且人类数据库中存在相同规律，向IND申报推进的条件趋于成熟
 
-### 线粒体移植疗法进入更大规模临床试验
-- **预测时间**:2026年9月
-- **预测概率**:60%
-- **预测依据**:今日新闻[线粒体 DNA 不匹配研究](https://www.fightaging.org/archives/2026/07/mismatch-between-between-nuclear-and-mitochondrial-dna-modestly-accelerates-aging-in-flies/) 表明匹配问题影响有限(约10%寿命差异),加上首次人体试验已完成,技术门槛正在被逐步攻克
+### 衰老时钟"动态追踪"成为标准临床生物标志物
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：70%
+- **预测依据**：今日新闻[纵向表观遗传时钟变化率与死亡率相关](https://www.fightaging.org/archives/2026/07/change-over-time-in-epigenetic-clock-measures-correlates-with-mortality/) + 多家抗衰老临床试验机构已在纳入纵向时钟追踪作为次要终点，监管机构对生物标志物接受度持续上升
 
-### AI制药公司并购潮加速
-- **预测时间**:2026年Q3-Q4
-- **预测概率**:75%
-- **预测依据**:今日新闻[Vertex 以100亿美元收购 Crinetics](https://www.genengnews.com/topics/artificial-intelligence/parkinsons-in-the-clinic-insilico-enters-phase-iii-vertex-acquires-crinetics/) + [Insilico 营收暴涨](https://www.genengnews.com/topics/artificial-intelligence/parkinsons-in-the-clinic-insilico-enters-phase-iii-vertex-acquires-crinetics/),证明 AI 制药商业化路径清晰,大药厂正在疯狂寻找标的
+### 衰老细胞疫苗（SenoVax类）启动首个人体I期试验
+- **预测时间**：2026年Q4至2027年Q1
+- **预测概率**：45%
+- **预测依据**：今日新闻[Immorta Bio联合疗法小鼠实验](https://lifespan.io/combining-senolytics-and-stem-cells-shows-promise-in-mice/) + 公司已有IND文件及专利申请记录，但细胞免疫疗法生产复杂度是最大不确定因素
+
+### 线粒体移植临床试验公布首批人体安全性数据
+- **预测时间**：2026年8-9月
+- **预测概率**：65%
+- **预测依据**：今日新闻[线粒体DNA不相容性研究](https://www.fightaging.org/archives/2026/07/mismatch-between-between-nuclear-and-mitochondrial-dna-modestly-accelerates-aging-in-flies/) + 多家公司已完成首例人体给药，配型问题被提上日程，预计近期会有安全性阶段性报告
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI制药、蛋白质工程、癌症预防疫苗 的最新资讯?
+### 哪里可以获取 AI 抗衰老 / 生命延续学 / 衰老生物标志物 的最新资讯？
 
-今日 AI 生命科学领域的热点包括:细菌酶逆转蛋白质老化、帕金森干细胞疗法首次人体试验、KRAS 疫苗预防胰腺癌。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态?
+今日 AI 生命科学领域的热点包括：斯坦福揭示EP2受体是器官衰老关键调控点、表观遗传时钟动态变化预测死亡率、senolytics联合干细胞疗法小鼠实验取得进展。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
-**推荐方案**:
+**推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖:AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型、衰老生物标志物等
 - 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
-- 用普通人能理解的语言,解读最前沿的技术进展
+- 用普通人能理解的语言，解读最前沿的技术进展
 
 访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
 
 ---
 
-### 如何体验 AI 工具来加速生命科学研究?
+### 如何用 AI 工具加速衰老研究和生命科学文献整理？
 
-今日新闻提到的 AI 制药、蛋白质工程、基因编辑等研究,都离不开强大的 AI 工具支持。无论是文献检索、数据分析,还是分子设计,Claude、Gemini、Perplexity、Consensus 等 AI 工具都能显著提升效率。但面临支付困难或账号注册限制?
+今日多项研究涉及表观遗传时钟、线粒体功能、肠道菌群等交叉领域，文献量庞大且高度专业。想要高效检索和消化这类论文，但面临语言障碍、订阅限制或账号注册困难？
 
-**解决方案**:
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
-- 覆盖官方号、镜像、中转额度、多模型组合包和部分科研检索工具
-- 官网自助下单,卡密秒发;具体商品和售后范围以网站当前页面为准
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Perplexity、Consensus 等多款 AI 工具入口
+- Consensus 专为科研文献检索设计，可直接问"表观遗传时钟和死亡率的关系"并获得论文级答案；Perplexity 适合实时追踪最新研究进展；Claude 和 Gemini 适合长文本阅读和研究综述整理
+- 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整 AI 工具服务列表。
