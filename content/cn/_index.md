@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/21
+title: AI生命延续学日报 2026/7/22
 breadcrumbs: false
-next: /2026-07/2026-07-20
+next: /2026-07/2026-07-22
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-今天脑疾病战场最热：AI重写血癌评分、脑电痴呆检测跑上7W芯片、SORLA蛋白同时压制tau缠结和突触损失。
-LLM开始抢扩散模型的药物设计饭碗，不确定性量化从加分项变成AI制药准入门槛。
-生物安全的红线正在被试探——前沿大模型越狱后真的能生成可合成病毒序列，今天必看。
+DBMol 用 AlphaFold-3 直接驱动小分子优化，AI制药底层工具箱又添一把利器。
+寿命和健康寿命的剪刀差越来越大，长寿科学的终极命题摆在眼前。
+GLP-1、锂盐、表观遗传时钟——今天的老药新用和衰老测量值得重点关注。
 ```
 
 
@@ -29,132 +29,142 @@ LLM开始抢扩散模型的药物设计饭碗，不确定性量化从加分项�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-AI 在脑部疾病战场上同时开打三条线——痴呆检测、阿尔茨海默 tau 蛋白、帕金森线粒体，今天的进展让人看到希望。
+活得更久但病得更久——全球数据揭示，寿命和健康寿命之间的鸿沟正在加速拉大。
 
 ### **🔑 3 个关键词**
-#AI脑疾病 #AI制药 #生命延续学
+#衰老生物学 #AI制药 #基因组编辑
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [新 AI 评分系统让血癌监测更精准](https://www.news-medical.net/news/20260720/New-AI-score-enhances-monitoring-of-myelodysplastic-neoplasms.aspx)**
+**1. [DBMol：用 AlphaFold-3 指导全新小分子药物设计](https://papers.cool/arxiv/2607.19237)**
 
-骨髓增生异常综合征（MDS，一种血癌）过去很难追踪病情变化——传统评分系统对细微恶化不敏感。Weill Cornell Medicine 的研究团队直接用 AI 重写了评分逻辑，让医生对病情的掌控粒度细了一个数量级。对血液肿瘤科医生来说，这套工具的临床价值不只是"更准"，而是可能真正改变治疗时机的判断。
-
-![图片](https://www.news-medical.net/image-handler/picture/2016/3/Cancer_blood_5431357749be4138a37404d0991ed04a-620x480.jpg)
+药物研发最难的一步是什么？找到一个能精准"插入"目标蛋白口袋的分子。DBMol 把 AlphaFold-3 和 Boltz-2（目前最强的蛋白质结构预测模型）直接变成优化信号——给一个初始分子，它反复"打磨"，让分子越来越贴合蛋白质，再用流匹配模型（一种生成式AI方法）把优化结果转成真实可合成的化合物。实验证明，生成分子的结合口袋覆盖率大幅提升，还没有参考配体也能玩。AI制药的底层工具箱又多了一把利器。
 
 ---
 
-**2. [逻辑门神经网络实现边缘设备实时脑电痴呆检测](https://papers.cool/arxiv/2607.18149)**
+**2. [BioSecBench-Surveillance：首个测试 AI 能否做病原体基因组监控的基准](https://papers.cool/arxiv/2607.19262)**
 
-脑电（EEG）设备想做成随身携带的痴呆筛查工具，最大的拦路虎是算力。传统神经网络太吃浮点运算，一块低功耗芯片根本跑不动。这篇论文把神经网络直接编译成布尔电路（纯 0/1 逻辑运算），在只有 7W 功耗的 Jetson 芯片上，痴呆检测 F1 分数达到 80.2%，速度比传统 MLP 快 2.9 倍，模型体积缩小 14 倍。便携式脑机接口的门槛，正在被悄悄打破。
-
----
-
-**3. [LLM 能设计药物分子吗？新基准测试给出答案](https://papers.cool/arxiv/2607.18144)**
-
-药物设计（SBDD）一直是扩散模型的主场，但最近大语言模型开始"抢饭碗"。这篇论文专门测试了 LLM 在 3D 空间约束下设计结合分子的能力——给定蛋白质口袋的三维结构，让 LLM 生成能嵌进去的分子。结论：LLM 还跑不过专用扩散模型，但处理多重空间约束的能力比预期强，规模化潜力值得关注。AI 制药赛道正在悄悄多出一条新路。
+下一场疫情爆发时，AI 能自己分析测序数据、判断病原体来源吗？研究者做了这个压力测试：100 道题，从分类鉴定到基因工程检测，16 个模型组合上阵。结果呢？最强的 Opus 4.8 也只答对了一半（50.2%）。更有意思的是，AI 不是不知道用哪个分析流程，而是在"用哪个参考数据库、设什么阈值"这种细节上频频翻车。这份基准直接点出了 AI 生物安全监控的短板在哪。
 
 ---
 
-**4. [RELIABLE-BA：让 AI 制药中的分子结合预测"知道自己有多不确定"](https://papers.cool/arxiv/2607.17601)**
+**3. [五种表观遗传时钟揭示衰老的不同信号](https://www.news-medical.net/news/20260722/Five-epigenetic-clocks-reveal-shared-and-distinct-signals-of-aging.aspx)**
 
-AI 预测药物分子和蛋白质结合强度（结合亲和力），各种模型的结果经常打架——哪个可信？这篇论文引入了"证据融合"（evidential fusion）框架，不仅给出预测值，还量化每个预测的置信度。实验显示，只保留高置信度预测时，误差最高可降低 25%。代码已开源，可直接用于 SARS-CoV-2 等临床相关靶点。不确定性量化，正成为 AI 制药走向实际应用的关键一步。
+把人的衰老速度量化成一个数字——表观遗传时钟（通过分析 DNA 甲基化模式来估算"生物年龄"）一直是长寿研究的核心工具。新研究在 3227 名参与者身上同时跑了五种不同的时钟，发现它们各自对应不同的血液基因表达模式和生物学路径，由此派生出的综合评分（TAGS）在预测虚弱、死亡率等方面，往往比单个时钟更准。换句话说：衰老没有"一个钟"能说清，组合拳才是方向。
 
----
-
-**5. [BrainNext：脑部 MRI 的通用基础模型，FOMO 2025 拿下第二](https://papers.cool/arxiv/2607.17782)**
-
-脑影像 AI 有个老问题：每个任务训一个模型，换个场景就废了。BrainNext 用 60,551 张无标注脑 MRI 做自监督预训练，一套模型搞定分类、分割、脑龄估算三类任务，在 FOMO 2025 挑战赛总榜排第二，脑膜瘤分割任务拿第一。这意味着神经影像 AI 正在从"专科大夫"进化成"全科大夫"。
+![图片](https://www.news-medical.net/images/news/ImageForNews_843049_17846943437955407.jpg)
 
 ---
 
-**6. [GeneSpeak-FP：从细胞扰动信号反推药物靶点](https://papers.cool/arxiv/2607.17671)**
+**4. [全球研究：人类活得越来越长，但"健康寿命"没跟上](https://www.news-medical.net/news/20260721/Global-study-reveals-widening-gap-between-lifespan-and-healthspan.aspx)**
 
-反向问题往往比正向问题更难：不是"给我一个靶点，预测细胞反应"，而是"给我细胞反应，猜猜是什么药打的"。这个 Transformer 模型就做这件事——读取单细胞基因表达的扰动特征，从 379 种化合物库里检索最匹配的药物，Recall@10 达到 40.8%。这对高通量药物筛选来说是个很有价值的反向验证工具。
+《柳叶刀公共卫生》刚发了一项全球疾病负担研究——结论很扎心：各国人均寿命在增长，但额外活出来的那些年，大部分都在病痛中度过。寿命和健康寿命之间的差距正在扩大。这正是整个长寿科学领域存在的终极理由：不只是活得长，而是活得好。AI 生命科学的很多方向，本质上都在解这道题。
 
----
-
-**7. [SORLA 蛋白：阿尔茨海默症的"双面盾牌"](https://www.genengnews.com/topics/drug-discovery/protein-protects-against-tau-tangles-synaptic-loss-in-mouse-model-of-tauopathy/)**
-
-Tau 蛋白缠结是阿尔茨海默症的两大病理特征之一（另一个是淀粉样蛋白斑块），但针对它的治疗靶点一直比较少。Sanford Burnham Prebys 的团队发现，SORLA 蛋白过量表达能同时压制 tau 过磷酸化、突触损失和神经胶质过激活；反之，缺乏 SORLA 则会让病情加速恶化。更关键的是，他们找到了一类现有药物（plexin-B 受体靶向药）可能被"改道"用来对付这条通路。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Low-Res_FIGURE1-panel-G-300x223.jpg)
+![图片](https://www.news-medical.net/images/tags/TagImage-1831-45296002389942131275-620x480.jpg)
 
 ---
 
-**8. [干细胞外泌体逆转小鼠肝脏衰老——无现有药物替代](https://lifespan.io/exosomes-from-stem-cells-fight-liver-disease-in-mice/)**
+**5. [痴呆、成瘾、精神疾病各有"大脑老化特征图谱"](https://www.news-medical.net/news/20260721/Dementia-addiction-and-psychiatric-disorders-show-distinct-patterns-of-accelerated-brain-aging.aspx)**
 
-非酒精性脂肪肝（NAFLD）目前没有针对性药物，而这偏偏是衰老过程中最常见的肝脏问题之一。研究者从人脐带间充质干细胞中提取外泌体（细胞分泌的纳米级"信使囊泡"），注射进老年小鼠后，肝脏脂肪沉积、衰老标志物、血糖水平均显著回落，接近年轻小鼠的状态。作用机制锁定在一个叫 THBS1 的蛋白上。这条路线能不能从小鼠走到人，是下一步最关键的问题。
+同样是"大脑老化加速"，痴呆患者、酒精成瘾者、精神分裂症患者的老化模式完全不同——发表在 PLOS Medicine 的研究，用脑影像 AI 把这些模式一一区分开来。这不只是学术发现：它意味着未来的脑老化干预，得按"哪种疾病让哪个脑区老得更快"来精准设计，而不是一刀切。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/07/Human-liver-262x187.png)
-
----
-
-**9. [帕金森线粒体清除机制：激活通路≠完成清除](https://www.fightaging.org/archives/2026/07/mitochondrial-dysfunction-in-parkinsons-disease-is-complicated/)**
-
-过去十年，帕金森研究有个隐含假设：激活 PINK1/Parkin 线粒体自噬通路，受损线粒体就会被清除。但新综述直接点破这个逻辑漏洞——上游信号激活了，下游清除可能仍然卡壳；α-突触核蛋白积累、溶酶体损伤、神经炎症三者形成恶性闭环，任何一环堵死都功亏一篑。这解释了为什么一堆靶向 PINK1 的药临床都翻车了。方向不是错了，而是太局部。
+![图片](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
 
 ---
 
-**10. [TFAM 与线粒体衰老：剂量敏感的双刃靶点](https://www.fightaging.org/archives/2026/07/tfam-and-mitochondrial-dysfunction-in-aging/)**
+**6. [运动真的能"逆转"肌肉衰老？最新分子级证据来了](https://lifespan.io/regular-training-erases-parts-of-muscle-aging-signature/)**
 
-二十年前科学家就想通过提高 TFAM（线粒体转录因子 A，负责维护线粒体 DNA）来抗衰老，结果发现这个蛋白"太多太少都是问题"——典型的剂量敏感靶点，让基因疗法很难下手。新综述梳理了现有认知：TFAM 缺乏会导致线粒体 DNA 不稳定、活性氧爆发；但过量同样有害，可能把 DNA 压缩得太紧反而无法正常工作。未来的策略不是单纯升高或降低，而是恢复其"平衡态"。
+阿姆斯特丹 UMC 发表在 Nature Aging 的研究，把年轻人、普通老年人、训练老年人（每周三次以上）的肌肉做了分子层面的全面比较。发现：56% 的衰老相关基因表达变化，在坚持训练的老年人身上消失了，尤其是线粒体和能量代谢相关的基因。但同样重要的发现是：另外一部分衰老特征，运动根本挡不住。长寿科学还有硬骨头要啃。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/07/Situps-262x187.png)
+
+---
+
+**7. [GLP-1 减肥针意外效果：酒精相关住院风险明显下降](https://www.news-medical.net/news/20260721/Newer-GLP-1-medications-may-reduce-alcohol-related-hospitalisation-risk.aspx)**
+
+司美格鲁肽、替尔泊肽（就是最近大火的 GLP-1 类减肥/降糖药）用于有酒精使用障碍的患者，结果发现：跟酒精相关的住院率显著降低。这项刊发于 BMJ Open 的研究让人想起此前 GLP-1 药物被发现有潜在戒烟效果的数据——它似乎在多个"成瘾"方向都有信号。背后机制还不清楚，但这个意外收获值得持续关注。
+
+![图片](https://www.news-medical.net/image-handler/picture/2018/7/Selection_of_alcoholic_drinks_on_rustic_wood_background_-_Oleksandra_Naumenko_A1_fe979bdaef3943969b200bceaf42b174-620x480.jpg)
+
+---
+
+**8. [低剂量锂或可保护早期阿尔茨海默症患者的大脑网络](https://www.news-medical.net/news/20260721/Low-dose-lithium-may-protect-brain-networks-in-early-Alzheimere28099s-disease.aspx)**
+
+锂——这种在情绪障碍治疗中用了几十年的老药，最新研究视角指向阿尔茨海默症早期干预。研究者提出，恢复生理水平的锂，可能帮助维持胆碱能信号传导（大脑记忆回路的核心通路）和脑网络连接。目前还停留在理论框架阶段，需要严格的临床试验验证，但方向很有意思——一种廉价老药，打早期神经退行的主意。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_843045_17846924160301083.jpg)
+
+---
+
+**9. [UCSD 加入 IGI，诺奖得主 Doudna 的 CRISPR 联盟扩展到四所 UC 高校](https://www.genengnews.com/topics/genome-editing/ucsd-igi-partnership-expands-crispr-innovation-across-health-agriculture-and-the-environment/)**
+
+CRISPR 共同发现者 Jennifer Doudna 创办的创新基因组学研究所（IGI），把加州大学圣地亚哥分校（UCSD）拉进了伙伴圈——UCSD 带来的是海洋科学、生物医学工程和计算机科学。具体方向包括：用"巨型噬菌体"（jumbo phage，一种能感染细菌的超大病毒）开发耐药菌新疗法，以及加速抗菌素耐药性和神经退行性疾病的药物研发管线。基础科研和临床转化之间的桥，又搭了一段。
+
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Low-Res_JumboPhage-infection-art-Margot-Riggi-705-3-31-25-247x300.jpg)
+
+---
+
+**10. [10x Genomics 联手克利夫兰诊所，布局膀胱癌精准诊断](https://www.genengnews.com/topics/omics/10x-clinical-expansion-advances-with-clia-lab-plans-cleveland-clinic-partnership/)**
+
+单细胞测序（把组织切片里每一个细胞的基因表达都单独读出来）这项技术，正在从实验室走向临床。10x Genomics 宣布与克利夫兰诊所合作，用空间生物学和单细胞测序平台寻找膀胱癌的生物标志物——目标是预测患者对免疫治疗和新型抗体药物的响应。同时，公司明年还将开放自己的 CLIA 认证实验室（即可出具临床诊断报告的合规实验室）。研究工具正式跨入临床诊断赛道。
+
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Serge-Saxonov-10x-Genomics-co-founder-and-CEO-JPEG-RESIZE-3003-300x300.jpg)
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [神经系统罕见病为何只损伤特定脑区](https://www.news-medical.net/news/20260720/Study-reveals-why-rare-neurological-disease-damages-specific-brain-regions.aspx) — 同一种毒性蛋白遍布全脑，却只攻击特定区域，这个谜底直接关乎未来靶向神经保护策略的设计方向
+**[研究]** [CURE 框架：医疗多模态数据融合，性能提升近 4%、算力成本降低 88%](https://papers.cool/arxiv/2607.19086) — 影像+临床记录+组学数据一起喂进去，这个轻量框架能同时把准确率和效率都拉上去，医疗 AI 落地的实际痛点有新解法
 
-**[研究]** [脑对齐多流视频 Transformer：AI 视觉向人脑靠拢](https://papers.cool/arxiv/2607.17625) — 用"什么"流+"在哪"流模拟灵长类视觉通路，脑电相关性达噪声上限的 78%，神经影像研究的底层工具正在升级
+**[研究]** [GEqTrain：一套框架搞定分子结构预测、NMR 化学位移计算和生成式建模](https://papers.cool/arxiv/2607.19083) — 等变图神经网络（能感知3D分子空间对称性的 AI）做到了跨任务"配置切换"，生命科学计算工具的复用性大幅提升
 
-**[研究]** [生育会加速老年虚弱吗？伴侣犬模型给出意外答案](https://medicalxpress.com/news/2026-07-motherhood-late-life-frailty-companion.html) — 用伴侣犬替代人类研究生育-衰老权衡，结果显示母性可能反而降低晚年虚弱风险，颠覆直觉
+**[研究]** [线虫实验：保护过氧化物酶体功能可延长寿命并保护线粒体健康](https://www.news-medical.net/news/20260721/Peroxisome-preservation-extends-lifespan-and-protects-mitochondrial-health-in-worms.aspx) — 过氧化物酶体（细胞内负责脂肪酸代谢和解毒的细胞器）和衰老的关系，在秀丽隐杆线虫里又有新证据
 
-**[研究]** [胸腺激素可能抑制"炎症性衰老"并增强癌症疗效](https://medicalxpress.com/news/2026-07-thymus-derived-hormone-suppress-age.html) — inflammaging（慢性低度炎症随年龄加重）是衰老研究的核心议题，胸腺来源激素可能是干预的新入口
-
-**[研究]** [寄生虫 DNA 显示吡喹酮出现早期耐药信号](https://www.genengnews.com/topics/infectious-diseases/early-genomic-indicators-of-praziquantel-resistance-in-schistosoma-mansoni/) — 血吸虫病影响全球 2.5 亿人、唯一可用药物开始出现耐药基因变异，全基因组监测的紧迫性骤然上升
+**[研究]** [AI 辅助决策系统在老年护理中的应用综述：从排班优化到临床结局](https://papers.cool/arxiv/2607.19075) — 30 篇文献梳理，指出当前运筹学 AI 最大的问题是只优化了"流程"，没有真正改善患者健康结局，并提出了数字孪生和大语言模型的整合框架
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [前沿 LLM 被"越狱"后能设计病毒变体？研究者敲响生物安全警钟](https://papers.cool/arxiv/2607.18056)
+### [24% 的美国人因为医保不敢辞职，被"困"在不想干的工作里](https://www.news-medical.net/news/20260722/Health-insurance-keeps-many-Americans-trapped-in-unwanted-jobs.aspx)
 
-今天最让人后背发凉的论文：研究者专门训练了一个"生物红队模型"，专攻 GPT-5.5 等前沿大模型的越狱攻击，结果多个主流模型任务级攻击成功率接近 100%。更离谱的是，GPT-5.5 被诱导生成了修改版病毒候选序列，翻译出的蛋白质在实验室里真的能合成，且显示出更强的受体结合能力。网友评论："AI：我只是在帮你做科研啊。" 😅 研究者呼吁：文本层面的安全护栏远远不够，核酸合成筛查机制刻不容缓。
+West Health-Gallup 的调查结果出来了：将近四分之一的美国打工人，明明想辞职，却因为一旦辞职就没有医疗保险，只能继续上班。网友神评论：「这不是雇佣关系，这是医保绑架。」从 AI 生命科学的角度看，这条新闻其实很严肃——它揭示了健康焦虑如何扭曲整个社会的劳动力流动。当 AI 医疗能让个人健康管理成本大幅下降的那天，这个数字或许才会真正改变。
+
+![图片](https://www.news-medical.net/image-handler/picture/2017/4/Accident_Injury_Information_Report_Health-Rawpixel.com_ac5524c1031e4229bc369a9a2a504d1c-620x480.jpg)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 便携式 EEG 痴呆筛查设备进入临床验证
-- **预测时间**：2026年Q4
-- **预测概率**：60%
-- **预测依据**：今日论文 [逻辑门网络实现边缘设备实时脑电痴呆检测](https://papers.cool/arxiv/2607.18149) 已在 7W 低功耗芯片上实现 80.2% F1 分数 + 可穿戴脑机接口硬件成本近两年持续下探，产学转化窗口正在打开
+### 结构预测模型成为 AI 制药标配优化信号
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：78%
+- **预测依据**：今日新闻 [DBMol](https://papers.cool/arxiv/2607.19237) 展示了用 AlphaFold-3/Boltz-2 直接驱动小分子优化的可行性 + 近期多个 de novo 分子设计框架都在往"结构预测模型作为打分函数"这个方向靠拢，技术路径正在收敛
 
-### LLM 分子设计工具进入主流 AI 制药平台
+### AI 病原体基因组监控工具进入政府采购视野
+- **预测时间**：2026年Q3
+- **预测概率**：55%
+- **预测依据**：今日 [BioSecBench-Surveillance](https://papers.cool/arxiv/2607.19262) 基准发布，说明学界已经开始系统性评估 AI 生物安全监控能力 + 全球多国政府在疫后持续加码生物安全基础设施投入，标准化评估出现往往是采购需求前兆
+
+### 表观遗传时钟组合评分进入大规模临床试验
+- **预测时间**：2026年Q4
+- **预测概率**：62%
+- **预测依据**：今日 [五种表观遗传时钟研究](https://www.news-medical.net/news/20260722/Five-epigenetic-clocks-reveal-shared-and-distinct-signals-of-aging.aspx) 证明组合评分（TAGS）预测能力优于单一时钟 + 多家长寿公司已在将生物年龄测量纳入干预效果评估体系，下一步自然是进入临床方案
+
+### GLP-1 药物适应症扩张至神经精神领域
 - **预测时间**：2026年Q3
 - **预测概率**：70%
-- **预测依据**：今日论文 [LLM 分子结合设计基准测试](https://papers.cool/arxiv/2607.18144) 表明 LLM 已能处理多重 3D 空间约束 + Recursion、Insilico 等头部 AI 制药公司正在积极集成大模型推理能力，竞争压力倒逼快速落地
-
-### AI 不确定性量化成为药物筛选标配
-- **预测时间**：2026年Q4
-- **预测概率**：65%
-- **预测依据**：今日论文 [RELIABLE-BA](https://papers.cool/arxiv/2607.17601) 证明置信度过滤能降低 25% 预测误差 + FDA 和药监机构对 AI 辅助决策的可解释性要求日趋严格，不确定性量化从"锦上添花"变为"准入门槛"
-
-### SORLA 进入阿尔茨海默症药物重定向临床研究
-- **预测时间**：2026年Q4
-- **预测概率**：45%
-- **预测依据**：今日新闻 [SORLA 蛋白保护 tau 病理小鼠模型](https://www.genengnews.com/topics/drug-discovery/protein-protects-against-tau-tangles-synaptic-loss-in-mouse-model-of-tauopathy/) 显示 plexin-B 靶向药可被重定向 + 阿尔茨海默领域对 tau 靶点的临床需求极为迫切，资金和研究资源会快速跟进
+- **预测依据**：今日 [GLP-1 减少酒精相关住院风险](https://www.news-medical.net/news/20260721/Newer-GLP-1-medications-may-reduce-alcohol-related-hospitalisation-risk.aspx) 的数据 + 此前已有多项研究显示 GLP-1 对尼古丁成瘾、抑郁情绪有信号，多个制药巨头正在布局相关临床试验
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 脑疾病/AI 制药/生命延续学 的最新资讯？
+### 哪里可以获取 AI 制药、衰老生物学、基因组编辑的最新资讯？
 
-今日 AI 生命科学领域的热点包括：边缘设备脑电痴呆检测算法突破、LLM 分子设计能力基准测试、SORLA 蛋白对抗阿尔茨海默 tau 缠结的新机制。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日 AI 生命科学热点包括：AI 驱动的小分子药物设计新框架（DBMol）、表观遗传衰老时钟的组合应用研究、以及 CRISPR 研究联盟的扩张动态。想持续追踪这类 **AI + 生命科学交叉领域**的前沿进展？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -166,13 +176,13 @@ Tau 蛋白缠结是阿尔茨海默症的两大病理特征之一（另一个是�
 
 ---
 
-### 如何体验 Claude / Gemini 等 AI 工具辅助生命科学研究？
+### 做生命科学研究或文献整理，哪些 AI 工具最顺手？
 
-今日多篇论文（脑 MRI 基础模型、药物结合预测、单细胞扰动分析）都涉及大量文献整理和生物数据分析工作。Claude 和 Gemini 在科研文献梳理、实验方案讨论、数据解读方面表现出色；Consensus 和 Perplexity 则更适合直接检索有循证依据的学术结论。
+今日资讯中涉及大量前沿论文解读，比如 [BioSecBench-Surveillance](https://papers.cool/arxiv/2607.19262) 对 AI 基因组分析能力的系统评测，以及多篇 Nature Aging、Lancet 研究的深度摘要。在处理这类科研文献时，Claude 擅长长文本理解和结构化整理，Consensus 和 Perplexity 则适合快速检索特定研究领域的论文证据。
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
-- 覆盖官方号、镜像、中转额度、多模型组合包和部分科研检索工具
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、Perplexity、Consensus、ChatGPT、Codex、Cursor 等 AI 工具入口
+- 科研场景推荐：Consensus（论文检索）、Perplexity（实时资料整合）、Claude（长文献分析与总结）
 - 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
-访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
+访问 [aivora.cn](https://aivora.cn) 查看完整的 AI 工具服务列表。
