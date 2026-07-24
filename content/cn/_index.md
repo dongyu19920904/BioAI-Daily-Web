@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/7/23
+title: AI生命延续学日报 2026/7/24
 breadcrumbs: false
-next: /2026-07/2026-07-22
+next: /2026-07/2026-07-24
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-AI平台从海量数据中揪出慢性痛新靶点，心脏MRI诊断AUC达0.966，今天的工具进展比较扎实。
-抗衰老药物跨界进罕见病、传染性癌症现身淡水鱼——两个方向都在悄悄打破旧认知。
-长寿科技监管风险正在积累，投资人现在不看合规，以后会很难看。
+Salk研究所发布人类首张全身单细胞表观基因组图谱，86,689个细胞、195亿条数据全部免费开放。
+大脑从中年就开始悄悄"换人"，阿尔茨海默、肌肉衰退、肾损伤的干预靶点今天集中爆发。
+关注衰老和神经退行性疾病的人，这期不能跳过。
 ```
 
 
@@ -29,152 +29,150 @@ AI平台从海量数据中揪出慢性痛新靶点，心脏MRI诊断AUC达0.966�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-淡水鱼里首次发现"传染性癌症"——癌细胞像寄生虫一样在鱼之间传播，颠覆了人类对癌症边界的认知。
+人类首张"全身表观基因组地图"炸了——86,689个细胞同时测量，大脑50岁后居然在悄悄换人。
 
 ### **🔑 3 个关键词**
-#传染性癌症 #衰老生物学 #AI辅助诊断
+#表观基因组图谱 #衰老机制 #神经退行性疾病
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [AI平台揪出慢性疼痛新靶点，全球20%慢性痛患者看到曙光](https://www.news-medical.net/news/20260722/AI-platform-uncovers-promising-target-chronic-pain-treatmen.aspx)**
+**1. [人类首张全身单细胞表观基因组图谱正式发布](https://www.genengnews.com/topics/omics/single-cell-atlas-simultaneously-maps-3d-genome-architecture-and-dna-methylation/)**
 
-全球超过20%的人正在忍受慢性疼痛，镇痛药要么效果有限、要么副作用一堆。现在，一个AI平台从海量生物数据中筛出了一个此前被忽视的潜在靶点，专门针对"中枢致敏"（即神经系统被疼痛信号反复轰炸后变得过度敏感）机制。还在早期，但方向很性感。止痛药研发这条路太难走了，能有AI帮忙找新突破口，已经是好消息。
+同一套实验里，86,689个细胞、16种组织，两层表观遗传信息同时测量——以前这是做不到的事，Salk研究所和Arc研究所联手做到了。更颠覆认知的是：50至75岁之间，大脑里的"常驻免疫卫兵"小胶质细胞，有相当一部分被血液里的单核细胞悄悄替换掉了。教科书上说它们从胚胎期就在那守着，一辈子不换。现在这个结论得改写了。图谱已完全免费开放，还附带了1.95千亿条甲基化测量数据——未来AI训练生命科学模型，这就是最好的弹药库。
 
-![图片](https://www.news-medical.net/image-handler/picture/2019/5/Drug_use_and_prohibited_substances._-_Image_-_Monika_Gruszewicz_A1_b3acfd6d2daf44ecbd36979af20eb378-620x480.jpg)
-
----
-
-**2. [心脏MRI看片AI：5种心脏病诊断准确率最高达96.6%](https://papers.cool/arxiv/2607.20087)**
-
-以前判读心脏MRI需要经验丰富的专科医生盯着屏幕反复看，现在这个AI模型接管了这件事。研究团队微调了三个视觉基础模型，在超过1000名患者数据上验证，心脏淀粉样变（CA）的AUC高达0.966、肥厚型心肌病（HCM）达0.959。模型权重和代码全部开源。对于基层医院，这套工具的意义不言而喻。
+![图片](https://www.genengnews.com/wp-content/uploads/2026/07/260723-pr-ecker-dixon-authors-232x300.jpg)
 
 ---
 
-**3. [抗体设计进化了：AAMFM同时"看"抗体序列和抗原结构](https://papers.cool/arxiv/2607.20057)**
+**2. [研究发现：大脑基因组架构从中年开始悄然重塑](https://www.news-medical.net/news/20260723/Study-reveals-dynamic-remodeling-of-genome-architecture-during-brain-aging.aspx)**
 
-设计一个能精准结合特定抗原的抗体，就像要在茫茫人海中找到灵魂伴侣——难在哪里？难在以前的模型只"认识"抗体自己，不懂抗原长什么样。新模型AAMFM引入跨模态适配器，把抗原的三维界面和表位信息一起塞进建模过程，再用偏好优化微调，让抗体设计直接对准"功能性结合"这个终极目标。制药公司的抗体工程师值得关注。
+不是老了才出问题。研究人员发现，与神经退行性疾病（比如阿尔茨海默症）相关的基因调控变化，早在中年就已经开始悄悄启动。这就好比一栋楼的承重墙，看起来没裂缝，但内部钢筋已经开始锈蚀。这个发现直接解释了一个长期困惑——为什么衰老是神经退行性疾病最大的风险因素：因为问题的种子，几十年前就已经埋下了。
 
----
-
-**4. [Senolytic药物让镰刀型细胞贫血患者的血干细胞"返老还童"](https://www.news-medical.net/news/20260722/Senolytic-drugs-rejuvenate-blood-stem-cells-in-sickle-cell-disease.aspx)**
-
-镰刀型细胞贫血症（一种遗传性血液病）有一个被忽视的问题：它会让血液干细胞提前衰老，让治疗变得更难。圣犹大儿童研究医院的团队发现，Senolytic药物（专门"清除"衰老细胞的药物）能逆转这种早衰状态，让血干细胞重新焕发活力。这为镰刀型贫血治疗开辟了新思路，更大的意义是：抗衰老手段开始跨界进入罕见病领域。
-
-![图片](https://www.news-medical.net/image-handler/picture/2017/1/Red_blood_cells_of_sickle_cell_anaemia_disease_and_normal_cells-extender_01_0d9c43794bdf4739a4b36572e609f2c7-620x480.jpg)
+![图片](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
 
 ---
 
-**5. [纳米孔分子识别+多模态Transformer：42种肽的分类准确率碾压现有方法](https://papers.cool/arxiv/2607.20323)**
+**3. [靶向SORLA蛋白：阿尔茨海默症tau病理的新突破口](https://www.fightaging.org/archives/2026/07/sorla-upregulation-as-a-possible-means-to-treat-tauopathies/)**
 
-纳米孔技术（Nanopore）用极细的孔道检测单个分子，潜力巨大但信号极难解读。这篇论文拿出一个多模态深度学习方案，同时处理原始时序信号、小波图像和统计特征三条"信息流"，在42种多肽的分类任务上比现有最好方法高出10个百分点以上，迁移到20种氨基酸数据集时几乎完美。便携式分子诊断的未来，往前推了一步。
-
----
-
-**6. [胎儿脑MRI重建突破：PRIME-SVR把采集时间从15分钟压到5分钟](https://papers.cool/arxiv/2607.20136)**
-
-给胎儿做脑部MRI本来就是高难度操作——胎儿一直在动，图像会模糊。PRIME-SVR用隐式神经网络同时处理多个回波时间的扫描数据，重建清晰度提升47%，解剖精度提升30%，而且采集时间从15分钟缩短到5分钟（误差控制在2.3%以内）。对于早产儿和高危胎儿的脑发育监测，这是实打实的临床价值。
+阿尔茨海默症的"凶手"之一是tau蛋白——它变形、缠绕成纤维状结构，把神经元一点点扼杀。新研究找到一个叫SORLA的蛋白，在工程化tau病理小鼠身上，提高SORLA表达量能明显延缓神经退行进程：tau磷酸化减少、突触损失减慢、炎症反应降低。基因组关联研究（GWAS）也早已把SORLA相关基因变异和阿尔茨海默症风险挂了钩。从基因关联到动物实验验证，这条路走通了一大半。
 
 ---
 
-**7. [SuperAgers的秘密：80多岁记忆力媲美50岁，基因不是唯一答案](https://www.news-medical.net/news/20260722/SuperAgers-retain-exceptional-memory-through-mechanisms-beyond-genetics.aspx)**
+**4. [衰老大脑里的"垃圾堆"：衰老细胞为何狂囤脂肪滴](https://www.fightaging.org/archives/2026/07/senescent-cells-accumulate-lipid-droplets-in-the-aging-brain/)**
 
-有一群人活到80、90岁，记忆力比很多50多岁的人还好。研究发现，这些"超级老人"（SuperAgers）的秘诀不只是遗传——生活方式、神经炎症控制、特定脑区的结构保护都在起作用。这为阿尔茨海默症预防研究提供了一个全新的参照系：与其研究病人脑子哪里坏了，不如研究这些人的脑子为什么没坏。
-
-![图片](https://www.news-medical.net/image-handler/picture/2016/2/Alzheimers_amyloid_plaque_-_Juan_Gaertner_9638f1223d534b518a192c8478871d65-620x480.jpg)
+老化大脑里有一类"僵尸细胞"——不死、不分裂，但每天往外喷炎症信号，把周围邻居都搞坏。新研究发现，这类细胞还同时在狂囤脂肪滴（lipid droplets）。更关键的是：阿尔茨海默症患者脑部的单细胞分析显示，含脂肪滴的小胶质细胞和衰老的小胶质细胞，可能根本就是同一批。两个此前各自独立研究的"坏家伙"，现在发现是同一个。这为靶向治疗提供了新的合并攻击点。
 
 ---
 
-**8. [长寿经济的监管盲区：一场风险正在悄悄积累](https://longevity.technology/news/regulatory-blind-spots-in-the-longevity-economy/)**
+**5. [找到了！对抗年龄性肌肉衰退的关键分子](https://www.news-medical.net/news/20260724/Researchers-discover-molecule-to-fight-age-related-muscle-decline.aspx)**
 
-长寿科技公司正在狂奔——生物年龄检测、健康数据平台、个性化健康方案，资本汹涌而入。但Wellthspan Advisory的分析指出一个残酷现实：这些公司大多"为速度而生"，数据保护、临床证据、合规架构都是缺失的。2024年美国医疗数据泄露达到历史峰值，欧洲GDPR罚款累计超56亿欧元。监管收紧只是时间问题。投资人该好好审视这些公司的治理结构了。
+人过40岁，骨骼肌就开始走下坡路：力气变小、脂肪入侵、快肌纤维（负责爆发力的那种）一点点消失。研究人员找到了一个可以干预这一过程的关键分子。没有更多AI参与的复杂计算——有时候就是扎扎实实的基础生物学，找到一个靶点，给衰老干预多开一扇门。对关注长寿和健康老龄化的人来说，这条线索值得持续跟踪。
 
-![图片](https://longevity.technology/wp-content/uploads/2026/07/Regulatory-blind-spots-in-the-longevity-economy-1024x683.jpg)
-
----
-
-**9. [Spermidine（亚精胺）与抗衰老：动物实验亮眼，人体试验结果却很纠结](https://www.news-medical.net/news/20260723/Spermidine-boosts-key-cellular-processes-linked-to-aging-in-early-research.aspx)**
-
-亚精胺是一种天然存在于食物中的化合物，研究发现它能激活自噬（细胞的"自我清洁"机制）、改善线粒体功能，动物实验里健康寿命明显延长，流行病学数据也显示膳食摄入量高的人死亡率更低。但人体临床试验结果杂乱、证据不足。补剂厂商早就开始卖了，科学界还没给出定论——这个落差值得警惕。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_843160_17847819446637929.jpg)
+![图片](https://www.news-medical.net/image-handler/picture/2016/5/3d_rendered_illustration_-_molecules-Sebastian_Kaulitzki-2000_3f4ba59f12944a08a08f3d596bed291c-620x480.jpg)
 
 ---
 
-**10. [methylCIPHER：一个R包帮你同时算十几种表观遗传时钟](https://github.com/HigginsChenLab/methylCIPHER)**
+**6. [老年肾脏的"自噬危机"：TFEB或是急性肾损伤的破局关键](https://lifespan.io/more-autophagy-reduces-toxin-induced-kidney-failure-in-mice/)**
 
-表观遗传时钟（Epigenetic Clock）是目前最受关注的生物年龄检测工具之一，但各种算法层出不穷——PC clocks、SystemsAge、CausalAge、DunedinPACE……研究人员以前要自己拼代码。methylCIPHER把这些主流算法全部打包进一个R包，一次调用全搞定。做衰老研究、健康寿命研究的实验室可以直接用起来。
+年轻的肾脏遇到毒素，会自动启动"细胞自我清洁"程序（autophagy，自噬）来修复损伤。老年肾脏呢？这套程序几乎不响应。研究发现，关键原因是TFEB这个蛋白的核转运被抑制了。用一种姜黄素类似物C1激活TFEB后，老年小鼠的肾损伤指标显著下降。急性肾损伤目前无直接治疗手段，老年患者死亡率极高——这个发现或许是第一把真正可用的钥匙。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/07/The-kidney-262x187.png)
+
+---
+
+**7. [持续贫困让大脑老得更快：UCL大规模研究出炉](https://www.news-medical.net/news/20260723/Persistent-financial-hardship-accelerates-age-related-cognitive-decline.aspx)**
+
+伦敦大学学院（UCL）的新研究给了一个残忍的结论：长期经济困难会显著加速认知衰退。不是偶尔拮据，而是持续性的经济压力，才是大脑老化的加速器。从社会决定因素到神经生物学，这个发现提醒我们：健康老龄化不只是基因和药物的战场，经济保障本身就是一种"脑保护"。对AI健康监测和干预模型来说，社会经济数据应该成为标配输入变量。
+
+![图片](https://www.news-medical.net/image-handler/picture/2016/3/Artificially_Colored_MRI_Scan_Of_Human_Brain-Daisy_Daisy_a8c5d8bbbf824bc8932308e30187510f-620x480.jpg)
+
+---
+
+**8. [脑电图（EEG）基础模型MSBraM：多尺度自监督，10项任务全面碾压](https://papers.cool/arxiv/2607.21402)**
+
+大脑的电信号既有毫秒级的局部闪烁，也有跨秒的长程节律。现有的EEG模型要么抓细节、要么看全局，两手都硬的很少。MSBraM用了一套两阶段预训练框架——先把EEG信号在不同时间尺度上"量化编码"，再用课程式多尺度掩码来训练，让模型同时学会看局部和全局。2400小时EEG数据预训练后，在12个公开数据集的10项下游任务上全面超越现有模型。脑机接口、癫痫检测、睡眠分析——都可以直接用这个基础模型起步。
+
+---
+
+**9. [M³-Gen：从病理切片图像"生成"基因表达谱](https://papers.cool/arxiv/2607.21343)**
+
+基因表达数据贵、难拿、有隐私顾虑——这是精准医疗推进路上的一块大石头。M³-Gen想了个绕路的办法：用已有的病理切片图像+临床元数据，通过生成对抗网络（GAN）直接"生成"对应的基因表达谱。在TCGA（癌症基因组图谱）数据集上验证，生成的基因数据在生物学层面是自洽的。更有意思的是，模型还能告诉你：这张切片的哪个区域，对生成哪些基因的表达影响最大。可解释性直接内置，不用事后再解释黑盒。
+
+---
+
+**10. [环状肽属性预测新突破：EnsembleEGNN用"构象集合"取代单一结构](https://papers.cool/arxiv/2607.21561)**
+
+做药物筛选的人都知道一个痛点：分子在溶液里不是固定的一个形状，而是在多种构象之间来回切换。但大多数AI模型只用一个"代表性构象"来预测属性，就像只看一张照片就判断一个人的性格。EnsembleEGNN用等变图神经网络编码每个构象，再用注意力机制把所有构象的信息整合成一个"热力学感知嵌入"。在环状肽数据集上，R²从几乎为零跳到0.538。对AI制药中的分子设计和虚拟筛选，这是一个值得关注的方法论进步。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [Thymulin在老年小鼠中抑制炎症并减缓乳腺肿瘤生长](https://www.news-medical.net/news/20260723/Thymulin-curbs-age-related-inflammation-and-slows-breast-tumors-in-mice.aspx) - 胸腺素肽Thymulin不仅压制了老年慢性炎症，还让免疫检查点疗法（抗PD-L1）在老年小鼠身上重新奏效，老年癌症治疗新思路
+**[研究]** [靶向酸性神经酰胺酶或可改善健康老龄化与长寿](https://www.news-medical.net/news/20260723/Targeting-acid-ceramidase-could-improve-healthy-aging-and-longevity.aspx) — 2050年前85岁以上人口将翻三倍，这个酶的靶向干预或许是健康长寿的新路径
 
-**[研究]** [AI辅助LIMS系统FMRP-LEAN：让临床实验室工作流符合HIPAA合规标准](https://papers.cool/arxiv/2607.20382) - 把AI嵌进实验室信息管理系统，自动化质控、状态追踪、数据治理，尤其适合多天周期的生物标志物检测流程
+**[研究]** [细胞间局部耦合足以驱动长程钙信号传播](https://papers.cool/arxiv/2607.21442) — 推翻经典IP3扩散模型，局部细胞耦合也能产生跨组织的钙波——对理解器官协调机制有深远影响
 
-**[研究]** [频繁看电视与大脑白质病变体积增加相关](https://www.news-medical.net/news/20260722/Frequent-TV-watching-links-to-higher-white-matter-lesion-volume.aspx) - 中年久坐看电视，24年后大脑扫描结果更差；而职业性久坐反而关联更低的病变体积，生活方式因素对脑健康影响比想象中复杂
+**[开源]** [Brain-Age-Prediction-Using-ANN（GitHub项目）](https://github.com/Sameekshagithub/Brain-Age-Prediction-Using-Artificial-Neural-Network-ANN-) — 基于MRI特征预测生物脑龄的TensorFlow/Keras实现，适合入门学习AI+神经科学方向
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [淡水鱼里发现"传染性癌症"，癌细胞像寄生虫一样从鱼传鱼](https://www.genengnews.com/topics/cancer/transmissible-cancer-discovered-in-freshwater-fish/)
+### [AI助手管太多了？论文实锤：它们比人类老师更爱"越俎代庖"](https://papers.cool/arxiv/2607.21306)
 
-整条新闻最离谱的细节：科学家最开始以为这是病毒感染，结果查基因发现——不对，这是癌细胞在鱼之间直接传染！全球已知的传染性癌症加上这个才四种，前三个是塔斯马尼亚恶魔的面部肿瘤、狗的性病肿瘤、蛤蜊白血病……现在鱼也中招了。研究者说："也许传染性癌症并不罕见，只是我们从来没认真找过。" 😅 这句话细品，有点毛骨悚然。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/07/Newport-fish-dissection-with-Julie-Dragon-24-of-58-300x200.jpeg)
+研究者设计了一个模拟课堂：让AI当"老师"，看着学生解题，观察它啥时候开口干预。结论出来，有点笑又有点尬——AI比人类老师更早开口、更频繁打断，而且一插嘴就直接给答案，不是点拨，是代劳。网友锐评："AI：你的解题过程太慢了，我替你做。" 😂 如果你曾经问AI一个问题，结果它给你写了500字的完整解答……现在你知道原因了。
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### AI心脏影像诊断工具进入临床试点
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：72%
-- **预测依据**：今日论文[心脏MRI AI诊断模型](https://papers.cool/arxiv/2607.20087)在1000+患者上验证AUC达0.96，代码已开源 + 近期多家医院已开始引入AI影像辅助读片系统，开源模型降低了部署门槛
-
-### 抗衰老药物（Senolytic类）扩展适应症临床试验启动
-- **预测时间**：2026年Q3
-- **预测概率**：65%
-- **预测依据**：今日研究[Senolytic药物逆转血干细胞早衰](https://www.news-medical.net/news/20260722/Senolytic-drugs-rejuvenate-blood-stem-cells-in-sickle-cell-disease.aspx)展示跨领域潜力 + 多家抗衰老公司已布局Senolytic管线，罕见病和血液病成为新的切入点
-
-### 长寿科技行业迎来首批重大监管处罚或合规要求
+### 全身表观基因组图谱推动AI疾病变异解读工具爆发
 - **预测时间**：2026年Q4
-- **预测概率**：58%
-- **预测依据**：今日分析[长寿经济的监管盲区](https://longevity.technology/news/regulatory-blind-spots-in-the-longevity-economy/)详述风险积累 + 欧美监管机构对健康数据的执法力度持续升级，生物年龄检测平台是高风险靶点
+- **预测概率**：75%
+- **预测依据**：今日新闻 [单细胞图谱同时测量3D基因组架构与DNA甲基化](https://www.genengnews.com/topics/omics/single-cell-atlas-simultaneously-maps-3d-genome-architecture-and-dna-methylation/) + 图谱免费开放了195亿条甲基化数据，这是AI模型训练非编码区变异功能影响的理想标注数据集，多个计算生物学团队将在半年内推出基于此图谱的功能注释模型。
 
-### AI抗体设计工具进入制药公司工作流
-- **预测时间**：2026年Q3
-- **预测概率**：60%
-- **预测依据**：今日论文[AAMFM抗体多模态基础模型](https://papers.cool/arxiv/2607.20057)开源 + 多个制药巨头已公开AI抗体工程合作计划，开源基础模型加速了商业化落地节奏
+### EEG基础模型加速脑机接口临床应用落地
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：65%
+- **预测依据**：今日论文 [MSBraM多尺度EEG基础模型](https://papers.cool/arxiv/2607.21402) 在12个数据集上全面超越现有方法 + 脑机接口赛道在2026年融资持续升温，高泛化性基础模型是落地癫痫监测和运动康复设备的关键瓶颈，有望率先被产业方采用。
+
+### SORLA/TFEB等衰老干预靶点进入IND申报阶段
+- **预测时间**：2026年Q4至2027年Q1
+- **预测概率**：55%
+- **预测依据**：今日新闻 [SORLA上调对抗tau病理](https://www.fightaging.org/archives/2026/07/sorla-upregulation-as-a-possible-means-to-treat-tauopathies/) + [TFEB激活改善急性肾损伤](https://lifespan.io/more-autophagy-reduces-toxin-induced-kidney-failure-in-mice/) + 2026年衰老相关靶点从基础研究向转化研究节奏明显加快，已有多家长寿赛道公司公开表示关注自噬和tau病理靶点。
+
+### 经济健康数据纳入AI健康风险模型成行业标准
+- **预测时间**：2026年Q4
+- **预测概率**：50%
+- **预测依据**：今日研究 [持续经济困难加速认知衰退](https://www.news-medical.net/news/20260723/Persistent-financial-hardship-accelerates-age-related-cognitive-decline.aspx) + 健康科技公司正在将社会决定因素（SDoH）纳入风险分层模型，监管机构也开始要求健康AI工具考虑人口公平性，这类数据整合有望在年底前成为主流数据资产商的标配。
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI制药、衰老生物学、医学影像AI 的最新资讯？
+### 哪里可以获取AI+衰老/神经退行性疾病/表观基因组学的最新资讯？
 
-今日 AI 生命科学领域的热点包括：AI平台发现慢性痛新靶点、心脏MRI AI诊断AUC突破0.96、Senolytic药物逆转血干细胞衰老。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日AI生命科学领域的热点包括：人类首张全身单细胞表观基因组图谱发布、SORLA蛋白对抗阿尔茨海默tau病理的新突破、以及大脑基因组架构从中年就开始重塑的重要发现。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
-- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- 内容涵盖：AI制药、蛋白质设计、基因编辑、医学影像AI、生物大模型、衰老与长寿研究等
+- 专为对BioAI感兴趣的投资人、产品经理、创业者、学生打造
 - 用普通人能理解的语言，解读最前沿的技术进展
 
 访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
 
 ---
 
-### 如何用 AI 工具辅助生命科学文献检索和科研整理？
+### 如何体验适合生命科学研究和论文检索的AI工具？
 
-今日多篇论文涉及抗体设计、MRI重建、表观遗传时钟等前沿方向，文献量大、专业度高，手动整理效率极低。想高效消化这类论文和行业动态？
+今日资讯横跨表观基因组学、神经退行性疾病、长寿研究等多个专业领域——如果你想深入研究这些方向，需要高效处理英文文献、理解复杂论文，Claude和Gemini是理解长文档的利器，Consensus和Perplexity则专为科研文献检索设计，Codex适合处理生物信息分析代码。面临海外支付或账号注册困难？
 
 **解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、Perplexity、Consensus 等适合科研检索和资料整理的 AI 工具入口
-- Consensus 专为学术论文检索设计，Perplexity 擅长实时信息聚合，Claude / Gemini 适合长文本理解和摘要提炼
-- 覆盖官方号、中转额度、多模型组合包，官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
+- 覆盖官方号、镜像、中转额度、多模型组合包和科研检索工具
+- 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
 
 访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。
