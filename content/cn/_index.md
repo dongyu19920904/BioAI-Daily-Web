@@ -2,7 +2,7 @@
 linkTitle: AI生命延续学日报
 title: AI生命延续学日报 2026/7/29
 breadcrumbs: false
-next: /2026-07/2026-07-29
+next: /2026-07/2026-07-28
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
