@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-08-03T00:00:00+08:00",
+  "project": "BioAI-Daily-Web",
+  "framework": "Hugo with Hextra theme",
+  "styling": "Hextra utilities plus assets/css/custom.css",
+  "componentStrategy": "Existing Hugo layouts and partials",
+  "motionLibrary": "none",
+  "genre": "editorial",
+  "macrostructure": "Long Document",
+  "theme": "Newsprint",
+  "enrichment": "none",
+  "boundaries": "Preserve Hextra navigation and footer; scope Project 01 changes to the ordinary-daily reading surface and shared factual metadata."
+}

@@ -1,15 +1,28 @@
 {{- $pages := slice -}}
 {{- range .Site.RegularPages -}}
   {{- $base := .File.BaseFileName -}}
-  {{- $dir := .File.Dir -}}
-  {{- if and (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" $base) (findRE "^[0-9]{4}-[0-9]{2}/$" $dir) -}}
+  {{- if and
+    (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" $base)
+    (ne .Section "opportunity")
+    (ne .Section "project-opportunity")
+  -}}
     {{- $pages = $pages | append . -}}
   {{- end -}}
 {{- end -}}
-{{- $latest := first 1 (sort $pages "File.Path" "desc") -}}
+{{- $latest := first 1 (sort $pages "Date" "desc") -}}
 {{- if gt (len $latest) 0 -}}
   {{- $page := index $latest 0 -}}
-  {{- $page.Content -}}
+  <article class="latest-daily-card">
+    <p class="latest-daily-label">最新一期 · {{ $page.Date.Format "2006/01/02" }}</p>
+    <h2><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h2>
+    <p>{{ $page.Description | default "查看今日结论、证据概览与重要研究信号。" }}</p>
+    <dl class="latest-evidence-guide">
+      <div><dt>高</dt><dd>较强人体证据或高质量证据汇总</dd></div>
+      <div><dt>中</dt><dd>有价值的人体研究，但仍有设计或样本限制</dd></div>
+      <div><dt>初步</dt><dd>动物、细胞、预印本、小样本或早期探索</dd></div>
+    </dl>
+    <a class="latest-daily-link" href="{{ $page.RelPermalink }}">阅读完整日报 <span aria-hidden="true">→</span></a>
+  </article>
 {{- else -}}
-  <p>Latest daily not found.</p>
+  <p>暂未找到已发布的日报。</p>
 {{- end -}}

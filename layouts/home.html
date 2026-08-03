@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <div class="hx:mx-auto hx:flex hextra-max-page-width">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    {{ partial "toc.html" . }}
+    <article class="editorial-home hx:w-full hx:min-w-0 hx:pb-12">
+      <main class="hx:mx-auto hx:w-full hx:max-w-5xl hx:px-5 hx:pt-8 hx:md:px-12">
+        <header class="editorial-home-header">
+          <p class="editorial-kicker">Longevity Research Desk</p>
+          <h1>{{ .Title }}</h1>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </header>
+        <div class="content editorial-content editorial-home-content">
+          {{ .Content }}
+        </div>
+      </main>
+    </article>
+  </div>
+{{ end }}

@@ -1,0 +1,77 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    {{ partial "toc.html" . }}
+    <article class="editorial-article hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx:w-full hx:min-w-0 hx:max-w-5xl hx:px-5 hx:pt-6 hx:md:px-12">
+        {{ partial "breadcrumb.html" (dict "page" . "enable" false) }}
+        <header class="editorial-header">
+          <p class="editorial-kicker">{{ if eq .Section "opportunity" }}商机观察{{ else if eq .Section "project-opportunity" }}项目跟踪{{ else }}每日证据简报{{ end }}</p>
+          {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
+          <div class="editorial-meta">
+            <span>编辑：{{ .Params.editor | default .Params.author | default .Site.Params.author.name }}</span>
+            {{ if not .Date.IsZero }}
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">发布：{{ .Date.Format "2006/01/02" }}</time>
+            {{ end }}
+            <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">更新：{{ .Lastmod.Format "2006/01/02 15:04" }}</time>
+          </div>
+          {{ if and (ne .Section "opportunity") (ne .Section "project-opportunity") }}
+            <div class="editorial-note" role="note">
+              <strong>阅读方法</strong>：先看证据等级和“目前不能得出什么结论”。初步证据不等于无价值，也不等于已经可用于人体。
+            </div>
+          {{ end }}
+        </header>
+        <div class="content editorial-content">
+          {{ .Content }}
+        </div>
+        {{ if eq .Section "opportunity" }}
+          {{ partial "custom/ai-info-project-entry.html" . }}
+        {{ else if eq .Section "project-opportunity" }}
+          {{ partial "custom/ai-opportunity-entry.html" . }}
+        {{ end }}
+
+        <aside class="editorial-disclaimer" aria-label="健康信息免责声明">
+          本站用于研究信息整理和教育，不提供诊断、治疗、用药或个体化健康建议。涉及健康决策时，请结合原始来源并咨询合格专业人士。
+        </aside>
+
+        <div class="hx:mt-8 hx:flex hx:flex-col hx:gap-3 hx:sm:flex-row hx:sm:justify-between">
+          {{ with .PrevInSection }}
+            <a class="hx:rounded-xl hx:border hx:border-gray-200/70 hx:bg-white/60 hx:px-4 hx:py-3 hx:text-sm hx:transition hover:hx:border-primary-300 hover:hx:shadow-sm hx:dark:border-neutral-800 hx:dark:bg-neutral-900/60" href="{{ .RelPermalink }}">
+              <div class="hx:text-xs hx:text-gray-500">上一期</div>
+              <div class="hx:mt-1 hx:font-semibold">{{ .Title }}</div>
+            </a>
+          {{ end }}
+          {{ with .NextInSection }}
+            <a class="hx:rounded-xl hx:border hx:border-gray-200/70 hx:bg-white/60 hx:px-4 hx:py-3 hx:text-sm hx:transition hover:hx:border-primary-300 hover:hx:shadow-sm hx:dark:border-neutral-800 hx:dark:bg-neutral-900/60 hx:sm:text-right" href="{{ .RelPermalink }}">
+              <div class="hx:text-xs hx:text-gray-500">下一期</div>
+              <div class="hx:mt-1 hx:font-semibold">{{ .Title }}</div>
+            </a>
+          {{ end }}
+        </div>
+
+        {{ $related := where (where site.RegularPages "Section" .Section) "RelPermalink" "ne" .RelPermalink }}
+        {{ $related = first 3 $related }}
+        {{ if gt (len $related) 0 }}
+          <div class="hx:mt-8 hx:rounded-xl hx:border hx:border-gray-200/70 hx:bg-white/60 hx:p-4 hx:dark:border-neutral-800 hx:dark:bg-neutral-900/40">
+            <div class="hx:flex hx:items-center hx:justify-between hx:gap-2">
+              <h2 class="hx:text-base hx:font-semibold">推荐阅读</h2>
+              <a class="hx:text-sm hx:text-gray-600 hover:hx:text-primary-600" href="{{ "/" | relLangURL }}">更多日报 →</a>
+            </div>
+            <ul class="hx:mt-3 hx:grid hx:gap-3 hx:md:grid-cols-3">
+              {{ range $related }}
+                <li class="hx:rounded-lg hx:border hx:border-gray-200/70 hx:bg-white hx:p-3 hx:transition hover:hx:border-primary-300 hover:hx:shadow-sm hx:dark:border-neutral-800 hx:dark:bg-neutral-900/60">
+                  <a class="hx:block" href="{{ .RelPermalink }}">
+                    <div class="hx:text-xs hx:text-gray-500">{{ .Date.Format "2006/01/02" }}</div>
+                    <div class="hx:mt-1 hx:text-sm hx:font-semibold">{{ .Title }}</div>
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+        <div class="hx:mt-16"></div>
+        {{ partial "components/comments.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}

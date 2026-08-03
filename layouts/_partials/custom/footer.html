@@ -7,9 +7,9 @@
     <div class="footer-container">
         <ul class="footer-links">
             <li><a href="/about">关于</a></li>
-            <li><a href="https://yuyu.aivora.cn" target="_blank" rel="noopener">个人主页</a></li>
-            <li><a href="https://news.aivora.cn" target="_blank" rel="noopener">AI 日报</a></li>
             <li><a href="{{ "/" | relLangURL }}">日报首页</a></li>
+            <li><a href="{{ "/opportunity/" | relLangURL }}">商机日报</a></li>
+            <li><a href="{{ "/project-opportunity/" | relLangURL }}">项目跟踪</a></li>
             <li><a href="{{ "/tags" | relLangURL }}">标签</a></li>
             {{- $pages := slice
                 (dict "id" "contact" "title" "联系我们")
