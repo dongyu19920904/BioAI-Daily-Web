@@ -1,27 +1,178 @@
 ---
-linkTitle: AI 生命延续学日报
-title: AI生命延续学日报
+linkTitle: AI生命延续学日报
+title: AI生命延续学日报 2026/8/3
 breadcrumbs: false
-layout: home
-type: home
-description: "每日精选 AI、衰老研究与健康寿命的重要信号，说明证据强弱、现实意义和结论边界。"
+next: /2026-08/2026-08-03
+description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
-next: /2026-08/2026-08-03
 ---
 
-## 今天值得知道什么
+## **今日摘要**
 
-这里不追求塞满资讯。每期只保留最值得跟踪的 5–8 个信号；当可靠来源不足时，宁可少发，也不以二手转述和推测凑数。
+```
+Receptor.AI 与 Sethera 搭起 AI 闭环药物发现系统，每轮实验结果直接喂回模型迭代。
+鼻腔喷药就能冲洗大脑垃圾，老鼠实验成功了，一个低成本抗阿尔茨海默症方向浮出水面。
+今天神经退行+AI制药两条线同步有料，关注衰老赛道的人今天值得多看两眼。
+```
 
-{{< latest-daily >}}
 
-## 如何阅读证据等级
 
-- **高**：通常来自质量较高的一手人体研究或系统证据，仍不等于医疗建议。
-- **中**：有人体数据或较完整验证，但研究设计、样本或外部验证仍有限。
-- **初步**：预印本、动物/细胞研究、项目演示、新闻稿或信息不完整的线索。
+## ⚡ 快速导航
 
-## 历史日报
+- [📰 今日 AI 资讯](#今日ai资讯) - 最新动态速览
 
-可通过左侧月份目录或站内搜索查找历史日报、论文标题、项目名和中英文关键词。
+
+
+> 💡 **提示**：想体验文中提到的 GPT、Claude、Gemini、Codex、Cursor、Grok 等工具，但不想折腾海外支付、注册、额度和教程？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 按场景选择官方号、镜像、Cursor 方案或中转入口，官网自助下单，卡密秒发。
+
+## **今日 AI 生命科学资讯**
+
+### **👀 只有一句话**
+大脑垃圾清除的秘密通道被找到了——它会随年龄老化，但可以被修复。
+
+### **🔑 3 个关键词**
+#AI制药 #衰老与神经退行 #闭环药物发现
+
+---
+
+## **🔥 重磅 TOP 10**
+
+**1. [Receptor.AI × Sethera：AI驱动的"闭环"药物发现，专攻难搞靶点](https://www.genengnews.com/topics/drug-discovery/receptor-ai-and-sethera-plan-to-create-a-closed-loop-discovery-and-optimization-workflow-for-difficult-therapeutic-targets/)**
+
+做药最头疼的不是找不到苗头，而是筛出来的化合物一轮轮优化后还是没用。Receptor.AI 和 Sethera 的合作直接对准这个痛点——Sethera 的多大环肽库（一种结构复杂、天然难以合成的化合物家族）提供实验素材，Receptor.AI 的物理建模 + AI 负责读懂"为什么有效"、"下一步改哪里"。每一轮实验结果都喂回模型，循环迭代，像一台自我学习的设计机器。首个项目锁定一个目前没有好办法的"难成药靶点"。如果流程跑通，后续还会开放给大药企合作。AI 制药正在从"预测一下"升级成"一直学习的闭环系统"。
+
+![图片](https://www.genengnews.com/wp-content/uploads/2026/08/Alan-300x300.png)
+
+---
+
+**2. [大脑里的秘密"排污口"：老化的淋巴引流通道，鼻腔给药可修复](https://www.fightaging.org/archives/2026/08/the-cribriform-plate-path-for-cerebrospinal-fluid-drainage-also-has-a-glymphatic-system/)**
+
+阿尔茨海默症为什么从嗅觉区域开始？研究人员在这里发现了答案的一部分。大脑里的废物（蛋白质垃圾、代谢产物）靠脑脊液冲走，而冲走这些废物需要走一条穿过"筛骨板"（鼻腔正上方的骨头）的引流通道。科学家新发现了这条通路上遍布 2-12 微米的微孔，命名为"蛛网膜孔窗"——这些小孔会随年龄减少，废物就开始积压。更有意思的是：他们通过鼻腔直接给药（VEGF-C，一种促进淋巴血管生长的信号分子），绕开了刺穿脑膜的高风险操作，成功在老年小鼠身上把引流恢复到了年轻水平。跨物种验证也在猴子身上找到了同样的结构。不需要开颅，一瓶鼻喷或许就能清洗大脑。
+
+---
+
+**3. [AI辅助早期阿尔茨海默症诊断：一段音频，推断出你的认知轨迹](https://papers.cool/arxiv/2607.29530)**
+
+去医院做认知测试，往往要等专科医生、做笔录、人工分析——门槛高、规模小、还很主观。这项研究换了个思路：直接让 AI 听"言语流利性测试"的音频（就是让你说说动物名字，或者以某个字母开头的词），然后提取语言学特征，用贝叶斯网络（一种能推断因果关系的概率模型）构建认知标志物之间的关联图谱。系统不仅还原了临床已知的知识，还找到了一些新的语言-认知关系。对于偏远地区、初筛场景、大规模人群筛查来说，一段手机录音就能初步评估风险，这个方向很值得期待。
+
+---
+
+**4. [SeekBrain：能自主设计分析流程的神经科学 AI 智能体](https://papers.cool/arxiv/2607.29347)**
+
+神经科学研究者最头疼的不是数据少，而是数据太杂——行为、电信号、解剖图、基因表达，来自不同设备、不同格式、不同物种。SeekBrain 是一个多智能体框架，它能从论文-代码对里自动提取分析方法，动态生成假设和分析流水线，相当于一个"会看文献、会写代码、会自己做实验"的虚拟研究助理。在专家标注的神经科学基准测试上，它大幅超越现有 AI 智能体。实际部署时，它整合了斑马鱼行为数据和神经数据，发现了分布式神经表征的结构规律。这类工具一旦成熟，神经科学的研究效率会发生质变。
+
+---
+
+**5. [隐式机器学习力场：分子模拟速度提升2-5倍，内存占用同步缩减](https://papers.cool/arxiv/2607.29158)**
+
+做药物分子模拟，最大的瓶颈之一就是算力——一个蛋白质-分子复合体的运动轨迹，算起来既耗时又烧钱。这篇论文提出的"隐式机器学习力场"（I-MLFFs）用了一个聪明的技巧：让模型在相邻时间步之间复用中间计算结果，不用每次都从头算，相当于"暖启动"。结果是在三种主流图神经网络架构上，都实现了 2-5 倍的计算和内存缩减，同时保持了量子力学级别的精度。对 AI 制药、材料设计、蛋白质动力学研究来说，同样的 GPU 预算能跑更长的轨迹、更大的体系，直接拓宽了研究边界。
+
+---
+
+**6. [肠道菌群改变或早于阿尔茨海默症症状出现](https://www.news-medical.net/news/20260803/Gut-microbiome-shifts-may-begin-before-Alzheimers-symptoms-appear.aspx)**
+
+还没有忘记名字、还没有迷路，但肠道已经开始悄悄"报警"了？一项叙述性综述发现，产短链脂肪酸（SCFA，一类对大脑神经保护有益的代谢物）的肠道菌群在阿尔茨海默症患者中显著减少，而且这种变化可能在认知症状出现之前就已经发生了。地中海饮食、MIND 饮食（两者都强调蔬菜、全谷物、鱼类）与更健康的菌群结构相关。虽然菌群-大脑-淀粉样蛋白斑块的直接因果链还没有被证实，但这给了"肠道是早期预警器"这个方向更多的支撑。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_843887_1785730880779786.jpg)
+
+---
+
+**7. [衰老椎间盘的性别差异：同一种抗衰老药，男鼠有效、雌鼠没反应](https://www.fightaging.org/archives/2026/08/differences-by-sex-observed-in-bcl-2-bcl-xl-senolytic-treatment-for-intervertebral-disc-degeneration/)**
+
+腰椎间盘退化是中老年人的常见困扰，研究者用了一种新型"清衰老细胞"药物（PROTAC 753b，靶向 BCL-2/BCL-xL 蛋白，诱导衰老细胞自我消亡）来测试能否减缓退化。结果很出乎意料：老年雄鼠的椎间盘病变更严重，治疗后改善也更明显——炎症标志物下降、基质降解减少；雌鼠同样有衰老细胞积累，但这个药对她们几乎没有效果。这说明衰老在不同性别里的"作用机制"可能根本不一样。对衰老研究来说，这是一个提醒：药在雄鼠身上管用，不代表它对所有人都有效。
+
+---
+
+**8. [皮质醇模式追踪认知衰退，但预测不了阿尔茨海默症](https://www.news-medical.net/news/20260802/Daytime-cortisol-patterns-track-cognitive-decline-but-not-Alzheimers-disease-risk.aspx)**
+
+压力激素皮质醇（cortisol）和大脑老化有关系，但关系并不简单。一项纳入 3,895 名老年人的研究发现：白天皮质醇波动适中的人，认知功能更好、衰退更慢；每日皮质醇总量最高的人，认知更差、衰退更快。但关键在于：皮质醇模式不能预测谁会得阿尔茨海默症。也就是说，皮质醇是认知衰退的伴随指标，而不是病因标志。对于想用激素数据做早筛的团队来说，这个结论值得注意——别把"相关"当"预测"。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_843879_17857242581627991.jpg)
+
+---
+
+**9. [PhenoAge2 生物年龄计算器：开源上线，血液指标估算你的真实年龄](https://github.com/surendranb/PhenoAge2-biological-age-calculator)**
+
+你的户籍年龄是 40 岁，但你的生物年龄可能是 35 或 48——PhenoAge2 算法就是用来测这个的。这个开源项目基于 PhenoAge2 算法，通过常规血液检测指标（如白细胞计数、白蛋白、肌酐等，都是体检常见项目）来估算生物年龄。对于做衰老研究、健康管理产品、抗衰干预评估的人来说，这是一个可以直接拿来用的工具。代码已开源，有动手能力的读者今天就能跑起来。
+
+---
+
+**10. [脑电 EEG + AI：计算大脑老化指数的端到端流水线](https://github.com/sidcodes37/Brain_Aging_CCS)**
+
+在印度顶级神经科学研究机构 NIMHANS（国家精神健康与神经科学研究所）的意识研究中心，研究者开源了一套基于 EEG（脑电图）的"大脑老化指数"计算流水线。整个流程从原始脑电信号到最终的衰老评分，端到端自动化完成。EEG 设备门槛低、无创、可穿戴——如果这个框架被验证，有望成为认知衰老的低成本监测工具，尤其适合临床资源有限的地区。目前仍是早期项目，感兴趣的研究者可以跟进。
+
+---
+
+## **📌 值得关注**
+
+**[研究]** [大脑网络结构如何决定它"擅长"哪类计算](https://papers.cool/arxiv/2607.29537) — 用控制论框架量化神经网络的"计算代价"，感觉网络更专一，联合网络更通用，为脑机接口设计提供了理论依据
+
+**[研究]** [日本传统草药 Bofutsushosan 或可减缓老化相关组织纤维化](https://www.news-medical.net/news/20260802/Traditional-Japanese-medicine-for-obesity-may-help-reduce-age-related-tissue-fibrosis.aspx) — 大阪大学 + 小林制药联合研究，发现一款减肥草药可能还能对抗器官老化变硬，抗衰老药物的新线索
+
+**[商业]** [Capricor 细胞疗法 Deramiocel 遭 FDA 顾问委 9-3 否决，股价单周暴跌 80%](https://www.genengnews.com/topics/translational-medicine/stockwatch-capricor-plunges-as-fda-panel-staff-question-effectiveness-of-lead-candidate-deramiocel/) — 杜氏肌营养不良症患者的希望再次受挫，统计方案争议成为致命伤，FDA 最终裁定日期 8 月 22 日
+
+**[研究]** [AI 设计聚酰亚胺材料：UniPolymer 预测玻璃化转变温度，R²=0.93](https://papers.cool/arxiv/2607.29256) — 材料科学 + AI 的交叉，候选结构通过率 73.79%，减少无效实验，生物材料设计可借鉴此思路
+
+**[研究]** [持续经济困难与中年记忆力、处理速度下降相关](https://www.news-medical.net/news/20260802/Persistent-financial-hardship-tracks-with-poorer-memory-and-processing-speed-by-midlife.aspx) — 英国出生队列追踪研究，贫困压力对大脑的长期伤害不亚于基因风险，APOE-ε4 携带者尤为脆弱
+
+---
+
+## **😄 AI生命科学趣闻**
+
+### [雄鼠减负成功，雌鼠纹丝不动——同一颗"清衰老细胞"药，性别不同结果天差地别](https://www.fightaging.org/archives/2026/08/differences-by-sex-observed-in-bcl-2-bcl-xl-senolytic-treatment-for-intervertebral-disc-degeneration/)
+
+研究者原本信心满满地给老年小鼠打了这款"清除衰老细胞"的药，结果雄鼠：炎症下降、腰椎改善、研究者笑了。雌鼠：……啥也没发生。论文结论写得相当克制，但潜台词很清楚：我们对衰老的理解还停留在"雄性版本"。下次有人说"某某抗衰成分有效"，不妨先问一句：在谁身上测的？ 😅
+
+---
+
+## **🔮 AI生命科学趋势预测**
+
+### 鼻腔给药恢复脑脊液引流进入临床前验证
+- **预测时间**：2026年Q4
+- **预测概率**：70%
+- **预测依据**：今日新闻[鼻腔 VEGF-C 恢复老年小鼠脑脊液引流](https://www.fightaging.org/archives/2026/08/the-cribriform-plate-path-for-cerebrospinal-fluid-drainage-also-has-a-glymphatic-system/) + Leucadia Therapeutics 等公司已在推进筛骨板相关干预，该领域正在快速从机制研究转向可行干预
+
+### 肠道菌群作为阿尔茨海默症早筛生物标志物的大规模验证研究启动
+- **预测时间**：2026年Q4
+- **预测概率**：65%
+- **预测依据**：今日新闻[肠道菌群改变或早于阿尔茨海默症症状出现](https://www.news-medical.net/news/20260803/Gut-microbiome-shifts-may-begin-before-Alzheimers-symptoms-appear.aspx) + 近期多个生物标志物早筛项目获得资助，菌群检测成本持续下降，临床转化时机成熟
+
+### AI闭环药物发现合作进一步扩散至多家大药企
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：75%
+- **预测依据**：今日新闻[Receptor.AI × Sethera 闭环药物发现合作](https://www.genengnews.com/topics/drug-discovery/receptor-ai-and-sethera-plan-to-create-a-closed-loop-discovery-and-optimization-workflow-for-difficult-therapeutic-targets/) + "设计-合成-测试-学习"闭环模式已成为 AI 制药的共识架构，多家平台公司正主动寻找药企合作，协议签署速度加快
+
+### 抗衰老疗法性别差异研究成为独立研究方向
+- **预测时间**：2026年Q4
+- **预测概率**：60%
+- **预测依据**：今日新闻[椎间盘衰老治疗的性别差异](https://www.fightaging.org/archives/2026/08/differences-by-sex-observed-in-bcl-2-bcl-xl-senolytic-treatment-for-intervertebral-disc-degeneration/) + 近年来多项衰老干预研究出现性别差异，NIH 等机构开始要求临床前研究纳入双性别验证，专项资助可能随之启动
+
+---
+
+## **❓ 相关问题**
+
+### 哪里可以获取 AI 制药、神经退行疾病早筛、脑脊液与衰老研究的最新资讯？
+
+今天 AI 生命科学领域的热点集中在三个方向：AI 驱动的闭环药物发现（Receptor.AI × Sethera）、大脑废物清除通路的新发现与可能的干预手段，以及肠道菌群/皮质醇等生物标志物在阿尔茨海默症早筛中的潜力。想要持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+
+**推荐方案**：
+- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
+- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、生物大模型等
+- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
+- 用普通人能理解的语言，解读最前沿的技术进展
+
+访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
+
+---
+
+### 如何体验 Claude 或 Gemini 来辅助神经科学、衰老研究的文献整理？
+
+今天涉及的多项研究——从脑脊液引流机制到 EEG 大脑老化指数、从肠道菌群综述到 SeekBrain 多智能体框架——都属于文献密集、需要跨领域理解的方向。Claude 和 Gemini 的长上下文能力特别适合同时处理多篇论文、提炼关键假设；Consensus 则能直接检索学术数据库，给出带引用来源的研究结论。想体验这些工具但遇到支付或注册问题？
+
+**解决方案**：
+- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude 中转、Gemini 年卡、Consensus、Perplexity 等科研友好型 AI 工具入口
+- 覆盖官方号、中转额度、多模型组合包，适合研究者和从业者日常使用
+- 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
+
+访问 [aivora.cn](https://aivora.cn) 可查看完整的 AI 账号服务列表。

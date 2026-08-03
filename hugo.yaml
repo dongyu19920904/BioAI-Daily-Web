@@ -42,6 +42,14 @@ menu:
       name: AI生命延续学资讯商机项目
       pageRef: /project-opportunity
       weight: 1.6
+    - identifier: personal-home
+      name: 个人主页
+      weight: 2
+      url: "https://yuyu.aivora.cn"
+    - identifier: ai-daily
+      name: AI 日报
+      weight: 2.5
+      url: "https://news.aivora.cn"
     - identifier: about
       name: 关于
       pageRef: /about
@@ -49,22 +57,16 @@ menu:
 
 params:
   la51Id: "3OeesViIrmuFMAz4"
-  description: 每日筛选 AI 与衰老、健康寿命研究的重要信号，说明证据强弱、现实意义与尚不能得出的结论。
-  descriptionEn: A daily, evidence-aware briefing on AI, aging research, and healthy longevity, with clear limits on what each study can support.
+  description: 每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。
+  descriptionEn: Daily AI + longevity news and insights, tracking aging biology, rejuvenation, biological age, lifespan interventions, and related tools and models.
   navbar:
     displayLogo: false
     displayTitle: true
 
   author:
-    type: Organization
-    name: "AI 生命延续学编辑部"
-    website: "https://news.aibioo.cn/about/"
-
-  publisher:
-    type: Organization
-    name: "AI 生命延续学日报"
-    url: "https://news.aibioo.cn/"
-    logo: "/images/logo.png"
+    name: "AI Longevity Daily"
+    bio: "AI + 长寿 / 衰老 每日资讯"
+    email: "justlikemaki@qq.com"
 
   displayUpdatedDate: true
   dateFormat: "2006/01/02 15:04:05"
