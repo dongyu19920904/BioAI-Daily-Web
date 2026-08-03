@@ -912,6 +912,11 @@ html.dark .latest-section-surface__intro {
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
   {{- $published := .Date -}}
   {{- if not .PublishDate.IsZero -}}{{- $published = .PublishDate -}}{{- end -}}
+  {{- if and $published.IsZero .File -}}
+    {{- with findRE `\d{4}-\d{2}-\d{2}` .File.ContentBaseName -}}{{- $published = time.AsTime (index . 0) -}}{{- end -}}
+  {{- end -}}
+  {{- $modified := .Lastmod -}}
+  {{- if $modified.IsZero -}}{{- $modified = $published -}}{{- end -}}
   {{- $description := .Description | default .Summary | default .Site.Params.description -}}
   {{- $article := dict
     "@type" "BlogPosting"
@@ -930,8 +935,8 @@ html.dark .latest-section-surface__intro {
   {{- if not $published.IsZero -}}
     {{- $article = merge $article (dict "datePublished" ($published.Format $iso8601)) -}}
   {{- end -}}
-  {{- if not .Lastmod.IsZero -}}
-    {{- $article = merge $article (dict "dateModified" (.Lastmod.Format $iso8601)) -}}
+  {{- if not $modified.IsZero -}}
+    {{- $article = merge $article (dict "dateModified" ($modified.Format $iso8601)) -}}
   {{- end -}}
   {{- with .Params.keywords -}}
     {{- $article = merge $article (dict "keywords" (delimit . ", ")) -}}

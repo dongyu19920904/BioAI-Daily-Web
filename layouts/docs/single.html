@@ -1,4 +1,11 @@
 {{ define "main" }}
+  {{ $published := .Date }}
+  {{ if not .PublishDate.IsZero }}{{ $published = .PublishDate }}{{ end }}
+  {{ if and $published.IsZero .File }}
+    {{ with findRE `\d{4}-\d{2}-\d{2}` .File.ContentBaseName }}{{ $published = time.AsTime (index . 0) }}{{ end }}
+  {{ end }}
+  {{ $modified := .Lastmod }}
+  {{ if $modified.IsZero }}{{ $modified = $published }}{{ end }}
   <div class='hx:mx-auto hx:flex hextra-max-page-width'>
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
     {{ partial "toc.html" . }}
@@ -10,10 +17,10 @@
           {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
           <div class="editorial-meta">
             <span>编辑：{{ .Params.editor | default .Params.author | default .Site.Params.author.name }}</span>
-            {{ if not .Date.IsZero }}
-              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">发布：{{ .Date.Format "2006/01/02" }}</time>
+            {{ if not $published.IsZero }}
+              <time datetime="{{ $published.Format "2006-01-02T15:04:05Z07:00" }}">发布：{{ $published.Format "2006/01/02" }}</time>
             {{ end }}
-            <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">更新：{{ .Lastmod.Format "2006/01/02 15:04" }}</time>
+            {{ if not $modified.IsZero }}<time datetime="{{ $modified.Format "2006-01-02T15:04:05Z07:00" }}">更新：{{ $modified.Format "2006/01/02 15:04" }}</time>{{ end }}
           </div>
           {{ if and (ne .Section "opportunity") (ne .Section "project-opportunity") }}
             <div class="editorial-note" role="note">
@@ -59,9 +66,11 @@
             </div>
             <ul class="hx:mt-3 hx:grid hx:gap-3 hx:md:grid-cols-3">
               {{ range $related }}
+                {{ $relatedDate := .Date }}
+                {{ if and $relatedDate.IsZero .File }}{{ with findRE `\d{4}-\d{2}-\d{2}` .File.ContentBaseName }}{{ $relatedDate = time.AsTime (index . 0) }}{{ end }}{{ end }}
                 <li class="hx:rounded-lg hx:border hx:border-gray-200/70 hx:bg-white hx:p-3 hx:transition hover:hx:border-primary-300 hover:hx:shadow-sm hx:dark:border-neutral-800 hx:dark:bg-neutral-900/60">
                   <a class="hx:block" href="{{ .RelPermalink }}">
-                    <div class="hx:text-xs hx:text-gray-500">{{ .Date.Format "2006/01/02" }}</div>
+                    {{ if not $relatedDate.IsZero }}<div class="hx:text-xs hx:text-gray-500">{{ $relatedDate.Format "2006/01/02" }}</div>{{ end }}
                     <div class="hx:mt-1 hx:text-sm hx:font-semibold">{{ .Title }}</div>
                   </a>
                 </li>
