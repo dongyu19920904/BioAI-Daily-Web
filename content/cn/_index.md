@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/8/4
+title: AI生命延续学日报 2026/8/5
 breadcrumbs: false
-next: /2026-08/2026-08-03
+next: /2026-08/2026-08-05
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-一张普通骨密度扫描图，AI 读出生物年龄和死亡风险，准确率碾压谷歌大模型。
-脑机接口、帕金森步态、大脑老化地图——今天神经科学方向集中爆发。
-抗衰老圈同时传来两个信号：新疗法有突破，未验证的"长寿注射"已有人死于此。
+CRISPR 初创公司用基因编辑造出低敏狗，CEO 自己就是第一个验证者。
+AI 空间病理学能标出肿瘤最危险的角落，化学文献解析准确率也碾压 GPT-5.6。
+基因编辑宠物和 AI 癌症预后同日冒头，今天这期值得从头看到尾。
 ```
 
 
@@ -29,136 +29,148 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-一个 X 光骨密度扫描，居然能预测你的生物年龄、死亡风险，还比顶级通用 AI 模型更准——用的训练数据少了 15 万倍。
+用 CRISPR 编辑出了不让人过敏的狗，这件事的脑洞比你想象的还大。
 
 ### **🔑 3 个关键词**
-#AI生物年龄 #脑机接口 #衰老干预
+#CRISPR基因编辑 #阿尔茨海默症新靶点 #AI癌症预后
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [一张骨密度扫描图，读出你的生命密码](https://papers.cool/arxiv/2608.02208)**
+**1. [用 CRISPR 编辑出"低敏狗"，CEO 本人就是第一个受益者](https://www.genengnews.com/topics/genome-editing/fur-real-biotech-startup-eliminates-major-dog-allergen-in-beagle-pups-using-crispr/)**
 
-骨密度检查（DXA 扫描）很多人做过，但你知道那张图里其实藏着你全身的健康状态吗？研究团队训练了一个叫 LeDXA 的视觉 AI 模型，从 DXA 图像里自动学出"生物年龄"——这个年龄越大于实际年龄，死亡风险高出 45%。更夸张的是，它的训练数据只有 GPT 级模型的 1/15 万，参数量也少了 40 倍，跑分却碾压了谷歌的通用视觉大模型 DINOv3。最有意思的一个发现：女性开始服用激素替代疗法后，生物年龄的"超老化差距"居然下降了。也就是说，这个指标可能是可以干预的。
+全球 15% 的人对狗过敏，包括这个公司的创始人 Matt Walker 本人——他从小就不能养狗，皮疹、打喷嚏、眼睛痒，一直到上大学才有机会接触狗。后来他在哥伦比亚大学做基因编辑研究，心一横：干嘛治人的过敏？直接改狗的基因不就行了？他用 CRISPR-Cas9 敲掉了狗体内产生主要过敏原（Can f 1 蛋白）的基因，生出了两只比格犬 Alfie 和 Bailey。Walker 亲自抱着 Bailey 验证效果，确认没有任何过敏反应。等等，这不是在帮别人——他是在帮自己。
 
-![图片](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
-
----
-
-**2. [USC 新 AI 模型：大脑老化，不同区域进度不一样](https://www.news-medical.net/news/20260803/New-AI-model-generates-detailed-maps-of-aging-in-brain-regions.aspx)**
-
-以前说"大脑老化"，说的是整个大脑统一变老。南加州大学（USC）的研究团队打破了这个认知——他们用 AI 画出一张大脑老化地图，显示不同脑区老化速度差异显著。这意味着将来阿尔茨海默、帕金森的早期诊断，可能不再是"看整体"，而是精准定位"哪个区域先出问题"。地图越精细，干预窗口就越早。
-
-![图片](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/08/Walker-Matt-e1785771325759-300x300.jpg)
 
 ---
 
-**3. [穿戴传感器 + 深度学习，帕金森步态分析走出实验室](https://papers.cool/arxiv/2608.02408)**
+**2. [AI 引导空间蛋白组学，找到三阴性乳腺癌复发的"藏身之地"](https://papers.cool/arxiv/2608.03145)**
 
-帕金森病患者走路有多难分析？传统方法需要在专业实验室里铺满传感器垫，普通患者根本没机会做。这篇论文提出了一个 CNN-BiLSTM 混合深度学习模型，用可穿戴 IMU 传感器（就是手机里那种运动传感器）来估算地面反力——这是判断步态异常的核心数据。61 名帕金森患者的测试结果：精度 R²=0.91，压缩到只用 2 个传感器时依然够用。从此居家监测、远程康复评估，现实了很多。
-
----
-
-**4. [EEG 脑信号解码新框架 STEAM：脑机接口的"基座模型"来了](https://papers.cool/arxiv/2608.02070)**
-
-脑机接口（BCI）的核心难题之一：不同人、不同设备采集的脑电信号差异太大，模型很难通用。STEAM 框架用了一个"时空双分支 + 混合专家模块"的结构，在 7 个数据集、14 个评估场景里拿下了最佳平均排名，而且计算量不高。更关键的是，它提出了一个分层预训练策略——先学通用脑电表示，再快速适应特定任务，不需要从头训练。这正是脑机接口从实验室走向临床的必经之路。
+三阴性乳腺癌（TNBC，一种缺乏三种常见受体、更难治的乳腺癌亚型）的复发预测，一直是临床难题。156 名患者的队列研究里，研究团队先用深度学习模型分析 H&E 染色切片（一种常规病理染色方法），生成"复发风险热图"，然后用质谱空间蛋白组学技术去实际分析高风险区域的分子状态。结果发现：高风险区域富集细胞分裂程序，低风险区域富集免疫激活信号。更关键的是，他们从中提炼出 13 个蛋白质组合，整合进 H&E 风险评分后，3 年和 5 年的预后判断准确度明显提升。AI 不只是在"看图"——它现在能告诉你肿瘤的哪个角落最危险。
 
 ---
 
-**5. [NeuroWorld：第一个"大脑世界模型"，预测你看电影时的脑活动](https://papers.cool/arxiv/2608.01773)**
+**3. [阿尔茨海默症：ProMIS 挑战主流打法，瞄准的不是大块斑块而是"碎片"](https://longevity.technology/news/promis-challenges-alzheimers-treatment-playbook/)**
 
-你在看电影时，大脑是怎么一步步反应的？NeuroWorld 是目前第一个专门为此设计的"脑状态世界模型"——它把大脑活动（fMRI 信号）建模成一个随外部刺激演化的连续状态空间，而不是简单的"输入-输出回归"。测试覆盖 30 名被试、140.7 小时的观看数据，长时预测准确率创了新高。这套框架对神经科学研究、脑疾病模拟都有潜在价值。
+现有的阿尔茨海默症药物（比如 lecanemab）逻辑是：清除大脑里堆积的淀粉样蛋白斑块。但副作用很头疼——脑水肿（ARIA-E）风险高，患者需要频繁做 MRI 监控。ProMIS 的 PMN310 走了另一条路：不打大块斑块，专门靶向更小、更早期、毒性更强的"可溶性淀粉样寡聚体"。136 人的 Phase 1b 盲法试验中期数据显示：零例 ARIA-E，两个关键生物标志物（pTau217 和 MTBR-tau243）出现早期改善迹象。对携带两个 APOE4 基因的高风险患者群体来说，这个安全性数据尤其重要。12 个月完整数据预计 2027 年 Q1 揭盲。
 
----
-
-**6. [Navitoclax 降剂量组合疗法：清除衰老细胞不再伤血小板](https://www.fightaging.org/archives/2026/08/a-novel-senolytic-combination-incorporating-low-dose-navitoclax/)**
-
-衰老细胞（senescent cells）就像身体里的"僵尸细胞"，清不掉，还一直释放炎症信号。Navitoclax 本是个好药，能杀衰老细胞和肿瘤细胞，但剂量一高就伤血小板，临床一直没法推进。最新研究把它和二氯乙酸盐（DCA）、二甲双胍组合，剂量降了 10 倍，效果反而更好——老鼠体内测试显示急性给药能改善运动功能，长期给药能延长寿命。健康细胞几乎不受影响。这个组合叫 DMA，可能是衰老医学最值得跟进的新信号之一。
+![图片](https://longevity.technology/wp-content/uploads/2026/08/ProMIS-challenges-Alzheimers-treatment-playbook-1024x683.jpg)
 
 ---
 
-**7. [Rejuvenation Roundup 七月回顾：抗衰圈这个月发生了什么](https://lifespan.io/rejuvenation-roundup-july-2026/)**
+**4. [超级老人的秘密：认知稳定，死亡风险直降 46%](https://www.news-medical.net/news/20260805/The-healthiest-super-agers-may-have-one-thing-in-common-stable-cognition.aspx)**
 
-七月抗衰老领域不平静。一方面捷报频传：间歇性禁食让雄性小鼠寿命延长 12%、工程酶成功逆转蛋白质糖化损伤（这类损伤以前被认为几乎不可逆）、限制缬氨酸摄入对雄性小鼠有寿命延长效果。另一方面，纽约发生了一起"长寿疗法"致死事件——一名女性在接受 NAD⁺ 静脉注射后死亡，敲响了"未经验证的长寿治疗"的警钟。蒙大拿州则以立法形式推进了一个实验性疗法审查委员会。整份报告信息密度极高，适合周末细读。
+追踪 1003 名老年人长达 10 年，研究者想搞清楚：什么样的人老了之后还能保持高质量生活？答案出乎意料地简单——认知功能保持稳定的人，急诊就诊少、住院少、痴呆诊断少，全因死亡风险比认知下降的人低 46%。不是最聪明的，不是最有钱的，而是认知没有明显退化的。这个数据对"生命长度"和"生命质量"之间的讨论，意义很深。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/08/Rejuvenation-Roundup-July-2026-262x187.png)
-
----
-
-**8. [拉曼光谱 + 表格基础模型：少样本分子分析的新打法](https://papers.cool/arxiv/2608.02157)**
-
-拉曼光谱（Raman spectroscopy）是药物研发和生物医学里常用的分子"指纹识别"工具，但它的数据往往样本少、维度高，传统机器学习表现很差。RamanPFN 把拉曼光谱的物理结构编码后，接入表格基础模型 TabPFN 做推理，回归误差平均下降 19.6%，分类错误率也降了 9%。74 个公开拉曼数据集验证，结果稳定。对做生物分子表征、药物质检的研究者来说，这个开源库值得收藏。
+![图片](https://www.news-medical.net/images/news/ImageForNews_844091_17859022171554726.jpg)
 
 ---
 
-**9. [纵向脑肿瘤 MRI 缺失数据？用隐式神经表示来补](https://papers.cool/arxiv/2608.02324)**
+**5. [AI + 肌肉组织模型：帮杜氏肌营养不良找到更精准的评估方式](https://papers.cool/arxiv/2608.03927)**
 
-现实中的肿瘤患者随访 MRI 数据很"脏"：有的序列没扫、时间点不统一、分辨率不同。这篇论文提出了一个基于隐式神经表示（INR）的框架，把多模态纵向 MRI 建模成一个连续函数，在空间和时间两个维度都能插值补全。在儿童脑肿瘤数据上测试，效果显著优于线性插值。对 AI 辅助肿瘤随访诊断来说，数据质量问题如果被这套方法解决，临床落地的门槛会大幅降低。
-
----
-
-**10. [基因组测序揭开自身免疫疾病谜题：找对细胞，才能找对基因](https://www.genengnews.com/topics/omics/genome-mapping-reveals-autoimmune-disease-risk-genes-in-innate-lymphoid-cells/)**
-
-克罗恩病（一种严重的炎症性肠病）的致病基因，藏在一种超级稀少的免疫细胞——ILC3 里。传统基因组方法要求几百万个细胞才能测，但 ILC3 数量极少，一直没法研究。辛辛那提儿童医院等团队用一种低输入量的染色体互作测图技术，硬是在 ILC3 里找到了 100 多个克罗恩病候选基因，还顺带发现了 CLN3 这个通常和神经退行性疾病关联的基因，居然也在肠道免疫里扮演角色。"找最近的基因"的老方法，可能一直在找错地方。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/08/ILC3-in-autoimmune-risk-graphic_v2-300x141.jpg)
+杜氏肌营养不良（DMD，一种严重影响肌肉功能的遗传病）的体外研究，长期依赖"峰值收缩力"这个过于粗糙的指标，大量有价值的动力学信息被直接丢弃。这篇论文提出了一种"物理感知神经网络"（PFNN），把物理拉伸指数模型嵌入 CNN-Transformer 架构，直接从力-时间曲线里提取有物理意义的参数。由于真实标注生物数据极度稀缺，团队先在合成数据上训练，再在真实无标注数据上做无监督对齐。结果：DMD 模型和多种正常细胞系的收缩表型都被准确参数化。高通量药物筛选从此可以看得更深。
 
 ---
 
-## **📌 值得关注（5-10条）**
+**6. [MinerU.Chem：把化学论文里的分子结构图"读懂"，准确率碾压 GPT-5.6](https://papers.cool/arxiv/2608.03525)**
 
-**[研究]** [限制特定氨基酸可能模拟蛋白质限制的抗衰效果](https://www.news-medical.net/news/20260803/Restricting-select-amino-acids-may-mimic-protein-restrictione28099s-healthy-aging-benefits.aspx) — 限制蛋氨酸、异亮氨酸、缬氨酸这三种氨基酸，可能复制"少吃蛋白质"的代谢收益，不过人类数据还很有限
+有机化学论文和专利里的分子结构图、反应方程式，对通用文档解析系统来说几乎是"天书"——看得见但读不懂。MinerU.Chem 专门为此设计了五个化学特定模块，能把文档里的化学图像转成机器可读的分子列表和反应列表。在标准评测集上，SMILES（分子结构的文本表示格式）精确匹配准确率达到 93.02%，而 GPT-5.6-Sol 只有 74.87%，差距 18 个百分点。现在已经集成进 MinerU 在线平台，今天就能用。AI 制药的数据挖掘效率，要往上走一个台阶了。
 
-**[研究]** [心血管老化机制综述新鲜出炉](https://www.news-medical.net/news/20260803/Review-explores-mechanisms-driving-cardiovascular-aging-and-disease-risk.aspx) — 系统梳理心脏和血管随年龄劣化的生物学机制，适合做 AI 心血管模型的背景参考
+---
 
-**[研究]** ["细胞村"方法揭示遗传差异如何影响细胞存活竞争](https://www.news-medical.net/news/20260803/Cell-village-approach-reveals-genetic-differences-in-cell-fitness.aspx) — 把来自不同基因型的细胞放在一起培养，直接量化谁活得更好，为基因组学 + AI 提供新的研究范式
+**7. [胎儿大脑也能 AI 量测：深度学习自动完成 MRI 脑部生物测量](https://papers.cool/arxiv/2608.03724)**
 
-**[开源]** [scikit-fingerprints：分子机器学习的 scikit-learn 兼容库](https://papers.cool/arxiv/2608.02027) — 把化学分子指纹、相似度计算、适用域估计全打包进 sklearn 生态，AI 制药原型开发的效率工具
+孕期胎儿脑部发育评估，目前还是靠医生手动在 MRI 图像上量测各项指标，不仅耗时，结果还因人而异。这篇研究提出了一个四步全自动深度学习流程，从三维超分辨率重建的胎儿脑 MRI 里，同时估算线性测量值和对应的解剖学地标点。在涵盖 20-37 周胎龄、来自不同扫描仪的 150 个样本上验证，五项关键生物测量的准确度达到或超过现有唯一自动化方法。孕期的神经发育异常，或许能更早、更可靠地被捕捉到。
 
-**[研究]** [每天的社交互动，可能是认知保护的隐藏因子](https://www.news-medical.net/news/20260803/Daily-social-connections-may-improve-long-term-health-and-cognition.aspx) — 邻居饭局、多聊几句都可能影响长期认知健康，衰老研究的社会维度越来越被重视
+---
+
+**8. [CheMatE：同时"听懂"分子结构和化学文献的双语嵌入模型](https://papers.cool/arxiv/2608.03855)**
+
+以前的化学 AI 模型有个通病：要么只懂分子结构（SMILES 格式），要么只懂自然语言，两者同时理解的能力很弱。CheMatE 基于 ModernBERT，用超过 220 亿个 token 的化学文献语料做了两阶段训练，最终在分子属性预测和化学语言理解两类任务上都达到竞争力水平。药物设计和化学信息挖掘，从此多了一个更"懂行"的语言模型基础。
+
+---
+
+**9. [CIGTSurv：把临床病历、病理图像、基因组数据三路融合，预测癌症生存期](https://papers.cool/arxiv/2608.03247)**
+
+癌症生存预测领域，病理图像 + 基因组数据的双模态融合已经相当成熟，但临床信息（医生记录的病历、检查结果等）由于数据稀疏且格式混乱，一直被忽视。CIGTSurv 用预训练基础模型把临床表格数据转成高维嵌入，再以临床信息为"锚点"设计局部原型关联和全局特征对齐两个机制，把三种模态真正融合在一起。在 TCGA 五个癌症队列上达到最先进的生存预测性能，代码已开源。
+
+---
+
+**10. [脑-机接口新进展：脑电想象手写字母，解码准确率 84.98%](https://papers.cool/arxiv/2608.03176)**
+
+想象中写一个字母，脑电信号里藏着足够的信息让机器识别——这件事本身就很科幻。FRED 系统把想象手写建模为多秒运动序列，用多尺度时序网络同时分析三个互补的 EEG 频段视图，九个成员的集成模型整体准确率达到 84.98%，在多模态脑机接口大挑战赛私有测试集排名第四。值得一提的是：加入 fNIRS 信号后准确率几乎没有提升（+0.25%），脑电才是真正的信号来源。代码已开源。
+
+---
+
+## **📌 值得关注**
+
+**[研究]** [肝病新药 zabopegdutide 的减重前效应](https://longevity.technology/news/dds-liver-drug-shows-benefits-before-weight-loss/) — 《柳叶刀》子刊发表 Phase 2 数据：体重没减多少，但肝脏已经在好转，MASH（代谢相关脂肪性肝炎）治疗思路或迎来转变
+
+**[研究]** [NIH 资助 thymulin 在"炎性衰老"与癌症中的作用研究](https://www.news-medical.net/news/20260804/NIH-funds-research-to-explore-the-role-of-thymulin-in-inflammaging-and-cancer.aspx) — 慢性炎症随年龄累积会削弱抗癌能力，这个胸腺激素或许是干预节点之一
+
+**[研究]** [90 岁以上老人的痴呆机制研究取得新进展](https://www.news-medical.net/news/20260804/New-study-advances-understanding-of-dementia-after-age-90.aspx) — 超高龄人群的认知衰退，和年轻老年人有不同的机制，这是研究开始补上的重要盲区
+
+**[产品]** [Vivoo：把尿检和 AI 解读搬进浴室，做连续生物标志物追踪](https://longevity.technology/news/the-next-longevity-clinic-may-already-be-in-your-bathroom/) — CEO 的核心论点：单次检测没意义，纵向轨迹才是长寿医学真正需要的数据
+
+**[研究]** [运动对西班牙裔老年人认知衰退的保护作用](https://www.news-medical.net/news/20260804/Exercise-helps-protect-Hispanic-adults-from-late-life-cognitive-decline.aspx) — LS7 健康行为评分越高，认知表现越好、痴呆风险越低，运动的权重在其中尤为突出
+
+---
+
+## **📊 更多动态**
+
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 研究 | 2 型糖尿病与更严重的更年期症状相关 | [查看](https://www.news-medical.net/news/20260805/Type-2-diabetes-linked-to-more-severe-menopause-symptoms.aspx) |
+| 2 | 产业 | AI 如何在监管实验室中落地：数据、合规与治理 | [查看](https://www.genengnews.com/topics/artificial-intelligence/beyond-the-technology-ai-readiness-in-regulated-laboratories/) |
+| 3 | 研究 | ED-DiT：用电子密度场做自监督预训练，提升分子表示迁移能力 | [查看](https://papers.cool/arxiv/2608.03260) |
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [纽约女性因"长寿静脉注射"意外去世，专家：这不是抗衰，是赌命](https://lifespan.io/rejuvenation-roundup-july-2026/)
+### [CEO 把自己变成了药物临床试验的第一号受试者](https://www.genengnews.com/topics/genome-editing/fur-real-biotech-startup-eliminates-major-dog-allergen-in-beagle-pups-using-crispr/)
 
-七月抗衰老圈最离谱的新闻：一名纽约女性去做了一个 NAD⁺（一种与细胞能量代谢相关的分子）静脉注射的"长寿疗法"，结果出了大事，人没了。专家评价非常直接："这正是未经验证的疗法为什么危险。" 网友评论大概是："长寿赛道的风险，有时候字面意思就是风险。" 抗衰老研究方向没有问题，但绕过临床验证直接往血管里注射东西——别。
+从小对狗过敏，长大后创业去改狗的基因，然后把那只低敏比格犬带回家住。Walker 抱着 Bailey 之后，第一反应不是高兴，而是："等等，万一是我的过敏自己好了怎么办？"——专门跑去朋友家抱了别的狗，确认自己还是会过敏，才放心。这种严谨态度……让人哭笑不得。他现在是公司唯一一名员工，在哈莱姆区的共享湿实验室里，挤在一张小工作台边做研究。一个人，一条狗，一家公司。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/08/Rejuvenation-Roundup-July-2026-262x187.png)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/08/Walker-Matt-e1785771325759-300x300.jpg)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### DXA 生物年龄 AI 进入临床验证阶段
-- **预测时间**：2026年Q4
-- **预测概率**：70%
-- **预测依据**：今日新闻 [LeDXA 模型在 UK Biobank 上的大规模验证](https://papers.cool/arxiv/2608.02208) 已显示强预测力 + 骨密度扫描是现有临床常规检查，模型迁移到实际医院系统的技术门槛低，商业化路径清晰
+### AI 引导的空间病理学进入临床验证阶段
 
-### 可穿戴帕金森步态监测产品进入临床试点
-- **预测时间**：2026年Q4
+- **预测时间**：2026 年 Q4
+- **预测概率**：72%
+- **预测依据**：今日论文 [AI 空间蛋白组学用于 TNBC 复发预测](https://papers.cool/arxiv/2608.03145) 展示了 AI 热图作为实验引导坐标的新用法 + 近期多个癌症中心已在推进 AI 病理与多组学融合的临床转化项目，预计年底前将出现多项临床验证结果
+
+### ProMIS PMN310 完整 12 个月数据引发行业重估
+
+- **预测时间**：2027 年 Q1（揭盲窗口期相关效应从 2026 年 Q4 开始发酵）
 - **预测概率**：65%
-- **预测依据**：今日新闻 [两个 IMU 传感器即可达到临床级 GRF 估算精度](https://papers.cool/arxiv/2608.02408) + 目前多家数字健康公司正在布局帕金森远程监测赛道，硬件成本已足够低
+- **预测依据**：今日报道 [ProMIS 挑战阿尔茨海默症治疗打法](https://longevity.technology/news/promis-challenges-alzheimers-treatment-playbook/) 中零例 ARIA-E 的安全数据已在神经科学界引发关注 + 当前抗淀粉样斑块疗法的安全性门槛正在成为市场分化的核心变量，若 PMN310 维持安全优势，大型药企授权谈判可能提前启动
 
-### 脑电（EEG）基础模型迎来开源竞争
-- **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻 [STEAM 框架在多数据集上达到最优](https://papers.cool/arxiv/2608.02070) + 脑机接口领域正在复制 NLP 领域"基座模型开源竞争"的路径，Neuralink 等公司带动了市场关注度
+### 基因编辑宠物走向监管正式通道
 
-### 衰老细胞清除疗法（Senolytics）组合方案进入人类 I 期临床
-- **预测时间**：2026年Q4
-- **预测概率**：60%
-- **预测依据**：今日新闻 [DMA 组合（Navitoclax 低剂量）在小鼠延寿实验中成功](https://www.fightaging.org/archives/2026/08/a-novel-senolytic-combination-incorporating-low-dose-navitoclax/) + 达沙替尼+槲皮素已有人类试验数据，产业界对新一代配方研发积极性很高
+- **预测时间**：2026 年 Q4
+- **预测概率**：55%
+- **预测依据**：今日新闻 [CRISPR 低敏比格犬](https://www.genengnews.com/topics/genome-editing/fur-real-biotech-startup-eliminates-major-dog-allergen-in-beagle-pups-using-crispr/) 显示 Kindred Companion Sciences 已进入 FDA 监管流程 + 基因编辑动物的监管框架在近两年明显提速，继低敏猫之后，低敏狗的商业化审查节点可能比预期更早到来
+
+### AI 化学文献解析工具加速制药数据挖掘
+
+- **预测时间**：2026 年 Q4
+- **预测概率**：78%
+- **预测依据**：今日论文 [MinerU.Chem 准确率超越 GPT-5.6 达 93%](https://papers.cool/arxiv/2608.03525) 已上线可用 + 多个 AI 制药公司的知识图谱建设正处于数据瓶颈期，专业化文献解析工具的需求将在未来数月内快速转化为采购和集成行动
 
 ---
 
 ## **❓ 相关问题**
 
-### 哪里可以获取 AI 生物年龄预测和脑机接口的最新资讯？
+### 哪里可以持续获取 AI + 生命科学领域的最新资讯？
 
-今日 AI 生命科学领域的热点包括：DXA 扫描 AI 预测生物年龄与死亡风险、脑机接口 EEG 基础模型突破、以及可穿戴传感器帕金森步态分析。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
+今日热点涵盖 CRISPR 基因编辑低敏犬、AI 引导空间蛋白组学用于癌症预后、以及阿尔茨海默症新靶点药物的临床进展。想持续追踪这类 **AI + 生命科学交叉领域**的前沿动态？
 
 **推荐方案**：
 - **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域的重磅新闻
@@ -170,9 +182,9 @@ cascade:
 
 ---
 
-### 如何体验 Claude、Gemini 等适合生命科学研究的 AI 工具？
+### 如何体验 Claude、Gemini 等 AI 工具来辅助生命科学研究？
 
-今日多篇论文（涉及脑电解码、纵向 MRI 插值、拉曼光谱分析）都指向一个趋势：AI 辅助科研正成为生命科学研究的日常工具。无论是用 Claude 整理文献、用 Gemini 辅助分析，还是用 Consensus 做论文检索，这类工具正在改变研究者的工作流。面临账号注册或支付困难？
+今日多篇论文涉及蛋白质表示学习、化学文献解析、癌症生存预测等方向，在做文献调研和数据分析时，Claude 和 Gemini 这类大模型可以显著加速理解过程。如果在国内访问这些工具遇到支付或注册障碍，可以参考以下方案：
 
 **解决方案**：
 - **[爱窝啦 Aivora](https://aivora.cn)** 提供 ChatGPT、Claude、Gemini、Codex、Cursor、Perplexity、Consensus 等 AI 工具入口
