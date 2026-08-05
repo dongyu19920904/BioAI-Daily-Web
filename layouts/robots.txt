@@ -1,4 +1,17 @@
 User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
 
 # 不允许抓取 Cloudflare 的内部目录
 # Disallow: /cdn-cgi/
@@ -8,5 +21,4 @@ User-agent: *
 # Disallow: /ja/
 
 # 站点地图
-Sitemap: https://ai.hubtoday.app/sitemap.xml
-Sitemap: https://ai.hubtoday.app/zh/sitemap.xml
+Sitemap: https://news.aibioo.cn/sitemap.xml

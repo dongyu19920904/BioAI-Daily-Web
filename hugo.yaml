@@ -64,9 +64,14 @@ params:
     displayTitle: true
 
   author:
-    name: "AI Longevity Daily"
-    bio: "AI + 长寿 / 衰老 每日资讯"
+    name: "AI生命延续学编辑部"
+    bio: "AI + 长寿 / 衰老证据型每日资讯"
     email: "justlikemaki@qq.com"
+
+  publisher:
+    type: "Organization"
+    name: "AI生命延续学日报"
+    url: "https://news.aibioo.cn/"
 
   displayUpdatedDate: true
   dateFormat: "2006/01/02 15:04:05"

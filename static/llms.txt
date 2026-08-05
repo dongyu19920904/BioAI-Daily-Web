@@ -1,13 +1,13 @@
-# BioAI 生命科学日报
+# AI 生命延续学日报
 
-> BioAI 生命科学日报是一个专注于 AI + 生命科学交叉领域的每日资讯平台。我们追踪生物医药、基因编辑、蛋白质预测、AI辅助药物研发等前沿进展，为投资人、产品经理、创业者和学生提供专业但亲切的行业动态。
+> 面向中文读者的 AI × longevity 证据型每日编辑产品。每条内容说明研究类型、对象与样本、发表状态、证据等级、局限和距离实际应用的阶段。
 
-本网站旨在为大型语言模型提供精确、结构化的 BioAI 领域内容，以便更好地解答用户关于 AI + 生命科学领域的查询。主要内容以文章和教程的形式提供。
+## 主要入口
 
-## 核心内容 (Core Content)
-- [文章索引](https://news.aibioo.cn): 本站所有公开文章的索引，是理解本站内容的主要入口。
-- [关于我们](https://news.aibioo.cn/about): 介绍本站的使命、愿景和内容创作理念。
+- [普通日报最新入口](https://news.aibioo.cn/): 最新一期入口与历史归档。
+- [AI 生命延续学商机日报](https://news.aibioo.cn/opportunity/): 面向低风险内容、数据和研究服务的独立栏目。
+- [AI 生命延续学资讯商机项目](https://news.aibioo.cn/project-opportunity/): 面向可验证项目和研究工具的独立栏目。
+- [关于本站](https://news.aibioo.cn/about/): 编辑原则、免责声明与生态关系。
+- [网站地图](https://news.aibioo.cn/sitemap.xml): 公开页面目录。
 
-## Optional
-- [网站地图](https://news.aibioo.cn/sitemap.xml): 包含所有人类可读页面的完整列表，可用于发现本站未在上面列出的其他内容。
-- [联系方式](https://news.aibioo.cn/contact): 如何联系我们的团队。
+`llms.txt` 仅用于内容发现，不代表医学审核、临床建议或搜索排名承诺。

@@ -1,0 +1,28 @@
+{{- $readingMinutes := .ReadingTime -}}
+{{- if lt $readingMinutes 1 -}}{{- $readingMinutes = 1 -}}{{- end -}}
+{{- $date := .Date -}}
+{{- $dateText := "" -}}
+{{- if $date.IsZero -}}
+  {{- $dateText = replaceRE `^.*?([0-9]{4})[^0-9]+([0-9]{1,2})[^0-9]+([0-9]{1,2}).*$` `$1-$2-$3` .Title -}}
+{{- else -}}
+  {{- $dateText = $date.Format "2006-01-02" -}}
+{{- end -}}
+
+<header class="bio-daily-masthead">
+  <div class="bio-daily-masthead__kicker">
+    <span aria-hidden="true">EVIDENCE BRIEF</span>
+    <span class="bio-daily-masthead__signal" aria-hidden="true"></span>
+    <span>AI × LONGEVITY</span>
+  </div>
+  <h1>AI 生命延续学日报</h1>
+  <p class="bio-daily-masthead__deck">读懂今天的研究信号，也看清证据还没有走到哪里。</p>
+  <dl class="bio-daily-masthead__facts">
+    <div><dt>今日证据</dt><dd>{{ .Params.evidenceSummary | default "逐条说明研究设计与局限" }}</dd></div>
+    <div><dt>距离应用</dt><dd>{{ .Params.applicationDistance | default "研究与验证阶段，不能用于个人医疗决策" }}</dd></div>
+  </dl>
+  <div class="bio-daily-masthead__meta">
+    <time datetime="{{ if not $date.IsZero }}{{ $date.Format "2006-01-02" }}{{ end }}">{{ $dateText }}</time>
+    <span>编辑：{{ .Params.editor | default "AI生命延续学编辑部" }}</span>
+    <span>阅读约 {{ $readingMinutes }} 分钟</span>
+  </div>
+</header>
