@@ -153,16 +153,10 @@ jobs:
               # Check if the target file already exists and is identical to avoid unnecessary writes/commits
               # This simple check might not be perfect for "identical" but good enough to prevent re-processing
               if [ -f "$TARGET_FILE" ]; then
-                 # A more robust check would involve comparing content, but for now, existence is a good proxy
-                 # To force update, one would need to delete the target file first or enhance this check
-                 echo "文件 $TARGET_FILE 已存在，假设内容未变，跳过归档处理。"
-                 # If you always want to overwrite or update based on new description logic, remove this 'continue'
-                 # and let the file be overwritten below.
-                 # For this request, we assume we might re-generate description if source file changed.
-                 # So, we will proceed to re-generate the file.
-                 # To prevent re-processing *unchanged* files, you'd need a more complex diff or hash check.
-                 # For now, let's allow re-processing to ensure descriptions are updated if logic changes.
-                 # echo "文件 $TARGET_FILE 已存在，将重新生成以确保描述最新。" # uncomment if you want this message
+                 # Worker 已直接发布完整日期页。同步任务不得用通用 frontmatter
+                 # 覆盖经过证据审阅的作者、编辑、更新时间和应用距离字段。
+                 echo "文件 $TARGET_FILE 已存在，保留已发布日期页并跳过。"
+                 continue
               fi
 
               echo "正在处理归档: $filename"
@@ -202,8 +196,10 @@ jobs:
 
 
               (
-                printf -- "---\nlinkTitle: %s-%s-日报\ntitle: AI生命延续学日报 %s/%s/%s\nweight: %d\nbreadcrumbs: false\ncomments: true\ndescription: \"%s\"\n---\n\n" \
-                  "$MONTH" "$DAY" "$YEAR" "$MONTH_NO_ZERO" "$DAY_NO_ZERO" "$weight" "$local_description"
+                printf -- "---\nlinkTitle: %s-%s-日报\ntitle: AI生命延续学日报 %s/%s/%s\ndate: %s-%s-%sT00:00:00+08:00\nlastmod: %s-%s-%sT00:00:00+08:00\nweight: %d\nbreadcrumbs: false\ncomments: true\ndescription: \"%s\"\nauthorName: \"AI生命延续学编辑部\"\nauthorType: \"Organization\"\neditor: \"AI生命延续学编辑部\"\nevidenceSummary: \"以各条证据卡为准\"\napplicationDistance: \"研究与验证阶段，不能用于个人医疗决策\"\n---\n\n" \
+                  "$MONTH" "$DAY" "$YEAR" "$MONTH_NO_ZERO" "$DAY_NO_ZERO" \
+                  "$YEAR" "$MONTH" "$DAY" "$YEAR" "$MONTH" "$DAY" \
+                  "$weight" "$local_description"
                 cat "$source_file"
               ) > "$TARGET_FILE"
               echo "已归档到 $TARGET_FILE (或已更新)"
@@ -267,23 +263,20 @@ jobs:
           LATEST_YEAR=$(echo "$LATEST_NOTE_DATE" | cut -d- -f1)
           LATEST_MONTH=$(echo "$LATEST_NOTE_DATE" | cut -d- -f2)
           LATEST_DAY=$(echo "$LATEST_NOTE_DATE" | cut -d- -f3)
-          LATEST_MONTH_NO_ZERO=$(echo "$LATEST_MONTH" | sed 's/^0*//')
-          LATEST_DAY_NO_ZERO=$(echo "$LATEST_DAY" | sed 's/^0*//')
-          HOME_TITLE="AI生命延续学日报 ${LATEST_YEAR}/${LATEST_MONTH_NO_ZERO}/${LATEST_DAY_NO_ZERO}"
-          FRONTMATTER="---\nlinkTitle: AI生命延续学日报\ntitle: ${HOME_TITLE}\nbreadcrumbs: false\n"
-          # The 'next' link should point to the second latest note, which is now an archived page.
-          if [ -n "$SECOND_LATEST_NOTE" ] && [ "$LATEST_NOTE" != "$SECOND_LATEST_NOTE" ]; then # Ensure there IS a second latest note
-            FILENAME_SECOND_LATEST=$(basename "$SECOND_LATEST_NOTE" .md)
-            YEAR_MONTH_SECOND_LATEST=$(echo "$FILENAME_SECOND_LATEST" | cut -c 1-7)
-            NEXT_LINK="${YEAR_MONTH_SECOND_LATEST}/${FILENAME_SECOND_LATEST}"
-            FRONTMATTER+="next: /${NEXT_LINK}\n" # Assuming absolute path from site root
-          fi
+          LATEST_URL="/${LATEST_YEAR}-${LATEST_MONTH}/${LATEST_NOTE_DATE}/"
+          FRONTMATTER="---\nlinkTitle: AI生命延续学日报\ntitle: AI生命延续学日报\nbreadcrumbs: false\n"
+          FRONTMATTER+="next: ${LATEST_URL}\n"
           
           FRONTMATTER+="description: \"${LATEST_DESCRIPTION}\"\n" # LATEST_DESCRIPTION is already escaped
           FRONTMATTER+="cascade:\n  type: docs\n---\n\n"
 
           printf "%b" "$FRONTMATTER" > "$TARGET_INDEX"
-          cat "$LATEST_NOTE" >> "$TARGET_INDEX"
+          printf "## 最新一期：%s\n\n" "$LATEST_NOTE_DATE" >> "$TARGET_INDEX"
+          printf "> 每日精选 AI、衰老、长寿、健康寿命与生物年龄研究信号，并说明证据强弱、局限和距离实际应用的阶段。\n\n" >> "$TARGET_INDEX"
+          printf "[阅读 %s 完整日报 →](%s)\n\n" "$LATEST_NOTE_DATE" "$LATEST_URL" >> "$TARGET_INDEX"
+          printf "## 本站如何审阅证据\n\n" >> "$TARGET_INDEX"
+          printf "每条信息先说明发生了什么，再解释现实意义、目前不能得出的结论和距离实际应用的阶段。预印本、动物、体外、观察性和小样本研究会明确标注，不作为个人医疗建议。\n\n" >> "$TARGET_INDEX"
+          printf "历史内容请使用左侧月份目录或站内搜索。普通日报、商机日报和资讯商机项目拥有不同的内容职责，不复用同一段成稿。\n" >> "$TARGET_INDEX"
           echo "$TARGET_INDEX 更新完成。"
 
       # 第4步：提交 content 目录下的所有修改

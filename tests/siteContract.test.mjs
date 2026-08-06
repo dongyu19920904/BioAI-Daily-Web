@@ -52,6 +52,14 @@ test('section home is a latest entry and does not duplicate the full report', ()
   assert.ok(home.length < 3000, 'section entry must stay short');
 });
 
+test('daily sync preserves reviewed date pages and regenerates only a latest pointer', () => {
+  const workflow = read('.github/workflows/build-book.yaml');
+  assert.match(workflow, /文件 \$TARGET_FILE 已存在[\s\S]*continue/);
+  assert.match(workflow, /authorName:[\s\S]*editor:[\s\S]*evidenceSummary:[\s\S]*applicationDistance:/);
+  assert.doesNotMatch(workflow, /cat "\$LATEST_NOTE" >> "\$TARGET_INDEX"/);
+  assert.match(workflow, /阅读 %s 完整日报/);
+});
+
 test('ordinary daily layout suppresses the generic store promotion', () => {
   const docsSingle = read('layouts/docs/single.html');
   assert.match(docsSingle, /bio-daily-masthead\.html/);
