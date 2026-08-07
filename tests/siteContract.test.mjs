@@ -45,19 +45,28 @@ test('daily typography keeps unified Chinese reading fonts and 16px mobile body'
   assert.match(css, /\.bio-daily-content figcaption/);
 });
 
-test('section home is a latest entry and does not duplicate the full report', () => {
+test('site home redirects to the latest published date without a hard-coded date', () => {
   const home = read('content/cn/_index.md');
-  assert.match(home, /阅读 20\d{2}-\d{2}-\d{2} 完整日报/);
+  const homeTemplate = read('themes/hextra/layouts/home.html');
+  const head = read('themes/hextra/layouts/_partials/head.html');
+  const headEnd = read('layouts/_partials/custom/head-end.html');
+  assert.match(home, /noindex:\s*true/);
+  assert.doesNotMatch(home, /20\d{2}-\d{2}-\d{2}/);
   assert.doesNotMatch(home, /重磅 TOP 10|## 今日信号/);
-  assert.ok(home.length < 3000, 'section entry must stay short');
+  assert.match(homeTemplate, /partial "custom\/latest-daily-url\.html"/);
+  assert.match(head, /noindex, follow/);
+  assert.match(head, /latest-daily-url\.html/);
+  assert.match(headEnd, /window\.location\.replace/);
+  assert.match(headEnd, /http-equiv="refresh"/);
 });
 
-test('daily sync preserves reviewed date pages and regenerates only a latest pointer', () => {
+test('daily sync preserves reviewed date pages and leaves the root redirect stable', () => {
   const workflow = read('.github/workflows/build-book.yaml');
   assert.match(workflow, /文件 \$TARGET_FILE 已存在[\s\S]*continue/);
   assert.match(workflow, /authorName:[\s\S]*editor:[\s\S]*evidenceSummary:[\s\S]*applicationDistance:/);
   assert.doesNotMatch(workflow, /cat "\$LATEST_NOTE" >> "\$TARGET_INDEX"/);
-  assert.match(workflow, /阅读 %s 完整日报/);
+  assert.match(workflow, /同步任务不再改写 content\/cn\/_index\.md/);
+  assert.doesNotMatch(workflow, /printf "阅读 %s 完整日报/);
 });
 
 test('ordinary daily layout suppresses the generic store promotion', () => {

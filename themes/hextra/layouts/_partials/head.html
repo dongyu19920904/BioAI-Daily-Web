@@ -2,7 +2,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {{- $noindex := .Params.noindex | default false -}}
-  {{ if and (hugo.IsProduction) (not $noindex) -}}
+  {{- $isLatestRedirect := .IsHome -}}
+  {{ if $isLatestRedirect -}}
+    <meta name="robots" content="noindex, follow" />
+  {{ else if and (hugo.IsProduction) (not $noindex) -}}
     <meta name="robots" content="index, follow" />
   {{ else -}}
     <meta name="robots" content="noindex, nofollow" />
@@ -18,7 +21,10 @@
   </title>
   <meta name="description" content="{{ partial "utils/page-description.html" . }}" />
 
-  {{- with .Params.canonical -}}
+  {{- if $isLatestRedirect -}}
+    {{- $latestDailyURL := partial "custom/latest-daily-url.html" (dict "currentPage" .) -}}
+    <link rel="canonical" href="{{ $latestDailyURL | absURL }}" itemprop="url" />
+  {{- else with .Params.canonical -}}
     <link rel="canonical" href="{{ . }}" itemprop="url" />
   {{- else -}}
     <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />

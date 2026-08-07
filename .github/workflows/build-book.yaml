@@ -255,29 +255,9 @@ jobs:
           fi
 
 
-          # --- 4. 更新主索引页面 ---
-          echo "--- 步骤 4: 更新主索引页面 (content/cn/_index.md) ---"
-          TARGET_INDEX="$TARGET_CONTENT_DIR/_index.md"
-          
-          LATEST_NOTE_DATE=$(basename "$LATEST_NOTE" .md)
-          LATEST_YEAR=$(echo "$LATEST_NOTE_DATE" | cut -d- -f1)
-          LATEST_MONTH=$(echo "$LATEST_NOTE_DATE" | cut -d- -f2)
-          LATEST_DAY=$(echo "$LATEST_NOTE_DATE" | cut -d- -f3)
-          LATEST_URL="/${LATEST_YEAR}-${LATEST_MONTH}/${LATEST_NOTE_DATE}/"
-          FRONTMATTER="---\nlinkTitle: AI生命延续学日报\ntitle: AI生命延续学日报\nbreadcrumbs: false\n"
-          FRONTMATTER+="next: ${LATEST_URL}\n"
-          
-          FRONTMATTER+="description: \"${LATEST_DESCRIPTION}\"\n" # LATEST_DESCRIPTION is already escaped
-          FRONTMATTER+="cascade:\n  type: docs\n---\n\n"
-
-          printf "%b" "$FRONTMATTER" > "$TARGET_INDEX"
-          printf "## 最新一期：%s\n\n" "$LATEST_NOTE_DATE" >> "$TARGET_INDEX"
-          printf "> 每日精选 AI、衰老、长寿、健康寿命与生物年龄研究信号，并说明证据强弱、局限和距离实际应用的阶段。\n\n" >> "$TARGET_INDEX"
-          printf "[阅读 %s 完整日报 →](%s)\n\n" "$LATEST_NOTE_DATE" "$LATEST_URL" >> "$TARGET_INDEX"
-          printf "## 本站如何审阅证据\n\n" >> "$TARGET_INDEX"
-          printf "每条信息先说明发生了什么，再解释现实意义、目前不能得出的结论和距离实际应用的阶段。预印本、动物、体外、观察性和小样本研究会明确标注，不作为个人医疗建议。\n\n" >> "$TARGET_INDEX"
-          printf "历史内容请使用左侧月份目录或站内搜索。普通日报、商机日报和资讯商机项目拥有不同的内容职责，不复用同一段成稿。\n" >> "$TARGET_INDEX"
-          echo "$TARGET_INDEX 更新完成。"
+          # --- 4. 根路径由 Hugo 动态解析最新日期页 ---
+          echo "--- 步骤 4: 保留稳定根入口 ---"
+          echo "根路径跳转目标由 latest-daily-url.html 在构建时解析；同步任务不再改写 content/cn/_index.md。"
 
       # 第4步：提交 content 目录下的所有修改
       - name: Commit and push changes

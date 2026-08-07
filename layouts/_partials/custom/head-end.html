@@ -3,6 +3,15 @@
 <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo-dark.png">
 <meta name="og:image" content="{{ .Site.BaseURL }}/images/logo-dark.png">
 
+{{- if .IsHome }}
+  {{- $latestDailyURL := partial "custom/latest-daily-url.html" (dict "currentPage" .) -}}
+  {{- if ne $latestDailyURL "/" }}
+    {{- $absoluteLatestDailyURL := $latestDailyURL | absURL -}}
+    <meta http-equiv="refresh" content="0; url={{ $absoluteLatestDailyURL }}">
+    <script>window.location.replace({{ $absoluteLatestDailyURL | jsonify | safeJS }});</script>
+  {{- end }}
+{{- end }}
+
 {{ if .Params.robots }}
   <meta name="robots" content="{{ .Params.robots }}">
 {{ end }}
