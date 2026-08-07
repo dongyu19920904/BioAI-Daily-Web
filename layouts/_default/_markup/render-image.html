@@ -2,6 +2,14 @@
 {{- $lazyLoading := .Page.Site.Params.enableImageLazyLoading | default true -}}
 {{- $dest := .Destination -}}
 {{- $url := urls.Parse $dest -}}
+{{- $isBioDaily := false -}}
+{{- with .Page.File -}}
+  {{- $directory := replace .Dir "\\" "/" -}}
+  {{- $isBioDaily = and
+    (gt (len (findRE "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" .BaseFileName)) 0)
+    (gt (len (findRE "^[0-9]{4}-[0-9]{2}/$" $directory)) 0)
+  -}}
+{{- end -}}
 
 {{- $scheme := lower $url.Scheme -}}
 {{- $isLocal := and (not $url.Scheme) (not $url.Host) -}}
@@ -43,10 +51,17 @@
   {{- end -}}
 {{- end -}}
 
-{{- with .Title -}}
-  <figure>
-    <img src="{{ $dest | safeURL }}" title="{{ . }}" alt="{{ $alt }}" {{ $attributes | safeHTMLAttr }} {{ if $lazyLoading }}loading="lazy"{{ end }} />
-    <figcaption>{{ . }}</figcaption>
+{{- $caption := .Title -}}
+{{- if and $isBioDaily (not $caption) (not (findRE `(?i)^(image|图片|配图|AI资讯图片)$` (.PlainText | strings.TrimSpace))) -}}
+  {{- $caption = .PlainText -}}
+{{- end -}}
+
+{{- if or $isBioDaily $caption -}}
+  <figure{{ if $isBioDaily }} class="bio-daily-figure"{{ end }}>
+    <img src="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }} alt="{{ $alt }}" {{ $attributes | safeHTMLAttr }} {{ if $lazyLoading }}loading="lazy"{{ end }} />
+    {{- with $caption }}
+      <figcaption>{{ . }}</figcaption>
+    {{- end }}
   </figure>
 {{- else -}}
   <img src="{{ $dest | safeURL }}" alt="{{ $alt }}" {{ $attributes | safeHTMLAttr }} {{ if $lazyLoading }}loading="lazy"{{ end }} />

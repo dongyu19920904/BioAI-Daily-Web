@@ -7,22 +7,65 @@
 {{- else -}}
   {{- $dateText = $date.Format "2006-01-02" -}}
 {{- end -}}
+{{- $evidenceSummary := .Params.evidenceSummary | default "逐条说明研究设计与局限" -}}
+{{- $high := 0 -}}
+{{- $medium := 0 -}}
+{{- $preliminary := 0 -}}
+{{- $highMatch := findRESubmatch `高\s+([0-9]+)` $evidenceSummary -}}
+{{- $mediumMatch := findRESubmatch `中\s+([0-9]+)` $evidenceSummary -}}
+{{- $preliminaryMatch := findRESubmatch `初步\s+([0-9]+)` $evidenceSummary -}}
+{{- if gt (len $highMatch) 0 -}}{{- $high = int (index (index $highMatch 0) 1) -}}{{- end -}}
+{{- if gt (len $mediumMatch) 0 -}}{{- $medium = int (index (index $mediumMatch 0) 1) -}}{{- end -}}
+{{- if gt (len $preliminaryMatch) 0 -}}{{- $preliminary = int (index (index $preliminaryMatch 0) 1) -}}{{- end -}}
+{{- $total := add (add $high $medium) $preliminary -}}
+{{- $chartWidth := 320 -}}
+{{- $highWidth := 0 -}}
+{{- $mediumWidth := 0 -}}
+{{- $preliminaryWidth := 0 -}}
+{{- if gt $total 0 -}}
+  {{- $highWidth = div (mul $high $chartWidth) $total -}}
+  {{- $mediumWidth = div (mul $medium $chartWidth) $total -}}
+  {{- $preliminaryWidth = sub $chartWidth (add $highWidth $mediumWidth) -}}
+{{- end -}}
 
 <header class="bio-daily-masthead">
   <div class="bio-daily-masthead__kicker">
-    <span aria-hidden="true">EVIDENCE BRIEF</span>
-    <span class="bio-daily-masthead__signal" aria-hidden="true"></span>
-    <span>AI × LONGEVITY</span>
+    <span class="bio-daily-masthead__kicker-icon" aria-hidden="true">{{ partial "utils/icon.html" (dict "name" "beaker" "attributes" "width=17 height=17") }}</span>
+    <span>Longevity Evidence Desk</span>
   </div>
   <h1>AI 生命延续学日报</h1>
-  <p class="bio-daily-masthead__deck">读懂今天的研究信号，也看清证据还没有走到哪里。</p>
-  <dl class="bio-daily-masthead__facts">
-    <div><dt>今日证据</dt><dd>{{ .Params.evidenceSummary | default "逐条说明研究设计与局限" }}</dd></div>
-    <div><dt>距离应用</dt><dd>{{ .Params.applicationDistance | default "研究与验证阶段，不能用于个人医疗决策" }}</dd></div>
-  </dl>
-  <div class="bio-daily-masthead__meta">
-    <time datetime="{{ if not $date.IsZero }}{{ $date.Format "2006-01-02" }}{{ end }}">{{ $dateText }}</time>
-    <span>编辑：{{ .Params.editor | default "AI生命延续学编辑部" }}</span>
-    <span>阅读约 {{ $readingMinutes }} 分钟</span>
+  <p class="bio-daily-masthead__deck">先看今天真正发生了什么，再判断证据有多强、距离实际应用还有多远。</p>
+  <section class="bio-evidence-overview" aria-label="本期证据概览">
+    <div class="bio-evidence-overview__copy">
+      <span>今日证据</span>
+      <strong>{{ $evidenceSummary }}</strong>
+      <p>{{ .Params.applicationDistance | default "研究与验证阶段，不能用于个人医疗决策" }}</p>
+    </div>
+    <figure>
+      <figcaption id="bio-evidence-chart-title">证据构成</figcaption>
+      {{- if gt $total 0 }}
+        <svg viewBox="0 0 320 20" role="img" aria-labelledby="bio-evidence-chart-title bio-evidence-chart-desc">
+          <desc id="bio-evidence-chart-desc">高证据 {{ $high }} 条，中等证据 {{ $medium }} 条，初步证据 {{ $preliminary }} 条。</desc>
+          <rect class="bio-evidence-overview__track" x="0" y="3" width="320" height="14"></rect>
+          {{- if gt $highWidth 0 }}<rect class="bio-evidence-overview__high" x="0" y="3" width="{{ $highWidth }}" height="14"></rect>{{ end -}}
+          {{- if gt $mediumWidth 0 }}<rect class="bio-evidence-overview__medium" x="{{ $highWidth }}" y="3" width="{{ $mediumWidth }}" height="14"></rect>{{ end -}}
+          {{- if gt $preliminaryWidth 0 }}<rect class="bio-evidence-overview__preliminary" x="{{ add $highWidth $mediumWidth }}" y="3" width="{{ $preliminaryWidth }}" height="14"></rect>{{ end -}}
+        </svg>
+        <div class="bio-evidence-overview__legend" aria-hidden="true">
+          <span class="bio-evidence-overview__legend-high"><i></i>高 {{ $high }}</span>
+          <span class="bio-evidence-overview__legend-medium"><i></i>中 {{ $medium }}</span>
+          <span class="bio-evidence-overview__legend-preliminary"><i></i>初步 {{ $preliminary }}</span>
+        </div>
+      {{- else }}
+        <div class="bio-evidence-overview__legend">证据等级见各条正文说明</div>
+      {{- end }}
+    </figure>
+  </section>
+  <div class="bio-daily-masthead__footer">
+    <span class="bio-daily-masthead__date" aria-label="发布日期 {{ $dateText }}">{{ $dateText }}</span>
+    <div class="bio-daily-masthead__meta">
+      <span>{{ partial "utils/icon.html" (dict "name" "user" "attributes" "width=15 height=15") }}编辑：{{ .Params.editor | default "AI生命延续学编辑部" }}</span>
+      <span>{{ partial "utils/icon.html" (dict "name" "clock" "attributes" "width=15 height=15") }}阅读约 {{ $readingMinutes }} 分钟</span>
+    </div>
   </div>
 </header>

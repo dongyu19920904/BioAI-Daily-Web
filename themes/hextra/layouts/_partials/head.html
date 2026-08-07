@@ -24,10 +24,12 @@
   {{- if $isLatestRedirect -}}
     {{- $latestDailyURL := partial "custom/latest-daily-url.html" (dict "currentPage" .) -}}
     <link rel="canonical" href="{{ $latestDailyURL | absURL }}" itemprop="url" />
-  {{- else with .Params.canonical -}}
-    <link rel="canonical" href="{{ . }}" itemprop="url" />
   {{- else -}}
-    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    {{- with .Params.canonical -}}
+      <link rel="canonical" href="{{ . }}" itemprop="url" />
+    {{- else -}}
+      <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    {{- end -}}
   {{- end -}}
 
   {{- partial "opengraph.html" . -}}
@@ -36,11 +38,12 @@
 
   {{- $mainCss := resources.Get "css/compiled/main.css" -}}
   {{- $customCss := resources.Get "css/custom.css" -}}
+  {{- $bioDailyCss := resources.Get "css/bio-daily-v2.css" -}}
   {{- $variablesCss := resources.Get "css/variables.css" | resources.ExecuteAsTemplate "css/variables.css" . -}}
 
   {{- /* Production build */ -}}
   {{- if hugo.IsProduction }}
-    {{- $styles := slice $variablesCss $mainCss $customCss | resources.Concat "css/compiled/main.css" | minify | fingerprint }}
+    {{- $styles := slice $variablesCss $mainCss $customCss $bioDailyCss | resources.Concat "css/compiled/main.css" | minify | fingerprint }}
     <link rel="preload" href="{{ $styles.RelPermalink }}" as="style" integrity="{{ $styles.Data.Integrity }}" />
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
 
@@ -50,6 +53,7 @@
     <link href="{{ $devStyles.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $variablesCss.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $customCss.RelPermalink }}" rel="stylesheet" />
+    <link href="{{ $bioDailyCss.RelPermalink }}" rel="stylesheet" />
 
   {{- /* User local development */ -}}
   {{- else }}
@@ -57,6 +61,7 @@
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $variablesCss.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $customCss.RelPermalink }}" rel="stylesheet" />
+    <link href="{{ $bioDailyCss.RelPermalink }}" rel="stylesheet" />
   {{- end }}
 
   {{ partial "components/analytics/analytics.html" . }}

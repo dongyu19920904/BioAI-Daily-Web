@@ -39,10 +39,26 @@ test('evidence links remain crawlable and store links are sponsored', () => {
 });
 
 test('daily typography keeps unified Chinese reading fonts and 16px mobile body', () => {
-  const css = read('assets/css/custom.css');
-  assert.match(css, /\.bio-daily-layout[\s\S]*Microsoft YaHei UI[\s\S]*PingFang SC[\s\S]*Noto Sans CJK SC/);
+  const css = `${read('tokens.css')}\n${read('assets/css/bio-daily-v2.css')}`;
+  assert.match(css, /--bio-v2-reading:[\s\S]*Microsoft YaHei UI[\s\S]*PingFang SC[\s\S]*Noto Sans CJK SC/);
+  assert.match(css, /\.bio-daily-layout[\s\S]*font-family:\s*var\(--bio-v2-reading\)/);
   assert.match(css, /@media \(max-width: 767px\)[\s\S]*\.bio-daily-content[\s\S]*font-size:\s*1rem/);
-  assert.match(css, /\.bio-daily-content figcaption/);
+  assert.match(css, /\.bio-daily-content figure\.bio-daily-figure figcaption/);
+});
+
+test('daily visual system includes factual evidence SVG, figure captions and local font licenses', () => {
+  const masthead = read('layouts/_partials/custom/bio-daily-masthead.html');
+  const renderer = read('layouts/_default/_markup/render-image.html');
+  const css = read('assets/css/bio-daily-v2.css');
+  assert.match(masthead, /bio-evidence-overview/);
+  assert.match(masthead, /<svg[\s\S]*<desc/);
+  assert.match(masthead, /evidenceSummary/);
+  assert.match(renderer, /class="bio-daily-figure"/);
+  assert.match(renderer, /figcaption/);
+  assert.match(css, /--bio-v2-source/);
+  assert.doesNotMatch(css, /linear-gradient|radial-gradient/);
+  assert.doesNotThrow(() => read('static/fonts/daily/OFL-Rajdhani.txt'));
+  assert.doesNotThrow(() => read('static/fonts/daily/OFL-Roboto-Mono.txt'));
 });
 
 test('site home redirects to the latest published date without a hard-coded date', () => {
