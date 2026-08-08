@@ -2,10 +2,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {{- $noindex := .Params.noindex | default false -}}
-  {{- $isLatestRedirect := .IsHome -}}
-  {{ if $isLatestRedirect -}}
-    <meta name="robots" content="noindex, follow" />
-  {{ else if and (hugo.IsProduction) (not $noindex) -}}
+  {{ if and (hugo.IsProduction) (not $noindex) -}}
     <meta name="robots" content="index, follow" />
   {{ else -}}
     <meta name="robots" content="noindex, nofollow" />
@@ -21,15 +18,10 @@
   </title>
   <meta name="description" content="{{ partial "utils/page-description.html" . }}" />
 
-  {{- if $isLatestRedirect -}}
-    {{- $latestDailyURL := partial "custom/latest-daily-url.html" (dict "currentPage" .) -}}
-    <link rel="canonical" href="{{ $latestDailyURL | absURL }}" itemprop="url" />
+  {{- with .Params.canonical -}}
+    <link rel="canonical" href="{{ . }}" itemprop="url" />
   {{- else -}}
-    {{- with .Params.canonical -}}
-      <link rel="canonical" href="{{ . }}" itemprop="url" />
-    {{- else -}}
-      <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
-    {{- end -}}
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
   {{- end -}}
 
   {{- partial "opengraph.html" . -}}
@@ -38,12 +30,11 @@
 
   {{- $mainCss := resources.Get "css/compiled/main.css" -}}
   {{- $customCss := resources.Get "css/custom.css" -}}
-  {{- $bioDailyCss := resources.Get "css/bio-daily-v2.css" -}}
   {{- $variablesCss := resources.Get "css/variables.css" | resources.ExecuteAsTemplate "css/variables.css" . -}}
 
   {{- /* Production build */ -}}
   {{- if hugo.IsProduction }}
-    {{- $styles := slice $variablesCss $mainCss $customCss $bioDailyCss | resources.Concat "css/compiled/main.css" | minify | fingerprint }}
+    {{- $styles := slice $variablesCss $mainCss $customCss | resources.Concat "css/compiled/main.css" | minify | fingerprint }}
     <link rel="preload" href="{{ $styles.RelPermalink }}" as="style" integrity="{{ $styles.Data.Integrity }}" />
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
 
@@ -53,7 +44,6 @@
     <link href="{{ $devStyles.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $variablesCss.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $customCss.RelPermalink }}" rel="stylesheet" />
-    <link href="{{ $bioDailyCss.RelPermalink }}" rel="stylesheet" />
 
   {{- /* User local development */ -}}
   {{- else }}
@@ -61,7 +51,6 @@
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $variablesCss.RelPermalink }}" rel="stylesheet" />
     <link href="{{ $customCss.RelPermalink }}" rel="stylesheet" />
-    <link href="{{ $bioDailyCss.RelPermalink }}" rel="stylesheet" />
   {{- end }}
 
   {{ partial "components/analytics/analytics.html" . }}
