@@ -16,6 +16,7 @@
         <div class="content">
           {{ .Content }}
         </div>
+        {{ partial "custom/ai-longevity-radar-entry.html" . }}
         {{ if ne .Section "opportunity" }}
           {{ partial "custom/ai-opportunity-entry.html" . }}
         {{ end }}

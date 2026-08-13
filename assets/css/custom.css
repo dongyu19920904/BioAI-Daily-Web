@@ -1334,3 +1334,89 @@ html.dark .bio-timeline__filters button.is-active {
     transition: none;
   }
 }
+.bioai-radar-entry {
+  margin-top: 2.5rem;
+  padding: clamp(1.1rem, 3vw, 1.7rem);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, rgba(240, 253, 250, 0.94), rgba(255, 255, 255, 0.88));
+  box-shadow: 0 24px 58px -46px rgba(15, 23, 42, 0.4);
+}
+
+.bioai-radar-entry__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.bioai-radar-entry__head h2 {
+  margin: 0.35rem 0 0;
+  font-size: clamp(1.35rem, 4vw, 1.85rem);
+}
+
+.bioai-radar-entry__head > a {
+  color: #0f766e;
+  font-weight: 700;
+}
+
+.bioai-radar-entry__eyebrow,
+.bioai-radar-entry__status,
+.bioai-radar-entry__boundary {
+  color: #64748b;
+  font-size: 0.78rem;
+}
+
+.bioai-radar-entry__eyebrow {
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.bioai-radar-entry__intro {
+  margin: 1rem 0 0;
+  color: #334155;
+}
+
+.bioai-radar-entry__status {
+  margin-top: 1rem;
+}
+
+.bioai-radar-entry__list {
+  display: grid;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  gap: 0.65rem;
+  list-style: none;
+}
+
+.bioai-radar-entry__list li {
+  display: grid;
+  padding: 0.75rem 0;
+  gap: 0.25rem;
+  border-top: 1px solid rgba(13, 148, 136, 0.14);
+}
+
+.bioai-radar-entry__list a {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.bioai-radar-entry__list span {
+  color: #64748b;
+  font-size: 0.75rem;
+}
+
+.bioai-radar-entry__boundary {
+  margin: 1rem 0 0;
+}
+
+.dark .bioai-radar-entry {
+  border-color: rgba(45, 212, 191, 0.24);
+  background: linear-gradient(135deg, rgba(19, 78, 74, 0.35), rgba(15, 23, 42, 0.92));
+}
+
+.dark .bioai-radar-entry__intro,
+.dark .bioai-radar-entry__list a {
+  color: #e2e8f0;
+}

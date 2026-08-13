@@ -46,6 +46,10 @@ menu:
       name: AI 时间线
       pageRef: /timeline
       weight: 1.7
+    - identifier: longevity-radar
+      name: AI生命延续学雷达
+      url: "https://radar.aibioo.cn/"
+      weight: 1.8
     - identifier: personal-home
       name: 个人主页
       weight: 2

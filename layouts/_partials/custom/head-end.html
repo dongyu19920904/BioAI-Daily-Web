@@ -41,8 +41,51 @@
     t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
     y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 })(window, document, "clarity", "script", "{{- .Site.Params.clarityID | safeJS -}}");    
-</script>    
-{{- end -}}   
+</script>
+{{- end -}}
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('[data-bioai-radar-entry]').forEach(async function (entry) {
+    const status = entry.querySelector('[data-bioai-radar-status]');
+    const list = entry.querySelector('[data-bioai-radar-list]');
+    const endpoint = entry.getAttribute('data-endpoint');
+    try {
+      const response = await fetch(endpoint, { headers: { Accept: 'application/json' } });
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      const payload = await response.json();
+      const items = Array.isArray(payload.items) ? payload.items.slice(0, 3) : [];
+      if (!items.length) throw new Error('暂无双相关信号');
+      const fragment = document.createDocumentFragment();
+      items.forEach(function (item) {
+        let url;
+        try {
+          url = new URL(item.url);
+          if (url.protocol !== 'https:' && url.protocol !== 'http:') return;
+        } catch (_) {
+          return;
+        }
+        const row = document.createElement('li');
+        const link = document.createElement('a');
+        const meta = document.createElement('span');
+        link.href = url.href;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = item.title_zh || item.title || item.title_en || '未命名信号';
+        meta.textContent = [item.source, item.primary_topic, item.publication_stage].filter(Boolean).join(' · ');
+        row.append(link, meta);
+        fragment.appendChild(row);
+      });
+      if (!fragment.childNodes.length) throw new Error('没有安全的公开链接');
+      list.replaceChildren(fragment);
+      list.hidden = false;
+      status.textContent = '雷达刚刚返回的公开信号';
+    } catch (_) {
+      status.textContent = '雷达公开 JSON 暂不可用；可直接打开独立网站查看。';
+    }
+  });
+});
+</script>
 
 
 <!-- 广告屏蔽器弹窗已移除 - 爱窝啦品牌版本 -->
