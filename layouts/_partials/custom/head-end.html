@@ -9,7 +9,9 @@
 
 {{ if .IsTranslated }}
   {{ range .AllTranslations }}
-    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+    {{ if not (.Params.noindex | default false) }}
+      <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+    {{ end }}
   {{ end }}
 {{ end }}
 
@@ -120,6 +122,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 2. 遍历每个元素
     timeElements.forEach(timeEl => {
+        if (timeEl.hasAttribute('data-fixed-date')) {
+            return; // 时间线期次只显示日期，不扩展为本地时间
+        }
+
         // 3. 获取 UTC 时间字符串
         const utcDateTime = timeEl.getAttribute('datetime');
         if (!utcDateTime) {

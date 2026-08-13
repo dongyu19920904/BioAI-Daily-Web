@@ -1,0 +1,213 @@
+{{ define "main" }}
+  {{- $timelineData := partial "timeline/collect-bioai-signals.html" (dict "context" . "issueLimit" 14 "maxNodesPerDay" 2) -}}
+  {{- $timelinePages := index $timelineData "pages" -}}
+  {{- $signals := index $timelineData "signals" -}}
+
+  {{- $signalDates := slice -}}
+  {{- range $signals -}}
+    {{- if not (in $signalDates .date) -}}
+      {{- $signalDates = $signalDates | append .date -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $schemaItems := slice -}}
+  {{- range $index, $signal := $signals -}}
+    {{- $schemaItem := dict "@type" "Thing" "name" $signal.title "url" $signal.url -}}
+    {{- with $signal.summary -}}
+      {{- $schemaItem = merge $schemaItem (dict "description" .) -}}
+    {{- end -}}
+    {{- $schemaItems = $schemaItems | append (dict
+      "@type" "ListItem"
+      "position" (add $index 1)
+      "item" $schemaItem
+    ) -}}
+  {{- end -}}
+
+  {{- $timelineItemList := dict
+    "@type" "ItemList"
+    "name" "AI 生命延续学日报关键进展"
+    "numberOfItems" (len $schemaItems)
+    "itemListOrder" "https://schema.org/ItemListOrderDescending"
+    "itemListElement" $schemaItems
+  -}}
+  {{- $timelineSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "@id" (printf "%s#bioai-timeline" .Permalink)
+    "url" .Permalink
+    "name" .Title
+    "description" .Description
+    "inLanguage" (.Site.Language.LanguageCode | default .Lang)
+    "isAccessibleForFree" true
+    "mainEntity" $timelineItemList
+  -}}
+  {{- with index $timelinePages 0 -}}
+    {{- $latestDate := time.AsTime (printf "%sT00:00:00+08:00" .File.BaseFileName) -}}
+    {{- $timelineSchema = merge $timelineSchema (dict "dateModified" ($latestDate.Format "2006-01-02T15:04:05-07:00")) -}}
+  {{- end -}}
+
+  {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+
+  <script type="application/ld+json">
+  {{ $timelineSchema }}
+  </script>
+
+  <main class="bio-timeline" data-bio-timeline>
+    <header class="bio-timeline__hero">
+      <p class="bio-timeline__eyebrow">BIOAI EVIDENCE STREAM</p>
+      <h1>AI 生命延续学时间线</h1>
+      <p class="bio-timeline__lead">{{ .Description }}</p>
+      <div class="bio-timeline__stats" aria-label="时间线概况">
+        <span>最近 {{ len $timelinePages }} 期</span>
+        {{- with index $timelinePages 0 -}}
+          <span>更新于 {{ replace .File.BaseFileName "-" "." }}</span>
+        {{- end -}}
+        <span>{{ len $signals }} 个关键节点</span>
+      </div>
+    </header>
+
+    <section class="bio-timeline__method" aria-labelledby="bio-timeline-method-title">
+      <div>
+        <p class="bio-timeline__method-label">收录方法</p>
+        <h2 id="bio-timeline-method-title">从日报中提炼可核查的生命延续学进展</h2>
+      </div>
+      <p>页面读取最近 14 个已发布期次，每期最多保留 TOP 2，并按来源 URL 去重。只收录日报“重磅 TOP”中的事实节点，趋势预测、趣闻、FAQ、广告和无外部来源条目不会进入时间线。</p>
+      <p class="bio-timeline__notice"><strong>边界说明：</strong>卡片上的“来源类型”用于说明链接性质，不代表医学证据等级。本站提供资讯整理与研究线索，不构成医疗、诊断、治疗或抗衰建议。</p>
+    </section>
+
+    <div class="bio-timeline__console" aria-label="时间线筛选">
+      <label class="bio-timeline__search">
+        {{ partial "utils/icon.html" (dict "name" "search" "attributes" "width=18 height=18") }}
+        <span class="sr-only">搜索时间线</span>
+        <input type="search" placeholder="搜索标题、摘要或来源…" autocomplete="off" data-timeline-query>
+      </label>
+      <div class="bio-timeline__filters" role="group" aria-label="按主题筛选">
+        <button type="button" class="is-active" data-timeline-category="" aria-pressed="true">全部</button>
+        <button type="button" data-timeline-category="mechanism" aria-pressed="false">衰老机制</button>
+        <button type="button" data-timeline-category="biological-age" aria-pressed="false">生物年龄</button>
+        <button type="button" data-timeline-category="intervention" aria-pressed="false">干预药物</button>
+        <button type="button" data-timeline-category="clinical" aria-pressed="false">临床监管</button>
+        <button type="button" data-timeline-category="ai-tools" aria-pressed="false">AI 方法</button>
+      </div>
+      <output class="bio-timeline__count" data-timeline-count>{{ len $signals }} 个节点</output>
+    </div>
+
+    <div class="bio-timeline__stream" aria-live="polite">
+      {{- $renderCounter := newScratch -}}
+      {{- $renderCounter.Set "value" 0 -}}
+      {{- range $dateIndex, $date := $signalDates -}}
+        {{- $dateSignals := where $signals "date" $date -}}
+        <section class="bio-timeline-session" data-timeline-session data-date="{{ $date }}">
+          <header class="bio-timeline-session__header">
+            <time datetime="{{ $date }}" data-fixed-date>{{ replace $date "-" "." }}</time>
+            <span>{{ len $dateSignals }} 个节点</span>
+            {{- if eq $dateIndex 0 -}}<b>最新一期</b>{{- end -}}
+          </header>
+          <div class="bio-timeline-session__items">
+            {{- range $dateSignals -}}
+              {{- $order := $renderCounter.Get "value" -}}
+              {{- $renderCounter.Add "value" 1 -}}
+              <article class="bio-signal-card bio-signal-card--{{ .category }}"
+                data-timeline-item
+                data-category="{{ .category }}"
+                data-order="{{ $order }}"
+                {{ if ge $order 12 }}hidden{{ end }}>
+                <div class="bio-signal-card__meta">
+                  <span class="bio-signal-card__category">{{ .categoryLabel }}</span>
+                  <span class="bio-signal-card__source-kind">{{ .sourceKind }}</span>
+                  <span class="bio-signal-card__source">{{ .source }}</span>
+                </div>
+                <h2>{{ .title }}</h2>
+                {{- with .summary -}}<p>{{ . }}</p>{{- end -}}
+                <footer class="bio-signal-card__footer">
+                  <span class="bio-signal-card__rank">当期 TOP {{ .rank }}</span>
+                  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="查看来源证据：{{ .title }}">
+                    来源证据
+                    {{ partial "utils/icon.html" (dict "name" "external-link" "attributes" "width=13 height=13") }}
+                  </a>
+                  <a href="{{ .pageURL }}">日报上下文</a>
+                </footer>
+              </article>
+            {{- end -}}
+          </div>
+        </section>
+      {{- end -}}
+    </div>
+
+    <div class="bio-timeline__empty" data-timeline-empty hidden>
+      <strong>没有匹配的关键节点</strong>
+      <span>换一个关键词或主题再试试。</span>
+    </div>
+
+    <button class="bio-timeline__load" type="button" data-timeline-load>
+      加载更多节点
+      {{ partial "utils/icon.html" (dict "name" "arrow-down" "attributes" "width=16 height=16") }}
+    </button>
+  </main>
+
+  <script>
+    (() => {
+      const root = document.querySelector("[data-bio-timeline]");
+      if (!root) return;
+
+      const batchSize = 12;
+      const queryInput = root.querySelector("[data-timeline-query]");
+      const categoryButtons = Array.from(root.querySelectorAll("[data-timeline-category]"));
+      const countOutput = root.querySelector("[data-timeline-count]");
+      const emptyState = root.querySelector("[data-timeline-empty]");
+      const loadButton = root.querySelector("[data-timeline-load]");
+      const sessions = Array.from(root.querySelectorAll("[data-timeline-session]"));
+      const items = Array.from(root.querySelectorAll("[data-timeline-item]"));
+      let activeCategory = "";
+      let visibleLimit = batchSize;
+
+      const applyFilters = () => {
+        const query = queryInput.value.trim().toLocaleLowerCase("zh-CN");
+        const isFiltering = Boolean(query || activeCategory);
+        let matchedCount = 0;
+
+        items.forEach((item) => {
+          const matchesQuery = !query || item.textContent.toLocaleLowerCase("zh-CN").includes(query);
+          const matchesCategory = !activeCategory || item.dataset.category === activeCategory;
+          const matches = matchesQuery && matchesCategory;
+          const visible = matches && (isFiltering || matchedCount < visibleLimit);
+          item.hidden = !visible;
+          if (matches) matchedCount += 1;
+        });
+
+        sessions.forEach((session) => {
+          session.hidden = !session.querySelector("[data-timeline-item]:not([hidden])");
+        });
+
+        countOutput.textContent = `${matchedCount} 个节点`;
+        emptyState.hidden = matchedCount !== 0;
+        loadButton.hidden = isFiltering || visibleLimit >= matchedCount;
+      };
+
+      queryInput.addEventListener("input", () => {
+        visibleLimit = batchSize;
+        applyFilters();
+      });
+
+      categoryButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeCategory = button.dataset.timelineCategory;
+          visibleLimit = batchSize;
+          categoryButtons.forEach((candidate) => {
+            const active = candidate === button;
+            candidate.classList.toggle("is-active", active);
+            candidate.setAttribute("aria-pressed", String(active));
+          });
+          applyFilters();
+        });
+      });
+
+      loadButton.addEventListener("click", () => {
+        visibleLimit += batchSize;
+        applyFilters();
+      });
+
+      applyFilters();
+    })();
+  </script>
+{{ end }}

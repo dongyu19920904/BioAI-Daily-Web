@@ -59,6 +59,12 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run frontend contract tests
+        run: node --test tests/*.test.cjs
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -68,6 +74,8 @@ jobs:
           hugo \
             --gc --minify --ignoreCache \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Verify BioAI timeline artifact
+        run: node scripts/verify-bioai-timeline.cjs public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

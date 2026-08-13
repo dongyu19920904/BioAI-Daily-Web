@@ -35,7 +35,7 @@ jobs:
           cp -vf content/cn/terms-of-service.md content/ja/terms-of-service.md || echo "Warning: content/cn/terms-of-service.md not found."
 
           echo "正在处理任意深度子目录下的 _index.md (不使用 nullglob)..."
-          find content/cn/ -type f -name "_index.md" -print0 | while IFS= read -r -d $'\0' src_file; do
+          find content/cn/ -type f -name "_index.md" ! -path "content/cn/timeline/_index.md" -print0 | while IFS= read -r -d $'\0' src_file; do
             # src_file 会是例如: content/cn/some/subdir/2025/_index.md
             # 这一步 find 已经确保了 src_file 是一个实际存在的文件，所以不需要额外的 -f 检查
             
@@ -60,7 +60,7 @@ jobs:
         run: |
           echo "Syncing other new files, ignoring existing ones..."
           rsync_output_file="rsync_created_files.txt"
-          rsync -avi --ignore-existing --exclude 'about.md' content/cn/ content/ja/ | \
+          rsync -avi --ignore-existing --exclude 'about.md' --exclude 'timeline/' content/cn/ content/ja/ | \
             grep '^>f\S* ' | awk '{print $2}' > "$rsync_output_file"
           echo "Rsync reported these new files (relative to content/ja/):"
           cat "$rsync_output_file"

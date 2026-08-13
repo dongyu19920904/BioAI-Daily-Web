@@ -1,0 +1,107 @@
+{{- $context := .context -}}
+{{- $issueLimit := .issueLimit | default 14 -}}
+{{- $maxNodesPerDay := .maxNodesPerDay | default 2 -}}
+{{- $dailyPages := slice -}}
+
+{{- range $context.Site.RegularPages -}}
+  {{- if and .File (findRE `^[0-9]{4}-[0-9]{2}$` .Section) (findRE `^[0-9]{4}-[0-9]{2}-[0-9]{2}$` .File.BaseFileName) -}}
+    {{- $dailyPages = $dailyPages | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $dailyPages = sort $dailyPages "File.Path" "desc" -}}
+{{- $timelinePages := first $issueLimit $dailyPages -}}
+{{- $signals := slice -}}
+{{- $seenURLs := newScratch -}}
+
+{{- range $page := $timelinePages -}}
+  {{- $dailyNodeCount := 0 -}}
+  {{- $raw := replace $page.RawContent "\r\n" "\n" -}}
+  {{- $sectionChunks := after 1 (split (replaceRE `(?m)^##\s+` "@@BIO_SECTION@@" $raw) "@@BIO_SECTION@@") -}}
+
+  {{- range $sectionChunk := $sectionChunks -}}
+    {{- $sectionLines := split $sectionChunk "\n" -}}
+    {{- $sectionHeading := trim (index $sectionLines 0) " *#\t\r" -}}
+    {{- $sectionHeadingLower := lower $sectionHeading -}}
+
+    {{- if and (in $sectionHeadingLower "top") (or (in $sectionHeading "重磅") (in $sectionHeading "焦点")) -}}
+      {{- $sectionBody := delimit (after 1 $sectionLines) "\n" -}}
+      {{- $itemPattern := `(?m)^\*\*\s*([0-9]+)\.\s+\[([^\]]+)\]\((https?://[^)\s]+)(?:\s+"[^"]*")?\)\s*\*\*\s*$` -}}
+      {{- $itemBody := replaceRE $itemPattern "@@BIO_ITEM@@$1\t$2\t$3" $sectionBody -}}
+      {{- $itemChunks := after 1 (split $itemBody "@@BIO_ITEM@@") -}}
+
+      {{- range $itemChunk := $itemChunks -}}
+        {{- $itemLines := split $itemChunk "\n" -}}
+        {{- $itemFields := split (index $itemLines 0) "\t" -}}
+
+        {{- if ge (len $itemFields) 3 -}}
+          {{- $rank := int (index $itemFields 0) -}}
+          {{- $title := trim (index $itemFields 1) " *#\t\r" -}}
+          {{- $url := trim (index $itemFields 2) " \t\r" -}}
+          {{- $body := delimit (after 1 $itemLines) "\n" -}}
+
+          {{- if and (le $rank $maxNodesPerDay) (lt $dailyNodeCount $maxNodesPerDay) -}}
+            {{- $urlKey := lower (replaceRE `[#?].*$` "" (replaceRE `/+$` "" $url)) -}}
+            {{- if and $urlKey (not ($seenURLs.Get $urlKey)) -}}
+              {{- $seenURLs.Set $urlKey true -}}
+              {{- $dailyNodeCount = add $dailyNodeCount 1 -}}
+
+              {{- $bodyClean := replaceRE `(?s)<video.*?</video>` "" $body -}}
+              {{- $bodyClean = replaceRE `(?s)<img.*?>` "" $bodyClean -}}
+              {{- $bodyClean = replaceRE `!\[[^\]]*\]\([^)]+\)` "" $bodyClean -}}
+              {{- $bodyClean = replaceRE `(?m)^---\s*$` "" $bodyClean -}}
+              {{- $summary := trim (replaceRE `\s+` " " ($bodyClean | markdownify | plainify)) " " -}}
+              {{- $classificationText := lower (printf "%s %s" $title $bodyClean) -}}
+
+              {{- $category := "ai-tools" -}}
+              {{- $categoryLabel := "AI 方法与工具" -}}
+              {{- if or (in $classificationText "临床") (in $classificationText "患者") (in $classificationText "诊断") (in $classificationText "监管") (in $classificationText "fda") (in $classificationText "clinical trial") -}}
+                {{- $category = "clinical" -}}
+                {{- $categoryLabel = "临床与监管" -}}
+              {{- else if or (in $classificationText "生物年龄") (in $classificationText "衰老时钟") (in $classificationText "老化时钟") (in $classificationText "aging clock") (in $classificationText "epigenetic clock") (in $classificationText "brain age") (in $classificationText "血管年龄") -}}
+                {{- $category = "biological-age" -}}
+                {{- $categoryLabel = "生物年龄" -}}
+              {{- else if or (in $classificationText "延寿") (in $classificationText "长寿药") (in $classificationText "抗衰") (in $classificationText "年轻化") (in $classificationText "干预") (in $classificationText "疗法") (in $classificationText "药物") (in $classificationText "靶点") (in $classificationText "senolytic") (in $classificationText "reprogramming") (in $classificationText "rapamycin") -}}
+                {{- $category = "intervention" -}}
+                {{- $categoryLabel = "干预与药物" -}}
+              {{- else if or (in $classificationText "衰老") (in $classificationText "机制") (in $classificationText "细胞衰老") (in $classificationText "端粒") (in $classificationText "线粒体") (in $classificationText "表观遗传") (in $classificationText "炎症") (in $classificationText "痴呆") (in $classificationText "阿尔茨海默") -}}
+                {{- $category = "mechanism" -}}
+                {{- $categoryLabel = "衰老机制" -}}
+              {{- end -}}
+
+              {{- $sourceHost := replaceRE `^https?://(?:www\.)?([^/]+).*$` "$1" $url -}}
+              {{- $sourceKind := "媒体 / 网站" -}}
+              {{- if or (in $sourceHost "arxiv.org") (in $sourceHost "doi.org") (in $sourceHost "pubmed.ncbi.nlm.nih.gov") (in $sourceHost "biorxiv.org") (in $sourceHost "medrxiv.org") -}}
+                {{- $sourceKind = "论文原文" -}}
+              {{- else if in $sourceHost "papers.cool" -}}
+                {{- $sourceKind = "论文索引" -}}
+              {{- else if or (in $sourceHost "clinicaltrials.gov") (in $sourceHost "chictr.org.cn") -}}
+                {{- $sourceKind = "临床注册" -}}
+              {{- else if in $sourceHost "github.com" -}}
+                {{- $sourceKind = "开源仓库" -}}
+              {{- else if or (hasSuffix $sourceHost ".gov") (hasSuffix $sourceHost ".edu") (in $sourceHost "who.int") -}}
+                {{- $sourceKind = "机构来源" -}}
+              {{- end -}}
+
+              {{- $signals = $signals | append (dict
+                "date" $page.File.BaseFileName
+                "pageTitle" $page.Title
+                "pageURL" $page.RelPermalink
+                "category" $category
+                "categoryLabel" $categoryLabel
+                "title" ($title | plainify)
+                "url" $url
+                "source" $sourceHost
+                "sourceKind" $sourceKind
+                "summary" ($summary | truncate 118)
+                "rank" $rank
+              ) -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict "pages" $timelinePages "signals" $signals) -}}
