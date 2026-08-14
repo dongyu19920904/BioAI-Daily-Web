@@ -74,8 +74,10 @@ jobs:
           hugo \
             --gc --minify --ignoreCache \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Verify BioAI timeline artifact
-        run: node scripts/verify-bioai-timeline.cjs public
+      - name: Verify production artifacts
+        run: |
+          node scripts/verify-bioai-timeline.cjs public
+          grep -Fq 'https://radar.aibioo.cn/data/briefing-lite.json' public/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
