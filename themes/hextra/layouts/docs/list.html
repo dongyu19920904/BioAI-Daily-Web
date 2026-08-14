@@ -9,6 +9,9 @@
           {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
           {{ .Content }}
         </div>
+        {{ if .IsHome }}
+          {{ partial "custom/ai-longevity-radar-entry.html" . }}
+        {{ end }}
         {{ partial "components/last-updated.html" . }}
         {{ partial "components/pager.html" . }}
         {{ partial "components/comments.html" . }}

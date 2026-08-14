@@ -7,14 +7,14 @@ const root = path.resolve(__dirname, '..');
 const read = (name) => fs.readFileSync(path.join(root, name), 'utf8');
 const config = read('hugo.yaml');
 const single = read('layouts/_default/single.html');
-const home = read('themes/hextra/layouts/home.html');
+const docsList = read('themes/hextra/layouts/docs/list.html');
 const partial = read('layouts/_partials/custom/ai-longevity-radar-entry.html');
 const head = read('layouts/_partials/custom/head-end.html');
 const pagesWorkflow = read('.github/workflows/pages.yaml');
 
 test('navigation, homepage, and articles link to the independent radar', () => {
   assert.match(config, /identifier: longevity-radar[\s\S]*https:\/\/radar\.aibioo\.cn\//);
-  assert.match(home, /custom\/ai-longevity-radar-entry\.html/);
+  assert.match(docsList, /if \.IsHome[\s\S]*custom\/ai-longevity-radar-entry\.html/);
   assert.match(single, /custom\/ai-longevity-radar-entry\.html/);
   assert.match(partial, /https:\/\/radar\.aibioo\.cn\//);
 });
