@@ -1,0 +1,35 @@
+{{- $isGeoReport := gt (len (findRE `^/(?:[a-z]{2}/)?(?:(?:opportunity|project-opportunity)/)?\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` .RelPermalink)) 0 -}}
+{{- $published := .PublishDate -}}
+{{- if $published.IsZero -}}
+  {{- $published = .Date -}}
+{{- end -}}
+{{- if and $published.IsZero .File -}}
+  {{- if gt (len (findRE `^\d{4}-\d{2}-\d{2}$` .File.ContentBaseName)) 0 -}}
+    {{- $published = time.AsTime (printf "%sT00:00:00+08:00" .File.ContentBaseName) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $isGeoReport -}}
+  <aside class="geo-citation-note" aria-label="编辑、日期与引用说明">
+    <div class="geo-citation-note__meta">
+      <span><strong>编辑：</strong>AI 生命延续学日报编辑部</span>
+      {{- if not $published.IsZero }}
+        <span><strong>发布日期：</strong><time datetime="{{ $published.Format "2006-01-02T15:04:05Z07:00" }}">{{ $published.Format "2006/01/02" }}</time></span>
+      {{- end }}
+      {{- if not .Lastmod.IsZero }}
+        <span><strong>更新时间：</strong><time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "2006/01/02 15:04" }}</time></span>
+      {{- end }}
+    </div>
+    <p class="geo-citation-note__review">AI 辅助整理，未经临床医学审阅；不构成医疗、诊断、治疗、用药或抗衰建议。</p>
+    <p class="geo-citation-note__guidance">
+      <strong>引用建议：</strong>引用本站解读时请保留文章标题、发布日期与
+      <a href="{{ .Permalink }}">本页规范链接</a>；医学事实请优先核对正文中的原始论文、机构或项目来源。
+    </p>
+  </aside>
+{{- else -}}
+  <div class="hx:mt-3 hx:text-center hx:text-sm hx:text-gray-500 hx:dark:text-gray-400">
+    <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+      更新时间：{{ .Lastmod.Format "2006/01/02 15:04" }}
+    </time>
+  </div>
+{{- end -}}

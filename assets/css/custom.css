@@ -1420,3 +1420,67 @@ html.dark .bio-timeline__filters button.is-active {
 .dark .bioai-radar-entry__list a {
   color: #e2e8f0;
 }
+
+/* Public, human-visible citation contract for BioAI report pages. */
+.geo-citation-note {
+  max-width: 54rem;
+  margin: 1rem auto 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(14, 116, 144, 0.2);
+  border-radius: 0.9rem;
+  background: linear-gradient(135deg, rgba(236, 254, 255, 0.82), rgba(248, 250, 252, 0.88));
+  color: #334155;
+  font-size: 0.82rem;
+  line-height: 1.65;
+  text-align: left;
+}
+
+.geo-citation-note__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+
+.geo-citation-note__meta strong,
+.geo-citation-note__guidance strong {
+  color: #0f172a;
+}
+
+.geo-citation-note__review,
+.geo-citation-note__guidance {
+  margin: 0.45rem 0 0;
+}
+
+.geo-citation-note a {
+  color: #0369a1;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.dark .geo-citation-note {
+  border-color: rgba(34, 211, 238, 0.24);
+  background: linear-gradient(135deg, rgba(8, 47, 73, 0.58), rgba(15, 23, 42, 0.9));
+  color: #cbd5e1;
+}
+
+.dark .geo-citation-note__meta strong,
+.dark .geo-citation-note__guidance strong {
+  color: #f1f5f9;
+}
+
+.dark .geo-citation-note a {
+  color: #67e8f9;
+}
+
+@media (max-width: 640px) {
+  .geo-citation-note {
+    padding: 0.8rem 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .geo-citation-note__meta {
+    display: grid;
+    gap: 0.2rem;
+  }
+}

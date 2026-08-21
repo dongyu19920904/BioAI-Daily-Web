@@ -936,17 +936,16 @@ html.dark .latest-section-surface__intro {
   {{- $name := .name | default $.Site.Title -}}
 
   {{- $publisherData := dict "@type" $type "name" $name -}}
+  {{- with .url -}}
+    {{- $publisherData = merge $publisherData (dict "url" ( . | absURL )) -}}
+  {{- end -}}
+  {{- with .sameAs -}}
+    {{- $publisherData = merge $publisherData (dict "sameAs" .) -}}
+  {{- end -}}
   {{- if eq $type "Organization" -}}
     {{- with .logo -}}
       {{- $logoData := dict "@type" "ImageObject" "url" ( . | absURL ) -}}
       {{- $publisherData = merge $publisherData (dict "logo" $logoData) -}}
-    {{- end -}}
-  {{- else if eq $type "Person" -}}
-    {{- with .url -}}
-      {{- $publisherData = merge $publisherData (dict "url" ( . | absURL )) -}}
-    {{- end -}}
-    {{- with .sameAs -}}
-      {{- $publisherData = merge $publisherData (dict "sameAs" .) -}}
     {{- end -}}
   {{- end -}}
   {{- $publisher = $publisherData -}}
@@ -965,7 +964,8 @@ html.dark .latest-section-surface__intro {
   {{- end -}}
 {{/* 2. Fallback to global author in hugo.yaml `params` */}}
 {{- else if .Site.Params.author -}}
-  {{- $author = dict "@type" "Person" "name" .Site.Params.author.name -}}
+  {{- $authorType := .Site.Params.author.type | default "Person" -}}
+  {{- $author = dict "@type" $authorType "name" .Site.Params.author.name -}}
   {{- with .Site.Params.author.website -}}
     {{- $author = merge $author (dict "url" ( . | absURL )) -}}
   {{- end -}}
@@ -992,15 +992,31 @@ html.dark .latest-section-surface__intro {
 </script>
 
 {{- else if .IsPage -}}
-  {{/* --- Article/TechArticle Schema --- */}}
+  {{/* --- Report articles and ordinary pages use truthful, distinct schema types. --- */}}
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
-  {{- $schema := dict "@context" "https://schema.org" "@type" "TechArticle" -}}
+  {{- $isReport := gt (len (findRE `^/(?:[a-z]{2}/)?(?:(?:opportunity|project-opportunity)/)?\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` .RelPermalink)) 0 -}}
+  {{- $schemaType := "WebPage" -}}
+  {{- if $isReport -}}
+    {{- $schemaType = "BlogPosting" -}}
+  {{- end -}}
+  {{- $schema := dict "@context" "https://schema.org" "@type" $schemaType -}}
   {{- $schema = merge $schema (dict
       "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
-      "headline" .Title
       "url" .Permalink
-      "wordCount" .WordCount
     ) -}}
+  {{- if $isReport -}}
+    {{- $schema = merge $schema (dict
+        "headline" .Title
+        "wordCount" .WordCount
+        "isAccessibleForFree" true
+      ) -}}
+  {{- else -}}
+    {{- $schema = merge $schema (dict "name" .Title) -}}
+  {{- end -}}
+
+  {{- with .Language.LanguageCode -}}
+    {{- $schema = merge $schema (dict "inLanguage" .) -}}
+  {{- end -}}
 
   {{- $docDesc := .Description | default "" -}}
   {{- $siteParamDesc := .Site.Params.description | default "" -}}
@@ -1022,32 +1038,42 @@ html.dark .latest-section-surface__intro {
     {{- end -}}
   {{- end -}}
 
-  {{- with .Type -}}
-    {{- $schema = merge $schema (dict "genre" .) -}}
-  {{- end -}}
-  {{- with .Params.tags -}}
-    {{- $schema = merge $schema (dict "keywords" (delimit . ", ")) -}}
-  {{- end -}}
-
-  {{- $published := .PublishDate | default .Date -}}
-  {{- if not $published.IsZero -}}
-    {{- $schema = merge $schema (dict "datePublished" ($published.Format $iso8601)) -}}
-  {{- end -}}
-  {{- with .Lastmod -}}
-    {{- if not .IsZero -}}
-      {{- $schema = merge $schema (dict "dateModified" (.Format $iso8601)) -}}
+  {{- if $isReport -}}
+    {{- with .Type -}}
+      {{- $schema = merge $schema (dict "genre" .) -}}
     {{- end -}}
-  {{- end -}}
+    {{- with .Params.tags -}}
+      {{- $schema = merge $schema (dict "keywords" (delimit . ", ")) -}}
+    {{- end -}}
 
-  {{- with .Site.Copyright -}}
-    {{- $schema = merge $schema (dict "license" .) -}}
-  {{- end -}}
+    {{- $published := .PublishDate -}}
+    {{- if $published.IsZero -}}
+      {{- $published = .Date -}}
+    {{- end -}}
+    {{- if and $published.IsZero .File -}}
+      {{- if gt (len (findRE `^\d{4}-\d{2}-\d{2}$` .File.ContentBaseName)) 0 -}}
+        {{- $published = time.AsTime (printf "%sT00:00:00+08:00" .File.ContentBaseName) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $published.IsZero -}}
+      {{- $schema = merge $schema (dict "datePublished" ($published.Format $iso8601)) -}}
+    {{- end -}}
+    {{- with .Lastmod -}}
+      {{- if not .IsZero -}}
+        {{- $schema = merge $schema (dict "dateModified" (.Format $iso8601)) -}}
+      {{- end -}}
+    {{- end -}}
 
-  {{- with $publisher -}}
-    {{- $schema = merge $schema (dict "publisher" .) -}}
-  {{- end -}}
-  {{- with $author -}}
-    {{- $schema = merge $schema (dict "author" .) -}}
+    {{- with .Site.Copyright -}}
+      {{- $schema = merge $schema (dict "license" .) -}}
+    {{- end -}}
+
+    {{- with $publisher -}}
+      {{- $schema = merge $schema (dict "publisher" .) -}}
+    {{- end -}}
+    {{- with $author -}}
+      {{- $schema = merge $schema (dict "author" .) -}}
+    {{- end -}}
   {{- end -}}
 
 <script type="application/ld+json">
