@@ -1000,13 +1000,15 @@ html.dark .latest-section-surface__intro {
       "headline" .Title
       "url" .Permalink
       "wordCount" .WordCount
+      "inLanguage" (.Site.Language.LanguageCode | default .Lang)
+      "isAccessibleForFree" true
     ) -}}
 
   {{- $docDesc := .Description | default "" -}}
   {{- $siteParamDesc := .Site.Params.description | default "" -}}
   {{- $description := or $docDesc $siteParamDesc -}}
   {{- with $description -}}
-    {{- $schema = merge $schema (dict "description" .) -}}
+    {{- $schema = merge $schema (dict "description" . "abstract" .) -}}
   {{- end -}}
 
   {{- $image := "" -}}

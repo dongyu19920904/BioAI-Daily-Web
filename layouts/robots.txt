@@ -1,5 +1,19 @@
 User-agent: *
 
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 # 不允许抓取 Cloudflare 的内部目录
 # Disallow: /cdn-cgi/
 
