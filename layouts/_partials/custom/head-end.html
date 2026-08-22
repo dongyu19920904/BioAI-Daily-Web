@@ -1022,7 +1022,7 @@ html.dark .latest-section-surface__intro {
   {{- $siteParamDesc := .Site.Params.description | default "" -}}
   {{- $description := or $docDesc $siteParamDesc -}}
   {{- with $description -}}
-    {{- $schema = merge $schema (dict "description" .) -}}
+    {{- $schema = merge $schema (dict "description" . "abstract" .) -}}
   {{- end -}}
 
   {{- $image := "" -}}

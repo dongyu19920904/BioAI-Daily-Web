@@ -1,11 +1,18 @@
 User-agent: *
 
-# 不允许抓取 Cloudflare 的内部目录
-# Disallow: /cdn-cgi/
+Allow: /
 
-# 新增：不允许抓取 /en 和 /ja 目录
-# Disallow: /en/
-# Disallow: /ja/
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
 
 # 站点地图
 Sitemap: https://news.aibioo.cn/sitemap.xml
