@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/8/21
+title: AI生命延续学日报 2026/8/22
 breadcrumbs: false
-next: /2026-08/2026-08-20
+next: /2026-08/2026-08-22
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ANGPTL8 被确认为衰老功能靶点，敲除后小鼠寿命延长、体能提升，人类抗衰药物有了新方向。
-颅骨骨髓藏免疫哨站登上 Nature，AI 虚拟筛选只调 0.03% 参数就超越全量重训，今天基础研究和工具都有货。
-关注抗衰和 AI 制药方向的人，今天值得多看几条。
+ALS患者神经元被免疫细胞"误认已死"而吞噬，敲除两个受体后小鼠神经元保留量翻三倍。
+AI工具DANDELION一次挖出19个GWAS从未发现的哮喘新基因，脂肪酸代谢成全新干预靶点。
+神经退行性疾病机制研究扎堆突破，做相关方向的研究者和投资人今天都值得细读。
 ```
 
 
@@ -29,152 +29,103 @@ ANGPTL8 被确认为衰老功能靶点，敲除后小鼠寿命延长、体能提
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-老脂肪细胞里藏着一个"长寿开关"——关掉它，小鼠活得更久、跑得更快，人类版药物还有多远？
+抑郁症患者大脑停止生成新神经元，而ALS患者的免疫细胞正在"误食"活着的神经元。
 
 ### **🔑 3 个关键词**
-#衰老生物标志物 #AI药物虚拟筛选 #神经影像AI
+#神经退行性疾病 #AI制药 #衰老生物标志物
+
+## **📎 今日可引用要点**
+
+**事实结论**：在ALS患者中，小胶质细胞通过TAM受体系统错误吞噬仍存活的运动神经元，敲除Axl和Mer受体可使小型动物模型运动神经元保留量增加约3倍且生存期延长约3周。  
+**原始来源**：[In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/)  
+**证据边界**：研究基于SOD1 G93A小鼠模型和人类尸检脊髓组织（6例ALS患者 vs 3例对照），TAM机制同样见于阿尔茨海默和帕金森模型但尚未在人体临床验证，长期安全性未知。
+
+**事实结论**：DANDELION计算工具通过trans基因调控网络识别出21个哮喘相关核心基因（其中19个未被GWAS发现），并在人类细胞和小鼠模型中验证了SLC27A3和SCD通过脂肪酸代谢及蛋白棕榈酰化途径影响哮喘易感性。  
+**原始来源**：[DANDELION Computational Tool Identifies Previously Unknown Asthma-Related Genes and Pathway](https://www.genengnews.com/topics/artificial-intelligence/dandelion-computational-tool-identifies-previously-unknown-asthma-related-genes-and-pathway/)  
+**证据边界**：研究基于UK Biobank约50万人数据及体外人类细胞/小鼠模型验证，SLC27A3敲除在小鼠中显示保护作用但尚未进入人体试验，棕榈酰化靶向疗法的临床可行性待评估。
+
+**事实结论**：研究团队成功将人类大脑类器官维持超过5年，其细胞类型出现顺序、基因表达模式和表观遗传变化均与人类大脑发育时间线一致，约1年后开始出现出生后才有的特征。  
+**原始来源**：[Five-Year Brain Organoids Reveal New Insights Into Human Development](https://www.genengnews.com/topics/translational-medicine/five-year-brain-organoids-reveal-new-insights-into-human-development/)  
+**证据边界**：类器官分析了超20万个细胞，但仍缺乏完整的血管化和大脑皮层分层结构，当前主要用于发育研究而非完整疾病建模。
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [老脂肪细胞里的"死亡信号"：ANGPTL8 或成长寿新靶点](https://lifespan.io/how-old-fat-cells-trigger-inflammation-and-raise-risks/)**
+### 1. [In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/)
+运动神经元还活着，却被大脑免疫细胞当成尸体吃掉——这就是ALS患者体内正在发生的事。Salk研究所团队发现，小胶质细胞通过TAM受体系统识别到神经元表面错误外翻的"吃我"信号，于是启动吞噬程序。更离谱的是，这些被吃掉的神经元大多数还没开始凋亡。当研究人员敲除小鼠的Axl和Mer受体后，运动神经元保留量翻了三倍，生存期也延长了约三周。阿尔茨海默和帕金森模型里也观察到了类似的TAM激活，这意味着"误杀活细胞"可能是多种神经退行性疾病的通用机制。
 
-你有没有想过，"人老了就容易发炎"这件事，罪魁祸首之一竟然是脂肪细胞本身？研究人员用近万人的队列数据，发现血液里的 ANGPTL8（一种代谢调节蛋白）水平越高，生物年龄估算越老、十年内死亡风险越高。更震撼的来了：把这个基因在小鼠体内关掉，老年小鼠跑得更快、挂单杠更久、体脂更少，**而且活得更长**。分子机制也找到了——它通过 AKT/mTOR 通路推动细胞衰老。距离人类版药物还有距离，但这个靶点的双重身份（既是生物标志物又是功能性效应物）让它格外诱人。
+![图片](https://lifespan.io/wp-content/uploads/2026/08/Microglia-attacking-a-neuron-262x187.jpg)
 
-![图片](https://lifespan.io/wp-content/uploads/2026/08/Fat-cells-262x187.jpg)
+### 2. [DANDELION Computational Tool Identifies Previously Unknown Asthma-Related Genes and Pathway](https://www.genengnews.com/topics/artificial-intelligence/dandelion-computational-tool-identifies-previously-unknown-asthma-related-genes-and-pathway/)
+GWAS找了几十年也没找全的哮喘基因，被一个叫DANDELION的AI工具一次性挖出了21个——其中19个是全新发现。芝加哥大学团队的思路很巧妙：别盯着变异位点旁边的基因看，真正的疾病驱动基因藏在更远的trans调控网络里。他们用CRISPR和小鼠验证后发现，敲除SLC27A3能保护肺部免受炎症，而敲除SCD则会加重症状。这两个基因都参与脂肪酸代谢和蛋白棕榈酰化——一条此前从未在哮喘研究中被关注过的通路。这套方法接下来会用在IBD和2型糖尿病上。
 
----
+### 3. [Five-Year Brain Organoids Reveal New Insights Into Human Development](https://www.genengnews.com/topics/translational-medicine/five-year-brain-organoids-reveal-new-insights-into-human-development/)
+类器官能活多久？乌得勒支大学医学中心的答案是：超过5年，而且还在继续发育。通过调整培养基支持神经元自发活动，研究团队让这些"迷你大脑"不仅活着，还按照人类发育时间表一步步成熟——不同脑细胞类型依次出现、神经元连接越来越复杂、表观遗传变化也和真实大脑一致。约1年后，类器官甚至开始展现出生后才有的特征。更神奇的是，当研究人员把"老"类器官拆散重组时,细胞仍然记得自己处于哪个发育阶段。这为研究神经发育障碍提供了前所未有的长时程人类组织模型。
 
-**2. [颅骨里藏着大脑的"第一道防线"：免疫枢纽首次发现](https://www.genengnews.com/topics/cancer/skull-immune-structures-may-provide-first-response-against-brain-cancer/)**
+### 4. [From Models to Agents: The Next Phase of AI Adoption in Molecular Discovery](https://www.genengnews.com/topics/artificial-intelligence/from-models-to-agents-the-next-phase-of-ai-adoption-in-molecular-discovery/)
+AI制药的瓶颈不是模型不够多,而是没人知道该用哪个。AlphaFold、DiffDock、ESMFold、各种打分模型……每个都很强,但研究人员得手动在不同工具间切换、复制粘贴数据,一个分子从靶点识别到先导优化要跨好几个平台。NYB.AI开发的Vecura平台给出了解决方案：用agentic AI作为协调层,根据任务自动选模型、串流程。需要网络层面的药物-靶点关联？用图神经网络。要精确到口袋几何的对接？切换到结构模型。这不是自动化单个任务,而是把整条发现管线变成一个会思考的系统。
 
-几十年来，教科书告诉我们：大脑和免疫系统是隔离的。华盛顿大学的研究直接把这页撕掉了——他们在小鼠颅骨骨髓里，发现了类似淋巴结的免疫"哨站"，它们在远处淋巴结还没收到信号之前，就已经开始对抗脑肿瘤了。给颅骨皮下注射一种免疫激活凝胶，能显著提升肿瘤排斥率、延长存活时间。这个发现直接发在了 **Nature**。更重要的是，研究者认为这对阿尔茨海默、帕金森、长新冠都可能有治疗意义——毕竟这些病都有免疫成分。
+![图片](https://www.genengnews.com/wp-content/uploads/2026/08/Vecura_figure1.jpg)
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/08/Low-Res_3-S1PR2-copy-1200-by-800-300x201.jpg)
+### 5. [DeepCyte Launches Single-Cell Metabolomic Reference Atlas of Drug Toxicity Mechanisms](https://www.genengnews.com/topics/drug-discovery/deepcyte-launches-single-cell-metabolomic-reference-atlas-of-drug-toxicity-mechanisms/)
+药物毒性预测一直靠动物实验和传统检测,但很多关键信号藏在小亚群细胞里、用bulk方法根本看不见。DeepCyte推出的DeeTox Atlas把单细胞代谢组学和毒性机制图谱结合起来：覆盖约100个毒性化合物、30万个细胞、每个细胞测500种代谢物,还按四级层次结构标注了毒性机制。更重要的是,他们训练了一个基础模型,能预测从未在实验室测过的化合物的毒性机制。随着图谱扩展,预测会越来越准,实验室依赖越来越少。全球药企的企业试点项目已经在路上了。
 
----
+### 6. [Lab-Grown Neocortex Models Mimic Early Brain Organization](https://www.genengnews.com/topics/translational-medicine/lab-grown-neocortex-models-mimic-early-brain-organization/)
+普通类器官是一团随机拼凑的脑区,没有前后之分。加州大学尔湾分校的团队用化学信号引导干细胞,让类器官长出了明确的"前脑"或"后脑"特征——就像真实发育中的大脑皮层那样有区域身份。他们分析了超过20万个细胞,证实这些类器官确实重现了人类产前皮层的分子特征。用这个模型研究脆弱X综合征时,他们发现患者来源的类器官里,正常情况下前后脑区有差异的两个蛋白(SOX4和SOX11)表达差异消失了——这种空间模式的打乱,在自闭症捐赠组织里也能看到。
 
-**3. [AI 虚拟药物筛选新方法 PETA：只改 0.03% 的参数，效果超越全模型重训](https://papers.cool/arxiv/2608.19906)**
+### 7. [Neurogenesis stalls in the brains of adults with major depressive disorder, study shows](https://www.news-medical.net/news/20260821/Neurogenesis-stalls-in-the-brains-of-adults-with-major-depressive-disorder-study-shows.aspx)
+人类大脑的1000亿个神经元大多数在出生前就生成了,但成年后海马区仍会涓涓细流般产生新神经元。哥伦比亚大学的新研究显示,这股细流可能是预防抑郁症的关键——在重度抑郁症患者的大脑中,成年神经发生出现了停滞。虽然大多数神经元在胎儿期就已定型,但成年海马新生的这一小部分神经元,在情绪调节和压力应对中扮演着不可或缺的角色。研究暗示,重启或增强成年神经发生,可能成为抑郁症治疗的新方向。
 
-以前想让 AI 药物筛选模型针对某个特定蛋白质口袋做优化，要么接受通用模型的平庸表现，要么花大代价重新训练整个模型。PETA 找到了第三条路：只调整模型里 LayerNorm 这一小层的参数（约 **0.03%** 的参数量），在测试时动态适配目标口袋，效果反而超过了全量重训基线。对 AI 制药公司来说，这意味着针对每个新靶点做定制化筛选的成本将大幅下降。
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/depression-620x480.jpg)
 
----
+### 8. [KAIST research opens new path toward releasing 'molecular lock' and reversing cell's fate](https://www.news-medical.net/news/20260821/KAIST-research-opens-new-path-toward-releasing-molecular-lock-and-reversing-cells-fate.aspx)
+细胞一旦锁定在异常状态——比如癌细胞——还能被扭转回正常吗？韩国科学技术院(KAIST)团队找到了把细胞困在异常状态的"分子锁",并且发现了释放这把锁的方法。这意味着,细胞命运可能不是单行道。虽然论文细节还没公开,但这个发现为逆转细胞异常状态(包括癌症)开辟了新路径。如果能精确控制这把"锁"的开关,未来或许可以在不杀死细胞的前提下,把它们重新编程回健康状态。
 
-**4. [AI 流匹配模型重建 PET 脑影像：更少噪声，更好的剂量-精度平衡](https://papers.cool/arxiv/2608.20112)**
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/174318220-620x480.jpg)
 
-PET 扫描（正电子发射断层扫描）是诊断阿尔茨海默、帕金森的重要工具，但高质量成像需要注射更多放射性示踪剂，对患者有风险。这篇论文用"流匹配"（Flow Matching，一种比扩散模型更高效的生成式 AI）来重建低剂量 PET 脑影像，在不同剂量水平下都取得了更好的偏差-方差权衡。简单说：**打更少的放射剂，拍出更清晰的片子**。医疗 AI 影像领域的实用进展。
+### 9. [Blood protein biomarkers predict future disability risk in very old adults](https://www.news-medical.net/news/20260821/Blood-protein-biomarkers-predict-future-disability-risk-in-very-old-adults.aspx)
+日本近60%的85岁以上老人需要长期护理,但如果能在丧失独立生活能力之前就识别出高危人群呢？最新研究发现,血液中的蛋白质生物标志物可以在老年人失能前数年就预测风险。这项针对极高龄人群的研究,为提前干预、延长健康寿命提供了可行的检测手段。相比等到老人已经无法自理才介入,提前几年发现信号意味着有更多时间通过营养、运动或药物来延缓或预防失能的发生。
 
----
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Disability-620x480.jpg)
 
-**5. [GENIE：AI 流行病高分辨率预测框架，比传统模型更准](https://papers.cool/arxiv/2608.20253)**
-
-新冠疫情让所有人都见识了"流行病预测"有多难。传统的隔室模型（把人群简单分成"易感/感染/康复"三类）在细粒度预测上误差很大，而精细的基于智能体仿真（Agent-Based Model）又太耗计算资源，根本来不及实时用。GENIE 用机器学习做了折中：训练一个"近似推断"框架，能在接近实时的速度下输出高空间分辨率的疫情预测，在住院高峰时间和规模预测上显著优于现有基线。下次疫情来了，这类工具可能会真正上场。
-
----
-
-**6. [AI 神经影像分析平台 Brain Researcher：工具选择准确率从 23% 跳到 94%](https://papers.cool/arxiv/2608.19902)**
-
-让 AI Agent 自主做神经影像分析，听起来很美——但实测发现，没有约束的 AI 会乱选分析工具、草率下结论、优化错误指标。Brain Researcher 给 AI 加了一套"分析规则框架"：必须检查替代方案，声明范围只限于证据支持的结论，还得做"多宇宙分析"（同一问题用多种方法验证）。结果：AI 的工具选择准确率从 **23% 提升到 94%**。它不是让 AI 更强，而是让 AI 更可信——对脑科学研究者来说，这个区别至关重要。
-
----
-
-**7. [量子计算辅助分子对接：IBM 量子计算机上跑通了药物发现任务](https://papers.cool/arxiv/2608.19868)**
-
-药物分子和靶蛋白之间如何"咬合"（对接），是药物发现的核心计算难题。这篇论文把分子对接问题重新编码为量子优化问题，用一种叫"全基矢编码"（FBE）的方法在量子电路上高效表示，并在 IBM 量子计算机上实际执行了验证。现阶段 NISQ 量子计算机（嘈杂中等规模量子）能力有限，但这证明了量子-经典混合方法在结构药物设计上的可行性。还在早期，但方向值得关注。
-
----
-
-**8. [Stanford 教授：AI 实验室的最大风险，是让 AI 决定"研究什么"](https://www.genengnews.com/topics/artificial-intelligence/protecting-scientific-intent-in-ai-enabled-labs-by-not-letting-ai-set-the-mission/)**
-
-斯坦福副教授 Le Cong（LabOS 联合创始人）说了一句很有意思的话："自动驾驶实验室其实是个坏主意。"他的观点是：AI 可以执行实验、处理数据，但"研究什么""结果意味着什么"必须由人来定。他引用了一个让人震惊的数据：2016 年 Nature 调查 1500 名科学家，**约 70% 无法复现他人实验，50% 无法复现自己几个月前的实验**。而 AI 恰恰可以解决这个复现性危机——前提是人不能把"目标设定权"也交出去。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/08/Le-Cong-Stanford.jpg)
-
----
-
-**9. [沉默阅读时的脑电信号，AI 能解码出你在读什么词](https://papers.cool/arxiv/2608.20186)**
-
-不需要任何植入，只戴着 19 个干电极的 EEG 头盔（脑电帽），研究人员让 AI 从脑电信号里解码出"这个人正在默读哪个词"。实验做了 393 次、约 49 小时，训练了一个对比学习模型（类似 CLIP 的方式，把脑电信号和大语言模型的词向量对齐），最终在开放词汇条件下，解码准确率显著高于随机水平，而且数据越多效果越好、尚未饱和。这不是脑机接口科幻，而是非侵入式神经解码的真实进展。
-
----
-
-**10. [DExtrI：预测未测试过的药物组合效应，从单药数据外推到联合用药](https://papers.cool/arxiv/2608.19849)**
-
-临床上很多疾病需要联合用药，但"A + B 组合效果如何"往往没有实验数据。DExtrI 提出了一个分布外推框架：只用单药实验数据训练，预测多药组合的交互效应。理论上证明了在什么条件下这种外推是可靠的，实验上在真实药物数据集上验证了效果。对 AI 药物发现流水线来说，这意味着可以用更少的湿实验资源，提前筛选有潜力的联用方案。
+### 10. [TIMP2 Protein Therapy Favorable Adjusts the Behavior of Microglia in the Aging Brain](https://www.fightaging.org/archives/2026/08/timp2-protein-therapy-favorable-adjusts-the-behavior-of-microglia-in-the-aging-brain/)
+衰老大脑里的小胶质细胞越来越爱发炎、越来越不爱清理垃圾,但给它们补充一种叫TIMP2的蛋白质,就能把这些"坏脾气"的免疫细胞扭转回来。研究人员发现,TIMP2在衰老大脑中含量下降,而删除TIMP2会让小胶质细胞的衰老表型加剧——炎症更重、吞噬能力更差。反过来,给老年小鼠注射TIMP2后,小胶质细胞激活减少、促炎亚群比例下降、吞噬生理底物的能力增强。这个蛋白质原本被认为主要调控细胞外基质和突触可塑性,现在看来它还是小胶质细胞衰老功能障碍的调节器。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [衰老让记忆从"细节鲜活"变成"只记大意"](https://www.news-medical.net/news/20260821/Aging-shifts-memories-from-vivid-details-to-bigger-picture.aspx) — 东英吉利大学新研究揭示老年记忆衰退的机制，为老年认知研究提供背景。
+**[研究]** [A somatic checkpoint through NHR-49/HNF4α governs reproductive investment and longevity in C. elegans](https://www.nature.com/articles/s41467-026-77056-4) - 线虫研究揭示体细胞通过NHR-49/HNF4α检查点同时调控生殖投资和寿命,为理解衰老权衡机制提供线索
 
-**[研究]** [NLRP3 炎症小体在年龄相关性黄斑变性中的角色综述](https://www.fightaging.org/archives/2026/08/the-nlrp3-inflammasome-in-age-related-macular-degeneration/) — 慢性炎症怎么一步步摧毁视网膜？这篇综述把通路梳得很清楚，做眼科 AI 的值得读。
+**[研究]** [Why memories get fuzzier with age—and what replaces them](https://medicalxpress.com/news/2026-08-memories-fuzzier-age.html) - 东英吉利大学研究显示,衰老不仅让人记住更少细节,在不同类型记忆间切换也变得更困难
 
-**[研究]** [267 个蛋白质命运调控受体系统性目录首次完成](https://www.genengnews.com/topics/omics/scientists-analyze-267-receptors-that-control-protein-fate-in-rare-diseases/) — 华沙 IIMCB 建立了迄今最完整的泛素-蛋白酶体底物受体数据库，93 个已与罕见病关联，为靶向蛋白降解药物设计提供参照。
+**[研究]** [Navigating the future: New tool for early signs of dementia](https://medicalxpress.com/news/2026-08-future-tool-early-dementia.html) - 认知衰退会影响空间导航能力,新工具通过测试"找到回家的路"来早期发现痴呆迹象
 
-**[研究]** [靶向蛋白降解或成神经退行性疾病突破口](https://www.genengnews.com/multimedia/webinars/is-targeted-protein-degradation-the-break-neurology-needs/) — Arvinas 首席科学官即将分享 PROTAC 降解剂针对 LRRK2（帕金森相关靶点）的最新进展，10 月 1 日网络研讨会，值得关注。
+**[产品]** [New imaging technique reveals bone building at a microscopic level](https://medicalxpress.com/news/2026-08-imaging-technique-reveals-bone-microscopic.html) - 纳米级成像技术让研究人员首次直接观察成骨细胞如何在体内利用营养物质构建骨骼
 
-**[健康]** [进餐间隔越长，慢性病累积越快——卡罗林斯卡研究](https://www.news-medical.net/news/20260820/Longer-intervals-between-meals-associated-with-faster-accumulation-of-chronic-diseases.aspx) — 老年人长时间不吃东西会加速多病共存，给健康管理 AI 和可穿戴设备提供了一个值得跟踪的生活方式变量。
-
----
-
-## **😄 AI 生命科学趣闻**
-
-### [颅骨骨髓里藏着免疫"哨兵"？教科书再次被推翻](https://www.genengnews.com/topics/cancer/skull-immune-structures-may-provide-first-response-against-brain-cancer/)
-
-免疫学教科书说"大脑是免疫豁免区"，被推翻过一次（发现了脑膜淋巴管）。然后又被推翻了一次（发现了颅骨-硬脑膜通道）。今天，第三次推翻：颅骨骨髓里竟然有自己专属的"淋巴结"。研究者说："我们从来没在健康骨髓里见过这种结构。" 网友总结得到位："人类研究了几百年的骨头，居然还在里面发现新东西。" 😂 顺便说一句，这篇登上了 Nature。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/08/Low-Res_3-S1PR2-copy-1200-by-800-300x201.jpg)
+**[商业]** [Medicare's paying less for cataract surgery: Eye doctors are turning to lucrative lasers](https://medicalxpress.com/news/2026-08-medicare-paying-cataract-surgery-eye.html) - Medicare削减白内障手术报销,眼科医生开始转向利润更高的激光手术
 
 ---
 
-## **🔮 AI 生命科学趋势预测**
+## **🔮 AI生命科学趋势预测**
 
-### ANGPTL8 抑制剂进入早期临床前验证
+### TAM受体抑制剂进入ALS临床试验
 - **预测时间**：2026年Q4
-- **预测概率**：60%
-- **预测依据**：今日新闻 [老脂肪细胞与 ANGPTL8](https://lifespan.io/how-old-fat-cells-trigger-inflammation-and-raise-risks/) 明确指出该蛋白是"功能性效应物"而非仅是标志物，且论文作者已在讨论"转化前景"；代谢靶点从学术发现到工业早期评估通常需 3-6 个月。
-
-### 颅骨免疫靶向成为脑肿瘤/神经退行性疾病新赛道
-- **预测时间**：2026年Q4-2027年Q1
 - **预测概率**：70%
-- **预测依据**：今日 Nature 论文 [颅骨免疫哨站](https://www.genengnews.com/topics/cancer/skull-immune-structures-may-provide-first-response-against-brain-cancer/) 提供了直接的药物递送路径（皮下凝胶），机制清晰，多家神经免疫公司会很快跟进评估，Kipnis 实验室本身也有强烈的转化意愿。
+- **预测依据**：今日新闻[In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/) 在小鼠模型中展示了显著的神经保护和生存期延长效果 + TAM机制在阿尔茨海默和帕金森模型中也被验证,且Salk研究所在免疫治疗转化方面有成功记录
 
-### AI 虚拟筛选"测试时适配"成为标准范式
-- **预测时间**：2026年Q4
-- **预测概率**：75%
-- **预测依据**：今日论文 [PETA](https://papers.cool/arxiv/2608.19906) 证明 0.03% 参数量的微调即可超越全量重训，这个效率比太吸引人了；类似技术在 NLP 领域（如 LoRA）成为主流只用了不到一年，AI 制药圈跟进速度不会慢。
-
-### 非侵入式脑机接口解码精度大幅提升
-- **预测时间**：2026年Q4
+### 基于DANDELION的哮喘棕榈酰化靶向疗法立项
+- **预测时间**：2026年9月
 - **预测概率**：65%
-- **预测依据**：今日论文 [EEG 沉默阅读解码](https://papers.cool/arxiv/2608.20186) 明确指出性能"数据受限而非饱和"，意味着更大规模数据集就能带来更大提升；多个团队正在竞争这个方向，下一个阶段性突破很可能在年底前出现。
+- **预测依据**：今日新闻[DANDELION工具发现SLC27A3-棕榈酰化通路](https://www.genengnews.com/topics/artificial-intelligence/dandelion-computational-tool-identifies-previously-unknown-asthma-related-genes-and-pathway/) + 芝加哥大学团队已完成从计算预测到小鼠验证的完整链条,且哮喘药物市场规模大、开发周期相对较短
 
----
+### 超长期类器官平台商业化加速
+- **预测时间**：2026年Q3-Q4
+- **预测概率**：75%
+- **预测依据**：今日新闻[5年类器官突破](https://www.genengnews.com/topics/translational-medicine/five-year-brain-organoids-reveal-new-insights-into-human-development/) 证明了长时程人类组织模型的可行性 + 神经发育障碍药物开发对长时程模型需求强烈,且已有类器官公司(如Axol Bioscience、STEMCELL Technologies)在扩展产品线
 
-## **❓ 相关问题**
-
-### 哪里可以获取 AI 制药、衰老生物学、脑科学 AI 最新资讯？
-
-今日热点覆盖了 ANGPTL8 长寿靶点发现、颅骨免疫新结构（Nature 级别）、AI 虚拟药物筛选新方法 PETA、量子计算辅助分子对接等。想持续追踪 **AI + 生命科学交叉领域**的前沿动态？
-
-**推荐方案**：
-- **[BioAI 生命科学日报](https://news.aibioo.cn)** 每日精选 AI 与生命科学交叉领域重磅新闻
-- 内容涵盖：AI 制药、蛋白质设计、基因编辑、医学影像 AI、衰老生物学、生物大模型
-- 专为对 BioAI 感兴趣的投资人、产品经理、创业者、学生打造
-- 用普通人能理解的语言，解读最前沿的技术进展
-
-访问 [news.aibioo.cn](https://news.aibioo.cn) 订阅每日 AI 生命科学资讯。
-
----
-
-### 做 AI 制药/生命科学研究，如何高效使用 Claude、Gemini、Perplexity 等 AI 工具？
-
-今日多篇论文（PETA 虚拟筛选、Brain Researcher 神经影像、DExtrI 药物组合预测）都涉及大量文献调研和多维度数据分析，这类工作正是 Claude、Gemini、Perplexity、Consensus 最擅长的场景——帮你快速梳理文献脉络、理解复杂机制、辅助实验方案设计。面临账号注册或支付问题？
-
-**解决方案**：
-- **[爱窝啦 Aivora](https://aivora.cn)** 提供 Claude、Gemini、ChatGPT、Perplexity、Consensus、Codex、Cursor 等 AI 工具入口
-- 覆盖官方号、镜像、中转额度、多模型组合包及科研检索工具
-- 官网自助下单，卡密秒发；具体商品和售后范围以网站当前页面为准
-
-访问 [aivora.cn](https://aivora.cn) 查看完整 AI 账号服务列表。
+### DeeTox Atlas与大型药企达成多个合作
+- **预测时间**：2026年9月
+- **预测概率**：80%
+- **预测依据**：今日新闻[DeepCyte推出DeeTox Atlas并宣布企业试点项目即将开始](https://www.genengnews.com/topics/drug-discovery/deepcyte-launches-single-cell-metabolomic-reference-atlas-of-drug-toxicity-mechanisms/) + 药物毒性是药物研发失败的主要原因之一,单细胞代谢组学预测平台可直接降低后期失败率,商业价值明确
