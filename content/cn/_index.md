@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/8/22
+title: AI生命延续学日报 2026/8/23
 breadcrumbs: false
-next: /2026-08/2026-08-21
+next: /2026-08/2026-08-23
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ALS患者神经元被免疫细胞"误认已死"而吞噬，敲除两个受体后小鼠神经元保留量翻三倍。
-AI工具DANDELION一次挖出19个GWAS从未发现的哮喘新基因，脂肪酸代谢成全新干预靶点。
-神经退行性疾病机制研究扎堆突破，做相关方向的研究者和投资人今天都值得细读。
+格陵兰鲨活400年眼睛不老，科学家在其视网膜发现DNA修复机制，或成人类视力保护新线索。
+多语言、高剂量维生素D、握力测试……今天的研究都在问同一个问题：老得慢的秘诀是什么？
+衰老研究正在提速，这期适合转给家里操心健康的长辈看。
 ```
 
 
@@ -29,103 +29,79 @@ AI工具DANDELION一次挖出19个GWAS从未发现的哮喘新基因，脂肪酸
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-抑郁症患者大脑停止生成新神经元，而ALS患者的免疫细胞正在"误食"活着的神经元。
+活了400年的鲨鱼眼睛竟然不老化，科学家从它身上找到了视力保护的新线索。
 
 ### **🔑 3 个关键词**
-#神经退行性疾病 #AI制药 #衰老生物标志物
+#衰老研究 #认知健康 #生物标志物
 
 ## **📎 今日可引用要点**
 
-**事实结论**：在ALS患者中，小胶质细胞通过TAM受体系统错误吞噬仍存活的运动神经元，敲除Axl和Mer受体可使小型动物模型运动神经元保留量增加约3倍且生存期延长约3周。  
-**原始来源**：[In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/)  
-**证据边界**：研究基于SOD1 G93A小鼠模型和人类尸检脊髓组织（6例ALS患者 vs 3例对照），TAM机制同样见于阿尔茨海默和帕金森模型但尚未在人体临床验证，长期安全性未知。
+**维生素D可能改善轻度认知障碍患者的认知表现**
+- **事实结论**：患有轻度认知障碍和睡眠问题的老年人每天服用至少5000 IU维生素D后，认知测试得分比未服用者高出13%以上。
+- **原始来源**：[This common vitamin was linked to 13% better cognitive scores](https://www.sciencedaily.com/releases/2026/08/260822015138.htm)
+- **证据边界**：这是初步研究发现，样本为特定人群(患有轻度认知障碍且有睡眠问题的老年人)，尚需更大规模临床试验验证因果关系和最佳剂量。目前不能推广到所有认知障碍人群。
 
-**事实结论**：DANDELION计算工具通过trans基因调控网络识别出21个哮喘相关核心基因（其中19个未被GWAS发现），并在人类细胞和小鼠模型中验证了SLC27A3和SCD通过脂肪酸代谢及蛋白棕榈酰化途径影响哮喘易感性。  
-**原始来源**：[DANDELION Computational Tool Identifies Previously Unknown Asthma-Related Genes and Pathway](https://www.genengnews.com/topics/artificial-intelligence/dandelion-computational-tool-identifies-previously-unknown-asthma-related-genes-and-pathway/)  
-**证据边界**：研究基于UK Biobank约50万人数据及体外人类细胞/小鼠模型验证，SLC27A3敲除在小鼠中显示保护作用但尚未进入人体试验，棕榈酰化靶向疗法的临床可行性待评估。
-
-**事实结论**：研究团队成功将人类大脑类器官维持超过5年，其细胞类型出现顺序、基因表达模式和表观遗传变化均与人类大脑发育时间线一致，约1年后开始出现出生后才有的特征。  
-**原始来源**：[Five-Year Brain Organoids Reveal New Insights Into Human Development](https://www.genengnews.com/topics/translational-medicine/five-year-brain-organoids-reveal-new-insights-into-human-development/)  
-**证据边界**：类器官分析了超20万个细胞，但仍缺乏完整的血管化和大脑皮层分层结构，当前主要用于发育研究而非完整疾病建模。
-
----
+**格陵兰鲨的视网膜衰老极其缓慢**
+- **事实结论**：格陵兰鲨可活400年，研究人员在其眼部发现健康组织和适应深海微光的活性蛋白，视网膜未出现典型的衰老性退化。DNA修复机制可能帮助其眼睛在数百年间保持功能。
+- **原始来源**：[This shark can live 400 years. Its eyes barely seem to age](https://www.sciencedaily.com/releases/2026/08/260821012232.htm)
+- **证据边界**：这是动物模型研究，发现的是格陵兰鲨的生理特征。能否将其DNA修复机制转化为人类视力保护策略，仍需大量基础研究和安全性验证。
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/)
-运动神经元还活着，却被大脑免疫细胞当成尸体吃掉——这就是ALS患者体内正在发生的事。Salk研究所团队发现，小胶质细胞通过TAM受体系统识别到神经元表面错误外翻的"吃我"信号，于是启动吞噬程序。更离谱的是，这些被吃掉的神经元大多数还没开始凋亡。当研究人员敲除小鼠的Axl和Mer受体后，运动神经元保留量翻了三倍，生存期也延长了约三周。阿尔茨海默和帕金森模型里也观察到了类似的TAM激活，这意味着"误杀活细胞"可能是多种神经退行性疾病的通用机制。
+### 1. [维生素D让认知测试得分提高13%，轻度认知障碍患者有救了？](https://www.sciencedaily.com/releases/2026/08/260822015138.htm)
 
-![图片](https://lifespan.io/wp-content/uploads/2026/08/Microglia-attacking-a-neuron-262x187.jpg)
+以前医生总说"多晒太阳补维生素D"，但谁知道真能改善认知？最新研究发现，患有轻度认知障碍且睡眠不好的老年人，每天吃至少5000 IU的维生素D，认知测试得分直接比不吃的人高出13%。这可是在认知衰退的早期窗口，一个可能改变的变量。研究还在初步阶段，但对于那些担心记忆力下降的人来说，这条线索值得关注。如果你家里有老人出现轻度认知问题，或许可以跟医生聊聊维生素D补充的可能性。
 
-### 2. [DANDELION Computational Tool Identifies Previously Unknown Asthma-Related Genes and Pathway](https://www.genengnews.com/topics/artificial-intelligence/dandelion-computational-tool-identifies-previously-unknown-asthma-related-genes-and-pathway/)
-GWAS找了几十年也没找全的哮喘基因，被一个叫DANDELION的AI工具一次性挖出了21个——其中19个是全新发现。芝加哥大学团队的思路很巧妙：别盯着变异位点旁边的基因看，真正的疾病驱动基因藏在更远的trans调控网络里。他们用CRISPR和小鼠验证后发现，敲除SLC27A3能保护肺部免受炎症，而敲除SCD则会加重症状。这两个基因都参与脂肪酸代谢和蛋白棕榈酰化——一条此前从未在哮喘研究中被关注过的通路。这套方法接下来会用在IBD和2型糖尿病上。
+---
 
-### 3. [Five-Year Brain Organoids Reveal New Insights Into Human Development](https://www.genengnews.com/topics/translational-medicine/five-year-brain-organoids-reveal-new-insights-into-human-development/)
-类器官能活多久？乌得勒支大学医学中心的答案是：超过5年，而且还在继续发育。通过调整培养基支持神经元自发活动，研究团队让这些"迷你大脑"不仅活着，还按照人类发育时间表一步步成熟——不同脑细胞类型依次出现、神经元连接越来越复杂、表观遗传变化也和真实大脑一致。约1年后，类器官甚至开始展现出生后才有的特征。更神奇的是，当研究人员把"老"类器官拆散重组时,细胞仍然记得自己处于哪个发育阶段。这为研究神经发育障碍提供了前所未有的长时程人类组织模型。
+### 2. [活了400年的鲨鱼，眼睛竟然不老化——人类视力保护的新希望](https://www.sciencedaily.com/releases/2026/08/260821012232.htm)
 
-### 4. [From Models to Agents: The Next Phase of AI Adoption in Molecular Discovery](https://www.genengnews.com/topics/artificial-intelligence/from-models-to-agents-the-next-phase-of-ai-adoption-in-molecular-discovery/)
-AI制药的瓶颈不是模型不够多,而是没人知道该用哪个。AlphaFold、DiffDock、ESMFold、各种打分模型……每个都很强,但研究人员得手动在不同工具间切换、复制粘贴数据,一个分子从靶点识别到先导优化要跨好几个平台。NYB.AI开发的Vecura平台给出了解决方案：用agentic AI作为协调层,根据任务自动选模型、串流程。需要网络层面的药物-靶点关联？用图神经网络。要精确到口袋几何的对接？切换到结构模型。这不是自动化单个任务,而是把整条发现管线变成一个会思考的系统。
+格陵兰鲨能活400年，这已经够离谱了。更离谱的是，科学家发现它们的眼睛几乎没有衰老迹象。研究人员在这种鲨鱼的眼部找到了健康的视网膜组织和适应深海微光的活性蛋白，DNA修复机制可能是关键。这意味着什么？如果能破解它们的"长寿眼睛"秘密，未来或许能开发出保护人类视力的新方法。想象一下，90岁还能看清楚手机上的字，这不再是梦。目前还在早期研究阶段，但这条线索太诱人了。
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/08/Vecura_figure1.jpg)
+---
 
-### 5. [DeepCyte Launches Single-Cell Metabolomic Reference Atlas of Drug Toxicity Mechanisms](https://www.genengnews.com/topics/drug-discovery/deepcyte-launches-single-cell-metabolomic-reference-atlas-of-drug-toxicity-mechanisms/)
-药物毒性预测一直靠动物实验和传统检测,但很多关键信号藏在小亚群细胞里、用bulk方法根本看不见。DeepCyte推出的DeeTox Atlas把单细胞代谢组学和毒性机制图谱结合起来：覆盖约100个毒性化合物、30万个细胞、每个细胞测500种代谢物,还按四级层次结构标注了毒性机制。更重要的是,他们训练了一个基础模型,能预测从未在实验室测过的化合物的毒性机制。随着图谱扩展,预测会越来越准,实验室依赖越来越少。全球药企的企业试点项目已经在路上了。
+### 3. [握力、平衡、从地上站起来——这些测试真能预测寿命吗？](https://medicalxpress.com/news/2026-08-mobility-insights-crystal-ball.html)
 
-### 6. [Lab-Grown Neocortex Models Mimic Early Brain Organization](https://www.genengnews.com/topics/translational-medicine/lab-grown-neocortex-models-mimic-early-brain-organization/)
-普通类器官是一团随机拼凑的脑区,没有前后之分。加州大学尔湾分校的团队用化学信号引导干细胞,让类器官长出了明确的"前脑"或"后脑"特征——就像真实发育中的大脑皮层那样有区域身份。他们分析了超过20万个细胞,证实这些类器官确实重现了人类产前皮层的分子特征。用这个模型研究脆弱X综合征时,他们发现患者来源的类器官里,正常情况下前后脑区有差异的两个蛋白(SOX4和SOX11)表达差异消失了——这种空间模式的打乱,在自闭症捐赠组织里也能看到。
+握力强不强，单腿能站多久，从地上站起来费不费劲——这些听起来简单的动作，现在被当成"健康衰老"的预测指标。很多人把这些测试当成"长寿水晶球"，但事实是：它们只是部分拼图。文章指出，虽然这些身体挑战能反映肌肉力量、平衡能力和心血管健康，但衰老是多因素的，单靠一两个测试远远不够。所以，如果你握力不强也别慌，保持整体健康才是硬道理。
 
-### 7. [Neurogenesis stalls in the brains of adults with major depressive disorder, study shows](https://www.news-medical.net/news/20260821/Neurogenesis-stalls-in-the-brains-of-adults-with-major-depressive-disorder-study-shows.aspx)
-人类大脑的1000亿个神经元大多数在出生前就生成了,但成年后海马区仍会涓涓细流般产生新神经元。哥伦比亚大学的新研究显示,这股细流可能是预防抑郁症的关键——在重度抑郁症患者的大脑中,成年神经发生出现了停滞。虽然大多数神经元在胎儿期就已定型,但成年海马新生的这一小部分神经元,在情绪调节和压力应对中扮演着不可或缺的角色。研究暗示,重启或增强成年神经发生,可能成为抑郁症治疗的新方向。
+---
 
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/depression-620x480.jpg)
+### 4. [会说四种语言的人，大脑比单语者"年轻"13岁](https://www.sciencedaily.com/releases/2026/08/260821012226.htm)
 
-### 8. [KAIST research opens new path toward releasing 'molecular lock' and reversing cell's fate](https://www.news-medical.net/news/20260821/KAIST-research-opens-new-path-toward-releasing-molecular-lock-and-reversing-cells-fate.aspx)
-细胞一旦锁定在异常状态——比如癌细胞——还能被扭转回正常吗？韩国科学技术院(KAIST)团队找到了把细胞困在异常状态的"分子锁",并且发现了释放这把锁的方法。这意味着,细胞命运可能不是单行道。虽然论文细节还没公开,但这个发现为逆转细胞异常状态(包括癌症)开辟了新路径。如果能精确控制这把"锁"的开关,未来或许可以在不杀死细胞的前提下,把它们重新编程回健康状态。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/174318220-620x480.jpg)
-
-### 9. [Blood protein biomarkers predict future disability risk in very old adults](https://www.news-medical.net/news/20260821/Blood-protein-biomarkers-predict-future-disability-risk-in-very-old-adults.aspx)
-日本近60%的85岁以上老人需要长期护理,但如果能在丧失独立生活能力之前就识别出高危人群呢？最新研究发现,血液中的蛋白质生物标志物可以在老年人失能前数年就预测风险。这项针对极高龄人群的研究,为提前干预、延长健康寿命提供了可行的检测手段。相比等到老人已经无法自理才介入,提前几年发现信号意味着有更多时间通过营养、运动或药物来延缓或预防失能的发生。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Disability-620x480.jpg)
-
-### 10. [TIMP2 Protein Therapy Favorable Adjusts the Behavior of Microglia in the Aging Brain](https://www.fightaging.org/archives/2026/08/timp2-protein-therapy-favorable-adjusts-the-behavior-of-microglia-in-the-aging-brain/)
-衰老大脑里的小胶质细胞越来越爱发炎、越来越不爱清理垃圾,但给它们补充一种叫TIMP2的蛋白质,就能把这些"坏脾气"的免疫细胞扭转回来。研究人员发现,TIMP2在衰老大脑中含量下降,而删除TIMP2会让小胶质细胞的衰老表型加剧——炎症更重、吞噬能力更差。反过来,给老年小鼠注射TIMP2后,小胶质细胞激活减少、促炎亚群比例下降、吞噬生理底物的能力增强。这个蛋白质原本被认为主要调控细胞外基质和突触可塑性,现在看来它还是小胶质细胞衰老功能障碍的调节器。
+学外语不仅能出国旅游时装X，还能让大脑更年轻？研究发现，会说多种语言的人，大脑衰老速度更慢，尤其是会说四种语言的人，大脑看起来比单语者年轻13岁。而且，越早学、越熟练，效果越明显。这可能是因为多语切换锻炼了大脑的认知灵活性和执行功能。所以，如果你正在纠结要不要让孩子学第二外语，这条研究可能是个不错的理由。当然，成年后学也不晚，虽然效果可能没那么强，但总比不学强。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [A somatic checkpoint through NHR-49/HNF4α governs reproductive investment and longevity in C. elegans](https://www.nature.com/articles/s41467-026-77056-4) - 线虫研究揭示体细胞通过NHR-49/HNF4α检查点同时调控生殖投资和寿命,为理解衰老权衡机制提供线索
+**[研究]** [格陵兰鲨的DNA修复机制](https://www.sciencedaily.com/releases/2026/08/260821012232.htm) - 这条鲨鱼的眼睛400年不老化，DNA修复机制可能是关键。
 
-**[研究]** [Why memories get fuzzier with age—and what replaces them](https://medicalxpress.com/news/2026-08-memories-fuzzier-age.html) - 东英吉利大学研究显示,衰老不仅让人记住更少细节,在不同类型记忆间切换也变得更困难
+**[研究]** [多语言学习与大脑年龄](https://www.sciencedaily.com/releases/2026/08/260821012226.htm) - 会说四种语言的人大脑比单语者年轻13岁，早学效果更好。
 
-**[研究]** [Navigating the future: New tool for early signs of dementia](https://medicalxpress.com/news/2026-08-future-tool-early-dementia.html) - 认知衰退会影响空间导航能力,新工具通过测试"找到回家的路"来早期发现痴呆迹象
+**[研究]** [身体测试与健康衰老](https://medicalxpress.com/news/2026-08-mobility-insights-crystal-ball.html) - 握力、平衡等测试只是部分拼图，衰老是多因素的。
 
-**[产品]** [New imaging technique reveals bone building at a microscopic level](https://medicalxpress.com/news/2026-08-imaging-technique-reveals-bone-microscopic.html) - 纳米级成像技术让研究人员首次直接观察成骨细胞如何在体内利用营养物质构建骨骼
+---
 
-**[商业]** [Medicare's paying less for cataract surgery: Eye doctors are turning to lucrative lasers](https://medicalxpress.com/news/2026-08-medicare-paying-cataract-surgery-eye.html) - Medicare削减白内障手术报销,眼科医生开始转向利润更高的激光手术
+## **😄 AI生命科学趣闻**
+
+### [活了400年的鲨鱼，眼睛竟然不老化](https://www.sciencedaily.com/releases/2026/08/260821012232.htm)
+格陵兰鲨活了400年，这已经够离谱了。更离谱的是，它们的眼睛几乎没有衰老迹象。网友评论："这鲨鱼是不是偷偷用了护眼霜？" 😂 科学家正在研究它们的DNA修复机制，未来或许能帮人类保护视力。
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### TAM受体抑制剂进入ALS临床试验
+### 维生素D与认知健康的临床试验启动
 - **预测时间**：2026年Q4
 - **预测概率**：70%
-- **预测依据**：今日新闻[In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/) 在小鼠模型中展示了显著的神经保护和生存期延长效果 + TAM机制在阿尔茨海默和帕金森模型中也被验证,且Salk研究所在免疫治疗转化方面有成功记录
+- **预测依据**：今日新闻[维生素D与认知得分提升](https://www.sciencedaily.com/releases/2026/08/260822015138.htm) + 初步研究显示13%的认知改善效果，这足以吸引更多机构启动大规模临床试验验证因果关系。
 
-### 基于DANDELION的哮喘棕榈酰化靶向疗法立项
-- **预测时间**：2026年9月
-- **预测概率**：65%
-- **预测依据**：今日新闻[DANDELION工具发现SLC27A3-棕榈酰化通路](https://www.genengnews.com/topics/artificial-intelligence/dandelion-computational-tool-identifies-previously-unknown-asthma-related-genes-and-pathway/) + 芝加哥大学团队已完成从计算预测到小鼠验证的完整链条,且哮喘药物市场规模大、开发周期相对较短
-
-### 超长期类器官平台商业化加速
+### 格陵兰鲨DNA修复机制进入基础研究阶段
 - **预测时间**：2026年Q3-Q4
-- **预测概率**：75%
-- **预测依据**：今日新闻[5年类器官突破](https://www.genengnews.com/topics/translational-medicine/five-year-brain-organoids-reveal-new-insights-into-human-development/) 证明了长时程人类组织模型的可行性 + 神经发育障碍药物开发对长时程模型需求强烈,且已有类器官公司(如Axol Bioscience、STEMCELL Technologies)在扩展产品线
+- **预测概率**：65%
+- **预测依据**：今日新闻[格陵兰鲨眼睛不老化](https://www.sciencedaily.com/releases/2026/08/260821012232.htm) + 这种鲨鱼的视网膜衰老极其缓慢，DNA修复机制可能成为视力保护研究的新方向。
 
-### DeeTox Atlas与大型药企达成多个合作
-- **预测时间**：2026年9月
-- **预测概率**：80%
-- **预测依据**：今日新闻[DeepCyte推出DeeTox Atlas并宣布企业试点项目即将开始](https://www.genengnews.com/topics/drug-discovery/deepcyte-launches-single-cell-metabolomic-reference-atlas-of-drug-toxicity-mechanisms/) + 药物毒性是药物研发失败的主要原因之一,单细胞代谢组学预测平台可直接降低后期失败率,商业价值明确
+### 多语言学习与大脑健康的更多研究发布
+- **预测时间**：2026年9月-10月
+- **预测概率**：60%
+- **预测依据**：今日新闻[多语言与大脑年龄](https://www.sciencedaily.com/releases/2026/08/260821012226.htm) + 多语言学习与大脑年轻13岁的发现，会吸引更多认知科学家跟进研究，探索具体机制。
