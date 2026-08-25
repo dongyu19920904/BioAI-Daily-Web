@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/8/24
+title: AI生命延续学日报 2026/8/25
 breadcrumbs: false
-next: /2026-08/2026-08-23
+next: /2026-08/2026-08-25
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-Merck 和 Moderna 的 mRNA 癌症疫苗三期试验成功，测序公司股价狂飙，个性化医疗赛道彻底点燃。
-百岁老人免疫系统在 100 岁前后出现 CD4 杀伤性 T 细胞克隆扩增，长寿机制研究有了新线索。
-今天适合关注两个方向：个性化癌症疫苗的商业化进程，以及线粒体超复合体作为抗衰老靶点的潜力。
+AI 揪出血液干细胞衰老关键基因，靶向药物可能不远了。
+51 项研究证实 DNA 甲基化标志物最靠谱，但别急着买检测产品，还需临床验证。
+今天衰老研究扎堆，RNA 长上下文模型和空间组学解释工具也值得关注。
 ```
 
 
@@ -29,60 +29,106 @@ Merck 和 Moderna 的 mRNA 癌症疫苗三期试验成功，测序公司股价�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-百岁老人的免疫系统突然出现"细胞革命"，这可能是长寿密码的关键线索。
+AI 揪出血液干细胞衰老的罪魁祸首，衰老干预的靶点清单又多了一个。
 
 ### **🔑 3 个关键词**
-#衰老生物标志物 #百岁老人免疫学 #线粒体与长寿
+#AI衰老生物标志物 #血液干细胞衰老 #肌肉生物学
+
+## **📎 今日可引用要点**
+
+**AI 识别出驱动血液干细胞衰老的关键基因**  
+- **原始来源**：[AI identifies key gene driving aging in blood stem cells](https://www.news-medical.net/news/20260824/AI-identifies-key-gene-driving-aging-in-blood-stem-cells.aspx)  
+- **证据边界**：目前研究处于基础发现阶段，具体基因名称和作用机制尚未在素材中详细披露；尚未明确该发现是否已在人体或动物模型中得到验证，也未说明能否开发出干预手段。
+
+**51 项纵向研究揭示最可靠的衰老生物标志物**  
+- **原始来源**：[Scientists compared 51 longevity studies to see which aging biomarkers respond most reliably](https://www.news-medical.net/news/20260825/Scientists-compared-51-longevity-studies-to-see-which-aging-biomarkers-respond-most-reliably.aspx)  
+- **证据边界**：研究分析了 51 项纵向干预研究，发现 DNA 甲基化生物标志物（特别是预测死亡率和衰老速度的二代以上标志物）对药物和生活方式干预响应最强；但作者明确指出，响应性并不等同于这些标志物已被验证为延缓衰老或延长寿命的替代终点。
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [百岁老人免疫系统出现独特"细胞革命"：CD4杀伤性T细胞大规模扩增](https://www.news-medical.net/news/20260823/A-striking-immune-cell-pattern-emerges-around-a-persone28099s-100th-birthday.aspx)
-单细胞免疫图谱研究发现，在人类100岁前后，CD4细胞毒性T淋巴细胞（CTL）会突然变得异常活跃，出现明显的克隆扩增和分化。体外实验还显示这些细胞具有细胞因子可塑性，说明它们能灵活适应持续存在的抗原——这可能是健康衰老的关键机制。不过，它们是否直接导致长寿，还需要更多研究。
+### 1. [AI 识别出驱动血液干细胞衰老的关键基因](https://www.news-medical.net/news/20260824/AI-identifies-key-gene-driving-aging-in-blood-stem-cells.aspx)
 
-![图片](https://www.news-medical.net/images/news/ImageForNews_845381_1787540143317945.jpg)
+血液干细胞是骨髓里的"万能细胞"，能变成任何血细胞，但它们也会老。现在 AI 找到了一个关键基因，专门负责让这些干细胞"变老"。虽然具体基因名称和机制还没公开，但这意味着未来可能有靶向药物来延缓血液系统衰老。对造血干细胞移植、血液病治疗都有潜在价值。
 
-### 2. [Merck与Moderna癌症疫苗三期成功，测序公司跟着起飞](https://www.genengnews.com/topics/cancer/stockwatch-merck-moderna-cancer-vaccine-gives-a-shot-in-the-arm-to-sequencing-companies-too/)
-个性化癌症疫苗intismeran在三期试验中碾压Keytruda单药，无复发生存期（RFS）和远处转移生存期（DMFS）双双达标。这是mRNA癌症疫苗首次拿下三期成功，Moderna股价三天飙130%，Illumina、PacBio等测序巨头也跟着涨了15-18%——因为个性化疫苗需要给每个患者做肿瘤基因测序。分析师预测2035年销售额将达168亿美元，是此前预测的两倍多。
+![图片](https://www.news-medical.net/image-handler/picture/2019/5/shutterstock_499282837_f18bafe030744de991560feceed98d20-620x480.jpg)
 
-### 3. [三个简单体能测试，预测老年人死亡风险](https://www.news-medical.net/news/20260824/These-simple-fitness-tests-revealed-which-older-adults-had-the-lowest-death-risk.aspx)
-台湾研究团队跟踪了13,423名65岁以上老年人，发现平衡能力、敏捷性、下肢力量和心肺功能与七年死亡风险显著相关。最强的预测指标是"多领域体能指数"——把这些测试结果综合起来，比单看年龄、慢性病这些传统指标更准。这意味着，简单的体能测试可以成为老年人健康风险评估的实用工具。
+---
 
-![图片](https://www.news-medical.net/images/news/ImageForNews_845389_17875488414166773.jpg)
+### 2. [51 项研究告诉你：哪些衰老生物标志物最靠谱](https://www.news-medical.net/news/20260825/Scientists-compared-51-longevity-studies-to-see-which-aging-biomarkers-respond-most-reliably.aspx)
 
-### 4. [线粒体超复合体：衰老研究的新战场](https://www.fightaging.org/archives/2026/08/reviewing-the-contribution-of-mitochondrial-supercomplexes-to-aging-and-longevity/)
-线粒体里的蛋白复合体不是独立工作的，它们会组成"超级复合体"，就像乐高积木拼成更大结构。这些超复合体能更高效地产生ATP（细胞的能量货币），同时减少有害的活性氧（ROS）产生。随着年龄增长，超复合体的组装和稳定性会下降，而最近的小鼠研究显示，人为增加超复合体的形成能延缓衰老。这篇综述总结了超复合体在衰老和长寿中的作用，暗示它可能是抗衰老干预的新靶点。
+市面上那么多"生物年龄检测"，到底哪个能信？研究团队分析了 51 项纵向干预研究，发现 **DNA 甲基化生物标志物**（尤其是预测死亡率和衰老速度的二代以上标志物）对药物和生活方式干预响应最强。但别急着下单，研究者特别提醒：响应性高不等于它就是"延寿金标准"，还需要更多临床验证。
 
-### 5. [降低INDY基因表达会改善果蝇肠道菌群失调](https://www.fightaging.org/archives/2026/08/reduced-indy-expression-in-flies-causes-gut-dysbiosis/)
-果蝇通常死于肠道功能衰退，而INDY基因与肠道健康密切相关。研究发现，降低INDY表达的果蝇，肠道细菌数量更少、菌群多样性更高，并且寿命更长。虽然去除肠道菌群也能延长果蝇寿命，但INDY降低与菌群改善的协同作用表明，INDY通过调节肠道菌群和代谢，双管齐下延缓衰老。这为理解肠道菌群与衰老的关系提供了新证据。
+![图片](https://www.news-medical.net/images/news/ImageForNews_845465_17876312501836257.jpg)
 
-### 6. [老年人语言能力保持强劲，即使其他认知功能衰退](https://medicalxpress.com/news/2026-08-language-skills-stay-strong-older.html)
-脑成像研究发现，随着年龄增长，许多认知功能（如工作记忆、问题解决）会下降，相关脑网络也出现变化。但语言能力却相对稳定，即使是在其他认知领域明显衰退的老年人中。这说明语言处理可能依赖不同的神经机制，或者更具韧性。对于老年人认知评估和康复训练，这是个好消息。
+---
 
-### 7. [AI驱动的蛋白质结合剂筛选新框架：用自然语言生成排序策略](https://papers.cool/arxiv/2608.20755)
-蛋白质结合剂设计的瓶颈不是生成候选物，而是从成千上万的候选中挑出最有潜力的几个去做实验。这篇论文提出用LLM（大语言模型）从预先计算的结构置信度、界面质量等多个指标中，生成排序策略。在10个靶点的测试中，GPT-4o生成的策略比最强的单一指标（Protenix binder ipTM）提升了3%的Recall@10。这种方法把LLM当成一个"可解释的决策层"，帮助科学家从海量候选中快速找到最值得测试的分子。
+### 3. [大脑语言网络：衰老面前的"钉子户"](https://www.news-medical.net/news/20260824/Older-brains-language-processing-network-remains-resilient-to-aging.aspx)
 
-### 8. [TracingFlow：用二阶动力学推断单细胞轨迹](https://papers.cool/arxiv/2608.21070)
-单细胞测序能拍下细胞分化过程的"快照"，但如何推断连续的演化轨迹一直是个难题。现有方法大多基于一阶动力学（假设细胞"没有记忆"），导致轨迹过度平滑，无法捕捉细胞分化中的急转弯。TracingFlow引入二阶动力学框架（考虑"加速度场"），用神经网络学习细胞演化的内在驱动力，从而捕捉高曲率的转变。在合成数据和大规模scRNA-seq数据集上，它在分布重建和轨迹保真度上都优于现有方法。
+很多人上了年纪后记忆力、反应速度都下降，但语言能力往往保持得不错。脑成像研究证实了这一点：负责工作记忆和问题解决的脑网络会随年龄衰退，但**语言处理网络异常顽强**，几乎不受影响。这可能解释了为什么老年人词汇量往往比年轻人还丰富。
 
-### 9. [为AI药物发现代理系统设计评估框架：与人类专家对齐](https://papers.cool/arxiv/2608.21057)
-LLM驱动的AI代理正在重塑药物发现工作流，但如何评估它们的输出质量是个大问题。阿斯利康的研究团队为ChatInvent（内部部署的AI药物发现助手）设计了一套"LLM-as-a-Judge"评估框架，定义了四个维度（完整性、相关性、结构清晰度、范围一致性），并通过5位专家标注验证了评估的准确性。最终，他们将最佳评估模型与人类多数投票的一致性从0.80提升到0.86。这个框架可以复用到其他科学领域的AI代理评估中。
+![图片](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
 
-### 10. [线粒体超复合体在衰老与长寿中的作用综述](https://www.fightaging.org/archives/2026/08/reviewing-the-contribution-of-mitochondrial-supercomplexes-to-aging-and-longevity/)
-线粒体是细胞的"发电厂"，其电子传递链由多个蛋白复合体组成。这些复合体不是孤立工作的，而是会组成"超级复合体"，提高ATP生成效率并减少有害的活性氧（ROS）。随着年龄增长，超复合体的组装和稳定性会下降，这可能是线粒体功能衰退的关键原因。最近的研究显示，通过诱导更多超复合体形成可以延缓小鼠衰老。这篇综述总结了超复合体在衰老和长寿中的作用，为抗衰老干预提供了新思路。
+---
+
+### 4. [咖啡里的"隐藏功效"：从咖啡因到三角碱，都在影响你的肌肉](https://www.news-medical.net/news/20260825/From-caffeine-to-trigonelline-coffee-has-surprising-links-to-muscle-biology.aspx)
+
+咖啡不只是提神。一项综述分析了 54 项研究，发现咖啡及其生物活性成分（咖啡因、三角碱等）会影响骨骼肌代谢的多条通路：胰岛素信号、线粒体功能、氧化应激、炎症、葡萄糖摄取和蛋白质周转。人体研究还发现，喝咖啡的人肌肉量更大，虚弱和功能障碍更少。不过别急着猛灌咖啡，这些证据大多是观察性或动物实验，不能证明因果。
+
+![图片](https://www.news-medical.net/images/news/ImageForNews_845473_1787637841478215.jpg)
+
+---
+
+### 5. [运动量随年龄暴跌，即使你身体很好也逃不掉](https://www.news-medical.net/news/20260825/Physical-activity-declines-significantly-with-age-despite-good-initial-health.aspx)
+
+芬兰 Jyväskylä 大学的研究发现，**即使是身体状况良好的老年人，运动量也会随年龄大幅下降**。这不是因为生病或受伤，而是衰老本身带来的变化。这提示我们：保持运动不是"状态好就行"，而是需要刻意对抗年龄带来的惰性。对公共卫生政策和个人健康管理都有启示。
+
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Physical_Activity-620x480.jpg)
+
+---
+
+### 6. [让老鼠肌腱"返老还童"的秘密：加固细胞外基质](https://lifespan.io/a-tougher-extracellular-matrix-strengthens-tendons-in-rats/)
+
+肌腱受伤在老年人中很常见，愈合也慢。研究人员发现，通过提升两种细胞外基质蛋白（Col1a1 和 Sparc）的上游调控因子 Creb3l1，可以显著增强老鼠肌腱的弹性和强度。注射携带 Creb3l1 的慢病毒后，雄性老鼠肌腱弹性和强度在三周内显著提升，雌雄老鼠的肌腱愈合也更好。人和老鼠的生物力学压力不同，但这为人类肌腱修复提供了新思路。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/08/Rat-tendons-262x187.jpg)
+
+---
+
+### 7. [抑郁和大脑 tau 蛋白：衰老和阿尔茨海默病的共同线索](https://www.news-medical.net/news/20260824/Researchers-explore-the-link-between-tau-levels-and-depressive-symptoms-in-older-people.aspx)
+
+在正常衰老和阿尔茨海默病进展中，**大脑中 tau 蛋白水平越高，抑郁症状越严重**。这提示 tau 蛋白不仅与认知退化有关，还可能影响情绪。未来抗 tau 治疗可能不仅改善记忆，还能缓解老年抑郁。
+
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/depression-620x480.jpg)
+
+---
+
+### 8. [OmicSync：用 LLM 推理解释空间多组学聚类，告诉你"为什么"](https://papers.cool/arxiv/2608.22785)
+
+空间多组学技术能同时测量组织中每个位置的基因表达、表面蛋白和组织学特征，但现有方法只给你聚类结果，不告诉你"为什么这么分"。OmicSync 用 LLM 推理生成逐步解释、反事实解释和对比解释，还能告诉你每个模态的贡献和分配可靠性。在四个 10x CytAssist 空间蛋白质组学基准上，OmicSync 表现最佳。这让空间组学分析从"黑箱"变成"可审计"。
+
+---
+
+### 9. [RIBOSPAN：首个原生支持 10K 上下文的 RNA 基础模型](https://papers.cool/arxiv/2608.22849)
+
+现有 RNA 基础模型的上下文长度太短，无法处理完整的 mRNA（通常超过 5000 个核苷酸）。RIBOSPAN 是一个 16 亿参数的双向 RNA 基础模型，原生支持 10,240 核苷酸上下文，能在单核苷酸分辨率下建模完整转录本。它在核苷酸重建、长上下文表示和冻结 RNA 类型表示分析中表现优异，还能用于 mRNA 生成和同义密码子优化。这为 RNA 药物设计、mRNA 疫苗优化提供了新工具。
+
+---
+
+### 10. [AnaDiffusion：首个解剖学可组合的 3D 脑 MRI 生成模型](https://papers.cool/arxiv/2608.23014)
+
+现有 3D 脑 MRI 生成模型把整个大脑当成一个整体，无法控制局部解剖结构。AnaDiffusion 把生成过程拆解成不同的解剖区域（左右半球、小脑-脑干复合体等），先分别生成各部分，再组装并全局优化。这让你可以**只替换某个脑区**（比如只换小脑），而不影响其他部分。在 ADNI 测试集上，AnaDiffusion 在全脑、左右半球、小脑-脑干复合体和接缝区域的 FID 都是最低的。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [急性慢性阻塞性肺病（AECOPD）的时间感知Transformer预测模型](https://papers.cool/arxiv/2608.21324) - 用家用呼吸机数据预测AECOPD，避免临床数据滞后，两分钟内就能预警
+**[研究]** [DeMixPert：用高斯混合模型预测未见过的基因扰动](https://papers.cool/arxiv/2608.23114) - 现有方法常把扰动特异性信号和群体变异混在一起，导致预测不准。DeMixPert 把扰动响应拆成基础状态依赖响应、扰动特异性响应和群体变异三部分，用高斯原型可逆网络建模变异，在未见扰动预测上表现优异。
 
-**[研究]** [意识接入的连续-离散翻译框架](https://papers.cool/arxiv/2608.20723) - 把意识建模为从连续感知到离散符号的转换过程，提出可测试的神经科学预测
+**[研究]** [Molecular LLM Agents：从架构设计到科学自主性](https://papers.cool/arxiv/2608.23104) - 这篇综述提出了分子 LLM 智能体的概念框架，涵盖分子表示与感知、智能体框架、领域特定工具箱、学习与优化。还提出了一个"科学自主性阶梯"，把智能体分为四个级别：L1 辅助或固定工作流、L2 自适应计算智能体、L3 反馈感知物理实验智能体、L4 科学议程智能体。
 
-**[研究]** [序数回归任务中的多模态LLM推理时对齐](https://papers.cool/arxiv/2608.20999) - 多模态LLM在年龄估计、疾病分级等序数任务上表现不佳，提出推理时轻量化对齐方法
-
-**[研究]** [患者药物反应预测的治疗条件潜在转换学习](https://papers.cool/arxiv/2608.21349) - 从单细胞数据学习药物诱导的分子变化，预测患者对癌症治疗的反应
+**[研究]** [控制 LLM 投资偏见：只需一个神经元](https://papers.cool/arxiv/2608.22852) - LLM 在投资决策中有系统性偏好。研究发现，通过在推理时干预单个神经元，可以连续调节模型的整体投资倾向（买入或卖出），而不改变提示词或模型参数。这在金融 AI 应用中可能有争议，但也展示了 LLM 决策的可控性。
 
 ---
 
@@ -90,47 +136,26 @@ LLM驱动的AI代理正在重塑药物发现工作流，但如何评估它们的
 
 | # | 类型 | 标题 | 链接 |
 |---|------|------|------|
-| 1 | 研究 | VIALS：生命科学视觉工件解读基准 | [链接](https://papers.cool/arxiv/2608.21357) |
+| 1 | 研究 | 中国消化道癌症终生风险地图：风险持续上升 | [链接](https://www.news-medical.net/news/20260824/Study-maps-rising-lifetime-risk-of-digestive-cancers-in-China.aspx) |
+| 2 | 研究 | 色氨酸代谢如何影响女性生殖健康 | [链接](https://www.news-medical.net/news/20260824/Review-uncovers-how-tryptophan-metabolism-affects-female-reproductive-health.aspx) |
+| 3 | 研究 | scRNA-seq 新方法：通过无偏细胞和基因网络分析揭示细胞分辨率 | [链接](https://papers.cool/arxiv/2608.22982) |
+| 4 | 研究 | 缓解推理诱导的错位：通过安全方向惩罚 | [链接](https://papers.cool/arxiv/2608.23497) |
 
 ---
 
-## **📎 今日可引用要点**
+## **🔮 AI 生命科学趋势预测**
 
-### 1. 百岁老人免疫系统在100岁前后出现CD4杀伤性T细胞大规模克隆扩增
-- **事实结论**：单细胞免疫图谱研究发现，人类在100岁前后，CD4细胞毒性T淋巴细胞（CTL）会出现显著的克隆扩增和分化，体外实验显示这些细胞具有细胞因子可塑性，能够适应持续存在的抗原。
-- **原始来源**：[A striking immune cell pattern emerges around a person's 100th birthday](https://www.news-medical.net/news/20260823/A-striking-immune-cell-pattern-emerges-around-a-persone28099s-100th-birthday.aspx)
-- **证据边界**：这是基于单细胞测序和体外实验的观察性研究，尚未证明这些免疫细胞变化直接导致长寿，也未在人体中进行干预性试验验证因果关系。
-
-### 2. Merck/Moderna个性化mRNA癌症疫苗在三期试验中显著改善黑色素瘤患者无复发生存期
-- **事实结论**：个性化新抗原疗法intismeran联合Keytruda在三期INTerpath-001试验中，在无复发生存期（RFS）和远处转移生存期（DMFS）两个终点上均优于单独使用Keytruda，这是mRNA癌症疫苗首次在三期试验中取得阳性结果。
-- **原始来源**：[StockWatch: Merck/Moderna Cancer Vaccine Gives a Shot in the Arm to Sequencing Companies, Too](https://www.genengnews.com/topics/cancer/stockwatch-merck-moderna-cancer-vaccine-gives-a-shot-in-the-arm-to-sequencing-companies-too/)
-- **证据边界**：研究针对III/IV期黑色素瘤患者的辅助治疗，具体的风险比（HR）和生存数据尚未公开，将在后续医学会议上发布。黑色素瘤是免疫敏感性最强、肿瘤突变负荷最高的癌症之一,这些结果能否推广到其他癌症类型（如肺癌、肾癌）仍需验证。
-
-### 3. 简单体能测试可预测老年人七年死亡风险，多领域体能指数优于传统风险因素
-- **事实结论**：在13,423名65岁以上台湾老年人的前瞻性队列研究中，平衡能力、敏捷性、下肢力量和心肺功能测试与中位随访7年的全因死亡率显著相关，综合多领域体能指数的预测能力最强。
-- **原始来源**：[These simple fitness tests revealed which older adults had the lowest death risk](https://www.news-medical.net/news/20260824/These-simple-fitness-tests-revealed-which-older-adults-had-the-lowest-death-risk.aspx)
-- **证据边界**：这是观察性队列研究，证据来自台湾老年人群，结果能否推广到其他种族和地区的老年人群需进一步验证。研究未探讨改善体能测试表现是否能降低死亡风险（即因果关系）。
-
----
-
-## **🔮 AI生命科学趋势预测**
-
-### AlphaFold 4或下一代蛋白质结构预测模型发布
-- **预测时间**：2026年Q4
+### AI 衰老生物标志物商业化加速
+- **预测时间**：2026 年 Q4
 - **预测概率**：70%
-- **预测依据**：今日新闻显示AI蛋白质相关研究（如[TracingFlow](https://papers.cool/arxiv/2608.21070)和[蛋白质结合剂筛选](https://papers.cool/arxiv/2608.20755)）持续升温 + DeepMind通常在年底发布重大更新，且距离AlphaFold 3发布已超过一年
+- **预测依据**：今日新闻 [51 项研究验证 DNA 甲基化生物标志物可靠性](https://www.news-medical.net/news/20260825/Scientists-compared-51-longevity-studies-to-see-which-aging-biomarkers-respond-most-reliably.aspx) + 近期多家公司（如 Altos Labs、Calico）持续投入衰老生物标志物研发，DNA 甲基化时钟（如 GrimAge、DunedinPACE）已进入临床验证阶段，预计年底前会有新的商业化产品发布。
 
-### AI制药临床试验数量激增
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：85%
-- **预测依据**：今日新闻[Merck/Moderna个性化癌症疫苗三期成功](https://www.genengnews.com/topics/cancer/stockwatch-merck-moderna-cancer-vaccine-gives-a-shot-in-the-arm-to-sequencing-companies-too/) + 多家AI制药公司已进入临床阶段，管线成熟度达到临界点
-
-### 线粒体超复合体靶向疗法进入临床前研究
-- **预测时间**：2026年Q4
+### RNA 基础模型进入 mRNA 疫苗和疗法设计
+- **预测时间**：2026 年 9-10 月
 - **预测概率**：60%
-- **预测依据**：今日综述[线粒体超复合体与衰老](https://www.fightaging.org/archives/2026/08/reviewing-the-contribution-of-mitochondrial-supercomplexes-to-aging-and-longevity/)显示该领域证据积累 + 小鼠研究已证实干预效果，下一步自然是开发药物候选物
+- **预测依据**：今日新闻 [RIBOSPAN 支持完整 mRNA 建模和同义密码子优化](https://papers.cool/arxiv/2608.22849) + Moderna、BioNTech 等 mRNA 疫苗公司近期持续招聘 AI 团队，原生长上下文 RNA 模型的出现将加速 AI 在 mRNA 设计中的应用。
 
-### 个性化癌症疫苗测序需求推动测序成本进一步下降
-- **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻[Merck/Moderna癌症疫苗成功带动测序公司股价](https://www.genengnews.com/topics/cancer/stockwatch-merck-moderna-cancer-vaccine-gives-a-shot-in-the-arm-to-sequencing-companies-too/) + 个性化疫苗需要为每位患者测序，规模化应用将推动测序技术优化和成本下降
+### 空间多组学 + LLM 推理成为新标配
+- **预测时间**：2026 年 Q3-Q4
+- **预测概率**：55%
+- **预测依据**：今日新闻 [OmicSync 用 LLM 解释空间多组学聚类](https://papers.cool/arxiv/2608.22785) + 空间组学数据复杂度高，研究者和临床医生需要可解释性，LLM 推理能力的引入是自然趋势，预计会有更多类似工具在顶会和预印本平台出现。
