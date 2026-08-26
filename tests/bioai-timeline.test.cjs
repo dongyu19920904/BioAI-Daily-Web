@@ -17,10 +17,12 @@ test("BioAI 时间线只读取最近 14 期且每期最多两个 TOP 节点", ()
   assert.match(collector, /\$dailyNodeCount = add \$dailyNodeCount 1/);
 });
 
-test("解析器匹配 BioAI 加粗编号链接且限定重磅 TOP 章节", () => {
+test("解析器兼容历史加粗与当前标题编号链接且限定重磅 TOP 章节", () => {
   const collector = read("layouts/partials/timeline/collect-bioai-signals.html");
 
-  assert.match(collector, /\\\*\\\*\\s\*\(\[0-9\]\+\)\\\./);
+  assert.match(collector, /\$boldItemPattern/);
+  assert.match(collector, /\$headingItemPattern/);
+  assert.match(collector, /\^#\{3,4\}\\s\+/);
   assert.match(collector, /in \$sectionHeadingLower "top"/);
   assert.match(collector, /in \$sectionHeading "重磅"/);
   assert.doesNotMatch(collector, /趋势预测|相关问题|AI生命科学趣闻/);
@@ -77,9 +79,13 @@ test("页面公开说明来源类型不等于医学证据等级", () => {
 
 test("Pages 部署在构建前运行测试、构建后验证产物", () => {
   const workflow = read(".github/workflows/pages.yaml");
+  const verifier = read("scripts/verify-bioai-timeline.cjs");
 
   assert.match(workflow, /actions\/setup-node@v4/);
   assert.match(workflow, /node-version:\s*'22'/);
   assert.match(workflow, /node --test tests\/\*\.test\.cjs/);
   assert.match(workflow, /node scripts\/verify-bioai-timeline\.cjs public/);
+  assert.match(verifier, /collectionSchema\.dateModified/);
+  assert.match(verifier, /timeline schema dateModified must match the latest visible issue/);
+  assert.doesNotMatch(verifier, /new RegExp\(`<lastmod>/);
 });

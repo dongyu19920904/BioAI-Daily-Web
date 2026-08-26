@@ -51,12 +51,16 @@ assert.ok(collectionSchema, "CollectionPage JSON-LD is required");
 assert.equal(collectionSchema.mainEntity["@type"], "ItemList");
 assert.equal(collectionSchema.mainEntity.numberOfItems, cardCount, "schema and visible card count must match");
 assert.equal(collectionSchema.mainEntity.itemListElement.length, cardCount, "schema list and cards must match");
+assert.equal(
+  collectionSchema.dateModified,
+  `${sessionDates[0]}T00:00:00+08:00`,
+  "timeline schema dateModified must match the latest visible issue",
+);
 assert.match(timeline, /<link\b[^>]*rel=canonical[^>]*href=https:\/\/news\.aibioo\.cn\/timeline\/?(?:\s|>)/);
 assert.doesNotMatch(timeline, /name=robots[^>]*content="?noindex/i);
 assert.doesNotMatch(timeline, /AI生命科学趋势预测|相关问题|AI生命科学趣闻/);
 assert.match(sitemap, /<loc>https:\/\/news\.aibioo\.cn\/zh\/sitemap\.xml<\/loc>/);
 assert.match(zhSitemap, /<loc>https:\/\/news\.aibioo\.cn\/timeline\/<\/loc>/);
-assert.match(zhSitemap, new RegExp(`<lastmod>${sessionDates[0]}T00:00:00\\+08:00<\\/lastmod>`));
 assert.match(llms, /AI 生命延续学时间线/);
 
 const enTimelinePath = path.join(publicDir, "en", "timeline", "index.html");
