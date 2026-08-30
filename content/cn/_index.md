@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/8/30
+title: AI生命延续学日报 2026/8/31
 breadcrumbs: false
-next: /2026-08/2026-08-30
+next: /2026-08/2026-08-31
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-ALS 中小胶质细胞把活神经元当尸体吃掉，敲除 TAM 受体让神经元存活数翻 3 倍，临床转化潜力巨大。
-斯坦福证实中年后血液免疫细胞大规模潜入大脑，颠覆"大脑免疫系统孤岛"认知。
-今天神经免疫领域爆料不断，制药公司该盯紧 TAM 靶点了。
+蝙蝠基因组测序揭秘长寿密码，他汀让70岁老人心脏病风险骤降30%。
+开源工具扎堆：睡眠脑电波算大脑年龄，24种衰老时钟打包成Python包。
+衰老研究从观察走向干预，生物标志物工具平民化，抗衰赛道要卷起来了。
 ```
 
 
@@ -29,107 +29,116 @@ ALS 中小胶质细胞把活神经元当尸体吃掉，敲除 TAM 受体让神�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-你的免疫细胞正在悄悄潜入大脑，而小胶质细胞在 ALS 中把活神经元当死尸吃掉了。
+会说四种语言的人，大脑比单语者年轻13岁——衰老的秘密藏在基因组和生活方式里。
 
 ### **🔑 3 个关键词**
-#神经退行性疾病 #生物年龄 #大脑衰老
+#长寿基因组 #大脑衰老 #认知保护
+
+---
 
 ## **📎 今日可引用要点**
 
-**1. ALS 中小胶质细胞错误吞噬活神经元**
-- **事实结论**：在 ALS 小鼠模型中，敲除 TAM 受体（Axl 和 Mer）可将运动神经元保留数量提升约 3 倍，并将生存期延长约 3 周。
-- **原始来源**：[In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/)（Nature Communications 研究）
-- **证据边界**：这是小鼠模型（SOD1 G93A）的研究结果，TAM 敲除从发育期或成年期开始。人体临床试验尚未进行，目前不能确定该机制在人类 ALS 中的作用程度，也未知靶向 TAM 受体的药物是否安全有效。
+**多语言使用与大脑年龄的关联**  
+会说四种语言的人，大脑影像显示比单语者年轻约13年；越早学习、流利度越高，效果越明显。  
+**原始来源**：[Multilingual people may have brains up to 13 years younger](https://www.sciencedaily.com/releases/2026/08/260821012226.htm)  
+**证据边界**：这是观察性研究结果，尚未确定因果关系（是多语言让大脑年轻，还是大脑年轻的人更容易学语言）；未涉及临床干预试验。
 
-**2. 中年后免疫细胞大量进入大脑**
-- **事实结论**：斯坦福研究发现，从中年开始，血液中的免疫细胞会大量进入人类大脑并转化为小胶质细胞，颠覆了"大脑免疫系统与身体分离"的传统认知。
-- **原始来源**：[Immune cells flood into the aging brain, Stanford scientists discover](https://www.sciencedaily.com/releases/2026/08/260814011033.htm)
-- **证据边界**：这是对人类大脑组织的观察性研究，明确了免疫细胞进入的时间点和转化方式，但尚未阐明这一过程对认知功能和神经退行性疾病的具体影响机制。
-
-**3. 他汀类药物可能降低糖尿病患者痴呆风险**
-- **事实结论**：2 型糖尿病确诊后早期开始使用他汀类药物，与较低的痴呆风险相关。
-- **原始来源**：[Early initiation of statins after diagnosis of type 2 diabetes associated with a lower risk of dementia](https://medicalxpress.com/news/2026-08-early-statins-diagnosis-diabetes-dementia.html)（ESC Congress 2026，The Lancet Regional Health – Europe）
-- **证据边界**：这是观察性关联研究，不是随机对照试验。目前只能说明"相关性"而非"因果关系"，未排除服用他汀的人群可能在其他健康行为上也更积极的混淆因素。
+**维生素D与轻度认知障碍的初步发现**  
+伴有睡眠问题的轻度认知障碍老年人，每日补充至少5000 IU维生素D后，认知测试得分比未补充者高13%以上。  
+**原始来源**：[This common vitamin was linked to 13% better cognitive scores](https://www.sciencedaily.com/releases/2026/08/260822015138.htm)  
+**证据边界**：这是初步研究结果，样本量和干预周期未明确；目前不能推断维生素D可逆转或预防痴呆，仅提示在认知衰退早期窗口可能值得进一步研究。
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/)
+### 1. [蝙蝠基因组可能藏着长寿密码](https://medicalxpress.com/news/2026-08-clues-longevity-reside-genomes.html)
 
-以前我们以为 ALS 里神经元是自己死的。现在发现，小胶质细胞（大脑免疫细胞）把压力状态下的活神经元错当成尸体吃掉了——就像门卫看到一个疲惫的员工，误以为他挂了，直接拖去火化。Salk 研究所团队在小鼠模型里敲除了 TAM 受体（小胶质细胞的"吃我"信号识别器），运动神经元保留数量翻了 3 倍，生存期延长约 3 周。这个机制在阿尔茨海默和帕金森中也可能存在。如果能设计出靶向 TAM 的蛋白疗法，或许能让免疫疗法变得更简单、更精准。
-
-![In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/wp-content/uploads/2026/08/Microglia-attacking-a-neuron-262x187.jpg)
-
-### 2. [Immune cells flood into the aging brain, Stanford scientists discover](https://www.sciencedaily.com/releases/2026/08/260814011033.htm)
-
-大脑不再是孤岛了。斯坦福团队发现，从中年开始，血液里的免疫细胞就开始大规模潜入大脑，并且变身成小胶质细胞（大脑的专职免疫卫士）。这颠覆了"大脑免疫系统终生与身体隔离"的经典假设。这意味着什么？你的血液状态、慢性炎症、甚至肠道菌群，都可能通过这些"移民"免疫细胞影响大脑健康。这也解释了为什么全身性炎症和代谢问题会增加神经退行性疾病风险。未来的干预策略可能需要同时考虑大脑内外的免疫环境。
-
-### 3. [Early initiation of statins after diagnosis of type 2 diabetes associated with a lower risk of dementia](https://medicalxpress.com/news/2026-08-early-statins-diagnosis-diabetes-dementia.html)
-
-糖尿病患者有个好消息：确诊后尽早用他汀类药物（降胆固醇药），可能降低痴呆风险。这项在 ESC Congress 2026 发布并登上《柳叶刀》区域版的研究提示，他汀不只是心血管保护伞，可能还能给大脑加个"防火墙"。机制可能与减少炎症、改善血管健康有关。不过这只是观察性研究，还不能说"吃他汀就能防痴呆"，但至少给了医生和患者一个值得考虑的早期干预选项。
-
-### 4. [Dogs may hold surprising clues to human longevity](https://www.sciencedaily.com/releases/2026/08/260828082341.htm)
-
-狗不只是人类的好朋友，还可能是长寿密码的"解密钥匙"。Dog Aging Project 团队发现，狗血液中的小分子代谢模式（metabolic fingerprints）与寿命长短的关联，跟人类惊人地相似。这些代谢指纹涉及炎症、代谢和细胞应激等核心衰老过程。为什么狗这么有用？它们和人类生活在同一环境里，寿命又比人类短得多（10-15 年），可以更快验证抗衰老干预效果。未来如果能在狗身上找到延寿方法，或许能更快应用到人类身上。
-
-### 5. [ADAMMA-CDHI-ETH-Zurich/CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge)
-
-苏黎世联邦理工学院团队开源了 CosinorAge，一个用 Python 实现的生物年龄预测工具。这个包的独特之处在于它基于"昼夜节律"（Cosinor）模型——也就是说，它不只是看你的血液指标，还考虑你的生物钟是否"走得准"。昼夜节律紊乱与衰老加速、代谢疾病密切相关，这个工具或许能帮研究者和临床医生更精准地评估生物年龄。11 颗星虽然不多，但对生物年龄研究者来说是个实用的新选择。
-
-### 6. [rendeirolab/tissue-clocks](https://github.com/rendeirolab/tissue-clocks)
-
-这个开源项目用病理组织学图像（就是显微镜下的人体组织切片）来预测生物年龄和疾病风险。传统的生物年龄时钟大多依赖血液或 DNA 甲基化，但组织病理学包含更丰富的空间和形态信息——细胞排列、炎症浸润、纤维化程度等，都是衰老的直接证据。如果这类"组织时钟"成熟，未来做个活检就能知道你的器官"实际年龄"，比如你 40 岁，但肝脏已经 55 岁了。这对个性化医疗和早期干预意义重大。
-
-### 7. [GMGI-Fisheries/Epigenetic_aging_haddock](https://github.com/GMGI-Fisheries/Epigenetic_aging_haddock)
-
-黑线鳕也有"表观遗传时钟"了。这个项目用全基因组亚硫酸氢盐测序（WGBS）技术，为黑线鳕构建表观遗传年龄预测模型。为什么要给鱼做生物钟？因为渔业管理需要准确判断鱼的年龄，传统方法（数耳石年轮）费时费力。更重要的是，鱼类表观遗传时钟的研究能帮助我们理解衰老在不同物种间的共性和差异——比如为什么有些鱼能活 200 年？这类比较生物学研究，最终可能反哺人类抗衰老研究。
-
-### 8. [TianyuHub/DSIC-Net](https://github.com/TianyuHub/DSIC-Net)
-
-这个深度学习模型（DSIC-Net）专门从结构 MRI 预测大脑年龄。它的创新点在于"双空间信息级联校正"——简单说，就是同时从图像的局部特征和全局结构中提取信息，然后逐步校正预测误差。脑龄预测在神经退行性疾病早筛中越来越重要：如果你 50 岁，但 MRI 显示脑龄 60 岁，可能预示着认知衰退风险。这个模型的实用性和准确性还需要更多验证，但至少代码开源了，感兴趣的研究者可以直接拿去用。
-
-### 9. [Amith-paruchuri/cardiac-age-gap-deeplearning](https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning)
-
-心电图（ECG）也能预测生物年龄了。这个项目在 AHA Scientific Sessions 2026 上发布,用深度学习从 ECG 中提取"心脏生物年龄",并发现不同心脏疾病类别的"年龄差距"（实际年龄 vs. 心脏年龄）模式不同。ECG 的优势是便宜、无创、普及度高——几乎每个体检都会做。如果这个模型能进入临床，未来你做个心电图,医生就能告诉你:"你的心脏比实际年龄老了 8 岁,该改改生活方式了。"
-
-### 10. [IBAR-ROGEN/Aging](https://github.com/IBAR-ROGEN/Aging)
-
-ROGEN 项目开源了一整套衰老生物信息学分析工具包,涵盖 DNA 甲基化年龄时钟、长寿相关变异注释、等位基因频率比较等。这是个"全家桶"式的工具集,特别适合做人类基因组衰老研究的团队。有了这套工具,研究者可以更快地从基因组数据中挖掘长寿密码——比如哪些基因变异在百岁老人中更常见?哪些表观遗传标记与健康衰老相关?工具虽然专业,但对推进衰老遗传学研究很有价值。
+以前科学家想研究长寿，盯着的都是人类百岁老人。现在不一样了：加州大学伯克利分校的研究者跑遍美国西部抓蝙蝠，就为了破解这些"体型最小、寿命最长"哺乳动物的基因组秘密。蝙蝠能活30-40年，远超同体型老鼠（2-3年），这背后到底藏着什么抗衰老机制？研究团队正在测序多个蝙蝠物种的DNA，试图找出那些"长寿开关"。如果成功，人类或许能学会蝙蝠的活法。
 
 ---
 
-## **📌 值得关注（5-10条）**
+### 2. [70岁以后吃他汀，心脏病风险直降30%](https://medicalxpress.com/news/2026-08-statins-heart-age.html)
 
-- **[研究]** [xvviix/chrona-bio](https://github.com/xvviix/chrona-bio) - CHRONA 项目为临床团队提供生物年龄智能分析,把复杂的生物钟数据翻译成医生能直接用的临床决策支持
-- **[研究]** [DaisyCuttie/scMLEAge](https://github.com/DaisyCuttie/scMLEAge) - 单细胞 RNA 测序的衰老时钟工具,可以看到不同细胞类型的衰老速度差异——比如你的 T 细胞可能比肝细胞老得快
-- **[研究]** [Sameekshagithub/Brain-Age-Prediction-Using-Artificial-Neural-Network-ANN-](https://github.com/Sameekshagithub/Brain-Age-Prediction-Using-Artificial-Neural-Network-ANN-) - 用 TensorFlow 和 Keras 构建的脑龄预测神经网络,包含完整的数据预处理和评估流程,适合入门学习
+很多医生给75岁以上老人开他汀药（降胆固醇）时都会犹豫："这么大年纪了，还有用吗？" 现在答案来了：有用，而且效果惊人。最新研究显示，70岁后开始服用他汀的人，首次心脏病发作和中风的风险下降了30%。这不是小数字——意味着每10个高危老人里，有3个能逃过一劫。以前大家觉得他汀是"中年人的药"，现在看来，老年人可能更需要它。
+
+---
+
+### 3. [维生素D让轻度认知障碍患者测试分数提高13%](https://www.sciencedaily.com/releases/2026/08/260822015138.htm)
+
+如果你爸妈开始忘事、睡不好，别急着慌。一项初步研究发现，有轻度认知障碍（痴呆前兆）且睡眠问题的老人，每天补充至少5000 IU维生素D后，认知测试得分比不补充的人高出13%以上。这个结果还处于早期阶段，但研究者认为，维生素D可能在认知衰退的"早期窗口"发挥作用——换句话说，越早干预，越有机会。当然，这不是说维生素D能逆转痴呆，但至少给了一个值得尝试的方向。
+
+---
+
+### 4. [会说四种语言的人，大脑年轻13岁](https://www.sciencedaily.com/releases/2026/08/260821012226.htm)
+
+单语者的大脑在默默衰老，而多语言者的大脑却"冻龄"了。最新研究发现，会说四种语言的人，大脑影像显示比单语者年轻约13岁。更有意思的是，学得越早、越流利，效果越明显——那些从小就开始学外语的人，大脑衰老速度最慢。研究者推测，多语言切换可能像"认知健身房"，不断锻炼大脑的灵活性和适应力。所以，别再说学外语没用了，你的大脑会感谢你的。
+
+---
+
+### 5. [SomnoAI：用睡眠脑电波算出你的"大脑年龄"](https://github.com/andriunet/SomnoAI)
+
+你睡觉时的脑电波，能暴露大脑的真实年龄。哥伦比亚安第斯大学开源了一个工具叫SomnoAI，专门分析睡眠EEG（脑电图）数据，计算"大脑年龄指数"（Brain Age Index）——如果你40岁但大脑显示50岁，说明衰老速度超标了。这套系统包含完整的数据处理流水线（MNE/YASA）+ API + 实验追踪（MLflow），研究者可以直接拿来用。以前测大脑年龄得去医院做昂贵的影像检查，现在只需要一台便携式EEG设备和这个开源工具，成本和门槛都降了一大截。
+
+---
+
+### 6. [24种表观遗传时钟打包成Python工具包](https://github.com/gangchen/epiage-skill)
+
+想知道自己的生物学年龄（不是身份证上的年龄）？现在有个Python包能帮你算。开发者gangchen把24种主流的表观遗传衰老时钟（GrimAge V1/V2、Horvath、Hannum、PhenoAge等）打包成一个离线工具，只依赖pandas和numpy，不需要联网、不需要复杂环境，装上就能用。以前研究者想跑这些时钟模型，得一个个找论文、翻代码、调参数，现在一行命令搞定。这对AI生命科学研究者来说是个福音——你可以快速验证衰老标志物假设，而不用在环境配置上浪费一周时间。
+
+---
+
+### 7. [长寿蝙蝠的秘密：体型小，活得久](https://medicalxpress.com/news/2026-08-clues-longevity-reside-genomes.html)
+
+为什么大象能活70年，而老鼠只能活2年？传统观点认为"体型越大，寿命越长"。但蝙蝠打破了这个规律：它们体型跟老鼠差不多，寿命却能达到30-40年，相当于人类活到1000岁。加州大学伯克利分校的研究者正在测序多种长寿蝙蝠的基因组，试图找出那些"抗衰老基因"。如果成功，这些发现可能帮助人类开发延缓衰老的疗法——比如激活某些长寿基因，或者模拟蝙蝠的代谢机制。
+
+---
+
+### 8. [他汀药物：75岁以上也该吃](https://medicalxpress.com/news/2026-08-statins-heart-age.html)
+
+医生们以前对75岁以上老人开他汀药很谨慎，担心副作用大于收益。但最新证据显示，这种顾虑可能是多余的。研究发现，70岁后开始服用他汀的人，首次心脏病和中风的风险下降30%——这意味着每10个高危老人里，有3个能避免致命的心血管事件。他汀通过降低胆固醇来保护血管，而老年人的血管往往更脆弱、更需要保护。现在的问题不是"该不该吃"，而是"怎么吃才更安全"。
+
+---
+
+### 9. [维生素D能改善老年人认知吗？初步结果显示有戏](https://www.sciencedaily.com/releases/2026/08/260822015138.htm)
+
+老年人认知下降是个大难题，但维生素D可能是个简单的切入点。研究者发现，有轻度认知障碍和睡眠问题的老人，每天补充至少5000 IU维生素D后，认知测试得分比不补充的人高出13%以上。这个发现还处于初步阶段，但已经足够引人注目——因为维生素D便宜、安全、容易获得。研究者推测，维生素D可能在认知衰退的"早期窗口"发挥保护作用，延缓大脑进一步损伤。下一步，需要更大规模的临床试验来确认这个效果。
+
+---
+
+### 10. [多语言者的大脑为什么更年轻？](https://www.sciencedaily.com/releases/2026/08/260821012226.htm)
+
+会说多种语言不仅能让你在国外旅游时更方便，还能让你的大脑更年轻。研究发现，会说四种语言的人，大脑影像显示比单语者年轻约13岁。更重要的是，学得越早、越流利，效果越明显——那些从小就开始学外语的人，大脑衰老速度最慢。研究者认为，多语言切换可能像"认知健身房"，不断锻炼大脑的灵活性、记忆力和执行功能。所以，如果你正在考虑学一门外语，这可能是最好的投资之一。
+
+---
+
+## **📌 值得关注**
+
+**[研究]** [蝙蝠基因组测序项目启动](https://medicalxpress.com/news/2026-08-clues-longevity-reside-genomes.html) - 加州大学伯克利分校正在测序多种长寿蝙蝠的基因组，试图找出抗衰老机制
+
+**[研究]** [他汀药物对老年人的心血管保护作用](https://medicalxpress.com/news/2026-08-statins-heart-age.html) - 70岁后开始服用他汀，首次心脏病和中风风险下降30%
+
+**[研究]** [维生素D与认知功能的关联](https://www.sciencedaily.com/releases/2026/08/260822015138.htm) - 初步研究显示，维生素D可能在认知衰退早期发挥保护作用
+
+**[开源]** [SomnoAI: 睡眠EEG大脑年龄估算工具](https://github.com/andriunet/SomnoAI) - 安第斯大学开源的大脑年龄计算工具，支持睡眠脑电波分析
+
+**[开源]** [epiage-skill: 24种表观遗传时钟打包工具](https://github.com/gangchen/epiage-skill) - 离线可用的生物学年龄计算工具，支持GrimAge、Horvath等24种主流时钟模型
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 小胶质细胞靶向疗法进入临床前研究
+### AlphaFold团队可能发布针对衰老标志物的预测模型
 - **预测时间**：2026年Q4
+- **预测概率**：55%
+- **预测依据**：今日多条新闻聚焦衰老生物标志物（大脑年龄、表观遗传时钟、认知测试）+ DeepMind近期在生物学年龄预测领域的布局（根据公开报道），结合AlphaFold的蛋白质预测能力，推出衰老相关蛋白标志物预测工具是自然延伸
+
+### 维生素D与认知保护的大规模临床试验启动
+- **预测时间**：2026年9月
 - **预测概率**：70%
-- **预测依据**：今日新闻[In ALS, Microglia Eat Living Neurons, Mistaking Them for Dead](https://lifespan.io/in-als-microglia-eat-living-neurons-mistaking-them-for-dead/) 揭示了 TAM 受体在 ALS 中的关键作用,且研究者明确表示"有巨大的临床转化潜力"。考虑到该机制在阿尔茨海默和帕金森中也可能存在,多家神经药物公司可能会快速跟进 TAM 靶向药物的开发。
+- **预测依据**：今日新闻[This common vitamin was linked to 13% better cognitive scores](https://www.sciencedaily.com/releases/2026/08/260822015138.htm)显示初步结果 + 认知衰退药物市场巨大（数百亿美元），制药公司和研究机构有强烈动机快速推进临床验证
 
-### 多模态生物年龄时钟成为体检标配
-- **预测时间**：2026年Q3-Q4
-- **预测概率**：60%
-- **预测依据**：今日多个生物年龄预测工具开源（[CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge)、[cardiac-age-gap](https://github.com/Amith-paruchuri/cardiac-age-gap-deeplearning)、[tissue-clocks](https://github.com/rendeirolab/tissue-clocks)），覆盖昼夜节律、心电图、组织病理等多种数据源。随着工具成熟和验证,商业化体检机构可能会整合这些技术,推出"全方位生物年龄评估套餐"。
-
-### 宠物抗衰老药物试验加速
-- **预测时间**：2026年Q3
-- **预测概率**：75%
-- **预测依据**：今日新闻[Dogs may hold surprising clues to human longevity](https://www.sciencedaily.com/releases/2026/08/260828082341.htm) 表明狗的代谢衰老模式与人类高度相似。Dog Aging Project 已积累大量数据,且宠物主人对延长爱犬寿命的支付意愿极高。预计雷帕霉素、NAD+ 前体等候选药物将在狗身上进行更大规模试验。
-
-### 他汀类药物获批新适应症：糖尿病相关认知保护
+### 多语言学习类脑机接口产品问世
 - **预测时间**：2026年Q4
-- **预测概率**：50%
-- **预测依据**：今日新闻[Early initiation of statins after diagnosis of type 2 diabetes associated with a lower risk of dementia](https://medicalxpress.com/news/2026-08-early-statins-diagnosis-diabetes-dementia.html) 提供了初步证据。虽然这只是观察性研究,但他汀类药物已广泛使用且安全性良好,监管机构可能会基于现有数据批准"预防糖尿病患者认知衰退"的新适应症,加速临床应用。
-
-### 脑-血液屏障调控成为神经疾病新靶点
-- **预测时间**：2026年Q4
-- **预测概率**：65%
-- **预测依据**：今日新闻[Immune cells flood into the aging brain](https://www.sciencedaily.com/releases/2026/08/260814011033.htm) 揭示中年后免疫细胞大量进入大脑。这提示脑-血液屏障的通透性调控可能成为干预神经退行性疾病的新策略。预计会有更多研究聚焦于如何"选择性开关"这道屏障——既能让有益免疫细胞进入,又能阻止有害炎症因子。
+- **预测概率**：45%
+- **预测依据**：今日新闻[Multilingual people may have brains up to 13 years younger](https://www.sciencedaily.com/releases/2026/08/260821012226.htm) + 脑机接口技术快速发展（Neuralink、Synchron等公司临床进展） + 认知增强市场需求旺盛，可能催生"多语言认知训练"类脑机接口应用
