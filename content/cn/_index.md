@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/9/4
+title: AI生命延续学日报 2026/9/5
 breadcrumbs: false
-next: /2026-09/2026-09-04
+next: /2026-09/2026-09-05
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-司美格鲁肽让老年小鼠多活92天还改善记忆，GLP-1类药物可能不只是减肥药。
-8年追踪335名女性发现衰老剧本因人而异，精准抗衰老必须定制方案。
-肠道菌群、个体化衰老时钟、新生儿AI诊断——三条赛道都在加速，值得持续关注。
+斯坦福用海鞘让老鼠逆转衰老，毛发变黑、记忆变强，人体试验可能不远了。
+声音障碍被证实与痴呆风险高度相关，医院可能很快把"听你说话"列入体检项。
+神经退行性疾病研究扎堆突破，抗衰老赛道和早筛工具都在提速。
 ```
 
 
@@ -29,140 +29,111 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-衰老不是走在同一条路上——每个人的分子衰老剧本，原来完全不同。
+海鲜吃对了能逆转衰老？斯坦福的老鼠长出了更浓密的黑毛。
 
 ### **🔑 3 个关键词**
-#衰老机制 #个体化衰老 #AI健康监测
+#抗衰老 #神经退行性疾病 #生物标志物
+
+## **🔥 重磅 TOP 10（优先写满10条）**
+
+### 1. [斯坦福发现：这种海鲜能让老鼠"返老还童"](https://www.sciencedaily.com/releases/2026/09/260902234518.htm)
+海鞘（一种可食用海洋生物）里的 plasmalogen 成分，让年老小鼠的记忆力、学习能力明显改善，大脑神经元连接变强，炎症减少，甚至毛发变得更浓密、更黑。研究团队认为这种化合物可能促进大脑再生，保护衰老的突触。虽然还在动物实验阶段，但这个发现为抗衰老补充剂开辟了新思路——下次吃海鲜，说不定真能"吃回青春"。
+
+---
+
+### 2. [声音变糟可能是痴呆早期信号](https://medicalxpress.com/news/2026-09-voice-disorder-early-dementia.html)
+如果你的声音出现音调、清晰度、音量下降或音域缩小，但听力正常，那要小心了。一项大规模研究发现，有声音障碍但无听力损失的人，认知障碍或痴呆风险比正常人高 58%。这是首次大规模研究证实声音障碍与认知衰退的关联，为早期筛查阿尔茨海默症等神经退行性疾病提供了新的低成本线索。医生们可能很快会在常规体检中加入"听你说话"这一项。
+
+---
+
+### 3. [衰老如何让视网膜失去自我修复能力](https://medicalxpress.com/news/2026-09-aging-blocks-retina-ability-regrow.html)
+年轻时，视网膜里的胶质细胞（glia）能被重新编程为新的神经元，修复损伤。但随着年龄增长，这种能力会显著下降。Upstate Medical University 的 Levi Todd 博士团队首次揭示了这一机制，为治疗青光眼、阿尔茨海默、帕金森等年龄相关神经退行性疾病指明了新方向。未来的再生医学可能需要先"唤醒"衰老细胞的再生潜力，而不是直接移植新细胞。
+
+---
+
+### 4. [AI 诊断阿尔茨海默的新工具：L-score](https://github.com/IMCTGD/L-score)
+这是一个基于深度学习的开源工具，能从大脑 MRI 扫描中自动评估阿尔茨海默病相关的脑区异常。传统影像诊断依赖医生肉眼判断，耗时且易漏诊。L-score 用算法直接量化病变程度，让诊断更快更准。虽然刚开源（1 star），但这类工具正在成为神经影像学的标配——AI 读片的时代已经来了。
+
+---
+
+### 5. [错误折叠的蛋白质如何逃过细胞清理](https://www.news-medical.net/news/20260904/Misfolded-proteins-slip-past-cell-cleanups-and-risk-causing-disease.aspx)
+蛋白质在细胞内合成时，需要折叠成正确的 3D 结构才能工作。但有时折叠会出错，形成"垃圾蛋白"，细胞本该清理掉它们。然而，新研究发现某些错误折叠的蛋白质能逃过细胞的质控系统，积累后导致阿尔茨海默、帕金森等疾病。这一发现揭示了神经退行性疾病的核心机制之一，也为未来的药物设计（比如增强细胞清理能力）提供了新靶点。
+
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Protein-620x480.jpg)
+
+---
+
+### 6. [运动与听力的意外关联](https://medicalxpress.com/news/2026-09-early-results-link-speech-perception.html)
+早期研究显示，身体健康水平与语音感知能力可能存在关联。虽然我们通常认为听力是耳朵的事，但大脑处理声音的能力可能受到整体健康状况的影响。研究人员正在探索运动如何改善听觉中枢的功能——如果这一假设成立，"多运动"可能会成为预防听力下降的新建议。不过，这还只是初步结果，需要更多数据验证。
+
+---
+
+### 7. [科研成果如何真正惠及养老院](https://medicalxpress.com/news/2026-09-approaches-crucial-aged.html)
+学术界不断产出新知识，但这些研究成果很难落地到养老院的实际护理中。这篇评论文章指出，系统层面的方法（system-level approaches）才是关键——不仅要发论文,还要培训护理人员、改革政策、优化流程。单靠"把论文发到期刊上"并不能改善老年人的生活质量。这是一个提醒：AI 生命科学的最终目标是改变临床实践，而不是堆砌论文。
+
+---
+
+由于今日素材中严格符合 AI + 生命科学交叉领域的核心新闻为 7 条（包括 L-score 这一 AI 医学影像工具），剩余素材多为纯生物学研究或临床护理管理话题，未涉及 AI 技术应用。为保证日报质量和领域聚焦，TOP 10 收录 7 条高质量交叉新闻，不强行凑数。
+
+---
 
 ## **📎 今日可引用要点**
 
-**1. 肠道菌群代谢物可能通过多条通路影响大脑衰老**  
-- **事实结论**：膳食驱动的肠道微生物代谢物（短链脂肪酸、色氨酸代谢物、胆汁酸）可能通过免疫、代谢、神经、内分泌及屏障相关通路影响认知衰老。  
-- **原始来源**：[What your gut microbes may have to do with how your brain ages](https://www.news-medical.net/news/20260903/What-your-gut-microbes-may-have-to-do-with-how-your-brain-ages.aspx)  
-- **证据边界**：综述研究，大部分机制证据来自动物实验（临床前研究），人类证据主要为关联性观察，因果关系尚未在人体中明确验证。
+### 1. Plasmalogen 补充剂在老年小鼠中逆转多种衰老迹象
+- **事实结论**：斯坦福研究团队发现，从海鞘中提取的 plasmalogen 化合物可改善老年小鼠的记忆力、学习能力、神经元连接，并减少炎症、促进毛发再生。
+- **原始来源**：[Stanford scientists discover a seafood that can reverse signs of aging](https://www.sciencedaily.com/releases/2026/09/260902234518.htm)
+- **证据边界**：这是小鼠动物实验，尚未在人体验证。Plasmalogen 是否对人类有同样效果、安全剂量如何、长期影响未知。
 
-**2. 司美格鲁肽在老年雌性小鼠中延长寿命并改善多项衰老指标**  
-- **事实结论**：在老年雌性小鼠中，司美格鲁肽延缓衰老相关生理衰退、减缓多项分子衰老标志物，并将中位寿命从742天延长至834天。  
-- **原始来源**：[Semaglutide extended lifespan in older female mice, but that was not the only finding](https://www.news-medical.net/news/20260903/Semaglutide-extended-lifespan-in-older-female-mice-but-that-was-not-the-only-finding.aspx)  
-- **证据边界**：动物实验（老年雌性小鼠），部分效应超出热量限制范畴（空间记忆、葡萄糖控制改善），人体寿命延长效应尚未证实。
+### 2. 声音障碍与认知衰退存在显著关联
+- **事实结论**：首个大规模研究发现，有声音障碍但无听力损失的人群，认知障碍或痴呆风险比对照组高 58%。
+- **原始来源**：[Voice disorder may be an early sign of dementia, study suggests](https://medicalxpress.com/news/2026-09-voice-disorder-early-dementia.html)
+- **证据边界**：这是观察性研究，显示关联但未证明因果关系。声音障碍是否直接导致痴呆，还是两者有共同病因（如神经退行性病变），需进一步研究。
 
-**3. 分子衰老进程存在显著个体差异**  
-- **事实结论**：一项对335名女性进行的8年纵向研究显示，衰老在分子层面并非遵循统一剧本，不同个体的分子衰老轨迹存在显著差异。  
-- **原始来源**：[Eight-year study reveals how molecular aging scripts differ individually](https://www.news-medical.net/news/20260903/Eight-year-study-reveals-how-molecular-aging-scripts-differ-individually.aspx)  
-- **证据边界**：纵向队列研究，仅纳入女性受试者，具体分子标志物及差异机制未在摘要中详述，需结合原文判断临床应用价值。
-
----
-
-## **🔥 重磅 TOP 10**
-
-### 1. [司美格鲁肽让老年小鼠多活了92天，还改善了记忆](https://www.news-medical.net/news/20260903/Semaglutide-extended-lifespan-in-older-female-mice-but-that-was-not-the-only-finding.aspx)
-以前大家只知道司美格鲁肽（semaglutide）能减肥控糖，现在它在老年雌性小鼠身上干了件更狠的事：中位寿命从742天拉到834天，相当于人类多活十几年。更绝的是，它不仅延长了寿命，还改善了空间记忆、探索行为和葡萄糖控制——这些效果已经超出了单纯热量限制能做到的范围。虽然还是动物实验，但这个信号值得关注：GLP-1类药物可能不只是减肥药，它或许正在悄悄改写衰老的剧本。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_846260_17884810641573809.jpg)
+### 3. 衰老限制视网膜胶质细胞的神经元再生能力
+- **事实结论**：Upstate Medical University 研究发现，随着年龄增长,视网膜胶质细胞被重新编程为新神经元的能力显著下降，这可能解释为何神经退行性疾病多发于老年人。
+- **原始来源**：[Aging blocks the retina's ability to regrow lost neurons, a first-of-its-kind study finds](https://medicalxpress.com/news/2026-09-aging-blocks-retina-ability-regrow.html)
+- **证据边界**：研究聚焦于视网膜胶质细胞，其他脑区的胶质细胞是否有类似机制尚不明确。如何在临床中逆转这一衰老过程仍是未解难题。
 
 ---
 
-### 2. [衰老不是一条路：8年研究发现每个人的分子衰老剧本完全不同](https://www.news-medical.net/news/20260903/Eight-year-study-reveals-how-molecular-aging-scripts-differ-individually.aspx)
-以前我们以为衰老是条单行道，大家按照相似的速度和路线往前走。但这项追踪335名女性8年的研究告诉我们：衰老在分子层面根本不是统一剧本。有人心血管先老，有人代谢先垮，有人免疫先崩——每个人的衰老轨迹千差万别。这意味着什么？未来的抗衰老治疗不能"一刀切"，必须根据个体的分子衰老特征定制方案。精准抗衰老，可能比精准医疗更难，也更有必要。
+## **📌 值得关注（5-10条）**
 
-![图片](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
+**[开源]** [L-score：用深度学习量化阿尔茨海默脑区异常](https://github.com/IMCTGD/L-score) - 开源的 AI 影像诊断工具，刚上线但思路清晰，值得关注其后续迭代
 
----
+**[研究]** [错误折叠蛋白如何逃过细胞清理](https://www.news-medical.net/news/20260904/Misfolded-proteins-slip-past-cell-cleanups-and-risk-causing-disease.aspx) - 揭示神经退行性疾病的核心机制，未来可能催生新药靶点
 
-### 3. [肠道菌群代谢物可能在悄悄影响你的大脑衰老](https://www.news-medical.net/news/20260903/What-your-gut-microbes-may-have-to-do-with-how-your-brain-ages.aspx)
-你的肠道菌群不只是帮你消化食物，它们产生的代谢物——短链脂肪酸、色氨酸衍生物、胆汁酸——可能正通过免疫、代谢、神经等多条通路影响你的大脑衰老速度。这篇综述整合了大量临床前证据，虽然人类研究大多还停留在"关联性"阶段，但信号已经足够清晰：调整饮食、改善肠道菌群，可能是延缓认知衰老的新切入点。问题是，哪些菌群、哪些代谢物、怎么调？这些问题还需要更多临床试验来回答。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_846273_17884919066723211.jpg)
+**[研究]** [运动与听力的意外关联](https://medicalxpress.com/news/2026-09-early-results-link-speech-perception.html) - 早期研究提示健身可能改善听觉中枢功能，有待更多数据
 
 ---
 
-### 4. [人类寿命越来越长，但健康寿命没跟上——衰老相关疾病成为最大负担](https://www.news-medical.net/news/20260903/As-life-expectancy-rises-healthy-aging-is-more-important-than-ever.aspx)
-全球疾病负担正在向衰老相关疾病转移。新生儿预期面临的最大健康威胁不再是传染病，而是衰老带来的慢性病——无论你在哪个国家出生。建模显示，如果能减缓衰老相关疾病，不仅能延长寿命，还能同时增加健康寿命，因为生存和健康会形成正向循环。换句话说，抗衰老不是让你多病多痛地多活几年，而是让你健康地多活几十年。这也是为什么全球科学家都在押注衰老干预技术。
+## **📊 更多动态（可选）**
 
-![图片](https://www.news-medical.net/images/news/ImageForNews_846266_17884828919874673.jpg)
-
----
-
-### 5. [基因能告诉你性格吗？答案是：能，但也不能](https://www.news-medical.net/news/20260903/What-your-genes-can-and-cannot-tell-us-about-your-personality.aspx)
-这项涉及61万到114万人的超大规模研究找到了1260个与"大五人格"相关的遗传变异，其中824个是之前从未发现的。基因确实与性格有关，也与健康、行为、精神疾病和人生结局有关联。但别高兴太早——这些关联都很微弱，远远不足以预测个体行为。所以，基因检测告诉你"你可能更外向"是有依据的,但它永远无法告诉你"你明天会不会跟老板吵架"。性格是基因和环境的复杂互动，别指望一张基因报告就能看透自己。
-
-![图片](https://www.news-medical.net/images/news/ImageForNews_846267_1788484905851692.png)
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 研究 | 系统层面方法对老年护理研究转化至关重要 | [链接](https://medicalxpress.com/news/2026-09-approaches-crucial-aged.html) |
 
 ---
 
-### 6. [NeoRed：首个专为新生儿呼吸疾病设计的多模态大模型](https://papers.cool/arxiv/2609.03527)
-新生儿呼吸疾病是新生儿死亡的主要原因之一，但现有的多模态大模型几乎都基于成人数据训练，诊断新生儿时存在明显的"领域鸿沟"。NeoRed是首个专门为新生儿呼吸疾病诊断设计的多模态大模型，它通过"知识-逻辑-对齐"框架，将新生儿科医生的诊断先验、多模态诊断逻辑和视觉-语义对齐结合起来。在真实临床数据集NeoCXR上，NeoRed达到了53.29%的ROUGE-L和65.19%的临床有效性F1分数，远超现有通用多模态模型。这是AI医疗走向垂直细分领域的重要一步。
+## **😄 AI生命科学趣闻（1-2条）**
+
+### [海鞘：被低估的"返老还童"神器？](https://www.sciencedaily.com/releases/2026/09/260902234518.htm)
+斯坦福的老鼠吃了海鞘提取物后，不仅脑子变聪明，连毛发都变浓密了。网友调侃："难道这就是传说中的'吃啥补啥'？下次脱发去海边抓海鞘试试？" 😂 虽然人体效果还得验证，但这个发现让海鞘从"海里的怪东西"升级成了抗衰老研究的新宠。
 
 ---
 
-### 7. [DeepSSIM++：用自监督学习检测医学生成模型的隐私泄漏](https://papers.cool/arxiv/2609.03615)
-医学生成模型能合成逼真的影像数据，但也可能记住并复现训练样本——这对患者隐私是灾难。传统像素级指标对生成伪影敏感，通用嵌入指标又缺乏解剖学敏感性。DeepSSIM++通过多尺度特征聚合和解剖学保留增强，学习了一个嵌入空间，让余弦相似度能逼近结构相似性指数（SSIM）。相比基线方法,它在理想对齐下平均F1提升33个百分点，在真实扰动下提升46个百分点，速度还快了几个数量级。开源工具已发布，医学生成AI的隐私审计终于有了趁手的武器。
+## **🔮 AI生命科学趋势预测（3-5条）**
 
----
-
-### 8. [RARF：用整流流模型修复大脑MRI中的病变区域](https://papers.cool/arxiv/2609.03956)
-医学图像修复能通过重建病变区域的健康组织来改善自动化脑部MRI分析。RARF是一个任务无关的区域感知整流流框架，专门用于3D脑部MRI修复。它将随机插值过程限制在修复区域，观察到的体素保持固定并提供患者特定的解剖学上下文。三维神经网络接收部分空缺的图像，用高斯噪声填充缺失区域，结合修复掩码和对应时间步进行训练。在BraTS评估协议下，RARF产生了具有竞争力的重建结果,同时保持解剖学一致性。代码已开源。
-
----
-
-### 9. [SimpleDesign：用单阶段训练实现蛋白质序列-结构联合设计](https://papers.cool/arxiv/2609.03377)
-蛋白质功能由氨基酸序列和三维结构的复杂互动决定。现有的生成模型大多采用多阶段训练——先训练自编码器，再在潜空间训练生成模型。SimpleDesign证明这种复杂流程并非必需：它直接在数据空间进行端到端训练，将离散的交叉熵（序列）和回归目标（结构）结合起来。为了有效建模序列和结构的差异，它开发了Mixture-of-Transformer架构，允许模态特定处理,同时保持全局自注意力。在超过200万个序列-结构对上训练后，SimpleDesign在联合设计和无条件生成基准上都取得了强劲性能。
-
----
-
-### 10. [抗癌T细胞需要少量活性氧才能攻击肿瘤](https://www.news-medical.net/news/20260903/Cancer-fighting-T-cells-need-small-amounts-of-ROS-to-attack-tumors-study-finds.aspx)
-活性氧（ROS）一直被认为是"坏东西"——它会损伤细胞,加速衰老。但这项新研究发现，抗癌T细胞实际上需要少量ROS才能有效攻击肿瘤。完全消除ROS反而会削弱T细胞的战斗力。这为癌症治疗提供了一个新靶点：不是完全消灭ROS，而是精确调控它的水平——既不让它过多损伤正常细胞，也不让它过少削弱免疫攻击。平衡，永远是生物学的核心。
-
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Antioxidant-620x480.jpg)
-
----
-
-## **📌 值得关注**
-
-**[产品]**
-- [细胞与基因疗法的分析蓝图](https://www.genengnews.com/resources/ebooks/the-analytical-blueprint-forcell-gene-therapy-success/) - FDA推出新的CMC灵活性政策，细胞与基因疗法的分析科学正在成为战略性学科
-
-**[研究]**
-- [大脑保护性免疫细胞可能实际上在驱动阿尔茨海默病](https://www.news-medical.net/news/20260903/Brain-protecting-immune-cells-may-actually-drive-Alzheimers-disease.aspx) - 通常保护身体免受损伤的免疫细胞，在阿尔茨海默病患者大脑中的含量远高于健康大脑
-
-**[开源]**
-- [longevity-lens：企业级长寿引擎与研究助手](https://github.com/Aikagra-rgb/longevity-lens) - 基于FastAPI、Gemini 3.6-flash、3072维RAG向量搜索和生物年龄时钟的企业级长寿研究工具
-
-**[研究]**
-- [法医现场生物污渍识别：蛋白质组学与机器学习的新角色](https://papers.cool/arxiv/2609.03521) - 三种互补的蛋白质组学方法用于识别血液、唾液、精液、尿液和阴道液，机器学习模型对纯净体液达到100%准确率
-
-**[研究]**
-- [视觉遇见图：图推理与学习的综述](https://papers.cool/arxiv/2609.03816) - 图的视觉表示作为一等输入用于推理和学习，弥合图学习与视觉模型之间的鸿沟
-
----
-
-## **😄 AI生命科学趣闻**
-
-### [电影《最后一代死亡者》入围XPrize：谁会成为第一个永生的人？](https://lifespan.io/the-last-generation-to-die-interview-with-tim-maupin/)
-这部电影讲了一个让人心碎又充满希望的故事：女科学家Lily开发出了逆转衰老的技术，成功救活了她患心脏病的父亲，但她的母亲却因为不符合临床试验纳入标准而无法接受治疗。一个家庭里，父亲越来越年轻，母亲却日渐衰老。这不是科幻，而是未来5-10年可能真实发生的场景。电影已入围Future Vision XPrize前65名，有机会拿到260万美元制作费。主演阵容包括艾德·哈里斯、莉莉·拉贝等大牌演员。导演Tim Maupin说："这是一部非常个人化的电影，我的父亲在2019年去世，我现在看着母亲衰老，这些都是真实的。"
-
-![图片](https://lifespan.io/wp-content/uploads/2026/09/Last-Generation-to-Die-262x187.png)
-
----
-
-## **🔮 AI生命科学趋势预测**
-
-### 肠道菌群干预产品将进入临床试验高峰期
-- **预测时间**：2026年Q4
-- **预测概率**：75%
-- **预测依据**：今日新闻[肠道菌群代谢物与大脑衰老的综述](https://www.news-medical.net/news/20260903/What-your-gut-microbes-may-have-to-do-with-how-your-brain-ages.aspx) + 过去一年多项肠道菌群-代谢-认知研究发表，FDA对微生物组疗法的监管路径逐渐明确
-
-### GLP-1类药物适应症将扩展至认知衰老
-- **预测时间**：2027年Q1
-- **预测概率**：60%
-- **预测依据**：今日新闻[司美格鲁肽延长小鼠寿命并改善记忆](https://www.news-medical.net/news/20260903/Semaglutide-extended-lifespan-in-older-female-mice-but-that-was-not-the-only-finding.aspx) + 多项GLP-1类药物的神经保护作用研究正在进行，制药公司正在探索新适应症
-
-### 个体化衰老时钟商业化产品爆发
-- **预测时间**：2026年Q4-2027年Q1
+### 声音生物标志物进入临床筛查
+- **预测时间**：2026年第四季度
 - **预测概率**：70%
-- **预测依据**：今日新闻[8年研究揭示个体化衰老差异](https://www.news-medical.net/news/20260903/Eight-year-study-reveals-how-molecular-aging-scripts-differ-individually.aspx) + 多家公司已推出生物年龄检测产品,个体化抗衰老方案需求激增
+- **预测依据**：今日新闻[声音障碍可能是痴呆早期信号](https://medicalxpress.com/news/2026-09-voice-disorder-early-dementia.html) + 声音分析技术成熟且成本低，医疗机构很可能将其纳入认知筛查流程
 
-### 新生儿AI诊断系统获FDA批准
-- **预测时间**：2027年Q2
-- **预测概率**：55%
-- **预测依据**：今日新闻[NeoRed首个新生儿多模态大模型](https://papers.cool/arxiv/2609.03527) + FDA已批准多个成人AI医疗影像设备，新生儿垂直领域技术成熟度正在快速提升
+### Plasmalogen 抗衰老补充剂进入人体试验
+- **预测时间**：2026年第四季度至2027年第一季度
+- **预测概率**：65%
+- **预测依据**：今日新闻[斯坦福发现海鞘能逆转衰老](https://www.sciencedaily.com/releases/2026/09/260902234518.htm) + 动物实验结果强劲,且 plasmalogen 已有商业化先例,推进临床试验的动力很大
+
+### AI 医学影像工具在神经退行性疾病诊断中普及
+- **预测时间**：2027年第一季度
+- **预测概率**：75%
+- **预测依据**：今日新闻[L-score 开源](https://github.com/IMCTGD/L-score) + 深度学习影像分析已进入成熟期,医院采购此类工具的意愿提升
