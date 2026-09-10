@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/9/10
+title: AI生命延续学日报 2026/9/11
 breadcrumbs: false
-next: /2026-09/2026-09-10
+next: /2026-09/2026-09-11
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-Insilico 的 AI 药物 Rentosertib 进入三期临床,二期试验中让患者生物年龄指标"倒退"。
-肠道菌群比实际年龄更能预测炎症和疾病风险,30 多岁可能已有 60 岁的衰老特征。
-AI 制药从实验室走向临床了,质谱技术开始挑战基因测序,抗衰老赛道要热闹了。
+Pfizer 用蛋白工程改造细胞自产氨基酸,培养基配方大幅简化,哺乳动物细胞生产或将像微生物般高效。
+
+GLP-1 减肥药在小鼠中延长寿命,阿尔茨海默病变化比斑块早 7 年出现,衰老研究迎来精准医学路线图。
+
+三星 18 亿美元收购肽类 CDMO,药明康德半年收入首超龙沙。生物制药制造格局正在重塑。
 ```
 
 
@@ -29,127 +31,125 @@ AI 制药从实验室走向临床了,质谱技术开始挑战基因测序,抗衰
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-AI 设计的药物进入三期临床，还能让生物年龄"倒退"。
+细胞培养基不再是"女巫的配方",AI 和蛋白工程正在把它变成精密科学。
 
 ### **🔑 3 个关键词**
-#AI制药 #生物年龄 #衰老干预
+#AI制药 #细胞培养 #衰老研究
+
+---
 
 ## **📎 今日可引用要点**
 
-**1. Insilico Medicine 的 AI 生成药物 Rentosertib 进入特发性肺纤维化三期临床**
-- **事实结论**:Insilico Medicine 开发的生成式 AI 药物 Rentosertib(ISM001-055)已在中国完成三期临床试验首例患者给药,目标适应症为特发性肺纤维化(IPF)。
-- **原始来源**:[Generative AI-driven drug Rentosertib enters Phase III trial for idiopathic pulmonary fibrosis](https://www.news-medical.net/news/20260910/Generative-AI-driven-drug-Rentosertib-enters-Phase-III-trial-for-idiopathic-pulmonary-fibrosis.aspx)
-- **证据边界**:该药物此前已完成二期临床试验,三期试验刚启动,最终疗效和安全性数据尚未公布。IPF 是一种罕见的致命性疾病,目前尚无治愈方法。
+### 1. GLP-1 受体激动剂在小鼠中延长中位寿命
+- **事实结论**：GLP-1 受体激动剂(如司美格鲁肽、利拉鲁肽等糖尿病/减重药物)在小鼠实验中显示可延长中位寿命。
+- **原始来源**：[GLP-1 receptor agonism extends median lifespan in mice](https://www.nature.com/articles/s43587-026-01224-w)
+- **证据边界**：研究对象为小鼠,具体延长幅度及作用机制尚需进一步验证;人体临床试验数据尚未公布,不能直接推断对人类寿命的影响。
 
-**2. Rentosertib 在 IPF 试验中使多个蛋白质组学衰老时钟向年轻化方向转变**
-- **事实结论**:Rentosertib 在 IPF 患者的二期试验中,使用六种蛋白质组学衰老时钟检测发现,30mg 每日两次剂量组的患者生物年龄预测指标向年轻化方向显著转变,同时衰老、代谢、生长因子信号和纤维化相关通路发生变化。
-- **原始来源**:[Rentosertib shifts multiple proteomic aging clocks toward younger age profiles in IPF trial](https://www.news-medical.net/news/20260910/Rentosertib-shifts-multiple-proteomic-aging-clocks-toward-younger-age-profiles-in-IPF-trial.aspx)
-- **证据边界**:该研究基于人体二期临床试验血清样本的蛋白质组学分析,样本量有限,且研究尚无法确定观察到的效应是真正的"抗衰老保护"还是疾病改善的副产物。需要更大规模试验和长期随访验证。
+### 2. 财务困境可能加速大脑衰老
+- **事实结论**：长期财务困境与 50 多岁时认知能力下降及后期大脑衰老迹象增加相关。
+- **原始来源**：[Money problems may age your brain faster](https://www.sciencedaily.com/releases/2026/08/260831015154.htm)
+- **证据边界**：研究为观察性研究,发现的是相关性而非因果关系;样本特征及长期追踪方法可能影响结果普适性。
 
-**3. 肠道菌群比年龄更能预测炎症和未来疾病风险**
-- **事实结论**:一项研究发现,肠道菌群组成对几乎所有炎症细胞因子和大多数生理指标的解释能力超过实际年龄。Bacteroides 2 肠型人群在成年早期即表现出类似"炎症性衰老"的特征,且后续疾病风险更高;而高多样性菌群与低炎症和低疾病发生率相关。
-- **原始来源**:[Gut microbiome may reveal inflammation and future disease risk better than age](https://www.news-medical.net/news/20260909/Gut-microbiome-may-reveal-inflammation-and-future-disease-risk-better-than-age.aspx)
-- **证据边界**:该研究为观察性队列研究,基于人类样本的菌群组成与炎症、疾病的关联分析,尚未通过干预试验证实菌群改变能否直接降低炎症或疾病风险。因果关系需要进一步验证。
+### 3. 阿尔茨海默病脑部变化可能早于斑块出现至少 7 年
+- **事实结论**：阿尔茨海默病相关的大脑变化可能在淀粉样蛋白斑块通过现有 PET 扫描可检测之前至少 7 年就已开始。
+- **原始来源**：[Alzheimer's may leave a mark on the brain long before plaques appear](https://www.sciencedaily.com/releases/2026/08/260831015144.htm)
+- **证据边界**：研究通过近 20 年的脑成像追踪健康老年人得出;早期信号的临床意义及干预窗口期仍需进一步研究确认。
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [Rentosertib:AI 设计的药物进入 IPF 三期临床,能让生物年龄"倒退"](https://www.news-medical.net/news/20260910/Generative-AI-driven-drug-Rentosertib-enters-Phase-III-trial-for-idiopathic-pulmonary-fibrosis.aspx)
-就在大家还在讨论 AI 能否真正设计药物时,Insilico Medicine 的 Rentosertib 已经进入三期临床。这个药针对特发性肺纤维化(一种肺部逐渐硬化、无法治愈的致命疾病),更离谱的是,它在二期试验中还让患者的多个蛋白质组学衰老时钟向年轻化方向转变。30mg 每日两次剂量组效果最明显。虽然还不能确定这是真的"抗衰老"还是疾病改善的副作用,但这可能是第一个既治病又"减龄"的 AI 药物。
+### 1. [Pfizer 用蛋白工程让细胞"自给自足",告别复杂培养基](https://www.genengnews.com/topics/bioprocessing/smarter-cell-culture-starts-with-better-media/)
+以前细胞培养基像"女巫的配方",马血清、鸡胚提取物一股脑儿加。现在 Pfizer 的研究人员直接改造细胞,让它们自己合成酪氨酸和半胱氨酸这些难溶解的氨基酸,还敲掉了制造代谢废物的酶。结果?细胞不仅吃得少,还长得好,培养基配方也简化了。Bhanu Chandra Mulukutla 博士说:"细胞很聪明,营养不过量时,它们会把营养用在该用的地方——生长和产蛋白,而不是制造垃圾。"这套组合拳让强化培养不再依赖复杂的灌流系统,未来哺乳动物细胞或许能像微生物一样高效。
 
-![图片](https://www.news-medical.net/image-handler/picture/2019/5/Drug_use_and_prohibited_substances._-_Image_-_Monika_Gruszewicz_A1_b3acfd6d2daf44ecbd36979af20eb378-620x480.jpg)
+![图片](https://www.genengnews.com/wp-content/uploads/2026/09/GEN_SEP_2026_GettyImages-508056634-300x200.jpg)
 
-### 2. [肠道菌群比年龄更能预测你的炎症水平和疾病风险](https://www.news-medical.net/news/20260909/Gut-microbiome-may-reveal-inflammation-and-future-disease-risk-better-than-age.aspx)
-以前体检报告看年龄,以后可能得看肠道菌群。研究发现,肠道菌群组成对炎症细胞因子和生理指标的解释能力比你的实际年龄更强。更惊人的是,Bacteroides 2 肠型的人在 30 多岁就出现了 60 岁才有的"炎症性衰老"特征,后续疾病风险也高得多。相反,菌群多样性高的人炎症低、疾病少。看来,"年轻"不仅看脸,更要看肠子。
+---
 
-![图片](https://www.news-medical.net/images/news/ImageForNews_846579_17890126927286728.jpg)
+### 2. [Revvity 收购 Human Cell Design,拿下人胰岛β细胞模型](https://www.genengnews.com/topics/drug-discovery/revvity-signs-agreement-to-acquire-human-cell-design/)
+Revvity 宣布收购法国生物技术公司 Human Cell Design(HCD),后者的王牌产品 EndoC-βH5 是一款人胰岛β细胞模型,专为糖尿病、肥胖及代谢疾病研究设计。以前研究β细胞功能只能靠动物模型或难以获取的人类组织,现在有了这个模型,GLP-1 等代谢疾病药物的筛选和临床前研究终于有了更贴近人体的工具。交易预计在 2026 年第四季度完成,收购价格未披露。这也是 Revvity 在 AI 辅助药物发现时代的一步棋——有了高质量的人源细胞模型,AI 预测的靶点才能快速验证。
 
-### 3. [粉红噪音:睡觉时开着它,大脑"排废"效率翻倍](https://www.news-medical.net/news/20260909/Pink-noise-boosts-brain-waste-clearance-during-sleep.aspx)
-白天大脑产生的代谢废物(乳酸、蛋白质残渣)会在睡眠时被脑脊液冲走,但这个过程有时不够快。现在研究发现,睡觉时播放粉红噪音(比白噪音更柔和的频率),能让脑脊液的"清洁波"更强劲,废物清理效率大幅提升。对阿尔茨海默病(大脑废物堆积导致)患者来说,这可能是个简单又有效的辅助疗法。睡前别只放白噪音了,试试粉红噪音?
+---
 
-![图片](https://www.news-medical.net/image-handler/picture/2017/3/Good_nights_sleep_-_Goodluz_5edf6811462b4d0280b9b9189683dde9-620x480.jpg)
+### 3. [GLP-1 药物不止减肥,还能延长小鼠寿命](https://www.nature.com/articles/s43587-026-01224-w)
+司美格鲁肽(Ozempic/Wegovy 的有效成分)这类 GLP-1 受体激动剂,除了降血糖、减体重,现在还被发现能延长小鼠的中位寿命。研究发表在《自然·衰老》上,虽然具体延长了多少、作用机制是什么还没完全搞清楚,但这已经足够让人兴奋——毕竟 GLP-1 药物已经在人体大规模使用,如果它真的能影响衰老进程,那可能是目前离临床最近的"抗衰老药"。当然,小鼠不是人,还得等人体临床数据。
 
-### 4. [限制热量能减少基因突变,从 DNA 层面延缓衰老](https://www.news-medical.net/news/20260909/Caloric-restriction-reduces-genetic-mutations-across-the-mouse-genome.aspx)
-衰老的一个核心原因是 DNA 突变累积。现在小鼠实验证实,限制热量摄入能显著减少全基因组的突变积累。这意味着少吃不仅能延长寿命,还能从最底层(DNA)延缓衰老进程。虽然是动物实验,但结合人类的流行病学数据,适度热量限制(不是节食到营养不良)可能是目前最可靠的抗衰老手段之一。
+---
 
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/78486183-620x480.jpg)
+### 4. [阿尔茨海默病的"隐形信号":斑块出现前 7 年,大脑已在变化](https://www.sciencedaily.com/releases/2026/08/260831015144.htm)
+科学家通过近 20 年的脑成像追踪发现,阿尔茨海默病相关的大脑变化可能在淀粉样蛋白斑块通过 PET 扫描可检测之前至少 7 年就已开始。这意味着,现有的"等到斑块出现再诊断"的方法可能已经错过了最佳干预窗口。如果能识别这些早期信号,未来或许能在疾病真正爆发前就开始治疗。这对 AI 辅助早期诊断工具来说是个好消息——有了更早的生物标志物,AI 才有用武之地。
 
-### 5. [桑德霍夫病基因疗法:猫模型寿命延长 3 倍](https://www.genengnews.com/topics/translational-medicine/gene-therapy-extends-lifespan-and-reduces-symptoms-in-sandhoff-disease-cat-model/)
-桑德霍夫病是一种致命的神经退行性疾病,患儿通常活不过 4 岁。静脉注射 AAV 基因疗法在猫模型中展现了惊人效果:低剂量组寿命延长 2 倍,高剂量组延长 3 倍,且脑损伤标志物显著减少,肝脏损伤也得到改善。与此前需要直接注射到大脑或脑脊液的方法相比,静脉注射更简单、更安全。这为桑德霍夫病和泰-萨克斯病(同类疾病)的临床试验铺平了道路。
+---
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/09/Fig3A_MRI-1024x894.jpg)
+### 5. [财务困境可能让你的大脑老得更快](https://www.sciencedaily.com/releases/2026/08/260831015154.htm)
+长期缺钱不仅让人焦虑,还可能加速大脑衰老。研究发现,早年和中年时期持续的财务困境与 50 多岁时认知能力下降、以及后期大脑衰老迹象增加有关。研究人员认为,多年的慢性压力和财务担忧可能逐渐损害大脑。这不是简单的"压力大就老得快",而是提醒我们,社会经济因素可能通过生物学途径影响大脑健康——健康长寿不只是医学问题,也是社会问题。
 
-### 6. [质谱技术正在改变癌症早筛:比 NGS 更快、更便宜、更准](https://www.genengnews.com/topics/omics/the-emerging-power-of-mass-spectrometry-in-oncology/)
-液体活检(通过血液检测癌症)通常依赖 NGS 技术,但成本高、复杂度高,早期癌症检测效果有限。质谱技术(MS)正在崛起:它能快速、精确地检测蛋白质、代谢物和脂质,这些分子比 DNA 突变更直接反映癌症状态。尤其是脂质组学,能捕捉到癌症代谢的细微变化,且成本更低、标准化更容易。未来癌症早筛可能不再依赖基因测序,而是靠质谱分析你血液里的分子指纹。
+---
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/09/Mass-2-300x225.jpg)
+### 6. [自闭症患者平均寿命比常人少 14 年](https://medicalxpress.com/news/2026-09-autism-linked-year-gap-life.html)
+哥伦比亚大学和科罗拉多大学的研究人员发现,美国自闭症谱系障碍(ASD)患者的预期寿命比普通人少 14 年。这是首批大规模估算 ASD 患者年龄特异性死亡率和预期寿命的研究之一。研究发表在《JAMA Network Open》上。自闭症不仅影响社交和认知,还可能通过未被充分研究的生物学途径影响整体健康和寿命。这一发现提醒我们,关注自闭症患者的长期健康管理同样重要。
 
-### 7. [血液筛查新算法:减少 85% 不必要的阿尔茨海默病 PET 扫描](https://www.news-medical.net/news/20260909/New-blood-screening-algorithm-reduces-unnecessary-Alzheimers-PET-scans.aspx)
-招募阿尔茨海默病临床试验患者时,通常需要做 PET 扫描确认大脑中有淀粉样蛋白沉积,但扫描贵、耗时、有辐射。USC 的研究团队开发了一种基于血液的筛查算法,能在 PET 扫描前筛掉大部分不符合条件的患者,减少不必要扫描。这不仅降低了临床试验成本,还能让更多患者更快参与试验。如果推广开来,可能改变整个 AD 临床试验的筛选流程。
+---
 
-![图片](https://www.news-medical.net/image-handler/picture/2016/2/Alzheimers_amyloid_plaque_-_Juan_Gaertner_9638f1223d534b518a192c8478871d65-620x480.jpg)
+### 7. [肺纤维化药物 rentosertib 可能同时在对抗衰老](https://medicalxpress.com/news/2026-09-blood-protein-analysis-lung-disease.html)
+Insilico Medicine 开发的实验性药物 rentosertib,原本是用来治疗特发性肺纤维化(一种严重的衰老相关肺病)。但研究人员通过血液蛋白分析发现,这个药物可能同时在影响衰老过程本身。rentosertib 通过抑制 TNIK 蛋白起效,而 TNIK 不仅参与肺部疤痕组织形成,还与生物衰老的基本标志有关。如果这个发现被进一步证实,rentosertib 可能成为一种"双效药物":既治疗疾病,又延缓衰老。
 
-### 8. [终身全脑神经记录:下一代脑科学研究的技术路线图](https://www.news-medical.net/news/20260909/Technological-roadmap-proposed-for-lifetime-brain-wide-neural-recordings.aspx)
-理解大脑需要在多个时间尺度(从毫秒到数年)和空间尺度(从单个神经元到全脑回路)记录神经活动,但现有技术做不到。一份新的技术路线图提出了实现"终身全脑神经记录"的方向:开发更微型化、更长寿命、更高分辨率的植入式设备,结合无线传输和 AI 分析。这不仅能推动基础脑科学研究,还能为脑机接口、神经疾病诊断和治疗提供革命性工具。
+---
 
-![图片](https://www.news-medical.net/image-handler/picture/2016/3/Artificially_Colored_MRI_Scan_Of_Human_Brain-Daisy_Daisy_a8c5d8bbbf824bc8932308e30187510f-620x480.jpg)
+### 8. [Samsung Biologics 斥资 18 亿美元收购肽类 CDMO PolyPeptide](https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/)
+三星生物制剂发起全现金公开要约,拟以约 18 亿美元收购总部位于瑞士的肽类原料药 CDMO PolyPeptide Group。这笔交易预计在 2026 年底完成。PolyPeptide 专注于基于肽的活性药物成分(API),而肽类药物正是当下的热门赛道(想想 GLP-1 减肥药)。三星这一手,是要在生物制药 CDMO 市场再加码,抢占肽类药物制造的高地。
 
-### 9. [扩散模型让 X 射线层析成像更清晰:脑组织纳米级成像新突破](https://papers.cool/arxiv/2609.10456)
-X 射线层析成像能以纳米级分辨率观察大脑组织,但传统重建方法因"缺失锥"问题导致图像失真。LUCID 框架结合多视角扩散先验和投影域数据一致性,显著提升了空间保真度,还原了缺失的傅里叶分量。在实验数据上,LUCID 即使只在层析数据上训练,也能在层析数据上表现优异,有效恢复未测量的信息。这为大脑连接组学研究提供了更高质量的成像工具。
+---
 
-### 10. [信任网络联邦学习:多中心协作预测衰老时钟](https://papers.cool/arxiv/2609.10108)
-预测生物年龄的"衰老时钟"需要大量分子数据,但医疗中心之间因隐私限制无法共享数据。TNFL 框架提出了一种基于信任网络的联邦学习方法:模型沿着中心之间的定向信任关系逐步传播,无需中央聚合。它结合年龄感知的专家混合模型和生成式回放,减少了模型漂移和遗忘。实验表明,TNFL 在样本量有限的情况下能有效预测衰老时钟,且解释性强。更重要的是,它揭示了蛋白质相互作用不仅是成对的,还形成了多层次的生物网络。
+### 9. [WuXi AppTec 上半年收入暴涨 38.9%,超过 Lonza](https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/)
+WuXi AppTec 2026 年上半年收入达到 288.90 亿元人民币(约 42.84 亿美元),同比增长 38.9%,调整后净利润飙升 83.2%。更值得注意的是,这是 WuXi AppTec 首次在半年收入上超过老牌 CDMO 巨头 Lonza。尽管美国国防部将其列为"中国军工企业",但 WuXi 通过一系列法律行动和业务扩张,依然保持强劲增长。公司还上调了全年收入指引,预计全年收入增长 35%-39%。
+
+---
+
+### 10. [SENESCENCE2030 网络发布衰老细胞精准医学共识路线图](https://www.nature.com/articles/s43587-026-01222-y)
+SENESCENCE2030 网络(一个专注于衰老细胞研究的国际合作组织)发布了一份共识路线图,旨在推动"精准衰老细胞医学"的发展。衰老细胞是指那些停止分裂但不死亡、会分泌有害物质的细胞,它们在衰老和多种疾病中扮演重要角色。这份路线图梳理了当前研究的关键挑战,包括如何更好地识别、测量和靶向清除衰老细胞,以及如何将这些发现转化为临床应用。对于 AI 辅助药物研发来说,这份路线图提供了明确的生物学靶点和研究方向。
 
 ---
 
 ## **📌 值得关注**
 
-### [研究]
-- [分子生成模型系统评测:82 种方法全面对比](https://papers.cool/arxiv/2609.10099) - 从基准到实践,全面梳理了分子生成在药物设计中的应用,涵盖 RNN、Transformer、VAE、GAN、Flow 和扩散模型,GitHub 资源库已开源
-- [蛋白质互作数据集审计:机器学习模型可能在学"捷径"](https://papers.cool/arxiv/2609.10193) - 揭示 PPI 数据集中存在的偏差(拓扑、自相互作用、功能相关性),提供了一个开源 Nextflow 管道来检测和减轻这些偏差
+**[产品]**
+- [Thermo Fisher 在瑞典哥德堡开设新生物分析和生物标志物实验室](https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/) - 扩展全球生物分析能力,支持药物开发全阶段
+- [Gibco 推出 DynaXS 单次使用生物反应器](https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/) - 专为细胞治疗开发设计,支持从工艺开发到临床生产
 
-### [工具]
-- [伪标签训练深度学习模型:无接触传感器也能做心率检测](https://papers.cool/arxiv/2609.10026) - 用信号处理方法生成伪标签训练深度学习模型,在数据同步不佳时甚至超过监督学习,降低了 rPPG 数据集采集成本
-- [可解释机器学习预测血脑屏障通透性](https://papers.cool/arxiv/2609.10012) - XGBoost 达到 88.97% 准确率,SHAP 分析揭示 TPSA、HBD 和 LogP 是最关键的分子描述符
+**[商业]**
+- [Lonza 考虑在俄亥俄州建 10 亿美元工厂](https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/) - 俄亥俄州已批准税收抵免,将创造 650 个全职岗位
+- [Fujifilm 被 FDA 选入 PreCheck 试点项目](https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/) - 北卡罗来纳州 Holly Springs 工厂入选,旨在加强美国制药制造能力
 
-### [其他]
-- [表观遗传衰老生物标志物响应性评估](https://lifespan.io/comparing-the-responsiveness-of-epigenetic-aging-biomarkers/) - 51 项研究,16 种时钟,94 种生物标志物,DunedinPACE 和 PCGrimAge 响应最强且最一致
+**[研究]**
+- [溶质载体蛋白可能成为中枢神经系统疾病新靶点](https://www.news-medical.net/news/20260910/Review-highlights-solute-carriers-as-targets-for-central-nervous-system-disorders.aspx) - 这类蛋白控制营养物质、离子和神经递质的跨膜转运
+
+**[开源]**
+- [pyaging:基于 GPU 优化的衰老时钟 Python 工具包](https://github.com/lucascamillomd/pyaging) - 130 stars,提供多种衰老时钟算法的 GPU 加速实现
+- [GRN 衍生的免疫衰老时钟](https://github.com/janursa/GRNimmuneClock) - 基于转录组学开发,由 Yang Li 实验室的 Jalil Nourisa 开发
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [猫咪基因疗法:从 4 个月活到 12 个月,相当于人类从 4 岁活到 100 岁](https://www.genengnews.com/topics/translational-medicine/gene-therapy-extends-lifespan-and-reduces-symptoms-in-sandhoff-disease-cat-model/)
-桑德霍夫病猫模型通常只能活 4 个月,相当于人类患儿 4 岁左右去世。高剂量基因疗法让猫活到了 12 个月,换算成人类寿命大概是 100 岁。网友评论:"这猫赚大了,相当于白嫖了 8 条命。" 😂 虽然是玩笑,但这确实是基因疗法在大型动物模型上的重大突破,为人类临床试验铺平了道路。
-
-![图片](https://www.genengnews.com/wp-content/uploads/2026/09/Fig3A_MRI-1024x894.jpg)
+### [数字生物标志物项目:我的头痛和抑郁的故事都在这里](https://github.com/pxsa/Digital-Biomarkers)
+一位开发者在 GitHub 上开源了自己两年的学术研究项目——数字生物标志物(Digital Biomarkers),然后在项目描述里吐槽:"我两年的学术生涯都在这里,还有我所有头痛和抑郁背后的故事。" 😂 学术科研不易,但至少代码还能开源造福后人。这个项目目前只有 3 个 stars,但估计很多做生物标志物研究的人会有共鸣。
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### AlphaFold 类蛋白质结构预测模型将向"功能预测"演进
-- **预测时间**:2026 年 Q4
-- **预测概率**:70%
-- **预测依据**:今日新闻[蛋白质互作数据集审计](https://papers.cool/arxiv/2609.10193)揭示了 PPI 数据集的质量问题,而[分子生成模型系统评测](https://papers.cool/arxiv/2609.10099)强调了目标导向生成的重要性。结合 DeepMind 近期在 AlphaFold 3 中加入蛋白质-小分子复合物预测,下一步很可能是功能预测(如酶活性、药物靶点)。
-
-### 液体活检技术将从 NGS 向质谱(MS)迁移
-- **预测时间**:2026 年 Q4 - 2027 年 Q1
-- **预测概率**:65%
-- **预测依据**:今日新闻[质谱技术在肿瘤学中的崛起](https://www.genengnews.com/topics/omics/the-emerging-power-of-mass-spectrometry-in-oncology/)指出 MS 比 NGS 更快、更便宜、更适合早期癌症检测。随着脂质组学和蛋白质组学标准化的推进,预计未来 3-6 个月会有更多 MS 液体活检产品进入临床试验。
-
-### AI 制药临床试验爆发:多个 AI 药物进入二/三期
-- **预测时间**:2026 年 Q4
-- **预测概率**:80%
-- **预测依据**:今日新闻[Rentosertib 进入三期临床](https://www.news-medical.net/news/20260910/Generative-AI-driven-drug-Rentosertib-enters-Phase-III-trial-for-idiopathic-pulmonary-fibrosis.aspx)是 AI 制药的里程碑事件。根据 Insilico Medicine 和其他 AI 制药公司(如 Recursion、Exscientia)的管线进展,预计 Q4 会有至少 2-3 个 AI 药物宣布进入二期或三期临床。
-
-### 肠道菌群检测将成为健康体检的标配项目
-- **预测时间**:2027 年 Q1
-- **预测概率**:60%
-- **预测依据**:今日新闻[肠道菌群比年龄更能预测疾病风险](https://www.news-medical.net/news/20260909/Gut-microbiome-may-reveal-inflammation-and-future-disease-risk-better-than-age.aspx)提供了强有力的科学证据。随着菌群检测成本下降和 AI 分析工具成熟,预计国内外高端体检机构会在 3-6 个月内推出菌群检测服务。
-
-### 表观遗传时钟将成为抗衰老临床试验的标准终点指标
-- **预测时间**:2027 年 Q1
+### GLP-1 药物适应症持续扩展
+- **预测时间**:2026年第四季度
 - **预测概率**:75%
-- **预测依据**:今日新闻[表观遗传衰老生物标志物响应性评估](https://lifespan.io/comparing-the-responsiveness-of-epigenetic-aging-biomarkers/)系统验证了 DunedinPACE 和 PCGrimAge 的响应性和一致性。FDA 和 EMA 可能在未来 3-6 个月发布相关指南,允许这些时钟作为抗衰老药物临床试验的替代终点。
+- **预测依据**:今日新闻 [GLP-1 受体激动剂在小鼠中延长中位寿命](https://www.nature.com/articles/s43587-026-01224-w) + GLP-1 药物已被证实在减重、糖尿病之外还有心血管保护作用,如果抗衰老效应在人体得到初步验证,将推动更多适应症临床试验
+
+### 阿尔茨海默病早期诊断工具获批
+- **预测时间**:2027年第一季度
+- **预测概率**:60%
+- **预测依据**:今日新闻 [阿尔茨海默病脑部变化可能早于斑块出现至少 7 年](https://www.sciencedaily.com/releases/2026/08/260831015144.htm) + 早期生物标志物的发现为新型诊断工具开发提供了基础,多家公司正在开发基于血液、脑成像的早期诊断技术
+
+### 肽类药物 CDMO 市场竞争加剧
+- **预测时间**:2027年第一季度
+- **预测概率**:80%
+- **预测依据**:今日新闻 [Samsung Biologics 收购 PolyPeptide](https://www.genengnews.com/topics/bioprocessing/top-10-contract-development-and-manufacturing-organizations-2026/) + GLP-1 等肽类药物市场爆发,更多 CDMO 将通过收购或自建产能进入肽类制造领域
