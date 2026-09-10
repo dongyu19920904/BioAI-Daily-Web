@@ -2,7 +2,7 @@
 linkTitle: AI生命延续学日报
 title: AI生命延续学日报 2026/9/10
 breadcrumbs: false
-next: /2026-09/2026-09-09
+next: /2026-09/2026-09-10
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-提前绝经的女性大脑老化更快，阿尔茨海默症也提前——更年期年龄可能是未来 AI 脑健康模型的核心变量。
-CBT 不用药只改习惯，就能让老年人的生物年龄老得慢一点，数字疗法赛道的故事又有新弹药了。
-今天没有融资大新闻，但这几条基础研究是 AI 制药的底层靶点库，值得收藏备用。
+Insilico 的 AI 药物 Rentosertib 进入三期临床,二期试验中让患者生物年龄指标"倒退"。
+肠道菌群比实际年龄更能预测炎症和疾病风险,30 多岁可能已有 60 岁的衰老特征。
+AI 制药从实验室走向临床了,质谱技术开始挑战基因测序,抗衰老赛道要热闹了。
 ```
 
 
@@ -29,101 +29,127 @@ CBT 不用药只改习惯，就能让老年人的生物年龄老得慢一点，�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-更年期提前的女性，大脑老化速度更快、阿尔茨海默症来得更早——激素与神经系统的隐秘联系，比我们想象的更深。
+AI 设计的药物进入三期临床，还能让生物年龄"倒退"。
 
 ### **🔑 3 个关键词**
-#更年期脑健康 #生物衰老 #失眠干预
-
----
+#AI制药 #生物年龄 #衰老干预
 
 ## **📎 今日可引用要点**
 
-- **事实结论**：提前绝经的女性在长期神经健康和大脑结构上存在显著劣势，且与阿尔茨海默症诊断时间提前相关。**原始来源**：[Women who hit menopause early see faster brain aging and earlier Alzheimer's diagnosis](https://medicalxpress.com/news/2026-09-women-menopause-early-faster-brain.html)
-  **证据边界**：观察性研究，发表于 JAMA Network Open，目前只能说明"相关性"，尚不能确认因果机制，且未纳入 AI 分析工具。
+**1. Insilico Medicine 的 AI 生成药物 Rentosertib 进入特发性肺纤维化三期临床**
+- **事实结论**:Insilico Medicine 开发的生成式 AI 药物 Rentosertib(ISM001-055)已在中国完成三期临床试验首例患者给药,目标适应症为特发性肺纤维化(IPF)。
+- **原始来源**:[Generative AI-driven drug Rentosertib enters Phase III trial for idiopathic pulmonary fibrosis](https://www.news-medical.net/news/20260910/Generative-AI-driven-drug-Rentosertib-enters-Phase-III-trial-for-idiopathic-pulmonary-fibrosis.aspx)
+- **证据边界**:该药物此前已完成二期临床试验,三期试验刚启动,最终疗效和安全性数据尚未公布。IPF 是一种罕见的致命性疾病,目前尚无治愈方法。
 
-- **事实结论**：认知行为疗法（CBT）治疗失眠后，老年患者的生物年龄老化速度有所放缓，优于单纯睡眠教育对照组。
-  **原始来源**：[Cognitive behavioral therapy may reduce biological aging among older adults with insomnia](https://medicalxpress.com/news/2026-09-cognitive-behavioral-therapy-biological-aging.html)
-  **证据边界**：RCT 设计，发表于 The Lancet Healthy Longevity，仅针对老年失眠人群，生物年龄测量方法及长期效果仍需进一步验证。
+**2. Rentosertib 在 IPF 试验中使多个蛋白质组学衰老时钟向年轻化方向转变**
+- **事实结论**:Rentosertib 在 IPF 患者的二期试验中,使用六种蛋白质组学衰老时钟检测发现,30mg 每日两次剂量组的患者生物年龄预测指标向年轻化方向显著转变,同时衰老、代谢、生长因子信号和纤维化相关通路发生变化。
+- **原始来源**:[Rentosertib shifts multiple proteomic aging clocks toward younger age profiles in IPF trial](https://www.news-medical.net/news/20260910/Rentosertib-shifts-multiple-proteomic-aging-clocks-toward-younger-age-profiles-in-IPF-trial.aspx)
+- **证据边界**:该研究基于人体二期临床试验血清样本的蛋白质组学分析,样本量有限,且研究尚无法确定观察到的效应是真正的"抗衰老保护"还是疾病改善的副产物。需要更大规模试验和长期随访验证。
 
-- **事实结论**：敲除与炎症相关的 cGAS 蛋白，不仅没有延缓衰老，反而让小鼠变得更虚弱、寿命更短。
-  **原始来源**：[Removing cGAS protein may make aging worse by unleashing inflammatory DNA](https://medicalxpress.com/news/2026-09-cgas-protein-aging-worse-unleashing.html)
-  **证据边界**：动物实验（小鼠），来自罗切斯特大学，结论不能直接外推至人类，且 cGAS 在衰老中的完整机制仍未阐明。
+**3. 肠道菌群比年龄更能预测炎症和未来疾病风险**
+- **事实结论**:一项研究发现,肠道菌群组成对几乎所有炎症细胞因子和大多数生理指标的解释能力超过实际年龄。Bacteroides 2 肠型人群在成年早期即表现出类似"炎症性衰老"的特征,且后续疾病风险更高;而高多样性菌群与低炎症和低疾病发生率相关。
+- **原始来源**:[Gut microbiome may reveal inflammation and future disease risk better than age](https://www.news-medical.net/news/20260909/Gut-microbiome-may-reveal-inflammation-and-future-disease-risk-better-than-age.aspx)
+- **证据边界**:该研究为观察性队列研究,基于人类样本的菌群组成与炎症、疾病的关联分析,尚未通过干预试验证实菌群改变能否直接降低炎症或疾病风险。因果关系需要进一步验证。
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-今天的素材以衰老与生命科学基础研究为主，AI 直接参与的交叉报道较少，但以下几条都是"AI 生命科学的底层土壤"——正是这些研究发现，在为未来 AI 制药和 AI 衰老干预提供靶点与数据。
+### 1. [Rentosertib:AI 设计的药物进入 IPF 三期临床,能让生物年龄"倒退"](https://www.news-medical.net/news/20260910/Generative-AI-driven-drug-Rentosertib-enters-Phase-III-trial-for-idiopathic-pulmonary-fibrosis.aspx)
+就在大家还在讨论 AI 能否真正设计药物时,Insilico Medicine 的 Rentosertib 已经进入三期临床。这个药针对特发性肺纤维化(一种肺部逐渐硬化、无法治愈的致命疾病),更离谱的是,它在二期试验中还让患者的多个蛋白质组学衰老时钟向年轻化方向转变。30mg 每日两次剂量组效果最明显。虽然还不能确定这是真的"抗衰老"还是疾病改善的副作用,但这可能是第一个既治病又"减龄"的 AI 药物。
 
----
+![图片](https://www.news-medical.net/image-handler/picture/2019/5/Drug_use_and_prohibited_substances._-_Image_-_Monika_Gruszewicz_A1_b3acfd6d2daf44ecbd36979af20eb378-620x480.jpg)
 
-**1. [更年期来得早，大脑老得快——阿尔茨海默症也提前报到](https://medicalxpress.com/news/2026-09-women-menopause-early-faster-brain.html)**
+### 2. [肠道菌群比年龄更能预测你的炎症水平和疾病风险](https://www.news-medical.net/news/20260909/Gut-microbiome-may-reveal-inflammation-and-future-disease-risk-better-than-age.aspx)
+以前体检报告看年龄,以后可能得看肠道菌群。研究发现,肠道菌群组成对炎症细胞因子和生理指标的解释能力比你的实际年龄更强。更惊人的是,Bacteroides 2 肠型的人在 30 多岁就出现了 60 岁才有的"炎症性衰老"特征,后续疾病风险也高得多。相反,菌群多样性高的人炎症低、疾病少。看来,"年轻"不仅看脸,更要看肠子。
 
-很多人以为更年期只是"不来月经了"。但这项发表在 JAMA Network Open 的研究告诉你，它其实是一颗慢动作的神经定时炸弹。提前绝经的女性，不只是激素变了，大脑结构和长期神经健康都会出现明显差异，阿尔茨海默症的诊断时间也显著提前。这条线索对 AI 生命科学圈极其重要：更年期年龄，很可能是未来 AI 脑健康风险模型的核心变量之一。
+![图片](https://www.news-medical.net/images/news/ImageForNews_846579_17890126927286728.jpg)
 
----
+### 3. [粉红噪音:睡觉时开着它,大脑"排废"效率翻倍](https://www.news-medical.net/news/20260909/Pink-noise-boosts-brain-waste-clearance-during-sleep.aspx)
+白天大脑产生的代谢废物(乳酸、蛋白质残渣)会在睡眠时被脑脊液冲走,但这个过程有时不够快。现在研究发现,睡觉时播放粉红噪音(比白噪音更柔和的频率),能让脑脊液的"清洁波"更强劲,废物清理效率大幅提升。对阿尔茨海默病(大脑废物堆积导致)患者来说,这可能是个简单又有效的辅助疗法。睡前别只放白噪音了,试试粉红噪音?
 
-**2. [睡不好觉，身体悄悄在老——认知行为疗法让生物年龄的指针慢下来](https://medicalxpress.com/news/2026-09-cognitive-behavioral-therapy-biological-aging.html)**
+![图片](https://www.news-medical.net/image-handler/picture/2017/3/Good_nights_sleep_-_Goodluz_5edf6811462b4d0280b9b9189683dde9-620x480.jpg)
 
-UCLA 的研究团队做了一件挺有意思的事：他们不用药，只用认知行为疗法（CBT，就是通过改变思维和行为习惯来治疗失眠）给老年失眠患者做干预。结果发表在《柳叶刀·健康长寿》上——CBT 组不只失眠好转率更高，连生物年龄的老化速度都比单纯做睡眠教育的对照组慢。这说明什么？**干预失眠，可能真的在延缓衰老本身。** 对 AI 健康管理产品来说，这是个很值得追踪的方向。
+### 4. [限制热量能减少基因突变,从 DNA 层面延缓衰老](https://www.news-medical.net/news/20260909/Caloric-restriction-reduces-genetic-mutations-across-the-mouse-genome.aspx)
+衰老的一个核心原因是 DNA 突变累积。现在小鼠实验证实,限制热量摄入能显著减少全基因组的突变积累。这意味着少吃不仅能延长寿命,还能从最底层(DNA)延缓衰老进程。虽然是动物实验,但结合人类的流行病学数据,适度热量限制(不是节食到营养不良)可能是目前最可靠的抗衰老手段之一。
 
----
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/78486183-620x480.jpg)
 
-**3. [想靠关掉"炎症开关"来抗衰老？Rochester 的小鼠先用命告诉你：别这么干](https://medicalxpress.com/news/2026-09-cgas-protein-aging-worse-unleashing.html)**
+### 5. [桑德霍夫病基因疗法:猫模型寿命延长 3 倍](https://www.genengnews.com/topics/translational-medicine/gene-therapy-extends-lifespan-and-reduces-symptoms-in-sandhoff-disease-cat-model/)
+桑德霍夫病是一种致命的神经退行性疾病,患儿通常活不过 4 岁。静脉注射 AAV 基因疗法在猫模型中展现了惊人效果:低剂量组寿命延长 2 倍,高剂量组延长 3 倍,且脑损伤标志物显著减少,肝脏损伤也得到改善。与此前需要直接注射到大脑或脑脊液的方法相比,静脉注射更简单、更安全。这为桑德霍夫病和泰-萨克斯病(同类疾病)的临床试验铺平了道路。
 
-罗切斯特大学的团队有个直觉上很合理的想法：cGAS 蛋白跟炎症有关，炎症跟衰老有关，那把 cGAS 敲掉，会不会减少炎症、延缓衰老？结果啪啪打脸。没有了 cGAS，小鼠体内的炎症性 DNA 反而失控地乱跑，动物变得更虚弱、活得更短。**有时候，"保护性炎症"和"有害炎症"根本不是同一条路上的东西。** 这类反直觉发现，恰恰是 AI 药物靶点筛选最容易踩坑的地方。
+![图片](https://www.genengnews.com/wp-content/uploads/2026/09/Fig3A_MRI-1024x894.jpg)
 
----
+### 6. [质谱技术正在改变癌症早筛:比 NGS 更快、更便宜、更准](https://www.genengnews.com/topics/omics/the-emerging-power-of-mass-spectrometry-in-oncology/)
+液体活检(通过血液检测癌症)通常依赖 NGS 技术,但成本高、复杂度高,早期癌症检测效果有限。质谱技术(MS)正在崛起:它能快速、精确地检测蛋白质、代谢物和脂质,这些分子比 DNA 突变更直接反映癌症状态。尤其是脂质组学,能捕捉到癌症代谢的细微变化,且成本更低、标准化更容易。未来癌症早筛可能不再依赖基因测序,而是靠质谱分析你血液里的分子指纹。
 
-**4. [一个基因，让抗体产量提升50%——生物制药生产效率的意外突破](https://www.genengnews.com/topics/bioprocessing/increasing-cho-cell-productivity/)**
+![图片](https://www.genengnews.com/wp-content/uploads/2026/09/Mass-2-300x225.jpg)
 
-生物药（比如抗癌抗体）生产最头疼的问题之一：细胞"不肯卖力干活"，产量上不去。百济神州（现更名 BeOne Medicines）的团队发现，过量表达一个叫 Pabpc1 的基因——它的作用是稳定 mRNA、让蛋白质翻译更高效——可以让 CHO 细胞（生物制药工业最常用的"生产工厂"细胞）的抗体产量提升 30-50%。更妙的是，细胞生长没受影响，有害代谢副产物（乳酸、氨）还减少了。虽然本文没有直接写 AI，但这类生产效率数据，是 AI 生物制造优化模型的重要训练素材。
+### 7. [血液筛查新算法:减少 85% 不必要的阿尔茨海默病 PET 扫描](https://www.news-medical.net/news/20260909/New-blood-screening-algorithm-reduces-unnecessary-Alzheimers-PET-scans.aspx)
+招募阿尔茨海默病临床试验患者时,通常需要做 PET 扫描确认大脑中有淀粉样蛋白沉积,但扫描贵、耗时、有辐射。USC 的研究团队开发了一种基于血液的筛查算法,能在 PET 扫描前筛掉大部分不符合条件的患者,减少不必要扫描。这不仅降低了临床试验成本,还能让更多患者更快参与试验。如果推广开来,可能改变整个 AD 临床试验的筛选流程。
 
----
+![图片](https://www.news-medical.net/image-handler/picture/2016/2/Alzheimers_amyloid_plaque_-_Juan_Gaertner_9638f1223d534b518a192c8478871d65-620x480.jpg)
 
-**5. [自体细胞疗法：每个患者都是一批独立生产，这仗怎么打？](https://www.genengnews.com/topics/bioprocessing/no-one-size-fits-all-solution-for-autologous-cell-therapy-manufacturing/)**
+### 8. [终身全脑神经记录:下一代脑科学研究的技术路线图](https://www.news-medical.net/news/20260909/Technological-roadmap-proposed-for-lifetime-brain-wide-neural-recordings.aspx)
+理解大脑需要在多个时间尺度(从毫秒到数年)和空间尺度(从单个神经元到全脑回路)记录神经活动,但现有技术做不到。一份新的技术路线图提出了实现"终身全脑神经记录"的方向:开发更微型化、更长寿命、更高分辨率的植入式设备,结合无线传输和 AI 分析。这不仅能推动基础脑科学研究,还能为脑机接口、神经疾病诊断和治疗提供革命性工具。
 
-CAR-T 这类"用患者自己细胞做的药"，每人一批、不能库存、不能替换。乔治亚理工的研究团队对比了三种生产模式：集中工厂、协调式就近生产网络、独立就近生产网络。结论是：协调式就近生产网络在成本和交货时间上取得最佳平衡——成本与集中生产相差仅 1.2%，但平均周转时间从 29.5 天缩短到 28.2 天。这个研究方向和 AI 供应链优化高度契合，是 AI 医疗制造的潜在应用场景。
+![图片](https://www.news-medical.net/image-handler/picture/2016/3/Artificially_Colored_MRI_Scan_Of_Human_Brain-Daisy_Daisy_a8c5d8bbbf824bc8932308e30187510f-620x480.jpg)
 
----
+### 9. [扩散模型让 X 射线层析成像更清晰:脑组织纳米级成像新突破](https://papers.cool/arxiv/2609.10456)
+X 射线层析成像能以纳米级分辨率观察大脑组织,但传统重建方法因"缺失锥"问题导致图像失真。LUCID 框架结合多视角扩散先验和投影域数据一致性,显著提升了空间保真度,还原了缺失的傅里叶分量。在实验数据上,LUCID 即使只在层析数据上训练,也能在层析数据上表现优异,有效恢复未测量的信息。这为大脑连接组学研究提供了更高质量的成像工具。
 
-**6. [微型色谱柱，能替代大型设备做生产级别的质量把关了？](https://www.genengnews.com/topics/bioprocessing/microscale-chromatography-moves-toward-manufacturing-readiness/)**
-
-做生物药纯化（把有用的蛋白质从"杂质汤"里提出来）一直要用大型色谱设备，实验成本高、耗时长。AstraZeneca 的研究团队测试了 600 微升的微型色谱柱系统，发现它和 20 毫升的传统台式设备、乃至商业生产规模的数据高度吻合，两者之间的差异"可预测、可管理"。**这意味着高通量、自动化的微缩实验，正在离真正的生产决策越来越近。** 对 AI 实验室自动化来说，这是一个很好的信号。
-
----
-
-*（今日素材共 6 条，均在 AI+生命科学及相关领域内，已全部收录于 TOP。）*
+### 10. [信任网络联邦学习:多中心协作预测衰老时钟](https://papers.cool/arxiv/2609.10108)
+预测生物年龄的"衰老时钟"需要大量分子数据,但医疗中心之间因隐私限制无法共享数据。TNFL 框架提出了一种基于信任网络的联邦学习方法:模型沿着中心之间的定向信任关系逐步传播,无需中央聚合。它结合年龄感知的专家混合模型和生成式回放,减少了模型漂移和遗忘。实验表明,TNFL 在样本量有限的情况下能有效预测衰老时钟,且解释性强。更重要的是,它揭示了蛋白质相互作用不仅是成对的,还形成了多层次的生物网络。
 
 ---
 
 ## **📌 值得关注**
 
-今日素材已全部纳入 TOP，无需单独列出。
+### [研究]
+- [分子生成模型系统评测:82 种方法全面对比](https://papers.cool/arxiv/2609.10099) - 从基准到实践,全面梳理了分子生成在药物设计中的应用,涵盖 RNN、Transformer、VAE、GAN、Flow 和扩散模型,GitHub 资源库已开源
+- [蛋白质互作数据集审计:机器学习模型可能在学"捷径"](https://papers.cool/arxiv/2609.10193) - 揭示 PPI 数据集中存在的偏差(拓扑、自相互作用、功能相关性),提供了一个开源 Nextflow 管道来检测和减轻这些偏差
+
+### [工具]
+- [伪标签训练深度学习模型:无接触传感器也能做心率检测](https://papers.cool/arxiv/2609.10026) - 用信号处理方法生成伪标签训练深度学习模型,在数据同步不佳时甚至超过监督学习,降低了 rPPG 数据集采集成本
+- [可解释机器学习预测血脑屏障通透性](https://papers.cool/arxiv/2609.10012) - XGBoost 达到 88.97% 准确率,SHAP 分析揭示 TPSA、HBD 和 LogP 是最关键的分子描述符
+
+### [其他]
+- [表观遗传衰老生物标志物响应性评估](https://lifespan.io/comparing-the-responsiveness-of-epigenetic-aging-biomarkers/) - 51 项研究,16 种时钟,94 种生物标志物,DunedinPACE 和 PCGrimAge 响应最强且最一致
 
 ---
 
 ## **😄 AI生命科学趣闻**
 
-### [想靠"关掉炎症"来长寿？小鼠：我用命告诉你不行](https://medicalxpress.com/news/2026-09-cgas-protein-aging-worse-unleashing.html)
+### [猫咪基因疗法:从 4 个月活到 12 个月,相当于人类从 4 岁活到 100 岁](https://www.genengnews.com/topics/translational-medicine/gene-therapy-extends-lifespan-and-reduces-symptoms-in-sandhoff-disease-cat-model/)
+桑德霍夫病猫模型通常只能活 4 个月,相当于人类患儿 4 岁左右去世。高剂量基因疗法让猫活到了 12 个月,换算成人类寿命大概是 100 岁。网友评论:"这猫赚大了,相当于白嫖了 8 条命。" 😂 虽然是玩笑,但这确实是基因疗法在大型动物模型上的重大突破,为人类临床试验铺平了道路。
 
-科学家信心满满：把促炎蛋白 cGAS 敲掉，小鼠应该活得更久更健康。结果小鼠：更虚弱了，炎症更重了，还死得更早了。研究人员大概内心是："……" 这个故事告诉我们，抗衰老的反直觉陷阱，AI 也得小心踩。😅
+![图片](https://www.genengnews.com/wp-content/uploads/2026/09/Fig3A_MRI-1024x894.jpg)
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 更年期年龄纳入 AI 脑健康风险评分模型
-- **预测时间**：2026年Q4
-- **预测概率**：65%
-- **预测依据**：今日新闻 [Women who hit menopause early see faster brain aging and earlier Alzheimer's diagnosis](https://medicalxpress.com/news/2026-09-women-menopause-early-faster-brain.html) + 当前 AI 神经退行性疾病风险预测模型正在整合多维度生物标志物，更年期年龄作为独立预测因子的证据基础已逐步成熟。
+### AlphaFold 类蛋白质结构预测模型将向"功能预测"演进
+- **预测时间**:2026 年 Q4
+- **预测概率**:70%
+- **预测依据**:今日新闻[蛋白质互作数据集审计](https://papers.cool/arxiv/2609.10193)揭示了 PPI 数据集的质量问题,而[分子生成模型系统评测](https://papers.cool/arxiv/2609.10099)强调了目标导向生成的重要性。结合 DeepMind 近期在 AlphaFold 3 中加入蛋白质-小分子复合物预测,下一步很可能是功能预测(如酶活性、药物靶点)。
 
-### CBT 数字化 / AI 辅助失眠干预产品迎来新一轮融资潮
-- **预测时间**：2026年Q4
-- **预测概率**：55%
-- **预测依据**：今日新闻 [Cognitive behavioral therapy may reduce biological aging among older adults with insomnia](https://medicalxpress.com/news/2026-09-cognitive-behavioral-therapy-biological-aging.html) + CBT-I（失眠认知行为疗法）的抗衰老效果获《柳叶刀》背书后，数字疗法和 AI 睡眠干预赛道的商业叙事会显著增强，预计会催动资本动作。
+### 液体活检技术将从 NGS 向质谱(MS)迁移
+- **预测时间**:2026 年 Q4 - 2027 年 Q1
+- **预测概率**:65%
+- **预测依据**:今日新闻[质谱技术在肿瘤学中的崛起](https://www.genengnews.com/topics/omics/the-emerging-power-of-mass-spectrometry-in-oncology/)指出 MS 比 NGS 更快、更便宜、更适合早期癌症检测。随着脂质组学和蛋白质组学标准化的推进,预计未来 3-6 个月会有更多 MS 液体活检产品进入临床试验。
 
-### cGAS-STING 通路 AI 靶点筛选研究论文数量显著增加
-- **预测时间**：2026年Q4
-- **预测概率**：50%
-- **预测依据**：今日新闻 [Removing cGAS protein may make aging worse by unleashing inflammatory DNA](https://medicalxpress.com/news/2026-09-cgas-protein-aging-worse-unleashing.html) + cGAS 通路的反直觉结果会激发研究界重新用 AI 方法梳理其在衰老中的复杂角色，预计会有多篇 AI+衰老炎症机制的预印本出现。
+### AI 制药临床试验爆发:多个 AI 药物进入二/三期
+- **预测时间**:2026 年 Q4
+- **预测概率**:80%
+- **预测依据**:今日新闻[Rentosertib 进入三期临床](https://www.news-medical.net/news/20260910/Generative-AI-driven-drug-Rentosertib-enters-Phase-III-trial-for-idiopathic-pulmonary-fibrosis.aspx)是 AI 制药的里程碑事件。根据 Insilico Medicine 和其他 AI 制药公司(如 Recursion、Exscientia)的管线进展,预计 Q4 会有至少 2-3 个 AI 药物宣布进入二期或三期临床。
+
+### 肠道菌群检测将成为健康体检的标配项目
+- **预测时间**:2027 年 Q1
+- **预测概率**:60%
+- **预测依据**:今日新闻[肠道菌群比年龄更能预测疾病风险](https://www.news-medical.net/news/20260909/Gut-microbiome-may-reveal-inflammation-and-future-disease-risk-better-than-age.aspx)提供了强有力的科学证据。随着菌群检测成本下降和 AI 分析工具成熟,预计国内外高端体检机构会在 3-6 个月内推出菌群检测服务。
+
+### 表观遗传时钟将成为抗衰老临床试验的标准终点指标
+- **预测时间**:2027 年 Q1
+- **预测概率**:75%
+- **预测依据**:今日新闻[表观遗传衰老生物标志物响应性评估](https://lifespan.io/comparing-the-responsiveness-of-epigenetic-aging-biomarkers/)系统验证了 DunedinPACE 和 PCGrimAge 的响应性和一致性。FDA 和 EMA 可能在未来 3-6 个月发布相关指南,允许这些时钟作为抗衰老药物临床试验的替代终点。
