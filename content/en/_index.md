@@ -11,11 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-癌症疗法数周内就能改写健康细胞几十年的进化史,剑桥团队通过测序正常组织发现副作用和耐药性根源。
-
-约翰斯·霍普金斯推出 CloudScope 云端显微镜,研究者在咖啡厅就能远程监控小鼠大脑 24 小时,AI 已学会仅凭神经元活动预测行为。
-
-今天的癌症和神经科学工具都在朝"全周期监控"演进,生物医学正在进入实时观测时代。
+Insilico 的 AI 药物让血液蛋白谱年轻 3 岁,可能是首个临床验证的广谱抗衰老案例。
+蝙蝠长寿基因、肠道菌群与脑衰老、骨髓芯片等研究扎堆,抗衰老赛道正从理论走向应用。
+AI 制药和器官芯片开始出临床数据了,生物科技创业者该盯紧这两个方向。
 ```
 
 
@@ -28,107 +26,131 @@ cascade:
 
 > 💡 **提示**：想体验文中提到的 GPT、Claude、Gemini、Codex、Cursor、Grok 等工具，但不想折腾海外支付、注册、额度和教程？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 按场景选择官方号、镜像、Cursor 方案或中转入口，官网自助下单，卡密秒发。
 
-## **今日 AI 生命科学资讯**
+# 今日 AI 生命科学资讯
 
-### **👀 只有一句话**
-当癌症疗法开始重塑健康细胞的进化规则时，我们终于看到了副作用和耐药性的真正根源。
+## 👀 只有一句话
+一款AI开发的肺纤维化药物，让血液蛋白谱年轻了3岁。
 
-### **🔑 3 个关键词**
-#AI生命科学工具 #癌症治疗 #衰老研究
-
-## **🔥 重磅 TOP 10**
-
-### 1. [癌症疗法正在重塑你健康细胞的进化规则](https://www.genengnews.com/topics/cancer/cancer-treatment-genetic-effects-in-healthy-cells-may-reveal-clues-to-side-effects-and-resistance/)
-以前医生只盯着肿瘤看疗效,现在剑桥和 Sanger 研究所的团队发现:化疗和放疗几周内就能改写健康食管细胞几十年的进化史。接受联合放化疗的患者,健康组织里携带 TP53(癌症守护基因)和 PPM1D 突变的细胞显著增多;而单纯化疗的患者,对 5-氟尿嘧啶产生耐药性的细胞更容易存活下来。这不是副作用,这是达尔文式的细胞竞争——疗法改变了游戏规则,不同的基因突变就决定了谁能活下来。通过测序正常组织,研究者终于能看清药物在体内真正做了什么,这可能让未来的疗法既能杀死癌细胞,又能少伤害健康组织。(150字)
-
-### 2. [CloudScope:让你在咖啡厅里远程监控小鼠大脑 24 小时不间断](https://www.genengnews.com/topics/translational-medicine/cloudscope-enables-continuous-remote-monitoring-of-brain-activity-in-freely-moving-mice/)
-癫痫发作、肿瘤形成这些事件不会为了你的实验时间表而发生。约翰斯·霍普金斯团队推出的 CloudScope 是一个云端微型显微镜,能在自由活动的小鼠身上连续拍摄超过 24 小时的脑活动、血流、氧合、细胞动态。研究者坐在地球任何角落都能实时看数据。他们已经捕捉到了药物诱导癫痫数小时后才出现的自发性癫痫——这是传统短时成像完全会错过的时刻。更酷的是,团队用 24 小时数据训练了 AI,现在 AI 能仅凭神经元活动就预测小鼠是静止、中度活跃还是在奔跑。这对理解中风、帕金森如何影响行为可能是个突破口。(200字)
-
-### 3. [一个免疫开关可能在驱动全身衰老](https://www.sciencedaily.com/releases/2026/09/260901010717.htm)
-随着年龄增长,免疫细胞逐渐失去清理"僵尸细胞"(受损、促炎细胞)的能力,炎症因此堆积。研究者在小鼠身上阻断了一个受体,结果免疫清扫功能恢复了——炎症降低,器官、肌肉、记忆都保持了惊人的年轻状态。这个发现提示:衰老可能部分由免疫监控失灵驱动,而不仅仅是细胞自身老化。如果这个机制在人身上也成立,针对这一免疫开关的干预可能同时延缓多个器官的衰老进程。(135字)
-
-### 4. [深度睡眠缺失与阿尔茨海默蛋白堆积直接相关](https://medicalxpress.com/news/2026-09-deep-loss-linked-alzheimer-protein.html)
-你有没有过这样的经历:走出超市,站在停车场却完全想不起车停在哪。新研究显示,深度睡眠的丧失可能与阿尔茨海默相关蛋白(如 β-淀粉样蛋白、tau 蛋白)的堆积直接相关。深度睡眠是大脑"清洁工"——类淋巴系统清除代谢废物的关键时段。睡眠质量下降,清洁效率就下降,毒性蛋白堆积,记忆问题随之而来。这为"睡眠干预可能延缓认知衰退"提供了更直接的证据。(145字)
-
-### 5. [Evipedia Grok Bot:你的私人长寿健康助手上线](https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot/)
-SpaceX 的 Grok 很厉害,但 Evipedia Grok Bot 把它变得更有用。这是一个专为长寿社区打造的 AI 助手,集成了 Grok、AI4L 框架和 Evipedia 数据库(770+ 干预措施证据综述)。它的回答全部基于人类临床试验和荟萃分析,每个益处和风险都标注了"高/中/低/推测性"等级。如果你问"XX 补剂有用吗",它不会糊弄你,而是明确告诉你证据强度、冲突数据、商业利益冲突。Evipedia 完全免费,每 4-6 周更新一次,每个条目都有审计报告。对想优化健康的人来说,这是个可靠的二次意见来源。(180字)
-
-### 6. [《最后一代死亡者》入围 XPrize:当父亲逆龄而母亲衰老](https://lifespan.io/the-last-generation-to-die-interview-with-tim-maupin/)
-导演 Tim Maupin 的近未来电影《最后一代死亡者》进入了 Future Vision XPrize 前 65 名(2500+ 参赛作品)。故事设定在首个抗衰老技术临床试验期:女科学家 Lily 让心脏病晚期的父亲入组试验,父亲开始逆龄;但母亲患上罕见神经退行性疾病,不符合纳入标准,只能眼看健康恶化。这部片子触及了一个即将到来的伦**困境:当第一批生物医学修复疗法进入人体试验,谁有资格接受?谁会被留在旧世界?片中还有公司试图垄断技术牟利的副线。Maupin 说,这部电影的个人动力来自 2019 年父亲的去世和母亲的衰老。顶级演员阵容:Ed Harris、Lily Rabe、Mamoudou Athie 已确认加盟。(220字)
-
-### 7. [邻里环境影响 9/11 救援者的长期健康](https://www.news-medical.net/news/20260911/Neighborhood-environments-impact-long-term-health-of-911-responders.aspx)
-25 年过去了,西奈山医学院研究者发现:世贸中心救援者居住的环境条件——空气质量、社区资源、社会支持——显著影响他们的长期身心健康。这提示,即使遭遇了相同的创伤暴露,后续的生活环境仍在持续塑造健康轨迹。对理解创伤后健康管理和社区支持的重要性有启发。(110字)
-
-### 8. [三星生物签下 2.62 亿美元制造协议](https://www.genengnews.com/topics/bioprocessing/samsung-biologics-signs-262-million-manufacturing-agreement-with-european-pharma-firm/)
-三星生物与一家欧洲药企签订了 2.62 亿美元的生物制剂生产协议,合同覆盖至 2033 年,生产将在韩国松岛基地进行。目前三星生物在韩国和美国拥有 845kL 产能(韩国 785kL,美国马里兰州 60kL)。累计合同额已超 219 亿美元。公司正筹备 Bio Campus III,计划支持下一代疗法的研发和专用生产,并在评估收购 PolyPeptide Group 以扩展多肽疗法能力。(140字)
-
-### 9. [Transcenta 与药明生物联手推动 HiCB 连续生产技术商业化](https://www.genengnews.com/topics/bioprocessing/transcenta-therapeutics-and-wuxi-biologics-team-up-to-accelerate-commercialization-of-hicb-technology/)
-泰思康(Transcenta)授予药明生物非独家许可,使用其 HiCB(高密度连续生物工艺)平台和 ExcelPro 培养基技术。HiCB 整合了连续灌流上游工艺和混合连续下游纯化,相比传统分批工艺大幅提升生产率,降低生产成本和资本投入。泰思康将获得 150 万美元预付款及后续里程碑付款。药明将成为泰思康管线分子的 CMC 开发战略合作伙伴。(130字)
-
-### 10. [骨质疏松影响数百万人:改造细胞能重建骨骼吗?](https://www.nature.com/articles/d41586-026-02828-3)
-《自然》探讨了一个前沿问题:能否通过改造细胞(如间充质干细胞、成骨细胞)来重建骨质疏松患者的骨骼?当前骨质疏松影响全球数百万人,传统疗法主要是减缓骨丢失,而细胞疗法可能实现真正的骨再生。这个方向正在吸引越来越多的研究关注,虽然还处于早期阶段,但可能为骨骼疾病治疗带来范式转变。(125字)
-
-## **📌 值得关注**
-
-**[研究]** [Brain Age Gap 与阿尔茨海默诊断项目](https://github.com/GowriSankhar04/Brain-Age-Gap-Technology-and-Alzheimer-s-Diagnosis) - 用深度学习从 MRI 预测脑年龄差距并评估阿尔茨海默风险,基于 PyTorch、MONAI 和 ADNI 数据
-
-**[研究]** [脑衰老 AI 挑战赛多模态痴呆风险模型](https://github.com/NoWon1/AI-challenge-for-HEALTHY-Brain-Aging) - 多模态痴呆风险、进展和数字孪生轻量模型,针对 CBR 健康脑衰老挑战赛
-
-**[开源]** [FreeSurfer 脑年龄预测项目](https://github.com/visionbyangelic/Brain-Aging) - 从 MRI 形态学预测脑年龄,规范模型训练于健康 OpenBHB 参与者,在 OASIS-3 上评估脑年龄差距及临床关联
-
-**[开源]** [Longevity Lens 企业长寿引擎](https://github.com/Aikagra-rgb/longevity-lens) - 基于 FastAPI、Gemini 3.6-flash、3072 维 RAG 向量搜索和生物年龄时钟的企业长寿引擎与研究副驾驶
-
-**[开源]** [NeuroBloom 多发性硬化认知监测平台](https://github.com/Adit-Mugdha-das/NeuroBloom) - 免费的多发性硬化症纵向认知监测和临床医生指导康复网络平台,包含 6 个领域的 35 个自适应认知任务
-
-## **🔮 AI生命科学趋势预测**
-
-### AlphaFold 类蛋白质设计工具将迎来突破性更新
-- **预测时间**：2026年Q4
-- **预测概率**：70%
-- **预测依据**：今日新闻中 CloudScope 展示了 24 小时连续监测技术突破,提示生物医学工具正在向"全周期监控"演进。结合 DeepMind 历史发布节奏(通常秋季发布重大更新),蛋白质结构预测领域可能迎来支持动态构象预测的新版本
-
-### 癌症治疗个体化将进入"正常组织基因图谱"时代
-- **预测时间**：2026年10-11月
-- **预测概率**：65%
-- **预测依据**：今日新闻[癌症疗法重塑健康细胞进化规则](https://www.genengnews.com/topics/cancer/cancer-treatment-genetic-effects-in-healthy-cells-may-reveal-clues-to-side-effects-and-resistance/)揭示治疗前测序正常组织可预测副作用和耐药性。预计未来 1-2 个月内将有临床机构宣布启动"治疗前正常组织基因图谱"试验项目
-
-### 睡眠干预产品将成为阿尔茨海默预防新赛道
-- **预测时间**：2026年Q4
-- **预测概率**：75%
-- **预测依据**：今日新闻[深度睡眠缺失与阿尔茨海默蛋白堆积直接相关](https://medicalxpress.com/news/2026-09-deep-loss-linked-alzheimer-protein.html)提供了睡眠-认知衰退的直接证据链。已有多家数字健康公司在深度睡眠监测和优化领域布局,预计年底前将有针对性的睡眠干预临床试验启动
-
-### 脑年龄预测工具将进入临床常规检查
-- **预测时间**：2026年10月
-- **预测概率**：60%
-- **预测依据**：今日开源项目(如 Brain Age Gap 技术)已实现从 MRI 预测脑年龄并评估痴呆风险。结合 CloudScope 的远程监测能力,预计未来 1-2 个月内将有医疗机构宣布将脑年龄评估纳入中老年健康体检套餐
-
-### 免疫衰老靶向疗法将进入 IND 申报阶段
-- **预测时间**：2026年11月
-- **预测概率**：55%
-- **预测依据**：今日新闻[一个免疫开关可能在驱动全身衰老](https://www.sciencedaily.com/releases/2026/09/260901010717.htm)显示阻断单一受体可恢复免疫清扫功能并延缓多器官衰老。小鼠实验结果强劲,预计已有生物技术公司在推进人体试验准备,可能在 Q4 提交 IND 申报
+## 🔑 3 个关键词
+#AI制药 #生物年龄 #衰老干预
 
 ---
 
-## **📎 今日可引用要点**
+## 🔥 重磅 TOP 10
 
-**事实结论**：化疗和放疗在数周内即可改变健康食管组织中突变细胞的选择压力,导致携带 TP53 和 PPM1D 突变的正常细胞显著增多。
+### 1. [AI制药里程碑：肺纤维化新药让生物年龄"倒退"3年](https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates/)
 
-**原始来源**：[Cancer Treatment Genetic Effects in Healthy Cells May Reveal Clues to Side Effects and Resistance](https://www.genengnews.com/topics/cancer/cancer-treatment-genetic-effects-in-healthy-cells-may-reveal-clues-to-side-effects-and-resistance/)
+Insilico用AI平台开发的实验性肺纤维化药物rentosertib，在临床试验中展现出意想不到的抗衰老潜力。6种不同的生物年龄时钟检测发现，服药患者的血液蛋白谱变得更年轻了——平均年轻约3岁。更关键的是,这种"年轻化"似乎不仅仅是肺功能改善的副产物。研究人员发现,与衰老相关的326种血液蛋白发生了变化,衰老相关蛋白倾向于朝相反方向移动。这可能是AI制药首次在临床试验中展现广谱抗衰老效应的案例,研究已发表在Nature Biotechnology上。
 
-**证据边界**：研究基于 70 名接受食管癌治疗患者的正常食管组织 DNA 测序(包括联合化疗、放化疗或无治疗对照组)。结论适用于食管上皮组织;其他组织类型的效应仍需独立验证。研究揭示了治疗导致的突变细胞选择模式,但尚未直接证明这些突变与临床副作用或耐药性的因果关系。
+![图片](https://lifespan.io/wp-content/uploads/2026/09/Lung-inflammation-262x187.jpg)
+
+### 2. [蝙蝠DNA藏着长寿密码:强免疫+精准清除受损细胞](https://www.sciencedaily.com/releases/2026/09/260911003852.htm)
+
+为什么蝙蝠能活几十年还不得癌症?新研究发现,长寿蝙蝠把两种看似矛盾的能力完美结合:超强的免疫防御系统,加上异常精准的受损细胞清除策略。这套组合拳让它们在几十年的生命周期中有效避开癌症和疾病。研究人员希望这些遗传学"技巧"最终能揭示保护人类健康衰老的新途径。说不定有一天,我们也能像蝙蝠那样优雅地老去。
+
+### 3. [脑衰老预警提前数十年:肠道菌群是关键线索](https://medicalxpress.com/news/2026-09-brain-aging-decades-symptoms-links.html)
+
+UCLA的新研究打开了一扇窗:大脑衰老的速度,可能在症状出现前几十年就能被检测到,而线索藏在肠道里。研究团队发现,肠道细菌及其化学副产物与大脑衰老速度之间存在明确联系。换句话说,你的肠道菌群可能正在悄悄影响你的大脑老化进程。这项发现为早期干预脑衰老提供了全新思路——也许调理肠道,就能保护大脑。
+
+### 4. [骨髓芯片新突破:人体免疫细胞发育全过程可视化](https://www.genengnews.com/topics/translational-medicine/bone-marrow-on-a-chip-model-offers-new-window-into-immune-cell-development-and-behavior/)
+
+以前想研究人体骨髓里的免疫细胞怎么发育、迁移、存活,基本不可能——活体骨髓成像太难了。现在Georgia Tech和Vanderbilt大学团队造了个"骨髓芯片",把类淋巴结器官和骨髓微环境塞进96孔板里,成功复制出人类骨髓的结构和功能。这个模型不仅能实时追踪抗体分泌细胞的整个生命周期,还能用患者自己的细胞研究衰老、自免疫病、过敏等问题。相当于给科学家一扇高清窗口,直接看人体免疫系统的"幕后花絮"。
+
+### 5. [EFEMP1基因突变导致两种不同视力丧失疾病](https://www.news-medical.net/news/20260911/Distinct-EFEMP1-variants-cause-different-forms-of-vision-loss.aspx)
+
+科学家发现了一种新的视力疾病,它与一个已知会导致另一种视力丧失疾病的基因EFEMP1有关。有趣的是,同一个基因的不同变异会造成截然不同的症状:之前已知的疾病会导致中心视力丧失,而新发现的疾病则影响周边和夜间视力。这个发现提醒我们,基因突变的具体位置和类型可能比我们想象的更重要——同一个基因,不同的"错误拼写"方式,结果天差地别。
+
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Ophthalmology-620x480.jpg)
+
+### 6. [电影《The Last Generation to Die》入围XPrize未来愿景大赛TOP 65](https://lifespan.io/the-last-generation-to-die-interview-with-tim-maupin/)
+
+一部关于延寿技术到来时谁会被落下的近未来电影,成功入围Future Vision XPrize大赛前65名。这个由Lifespan.io早期支持的项目,讲述了一位女科学家的父亲通过新技术开始逆龄,而母亲却因不符合试验标准而健康恶化的故事。影片由Ed Harris等大牌演员出演,探讨的正是我们即将面对的现实:当首批修复疗法进入临床试验,谁能获得治疗?获取权和公平性不再是理论问题,而是迫在眉睫的道德与经济议题。最终获胜者将获得260万美元将预告片拍成完整电影,下周将公布前十名。
+
+![图片](https://lifespan.io/wp-content/uploads/2026/09/Last-Generation-to-Die-262x187.png)
+
+### 7. [你的长寿AI助手:Evipedia Grok Bot上线](https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot/)
+
+Evipedia刚推出的Grok Bot,把SpaceXAi的Grok、AI4L persona和Evipedia的770多份循证健康干预综述整合成了一个超级实用的AI助手。它能提供基于证据的健康和延寿干预"第二意见",所有回答都遵循Evipedia的原则:证据优先、分级评估、全面覆盖获益/风险/相互作用、标注商业利益冲突、用人话解释。最重要的是,完全免费。相当于你随时能问一个懂行的朋友:"这个补剂/疗法靠谱吗?"
+
+![图片](https://lifespan.io/wp-content/uploads/2026/09/Grok-Bot-262x187.png)
+
+### 8. [深度睡眠缺失与阿尔茨海默病蛋白堆积存在关联](https://medicalxpress.com/news/2026-09-deep-loss-linked-alzheimer-protein.html)
+
+忘了车停哪儿了?这可能不只是普通的"健忘"。新研究发现,深度睡眠的丧失与大脑中阿尔茨海默病相关蛋白的堆积存在关联。换句话说,如果你长期睡不好、特别是深度睡眠不足,可能会增加大脑中异常蛋白积累的风险。这项研究为"睡眠质量影响大脑健康"提供了新证据,也提醒我们:保护大脑,从睡个好觉开始。
+
+### 9. [CloudScope:可远程监测自由活动小鼠大脑活动超24小时的云显微镜](https://www.genengnews.com/topics/translational-medicine/cloudscope-enables-continuous-remote-monitoring-of-brain-activity-in-freely-moving-mice/)
+
+Johns Hopkins团队造了个CloudScope云显微镜,能连续24小时以上监测自由活动小鼠的大脑活动、血流、氧合、细胞动态等多种生理指标,数据实时上云,科学家在世界任何地方都能远程查看。这个突破性工具捕捉到了药物诱导癫痫后数小时才发生的自发性癫痫,以及脑癌微环境的动态变化——这些事件在传统短时间成像窗口中根本看不到。团队还用24小时数据训练AI,成功根据神经元活动预测动物行为状态。这个平台不仅推动神经科学研究,还可能减少实验动物使用。
+
+### 10. [树突状细胞抗原呈递促使T细胞进入大脑并导致tau病理](https://www.fightaging.org/archives/2026/09/dendritic-cell-antigen-presentation-enables-t-cells-to-enter-the-brain-and-contribute-to-tau-pathology/)
+
+为什么大脑会受到身体免疫系统的"误伤"?新研究揭示了一条关键通路:树突状细胞通过抗原呈递,鼓励CD8+ T细胞进入大脑,进而导致tau蛋白相关的神经退行性病变。更重要的是,这个抗原呈递过程发生在中枢神经系统之外——也就是说,大脑外的免疫活动正在驱动大脑内的病理变化。研究人员在P301S tau转基因小鼠中移除树突状细胞或破坏其抗原交叉呈递能力后,显著保护了大脑免受神经退行性病变,并选择性减少了大脑中CD8+ T细胞的积累。这为靶向外周免疫系统来治疗阿尔茨海默病等tau病提供了新思路。
 
 ---
 
-**事实结论**：阻断单一免疫受体可恢复小鼠免疫细胞清除受损细胞的能力,降低炎症水平并使器官、肌肉和记忆保持年轻状态。
+## 📌 值得关注
 
-**原始来源**：[One immune switch may help drive aging across the body](https://www.sciencedaily.com/releases/2026/09/260901010717.htm)
+**[产品]** [9/11响应者的长期健康受居住环境影响](https://www.news-medical.net/news/20260911/Neighborhood-environments-impact-long-term-health-of-911-responders.aspx) - 世贸中心响应者居住的环境条件可能影响他们的长期身心健康
 
-**证据边界**：研究在小鼠模型中完成。"免疫监控失灵驱动衰老"假说在小鼠中得到支持,但人体免疫系统复杂度更高,该机制在人类中的可行性和安全性尚未验证。当前不能得出"阻断该受体可延缓人类衰老"的结论。
+**[研究]** [GitHub上线脑衰老AI挑战赛多模态痴呆风险模型](https://github.com/NoWon1/AI-challenge-for-HEALTHY-Brain-Aging) - 为CBR健康脑衰老AI挑战赛开发的多模态痴呆风险、进展和数字孪生模型
+
+**[开源]** [基于MRI形态学的脑年龄预测模型](https://github.com/visionbyangelic/Brain-Aging) - 在健康OpenBHB参与者上训练的规范模型,在OASIS-3数据集上评估脑年龄差距及临床关联
+
+**[开源]** [企业长寿引擎与研究助手LongevityLens](https://github.com/Aikagra-rgb/longevity-lens) - 基于FastAPI、Gemini 3.6-flash、3072维RAG向量搜索和生物年龄时钟的长寿研究工具
+
+**[开源]** [多发性硬化症认知监测与康复平台NeuroBloom](https://github.com/Adit-Mugdha-das/NeuroBloom) - 免费纵向认知监测平台,包含35项跨6个领域的自适应认知任务、数字生物标志物提取、孟加拉语/英语双语支持
 
 ---
 
-**事实结论**：深度睡眠缺失与阿尔茨海默相关蛋白(β-淀粉样蛋白、tau 蛋白)的堆积存在直接关联,深度睡眠是类淋巴系统清除大脑代谢废物的关键时段。
+## 📊 更多动态
 
-**原始来源**：[Deep-sleep loss linked to Alzheimer's-related protein buildup in new study](https://medicalxpress.com/news/2026-09-deep-loss-linked-alzheimer-protein.html)
+| # | 类型 | 标题 | 链接 |
+|---|------|------|------|
+| 1 | 研究 | 癌症治疗对健康细胞的基因影响可能揭示副作用和耐药性线索 | [链接](https://www.genengnews.com/topics/cancer/cancer-treatment-genetic-effects-in-healthy-cells-may-reveal-clues-to-side-effects-and-resistance/) |
+| 2 | 商业 | Samsung Biologics签署2.62亿美元生产协议 | [链接](https://www.genengnews.com/topics/bioprocessing/samsung-biologics-signs-262-million-manufacturing-agreement-with-european-pharma-firm/) |
+| 3 | 商业 | Transcenta与药明生物合作加速HiCB技术商业化 | [链接](https://www.genengnews.com/topics/bioprocessing/transcenta-therapeutics-and-wuxi-biologics-team-up-to-accelerate-commercialization-of-hicb-technology/) |
 
-**证据边界**：素材未提供研究的具体样本量、研究类型(观察性/实验性)和研究对象(人类/动物模型)。"深度睡眠-蛋白堆积"的关联已建立,但因果方向(是睡眠缺失导致蛋白堆积,还是蛋白堆积影响睡眠质量)以及睡眠干预能否逆转病理进程仍需进一步研究证实。
+---
+
+## 📎 今日可引用要点
+
+**AI开发的肺纤维化药物rentosertib在12周临床试验中使6种生物年龄时钟检测的血液蛋白谱年轻约3岁**
+- **原始来源**: [Lung Fibrosis Drug Lowers Biological Age Estimates](https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates/)
+- **证据边界**: 这是一项42人参与的Phase 2a随机双盲安慰剂对照试验,使用蛋白组学时钟评估生物年龄。虽然血液蛋白谱变化提示可能的抗衰老效应,但尚未确立该药物是否延长寿命或广泛减缓衰老,也未能完全排除这些变化主要反映肺纤维化改善。研究已发表在Nature Biotechnology上。
+
+**树突状细胞通过在中枢神经系统外进行抗原交叉呈递,促使CD8+ T细胞进入大脑并导致tau病理**
+- **原始来源**: [Dendritic Cell Antigen Presentation Enables T Cells to Enter the Brain and Contribute to Tau Pathology](https://www.fightaging.org/archives/2026/09/dendritic-cell-antigen-presentation-enables-t-cells-to-enter-the-brain-and-contribute-to-tau-pathology/)
+- **证据边界**: 这是在P301S tau转基因小鼠中进行的研究。遗传消融树突状细胞或破坏其抗原交叉呈递能力显著保护大脑免受神经退行性病变,并选择性减少CD8+ T细胞积累。外周抗原呈递被强调为tau病(包括阿尔茨海默病)的潜在治疗靶点,但尚未在人类中验证。
+
+**CloudScope云显微镜可连续监测自由活动小鼠大脑活动超24小时,捕捉传统成像窗口遗漏的关键事件**
+- **原始来源**: [CloudScope Enables Continuous Remote Monitoring of Brain Activity in Freely Moving Mice](https://www.genengnews.com/topics/translational-medicine/cloudscope-enables-continuous-remote-monitoring-of-brain-activity-in-freely-moving-mice/)
+- **证据边界**: 这是Johns Hopkins团队开发的动物成像平台,在小鼠模型中展示。研究成功捕捉到药物诱导癫痫后数小时发生的自发性癫痫,以及脑癌微环境动态变化。研究已发表在Nature Methods上。该技术目前仅用于动物研究,未直接应用于人类。
+
+---
+
+## 🔮 AI生命科学趋势预测
+
+### Rentosertib或类似TNIK抑制剂进入更大规模临床试验
+- **预测时间**: 2026年Q4-2027年Q1
+- **预测概率**: 70%
+- **预测依据**: 今日新闻[Rentosertib在Phase 2a试验中展现抗衰老潜力](https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates/) + Insilico的AI药物发现平台已证明可快速推进临床管线,且Nature Biotechnology发表的生物年龄数据将吸引更多关注和资金
+
+### 基于蝙蝠长寿基因的首个抗衰老候选药物被识别
+- **预测时间**: 2027年Q1-Q2
+- **预测概率**: 55%
+- **预测依据**: 今日新闻[蝙蝠DNA藏着长寿密码](https://www.sciencedaily.com/releases/2026/09/260911003852.htm) + 蝙蝠独特的免疫防御和受损细胞清除机制基因已被识别,通常从基础研究到靶点识别需要6-12个月
+
+### 肠道菌群调节成为脑衰老早期干预的临床试验热点
+- **预测时间**: 2026年Q4-2027年Q1
+- **预测概率**: 65%
+- **预测依据**: 今日新闻[UCLA发现肠道菌群与脑衰老速度的关联](https://medicalxpress.com/news/2026-09-brain-aging-decades-symptoms-links.html) + 肠脑轴研究已成熟,多家公司已在开发针对性益生菌/益生元产品,临床试验启动周期较短
+
+### 外周免疫调节成为阿尔茨海默病新药开发方向
+- **预测时间**: 2027年Q2
+- **预测概率**: 60%
+- **预测依据**: 今日新闻[树突状细胞抗原呈递机制研究](https://www.fightaging.org/archives/2026/09/dendritic-cell-antigen-presentation-enables-t-cells-to-enter-the-brain-and-contribute-to-tau-pathology/) + 靶向外周免疫系统治疗中枢神经系统疾病是新兴方向,且比直接靶向大脑更易开发药物
+
+### 器官芯片技术在个性化医疗中的应用加速
+- **预测时间**: 2026年Q4-2027年Q1
+- **预测概率**: 75%
+- **预测依据**: 今日新闻[骨髓芯片突破](https://www.genengnews.com/topics/translational-medicine/bone-marrow-on-a-chip-model-offers-new-window-into-immune-cell-development-and-behavior/) + 器官芯片可用患者自身细胞研究疾病机制和药物反应,FDA已开始接受器官芯片数据用于新药申报,临床转化路径已打通
