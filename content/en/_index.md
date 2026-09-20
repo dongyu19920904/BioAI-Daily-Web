@@ -11,11 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-首例 CRISPR 镰状细胞疗法患者无痛 5 年,但 220 万美元+数月住院让全球患者可望不可及。
-
-Stanford 证实人脑是两个独立器官拼的,这让脑干疾病药物研发迎来突破。
-
-帕金森冷漠症终于有药可试了——非致幻迷幻药 AB-300 让动机行为提升 89%。
+中国团队把新生胸腺塞进老年小鼠脾脏,两周长成完整结构,T细胞功能恢复到接近年轻水平。
+斯坦福发现人脑其实是5.5亿年前两个独立系统拼的,培养出人脑干运动神经元,SMA和ALS研究有新路径。
+今天免疫衰老和神经退行性疾病都有进展,前者可能更快落地临床。
 ```
 
 
@@ -31,83 +29,97 @@ Stanford 证实人脑是两个独立器官拼的,这让脑干疾病药物研发�
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-镰状细胞病终于迎来CRISPR时代，但百年痛点背后的歧视和医疗不公仍在继续。
+胸腺移植进脾脏重启免疫系统,逆转衰老?小鼠实验刚验证完。
 
 ### **🔑 3 个关键词**
-#CRISPR基因治疗 #镰状细胞病 #帕金森症
+#免疫衰老 #神经退行性疾病 #生物标志物
+
+## **📎 今日可引用要点**
+
+**脾脏胸腺移植在小鼠中逆转年龄相关免疫衰退**
+- **事实结论**:中国科学家将新生小鼠胸腺组织移植到脾脏中,在20月龄老年小鼠体内成功恢复T细胞功能,并增强对病毒和肿瘤的免疫应答。
+- **原始来源**:[Thymus Grafts Grow in Mouse Spleens, Restoring Immunity](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/)
+- **证据边界**:该研究基于小鼠模型,胸腺移植在脾脏中的生长速度和组织化程度优于肌肉移植,但恢复的T细胞总数仍低于正常水平。人体应用的安全性和有效性尚未验证。
+
+**唾液皮质醇模式可预测老年认知衰退**
+- **事实结论**:研究发现,唾液中皮质醇水平持续升高且日间变化不规律,与老年人认知功能下降相关;黑人群体的皮质醇基线水平和日间变化均低于白人。
+- **原始来源**:[Salivary cortisol patterns predict cognitive decline in older adults](https://www.news-medical.net/news/20260918/Salivary-cortisol-patterns-predict-cognitive-decline-in-older-adults.aspx)
+- **证据边界**:这是观察性研究,证实了关联性但未建立因果关系。研究未详细说明样本量、随访时长及种族差异的潜在机制。
+
+**人类大脑实为两个独立演化的器官**
+- **事实结论**:斯坦福医学院团队发现,人脑前部(前脑/中脑)和后部(后脑/脑干)起源于两种不同的祖细胞,分别表达Otx2和Gbx2基因,这两个系统在5.5-6亿年前独立演化后才在空间上融合。
+- **原始来源**:[Two-Organ View of the Human Brain Emerges](https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/)
+- **证据边界**:研究基于小鼠胚胎和跨物种比较(斑马鱼、鸡、蠕虫),成功在实验室培养出人脑干运动神经元。但该发现对治疗SMA和ALS等疾病的实际影响尚需临床验证。
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [镰状细胞病的百年征途：从1910到CRISPR时代](https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/)
-1910年首次被记录，2023年终于迎来两款基因疗法获批——镰状细胞病(SCD)的故事浓缩了一个世纪的医学进步与社会不公。新书《Curved Air》记录了首位接受CRISPR疗法的患者Victoria Gray的旅程。她2019年接受治疗后不再经历疼痛危象，如今成为患者倡导者。但书中也揭示了更黑暗的一面：大量有色人种患者在就医时遭遇歧视，30多岁的德州患者Brittany在疼痛危象中被保安赶出医院，几年后死于肺炎。Casgevy和Lyfgenia虽然昂贵(200-300万美元)，但多数保险已覆盖——真正的障碍不是钱，而是长达数月的住院和残酷的化疗前处理。下一代体内基因疗法，或者能模拟CRISPR效果的小分子药物，才是全球数百万患者的希望。
+### 1. [胸腺移植进脾脏,小鼠免疫系统"返老还童"](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/)
+以前胸腺退化了,免疫力就只能认栽。现在中国科学家把新生小鼠的胸腺组织塞进脾脏里,结果长得比移植到肌肉里还快,两周就形成了完整的皮质和髓质结构。更关键的是,20个月大的老年小鼠接受移植后,T细胞数量显著恢复,对病毒和肿瘤的免疫应答几乎跟年轻小鼠一样强。为什么脾脏这么神?血供丰富、免疫耐受性强、还有现成的生长信号。不过别急着兴奋,恢复的T细胞总数还是低于正常水平,而且这只是小鼠实验。但至少给脊髓性肌萎缩症(SMA)和渐冻症(ALS)患者带来了一丝希望。
 
-![Curved Air book cover](https://www.genengnews.com/wp-content/uploads/2026/09/Curved-Air-cover-201x300.jpg)
+![图片](https://lifespan.io/wp-content/uploads/2026/09/Thymus-in-a-spleen-262x187.jpg)
 
-### 2. [非致幻5-羟色胺激动剂：帕金森冷漠症的新希望](https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/)
-约40%的帕金森患者会逐渐失去做事的动力——这不是抑郁，而是冷漠症(apathy)，目前没有任何获批疗法。Palomar Labs孵化的Ariadne Bio正在开发AB-300，一种不会致幻的5-羟色胺2A受体激动剂。这个分子有点特别：它基于1970年代测试过的化合物，当时就发现它不像LSD那样致幻，但能激活相同的受体。今年Nature的研究揭示了原因——它选择性激活非致幻通路。在动物模型中,AB-300让多巴胺耗竭状态下的动机行为提升89%,且不作用于多巴胺受体,避免了传统兴奋剂对老年人的副作用。公司计划Q3/Q4在奥地利和以色列启动Ib期临床试验，测试健康志愿者和正在接受标准治疗的帕金森患者。如果成功，这将是首个针对任何适应症的冷漠症疗法。
+### 2. [人脑其实是两个器官?斯坦福医学院颠覆传统认知](https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/)
+我们一直以为大脑是个统一的器官,但斯坦福的科学家发现,人脑前部(前脑/中脑)和后部(脑干)其实是两个独立演化的系统,分别来自表达Otx2和Gbx2的不同祖细胞。更离谱的是,这种分离模式在鸡、斑马鱼甚至橡子蠕虫身上都存在,意味着5.5-6亿年前这两个系统就各干各的了,后来才被"打包"在一起。这个发现不仅解释了为什么科学家几十年来都培养不出脑干神经元,还为研究SMA和ALS等致命疾病开辟了新路径。团队已经成功在实验室里培养出人脑干运动神经元,下一步就是搞清楚这些神经元在疾病中到底出了什么问题。
 
-![Shlomi Raz, Founder & CEO, Ariadne Bio](https://www.genengnews.com/wp-content/uploads/2026/09/ShlomiRaz_AriadneBio_Portrait_White-248x300.jpg)
+### 3. [唾液里的皮质醇,提前预警老年痴呆](https://www.news-medical.net/news/20260918/Salivary-cortisol-patterns-predict-cognitive-decline-in-older-adults.aspx)
+压力荷尔蒙皮质醇不仅让你焦虑,还可能预示着认知衰退。研究发现,唾液中皮质醇水平持续偏高、且一天中变化不规律的老年人,更容易出现认知下降。有意思的是,黑人群体的皮质醇基线水平和日间波动都比白人低,这可能与遗传或环境因素有关。以前检测认知风险得做脑扫描或抽血,现在吐点口水就能初步评估,简直不要太方便。不过这只是关联性研究,具体机制还得继续挖。
 
-### 3. [人脑其实是两个独立器官拼在一起的](https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/)
-你以为大脑是一个器官？Stanford Medicine的新研究说：不，是两个。前脑和后脑(脑干)在胚胎发育时来自完全不同的祖细胞——一个表达Otx2基因,一个表达Gbx2,它们从未重叠,染色质结构也完全不同。这解释了为什么科学家几十年来一直无法在实验室培养脑干神经元——他们试图把前脑祖细胞变成它根本不可能成为的东西。更神奇的是，这种"双脑"模式在鸡、斑马鱼、甚至5.5亿年前分化的橡果蠕虫身上都存在。进化把两个独立的神经系统推到一起,假装成一个器官。现在研究人员终于成功从人类多能干细胞培养出功能性脑干运动神经元,这为研究脊髓性肌萎缩症(SMA)和ALS等脑干疾病打开了新可能。顺便一提，脑干控制饥饿回路——这正是司美格鲁肽等减肥药的作用靶点。
+![图片](https://www.news-medical.net/image-handler/picture/2014/7/Hormone-620x480.jpg)
 
-### 4. [2026年耳鼻喉科年会：5000名专家齐聚洛杉矶](https://www.news-medical.net/news/20260918/Otolaryngologists-gather-to-present-latest-advances-in-ear-nose-and-throat-care.aspx)
-美国耳鼻喉头颈外科学会(AAO-HNS)2026年会将于10月17-20日在洛杉矶举行,超过5000名全球顶尖耳鼻喉科医生将展示最新治疗方法和研究进展。虽然新闻稿未透露具体议题,但作为该领域最大规模会议,往年会议涵盖从基因治疗到手术创新的广泛主题。
+### 4. [帕金森患者的冷漠症有救了?非致幻血清素激动剂进入临床](https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/)
+帕金森患者最痛苦的不是手抖,而是失去生活动力的"冷漠症"。大约40%的患者会出现这种症状,而目前没有任何获批药物。Palomar Labs新成立的Ariadne Bio公司正在开发AB-300,一种非致幻的血清素2A受体激动剂,通过激活"非致幻通路"来恢复患者的动机和目标导向行为。临床前数据显示,在多巴胺耗竭的小鼠模型中,AB-300让动机行为提升了89%,而且不像抗抑郁药那样会加重冷漠。Q3-Q4即将启动的Phase Ib临床试验会先在健康志愿者和帕金森患者中测试安全性和有效性。如果成功,这可能是首个专门针对冷漠症的疗法。
 
-![Gene Therapy](https://www.news-medical.net/image-handler/picture/2014/7/Gene_Therapy-620x480.jpg)
+### 5. [镰状细胞病终于有救了,CRISPR疗法Casgevy的前世今生](https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/)
+镰状细胞病(SCD)是人类发现的第一个分子病,1910年就被记录在案,但直到2023年12月,Casgevy和Lyfgenia的获批才让患者看到希望。Kevin Davies的新书《Curved Air》详细讲述了这段百年征程,包括首位接受CRISPR治疗的患者Victoria Gray的故事。Casgevy不是直接修复SCD突变,而是通过提升胎儿血红蛋白(HbF)来"绕过"缺陷。但这是体外疗法,患者需要住院数月、承受化疗的痛苦,费用高达220万美元。书中还揭露了医疗系统对SCD患者(几乎都是有色人种)的歧视,以及Brittany Hightower这样的悲剧——她在疼痛危机中被医院赶出去,最终死于肺炎。未来的希望在于体内基因疗法,甚至小分子药物。
 
-### 5. [空气污染增加青光眼和白内障风险](https://medicalxpress.com/news/2026-09-people-exposed-polluted-air-higher.html)
-在欧洲白内障与屈光手术学会(ESCRS)第44届大会上发布的大型研究显示,生活在空气污染更严重地区的人更容易患青光眼和白内障。这项研究为环境因素对眼健康的影响提供了新证据,虽然具体机制尚不清楚,但慢性炎症可能是关键因素。考虑到全球空气质量问题,这一发现对公共卫生政策有重要启示。
+![图片](https://www.genengnews.com/wp-content/uploads/2026/09/Curved-Air-cover-201x300.jpg)
 
-### 6. [细胞毒性CD4+ T细胞支持年龄相关骨髓生成](https://www.nature.com/articles/s43587-026-01241-9)
-Nature Aging发表的新研究揭示了衰老过程中免疫系统的变化机制。细胞毒性CD4+ T细胞在年龄相关的骨髓生成中扮演重要角色,这可能解释了为什么老年人更容易出现炎症和免疫失调。虽然这是基础研究,但为理解衰老相关疾病(如炎症性疾病和血液系统疾病)提供了新视角,未来可能带来针对衰老免疫系统的干预策略。
+### 6. [限时进食能改善亨廷顿病标志物?首个临床研究结果出炉](https://www.genengnews.com/topics/translational-medicine/time-restricted-eating-linked-to-improved-huntingtons-disease-markers/)
+亨廷顿病是一种罕见的遗传性神经退行性疾病,目前没有任何疗法能延缓其进展。OHSU的研究团队首次在20名早期患者中测试了限时进食(每天只在6-8小时窗口内吃东西),结果出乎意料:患者不仅能坚持下来,体重和肌肉量都没掉,疾病严重程度评分还改善了0.5分(通常每年下降1分)。更惊人的是,神经损伤的生物标志物——神经丝轻链蛋白(neurofilament light)下降了13%,而正常情况下这个指标应该随病情进展而升高。研究者推测,禁食可能像一种"温和的压力",促使细胞提高能量生产效率,从而增强对疾病的抵抗力。当然,这只是20人的小型试验,还需要更大规模的随机对照研究来确认。
+
+### 7. [空气污染让你更容易得青光眼和白内障](https://medicalxpress.com/news/2026-09-people-exposed-polluted-air-higher.html)
+欧洲白内障与屈光手术学会(ESCRS)大会上公布的大型研究显示,生活在空气污染严重地区的人,患青光眼和白内障的风险显著更高。这项研究规模庞大,追踪了长期暴露在高污染环境中的人群。虽然研究没有详细说明污染物的具体类型(PM2.5?臭氧?),但结果足够让人警惕:眼睛健康也是环境质量的"晴雨表"。
+
+### 8. [肌酸不只是健身补剂,还能在减重时保护肌肉](https://medicalxpress.com/news/2026-09-creatine-benefits-gym.html)
+德州农工大学的新研究发现,肌酸的潜在好处可能比我们想象的更广。它不仅能增强肌肉力量和运动表现,还能在减重过程中帮助保留肌肉量,尤其对老年人维持肌肉健康很有意义。随着年龄增长,肌肉流失加速,肌酸补充可能成为对抗衰老的一个简单手段。不过研究还没给出具体的剂量建议,也不清楚对所有人群是否都有效。
+
+### 9. [老年人多运动,预防二型糖尿病效果更明显](https://medicalxpress.com/news/2026-09-higher-physical-diabetes-cases-older.html)
+欧洲糖尿病研究协会(EASD)年会上公布的研究表明,中高强度体力活动(MVPA)与二型糖尿病(T2D)风险显著降低相关,尤其是在年轻成年人中。虽然运动对老年人也有益,但年轻时养成运动习惯显然更重要。这项研究再次证明,预防糖尿病最有效的方法不是吃药,而是动起来。
+
+### 10. [严重视力丧失患者的"幻觉"其实是无害的副作用](https://medicalxpress.com/news/2026-09-common-eye-disease-hallucinations-people.html)
+很多严重视力丧失的患者会看到并不存在的人、花朵或图案,这让他们非常害怕。但专家指出,这种现象被称为"查尔斯·邦内综合症"(Charles Bonnet Syndrome),是视觉系统在失去输入信号后的自发反应,本身并无害。关键是要让患者知道这是常见的副作用,而不是精神疾病,这样他们就不会那么恐慌了。
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [镰状细胞病首例记录或在1800年代美国](https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/) - 23andMe研究人员在马里兰州Catoctin铁厂遗址发现的1800年代早期非裔美国人遗骸中,有3名儿童携带镰状细胞突变
+**[产品]** [Asahi Kasei推出VANTIJ® SU-VFC台式病毒过滤系统](https://www.genengnews.com/topics/bioprocessing/asahi-kasei-introduces-vantij-su-vfc-benchtop-virus-filtration-system/) - 专为基因治疗实验室设计,自动化单次使用,操作简单到不需要工具。
 
-**[研究]** [巴黎首例基因治疗治愈镰状细胞病患者](https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/) - 法国青年Leeroy Tegar在十多年前接受基因治疗后被治愈,比Victoria Gray更早,但直到现在才公开身份
+**[产品]** [GBI Biomanufacturing推出SmartScale™ GMP解决方案](https://www.genengnews.com/topics/bioprocessing/gbi-biomanufacturing-set-to-launch-smartscale-gmp-solutions/) - 8个月就能拿到首次人体试验所需的GMP材料,早期生物制剂开发者的福音。
 
-**[研究]** [非致幻迷幻药机制揭秘](https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/) - Nature今年1月发表论文解释AB-300为何不致幻：选择性激活5-羟色胺2A受体的非致幻通路，保留治疗效果
+**[研究]** [衰老研究:细胞毒性CD4+ T细胞支持年龄相关髓系造血](https://www.nature.com/articles/s43587-026-01241-9) - Nature Aging新论文揭示免疫衰老的新机制。
 
----
+**[研究]** [治疗Tau蛋白病的药物开发现状](https://www.fightaging.org/archives/2026/09/the-state-of-development-for-therapies-to-treat-tauopathies/) - Tau蛋白聚集是阿尔茨海默病和额颞叶痴呆的核心病理,但药物开发进展缓慢。
 
-## **📎 今日可引用要点**
-
-### Stanford研究首次证实人脑由两个独立发育的器官组成
-- **事实结论**：人类大脑的前脑/中脑和后脑(脑干)源自胚胎发育早期两个完全不同的祖细胞群，分别表达Otx2和Gbx2基因，这一双脑模式在5.5亿年前就已存在。
-- **原始来源**：[Two-Organ View of the Human Brain Emerges](https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/) (Nature Neuroscience, 2026年9月)
-- **证据边界**：该结论基于小鼠胚胎、人类多能干细胞体外实验，以及鸡、斑马鱼、橡果蠕虫等物种的比较发育生物学研究。研究团队首次成功在实验室培养出功能性人类脑干运动神经元，但该技术用于治疗SMA、ALS等疾病的临床效果尚未验证。
-
-### CRISPR镰状细胞病疗法Casgevy疗效显著但治疗流程复杂
-- **事实结论**：2023年获批的Casgevy基因疗法通过提升胎儿血红蛋白水平治疗镰状细胞病，首批患者几乎全部不再经历疼痛危象、住院或输血需求，但需要数月住院和残酷化疗前处理。
-- **原始来源**：[The Saga of Sickle Cell Disease](https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/) (Harvard University Press新书《Curved Air》及GEN报道)
-- **证据边界**：疗效数据基于早期临床试验患者的随访结果。疗法费用为220万美元，多数美国私人保险和州医保已覆盖。目前为体外基因疗法(需取出细胞编辑后回输)，对已有严重血管损伤的患者效果有限。该疗法对非洲、印度等地数百万患者的可及性仍是挑战。
-
-### 非致幻5-羟色胺2A激动剂AB-300在帕金森冷漠症动物模型中显示疗效
-- **事实结论**：Ariadne Bio的AB-300在四苯嗪诱导的动机缺陷小鼠模型中，使动机行为提升89%(相对于仅用四苯嗪组)，且不作用于多巴胺受体或多巴胺转运体。
-- **原始来源**：[Palomar Labs Spins Out Ariadne Bio](https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/) (2026年5月美国临床精神药理学会ASCP会议报告)
-- **证据边界**：该结果来自动物模型(小鼠)，四苯嗪通过耗竭多巴胺模拟帕金森病的冷漠症状。AB-300尚未在人类患者中测试疗效。公司计划2026年Q3/Q4在奥地利和以色列启动Ib期临床试验，测试健康志愿者和帕金森患者。目前无任何适应症的冷漠症获批疗法。
+**[会议]** [耳鼻喉科医生齐聚洛杉矶,展示最新治疗进展](https://www.news-medical.net/news/20260918/Otolaryngologists-gather-to-present-latest-advances-in-ear-nose-and-throat-care.aspx) - 美国耳鼻喉-头颈外科学会年会将于10月17-20日举行,超5000名专家参会。
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### CRISPR体内基因疗法临床试验加速
-- **预测时间**：2026年Q4
-- **预测概率**：70%
-- **预测依据**：今日新闻[镰状细胞病CRISPR疗法](https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/)显示体外疗法虽有效但流程复杂，多家公司(包括Beam Therapeutics等)已在开发更简便的体内编辑方案。根据行业管线进展，预计年底前将有2-3项体内CRISPR疗法进入早期临床试验。
+### Tau蛋白靶向疗法临床试验加速
+- **预测时间**:2026年Q4-2027年Q1
+- **预测概率**:70%
+- **预测依据**:今日新闻[治疗Tau蛋白病的药物开发现状](https://www.fightaging.org/archives/2026/09/the-state-of-development-for-therapies-to-treat-tauopathies/) + 阿尔茨海默病抗淀粉样蛋白疗法效果有限,业界正在转向Tau蛋白靶点,多家药企已有候选药物进入临床前阶段。
 
-### 帕金森非运动症状疗法获得监管突破
-- **预测时间**：2027年Q1
-- **预测概率**：55%
-- **预测依据**：今日新闻[Ariadne Bio的AB-300](https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/)将在Q3/Q4启动Ib期试验，且Michael J. Fox基金会参与资助。考虑到冷漠症是重大未满足需求(40%帕金森患者受影响，无获批疗法)，FDA可能给予快速通道资格或突破性疗法认定。
+### 脾脏胸腺移植技术进入人体试验
+- **预测时间**:2027年Q2
+- **预测概率**:55%
+- **预测依据**:今日新闻[胸腺移植进脾脏,小鼠免疫系统"返老还童"](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/) + 胸腺退化是免疫衰老的核心问题,如果技术能成功转化,将对衰老干预领域产生重大影响。
 
-### 脑干疾病药物研发迎来新浪潮
-- **预测时间**：2027年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[Stanford大脑双器官发现](https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/)首次实现实验室培养功能性人类脑干神经元。这一技术突破将使SMA、ALS等脑干疾病的药物筛选和机制研究成为可能。预计未来6-9个月内将有多个基于该技术的药物发现项目启动。
+### 帕金森冷漠症首个获批疗法诞生
+- **预测时间**:2027年Q3-Q4
+- **预测概率**:60%
+- **预测依据**:今日新闻[帕金森患者的冷漠症有救了?非致幻血清素激动剂进入临床](https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/) + AB-300即将进入Phase Ib临床试验,临床前数据强劲,且目前市场上没有竞争疗法,FDA可能会加速审批。
