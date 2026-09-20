@@ -9,6 +9,7 @@ const read = relativePath => fs.readFileSync(path.join(root, relativePath), "utf
 test("report pages expose the evidence-to-action navigation chain", () => {
   const single = read("layouts/docs/single.html");
   const chain = read("layouts/_partials/custom/report-action-chain.html");
+  const head = read("layouts/_partials/custom/head-end.html");
 
   assert.match(single, /custom\/report-action-chain\.html/);
   assert.match(chain, /雷达信号 → 证据解释 → 商机验证 → 项目试跑/);
@@ -33,6 +34,7 @@ test("report pages expose the evidence-to-action navigation chain", () => {
   assert.match(history, /RegularPages\.ByDate\.Reverse/);
   assert.match(history, /utils\/report-date-key\.html/);
   assert.match(history, /eq \.Language\.Lang \$lang/);
+  assert.doesNotMatch(head, /The specified UL.*was not found/);
 
   const dateKey = read("layouts/_partials/utils/report-date-key.html");
   assert.match(dateKey, /ContentBaseName/);
