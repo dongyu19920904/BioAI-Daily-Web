@@ -1,0 +1,130 @@
+{{- $page := . -}}
+{{- $path := $page.RelPermalink -}}
+{{- $isEnglish := eq $page.Language.Lang "en" -}}
+{{- $kind := "daily" -}}
+{{- if gt (len (findRE `^/(?:[a-z]{2}/)?opportunity/` $path)) 0 -}}
+  {{- $kind = "opportunity" -}}
+{{- else if gt (len (findRE `^/(?:[a-z]{2}/)?project-opportunity/` $path)) 0 -}}
+  {{- $kind = "project" -}}
+{{- end -}}
+
+{{- $links := slice -}}
+{{- if eq $kind "daily" -}}
+  {{- $links = slice
+    (dict "label" "查看原始雷达信号" "description" "核对来源、主题和证据阶段" "url" "https://radar.aibioo.cn/" "external" true)
+    (dict "label" "转到今日商机" "description" "判断目标人群与最低成本验证" "url" ("/opportunity/" | relLangURL))
+    (dict "label" "查看可试跑项目" "description" "核对代码、数据、许可证与维护成本" "url" ("/project-opportunity/" | relLangURL))
+    (dict "label" "回看时间线" "description" "追踪有明确日期和来源的重要进展" "url" ("/timeline/" | relLangURL))
+  -}}
+{{- else if eq $kind "opportunity" -}}
+  {{- $links = slice
+    (dict "label" "回到今日证据" "description" "先核对发生了什么和不能得出什么结论" "url" ("/" | relLangURL))
+    (dict "label" "寻找可试跑项目" "description" "把验证动作落到代码、数据或工具" "url" ("/project-opportunity/" | relLangURL))
+    (dict "label" "核对雷达信号" "description" "查看公开来源和研究阶段" "url" "https://radar.aibioo.cn/" "external" true)
+    (dict "label" "回看时间线" "description" "判断信号是否正在持续形成" "url" ("/timeline/" | relLangURL))
+  -}}
+{{- else -}}
+  {{- $links = slice
+    (dict "label" "回到今日证据" "description" "核对项目所依赖的研究与新闻背景" "url" ("/" | relLangURL))
+    (dict "label" "评估商业验证" "description" "确认目标人群、成功指标和停止条件" "url" ("/opportunity/" | relLangURL))
+    (dict "label" "核对雷达信号" "description" "查看公开来源和证据阶段" "url" "https://radar.aibioo.cn/" "external" true)
+    (dict "label" "回看时间线" "description" "观察项目方向是否持续获得新证据" "url" ("/timeline/" | relLangURL))
+  -}}
+{{- end -}}
+
+{{- if $isEnglish -}}
+  {{- if eq $kind "daily" -}}
+    {{- $links = slice
+      (dict "label" "Open the source radar" "description" "Check the source, topic, and evidence stage" "url" "https://radar.aibioo.cn/" "external" true)
+      (dict "label" "Review today's opportunities" "description" "Assess the audience and smallest useful validation" "url" ("/opportunity/" | relLangURL))
+      (dict "label" "Explore runnable projects" "description" "Check code, data, licenses, and maintenance cost" "url" ("/project-opportunity/" | relLangURL))
+      (dict "label" "Browse the timeline" "description" "Follow dated developments with public sources" "url" ("/timeline/" | relLangURL))
+    -}}
+  {{- else if eq $kind "opportunity" -}}
+    {{- $links = slice
+      (dict "label" "Return to today's evidence" "description" "Verify what happened and what the evidence cannot establish" "url" ("/" | relLangURL))
+      (dict "label" "Find runnable projects" "description" "Turn a validation idea into a code, data, or tool check" "url" ("/project-opportunity/" | relLangURL))
+      (dict "label" "Check the source radar" "description" "Review public sources and evidence stages" "url" "https://radar.aibioo.cn/" "external" true)
+      (dict "label" "Browse the timeline" "description" "See whether the signal is strengthening over time" "url" ("/timeline/" | relLangURL))
+    -}}
+  {{- else -}}
+    {{- $links = slice
+      (dict "label" "Return to today's evidence" "description" "Review the research and reporting behind the project" "url" ("/" | relLangURL))
+      (dict "label" "Assess commercial validation" "description" "Check the audience, success metric, and stop condition" "url" ("/opportunity/" | relLangURL))
+      (dict "label" "Check the source radar" "description" "Review public sources and evidence stages" "url" "https://radar.aibioo.cn/" "external" true)
+      (dict "label" "Browse the timeline" "description" "See whether new evidence keeps supporting this direction" "url" ("/timeline/" | relLangURL))
+    -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $topic := partial "utils/report-topic.html" $page -}}
+{{- $pageDateKey := partial "utils/report-date-key.html" $page -}}
+{{- $historyPool := partialCached "custom/report-topic-history.html" (dict "site" site "kind" $kind "topic" $topic "lang" $page.Language.Lang) $kind $topic $page.Language.Lang -}}
+{{- $history := slice -}}
+{{- range $historyPool -}}
+  {{- $candidateDateKey := partial "utils/report-date-key.html" . -}}
+  {{- if and (ne .RelPermalink $page.RelPermalink) $candidateDateKey $pageDateKey (lt $candidateDateKey $pageDateKey) (lt (len $history) 3) -}}
+    {{- $history = $history | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $historyMode := "topic" -}}
+{{- if eq (len $history) 0 -}}
+  {{- $historyMode = "nearby" -}}
+  {{- with $page.Parent -}}
+    {{- range .RegularPages.ByDate.Reverse -}}
+      {{- $candidateDateKey := partial "utils/report-date-key.html" . -}}
+      {{- if and (ne .RelPermalink $page.RelPermalink) $candidateDateKey $pageDateKey (lt $candidateDateKey $pageDateKey) (lt (len $history) 2) -}}
+        {{- $history = $history | append . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $topicLabel := $topic -}}
+{{- if $isEnglish -}}
+  {{- $topicLabels := dict
+    "AI药物发现" "AI drug discovery"
+    "AI蛋白质与多组学" "AI protein science and multi-omics"
+    "生物年龄与衰老时钟" "Biological age and aging clocks"
+    "神经退行性疾病AI" "AI for neurodegenerative disease"
+    "长寿临床试验与监管" "Longevity trials and regulation"
+    "AI长寿开源项目与数据集" "Open-source longevity projects and datasets"
+    "AI生命延续学" "AI longevity"
+  -}}
+  {{- $topicLabel = index $topicLabels $topic | default "AI longevity" -}}
+{{- end -}}
+
+<nav class="hx:mt-10 hx:border-t hx:border-gray-200 hx:pt-6 hx:dark:border-neutral-800" aria-labelledby="report-action-chain-title">
+  <div class="hx:flex hx:flex-col hx:gap-1">
+    <h2 id="report-action-chain-title" class="hx:text-lg hx:font-semibold">{{ if $isEnglish }}Continue from evidence to action{{ else }}从证据继续行动{{ end }}</h2>
+    <p class="hx:text-sm hx:text-gray-600 hx:dark:text-neutral-400">{{ if $isEnglish }}Follow the chain: radar signal → evidence → opportunity validation → project trial.{{ else }}按“雷达信号 → 证据解释 → 商机验证 → 项目试跑”继续核查。{{ end }}</p>
+  </div>
+  <ul class="hx:mt-4 hx:grid hx:gap-3 hx:sm:grid-cols-2">
+    {{- range $links -}}
+      <li class="hx:border-l-2 hx:border-primary-300 hx:pl-3 hx:dark:border-primary-700">
+        <a class="hx:font-semibold hx:text-primary-700 hover:hx:text-primary-600 hx:dark:text-primary-400" href="{{ .url }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}</a>
+        <div class="hx:mt-1 hx:text-sm hx:leading-6 hx:text-gray-600 hx:dark:text-neutral-400">{{ .description }}</div>
+      </li>
+    {{- end -}}
+  </ul>
+  {{- if gt (len $history) 0 -}}
+    <div class="hx:mt-6">
+      <h3 class="hx:text-base hx:font-semibold">
+        {{- if eq $historyMode "topic" -}}
+          {{- if $isEnglish }}Related evidence: {{ $topicLabel }}{{ else }}{{ $topicLabel }}：相关历史证据{{ end -}}
+        {{- else -}}
+          {{- if $isEnglish }}Nearby editions{{ else }}相邻期次{{ end -}}
+        {{- end -}}
+      </h3>
+      <ul class="hx:mt-2 hx:flex hx:flex-col hx:gap-2">
+        {{- range $history -}}
+          {{- $historyDateKey := partial "utils/report-date-key.html" . -}}
+          <li class="hx:flex hx:flex-wrap hx:items-baseline hx:gap-x-2 hx:text-sm">
+            <time class="hx:text-gray-500" datetime="{{ $historyDateKey }}" data-fixed-date>{{ $historyDateKey }}</time>
+            <a class="hx:text-primary-700 hover:hx:text-primary-600 hx:dark:text-primary-400" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{- end -}}
+      </ul>
+    </div>
+  {{- end -}}
+</nav>

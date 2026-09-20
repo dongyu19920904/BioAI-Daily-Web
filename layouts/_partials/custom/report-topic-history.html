@@ -1,0 +1,24 @@
+{{- $site := .site -}}
+{{- $kind := .kind -}}
+{{- $topic := .topic -}}
+{{- $lang := .lang -}}
+{{- $history := slice -}}
+{{- range $site.RegularPages.ByDate.Reverse -}}
+  {{- if lt (len $history) 12 -}}
+    {{- $candidatePath := .RelPermalink -}}
+    {{- $sameKind := false -}}
+    {{- if eq $kind "opportunity" -}}
+      {{- $sameKind = gt (len (findRE `^/(?:[a-z]{2}/)?opportunity/\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` $candidatePath)) 0 -}}
+    {{- else if eq $kind "project" -}}
+      {{- $sameKind = gt (len (findRE `^/(?:[a-z]{2}/)?project-opportunity/\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` $candidatePath)) 0 -}}
+    {{- else -}}
+      {{- $sameKind = gt (len (findRE `^/(?:[a-z]{2}/)?\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` $candidatePath)) 0 -}}
+    {{- end -}}
+    {{- $candidateDateKey := partial "utils/report-date-key.html" . -}}
+    {{- $candidateTopic := partial "utils/report-topic.html" . -}}
+    {{- if and $sameKind (eq .Language.Lang $lang) $candidateDateKey (eq $candidateTopic $topic) -}}
+      {{- $history = $history | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $history -}}

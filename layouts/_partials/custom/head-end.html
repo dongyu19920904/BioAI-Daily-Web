@@ -1018,23 +1018,28 @@ html.dark .latest-section-surface__intro {
     {{- $schema = merge $schema (dict "inLanguage" .) -}}
   {{- end -}}
 
-  {{- $docDesc := .Description | default "" -}}
-  {{- $siteParamDesc := .Site.Params.description | default "" -}}
-  {{- $description := or $docDesc $siteParamDesc -}}
+  {{- $description := partial "utils/page-description.html" . -}}
   {{- with $description -}}
     {{- $schema = merge $schema (dict "description" . "abstract" .) -}}
   {{- end -}}
 
   {{- $image := "" -}}
+  {{- with .Params.images -}}
+    {{- with index . 0 -}}
+      {{- $image = dict "url" (. | absURL) -}}
+    {{- end -}}
+  {{- end -}}
   {{- if .Params.image.url -}}
     {{- $image = .Params.image -}}
-  {{- else if .Site.Params.image.url -}}
+  {{- else if and (not $image) .Site.Params.image.url -}}
     {{- $image = .Site.Params.image -}}
   {{- end -}}
   {{- with $image -}}
-    {{- if ge .width 696 -}}
+    {{- if and .width .height (ge .width 696) -}}
       {{- $imageData := dict "@type" "ImageObject" "url" ( .url | absURL ) "width" .width "height" .height -}}
       {{- $schema = merge $schema (dict "image" $imageData) -}}
+    {{- else if .url -}}
+      {{- $schema = merge $schema (dict "image" (.url | absURL)) -}}
     {{- end -}}
   {{- end -}}
 
@@ -1078,6 +1083,17 @@ html.dark .latest-section-surface__intro {
 
 <script type="application/ld+json">
 {{ $schema }}
+</script>
+
+  {{- $breadcrumbItems := slice -}}
+  {{- $position := 1 -}}
+  {{- range .Ancestors.Reverse -}}
+    {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) -}}
+    {{- $position = add $position 1 -}}
+  {{- end -}}
+  {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) -}}
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $breadcrumbItems }}
 </script>
 
 {{- end }}

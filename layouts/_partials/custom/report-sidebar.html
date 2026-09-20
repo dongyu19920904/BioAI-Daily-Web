@@ -1,0 +1,33 @@
+{{- $context := . -}}
+{{- $pageURL := $context.RelPermalink -}}
+{{- $links := slice
+  (dict "label" "生命延续日报" "url" ("/" | relLangURL))
+  (dict "label" "商机日报" "url" ("/opportunity/" | relLangURL))
+  (dict "label" "资讯商机项目" "url" ("/project-opportunity/" | relLangURL))
+  (dict "label" "AI 时间线" "url" ("/timeline/" | relLangURL))
+  (dict "label" "生命延续学雷达" "url" "https://radar.aibioo.cn/")
+  (dict "label" "方法与说明" "url" ("/about/" | relLangURL))
+-}}
+<aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:sticky hx:md:top-16 hx:md:w-56 hx:md:shrink-0 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)]">
+  <div class="hx:px-4 hx:pt-4 hx:md:hidden">
+    {{ partial "search.html" }}
+  </div>
+  <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <p class="hx:mb-2 hx:px-2 hx:text-xs hx:font-semibold hx:text-gray-500 hx:dark:text-neutral-400">AI 生命延续学</p>
+    <ul class="hx:flex hx:flex-col hx:gap-1">
+      {{- range $links -}}
+        {{- $external := strings.HasPrefix .url "http" -}}
+        {{- $active := eq $pageURL .url -}}
+        <li>
+          <a class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors {{ if $active }}hextra-sidebar-active-item hx:bg-primary-100 hx:font-semibold hx:text-primary-800 hx:dark:bg-primary-400/10 hx:dark:text-primary-600{{ else }}hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50{{ end }}"
+             href="{{ .url }}"{{ if $external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}</a>
+        </li>
+      {{- end -}}
+      {{- with $context.Parent -}}
+        <li class="hx:mt-2 hx:border-t hx:border-gray-200 hx:pt-2 hx:dark:border-neutral-800">
+          <a class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50" href="{{ .RelPermalink }}">本月归档：{{ .Title }}</a>
+        </li>
+      {{- end -}}
+    </ul>
+  </div>
+</aside>

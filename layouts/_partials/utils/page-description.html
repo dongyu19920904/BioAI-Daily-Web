@@ -1,0 +1,16 @@
+{{- $description := .Description | plainify | htmlUnescape | strings.TrimSpace -}}
+{{- $isReport := gt (len (findRE `^/(?:[a-z]{2}/)?(?:(?:opportunity|project-opportunity)/)?\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` .RelPermalink)) 0 -}}
+{{- $isGeneric := or
+  (hasPrefix $description "从 AI 生命延续学资讯里提炼")
+  (hasPrefix $description "从 AI 生命延续学开源项目和研究线索里筛选")
+  (hasPrefix $description "每日聚焦 AI + 长寿")
+-}}
+{{- if and $isReport $isGeneric .Summary -}}
+  {{- .Summary | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace | truncate 158 -}}
+{{- else if $description -}}
+  {{- $description -}}
+{{- else if .IsHome -}}
+  {{- with .Site.Params.description | plainify | htmlUnescape -}}{{ . }}{{- end -}}
+{{- else -}}
+  {{- .Summary | plainify | htmlUnescape | strings.TrimSpace | truncate 158 -}}
+{{- end -}}

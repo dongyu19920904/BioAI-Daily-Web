@@ -1,0 +1,16 @@
+{{- $text := printf "%s %s" .Title .Plain -}}
+{{- $topic := "AI生命延续学" -}}
+{{- if gt (len (findRE `(?i)药物发现|药物设计|药物筛选|drug discovery|drug design|molecule generation|分子设计` $text)) 0 -}}
+  {{- $topic = "AI药物发现" -}}
+{{- else if gt (len (findRE `(?i)蛋白质|蛋白组|多组学|转录组|基因组|protein|proteomic|multi.?omics|transcriptom|genomic` $text)) 0 -}}
+  {{- $topic = "AI蛋白质与多组学" -}}
+{{- else if gt (len (findRE `(?i)生物年龄|衰老时钟|脑龄|表观遗传时钟|biological age|aging clock|age prediction` $text)) 0 -}}
+  {{- $topic = "生物年龄与衰老时钟" -}}
+{{- else if gt (len (findRE `(?i)阿尔茨海默|痴呆|帕金森|神经退行|认知衰退|alzheimer|dementia|parkinson|neurodegener|cognitive decline` $text)) 0 -}}
+  {{- $topic = "神经退行性疾病AI" -}}
+{{- else if gt (len (findRE `(?i)临床试验|监管|获批|适应症|clinical trial|regulat|approval|phase [123]` $text)) 0 -}}
+  {{- $topic = "长寿临床试验与监管" -}}
+{{- else if gt (len (findRE `(?i)GitHub|开源|代码|数据集|仓库|open source|repository|dataset|README` $text)) 0 -}}
+  {{- $topic = "AI长寿开源项目与数据集" -}}
+{{- end -}}
+{{- return $topic -}}

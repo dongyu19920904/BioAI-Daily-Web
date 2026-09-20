@@ -1,7 +1,11 @@
 {{ define "main" }}
   {{- $isGeoReport := gt (len (findRE `^/(?:[a-z]{2}/)?(?:(?:opportunity|project-opportunity)/)?\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` .RelPermalink)) 0 -}}
   <div class='hx:mx-auto hx:flex hextra-max-page-width'>
-    {{ partial "sidebar.html" (dict "context" .) }}
+    {{ if $isGeoReport }}
+      {{ partial "custom/report-sidebar.html" . }}
+    {{ else }}
+      {{ partial "sidebar.html" (dict "context" .) }}
+    {{ end }}
     {{ partial "toc.html" . }}
     <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
@@ -11,8 +15,15 @@
           {{ if $isGeoReport }}
             {{ partial "custom/geo-citation-note.html" . }}
           {{ end }}
-          {{ .Content }}
+          {{- $pageContent := .Content -}}
+          {{- if $isGeoReport -}}
+            {{- $pageContent = replaceRE `(?s)^\s*<h1[^>]*>.*?</h1>\s*` "" $pageContent -}}
+          {{- end -}}
+          {{ $pageContent | safeHTML }}
         </div>
+        {{ if $isGeoReport }}
+          {{ partial "custom/report-action-chain.html" . }}
+        {{ end }}
         {{ if not $isGeoReport }}
           {{ partial "components/last-updated.html" . }}
         {{ end }}

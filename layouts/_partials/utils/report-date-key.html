@@ -1,0 +1,7 @@
+{{- $dateKey := "" -}}
+{{- if not .Date.IsZero -}}
+  {{- $dateKey = .Date.Format "2006-01-02" -}}
+{{- else if and .File (gt (len (findRE `^\d{4}-\d{2}-\d{2}$` .File.ContentBaseName)) 0) -}}
+  {{- $dateKey = .File.ContentBaseName -}}
+{{- end -}}
+{{- return $dateKey -}}
