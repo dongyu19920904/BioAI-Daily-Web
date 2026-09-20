@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/9/19
+title: AI生命延续学日报 2026/9/20
 breadcrumbs: false
-next: /2026-09/2026-09-18
+next: /2026-09/2026-09-20
 description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
 cascade:
   type: docs
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-中国团队把新生胸腺塞进老年小鼠脾脏,两周长成完整结构,T细胞功能恢复到接近年轻水平。
-斯坦福发现人脑其实是5.5亿年前两个独立系统拼的,培养出人脑干运动神经元,SMA和ALS研究有新路径。
-今天免疫衰老和神经退行性疾病都有进展,前者可能更快落地临床。
+AI制药公司Insilico的药物让患者血液蛋白质谱年轻三岁,不只是治肺病这么简单。
+科学家发现阻断一个免疫开关能让衰老细胞无处藏身,肝脏处理乳酸的能力下降可能才是老年人肌肉流失的真凶。
+生物年龄时钟开始从实验室走向临床,AI+抗衰老赛道要爆发了。
 ```
 
 
@@ -26,100 +26,102 @@ cascade:
 
 > 💡 **提示**：想体验文中提到的 GPT、Claude、Gemini、Codex、Cursor、Grok 等工具，但不想折腾海外支付、注册、额度和教程？来 [**爱窝啦 Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) 按场景选择官方号、镜像、Cursor 方案或中转入口，官网自助下单，卡密秒发。
 
-## **今日 AI 生命科学资讯**
+# 今日 AI 生命科学资讯
 
-### **👀 只有一句话**
-胸腺移植进脾脏重启免疫系统,逆转衰老?小鼠实验刚验证完。
+## 👀 只有一句话
+肺纤维化药物让血液蛋白质谱年轻了三岁,这可能不只是治病那么简单。
 
-### **🔑 3 个关键词**
-#免疫衰老 #神经退行性疾病 #生物标志物
-
-## **📎 今日可引用要点**
-
-**脾脏胸腺移植在小鼠中逆转年龄相关免疫衰退**
-- **事实结论**:中国科学家将新生小鼠胸腺组织移植到脾脏中,在20月龄老年小鼠体内成功恢复T细胞功能,并增强对病毒和肿瘤的免疫应答。
-- **原始来源**:[Thymus Grafts Grow in Mouse Spleens, Restoring Immunity](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/)
-- **证据边界**:该研究基于小鼠模型,胸腺移植在脾脏中的生长速度和组织化程度优于肌肉移植,但恢复的T细胞总数仍低于正常水平。人体应用的安全性和有效性尚未验证。
-
-**唾液皮质醇模式可预测老年认知衰退**
-- **事实结论**:研究发现,唾液中皮质醇水平持续升高且日间变化不规律,与老年人认知功能下降相关;黑人群体的皮质醇基线水平和日间变化均低于白人。
-- **原始来源**:[Salivary cortisol patterns predict cognitive decline in older adults](https://www.news-medical.net/news/20260918/Salivary-cortisol-patterns-predict-cognitive-decline-in-older-adults.aspx)
-- **证据边界**:这是观察性研究,证实了关联性但未建立因果关系。研究未详细说明样本量、随访时长及种族差异的潜在机制。
-
-**人类大脑实为两个独立演化的器官**
-- **事实结论**:斯坦福医学院团队发现,人脑前部(前脑/中脑)和后部(后脑/脑干)起源于两种不同的祖细胞,分别表达Otx2和Gbx2基因,这两个系统在5.5-6亿年前独立演化后才在空间上融合。
-- **原始来源**:[Two-Organ View of the Human Brain Emerges](https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/)
-- **证据边界**:研究基于小鼠胚胎和跨物种比较(斑马鱼、鸡、蠕虫),成功在实验室培养出人脑干运动神经元。但该发现对治疗SMA和ALS等疾病的实际影响尚需临床验证。
+## 🔑 3 个关键词
+#AI制药 #生物年龄 #蛋白质组学
 
 ---
 
-## **🔥 重磅 TOP 10**
+## 🔥 重磅 TOP 10
 
-### 1. [胸腺移植进脾脏,小鼠免疫系统"返老还童"](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/)
-以前胸腺退化了,免疫力就只能认栽。现在中国科学家把新生小鼠的胸腺组织塞进脾脏里,结果长得比移植到肌肉里还快,两周就形成了完整的皮质和髓质结构。更关键的是,20个月大的老年小鼠接受移植后,T细胞数量显著恢复,对病毒和肿瘤的免疫应答几乎跟年轻小鼠一样强。为什么脾脏这么神?血供丰富、免疫耐受性强、还有现成的生长信号。不过别急着兴奋,恢复的T细胞总数还是低于正常水平,而且这只是小鼠实验。但至少给脊髓性肌萎缩症(SMA)和渐冻症(ALS)患者带来了一丝希望。
+### 1. [AI设计的肺纤维化药物让生物年龄倒退三年](https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates/)
+以前大家觉得药只是治病,现在AI设计的药可能顺便让你年轻几岁。Insilico用AI平台开发的rentosertib,在临床试验中不仅改善了肺纤维化患者的肺功能,六种不同的蛋白质时钟还检测到患者血液蛋白质谱变年轻了——服用60毫克剂量的患者,四周后生物年龄平均降低约三岁。这不是说患者真的"返老还童",而是血液蛋白质组成更像年轻人了。有意思的是,这种变化跟肺功能改善并不完全同步,暗示药物可能确实在更广泛地影响衰老过程。当然,纤维化、代谢和衰老本来就交织在一起,要说清楚这药到底是专治肺病还是顺带抗衰老,还得继续研究。
 
-![图片](https://lifespan.io/wp-content/uploads/2026/09/Thymus-in-a-spleen-262x187.jpg)
+![图片](https://lifespan.io/wp-content/uploads/2026/09/Lung-inflammation-262x187.jpg)
 
-### 2. [人脑其实是两个器官?斯坦福医学院颠覆传统认知](https://www.genengnews.com/topics/translational-medicine/two-organ-view-of-the-human-brain-emerges/)
-我们一直以为大脑是个统一的器官,但斯坦福的科学家发现,人脑前部(前脑/中脑)和后部(脑干)其实是两个独立演化的系统,分别来自表达Otx2和Gbx2的不同祖细胞。更离谱的是,这种分离模式在鸡、斑马鱼甚至橡子蠕虫身上都存在,意味着5.5-6亿年前这两个系统就各干各的了,后来才被"打包"在一起。这个发现不仅解释了为什么科学家几十年来都培养不出脑干神经元,还为研究SMA和ALS等致命疾病开辟了新路径。团队已经成功在实验室里培养出人脑干运动神经元,下一步就是搞清楚这些神经元在疾病中到底出了什么问题。
+### 2. [Evipedia推出AI助手Grok Bot:你的长寿健康私人顾问](https://lifespan.io/your-personal-longevity-assistant-evipedia-grok-bot/)
+想知道某个补剂或疗法靠不靠谱?Forever Healthy基金会把SpaceX的Grok AI改造成了专门服务长寿社区的Evipedia Grok Bot。这个AI助手不是瞎聊天的,它的回答基于770多篇持续更新的证据综述,每个结论都标注高中低等级,有多少临床证据说多少话,没证据就直说"目前研究不足"。更绝的是,它会主动指出资金利益冲突——比如某研究是药厂赞助的,它会明说。跟市面上那些"可能有效""或许能改善"的模糊回答不一样,这个机器人会告诉你:"这个干预措施在人体试验中显示中等证据支持,但长期安全性数据缺失。"完全免费,而且对开发者友好,有API可以集成。
 
-### 3. [唾液里的皮质醇,提前预警老年痴呆](https://www.news-medical.net/news/20260918/Salivary-cortisol-patterns-predict-cognitive-decline-in-older-adults.aspx)
-压力荷尔蒙皮质醇不仅让你焦虑,还可能预示着认知衰退。研究发现,唾液中皮质醇水平持续偏高、且一天中变化不规律的老年人,更容易出现认知下降。有意思的是,黑人群体的皮质醇基线水平和日间波动都比白人低,这可能与遗传或环境因素有关。以前检测认知风险得做脑扫描或抽血,现在吐点口水就能初步评估,简直不要太方便。不过这只是关联性研究,具体机制还得继续挖。
+![图片](https://lifespan.io/wp-content/uploads/2026/09/Grok-Bot-262x187.png)
 
-![图片](https://www.news-medical.net/image-handler/picture/2014/7/Hormone-620x480.jpg)
+### 3. [中年才开始抑制生长激素,小鼠也能多活近10%](https://www.fightaging.org/archives/2026/09/midlife-growth-hormone-receptor-ablation-modestly-slows-aging-in-mice/)
+抑制生长激素代谢能让小鼠活得更久,这事儿研究了几十年了。以前的实验都是从出生就开始干预,现在有人试了试"中年危机"时再动手——12个月大的小鼠(相当于人类中年)才开始敲除生长激素受体基因。结果雄性小鼠寿命还是延长了,虽然幅度不如终生干预那么夸张,但也有将近10%。雌性小鼠效果差一些。有意思的是,这些小鼠虽然胰岛素敏感性更好、神经肌肉功能和骨骼微结构都保护得不错,但脂肪增多了。人类的Laron综合征患者(天生生长激素受体功能缺失)某些疾病发病率低,但寿命没明显延长,所以这条路对人类用处可能有限。
 
-### 4. [帕金森患者的冷漠症有救了?非致幻血清素激动剂进入临床](https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/)
-帕金森患者最痛苦的不是手抖,而是失去生活动力的"冷漠症"。大约40%的患者会出现这种症状,而目前没有任何获批药物。Palomar Labs新成立的Ariadne Bio公司正在开发AB-300,一种非致幻的血清素2A受体激动剂,通过激活"非致幻通路"来恢复患者的动机和目标导向行为。临床前数据显示,在多巴胺耗竭的小鼠模型中,AB-300让动机行为提升了89%,而且不像抗抑郁药那样会加重冷漠。Q3-Q4即将启动的Phase Ib临床试验会先在健康志愿者和帕金森患者中测试安全性和有效性。如果成功,这可能是首个专门针对冷漠症的疗法。
+### 4. [不死水螅的秘密:永不停歇的端粒酶表达](https://www.fightaging.org/archives/2026/09/telomerase-expression-in-the-immortal-hydra/)
+大部分动物都会老,但有几种水螅例外——它们在正常环境里不会衰老,死亡率也不随时间上升。研究人员这次盯上了水螅体内的端粒酶。端粒酶是个"续命酶",能给染色体末端的端粒续长度,让细胞不因复制而走向死亡。人类的体细胞基本不表达端粒酶(所以会老),只有干细胞、生殖细胞和癌细胞才大量表达。水螅不一样,它们几乎就是一团会走路的干细胞,身体任何部分都能再生。研究发现,水螅的端粒酶催化亚基(hyTERT)在高增殖区域持续表达,无论是出芽繁殖还是再生过程都保持稳定。水螅的"不死"可能就靠这招。当然,人类能不能学到什么还不好说,毕竟咱们的身体结构复杂多了。
 
-### 5. [镰状细胞病终于有救了,CRISPR疗法Casgevy的前世今生](https://www.genengnews.com/topics/genome-editing/the-saga-of-sickle-cell-disease/)
-镰状细胞病(SCD)是人类发现的第一个分子病,1910年就被记录在案,但直到2023年12月,Casgevy和Lyfgenia的获批才让患者看到希望。Kevin Davies的新书《Curved Air》详细讲述了这段百年征程,包括首位接受CRISPR治疗的患者Victoria Gray的故事。Casgevy不是直接修复SCD突变,而是通过提升胎儿血红蛋白(HbF)来"绕过"缺陷。但这是体外疗法,患者需要住院数月、承受化疗的痛苦,费用高达220万美元。书中还揭露了医疗系统对SCD患者(几乎都是有色人种)的歧视,以及Brittany Hightower这样的悲剧——她在疼痛危机中被医院赶出去,最终死于肺炎。未来的希望在于体内基因疗法,甚至小分子药物。
+### 5. [礼来GIP/GLP-1双激动剂在精神和成瘾障碍显示早期疗效](https://www.genengnews.com/topics/translational-medicine/lillys-gip-glp-1-candidate-brenipatide-shows-early-clinical-promise-in-substance-psych-disorders/)
+减肥神药tirzepatide让礼来赚翻了,现在他们拿出同样机制的brenipatide,瞄准的是精神疾病和成瘾障碍。这次不是减重,是"戒酒""抗抑郁"。I期试验显示,brenipatide半衰期长达9-12天,支持每周给药一次,而且胃肠道耐受性比现有GLP-1药物好。礼来直接跳过II期,启动了两项III期试验:一个是重度抑郁障碍(MDD),另一个是酒精使用障碍(AUD)。抑郁症全球有3.22亿患者,酗酒全球4亿人,这两个适应症市场巨大。更关键的是,现有AUD药物都假设患者目标是"完全戒酒",brenipatide则关注"改变饮酒模式"——对那些做不到完全戒断的人来说,这可能更现实。礼来还在测试它对双相障碍、精神分裂症、烟草和阿片类药物成瘾的效果。
 
-![图片](https://www.genengnews.com/wp-content/uploads/2026/09/Curved-Air-cover-201x300.jpg)
+### 6. [一个免疫开关可能驱动全身衰老](https://www.sciencedaily.com/releases/2026/09/260901010717.htm)
+衰老可能部分由免疫细胞"偷懒"引起——它们不再清理那些损坏的、制造炎症的细胞了。研究人员在小鼠身上阻断了一个叫PD-L2的受体,结果免疫清理功能恢复了,炎症减少,器官、肌肉和记忆都保持得出奇年轻。PD-L2本来是免疫检查点的一部分,用来防止免疫系统攻击正常细胞。但衰老细胞也用它当"保护伞",躲过免疫系统的追杀。一旦这个开关被关掉,衰老细胞就藏不住了。这项研究提示,靶向PD-L2可能是清除衰老细胞的新策略——比现有的衰老细胞清除疗法(senolytics)多了条路。不过,免疫检查点本身很重要,全身性抑制可能引发自身免疫问题,所以未来的挑战是如何精准靶向衰老细胞。
 
-### 6. [限时进食能改善亨廷顿病标志物?首个临床研究结果出炉](https://www.genengnews.com/topics/translational-medicine/time-restricted-eating-linked-to-improved-huntingtons-disease-markers/)
-亨廷顿病是一种罕见的遗传性神经退行性疾病,目前没有任何疗法能延缓其进展。OHSU的研究团队首次在20名早期患者中测试了限时进食(每天只在6-8小时窗口内吃东西),结果出乎意料:患者不仅能坚持下来,体重和肌肉量都没掉,疾病严重程度评分还改善了0.5分(通常每年下降1分)。更惊人的是,神经损伤的生物标志物——神经丝轻链蛋白(neurofilament light)下降了13%,而正常情况下这个指标应该随病情进展而升高。研究者推测,禁食可能像一种"温和的压力",促使细胞提高能量生产效率,从而增强对疾病的抵抗力。当然,这只是20人的小型试验,还需要更大规模的随机对照研究来确认。
+### 7. [肝脏和肌肉的乳酸代谢障碍可能是肌少症主因](https://www.fightaging.org/archives/2026/09/impaired-lactate-metabolism-in-liver-and-muscle-as-an-important-cause-of-sarcopenia/)
+肌少症(sarcopenia)——老年人肌肉量和力量的严重流失——原因一直说不清。有人说是肌肉干细胞不行了,有人说是炎症或激素变化。现在又有新说法:可能是乳酸代谢出了问题。研究发现,老年小鼠的肝脏处理乳酸的能力下降,导致乳酸在骨骼肌里堆积,造成细胞内酸化(乳酸酸中毒),进而破坏肌肉功能。更有意思的是,激活低氧诱导因子(HIF)或特异性激活肝脏中的HIF1α,能改善老年小鼠的乳酸耐受性,减少肌肉酸中毒,缓解肌少症。这个发现把肝脏拉进了肌少症的因果链——衰老不是单个器官的事,而是多器官协同失调。未来的治疗可能不只盯着肌肉,还得修复肝脏的代谢能力。
 
-### 7. [空气污染让你更容易得青光眼和白内障](https://medicalxpress.com/news/2026-09-people-exposed-polluted-air-higher.html)
-欧洲白内障与屈光手术学会(ESCRS)大会上公布的大型研究显示,生活在空气污染严重地区的人,患青光眼和白内障的风险显著更高。这项研究规模庞大,追踪了长期暴露在高污染环境中的人群。虽然研究没有详细说明污染物的具体类型(PM2.5?臭氧?),但结果足够让人警惕:眼睛健康也是环境质量的"晴雨表"。
+### 8. [端粒与寿命:热量限制减缓DNA损伤积累](https://www.fightaging.org/archives/2026/09/calorie-restriction-slows-the-accumulation-of-nuclear-dna-damage/)
+热量限制(CR)延长寿命这事儿动物实验做了几十年,但它到底是怎么起作用的?研究人员发现,CR能减缓小鼠多个组织中DNA突变的积累速度——包括替换突变(一个DNA字母换成另一个)和插入/删除突变(增加或缺失DNA字母)。有意思的是,肝脏细胞的突变减少最明显,而且CR对基因组中"不活跃区域"(没有基因或不用的基因)的保护效果最强。为什么?可能是因为活跃区域本来就经常修复DNA损伤,所以CR带来的额外好处不大。这项研究首次在全基因组范围内确认了CR对突变负担的影响。不过,CR同时还改善了细胞功能、代谢、炎症等一大堆东西,所以DNA损伤减少到底在延寿中占多大比重,还不好说。
 
-### 8. [肌酸不只是健身补剂,还能在减重时保护肌肉](https://medicalxpress.com/news/2026-09-creatine-benefits-gym.html)
-德州农工大学的新研究发现,肌酸的潜在好处可能比我们想象的更广。它不仅能增强肌肉力量和运动表现,还能在减重过程中帮助保留肌肉量,尤其对老年人维持肌肉健康很有意义。随着年龄增长,肌肉流失加速,肌酸补充可能成为对抗衰老的一个简单手段。不过研究还没给出具体的剂量建议,也不清楚对所有人群是否都有效。
+### 9. [动脉粥样硬化中血管平滑肌向巨噬细胞的转化](https://www.fightaging.org/archives/2026/09/the-transformation-of-vascular-smooth-muscle-into-macrophages-in-atherosclerotic-plaques/)
+动脉粥样硬化(atherosclerosis)是头号杀手,斑块破裂导致心梗或中风。斑块本质上是巨噬细胞的"坟场"——巨噬细胞被吸引到斑块,试图修复它,结果被毒性环境搞死,自己也变成斑块的一部分。更离谱的是,血管周围的平滑肌细胞(VSMC)也不安分,它们会转化成巨噬细胞样的细胞,进一步加速斑块生长——几乎像癌症一样自我增殖。研究人员用单细胞组学和谱系追踪技术揭示了VSMC的异质性和克隆扩增,发现它们从收缩状态转变为合成型、巨噬细胞样、泡沫细胞样和成纤维细胞样状态。靶向VSMC的可塑性,可能是治疗动脉粥样硬化的新方向——比如用表型特异性调控、免疫疗法、纳米药物或衰老细胞清除疗法(senotherapeutics)。
 
-### 9. [老年人多运动,预防二型糖尿病效果更明显](https://medicalxpress.com/news/2026-09-higher-physical-diabetes-cases-older.html)
-欧洲糖尿病研究协会(EASD)年会上公布的研究表明,中高强度体力活动(MVPA)与二型糖尿病(T2D)风险显著降低相关,尤其是在年轻成年人中。虽然运动对老年人也有益,但年轻时养成运动习惯显然更重要。这项研究再次证明,预防糖尿病最有效的方法不是吃药,而是动起来。
-
-### 10. [严重视力丧失患者的"幻觉"其实是无害的副作用](https://medicalxpress.com/news/2026-09-common-eye-disease-hallucinations-people.html)
-很多严重视力丧失的患者会看到并不存在的人、花朵或图案,这让他们非常害怕。但专家指出,这种现象被称为"查尔斯·邦内综合症"(Charles Bonnet Syndrome),是视觉系统在失去输入信号后的自发反应,本身并无害。关键是要让患者知道这是常见的副作用,而不是精神疾病,这样他们就不会那么恐慌了。
+### 10. [胶质细胞重编程成神经元,老年效率大幅下降](https://www.fightaging.org/archives/2026/09/reprogramming-glia-into-neurons-becomes-less-effective-with-advancing-age/)
+把大脑里的胶质细胞(glia)重编程成神经元,能补充因神经退行性疾病丢失的神经元——这是再生医学的一个热门方向。但大多数研究都在年轻小鼠身上做的,到了老年小鼠呢?效果大打折扣。研究人员用视网膜做实验(因为视网膜是中枢神经系统的一部分,但更容易研究),发现老年Müller胶质细胞的神经生成能力显著下降。单细胞转录组学显示,老年胶质细胞无法激活祖细胞程序,反而进入反应性和炎症状态。同时,老年视网膜对损伤的神经免疫反应也更剧烈。用地塞米松(dexamethasone)进行免疫调节,能部分恢复神经生成。这提示,衰老给胶质细胞重编程设置了"内在障碍"和"微环境障碍",未来的治疗可能需要同时处理炎症和胶质细胞自身的状态。
 
 ---
 
-## **📌 值得关注**
+## 📌 值得关注
 
-**[产品]** [Asahi Kasei推出VANTIJ® SU-VFC台式病毒过滤系统](https://www.genengnews.com/topics/bioprocessing/asahi-kasei-introduces-vantij-su-vfc-benchtop-virus-filtration-system/) - 专为基因治疗实验室设计,自动化单次使用,操作简单到不需要工具。
+**[产品]**
+- [多个GitHub项目聚焦大脑衰老与认知监测](https://github.com/NoWon1/AI-challenge-for-HEALTHY-Brain-Aging) - 从MRI形态学预测脑年龄、痴呆风险建模,到多发性硬化症的纵向认知监测平台,开源工具越来越丰富
 
-**[产品]** [GBI Biomanufacturing推出SmartScale™ GMP解决方案](https://www.genengnews.com/topics/bioprocessing/gbi-biomanufacturing-set-to-launch-smartscale-gmp-solutions/) - 8个月就能拿到首次人体试验所需的GMP材料,早期生物制剂开发者的福音。
+**[研究]**
+- [无症状持续感染可能加速衰老](https://www.fightaging.org/archives/2026/09/asymptomatic-persistent-infection-as-a-contribution-to-degenerative-aging/) - 巨细胞病毒等潜伏感染通过慢性免疫激活和炎症,可能在不知不觉中推动免疫衰老
+- [SOD1氧化在皮肤衰老中的作用](https://www.fightaging.org/archives/2026/09/oxidation-of-sod1-in-skin-aging/) - 抗氧化酶SOD1自己被氧化后反而有害,形成恶性循环
+- [P2RX7拮抗剂减少衰老肾脏中的巨噬细胞衰老](https://www.fightaging.org/archives/2026/09/p2rx7-antagonism-reduces-macrophage-senescence-in-the-aging-kidney/) - 阻断P2RX7受体能改善脓毒症和衰老小鼠的肾功能
 
-**[研究]** [衰老研究:细胞毒性CD4+ T细胞支持年龄相关髓系造血](https://www.nature.com/articles/s43587-026-01241-9) - Nature Aging新论文揭示免疫衰老的新机制。
-
-**[研究]** [治疗Tau蛋白病的药物开发现状](https://www.fightaging.org/archives/2026/09/the-state-of-development-for-therapies-to-treat-tauopathies/) - Tau蛋白聚集是阿尔茨海默病和额颞叶痴呆的核心病理,但药物开发进展缓慢。
-
-**[会议]** [耳鼻喉科医生齐聚洛杉矶,展示最新治疗进展](https://www.news-medical.net/news/20260918/Otolaryngologists-gather-to-present-latest-advances-in-ear-nose-and-throat-care.aspx) - 美国耳鼻喉-头颈外科学会年会将于10月17-20日举行,超5000名专家参会。
+**[其他]**
+- [从寿命、健康寿命到"运动寿命"(movement span)](https://www.fightaging.org/archives/2026/09/going-beyond-life-span-and-health-span-to-functional-spans-such-as-movement-span/) - 运动医学界提出新概念:不只看活多久、多健康,还要看能自如活动多久
+- [RUNX2抑制作为骨质疏松潜在疗法](https://www.fightaging.org/archives/2026/09/runx2-inhibition-as-a-potential-treatment-for-osteoporosis/) - 小分子RUNX2拮抗剂CADD522在小鼠卵巢切除模型中改善骨密度和代谢
 
 ---
 
-## **🔮 AI生命科学趋势预测**
+## 📎 今日可引用要点
 
-### Tau蛋白靶向疗法临床试验加速
-- **预测时间**:2026年Q4-2027年Q1
+### 1. AI设计药物rentosertib降低生物年龄指标
+- **事实结论**:Insilico开发的AI设计药物rentosertib在12周临床试验中,使特发性肺纤维化患者的6种蛋白质时钟检测到的预测生物年龄降低,其中60mg单次给药组在第4周平均降低约3岁。
+- **原始来源**:[Lung Fibrosis Drug Lowers Biological Age Estimates](https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates/)
+- **证据边界**:这是一项12周、71名参与者(其中42人纳入分析)的2a期随机对照试验。生物年龄降低基于血液蛋白质谱变化,而非实际寿命或全因死亡率数据。由于纤维化、代谢和衰老机制高度交织,目前尚不能确定该药是否具有纤维化治疗之外的广泛抗衰老作用。肺功能改善与生物年龄变化并不完全相关,提示可能存在更广泛的生物学效应,但需要更长期、更大规模的研究验证。
+
+### 2. 阻断PD-L2可恢复免疫系统清除衰老细胞的能力
+- **事实结论**:研究发现衰老细胞表达PD-L2蛋白以逃避免疫清除,在小鼠中敲除或阻断PD-L2可减少衰老细胞积累,改善胰岛素敏感性和握力。
+- **原始来源**:[One immune switch may help drive aging across the body](https://www.sciencedaily.com/releases/2026/09/260901010717.htm)
+- **证据边界**:这是小鼠模型研究,尚未在人体中验证。PD-L2是免疫检查点蛋白,全身性抑制可能引发自身免疫风险,类似于癌症免疫治疗中的检查点抑制剂副作用。研究未明确PD-L2阻断对正常组织功能的长期影响,也未确定最佳靶向策略(全身vs局部)。人类衰老细胞是否以相同方式利用PD-L2,以及该策略的治疗窗口,仍需临床研究确定。
+
+### 3. 肝脏乳酸代谢能力下降可能是肌少症的根本原因
+- **事实结论**:研究发现老年小鼠肝脏处理乳酸的能力下降,导致骨骼肌乳酸积累和细胞内酸化,药理或肝脏特异性激活低氧诱导因子(HIF1α)可改善乳酸耐受性并缓解肌少症。
+- **原始来源**:[Impaired Lactate Metabolism in Liver and Muscle as an Important Cause of Sarcopenia](https://www.fightaging.org/archives/2026/09/impaired-lactate-metabolism-in-liver-and-muscle-as-an-important-cause-of-sarcopenia/)
+- **证据边界**:这是小鼠模型研究,机制研究集中在肝脏-肌肉乳酸代谢轴。人类肌少症病因复杂,涉及肌肉干细胞功能、炎症、激素变化等多种因素,乳酸代谢障碍在其中的相对重要性尚不明确。HIF1α激活的全身效应(如对心血管系统、癌症风险的影响)未在研究中充分评估。需要人体研究确认肝脏乳酸处理能力与肌少症的因果关系,以及HIF激活的安全性和有效性。
+
+---
+
+## 🔮 AI生命科学趋势预测
+
+### AlphaFold/蛋白质设计工具进入临床应用爆发期
+- **预测时间**:2026年第四季度
 - **预测概率**:70%
-- **预测依据**:今日新闻[治疗Tau蛋白病的药物开发现状](https://www.fightaging.org/archives/2026/09/the-state-of-development-for-therapies-to-treat-tauopathies/) + 阿尔茨海默病抗淀粉样蛋白疗法效果有限,业界正在转向Tau蛋白靶点,多家药企已有候选药物进入临床前阶段。
+- **预测依据**:今日新闻[AI设计的肺纤维化药物rentosertib已完成2a期临床试验](https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates/),显示出AI制药从设计到临床的完整路径。加上Insilico、Recursion等AI制药公司管线持续推进,预计今年第四季度将有更多AI设计的候选药物进入或完成早期临床试验。
 
-### 脾脏胸腺移植技术进入人体试验
-- **预测时间**:2027年Q2
+### 衰老细胞清除疗法(Senolytics)与免疫检查点抑制剂结合
+- **预测时间**:2026年11-12月
 - **预测概率**:55%
-- **预测依据**:今日新闻[胸腺移植进脾脏,小鼠免疫系统"返老还童"](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/) + 胸腺退化是免疫衰老的核心问题,如果技术能成功转化,将对衰老干预领域产生重大影响。
+- **预测依据**:今日新闻[PD-L2阻断可清除衰老细胞](https://www.sciencedaily.com/releases/2026/09/260901010717.htm),提示免疫检查点与衰老细胞积累直接相关。考虑到癌症免疫治疗中PD-1/PD-L1抑制剂的成功经验,以及现有senolytic药物(如达沙替尼+槲皮素)的局限性,预计会有研究团队或公司宣布联合疗法的临床前或早期临床研究。
 
-### 帕金森冷漠症首个获批疗法诞生
-- **预测时间**:2027年Q3-Q4
+### 生物年龄时钟从研究工具走向临床诊断标准
+- **预测时间**:2027年第一季度
 - **预测概率**:60%
-- **预测依据**:今日新闻[帕金森患者的冷漠症有救了?非致幻血清素激动剂进入临床](https://www.genengnews.com/topics/drug-discovery/palomar-labs-spins-out-ariadne-bio-to-advance-non-hallucinogenic-therapy-for-parkinsons-apathy/) + AB-300即将进入Phase Ib临床试验,临床前数据强劲,且目前市场上没有竞争疗法,FDA可能会加速审批。
+- **预测依据**:今日新闻[rentosertib临床试验中使用6种蛋白质时钟评估生物年龄](https://lifespan.io/lung-fibrosis-drug-lowers-biological-age-estimates/) + 哈佛Gladyshev团队提出"将衰老生物标志物纳入常规临床试验"。随着蛋白质组学、表观遗传学时钟的标准化和成本下降,预计FDA或EMA将在未来3-6个月内发布关于生物年龄时钟作为临床终点的指导意见草案。
