@@ -4,50 +4,49 @@ type: page
 sidebar:
   exclude: true
 ---
+# Contact Aiwoola
 
-# 联系爱窝啦
+Thanks for visiting the Aiwoola AI Daily! We'd love to hear from you.
 
-感谢您访问爱窝啦 AI 日报！我们非常乐意听取您的意见和建议。
-
-如果您有任何问题、合作意向或需要 AI 工具账号支持，请通过以下方式与我们联系。
+If you have questions, collaboration ideas, or need support with AI tool accounts, reach out through any of the channels below.
 
 ---
 
-## 📬 联系方式
+## 📬 Contact Methods
 
-### 客服微信
+### Customer Service WeChat
 
-**微信号：aiwoola**
+**WeChat ID: aiwoola**
 
-扫码或搜索添加客服，获取以下服务：
-- 🛒 AI 工具账号购买咨询
-- 💡 使用问题技术支持
-- 🤝 商务合作洽谈
-- 📰 内容投稿与建议
+Scan or search to add our customer service for:
+- 🛒 AI tool account purchase consultation
+- 💡 Technical support for usage issues
+- 🤝 Business collaboration discussions
+- 📰 Content submissions and suggestions
 
-### 电子邮件
+### Email
 
-**邮箱：[support@aivora.cn](mailto:support@aivora.cn)**
+**Email: [support@aivora.cn](mailto:support@aivora.cn)**
 
-适用于：
-- 详细技术问题
-- 商务合作提案
-- 批量采购询价
+Best for:
+- Detailed technical questions
+- Business collaboration proposals
+- Bulk purchase inquiries
 
-### 官方网站
+### Official Website
 
 **[https://aivora.cn](https://aivora.cn)**
 
-访问官网了解：
-- 最新账号套餐价格
-- 服务条款与保障
-- 用户使用指南
+Visit our site to learn about:
+- Latest account package pricing
+- Terms of service and guarantees
+- User guides
 
 ---
 
-## ⏰ 服务时间
+## ⏰ Service Hours
 
-- **客服在线时间**：每天 9:00 - 23:00 (GMT+8)
-- **邮件回复时间**：24 小时内
+- **Customer Service Online**: Daily 9:00 - 23:00 (GMT+8)
+- **Email Response Time**: Within 24 hours
 
-我们承诺快速响应，用心服务每一位用户！💪
+We promise quick responses and dedicated service for every user! 💪
