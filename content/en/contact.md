@@ -6,9 +6,9 @@ sidebar:
 ---
 # Contact Aiwoola
 
-**Aiwoola AI Daily** appreciates your visit! We'd love to hear your thoughts and suggestions.
+Aiwoola AI Daily Report—we'd love to hear from you!
 
-If you have any questions, collaboration ideas, or need support with AI tool accounts, reach out to us through the following channels.
+Whether you've got questions, partnership ideas, or need support with AI tool accounts, reach out through the channels below.
 
 ---
 
@@ -19,10 +19,10 @@ If you have any questions, collaboration ideas, or need support with AI tool acc
 **WeChat ID: aiwoola**
 
 Scan or search to add our customer service for:
-- 🛒 AI tool account purchase consultation
+- 🛒 AI tool account purchase inquiries
 - 💡 Technical support for usage issues
 - 🤝 Business collaboration discussions
-- 📰 Content submission and suggestions
+- 📰 Content submissions and suggestions
 
 ### Email
 
@@ -30,7 +30,7 @@ Scan or search to add our customer service for:
 
 Best for:
 - Detailed technical questions
-- Business collaboration proposals
+- Business partnership proposals
 - Bulk purchase inquiries
 
 ### Official Website
@@ -49,4 +49,4 @@ Visit the site to explore:
 - **Customer service online**: Daily 9:00 - 23:00 (GMT+8)
 - **Email response time**: Within 24 hours
 
-We promise quick responses and dedicated service for every user! 💪
+We're committed to fast responses and serving every user with care! 💪
