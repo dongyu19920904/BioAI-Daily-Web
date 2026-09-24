@@ -34,6 +34,10 @@ menu:
       name: 生命延续日报
       pageRef: /
       weight: 1
+    - identifier: real-longevity
+      name: 真实延寿项目与参与
+      pageRef: /real-longevity
+      weight: 1.3
     - identifier: opportunity
       name: AI生命延续学商机日报
       pageRef: /opportunity
