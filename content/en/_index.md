@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/9/24
+title: AI生命延续学日报 2026/9/25
 breadcrumbs: false
-next: /en/2026-09/2026-09-23
+next: /en/2026-09/2026-09-24
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,199 +11,142 @@ cascade:
 ## **Today's Summary**
 
 ```
-Scientists discover new anti-aging target PTCHD4—knockout mice live months longer without white fur, mechanism involves AKT pathway.
-
-AI drug company Basecamp raises $140M to advance in vivo gene editing, with bets from Anthropic and Nvidia.
-
-Nature unveils molecular mechanism of fruit fly calorie restriction lifespan extension, but human application is distant—don't rush into dieting.
+Lund University secured $19.4M for Alzheimer's blood testing to replace brain scans, but clinical validation is still pending.
+Community gathering spaces are linked to lower healthcare costs for seniors—a potentially cheap prevention strategy.
+Drug safety for older adults and menopause hormone therapy are both moving toward more precise approaches; watch for upcoming clinical data.
 ```
 
 ## ⚡ Quick Navigation
 
 - [📰 Today's AI News](#todays-ai-news) - Latest updates at a glance
 
-> 💡 **Tip**: Want to try GPT, Claude, Gemini, Codex, Cursor, Grok and other tools mentioned in this article, but don't want to deal with overseas payments, registration, quotas and tutorials? Visit [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to choose official accounts, mirrors, Cursor plans or relay gateways by scenario. Self-service ordering on the official website, instant card key delivery.
+> 💡 **Tip**: Want to try GPT, Claude, Gemini, Codex, Cursor, Grok, and other tools mentioned here without the hassle of overseas payments, registration, quotas, and tutorials? Check out [**Aivora**](https://aivora.cn?utm_source=daily_news&utm_medium=mid_ad&utm_campaign=content) to choose official accounts, mirrors, Cursor plans, or relay access by use case. Self-service ordering on the official site, instant key delivery.
 
 ## **Today's AI Life Sciences News**
 
-### **👀 The One-Liner**
-Scientists discover new anti-aging target PTCHD4—knocking it out extends mouse lifespan by months without white fur development
+### **👀 In One Sentence**
+Alzheimer's blood test gets $19.4M funding; community spaces may cut senior healthcare costs
 
-### **🔑 3 Keywords**
-#CellularSenescence #Anti-AgingTarget #LongevityGene
+### **🔑 3 Key Terms**
+#AlzheimersDiagnosis #AgingIntervention #SeniorHealthcareCosts
 
-## **🔥 Top 10 Headlines**
+## **📎 Today's Citable Points**
 
-### 1. [Discovery of Novel Anti-Aging Target: PTCHD4 Knockout Extends Mouse Lifespan by Months](https://lifespan.io/an-entirely-new-target-for-fighting-senescence/)
+**Lund University receives $19.4 million grant for Alzheimer's blood test**
+- **Original Source**: [Lund University gets $19.4 million grant for Alzheimer's blood test](https://www.news-medical.net/news/20260924/Lund-University-gets-24194-million-grant-for-Alzheimere28099s-blood-test.aspx)
+- **Evidence Boundary**: This is a research grant from the U.S. NIH via the National Institute on Aging to advance Alzheimer's blood testing technology. Currently in the grant stage, the clinical validity and applicable populations for blood testing still require further verification.
 
-PTCHD4 is a protein that has received almost no research attention until now. The research team found it highly expressed in senescent cells, appearing in sync with the classic senescence marker p16. More importantly: PTCHD4 knockout mice lived months longer than normal mice and didn't develop white fur. In a lung fibrosis model, mice lacking PTCHD4 maintained better lung function with less immune infiltration. Mechanistically, PTCHD4 promotes senescence by activating the AKT signaling pathway—a known pathway, but PTCHD4 itself is a newly discovered upstream switch.
+**Community gathering spaces linked to lower long-term care costs for seniors**
+- **Original Source**: [Community gathering places linked to lower long-term care costs](https://medicalxpress.com/news/2026-09-community-linked-term.html)
+- **Evidence Boundary**: This is an associational study observing a correlation between community gathering spaces and reduced long-term care costs, but it does not prove causation. The study does not specify population size, geographic scope, magnitude of cost reduction, or rule out confounding factors.
 
-The research is still at the animal experiment stage. Whether PTCHD4 can become a reliable intervention target, whether there are side effects, how to precisely inhibit it—all require follow-up validation. Currently we can only say it's strongly correlated with aging, not that it's the sole critical factor for lifespan extension.
+## **🔥 Top 10 Stories**
 
-**Source Type**: Research news report / **Evidence Stage**: Animal experiments (mice) / **Credibility**: Medium
+### 1. [Lund University gets $19.4 million to advance Alzheimer's blood testing](https://www.news-medical.net/news/20260924/Lund-University-gets-24194-million-grant-for-Alzheimere28099s-blood-test.aspx)
 
-![Advantages of AI Building Blocks](https://lifespan.io/wp-content/uploads/2026/09/Proteins-under-magnifying-glass-262x187.jpg)
+Blood tests could detect Alzheimer's without expensive brain scans. Sebastian Palmqvist at Lund University landed $19.4 million (roughly 190 million SEK) from the U.S. NIH's National Institute on Aging. Blood tests are way cheaper than traditional PET scans or lumbar punctures, theoretically enabling early screening for more people.
 
----
+But it's still a research project. Sensitivity, specificity, and applicable populations need large-scale clinical validation. Can't assume blood tests can already replace existing diagnostic standards.
 
-### 2. [Ultra-Processed Foods and Brain Aging Link: Scientific Progress and Cognitive Risks](https://medicalxpress.com/news/2026-09-science-ultraprocessed-foods-aging-brain.html)
+**Source Type**: Scientific media report / Grant stage / Credibility: Medium
 
-Colorants, additives and preservatives in ultra-processed foods are now ubiquitous. Owen Carmichael at LSU's Pennington Biomedical Research Center is systematically studying their relationship with brain aging. There's some consensus on metabolic health impacts, but long-term effects on cognitive function and neurodegenerative diseases remain unclear.
+![Lund University gets $19.4 million grant for Alzheimer's blood test](https://www.news-medical.net/image-handler/picture/2016/2/Alzheimers_amyloid_plaque_-_Juan_Gaertner_9638f1223d534b518a192c8478871d65-620x480.jpg)
 
-The research is ongoing with no specific data or conclusions released yet. The challenge with this type of epidemiological study: it's hard to isolate the independent effect of ultra-processed foods from overall dietary patterns, lifestyle, and socioeconomic factors. Even finding correlations doesn't directly establish causation.
+### 2. [Community gathering spaces linked to lower long-term care costs](https://medicalxpress.com/news/2026-09-community-linked-term.html)
 
-**Source Type**: Research news report / **Evidence Stage**: Research in progress, no results published / **Credibility**: Low (no supporting data yet)
+Community gathering spaces let older adults exercise and socialize more, potentially delaying functional decline. New research finds these spaces are associated with lower long-term care (LTC) costs. They provide a mutual support foundation for residents, serving as preventive interventions to extend healthy lifespan while potentially easing the healthcare and caregiving cost pressures of aging.
 
----
+But this is an associational study—no proof of causation. The research doesn't specify populations, geographic scope, or magnitude of cost reduction, and doesn't rule out confounding factors. Can't assume building community spaces will definitely lower healthcare costs.
 
-### 3. [AI Drug Company Basecamp Research Raises $140M Series C, with Anthropic and Nvidia Participating](https://www.genengnews.com/topics/artificial-intelligence/anthropic-nvidia-backed-basecamp-research-raise-140m-series-c-financing-toward-advancing-ai-designed-drugs/)
+**Source Type**: Scientific media report / Associational study / Credibility: Medium
 
-Basecamp uses its bio-foundation model EDEN to design in vivo cell therapies—directly reprogramming cells inside patients rather than ex vivo modification like current CAR-T. EDEN's training data comes from the company's "trillion gene atlas," covering biodiversity samples from over 30 countries across seven continents. Preprints show EDEN-generated large serine recombinases have a 63.2% functional hit rate, with 50% active in human cells, achieving therapeutic-grade CAR insertion.
+### 3. [Older Americans taking more medications, over 1/5 face major drug interaction risks](https://medicalxpress.com/news/2026-09-older-americans-medications-major-drug.html)
 
-Anthropic invested through its $100M Anthology Fund, with Nvidia's venture arm NVentures also participating. The funding will support training the next-generation EDEN model and advancing preclinical research. Currently there's only in vitro cell data and animal experiment support—human clinical trials remain distant. Safety, off-target effects, and long-term impacts of in vivo gene editing all require rigorous validation.
+Older Americans are increasingly taking multiple prescription drugs and dietary supplements simultaneously. A USC-led study published in JAMA found that while the prevalence of potential major drug interactions has slightly declined, more than 1/5 of seniors still face risks.
 
-**Source Type**: Business news report / **Evidence Stage**: Funding announcement, preclinical research / **Credibility**: Medium (clear business progress, technical validation pending)
+This is a prescription-record-based epidemiological study revealing medication safety concerns. But "potential interactions" don't equal actual adverse events, and the study doesn't specify which drug combinations are riskiest or how to intervene. Can't assume all polypharmacy is dangerous.
 
----
+**Source Type**: Peer-reviewed journal (JAMA) / Epidemiological study / Credibility: High
 
-### 4. [Fruit Fly Study Reveals: Key Protein Lsp2 Regulates Lifespan Through mTORC1 Under Dietary Restriction](https://www.nature.com/articles/s41586-026-11029-x)
+### 4. [Safer alternative to hormone therapy for menopause](https://medicalxpress.com/news/2026-09-safer-alternative-hormone-therapy-menopause.html)
 
-Calorie restriction extends fruit fly lifespan, but the molecular mechanism has been unclear. This Nature-published study found Lsp2 (lipid storage protein 2) is the key node linking mTORC1 signaling and TOP mRNA translation. mTORC1 is a master switch controlling cell growth and metabolism; TOP mRNA translation controls ribosome protein synthesis. The research shows that under calorie restriction, Lsp2 expression increases, extending lifespan by suppressing mTORC1 activity and reducing protein synthesis.
+Traditional hormone replacement therapy supplements estrogen but may stimulate uterine and breast tissue growth, risky for those with genetic tumor susceptibility. A University of São Paulo team tested a new approach: instead of directly supplementing estrogen, activate only one estrogen receptor in cells. This method delivers broad metabolic benefits without stimulating reproductive tissue growth.
 
-This is fruit fly research and can't be directly extrapolated to humans. But the mTORC1 pathway is highly conserved in mammals—whether Lsp2's human homolog has similar functions and could become an intervention target deserves follow-up research. Currently we can only say it's one link in the fruit fly calorie restriction lifespan extension mechanism, not a basis for recommending human dietary interventions.
+This is cell and animal study stage research, with no specifics on activation mechanisms or drug forms. Human efficacy and safety need clinical trial validation. Can't assume this therapy can already replace traditional approaches.
 
-**Source Type**: Peer-reviewed paper (Nature) / **Evidence Stage**: Animal experiments (fruit flies) / **Credibility**: High (solid mechanistic research, but species extrapolation requires caution)
+**Source Type**: Scientific media report / Cell/animal experiments / Credibility: Medium
 
----
+### 5. [Chronic stress linked to differences in cognitive decline across specific populations](https://medicalxpress.com/news/2026-09-chronic-stress-linked-differences-cognitive.html)
 
-### 5. [Targeting BIRC6 Reverses Hematopoietic Stem Cell Aging and Immunosenescence](https://www.nature.com/articles/s41392-026-02787-1)
+Does stress really affect the brain? A Wake Forest University School of Medicine team found chronic stress and perceived social support may influence how memory and thinking abilities change with age. The research also suggests this influence varies across different population groups.
 
-BIRC6 is an apoptosis inhibitor protein. Research found that inhibiting BIRC6 can restore aged hematopoietic stem cells to a youthful state and improve immune function. During aging, hematopoietic stem cells' self-renewal capacity declines with myeloid-biased differentiation, leading to reduced immunity and increased inflammation. Targeting BIRC6 can partially reverse these changes.
+This is an observational study finding associations but not proving causation. The study doesn't specify populations, sample sizes, stress measurement methods, or degree of cognitive decline. Can't assume stress reduction will definitely prevent dementia, and it's unclear which interventions work.
 
-Animal experiments show clear effects, but human trials haven't begun. Hematopoietic system interventions require extreme caution—ensuring normal hematopoiesis isn't damaged while avoiding potential tumor risks (apoptosis inhibition is closely related to cancer). Currently we can't conclude that inhibiting BIRC6 can be safely used for human anti-aging.
+**Source Type**: Scientific media report / Observational study / Credibility: Medium
 
-**Source Type**: Peer-reviewed paper / **Evidence Stage**: Animal experiments, mechanistic research / **Credibility**: Medium (clear mechanism, clinical application pending validation)
+### 6. [Community gathering venues reduce long-term care costs for vulnerable seniors](https://www.news-medical.net/news/20260924/Community-gathering-venues-reduce-long-term-care-costs-for-vulnerable-seniors.aspx)
 
----
+Community gathering spaces aim to promote physical activity and social participation for all residents, regardless of functional decline status. Research finds these spaces are associated with lower long-term care costs, especially for vulnerable older adults.
 
-### 6. [Role of Senescent Cells in Kidney Aging, Injury and Fibrosis](https://www.nature.com/articles/s41581-026-01123-8)
+This is an associational study, no proof of causation. The study doesn't define "vulnerable" standards, provide specific cost reduction data, or assess long-term effects. Can't assume building community spaces is a definite solution for lowering healthcare costs.
 
-This is a review systematically summarizing the role of senescent cells in kidney disease. Senescent cells secrete pro-inflammatory factors, growth factors and proteases (collectively called SASP), accelerating kidney fibrosis and functional decline. Animal experiments clearing senescent cells show reduced kidney damage and slowed chronic kidney disease progression.
+**Source Type**: Scientific media report / Associational study / Credibility: Medium
 
-But reviews don't equal clinical evidence. Currently no senescent cell clearance therapy for kidney disease has entered clinical trials. Moreover, not all senescent cells are harmful—some play roles in tissue repair. How to precisely identify and selectively clear harmful senescent cells is an urgent problem.
+![Community gathering venues reduce long-term care costs for vulnerable seniors](https://www.news-medical.net/images/tags/TagImage-570-4584007112839127124-620x480.jpg)
 
-**Source Type**: Peer-reviewed review (Nature Reviews Nephrology) / **Evidence Stage**: Animal experiment summary, no human trials / **Credibility**: Medium (high-quality review but lacking human evidence)
+### 7. [Climate change expanding extreme heat threat to human health](https://medicalxpress.com/news/2026-09-climate-extreme-threat-human-health.html)
 
----
+Climate change is expanding the range of extreme heat threats to human health. The author recalls experiencing a severe heatwave at age 12 in rural New South Wales, Australia, sitting at the kitchen table with bed sheets hung over windows to block the heat, passing long sweltering hours with a 1000-piece puzzle.
 
-### 7. [Earth's Magnetic Field May Affect Cellular Energy Production and Aging Process](https://medicalxpress.com/news/2026-09-earth-magnetic-field-age.html)
+This is a personal narrative and climate health review, providing no specific epidemiological data or intervention strategies. Can't quantify heat's health impact on different populations or identify effective response strategies.
 
-New research from the University of Nottingham suggests Earth's magnetic field may influence cellular energy production, exercise performance and even lifespan. This is a surprising direction—traditionally the geomagnetic field is considered too weak to significantly impact biochemical processes. Researchers speculate it may work through the radical pair mechanism, a quantum effect where certain chemical reactions are sensitive to magnetic fields.
+**Source Type**: Scientific media commentary / Review/personal experience / Credibility: Low
 
-Currently this is preliminary observation with unclear mechanism and no specific data provided. Even if the geomagnetic field does have effects, the actual physiological significance and whether it can be developed into interventions remain unknown. This type of research is better suited as a basic science lead rather than a basis for anti-aging strategies.
+### 8. [Exercise delays ovarian aging via adiponectin-related signaling pathways](https://www.nature.com/articles/s43587-026-01250-8)
 
-**Source Type**: Research news report / **Evidence Stage**: Early exploratory research / **Credibility**: Low (lacking data and mechanism validation)
+Nature Aging published a publisher correction. The original research found physical activity may partially delay ovarian aging through adiponectin-related signaling pathways. Adiponectin is a hormone secreted by adipose tissue, related to metabolism and inflammation regulation.
 
----
+This is a correction notice for published research, with no specifics on what was corrected. The original study's experimental subjects, sample size, exercise regimen, and effect size are unclear. Can't determine exercise's actual impact on human ovarian aging.
 
-### 8. [DNMT3A and TET2 Mutations Trigger Inflammation Through Different Pathways in Clonal Hematopoiesis](https://medicalxpress.com/news/2026-09-dark-genome-reveals-routes-inflammation.html)
+**Source Type**: Peer-reviewed journal correction / Original research / Credibility: Medium (pending correction details)
 
-Clonal hematopoiesis is an age-related phenomenon: mutated hematopoietic stem cells expand, forming large numbers of blood cells carrying the same mutation. DNMT3A and TET2 are the two most common mutated genes. Research published in GeroScience found these two mutations both cause inflammation but through different mechanisms—they affect different aspects of epigenetic regulation, activating distinct inflammatory pathways.
+### 9. [Human brain aging spatial transcriptomics research code repository online](https://github.com/Mavrikaki-Lab/Mavrikaki_Ra_Brain_aging_spatial_transcriptomics_human)
 
-Understanding these differences helps develop precision intervention strategies. But whether clonal hematopoiesis itself requires intervention remains debatable: most carriers remain asymptomatic for life, with only a small fraction developing blood disorders. Currently there are no approved therapies for clonal hematopoiesis—only regular monitoring.
+The Mavrikaki Lab open-sourced code for human brain aging spatial transcriptomics research on GitHub. Spatial transcriptomics can locate gene expression positions on tissue sections, revealing molecular change patterns in different brain regions during aging.
 
-**Source Type**: Peer-reviewed paper (GeroScience) / **Evidence Stage**: Mechanistic research, human cells and mouse models / **Credibility**: Medium (solid mechanistic research, clinical significance pending clarification)
+This is a research code repository, not a paper or dataset. The repository just launched (1 star), with no documentation explaining study design, sample information, or key findings. Can't assess research quality or draw specific conclusions about brain aging.
 
----
+**Source Type**: Open-source code repository / Research tool / Credibility: Low (lacks accompanying paper)
 
-### 9. [Opioid Use Disorder Cases Double Among Adults 55+ Over Eight Years](https://medicalxpress.com/news/2026-09-older-adults-opioid-disorder-ontario.html)
+### 10. [AI imaging and blood biomarkers reshaping early Alzheimer's diagnosis](https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMXpaZjNqWTY1U0QyUl90amxwUUxNbExrY180MEJlMFQ5T1lUN0Z0VUFfWW1WWUh3eURxcWROd2NLSG1EU1ZIRzhWSzdaTENORVN2OFNCZ1FvRlVLRFNBeUJMa3B1SFJjaC0wY3dhNjAwUm1oNEU2MEdmeGNEMmNWcm9KWkl2TFpaVDZETFJ2V2FCdXlKZ1dTdXhCV0czSW1iSTZubXVnQ3VlTkNfaWdwRXhRSkxpZFI2OWVZSWRubkVqV3JDS21uWFpjZ21LYlZOeFh3bHdNQ3k1bmMtLUZWRWRQbWZERFF4Nik2TjBHeg?oc=5)
 
-A new report from the Ontario Drug Policy Research Network shows that between 2017 and 2025, the number of people aged 55 and over seeking care for opioid use disorder (OUD) more than doubled. This isn't AI or life sciences research, but public health data. Rising OUD risk among older adults may relate to chronic pain management, polypharmacy, cognitive decline and other factors.
+An expert at India's Mahajan Imaging & Labs says blood biomarkers and AI imaging are reshaping early Alzheimer's diagnosis pathways. AI can assist in analyzing medical images, while blood biomarkers provide convenient screening tools.
 
-This suggests need for stronger alternative pain management strategies for older adults, improved prescription monitoring, and age-appropriate addiction treatment services. But this falls under public health policy and isn't directly related to this newsletter's core themes of AI drug discovery and biotechnology.
+This is a secondhand media report with no primary research source. No specifics on AI models, biomarker types, diagnostic accuracy, or applicable populations. Can't confirm these technologies are already in routine clinical use or superior to existing diagnostic standards.
 
-**Source Type**: Public health report / **Evidence Stage**: Epidemiological data / **Credibility**: High (official statistics)
-
-**Note**: This item doesn't fall within the core AI + life sciences intersection and is included only as supplementary context for healthy aging.
-
----
-
-### 10. [Family Conflicts in Dementia Care and Importance of Advance Planning](https://medicalxpress.com/news/2026-09-dementia-caregiving-expose-hidden-family.html)
-
-Researchers conducted focus group interviews with family caregivers of dementia patients, finding that the caregiving process often exposes hidden family conflicts—disputes over finances, decision-making authority, and caregiving responsibility distribution. Advance care planning and clarifying roles and wishes can reduce later conflicts.
-
-This is sociology and nursing research, unrelated to AI technology or biomedical interventions. But dementia is a core disease of concern in longevity studies, and understanding caregiving realities helps design medical and social support systems that better match actual needs.
-
-**Source Type**: Qualitative research report / **Evidence Stage**: Focus group interviews / **Credibility**: Medium (qualitative research, doesn't provide causal evidence)
-
-**Note**: This item doesn't fall within the core AI + life sciences intersection and is included only as supplementary context for dementia care realities.
-
----
+**Source Type**: Secondhand media report / Expert opinion / Credibility: Low
 
 ## **📌 Worth Watching**
 
-**[Products]**
-- [Digital Shadows Aid Bioprocessing Intensification](https://www.genengnews.com/topics/bioprocessing/digital-shadows-to-aid-complexity-in-handling-process-intensification/) - Similar to digital twins but without active control, only real-time process status reporting, using AI to handle complex data while sidestepping regulatory challenges
-
 **[Research]**
-- [Electrodynamic Cleaning Tech Recovers 87.5% of Cell Culture Media](https://www.genengnews.com/topics/bioprocessing/media-cleaning-could-help-biopharma-cut-costs-and-fully-embrace-perfusion/) - MIT-developed method uses electric fields to separate waste, promising to reduce media costs in perfusion processes
-- [Multi-Controller System Boosts CHO Cell Perfusion Output 68%](https://www.genengnews.com/topics/bioprocessing/multi-controller-system-major-boost-to-continuous-cho-perfusion/) - Sartorius nonlinear model predictive control system real-time optimizes feeding, bleeding and harvesting flows, maintaining >95% cell viability
+- [Nature Aging publishes correction on ovarian aging study](https://www.nature.com/articles/s43587-026-01250-8) - Original research involves exercise and adiponectin signaling pathways, specific correction details pending
 
-**[Other]**
-- [Cell and Gene Therapy Industry Calls for Shift from Vision to Collaborative Infrastructure](https://www.genengnews.com/topics/bioprocessing/cgt-collaboration-moves-from-aspirations-to-infrastructure/) - Act for Hope initiative promotes CGT ecosystem standardization and data interoperability, arguing collaboration capability needs to scale like manufacturing capacity
-- [Dementia Patients' Views on Voluntary Assisted Dying](https://medicalxpress.com/news/2026-09-people-dementia-voluntary-dying.html) - Australia's first study directly asking dementia patients about voluntary assisted dying—previous research ignored patients' own voices
-- [Our Obsession with Staying Young Makes Us Miss Many Benefits of Aging](https://medicalxpress.com/news/2026-09-culture-obsessed-staying-young-benefits.html) - Cultural observation piece noting anti-aging culture overly focuses on negatives, ignoring wisdom, experience and psychological resilience of later years
-- [Loneliness and Social Isolation May Cost You 6 Years of Healthy Life](https://medicalxpress.com/news/2026-09-lonely-socially-isolated-healthy-years.html) - 2023 report shows roughly half of US adults feel lonely, yet loneliness as a public health risk remains underrecognized
-
----
-
-## **📎 Today's Quotable Points**
-
-### 1. PTCHD4 Knockout Extends Mouse Lifespan by Months
-**Factual Conclusion**: Research team found in mouse experiments that knocking out PTCHD4 protein extended natural lifespan by months compared to wild-type mice without white fur development; in lung fibrosis models, PTCHD4-deficient mice maintained better lung function. Mechanistically, PTCHD4 promotes cellular senescence by activating the AKT signaling pathway.
-
-**Original Source**: [An Entirely New Target for Fighting Senescence](https://lifespan.io/an-entirely-new-target-for-fighting-senescence/)
-
-**Evidence Boundaries**: Animal experiments (mice), no human studies conducted. Whether PTCHD4 can become a safe and effective human anti-aging intervention target, potential side effects, how to precisely inhibit it—all require follow-up validation. Currently can only confirm PTCHD4 strongly correlates with mouse aging, cannot recommend human anti-aging strategies based on this.
-
----
-
-### 2. Basecamp's EDEN Model Achieves 50% Functional Hit Rate in In Vitro Cells
-**Factual Conclusion**: Basecamp Research's bio-foundation model EDEN showed in preprint research that generated large serine recombinases have 50% activity in human cells, achieving therapeutic-grade CAR insertion. Company completed $140M Series C funding with participation from Anthropic and Nvidia.
-
-**Original Source**: [Anthropic-, Nvidia-Backed Basecamp Research Raise $140M Series C Financing Toward Advancing AI-Designed Drugs](https://www.genengnews.com/topics/artificial-intelligence/anthropic-nvidia-backed-basecamp-research-raise-140m-series-c-financing-toward-advancing-ai-designed-drugs/)
-
-**Evidence Boundaries**: Preprint research (not peer-reviewed), only in vitro cell and animal experiment data, hasn't entered human clinical trials. Safety, off-target effects, long-term impacts of in vivo gene editing require rigorous validation—cannot conclude technology is ready for clinical application.
-
----
-
-### 3. Fruit Fly Research Reveals Lsp2 Regulates Lifespan Through mTORC1
-**Factual Conclusion**: Nature-published research shows that under calorie restriction in fruit flies, Lsp2 expression increases, extending lifespan by suppressing mTORC1 activity and reducing protein synthesis. Lsp2 is the key node linking mTORC1 signaling and TOP mRNA translation.
-
-**Original Source**: [Lsp2 links mTORC1 to TOP mRNA translation and lifespan in Drosophila](https://www.nature.com/articles/s41586-026-11029-x)
-
-**Evidence Boundaries**: Fruit fly experiments, cannot directly extrapolate to humans. While mTORC1 pathway is highly conserved in mammals, Lsp2's human homolog function and whether it can become an intervention target require follow-up research. Cannot recommend human dietary interventions based on this.
-
----
+**[Open Source]**
+- [Human brain aging spatial transcriptomics code repository](https://github.com/Mavrikaki-Lab/Mavrikaki_Ra_Brain_aging_spatial_transcriptomics_human) - Newly launched research tool, lacks accompanying paper
 
 ## **🔮 AI Life Sciences Trend Predictions**
 
-### Senolytic Therapies Enter Large-Scale Clinical Trials
-- **Prediction Timeline**: Q4 2026
+### Alzheimer's blood testing enters large-scale clinical validation
+- **Prediction Timeframe**: Q4 2026
 - **Prediction Probability**: 70%
-- **Prediction Basis**: Today's news shows multiple anti-aging targets (PTCHD4, BIRC6) achieving positive results in animal experiments + multiple early-stage clinical trials of senolytics launched in past two years, expect more projects entering larger-scale Phase II or III trials in Q4
+- **Prediction Basis**: Today's news [Lund University gets $19.4M for Alzheimer's blood testing](https://www.news-medical.net/news/20260924/Lund-University-gets-24194-million-grant-for-Alzheimere28099s-blood-test.aspx) + U.S. NIH large grants typically require launching multicenter clinical studies within 6-12 months, blood testing tech already has preliminary validation foundation
 
-### Basecamp's EDEN Model First Preclinical Candidate Announcement
-- **Prediction Timeline**: October-November 2026
-- **Prediction Probability**: 60%
-- **Prediction Basis**: Today's news [Basecamp raises $140M Series C](https://www.genengnews.com/topics/artificial-intelligence/anthropic-nvidia-backed-basecamp-research-raise-140m-series-c-financing-toward-advancing-ai-designed-drugs/) + company preprints already show EDEN effectiveness in vitro, post-funding typically announces specific pipeline progress within 1-2 months to boost confidence
-
-### AI-Driven mRNA Vaccine Design Platform Gains Regulatory Recognition
-- **Prediction Timeline**: Q4 2026
+### Precision menopause hormone modulation therapy clinical trials launch
+- **Prediction Timeframe**: November 2026
 - **Prediction Probability**: 55%
-- **Prediction Basis**: While today's materials don't directly mention mRNA, multiple AI biological design platforms (including Basecamp's EDEN) have demonstrated capability to design complex biomolecules + FDA and EMA have accelerated approval of AI-based drug discovery tools in recent years, expect first AI-designed mRNA vaccine to receive clinical trial approval this year
+- **Prediction Basis**: Today's news [Safer alternative to hormone therapy for menopause](https://medicalxpress.com/news/2026-09-safer-alternative-hormone-therapy-menopause.html) + Selective estrogen receptor activators already have drug foundations (e.g., SERM-class drugs), typically need 3-6 months prep from animal studies to clinical trials
 
-### Large Cohort Study Results on Ultra-Processed Foods and Cognitive Decline Link Published
-- **Prediction Timeline**: October 2026
-- **Prediction Probability**: 50%
-- **Prediction Basis**: Today's news [Ultra-Processed Foods and Brain Aging Research Progress](https://medicalxpress.com/news/2026-09-science-ultraprocessed-foods-aging-brain.html) mentions LSU conducting comprehensive research + this type of epidemiological study typically requires years of follow-up, but interim data analysis results may be published soon
+### Community health interventions incorporated into senior health insurance coverage
+- **Prediction Timeframe**: Q4 2026
+- **Prediction Probability**: 45%
+- **Prediction Basis**: Multiple news items today show community gathering spaces linked to lower long-term care costs ([Community spaces and costs](https://medicalxpress.com/news/2026-09-community-linked-term.html)) + Health insurance payers are seeking preventive interventions to reduce costs, but policy advancement requires more evidence and stakeholder coordination
