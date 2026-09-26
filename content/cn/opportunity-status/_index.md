@@ -9,3 +9,5 @@ breadcrumbs: false
 {{< opportunity-status >}}
 
 “来源待核验”表示原始论文、试验或机构资料尚未核对；即使有新闻链接，也不能据此推断干预能延长人的寿命。“需求未验证”表示尚无真实点击、报名、付费等行为数据。完整机器记录可从各期的 JSON 链接下载。
+
+发现来源错误、内容夸大或项目不能用？请使用[公开反馈表](https://github.com/dongyu19920904/BioAI-Daily-Web/issues/new?template=opportunity-feedback.md)。填写机会编号和可复现链接即可；这是公开页面，请勿提交病历、联系方式或订单等隐私。
