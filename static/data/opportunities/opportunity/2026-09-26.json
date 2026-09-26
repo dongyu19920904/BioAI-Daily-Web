@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-09-26",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-09/2026-09-26/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_8a5c07bf0867cf06",
+      "report_date": "2026-09-26",
+      "report_section": "opportunity",
+      "title": "肌酸补充剂资料包 + 中老年肌肉保护选题",
+      "source_urls": [
+        "https://lifespan.io/creatine-protects-lean-mass-even-without-exercise/"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "50 岁以上关注肌肉流失的中老年人、照护家属、健康内容创作者、做老年健康管理的小机构",
+      "demand_claim": "担心肌肉流失但无法坚持运动,希望找到\"不运动也能保护肌肉\"的方案;需要靠谱的补剂对比和使用指南",
+      "demand_verified": false,
+      "deliverable_hint": "- 免费:公众号/小红书文章\"肌酸能不能帮中老年人保护肌肉?研究怎么说\"",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "- 7 天内阅读量 > 500 或有 5 人以上主动询问\"哪个品牌肌酸好\"\"怎么吃\"",
+        "stop_condition": "- 7 天阅读量 < 100 且无人咨询",
+        "upgrade_path": "- 资料包:中老年营养补剂全指南(肌酸+蛋白粉+维生素 D+钙镁)"
+      },
+      "primary_source_candidates": []
+    },
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_f5a5f522b9c4f809",
+      "report_date": "2026-09-26",
+      "report_section": "opportunity",
+      "title": "细胞疗法项目复盘 + 长寿科研观察专栏",
+      "source_urls": [
+        "https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "关注长寿科技的内容创作者、生物技术从业者、做科研工具的开发者、想做长寿科技内容的自媒体",
+      "demand_claim": "想了解长寿/细胞疗法前沿但没时间追踪项目进展;需要可靠的项目信息源做内容素材",
+      "demand_verified": false,
+      "deliverable_hint": "- 免费:项目复盘文章\"ARPA-H 为什么资助室温细胞疗法?这对长寿科技意味着什么\"",
+      "suggested_route": "content",
+      "risk_flags": [
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "- 7 天内阅读量 > 300 或有 3 人以上询问订阅",
+        "stop_condition": "- 7 天阅读量 < 50 且无人询问",
+        "upgrade_path": "- 月报订阅(追踪 10-15 个长寿科研项目)"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_8a5c07bf0867cf06:discover_primary_source",
+      "opportunity_id": "opp_8a5c07bf0867cf06",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_8a5c07bf0867cf06:validate_demand",
+      "opportunity_id": "opp_8a5c07bf0867cf06",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_f5a5f522b9c4f809:discover_primary_source",
+      "opportunity_id": "opp_f5a5f522b9c4f809",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_f5a5f522b9c4f809:validate_demand",
+      "opportunity_id": "opp_f5a5f522b9c4f809",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
