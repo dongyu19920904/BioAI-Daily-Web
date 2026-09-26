@@ -8,6 +8,8 @@ cascade:
 next: /project-opportunity/2026-09/2026-09-26/
 ---
 
+> **来源补充（2026-09-26）**：本期肌酸报道对应的[原始人体试验（PubMed）](https://pubmed.ncbi.nlm.nih.gov/42578920/)、[全文（PMC）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13463452/)已找到：补剂分配随机，运动参与非随机；64 人完成 12 周研究。DXA 瘦体重变化不等于确认肌肉增长，也未研究人类寿命，不应据此推荐个人服用。UC Davis 项目可从[ARPA-H 官方公告](https://arpa-h.gov/news-and-events/arpa-h-teams-prepare-take-200-degree-leap-and-end-cold-chain-dependence-life-saving)核对，仍属研究开发，不是可直接试跑或销售的疗法。下文保留当时的项目判断；“需查原始论文”等表述已由此补充更新。
+
 ## 先看结论（可引用项目判断）
 
 - **UC Davis 室温细胞疗法存储项目（ARPA-H 资助 3650 万美元）**：目前仅为新闻公告，无公开代码或技术细节。适合作为技术观察和临床物流研究线索，但今天无法试跑、无数据集可用，不适合立即动手。来源：[News-Medical 2026-09-25](https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx)，证据阶段：政府资助公告。
