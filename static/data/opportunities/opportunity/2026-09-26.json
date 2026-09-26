@@ -8,88 +8,85 @@
   "opportunities": [
     {
       "schema_version": 1,
-      "opportunity_id": "opp_8a5c07bf0867cf06",
+      "opportunity_id": "opp_fb24363e1e17b370",
       "report_date": "2026-09-26",
       "report_section": "opportunity",
-      "title": "肌酸补充剂资料包 + 中老年肌肉保护选题",
-      "source_urls": [
-        "https://lifespan.io/creatine-protects-lean-mass-even-without-exercise/"
-      ],
+      "title": "肌酸补剂资料包 + 中老年肌少症预防内容",
+      "source_urls": [],
       "source_verified": false,
-      "state": "needs_primary_source",
-      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
-      "target_user": "50 岁以上关注肌肉流失的中老年人、照护家属、健康内容创作者、做老年健康管理的小机构",
-      "demand_claim": "担心肌肉流失但无法坚持运动,希望找到\"不运动也能保护肌肉\"的方案;需要靠谱的补剂对比和使用指南",
+      "state": "missing_source",
+      "state_reason": "缺少可解析的来源链接",
+      "target_user": "45-65岁担心肌少症的中老年人、不愿高强度运动但愿意尝试补剂的健康管理者、做抗衰/健康内容的小红书/公众号博主",
+      "demand_claim": "害怕老了肌肉流失但懒得或不能剧烈运动,愿意为\"简单方案\"付小钱;健康博主需要有新研究背书的选题素材",
       "demand_verified": false,
-      "deliverable_hint": "- 免费:公众号/小红书文章\"肌酸能不能帮中老年人保护肌肉?研究怎么说\"",
+      "deliverable_hint": "- 免费:《肌酸补剂科普:新研究显示不运动也能保护肌肉?》公众号/小红书文章",
       "suggested_route": "structured_resource",
       "risk_flags": [
         "health_claim_review",
         "commercial_hypothesis"
       ],
       "hypotheses": {
-        "success_metric": "- 7 天内阅读量 > 500 或有 5 人以上主动询问\"哪个品牌肌酸好\"\"怎么吃\"",
-        "stop_condition": "- 7 天阅读量 < 100 且无人咨询",
-        "upgrade_path": "- 资料包:中老年营养补剂全指南(肌酸+蛋白粉+维生素 D+钙镁)"
+        "success_metric": "- 7天内单篇内容收藏/转发 > 50 或私信咨询 > 10 条",
+        "stop_condition": "- 7天内互动 < 20 或无人问购买/使用细节",
+        "upgrade_path": "免费科普 → 补剂对比资料包(一次付费)→ 肌少症预防社群/月度更新资料库 → 陪伴式轻咨询或定制化补剂+运动方案整理"
       },
       "primary_source_candidates": []
     },
     {
       "schema_version": 1,
-      "opportunity_id": "opp_f5a5f522b9c4f809",
+      "opportunity_id": "opp_94db574454bea24a",
       "report_date": "2026-09-26",
       "report_section": "opportunity",
-      "title": "细胞疗法项目复盘 + 长寿科研观察专栏",
-      "source_urls": [
-        "https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx"
-      ],
+      "title": "细胞疗法可及性项目跟踪资料库(长期观察方向)",
+      "source_urls": [],
       "source_verified": false,
-      "state": "needs_primary_source",
-      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
-      "target_user": "关注长寿科技的内容创作者、生物技术从业者、做科研工具的开发者、想做长寿科技内容的自媒体",
-      "demand_claim": "想了解长寿/细胞疗法前沿但没时间追踪项目进展;需要可靠的项目信息源做内容素材",
+      "state": "missing_source",
+      "state_reason": "缺少可解析的来源链接",
+      "target_user": "关注细胞疗法前沿的投资人、做生物技术内容的科技博主、细胞疗法患者家属、做医疗科技资讯的媒体人",
+      "demand_claim": "细胞疗法贵且难获取,关心\"什么时候能普及\"\"成本能降多少\";科技内容创作者需要前沿项目素材",
       "demand_verified": false,
-      "deliverable_hint": "- 免费:项目复盘文章\"ARPA-H 为什么资助室温细胞疗法?这对长寿科技意味着什么\"",
-      "suggested_route": "content",
+      "deliverable_hint": "- 免费:《细胞疗法室温储存技术进展观察》专题文章",
+      "suggested_route": "structured_resource",
       "risk_flags": [
+        "health_claim_review",
         "commercial_hypothesis"
       ],
       "hypotheses": {
-        "success_metric": "- 7 天内阅读量 > 300 或有 3 人以上询问订阅",
-        "stop_condition": "- 7 天阅读量 < 50 且无人询问",
-        "upgrade_path": "- 月报订阅(追踪 10-15 个长寿科研项目)"
+        "success_metric": "- 30 天内收集到 5-10 个类似\"细胞疗法可及性\"相关项目",
+        "stop_condition": "- 90 天内无法收集到足够项目组成有价值的资料库",
+        "upgrade_path": "单次项目跟踪文章 → 季度/年度项目跟踪资料库 → 前沿技术周报会员 → 项目深度解读或投资分析服务"
       },
       "primary_source_candidates": []
     }
   ],
   "tasks": [
     {
-      "task_id": "opp_8a5c07bf0867cf06:discover_primary_source",
-      "opportunity_id": "opp_8a5c07bf0867cf06",
+      "task_id": "opp_fb24363e1e17b370:discover_primary_source",
+      "opportunity_id": "opp_fb24363e1e17b370",
       "kind": "discover_primary_source",
       "status": "pending_automation",
       "description_zh": "自动继续检索一手论文、试验或机构来源",
       "depends_on": []
     },
     {
-      "task_id": "opp_8a5c07bf0867cf06:validate_demand",
-      "opportunity_id": "opp_8a5c07bf0867cf06",
+      "task_id": "opp_fb24363e1e17b370:validate_demand",
+      "opportunity_id": "opp_fb24363e1e17b370",
       "kind": "validate_demand",
       "status": "pending_automation",
       "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
       "depends_on": []
     },
     {
-      "task_id": "opp_f5a5f522b9c4f809:discover_primary_source",
-      "opportunity_id": "opp_f5a5f522b9c4f809",
+      "task_id": "opp_94db574454bea24a:discover_primary_source",
+      "opportunity_id": "opp_94db574454bea24a",
       "kind": "discover_primary_source",
       "status": "pending_automation",
       "description_zh": "自动继续检索一手论文、试验或机构来源",
       "depends_on": []
     },
     {
-      "task_id": "opp_f5a5f522b9c4f809:validate_demand",
-      "opportunity_id": "opp_f5a5f522b9c4f809",
+      "task_id": "opp_94db574454bea24a:validate_demand",
+      "opportunity_id": "opp_94db574454bea24a",
       "kind": "validate_demand",
       "status": "pending_automation",
       "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
