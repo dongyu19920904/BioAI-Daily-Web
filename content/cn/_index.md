@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/9/26
+title: 'AI生命延续学日报 2026/9/26'
 breadcrumbs: false
-next: /2026-09/2026-09-25
-description: "每日聚焦 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化等生命延续学前沿，追踪衰老机制、延寿干预与相关药物、工具、平台、模型。"
+next: /2026-09/2026-09-26
+description: '2026-09-26 AI生命延续学日报：快速导航；今日 AI 生命科学资讯；只有一句话。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,9 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-德州儿童医院揭示卒中如何"喂养"胶质瘤：钙信号失调的星形胶质细胞和巨噬细胞是帮凶，恢复钙信号能抑制肿瘤。
-宾州州立追踪十年发现中年衰老快的人记忆衰退更严重，MIND 饮食可能通过保护动脉延缓认知下降。
-脑损伤史是脑癌风险因素，体内 CAR-T 让免疫疗法从定制走向通用，生命科学和临床医学都在加速。
+美国砸 3650 万美元让 CAR-T 常温储存,想破解细胞疗法成本难题,但技术路径还在摸索。
+
+中风会重塑脑肿瘤微环境、肌酸不运动也能保肌肉量,两个机制研究都有临床潜力。
+
+今天的资讯偏学术综述多于落地产品,建议重点关注 ARPA-H 项目后续进展。
 ```
 
 
@@ -29,126 +31,153 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-脑卒中会重塑肿瘤微环境加速胶质瘤生长，机制已在动物和人类模型中得到初步验证。
+美国ARPA-H资助UC Davis开发常温储存细胞疗法，试图破解CAR-T高昂成本难题。
 
 ### **🔑 3 个关键词**
-#脑损伤与癌症 #衰老与认知 #肿瘤微环境
-
----
-
-## **📎 今日可引用要点**
-
-**1. 脑卒中通过重塑肿瘤微环境促进胶质瘤生长**
-- **事实结论**：德州儿童医院团队在人类和小鼠模型中发现，缺血性脑卒中会诱导肿瘤微环境重塑，出现钙活性降低的肿瘤相关星形胶质细胞（TAA）和富集的肿瘤相关巨噬细胞（TAM），恢复 TAA 钙信号或清除 TAM 可抑制卒中诱导的胶质瘤进展。
-- **原始来源**：[Stroke Remodels Tumor Microenvironment to Promote Glioma Growth](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/)，发表于 Nature Cancer（2026年9月）
-- **证据边界**：研究基于小鼠模型和人类胶质瘤样本，揭示了脑损伤与脑癌之间的细胞和分子机制，但恢复钙信号或清除 TAM 的治疗策略尚未进入人体临床试验，不能据此认为已有可用疗法。
-
-**2. 中年衰老速度预测十年后记忆衰退**
-- **事实结论**：宾州州立大学团队研究发现，中年期衰老速度较快的人群在十年后更容易出现记忆缺陷，该研究发表于《老年学杂志》A 系列。
-- **原始来源**：[How quickly people age during midlife predicted memory lapses 10 years later](https://medicalxpress.com/news/2026-09-quickly-people-age-midlife-memory.html)
-- **证据边界**：这是一项人类观察性研究，证实了中年衰老速度与晚年认知衰退的关联，但未明确因果关系，也未提供干预措施的有效性数据。
-
-**3. MIND 饮食通过保护动脉延缓认知衰退**
-- **事实结论**：新研究表明，MIND 饮食（地中海-DASH 干预神经退行性延迟饮食）可能通过保护动脉来预防认知衰退和痴呆。
-- **原始来源**：[How the MIND diet protects aging brains](https://medicalxpress.com/news/2026-09-mind-diet-aging-brains.html)
-- **证据边界**：研究提出了 MIND 饮食的保护机制假说（动脉保护），但未详细说明研究设计、样本量和干预时长，不能据此认为该饮食对所有人群均有确定性预防效果。
+#细胞疗法 #神经退行 #肌肉保护
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-### 1. [脑卒中会"喂养"脑肿瘤：星形胶质细胞钙信号异常是关键](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/)
+### 1. [ARPA-H投入3650万美元：让CAR-T常温储存](https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx)
 
-临床观察早就发现：卒中患者得胶质瘤的风险高 3-7 倍。但为什么？德州儿童医院 Hyun Kyoung Lee 团队用人类和小鼠模型揭开了谜底。卒中会重塑肿瘤微环境，诱导出一群钙活性降低的肿瘤相关星形胶质细胞（TAA），同时招募大量肿瘤相关巨噬细胞（TAM）。更关键的是，恢复 TAA 的钙信号或清除 TAM，都能抑制卒中诱导的胶质瘤进展。这项研究不仅解释了脑损伤与脑癌的因果链条，还指向了潜在干预靶点。对生命延续学的意义：脑损伤史可能是脑癌风险因素，未来或可通过调控星形胶质细胞功能降低风险。目前恢复钙信号或清除 TAM 的疗法尚未进入临床，不能据此认为已有可用治疗方案。
+现在的CAR-T疗法需要超低温保存，运输成本极高。加州大学戴维斯分校拿到了美国先进研究计划署(ARPA-H)最多3650万美元的资助，目标是开发常温储存技术。如果成功，细胞疗法的可及性会大幅提升，不再受限于超低温冷链。但目前只是项目启动阶段，技术路径和可行性还需要验证，距离实际应用还有很长一段路。
 
-*来源类型：同行评审期刊（Nature Cancer）/ 证据阶段：动物实验 + 人类样本 / 可信度：高*
+**来源类型**：科技媒体报道 / 项目启动阶段 / 可信度（中）
 
-### 2. [中年衰老快的人，十年后记忆更差](https://medicalxpress.com/news/2026-09-quickly-people-age-midlife-memory.html)
+![New project aims to make cellular therapies more accessible through room temperature storage](https://www.news-medical.net/image-handler/picture/2017/6/Anatomical_structure_of_biological_animal_cell_with_organelles-eranicle_1d73b50575dc4546875a4a2fc7d429a6-620x480.jpg)
 
-忘记车钥匙放哪儿？偶尔正常，频繁出现就要警惕了。宾州州立大学 David Almeida 团队追踪了一批中年人十年，发现中年期衰老速度较快的人，十年后记忆缺陷发生率显著更高。这项研究发表于《老年学杂志》A 系列。研究没有直接给出干预方案，但提示了一个关键窗口期：中年。如果能在中年阶段识别衰老加速的人群，或许能提前干预，延缓晚年认知衰退。对生命延续学的意义：中年衰老速度可作为预测晚年认知健康的生物标志物，但目前只是观察性关联，未确认因果关系，也未验证干预措施的有效性。
+---
 
-*来源类型：同行评审期刊 / 证据阶段：人类观察性研究 / 可信度：中*
+### 2. [肌酸保护肌肉量，甚至不需要运动](https://lifespan.io/creatine-protects-lean-mass-even-without-exercise/)
 
-### 3. [MIND 饮食或能通过保护动脉延缓认知衰退](https://medicalxpress.com/news/2026-09-mind-diet-aging-brains.html)
+德州农工大学的研究发现，中老年人(45-65岁)每天补充10克肌酸，即使不运动也能增加瘦体重。12周后，运动+肌酸组体脂下降3.24%，肌酸单独组也有效果。研究纳入64人，平均BMI约30，蛋白质摄入不高(每天74克)。但要注意：DXA测的"瘦体重"包含水分，肌酸会增加体内水分，所以增加的不全是肌肉。认知测试结果不一致，没有显示出广泛的认知改善。
 
-MIND 饮食（地中海-DASH 干预神经退行性延迟饮食）已经被多项研究证实与认知健康相关，但具体机制一直不清楚。最新研究提出一个假说：MIND 饮食可能通过保护动脉来预防认知衰退和痴呆。这个发现连接了两条线索——血管健康与大脑功能。如果假说成立，意味着饮食干预不仅能直接作用于大脑，还能通过改善血管系统间接保护认知。对生命延续学的意义：为饮食干预延缓认知衰退提供了可能的生理机制，但目前仍是假说阶段，尚需大规模人群干预研究验证因果关系和适用人群。
+**来源类型**：同行评审期刊(Journal of the International Society of Sports Nutrition) / 人体小样本试验 / 可信度（中）
 
-*来源类型：科学媒体报道 / 证据阶段：机制假说 / 可信度：中*
+![Creatine Protects Lean Mass Even Without Exercise](https://lifespan.io/wp-content/uploads/2026/09/Strength-262x187.jpg)
 
-### 4. [体重过轻患者急诊手术后死亡率高 92%](https://medicalxpress.com/news/2026-09-underweight-patients-higher-odds-death.html)
+---
 
-急诊手术本就风险高，但体重过轻的患者面临的风险更严峻。新研究分析了近 70 万急诊手术患者，发现体重过轻者死亡率比正常体重者高 92%，如果同时存在衰弱状态，风险进一步飙升。这个发现提示：体重过轻不仅是营养不良的标志，更是手术耐受力差的预警信号。对生命延续学的意义：体重过轻和衰弱是可识别的手术风险因素，未来或可通过术前营养干预降低死亡率，但目前尚无干预方案的有效性数据。
+### 3. [天津医科大学：免疫细胞如何连接神经和免疫系统](https://www.news-medical.net/news/20260925/Specialized-immune-cells-bridge-the-nervous-and-immune-systems.aspx)
 
-*来源类型：科学媒体报道 / 证据阶段：大规模人群观察性研究 / 可信度：高*
+天津医科大学周杰教授和刘强教授团队在《Immunity & Inflammation》发表综述，总结了特化免疫细胞如何在神经和免疫系统之间充当桥梁。这类细胞在神经退行性疾病(如阿尔茨海默病)、自身免疫病和慢性炎症中可能发挥关键作用。文章整合了现有研究，但不包含新的实验数据，也没有提供具体干预方案。目前这些发现还停留在机制探索阶段，距离临床应用还很远。
 
-### 5. [城市热岛效应与术后恢复不良相关](https://medicalxpress.com/news/2026-09-urban-islands-linked-worse-recovery.html)
-
-环境温度会影响手术恢复吗？答案是肯定的。新研究分析了近 70 万手术患者，发现生活在城市热岛效应更强区域的患者，术后最佳恢复的可能性更低。城市热岛不仅是环境问题，还可能通过生理应激、睡眠质量下降等途径影响术后康复。对生命延续学的意义：环境因素（如高温暴露）可能是影响术后恢复的可调控风险因素，但目前只是观察性关联，未验证降温干预是否能改善预后。
-
-*来源类型：科学媒体报道 / 证据阶段：大规模人群观察性研究 / 可信度：中*
-
-### 6. [体内 CAR-T 疗法：从定制药到通用药](https://www.news-medical.net/news/20260925/In-vivo-CAR-T-therapy-transforms-customized-treatments-into-universal-medicines.aspx)
-
-传统 CAR-T 疗法需要从患者体内提取细胞、体外改造后再回输，成本高、周期长。体内 CAR-T 疗法试图跳过这一步：直接在体内完成 T 细胞的改造和激活。海军军医大学徐虎基团队联合上海交通大学杨宣明、蔡雨佳团队发表的综述指出，体内 CAR-T 技术有望将定制疗法转变为通用药物，大幅降低成本和治疗门槛。对生命延续学的意义：如果技术成熟，可能让更多患者用上 CAR-T 疗法，但目前仍是综述性文章，尚无大规模临床验证数据。
-
-*来源类型：同行评审期刊综述（Immunity & Inflammation）/ 证据阶段：技术综述 / 可信度：中*
-
-![In vivo CAR-T therapy transforms customized treatments into universal medicines](https://www.news-medical.net/image-handler/picture/2014/7/DNA_Genetics-620x480.jpg)
-
-### 7. [神经系统与免疫系统的桥梁：特化免疫细胞](https://www.news-medical.net/news/20260925/Specialized-immune-cells-bridge-the-nervous-and-immune-systems.aspx)
-
-神经系统和免疫系统如何对话？天津医科大学周杰团队和刘强团队发表的综述揭示了一类特化免疫细胞，它们充当两大系统之间的"翻译官"。这类细胞能感知神经信号，同时调控免疫反应，可能在神经炎症、自身免疫病和神经退行性疾病中发挥关键作用。对生命延续学的意义：理解神经-免疫对话机制，或能为阿尔茨海默病、帕金森病等神经退行性疾病提供新的干预思路，但目前只是综述性总结，尚无具体干预靶点的临床验证。
-
-*来源类型：同行评审期刊综述（Immunity & Inflammation）/ 证据阶段：机制综述 / 可信度：中*
+**来源类型**：学术综述 / 机制探索阶段 / 可信度（中）
 
 ![Specialized immune cells bridge the nervous and immune systems](https://www.news-medical.net/image-handler/picture/2014/7/92036744-620x480.jpg)
 
-### 8. [关于减药，你需要知道的四件事](https://medicalxpress.com/news/2026-09-deprescribing.html)
+---
 
-你上次被医生或药剂师建议停药是什么时候？很多人从没遇到过。但随着年龄增长，多重用药（同时服用 5 种以上药物）变得常见，药物相互作用和副作用风险也随之上升。减药（deprescribing）——在医生指导下停用不再需要或风险大于获益的药物——正成为老年医学的重要议题。这篇文章总结了四个关键点：何时考虑减药、如何评估风险-获益、谁应该参与决策、减药后如何监测。对生命延续学的意义：减药是延长健康寿命的重要策略，但需要个体化评估，不能自行停药。
+### 4. [体内CAR-T疗法：从个性化到通用药物](https://www.news-medical.net/news/20260925/In-vivo-CAR-T-therapy-transforms-customized-treatments-into-universal-medicines.aspx)
 
-*来源类型：科学媒体报道 / 证据阶段：临床实践指南 / 可信度：高*
+海军军医大学徐虎吉教授团队联合上海交大研究者在《Immunity & Inflammation》发表综述，探讨体内CAR-T疗法如何将个性化治疗转化为通用药物。传统CAR-T需要采集患者自己的细胞，体外改造后回输，成本高、周期长。体内CAR-T的思路是直接在患者体内完成细胞改造，理论上可以大幅降低成本。但这只是综述文章，不包含新的临床数据，技术可行性和安全性还需要大量验证。
 
-### 9. [Cambridge Cognition 加入痴呆症诊断活动：数字测试在 AI 时代占据什么位置？](https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLTYzLXpPbGhiVjA1R2lWQk1wNUNENHFxM2NHMmNlaGVnTHlxbWg5UktLdklKRmg1OV9qa3VEdWU5emJMam5MQVNvYjBLbHlBOWpKTF9IZ3R6V1p4ajl0UktQa19xbkVYSzdMR2RhOUF1QXZMVWplV21USlA3MmhCbEUwbGMwOWVmWHJpcVBGamtmZjZLbmE4d1l5Z0JHZ3p1WG5qWlF5QmZNeFpBRXh5Nzc0VVg4MWFzTEdSQW0zSDlkRDJ2U2lUR3VPUlVwTjdkMWxMZHFQQ195YjR0U2pBN0l2SXhFWUZ5U1dpN2cyaVNZdVA1OGMxZGpzWGxDV3p4NTlsVXYxbzA2eXc?oc=5)
+**来源类型**：学术综述 / 概念探索阶段 / 可信度（中）
 
-Cambridge Cognition 本周参与了痴呆症诊断相关活动，聚焦数字认知测试在 AI 时代的角色。随着 AI 影像分析、生物标志物检测等技术的发展，传统数字认知测试（如记忆、注意力、执行功能测试）会被取代吗？不一定。数字测试成本低、可远程部署、能动态监测，适合大规模筛查和长期追踪。AI 可以增强测试的解读能力，但不太可能完全替代。对生命延续学的意义：数字认知测试可作为痴呆早期筛查工具，与 AI 结合后或能提高诊断效率，但目前尚无详细技术方案或临床验证数据。
-
-*来源类型：新闻报道 / 证据阶段：行业动态 / 可信度：低*
+![In vivo CAR-T therapy transforms customized treatments into universal medicines](https://www.news-medical.net/image-handler/picture/2014/7/DNA_Genetics-620x480.jpg)
 
 ---
 
-## **📌 值得关注（5条）**
+### 5. [更年期留下的"指纹"可能预测痴呆风险](https://medicalxpress.com/news/2026-09-menopause-fingerprint-dementia.html)
 
-**[研究]** [体重过轻 + 衰弱：急诊手术的双重风险](https://medicalxpress.com/news/2026-09-underweight-patients-higher-odds-death.html) - 体重过轻和衰弱叠加时，急诊手术死亡风险进一步上升，提示术前评估需关注这两个指标
+女性在更年期常报告潮热、焦虑、脑雾和睡眠障碍，这些症状都能追溯到大脑变化。新研究提示，更年期可能在大脑中留下某种"指纹"，这种变化可能与痴呆风险相关。但目前只是观察性关联，不知道哪些具体的生物标志物或脑结构改变能预测痴呆，也不知道干预更年期症状能否降低痴呆风险。文章缺乏原始研究链接和具体数据，无法核实证据强度。
 
-**[研究]** [城市热岛效应影响手术恢复](https://medicalxpress.com/news/2026-09-urban-islands-linked-worse-recovery.html) - 近 70 万患者数据显示，高温暴露区域居民术后最佳恢复率更低，环境因素或是可调控的预后影响因子
-
-**[研究]** [中年衰老速度预测晚年记忆](https://medicalxpress.com/news/2026-09-quickly-people-age-midlife-memory.html) - 宾州州立研究提示中年衰老加速者十年后记忆缺陷风险更高，中年或是干预关键窗口期
-
-**[研究]** [MIND 饮食的动脉保护机制](https://medicalxpress.com/news/2026-09-mind-diet-aging-brains.html) - 新研究提出 MIND 饮食可能通过保护动脉延缓认知衰退，为饮食干预提供了生理机制假说
-
-**[其他]** [减药：老年医学的重要议题](https://medicalxpress.com/news/2026-09-deprescribing.html) - 多重用药风险上升，减药需要医生指导下个体化评估，不能自行停药
+**来源类型**：科技媒体报道 / 观察性关联 / 可信度（低）
 
 ---
 
-## **🔮 AI生命科学趋势预测（4条）**
+### 6. [MIND饮食通过保护动脉延缓认知衰退](https://medicalxpress.com/news/2026-09-mind-diet-aging-brains.html)
 
-### 体内 CAR-T 疗法进入临床试验
-- **预测时间**：2026年第四季度
-- **预测概率**：70%
-- **预测依据**：今日综述[体内 CAR-T 疗法](https://www.news-medical.net/news/20260925/In-vivo-CAR-T-therapy-transforms-customized-treatments-into-universal-medicines.aspx) + 近期多个团队公布技术进展，行业对通用 CAR-T 疗法需求强烈，预计年内有首个临床试验启动
+MIND饮食(地中海-DASH干预神经退行性延缓饮食)是一种已知的健康大脑饮食。新研究显示，它可能通过保护动脉来延缓认知衰退和痴呆。但文章没有提供研究规模、随访时间和具体机制细节，也没有原始论文链接。目前只能说这是一个观察性关联，不能确定因果关系，也不知道饮食干预能在多大程度上逆转已有的动脉损伤。
 
-### 神经-免疫对话机制的靶向药物进入研发
-- **预测时间**：2026年11月
-- **预测概率**：60%
-- **预测依据**：今日综述[神经免疫细胞桥梁](https://www.news-medical.net/news/20260925/Specialized-immune-cells-bridge-the-nervous-and-immune-systems.aspx) + 神经退行性疾病新靶点需求迫切，预计有制药公司宣布针对该机制的药物研发计划
+**来源类型**：科技媒体报道 / 观察性关联 / 可信度（低）
 
-### 脑损伤患者胶质瘤风险评估工具上线
-- **预测时间**：2027年第一季度
+---
+
+### 7. [1型树突状细胞功能丧失的统一原因](https://www.fightaging.org/archives/2026/09/a-unified-cause-for-loss-of-type-1-dendritic-cell-function-in-aging-cancer-and-chronic-infection/)
+
+1型传统树突状细胞(cDC1)是免疫系统对抗癌细胞和病原体的关键成分，但它们在衰老、癌症和慢性感染中功能都会下降。新研究提出了一个统一的分子链解释：衰老相关分泌表型(SASP)细胞因子→激活STAT3→招募DNMT1和EZH2→IRF8基因座双重甲基化→IL-12转录崩溃→cDC1功能丧失。研究者提出，现有的部分干预(DNMT抑制剂、EZH2抑制剂等)只能部分恢复功能,因为它们只针对单个节点。他们建议用体外制造的α-DC1细胞疗法绕过这个问题。这是一个有说服力的框架,但还需要更多实验验证。
+
+**来源类型**：研究综述 / 机制探索+细胞疗法提案 / 可信度(中)
+
+---
+
+### 8. [中年衰老速度预测10年后的记忆力](https://medicalxpress.com/news/2026-09-quickly-people-age-midlife-memory.html)
+
+宾夕法尼亚州立大学的研究发现，中年时期衰老速度更快的人，10年后更容易出现记忆力下降。研究发表在《老年学杂志:生物科学与医学科学》上。但文章没有说明衰老速度是如何测量的(生物年龄时钟?表观遗传标志物?),也没有提供样本量和具体的记忆测试结果。目前只能说这是一个观察性关联,不能确定因果关系,也不知道干预中年衰老速度能否改善未来的认知功能。
+
+**来源类型**：科技媒体报道 / 观察性关联 / 可信度(低)
+
+---
+
+### 9. [膀胱细胞如何对抗隐藏的大肠杆菌:UTI复发的新见解](https://www.genengnews.com/topics/infectious-diseases/how-bladder-cells-fight-hidden-e-coli-new-insights-into-recurrent-utis/)
+
+瑞士洛桑联邦理工学院(EPFL)的研究发现,OM-89(商品名Uro-Vaxom)不仅能刺激免疫系统,还能直接作用于膀胱细胞,增强它们的溶酶体降解能力,同时增加抗生素在细胞内的积累。研究发表在《PLOS Pathogens》上,使用了小鼠和人类膀胱上皮细胞的类器官模型。OM-89已经使用了几十年来预防复发性UTI,新研究揭示了它的第二个作用机制。但这是临床前研究,不改变Uro-Vaxom的批准适应症或使用方式,也不能确定这种机制在人体中的实际效果。
+
+**来源类型**：同行评审期刊(PLOS Pathogens) / 细胞和类器官模型 / 可信度(中)
+
+---
+
+### 10. [中风重塑肿瘤微环境,促进胶质瘤生长](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/)
+
+贝勒医学院的研究发现,中风会促进胶质瘤(恶性脑肿瘤)生长。研究发表在《Nature Cancer》上,使用了小鼠和人类模型。中风会诱导肿瘤微环境重塑,出现一种独特的肿瘤相关星形胶质细胞(TAAs),它们的Ca2+活性降低,同时肿瘤相关小胶质细胞和巨噬细胞(TAMs)富集。恢复TAA的Ca2+信号或清除TAMs,可以抑制中风诱导的胶质瘤进展。这解释了为什么中风或脑损伤患者的脑肿瘤风险增加3-7倍。研究指向了潜在的治疗靶点,但距离临床应用还很远。
+
+**来源类型**：同行评审期刊(Nature Cancer) / 小鼠和人类模型 / 可信度(高)
+
+---
+
+## **📌 值得关注**
+
+**[产品]**
+- [Thar Process与ExtrateX合作,将制备到工艺规模SFC带到欧洲](https://www.genengnews.com/topics/bioprocessing/thar-process-partners-with-extratex-to-bring-prep-to-process-scale-sfc-to-europe/) - 超临界CO2纯化技术用于药物API、肽类(GLP-1等)和天然产物纯化,2027年1月生效
+
+**[研究]**
+- [体重过轻的患者在急诊手术后死亡几率高92%](https://medicalxpress.com/news/2026-09-underweight-patients-higher-odds-death.html) - 体重过轻+虚弱的患者风险更高,涉及近70万患者数据
+- [城市热岛与大手术后恢复较差有关](https://medicalxpress.com/news/2026-09-urban-islands-linked-worse-recovery.html) - 近70万患者数据显示,生活在高温城区的患者术后恢复不理想
+
+**[其他]**
+- [关于去处方药你需要知道的四件事](https://medicalxpress.com/news/2026-09-deprescribing.html) - 医生很少主动建议停药,但这是老年人安全用药的重要环节
+
+---
+
+## **📎 今日可引用要点**
+
+### 1. ARPA-H资助常温细胞疗法研发
+**事实结论**：美国先进研究计划署(ARPA-H)向加州大学戴维斯分校提供最多3650万美元资助,目标是开发常温储存细胞疗法技术,以降低CAR-T等疗法的成本和提高可及性。  
+**原始来源**：[New project aims to make cellular therapies more accessible through room temperature storage](https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx)  
+**证据边界**：项目刚刚启动,技术路径和可行性还需要验证,距离实际应用还有很长一段路。目前不能确定常温储存技术是否可行,也不能确定成本能降低多少。
+
+---
+
+### 2. 中风与胶质瘤生长的机制联系
+**事实结论**：贝勒医学院研究发现,中风会重塑肿瘤微环境,促进胶质瘤生长。恢复肿瘤相关星形胶质细胞的Ca2+信号或清除肿瘤相关巨噬细胞,可以抑制中风诱导的胶质瘤进展。  
+**原始来源**：[Stroke Remodels Tumor Microenvironment to Promote Glioma Growth](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/), 发表于Nature Cancer  
+**证据边界**：研究使用小鼠和人类模型,但尚未在临床试验中验证。目前不能确定针对这些靶点的干预在人体中是否有效,也不能确定这种干预能否预防中风后的脑肿瘤发生。
+
+---
+
+### 3. 肌酸补充对中老年人肌肉量的保护作用
+**事实结论**：德州农工大学研究发现,中老年人(45-65岁)每天补充10克肌酸,12周后即使不运动也能增加瘦体重,运动+肌酸组体脂下降3.24%。  
+**原始来源**：[Creatine Protects Lean Mass Even Without Exercise](https://lifespan.io/creatine-protects-lean-mass-even-without-exercise/), 发表于Journal of the International Society of Sports Nutrition  
+**证据边界**：研究纳入64人,样本量较小。DXA测量的"瘦体重"包含水分,肌酸会增加体内水分,所以增加的不全是肌肉。认知测试结果不一致,没有显示出广泛的认知改善。目前不能确定长期补充肌酸的安全性和效果。
+
+---
+
+## **🔮 AI生命科学趋势预测**
+
+### 常温细胞疗法技术突破
+- **预测时间**：2027年Q1-Q2
 - **预测概率**：55%
-- **预测依据**：今日研究[脑卒中促进胶质瘤生长](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/) + 研究揭示了明确的细胞和分子机制，临床有动力开发基于 TAA 和 TAM 标志物的风险评估工具
+- **预测依据**：今日新闻[ARPA-H投入3650万美元开发常温储存细胞疗法](https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx) + ARPA-H项目通常在1-2年内产生初步成果,加州大学戴维斯分校在细胞疗法领域有深厚积累
 
-### 中年衰老速度成为保险和健康管理的评估指标
-- **预测时间**：2027年第一季度
+### 体内CAR-T疗法首个临床试验启动
+- **预测时间**：2027年Q2
 - **预测概率**：65%
-- **预测依据**：今日研究[中年衰老预测记忆](https://medicalxpress.com/news/2026-09-quickly-people-age-midlife-memory.html) + 生物年龄和衰老速度已成为健康管理热点，预计保险和体检机构会将其纳入评估体系
+- **预测依据**：今日新闻[海军军医大学团队发表体内CAR-T综述](https://www.news-medical.net/news/20260925/In-vivo-CAR-T-therapy-transforms-customized-treatments-into-universal-medicines.aspx) + 近期多个团队在体内基因编辑领域取得进展,技术可行性正在提高
+
+### 中风后脑肿瘤预防指南更新
+- **预测时间**：2027年Q1
+- **预测概率**：45%
+- **预测依据**：今日新闻[贝勒医学院揭示中风促进胶质瘤生长机制](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/) + 临床证据显示中风患者脑肿瘤风险增加3-7倍,可能促使医学界更新中风后监测指南
