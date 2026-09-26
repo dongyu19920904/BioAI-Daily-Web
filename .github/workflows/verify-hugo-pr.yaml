@@ -1,0 +1,34 @@
+name: Verify Hugo pull request
+
+on:
+  pull_request:
+    paths:
+      - 'hugo.yaml'
+      - 'layouts/**'
+      - 'content/**'
+      - 'static/data/opportunities/**'
+      - '.github/workflows/verify-hugo-pr.yaml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+      - name: Install Hugo
+        run: |
+          wget -O "${RUNNER_TEMP}/hugo.deb" https://github.com/gohugoio/hugo/releases/download/v0.147.9/hugo_extended_0.147.9_linux-amd64.deb
+          sudo dpkg -i "${RUNNER_TEMP}/hugo.deb"
+      - name: Build
+        run: hugo --minify --baseURL https://news.aibioo.cn/
+      - name: Check public warning and status
+        run: |
+          grep -Fq '核验提醒' public/opportunity/2026-09/2026-09-26/index.html
+          grep -Fq '来源待核验' public/opportunity-status/index.html

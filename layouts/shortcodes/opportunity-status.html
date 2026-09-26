@@ -1,0 +1,31 @@
+{{- range $section := slice "opportunity" "project-opportunity" -}}
+  {{- $path := printf "static/data/opportunities/%s" $section -}}
+  <section class="hx:my-8">
+    <h2>{{ if eq $section "opportunity" }}商机日报{{ else }}项目商机{{ end }}</h2>
+    {{- $files := os.ReadDir $path -}}
+    {{- $jsonFiles := where $files "Name" "like" `\.json$` -}}
+      {{- if eq (len $jsonFiles) 0 -}}
+        <p>尚无机器核验记录，不能判定已通过审核。</p>
+      {{- else -}}
+        {{- $latest := index (last 1 $jsonFiles) 0 -}}
+        {{- $jsonPath := printf "%s/%s" $path $latest.Name -}}
+        {{- $report := transform.Unmarshal (os.ReadFile $jsonPath) -}}
+        <p>最近记录：{{ $report.report_date }} · <a href="{{ printf "/data/opportunities/%s/%s" $section $latest.Name | relURL }}">下载 JSON</a>{{ with $report.source_page }} · <a href="{{ . | relURL }}">阅读原文</a>{{ end }}</p>
+        {{- if eq (len $report.opportunities) 0 -}}
+          <p>当天没有符合条件的主推项目；不能把它解释为已验证的机会。</p>
+        {{- else -}}
+          <ul>
+            {{- range $report.opportunities -}}
+              <li>
+                <strong>{{ .title }}</strong>：
+                {{ if .source_verified }}来源元数据已初核{{ else }}来源待核验{{ end }}；
+                {{ if .demand_verified }}需求有行为证据{{ else }}需求未验证{{ end }}；
+                状态 {{ .state }}{{ with .state_reason }}（{{ . }}）{{ end }}。
+                {{- with .source_urls }} 来源：{{ range . }}<a href="{{ . }}" rel="noopener noreferrer">原始链接</a> {{ end }}{{ end }}
+              </li>
+            {{- end -}}
+          </ul>
+        {{- end -}}
+    {{- end -}}
+  </section>
+{{- end -}}

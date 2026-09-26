@@ -1,0 +1,20 @@
+{{- $section := .Section -}}
+{{- if or (eq $section "opportunity") (eq $section "project-opportunity") -}}
+  {{- $date := .Date.Format "2006-01-02" -}}
+  {{- $path := printf "static/data/opportunities/%s/%s.json" $section $date -}}
+  {{- if os.FileExists $path -}}
+    {{- $report := transform.Unmarshal (os.ReadFile $path) -}}
+    {{- $unverified := false -}}
+    {{- range $report.opportunities -}}
+      {{- if not .source_verified -}}
+        {{- $unverified = true -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $unverified -}}
+      <aside role="note" class="hx:mt-6 hx:rounded-xl hx:border hx:border-amber-400 hx:bg-amber-50 hx:p-4 hx:text-sm hx:text-amber-950 hx:dark:bg-amber-950 hx:dark:text-amber-100">
+        <strong>核验提醒：</strong>本页至少一条主推线索尚未核实原始来源。涉及健康效果、商业需求或收费建议的表述只能视为待验证假设，不能据此决定用药、购买或投资。
+        <a class="hx:underline" href="{{ "/opportunity-status/" | relLangURL }}">查看逐项核验状态</a>。
+      </aside>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

@@ -11,6 +11,7 @@
           {{ if $isGeoReport }}
             {{ partial "custom/geo-citation-note.html" . }}
           {{ end }}
+          {{ partial "custom/opportunity-source-warning.html" . }}
           {{ .Content }}
         </div>
         {{ if not $isGeoReport }}
