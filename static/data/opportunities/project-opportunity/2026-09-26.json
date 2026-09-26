@@ -8,28 +8,27 @@
   "opportunities": [
     {
       "schema_version": 1,
-      "opportunity_id": "opp_abec3f8f7df66c0c",
+      "opportunity_id": "opp_a07c4f698979ac76",
       "report_date": "2026-09-26",
       "report_section": "project-opportunity",
-      "title": "肌酸保持瘦体重研究 — 可做内容拆解与资料库条目",
+      "title": "肌酸保护瘦体重研究(无运动干预)",
       "source_urls": [
         "https://lifespan.io/creatine-protects-lean-mass-even-without-exercise/"
       ],
       "source_verified": false,
       "state": "needs_primary_source",
       "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
-      "target_user": "长寿内容读者、健康管理从业者、关注肌少症和体重管理的中老年人群、独立健康博主",
+      "target_user": "长寿内容读者、抗衰老自媒体运营者、健康管理从业者、sarcopenic obesity 关注者",
       "demand_claim": null,
       "demand_verified": false,
-      "deliverable_hint": "3 条要点总结(研究对象、主要发现、局限)/ 一张对比表(肌酸剂量、研究人群、效果指标)/ 一条小红书选题草稿 / 资料库 Markdown 条目",
+      "deliverable_hint": "3 条研究要点 / 肌酸文献对比表 / 小红书/朋友圈选题\"肌酸能不能不练也长肌肉\" / 补充剂资料库新条目",
       "suggested_route": "structured_resource",
       "risk_flags": [
-        "health_claim_review",
-        "commercial_hypothesis"
+        "health_claim_review"
       ],
       "hypotheses": {
-        "success_metric": "24 小时内完成要点整理,获得 5+ 点赞或 2+ 咨询;或成功补充到长寿资料库并被其他栏目引用",
-        "stop_condition": "如果原始论文是预印本、动物实验或样本量 <30 人的观察性研究,必须在标题和正文明确标注;如果找不到原始论文或数据来源不明,暂停内容发布",
+        "success_metric": "24 小时内找到原始论文、确认研究类型(RCT / 观察性 / 综述)、写出 3 条可引用要点、发布 1 条选题或资料库条目",
+        "stop_condition": "原始论文无法获取、研究为预印本或小样本观察性研究且无法确认质量、结论与报道严重不符",
         "upgrade_path": null
       },
       "primary_source_candidates": []
@@ -37,16 +36,16 @@
   ],
   "tasks": [
     {
-      "task_id": "opp_abec3f8f7df66c0c:discover_primary_source",
-      "opportunity_id": "opp_abec3f8f7df66c0c",
+      "task_id": "opp_a07c4f698979ac76:discover_primary_source",
+      "opportunity_id": "opp_a07c4f698979ac76",
       "kind": "discover_primary_source",
       "status": "pending_automation",
       "description_zh": "自动继续检索一手论文、试验或机构来源",
       "depends_on": []
     },
     {
-      "task_id": "opp_abec3f8f7df66c0c:validate_demand",
-      "opportunity_id": "opp_abec3f8f7df66c0c",
+      "task_id": "opp_a07c4f698979ac76:validate_demand",
+      "opportunity_id": "opp_a07c4f698979ac76",
       "kind": "validate_demand",
       "status": "pending_automation",
       "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
