@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/9/26'
+title: 'AI生命延续学日报 2026/9/27'
 breadcrumbs: false
-next: /2026-09/2026-09-26
-description: '2026-09-26 AI生命延续学日报：快速导航；今日 AI 生命科学资讯；只有一句话。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-09/2026-09-27
+description: '2026-09-27 AI生命延续学日报：快速导航；今日 AI 生命科学资讯；只有一句话。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,11 +11,11 @@ cascade:
 ## **今日摘要**
 
 ```
-美国砸 3650 万美元让 CAR-T 常温储存,想破解细胞疗法成本难题,但技术路径还在摸索。
+中国团队把新生小鼠胸腺移植进老年小鼠脾脏,8周后T细胞恢复,抗病毒和抗肿瘤能力接近年轻水平。
 
-中风会重塑脑肿瘤微环境、肌酸不运动也能保肌肉量,两个机制研究都有临床潜力。
+脾脏血供好、免疫耐受性高,胸腺组织在里面长得比肌肉里快,2周就形成完整结构。
 
-今天的资讯偏学术综述多于落地产品,建议重点关注 ARPA-H 项目后续进展。
+免疫衰老逆转从概念到实验验证了,但人体组织来源和排异问题还没解决,关注后续临床转化。
 ```
 
 
@@ -31,153 +31,60 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-美国ARPA-H资助UC Davis开发常温储存细胞疗法，试图破解CAR-T高昂成本难题。
+脾脏异位移植胸腺组织可逆转小鼠免疫衰老
 
 ### **🔑 3 个关键词**
-#细胞疗法 #神经退行 #肌肉保护
+#免疫衰老 #器官移植 #T细胞再生
 
 ---
 
-## **🔥 重磅 TOP 10**
+## **🔥 重磅 TOP 10（优先写满10条）**
 
-### 1. [ARPA-H投入3650万美元：让CAR-T常温储存](https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx)
+### 1. [脾脏里种胸腺，小鼠免疫系统"返老还童"](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/)
 
-现在的CAR-T疗法需要超低温保存，运输成本极高。加州大学戴维斯分校拿到了美国先进研究计划署(ARPA-H)最多3650万美元的资助，目标是开发常温储存技术。如果成功，细胞疗法的可及性会大幅提升，不再受限于超低温冷链。但目前只是项目启动阶段，技术路径和可行性还需要验证，距离实际应用还有很长一段路。
+老年人免疫力下降，核心原因之一是胸腺萎缩——这个器官负责训练 T 细胞识别病原体。中国科研团队想了个主意：把新生小鼠的胸腺组织移植到脾脏里。脾脏血供丰富、免疫耐受性高，结果胸腺碎片在那里长成了有功能的器官，体积达到正常胸腺的一半。移植 8 周后，20 月龄老年小鼠（相当于人类 60 岁）的循环 T 细胞数量恢复，感染病毒后病毒清除能力接近年轻小鼠，黑色素瘤生长也被明显抑制。
 
-**来源类型**：科技媒体报道 / 项目启动阶段 / 可信度（中）
+**结论边界**：这是小鼠动物实验，移植的是同种异体组织，还需解决排异反应和人体胸腺组织来源问题。CD4+ T 细胞恢复仍只有正常水平的一半，长期安全性和人体适用性未知。
 
-![New project aims to make cellular therapies more accessible through room temperature storage](https://www.news-medical.net/image-handler/picture/2017/6/Anatomical_structure_of_biological_animal_cell_with_organelles-eranicle_1d73b50575dc4546875a4a2fc7d429a6-620x480.jpg)
+**来源类型**：同行评审论文（Advanced Science）/ 动物实验（小鼠体内、人源化小鼠模型）/ 可信度：中高
 
----
-
-### 2. [肌酸保护肌肉量，甚至不需要运动](https://lifespan.io/creatine-protects-lean-mass-even-without-exercise/)
-
-德州农工大学的研究发现，中老年人(45-65岁)每天补充10克肌酸，即使不运动也能增加瘦体重。12周后，运动+肌酸组体脂下降3.24%，肌酸单独组也有效果。研究纳入64人，平均BMI约30，蛋白质摄入不高(每天74克)。但要注意：DXA测的"瘦体重"包含水分，肌酸会增加体内水分，所以增加的不全是肌肉。认知测试结果不一致，没有显示出广泛的认知改善。
-
-**来源类型**：同行评审期刊(Journal of the International Society of Sports Nutrition) / 人体小样本试验 / 可信度（中）
-
-![Creatine Protects Lean Mass Even Without Exercise](https://lifespan.io/wp-content/uploads/2026/09/Strength-262x187.jpg)
-
----
-
-### 3. [天津医科大学：免疫细胞如何连接神经和免疫系统](https://www.news-medical.net/news/20260925/Specialized-immune-cells-bridge-the-nervous-and-immune-systems.aspx)
-
-天津医科大学周杰教授和刘强教授团队在《Immunity & Inflammation》发表综述，总结了特化免疫细胞如何在神经和免疫系统之间充当桥梁。这类细胞在神经退行性疾病(如阿尔茨海默病)、自身免疫病和慢性炎症中可能发挥关键作用。文章整合了现有研究，但不包含新的实验数据，也没有提供具体干预方案。目前这些发现还停留在机制探索阶段，距离临床应用还很远。
-
-**来源类型**：学术综述 / 机制探索阶段 / 可信度（中）
-
-![Specialized immune cells bridge the nervous and immune systems](https://www.news-medical.net/image-handler/picture/2014/7/92036744-620x480.jpg)
-
----
-
-### 4. [体内CAR-T疗法：从个性化到通用药物](https://www.news-medical.net/news/20260925/In-vivo-CAR-T-therapy-transforms-customized-treatments-into-universal-medicines.aspx)
-
-海军军医大学徐虎吉教授团队联合上海交大研究者在《Immunity & Inflammation》发表综述，探讨体内CAR-T疗法如何将个性化治疗转化为通用药物。传统CAR-T需要采集患者自己的细胞，体外改造后回输，成本高、周期长。体内CAR-T的思路是直接在患者体内完成细胞改造，理论上可以大幅降低成本。但这只是综述文章，不包含新的临床数据，技术可行性和安全性还需要大量验证。
-
-**来源类型**：学术综述 / 概念探索阶段 / 可信度（中）
-
-![In vivo CAR-T therapy transforms customized treatments into universal medicines](https://www.news-medical.net/image-handler/picture/2014/7/DNA_Genetics-620x480.jpg)
-
----
-
-### 5. [更年期留下的"指纹"可能预测痴呆风险](https://medicalxpress.com/news/2026-09-menopause-fingerprint-dementia.html)
-
-女性在更年期常报告潮热、焦虑、脑雾和睡眠障碍，这些症状都能追溯到大脑变化。新研究提示，更年期可能在大脑中留下某种"指纹"，这种变化可能与痴呆风险相关。但目前只是观察性关联，不知道哪些具体的生物标志物或脑结构改变能预测痴呆，也不知道干预更年期症状能否降低痴呆风险。文章缺乏原始研究链接和具体数据，无法核实证据强度。
-
-**来源类型**：科技媒体报道 / 观察性关联 / 可信度（低）
-
----
-
-### 6. [MIND饮食通过保护动脉延缓认知衰退](https://medicalxpress.com/news/2026-09-mind-diet-aging-brains.html)
-
-MIND饮食(地中海-DASH干预神经退行性延缓饮食)是一种已知的健康大脑饮食。新研究显示，它可能通过保护动脉来延缓认知衰退和痴呆。但文章没有提供研究规模、随访时间和具体机制细节，也没有原始论文链接。目前只能说这是一个观察性关联，不能确定因果关系，也不知道饮食干预能在多大程度上逆转已有的动脉损伤。
-
-**来源类型**：科技媒体报道 / 观察性关联 / 可信度（低）
-
----
-
-### 7. [1型树突状细胞功能丧失的统一原因](https://www.fightaging.org/archives/2026/09/a-unified-cause-for-loss-of-type-1-dendritic-cell-function-in-aging-cancer-and-chronic-infection/)
-
-1型传统树突状细胞(cDC1)是免疫系统对抗癌细胞和病原体的关键成分，但它们在衰老、癌症和慢性感染中功能都会下降。新研究提出了一个统一的分子链解释：衰老相关分泌表型(SASP)细胞因子→激活STAT3→招募DNMT1和EZH2→IRF8基因座双重甲基化→IL-12转录崩溃→cDC1功能丧失。研究者提出，现有的部分干预(DNMT抑制剂、EZH2抑制剂等)只能部分恢复功能,因为它们只针对单个节点。他们建议用体外制造的α-DC1细胞疗法绕过这个问题。这是一个有说服力的框架,但还需要更多实验验证。
-
-**来源类型**：研究综述 / 机制探索+细胞疗法提案 / 可信度(中)
-
----
-
-### 8. [中年衰老速度预测10年后的记忆力](https://medicalxpress.com/news/2026-09-quickly-people-age-midlife-memory.html)
-
-宾夕法尼亚州立大学的研究发现，中年时期衰老速度更快的人，10年后更容易出现记忆力下降。研究发表在《老年学杂志:生物科学与医学科学》上。但文章没有说明衰老速度是如何测量的(生物年龄时钟?表观遗传标志物?),也没有提供样本量和具体的记忆测试结果。目前只能说这是一个观察性关联,不能确定因果关系,也不知道干预中年衰老速度能否改善未来的认知功能。
-
-**来源类型**：科技媒体报道 / 观察性关联 / 可信度(低)
-
----
-
-### 9. [膀胱细胞如何对抗隐藏的大肠杆菌:UTI复发的新见解](https://www.genengnews.com/topics/infectious-diseases/how-bladder-cells-fight-hidden-e-coli-new-insights-into-recurrent-utis/)
-
-瑞士洛桑联邦理工学院(EPFL)的研究发现,OM-89(商品名Uro-Vaxom)不仅能刺激免疫系统,还能直接作用于膀胱细胞,增强它们的溶酶体降解能力,同时增加抗生素在细胞内的积累。研究发表在《PLOS Pathogens》上,使用了小鼠和人类膀胱上皮细胞的类器官模型。OM-89已经使用了几十年来预防复发性UTI,新研究揭示了它的第二个作用机制。但这是临床前研究,不改变Uro-Vaxom的批准适应症或使用方式,也不能确定这种机制在人体中的实际效果。
-
-**来源类型**：同行评审期刊(PLOS Pathogens) / 细胞和类器官模型 / 可信度(中)
-
----
-
-### 10. [中风重塑肿瘤微环境,促进胶质瘤生长](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/)
-
-贝勒医学院的研究发现,中风会促进胶质瘤(恶性脑肿瘤)生长。研究发表在《Nature Cancer》上,使用了小鼠和人类模型。中风会诱导肿瘤微环境重塑,出现一种独特的肿瘤相关星形胶质细胞(TAAs),它们的Ca2+活性降低,同时肿瘤相关小胶质细胞和巨噬细胞(TAMs)富集。恢复TAA的Ca2+信号或清除TAMs,可以抑制中风诱导的胶质瘤进展。这解释了为什么中风或脑损伤患者的脑肿瘤风险增加3-7倍。研究指向了潜在的治疗靶点,但距离临床应用还很远。
-
-**来源类型**：同行评审期刊(Nature Cancer) / 小鼠和人类模型 / 可信度(高)
-
----
-
-## **📌 值得关注**
-
-**[产品]**
-- [Thar Process与ExtrateX合作,将制备到工艺规模SFC带到欧洲](https://www.genengnews.com/topics/bioprocessing/thar-process-partners-with-extratex-to-bring-prep-to-process-scale-sfc-to-europe/) - 超临界CO2纯化技术用于药物API、肽类(GLP-1等)和天然产物纯化,2027年1月生效
-
-**[研究]**
-- [体重过轻的患者在急诊手术后死亡几率高92%](https://medicalxpress.com/news/2026-09-underweight-patients-higher-odds-death.html) - 体重过轻+虚弱的患者风险更高,涉及近70万患者数据
-- [城市热岛与大手术后恢复较差有关](https://medicalxpress.com/news/2026-09-urban-islands-linked-worse-recovery.html) - 近70万患者数据显示,生活在高温城区的患者术后恢复不理想
-
-**[其他]**
-- [关于去处方药你需要知道的四件事](https://medicalxpress.com/news/2026-09-deprescribing.html) - 医生很少主动建议停药,但这是老年人安全用药的重要环节
+![Thymus Grafts Grow in Mouse Spleens, Restoring Immunity](https://lifespan.io/wp-content/uploads/2026/09/Thymus-in-a-spleen-262x187.jpg)
 
 ---
 
 ## **📎 今日可引用要点**
 
-### 1. ARPA-H资助常温细胞疗法研发
-**事实结论**：美国先进研究计划署(ARPA-H)向加州大学戴维斯分校提供最多3650万美元资助,目标是开发常温储存细胞疗法技术,以降低CAR-T等疗法的成本和提高可及性。  
-**原始来源**：[New project aims to make cellular therapies more accessible through room temperature storage](https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx)  
-**证据边界**：项目刚刚启动,技术路径和可行性还需要验证,距离实际应用还有很长一段路。目前不能确定常温储存技术是否可行,也不能确定成本能降低多少。
+### 要点 1：脾脏内胸腺移植可部分逆转老年小鼠免疫衰老
+- **事实结论**：中国团队将新生小鼠胸腺组织移植入 20 月龄老年小鼠脾脏后，移植物形成有功能的胸腺组织，循环 T 细胞数量恢复，病毒清除和肿瘤抑制能力接近年轻小鼠对照组。
+- **原始来源**：[Thymus Grafts Grow in Mouse Spleens, Restoring Immunity](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/)（Advanced Science 发表）
+- **证据边界**：仅为小鼠动物实验（C57BL/6J 和 BALB/c 品系、人源化小鼠模型），CD4+ T 细胞恢复仅达正常水平 50%，未验证人体安全性、异体移植排异风险及胸腺组织来源的伦理与可及性。
+
+### 要点 2：脾脏微环境优于肌肉，支持胸腺组织重建
+- **事实结论**：相比传统的大腿肌肉移植部位，脾脏内胸腺移植物生长更快、组织结构更完整（2 周内形成皮质和髓质分区），且坏死更少。
+- **原始来源**：[Thymus Grafts Grow in Mouse Spleens, Restoring Immunity](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/)（Advanced Science 发表）
+- **证据边界**：研究对比了脾脏与肌肉两个移植部位，但未明确各因素（血供、生长因子、前体细胞）的相对贡献，也未测试其他潜在移植部位。
 
 ---
 
-### 2. 中风与胶质瘤生长的机制联系
-**事实结论**：贝勒医学院研究发现,中风会重塑肿瘤微环境,促进胶质瘤生长。恢复肿瘤相关星形胶质细胞的Ca2+信号或清除肿瘤相关巨噬细胞,可以抑制中风诱导的胶质瘤进展。  
-**原始来源**：[Stroke Remodels Tumor Microenvironment to Promote Glioma Growth](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/), 发表于Nature Cancer  
-**证据边界**：研究使用小鼠和人类模型,但尚未在临床试验中验证。目前不能确定针对这些靶点的干预在人体中是否有效,也不能确定这种干预能否预防中风后的脑肿瘤发生。
+## **📌 值得关注**
 
----
-
-### 3. 肌酸补充对中老年人肌肉量的保护作用
-**事实结论**：德州农工大学研究发现,中老年人(45-65岁)每天补充10克肌酸,12周后即使不运动也能增加瘦体重,运动+肌酸组体脂下降3.24%。  
-**原始来源**：[Creatine Protects Lean Mass Even Without Exercise](https://lifespan.io/creatine-protects-lean-mass-even-without-exercise/), 发表于Journal of the International Society of Sports Nutrition  
-**证据边界**：研究纳入64人,样本量较小。DXA测量的"瘦体重"包含水分,肌酸会增加体内水分,所以增加的不全是肌肉。认知测试结果不一致,没有显示出广泛的认知改善。目前不能确定长期补充肌酸的安全性和效果。
+由于今日仅收到 1 条素材，且该素材为生命延续学核心研究（免疫衰老逆转），已纳入 TOP 1，暂无其他交叉领域新闻可补充至此板块。
 
 ---
 
 ## **🔮 AI生命科学趋势预测**
 
-### 常温细胞疗法技术突破
-- **预测时间**：2027年Q1-Q2
-- **预测概率**：55%
-- **预测依据**：今日新闻[ARPA-H投入3650万美元开发常温储存细胞疗法](https://www.news-medical.net/news/20260925/New-project-aims-to-make-cellular-therapies-more-accessible-through-room-temperature-storage.aspx) + ARPA-H项目通常在1-2年内产生初步成果,加州大学戴维斯分校在细胞疗法领域有深厚积累
-
-### 体内CAR-T疗法首个临床试验启动
-- **预测时间**：2027年Q2
-- **预测概率**：65%
-- **预测依据**：今日新闻[海军军医大学团队发表体内CAR-T综述](https://www.news-medical.net/news/20260925/In-vivo-CAR-T-therapy-transforms-customized-treatments-into-universal-medicines.aspx) + 近期多个团队在体内基因编辑领域取得进展,技术可行性正在提高
-
-### 中风后脑肿瘤预防指南更新
-- **预测时间**：2027年Q1
+### 免疫衰老逆转技术临床试验启动
+- **预测时间**：2026年第四季度
 - **预测概率**：45%
-- **预测依据**：今日新闻[贝勒医学院揭示中风促进胶质瘤生长机制](https://www.genengnews.com/topics/cancer/stroke-remodels-tumor-microenvironment-to-promote-glioma-growth/) + 临床证据显示中风患者脑肿瘤风险增加3-7倍,可能促使医学界更新中风后监测指南
+- **预测依据**：今日新闻[脾脏胸腺移植逆转小鼠免疫衰老](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/) + 该技术在人源化小鼠模型中已验证可行性，若解决胸腺组织来源（如类器官或异种移植），可能进入人体安全性试验。
+
+### 胸腺类器官技术突破
+- **预测时间**：2026年10-12月
+- **预测概率**：60%
+- **预测依据**：今日研究揭示脾脏微环境可支持胸腺组织重建，提示类器官培养的新思路。近期干细胞与器官芯片技术快速发展，可能催生体外胸腺组织培养新方案，为移植提供组织来源。
+
+### 老年免疫重建疗法成为研发热点
+- **预测时间**：2026年第四季度
+- **预测概率**：70%
+- **预测依据**：今日研究[脾脏胸腺移植](https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/)展示了免疫衰老逆转的可能性。全球老龄化加速背景下，免疫重建技术（含细胞疗法、器官再生、生长因子调控）投资和临床试验数量预计显著增加。
