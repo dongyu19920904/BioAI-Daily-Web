@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-09-27",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-09/2026-09-27/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_de79ece8a3bb7cba",
+      "report_date": "2026-09-27",
+      "report_section": "opportunity",
+      "title": "机会 1:「免疫衰老科普 + 胸腺再生研究追踪」内容系列",
+      "source_urls": [
+        "https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/"
+      ],
+      "source_verified": false,
+      "state": "needs_claim_check",
+      "state_reason": "已自动找到可核查的论文 DOI；DOI 存在不等于报道关系或医学结论得到验证",
+      "target_user": "抗衰/长寿爱好者、健康内容创作者、生物技术观察者、正在使用可穿戴设备监测健康指标的人、关注免疫力的中老年群体及其子女。",
+      "demand_claim": "抗衰市场内容同质化严重,读者想要更前沿、更有科研支撑的选题;健康内容创作者需要新角度和可引用来源;家属想了解\"老人免疫力下降\"背后的机制和未来解决方案。",
+      "demand_verified": false,
+      "deliverable_hint": "- 免费:公众号/小红书文章《老了免疫力下降?科学家把胸腺种进脾脏》,附免疫衰老自测清单",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "- 7 天内文章阅读超 500 或小红书点赞超 50",
+        "stop_condition": "- 7 天内阅读低于 200 且无人主动咨询",
+        "upgrade_path": "- 免费文章引流 → 低价资料包(9.9-29.9 元)→ 研究追踪周报会员(49-99 元/月)→ 轻咨询服务(帮机构/创作者定制抗衰选题库、论文解读)"
+      },
+      "primary_source_candidates": [
+        {
+          "doi": "10.1002/advs.77358",
+          "url": "https://doi.org/10.1002/advs.77358",
+          "title": "Intrasplenic Thymus Organogenesis from Injectable Tissue Fragments Restores Functional T‐Cell Immunity",
+          "work_type": "journal-article",
+          "discovered_from": "https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/",
+          "relationship_verified": false
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_de79ece8a3bb7cba:verify_claims",
+      "opportunity_id": "opp_de79ece8a3bb7cba",
+      "kind": "verify_claims",
+      "status": "pending_automation",
+      "description_zh": "自动对照一手来源核查研究类型、对象、结论和局限",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_de79ece8a3bb7cba:validate_demand",
+      "opportunity_id": "opp_de79ece8a3bb7cba",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
