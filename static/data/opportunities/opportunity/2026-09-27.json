@@ -17,20 +17,21 @@
       ],
       "source_verified": false,
       "state": "needs_claim_check",
-      "state_reason": "已自动找到可核查的论文 DOI；DOI 存在不等于报道关系或医学结论得到验证",
+      "state_reason": "已找到一手论文 DOI；研究对象为小鼠（含人源化小鼠），原文自测清单建议已撤回；具体报道关系与医学主张仍待逐条核验",
       "target_user": "抗衰/长寿爱好者、健康内容创作者、生物技术观察者、正在使用可穿戴设备监测健康指标的人、关注免疫力的中老年群体及其子女。",
       "demand_claim": "抗衰市场内容同质化严重,读者想要更前沿、更有科研支撑的选题;健康内容创作者需要新角度和可引用来源;家属想了解\"老人免疫力下降\"背后的机制和未来解决方案。",
       "demand_verified": false,
-      "deliverable_hint": "- 免费:公众号/小红书文章《老了免疫力下降?科学家把胸腺种进脾脏》,附免疫衰老自测清单",
+      "deliverable_hint": "仅可考虑逐条核验后的研究来源卡；不得依据该小鼠研究制作个人免疫衰老自测或健康干预资料",
       "suggested_route": "structured_resource",
       "risk_flags": [
         "health_claim_review",
-        "commercial_hypothesis"
+        "commercial_hypothesis",
+        "unsupported_self_assessment"
       ],
       "hypotheses": {
         "success_metric": "- 7 天内文章阅读超 500 或小红书点赞超 50",
         "stop_condition": "- 7 天内阅读低于 200 且无人主动咨询",
-        "upgrade_path": "- 免费文章引流 → 低价资料包(9.9-29.9 元)→ 研究追踪周报会员(49-99 元/月)→ 轻咨询服务(帮机构/创作者定制抗衰选题库、论文解读)"
+        "upgrade_path": null
       },
       "primary_source_candidates": [
         {
