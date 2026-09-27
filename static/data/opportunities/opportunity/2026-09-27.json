@@ -8,55 +8,89 @@
   "opportunities": [
     {
       "schema_version": 1,
-      "opportunity_id": "opp_de79ece8a3bb7cba",
+      "opportunity_id": "opp_ff0218e0117a74f5",
       "report_date": "2026-09-27",
       "report_section": "opportunity",
-      "title": "机会 1:「免疫衰老科普 + 胸腺再生研究追踪」内容系列",
+      "title": "机会:「视网膜老化 + 衰老标志物」科普资料包",
       "source_urls": [
-        "https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/"
+        "https://longevity.technology/news/telomir-zn-improves-vision-aging-markers-in-zebrafish/"
       ],
       "source_verified": false,
-      "state": "needs_claim_check",
-      "state_reason": "已找到一手论文 DOI；研究对象为小鼠（含人源化小鼠），原文自测清单建议已撤回；具体报道关系与医学主张仍待逐条核验",
-      "target_user": "抗衰/长寿爱好者、健康内容创作者、生物技术观察者、正在使用可穿戴设备监测健康指标的人、关注免疫力的中老年群体及其子女。",
-      "demand_claim": "抗衰市场内容同质化严重,读者想要更前沿、更有科研支撑的选题;健康内容创作者需要新角度和可引用来源;家属想了解\"老人免疫力下降\"背后的机制和未来解决方案。",
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "40 岁以上关注视力老化的人、抗衰爱好者、做健康科普的自媒体作者、家庭健康管理者",
+      "demand_claim": "视力下降焦虑重且持续,想了解「为什么老了眼睛不好」和「有哪些检测指标」,愿意为清晰解释和避坑提醒付费",
       "demand_verified": false,
-      "deliverable_hint": "仅可考虑逐条核验后的研究来源卡；不得依据该小鼠研究制作个人免疫衰老自测或健康干预资料",
+      "deliverable_hint": "资料包(PDF/Notion/飞书文档):视网膜老化机制 + 端粒/衰老标志物解释 + 可做的检测项目清单 + 研究进展时间线 + 合规避坑提醒",
       "suggested_route": "structured_resource",
       "risk_flags": [
         "health_claim_review",
-        "commercial_hypothesis",
-        "unsupported_self_assessment"
+        "commercial_hypothesis"
       ],
       "hypotheses": {
-        "success_metric": "- 7 天内文章阅读超 500 或小红书点赞超 50",
-        "stop_condition": "- 7 天内阅读低于 200 且无人主动咨询",
-        "upgrade_path": null
+        "success_metric": "7 天内文章阅读 500+ 且有 5 人以上付费购买资料包,或有 10 人以上咨询检测项目",
+        "stop_condition": "3 天内阅读低于 100 或无人咨询,说明需求不成立或选题角度不对,停止投入",
+        "upgrade_path": "资料包 -> 检测指标解释服务(按次收费)-> 抗衰检测社群/会员 -> 家庭健康数据整理陪跑"
       },
-      "primary_source_candidates": [
-        {
-          "doi": "10.1002/advs.77358",
-          "url": "https://doi.org/10.1002/advs.77358",
-          "title": "Intrasplenic Thymus Organogenesis from Injectable Tissue Fragments Restores Functional T‐Cell Immunity",
-          "work_type": "journal-article",
-          "discovered_from": "https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/",
-          "relationship_verified": false
-        }
-      ]
+      "primary_source_candidates": []
+    },
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_d5e58c58d2bbf92a",
+      "report_date": "2026-09-27",
+      "report_section": "opportunity",
+      "title": "机会:「ALS 临床进展 + 免疫机制」家属信息时间线",
+      "source_urls": [
+        "https://longevity.technology/news/coyas-als-pipeline-moves-on-two-fronts/"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "ALS/渐冻症患者家属、神经退行性疾病照护者、做医疗科普的自媒体作者、医疗信息整理需求的小机构",
+      "demand_claim": "家属持续搜索新疗法、临床试验机会和靠谱信息,愿意为「哪些在做、进展到哪、怎么参与、哪些是坑」的清晰整理付费",
+      "demand_verified": false,
+      "deliverable_hint": "Notion/飞书/腾讯文档资料库:ALS 在研疗法时间线 + 临床试验清单 + 免疫机制科普 + 参与途径 + 避坑提醒(预印本、动物实验不等于人体有效)",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "7 天内有 10 人以上主动咨询或付费购买资料,或有 3 个家属表示愿意持续订阅更新",
+        "stop_condition": "3 天内咨询少于 3 人,或咨询的人不是家属而是泛健康爱好者,说明鱼塘不精准或需求不够痛,停止投入",
+        "upgrade_path": "单次资料包 -> 按月更新订阅(29 元/月)-> 家属信息陪跑社群(99 元/季度)-> 临床试验信息整理代理服务"
+      },
+      "primary_source_candidates": []
     }
   ],
   "tasks": [
     {
-      "task_id": "opp_de79ece8a3bb7cba:verify_claims",
-      "opportunity_id": "opp_de79ece8a3bb7cba",
-      "kind": "verify_claims",
+      "task_id": "opp_ff0218e0117a74f5:discover_primary_source",
+      "opportunity_id": "opp_ff0218e0117a74f5",
+      "kind": "discover_primary_source",
       "status": "pending_automation",
-      "description_zh": "自动对照一手来源核查研究类型、对象、结论和局限",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
       "depends_on": []
     },
     {
-      "task_id": "opp_de79ece8a3bb7cba:validate_demand",
-      "opportunity_id": "opp_de79ece8a3bb7cba",
+      "task_id": "opp_ff0218e0117a74f5:validate_demand",
+      "opportunity_id": "opp_ff0218e0117a74f5",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_d5e58c58d2bbf92a:discover_primary_source",
+      "opportunity_id": "opp_d5e58c58d2bbf92a",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_d5e58c58d2bbf92a:validate_demand",
+      "opportunity_id": "opp_d5e58c58d2bbf92a",
       "kind": "validate_demand",
       "status": "pending_automation",
       "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
