@@ -6,23 +6,23 @@ sidebar:
 ---
 # Contact Aiwoola
 
-Aiwoola AI Daily — thanks for stopping by! We'd love to hear from you.
+Aiwoola AI Daily—thanks for stopping by! We'd love to hear from you, whether it's feedback, questions, or just saying hi.
 
-Got questions, collaboration ideas, or need help with AI tool accounts? Hit us up through any of the channels below.
+Got questions about AI tool accounts, want to team up, or need some support? Here's how to reach us.
 
 ---
 
-## 📬 Contact Methods
+## 📬 Get in Touch
 
-### Customer Service WeChat
+### WeChat Support
 
 **WeChat ID: aiwoola**
 
-Scan or search to add our customer service for:
+Scan the code or search to add our support team for:
 - 🛒 AI tool account purchase inquiries
-- 💡 Technical support for usage issues
+- 💡 Technical support & troubleshooting
 - 🤝 Business collaboration discussions
-- 📰 Content submissions and suggestions
+- 📰 Content submissions & suggestions
 
 ### Email
 
@@ -30,23 +30,23 @@ Scan or search to add our customer service for:
 
 Best for:
 - Detailed technical questions
-- Business collaboration proposals
+- Business partnership proposals
 - Bulk purchase inquiries
 
 ### Official Website
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit our site to check out:
-- Latest account package pricing
-- Terms of service and guarantees
-- User guides
+Check out the site for:
+- Latest account packages & pricing
+- Terms of service & guarantees
+- User guides & tutorials
 
 ---
 
 ## ⏰ Service Hours
 
-- **Customer service online**: Daily 9:00 AM - 11:00 PM (GMT+8)
-- **Email response time**: Within 24 hours
+- **Live Support**: Daily 9:00 AM - 11:00 PM (GMT+8)
+- **Email Response**: Within 24 hours
 
-We promise quick responses and genuine care for every user! 💪
+We're committed to fast responses and genuine care for every user! 💪
