@@ -6,40 +6,40 @@ sidebar:
 ---
 ## 🏠 About AI Longevity Daily
 
-> **Your Daily News Hub for AI + Longevity / Life Extension / Aging Research**
+> **Your daily news hub for AI + longevity / life extension / aging research**
 
-AI Longevity Daily is a dedicated news platform focused on the intersection of AI and longevity, life extension, aging, biological age, and rejuvenation. We help investors, product managers, entrepreneurs, and students stay on top of the latest developments in this niche sector.
+AI Longevity Daily is a news platform dedicated to the intersection of AI and longevity / life extension / aging / biological age / rejuvenation. We're here to help investors, product managers, entrepreneurs, and students stay on top of the latest developments in this fast-growing niche.
 
-### 🎯 Our Position
+### 🎯 Our positioning
 
-- **Focus**: AI longevity science, centered on lifespan extension, aging mechanisms, biological age, and rejuvenation
-- **Target Audience**: Investors, product managers, entrepreneurs, and students interested in AI + longevity and aging research
-- **Tone**: Professional yet approachable—like insights from a knowledgeable friend
+- **Focus**: AI longevity science—covering lifespan, life extension, aging mechanisms, biological age, and rejuvenation
+- **Audience**: Investors, product managers, entrepreneurs, and students interested in AI + longevity / aging research
+- **Tone**: Professional yet approachable, like insights from someone who really knows the space
 
-### ⭐ What We Cover
+### ⭐ What we cover
 
-Daily automated roundup of the latest breakthroughs in AI longevity science:
+Daily automated roundup of the latest in AI longevity science:
 
-#### 🧬 Core Topics
+#### 🧬 Core coverage areas
 
-- **🧬 Longevity Research**: Healthspan, lifespan extension, longevity biology
-- **🕰️ Aging Mechanisms**: Cellular senescence, mitochondria, autophagy, telomeres, epigenetic clocks
-- **💊 Life Extension Interventions**: Anti-aging drugs, senescent cell clearance, biological age intervention, rejuvenation strategies
-- **🤖 AI Drug Discovery for Longevity**: Drug screening, molecular generation, target prediction, foundation models
-- **📊 Biological Age & Biomarkers**: Aging clocks, age-related biomarkers, aging assessment
-- **🔬 Tools & Platforms**: Data platforms, models, and open-source tools for longevity and aging research
+- **🧬 Longevity research**: Healthspan, lifespan extension, longevity biology
+- **🕰️ Aging mechanisms**: Cellular senescence, mitochondria, autophagy, telomeres, epigenetic clocks
+- **💊 Life extension interventions**: Anti-aging drugs, senolytic therapy, biological age intervention, rejuvenation strategies
+- **🤖 AI-driven longevity drug discovery**: Drug screening, molecular generation, target prediction, foundation models
+- **📊 Biological age and biomarkers**: Biological age clocks, age-related biomarkers, aging assessment
+- **🔬 Tools and platforms**: Data platforms, models, and open-source tools for longevity / aging research
 
-#### 📡 News Sources
+#### 📡 Content sources
 
-- 🔥 Industry highlights and trending stories
-- 📦 Open-source project discoveries
+- 🔥 Industry hot news
+- 📦 Open source project discoveries
 - 📄 Cutting-edge research papers
-- 💬 Expert industry insights
+- 💬 Expert insights
 - 🚀 Product feature updates
 
-All content is automatically sourced, generated, and published via **CloudFlare Workers + AI**, ensuring timeliness and comprehensive coverage.
+All content is automatically sourced, generated, and published via **CloudFlare Workers + AI** for speed and comprehensiveness.
 
-### 🔗 Get in Touch
+### 🔗 Get in touch
 
 - **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
 - **Email**: dongyu199209@outlook.com
@@ -47,4 +47,4 @@ All content is automatically sourced, generated, and published via **CloudFlare 
 
 ---
 
-**AI Longevity Daily—stay ahead of the curve on the latest developments in AI + longevity, life extension, and aging research 🧬✨**
+**AI Longevity Daily—stay ahead of the curve on AI + longevity / life extension / aging research breakthroughs 🧬✨**
