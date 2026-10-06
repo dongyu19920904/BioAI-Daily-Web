@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-07",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-10/2026-10-07/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_af02b2c0533dc147",
+      "report_date": "2026-10-07",
+      "report_section": "opportunity",
+      "title": "痴呆照护家属\"营养管理避坑清单\"",
+      "source_urls": [
+        "https://www.news-medical.net/news/20261006/Overweight-dementia-patients-likely-to-live-longer-than-normal-weight-peers.aspx"
+      ],
+      "source_verified": false,
+      "state": "needs_claim_check",
+      "state_reason": "已自动找到可核查的论文 DOI；DOI 存在不等于报道关系或医学结论得到验证",
+      "target_user": "照护痴呆患者的家属、社区照护小机构、老年营养师、健康内容创作者",
+      "demand_claim": "担心患者营养不良、不知道该不该控制体重、网上建议相互矛盾、怕操作错加速衰退",
+      "demand_verified": false,
+      "deliverable_hint": "避坑清单+研究解读+边界说明(PDF/飞书文档)",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "7天内至少50次收藏或10条私信咨询具体营养方案;单篇阅读超500且停留超1分钟",
+        "stop_condition": "7天内收藏低于20次且无付费咨询,说明家属更关注其他问题",
+        "upgrade_path": "免费文章→避坑清单资料包(19.9元)→痴呆照护资料库月订阅(49元)→家属轻咨询(200元/次)"
+      },
+      "primary_source_candidates": [
+        {
+          "doi": "10.1177/13872877261491694",
+          "url": "https://doi.org/10.1177/13872877261491694",
+          "title": "Body mass index and mortality in incident dementia",
+          "work_type": "journal-article",
+          "discovered_from": "https://www.news-medical.net/news/20261006/Overweight-dementia-patients-likely-to-live-longer-than-normal-weight-peers.aspx",
+          "relationship_verified": false
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_af02b2c0533dc147:verify_claims",
+      "opportunity_id": "opp_af02b2c0533dc147",
+      "kind": "verify_claims",
+      "status": "pending_automation",
+      "description_zh": "自动对照一手来源核查研究类型、对象、结论和局限",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_af02b2c0533dc147:validate_demand",
+      "opportunity_id": "opp_af02b2c0533dc147",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
