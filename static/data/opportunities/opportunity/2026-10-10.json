@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-10",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-10/2026-10-10/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_e86ee4188d83a8ca",
+      "report_date": "2026-10-10",
+      "report_section": "opportunity",
+      "title": "「肠道菌群与心血管衰老」科普内容包——低成本验证机会",
+      "source_urls": [
+        "https://lifespan.io/gut-bacteria-molecule-slows-atherosclerosis-in-mice/"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "30-55 岁关注心血管健康的抗衰爱好者;有家族心血管病史的读者;对益生菌/肠道健康补剂感兴趣的健康内容消费者",
+      "demand_claim": "动脉硬化是这类人的长期焦虑来源,任何\"天然替代他汀\"的信号都会触发关注;他们愿意为「看懂科学新闻 + 知道该怎么追」的信息整理付费,哪怕只是一个资料包价位(9-29元)",
+      "demand_verified": false,
+      "deliverable_hint": "一篇公众号/小红书科普文(「研究说这种肠道细菌或许能护心——但你现在能做什么?」)+ 附一张「肠道健康 × 心血管衰老」相关研究汇总清单(可做成资料包)",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "7 天内该文阅读量 ≥500(公众号)或点赞 ≥30(小红书),且有 ≥3 条真实评论问「有没有更多资料」——这才代表鱼塘有效,值得做资料包",
+        "stop_condition": "发布后 72 小时阅读量 <200 且无互动评论,说明这个鱼塘在你的渠道不存在,停止投入该细分选题",
+        "upgrade_path": "科普文 → 「肠道 × 心血管衰老研究追踪」资料包(低价,9-29元) → 订阅制更新服务 → 轻咨询(帮助健康内容创作者整理同类研究线索)"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_e86ee4188d83a8ca:discover_primary_source",
+      "opportunity_id": "opp_e86ee4188d83a8ca",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_e86ee4188d83a8ca:validate_demand",
+      "opportunity_id": "opp_e86ee4188d83a8ca",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
