@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/10'
+title: 'AI生命延续学日报 2026/10/11'
 breadcrumbs: false
-next: /2026-10/2026-10-10
-description: '2026-10-10 AI生命延续学日报：快速导航；今日 AI 生命科学资讯；只有一句话。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-10/2026-10-11
+description: '2026-10-11 AI生命延续学日报：快速导航；今日 AI 生命科学资讯；只有一句话。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,9 +11,9 @@ cascade:
 ## **今日摘要**
 
 ```
-血液里两种免疫细胞的比例，可能已经写好了你未来十年的慢病剧本——260万细胞数据支撑的预测工具正在开发中。
-今天多组学专家集体指出：AI 的瓶颈不是采集数据，是读懂数据；肠道菌脂肪酸也悄悄盯上了他汀的地盘。
-衰老研究正从"观察相关性"走向"预测并干预"，血液检测这条路越来越近了。
+FDA 首次将衰老纳入监管优先议程，明确两条抗衰老疗法审批路径，目标2027年落地。
+开源衰老时钟、脑龄预测、帕金森可穿戴标志物扎堆上线，AI量化衰老正在变成基础设施。
+长寿赛道的监管闸门松动了，关注相关创业公司的好时机。
 ```
 
 
@@ -29,174 +29,159 @@ cascade:
 ## **今日 AI 生命科学资讯**
 
 ### **👀 只有一句话**
-一张覆盖 260 万份免疫细胞样本的"衰老地图"揭示：血液中两种免疫细胞的比例，或许能预测一个人未来十年的慢病与死亡风险。
+FDA 首次将衰老与长寿纳入监管科学优先议程，并在 ARDD 会议上公开讨论如何为老年疗法划出审批路径。
 
 ### **🔑 3 个关键词**
-#免疫衰老图谱 #生物标志物 #神经退行性疾病预测
+#长寿监管 #AI生物钟 #数字生物标志物
 
 ---
 
 ## **📎 今日可引用要点**
 
-**要点一**
-- **事实结论**：华盛顿大学等机构分析 260 万个免疫细胞、2,600 名成人血样后发现，颗粒酶B（GZMB）高于颗粒酶K（GZMK）的免疫细胞比例偏高，与十年后更高死亡率及慢病风险（2型糖尿病、高血压、肾衰等）显著相关。
-- **原始来源**：[Immune Cell Atlas Charts How People's Aging Paths Diverge](https://www.genengnews.com/topics/translational-medicine/immune-cell-atlas-charts-how-peoples-aging-paths-diverge/)
-- **证据边界**：同行评审论文（*Immunity*），基于观察性队列研究和UK Biobank蛋白代理模型；显示相关性，**不能据此得出因果关系或临床诊断结论**，血液检测工具尚在研发中。
+**事实结论 1**：2026年10月，FDA首席科学家 Steven Kozlowski 在 ARDD 会议上宣布，衰老与长寿将纳入即将更新的"监管科学重点领域"（FARS）文件，目标发布时间为2027财年。
+**原始来源**：[FDA Leaders Name Longevity a Priority at ARDD](https://lifespan.io/fda-leaders-name-longevity-a-priority-at-ardd/)
+**证据边界**：官方会议声明，尚未发布正式文件；FARS 更新不等于具体疗法已获批；目前没有任何抗衰老药物走完 FDA 新路径。
 
-**要点二**
-- **事实结论**：中山大学研究团队在小鼠动物模型中发现，肠道细菌*B. uniformis*产生的奇链脂肪酸C15:0，通过抑制胆固醇合成酶（HMG-CoA还原酶）减少动脉斑块面积约50%，但效果弱于他汀类药物阿托伐他汀。
-- **原始来源**：[Gut Bacteria Molecule Slows Atherosclerosis in Mice](https://lifespan.io/gut-bacteria-molecule-slows-atherosclerosis-in-mice/)
-- **证据边界**：发表于*Nature*的动物实验（雄性小鼠），**不能外推至人体有效性**；市售C15:0补剂是否优于他汀，目前无人体对比数据。
-
-**要点三**
-- **事实结论**：波恩大学医院研究团队宣布在试管（体外实验）中成功对人类细胞实现显著的年轻化处理。
-- **原始来源**：[Bonn researchers successfully rejuvenate human cells in a test tube](https://www.news-medical.net/news/20261009/Bonn-researchers-successfully-rejuvenate-human-cells-in-a-test-tube.aspx)
-- **证据边界**：新闻报道，体外细胞实验阶段；**不等于人体抗衰老干预有效**，从细胞层面到活体治疗仍有极大距离。
+**事实结论 2**：开源项目 `pyaging`（131颗星）提供 GPU 优化的 Python 衰老时钟工具包，研究者今天即可下载运行多种表观遗传衰老时钟。
+**原始来源**：[lucascamillomd/pyaging](https://github.com/lucascamillomd/pyaging)
+**证据边界**：开源研究工具，提供衰老时钟算法实现；不是经过临床验证的生物年龄检测产品，输出结果不能直接用于医学诊断。
 
 ---
 
 ## **🔥 重磅 TOP 10**
 
-**1. [免疫细胞图谱揭示个体衰老轨迹为何分叉](https://www.genengnews.com/topics/translational-medicine/immune-cell-atlas-charts-how-peoples-aging-paths-diverge/)**
+**1. [FDA 在 ARDD 宣布将衰老与长寿纳入监管科学优先议程](https://lifespan.io/fda-leaders-name-longevity-a-priority-at-ardd/)**
 
-同年出生的两个人，十年后的健康差距可能已经写在血液里。华盛顿大学、英国国王学院等团队分析了全球八个队列、2,600 余名健康成年人的约 1,240 万个免疫细胞，发现关键在于两类 CD8 T 细胞（负责杀伤病原和协调免疫反应的白细胞）的比例：颗粒酶B细胞偏高者，对应更高的慢病和死亡风险；颗粒酶K细胞占优则提示健康轨迹。研究团队进一步把这个比例映射到 UK Biobank 五万人的蛋白数据，验证了十年跨度的预测效力。目前研究团队正开发可用标准设备处理的血液检测方法。这是观察性队列研究，确认的是相关性，还不能作为临床诊断依据。
+几十年来，长寿研究人员在监管层面几乎是单打独斗。这次不同了。2026年10月，FDA 四位高层官员出现在波士顿的 ARDD 会议同一场讨论上，首席科学家 Kozlowski 宣布，衰老和长寿将写入即将更新的"监管科学重点领域"（FARS）文件，目标发布时间为2027财年。更具体的是，FDA 还给出了两条可能的审批路径：一是证明疗法同时改善多种年龄相关疾病；二是测量多维度功能衰退速率、并证明治疗能减慢这一速率。官员还建议，抗衰老疗法的早期临床试验优先在年龄较大、风险较高的人群中进行——因为"治疗三十年换来两年获益"在低风险人群中很难通过安全性核算。
 
-来源类型：同行评审论文（*Immunity*）/ 证据阶段：观察性队列研究 / 可信度：高
+声明属于政策意向，FARS 文件尚未发布，具体疗法审批框架仍在形成阶段，不代表任何抗衰老药物已经或即将获批。
 
-![Immune Cell Atlas Charts How People's Aging Paths Diverge](https://www.genengnews.com/wp-content/uploads/2026/10/Yesavage_10x-Genomics_Figure-2-Copy-300x300.jpg)
+来源类型：会议官方报道（lifespan.io，非营利媒体）/ 政策声明阶段 / 可信度：中高
 
----
-
-**2. [波恩研究团队在试管中成功让人类细胞"返老还童"](https://www.news-medical.net/news/20261009/Bonn-researchers-successfully-rejuvenate-human-cells-in-a-test-tube.aspx)**
-
-细胞老化，通常被认为是单行道。波恩大学医院的研究人员宣布，他们在体外（试管实验）中成功对人类细胞实现了显著的年轻化处理。摘要信息有限，但这个方向本身——直接逆转人类细胞衰老状态——是细胞重编程领域的核心目标之一。需要特别说明的是：体外成功是第一步，距离活体动物实验、人体临床应用，还有很长的路。这条新闻的意义在于提示这条路线仍在持续推进，而不是宣告抗衰老治疗已经到来。
-
-来源类型：新闻报道（news-medical.net）/ 证据阶段：体外细胞实验 / 可信度：中
-
-![Bonn researchers successfully rejuvenate human cells in a test tube](https://www.news-medical.net/image-handler/picture/2016/3/Artificially_Colored_MRI_Scan_Of_Human_Brain-Daisy_Daisy_a8c5d8bbbf824bc8932308e30187510f-620x480.jpg)
+![FDA Leaders Name Longevity a Priority at ARDD](https://lifespan.io/wp-content/uploads/2026/10/FDA-at-ARDD-262x187.png)
 
 ---
 
-**3. [肠道细菌产生的奇链脂肪酸可减缓小鼠动脉硬化](https://lifespan.io/gut-bacteria-molecule-slows-atherosclerosis-in-mice/)**
+**2. [pyaging：GPU 优化的 Python 衰老时钟工具包](https://github.com/lucascamillomd/pyaging)**
 
-他汀类药物是目前最常见的降胆固醇手段，但肠道里或许藏着另一条路。中山大学团队在 *Nature* 上发表研究：肠道菌*B. uniformis*分泌的奇链脂肪酸C15:0，通过抑制肝脏胆固醇合成，激活LDL受体清除血液中"坏胆固醇"。在高脂饮食的小鼠中，连续8周给予纯化C15:0后，动脉斑块面积减少约50%。实验也如实记录了局限：效果弱于阿托伐他汀（对照组），且仅对比终点而非基线，说明是"减缓"而非"逆转"。人群中低C15:0水平与动脉硬化相关的观察数据同步呈现。市售C15:0补剂与他汀的优劣，目前没有人体对比数据支持。
+衰老时钟（aging clock，利用 DNA 甲基化等生物标志物估算生物学年龄的算法）是当前长寿研究的核心测量工具之一，但整合和复现各家算法一直是研究人员的痛点。`pyaging` 这个开源仓库提供了一套 GPU 加速的 Python 实现，把多种主流衰老时钟整合进同一个接口。目前已有131颗 GitHub 星，说明研究社区有实际使用。
 
-来源类型：同行评审论文（*Nature*）/ 证据阶段：小鼠动物实验 + 人群关联性分析 / 可信度：高
+这是研究级工具。衰老时钟在学术研究中广泛使用，但其临床意义仍有争议——生物年龄估算和真实健康状态之间的关系尚未完全厘清，不能用于个人医学诊断或治疗决策。
 
-![Gut Bacteria Molecule Slows Atherosclerosis in Mice](https://lifespan.io/wp-content/uploads/2026/10/Gut-bacteria-262x187.jpg)
-
----
-
-**4. [常规血液检查可能藏有未来痴呆风险的线索](https://www.news-medical.net/news/20261009/Routine-blood-test-may-offer-clues-to-future-dementia-risk.aspx)**
-
-每年做体检时抽的那管血，或许不止在看肝功和血糖。在慕尼黑 ECNP 大会上，研究人员报告了一项发表于 *Journal of Alzheimer's Disease* 的研究：常规血液检查结果可能与个人长期痴呆风险存在关联。具体标志物和样本规模来自摘要，尚待完整论文核查。这类研究的潜在价值在于：如果已有的临床检验数据就能提供早期预警，成本极低，落地门槛也低。但"可能含有线索"不等于"可以用来预测痴呆"——观察性关联离临床诊断工具还有相当距离。
-
-来源类型：同行评审论文（*Journal of Alzheimer's Disease*）+ 学术会议报告 / 证据阶段：观察性研究 / 可信度：中
-
-![Routine blood test may offer clues to future dementia risk](https://www.news-medical.net/image-handler/picture/2016/3/Blood_Testing_6c4f4bff47c24f5ba754ed98c75bd512-620x480.jpg)
+来源类型：开源项目（GitHub）/ 工具/实现阶段 / 可信度：中（工具本身可核查，算法质量取决于底层论文）
 
 ---
 
-**5. [新项目瞄准神经退行性疾病中蛋白早期失调的预测](https://www.news-medical.net/news/20261009/New-project-aims-to-predict-early-protein-dysfunction-in-neurodegenerative-diseases.aspx)**
+**3. [Robust Brain Age Prediction：用序数分类做稳健脑龄预测](https://github.com/jaygshah/Robust-Brain-Age-Prediction)**
 
-阿尔茨海默病、帕金森、ALS、亨廷顿病，这四种疾病的共同特征之一是：相关蛋白在症状出现前就已经开始"变形、聚集、损伤细胞"。一个新的研究项目正致力于在这个早期阶段就发出预警——目标是预测蛋白质失调，而不是等到临床症状出现再介入。摘要信息有限，具体技术路线和研究进度待进一步披露。这个方向与当前 AI 驱动蛋白质结构预测（如 AlphaFold 系列）的整体趋势高度一致，值得持续跟踪。
+脑龄（brain age，用神经影像数据估算大脑衰老程度，与实际年龄的差值反映大脑健康状态）是阿尔茨海默症等神经退行性疾病的重要早期指标。这个仓库是 WACV 2024 同行评审论文的官方 PyTorch 实现，方法是引入距离正则化的序数分类，让模型更好地处理年龄预测中的顺序信息，提升了跨数据集的稳健性。代码已公开，有学术会议背书。
 
-来源类型：新闻报道（news-medical.net）/ 证据阶段：早期研究/项目立项 / 可信度：中
+已发表的同行评审论文对应的是计算机视觉会议成果，临床可用性仍需大规模前瞻性验证；当前不能据此得出"AI脑龄预测可用于临床诊断"的结论。
 
-![New project aims to predict early protein dysfunction in neurodegenerative diseases](https://www.news-medical.net/image-handler/picture/2014/7/Protein-620x480.jpg)
-
----
-
-**6. [新免疫衰老图谱帮助解码未来慢病风险](https://www.news-medical.net/news/20261009/New-immune-aging-map-helps-decode-future-chronic-disease-risks.aspx)**
-
-生日蜡烛只记录年岁，免疫系统的"实际年龄"却是另一套算法。这篇报道是上述免疫细胞图谱研究（TOP 1）的配套报道，从慢病风险解码的角度切入，强调"两个人生日相同，未来慢病轨迹可能截然不同"这一核心发现。如果该血液检测工具成功开发，将为早期干预窗口提供更精确的生物标志物参考。注意：这与 TOP 1 描述同一项研究，两者侧重点不同，此处不重复引用核心数据。
-
-来源类型：新闻报道（news-medical.net）/ 证据阶段：观察性队列研究（同 TOP 1）/ 可信度：高
-
-![New immune aging map helps decode future chronic disease risks](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
+来源类型：开源项目 + 同行评审论文（WACV 2024）/ 学术实现阶段 / 可信度：中高
 
 ---
 
-**7. [多组学技术2026年现状：AI 是解读瓶颈，而非数据采集](https://www.genengnews.com/topics/omics/multiomics-in-2026-and-beyond/)**
+**4. [paradigma：帕金森数字生物标志物工具箱](https://github.com/biomarkersParkinson/paradigma)**
 
-以前的问题是"能不能测到这些数据"，现在的问题变成了"测出来能不能读懂"。GEN 访谈了来自 10x Genomics、Bruker、Thermo Fisher、Mission Bio 和 Mursla Bio 的五位专家，梳理了多组学（同时分析基因组、转录组、蛋白质组等多层数据）的2026年现状。核心结论：样本准备仍是最被低估的瓶颈；AI 在模式识别和假说生成上潜力巨大，但无法弥补样品制备缺陷；层数越多不一定越好，互补性比数量更重要。Mursla Bio 的肝癌血液检测工具 EvoLiver 已获 FDA Breakthrough Device 认定，是少数已在临床转化轨道上的例子。
+帕金森病患者的运动变化往往早于临床确诊多年，但传统诊断依赖医院里的人工观察，难以捕捉日常状态。`paradigma` 是一个专为帕金森数字生物标志物（digital biomarker，指从可穿戴设备等数字数据中提取的可测量健康指标）研究设计的 Python 工具箱，已有17颗星，来自专门做帕金森生物标志物研究的 GitHub 组织。
 
-来源类型：行业媒体访谈（GEN）/ 证据阶段：专家观点 + 产品现状 / 可信度：中
+这是研究工具，不是经过临床验证的诊断产品。可穿戴生物标志物在帕金森诊断中仍处于验证研究阶段，无法直接替代临床评估。
 
-![Multiomics in 2026 and Beyond](https://www.genengnews.com/wp-content/uploads/2026/10/Yesavage_10x-Genomics_Figure-2-Copy-300x300.jpg)
-
----
-
-**8. [限制半胱氨酸（而非蛋氨酸）才是延寿的关键？](https://www.fightaging.org/archives/2026/10/arguing-that-methionine-restriction-is-actually-cysteine-restriction/)**
-
-几十年来，科学家一直在研究"限制蛋氨酸饮食"可延长动物寿命的机制。但一篇新的开放获取论文提出了重新命名的理由：低蛋氨酸饮食同时也是低半胱氨酸饮食，而身体在蛋氨酸充足时会主动把它转化为半胱氨酸，所以之前的研究可能一直在测量错误的变量。研究者在秀丽隐杆线虫（*C. elegans*，常用模式生物）中单独限制半胱氨酸，验证寿命延长；并在缺失半胱氨酸合成酶的基因敲除小鼠中证实，真正影响免疫代谢和健康寿命的是半胱氨酸水平而非蛋氨酸。这是动物实验，目前不能外推至人类饮食建议。
-
-来源类型：同行评审论文（Fight Aging! 二次报道）/ 证据阶段：动物实验（线虫 + 基因改造小鼠）/ 可信度：中
+来源类型：开源项目（GitHub，biomarkersParkinson 组织）/ 研究工具阶段 / 可信度：中
 
 ---
 
-**9. [研究解释为何男性癌症免疫力下降更快](https://www.news-medical.net/news/20261009/Study-explains-why-cancer-immunity-declines-faster-in-males.aspx)**
+**5. [ADRD Brain Aging：神经遗传学实验室的脑老化研究项目](https://github.com/neurogenetics/ADRD_Brain_Aging)**
 
-同样的年龄，男性的抗癌免疫力为何衰退更快？麻省总医院研究团队在 *Nature Aging* 上发表论文，揭示了一个具体机制：淋巴结收缩与性别偏向性的初始 CD8 T 细胞（尚未接触过抗原、保持"待命"状态的免疫细胞）减少相关联，最终影响中年时期的抗原识别能力。这项研究为性别差异与免疫衰老之间的关联提供了分子层面的解释，对理解衰老相关免疫失能有参考价值。从研究结论到临床干预，仍需后续验证。
+ADRD（阿尔茨海默症及相关痴呆症，Alzheimer's Disease and Related Dementias）是老龄化研究中最核心的靶点之一。这个仓库来自 `neurogenetics` 组织，整合了与 ADRD 和脑老化相关的研究项目，属于神经遗传学团队的公开代码库。
 
-来源类型：同行评审论文（*Nature Aging*）/ 证据阶段：机制研究 / 可信度：高
+项目刚上线，星数仅5颗，内容细节有限。属于研究团队代码公开，不代表已有可用产品或已发表论文结论。
 
-![Study explains why cancer immunity declines faster in males](https://www.news-medical.net/image-handler/picture/2014/7/174318220-620x480.jpg)
+来源类型：开源项目（GitHub）/ 研究代码公开阶段 / 可信度：低（信息量有限，需进一步核查）
 
 ---
 
-**10. [特定饮食模式与更好的认知表现相关，新研究整合多项数据](https://medicalxpress.com/news/2026-10-diets-linked-cognitive.html)**
+**6. [ECGomics：北京大学 AI-ECG 数字生物标志物开放平台](https://github.com/PKUDigitalHealth/ECGomics)**
 
-美国和欧洲研究者联合发表新论文，针对不同饮食模式与认知功能、执行功能和痴呆风险之间的关系进行了系统梳理与数据整合——起因是2025年美国膳食指南咨询委员会认为现有数据不足以做推荐。这项研究试图填补这个空白，提供更一致的分析框架。具体哪种饮食有效、效应量多大，摘要未透露，需查阅原文。这是观察性/综合分析层面的研究，暂时不能作为确定因果关系的依据。
+心电图（ECG）不只是心脏病的检测工具——研究人员越来越相信，ECG 中藏着大量与整体健康和衰老状态相关的信号。北京大学数字健康团队推出的 `ECGomics` 是一个开放平台，专注于用 AI 从 ECG 中发现数字生物标志物，已在《Health Data Science》期刊发表相关论文，代码已公开，有11颗星。
 
-来源类型：新闻报道（medicalxpress）/ 证据阶段：观察性数据整合 / 可信度：中
+平台的技术实现可供验证，但 ECG 生物标志物与临床结果之间的因果关系仍需进一步大规模研究证实；不能据此得出"ECG 可以预测衰老速度"的结论。
+
+来源类型：开源项目 + 同行评审论文（Health Data Science）/ 工具与研究阶段 / 可信度：中高
+
+---
+
+**7. [parkinson-wearable-digital-biomarkers：可穿戴加速度计检测帕金森冻结步态](https://github.com/mohamad679/parkinson-wearable-digital-biomarkers)**
+
+冻结步态（Freezing of Gait，FoG，帕金森患者突然无法迈步的症状，是跌倒的主要原因之一）的实时检测一直是临床难题。这个研究级 Python 项目基于可穿戴加速度计时序数据，提供了一套 FoG 检测的基线方法，代码已公开。
+
+星数仅1颗，属于个人研究基线代码，尚未经过系统验证；不代表可部署的临床产品，检测性能需要独立数据集验证。
+
+来源类型：开源项目（GitHub，个人研究）/ 早期研究阶段 / 可信度：低（代码可查，但缺乏同行评审背书）
+
+---
+
+**8. [scAgeClock：基于单细胞转录组的人类衰老时钟](https://github.com/gangcai/scageclock)**
+
+大多数衰老时钟用的是"批量"组织数据，把不同类型细胞的信号混在一起。`scAgeClock` 走了另一条路——用单细胞转录组数据（即逐个细胞测量基因表达，分辨率更高）和门控多头注意力神经网络构建衰老时钟，理论上能捕捉细胞层面的衰老异质性。目前有9颗星。
+
+单细胞衰老时钟是前沿方向，但数据成本高、标准化难度大，离大规模临床应用还有相当距离；当前阶段属于方法探索研究。
+
+来源类型：开源项目（GitHub）/ 研究方法阶段 / 可信度：中（需结合对应论文核查）
+
+---
+
+**9. [GRNimmuneClock：基于基因调控网络的免疫衰老时钟](https://github.com/janursa/GRNimmuneClock)**
+
+免疫系统的衰老（immunosenescence，免疫衰老）和慢性炎症是多种年龄相关疾病的核心机制之一。来自 Yang Li 实验室的 `GRNimmuneClock` 用基因调控网络（GRN，描述基因之间调控关系的网络模型）结合转录组学数据，构建了一个专注于免疫系统的衰老时钟，代码已公开。
+
+星数仅1颗，是实验室研究代码公开；GRN 推断本身存在较大不确定性，免疫衰老时钟的临床预测价值需要独立验证。
+
+来源类型：开源项目（GitHub，学术实验室）/ 研究阶段 / 可信度：中低
+
+---
+
+**10. [成长环境与寿命长短相关——挪威和美国的健康不平等数据](https://medicalxpress.com/news/2026-10-circumstances-linked.html)**
+
+出生在哪里、长大时家庭收入如何，平均而言决定了你能活多久。挪威有完善福利体系，但最富1%的40岁男性预期寿命比最穷1%长近14年；美国的这一差距接近15年。WHO 2025年报告警告，到2040年减少健康不平等的国际目标很可能无法实现。
+
+这是观察性流行病学数据，揭示了相关性。社会经济地位与寿命的关系涉及复杂的中介因素（营养、压力、医疗可及性等），目前数据不能证明特定干预能缩小这一差距，也不能排除混杂变量的影响。
+
+来源类型：科学媒体报道（Medical Xpress）/ 观察性研究背景报道 / 可信度：中（需核查原始论文）
 
 ---
 
 ## **📌 值得关注**
 
-**[研究]** [青霉素合成"分子电影"揭示抗生素设计新路径](https://www.genengnews.com/topics/bioprocessing/molecular-movie-of-penicillin-synthesis-could-inform-future-antibiotic-development/) - 牛津大学用X射线自由电子激光实时拍摄青霉素合成酶的催化过程，为下一代抗生素设计提供分子层面蓝图，发表于 *Nature Catalysis*。
+**[研究]** [Mavrikaki Lab 人类脑老化空间转录组数据集](https://github.com/Mavrikaki-Lab/Mavrikaki_Ra_Brain_aging_spatial_transcriptomics_human) - 空间转录组学（在保留组织空间位置信息的情况下测量基因表达）用于人类脑老化研究，代码公开，但描述信息有限，适合关注脑老化机制研究的读者跟踪。
 
-**[研究]** [镰刀细胞性状与特定疟疾寄生虫变体相关](https://www.genengnews.com/topics/infectious-diseases/sickle-cell-trait-linked-to-distinct-malaria-parasite-variants/) - 分析2,246名学童数据后发现，镰刀细胞基因携带者虽感染率相当，却感染了不同遗传型的疟原虫，提示人类基因与病原体共同演化，有助开发更精准的抗疟策略。
+**[研究]** [EEG 癫痫预警数字生物标志物：MS-EEGNet-TCN-HBSM](https://github.com/ZoomingLiu/MS-EEGNet-TCN-HBSM) - 自动发现儿童耐药癫痫的 EEG 状态转变、提取可重复的候选数字生物标志物并转化为实时风险预警信号，暑期研究项目，代码公开但尚未经同行评审。
 
-**[研究]** [血液恶性肿瘤研究揭示血液形成与骨骼健康之间的联系](https://medicalxpress.com/news/2026-10-blood-cancer-links-formation-bone.html) - 骨髓增生异常综合征（MDS）不只影响血细胞，研究提示骨骼健康也受牵连，为老年血液病管理提供了新维度。
+**[研究]** [表观遗传衰老时钟的环境、社会人口和 HIV 相关因素分析](https://github.com/congca/Environmental-Sociodemographic-and-HIV-Correlates-Across-Epigenetic-Aging-Clocks) - 探究社会环境因素如何影响多种表观遗传衰老时钟的读数，与今日 TOP 10 中的健康不平等话题形成呼应，是理解衰老时钟局限性的背景素材。
 
-**[研究]** [老年人"隐性高血压"与跌倒风险升高70%相关](https://medicalxpress.com/news/2026-10-elderly-adults-masked-high-blood.html) - 美国心脏协会高血压年会初步报告：78岁以上老年人中，家庭血压正常但诊室血压偏高的"隐性高血压"人群，跌倒风险比双向高血压者高70%，值得关注老年评估流程。
-
----
-
-## **🔎 值得细看**
-
-### [肠道细菌奇链脂肪酸减缓小鼠动脉硬化](https://lifespan.io/gut-bacteria-molecule-slows-atherosclerosis-in-mice/)
-
-这项研究常见的误读风险很高。**一手来源**：中山大学团队发表于 *Nature*，在基因缺陷（缺少Apoe基因）的高脂饮食雄性小鼠中测试C15:0。**最容易误读的地方**：文中"减少斑块50%"是与终点对照组比较，而非与基线相比，更准确的表述是"减缓进展"而非"逆转"；且效果明确弱于他汀类药物；市面上C15:0已可购买，但没有任何人体对比数据支持其优于他汀的说法。**继续核查的入口**：原论文 Yin et al., *Nature*, 2026，重点核查实验设计的基线测量缺失问题以及人体观察数据的样本规模。
-
-![Atorvastatin comparison](https://lifespan.io/wp-content/uploads/2026/10/Atorvastatin-comparison.png)
+**[研究]** [细胞力学记忆或许能"重置"组织弹性](https://medicalxpress.com/news/2026-10-medicine-future-driven-mechanical-cell.html) - 细胞能记住自身曾经的力学状态，向组织传递"恢复弹性"的信号；目前属于基础研究阶段，距离临床应用较远，但为组织再生方向提供了新的机制视角。
 
 ---
 
 ## **🔮 AI 生命科学趋势预测**
 
-### 免疫衰老血液检测工具进入临床验证阶段
+### FDA 发布衰老与长寿监管科学指导草稿
+- **预测时间**：2027年Q1（2026年10月起约3-6个月内可能有预告性文件）
+- **预测概率**：55%
+- **预测依据**：今日新闻 [FDA Leaders Name Longevity a Priority at ARDD](https://lifespan.io/fda-leaders-name-longevity-a-priority-at-ardd/) 中 FDA 首席科学家公开给出"2027财年"目标，但政策文件发布节奏历来不稳定，此前版本已拖延数年。
 
-- **预测时间**：2026年12月
-- **预测概率**：60%
-- **预测依据**：今日新闻 [Immune Cell Atlas Charts How People's Aging Paths Diverge](https://www.genengnews.com/topics/translational-medicine/immune-cell-atlas-charts-how-peoples-aging-paths-diverge/) 中，WashU 研究团队明确表示正在将 GZMB/GZMK 比例检测开发为可用标准设备处理的血液检测方法 + 近期生物标志物检测商业化周期普遍压缩，从论文到原型验证通常在 6-12 个月内启动。
-
-### 多组学数据整合 AI 工具迎来集中发布期
-
+### 抗衰老生物标志物联合体（pre-competitive consortium）正式成立
 - **预测时间**：2026年Q4
-- **预测概率**：75%
-- **预测依据**：今日新闻 [Multiomics in 2026 and Beyond](https://www.genengnews.com/topics/omics/multiomics-in-2026-and-beyond/) 中多位专家指出，当前瓶颈已从数据采集转移至 AI 解读，10x Genomics、Mission Bio、Bruker 等均在加速布局 AI 整合工具 + 生物技术行业年底会议（ASHG、AGBT 等）通常是新工具集中亮相的节点。
+- **预测概率**：60%
+- **预测依据**：FDA官员 Penzenstadler 在 ARDD 上明确点名这是"最可行的首要行动"，TAME 试验和 Biomarkers of Aging Consortium 已有相关基础，行业推动力度明显加大。
 
-### 半胱氨酸限制饮食/补剂进入人体小样本试验
+### pyaging 类衰老时钟工具包被纳入多个临床研究方案
+- **预测时间**：2026年12月至2027年1月
+- **预测概率**：50%
+- **预测依据**：开源衰老时钟工具（如 [pyaging](https://github.com/lucascamillomd/pyaging)）提供了标准化实现，加上 FDA 明确表态生物标志物是缩短试验周期的关键，研究者将有更强动机在新试验方案中纳入标准化衰老时钟测量。
 
+### 可穿戴帕金森数字生物标志物进入前瞻性临床验证
 - **预测时间**：2027年Q1
 - **预测概率**：45%
-- **预测依据**：今日新闻 [Arguing that Methionine Restriction is Actually Cysteine Restriction](https://www.fightaging.org/archives/2026/10/arguing-that-methionine-restriction-is-actually-cysteine-restriction/) 中小鼠和线虫数据已较完整，下一步通常是人体小样本安全性验证 + 氨基酸限制类研究的人体试验周期相对较短，但动物到人的转化失败率高，概率保守给出。
-
-### 神经退行性疾病早期蛋白预测工具进入合作开发阶段
-
-- **预测时间**：2026年Q4
-- **预测概率**：55%
-- **预测依据**：今日新闻 [New project aims to predict early protein dysfunction in neurodegenerative diseases](https://www.news-medical.net/news/20261009/New-project-aims-to-predict-early-protein-dysfunction-in-neurodegenerative-diseases.aspx) 宣告项目启动 + AlphaFold 等蛋白结构预测工具的成熟，正在吸引更多机构将蛋白错误折叠预测作为早期干预突破口，工业界合作意愿强烈。
+- **预测依据**：今日有多个帕金森数字生物标志物开源项目（[paradigma](https://github.com/biomarkersParkinson/paradigma)、[parkinson-wearable-digital-biomarkers](https://github.com/mohamad679/parkinson-wearable-digital-biomarkers)）公开，Sage Bionetworks 的 DREAM Challenge 也在推动标准化评测；但从工具公开到启动正式临床验证仍需资金和机构合作支持。
