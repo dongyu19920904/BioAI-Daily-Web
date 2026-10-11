@@ -6,18 +6,18 @@ sidebar:
 ---
 # Privacy Policy
 
-*Last updated: June 1, 2025*
+*Last Updated: June 1, 2025*
 
 ---
 
 This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your information when you use the Service, and tells you about your privacy rights and how the law protects you.
 
-We use your personal data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
+We use your Personal Data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
 
-## Interpretations and Definitions
+## Interpretation and Definitions
 
 ### Interpretation
-Words with capitalized first letters have meanings defined under the following conditions. These definitions have the same meaning regardless of whether they appear in singular or plural form.
+Words with capitalized initial letters have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural form.
 
 ### Definitions
 For the purposes of this Privacy Policy:
@@ -26,13 +26,13 @@ For the purposes of this Privacy Policy:
 
 - **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for election of directors or other managing authority.
 
-- **Company** (referred to in this Agreement as "the Company", "We", "Us", or "Our") refers to **hubtoday**.
+- **Company** (referred to as either "the Company," "We," "Us," or "Our" in this Agreement) refers to **hubtoday**.
 
 - **Cookies** are small files placed on your computer, mobile device, or any other device by a website, containing details of your browsing history on that website, among many other uses.
 
 - **Country** refers to: California, United States.
 
-- **Device** means any device that can access the Service, such as a computer, a mobile phone, or a digital tablet.
+- **Device** means any device that can access the Service, such as a computer, cellphone, or digital tablet.
 
 - **Personal Data** is any information that relates to an identified or identifiable individual.
 
@@ -51,7 +51,7 @@ For the purposes of this Privacy Policy:
 ### Types of Data Collected
 
 #### Personal Data
-When using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to:
+While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to:
 
 - Email address
 - Usage Data
@@ -59,6 +59,40 @@ When using our Service, we may ask you to provide us with certain personally ide
 #### Usage Data
 Usage Data is collected automatically when using the Service.
 
-Usage Data may include information such as your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.
+Usage Data may include information such as your Device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.
 
-When you access the Service by or through a mobile device, we may
+When you access the Service via a mobile device, we may automatically collect certain information, including but not limited to the type of mobile device you use, your mobile device's unique ID, your mobile device's IP address, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers, and other diagnostic data.
+
+We may also collect information that your browser sends whenever you visit our Service or when you access the Service via a mobile device.
+
+### Tracking Technologies and Cookies
+We use Cookies and similar tracking technologies to track activity on our Service and store certain information. The tracking technologies we use include beacons, tags, and scripts to collect and track information and to improve and analyze our Service. The technologies we may use include:
+
+- **Cookies or Browser Cookies**: A Cookie is a small file placed on your Device. You can instruct your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if you do not accept Cookies, you may not be able to use some parts of our Service. Unless you have adjusted your browser setting to refuse Cookies, our Service may use Cookies.
+- **Web Beacons**: Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs), which permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
+
+Cookies can be either "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when you go offline, while Session Cookies are deleted as soon as you close your web browser.
+
+We use both Session and Persistent Cookies for the following purposes:
+
+- **Necessary / Essential Cookies**
+  - **Type**: Session Cookies
+  - **Administered by**: Us
+  - **Purpose**: These Cookies are essential to provide you with services available through the Website and to enable you to use some of its features. They help authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that you have asked for cannot be provided, and we only use these Cookies to provide you with those services.
+
+- **Cookies Policy / Notice Acceptance Cookies**
+  - **Type**: Persistent Cookies
+  - **Administered by**: Us
+  - **Purpose**: These Cookies identify if users have accepted the use of Cookies on the Website.
+
+- **Functionality Cookies**
+  - **Type**: Persistent Cookies
+  - **Administered by**: Us
+  - **Purpose**: These Cookies allow us to remember choices you make when you use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide you with a more personal experience and to avoid you having to re-enter your preferences every time you use the Website.
+
+For more information about the Cookies we use and your choices regarding Cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.
+
+### Use of Your Personal Data
+The Company may use Personal Data for the following purposes:
+
+- **To provide and maintain our Service**, including monitoring
