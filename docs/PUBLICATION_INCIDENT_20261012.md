@@ -26,14 +26,19 @@
 
 ## 验证记录
 
-- 原有前端合同测试 16/16 通过。
+- 前端合同及队列守卫回归测试 19/19 通过。
 - 队列守卫模拟检查通过：健康任务不取消；10 天前 queued 任务被解除并触发重发；普通取消失败时强制解除。
 - 仓库最新普通日报已存在，无需重新调用模型或伪造 10 月 3 日后的历史内容。
-- 公开首页与日期页最终回查结果在恢复发布完成后补记。
+- 恢复运行 `38201060149` 构建、发布均 success；公开首页 H1 已为 `AI生命延续学日报 2026/10/12`，不是只在侧栏出现新日期。
+- 首页、`/2026-10/2026-10-12/`、`/opportunity/2026-10/2026-10-12/` 均返回 200；普通日报正文与仓库最新一期一致。
+- 队列守卫首次实跑暴露 Octokit paginate 已将 workflow_runs 归一化为数组，旧映射回调会取到 undefined。已修复并加入回归测试；修正版真实运行 `38235471731` success，未取消健康发布任务。
+- 项目商机额外补跑 `38235326648` 仍被相同来源/健康风险门禁拦截，未发布不合格草稿。10 月 12 日项目商机尚未恢复，不能宣称三个栏目均已正常；这不影响已恢复的普通日报和商机日报。
 
 ## 相关记录
 
 - 旧卡住任务：https://github.com/dongyu19920904/BioAI-Daily-Web/actions/runs/36994266171
 - 恢复部署：https://github.com/dongyu19920904/BioAI-Daily-Web/actions/runs/38201060149
 - 后端生成与项目商机门禁日志：https://github.com/dongyu19920904/CloudFlare-BioAI-Daily/actions/runs/38163916849
+- 修正版队列守卫实跑：https://github.com/dongyu19920904/BioAI-Daily-Web/actions/runs/38235471731
+- 项目商机补跑：https://github.com/dongyu19920904/CloudFlare-BioAI-Daily/actions/runs/38235326648
 - Cloudflare 静态 Pages 与 Functions 额度说明：https://developers.cloudflare.com/pages/functions/pricing/
