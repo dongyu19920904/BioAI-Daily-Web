@@ -1,0 +1,55 @@
+name: Recover stalled BioAI Pages queue
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: bioai-pages-queue-guard
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    if: github.repository == 'dongyu19920904/BioAI-Daily-Web'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const repo = context.repo;
+            const workflow_id = 'pages.yaml';
+            const active = ['queued', 'in_progress', 'waiting', 'pending', 'requested'];
+            const runs = (await Promise.all(active.map(status =>
+              github.paginate(github.rest.actions.listWorkflowRuns, {
+                ...repo, workflow_id, branch: 'main', status, per_page: 100,
+              }, response => response.data.workflow_runs)))).flat();
+            const stale = runs.filter(run => active.includes(run.status) &&
+              Date.now() - Date.parse(run.created_at) > 60 * 60000);
+            for (const run of stale) {
+              const args = { ...repo, run_id: run.id };
+              const current = (await github.rest.actions.getWorkflowRun(args)).data;
+              if (current.status === 'completed') continue;
+              core.info(`Recovering stalled Pages run ${run.id} (${current.status})`);
+              try {
+                await github.rest.actions.cancelWorkflowRun(args);
+              } catch (error) {
+                if (error.status !== 409) throw error;
+              }
+              for (let attempt = 0; attempt < 6; attempt++) {
+                await new Promise(resolve => setTimeout(resolve, 5000));
+                if ((await github.rest.actions.getWorkflowRun(args)).data.status === 'completed') break;
+              }
+              if ((await github.rest.actions.getWorkflowRun(args)).data.status !== 'completed') {
+                await github.request('POST /repos/{owner}/{repo}/actions/runs/{run_id}/force-cancel', args);
+              }
+            }
+            if (stale.length) {
+              await github.rest.actions.createWorkflowDispatch({ ...repo, workflow_id, ref: 'main' });
+            }
+            await core.summary.addRaw(`Stalled Pages runs recovered: ${stale.length}`).write();
