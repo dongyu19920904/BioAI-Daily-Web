@@ -28,7 +28,7 @@ jobs:
             const runs = (await Promise.all(active.map(status =>
               github.paginate(github.rest.actions.listWorkflowRuns, {
                 ...repo, workflow_id, branch: 'main', status, per_page: 100,
-              }, response => response.data.workflow_runs)))).flat();
+              })))).flat();
             const stale = runs.filter(run => active.includes(run.status) &&
               Date.now() - Date.parse(run.created_at) > 60 * 60000);
             for (const run of stale) {
