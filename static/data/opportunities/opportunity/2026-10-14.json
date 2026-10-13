@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-14",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-10/2026-10-14/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_2a7d7362700faa66",
+      "report_date": "2026-10-14",
+      "report_section": "opportunity",
+      "title": "「GLP-1 与老年脂肪肝」:一条能做内容阶梯的选题素材",
+      "source_urls": [
+        "https://medicalxpress.com/news/2026-10-glp-treatment-linked-hospitalization-death.html"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "1 正在使用或考虑 GLP-1 药物的中老年人及其家属;2 关注代谢健康/脂肪肝的 40–65 岁健康内容读者;3 健康管理类小机构的内容采购者",
+      "demand_claim": "GLP-1 在中国市场认知度快速上升,但脂肪肝适应症的信息很散,家属和患者找不到可读性强的中文梳理;健康管理机构需要定期更新客户的参考材料",
+      "demand_verified": false,
+      "deliverable_hint": "1 一篇公众号/小红书科普文,主题\"GLP-1 除了减肥,还观察到对老年脂肪肝有什么影响\";2 一张 GLP-1 研究进展追踪表(分适应症、研究阶段、局限性);3 后续可做\"GLP-1 相关检测指标解读清单\"资料包雏形",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "7 天内该条内容收到 20 个以上\"收藏/转发\"或 5 条以上私信问\"有没有更详细的整理\",则值得继续做 GLP-1 系列",
+        "stop_condition": "7 天内互动量不足 10、无人主动追问,说明当前渠道受众对这个话题没有付费意愿,暂停投入,换选题",
+        "upgrade_path": "免费科普文 → 低价\"GLP-1 研究进展资料包\"(含多适应症追踪表)→ 社群/会员定期更新 → 健康管理机构轻咨询或内容供稿"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_2a7d7362700faa66:discover_primary_source",
+      "opportunity_id": "opp_2a7d7362700faa66",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_2a7d7362700faa66:validate_demand",
+      "opportunity_id": "opp_2a7d7362700faa66",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
