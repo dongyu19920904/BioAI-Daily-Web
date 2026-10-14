@@ -8,45 +8,45 @@
   "opportunities": [
     {
       "schema_version": 1,
-      "opportunity_id": "opp_2a7d7362700faa66",
+      "opportunity_id": "opp_93cf30c88706d372",
       "report_date": "2026-10-14",
       "report_section": "opportunity",
-      "title": "「GLP-1 与老年脂肪肝」:一条能做内容阶梯的选题素材",
+      "title": "可穿戴生物年龄:从 Abu Dhabi 公共卫生项目提炼内容资料包",
       "source_urls": [
-        "https://medicalxpress.com/news/2026-10-glp-treatment-linked-hospitalization-death.html"
+        "https://longevity.technology/news/abu-dhabi-puts-biological-age-to-the-test/"
       ],
       "source_verified": false,
       "state": "needs_primary_source",
       "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
-      "target_user": "1 正在使用或考虑 GLP-1 药物的中老年人及其家属;2 关注代谢健康/脂肪肝的 40–65 岁健康内容读者;3 健康管理类小机构的内容采购者",
-      "demand_claim": "GLP-1 在中国市场认知度快速上升,但脂肪肝适应症的信息很散,家属和患者找不到可读性强的中文梳理;健康管理机构需要定期更新客户的参考材料",
+      "target_user": "** 已经在用 Ultrahuman Ring、Oura Ring 或 Apple Watch 的健康追踪爱好者;对\"我的真实年龄是多少\"有持续好奇的 30-50 岁用户;关注可穿戴赛道的健康内容创作者;做健康管理咨询的小机构",
+      "demand_claim": "** 这类人买了设备却不知道数据能说明什么、数据与生物年龄之间的关系是什么、哪个品牌的测量更可靠。他们愿意为\"看懂数据\"付时间和小额费用。",
       "demand_verified": false,
-      "deliverable_hint": "1 一篇公众号/小红书科普文,主题\"GLP-1 除了减肥,还观察到对老年脂肪肝有什么影响\";2 一张 GLP-1 研究进展追踪表(分适应症、研究阶段、局限性);3 后续可做\"GLP-1 相关检测指标解读清单\"资料包雏形",
+      "deliverable_hint": "** \"可穿戴生物年龄监测品牌横向对比表\"(Ultrahuman / Oura / Garmin / Apple Watch 各支持哪些生物标志物代理指标)+ 一篇公众号/小红书选题文章 + 后续可做资料包",
       "suggested_route": "structured_resource",
       "risk_flags": [
         "health_claim_review",
         "commercial_hypothesis"
       ],
       "hypotheses": {
-        "success_metric": "7 天内该条内容收到 20 个以上\"收藏/转发\"或 5 条以上私信问\"有没有更详细的整理\",则值得继续做 GLP-1 系列",
-        "stop_condition": "7 天内互动量不足 10、无人主动追问,说明当前渠道受众对这个话题没有付费意愿,暂停投入,换选题",
-        "upgrade_path": "免费科普文 → 低价\"GLP-1 研究进展资料包\"(含多适应症追踪表)→ 社群/会员定期更新 → 健康管理机构轻咨询或内容供稿"
+        "success_metric": "** 7 天内出现以下之一:文章阅读 300+,或 5 人以上私信问\"哪个设备更准\",或有人主动询问资料包价格。",
+        "stop_condition": "** 7 天内阅读低于 100、无任何私信互动,说明当前受众对这个具体切入角没有需求,停止继续深挖对比表方向,转向其他选题。",
+        "upgrade_path": "** 免费对比表 → 低价资料包(含指标解释 + 品牌选购建议框架)→ 付费社群\"可穿戴数据怎么看\"主题讨论 → 轻咨询(帮人解读自己的健康数据报告,注意合规边界)"
       },
       "primary_source_candidates": []
     }
   ],
   "tasks": [
     {
-      "task_id": "opp_2a7d7362700faa66:discover_primary_source",
-      "opportunity_id": "opp_2a7d7362700faa66",
+      "task_id": "opp_93cf30c88706d372:discover_primary_source",
+      "opportunity_id": "opp_93cf30c88706d372",
       "kind": "discover_primary_source",
       "status": "pending_automation",
       "description_zh": "自动继续检索一手论文、试验或机构来源",
       "depends_on": []
     },
     {
-      "task_id": "opp_2a7d7362700faa66:validate_demand",
-      "opportunity_id": "opp_2a7d7362700faa66",
+      "task_id": "opp_93cf30c88706d372:validate_demand",
+      "opportunity_id": "opp_93cf30c88706d372",
       "kind": "validate_demand",
       "status": "pending_automation",
       "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
