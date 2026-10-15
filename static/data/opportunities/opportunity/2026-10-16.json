@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-16",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-10/2026-10-16/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_b1fda8e98775d5cf",
+      "report_date": "2026-10-16",
+      "report_section": "opportunity",
+      "title": "免疫细胞银行科普选题:面向\"愿意提前储备健康资产\"的抗衰爱好者",
+      "source_urls": [
+        "https://longevity.technology/news/cellino-team-launches-immune-cell-banking-service/"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "** 已关注抗衰/长寿话题的消费者;对基因检测、可穿戴设备等健康科技感兴趣、有一定健康投入意愿的 30-50 岁人群;关注这一领域的内容创作者",
+      "demand_claim": "** \"现在储存,以后用得上\"的叙事具有焦虑驱动力;受众对\"错过了就没有了\"(年龄越小储存效果越好)的表述会有反应,内容本身可以承接这类搜索流量",
+      "demand_verified": false,
+      "deliverable_hint": "** 一篇科普文章(\"免疫细胞银行是什么/为什么现在有人开始存细胞\");一张对比表(与脐带血银行、干细胞存储的概念横向对比);一个 Notion 资料卡片(概念+来源+局限)",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "** 7 天内该内容获得 3 个以上真实追问(而非点赞),或有人主动询问服务链接/价格",
+        "stop_condition": "** 发出后 7 天内无任何追问,或追问全部是\"这靠谱吗\"类质疑而无购买意向,停止在该方向持续投入内容",
+        "upgrade_path": "** 科普内容 → 长寿科技服务导航资料包 → 社群/会员中持续跟进新服务上线"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_b1fda8e98775d5cf:discover_primary_source",
+      "opportunity_id": "opp_b1fda8e98775d5cf",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_b1fda8e98775d5cf:validate_demand",
+      "opportunity_id": "opp_b1fda8e98775d5cf",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
