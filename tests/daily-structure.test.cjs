@@ -23,5 +23,17 @@ test('latest aligned edition keeps its body and section order across daily rollo
     assert.deepEqual(sections.slice(0, 2), allowed.slice(0, 2));
     assert.ok(positions.every((position, index) => position >= 0 && (index === 0 || position > positions[index - 1])));
     assert.doesNotMatch(raw, /快速导航|今日可引用要点|趋势预测/);
-    assert.match(raw, /来源类型/);
+    assert.doesNotMatch(raw, /^来源类型[:：]|^证据阶段[:：]|^可信度[:：]/m);
+    assert.doesNotMatch(raw, /^\*\*[^\n]+\*\*(?:\s*\[[^\n]+)?[。.]?\s*$/m);
+    assert.match(raw, /尚未.*临床|预印本|未.*验证/);
+});
+
+test('daily reading uses a restrained shared style for dated pages and homepage', () => {
+    const css = read('assets/css/custom.css');
+    assert.match(read('layouts/_default/single.html'), /if \$isDaily.*bio-daily-reading/);
+    assert.match(read('layouts/docs/single.html'), /if \$isDaily.*bio-daily-reading/);
+    assert.match(read('layouts/docs/list.html'), /if \.IsHome.*bio-daily-reading/);
+    assert.match(css, /\.bio-daily-reading \.content h3\s*\{[^}]*font-size: 17px/s);
+    assert.match(css, /\.bio-daily-reading \.content strong\s*\{[^}]*color: inherit/s);
+    assert.match(css, /Only the opening summary is prose/);
 });

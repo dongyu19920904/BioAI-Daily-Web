@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{- $isGeoReport := gt (len (findRE `^/(?:[a-z]{2}/)?(?:(?:opportunity|project-opportunity)/)?\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` .RelPermalink)) 0 -}}
-  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+  {{- $isDaily := gt (len (findRE `^/(?:[a-z]{2}/)?\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` .RelPermalink)) 0 -}}
+  <div class='{{ if $isDaily }}bio-daily-reading {{ end }}hx:mx-auto hx:flex hextra-max-page-width'>
     {{ partial "sidebar.html" (dict "context" .) }}
     {{ partial "toc.html" . }}
     <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
