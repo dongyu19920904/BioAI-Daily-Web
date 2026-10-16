@@ -22,6 +22,8 @@ test("解析器兼容历史加粗与当前标题编号链接且限定重磅 TOP 
 
   assert.match(collector, /\$boldItemPattern/);
   assert.match(collector, /\$headingItemPattern/);
+  assert.match(collector, /\$plainHeadingItemPattern/);
+  assert.match(collector, /\$sourceLinks := findRE/);
   assert.match(collector, /\^#\{3,4\}\\s\+/);
   assert.match(collector, /in \$sectionHeadingLower "top"/);
   assert.match(collector, /in \$sectionHeading "重磅"/);

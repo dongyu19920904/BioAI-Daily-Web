@@ -150,6 +150,12 @@ jobs:
               YEAR_MONTH=$(echo "$filename" | cut -c 1-7)
               TARGET_FILE="$TARGET_CONTENT_DIR/$YEAR_MONTH/$filename"
 
+              # Keep the Worker's date, evidence-specific description and social image.
+              if [ -f "$TARGET_FILE" ] && [ "$(head -n 1 "$TARGET_FILE")" = "---" ]; then
+                node scripts/sync-daily-page.cjs "$source_file" "$TARGET_FILE"
+                continue
+              fi
+
               # Check if the target file already exists and is identical to avoid unnecessary writes/commits
               # This simple check might not be perfect for "identical" but good enough to prevent re-processing
               if [ -f "$TARGET_FILE" ]; then
@@ -262,6 +268,11 @@ jobs:
           # --- 4. 更新主索引页面 ---
           echo "--- 步骤 4: 更新主索引页面 (content/cn/_index.md) ---"
           TARGET_INDEX="$TARGET_CONTENT_DIR/_index.md"
+          LATEST_PAGE="$TARGET_CONTENT_DIR/$(basename "$LATEST_NOTE" .md | cut -c 1-7)/$(basename "$LATEST_NOTE")"
+          PAGE_DESCRIPTION=$(yq e --front-matter=extract '.description // ""' "$LATEST_PAGE")
+          if [ -n "$PAGE_DESCRIPTION" ]; then
+            LATEST_DESCRIPTION=$(printf '%s' "$PAGE_DESCRIPTION" | sed 's/"/\\"/g')
+          fi
           
           LATEST_NOTE_DATE=$(basename "$LATEST_NOTE" .md)
           LATEST_YEAR=$(echo "$LATEST_NOTE_DATE" | cut -d- -f1)
@@ -272,12 +283,8 @@ jobs:
           HOME_TITLE="AI生命延续学日报 ${LATEST_YEAR}/${LATEST_MONTH_NO_ZERO}/${LATEST_DAY_NO_ZERO}"
           FRONTMATTER="---\nlinkTitle: AI生命延续学日报\ntitle: ${HOME_TITLE}\nbreadcrumbs: false\n"
           # The 'next' link should point to the second latest note, which is now an archived page.
-          if [ -n "$SECOND_LATEST_NOTE" ] && [ "$LATEST_NOTE" != "$SECOND_LATEST_NOTE" ]; then # Ensure there IS a second latest note
-            FILENAME_SECOND_LATEST=$(basename "$SECOND_LATEST_NOTE" .md)
-            YEAR_MONTH_SECOND_LATEST=$(echo "$FILENAME_SECOND_LATEST" | cut -c 1-7)
-            NEXT_LINK="${YEAR_MONTH_SECOND_LATEST}/${FILENAME_SECOND_LATEST}"
-            FRONTMATTER+="next: /${NEXT_LINK}\n" # Assuming absolute path from site root
-          fi
+          NEXT_LINK="${LATEST_NOTE_DATE:0:7}/${LATEST_NOTE_DATE}"
+          FRONTMATTER+="next: /${NEXT_LINK}\n"
           
           FRONTMATTER+="description: \"${LATEST_DESCRIPTION}\"\n" # LATEST_DESCRIPTION is already escaped
           FRONTMATTER+="cascade:\n  type: docs\n---\n\n"
