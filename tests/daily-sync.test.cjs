@@ -18,3 +18,8 @@ test('daily sync workflow retains per-page metadata and points homepage at newes
     assert.match(workflow, /NEXT_LINK="\$\{LATEST_NOTE_DATE:0:7\}\/\$\{LATEST_NOTE_DATE\}"/);
     assert.doesNotMatch(workflow, /NEXT_LINK="\$\{YEAR_MONTH_SECOND_LATEST\}/);
 });
+
+test('unchanged daily text leaves historical bytes and whitespace untouched', () => {
+    const existing = '---\r\ndescription: "历史描述"\r\n---\r\n\r\n## 正文\r\n\r\n原文。\r\n    ';
+    assert.equal(reuseDailyFrontMatter(existing, '## 正文\n\n原文。\n'), existing);
+});

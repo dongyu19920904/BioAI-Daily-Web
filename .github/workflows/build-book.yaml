@@ -289,8 +289,15 @@ jobs:
           FRONTMATTER+="description: \"${LATEST_DESCRIPTION}\"\n" # LATEST_DESCRIPTION is already escaped
           FRONTMATTER+="cascade:\n  type: docs\n---\n\n"
 
-          printf "%b" "$FRONTMATTER" > "$TARGET_INDEX"
-          cat "$LATEST_NOTE" >> "$TARGET_INDEX"
+          if [ -f "$TARGET_INDEX" ] &&
+             [ "$(yq e --front-matter=extract '.next // ""' "$TARGET_INDEX")" = "/${NEXT_LINK}" ] &&
+             [ "$(yq e --front-matter=extract '.title // ""' "$TARGET_INDEX")" = "$HOME_TITLE" ] &&
+             [ "$(yq e --front-matter=extract '.description // ""' "$TARGET_INDEX")" = "$PAGE_DESCRIPTION" ]; then
+            node scripts/sync-daily-page.cjs "$LATEST_NOTE" "$TARGET_INDEX"
+          else
+            printf "%b" "$FRONTMATTER" > "$TARGET_INDEX"
+            cat "$LATEST_NOTE" >> "$TARGET_INDEX"
+          fi
           echo "$TARGET_INDEX 更新完成。"
 
       # 第4步：提交 content 目录下的所有修改

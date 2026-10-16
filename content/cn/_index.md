@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/10/16
+title: 'AI生命延续学日报 2026/10/16'
 breadcrumbs: false
 next: /2026-10/2026-10-16
-description: "2026-10-16 AI生命延续学日报：APOE4 髓鞘损伤机制、SIRT1 功能储备、CellNet 单细胞模型。包含 TOP10、产品更新、前沿研究、开源项目及证据问答。"
+description: '2026-10-16 AI生命延续学日报：APOE4 髓鞘损伤机制、SIRT1 功能储备、CellNet 单细胞模型。包含 TOP10、产品更新、前沿研究、开源项目及证据问答。'
 cascade:
   type: docs
 ---
