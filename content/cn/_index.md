@@ -1,6 +1,6 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/16'
+title: AI生命延续学日报 2026/10/16
 breadcrumbs: false
 next: /2026-10/2026-10-16
 description: '2026-10-16 AI生命延续学日报：APOE4 髓鞘损伤机制、阿尔茨海默治疗响应差异、AI 分子设计。包含 TOP10、前沿研究、开源项目及证据问答。'
