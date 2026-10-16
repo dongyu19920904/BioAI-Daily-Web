@@ -282,7 +282,7 @@ jobs:
           LATEST_DAY_NO_ZERO=$(echo "$LATEST_DAY" | sed 's/^0*//')
           HOME_TITLE="AI生命延续学日报 ${LATEST_YEAR}/${LATEST_MONTH_NO_ZERO}/${LATEST_DAY_NO_ZERO}"
           FRONTMATTER="---\nlinkTitle: AI生命延续学日报\ntitle: ${HOME_TITLE}\nbreadcrumbs: false\n"
-          # The 'next' link should point to the second latest note, which is now an archived page.
+          # Match the Worker homepage: link to the canonical latest dated edition.
           NEXT_LINK="${LATEST_NOTE_DATE:0:7}/${LATEST_NOTE_DATE}"
           FRONTMATTER+="next: /${NEXT_LINK}\n"
           
