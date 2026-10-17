@@ -4,49 +4,49 @@ type: page
 sidebar:
   exclude: true
 ---
-# Contact Aivora
+# Get in Touch with Aiwoola
 
-Thanks for stopping by the Aivora AI Daily! We'd love to hear your thoughts and feedback. 🎉
+Aiwoola AI Daily thanks you for stopping by! We'd love to hear your thoughts and feedback. 👋
 
-Got questions, partnership ideas, or need help with AI tool accounts? Reach out through any of the channels below.
+We're here to help whether you have questions, partnership ideas, or need AI tool account support. Here's how to reach us.
 
 ---
 
-## 📬 Contact Us
+## Contact Info
 
-### WeChat Customer Service
+### WeChat Customer Service 💬
 
 **WeChat ID: aiwoola**
 
-Scan the QR code or search our ID to add our support team. Here's what we can help with:
-- 🛒 AI tool account purchase inquiries
-- 💡 Technical support for usage questions
-- 🤝 Business partnership discussions
-- 📰 Content submissions and suggestions
+Our WeChat customer service is just a scan or search away. Add us to get help with:
+- AI tool account purchase inquiries
+- Technical support for usage issues
+- Business partnership discussions
+- Content submissions and suggestions
 
-### Email
+### Email 📧
 
 **Email: [support@aivora.cn](mailto:support@aivora.cn)**
 
-Best for:
+Drop us an email for:
 - Detailed technical questions
-- Business cooperation proposals
+- Business partnership proposals
 - Bulk purchase inquiries
 
-### Official Website
+### Official Website 🌐
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Head over to the site to check out:
+Our website has everything you need to know about:
 - Latest account package pricing
 - Terms of service and guarantees
-- User guides and documentation
+- User guides
 
 ---
 
-## ⏰ Service Hours
+## Service Hours 🕐
 
-- **Customer support online:** Daily, 9:00 AM – 11:00 PM (GMT+8)
-- **Email response time:** Within 24 hours
+- Customer service online hours: 9:00 - 23:00 daily (GMT+8)
+- Email response time: within 24 hours
 
-We're committed to fast responses and genuinely caring about every user. 💪
+Our promise: quick responses and dedicated service for every single user! ✨
