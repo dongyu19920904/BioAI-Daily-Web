@@ -3,7 +3,7 @@ linkTitle: AI生命延续学日报
 title: 'AI生命延续学日报 2026/10/17'
 breadcrumbs: false
 next: /2026-10/2026-10-17
-description: '2026-10-17 AI生命延续学日报：AI发现SRSF1基因可延长老龄小鼠寿命14%；阻断STING信号通路保护老龄小鼠骨密度；Monte Rosa NEK7降解剂一期数据显示多项炎症标志物下降。聚焦来源、证据阶段和实际应用距离。'
+description: '2026-10-17 AI生命延续学日报：用通俗中文解读 AI 寻找延寿线索、骨骼保护、早期药物试验和器官老化工具，保留来源与研究限制。'
 cascade:
   type: docs
 ---
@@ -11,104 +11,99 @@ cascade:
 ## **今日摘要**
 
 ```
-Monte Rosa NEK7降解剂一期在108名受试者中使hsCRP中位下降85%，Tenvie CNS穿透NLRP3抑制剂同日完成首例给药，抗炎症性衰老进入两条早期临床并行推进。
-大药企以百亿级并购替代内部研发、Prenuvo开放20万份MRI数据、衰老细胞外囊泡独立传播衰老信号，多个信号共同指向衰老研究正从机制发现转向数据基础设施与临床管线布局。
-读者应优先核查Monte Rosa GFORCE-1数据的同行评审状态，以及Longeveron预印本的事后分析局限，再评估NLRP3通路的近期临床价值。
+AI 寻找延寿线索，抗炎药也有新进展，但关键结果仍处于早期研究。
+今天还可看看骨骼保护和脑部研究，重点是它们解决什么问题、还差哪一步。
+有些结果只来自小鼠或实验室，人体炎症指标下降也不能直接当成延寿证据。
 ```
 
 ## **🔥 今日焦点 TOP 9**
 
-### 1. AI发现SRSF1基因可延长老龄小鼠寿命14%
+### 1. AI 帮忙寻找延寿基因，结果还待核实
 
-据[谷歌新闻聚合报道](https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg0QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc)，一项研究报告称 AI 筛选发现的 **SRSF1** 基因（一种 RNA 剪接因子）与"复兴"（rejuvenation）效应相关，老龄小鼠寿命延长了 **14%**。该报道属于二手来源，原始论文、期刊名称、具体样本量及干预方式均待核查。目前只能确认：研究方向涉及 AI 辅助靶点发现与衰老生物学交叉，动物实验有效不等于人体适用。
+一条[聚合新闻](https://news.google.com/rss/articles/CBMidkFVX3lxTE40aWVIaWNPQ0hNd0VaaHFDX1hTR3h2Rmtnc0hReFhKRE51T3JMLVkzbDV4VXJOUDRFQnFub0VIZmxfckVxM1VVRFBURElHTk1Vb19FREg0QzljZkttbFVVY2FRSHJmYUs5Tm9EYXJIMVF0QmM0Qmc)称，AI 筛选出一个参与细胞处理遗传信息的基因，相关实验让老龄小鼠寿命延长了 14%。不过，目前材料没有提供原始论文和完整实验细节。这只能作为待核查的研究线索，不能当成已经确认的延寿成果，更不能推到人体。
 
-### 2. 阻断STING信号通路保护老龄小鼠骨密度
+### 2. 减少过度炎症，或有助于保护老龄小鼠骨骼
 
-据 [Lifespan.io 的报道](https://lifespan.io/blocking-sting-helps-preserve-bone-in-aging-mice/)，中国研究团队在《Advanced Science》发表研究，在12至18月龄小鼠中，巨噬细胞特异性沉默 *Sting* 基因可显著保留骨密度与骨结构，并减少骨髓脂肪细胞数量。研究还识别出一条信号链：骨髓脂肪细胞分泌的 **DPP4** 通过 TLR4 受体协同线粒体 DNA 泄漏激活 STING，进而促使 **CD38** 降解胞外 NAD⁺，损害邻近骨祖细胞的线粒体功能。药物干预组（STING 抑制剂 H-151 联合 NMN）与已知抗骨质疏松药阿仑膦酸钠效果相近。局限：小鼠实验、样本量小、联合用药难以分离各自贡献，尚未进入人体研究。
+骨骼老化可能与骨髓中的过度炎症有关。[这项研究的报道](https://lifespan.io/blocking-sting-helps-preserve-bone-in-aging-mice/)介绍，研究人员抑制一条名为 STING 的细胞信号，并配合另一项干预，减轻了老龄小鼠的骨量流失。不过，两项干预一起使用，各自起了多大作用还不清楚，目前也没有人体效果证据。
 
-[![来源配图：Blocking STING Helps Preserve Bone in Aging Mice](https://lifespan.io/wp-content/uploads/2026/10/Bone-structure-262x187.jpg)](https://lifespan.io/blocking-sting-helps-preserve-bone-in-aging-mice/)
+[![老龄小鼠骨骼研究配图](https://lifespan.io/wp-content/uploads/2026/10/Bone-structure-262x187.jpg)](https://lifespan.io/blocking-sting-helps-preserve-bone-in-aging-mice/)
 
-### 3. Monte Rosa NEK7降解剂一期数据显示多项炎症标志物下降
+### 3. 一种实验性药物让炎症指标下降
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/heart-pill-cuts-inflammation-markers-in-early-trial/)，Monte Rosa Therapeutics 在108名肥胖高心血管风险受试者中完成 GFORCE-1 研究（一期/先导，4周给药）。分子胶降解剂 MRT-8102 将 NEK7 蛋白水平中位下降约 **80–90%**；下游标志物 hsCRP 中位下降 **85%**、IL-6 下降 **54%**；斑块相关信号 calprotectin、S100A12、SAA 分别下降 **56%、46%、51%**。不良事件发生率（33%）与安慰剂（30%）接近，未见感染风险增加。数据由公司公告披露，尚未发表同行评审论文；4周血液标志物改善不等于心脏事件减少，后续 Phase 2b GFORCE-2 预计2027年上半年启动。
+在 108 人参加、持续 4 周的早期试验中，一种实验性药物让血液中的多项炎症指标下降。[相关报道](https://longevity.technology/news/heart-pill-cuts-inflammation-markers-in-early-trial/)介绍了公司披露的结果。这些指标用于观察体内炎症，下降不代表心脏病发作已经减少；数据还没有经过同行专家审核，仍需后续试验。
 
-[![来源配图：Heart pill cuts inflammation markers in early trial](https://longevity.technology/wp-content/uploads/2026/10/heart-pill-cuts-inflammation-markers-in-early-trial-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/heart-pill-cuts-inflammation-markers-in-early-trial/)
+[![早期抗炎药试验报道配图](https://longevity.technology/wp-content/uploads/2026/10/heart-pill-cuts-inflammation-markers-in-early-trial-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/heart-pill-cuts-inflammation-markers-in-early-trial/)
 
-### 4. Prenuvo向50余家机构开放20万份全身MRI数据
+### 4. 更多全身扫描数据向研究者开放
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/prenuvo-opens-its-200k-mri-scans-to-researchers/)，Prenuvo 于9月29日宣布启动 Prenuvo Research Network，将逾 **20万份**全身 MRI 扫描纳入研究生物库。初步分析78,000余名自愿筛查者发现 **7%** 存在临床显著脑部异常（包括动脉瘤、梗死灶、脑膜瘤）。合作机构包括 UCSF、City of Hope、Moffitt Cancer Center 等50余家。关键局限：受试者均为主动付费筛查人群，不代表一般人口；影像发现异常与改善生存结局之间的因果关系尚未证实；各子研究均呼吁后续前瞻性研究验证。
+影像公司 Prenuvo 此前宣布，把超过 20 万份全身磁共振扫描纳入研究资料库，供合作机构开展研究。[报道介绍了这项计划](https://longevity.technology/news/prenuvo-opens-its-200k-mri-scans-to-researchers/)，有助于研究者观察身体影像中的变化。不过，资料主要来自主动付费筛查者，不能代表所有人；发现异常也不等于已经证明筛查能延长寿命。
 
-[![来源配图：Prenuvo opens its 200K MRI scans to researchers](https://longevity.technology/wp-content/uploads/2026/10/prenuvo-opens-its-200k-mri-scans-to-researchers-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/prenuvo-opens-its-200k-mri-scans-to-researchers/)
+[![全身磁共振研究资料库报道配图](https://longevity.technology/wp-content/uploads/2026/10/prenuvo-opens-its-200k-mri-scans-to-researchers-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/prenuvo-opens-its-200k-mri-scans-to-researchers/)
 
-### 5. Longeveron间充质干细胞疗法预印本显示减缓阿尔茨海默神经炎症
+### 5. 细胞疗法研究看到脑部炎症变化
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/longeverons-stem-cell-data-hint-at-calmer-brains/)，Longeveron 在 medRxiv 发布事后探索性分析（基于已发表的 CLEAR MIND 2a 期试验，**49人**）：laromestrocel（Lomecel-B）在左海马体的 free water MRI 指标达到 *p* < 0.05；神经炎症减缓与认知评分（MoCA）改善及血浆 neurogranin 下降同步出现。局限：预印本尚未同行评审，事后分析、样本量小，相关性不等于因果；该产品未获 FDA 批准；公司同期进行投资人巡回路演。
+一项涉及 49 人的早期试验，在后续数据分析中看到脑部影像变化与记忆、思考能力评分改善同时出现。[这项细胞疗法的报道](https://longevity.technology/news/longeverons-stem-cell-data-hint-at-calmer-brains/)提供了线索。但这是对既有数据的补充分析，论文还没有经过同行专家审核，不能据此确认它能治疗阿尔茨海默病。
 
-[![来源配图：Longeveron’s stem cell data hint at calmer brains](https://longevity.technology/wp-content/uploads/2026/10/longeverons-stem-cell-data-hint-at-calmer-brains-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/longeverons-stem-cell-data-hint-at-calmer-brains/)
+[![细胞疗法与脑部研究报道配图](https://longevity.technology/wp-content/uploads/2026/10/longeverons-stem-cell-data-hint-at-calmer-brains-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/longeverons-stem-cell-data-hint-at-calmer-brains/)
 
-### 6. Kailera肥胖药物三期招募完成，结果待2028年
+### 6. 减重药试验招募完成，疗效还要等
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/kaileras-obesity-trials-are-full-results-due-2028/)，Kailera Therapeutics 完成 KaiNETIC Phase 3 三项试验招募（共约 **4,900** 人），最高剂量10 mg，每试验76周。KaiNETIC-3 包含与开放标签司美格鲁肽2.4 mg的直接对照。顶线数据预计2028年中。目前无疗效或安全性数据可分析；GLP-1/GIP双受体激动剂能否转化为更长健康寿命，76周试验本身无法回答。
+Kailera 的一组减重药大型试验已完成招募，共约 4,900 人参加。[据报道](https://longevity.technology/news/kaileras-obesity-trials-are-full-results-due-2028/)，其中一项会与已有减重药直接比较，主要结果预计到 2028 年才公布。目前只有招募进展，还没有这组试验的疗效和安全性结果，也不能证明它能延长寿命。
 
-[![来源配图：Kailera’s obesity trials are full, results due 2028](https://longevity.technology/wp-content/uploads/2026/10/kaileras-obesity-trials-are-full-results-due-2028-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/kaileras-obesity-trials-are-full-results-due-2028/)
+[![减重药试验招募报道配图](https://longevity.technology/wp-content/uploads/2026/10/kaileras-obesity-trials-are-full-results-due-2028-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/kaileras-obesity-trials-are-full-results-due-2028/)
 
-### 7. Tenvie新型CNS穿透NLRP3抑制剂进入一期人体试验
+### 7. 面向脑部炎症的新药开始人体测试
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/tenvie-therapeutics-begins-phase-1-study-of-new-brain-penetrating-drug/)，Tenvie Therapeutics 于10月13日完成 TNV313 首例受试者给药，启动随机剂量递增一期安全性与药代动力学研究（健康志愿者）。TNV313 被定位为全 CNS 穿透的口服 NLRP3 抑制剂，靶向神经、心代谢及眼科疾病；初步安全性和药代数据预计2027年上半年公布。一期研究仅评估安全性与靶组织分布，不能推断神经退行性疾病疗效。
+Tenvie 的一款口服新药已开始在健康志愿者中测试，设计目标是进入大脑后抑制炎症。[这项早期试验的报道](https://longevity.technology/news/tenvie-therapeutics-begins-phase-1-study-of-new-brain-penetrating-drug/)介绍了进展。现阶段先观察安全性，以及药物在体内如何吸收和代谢，还不能回答它能否改善脑部疾病。
 
-### 8. 大药企以收购替代内部研发，衰老赛道已逐渐纳入并购逻辑
+### 8. 大药企通过收购补充新药研发
 
-据 [Longevity.Technology 的分析报道](https://longevity.technology/news/big-pharma-isnt-building-its-buying/)，该报告指出大型药企运营所有注册行业试验的 **62%**（衰老核心通路），但几乎所有2025–2026年具体交易均为外部收购：Lilly–Insilico **27.5亿美元**、Roche/Chugai–Gero **最高10亿美元**；2028年前行业专利悬崖约 **1000亿美元**，推动2025年生命科学并购达 **2400亿美元**（同比+81%）。这些数字来自报告基案假设，非实际已兑现价值；AbbVie 11年 Calico 合作已于2025年11月终止且无获批产品，说明内部衰老研究也存在高失败率。
+一篇[行业分析](https://longevity.technology/news/big-pharma-isnt-building-its-buying/)指出，大型药企正在购买外部研究成果，衰老相关项目也被纳入这一思路。值得留意的是哪些成果能继续进入药物开发，而非只看交易金额。收购能说明企业看好某个方向，不能证明药物有效，也不等于协议金额已全部兑现。
 
-[![来源配图：Big Pharma isn’t building – it’s buying](https://longevity.technology/wp-content/uploads/2026/10/big-pharma-buy-not-build-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/big-pharma-isnt-building-its-buying/)
+[![药企收购与研发分析报道配图](https://longevity.technology/wp-content/uploads/2026/10/big-pharma-buy-not-build-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/big-pharma-isnt-building-its-buying/)
 
-### 9. 衰老细胞胞外囊泡独立驱动邻近细胞衰老，不依赖经典炎症SASP
+### 9. 小囊泡可能传递细胞衰老信号
 
-据 [Lifespan.io 的报道](https://lifespan.io/untangling-differences-in-senescent-cellular-signaling/)，《Aging》杂志发表细胞实验研究，比较 H-RASG12V 诱导衰老细胞与 p16 过表达细胞的分泌组：p16 细胞几乎不分泌 IL-1β、IL-6 等可溶性 SASP，但分泌了更多小型胞外囊泡（sEVs）；这些 sEV 能驱动受体细胞表达 p16 和 SA-β-gal（衰老标志），并诱发 DNA 损伤（γH2AX），却不引起经典炎症因子分泌。研究用老年人来源 sEV 处理婴儿成纤维细胞验证了上述效应。局限：体外细胞实验，sEV 的具体货物成分未鉴定，靶向 sEV 是否可行尚未探索。
+衰老细胞释放的小囊泡，也可能影响周围细胞。[这项实验的报道](https://lifespan.io/untangling-differences-in-senescent-cellular-signaling/)介绍，研究者用这些囊泡处理培养皿中的其他细胞，观察到衰老相关变化。这为理解细胞之间怎样传递影响提供了线索，但实验尚未证明阻断这一过程就能延长人体寿命。
 
-[![来源配图：Untangling Differences in Senescent Cellular Signaling](https://lifespan.io/wp-content/uploads/2026/10/Proteins-or-extracellular-vesicles-262x187.jpg)](https://lifespan.io/untangling-differences-in-senescent-cellular-signaling/)
+[![细胞释放蛋白质和小囊泡的研究配图](https://lifespan.io/wp-content/uploads/2026/10/Proteins-or-extracellular-vesicles-262x187.jpg)](https://lifespan.io/untangling-differences-in-senescent-cellular-signaling/)
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### Digbi Health将HRT并入多组学精准健康平台
+### 更年期健康平台加入激素治疗服务
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/digbi-health-turns-its-gut-data-on-menopause/)，Digbi Health 将激素替代治疗（HRT）纳入其现有精准生物学平台，成员可在同一临床团队获取 GLP-1 与 HRT 处方，个性化方案依据基因组、肠道微生物组、连续血糖及血液生物标志物定制。同期还通过 OpenLoop Health 和 MD Integrations 扩展至全美50个州，覆盖300余家雇主。公司援引已发表研究显示每成员每年节省医疗支出 **3,012美元**，但该数据来自 HRT 推出之前，HRT 模块本身尚无独立疗效或成本数据。平台面向雇主和健康计划，不直接面向个人消费者购买。
+Digbi Health 把激素治疗纳入原有平台，由同一临床团队结合健康数据制定方案。[据报道](https://longevity.technology/news/digbi-health-turns-its-gut-data-on-menopause/)，服务主要面向雇主和健康计划。新模块还没有独立的疗效或成本结果，不能沿用旧服务的省钱数据来证明它有效。
 
-[![来源配图：Digbi Health turns its gut data on menopause](https://longevity.technology/wp-content/uploads/2026/10/digbi-health-turns-its-gut-data-on-menopause-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/digbi-health-turns-its-gut-data-on-menopause/)
+[![更年期健康服务报道配图](https://longevity.technology/wp-content/uploads/2026/10/digbi-health-turns-its-gut-data-on-menopause-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/digbi-health-turns-its-gut-data-on-menopause/)
 
 ---
 
 ## **🧪 前沿研究**
 
-### 双酚混合物在人乳腺类器官中重编程表观遗传状态
+### 化学物质混合暴露影响实验室组织模型
 
-据[GEN 的报道](https://www.genengnews.com/topics/cancer/exposure-to-common-endocrine-disrupting-chemicals-may-alter-normal-breast-development/)，Tufts 大学和波士顿大学研究人员在《PNAS》发表研究，使用来自 **13名**健康年轻女性的三维乳腺类器官，测试 BPA、BPS、BPF 三种双酚单独及混合暴露的影响。单独暴露变化有限，但低剂量混合暴露（接近人体血液和尿液实际检出浓度）在多数捐献者的类器官中扰乱正常乳腺发育，诱导细胞外基质重塑、上皮可塑性及 DNA 甲基化重编程。这些分子改变模式与浸润性小叶癌患者数据高度重叠。研究采用 AI 辅助高内涵筛查平台量化发育扰动。局限：体外类器官模型、捐献者样本量小，不能证明化学物质导致癌症，观察到的分子改变是否持续存在于人体组织并引发疾病仍需前瞻性研究验证。
+研究者用 13 名捐献者的细胞培养出乳腺组织模型，观察几种双酚化学物质混合暴露后的变化，并用 AI 辅助分析。[报道显示](https://www.genengnews.com/topics/cancer/exposure-to-common-endocrine-disrupting-chemicals-may-alter-normal-breast-development/)，部分正常发育和细胞调控过程受到扰动。但这仍是实验室模型，不能据此判断日常接触会让某个人患癌。
 
 ---
 
 ## **◎ 行业变化与个人影响**
 
-### 细胞与基因疗法规模化面临系统性瓶颈
+### 细胞疗法要普及，还得解决制造和配送
 
-据 [GEN 发布的 BioLife Solutions 电子书报告](https://www.genengnews.com/resources/ebooks/designing-the-ecosystem-for-cgt-success/)，2026年 Cell Summit 与会者（涵盖研究者、临床医生、制造商、CDMO 等）一致认为 CAR-T 等细胞基因疗法的下一个核心挑战是规模化"操作系统"：制造、报销、物流、数据治理等环节必须协同运转，任意一环断裂均导致患者等待。这份行业评估不涉及具体疗效数据，适合关注再生医学可及性和生产体系建设进展的读者了解当前瓶颈共识；商业可持续性尚待实证检验。
+一份[企业参与的行业报告](https://www.genengnews.com/resources/ebooks/designing-the-ecosystem-for-cgt-success/)指出，细胞和基因疗法走向更多患者，还要把生产、运输和支付等环节衔接好。任何一处跟不上，都可能增加等待时间。这是对落地难点的行业讨论，没有提供某种疗法更有效的新证据。
 
-[![来源配图：Designing the Ecosystem for CGT Success](https://www.genengnews.com/wp-content/uploads/2026/10/GEN_Biolife_Cover-232x300.jpg)](https://www.genengnews.com/resources/ebooks/designing-the-ecosystem-for-cgt-success/)
+[![细胞与基因疗法行业报告封面](https://www.genengnews.com/wp-content/uploads/2026/10/GEN_Biolife_Cover-232x300.jpg)](https://www.genengnews.com/resources/ebooks/designing-the-ecosystem-for-cgt-success/)
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### kkontras/NeuroAtlas：脑电图基础模型跨任务基准套件
+### NeuroAtlas 帮研究者比较 AI 读脑电图的能力
 
-[NeuroAtlas](https://github.com/kkontras/NeuroAtlas) 是一个 EEG（脑电图）基础模型评测框架，覆盖睡眠分期、**脑年龄**估算、癫痫检测和脑机接口（BCI）四类任务，论文已被 NeurIPS 2026 接收。适合研究神经信号处理、脑年龄生物标志物和跨任务迁移学习的开发者与研究者。仓库发布于2026-10-16，当前 **18 stars**；许可证、数据集使用条件及试跑环境要求请以仓库 README 为准，未经独立验证。
+[NeuroAtlas](https://github.com/kkontras/NeuroAtlas) 提供一套统一测试，比较不同 AI 分析脑电图的能力，涉及睡眠、脑年龄和癫痫检测等任务。它是研究用的评测工具，不能直接当作看病软件。数据使用许可和运行条件仍需核对仓库说明。
 
-### JackieHanLab/PAOPAC：蛋白质组驱动的器官代理衰老时钟
+### PAOPAC 用蛋白质数据研究器官老化
 
-[PAOPAC](https://github.com/JackieHanLab/PAOPAC)（Proteome-Aware Organ Proxy Aging Clock）利用蛋白质组数据构建各器官的生物年龄代理时钟，属于多组学衰老测量工具。适合研究蛋白质组与衰老生物学、器官特异性生物年龄估算的科研用户。仓库发布于2026-09-21，**2 stars**；具体使用的数据集、许可证和算法细节请以仓库说明为准，均待独立核查。
-
----
-
-❓ **相关问题**
-
+[PAOPAC](https://github.com/JackieHanLab/PAOPAC) 利用蛋白质数据，估计不同器官与衰老有关的状态，供研究者比较器官老化差异。这里的器官年龄是模型估算，不能直接等同于器官实际健康状况。项目目前仅供科研参考，使用前需核对数据和许可条件。
