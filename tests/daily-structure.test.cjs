@@ -25,7 +25,22 @@ test('latest aligned edition keeps its body and section order across daily rollo
     assert.doesNotMatch(raw, /快速导航|今日可引用要点|趋势预测/);
     assert.doesNotMatch(raw, /^来源类型[:：]|^证据阶段[:：]|^可信度[:：]/m);
     assert.doesNotMatch(raw, /^\*\*[^\n]+\*\*(?:\s*\[[^\n]+)?[。.]?\s*$/m);
-    assert.match(raw, /尚未.*临床|预印本|未.*验证/);
+    assert.match(raw, /尚未.*临床|预印本|未.*验证|没有人体效果证据|没有经过同行专家审核/);
+});
+
+test('October 17 plain-language edit keeps sources and boundaries without jargon chains', () => {
+    const raw = read('daily/2026-10-17.md');
+    assert.equal((raw.match(/^### \d+\./gm) || []).length, 9);
+    assert.equal((raw.match(/!\[/g) || []).length, 9);
+    assert.doesNotMatch(raw, /hsCRP|GFORCE-1|H-RASG12V|SA-β-gal|H-151|TLR4|calprotectin/);
+    assert.match(raw, /不能当成已经确认的延寿成果/);
+    assert.match(raw, /没有人体效果证据/);
+    assert.match(raw, /下降不代表心脏病发作已经减少/);
+    assert.match(raw, /论文还没有经过同行专家审核/);
+    assert.match(raw, /没有提供某种疗法更有效的新证据/);
+    const summary = raw.match(/```\n([\s\S]*?)\n```/)[1].split('\n');
+    assert.equal(summary.length, 3);
+    assert.ok(summary.every(line => [...line].length <= 44));
 });
 
 test('daily reading uses a restrained shared style for dated pages and homepage', () => {
