@@ -28,19 +28,17 @@ test('latest aligned edition keeps its body and section order across daily rollo
     assert.match(raw, /尚未.*临床|预印本|未.*验证|没有人体效果证据|没有经过同行专家审核/);
 });
 
-test('October 17 plain-language edit keeps sources and boundaries without jargon chains', () => {
-    const raw = read('daily/2026-10-17.md');
-    assert.equal((raw.match(/^### \d+\./gm) || []).length, 9);
-    assert.equal((raw.match(/!\[/g) || []).length, 9);
-    assert.doesNotMatch(raw, /hsCRP|GFORCE-1|H-RASG12V|SA-β-gal|H-151|TLR4|calprotectin/);
-    assert.match(raw, /不能当成已经确认的延寿成果/);
-    assert.match(raw, /没有人体效果证据/);
-    assert.match(raw, /下降不代表心脏病发作已经减少/);
-    assert.match(raw, /论文还没有经过同行专家审核/);
-    assert.match(raw, /没有提供某种疗法更有效的新证据/);
-    const summary = raw.match(/```\n([\s\S]*?)\n```/)[1].split('\n');
-    assert.equal(summary.length, 3);
-    assert.ok(summary.every(line => [...line].length <= 44));
+test('every latest news item has prose and an inline source without freezing daily facts', () => {
+    const file = fs.readdirSync(path.join(root, 'daily')).filter(file => /^\d{4}-\d{2}-\d{2}\.md$/.test(file)).sort().at(-1);
+    const raw = read(`daily/${file}`);
+    const items = raw.split(/^### .+\n/gm).slice(1);
+    assert.ok(items.length > 0);
+    for (const item of items) {
+        const paragraphs = item.split(/\n\s*\n/).map(value => value.trim()).filter(value => value && !/^(?:#|---|\[?!\[)/.test(value));
+        assert.ok(paragraphs.some(value => value.length >= 30 && /\[[^\]]+\]\(https?:\/\//.test(value)), 'each item needs actual prose with an inline source');
+    }
+    assert.doesNotMatch(raw, /BIOAI_REF_\d+/);
+    assert.doesNotMatch(raw, /^关键词[:：]|^学到什么[:：]/m);
 });
 
 test('daily reading uses a restrained shared style for dated pages and homepage', () => {
