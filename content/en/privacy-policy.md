@@ -14,10 +14,10 @@ This Privacy Policy describes our policies and procedures on the collection, use
 
 We use your personal data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
 
-## Interpretation and Definitions
+## Interpretations and Definitions
 
 ### Interpretation
-Words with capitalized first letters have meanings defined under the following conditions. These definitions apply whether they appear in singular or plural form.
+Words with capitalized initial letters have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural form.
 
 ### Definitions
 For the purposes of this Privacy Policy:
@@ -28,7 +28,7 @@ For the purposes of this Privacy Policy:
 
 - **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to **hubtoday**.
 
-- **Cookies** are small files placed on your computer, mobile device, or any other device by a website, containing the details of your browsing history on that website, among many other uses.
+- **Cookies** are small files placed on your computer, mobile device, or any other device by a website, containing details of your browsing history on that website among many other uses.
 
 - **Country** refers to: California, United States.
 
@@ -59,4 +59,4 @@ While using our Service, we may ask you to provide us with certain personally id
 #### Usage Data
 Usage Data is collected automatically when using the Service.
 
-Usage Data may include information such as your device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and
+Usage Data may include information such as your Device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique
