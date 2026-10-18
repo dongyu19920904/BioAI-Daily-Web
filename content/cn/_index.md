@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/18'
+title: 'AI生命延续学日报 2026/10/19'
 breadcrumbs: false
-next: /2026-10/2026-10-18
-description: '2026-10-18 AI生命延续学日报：肠道菌产奇链脂肪酸可减缓小鼠动脉粥样硬化；大脑保护细胞功能失常或驱动认知衰退；AI 衰老时钟测量生物年龄速度。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-10/2026-10-19
+description: '2026-10-19 AI生命延续学日报：伴侣介导的自噬能力下降导致衰老细胞积累,药物激活可减轻小鼠肺纤维化；百岁老人肠道菌群富集特定菌属,功能通路显示免疫与代谢特征；抑制 miR-128-3p 恢复老年小鼠肌肉质量与功能,并改善心梗后心脏功能。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,48 +11,65 @@ cascade:
 ## **今日摘要**
 
 ```
-《Nature》报道肠道菌产生的C15:0奇链脂肪酸在小鼠高脂模型中8周内使斑块负担降低约50%，但效果弱于阿托伐他汀且无人体试验数据。
-同期研究信号集中于脑老化机制与生物年龄测量：胶质细胞异常髓鞘化或驱动认知衰退，AI衰老时钟与ROSMAP多组学代码同步推进方法工具层建设。
-读者应优先核查胶质细胞研究原文以确认实验物种与样本量，以及ROSMAP仓库许可证和数据获取条件后再复现。
+伴侣介导的自噬下降使衰老细胞逃避免疫清除,药物激活 CMA 减轻小鼠肺纤维化,但人体疗效待临床验证。
+百岁老人富集 Akkermansia 等菌属,大型犬转座元件去甲基化速度快 31%,健康生活方式仅中介 20% 社会经济地位对寿命的影响。
+先核查第 1、3 条动物实验边界,再看第 7 条综述中人体临床试验结果混合的原因,了解制造工艺对疗效的影响。
 ```
 
-## **🔥 今日焦点 TOP 3**
+## **🔥 今日焦点 TOP 10**
 
-### 1. 肠道菌产奇链脂肪酸可减缓小鼠动脉粥样硬化
+### 1. 伴侣介导的自噬能力下降导致衰老细胞积累,药物激活可减轻小鼠肺纤维化
 
-据 [Lifespan.io 的报道](https://lifespan.io/gut-bacteria-molecule-slows-atherosclerosis-in-mice/)，发表于 *Nature* 的研究显示，肠道菌 *Bacteroides uniformis* 产生的奇链脂肪酸 **戊癸酸（C15:0）**，可激活肝脏 SREBP2-LDL 受体通路，抑制胆固醇合成并促进血液 LDL 清除。在 Apoe 基因缺失的高脂饮食小鼠中，C15:0 给药 **8 周后斑块负担降低约 50%**，同时减少斑块内巨噬细胞浸润。不过阿托伐他汀（atorvastatin）的效果明显更优；实验采用终点比较而非基线对照，故只能说明"减缓"而非"逆转"。目前尚无人体随机对照试验，市售 C15:0 补充剂能否优于他汀药物尚不明确。
+据 [Fight Aging! 的研究汇编](https://www.fightaging.org/archives/2026/10/age-related-decline-in-chaperone-mediated-autophagy-impairs-clearance-of-senescence-cells/)及所链接研究,伴侣介导的自噬(CMA)在衰老过程中的下降改变了衰老细胞的性质并损害免疫清除。CMA 缺陷的细胞虽能进入衰老,但会获得类似老年衰老细胞的蛋白组、代谢和分泌特征;其分泌物对邻近细胞的促衰老作用增强,并抑制巨噬细胞的 CMA,损害巨噬细胞吞噬衰老细胞的能力。在小鼠中特异性阻断巨噬细胞 CMA 会增加衰老细胞积累,延缓伤口愈合中的衰老清除;药物激活 CMA 则减少老年小鼠衰老细胞负担,并降低肺纤维化小鼠模型的疾病严重程度。该研究为小鼠动物实验,人体疗效和安全性尚待临床验证。
 
-![动脉粥样硬化对比图](https://lifespan.io/wp-content/uploads/2026/10/Atorvastatin-comparison.png)
-*图：C15:0 与阿托伐他汀对斑块指标的比较（来源：Lifespan.io / Nature）*
+### 2. 百岁老人肠道菌群富集特定菌属,功能通路显示免疫与代谢特征
 
-### 2. 大脑保护细胞功能失常或驱动认知衰退
+据 [Fight Aging! 的系统综述汇总](https://www.fightaging.org/archives/2026/10/a-review-of-differences-identified-in-gut-microbiome-composition-between-young-old-and-long-lived-individuals/),41 项纳入研究(主要使用 16S rRNA 测序或宏基因组)显示,百岁老人肠道中 **Akkermansia、Alistipes 和 Parabacteroides** 菌属持续富集;长寿和老年人群显示氨基酸分解、维生素合成以及可能与免疫调节、炎症和肠屏障支持相关的通路特征。该综述聚合多队列结果,地域代表性有限;功能通路差异尚未证明因果关系,也未确定干预这些菌群能否延长寿命。
 
-据 [ScienceDaily 的报道](https://www.sciencedaily.com/releases/2026/10/261015073222.htm)，科学家发现一类原本被认为对大脑有益的细胞，在功能异常时会产生过量异常髓鞘（myelin），干扰神经纤维传导，可能加速记忆和认知下降。该研究指向与年龄相关认知衰退的一个新机制。目前仅有短摘要，具体细胞类型、实验物种、样本量及是否进行了干预实验均待核查原文。
+### 3. 抑制 miR-128-3p 恢复老年小鼠肌肉质量与功能,并改善心梗后心脏功能
 
-### 3. AI 衰老时钟测量生物年龄速度
+据 [Fight Aging! 报道的研究](https://www.fightaging.org/archives/2026/10/mir-128-3p-inhibition-improves-muscle-mass-and-function-in-aged-mice/),使用反义寡核苷酸抑制 miR-128-3p 可恢复老年小鼠的肌肉质量和功能,改善心肌梗死后的心脏功能,并减轻小鼠和猪杜氏肌营养不良模型中骨骼肌和心肌病理。抑制 miR-128-3p 诱导保守的转录反应,激活线粒体程序并抑制炎症和纤维化信号,类似已知的延寿干预效果。该研究为动物实验,人体有效性和安全性尚未验证;Elenae Therapeutics 正在开发相关技术,目前以心梗等适应症为首要目标。
 
-[Bioengineer.org 的报道](https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnZnZVZRWElwN2l1SE81aDJiMXFuMmJCSlZ3WlhGSWhValhCcHJfaUpZNHp5ZzA0VFg1Njlud1lFSHQ5OUE2eEJDQ3lFVmRla0FiRkRldmZHV3lTaFpaQUxyOGUxaDJCQk1HMlhiSXBSak8wa2VRdjNUYzlDdjhDSS0zeHZwQWRMQzFkTXJHbS1PaGJHVWE2TXNRenNyQld6Qmc?oc=5)介绍了 AI 生物年龄时钟（aging clock）的研究方向：机器学习模型如何通过多维生物学数据估算个体真实衰老速度。这是老龄化研究的核心工具类别，但该报道为二手来源，未给出具体模型、数据集、样本量或验证结果，原始论文和具体数据待核查。
+### 4. 大型犬表观遗传衰老速度快于小型犬,转座元件去甲基化差异显著
 
----
+据 [Fight Aging! 报道的研究](https://www.fightaging.org/archives/2026/10/epigenetic-aging-is-accelerated-in-large-dogs-versus-small-dogs/),美国 Dog Aging Project 的 1640 个犬甲基化组数据显示,表观遗传年龄高于预期的狗死亡风险升高;**大型犬、雄性和年轻个体**显示加速的表观遗传衰老特征。启动子区域随年龄增加甲基化,而内含子和转座元件(TE)随年龄失去甲基化;大型犬与年龄相关的 TE 去甲基化速度比小型犬强 **31%**,这种放大在 LINE1、SINE、LINE2 和 DNA 转座子等多类 TE 中普遍存在,但在进化上较年轻的 LINE1 中最为显著。该研究为观察性分析,不能证明 TE 激活直接导致寿命差异。
+
+### 5. 健康生活方式仅中介 20% 社会经济地位对死亡和不健康衰老的影响
+
+据 [Fight Aging! 报道的 20 年队列研究](https://www.fightaging.org/archives/2026/10/how-much-of-the-correlation-between-socioeconomic-status-and-life-expectancy-results-from-lifestyle-choice/),中国 23 省 33,541 名 ≥65 岁老年人数据显示,低社会经济地位(SES)者全因死亡和不健康衰老风险分别增加 25% 和 46%(调整后 HR 1.25 和 1.46);健康生活方式(不吸烟、不酗酒、规律活动、健康饮食)分别中介了 **20.5%** 和 **16.4%** 的 SES 不平等。在低、中、高 SES 亚组中,最健康生活方式组 65 岁时的总预期寿命分别多 3.18、3.76 和 5.65 年,健康预期寿命分别多 1.40、2.73 和 3.90 年。该研究为观察性队列,生活方式与 SES 的因果方向和其他混杂因素(如污染、医疗可及性)尚未完全分离。
+
+### 6. 人牙髓干细胞分泌组改善小鼠卒中后梗死体积、神经炎症和认知功能
+
+据 [Fight Aging! 报道的研究](https://www.fightaging.org/archives/2026/10/dental-pulp-stem-cell-secretome-as-a-treatment-to-improve-outcomes-following-stroke/),人牙髓干细胞(hDPSC)分泌组含神经营养、抗氧化和免疫调节因子;蛋白组学鉴定出 SOD2、GSR、GSTP1 等抗氧化蛋白及 GRN、CSF1、LRP1 等小胶质细胞表型相关候选分子。在光血栓性小鼠卒中模型中,hDPSC 分泌组治疗减少梗死体积、神经元凋亡和 ROS 积累,减轻 NF-κB 相关炎症信号,将小胶质细胞标志物表达转向 M2 相关表型,改善海马神经发生、血管重塑和突触组织;小鼠运动协调、空间学习记忆、情境记忆和焦虑样行为均有改善。该研究为小鼠实验和 CoCl₂ 诱导缺氧 BV2 细胞模型,人体卒中患者的有效性和安全性尚未验证。
+
+### 7. 间充质干细胞来源 miRNA 在帕金森、阿尔茨海默和卒中动物模型中显示神经保护作用
+
+据 [Fight Aging! 的系统综述](https://www.fightaging.org/archives/2026/10/a-review-of-animal-study-evidence-for-mesenchymal-stem-cell-therapy-to-treat-neurodegeneration/),37 项临床前研究(9 项帕金森病、10 项阿尔茨海默病、18 项卒中)显示,间充质干细胞(MSCs)来源的特定 miRNA(尤其是 **miR-133b、miR-146a、miR-17-92 和 miR-223**)调节基因表达、减轻神经炎症和凋亡,减少 α-突触核蛋白和 Aβ 等病理标志物积累;靶向递送这些 miRNA 与动物模型中运动和认知功能改善相关。该综述总结动物证据,人体临床试验结果混合,表明制造工艺、细胞来源等细节对疗效有重要影响;信号分子疗法正在被探索以提高可靠性。
+
+### 8. 日本研究发现大豆来源化合物 LPC70 保护小鼠免受高盐饮食的记忆和社交损害
+
+据 [ScienceDaily 的研究摘要](https://www.sciencedaily.com/releases/2026/10/261017230032.htm),日本研究人员在小鼠中发现大豆来源化合物 **LPC70** 有助于保护大脑免受高盐饮食的多种损害。给予 LPC70 补充的小鼠与单纯摄入过量盐的小鼠相比,血压更低、记忆更好、社交互动改善。该报道为短摘要,具体样本量、干预剂量、效应大小和机制细节待查;该研究在小鼠中进行,人体有效性和安全性尚未验证。
+
+### 9. 科学家发现与青春相关的蛋白质帮助老年小鼠脑免疫细胞恢复清理能力
+
+据 [ScienceDaily 的研究摘要](https://www.sciencedaily.com/releases/2026/10/261016070646.htm),科学家发现一种与青春相关的蛋白质有助于保护大脑免疫细胞免受衰老相关的功能下降。在老年小鼠中恢复该蛋白质改善了细胞清理碎片的能力并减少炎症迹象,为针对大脑衰老和阿尔茨海默病的未来治疗带来希望。该报道为短摘要,具体蛋白名称、干预方式、效应大小和细胞类型待查;该研究在小鼠中进行,人体应用前景尚待评估。
+
+### 10. 研究发现雌雄小鼠皮肤干细胞修复模式不同,雌性协同工作促进伤口愈合
+
+据 [ScienceDaily 的研究摘要](https://www.sciencedaily.com/releases/2026/10/261017230020.htm),科学家通过在活体小鼠中追踪单个皮肤干细胞五个月,发现**雌性细胞以高度协调的方式共同工作,而雄性细胞更独立运作**;这种由性激素驱动的同步性有助于解释为什么雌性小鼠伤口愈合更快,尤其是在最初几天。该报道为短摘要,具体细胞标志物、激素类型和愈合速度差异数据待查;该研究在小鼠中进行,人类皮肤修复的性别差异及临床意义尚待验证。
 
 ## **🧪 前沿研究**
 
-### 大脑老化多组学分解研究发布图表复现代码
+### 功能连接在衰老和阿尔茨海默病中沿不同脑通讯轴变化
 
-[jpwhalley/rosmap-multiomic-sda](https://github.com/jpwhalley/rosmap-multiomic-sda) 仓库发布了 Whalley J.P. 等人"大脑老化多组学胶质程序"（Multi-omic Glial Programs in Brain Aging）手稿对应的图表复现笔记本（manuscript under review，尚未同行评审）。该仓库包含基于 ROSMAP 队列 **546 个 SDA 分解组件**的 KEGG 富集分析与临床关联测试代码，研究对象为人类脑老化数据。具体结果结论及数据质量以最终发表版为准，目前属预印本阶段。
+据 [Fight Aging! 报道的研究](https://www.fightaging.org/archives/2026/10/functional-connectivity-changes-in-the-aging-brain-are-different-in-alzheimers-disease-patients/),两个独立队列(BioFINDER-2,N=973;ADNI,N=129)的 MRI 功能连接数据显示,衰老和阿尔茨海默病(AD)相关的功能连接变化沿不同的层次性脑通讯轴排列:AD 病理早期积累和认知下降与沿**感觉-联合轴**的功能变化相关,而年龄相关功能变化则在整个成年期始终沿**表征-执行轴**发生。该研究为观察性分析,不能区分功能连接变化是补偿性适应还是病理性破坏;有效疗法出现后方可通过疗效测量明确。
 
----
+### 血管衰老的细胞机制与潜在干预策略综述
+
+据 [Fight Aging! 的血管衰老综述](https://www.fightaging.org/archives/2026/10/the-hallmarks-of-aging-as-applied-to-the-vasculature-specifically/),血管壁在衰老过程中经历内皮细胞、血管平滑肌细胞和周细胞的表型与功能转变;内皮祖细胞储备耗竭和细胞外基质重塑将血管生态位从再生环境转向慢性炎症和结构衰退。衰老细胞(通过 p53/p21 和 p16/pRB 轴执行永久性周期阻滞)在老年个体血管内皮中 p53、p21 和 p16 水平显著升高;间歇口服**达沙替尼和槲皮素**可显著减少老年小鼠主动脉内层衰老细胞负担,改善血管舒张功能。该综述总结临床前证据,人体大规模临床试验和监管批准仍需时间。
 
 ## **◎ 行业变化与个人影响**
 
-### 高温酷寒气候威胁监禁老年人与女性健康
+### Second Century Foundation 成立以倡导延寿研究并填补资金空白
 
-据 [MedicalXpress 的报道](https://medicalxpress.com/news/2026-10-pennsylvania-aging-prisons-werent-built.html)，宾夕法尼亚州老旧监狱设施无法应对极端气温（去年最高达 39°C，最低达 -23°C），对被监禁的老年人和女性群体构成健康风险。该报道属短摘要级，未给出样本量、健康结局数据或干预方案；提示气候适应性在脆弱老年群体的公共卫生层面已成现实问题，具体政策影响待核查原文。
-
----
-
-## **❓ 相关问题**
-
-### C15:0 补充剂目前能否用于预防动脉粥样硬化？
-
-目前无法推荐。据 [Lifespan.io 报道的 *Nature* 研究](https://lifespan.io/gut-bacteria-molecule-slows-atherosclerosis-in-mice/)，C15:0 在小鼠模型中显示出减缓斑块形成的效果，但尚无人体随机对照试验数据。研究团队和报道均明确指出，C15:0 效果弱于现有他汀药物，且目前没有证据显示其安全性或耐受性优于他汀；"可在市场购得"不等于临床有效或安全经过验证。任何用药决策请咨询医生，不应依据动物实验自行补充。
+据 [Fight Aging! 报道](https://www.fightaging.org/archives/2026/10/second-century-foundation-launches-to-advocate-for-longevity-research/),Second Century Foundation 作为 501(c)(3) 私营运营基金会成立,专注于加速人类延寿突破;其填补 NIH(需发表)和风投(需 10 年退出)无法资助的空白。当前项目包括为营利投资者和运营者撰写延寿生物技术财务案例备忘录(IPO/并购路径、融资来源、NPV 预测框架)、绘制延寿领域资本流动全景图(量化学术/产业/政府支出,识别被低估领域和顶尖人才)及开源延寿模拟器工具。该基金会刚起步,项目成果和对延寿研发的实际影响尚待观察;读者可关注其资助项目和倡导进展。
