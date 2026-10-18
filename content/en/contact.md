@@ -4,49 +4,49 @@ type: page
 sidebar:
   exclude: true
 ---
-# Get in Touch with Aiwoola
+# Get in Touch with Aivora
 
-Aiwoola AI Daily thanks you for stopping by! We'd love to hear your thoughts and feedback. 👋
+Thanks for checking out the Aivora AI Daily! We'd love to hear your thoughts and feedback.
 
-We're here to help whether you have questions, partnership ideas, or need AI tool account support. Here's how to reach us.
+Got questions, partnership ideas, or need a hand with your AI tool accounts? Here's how to reach us.
 
 ---
 
-## Contact Info
+## 📬 Contact Info
 
-### WeChat Customer Service 💬
+### Customer Service WeChat
 
 **WeChat ID: aiwoola**
 
-Our WeChat customer service is just a scan or search away. Add us to get help with:
-- AI tool account purchase inquiries
-- Technical support for usage issues
-- Business partnership discussions
-- Content submissions and suggestions
+Scan the QR code or search to add our customer service for:
+- 🛒 AI tool account purchase inquiries
+- 💡 Tech support for usage questions
+- 🤝 Business collaboration discussions
+- 📰 Content submissions and suggestions
 
-### Email 📧
+### Email
 
 **Email: [support@aivora.cn](mailto:support@aivora.cn)**
 
-Drop us an email for:
+Best for:
 - Detailed technical questions
 - Business partnership proposals
-- Bulk purchase inquiries
+- Bulk purchase pricing inquiries
 
-### Official Website 🌐
+### Official Website
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Our website has everything you need to know about:
+Visit our site to check out:
 - Latest account package pricing
 - Terms of service and guarantees
 - User guides
 
 ---
 
-## Service Hours 🕐
+## ⏰ Service Hours
 
-- Customer service online hours: 9:00 - 23:00 daily (GMT+8)
-- Email response time: within 24 hours
+- **Customer service online hours**: Daily 9:00 AM - 11:00 PM (GMT+8)
+- **Email response time**: Within 24 hours
 
-Our promise: quick responses and dedicated service for every single user! ✨
+We're committed to fast responses and great service for every user! 💪
