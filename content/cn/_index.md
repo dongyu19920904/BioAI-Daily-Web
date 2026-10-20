@@ -3,7 +3,7 @@ linkTitle: AI生命延续学日报
 title: 'AI生命延续学日报 2026/10/20'
 breadcrumbs: false
 next: /2026-10/2026-10-20
-description: '2026-10-20 AI生命延续学日报：首次人体部分重编程试验报告初步安全信号；UK Biobank 启动大规模免疫图谱计划；VectorY 将 ALS 试验扩大至 36 人。聚焦来源、证据阶段和实际应用距离。'
+description: '2026-10-20 AI生命延续学日报：痴呆风险评分 ITU-DESC 首次结合宽特征筛选与缺失偏差控制；蛋白质语言模型 recAMPLIFY 以少 56% 参数实现更优折叠预测；BrainLoRA 用参数高效微调使脑编码刷新 Algonauts 榜首。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,97 +11,91 @@ cascade:
 ## **今日摘要**
 
 ```
-Life Biosciences 公布首个人体部分表观遗传重编程试验 ER-100 中期数据，3 名视神经病变患者耐受良好，2 名患者视野初步改善，但无对照组，结论仅属探索性安全信号。
-多项临床试验同步扩张或启动，VectorY 将 ALS 试验扩至 36 人，UK Biobank 启动 8 万份样本免疫图谱计划，行业整体向更大规模数据采集和 AAV 基因递送方向推进。
-读者应优先核查 ER-100 原始数据中视野改善的测量方法与基线差异，以及 Miro1、HSV-1 和肠道微生物组三项研究的具体样本量与实验模型。
+伊斯坦布尔技术大学基于50万UK Biobank参与者开发的ITU-DESC评分以38个变量将痴呆预测AUC提升至0.853，但仍属内部验证的观察性研究工具。
+多项预印本同日展示方向一致的参数压缩趋势：recAMPLIFY以少56%参数实现更优蛋白折叠预测，BrainLoRA用LoRA微调刷新脑编码榜首，PMTM在15种MRI缺失子集下超越现有分割基线。
+应优先核查ITU-DESC是否有外部队列验证计划，以及recAMPLIFY在药物设计任务上的独立评测结果。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 首次人体部分重编程试验报告初步安全信号
+### 1. 痴呆风险评分 ITU-DESC 首次结合宽特征筛选与缺失偏差控制
 
-据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/life-biosciences-reports-initial-results-from-the-first-reprogramming-trial/)，Life Biosciences 公布了首个人体部分表观遗传重编程试验 ER-100 的中期数据。该 1 期开放标签试验通过 AAV 载体向视神经病变患者眼内单次注射 OSK 三因子，由口服多西环素诱导表达 8 周。**3 名**参与者至第 56 天均耐受良好，2 名开角型青光眼患者视野检测中 **≥28%** 测试点改善超过 4 dB。仅 3 人、无对照组，改善信号属初步观察，不能证明疗效。
+据[论文索引/摘要](https://papers.cool/arxiv/2610.26604)，伊斯坦布尔技术大学团队在约 **50 万名 UK Biobank 参与者**（中位随访 16.6 年）中开发了机器学习痴呆风险评分 ITU-DESC。模型从约 8,000 个候选特征中经 BorutaSHAP 稳定筛选出 **38 个预测变量**，使用 CatBoost 梯度提升树，在 50,041 名参与者的留出测试集中实现 ROC AUC **0.853**（95% CI 0.844–0.863），高于 UK Biobank 现有评分 0.841。研究新发现白细胞**端粒长度**与肝酶等先前评分中缺席的预测因子。这是首个同时处理宽特征选择与缺失偏差的痴呆预测工具，属观察性队列研究，尚未在独立外部队列中验证，也不能直接用于临床筛查决策。
 
-### 2. UK Biobank 启动大规模免疫图谱计划
+### 2. 蛋白质语言模型 recAMPLIFY 以少 56% 参数实现更优折叠预测
 
-据 [GEN 的媒体报道](https://www.genengnews.com/topics/omics/landmark-uk-biobank-imu-immune-profiling-initiative-taps-ultima-and-waters/)，IMU Biosciences 与 UK Biobank 合作，将对初始 **8 万份**血样生成超 1 亿免疫数据点，使用 AI 计算方法分析高维免疫细胞图谱。项目采用 Ultima UG200 测序平台与 Waters 流式细胞仪，计划今年启动并希望扩展至全部 50 万参与者。UK Biobank 首席科学家表示数据将帮助研究免疫系统随衰老变化及与疾病风险的关系。数据将向获批研究者开放，目前尚无研究结果。
+据[论文索引/摘要](https://papers.cool/arxiv/2610.26747)，研究团队提出递归预训练蛋白质语言模型 recAMPLIFY，仅 **1.55 亿唯一参数**（相较 AMPLIFY-350M 少 56%），在相同 2 万亿 token 上训练后，CASP 接触预测恢复率和三项监督任务上均优于基线，折叠准确率提升 **22.5%**。团队进一步引入门控混合递归（GMR）框架，可将期望层深度再降低最多 **37%**，但精度权衡因任务而异。该研究属预印本，具体提升数值需核查任务差异；模型在药物设计和突变效应预测场景的实际收益尚待独立评测。
 
-### 3. VectorY 将 ALS 试验扩大至 36 人
+### 3. BrainLoRA 用参数高效微调使脑编码刷新 Algonauts 榜首
 
-据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/vectory-triples-als-trial-before-efficacy-data/)，VectorY 在尚未获得任何疗效数据前将 PIONEER-ALS 从 12 人扩大至 **36 人**，理由是入组迅速和全球站点激活快。VTx-002 是首个靶向 TDP-43 蛋白的载体化抗体疗法，通过 AAV 递送使中枢神经系统持续产生抗体。试验为开放标签剂量递增设计，主要评估安全性，纳入 NfL 等探索性生物标志物。扩大样本增加观察信息，但无对照组且无疗效数据，不意味药物有效。
+据[论文索引/摘要](https://papers.cool/arxiv/2610.26802)，研究团队提出 BrainLoRA，通过低秩适配器（LoRA）对预训练多模态主干网络进行参数高效微调（PEFT），以极少量可训练参数适配最高 **1,040 亿参数**的模型用于脑编码，在 **Algonauts 2025 Challenge** 公开榜上排列第一。方法在九种多模态主干上持续提升编码性能，并通过模态归因恢复了经典感觉地形图。这是预印本结果，脑编码模型预测的是神经响应而非认知或诊断结果，不代表临床应用能力。
 
-![VectorY triples ALS trial before efficacy data](https://longevity.technology/wp-content/uploads/2026/10/vectory-triples-als-trial-before-efficacy-data-hero-1200x800-1-1024x683.png)
+### 4. LLM 从餐食照片估算能量摄入：群体偏差小、个体误差大
 
-### 4. 数字记忆测试与生物标志物联手筛查神经退行
+据[论文索引/摘要](https://papers.cool/arxiv/2610.26538)，研究团队在包含 **802 餐**（含精确称重摄入量）的受控喂食试验 ACETADA 上评测了六款多模态 LLM。三款模型在 148 天内的均值误差 90% 置信区间符合预设 10% 阈值，但无任何模型达到预设的个体 30% 一致界限。研究发现：两张照片并不明显优于一张（仅降低 2.2–3.4 个百分点），蛋白质估算在每款模型上均偏低。结论明确：低群体偏差不代表个体摄入准确，此类估算只能辅助而不能替代注册营养师评估。
 
-据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/amprion-and-prema-link-memory-tests-to-biomarkers/)，Amprion 与 Prema Cognition 合作探索将 10-15 分钟数字记忆评估 PREMAZ 与 Amprion 的 α-突触核蛋白种子扩增检测配对，用于更早识别神经退行风险。PREMAZ 关注记忆精度而非仅判断是否记住，已在英美印三国诊所使用；Amprion 检测曾获 FDA 突破性器械认定。目前无性能数据、时间表和费用信息，合作尚处探索阶段，数字测试阳性仅提示需进一步评估而非诊断。
+### 5. 多模态脑肿瘤分割模型 PMTM 处理序列缺失问题
 
-![Amprion and Prema link memory tests to biomarkers](https://longevity.technology/wp-content/uploads/2026/10/amprion-prema-link-memory-tests-to-biomarkers-hero-1200x800-1-1024x683.png)
+据[论文索引/摘要](https://papers.cool/arxiv/2610.26457)，研究团队提出渐进式多尺度肿瘤状态记忆网络（PMTM），针对 MRI 序列（T1ce/T1/FLAIR/T2）部分缺失的分割场景，在 BraTS2018/2020/2023 GLI 三个基准全部 15 种非空序列子集上的平均 Dice 分别为 **75.31%、77.54%、80.47%**，均高于 RobustSeg、RFNet 和 mmFormer。该模型通过跨模态协同注意力与门控状态更新维持分割一致性。研究基于公开基准数据集，尚无前瞻性临床验证。
 
-### 5. 白藜芦醇帕金森 2a 期试验完成首例给药
+### 6. 非侵入式语音脑机接口：训练时 logit 平均设立新基准
 
-据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/resveratrol-parkinsons-trial-doses-first-patient/)，Jupiter Neurosciences 在 RESET 试验中为首位帕金森患者给药，测试其微胶束白藜芦醇制剂 JOTROL。试验为随机双盲安慰剂对照设计，约 **30 人**分三组口服 12 周，主要终点为安全性和药代动力学。同日公司宣布聘请顾问评估出售或授权资产等战略选项。JOTROL 为研究性药物尚未获批，12 周小样本研究不评判疗效。
+据[论文索引/摘要](https://papers.cool/arxiv/2610.26347)，研究系统比较了六种多试次聚合策略在三个数据集、四个任务和两种分组规模下的表现，发现训练时 logit 平均在 7 个设置中的 6 个胜出。在 **2025 PNPL 竞赛**音素分类任务上，该方法平衡准确率较冠军方案高出 **17.4 个百分点**。这是非侵入式神经解码的方法性研究，属预印本；目前任务为音素分类，距离实用脑机接口还有多个工程步骤。
 
-![Resveratrol Parkinson's trial doses first patient](https://longevity.technology/wp-content/uploads/2026/10/resveratrol-parkinsons-trial-doses-first-patient-hero-1200x800-1-1024x683.png)
+### 7. 单细胞基因转录爆发动力学的无模拟贝叶斯推断
 
-### 6. 长期使用 GLP-1 药物者营养信心偏低
+据[论文索引/摘要](https://papers.cool/arxiv/2610.26361)，研究团队提出无模拟近似贝叶斯计算框架（SFABC），利用化学主方程将随机反应网络参数推断转化为凸优化问题，避免了高代价 Gillespie 模拟。在合成基准上精度与标准模拟方法相当，计算成本显著降低。研究将其应用于快照、时间序列及细胞周期分辨的单细胞数据中的**基因转录爆发动力学**分析。属预印本，目前仅验证于合成数据和有限实验系统，大规模单细胞图谱场景的可扩展性待核查。
 
-据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/29-of-long-term-glp-1-users-lack-nutrient-confidence/)，PortionIQ 委托 Censuswide 调查 1,000 名英国减重成年人发现，使用 GLP-1 药物两年以上者中 **29%** 对必需营养素知识缺乏信心，而用药不到一个月者仅 12%。长期使用者中仅 57% 认为摄入充足营养，新用户为 81%。该调查由销售营养产品的公司委托，属横断面自报数据，不同时间组为不同人群，无法显示信心随时间下降的因果关系。
+### 8. 多模态生存预测模型 HGASurv 引入分层病理图像编码
 
-![29% of long-term GLP-1 users lack nutrient confidence](https://longevity.technology/wp-content/uploads/2026/10/29-percent-of-long-term-glp-1-users-lack-nutrient-confidence-hero-1200x800-1-1024x683.png)
+据[论文索引/摘要](https://papers.cool/arxiv/2610.26357)，研究提出 HGASurv，联合分析全切片病理图像（WSI）、基因组特征与临床变量进行生存风险分层。分层 WSI 编码在斑块、邻域和区域三个尺度提取形态特征，临床引导图传播则以患者相似性为拓扑边整合临床信息。在 **三个 TCGA 队列**上 C-index 表现总体最优，消融实验支持两个模块均有贡献。研究局限于 TCGA 回顾性数据，跨机构前瞻性验证尚未开展。
 
-### 7. Miro1 蛋白与 2 型糖尿病胰岛素抵抗相关
+### 9. 加拿大北极冻土层宏基因组学探索新型抗生素候选物
 
-据 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261019/Miro1-protein-linked-to-insulin-resistance-in-type-2-diabetes.aspx)，一项发表于 Nature Communications 的研究发现 2 型糖尿病患者骨骼肌中 Miro1 蛋白水平升高，可能与胰岛素抵抗有关，或成为未来调节血糖的潜在靶点。报道了蛋白质与胰岛素抵抗关联的研究方向，具体实验设计、样本量和机制数据待核查原文。
+据 [GEN 的报道](https://www.genengnews.com/topics/drug-discovery/canadas-arctic-research-could-help-discover-next-gen-therapeutics/)，Athabasca 大学 Srijak Bhatnagar 团队和多伦多大学 Justin Nodwell 团队正从北极永冻土环境 DNA 中挖掘此前无法培养微生物的生物合成基因簇（BGC）。通过高通量宏基因组学和单细胞测序，研究者可以重建不可培养生物的完整基因组，识别沉默的抗生素相关 BGC，再通过合成生物学在链霉菌宿主中表达。目前仍处于基础探索阶段，能否转化为可分发药物"尚无法判断"（Nodwell 原话）；此外还存在再发现问题（dereplication problem）与原住民基因资源归属的伦理争议——加拿大尚未签署《名古屋议定书》。
 
-![Miro1 protein linked to insulin resistance in type 2 diabetes](https://www.news-medical.net/images/tags/TagImage-777-458400661348495343015-620x480.jpg)
+[![来源配图：Canada’s Arctic Research Could Help Discover Next-Gen Therapeutics](https://www.genengnews.com/wp-content/uploads/2026/10/Bhatnagar-at-work-credit-Athabasca-Univeristy-free-to-use-creative-commons-300x169.jpg)](https://www.genengnews.com/topics/drug-discovery/canadas-arctic-research-could-help-discover-next-gen-therapeutics/)
 
-### 8. 携带高风险基因却免患阿尔茨海默的遗传线索
+### 10. AI-VR 结合认知行为疗法探索更年期症状管理
 
-据 [ScienceDaily 的报道](https://www.sciencedaily.com/releases/2026/10/261018205044.htm)，科学家发现部分高遗传风险阿尔茨海默患者到 80 岁仍保持认知正常，并揭示一种保护性罕见突变可能阻止有害蛋白积累。报道了保护性突变与脑健康关联的研究方向，具体样本、机制和突变基因名待核查原文。
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261020/AI-powered-virtual-reality-could-help-women-manage-menopause-symptoms.aspx)，有研究探讨了 AI 驱动虚拟现实与认知行为疗法（CBT）结合用于更年期症状（包括潮热、失眠、抑郁及性功能障碍）管理的方向。原始报道仅提供元数据级摘要，具体样本量、干预方案设计和效果数据待核查原文，目前不能得出疗效结论。
 
-### 9. HSV-1 可能重编程大脑免疫防御
-
-据 [medical xpress 的媒体报道](https://medicalxpress.com/news/2026-10-common-cold-sore-virus-reprogram.html)，科罗拉多大学 Anschutz 校区研究人员发现单纯疱疹病毒 1 型（HSV-1）可改变大脑免疫细胞对感染的反应方式，提示病毒感染、慢性炎症与阿尔茨海默病之间的潜在联系。报道了病毒影响脑免疫的研究方向，具体实验模型与数据待核查原文。
-
-### 10. 肠道微生物组或可识别痴呆风险人群
-
-据 [medical xpress 的媒体报道](https://medicalxpress.com/news/2026-10-gut-microbiome-people-dementia.html)，Cardiff 大学与 Imperial College London 研究人员同时检测肠道细菌与代谢化学物，称这可能有助于更早诊断和识别快速衰退风险人群，被认为是该方向首次研究。报道了肠道微生物与痴呆关联的研究方向，具体样本量、队列设计和分析数据待核查原文。
+---
 
 ## **⚡ 产品与功能更新**
 
-### BodySpec 低价 DEXA 扫描配 AI 解读在奥克兰开业
+### Superpower Health API 概要文档收录 AI 生物年龄评分功能
 
-据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/sub-60-dexa-body-scans-open-in-oakland/)，BodySpec 新门店提供低于 60 美元的 12 分钟 DEXA 扫描，配 AI 代理解读体成分和骨密度数据，针对 GLP-1 使用者肌肉流失担忧。"最准确"为商家自称，是否改善用户行为尚无证据。
+据 [GitHub 项目页面](https://github.com/api-evangelist/superpower-health)，API Evangelist 发布了 Superpower 预防健康与长寿服务的第三方 API 档案，覆盖 100+ 血液生物标志物年检、AI 驱动的结果解读、**生物年龄评分**与个性化行动计划等功能描述。该文档属独立第三方 API 面貌描述，基于公开 API 接口整理，不是原服务商的官方公告；功能描述来自服务 README 自述，尚未经独立验证。Stars 数为 1，项目于 2026-10-20 创建。
 
-![Sub-$60 DEXA body scans open in Oakland](https://longevity.technology/wp-content/uploads/2026/10/sub-60-dexa-body-scans-open-in-oakland-hero-1200x800-1-1024x683.png)
+---
 
 ## **🧪 前沿研究**
 
-### 心理应激经 IL-6 通路诱发小鼠关节炎复发
+### 体力活动与围绝经期症状关联性：全球多中心观察研究
 
-据 [GEN 的媒体报道](https://www.genengnews.com/topics/translational-medicine/psychological-stress-triggers-arthritis-flares-in-mice-via-il-6-dependent-pathway/)，千叶大学团队在 Science Advances 发表小鼠研究发现，心理应激激活棕色脂肪释放 IL-6，经关节滑膜成纤维样细胞产生 CXCL1 招募中性粒细胞，导致已缓解的关节炎复发；阻断 β3 肾上腺素能受体可抑制该效应。该研究为小鼠模型，人体数据仅为 ADRB3 基因变异与应激-疾病活动的观察性关联，不能证明因果。
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261020/Physical-activity-linked-to-fewer-perimenopause-symptoms-global-study-finds.aspx)，一项全球研究探讨了规律体力活动与围绝经期症状数量之间的关联。原始摘要仅提供题目和背景信息，具体研究设计、队列规模、症状测量方式和效应量大小待核查原文。这是观察性研究设计，关联不等于因果，不能直接作为干预建议依据。
 
-### 居所周边绿地与痴呆风险降低相关
+---
 
-据 [medical xpress 的媒体报道](https://medicalxpress.com/news/2026-10-greenspace-home-linked-dementia.html)，Stockholm 大学与 Karolinska 研究所对近 **3,000 名**老年人随访 16 年发现，住处 100 米内绿化较多者痴呆风险降低约 **20%**，研究发表于 Alzheimer's & Dementia。该研究为观察性队列，关联不等于因果，绿地与痴呆的机制未明。
+## **◎ 行业变化与个人影响**
+
+### 提前绝经与心脏病风险及胰岛素水平关联研究发布
+
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261020/Premature-menopause-linked-to-higher-heart-disease-risk-and-insulin-levels.aspx)，有研究报道了提前绝经与心脏病风险升高及胰岛素水平异常的关联，背景为雌激素缺乏的长期健康影响。具体研究设计、队列规模和效应量待核查原文；素材为元数据级，不能补写机制或具体数字。该发现若经独立验证，对心血管健康管理方案的制定有潜在影响，但目前仍为观察性证据。
+
+---
 
 ## **⌘ 开源 TOP 项目**
 
-### alphaparkinc/genpark-personal-agent-dynamic-blood-biomarker-longevity-tracker-skill：血液标志物与生物年龄追踪
+### Adit-Mugdha-das/NeuroBloom：多发性硬化症纵向认知监测平台
 
-据 [GitHub 仓库](https://github.com/alphaparkinc/genpark-personal-agent-dynamic-blood-biomarker-longevity-tracker-skill)，该项目面向个人健康代理，接入 ApoB、HbA1c、hs-CRP 等血液指标，提供生物年龄加速评分和饮食干预建议。Stars 7，为 GenPark 平台构建。许可证和数据要求待核查。
+[GitHub 仓库](https://github.com/Adit-Mugdha-das/NeuroBloom) 收录了一个面向多发性硬化症（MS）患者的**免费**网页端认知康复平台，提供跨 6 个认知域的 35 种自适应任务、数字生物标志物提取、孟加拉语/英语双语支持，以及患者-临床医生协作工作流。项目于 2026-10-20 创建，Stars 为 1，活跃度和代码成熟度待核查；README 自述功能尚未经独立验证。许可证信息待核查。适合神经康复研究者和有双语需求的临床团队了解原型方案。
 
-### montilab/ClockSHAP：衰老时钟预测可解释性框架
+---
 
-据 [GitHub 仓库](https://github.com/montilab/ClockSHAP)，该项目为线性可加衰老时钟提供可解释性分解框架，将年龄预测拆解到各特征贡献，帮助理解哪些因素驱动生物学年龄估计。Stars 1，发布于 10 月 11 日。适用模型类型、许可证和示例数据待核查。
+*社媒精选：本期无满足条件的真实研究者原帖，该栏目省略。*
+*AI 趣闻：本期无符合要求的轻松素材，该栏目省略。*
 
-## **❓ 相关问题**
+---
 
-### 首次人体重编程试验的初步信号能否证明抗衰老效果？
-
-不能。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/life-biosciences-reports-initial-results-from-the-first-reprogramming-trial/)，ER-100 的 1 期试验仅 3 名参与者，为开放标签设计无对照组，第 56 天数据为安全性和耐受性评估。2 名患者视野改善属探索性初步信号，样本极小且无法排除自然波动或测量变异。该试验靶向视神经病变，非全身性抗衰老干预，任何疗效结论需更大规模对照试验验证。
-
-### UK Biobank 免疫数据何时可用于研究？
-
-据 [GEN 的媒体报道](https://www.genengnews.com/topics/omics/landmark-uk-biobank-imu-immune-profiling-initiative-taps-ultima-and-waters/)，项目计划今年启动，初始对 8 万份样本生成免疫数据，完成后数据将归还 UK Biobank 并向获批研究者开放。希望未来扩展至全部 50 万参与者，但完整数据集生成和开放时间表尚未公布，目前无研究结果产出。
