@@ -11,97 +11,94 @@ cascade:
 ## **Today's Summary**
 
 ```
-Life Biosciences dropped interim data from ER-100, the first human partial epigenetic reprogramming trial — 3 optic neuropathy patients tolerated it well, 2 showed preliminary visual field improvement, but with no control group, the takeaways are only exploratory safety signals.
-Multiple clinical trials are scaling up or launching in parallel — VectorY is bumping its ALS trial to 36 participants, UK Biobank is kicking off an immune profiling initiative with 80,000 samples, and the industry as a whole is leaning hard into larger-scale data collection and AAV gene delivery.
-Readers should prioritize checking the visual field improvement measurement methods and baseline differences in ER-100 raw data, plus the specific sample sizes and experimental models behind the Miro1, HSV-1, and gut microbiome studies.
+Istanbul Technical University's ITU-DESC score, developed on 500K UK Biobank participants,
+uses 38 variables to push dementia prediction AUC to 0.853 — but it's still an observational
+tool with internal validation only.
+Several same-day preprints show a consistent trend toward parameter compression: recAMPLIFY
+achieves better protein folding prediction with 56% fewer parameters, BrainLoRA tops the brain
+encoding leaderboard via LoRA fine-tuning, and PMTM outperforms existing segmentation baselines
+across all 15 MRI-missing subsets.
+Priority checks: whether ITU-DESC has an external cohort validation plan in the works, and
+independent benchmark results for recAMPLIFY on drug design tasks.
 ```
 
-## **🚀 Today's Top 10 Focus Stories**
+## **🔥 Today's Top 10 Highlights** 🔬
 
-### 1. First-in-Human Partial Reprogramming Trial Reports Initial Safety Signals
+### 1. Dementia Risk Score ITU-DESC Is the First to Combine Broad Feature Selection with Missing-Data Bias Control
 
-Life Biosciences has disclosed interim data from ER-100, the first human partial epigenetic reprogramming trial, as covered by [Fight Aging!](https://www.fightaging.org/archives/2026/10/life-biosciences-reports-initial-results-from-the-first-reprogramming-trial/). This Phase 1 open-label trial uses an AAV vector to deliver a single intravitreal injection of the OSK three-factor combo to optic neuropathy patients, with expression induced by oral doxycycline over 8 weeks. **3** participants showed good tolerability through day 56, and 2 open-angle glaucoma patients had **≥28%** of test points improve by more than 4 dB in visual field testing. With only 3 participants and no control group, the improvement signals are preliminary observations and don't prove efficacy.
+ITU-DESC, developed by a team at Istanbul Technical University, was trained on ~**500K UK Biobank participants** (median follow-up: 16.6 years) and is a machine learning dementia risk score worth paying attention to. 🧠 Per the [paper index/abstract](https://papers.cool/arxiv/2610.26604), the model whittled ~8,000 candidate features down to **38 predictors** via BorutaSHAP, uses a CatBoost gradient boosting tree, and hit a ROC AUC of **0.853** (95% CI 0.844–0.863) on a held-out test set of 50,041 participants — beating the existing UK Biobank score of 0.841. New predictors discovered include leukocyte **telomere length** and liver enzymes, which were absent from prior scores. This is the first dementia prediction tool to tackle both broad feature selection and missing-data bias at the same time, but it's observational, hasn't been validated in an independent external cohort, and isn't ready for clinical screening decisions.
 
-### 2. UK Biobank Launches Large-Scale Immune Profiling Initiative
+### 2. Protein Language Model recAMPLIFY Matches or Beats Baselines with 56% Fewer Parameters
 
-IMU Biosciences is teaming up with UK Biobank to generate over 100 million immune data points from an initial **80,000** blood samples, using AI computational methods to analyze high-dimensional immune cell profiles, per a [GEN media report](https://www.genengnews.com/topics/omics/landmark-uk-biobank-imu-immune-profiling-initiative-taps-ultima-and-waters/). The project taps the Ultima UG200 sequencing platform and Waters flow cytometry, plans to launch this year, and hopes to eventually expand to all 500,000 participants. UK Biobank's chief scientist says the data will help study how the immune system shifts with aging and its link to disease risk. Data will be open to approved researchers, but no study results are out yet.
+recAMPLIFY is a recursively pretrained protein language model that punches above its weight class — only **155M unique parameters** (56% fewer than AMPLIFY-350M), trained on the same 2 trillion tokens, yet outperforming the baseline on CASP contact prediction recovery rates and three supervised tasks, with folding accuracy up **22.5%**. 💪 Per the [paper index/abstract](https://papers.cool/arxiv/2610.26747), the team also introduced a Gated Mixed Recursion (GMR) framework that can cut expected layer depth by another **37%**, though accuracy tradeoffs vary by task. It's a preprint — the specific improvement numbers need task-by-task scrutiny, and real-world gains in drug design and mutational effect prediction still need independent benchmarking.
 
-### 3. VectorY Scales ALS Trial to 36 Participants
+### 3. BrainLoRA Tops the Algonauts Leaderboard Using Parameter-Efficient Fine-Tuning
 
-VectorY has expanded PIONEER-ALS from 12 to **36** participants before any efficacy data is in, citing rapid enrollment and fast global site activation, per a [Longevity.Technology media report](https://longevity.technology/news/vectory-triples-als-trial-before-efficacy-data/). VTx-002 is the first vectorized antibody therapy targeting the TDP-43 protein, delivered via AAV so the central nervous system continuously produces antibodies. The trial is an open-label dose-escalation design primarily checking safety, with exploratory biomarkers like NfL in the mix. The bigger sample adds observational power, but with no control group and no efficacy data, this doesn't mean the drug works.
+BrainLoRA hits #1 on the **Algonauts 2025 Challenge** public leaderboard, and it gets there using Low-Rank Adaptation (LoRA) to do parameter-efficient fine-tuning (PEFT) of pretrained multimodal backbone networks. 🏆 Per the [paper index/abstract](https://papers.cool/arxiv/2610.26802), it adapts models up to **104 billion parameters** for brain encoding with only a tiny fraction of trainable parameters, consistently improves encoding performance across nine multimodal backbones, and recovers classical sensory topographic maps via modality attribution. Heads-up: this is a preprint, and brain encoding models predict neural responses — not cognitive or clinical outcomes — so this isn't a clinical capability claim.
 
-![VectorY triples ALS trial before efficacy data](https://longevity.technology/wp-content/uploads/2026/10/vectory-triples-als-trial-before-efficacy-data-hero-1200x800-1-1024x683.png)
+### 4. LLMs Estimating Caloric Intake from Meal Photos: Low Group Bias, High Individual Error
 
-### 4. Digital Memory Test Teams Up with Biomarkers to Screen for Neurodegeneration
+Six multimodal LLMs were put to the test on the ACETADA controlled feeding trial dataset — **802 meals** with precise weighed intake measurements — and the results are a mixed bag. 📊 Per the [paper index/abstract](https://papers.cool/arxiv/2610.26538), three models hit the preset 10% mean error threshold over 148 days, but zero models hit the preset 30% individual agreement limit. Two photos didn't meaningfully beat one (only 2.2–3.4 percentage points better), and protein estimates were consistently low across every model. Bottom line: low group bias ≠ accurate individual intake estimation, and this kind of tool can only assist — not replace — a registered dietitian.
 
-Amprion and Prema Cognition are joining forces to pair PREMAZ, a 10-15 minute digital memory assessment, with Amprion's α-synuclein seed amplification assay for earlier flagging of neurodegenerative risk, per a [Longevity.Technology media report](https://longevity.technology/news/amprion-and-prema-link-memory-tests-to-biomarkers/). PREMAZ zeroes in on memory precision rather than just whether you remembered something, and is already in clinics across the US, UK, and India; Amprion's assay previously snagged FDA breakthrough device designation. No performance data, timeline, or cost info yet — the collaboration is still in exploratory mode, and a positive digital test only points to the need for further workup, not a diagnosis.
+### 5. Multimodal Brain Tumor Segmentation Model PMTM Tackles the Missing-Sequence Problem
 
-![Amprion and Prema link memory tests to biomarkers](https://longevity.technology/wp-content/uploads/2026/10/amprion-prema-link-memory-tests-to-biomarkers-hero-1200x800-1-1024x683.png)
+PMTM (Progressive Multi-scale Tumor state Memory network) is built specifically for segmentation when MRI sequences (T1ce/T1/FLAIR/T2) are partially missing. 🧩 Per the [paper index/abstract](https://papers.cool/arxiv/2610.26457), it achieves mean Dice scores of **75.31%, 77.54%, and 80.47%** across all 15 non-empty sequence subsets on BraTS2018/2020/2023 GLI benchmarks — beating RobustSeg, RFNet, and mmFormer. It maintains segmentation consistency via cross-modal collaborative attention and gated state updates. Caveat: this is based on public benchmark datasets with no prospective clinical validation yet.
 
-### 5. Resveratrol Parkinson's Phase 2a Trial Doses First Patient
+### 6. Non-Invasive Speech BCIs: Training-Time Logit Averaging Sets a New Baseline
 
-Jupiter Neurosciences has dosed the first Parkinson's patient in the RESET trial, testing its micellar resveratrol formulation JOTROL, per a [Longevity.Technology media report](https://longevity.technology/news/resveratrol-parkinsons-trial-doses-first-patient/). The trial is a randomized, double-blind, placebo-controlled setup with about **30** participants split into three groups taking oral doses for 12 weeks, with safety and pharmacokinetics as the primary endpoints. Same day, the company announced it brought on advisors to weigh strategic options including selling or licensing assets. JOTROL is an investigational drug that's not approved yet, and a 12-week small-sample study won't be the judge of efficacy.
+Training-time logit averaging wins in 6 out of 7 settings across three datasets, four tasks, and two grouping sizes — a pretty clear signal for non-invasive neural decoding. ⚡ Per the [paper index/abstract](https://papers.cool/arxiv/2610.26347), on the **2025 PNPL Competition** phoneme classification task, this approach beat the top competitor by **17.4 percentage points** in balanced accuracy. It's a preprint on methodology; the current task is phoneme classification, and there are still several engineering steps between here and a practical brain-computer interface.
 
-![Resveratrol Parkinson's trial doses first patient](https://longevity.technology/wp-content/uploads/2026/10/resveratrol-parkinsons-trial-doses-first-patient-hero-1200x800-1-1024x683.png)
+### 7. Simulation-Free Bayesian Inference for Single-Cell Gene Transcription Burst Dynamics
 
-### 6. Long-Term GLP-1 Users Show Lower Nutritional Confidence
+SFABC (Simulation-Free Approximate Bayesian Computation) reframes stochastic reaction network parameter inference as a convex optimization problem using the chemical master equation — no expensive Gillespie simulations needed. 🔬 Per the [paper index/abstract](https://papers.cool/arxiv/2610.26361), it matches standard simulation methods on accuracy for synthetic benchmarks while cutting computational cost significantly. The team applies it to **gene transcription burst dynamics** analysis across snapshot, time-series, and cell-cycle-resolved single-cell data. It's a preprint validated only on synthetic data and limited experimental systems — scalability to large single-cell atlas scenarios still needs checking.
 
-A PortionIQ-commissioned Censuswide survey of 1,000 UK adults on weight-loss meds found that **29%** of GLP-1 users two-plus years in lacked confidence in their essential nutrient knowledge, compared to just 12% of those using for less than a month, per a [Longevity.Technology media report](https://longevity.technology/news/29-of-long-term-glp-1-users-lack-nutrient-confidence/). Only 57% of long-term users felt they were getting adequate nutrition, versus 81% of new users. The survey was commissioned by a company selling nutrition products, is cross-sectional self-reported data, and different time groups are different people — so it can't show a causal decline in confidence over time.
+### 8. Multimodal Survival Prediction Model HGASurv Introduces Hierarchical Pathology Image Encoding
 
-![29% of long-term GLP-1 users lack nutrient confidence](https://longevity.technology/wp-content/uploads/2026/10/29-percent-of-long-term-glp-1-users-lack-nutrient-confidence-hero-1200x800-1-1024x683.png)
+HGASurv takes a joint-analysis approach — whole-slide pathology images (WSI), genomic features, and clinical variables all go in together for survival risk stratification. 📈 Per the [paper index/abstract](https://papers.cool/arxiv/2610.26357), the hierarchical WSI encoder extracts morphological features at patch, neighborhood, and region scales, while a clinically guided graph propagation module integrates clinical info using patient similarity as topological edges. It achieves top C-index performance overall across **three TCGA cohorts**, with ablation experiments supporting contributions from both modules. Limitation: it's retrospective TCGA data only — no cross-institutional prospective validation yet.
 
-### 7. Miro1 Protein Linked to Insulin Resistance in Type 2 Diabetes
+### 9. Canadian Arctic Permafrost Metagenomics Is Hunting for Next-Gen Antibiotic Candidates
 
-A study published in Nature Communications found that Miro1 protein levels are elevated in the skeletal muscle of type 2 diabetes patients, potentially tied to insulin resistance and possibly serving as a future target for blood sugar regulation, per a [News-Medical media report](https://www.news-medical.net/news/20261019/Miro1-protein-linked-to-insulin-resistance-in-type-2-diabetes.aspx). The report covers the research direction on the protein-insulin resistance connection — specific experimental design, sample sizes, and mechanistic data need verification from the original paper.
+Teams at the University of Athabasca (Srijak Bhatnagar) and the University of Toronto (Justin Nodwell) are digging biosynthetic gene clusters (BGCs) out of Arctic permafrost environmental DNA from previously unculturable microbes. 🧊 Per [GEN's report](https://www.genengnews.com/topics/drug-discovery/canadas-arctic-research-could-help-discover-next-gen-therapeutics/), using high-throughput metagenomics and single-cell sequencing, researchers can reconstruct complete genomes of unculturable organisms, identify silent antibiotic-related BGCs, and then express them in Streptomyces hosts via synthetic biology. Still very early stage — whether any of this translates into distributable drugs is "impossible to say" (Nodwell's words). There's also a dereplication problem and unresolved ethical questions around Indigenous genetic resource ownership — Canada hasn't signed the Nagoya Protocol.
 
-![Miro1 protein linked to insulin resistance in type 2 diabetes](https://www.news-medical.net/images/tags/TagImage-777-458400661348495343015-620x480.jpg)
+[![Source image: Canada's Arctic Research Could Help Discover Next-Gen Therapeutics](https://www.genengnews.com/wp-content/uploads/2026/10/Bhatnagar-at-work-credit-Athabasca-Univeristy-free-to-use-creative-commons-300x169.jpg)](https://www.genengnews.com/topics/drug-discovery/canadas-arctic-research-could-help-discover-next-gen-therapeutics/)
 
-### 8. Genetic Clues: Why Some High-Risk Individuals Escape Alzheimer's
+### 10. AI-VR Combined with Cognitive Behavioral Therapy Explored for Menopause Symptom Management
 
-Scientists have found that some people with high genetic risk for Alzheimer's stay cognitively normal through age 80, and identified a protective rare mutation that may block harmful protein accumulation, per a [ScienceDaily report](https://www.sciencedaily.com/releases/2026/10/261018205044.htm). The report covers research direction on protective mutations and brain health — specific sample sizes, mechanisms, and the mutated gene name need verification from the original paper.
+AI-powered virtual reality paired with Cognitive Behavioral Therapy (CBT) is being explored as a new avenue for managing menopause symptoms — including hot flashes, insomnia, depression, and sexual dysfunction. 🌿 Per [News-Medical's report](https://www.news-medical.net/news/20261020/AI-powered-virtual-reality-could-help-women-manage-menopause-symptoms.aspx), the original report only provides metadata-level summaries, so specific sample sizes, intervention designs, and outcome data need to be verified against the source paper. No efficacy conclusions can be drawn at this stage.
 
-### 9. HSV-1 May Reprogram the Brain's Immune Defense
+---
 
-Researchers at the University of Colorado Anschutz have found that herpes simplex virus type 1 (HSV-1) can change how the brain's immune cells respond to infection, hinting at a potential link between viral infection, chronic inflammation, and Alzheimer's disease, per a [medical xpress media report](https://medicalxpress.com/news/2026-10-common-cold-sore-virus-reprogram.html). The report covers research direction on viral influence on brain immunity — specific experimental models and data need verification from the original paper.
+## **⚡ Product & Feature Updates**
 
-### 10. Gut Microbiome Could Help Identify Dementia Risk
+### Superpower Health API Documentation Now Covers an AI Biological Age Scoring Feature
 
-Cardiff University and Imperial College London researchers have simultaneously analyzed gut bacteria and metabolic chemicals, claiming this could help diagnose earlier and flag those at risk of rapid decline — a first in this research direction, per a [medical xpress media report](https://medicalxpress.com/news/2026-10-gut-microbiome-people-dementia.html). The report covers research direction on the gut microbiome-dementia connection — specific sample sizes, cohort design, and analysis data need verification from the original paper.
+The Superpower preventive health and longevity service got a third-party API profile published by API Evangelist on [GitHub](https://github.com/api-evangelist/superpower-health), covering 100+ annual blood biomarker checkups, AI-driven results interpretation, **biological age scoring**, and personalized action plans. 📋 Worth noting: this is an independent third-party API profile based on public API endpoints — not an official announcement from the service provider. Feature descriptions come from the service's own README and haven't been independently verified. Stars: 1, project created 2026-10-20.
 
-## **📦 Product & Feature Updates**
+---
 
-### BodySpec Opens Low-Cost DEXA Scans with AI Interpretation in Oakland
+## **🧪 Frontier Research**
 
-BodySpec's new spot offers sub-$60, 12-minute DEXA scans paired with an AI agent that reads body composition and bone density data, targeting muscle loss worries among GLP-1 users, per a [Longevity.Technology media report](https://longevity.technology/news/sub-60-dexa-body-scans-open-in-oakland/). The "most accurate" claim is the company's own marketing — whether it actually changes user behavior is still an open question.
+### Physical Activity and Perimenopause Symptoms: A Global Multi-Center Observational Study
 
-![Sub-$60 DEXA body scans open in Oakland](https://longevity.technology/wp-content/uploads/2026/10/sub-60-dexa-body-scans-open-in-oakland-hero-1200x800-1-1024x683.png)
+A global study looks at the link between regular physical activity and the number of perimenopause symptoms reported. 🏃 Per [News-Medical's report](https://www.news-medical.net/news/20261020/Physical-activity-linked-to-fewer-perimenopause-symptoms-global-study-finds.aspx), the original abstract provides only title and background info — specific study design, cohort size, symptom measurement methods, and effect sizes need to be checked in the source paper. This is observational research: association ≠ causation, and it can't be used directly as an intervention recommendation.
 
-## **🔬 Cutting-Edge Research**
+---
 
-### Psychological Stress Triggers Arthritis Flares in Mice via IL-6 Pathway
+## **◎ Industry Shifts & Personal Impact**
 
-A Chiba University team published a mouse study in Science Advances showing that psychological stress activates brown fat to release IL-6, which works through joint synovial fibroblast-like cells to produce CXCL1, recruiting neutrophils and causing relapse of arthritis in remission, per a [GEN media report](https://www.genengnews.com/topics/translational-medicine/psychological-stress-triggers-arthritis-flares-in-mice-via-il-6-dependent-pathway/). Blocking the β3 adrenergic receptor shut down this effect. The study is a mouse model — human data is only an observational link between ADRB3 gene variants and stress-disease activity, which can't prove causation.
+### Study Links Premature Menopause to Higher Heart Disease Risk and Elevated Insulin Levels
 
-### Greenspace Near Home Linked to Lower Dementia Risk
+Premature menopause has been linked to higher heart disease risk and abnormal insulin levels, in the context of long-term health effects from estrogen deficiency. ❤️ Per [News-Medical's report](https://www.news-medical.net/news/20261020/Premature-menopause-linked-to-higher-heart-disease-risk-and-insulin-levels.aspx), specific study design, cohort size, and effect sizes need to be verified from the source; the available material is metadata-level only, so no mechanism or specific numbers can be filled in. If independently validated, this finding has potential implications for cardiovascular health management protocols — but for now it remains observational evidence.
 
-Stockholm University and the Karolinska Institute followed nearly **3,000** older adults for 16 years and found that those with more greenery within 100 meters of home had about a **20%** lower dementia risk, with results published in Alzheimer's & Dementia, per a [medical xpress media report](https://medicalxpress.com/news/2026-10-greenspace-home-linked-dementia.html). This is an observational cohort study — association doesn't equal causation, and the mechanism linking greenspace to dementia remains unclear.
+---
 
-## **💻 Open Source Top Projects**
+## **⌘ Top Open Source Projects**
 
-### alphaparkinc/genpark-personal-agent-dynamic-blood-biomarker-longevity-tracker-skill: Blood Biomarker & Biological Age Tracking
+### Adit-Mugdha-das/NeuroBloom: A Longitudinal Cognitive Monitoring Platform for Multiple Sclerosis
 
-This project, found at [GitHub repository](https://github.com/alphaparkinc/genpark-personal-agent-dynamic-blood-biomarker-longevity-tracker-skill), is built for personal health agents and plugs into blood markers like ApoB, HbA1c, and hs-CRP, serving up biological age acceleration scores and dietary intervention suggestions. It has 7 stars and is built for the GenPark platform. License and data requirements need verification.
+[NeuroBloom on GitHub](https://github.com/Adit-Mugdha-das/NeuroBloom) is a **free** web-based cognitive rehabilitation platform for multiple sclerosis (MS) patients, featuring 35 adaptive tasks across 6 cognitive domains, digital biomarker extraction, Bengali/English bilingual support, and a patient-clinician collaborative workflow. 🌱 Project created 2026-10-20, Stars: 1 — activity level and code maturity need checking; README-stated features haven't been independently verified. License info also needs verification. Worth a look for neurorehabilitation researchers and clinical teams with bilingual needs.
 
-### montilab/ClockSHAP: Interpretability Framework for Aging Clock Predictions
+---
 
-This project, available at [GitHub repository](https://github.com/montilab/ClockSHAP), provides an interpretability decomposition framework for linear additive aging clocks, breaking down age predictions into individual feature contributions to help understand what's driving biological age estimates. It has 1 star and was published on October 11. Applicable model types, license, and example data need verification.
-
-## **💡 Related Questions**
-
-### Can the Initial Signals from the First Human Reprogramming Trial Prove Anti-Aging Effects?
-
-Nope. According to [Fight Aging! coverage](https://www.fightaging.org/archives/2026/10/life-biosciences-reports-initial-results-from-the-first-reprogramming-trial/), the ER-100 Phase 1 trial has only 3 participants, uses an open-label design with no control group, and the day 56 data is for safety and tolerability assessment. The visual field improvement in 2 patients is an exploratory preliminary signal — the sample is tiny and can't rule out natural fluctuation or measurement variability. The trial targets optic neuropathy, not systemic anti-aging intervention, and any efficacy conclusions would need bigger controlled trials to back them up.
-
-### When Will UK Biobank Immune Data Be Available for Research?
-
-According to a [GEN media report](https://www.genengnews.com/topics/omics/landmark-uk-biobank-imu-immune-profiling-initiative-taps-ultima-and-waters/), the project plans to launch this year, initially generating immune data from 80,000 samples. Once that's done, the data goes back to UK Biobank and opens up to approved researchers. They hope to eventually scale to all 500,000 participants, but the timeline for full dataset generation and release hasn't been announced, and no study results are out yet.
+*Social Media Picks: No qualifying posts from real researchers this issue — section omitted.*
+*AI Fun Facts: No suitable lighthearted content this issue — section omitted.*
