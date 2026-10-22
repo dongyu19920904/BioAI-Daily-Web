@@ -299,6 +299,12 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
     }
+
+    // Replay the latest query if it was entered before the index finished loading.
+    const { inputElement } = getActiveSearchElement();
+    if (inputElement && inputElement === document.activeElement && inputElement.value) {
+      search({ target: inputElement });
+    }
   }
 
   /**
