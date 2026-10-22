@@ -1,0 +1,39 @@
+{{- $filename := "" -}}
+{{- with .File -}}{{- $filename = .ContentBaseName -}}{{- end -}}
+{{- $dated := gt (len (findRE `^\d{4}-\d{2}-\d{2}$` $filename)) 0 -}}
+{{- $report := or .IsHome $dated -}}
+{{- $title := .Title -}}
+{{- $deck := T "bioDailyDeck" -}}
+{{- if $report -}}
+  {{- $title = T "bioDailyTitle" -}}
+  {{- if eq .Section "opportunity" -}}
+    {{- $title = T "bioOpportunityTitle" -}}
+    {{- $deck = T "bioOpportunityDeck" -}}
+  {{- else if eq .Section "project-opportunity" -}}
+    {{- $title = T "bioProjectTitle" -}}
+    {{- $deck = T "bioProjectDeck" -}}
+  {{- end -}}
+{{- end -}}
+{{- $dates := findRE `\d{4}[-/]\d{2}[-/]\d{2}` .Title 1 -}}
+{{- if $dated -}}{{- $dates = slice $filename -}}{{- end -}}
+<header class="bio-masthead">
+  <h1>{{ $title }}</h1>
+  {{ if $report }}<p class="bio-masthead__deck">{{ $deck }}</p>{{ end }}
+  <div class="bio-masthead__meta">
+    {{ if and $report $dates }}
+      {{- $date := replace (index $dates 0) "/" "-" -}}
+      <time class="bio-masthead__date" data-fixed-date datetime="{{ $date }}">{{ replace $date "-" "." }}</time>
+    {{ end }}
+    {{ if $report }}
+      <span>{{ partial "utils/icon.html" (dict "name" "clock" "attributes" "width=16 height=16") }}{{ printf (T "bioReadingTime") .ReadingTime }}</span>
+    {{ end }}
+    {{- $archive := "/" -}}
+    {{- if in (slice "opportunity" "project-opportunity") .Section -}}
+      {{- $archive = printf "/%s/" .Section -}}
+    {{- else if and $report $dates -}}
+      {{- $archive = printf "/%s/" (substr (replace (index $dates 0) "/" "-") 0 7) -}}
+    {{- end -}}
+    <a href="{{ $archive | relLangURL }}">{{ partial "utils/icon.html" (dict "name" "archive" "attributes" "width=16 height=16") }}{{ T "bioArchive" }}</a>
+    {{ partial "custom/reader-more.html" . }}
+  </div>
+</header>

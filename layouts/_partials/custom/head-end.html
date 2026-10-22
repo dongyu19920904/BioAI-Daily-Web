@@ -1,4 +1,10 @@
 <meta name="referrer" content="no-referrer-when-downgrade">
+{{- with resources.Get "css/bioai-reader.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- end -}}
+{{- with resources.Get "js/bioai-reader.js" | minify | fingerprint -}}
+<script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+{{- end -}}
 <meta name="twitter:site" content="@justlikemaki">
 <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo-dark.png">
 <meta name="og:image" content="{{ .Site.BaseURL }}/images/logo-dark.png">

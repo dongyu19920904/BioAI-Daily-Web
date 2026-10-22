@@ -41,12 +41,16 @@ test('every latest news item has prose and an inline source without freezing dai
     assert.doesNotMatch(raw, /^关键词[:：]|^学到什么[:：]/m);
 });
 
-test('daily reading uses a restrained shared style for dated pages and homepage', () => {
-    const css = read('assets/css/custom.css');
-    assert.match(read('layouts/_default/single.html'), /if \$isDaily.*bio-daily-reading/);
-    assert.match(read('layouts/docs/single.html'), /if \$isDaily.*bio-daily-reading/);
-    assert.match(read('layouts/docs/list.html'), /if \.IsHome.*bio-daily-reading/);
-    assert.match(css, /\.bio-daily-reading \.content h3\s*\{[^}]*font-size: 17px/s);
-    assert.match(css, /\.bio-daily-reading \.content strong\s*\{[^}]*color: inherit/s);
+test('all report kinds and archives use one restrained reader and masthead', () => {
+    const css = read('assets/css/bioai-reader.css');
+    for (const file of ['layouts/_default/single.html', 'layouts/docs/single.html', 'layouts/docs/list.html']) {
+        const template = read(file);
+        assert.match(template, /class="bio-reader /);
+        assert.match(template, /partial "custom\/report-masthead.html"/);
+    }
+    assert.match(css, /\.bio-reader \.content\s*\{[^}]*font-size: 17px/s);
+    assert.match(css, /\.bio-reader \.content h3\s*\{[^}]*font-size: 19px/s);
+    assert.match(css, /\.bio-reader \.content strong\s*\{[^}]*color: inherit/s);
     assert.match(css, /Only the opening summary is prose/);
+    assert.doesNotMatch(css, /font-size:[^;\n]*vw|letter-spacing:\s*-/);
 });
