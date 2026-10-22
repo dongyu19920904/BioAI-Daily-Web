@@ -6,6 +6,7 @@ on:
       - 'hugo.yaml'
       - 'layouts/**'
       - 'assets/**'
+      - 'themes/hextra/assets/js/flexsearch.js'
       - 'i18n/**'
       - 'tests/**'
       - 'content/**'
