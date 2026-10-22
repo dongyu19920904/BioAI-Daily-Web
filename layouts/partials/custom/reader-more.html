@@ -1,0 +1,20 @@
+<details class="bio-reader-more">
+  <summary aria-label="{{ T "bioBrowseSections" }}" title="{{ T "bioBrowseSections" }}">{{ partial "utils/icon.html" (dict "name" "dots-horizontal" "attributes" "width=20 height=20") }}<span>{{ T "bioMore" }}</span></summary>
+  <nav aria-label="{{ T "bioBrowseSections" }}">
+    {{- range site.Menus.main -}}
+      {{- if not .Params.type -}}
+        {{- if .HasChildren -}}
+          {{- range .Children -}}
+            {{- $url := .URL -}}
+            {{- with .PageRef -}}{{- $url = . | relLangURL -}}{{- end -}}
+            <a href="{{ $url }}">{{ .Name }}</a>
+          {{- end -}}
+        {{- else -}}
+          {{- $url := .URL -}}
+          {{- with .PageRef -}}{{- $url = . | relLangURL -}}{{- end -}}
+          <a href="{{ $url }}">{{ .Name }}</a>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  </nav>
+</details>

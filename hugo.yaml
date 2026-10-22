@@ -27,49 +27,62 @@ menu:
   main:
     - identifier: search
       name: 搜索
-      weight: 10
+      weight: 90
       params:
         type: search
     - identifier: documentation
-      name: 生命延续日报
+      name: 日报
       pageRef: /
-      weight: 1
+      weight: 10
     - identifier: real-longevity
       name: 真实延寿项目与参与
+      parent: more
       pageRef: /real-longevity
-      weight: 1.3
+      weight: 10
     - identifier: opportunity
-      name: AI生命延续学商机日报
+      name: 商机
       pageRef: /opportunity
-      weight: 1.5
+      weight: 20
     - identifier: project-opportunity
-      name: AI生命延续学资讯商机项目
+      name: 项目商机
       pageRef: /project-opportunity
-      weight: 1.6
+      weight: 30
     - identifier: opportunity-status
       name: 商机核验状态
+      parent: more
       pageRef: /opportunity-status
-      weight: 1.65
+      weight: 20
     - identifier: bioai-timeline
-      name: AI 时间线
+      name: 时间线
       pageRef: /timeline
-      weight: 1.7
+      weight: 40
     - identifier: longevity-radar
-      name: AI生命延续学雷达
+      name: 雷达
       url: "https://radar.aibioo.cn/"
-      weight: 1.8
+      weight: 50
     - identifier: personal-home
       name: 个人主页
-      weight: 2
+      parent: more
+      weight: 40
       url: "https://yuyu.aivora.cn"
     - identifier: ai-daily
       name: AI 日报
-      weight: 2.5
+      parent: more
+      weight: 30
       url: "https://news.aivora.cn"
     - identifier: about
       name: 关于
+      parent: more
       pageRef: /about
-      weight: 3
+      weight: 50
+    - identifier: more
+      name: 更多
+      weight: 60
+    - identifier: appearance
+      name: 切换主题
+      weight: 80
+      params:
+        type: theme-toggle
 
 params:
   la51Id: "3OeesViIrmuFMAz4"

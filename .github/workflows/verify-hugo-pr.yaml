@@ -5,6 +5,9 @@ on:
     paths:
       - 'hugo.yaml'
       - 'layouts/**'
+      - 'assets/**'
+      - 'i18n/**'
+      - 'tests/**'
       - 'content/**'
       - 'static/data/opportunities/**'
       - '.github/workflows/verify-hugo-pr.yaml'
@@ -22,6 +25,11 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: '1.24'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test
+        run: node --test tests/*.test.cjs
       - name: Install Hugo
         run: |
           wget -O "${RUNNER_TEMP}/hugo.deb" https://github.com/gohugoio/hugo/releases/download/v0.147.9/hugo_extended_0.147.9_linux-amd64.deb

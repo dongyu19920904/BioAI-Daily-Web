@@ -7,7 +7,7 @@ const root = path.resolve(__dirname, '..');
 const read = (name) => fs.readFileSync(path.join(root, name), 'utf8');
 const config = read('hugo.yaml');
 const single = read('layouts/_default/single.html');
-const docsList = read('themes/hextra/layouts/docs/list.html');
+const docsList = read('layouts/docs/list.html');
 const partial = read('layouts/_partials/custom/ai-longevity-radar-entry.html');
 const head = read('layouts/_partials/custom/head-end.html');
 const pagesWorkflow = read('.github/workflows/pages.yaml');

@@ -54,8 +54,8 @@
 
   <main class="bio-timeline" data-bio-timeline>
     <header class="bio-timeline__hero">
-      <p class="bio-timeline__eyebrow">BIOAI EVIDENCE STREAM</p>
       <h1>AI 生命延续学时间线</h1>
+      {{ partial "custom/reader-more.html" . }}
       <p class="bio-timeline__lead">{{ .Description }}</p>
       <div class="bio-timeline__stats" aria-label="时间线概况">
         <span>最近 {{ len $timelinePages }} 期</span>
