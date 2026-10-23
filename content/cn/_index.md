@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/22'
+title: 'AI生命延续学日报 2026/10/23'
 breadcrumbs: false
-next: /2026-10/2026-10-22
-description: '2026-10-22 AI生命延续学日报：老鼠 Speedy 已活 167 周，线粒体靶向药物展示小鼠长寿数据；Eos 每天直播"超长寿小鼠"Speedy，公开一只老鼠能说明什么；AI 从面部照片预测癌症预后。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-10/2026-10-23
+description: '2026-10-23 AI生命延续学日报：下丘脑神经元的纤毛长度影响全身代谢和热量限制效果；Nvidia 与华盛顿大学开源 RFD4-Proteina 蛋白质设计模型；冷冻电镜与 AI 支架揭示安第斯病毒如何感染人类细胞。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,95 +11,71 @@ cascade:
 ## **今日摘要**
 
 ```
-一款线粒体靶向药物在老年小鼠中显著改善总存活率。
-AI尝试从普通面部照片中提取与癌症生存相关的预后信息。
-该小鼠研究所有数据均来自动物实验，首次人体试验尚未开始。
+小鼠研究发现下丘脑神经元纤毛随年龄缩短，敲除纤毛生长基因后热量限制部分失效。
+华盛顿大学与英伟达开源蛋白质设计模型，实验室测试显示设计成功率比基线高五到十倍。
+纤毛与热量限制的关联仅在小鼠完成，人类下丘脑是否有相同作用尚不清楚。
 ```
 
-## **🔥 今日焦点 TOP 8**
+## **🔥 今日焦点 TOP 7**
 
-### 1. 老鼠 Speedy 已活 167 周，线粒体靶向药物展示小鼠长寿数据
+### 1. 下丘脑神经元的纤毛长度影响全身代谢和热量限制效果
 
-Eos SENOLYTIX 的 CEO Kevin Slawin 于 10 月 22 日在柏林第 17 届世界线粒体靶向大会上公布了 PTC-2105 的临床前数据。这款药物被称为"老年肽"（geropeptide），通过修复细胞中线粒体的内膜电位来恢复细胞能量供应——线粒体就像细胞的发电机，老化后内膜会"漏电"，导致能量产出下降。据 [Longevity.Technology 的详细报道](https://longevity.technology/news/eos-puts-new-gerotherapeutic-to-the-test-in-aging-mice/)，在一项从 80 周龄开始给药、随访至自然死亡的研究中，每周注射 25 mg/kg 剂量显著改善了小鼠总体存活率；低剂量对总存活率未达统计显著，但对癌症特异性存活有显著效果。实验还观察到肾脏炎症减轻和肌肉量保留，与 GLP-1 减肥药司美格鲁肽相比，停药后未出现体重反弹或晚期骤然衰竭。所有数据目前只来自小鼠，首次人体研究尚未开始，2027 年底还有一项 180 只小鼠的长期比较研究结果待出。
+据 [Lifespan.io 的报道](https://lifespan.io/how-some-neuronal-cilia-may-affect-the-whole-body/)，研究团队发现下丘脑神经元表面的纤毛（细胞伸出的天线状结构）会随年龄缩短,而 NAD+ 水平下降是直接原因。在体外实验中,补充 NAD+ 前体或抑制其消耗酶 CD38 都能让纤毛重新变长。纤毛中的 CHMP4B 蛋白会返回溶酶体维持其完整性,NAD+ 不足时这一过程中断。更关键的是,研究者用沉默 RNA 敲除纤毛生长基因后,即使给 24 月龄小鼠进行热量限制,部分代谢指标也不再改善,说明这些特定神经元的纤毛是热量限制发挥作用的必要环节。这项工作发表在学术期刊上,但目前仅在小鼠中完成,尚不清楚人类下丘脑纤毛是否有相同作用。
 
-![Eos puts new gerotherapeutic to the test in aging mice](https://longevity.technology/wp-content/uploads/2026/10/eos-puts-longevity-to-the-test-in-aging-mice-hero-1200x800-1-1024x683.png)
+[![来源配图：How Some Neuronal Cilia May Affect the Whole Body](https://lifespan.io/wp-content/uploads/2026/10/Cilia-on-a-neuron-262x187.jpg)](https://lifespan.io/how-some-neuronal-cilia-may-affect-the-whole-body/)
 
----
+### 2. Nvidia 与华盛顿大学开源 RFD4-Proteina 蛋白质设计模型
 
-### 2. Eos 每天直播"超长寿小鼠"Speedy，公开一只老鼠能说明什么
+据 [GEN 的报道](https://www.genengnews.com/topics/artificial-intelligence/nvidia-uw-institute-for-protein-design-unveil-open-source-protein-design-ai-model/)，诺贝尔奖得主 David Baker 领导的华盛顿大学蛋白质设计研究所与 Nvidia 合作,发布了开源生成模型 RFD4-Proteina。该模型基于 Nvidia BioNeMo 平台,能同时优化蛋白质序列、结构以及与其他分子的相互作用。实验室测试显示,在蛋白结合、小分子结合、酶支架和 DNA 结合四类任务中,RFD4-Proteina 的设计成功率比基线方法高 5 到 10 倍,生成速度也快 5 到 10 倍。模型已通过 BSD-3 许可证开源,可经由 Amazon Bio Discovery、Hugging Face、Google Cloud 等平台使用。Baker 表示这将帮助设计用于药物发现的蛋白质和降解农药的酶,但从计算设计到实验室验证仍需时间。
 
-与上述数据同步，Eos SENOLYTIX 开设了"Team Speedy"网页，每天早晨上传 Speedy 前夜的 30 秒活动短片，并公布每周"运动综合评分"——这个评分由行进距离、速度、加速度等六项夜间行为指标合成，用来衡量小鼠的整体体能。据 [Longevity.Technology 的报道](https://longevity.technology/news/eos-senolytix-invites-the-public-to-keep-pace-with-speedy/)，Speedy 在 166 周龄时的夜间运动峰值仍超过比它年轻 66 周的未给药小鼠，而该品系通常在约 155 周时死亡。公司强调，夜间影像来自固定时间、不经筛选直播，且页面届时会如实标注"DECEASED"（死亡）。Speedy 是一只小鼠，不能单独证明任何治疗效果；有价值的是它背后仍在进行的队列数据，以及公司愿意接受公众实时监督的透明度。
+![Nvidia, UW Institute for Protein Design Unveil Open-Source Protein Design AI Model](https://www.genengnews.com/wp-content/uploads/2026/10/David-Baker-493455cCPMichel1212026-web-200x300.jpeg)
 
-[![来源配图：Eos SENOLYTIX invites the public to keep pace with Speedy](https://longevity.technology/wp-content/uploads/2026/10/eos-senolytix-invites-the-public-to-keep-pace-with-speedy-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/eos-senolytix-invites-the-public-to-keep-pace-with-speedy/)
+### 3. 冷冻电镜与 AI 支架揭示安第斯病毒如何感染人类细胞
 
----
+据 [GEN 的报道](https://www.genengnews.com/topics/infectious-diseases/cryo-em-and-ai-designed-scaffold-reveal-how-andes-hantavirus-binds-cells/)，研究团队用冷冻电镜(cryo-EM)解析了安第斯病毒刺突蛋白与人类受体 protocadherin-1(PCDH1)的结合结构,达到近原子分辨率。安第斯病毒是唯一能在人际间传播的汉坦病毒,可引起致命的肺综合征。研究发现病毒表面四个 Gn 糖蛋白亚基组成一个深口袋,PCDH1 以细长形状插入其中,而大多数抗体因体积过大无法进入。为了稳定这个四聚体复合物,团队使用了 AI 设计的支架。突变实验确认了三个 Gn 环参与结合,研究者甚至成功将这种结合能力转移到旧大陆汉坦病毒上。论文发表在《自然》,作者认为设计细长分子阻断这个深口袋可能是抗病毒策略方向,但尚无候选药物。
 
-### 3. AI 从面部照片预测癌症预后
+![Cryo-EM and AI-Designed Scaffold Reveal How Andes Hantavirus Binds Cells](https://www.genengnews.com/wp-content/uploads/2026/10/Low-Res_ANDVgreen_PCDH1pink-1-1-300x300.jpg)
 
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261022/A-simple-facial-photograph-may-hold-clues-to-cancer-survival.aspx)，一个名为 FAHR-Face 的 AI 系统尝试从普通面部照片中提取与癌症生存相关的预后信息。预后（prognosis）是指对疾病未来走向的预测，临床上通常依赖血液检测、病理切片或影像扫描。若面部图像也能携带此类信号，理论上可以降低预测成本、加快评估速度。目前仅有短摘要，具体数据集规模、模型准确率及与标准检测的比较结果均待原文核查。面部特征与检测结果存在关联，并不等于能代替血液或病理检查；这类研究从相关性到临床验证还需经过严格的独立评估。
+### 4. 裸盖菇素通过不同细胞通路重塑大脑连接
 
-![A simple facial photograph may hold clues to cancer survival](https://www.news-medical.net/images/news/ImageForNews_849354_17926648453965717.webp)
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261022/Psilocybin-reshapes-brain-connections-through-distinct-cellular-pathways.aspx)，加州大学圣克鲁兹分校的研究揭示了裸盖菇素(psilocybin,迷幻蘑菇的活性成分)如何重塑神经连接。裸盖菇素是一种血清素受体激动剂,近年被研究用于治疗抑郁症和创伤后应激障碍。这项新研究识别了裸盖菇素作用的具体细胞通路,但媒体摘要未给出实验对象、样本量或具体机制细节。目前仅知研究方向涉及神经可塑性,即大脑形成新连接的能力,这被认为与其潜在治疗效果有关。完整数据需查阅原文,目前不能确定研究在细胞、动物还是人体层面进行,也不清楚能否外推到临床应用。
 
----
+![Psilocybin reshapes brain connections through distinct cellular pathways](https://www.news-medical.net/image-handler/picture/2016/3/Artificially_Colored_MRI_Scan_Of_Human_Brain-Daisy_Daisy_a8c5d8bbbf824bc8932308e30187510f-620x480.jpg)
 
-### 4. AI 识别患者表型，助力罕见病精准诊断
+### 5. KARI 数据集整合 6000 份脑扫描研究阿尔茨海默病
 
-[CHIP 2026 共享任务 1 的论文](https://papers.cool/arxiv/2610.29606)介绍了一个从生物医学全文文献中自动识别"患者表型"的评测任务。表型（phenotype）是指可观察到的体征或症状，比如某种特征性面容或器官异常，罕见病诊断往往依赖表型与基因的精准对应。该数据集包含 200 篇全文文章，涵盖 506 名患者、逾 15,000 条表型标注，要求系统不仅找出表型，还要将其归属到具体患者。455 支团队参赛，最优系统在最终测试集上得分 0.7389，比基线高约 8 个百分点，主要方法结合了生物医学语言模型、大语言模型与集成策略。患者归属和表型规范化仍是主要难点，评测赛道目前还在开放提交阶段。
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx)，KARI 多模态影像数据集收录了约 6000 份脑扫描,用于研究阿尔茨海默病中淀粉样蛋白、tau 蛋白和大脑结构与认知表现的关系。多模态影像是指结合 PET(正电子发射断层扫描)、MRI(磁共振成像)等不同成像技术,能同时观察病理蛋白沉积和脑组织萎缩。媒体摘要未说明数据来源、受试者特征或具体发现,仅表明该数据集提供了关键洞察。完整研究设计和结果需查阅原文,目前不清楚是回顾性分析还是前瞻性队列,也不明确这些影像能否改善早期诊断准确性。
 
----
+![What can 6,000 brain scans tell us about Alzheimer's?](https://www.news-medical.net/images/news/ImageForNews_849476_17927425049937124.jpg)
 
-### 5. 单眼眼底照片借助"双眼教师"提升眼病筛查准确率
+### 6. 产后恢复窗口期可能影响母体长期衰老
 
-[这篇论文](https://papers.cool/arxiv/2610.29126)提出一种"特权学习"（privileged learning）框架：训练时让模型同时看左右眼图像，推断时只需一张单眼照片。这解决了一个现实问题——资源受限的诊所可能只有一张眼底照，但单眼模型往往比双眼模型差。在年龄相关性黄斑变性检测中，该框架将曲线下面积从 0.931 提升至 0.966；在糖尿病视网膜病变检测中，从 0.789 提升至 0.836（左眼图像）。这里的曲线下面积是衡量分类准确性的指标，越接近 1 越好。结果来自单一评测数据集，是否适用于不同人群和采集设备仍需外部验证。
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261023/Postpartum-recovery-may-influence-long-term-maternal-aging-and-health.aspx)，麻省总医院 Brigham 分院遗传学部的 Jesse Poganik 博士在《内分泌与代谢趋势》期刊发表综述,探讨产后恢复窗口期(postpartum recovery window)作为母体衰老决定因素的可能性。产后恢复窗口期通常指分娩后数周到数月内身体修复的关键时段,这段时间的代谢、激素和免疫变化可能对长期健康产生持久影响。媒体摘要未提供具体研究数据、队列规模或生物年龄测量方法,仅列出作者信息。这是一篇观点性综述而非实验报告,具体证据和机制假设需查阅原文,不能据此得出产后干预能延缓衰老的结论。
 
----
+![Postpartum recovery may influence long-term maternal aging and health](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
 
-### 6. 分子碎片编码让 AI 药物预测更易被化学家读懂
+### 7. 妊娠间隔过短可能加速母体生物学衰老
 
-分子结构图模型通常按原子计算特征，但药物化学家更习惯按官能团（功能性化学基团）来思考药物活性。[这篇论文](https://papers.cool/arxiv/2610.29589)不改变模型架构，只把分子输入改为"碎片级图"——通过 BRICS 分解将分子切成有合成意义的碎片后再喂给图神经网络。在图规模缩小约五倍的情况下，预测准确率与原子级模型持平，同时让模型的归因解释自然对应到功能基团而非单个原子。代码已开放在 [GitHub 仓库](https://github.com/4D-Lab/frame)，可直接查看实现方式。评测仅涵盖四种架构和四项任务，在更大数据集和更复杂分子上的表现尚待验证。
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261022/Short-gaps-between-pregnancies-may-accelerate-biological-aging-in-mothers.aspx)，一项研究探讨了妊娠间隔与母体生物学衰老的关系。生物学衰老(biological aging)是指细胞、组织和器官随时间发生的变化,独立于实际年龄,可通过 DNA 甲基化、端粒长度等指标测量,与慢性病风险相关。媒体摘要未给出研究设计、样本量、间隔具体定义(如少于 18 个月或 12 个月)或衰老加速的幅度。目前仅知研究方向涉及生殖史对长期健康的影响,这是生命延续学中生殖衰老(reproductive aging)的一部分,但完整证据需查阅原文,不能据此给出妊娠计划建议。
 
----
-
-### 7. 意大利圣拉法埃莱医院启动胰岛细胞"胶囊"研究
-
-据 [Longevity.Technology 的报道](https://longevity.technology/news/italian-lab-to-test-cell-capsules-for-diabetes/)，Avaí Bio、Austrianova 与米兰圣拉法埃莱医院（OSR）于 10 月 7 日举行首次联合指导委员会会议，启动胰岛 β 细胞替代疗法的初步研究。β 细胞是胰腺中负责制造胰岛素的细胞，在 1 型糖尿病患者中已被自身免疫系统攻击殆尽。Austrianova 的 Cell-in-a-Box 技术将活细胞包裹在一个保护性微囊中，理论上可屏蔽免疫排斥。OSR 提供由干细胞分化而来的 β 细胞。目前的实验目标非常有限：仅验证被包裹的细胞能否存活并保持功能。尚无患者参与，临床试验阶段还十分遥远。
-
-[![来源配图：Italian lab to test cell capsules for diabetes](https://longevity.technology/wp-content/uploads/2026/10/italian-lab-to-test-cell-capsules-for-diabetes-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/italian-lab-to-test-cell-capsules-for-diabetes/)
-
----
-
-### 8. 美国女性一生照料老人时间超过七年
-
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261021/Women-provide-more-lifetime-elder-care-than-men-study-shows.aspx)，密歇根大学研究显示，美国女性预计一生中将为年迈家人或朋友提供约七年的照料，高于 2011 年的六年。与生命延续学的关联在于：随着人均寿命延长，老年依赖期随之拉长，非正式照护负担也不成比例地落在女性身上。具体研究设计和样本量待原文核查。
-
----
-
-## **⚡ 产品与功能更新**
-
-### Asimov Kernel：AI 自动设计基因表达载体
-
-Asimov 计划于 2026 年 11 月 12 日举办 [GEN 网络研讨会](https://www.genengnews.com/multimedia/webinars/using-ai-agents-and-bio-foundation-models-to-automate-vector-design-for-cell-line-development/)，演示其计算机辅助遗传设计软件 Kernel 如何结合生物基础模型和 AI 智能体，自动为药物分子定制基因表达载体。表达载体是将目标基因送入细胞并控制其产量的"容器"，设计好坏直接影响蛋白质药物的产量和质量。发言人介绍的案例包括：AI 设计的载体超越了公司自身过去的最优方案，以及模型预测多特异性抗体的链比例从而改善配对正确率。这是一场有赞助商的网络研讨会，案例数据均来自 Asimov 内部，尚未经过独立同行评审。
-
-[![来源配图：Using AI Agents and Bio-Foundation Models to Automate Vector Design for Cell Line Development](https://www.genengnews.com/wp-content/uploads/2026/10/JamieFreeman_headshot.jpg)](https://www.genengnews.com/multimedia/webinars/using-ai-agents-and-bio-foundation-models-to-automate-vector-design-for-cell-line-development/)
-
----
+![Short gaps between pregnancies may accelerate biological aging in mothers](https://www.news-medical.net/image-handler/picture/2018/7/Pretty_woman_holding_a_newborn_baby_in_her_arms_-_Joana_Lopes_M1_2490579294a942e78a3e5af24a18dbb1-620x480.jpg)
 
 ## **🧪 前沿研究**
 
-### 单细胞 RNA 数据的时序插值获新进展
+### Trion-1 统一语言、蛋白质序列和结构的扩散语言模型
 
-[这篇论文](https://papers.cool/arxiv/2610.29227)将最优传输理论（一种描述概率分布如何"流动"的数学工具）应用于单细胞 RNA 测序数据的时间插值。单细胞测序技术能在单个细胞层面读取基因活性，但每次测量都是"快照"，无法直接追踪同一细胞随时间的变化。研究提出四种基于 Schrödinger-Bass Bridge 的插值模型，在空间图像和单细胞数据上的时间点插值表现优于现有基线方法。这项工作属于方法层面的数学建模，有助于从离散时间点的测序数据中重建细胞状态变化轨迹，距离直接应用于具体疾病研究还有若干验证步骤。
+[arXiv 预印本](https://papers.cool/arxiv/2610.31215)介绍了 Trion-1,首个原生统一的多模态蛋白质扩散语言模型(dLLM)。它用统一的离散 token 空间同时表示序列、结构和自然语言,用双向或半双向交互替代严格的从左到右生成,使全局残基能够通信并建模远程接触。这种设计统一了六种核心能力:折叠、逆向折叠、序列理解、结构理解、序列设计和结构设计,同时保留通用大语言模型的指令跟随能力。在基准测试中,Trion-1 单次采样即可达到 TM-score 0.8 以上(衡量预测结构与真实结构的相似度,0.5 以上表示相同折叠),与现有三模态模型使用 200 次采样的效果相当;在序列理解任务上达到 62.37%,接近 Claude Opus 4.7。这是预印本,尚未经同行评审,代码和模型权重可从论文链接获取。
 
----
+### 视觉定位基准评估多模态大模型在视网膜 OCT 中的表现
+
+[arXiv 预印本](https://papers.cool/arxiv/2610.31205)提出了 RetinaGroundBench,首个用于视网膜光学相干断层扫描(OCT)生物标志物视觉定位的基准。OCT 是眼科最常用的成像技术,能显示视网膜分层结构。基准包含 815 张 B 扫描图像,由眼科医生标注了 4537 个边界框,覆盖 8 种疾病的 13 种生物标志物。研究评估了 27 个开源多模态大语言模型(0.8-38B 参数),发现视觉定位远未解决:最佳通用模型的宏观 F1 仅 23.7%,召回率持续偏低,尽管在生物标志物存在性问题上准确率可达 73%。作者开发的 RetGrounder(8B 参数)通过 OCT 特定策略微调,将 F1 提升至 33.9%,相对改进 43%。这是预印本,代码和模型可从论文获取,但尚未在临床环境中验证。
 
 ## **⌘ 开源 TOP 项目**
 
-### Poojitha220403/health-advice-prediction-django：生物年龄评估 Django 应用
+### ADAMMA-CDHI-ETH-Zurich/CosinorAge: 基于昼夜节律的生物年龄预测包
 
-这个 [GitHub 仓库](https://github.com/Poojitha220403/health-advice-prediction-django)是一个基于 Django 框架的 Web 应用，根据生活方式因素估算各器官的生物年龄，并给出健康建议。生物年龄是指身体的功能状态与哪个年龄段的人更接近，与身份证上的实际年龄可能不同。项目描述说明其算法依据 Tian 等人于 2023 年发表在《自然·医学》上的研究。仓库最近活跃于 2026 年 10 月 21 日，星标数为 1，尚处于早期个人研究阶段，许可证和部署状态未在描述中注明。估算生物年龄可以作为自我观察的参考工具，但不能依此诊断疾病或替代医学检查。
+[CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge) 是一个 Python 包,实现了基于余弦节律(cosinor)的生物年龄预测。昼夜节律(circadian rhythm)是生物体约 24 小时的生理周期,随年龄变化其振幅和相位会改变,可作为衰老标志物。该工具适合需要从时间序列生理数据(如体温、活动量)估算生物年龄的研究者。仓库提供了模型训练和预测的代码,但 README 未说明输入数据格式、预训练模型或验证数据集,使用前需查阅文档或示例脚本。项目获得 13 个 stars,最近一次活跃在 2026 年 10 月 23 日,许可证未在 GitHub 页面显示,需进一步核查。
 
----
+### JesperBoman/Butterfly_DNAm_age: 训练表观遗传时钟的脚本集
 
-### DewduSendanayake/Multimodal-Digital-Biomarkers-for-Personalized-Anxiety：焦虑预测研究仓库
-
-这个 [GitHub 仓库](https://github.com/DewduSendanayake/Multimodal-Digital-Biomarkers-for-Personalized-Anxiety-Vulnerability-and-Escalation-Forecasting)对应编号 R26-DS-012 的研究项目，方向是利用多模态数字生物标记物预测个人焦虑的易感性与升级风险。数字生物标记物是指通过可穿戴设备、手机传感器或行为记录采集到的生理和行为信号，用来推断心理健康状态。仓库最近活跃于 2026 年 10 月 22 日，星标数为 1。描述仅给出研究方向，具体数据集、模型架构、运行环境和许可证均未在描述中注明，感兴趣者需直接查看仓库内的文档。
+[Butterfly_DNAm_age](https://github.com/JesperBoman/Butterfly_DNAm_age) 提供了训练表观遗传时钟(epigenetic clock)的脚本。表观遗传时钟通过 DNA 甲基化(DNAm)模式预测生物年龄,是衰老研究中广泛使用的工具,但多数时钟针对人类或哺乳动物,这个项目聚焦蝴蝶,为非模式生物的衰老研究提供参考。仓库包含数据预处理和模型训练流程,适合研究昆虫寿命或比较不同物种衰老机制的团队。README 未详细说明依赖环境、输入甲基化数据的来源或时钟的预测精度,使用时需结合代码注释。项目获得 1 个 star,最近活跃在 2026 年 10 月 23 日,许可证和发布状态待核查。
