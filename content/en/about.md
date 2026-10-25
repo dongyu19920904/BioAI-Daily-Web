@@ -4,42 +4,42 @@ type: about
 sidebar:
   exclude: true
 ---
-## About AI Life Extension Daily 🧬
+## About AI Life Extension Daily
 
-> Your go-to daily for AI + Longevity / Life Extension / Aging Research
+> **Your daily go-to for AI + longevity / life extension / aging research news 📰**
 
-AI Life Extension Daily is a daily news platform zeroed in on the crossover of AI + longevity / life extension / aging / biological age / rejuvenation. We're here to help investors, product managers, founders, and students get up to speed on this niche field without the noise.
+AI Life Extension Daily is a daily news platform zeroed in on the crossover between AI and longevity, life extension, aging, biological age, and rejuvenation. We're here to help investors, product managers, founders, and students get the scoop on this niche field without the hassle.
 
 ### Our Positioning 🎯
 
-- **Focus**: AI life extension science — covering longevity, life extension, aging, biological age, and rejuvenation
-- **Who It's For**: Investors, PMs, founders, and students curious about AI + longevity / aging research
-- **Vibe**: Professional but friendly — think of it as your well-connected buddy dropping industry intel
+- **Topic**: AI life extension studies — laser-focused on longevity, life extension, aging, biological age, and rejuvenation
+- **Target users**: Investors, PMs, founders, and students curious about AI + longevity / aging research
+- **Vibe**: Pro but friendly, like a well-connected buddy dropping industry knowledge
 
-### What We Cover ⭐
+### Our Content ⭐
 
-Every day we auto-aggregate the latest moves in the AI life extension space:
+Every day we auto-curate the latest moves in AI life extension studies:
 
 #### Core Coverage Areas 🧬
 
-- **Longevity Research**: Healthspan, lifespan extension, longevity biology
-- **Aging Mechanisms**: Cellular senescence, mitochondria, autophagy, telomeres, epigenetic clocks
-- **Life Extension Interventions**: Anti-aging drugs, senolytics, biological age interventions, rejuvenation strategies
-- **AI Drug Discovery for Longevity**: Drug screening, molecular generation, target prediction, platform models
-- **Biological Age & Biomarkers**: Biological age clocks, age-related biomarkers, aging assessment
-- **Tools & Platforms**: Data platforms, models, and open-source tools built for longevity / aging research
+- **Longevity research**: Healthspan, lifespan extension, the biology of living longer
+- **Aging mechanisms**: Cellular senescence, mitochondria, autophagy, telomeres, epigenetic clocks
+- **Life extension interventions**: Anti-aging drugs, senolytics, biological age interventions, rejuvenation strategies
+- **AI longevity drug discovery**: Drug screening, molecular generation, target prediction, platform models
+- **Biological age & biomarkers**: Biological age clocks, age-related biomarkers, aging assessment
+- **Tools & platforms**: Data platforms, models, and open-source tools powering longevity / aging research
 
 #### News Sources 📡
 
-- Trending industry news
-- Open-source project discoveries
-- Cutting-edge academic papers
-- Expert takes from the field
-- Product feature updates
+- Industry hot takes 🔥
+- Open-source project finds 📦
+- Cutting-edge academic papers 📄
+- Expert takes from the field 💬
+- Product feature drops 🚀
 
-**CloudFlare Workers + AI** handles all the scraping, generating, and publishing automatically — so you get timely, comprehensive coverage without the wait.
+All content gets scraped, generated, and published automatically via **CloudFlare Workers + AI** — so you stay in the loop, fast and thorough ⚡
 
-### Get in Touch 🔗
+### Contact Us 🔗
 
 - **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
 - **Email**: dongyu199209@outlook.com
@@ -47,4 +47,4 @@ Every day we auto-aggregate the latest moves in the AI life extension space:
 
 ---
 
-AI Life Extension Daily — your shortcut to staying ahead in AI + longevity / life extension / aging research 🧬✨
+**AI Life Extension Daily — helping you cut through the noise on AI + longevity / life extension / aging research 🧬✨**

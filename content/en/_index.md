@@ -1,81 +1,115 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/10/23
+title: AI生命延续学日报 2026/10/24
 breadcrumbs: false
-next: /en/2026-10/2026-10-23
+next: /en/2026-10/2026-10-24
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
   type: docs
 ---
-## **Today's Summary 📋**
+## **Today's Summary**
 
 ```
-Mouse studies show hypothalamic neuron cilia shrink with age — knocking out cilia growth genes partially breaks caloric restriction benefits.
-UW and Nvidia open-source a protein design model — lab tests show 5-10x higher success rate than baseline.
-The cilia-caloric restriction link has only been shown in mice — whether human hypothalamic cilia work the same way is anyone's guess.
+FDA clears AI software for assessing Alzheimer's progression risk
+Mouse study finds blocking an immune pathway in bone marrow slows skeletal aging
+The software was cleared based on similarity to an existing product, not rigorous efficacy review
 ```
 
-## **Today's Top 7 🚀**
+## **🔥 Top 10 Stories Today**
 
-### 1. Hypothalamic Neuron Cilia Length Affects Whole-Body Metabolism and Caloric Restriction Effectiveness
+### 1. Blocking an Immune Signaling Pathway Slows Bone Aging in Mice
 
-Hypothalamic neurons sport cilia — antenna-like structures poking out from the cell — that shrink with age, and dropping NAD+ levels are the direct culprit, according to [a Lifespan.io report](https://lifespan.io/how-some-neuronal-cilia-may-affect-the-whole-body/). In lab experiments, boosting NAD+ precursors or blocking CD38 (the enzyme that chews through NAD+) made cilia grow back. CHMP4B protein inside the cilia normally heads back to the lysosome to keep it intact, but when NAD+ runs low that process stalls. The kicker: when researchers used silencing RNA to knock out cilia growth genes, even caloric restriction in 24-month-old mice could no longer improve certain metabolic markers — meaning these specific neuronal cilia are a must-have link for caloric restriction to do its thing. Published in an academic journal, but so far only done in mice — whether human hypothalamic cilia play the same role remains an open question.
+Bone loss is a natural part of aging, driven partly by a buildup of fat cells in bone marrow and rising inflammation that chips away at new bone formation. As [Lifespan.io reports](https://lifespan.io/blocking-sting-helps-preserve-bone-in-aging-mice/), a mouse study published in *Advanced Science* zeroed in on the cGAS–STING pathway in bone marrow macrophages — an immune alarm system normally triggered by bacterial or viral DNA that gets mistakenly fired up with age due to DNA leaking from damaged mitochondria, cranking out chronic inflammation signals. Starting at 12 months old, researchers silenced the STING gene in mouse macrophages; by 18 months, those mice showed significantly better bone density and structure compared to controls, with fewer bone marrow fat cells to boot. Digging deeper, the team found that activated STING depletes NAD⁺ — a key molecule for cellular energy metabolism — in bone marrow via the CD38 enzyme, and that combining the STING inhibitor H-151 with NMN supplementation produced results comparable to the existing osteoporosis drug alendronate. 🐭 Worth noting: this is mouse data only, and the dual intervention makes it tricky to untangle which piece did the heavy lifting — more research needed before any human conclusions.
 
-[![Source image: How Some Neuronal Cilia May Affect the Whole Body](https://lifespan.io/wp-content/uploads/2026/10/Cilia-on-a-neuron-262x187.jpg)](https://lifespan.io/how-some-neuronal-cilia-may-affect-the-whole-body/)
+![Blocking STING Helps Preserve Bone in Aging Mice](https://lifespan.io/wp-content/uploads/2026/10/Bone-structure-262x187.jpg)
 
-### 2. Nvidia and UW Open-Source RFD4-Proteina Protein Design Model
+---
 
-RFD4-Proteina, an open-source generative protein design model from Nvidia and the UW Institute for Protein Design led by Nobel laureate David Baker, was unveiled according to [a GEN report](https://www.genengnews.com/topics/artificial-intelligence/nvidia-uw-institute-for-protein-design-unveil-open-source-protein-design-ai-model/). Built on the Nvidia BioNeMo platform, the model simultaneously optimizes protein sequence, structure, and interactions with other molecules. Lab tests showed that across four task types — protein binding, small molecule binding, enzyme scaffolding, and DNA binding — RFD4-Proteina's design success rate was 5 to 10 times higher than baseline methods, with generation speed also 5 to 10 times faster. The model is open-sourced under a BSD-3 license and available through Amazon Bio Discovery, Hugging Face, Google Cloud, and other platforms. Baker says this'll help design proteins for drug discovery and enzymes that break down pesticides, but going from computational design to lab validation still takes time.
+### 2. An AI Tool Maps Colorectal Cancer "Tumor Landscapes" and Uncovers Repurposable Drug Combos
 
-![Nvidia, UW Institute for Protein Design Unveil Open-Source Protein Design AI Model](https://www.genengnews.com/wp-content/uploads/2026/10/David-Baker-493455cCPMichel1212026-web-200x300.jpeg)
+MSS CRC (microsatellite-stable colorectal cancer) makes up 80–85% of all colorectal cancers and barely responds to existing immunotherapies — a stubborn clinical headache. As [GEN reports](https://www.genengnews.com/topics/cancer/multiomic-study-of-mss-crc-identifies-vulnerabilities-pointing-to-therapeutic-possibilities/), an international team pulled together genomic, epigenomic, proteomic, metabolomic, and single-cell RNA sequencing data from roughly 2,000 tumor samples, then built a machine learning tool called iPhenMap to generate a "biological tumor map" — linking all those data layers that are usually analyzed in isolation. That map helped researchers spot previously hidden vulnerabilities, and they validated several drug combinations in animal models, including trametinib, a targeted therapy already approved for melanoma and lung cancer. The study landed in *Cancer Cell*. 🧬 Multi-omics integration means simultaneously analyzing DNA, RNA, proteins, metabolites, and more to surface connections invisible at any single layer — but this is still preclinical, and whether it translates to actual treatment will take clinical trials to answer.
 
-### 3. Cryo-EM and AI-Designed Scaffold Reveal How Andes Virus Infects Human Cells
+---
 
-Andes virus — the only hantavirus that can spread person-to-person and cause deadly pulmonary syndrome — just had its infection mechanism cracked open. According to [a GEN report](https://www.genengnews.com/topics/infectious-diseases/cryo-em-and-ai-designed-scaffold-reveal-how-andes-hantavirus-binds-cells/), researchers used cryo-EM to resolve the structure of the Andes virus spike protein bound to its human receptor protocadherin-1 (PCDH1) at near-atomic resolution. Four Gn glycoprotein subunits on the virus surface form a deep pocket, and PCDH1 slots in with an elongated shape — but most antibodies are too bulky to squeeze in. To stabilize this tetramer complex, the team brought in AI-designed scaffolds. Mutant experiments confirmed three Gn loops participate in binding, and researchers even managed to transfer this binding ability to an Old World hantavirus. Published in *Nature*; the authors think designing slim molecules to block that deep pocket could be an antiviral strategy, but no drug candidates exist yet.
+### 3. FDA Clears AI Software for Assessing Alzheimer's Progression Risk
 
-![Cryo-EM and AI-Designed Scaffold Reveal How Andes Hantavirus Binds Cells](https://www.genengnews.com/wp-content/uploads/2026/10/Low-Res_ANDVgreen_PCDH1pink-1-1-300x300.jpg)
+NeuroXT's AI software just got the FDA's 510(k) clearance — meaning it passed a review based on similarity to an already-marketed device, not a full efficacy evaluation. As [Longevity Technology reports](https://longevity.technology/news/fda-clears-neuroxts-ai-software-to-assess-alzheimers-progression-risk), the software is designed to assess Alzheimer's progression risk in human patients. 🔍 The specifics — how it makes its assessments, what data it uses, validation sample size — weren't disclosed in the summary and still need to be verified. Key takeaway: 510(k) clearance means a device can hit the market, not that its clinical effectiveness has been rigorously proven.
 
-### 4. Psilocybin Reshapes Brain Connections Through Distinct Cellular Pathways
+---
 
-Psilocybin — the active ingredient in magic mushrooms — reshapes neural connections through specific cellular pathways, according to [a News-Medical report](https://www.news-medical.net/news/20261022/Psilocybin-reshapes-brain-connections-through-distinct-cellular-pathways.aspx). UC Santa Cruz researchers revealed how this serotonin receptor agonist does its thing. Psilocybin's been getting serious buzz lately for potential use in treating depression and PTSD. This new study pinpointed the specific cellular pathways psilocybin acts through, but the media summary didn't spill the experimental subject, sample size, or exact mechanism details. All we know is the research involves neuroplasticity — the brain's ability to forge new connections — which is thought to underlie its therapeutic potential. Full data sits behind the original paper, so whether this was done in cells, animals, or humans, and whether it translates to clinical use, remains up in the air.
+### 4. A Micropeptide That Inhibits Vascular Calcification Slows Arterial Hardening in Mice
 
-![Psilocybin reshapes brain connections through distinct cellular pathways](https://www.news-medical.net/image-handler/picture/2016/3/Artificially_Colored_MRI_Scan_Of_Human_Brain-Daisy_Daisy_a8c5d8bbbf824bc8932308e30187510f-620x480.jpg)
+Vascular calcification — where calcium-phosphate crystals get abnormally deposited in blood vessel walls, stiffening them up — is a cardiovascular risk factor that operates independently of atherosclerosis (the thickening and fatty plaque buildup we hear about more often). As [Fight Aging! reports](https://www.fightaging.org/archives/2026/10/a-micropeptide-that-inhibits-vascular-calcification-via-pkm2-degradation/), researchers discovered a tiny 40-amino-acid protein fragment called PKM2AP in patients with chronic kidney disease–related vascular calcification, and showed it can inhibit aerobic glycolysis in vascular smooth muscle cells by promoting the degradation of the PKM2 enzyme — basically cutting off an energy supply line that the calcification process depends on. In mouse models, administering PKM2AP significantly slowed calcification progression. 💊 Effective treatments for vascular calcification are extremely limited right now, so this opens an interesting new angle — though human clinical trials are still a ways off.
 
-### 5. KARI Dataset Integrates 6,000 Brain Scans to Study Alzheimer's
+---
 
-KARI — a multimodal imaging dataset packing roughly 6,000 brain scans — is being used to study how amyloid, tau, brain structure, and cognitive performance relate in Alzheimer's disease, according to [a News-Medical report](https://www.news-medical.net/news/20261023/What-can-6000-brain-scans-tell-us-about-Alzheimers.aspx). Multimodal imaging means combining PET (positron emission tomography) and MRI (magnetic resonance imaging) to look at both pathological protein deposits and brain tissue shrinkage simultaneously. The media summary didn't say where the data came from, who the subjects were, or what the actual findings are — just that the dataset offers "key insights." Full study design and results need the original paper. Can't tell if it's retrospective analysis or a prospective cohort, and whether these imaging approaches can actually improve early diagnosis accuracy is still unclear.
+### 5. Cancer Cells Enter a "Zombie State" After Chemo to Dodge Death
 
-![What can 6,000 brain scans tell us about Alzheimer's?](https://www.news-medical.net/images/news/ImageForNews_849476_17927425049937124.jpg)
+Research from Trinity College Dublin reveals that cancer cells can slip into a zombie-like state called "premature senescence" when hit with chemotherapy — they don't die, but they stop dividing normally and actively recruit the immune system's wound-healing machinery as a kind of self-protection. Senescent cells are a central concept in aging research: cells that stop dividing but stay alive, pumping out inflammatory signals. They're a hallmark of normal aging *and* a mechanism that can help cancer cells survive treatment. As [News-Medical reports](https://www.news-medical.net/news/20261023/Study-reveals-how-cancer-cells-survive-chemotherapy-in-a-zombie-like-state.aspx), cracking this mechanism could point toward new strategies for eliminating chemo-resistant residual cancer cells. 🧟 This is summary-level coverage — specific methods and sample data still need to be checked against the original paper.
 
-### 6. Postpartum Recovery Window May Influence Long-Term Maternal Aging
+---
 
-The postpartum recovery window — those weeks to months after delivery when the body patches itself back up — might influence long-term maternal aging, according to [a News-Medical report](https://www.news-medical.net/news/20261023/Postpartum-recovery-may-influence-long-term-maternal-aging-and-health.aspx). Dr. Jesse Poganik from the Division of Genetics at Brigham and Women's Hospital (Mass General Brigham) published a review in *Trends in Endocrinology & Metabolism* exploring this idea. During this critical stretch, metabolic, hormonal, and immune changes could have lasting effects on long-term health. The media summary didn't drop any specific data, cohort size, or biological age measurement methods — just the author info. This is an opinion review, not an experimental paper, so the actual evidence and mechanistic hypotheses are in the full text. Can't conclude from this that postpartum interventions can slow aging.
+### 6. Taurine May Play a Role in Regulating Age-Related Chronic Inflammation
 
-![Postpartum recovery may influence long-term maternal aging and health](https://www.news-medical.net/image-handler/picture/2018/7/shutterstock_1028141632_649cad8889c647fc8d0bd83bf7503e08-620x480.jpg)
+"Inflammaging" — the chronic low-grade inflammation that accumulates with age and keeps the immune system in a state of perpetual low-level activation — is considered a shared root cause of many age-related diseases. A Yale University study found that taurine, an amino acid found naturally in the body and in food, may help regulate this age-linked inflammation. As [News-Medical reports](https://www.news-medical.net/news/20261023/Taurine-helps-regulate-inflammation-linked-to-aging-Yale-study-finds.aspx), the specific mechanism, experimental subjects (cells, animals, or humans), and key data weren't disclosed in the summary — original paper still needs to be checked. ⚠️ Jumping from an associative finding to "taurine supplements slow aging" isn't supported by the current evidence.
 
-### 7. Short Gaps Between Pregnancies May Accelerate Maternal Biological Aging
+---
 
-Short gaps between pregnancies might speed up biological aging in mothers, according to [a News-Medical report](https://www.news-medical.net/news/20261022/Short-gaps-between-pregnancies-may-accelerate-biological-aging-in-mothers.aspx). Biological aging — changes in cells, tissues, and organs over time that are independent of chronological age — can be measured via DNA methylation, telomere length, and similar markers, and ties into chronic disease risk. The media summary didn't give us the study design, sample size, what counts as "short" (under 18 months? 12 months?), or how much aging was accelerated. We only know the research direction involves how reproductive history shapes long-term health — part of reproductive aging in the life course framework. Full evidence needs the original paper, and this doesn't constitute medical advice for pregnancy planning.
+### 7. Nearly Half of the Oldest Older Adults Die Within a Year of a Hip Fracture
 
-![Short gaps between pregnancies may accelerate biological aging in mothers](https://www.news-medical.net/image-handler/picture/2018/7/Pretty_woman_holding_a_newborn_baby_in_her_arms_-_Joana_Lopes_M1_2490579294a942e78a3e5af24a18dbb1-620x480.jpg)
+Hip fractures are far more dangerous for older adults than the break itself suggests. As [MedicalXpress reports](https://medicalxpress.com/news/2026-10-hip-fracture-older-adults-orthopedic.html), a doctoral thesis from Umeå University found that among the oldest age groups, one-year mortality after a hip fracture approaches 50%. The research also found that fracture risk, post-fracture mortality, and recovery outlook aren't determined by age alone — they're tied to physical health status, underlying conditions, and mental health, pointing to the need for more individualized care approaches. 📊 This is observational research, so it identifies associations rather than establishing direct causation.
 
-## **Frontier Research 🧬**
+---
 
-### Trion-1: A Unified Diffusion Language Model for Language, Protein Sequence, and Structure
+### 8. Women Are More Optimistic About Aging — Until Memory Problems Enter the Picture
 
-Trion-1 — the first natively unified multimodal protein diffusion language model (dLLM) — was introduced in [an arXiv preprint](https://papers.cool/arxiv/2610.31215). It uses a unified discrete token space to represent sequence, structure, and natural language all at once, replacing strict left-to-right generation with bidirectional or semi-bidirectional interaction so global residues can communicate and model long-range contacts. This design unifies six core capabilities: folding, inverse folding, sequence understanding, structure understanding, sequence design, and structure design — while keeping the instruction-following chops of a general-purpose LLM. On benchmarks, Trion-1 hits TM-score 0.8+ (measuring predicted vs. actual structure similarity; 0.5+ means same fold) in a single sample, matching what existing tri-modal models need 200 samples to achieve. On sequence understanding tasks it reaches 62.37%, close to Claude Opus 4.7. This is a preprint, not yet peer-reviewed; code and model weights are available from the paper link.
+A study published in the *Journal of Women & Aging* found that women are generally more optimistic about aging than men, but that optimism takes a notable hit as soon as subjective memory complaints appear. As [MedicalXpress reports](https://medicalxpress.com/news/2026-10-women-optimistic-aging-memory-problems.html), this pattern showed up in both adults with mild cognitive impairment (subtle memory or thinking issues that don't yet meet the threshold for dementia) and cognitively healthy adults. 🧠 Since psychological expectations and health behaviors influence each other in both directions, understanding what shifts aging expectations matters for designing cognitive health interventions. Sample size and detailed analysis still need to be checked against the original paper.
 
-### Visual Grounding Benchmark Evaluates Multimodal LLMs on Retinal OCT
+---
 
-RetinaGroundBench — the first benchmark for visual grounding of biomarkers in retinal OCT (optical coherence tomography) — was proposed in [an arXiv preprint](https://papers.cool/arxiv/2610.31205). OCT is the most commonly used imaging technique in ophthalmology, showing the retina's layered structure. The benchmark contains 815 B-scan images annotated by ophthalmologists with 4,537 bounding boxes across 13 biomarkers for 8 diseases. The study evaluated 27 open-source multimodal LLMs (0.8-38B parameters) and found visual grounding is far from solved: the best general model scored just 23.7% macro F1, with recall consistently low, even though accuracy on biomarker presence questions hit 73%. The authors' RetGrounder (8B parameters), fine-tuned with OCT-specific strategies, bumped F1 to 33.9% — a 43% relative improvement. This is a preprint; code and models are available from the paper, but it hasn't been validated in clinical settings yet.
+### 9. A Specific Brain Enzyme's Activity Is Linked to Better Memory in Old Age
 
-## **Open Source Top Projects 💻**
+A study reported in *Nature* shows that the activity level of a specific brain enzyme is associated with memory preservation in older age. As [Nature reports](https://www.nature.com/articles/d41586-026-03303-9), the source material here is title and link only — the specific enzyme, experimental subjects (animal or human), sample size, and key data all need to be verified from the original paper. 🔬 Reporting the research direction only at this stage.
 
-### ADAMMA-CDHI-ETH-Zurich/CosinorAge: A Circadian Rhythm-Based Biological Age Prediction Package
+---
 
-[CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge) is a Python package that implements biological age prediction based on cosinor rhythm analysis. Circadian rhythms — the ~24-hour physiological cycles in living organisms — shift in amplitude and phase with age, making them potential aging biomarkers. This tool fits researchers who need to estimate biological age from time-series physiological data like body temperature or activity levels. The repo includes code for model training and prediction, but the README doesn't spell out input data format, pretrained models, or validation datasets — you'd need to dig into the docs or example scripts before using it. The project has 13 stars, last active October 23, 2026. License isn't shown on the GitHub page, so that needs checking.
+### 10. Quantum AI Tech Is Being Used to Find New Indications for XPro
 
-### JesperBoman/Butterfly_DNAm_age: Scripts for Training Epigenetic Clocks
+XPro, a biologic that targets inflammation, has been studied primarily in neurodegenerative diseases like Alzheimer's. As [Longevity Technology reports](https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlRRUUpGNDhBSkJjX3pVR1BmR2dhZl85MGkwNnVUVjZpQ2ZXYlJkU0k1a19wQjhwYmk1Sy00Njcwc2FkQXIyc3R6d2hBLUE2QVNnb2tOR1BJd3hMYjl1ZXBYSTRIRHIxbHlmZHRPb1VCQnFtMVRhVnoyUkpRZ3llNHlYRE5VR2MweWVlNG9JUjU?oc=5), researchers are now exploring quantum AI techniques to uncover new therapeutic applications for XPro. ⚛️ The specific quantum AI methods, research stage, and data details are second-hand reporting — original sources still need to be verified.
 
-[Butterfly_DNAm_age](https://github.com/JesperBoman/Butterfly_DNAm_age) provides scripts for training epigenetic clocks. Epigenetic clocks predict biological age from DNA methylation (DNAm) patterns and are widely used in aging research — but most clocks target humans or mammals. This project zeroes in on butterflies, offering a reference for aging research in non-model organisms. The repo includes data preprocessing and model training pipelines, good for teams studying insect lifespan or comparing aging mechanisms across species. The README doesn't detail dependencies, the source of methylation data, or the clock's prediction accuracy — you'd need to comb through the code comments. The project has 1 star, last active October 23, 2026. License and release status need checking.
+---
+
+## **⚡ Product & Feature Updates**
+
+### ECHO Implant Achieves Drug-Free Closed-Loop Blood Sugar Control in Mice
+
+ECHO (Electrochemical Closed-loop Health Optimization system), an implantable device developed by ETH Zürich and collaborating institutions, offers a drug-free approach to blood glucose management that doesn't rely on insulin or other medications. The device embeds a platinum-modified porous conductive matrix that electrochemically converts excess glucose into gluconic acid, which can be cleared by the kidneys. In a diabetic-obese mouse model, ECHO connected to a smartphone and continuous glucose monitor (CGM), automatically activating when blood sugar crossed a preset threshold and consistently restoring normal glucose levels over six weeks — with body weight and triglyceride levels also dropping, and no hypoglycemic events. As [GEN reports](https://www.genengnews.com/topics/translational-medicine/wirelessly-powered-electronic-implant-echo-enables-drug-free-management-of-diabesity/), the paper was published in *Science Advances*. 🐭 This is a mouse proof-of-concept only — safety, long-term stability, and human applicability all still need to be worked out.
+
+---
+
+## **◎ Open Source Top Projects**
+
+### MineSelf2016/biological_agents_survey: A Living Companion Repo for an AI Biological Research Agents Survey
+
+This repo is the dynamic companion resource for a review paper titled "AI agents for biological research," published in *Briefings in Bioinformatics* (2026). It aggregates work on applying AI agents to biological research tasks. AI agents here refer to AI systems that can autonomously carry out tasks like experimental design, data analysis, or literature screening — as opposed to regular language models that just answer questions. It's a solid entry point for researchers and developers who want a structured overview of the research automation landscape. The repo has 114 stars and was last active on October 23, 2026: [github.com/MineSelf2016/biological_agents_survey](https://github.com/MineSelf2016/biological_agents_survey). ⚠️ README content hasn't been independently verified — read alongside the original paper.
+
+### kkontras/NeuroAtlas: A Cross-Task Benchmark for EEG Foundation Models
+
+NeuroAtlas is an evaluation benchmark for EEG (electroencephalogram) foundation models, accepted at NeurIPS 2026. EEG foundation models are general-purpose neural networks pretrained on large-scale brain signal data that can be transferred to multiple downstream tasks. NeuroAtlas covers four tasks: sleep staging, brain age estimation, epilepsy detection, and BCI (brain-computer interface — decoding brain signals to control external devices). It's a useful resource for developers working on neural signal processing or brain health AI who want to understand how different foundation models hold up across varied scenarios. The repo has 26 stars and was last active on October 23, 2026: [github.com/kkontras/NeuroAtlas](https://github.com/kkontras/NeuroAtlas). ⚠️ Repo self-descriptions haven't been independently verified — check the repo for license details and specific setup requirements.
+
+---
+
+## **◎ Industry Shifts & Personal Impact**
+
+### Over 2 Million American Seniors' Medicare Advantage Plans Are Shutting Down at Year-End
+
+As [News-Medical reports](https://www.news-medical.net/news/20261023/Medicare-is-more-broken-than-we-thought.aspx), by October 1st of this year, at least 2 million American seniors had already received notices that their health plans through Medicare Advantage — the version of federal Medicare administered by private insurers — would be terminating at the end of the year. Medicare Advantage is the part of U.S. federal Medicare that lets seniors choose private insurance options, and enrollees typically lose direct access to original Medicare in the process. For affected seniors, the mass plan exits mean finding new coverage before year-end or risking a gap in benefits. 📋 Detailed background and policy analysis weren't included in the summary — the original report has more.
+
+---
+
+## **❓ Related Questions**
+
+### What do today's bone and inflammation studies actually mean for regular people?
+
+Short answer: not much you can act on yet. All of these results come from mouse or cell studies, and none of them should be changing your daily health decisions. The bone STING pathway research ([Lifespan.io](https://lifespan.io/blocking-sting-helps-preserve-bone-in-aging-mice/)) used gene silencing and experimental drugs whose safety and efficacy in humans are completely unknown; NMN supplementation in that study was only one part of a combined intervention, so you can't read it as standalone evidence for human bone protection. The taurine–inflammaging connection ([News-Medical](https://www.news-medical.net/news/20261023/Taurine-helps-regulate-inflammation-linked-to-aging-Yale-study-finds.aspx)) is still summary-level — experimental subjects and evidence strength haven't been verified yet. 🔭 Until there's more human data, these studies point to scientific directions worth following, not health advice worth following today.
