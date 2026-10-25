@@ -12,12 +12,12 @@ sidebar:
 
 This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your information when you use the Service, and tells you about your privacy rights and how the law protects you.
 
-We use your personal data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
+We use your Personal Data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
 
 ## Interpretation and Definitions
 
 ### Interpretation
-Capitalized words have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+Words with capitalized initial letters have meanings defined under the following conditions. These definitions shall have the same meaning regardless of whether they appear in singular or plural form.
 
 ### Definitions
 For the purposes of this Privacy Policy:
@@ -59,4 +59,6 @@ While using our Service, we may ask you to provide us with certain personally id
 #### Usage Data
 Usage Data is collected automatically when using the Service.
 
-Usage Data may include information such as your device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the
+Usage Data may include information such as your Device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.
+
+When you access the Service by
