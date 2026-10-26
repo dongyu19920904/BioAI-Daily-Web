@@ -11,95 +11,97 @@ cascade:
 ## **今日摘要**
 
 ```
-表观遗传重编程首次在人体青光眼患者身上完成早期试验，初步出现视野改善信号。
-猪肾在极低温保存一年后移植成功并产生尿液，为器官长期储存开辟了新路径。
-视野改善来自三人无对照组的一期安全性试验，目前无法判断疗法是否真正有效。
+细胞重编程的早期人体试验公布数据，出现初步视野改善信号。
+猪肾经长期低温保存后恢复部分功能，器官储存研究又进一步。
+人体试验样本极小，猪肾研究也还不能代表人体移植成功。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. Life Biosciences 公布首个表观遗传重编程人体试验初步数据
+### 1. 细胞重编程试验公布首批人体数据
 
-表观遗传重编程，是指在不改变 DNA 序列的前提下，重置基因的开关状态，让细胞恢复更年轻的功能模式。Life Biosciences 发起的一期临床试验（NCT07290244）正是人类首次在体内测试这项技术。他们针对青光眼等视神经病变患者，通过眼内注射将携带三个山中因子（OCT4、SOX2、KLF4）的腺相关病毒载体送入视网膜细胞，再用口服多西环素控制因子表达时长（56天）。在已完成首阶段观察的 3 名青光眼患者中，2 名的视野测试出现初步改善信号：在视野内超过 28% 的检测点上，光感灵敏度提升超过 4 分贝；3 人均未发生剂量限制性毒性或严重不良事件。这是此疗法在人体上的首批公开数据，样本极小，只能说明短期安全性可接受及存在初步疗效信号，无法得出有效性结论。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-26th-2026/)，更大规模试验仍在进行中。
+Life Biosciences 公布 ER-100 的早期人体数据：3 名青光眼患者观察至第 56 天，2 人出现视野改善信号，未报告严重不良事件。它尝试用“表观遗传重编程”调整基因开关，让受损细胞恢复功能，而不是改写 DNA。[公司公告](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/)列出了试验设计；这项一期试验仍在进行，主要看安全性，样本小且无对照组，不能据此确认疗效。
 
-### 2. 猪肾在 -150°C 保存一年后移植成功并产生尿液
+### 2. 猪肾长期冷存后恢复部分功能
 
-器官低温保存一直面临两大难题：玻璃化（cryoprotectant，一种防止结冰损伤的化学液体灌注整个器官）和复温（大器官内外升温不均容易开裂）。研究团队用二氧化硅包裹的氧化铁纳米颗粒预先分布于血管网络，复温时施加交变电磁场，让纳米颗粒在器官内部均匀产热，从而解决大体积器官复温不均的问题。猪肾体积是此前成功纳米复温器官的 100 倍，在 -150°C 保存最长一年后，复温肾脏移植后立即产生尿液，血管、代谢和排泄功能均有恢复，且与标准冷藏保存结果接近。此方法需在玻璃化之前预先注入纳米颗粒，暂时无法应用于已保存的器官或人体冷冻案例，但为器官库大幅延长储存时间开辟了路径。论文已发表，[原文链接](https://doi.org/10.64898/2026.10.07.756990)可查阅试验设计与功能评估数据。
+器官保存的难点不只是降温，还包括如何均匀复温、避免开裂。这项[预印本](https://doi.org/10.64898/2026.10.07.756990)用“纳米复温”：让预先注入的微小颗粒在电磁场中产热。猪肾在低温保存后恢复部分功能，移植时立即产生尿液，其中一只保存长达一年。这不是长期存活或人体移植成功的证明；防冻剂损伤等问题仍待解决，研究也尚未经过同行评审。
 
-### 3. 肠道菌群构成对炎症水平的预测力强于年龄本身
+### 3. 肠道菌群为慢性炎症提供线索
 
-慢性低度炎症会随年龄上升，并与多种老年病相关。研究者分析了丹麦 DanFunD 队列中 1199 名 20 至 72 岁成人的肠道菌群、30 项血浆炎症因子及 19 项生理指标。结果显示，菌群构成对 97% 的炎症因子和 84% 的生理变量的解释力超过年龄本身。其中，一种名为 Bacteroides 2 的菌群亚型（肠型）携带者在成年早期就已呈现出炎症水平偏高、代谢指标偏差的状态，比其他肠型人群提前约 37 年出现"早衰型炎症"特征，且未来患多系统疾病的风险比值比为 1.21。该研究为观察性设计，只能说明菌群与炎症相关，不能证明改变菌群就能降低患病风险。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/predicting-inflammation-and-disease-risk-with-gut-microbiome-composition/)，粪菌移植等干预手段是否真能改变疾病轨迹，还需干预性研究验证。
+同样的年龄，为什么有人炎症水平更高？一项对 1199 名成人的研究发现，肠道菌群构成对多项炎症指标的解释力强于年龄本身。“菌群”就是生活在肠道中的微生物群体，不同组合可能对应不同的身体状态。[Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/predicting-inflammation-and-disease-risk-with-gut-microbiome-composition/)梳理了数据；这是观察性研究，不能证明改变菌群就能防病。
 
-### 4. 用 mRNA 纳米颗粒在体内临时改造免疫细胞对抗癌症与自免疫病
+### 4. 在小鼠体内临时改造免疫细胞
 
-CAR-T 细胞疗法是把患者的 T 细胞取出、改造、扩增后回输，费用高昂且制程复杂。研究者另辟蹊径：用表面包裹 NK 细胞特异性配体的脂质纳米颗粒（一种能包裹并递送信使 RNA 进入细胞的微小颗粒），直接在小鼠体内把约 80% 的 NK 自然杀伤细胞临时改造成携带嵌合抗原受体的 CAR-NK 细胞。在黑色素瘤小鼠模型中，5 只中有 3 只完全缓解；在自免疫性肝炎模型中，单次注射后攻击肝细胞的自身反应性 T 细胞被清除，肝损伤得到恢复。NK 细胞不会像改造过的 T 细胞那样误杀同类，因此理论上更适合治疗 T 细胞相关疾病。目前结果来自小鼠实验，能否在人体安全有效地实现，仍需进一步验证。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/creation-of-chimeric-antigen-receptor-natural-killer-cells-in-situ-via-messenger-rna-therapy/)可查阅方法细节。
+传统细胞疗法常要把免疫细胞取出改造，再输回体内。这次研究尝试直接在小鼠体内递送 mRNA，让 NK 细胞这种“自然杀伤细胞”临时获得识别病变细胞的能力。黑色素瘤实验中，接受治疗的 5 只小鼠有 3 只完全缓解。[MIT 的研究介绍](https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013)展示了递送思路，但人体中的安全性和效果还未知。
 
-### 5. 裸鼹鼠衰老生物学研究进展：首批基因移植实验显示延寿潜力
+[![脂质纳米颗粒向 NK 细胞递送 mRNA 的示意图](https://news.mit.edu/sites/default/files/download/202610/MIT-CAR-NK-01-press.jpg "向 NK 细胞递送 mRNA 的研究示意图。图片：研究团队，经 MIT News 发布；不是人体疗效图。")](https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013)
 
-裸鼹鼠寿命可达 30 年，是同体型啮齿类的十倍，且几乎不患癌，是衰老比较生物学的重要研究对象。近年研究者开始把裸鼹鼠的特定基因转入其他物种，作为验证干预策略的第一步。已有实验把裸鼹鼠的 nmrHAS2 基因（与透明质酸合成相关）引入小鼠，结果显示肿瘤发生率下降，中位与最大寿命均有延长，并改善多项健康跨度指标。另一个例子是将裸鼹鼠 cGAS 蛋白的四个氨基酸突变引入果蝇，延长了其寿命；在老年小鼠中过表达该蛋白也减轻了多器官老化表型。值得注意的是，裸鼹鼠的长寿可能涉及生殖策略改变、体温调节减弱等代价，这些权衡能否在人体干预中避开，目前缺乏充分实验证据。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/naked-mole-rats-versus-the-hallmarks-of-aging/)可了解各衰老标志的具体对比分析。
+### 5. 裸鼹鼠的长寿基因能否借给小鼠
 
-### 6. 口服乌石素 A 已有人体证据，外用制剂也在皮肤研究中显示效果
+裸鼹鼠很长寿，但它的优势能不能转移给其他动物？这篇[综述报道](https://www.fightaging.org/archives/2026/10/naked-mole-rats-versus-the-hallmarks-of-aging/)梳理了已有线索：把与透明质酸合成有关的 nmrHAS2 基因引入小鼠后，研究者观察到肿瘤减少、寿命延长。透明质酸是组织中的一种重要成分，这里关注的是其生物学机制，不是美容用途。这些仍是跨物种实验，不能推断同样方法对人有效。
 
-乌石素 A（Urolithin A）是肠道菌群分解某些多酚时产生的代谢物，已知能激活线粒体自噬——即细胞清理受损线粒体的过程，从而改善线粒体整体功能。此前口服乌石素 A 的人体试验已显示其安全，并在中老年人中改善线粒体功能、提升肌肉力量与耐力。新研究进一步评估了外用涂抹的效果：在随机对照临床研究中，局部涂抹乌石素 A 8 周后眼周皱纹深度下降，并减轻紫外线引发的皮肤红斑反应；皮肤转录组学数据显示细胞外基质相关基因上调、炎症与衰老相关信号下调。此外，在离体人皮肤模型中还观察到线粒体呼吸增强和衰老细胞标志物减少。该外用研究以皮肤表型改善为主要结果，能否通过改善线粒体功能系统性影响衰老进程，目前无法得出结论。详见 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/topical-urolithin-a-to-improve-aged-skin-function/)。
+### 6. 外用乌石素 A 有了皮肤研究数据
 
-### 7. 听力损失与死亡率关联研究：佩戴助听器者全因死亡风险降低
+乌石素 A 研究关注“线粒体自噬”，也就是细胞清理受损能量工厂的过程。一项随机对照研究报告，外用 8 周后，眼周皱纹深度和紫外线引起的红斑有所改善。[Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/topical-urolithin-a-to-improve-aged-skin-function/)还介绍了皮肤样本中的机制观察；皮肤表面的变化不等于全身衰老被逆转，也不能直接推成个人使用建议。
 
-该研究对澳大利亚、冰岛和美国共 13851 名参与者（平均年龄 61.8 岁）进行了个体数据合并分析，并在挪威 50277 名成人中进行了独立验证。结果显示，轻度、中度及中重度以上听力损失分别与全因死亡风险上升 19%、55% 和 56% 相关；心血管相关死亡的风险也呈类似梯度。正在使用助听器者的全因死亡风险低 9%，心血管死亡风险低 15%。研究者提出两种解释：一是佩戴助听器者整体健康管理更积极；二是听力恢复减缓了与听觉缺失相关的神经退化过程。这是观察性研究，不能断定助听器本身能降低死亡风险，混杂因素仍难以完全排除。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/hearing-aid-use-correlates-with-reduced-mortality-risk/)可查阅不同人群的数据对比。
+### 7. 助听器与较低死亡风险有关联
 
-### 8. 大脑记忆区发现一种蛋白能减缓与年龄相关的认知下降
+听力与健康寿命的联系值得研究，但不能把相关性当疗效。一项合并 13851 人数据、并在另一个 50277 人队列中验证的研究发现，使用助听器者的全因死亡风险低 9%。[研究报道](https://www.fightaging.org/archives/2026/10/hearing-aid-use-correlates-with-reduced-mortality-risk/)提醒，这可能也与使用者更积极管理健康有关；观察性数据无法证明助听器本身延长了寿命。
 
-研究者在小鼠海马体中筛查神经元突触丢失的调节因子，发现一种名为 PLA2G2F 的分泌型磷脂酶在老年海马颗粒细胞中表达增加。当研究者人工删除这个基因时，老年小鼠出现突触丢失加剧、炎性小胶质细胞增多、神经再生受损、脂质代谢紊乱及记忆下降；反之，在老年小鼠中人为上调 PLA2G2F 表达，则预防了上述病理变化并保护了记忆功能。机制上，该蛋白似乎通过调节脂质代谢向邻近支持细胞发出信号，减少其脂质积累和炎症状态。在人类认知韧性（即相同年龄下仍保持较好认知的能力）相关数据中，也发现 PLA2G2F 表达与认知表现正相关。目前仍主要是动物实验，能否在人体中用作干预靶点还待验证。详见 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/pla2g2f-is-protective-of-memory-function-in-the-aging-brain/)。
+### 8. 一种蛋白帮助老年小鼠保护记忆
 
-### 9. APOE4 基因通过干扰髓鞘脂质代谢加速大脑老化
+大脑变老时，是否也会启动保护机制？研究者发现，提高老年小鼠脑内 PLA2G2F 蛋白的表达，可以保护记忆，并减少部分炎症和脂质堆积。它可能帮助细胞维持脂质代谢，也就是正常处理脂肪类物质。[Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/pla2g2f-is-protective-of-memory-function-in-the-aging-brain/)介绍了实验；这仍主要是动物和细胞证据，不代表已有改善人体记忆的疗法。
 
-APOE4 是阿尔茨海默病最常见的遗传风险因子，携带者约占患者的 40-65%。此前研究认为 APOE4 主要通过加剧脑内炎症起作用，新研究揭示了另一条路径：APOE4 会抑制少突胶质细胞（负责维护神经轴突外层保护性髓鞘的细胞）中 Wnt 信号通路，导致细胞内脂肪滴积聚，无法正常为神经元包裹髓鞘——而髓鞘完整是神经元之间有效通信的前提。研究者通过 CRISPR 全基因组筛查确认了该通路后，在携带 APOE4 的人类类器官模型及小鼠中测试了 GSK3b 抑制剂，结果脂肪滴减少、髓鞘化改善、神经轴突生长增加。这提供了一个"概念验证"的干预思路，但距离临床应用还有相当距离。详见 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/the-apoe%ce%b54-variant-interferes-in-myelination-in-the-aging-brain/)。
+### 9. 阿尔茨海默病风险基因影响神经绝缘层
 
-### 10. 衰老时钟可靠性研究：多个时钟同向响应才更可信
+APOE4 为什么会增加阿尔茨海默病风险？MIT 团队发现，它会干扰细胞制造髓鞘的过程；髓鞘就像神经纤维外的绝缘层，帮助信号传递。恢复相关信号后，人类细胞模型和小鼠中的髓鞘形成有所改善。[研究机构原文](https://picower.mit.edu/news/how-biggest-alzheimers-risk-gene-disrupts-process-insulating-neurons)展示了显微图和实验方法，但这只是实验室中的干预线索，尚非人体治疗证据。
 
-表观遗传时钟是一类通过分析 DNA 甲基化（基因开关状态的化学标记）来估算生物年龄的工具。研究者分析了多个干预实验在不同衰老时钟下的表现，发现当只用单一时钟评估某干预时，结果可能无法被其他时钟复现；而针对"阳性对照"事件（已知加速衰老的情形）进行分析后，他们提出三条提升结论可信度的标准：基于主成分的可靠时钟有响应、经过死亡率训练或衰老速率时钟有响应、以及多个时钟方向一致。研究还提示，部分已发表的单时钟干预结论可能需要重新审视。该研究本身也指出，时钟变化应结合实际健康功能和发病率来解读，不能单独将时钟数字变动视为"逆龄"的直接证明。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted/)可了解框架细节。
+[![APOE4 类器官在实验干预前后的显微图对比](https://picower.mit.edu/sites/default/files/styles/hero_1x_wide/public/Figure3H-wnt-akay-upscale.png?h=49a4395e&itok=5ChbLrHe "APOE4 类器官的显微图：右侧为 GSK3b 抑制实验组。图片：MIT Picower Institute；不是患者治疗前后对比。")](https://picower.mit.edu/news/how-biggest-alzheimers-risk-gene-disrupts-process-insulating-neurons)
+
+### 10. 衰老时钟变年轻不等于真的逆龄
+
+“衰老时钟”会根据 DNA 上的化学标记等数据估算生物年龄，但不同的时钟可能给出不同结论。这篇[研究解读](https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted/)讨论了怎样提高判断可靠性：不能只挑一个变年轻的数字，还要看可靠时钟是否同向变化。即便多个时钟一致，也要结合实际功能与健康结果，不能单凭检测数字宣布“逆龄成功”。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### 深度学习从全脑 MRI 预测乳腺癌脑转移的 HER2 状态
+### 深度学习尝试从脑部影像判断肿瘤特征
 
-HER2 是乳腺癌治疗中的关键生物标志物，传统上需要活检才能检测。这项研究探索了能否直接从增强 T1 加权脑部 MRI 影像用深度学习预测 HER2 阳性或阴性，数据集来自 135 名乳腺癌脑转移患者（70 名 HER2+，65 名 HER2-）。相比传统影像组学模型（ROC-AUC 0.602），无需手动标注肿瘤的全卷积网络模型达到 ROC-AUC 0.667，加入肿瘤分割掩模后提升至 0.692。三种方法的表现均处于中等水平，图像特征与 HER2 状态存在关联，但无法替代病理检测，研究者明确指出这只是初步可行性探索，尚需更大规模验证。[论文索引与摘要](https://papers.cool/arxiv/2610.32774)可查阅方法设计与置信区间数据。
+HER2 是影响乳腺癌治疗选择的重要标志物，通常需要病理检测。这项研究用 135 名乳腺癌脑转移患者的 MRI 训练模型，探索影像能否提供线索；加入肿瘤分割后，区分能力指标 AUC 为 0.692，仍处于初步探索阶段。[论文索引与摘要](https://papers.cool/arxiv/2610.32774)列出了方法，不能据此用影像替代病理检测。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 衰老肝脏的空间转录组研究：衰老细胞如何破坏代谢分区
+### 衰老肝脏的细胞分工如何变乱
 
-肝脏内部按照代谢功能分为不同区域（分区），各区负责不同的化学反应，这种精密分工对肝功能至关重要。研究者利用空间转录组学（一种能同时测量组织切片中不同位置基因活动的技术）结合单核 RNA 测序，分析了多个年龄段野生型小鼠的肝脏。结果发现，中年小鼠（18 月龄）起，原有区域标志基因表达已明显紊乱，第三区功能标志减弱，第二区标志"扩散"。具有最强衰老相关分泌表型（SASP，即衰老细胞持续向周围释放促炎信号的特性）的肝细胞亚群随年龄增加，且集中于区域分界模糊之处。在加速衰老小鼠模型中观察到相似模式，支持衰老细胞在造成分区丧失上发挥主动作用。目前结果来自小鼠，衰老细胞在人体肝脏中的具体角色仍待探索。详见 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/cellular-senescence-in-liver-aging/)。
+肝脏不同区域各有代谢分工，衰老可能打乱这种安排。研究者用“空间转录组”绘制小鼠肝脏的基因活动地图，观察到从 18 月龄起，部分区域的分工标记已变得模糊，并与衰老细胞的聚集相伴。[研究报道](https://www.fightaging.org/archives/2026/10/cellular-senescence-in-liver-aging/)介绍了这些空间变化；结果来自小鼠，不能直接解释人体肝脏的衰老过程。
 
 ---
 
 ## **◎ 行业变化与个人影响**
 
-### 2026 年生物技术融资回暖，但早期初创公司仍难获资金
+### 生物技术融资回暖，早期项目仍承压
 
-据投行 Locust Walk 的季度报告及 [GEN 的报道](https://www.genengnews.com/topics/translational-medicine/stockwatch-investment-banker-talks-u-s-chinese-deals-ipos-and-a-tough-climate-for-startups-seeking-capital/)，2026 年迄今生物技术 IPO（首次公开募股）共 27 笔，募资总额 77.76 亿美元，较 2025 年全年同比增长 573%。与此同时，三季度北美风险融资平均单笔规模从 2025 年同期的 7500 万美元升至 9600 万美元，但融资高度集中于 B 轮及临床阶段资产，早期发现/临床前项目获资依旧困难。中国企业受香港市场收紧影响，授权许可交易已占全球总价值的 58%，成为主要资本获取途径。对延寿领域创业公司而言，这意味着若没有进入临床阶段的数据，融资将更加艰难；行业正整体向有人体数据的项目倾斜，而非早期平台技术。
-
-[![来源配图：StockWatch: Investment Banker Talks U.S.-Chinese Deals, IPOs, and a Tough Climate for Startups Seeking Capital](https://www.genengnews.com/wp-content/uploads/2026/10/Geoff-Meyerson-Locust-Walk-And-Banyan-BioInnovations-CROP11111-RESIZE3663-300x277.jpg)](https://www.genengnews.com/topics/translational-medicine/stockwatch-investment-banker-talks-u-s-chinese-deals-ipos-and-a-tough-climate-for-startups-seeking-capital/)
+据 [GEN 的融资报道](https://www.genengnews.com/topics/translational-medicine/stockwatch-investment-banker-talks-u-s-chinese-deals-ipos-and-a-tough-climate-for-startups-seeking-capital/)，2026 年迄今生物技术企业 IPO 共 27 笔，募资 77.76 亿美元。IPO 就是首次公开募股，但资本市场回暖不代表所有公司都容易融资：资金仍偏向临床阶段，早期发现和临床前项目处境较难。这是融资环境变化，不是某项延寿技术已有效的证明。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### sisinflab/STABLE-BAG：分析脑年龄差异来源的可解释性工具
+### sisinflab/STABLE-BAG：解释脑年龄差来自哪里
 
-[STABLE-BAG](https://github.com/sisinflab/STABLE-BAG) 是一个面向脑年龄研究的框架，旨在分解"脑年龄差"（即模型估算的脑年龄与实际年龄之差）背后的驱动因素。脑年龄差是衰老神经科学中常用的估算指标，差值偏大通常被认为可能反映大脑老化状态，但其成因涉及多个脑区和特征的综合作用。STABLE-BAG 结合了 SHAP（一种量化每个输入特征对模型预测贡献程度的方法）与稳定性评估，目标是让研究者更可靠地识别哪些神经影像特征对脑年龄估算贡献最大，而不只是得到一个数字。适合有神经影像数据和 Python 基础的研究者探索特征归因问题。仓库当前 Stars 为 2，处于早期阶段，具体数据格式要求和运行依赖可在 [GitHub 仓库](https://github.com/sisinflab/STABLE-BAG)查阅，许可证状态待核查。
+[STABLE-BAG](https://github.com/sisinflab/STABLE-BAG) 面向神经影像研究，尝试解释“脑年龄差”由哪些特征驱动，而不只给出一个估算数字。它关注 SHAP 解释对参考人群的依赖，尽量让比较更稳定。适合有相关数据和 Python 基础的研究者，仓库提供合成数据示例；估算差值不能当作个人诊断，也不代表已独立验证。
 
-### Blazeiscoding/sofit：面向可穿戴设备的开源生物年龄追踪应用
+### Blazeiscoding/sofit：可穿戴设备的健康追踪应用
 
-[sofit](https://github.com/Blazeiscoding/sofit) 是一个基于 Expo/React Native 构建的开源应用，目标是为 Google Fitbit Air 等无屏幕可穿戴设备提供类似 Whoop 风格的健康追踪功能，涵盖恢复状态、运动负荷、睡眠质量、生物年龄估算和 AI 健康教练等模块。生物年龄估算是其中一个功能，根据项目描述，该估算基于可穿戴设备传感器数据；估算值属于统计推断，不等于临床诊断或疾病风险预测。项目目前 Stars 为 1，处于非常早期状态，功能完整性和数据准确性尚无独立评估，感兴趣的开发者可在 [GitHub 仓库](https://github.com/Blazeiscoding/sofit)查看当前代码状态与支持设备列表。
+[sofit](https://github.com/Blazeiscoding/sofit) 是一个早期的 Expo/React Native 应用，项目自述可汇总睡眠、运动负荷、恢复状态等数据，并估算生物年龄。它适合开发者了解可穿戴数据的应用方式，具体支持设备和代码可在仓库查看。功能与准确性尚无独立评估，“生物年龄”也只是模型估算，不是疾病诊断。
 
 ---
 
 ## **❓ 相关问题**
 
-### 表观遗传重编程试验的初步数据，是否说明视力会改善？
+### 早期视野改善信号能说明疗法有效吗？
 
-还不能这样说。Life Biosciences 一期试验的首要目标是安全性和耐受性，不是疗效。目前 3 名参与者中有 2 名在第 56 天的视野测试中出现信号，但样本极小、没有对照组，且视野测试结果可能受测量变异影响。临床试验一期的阳性信号需要在更大规模、有对照的后续试验中验证，才能判断是否真正有效。[Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/fight-aging-newsletter-october-26th-2026/)中有该试验的设计说明和当前阶段描述，可了解试验注册号（NCT07290244）并在临床试验数据库核查最新入组进展。
+还不能。3 人、56 天、没有对照组的数据不足以排除测量波动，也不能证明长期有效。[试验公告](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/)的重点是安全性和耐受性，疗效仍需后续更大规模研究验证。
