@@ -1,4 +1,5 @@
 ﻿{{ define "main" }}
+  {{- $reportKind := partial "custom/report-kind.html" . -}}
   <div class="bio-reader hx:mx-auto hx:flex hextra-max-page-width">
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
     {{ partial "toc.html" . }}
@@ -8,7 +9,7 @@
         {{ partial "custom/report-masthead.html" . }}
         {{ partial "custom/opportunity-source-warning.html" . }}
         {{ partial "custom/geo-citation-note.html" . }}
-        <div class="content">
+        <div class="content" {{ with $reportKind }}data-bio-report="{{ . }}"{{ end }}>
           {{ .Content }}
         </div>
         {{ partial "custom/ai-longevity-radar-entry.html" . }}

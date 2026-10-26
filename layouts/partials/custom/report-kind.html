@@ -1,0 +1,7 @@
+{{- $kind := "" -}}
+{{- if in (slice "opportunity" "project-opportunity") .Section -}}
+  {{- $kind = .Section -}}
+{{- else if or .IsHome (gt (len (findRE `^/(?:[a-z]{2}/)?\d{4}-\d{2}/\d{4}-\d{2}-\d{2}/$` .RelPermalink)) 0) -}}
+  {{- $kind = "daily" -}}
+{{- end -}}
+{{- return $kind -}}

@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{- $reportKind := partial "custom/report-kind.html" . -}}
   <div class="bio-reader hx:mx-auto hx:flex hextra-max-page-width">
     {{ partial "sidebar.html" (dict "context" .) }}
     {{ partial "toc.html" . }}
@@ -7,7 +8,11 @@
         {{ partial "breadcrumb.html" (dict "page" . "enable" true) }}
         <div class="content">
           {{ partial "custom/report-masthead.html" . }}
-          {{ .Content }}
+          {{ if $reportKind }}
+            <div data-bio-report="{{ $reportKind }}">{{ .Content }}</div>
+          {{ else }}
+            {{ .Content }}
+          {{ end }}
         </div>
         {{ if .IsHome }}
           {{ partial "custom/ai-opportunity-entry.html" . }}

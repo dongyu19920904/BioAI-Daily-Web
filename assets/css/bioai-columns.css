@@ -1,0 +1,66 @@
+/* Only report bodies opt into this layer; Hextra remains the renderer/theme. */
+.bio-reader :is([data-bio-report="daily"], [data-bio-report="opportunity"], [data-bio-report="project-opportunity"]) {
+  max-inline-size: 48rem;
+  min-inline-size: 0;
+  color: var(--bio-ink);
+  overflow-wrap: anywhere;
+}
+
+.bio-reader [data-bio-report] :is(ul, ol) {
+  margin-block: 0.8rem 1.4rem;
+  padding-inline-start: 1.5rem;
+}
+.bio-reader [data-bio-report] li { margin-block: 0.6rem; }
+.bio-reader [data-bio-report] li > :is(ul, ol) { margin-block: 0.4rem 0.8rem; }
+.bio-reader [data-bio-report] li > p { margin-block: 0.5rem; }
+.bio-reader [data-bio-report] li::marker { color: var(--bio-muted); }
+.bio-reader [data-bio-report] h3 { margin-block: 2rem 0.75rem; }
+.bio-reader [data-bio-report] blockquote {
+  margin-block: 1.25rem;
+  padding-inline: 1rem 0;
+  border-inline-start: 2px solid var(--bio-rule);
+  color: var(--bio-ink);
+}
+.bio-reader [data-bio-report] :is(table, pre, .katex-display, .MathJax_Display) {
+  max-inline-size: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+.bio-reader [data-bio-report] table {
+  display: block;
+  margin-block: 1.25rem;
+  border-collapse: collapse;
+  line-height: 1.7;
+}
+.bio-reader [data-bio-report] :is(th, td) {
+  min-inline-size: 8rem;
+  padding: 0.65rem 0.8rem;
+  border-color: var(--bio-rule);
+  vertical-align: top;
+  text-align: start;
+  overflow-wrap: normal;
+}
+.bio-reader [data-bio-report] th { color: var(--bio-heading); }
+.bio-reader [data-bio-report] .hextra-code-block { min-inline-size: 0; }
+.bio-reader [data-bio-report] pre,
+.bio-reader [data-bio-report] pre code {
+  white-space: pre;
+  overflow-wrap: normal;
+  word-break: normal;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+.bio-reader [data-bio-report="daily"] > h2:first-of-type + .hextra-code-block :is(pre, code):not([class*="language-"]) {
+  font: inherit;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.bio-reader [data-bio-report] :is(a, button, summary):focus-visible {
+  outline: 2px solid var(--bio-link);
+  outline-offset: 3px;
+}
+
+@media (max-width: 767px) {
+  .bio-reader [data-bio-report] :is(ul, ol) { padding-inline-start: 1.25rem; }
+  .bio-reader [data-bio-report] h3 { margin-block-start: 1.6rem; }
+  .bio-reader [data-bio-report] :is(th, td) { padding: 0.5rem 0.65rem; }
+}
