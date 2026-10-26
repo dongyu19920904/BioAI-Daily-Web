@@ -1,65 +1,107 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/26'
+title: AI生命延续学日报 2026/10/26
 breadcrumbs: false
-next: /2026-10/2026-10-26
-description: '2026-10-26 AI生命延续学日报：产后恢复窗口可能影响母体生物年龄与长期健康；地中海饮食可能通过提升线粒体微肽保护心脑；Life Biosciences 公布首个重编程疗法人体试验初步数据。聚焦来源、证据阶段和实际应用距离。'
+next: /en/2026-10/2026-10-26
+description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
+  biological age, lifespan interventions, and related tools and models.
 cascade:
   type: docs
 ---
-
-## **今日摘要**
+## **Today's Summary**
 
 ```
-产后恢复期生物年龄回落可能影响母体长期健康,但仅为观察关联未证实因果。
-低剂量阿司匹林在特定基因人群中与痴呆风险降低七成相关,需明确适用基因特征。
-两项均为观察性研究,样本量与随访时长未经充分报道,因果关系待验证。
+Early human trial data on cellular reprogramming shows preliminary signs of visual field improvement.
+A pig kidney recovered partial function after long-term cold storage, advancing organ preservation research.
+Human trial sample sizes are tiny, and the pig kidney study is not proof of successful human transplantation.
 ```
 
-## **🔥 今日焦点 TOP 9**
+## **🔥 Today's Top 10 Highlights**
 
-### 1. 产后恢复窗口可能影响母体生物年龄与长期健康
+### 1. Cell Reprogramming Trial Publishes First Human Data
 
-生育次数多与心血管疾病风险及寿命缩短存在关联,但在不同人群中结果并不一致。研究者利用生物年龄评估工具发现,怀孕会暂时升高生物年龄,而产后恢复可使其回归接近基线水平。生物年龄指身体生理状态反映的年龄,而非单纯生存年数。这一发现提示产后恢复期可能是影响母体长期健康的关键窗口,但目前只是观察关联,尚需验证恢复不良是否直接导致加速衰老,以及干预能否改善结果。研究细节待核查,[ScienceDaily 的报道](https://www.sciencedaily.com/releases/2026/10/261024222026.htm)中未提供样本量与具体追踪时长。
+Life Biosciences has released early human data for ER-100: 3 glaucoma patients observed through Day 56, with 2 showing signals of visual field improvement and no serious adverse events reported. The approach uses "epigenetic reprogramming" to adjust gene switches — helping damaged cells recover function without rewriting DNA. The [company announcement](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/) lays out the trial design; this Phase 1 trial is still ongoing, focused primarily on safety, with a small, uncontrolled sample that's not enough to confirm efficacy. 🔬
 
-### 2. 地中海饮食可能通过提升线粒体微肽保护心脑
+### 2. Pig Kidney Recovers Partial Function After Long-Term Cold Storage
 
-南加州大学研究团队发现,严格遵循地中海饮食的老年人体内两种线粒体产生的微肽——humanin 和 SHMOOSE 水平更高。线粒体是细胞内产生能量的结构,这两种微肽此前已被发现与抵御心血管疾病、阿尔茨海默病及年龄相关损伤有关。微肽是由少于 100 个氨基酸组成的小蛋白,因体积小曾被忽视,但近年发现它们在细胞信号传递中起重要作用。该研究显示饮食模式与这些保护性微肽水平相关,但目前只是观察性关联,尚未证明提高微肽水平直接带来健康改善,也未明确地中海饮食通过何种成分或机制影响微肽生成。具体数据[见 ScienceDaily 报道](https://www.sciencedaily.com/releases/2026/10/261023003337.htm)。
+Organ preservation isn't just about cooling things down — uniform rewarming without cracking is just as tricky. This [preprint](https://doi.org/10.64898/2026.10.07.756990) uses "nanowarming": tiny particles injected beforehand generate heat inside an electromagnetic field. Pig kidneys recovered partial function after cold storage and produced urine immediately upon transplantation, with one preserved for a full year. This is not proof of long-term survival or successful human transplantation; issues like cryoprotectant damage remain unsolved, and the study hasn't yet been peer-reviewed. 🧊
 
-### 3. Life Biosciences 公布首个重编程疗法人体试验初步数据
+### 3. Gut Microbiome Offers Clues to Chronic Inflammation
 
-Life Biosciences 报告了其重编程疗法 ER-100 在视神经病变患者中的首批人体数据。该疗法通过腺相关病毒向视网膜和视神经细胞递送三个 Yamanaka 因子(OCT4、SOX2、KLF4),仅在患者口服强力霉素期间表达,以重置细胞表观遗传状态而不引发去分化。3 名开角型青光眼或非动脉炎性前部缺血性视神经病变患者单次眼内注射后,在 56 天观察期内耐受良好,其中 2 人视野测试显示初步改善信号,至少 28% 测试点的光敏感度提升超过 4 分贝。未报告剂量限制性毒性或严重不良事件。这是首个重编程疗法的人体安全性与初步疗效数据,但样本量极小且观察期短,尚不能确定长期效果与更大人群中的表现。[公司公告](https://www.fightaging.org/archives/2026/10/life-biosciences-reports-initial-results-from-the-first-reprogramming-trial/)提供了试验设计细节。
+Same age, different inflammation levels — why? A study of 1,199 adults found that gut microbiome composition explains multiple inflammation markers better than age alone. The "microbiome" refers to the community of microorganisms living in your gut, and different combinations may correspond to different health states. [Fight Aging!'s writeup](https://www.fightaging.org/archives/2026/10/predicting-inflammation-and-disease-risk-with-gut-microbiome-composition/) breaks down the data; this is observational research and can't prove that changing your microbiome prevents disease. 🦠
 
-### 4. 脂质纳米颗粒 mRNA 技术可在体内生成 CAR-NK 细胞
+### 4. Immune Cells Temporarily Reprogrammed Inside Living Mice
 
-研究团队开发出靶向 NK 细胞的脂质纳米颗粒(LNP),可递送编码嵌合抗原受体(CAR)的 mRNA,在小鼠体内将约 80% 的 NK 细胞重编程为 CAR-NK 细胞。CAR 是人工设计的受体,能引导免疫细胞识别并摧毁携带特定抗原的靶标,如癌细胞或自身反应性 T 细胞。在黑色素瘤小鼠模型中,5 只接受治疗的小鼠中有 3 只完全缓解;在 T 细胞淋巴瘤人源化小鼠中,5 次注射后肿瘤被清除;在自身免疫性肝炎小鼠中,单次注射消除了攻击肝细胞的自身反应性 T 细胞并促进肝损伤愈合。与需要体外培养 CAR T 细胞的传统方法相比,体内重编程可大幅降低成本并提高可控性,但目前仅在小鼠中验证,人体安全性与有效性尚未确立。[Fight Aging! 报道](https://www.fightaging.org/archives/2026/10/creation-of-chimeric-antigen-receptor-natural-killer-cells-in-situ-via-messenger-rna-therapy/)提供了技术细节。
+Traditional cell therapy usually means removing immune cells, modifying them externally, then infusing them back. This study instead delivered mRNA directly inside living mice, giving NK cells — "natural killer cells" — a temporary ability to recognize diseased cells. In melanoma experiments, 3 out of 5 treated mice achieved complete remission. [MIT's research overview](https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013) walks through the delivery approach, though safety and efficacy in humans remain unknown. 💉
 
-### 5. 肠道菌群组成预测炎症与疾病风险优于年龄
+[![Schematic diagram of mRNA delivery to NK cells via lipid nanoparticles](https://news.mit.edu/sites/default/files/download/202610/MIT-CAR-NK-01-press.jpg "Schematic of the mRNA-to-NK-cell delivery research. Image: research team via MIT News; not a depiction of human clinical efficacy.")](https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013)
 
-丹麦 DanFunD 队列纳入 1199 名 20-72 岁成年人,研究者分析了配对的粪便菌群、30 种血浆细胞因子及 19 项生化与生理指标。结果显示,尽管年龄与 40% 的炎症细胞因子及多数生理变量相关,但肠道菌群组成对 97% 细胞因子和 84% 生理变量的方差解释力超过年龄。携带 Bacteroides 2 肠型的个体在成年早期就表现出促炎细胞因子升高和代谢不良特征,这种类似"炎症性衰老"的表型比其他肠型提前最多 37 年出现,且与多器官系统未来疾病风险增加 21% 相关(风险比 1.21),部分通过炎症细胞因子介导。高多样性肠型则与较低炎症和疾病风险相关。该研究是观察性的,肠型与炎症、疾病的因果关系尚未明确,且干预能否改变肠型并降低风险仍需验证。[Fight Aging! 报道](https://www.fightaging.org/archives/2026/10/predicting-inflammation-and-disease-risk-with-gut-microbiome-composition/)提供了研究来源。
+### 5. Naked Mole Rat Longevity Genes — Can They Be Lent to Mice?
 
-### 6. 外用尿石素 A 可改善皮肤线粒体功能并减轻老化表现
+Naked mole rats live remarkably long lives, but can their advantages be transferred to other animals? This [review article](https://www.fightaging.org/archives/2026/10/naked-mole-rats-versus-the-hallmarks-of-aging/) summarizes existing clues: when the nmrHAS2 gene — linked to hyaluronic acid synthesis — was introduced into mice, researchers observed reduced tumors and extended lifespan. Hyaluronic acid is a key tissue component; the focus here is its biological mechanism, not cosmetic use. These are still cross-species experiments and can't be extrapolated to humans. 🐭
 
-尿石素 A(UA)是肠道菌群代谢产物,已知口服可改善线粒体功能并减少炎症。研究者在二维、三维重建人体皮肤及离体人体皮肤外植体中测试外用 UA,发现其增强线粒体呼吸、激活线粒体自噬(mitophagy,即清除受损线粒体的过程)标志物、降低炎症介质和衰老相关标志物,并增加细胞外基质结构蛋白及表皮分化相关蛋白。在随机对照临床研究中,外用 UA 8 周后眼周皱纹深度减少,并减轻 UVB 诱导的红斑。皮肤转录组学分析支持细胞外基质和表皮发育程序上调,同时炎症和衰老相关信号下调。该研究显示外用 UA 可通过改善线粒体功能、减少衰老细胞负担和炎症来改善皮肤状态,但具体样本量、随访时长及长期效果尚需进一步数据。[Fight Aging! 报道](https://www.fightaging.org/archives/2026/10/topical-urolithin-a-to-improve-aged-skin-function/)提供了研究细节。
+### 6. Topical Urolithin A Gets Skin Research Data
 
-### 7. 裸鼹鼠衰老机制研究提示高分子量透明质酸可能延寿
+Urolithin A research centers on "mitophagy" — the process by which cells clear out damaged energy factories. A randomized controlled study reports that 8 weeks of topical application reduced periorbital wrinkle depth and UV-induced erythema. [Fight Aging!'s report](https://www.fightaging.org/archives/2026/10/topical-urolithin-a-to-improve-aged-skin-function/) also covers mechanistic observations from skin samples; surface-level skin changes don't equal whole-body aging reversal and can't be directly turned into personal use recommendations. 🧴
 
-裸鼹鼠寿命远超同体型啮齿动物,终生几乎不表现衰老相关功能下降,且对癌症有近乎完全的抵抗力。综述总结了裸鼹鼠在 14 项衰老标志上的差异调控,包括其衰老细胞仅表现轻微的衰老相关分泌表型(SASP),因此对组织功能破坏较小。作为概念验证,研究者将裸鼹鼠的高分子量透明质酸合成酶基因(nmrHAS2)引入小鼠,显著降低肿瘤发生率,延长中位和最大寿命,并改善多项健康寿命参数。另一例子是裸鼹鼠 cGAS 蛋白 C 端的四个特异性氨基酸突变,将这些突变引入人类 cGAS 可逆转其对 DNA 同源重组修复的抑制作用,在果蝇中转基因表达延长寿命,在老年小鼠中过表达可减轻多器官衰老表型。然而,裸鼹鼠长寿归因于多种机制,如何识别可转化机制并探索组合干预策略是未来关键方向。目前只在小鼠和果蝇中验证,人体效果未知。[Fight Aging! 报道](https://www.fightaging.org/archives/2026/10/naked-mole-rats-versus-the-hallmarks-of-aging/)总结了现有发现。
+### 7. Hearing Aid Use Associated With Lower Mortality Risk
 
-### 8. 微肽 PKM2 AP 通过降解 PKM2 抑制血管钙化
+The link between hearing and healthy longevity deserves study, but correlation isn't causation. A study pooling data from 13,851 people and validated in a separate cohort of 50,277 found that hearing aid users had a 9% lower all-cause mortality risk. The [research report](https://www.fightaging.org/archives/2026/10/hearing-aid-use-correlates-with-reduced-mortality-risk/) notes this may also reflect hearing aid users being more proactive about managing their health overall; observational data can't prove hearing aids themselves extend lifespan. 👂
 
-血管钙化是血管平滑肌细胞向成骨表型转化的主动病理过程,导致血管壁沉积磷酸钙晶体、失去弹性并增加心血管事件风险。研究者发现一种 40 个氨基酸的微肽 PKM2 AP 在慢性肾病相关血管钙化患者中高表达,定位于线粒体和细胞质,与糖酵解关键酶 PKM2 相互作用。PKM2 催化磷酸烯醇式丙酮酸转化为丙酮酸,直接调控乳酸生成,而乳酸积累已知促进血管平滑肌细胞合成表型转换和钙化。功能实验显示,体外和体内过表达 PKM2 AP 可减轻血管钙化进展。机制上,PKM2 AP 作为类似分子胶的因子,促进 E3 泛素连接酶 STUB1 招募到 PKM2,推动 PKM2 泛素化降解,从而抑制人主动脉血管平滑肌细胞中的有氧糖酵解和乳酸生成。小鼠体内给予 PKM2 AP 可缓解血管钙化表型。目前只在动物模型中验证,人体安全性与有效性未知。[Fight Aging! 报道](https://www.fightaging.org/archives/2026/10/a-micropeptide-that-inhibits-vascular-calcification-via-pkm2-degradation/)提供了研究来源。
+### 8. A Protein That Helps Old Mice Protect Their Memory
 
-### 9. 助听器使用与全因及心血管死亡风险降低相关
+Does the aging brain activate its own protective mechanisms? Researchers found that boosting PLA2G2F protein expression in the brains of older mice protected memory and reduced certain inflammation and lipid accumulation. The protein may help cells maintain lipid metabolism — essentially normal processing of fatty substances. [Fight Aging!'s report](https://www.fightaging.org/archives/2026/10/pla2g2f-is-protective-of-memory-function-in-the-aging-brain/) covers the experiments; this is still primarily animal and cell-level evidence and doesn't represent an established therapy for improving human memory. 🧠
 
-涵盖 13851 名参与者(平均 61.8 岁)的个体参与者数据荟萃分析显示,轻度(1.19)、中度(1.55)、中重度或更严重(1.56)听力损失与全因死亡风险递增相关,轻度(1.18)、中度(1.43)、中重度或更严重(1.30)听力损失也与心血管相关死亡风险增加相关。当前使用助听器与全因死亡风险降低 9%(0.91)和心血管相关死亡风险降低 15%(0.85)相关。一项纳入 50277 名成年人的复制研究证实了上述发现。可能的解释是(a)助听器使用者在其他方面也更注重健康管理,或(b)听力功能缺失已知加速神经退行性变,与心血管死亡存在功能性联系。该研究为观察性关联,未证明助听器直接导致死亡风险降低,且未明确获益机制。[Fight Aging! 报道](https://www.fightaging.org/archives/2026/10/hearing-aid-use-correlates-with-reduced-mortality-risk/)总结了研究结果。
+### 9. Alzheimer's Risk Gene Disrupts Neuronal Insulation
 
-## **⌘ 开源 TOP 项目**
+Why does APOE4 increase Alzheimer's risk? An MIT team found it interferes with the cell process that builds myelin — the insulating sheath around nerve fibers that helps signals travel. Restoring the relevant signaling improved myelin formation in both human cell models and mice. The [original institute release](https://picower.mit.edu/news/how-biggest-alzheimers-risk-gene-disrupts-process-insulating-neurons) shows microscope images and experimental methods, but this is a laboratory-level intervention lead, not yet evidence of human treatment. 🔭
 
-### pyaging：GPU 加速的衰老时钟 Python 工具集
+[![Microscopy comparison of APOE4 organoids before and after experimental intervention](https://picower.mit.edu/sites/default/files/styles/hero_1x_wide/public/Figure3H-wnt-akay-upscale.png?h=49a4395e&itok=5ChbLrHe "APOE4 organoid microscopy: right side shows the GSK3b inhibition experimental group. Image: MIT Picower Institute; not a patient before/after comparison.")](https://picower.mit.edu/news/how-biggest-alzheimers-risk-gene-disrupts-process-insulating-neurons)
 
-[pyaging](https://github.com/lucascamillomd/pyaging) 是一个 Python 工具包,汇集了多种基于不同生物标志物(如 DNA 甲基化、血液指标)的衰老时钟模型,并利用 GPU 加速计算。衰老时钟通过机器学习从大量生物数据中识别与年龄相关的模式,用于估算生物年龄——反映身体生理状态的年龄,而非单纯生存年数。该工具适合研究者快速测试和比较不同时钟模型,但需注意时钟结果受训练数据和算法影响,面对新的抗衰老干预时可能高估、低估或无法反映真实生物学变化,需结合功能性健康指标综合判断。项目有 132 个 Stars,最近活跃于 2026 年 10 月 18 日。许可证和详细使用文档可[查看仓库](https://github.com/lucascamillomd/pyaging)了解。
+### 10. A Younger Aging Clock Score Doesn't Mean You've Actually Reversed Aging
 
-### paradigma：帕金森病数字生物标志物工具箱
+"Aging clocks" estimate biological age from chemical markers on DNA and other data, but different clocks can give different answers. This [research commentary](https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted/) discusses how to improve reliability: don't cherry-pick one favorable number — check whether multiple validated clocks move in the same direction. Even when clocks agree, you still need to pair that with real functional and health outcomes. One test score alone is not a "mission accomplished" for reversing aging. ⏱️
 
-[paradigma](https://github.com/biomarkersParkinson/paradigma) 是针对帕金森病数字生物标志物的工具箱。数字生物标志物指通过可穿戴设备、传感器或其他数字方式采集的生理或行为数据,用于疾病监测或诊断辅助。帕金森病患者的运动功能、步态和震颤等特征可通过传感器量化,为疾病进展评估和药物疗效监测提供客观依据。该项目提供处理和分析此类数据的代码框架,适合研究帕金森病或开发相关监测工具的团队。项目有 18 个 Stars,最近活跃于 2026 年 10 月 23 日。[项目仓库](https://github.com/biomarkersParkinson/paradigma)提供了工具说明,但具体功能模块、输入输出格式及运行依赖需查看文档确认。
+---
+
+## **⚡ Product & Feature Updates**
+
+### Deep Learning Attempts to Infer Tumor Characteristics From Brain Imaging
+
+HER2 is a critical biomarker for breast cancer treatment decisions, normally requiring pathological testing. This study trained a model on MRI data from 135 breast cancer brain metastasis patients to explore whether imaging could provide clues; with tumor segmentation added, the discrimination metric AUC reached 0.692 — still at an early exploratory stage. The [paper index and abstract](https://papers.cool/arxiv/2610.32774) detail the methodology; this can't be used to replace pathological testing with imaging. 🖥️
+
+---
+
+## **🧪 Frontier Research**
+
+### How the Aging Liver Loses Its Division of Labor
+
+Different zones of the liver handle different metabolic tasks, and aging may scramble that arrangement. Using "spatial transcriptomics," researchers mapped gene activity across mouse livers and observed that from 18 months of age onward, the functional markers in certain zones were already blurring — accompanied by accumulation of senescent cells. The [research report](https://www.fightaging.org/archives/2026/10/cellular-senescence-in-liver-aging/) covers these spatial changes; results come from mice and can't be directly applied to human liver aging. 🫀
+
+---
+
+## **◎ Industry Shifts & Personal Impact**
+
+### Biotech Funding Rebounds, But Early-Stage Projects Still Under Pressure
+
+According to [GEN's funding report](https://www.genengnews.com/topics/translational-medicine/stockwatch-investment-banker-talks-u-s-chinese-deals-ipos-and-a-tough-climate-for-startups-seeking-capital/), biotech IPOs in 2026 to date total 27 deals raising $7.776 billion. An IPO is an initial public offering, but a warming capital market doesn't mean easy fundraising for everyone: money is still skewing toward clinical-stage companies, while early discovery and preclinical projects are having a rougher time. This reflects a shift in the funding environment — not proof that any particular longevity technology has been validated. 📈
+
+---
+
+## **⌘ Top Open Source Projects**
+
+### sisinflab/STABLE-BAG: Explaining What Drives Brain Age Gap
+
+[STABLE-BAG](https://github.com/sisinflab/STABLE-BAG) is built for neuroimaging research, aiming to explain *which features* drive a "brain age gap" estimate rather than just outputting a single number. It addresses the dependence of SHAP explanations on the reference population, trying to make comparisons more stable. Best suited for researchers with relevant datasets and a Python background; the repo includes synthetic data examples. Estimated gap values are not personal diagnoses and have not been independently validated. 🧩
+
+### Blazeiscoding/sofit: Health Tracking App for Wearables
+
+[sofit](https://github.com/Blazeiscoding/sofit) is an early-stage Expo/React Native app that, per its README, aggregates sleep, exercise load, and recovery data to estimate biological age. It's a good reference for developers exploring how to build on wearable data; supported devices and code details are in the repo. Features and accuracy have no independent evaluation, and the "biological age" figure is a model estimate, not a medical diagnosis. ⌚
+
+---
+
+## **❓ Related Questions**
+
+### Can Early Visual Field Improvement Signals Indicate Treatment Efficacy?
+
+Not yet. Data from 3 patients, over 56 days, with no control group isn't enough to rule out measurement fluctuation or confirm long-term effectiveness. The [trial announcement](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/) is focused on safety and tolerability; efficacy still needs validation through larger follow-up studies. 🔍
