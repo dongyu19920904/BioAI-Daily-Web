@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/26'
+title: 'AI生命延续学日报 2026/10/27'
 breadcrumbs: false
-next: /2026-10/2026-10-26
-description: '2026-10-26 AI生命延续学日报：Life Biosciences 公布首个表观遗传重编程人体试验初步数据；猪肾在 -150°C 保存一年后移植成功并产生尿液；肠道菌群构成对炎症水平的预测力强于年龄本身。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-10/2026-10-27
+description: '2026-10-27 AI生命延续学日报：皮下注射 RNAi 药物让脑脊液中的 tau 蛋白降低 73%；英国多读一年书，近 50 年后痴呆诊断更少；六基因评分系统预测急性髓系白血病生存率。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,97 +11,107 @@ cascade:
 ## **今日摘要**
 
 ```
-细胞重编程的早期人体试验公布数据，出现初步视野改善信号。
-猪肾经长期低温保存后恢复部分功能，器官储存研究又进一步。
-人体试验样本极小，猪肾研究也还不能代表人体移植成功。
+一款皮下注射药物在早期人体试验中将脑脊液 tau 蛋白降低约七成。
+英国一项准自然实验发现多受一年教育与数十年后痴呆率降低存在关联。
+两项结果均未在患者中验证因果效益，前者仅来自健康志愿者，后者仍属观察性研究。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 细胞重编程试验公布首批人体数据
+### 1. 皮下注射 RNAi 药物让脑脊液中的 tau 蛋白降低 73%
 
-Life Biosciences 公布 ER-100 的早期人体数据：3 名青光眼患者观察至第 56 天，2 人出现视野改善信号，未报告严重不良事件。它尝试用“表观遗传重编程”调整基因开关，让受损细胞恢复功能，而不是改写 DNA。[公司公告](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/)列出了试验设计；这项一期试验仍在进行，主要看安全性，样本小且无对照组，不能据此确认疗效。
+Arrowhead 制药公布 ARO-MAPT 的一期/二期早期数据：这是一款通过"RNA 干扰"原理工作的药物，简单说就是在基因层面关掉细胞产生 tau 蛋白的开关。tau 是阿尔茨海默病中异常堆积的蛋白质，研究者用脑脊液（包裹大脑和脊髓的液体）来判断药物是否穿过了血脑屏障。据[媒体报道](https://longevity.technology/news/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73/)，最高剂量组在给药结束 90 天后 tau 仍平均降低 73%，最高单人降幅达 85%，药物耐受性良好。目前数据来自健康志愿者，tau 下降是否能让阿尔茨海默病患者思维更清晰、病情更缓慢，需等 2027 年患者队列数据才能回答。
 
-### 2. 猪肾长期冷存后恢复部分功能
+[![来源配图：Arrowhead’s shot under the skin cut spinal fluid tau by 73%](https://longevity.technology/wp-content/uploads/2026/10/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73/)
 
-器官保存的难点不只是降温，还包括如何均匀复温、避免开裂。这项[预印本](https://doi.org/10.64898/2026.10.07.756990)用“纳米复温”：让预先注入的微小颗粒在电磁场中产热。猪肾在低温保存后恢复部分功能，移植时立即产生尿液，其中一只保存长达一年。这不是长期存活或人体移植成功的证明；防冻剂损伤等问题仍待解决，研究也尚未经过同行评审。
+---
 
-### 3. 肠道菌群为慢性炎症提供线索
+### 2. 英国多读一年书，近 50 年后痴呆诊断更少
 
-同样的年龄，为什么有人炎症水平更高？一项对 1199 名成人的研究发现，肠道菌群构成对多项炎症指标的解释力强于年龄本身。“菌群”就是生活在肠道中的微生物群体，不同组合可能对应不同的身体状态。[Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/predicting-inflammation-and-disease-risk-with-gut-microbiome-composition/)梳理了数据；这是观察性研究，不能证明改变菌群就能防病。
+一项利用英国立法"自然实验"的研究发现，被法律强制多留校一年的青少年，近半个世纪后痴呆诊断率更低。这类研究的优势在于多读书是被法律"随机"分配的，而非学生主动选择，因此比普通的观察研究更接近因果推断。具体样本量、效应大小和使用的痴呆诊断数据库待核查，据 [News-Medical 报道](https://www.news-medical.net/news/20261026/Additional-education-protects-people-with-high-genetic-risk-of-dementia.aspx)该研究还关注了携带痴呆高遗传风险的人群是否同样受益。该研究属于观察性设计，还不能排除其他伴随因素的影响。
 
-### 4. 在小鼠体内临时改造免疫细胞
+[![来源配图：Additional education protects people with high genetic risk of dementia](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)](https://www.news-medical.net/news/20261026/Additional-education-protects-people-with-high-genetic-risk-of-dementia.aspx)
 
-传统细胞疗法常要把免疫细胞取出改造，再输回体内。这次研究尝试直接在小鼠体内递送 mRNA，让 NK 细胞这种“自然杀伤细胞”临时获得识别病变细胞的能力。黑色素瘤实验中，接受治疗的 5 只小鼠有 3 只完全缓解。[MIT 的研究介绍](https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013)展示了递送思路，但人体中的安全性和效果还未知。
+---
 
-[![脂质纳米颗粒向 NK 细胞递送 mRNA 的示意图](https://news.mit.edu/sites/default/files/download/202610/MIT-CAR-NK-01-press.jpg "向 NK 细胞递送 mRNA 的研究示意图。图片：研究团队，经 MIT News 发布；不是人体疗效图。")](https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013)
+### 3. 六基因评分系统预测急性髓系白血病生存率
 
-### 5. 裸鼹鼠的长寿基因能否借给小鼠
+西班牙基因组调控中心（CRG）在《Science Advances》发表研究，识别出六个基因的组合活跃度——命名为 PHFScore——能将急性髓系白血病（AML，一种血液癌症）患者分成生存预后截然不同的两组。其中 PHF19 是研究起点，该基因活性低的患者不仅生存时间更短，化疗后缓解率也更低（最低组缓解率低于 50%，最高组可达 85%）。这一评分仅需检测骨髓样本中六个基因的活性，比全基因组测序更简便。据[GEN 报道](https://www.genengnews.com/topics/cancer/predicting-leukemia-survival-may-be-aided-by-six-gene-scoring-system/)，研究通过小鼠与人类患者数据交叉验证，但目前仍需前瞻性临床研究确认其实际预后价值。
 
-裸鼹鼠很长寿，但它的优势能不能转移给其他动物？这篇[综述报道](https://www.fightaging.org/archives/2026/10/naked-mole-rats-versus-the-hallmarks-of-aging/)梳理了已有线索：把与透明质酸合成有关的 nmrHAS2 基因引入小鼠后，研究者观察到肿瘤减少、寿命延长。透明质酸是组织中的一种重要成分，这里关注的是其生物学机制，不是美容用途。这些仍是跨物种实验，不能推断同样方法对人有效。
+![脾脏组织：左为缺少 PHF19 基因的小鼠，右为正常小鼠，可见细胞分化过程发生改变](https://www.genengnews.com/wp-content/uploads/2026/10/Low-Res_Ph19-normal-left-vs-KO-right-300x238.jpg)
 
-### 6. 外用乌石素 A 有了皮肤研究数据
+---
 
-乌石素 A 研究关注“线粒体自噬”，也就是细胞清理受损能量工厂的过程。一项随机对照研究报告，外用 8 周后，眼周皱纹深度和紫外线引起的红斑有所改善。[Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/topical-urolithin-a-to-improve-aged-skin-function/)还介绍了皮肤样本中的机制观察；皮肤表面的变化不等于全身衰老被逆转，也不能直接推成个人使用建议。
+### 4. Biograph：43% 无症状成年人存在冠状动脉周围炎症
 
-### 7. 助听器与较低死亡风险有关联
+Biograph 完成一项美国研究，对无症状、传统风险评估为低风险的成年人使用 CaRi-Heart AI 技术分析冠状动脉 CT 扫描。冠状动脉周围炎症（perivascular inflammation）是指心脏血管外围组织的慢性炎症状态，此前难以无创检测。结果显示 42.9% 的参与者有升高的冠状动脉炎症，约 47% 没有可见冠脉斑块的人也有炎症信号；常规血液指标（包括 hs-CRP，即反映全身炎症的高敏 C 反应蛋白）均未能识别这些人。据[媒体报道](https://longevity.technology/news/biograph-finds-coronary-inflammation-in-43-of-asymptomatic-adults/)，公司承认该方法的预后价值和临床获益仍需进一步研究验证，CaRi-Heart 已获 FDA De Novo 上市授权。
 
-听力与健康寿命的联系值得研究，但不能把相关性当疗效。一项合并 13851 人数据、并在另一个 50277 人队列中验证的研究发现，使用助听器者的全因死亡风险低 9%。[研究报道](https://www.fightaging.org/archives/2026/10/hearing-aid-use-correlates-with-reduced-mortality-risk/)提醒，这可能也与使用者更积极管理健康有关；观察性数据无法证明助听器本身延长了寿命。
+---
 
-### 8. 一种蛋白帮助老年小鼠保护记忆
+### 5. 衰老监管瓶颈：单病种审批框架拖慢多靶点疗法
 
-大脑变老时，是否也会启动保护机制？研究者发现，提高老年小鼠脑内 PLA2G2F 蛋白的表达，可以保护记忆，并减少部分炎症和脂质堆积。它可能帮助细胞维持脂质代谢，也就是正常处理脂肪类物质。[Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/pla2g2f-is-protective-of-memory-function-in-the-aging-brain/)介绍了实验；这仍主要是动物和细胞证据，不代表已有改善人体记忆的疗法。
+Lifespan.io 发布政策分析文章，指出当前药物监管框架仍以"一种病对应一条审批通道"为默认设计，而以细胞重编程、衰老标志清除为代表的新疗法天然可同时针对多种年龄相关疾病的共同上游原因。这意味着每扩展一个适应症就几乎需要重新递交一套临床数据包，大幅增加时间和费用。文章指出 FDA 已将衰老与长寿列为 2027 年监管科学优先领域，日本 PMD Act 下的条件性批准已在 iPS 细胞产品上实现先例；据[Lifespan.io 分析文章](https://lifespan.io/the-regulatory-bottleneck-in-aging-biology/)，提议中的"多疾病治疗指定"框架（MDTD）仍需立法纳入才能落地。
 
-### 9. 阿尔茨海默病风险基因影响神经绝缘层
+[![来源配图：The Regulatory Bottleneck in Aging Biology](https://lifespan.io/wp-content/uploads/2026/10/Regulatory-Bottleneck-1-262x187.png)](https://lifespan.io/the-regulatory-bottleneck-in-aging-biology/)
 
-APOE4 为什么会增加阿尔茨海默病风险？MIT 团队发现，它会干扰细胞制造髓鞘的过程；髓鞘就像神经纤维外的绝缘层，帮助信号传递。恢复相关信号后，人类细胞模型和小鼠中的髓鞘形成有所改善。[研究机构原文](https://picower.mit.edu/news/how-biggest-alzheimers-risk-gene-disrupts-process-insulating-neurons)展示了显微图和实验方法，但这只是实验室中的干预线索，尚非人体治疗证据。
+---
 
-[![APOE4 类器官在实验干预前后的显微图对比](https://picower.mit.edu/sites/default/files/styles/hero_1x_wide/public/Figure3H-wnt-akay-upscale.png?h=49a4395e&itok=5ChbLrHe "APOE4 类器官的显微图：右侧为 GSK3b 抑制实验组。图片：MIT Picower Institute；不是患者治疗前后对比。")](https://picower.mit.edu/news/how-biggest-alzheimers-risk-gene-disrupts-process-insulating-neurons)
+### 6. Beacon 收购家用睡眠检测公司，布局居家脑电波分析
 
-### 10. 衰老时钟变年轻不等于真的逆龄
+Beacon Biosignals 收购覆盖全美 50 州的家用睡眠检测服务商 Snap Diagnostics，合并后患者覆盖规模超过翻倍，计划于 2027 年向初级医疗和远程医疗渠道推广居家 EEG（脑电图）睡眠检测。EEG 直接记录大脑电活动，比传统家用睡眠测试（通常仅测呼吸和血氧）能提供更完整的睡眠分期信息。Beacon 的 Waveband 头带已获 FDA 510(k)许可，据[媒体报道](https://longevity.technology/news/beacon-biosignals-acquires-snap-diagnostics-for-home-eeg-sleep-testing/)，其平台基于数百万小时 EEG 训练的基础模型生成脑健康生物标志物，但居家 EEG 数据质量与实验室标准的差距仍是临床推广的关键待验证点。
 
-“衰老时钟”会根据 DNA 上的化学标记等数据估算生物年龄，但不同的时钟可能给出不同结论。这篇[研究解读](https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted/)讨论了怎样提高判断可靠性：不能只挑一个变年轻的数字，还要看可靠时钟是否同向变化。即便多个时钟一致，也要结合实际功能与健康结果，不能单凭检测数字宣布“逆龄成功”。
+---
+
+### 7. 糖尿病真实世界数据：替泽帕肽血糖达标率约为司美格鲁肽两倍
+
+在英国初级医疗病历库的回顾性研究中，12 个月内 HbA1c（反映过去几个月平均血糖水平的指标）降至 6.5% 以下的比例：替泽帕肽组 46.3%，注射版司美格鲁肽组 20.6%；体重下降 15% 以上的比例：替泽帕肽 24.1%，司美格鲁肽 9.1%。替泽帕肽（Mounjaro）同时激活两种肠道激素受体，可能是其效果更强的原因，但研究为回顾性设计，研究者用统计匹配方法尽量平衡了两组患者的基线差异。据[媒体报道](https://longevity.technology/news/mounjaro-tops-ozempic-in-real-world-diabetes-data/)，报告未给出总入组人数，也未说明完成 12 个月随访的比例，长期效益仍需更多数据。
+
+---
+
+### 8. 脑免疫细胞衰老与脂质代谢失调
+
+小胶质细胞（microglia）是大脑的免疫卫士，负责清除细胞碎片和维护神经网络。一篇开放获取综述在[Fight Aging!](https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia/)讨论了"脂质代谢失调"如何驱动小胶质细胞随年龄变得过度炎症化——脂质是细胞膜和信号分子的原料，代谢失调时细胞内会积累多余脂质液滴，干扰溶酶体（细胞的垃圾处理站）正常工作。APOE 基因变异是已知的阿尔茨海默病风险因素，该综述指出其与脂质代谢的关联值得深入研究，但目前尚无针对这一具体通路的有效干预手段经过人体验证。
+
+---
+
+### 9. 口服药物使老年大鼠 NREM 深度睡眠增加约 1.5–2 小时
+
+临床前生物制药公司 Carnyx Therapeutics 公布候选药物 CNYX-005 的大鼠实验数据：老年大鼠给药后总睡眠时间比对照组多约 1.5 至 2 小时，增加的主要是 NREM 睡眠（即包含深度恢复阶段的非快速眼动睡眠）。NREM 深度睡眠随年龄减少被认为与生长激素分泌和组织修复减少相关，Carnyx 的研究兴趣正在于此。据[媒体报道](https://longevity.technology/news/carnyxs-sleep-candidate-adds-1-5-2-hours-in-rats/)，公告未披露使用动物数量和给药剂量，公司也未给出进入人体试验的时间表；大鼠睡眠结构与人类差异显著，目前结果尚不能推断对人的效果。
+
+---
+
+### 10. XPRIZE Healthspan 1.01 亿美元竞赛：测量标准比谁赢更关键
+
+XPRIZE Healthspan 已从约 800 支报名队伍中筛出 10 支进入决赛，每队获 100 万美元不限用途资金和价值约 200-250 万美元的共享检测基础设施。竞赛评判负责人、UCSF 荣休教授 Steven Cummings 在播客中坦言，一年期试验尚不足以支撑监管对话："我们现在有没有足够证据支持基于功能的监管对话？没有。"竞赛统一测量肌肉、认知和免疫三个维度的功能变化，真正的价值在于积累"十年典型衰退"参考数据。据[媒体报道](https://longevity.technology/news/the-101-million-question-isnt-who-wins/)，决赛团队方案从基因疗法到运动程序均有，获得"规模化可及性"讨论的评委认可是另一关注焦点。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### 深度学习尝试从脑部影像判断肿瘤特征
+### FDA 下调激素替代疗法风险警告，Longevitix 主张全周期女性临床系统
 
-HER2 是影响乳腺癌治疗选择的重要标志物，通常需要病理检测。这项研究用 135 名乳腺癌脑转移患者的 MRI 训练模型，探索影像能否提供线索；加入肿瘤分割后，区分能力指标 AUC 为 0.692，仍处于初步探索阶段。[论文索引与摘要](https://papers.cool/arxiv/2610.32774)列出了方法，不能据此用影像替代病理检测。
+今年 2 月，美国 FDA 批准 6 款更年期激素替代疗法的说明书更改，移除了心血管病、乳腺癌和痴呆等方面的黑框警告，29 家公司按 FDA 要求提交了修改。黑框警告是 FDA 最高级别的安全提示，此次调整并非疗效获批，而是对现有证据的重新定性。医疗 AI 平台 Longevitix 以此为背景指出，女性临床系统长期缺乏"从生命阶段出发"的整合设计；该平台以生殖衰老轨迹作为临床背景，覆盖心血管、代谢、认知等 15 个器官系统，据[媒体报道](https://longevity.technology/news/womens-health-built-in-rather-than-bolted-on/)，所有建议须经医生审核方才呈现给患者，软件能否真正改变临床决策质量仍待实际评估。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 衰老肝脏的细胞分工如何变乱
+### 新生骨细胞如何在骨基质中存活，目前有新发现
 
-肝脏不同区域各有代谢分工，衰老可能打乱这种安排。研究者用“空间转录组”绘制小鼠肝脏的基因活动地图，观察到从 18 月龄起，部分区域的分工标记已变得模糊，并与衰老细胞的聚集相伴。[研究报道](https://www.fightaging.org/archives/2026/10/cellular-senescence-in-liver-aging/)介绍了这些空间变化；结果来自小鼠，不能直接解释人体肝脏的衰老过程。
+骨骼中的骨细胞（osteocyte）负责维持骨骼强度，但刚形成的骨细胞如何在骨基质中存活一直不明确。据 [News-Medical 报道](https://www.news-medical.net/news/20261026/Researchers-discover-how-faulty-matrix-structure-leads-to-cell-death-in-newly-formed-bone.aspx)，有研究发现骨基质结构缺陷会导致新生骨细胞死亡，这一发现或与骨质疏松机制相关。具体使用的细胞或动物模型、样本量及发表期刊待核查；目前仅有标题和摘要级别信息，实验细节和结论边界需查阅原文确认。
 
 ---
 
 ## **◎ 行业变化与个人影响**
 
-### 生物技术融资回暖，早期项目仍承压
+### 非洲制药主权缺口：南非初创公司以低成本重组蛋白突破瓶颈
 
-据 [GEN 的融资报道](https://www.genengnews.com/topics/translational-medicine/stockwatch-investment-banker-talks-u-s-chinese-deals-ipos-and-a-tough-climate-for-startups-seeking-capital/)，2026 年迄今生物技术企业 IPO 共 27 笔，募资 77.76 亿美元。IPO 就是首次公开募股，但资本市场回暖不代表所有公司都容易融资：资金仍偏向临床阶段，早期发现和临床前项目处境较难。这是融资环境变化，不是某项延寿技术已有效的证明。
-
----
-
-## **⌘ 开源 TOP 项目**
-
-### sisinflab/STABLE-BAG：解释脑年龄差来自哪里
-
-[STABLE-BAG](https://github.com/sisinflab/STABLE-BAG) 面向神经影像研究，尝试解释“脑年龄差”由哪些特征驱动，而不只给出一个估算数字。它关注 SHAP 解释对参考人群的依赖，尽量让比较更稳定。适合有相关数据和 Python 基础的研究者，仓库提供合成数据示例；估算差值不能当作个人诊断，也不代表已独立验证。
-
-### Blazeiscoding/sofit：可穿戴设备的健康追踪应用
-
-[sofit](https://github.com/Blazeiscoding/sofit) 是一个早期的 Expo/React Native 应用，项目自述可汇总睡眠、运动负荷、恢复状态等数据，并估算生物年龄。它适合开发者了解可穿戴数据的应用方式，具体支持设备和代码可在仓库查看。功能与准确性尚无独立评估，“生物年龄”也只是模型估算，不是疾病诊断。
+非洲目前进口 99% 的常规疫苗和 70–90% 的生物药，新冠疫情中非洲是最后获得疫苗的地区之一。南非初创公司 Immobazyme 获得 290 万美元总融资，核心技术是"酶固定化"——把催化反应的酶附着在固体基质上重复使用，而非一次性消耗，从而降低重组蛋白和生长因子的生产成本。据 [GEN 报道](https://www.genengnews.com/topics/drug-discovery/south-african-labs-strive-for-africas-biopharma-sovereignty/)，该公司目前专注于监管门槛较低的营养品、食品和农业生物技术作为近期商业切入点，GMP 级生物制剂本地生产目标设定在 2030 年代末；非洲缺乏 GMP 生物制造商且风险资本稀缺，短期内结构性差距仍难改变。
 
 ---
 
 ## **❓ 相关问题**
 
-### 早期视野改善信号能说明疗法有效吗？
+### ARO-MAPT 降低了 tau 蛋白，这是否意味着阿尔茨海默病有了有效治疗？
 
-还不能。3 人、56 天、没有对照组的数据不足以排除测量波动，也不能证明长期有效。[试验公告](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/)的重点是安全性和耐受性，疗效仍需后续更大规模研究验证。
+还不能这样说。目前的数据来自健康志愿者，证明的是药物能穿过血脑屏障并在基因层面减少 tau 蛋白产生。tau 蛋白水平下降是否会让阿尔茨海默病患者的认知功能下降更慢，需要在患者身上做更长时间的对照试验才能回答。Arrowhead 正在入组早期阿尔茨海默病患者，预计 2027 年有更新数据，可参考[公司官方公告](https://arrowheadpharma.com/en-us/newsroom/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a)了解试验设计细节。
