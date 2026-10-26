@@ -4,47 +4,48 @@ type: about
 sidebar:
   exclude: true
 ---
-## 🏠 About AI Longevity Daily
 
-> **Your daily hub for AI + Longevity / Life Extension / Aging Research**
+## 🏠 关于 AI生命延续学日报
 
-AI Longevity Daily is a daily newsletter platform laser-focused on the intersection of AI and longevity / life extension / aging / biological age / rejuvenation. It's built to help investors, product managers, founders, and students stay on top of the latest developments in this niche field — faster and smarter.
+> **AI + 长寿 / 延寿 / 衰老研究的每日资讯站**
 
-### 🎯 What We're About
+AI生命延续学日报是一个专注于 AI + 长寿 / 延寿 / 衰老 / 生物年龄 / 年轻化 交叉方向的日报平台，致力于帮助投资人、产品经理、创业者和学生更高效地了解这个细分领域的最新动态。
 
-- **Topic**: AI Longevity Science — covering longevity, life extension, aging, biological age, and rejuvenation
-- **Audience**: Investors, product managers, founders, and students interested in AI + longevity / aging research
-- **Vibe**: Professional but approachable — like getting the scoop from a knowledgeable friend in the industry
+### 🎯 我们的定位
 
-### ⭐ What We Cover
+- **主题**：AI生命延续学，聚焦长寿、延寿、衰老、生物年龄与年轻化
+- **目标用户**：对 AI+长寿 / 衰老研究感兴趣的投资人、产品经理、创业者、学生
+- **风格**：专业但亲切，像懂行的朋友分享行业动态
 
-Every day, we auto-aggregate the freshest updates from the AI Longevity Science space:
+### ⭐ 我们的内容
 
-#### 🧬 Core Coverage Areas
+每日自动汇总 AI生命延续学 领域的最新动态：
 
-- **🧬 Longevity Research**: Healthspan, lifespan extension, longevity biology
-- **🕰️ Aging Mechanisms**: Cellular senescence, mitochondria, autophagy, telomeres, epigenetic clocks
-- **💊 Life Extension Interventions**: Anti-aging drugs, senolytic therapies, biological age interventions, rejuvenation strategies
-- **🤖 AI-Driven Drug Discovery for Longevity**: Drug screening, molecular generation, target prediction, platform models
-- **📊 Biological Age & Biomarkers**: Biological age clocks, age-related biomarkers, aging assessment tools
-- **🔬 Relevant Tools & Platforms**: Data platforms, models, and open-source tools serving longevity / aging research
+#### 🧬 核心覆盖领域
 
-#### 📡 Content Sources
+- **🧬 长寿研究**：健康寿命、寿命提升、长寿生物学
+- **🕰️ 衰老机制**：细胞衰老、线粒体、自噬、端粒、表观遗传时钟
+- **💊 延寿干预**：抗衰药物、衰老细胞清除、生物年龄干预、年轻化策略
+- **🤖 AI 长寿药物研发**：药物筛选、分子生成、靶点预测、平台模型
+- **📊 生物年龄与标志物**：生物年龄时钟、年龄相关生物标志物、衰老评估
+- **🔬 相关工具与平台**：为长寿 / 衰老研究服务的数据平台、模型和开源工具
 
-- 🔥 Hot industry news
-- 📦 Open-source project discoveries
-- 📄 Cutting-edge academic papers
-- 💬 Expert opinions from industry insiders
-- 🚀 Product & feature updates
+#### 📡 资讯来源
 
-All content is automatically scraped, generated, and published by **CloudFlare Workers + AI** — keeping things timely and comprehensive.
+- 🔥 行业热点新闻
+- 📦 开源项目发现
+- 📄 前沿学术论文
+- 💬 行业专家观点
+- 🚀 产品功能更新
 
-### 🔗 Get in Touch
+所有内容由 **CloudFlare Workers + AI** 自动抓取、生成、发布，确保及时、全面。
 
-- **Website**: [https://news.aibioo.cn](https://news.aibioo.cn)
-- **Email**: dongyu199209@outlook.com
-- **WeChat**: prompt2333
+### 🔗 联系我们
+
+- **网站**：[https://news.aibioo.cn](https://news.aibioo.cn)
+- **邮箱**：dongyu199209@outlook.com
+- **微信**：prompt2333
 
 ---
 
-**AI Longevity Daily — your fastest way to make sense of the latest breakthroughs in AI + longevity / life extension / aging research. 🧬✨**
+**AI生命延续学日报，让你更快看懂 AI + 长寿 / 延寿 / 衰老研究的最新进展 🧬✨**
