@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/27'
+title: 'AI生命延续学日报 2026/10/28'
 breadcrumbs: false
-next: /2026-10/2026-10-27
-description: '2026-10-27 AI生命延续学日报：皮下注射 RNAi 药物使阿尔茨海默相关蛋白降低 73%；六基因评分系统预测白血病患者存活差异；教育多一年，数十年后痴呆风险下降。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-10/2026-10-28
+description: '2026-10-28 AI生命延续学日报：帕金森细胞疗法一针增加每天五小时"正常时间"；表观遗传重编程首次人体试验：青光眼患者出现视野改善信号；停用减重针后一次性肠道手术能否守住减重成果。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,107 +11,101 @@ cascade:
 ## **今日摘要**
 
 ```
-早期人体试验中一款在研药使阿尔茨海默相关蛋白降低超七成
-观察性研究发现额外受教育年限与晚年痴呆风险下降存在关联
-该药结果仅来自健康志愿者，不等于患者疗效
+帕金森早期人体试验单次细胞注射后患者每天多出约五小时症状受控时间。
+表观遗传重编程首次人体试验中三名青光眼患者耐受良好，两人出现视野改善信号。
+两项试验均为无对照组的极小样本，观察信号不能视为疗效确认。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 皮下注射 RNAi 药物使阿尔茨海默相关蛋白降低 73%
+### 1. 帕金森细胞疗法一针增加每天五小时"正常时间"
 
-Arrowhead Pharmaceuticals 在 10 月 14 日公布了 ARO-MAPT 的 1/2a 期中期数据：这款可皮下注射的 RNA 干扰（RNAi，通过"关掉"特定基因让细胞少产生对应蛋白的技术）药物，针对产生 tau 蛋白的 MAPT 基因。Tau 是阿尔茨海默症患者脑中异常堆积的关键蛋白。研究人员通过测量包围脑和脊髓的脑脊液来观察药效：最高剂量组健康志愿者在末次给药后 90 天时，脑脊液 tau 平均下降 73%，最高单人达 85%，提示三个月给药一次可能足够。据 [Longevity.Technology 的报道](https://longevity.technology/news/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73/)，目前数据仅来自健康志愿者，尚无证据说明此举能改善阿尔茨海默患者的认知或延缓病情进展，患者队列数据预计 2027 年才会公布。
+XellSmart 的 XS411 是一种由诱导多能干细胞（将普通细胞重置为全能状态再定向培育）制成的多巴胺神经元，通过手术注射入大脑深部的运动区域。在 9 名平均病程约十年的帕金森患者的一期试验中，单次移植后六个月，患者每天平均多出逾五小时症状受控且无异常不自主运动的时间，运动评分平均改善超过 30 分，所有参与者均超过公认的临床有意义变化阈值。¹⁸F-DOPA PET 扫描显示注射部位多巴胺合成活动升高，支持细胞存活的判断。此疗法的优势在于无需供受体免疫配型，改用标准化免疫抑制方案，若能维持则大幅降低规模化生产门槛。目前 30 人的二期试验已完成入组，采用盲法评估结局，对照组数据才是真正的考验；九人样本无法判断剂量效应，公司自行披露的数据仍待独立核查。据 [Longevity.Technology 的报道](https://longevity.technology/news/xellsmarts-parkinsons-cell-shot-adds-5-good-hours-a-day/)可查阅试验设计与影像结果细节。
 
-![ARO-MAPT 皮下注射降低 tau 蛋白研究配图](https://longevity.technology/wp-content/uploads/2026/10/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73-hero-1200x800-1-1024x683.png)
+[![来源配图：XellSmart’s Parkinson’s cell shot adds 5 good hours a day](https://longevity.technology/wp-content/uploads/2026/10/xellsmarts-parkinsons-cell-shot-adds-5-good-hours-a-day-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/xellsmarts-parkinsons-cell-shot-adds-5-good-hours-a-day/)
 
----
+### 2. 表观遗传重编程首次人体试验：青光眼患者出现视野改善信号
 
-### 2. 六基因评分系统预测白血病患者存活差异
+Life Biosciences 公布了其青光眼药物 ER-100 的一期人体早期数据。ER-100 通过单次玻璃体注射将三个转录因子（OCT4、SOX2、KLF4，合称 OSK）导入视网膜神经节细胞，再配合口服抗生素多西环素 56 天激活表达，目的是将受损细胞"重置"到更年轻的基因表达状态——即表观遗传修复。3 名开角型青光眼患者均耐受良好，无剂量限制毒性及严重不良事件；其中 2 人在 56 天时视野测试出现改善信号，每人视野中超过 28% 的检测点改善幅度超过 4 分贝。数据安全监察委员会已建议提升到第二剂量组继续试验。一期设计仅评估安全性与耐受性，3 人无对照，视野改善属于初步观察信号，不能由此确认疗效。[clinicaltrials.gov（NCT07290244）](https://clinicaltrials.gov/study/NCT07290244)可查阅完整试验方案，[Lifespan.io 的报道](https://lifespan.io/life-biosciences-announces-first-in-human-phase-1-trial-data/)有详细数据呈现。
 
-西班牙基因组调控中心（CRG）研究团队发表于 *Science Advances* 的论文显示，研究人员通过在小鼠实验和多个人类 AML（急性髓系白血病，一种血细胞无法正常成熟的血癌）患者数据集之间反复对比，找到六个基因的组合评分——称为 PHFScore。其中活跃程度低的 PHF19 基因与白血病细胞"锁死"在未成熟干细胞状态有关，缺失时细胞对常规化疗几乎无反应；低 PHF19 表达的年轻成年患者缓解率不足 50%，而高表达组最高可达 85%。据 [GEN 的报道](https://www.genengnews.com/topics/cancer/predicting-leukemia-survival-may-be-aided-by-six-gene-scoring-system/)，测量六个基因比读取更宽泛的基因图谱更简便，且患者在确诊时已常规提取骨髓样本，具备可行性；研究团队坦承其中几个基因的具体作用机制尚不清楚，后续仍需独立验证。
+[![来源配图：Life Biosciences Announces First-in-Human Phase 1 Trial Data](https://lifespan.io/wp-content/uploads/2023/04/Life-Biosciences-262x187.png)](https://lifespan.io/life-biosciences-announces-first-in-human-phase-1-trial-data/)
 
-![PHF19 小鼠脾脏组织实验图（左：缺失 PHF19；右：正常）](https://www.genengnews.com/wp-content/uploads/2026/10/Low-Res_Ph19-normal-left-vs-KO-right-300x238.jpg)
+### 3. 停用减重针后一次性肠道手术能否守住减重成果
 
----
+Fractyl Health 的 Revita 是一种针对十二指肠（小肠最前端）的内镜消融手术，目的是重置肠道内壁的营养感应功能。在 308 名肥胖成人的关键试验 REMAIN-1 中，所有人在停用减重药物替泽帕肽并恢复体重后，接受 Revita 手术组六个月时平均反弹 5.1% 体重，假手术组反弹 8.2%（p=0.0023），Revita 组保住了约 80% 的药物减重成果，对比假手术组的 67%。不过约三个百分点的绝对差距并不算大，且 53% 减少反弹的数字来自更大消融面积的事后分析，属于探索性结论。真正的关键节点是 12 个月数据：FDA 要求超过一半 Revita 患者仍比用药前轻至少 5%，预计 2027 年第一季度公布，目前 Revita 在美国仍属在研设备。据 [Longevity.Technology 的报道](https://longevity.technology/news/weight-regain-after-glp-1s-a-gut-procedures-test/)可查阅试验设计与各子组数据。
 
-### 3. 教育多一年，数十年后痴呆风险下降
+[![来源配图：Weight regain after GLP-1s: A gut procedure’s test](https://longevity.technology/wp-content/uploads/2026/10/weight-regain-after-glp-1s-a-gut-procedures-test-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/weight-regain-after-glp-1s-a-gut-procedures-test/)
 
-[News-Medical 的媒体报道](https://www.news-medical.net/news/20261026/Additional-education-protects-people-with-high-genetic-risk-of-dementia.aspx)介绍了一项利用英国历史政策的研究：该法律要求青少年多读一年书，研究人员近 50 年后比较了受该政策影响人群的痴呆确诊率，发现额外的学校教育与较低的痴呆诊断存在关联，对有痴呆遗传风险的人群尤其明显。这类研究属于利用政策变化作"自然实验"的观察性研究，能部分排除"更健康的人本来就读书更多"的干扰；但观察到的是关联，仍不能直接证明多读书本身"保护"了大脑。具体样本量和效应大小依据摘要层级，待核查原文。
+### 4. NAD+ 通路激活药搭档减重针，二期试验已完成半数入组
 
-[![来源配图：Additional education protects people with high genetic risk of dementia](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)](https://www.news-medical.net/news/20261026/Additional-education-protects-people-with-high-genetic-risk-of-dementia.aspx)
+Sironax 正在测试 SIR4156，一种口服激活 NAMPT 酶的小分子药物。NAMPT 是细胞自身合成 NAD+ 的关键酶——NAD+ 是调节能量代谢和肌肉功能的分子，随年龄下降。与补充 NAD+ 前体（如 NMN）不同，SIR4156 直接激活这条合成通路，属于同类首创。它与司美格鲁肽（同类减重针）联用，主要目的是在减重的同时减少肌肉流失、改善体脂比。全球二期 FORGE-LM 试验已完成约 50% 入组，为随机双盲安慰剂对照设计。目前支撑试验的依据来自小鼠实验，人体结果尚未公布，且肌肉质量是次要终点而非主要终点，FDA 也尚未批准该药。据 [Longevity.Technology 的报道](https://longevity.technology/news/can-an-nad-booster-protect-muscle-on-semaglutide/)可继续了解试验设计与 NAD+ 通路的背景。
 
----
+[![来源配图：Can an NAD+ booster protect muscle on semaglutide?](https://longevity.technology/wp-content/uploads/2026/10/can-an-nad-booster-protect-muscle-on-semaglutide-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/can-an-nad-booster-protect-muscle-on-semaglutide/)
 
-### 4. 极端高温天数与痴呆风险升高相关
+### 5. AI 药物研发公司 Insilico 间皮瘤药物一期呈现应答信号
 
-[News-Medical 的媒体报道](https://www.news-medical.net/news/20261027/Could-a-few-days-of-annual-extreme-heat-raise-dementia-risk.aspx)显示，一年中仅数天的极端户外高温就与更高的痴呆风险存在关联，且在社会脆弱性较高的地区（例如缺乏降温设施、老年独居人口较多的社区）这一关联更为明显。研究提示气候因素可能影响认知健康，尤其对弱势群体。目前素材为摘要级，具体研究设计、样本量与效应数字待核查原文；该研究揭示的是相关性，尚不能确定因果机制。
+Insilico Medicine 在 2026 年欧洲肿瘤学大会上公布了 ISM6331 的首次人体一期数据。在 36 名入组患者（中位既往治疗线数为 2）中，130 mg 每日一次组 5 名可评估患者中 2 人出现客观缓解（缩瘤 58% 和 36%），130 mg 组客观缓解率 40%，全剂量范围（30–130 mg）22 名可评估者中总缓解率 18.2%，疾病控制率 68.2%。4 名缓解患者中有 3 人在第 8 周首次扫描时即出现响应。在 15 至 130 mg 范围内未见剂量限制毒性，3 级不良事件发生率 8.3%。间皮瘤是一种与衰老相关的难治性肿瘤，此药由 AI 辅助设计靶点和分子。这是小样本一期安全性探索，尚无对照，未来将启动二期剂量优化研究。据 [Longevity.Technology 的报道](https://longevity.technology/news/insilico-reports-positive-early-human-trial-results-for-mesothelioma-drug/)可查阅详细剂量数据。
 
-[![来源配图：Could a few days of annual extreme heat raise dementia risk?](https://www.news-medical.net/images/news/ImageForNews_849763_17930902708649628.jpg)](https://www.news-medical.net/news/20261027/Could-a-few-days-of-annual-extreme-heat-raise-dementia-risk.aspx)
+### 6. 先天性心脏病婴儿细胞治疗二期：心脏不良事件显著减少
 
----
+Longeveron 公布了 Laromestrocel 在 40 名左心发育不良综合征（一种出生时左心室几乎缺失的先天缺陷）婴儿中的 ELPIS II 二期随机试验更新数据。试验未达到主要终点（12 个月右心室射血分数变化），但预设次要终点"主要心脏不良事件"达到统计显著差异：标准治疗组 8 例，Laromestrocel 组 1 例（p=0.043）。该药与 NIH 国家心肺血液研究所合作开展，12 个月内无治疗相关严重不良事件。主要终点未达标是核心限制，次要终点结果仍需独立验证；公司计划与 FDA 会面讨论下一步。完整数据将于 11 月 8 日在美国心脏学会年会以晚期突破性研究口头报告形式呈现，届时可沿 [Longevity.Technology 的报道](https://longevity.technology/news/updated-phase-2b-data-show-fewer-major-cardiac-events-in-hlhs/)继续追踪。
 
-### 5. AI 评测白血病临床推理：诊断强不代表后续决策同样可靠
+### 7. 维生素 B5 衍生物潘替硫酸调节免疫细胞，小规模试验改善银屑病症状
 
-[论文索引/摘要（papers.cool）](https://papers.cool/arxiv/2610.35847)介绍了 NPC-RubricBench，一个专为"纵向癌症诊疗"设计的 AI 评测基准——纵向是指从首次确诊到治疗完成整条时间线上的连续临床决策。研究者从 405 名鼻咽癌患者跨两家医院的真实病历中提取了 941 个"患者×诊疗阶段"单元，评测了 30 款通用和医疗大模型。结果发现，诊断阶段表现好的模型，在分期、术后随访等后续环节会犯不同类型的错误：分期阶段 48% 的失误是"做出了错误决定"，而随访阶段 30% 的失误是"关键决策被直接遗漏"。这说明用单一诊断基准来判断 AI 临床可靠性是不够的；该论文尚未见同行评审发表信息。
+《实验医学杂志》发表的一项研究发现，树突细胞（免疫系统中负责协调炎症反应的关键细胞）在银屑病患者体内 Vanin 酶活性异常升高，导致其自身的潘替硫酸（pantethine，维生素 B5 的一种衍生物，也是市售降胆固醇营养补剂）水平降低，进而促进胆固醇堆积并过度激活免疫反应。研究者在小鼠实验中证实补充潘替硫酸可抑制炎症，并在 24 名银屑病患者的小规模对照试验中发现，在外用标准药膏基础上加服潘替硫酸的 12 人，12 周后症状改善优于仅用外用药的对照组，胆固醇偏高者获益更明显。研究者自述这属于概念验证阶段，24 人样本不足以确认疗效，机制因果关系也尚待更大规模验证。据 [GEN 的报道](https://www.genengnews.com/topics/drug-discovery/vitamin-derivative-pantethine-alleviates-psoriasis-symptoms-in-small-human-trial/)可查阅原文链接与试验数据。
 
----
+### 8. 瑞士药企 Ferring 以最高 13.8 亿美元收购卵巢细胞工程公司 Gameto
 
-### 6. AI 从住院记录早期识别慢性病患者心理健康风险
+Ferring 制药宣布签署协议，拟收购美国生物技术公司 Gameto，交易总价值最高 13.825 亿美元，其中大部分与研发和商业里程碑挂钩，最终金额待达成条件时确认。Gameto 的核心技术是用干细胞工程化的卵巢支持细胞，在体外帮助未成熟卵子完成发育，其主打产品 Fertilo 有望减少 IVF 所需的激素注射天数。Gameto 同时有针对卵巢衰老和更年期的研究管线，并于 2024 年获得 ARPA-H 资助。Fertilo 在美国目前仍属在研阶段，尚未获 FDA 批准，"最高 13.8 亿"的数字依赖多项未披露的里程碑，不能视为已实现收益。卵巢是女性身体中最早衰老的器官，其激素功能下降与心脏、骨骼和代谢健康均有关联，这笔收购反映了生殖医学与衰老科学的交叉升温。据 [Longevity.Technology 的报道](https://longevity.technology/news/ferring-moves-to-acquire-gameto-in-1-38b-deal/)可了解交易结构与管线详情。
 
-[论文索引/摘要（papers.cool）](https://papers.cool/arxiv/2610.35761)报告了一项以约 4000 名慢性病住院患者（来自公开医疗数据集 MIMIC-III）为对象的研究，探索能否通过每日的临床病历文字，提前识别出抑郁、痴呆风险或自杀倾向等隐性心理健康问题。研究采用分层状态空间模型，从逐日记录中提取心理健康相关的表征，并追踪其变化趋势，最终在二元风险预测上有所改善，且"有风险"与"无风险"患者在模型推断出的风险轨迹上呈现明显差异。这是初步结果，属于弱监督方法，尚未在临床场景中验证，也不能直接用于诊断个人。
+### 9. 人类首个血管衰老细胞图谱绘制完成
 
----
+奥地利科学院 CeMM 分子医学研究中心 Laura de Rooij 团队主导的国际合作，创建了人类衰老内皮细胞图谱（Human Aging Endothelial Cell Atlas）——内皮细胞是覆盖全身血管内壁的细胞，此前从未有人系统描绘它们在人一生中如何随年龄改变。这是该领域第一个综合性参考图谱，为理解血管老化机制提供了分子层面的基础数据。具体分析结果、样本来源和数量来自原文，目前仅有摘要级信息，详细发现可沿 [News-Medical 的报道](https://www.news-medical.net/news/20261027/First-human-endothelial-cell-atlas-maps-how-blood-vessels-age.aspx)追溯原始论文。
 
-### 7. 蛋白质组学峰会聚焦"预测生物学"：绘制每个人一生中的蛋白质状态
+### 10. mTORC1 调节护肤精华在 47 名女性的双盲试验中改善皮肤弹性
 
-一年一度的国际人类蛋白质组大会（World HUPO 2026）于新加坡召开，汇聚 45 个国家 1428 名代表。蛋白质组学是系统性研究一个细胞或组织里所有蛋白质的学科，被认为比基因组更贴近疾病实际状态。中国主导的 π-HuB 项目宣布了雄心勃勃的路线图：计划在数十年内投入数十亿人民币，逐步建立涵盖器官、细胞类型和个体的蛋白质参考图谱，目标是"预测每个人一生中的蛋白质状态"。另一亮点是空间蛋白质组学（在保留组织位置信息的前提下测量蛋白质），多位研究者展示了其在阿尔茨海默症和骨关节炎中发现了常规分析无法区分的中间细胞状态。据 [GEN 的报道](https://www.genengnews.com/topics/omics/world-hupo-2026-asia-pacific-ambition-and-the-road-to-predictive-biology/)，可靠的个体预测仍是研究目标，距离临床落地还有相当距离。
-
----
-
-### 8. 阿尔茨海默多模态预后模型：缺失检测数据时 AI 解读会出现"幻觉"
-
-[论文索引/摘要（papers.cool）](https://papers.cool/arxiv/2610.35430)针对阿尔茨海默病预后 AI 的一个实际痛点展开研究：淀粉样蛋白 PET 扫描、脑脊液生物标志物等高成本检测在临床中常常缺失，当这些数据不在时，让大模型生成解释报告会不会出错？研究使用阿尔茨海默病神经影像倡议（ADNI）的 307 名参与者数据，人为屏蔽不同组合的检测结果，发现所有五种缺失数据策略都会将 12%—23% 的重要性归因于实际上根本没有观测到的检测项目（最多时达 45%）。通过在提示词中明确列出缺失项，幻觉现象大幅减少；但模型就"补充某项检测是否会改变结论"给出正确建议的比例，仅为 27%—41%，经干预后最高提升至 69%（开源模型）和 99.9%（商业模型）。
-
----
-
-### 9. 大脑血流 MRI 超分辨率：迁移学习跨队列改善图像重建
-
-[论文索引/摘要（papers.cool）](https://papers.cool/arxiv/2610.35396)报告了一项针对颅内 4D Flow MRI 的深度学习研究——4D Flow MRI 是一种可以同时测量脑血管中血流速度和方向的影像技术，但高分辨率扫描耗时且成本高。研究团队在 18 名参与者（包括健康人、烟雾病和多发性硬化症患者）上测试了用合成数据预训练、再用多队列真实数据进行迁移学习的方案，发现多队列混合微调（pooled transfer learning）比单队列方案降低了速度误差，并改善了脑血管成像的精度。目前样本量小（18 人），作者明确指出需要更大规模多中心验证，尚不能说明该技术可取代标准临床成像流程。
-
----
-
-### 10. CRISPR 筛选中"逃逸细胞"使不同细胞类型的比较产生系统性偏差
-
-[论文索引/摘要（papers.cool）](https://papers.cool/arxiv/2610.35508)揭示了单细胞 CRISPR 筛选（一种大规模检测基因功能的实验技术）中一个被忽视的误差来源：当目标基因被敲低后，细胞在测序前仍会继续增殖数天，少数"逃逸"了敲低效果的细胞会越长越多，最终稀释了真正敲低细胞的信号。研究发现在人类胚胎干细胞中，约一半被测量的细胞实际上并未有效敲低目标基因。由于这一逃逸比例在不同细胞类型间差异显著，现有的跨细胞类型比较和用于训练预测模型的基准数据可能都存在系统性偏差。该研究提供了一种从基因计数数据估算逃逸比例的方法，为后续更准确地解读 CRISPR 筛选结果奠定基础。
+Rapalogix 在《美容皮肤科杂志》发表了其 Re-Q 抗衰精华（活性成分 RLX-201）的随机双盲对照试验结果。mTORC1 是一条感应营养状态的细胞通路，与衰老标志物的调控有关，雷帕霉素也通过抑制这条通路产生延寿效果；RLX-201 的设计目标是选择性调节该通路在皮肤中的活性。47 名 35–65 岁女性使用 12 周，其中 31 人用真品、16 人用不含活性成分的对照基质。第 12 周时，研究者评估的皮肤紧致度和皱纹改善约 21%，弹性测量仪显示弹性在第 8 周达峰后维持至第 12 周。主要限制是：所有百分比均与各人自身基线比较，报告未给出对照组的具体变化数值，三名联合创始人参与了论文署名，且样本量较小，仅凭这项公司主导的研究不足以对外推荐。据 [Longevity.Technology 的报道](https://longevity.technology/news/rapalogix-tests-longevity-face-serum-on-47-women/)可查阅试验方法与皮肤活检数据。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### 空间蛋白质组学网络研讨会：肿瘤生态系统分型与 AI 生存预测
+### Cognito 在罗德岛建立阿尔茨海默病临床协作网络
 
-GEN 将于 2026 年 11 月 16 日举办网络研讨会，由苏黎世大学 Bernd Bodenmiller 介绍如何把成像质谱流式技术（IMC，一种可以在保留组织空间信息的同时同时检测数十种蛋白质的技术）与多组学数据和 AI 结合用于肿瘤分型。他将分享两项研究：一是 323 例卵巢癌中，细胞表型多样性与空间排布复杂的肿瘤复发更快，并识别出一种与标准化疗耐药相关的细胞亚型；二是 498 例肾细胞癌中，AI 从常规 HE 染色切片（普通病理染色）直接预测了三种存活生态型，结果在逾 2500 名患者的五个队列中得到验证。据 [GEN 活动页面](https://www.genengnews.com/multimedia/webinars/spatial-proteomics-for-precision-oncology/)，这是一场付费或注册制的行业网络研讨会，两项研究的具体临床转化路径尚未明确。
+Cognito Therapeutics 与罗德岛生命科学中心（RILSH）宣布共同建立"罗德岛脑健康合作实验室"，这是 Cognito 在全美第三个同类合作网络，合作机构包括布朗大学、罗德岛大学及多家当地医疗系统。该网络围绕 Cognito 的在研设备 Spectris AD 而建，这是一种用于阿尔茨海默病的居家处方治疗，已获 FDA 突破性设备资质，公司迄今融资逾 2.2 亿美元。网络目标是在当地推进临床研究和真实世界研究，并培训医护人员和社区照护者。需要指出的是，Spectris AD 尚未获批，此次公告不含关键试验 HOPE 的数据，HOPE 试验结果预计今年年内公布。据 [Longevity.Technology 的报道](https://longevity.technology/news/cognito-builds-brain-health-testbed-in-rhode-island/)可了解合作机构名单与 Spectris AD 的前期试验结果背景。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 新骨细胞如何在缺陷基质中死亡——骨质疏松机制研究新线索
+### 肠道菌群失衡如何通过骨髓免疫微环境加速骨质疏松
 
-[News-Medical 的媒体报道](https://www.news-medical.net/news/20261026/Researchers-discover-how-faulty-matrix-structure-leads-to-cell-death-in-newly-formed-bone.aspx)介绍了一项关于骨细胞（osteocytes，嵌入骨基质中负责维持骨骼强度的长寿细胞）存活机制的研究。研究关注刚刚形成的骨细胞在基质结构缺陷时如何走向死亡，试图填补骨质疏松等骨骼疾病病理机制的认知空白。目前素材为摘要级，具体研究方法、模型物种和关键数字待核查原文；这一阶段的发现尚不能直接说明对骨质疏松患者的治疗影响。
+一篇综述论文梳理了肠道菌群老化与骨质疏松之间的关联研究。随年龄增长，肠道菌群中促炎菌株增多、产有益代谢物的菌株减少（即菌群失调），由此产生的炎症信号可能通过肠道屏障渗漏进入血液，抵达骨髓，影响破骨细胞与成骨细胞的平衡——破骨细胞负责分解骨骼基质，成骨细胞负责重建，老化时前者占优导致骨量流失。论文还讨论了神经通路（迷走神经和交感神经）在传导这一信号中可能扮演的角色。这是观察性机制综述，尚未系统阐明各通路的因果贡献，也没有可直接用于干预的临床结论。感兴趣的读者可沿 [Fight Aging! 的摘要](https://www.fightaging.org/archives/2026/10/reviewing-what-is-known-of-how-the-aging-gut-microbiome-may-contribute-to-osteoporosis/)追溯原论文。
 
 ---
 
 ## **◎ 行业变化与个人影响**
 
-### 针对衰老生物学的监管瓶颈：多疾病疗法被迫走单病种审批路径
+### 快走与死亡风险关联的观察性研究发表于 JAMA Network Open
 
-[Lifespan.io 的分析文章](https://lifespan.io/the-regulatory-bottleneck-in-aging-biology/)指出，当前 FDA 等监管框架仍按"每种疾病单独审批"逻辑运行，而部分细胞重编程等再生医学疗法本质上同时针对多种年龄相关疾病的共同上游原因，被迫为每一个适应症重复提交安全数据，显著增加了时间和成本。文章援引 2026 年 ARDD 会议上 FDA 官员的表态，FDA 已将衰老与长寿列为监管科学优先领域，并将纳入 2027 年的 FARS（监管科学重点领域）文件；日本目前对 iPS 细胞产品已有"有条件、限时批准"先例，被视为相对可行的参考模型。这篇文章来自非营利机构 Lifespan.io，属于政策倡导性质，其中关于监管改革时间表的预测尚未有具体政策落地。
+发表在 JAMA Network Open 上的一项研究报告，步速更快、每分钟步数更多与全因死亡风险降低相关。这是观察性研究，关联不等于因果，无法排除健康状况好的人本来就走得更快的反向影响。具体样本量、随访时长和效应量大小来自原文，目前仅有摘要级信息。据 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-10-brisker-longer-life.html)可继续查阅原始研究。
+
+---
+
+## **⌘ 开源 TOP 项目**
+
+### limitlessprojects/ClockBench：表观遗传衰老时钟的中立对比测试台
+
+[ClockBench](https://github.com/limitlessprojects/ClockBench) 是一个面向研究者的基准测试工具，用来横向比较不同表观遗传衰老时钟——即通过 DNA 甲基化模式估算生物年龄的算法——在不同软件实现版本和数据集上的表现是否一致。工具的核心关注点是"泄露感知"（leakage-aware），即检测时钟训练数据与测试数据之间是否存在信息重叠，这是生物年龄研究中影响结论可靠性的常见问题。适合需要比较或验证多种衰老时钟输出的生物信息学研究者。仓库描述定位为"持续更新的中立基准"，具体支持哪些时钟和输入格式请以仓库 README 为准，Stars 目前为 1。
+
+### hbc/app\_mavrikaki\_brain\_aging\_spatialtx\_human\_hbc05086：人脑老化空间转录组数据可视化
+
+[此仓库](https://github.com/hbc/app_mavrikaki_brain_aging_spatialtx_human_hbc05086)基于 Vitessce 框架，用于交互式浏览与脑老化相关的人类空间转录组数据集。空间转录组技术可以在保留组织位置信息的同时测量基因表达，帮助研究者看到衰老相关基因变化发生在大脑的哪些区域。适合有空间基因组学数据分析经验的研究者，仓库描述极为简短，具体数据内容和使用条件以仓库页面为准，Stars 目前为 1。
 
 ---
 
 ## **❓ 相关问题**
 
-### ARO-MAPT 降低了脑脊液 tau，是否说明它能治疗阿尔茨海默症？
+### Life Biosciences 的视野改善是否意味着 ER-100 对青光眼有效？
 
-不能。脑脊液 tau 下降只说明药物进入了中枢神经系统并抑制了 tau 蛋白的产生，这是"药物到达目标并产生了分子效应"的证据，但不等于患者会减缓认知衰退。阿尔茨海默症的真正疗效需要在患者中测量认知功能和疾病进展，而 ARO-MAPT 的患者队列（早期阿尔茨海默症）尚在入组中，数据预计 2027 年公布。[Longevity.Technology 的报道](https://longevity.technology/news/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73/)中 Arrowhead 也明确区分了这两个层次的证据。
+不能由此得出有效结论。这是三人参与的一期开放标签试验，设计目标仅为评估安全性与耐受性，没有对照组，两人出现的视野改善属于初步观察信号。一期试验中的积极信号推动了进入更高剂量组，但要确认疗效需要有对照组的更大规模试验。原始试验注册信息可在 [clinicaltrials.gov（NCT07290244）](https://clinicaltrials.gov/study/NCT07290244)查阅研究设计与入排标准，[Lifespan.io 的报道](https://lifespan.io/life-biosciences-announces-first-in-human-phase-1-trial-data/)有数据呈现的完整背景。
