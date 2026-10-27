@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-27",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-10/2026-10-27/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_4a97c47b068ca86e",
+      "report_date": "2026-10-27",
+      "report_section": "opportunity",
+      "title": "长寿血检五大指标中文解读资料包",
+      "source_urls": [
+        "https://github.com/Alpha-Park/genpark-personal-agent-dynamic-blood-biomarker-longevity-tracker-skill"
+      ],
+      "source_verified": false,
+      "state": "needs_input_check",
+      "state_reason": "已找到仓库元数据和许可证标识；数据入口、授权义务与核心功能仍需受控验证",
+      "target_user": "有过血检经历但看不懂「长寿优化区间」的 30-50 岁抗衰爱好者;做健康内容的自媒体同行;轻度关注长寿话题的可穿戴设备用户",
+      "demand_claim": "血检「正常范围」和「长寿优化范围」之间的差距是抗衰圈高频话题,但国内系统整理这五个指标并配通俗解读的内容不多。付费意愿是假设,尚待验证——先用免费内容测试读者反应,再决定是否做付费版。",
+      "demand_verified": false,
+      "deliverable_hint": "对比表或 PDF 资料包,列出每个指标的含义、参考区间(需注明来源,如 MedlinePlus 或国内医院标准)、在长寿讨论中被关注的原因、常见误读;不得写成「优化到 X 值可延长寿命」的确定结论",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "48 小时内小红书收藏 ≥ 50 或公众号阅读 ≥ 300,且有至少 3 条评论询问具体指标或索取资料;达标才值得继续做付费版",
+        "stop_condition": "72 小时内零询问、收藏 < 20,或反馈集中在「这个网上到处都是」——说明切入点需调整,停止制作付费版",
+        "upgrade_path": "免费清单 → 付费资料包(指标解读 + 检测机构对比 + 中文 FAQ)→ 社群/会员(每月更新抗衰指标研究摘要)→ 轻咨询(协助用户理解报告单,仅限信息整理,不做诊断)"
+      },
+      "repository_metadata": {
+        "repository": "Alpha-Park/genpark-personal-agent-dynamic-blood-biomarker-longevity-tracker-skill",
+        "url": "https://github.com/Alpha-Park/genpark-personal-agent-dynamic-blood-biomarker-longevity-tracker-skill",
+        "default_branch": "main",
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-10-19T16:02:29Z",
+        "license_spdx": "MIT",
+        "screening_status": "metadata_found",
+        "data_verified": false,
+        "run_verified": false,
+        "commercial_use_verified": false
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_4a97c47b068ca86e:inspect_repository",
+      "opportunity_id": "opp_4a97c47b068ca86e",
+      "kind": "inspect_repository",
+      "status": "pending_automation",
+      "description_zh": "自动核查仓库许可证、数据入口、依赖、维护状态和试跑条件",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_4a97c47b068ca86e:validate_demand",
+      "opportunity_id": "opp_4a97c47b068ca86e",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
