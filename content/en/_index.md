@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/10/26
+title: AI生命延续学日报 2026/10/27
 breadcrumbs: false
-next: /en/2026-10/2026-10-26
+next: /en/2026-10/2026-10-27
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,97 +11,107 @@ cascade:
 ## **Today's Summary**
 
 ```
-Early human trial data on cellular reprogramming shows preliminary signs of visual field improvement.
-A pig kidney recovered partial function after long-term cold storage, advancing organ preservation research.
-Human trial sample sizes are tiny, and the pig kidney study is not proof of successful human transplantation.
+A subcutaneous drug reduced cerebrospinal fluid tau protein by roughly 70% in early human trials.
+A UK quasi-natural experiment found an association between one extra year of education and lower dementia rates decades later.
+Neither result has confirmed causal benefit in patients — the first comes only from healthy volunteers, the second remains observational.
 ```
 
 ## **🔥 Today's Top 10 Highlights**
 
-### 1. Cell Reprogramming Trial Publishes First Human Data
+### 1. Subcutaneous RNAi Drug Cuts Cerebrospinal Fluid Tau by 73%
 
-Life Biosciences has released early human data for ER-100: 3 glaucoma patients observed through Day 56, with 2 showing signals of visual field improvement and no serious adverse events reported. The approach uses "epigenetic reprogramming" to adjust gene switches — helping damaged cells recover function without rewriting DNA. The [company announcement](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/) lays out the trial design; this Phase 1 trial is still ongoing, focused primarily on safety, with a small, uncontrolled sample that's not enough to confirm efficacy. 🔬
+Arrowhead Pharmaceuticals just dropped early Phase 1/2 data on ARO-MAPT — a drug that works via RNA interference, basically flipping off the genetic switch that tells cells to produce tau protein. Tau is the protein that abnormally accumulates in Alzheimer's disease, and researchers use cerebrospinal fluid (the fluid surrounding the brain and spinal cord) to gauge whether the drug is actually crossing the blood-brain barrier. According to [media reports](https://longevity.technology/news/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73/), the highest-dose group still showed an average 73% tau reduction 90 days after dosing ended, with one individual hitting 85% — and tolerability looked solid. The catch? All current data comes from healthy volunteers. Whether that tau drop actually translates to slower cognitive decline in Alzheimer's patients is a question we'll have to wait until 2027 patient cohort data to answer. 🧪
 
-### 2. Pig Kidney Recovers Partial Function After Long-Term Cold Storage
+[![Source image: Arrowhead's shot under the skin cut spinal fluid tau by 73%](https://longevity.technology/wp-content/uploads/2026/10/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/arrowheads-shot-under-the-skin-cut-spinal-fluid-tau-by-73/)
 
-Organ preservation isn't just about cooling things down — uniform rewarming without cracking is just as tricky. This [preprint](https://doi.org/10.64898/2026.10.07.756990) uses "nanowarming": tiny particles injected beforehand generate heat inside an electromagnetic field. Pig kidneys recovered partial function after cold storage and produced urine immediately upon transplantation, with one preserved for a full year. This is not proof of long-term survival or successful human transplantation; issues like cryoprotectant damage remain unsolved, and the study hasn't yet been peer-reviewed. 🧊
+---
 
-### 3. Gut Microbiome Offers Clues to Chronic Inflammation
+### 2. One Extra Year of School in the UK, Fewer Dementia Diagnoses Almost 50 Years Later
 
-Same age, different inflammation levels — why? A study of 1,199 adults found that gut microbiome composition explains multiple inflammation markers better than age alone. The "microbiome" refers to the community of microorganisms living in your gut, and different combinations may correspond to different health states. [Fight Aging!'s writeup](https://www.fightaging.org/archives/2026/10/predicting-inflammation-and-disease-risk-with-gut-microbiome-composition/) breaks down the data; this is observational research and can't prove that changing your microbiome prevents disease. 🦠
+A study leveraging a UK legislative "natural experiment" found that teenagers legally required to stay in school one extra year had lower dementia diagnosis rates nearly half a century later. 📚 What makes this design cool is that extra schooling was essentially "randomly assigned" by law rather than chosen by students — which gets you a lot closer to causal inference than a typical observational study. Specific sample sizes, effect sizes, and the dementia database used are still pending verification. According to [News-Medical's coverage](https://www.news-medical.net/news/20261026/Additional-education-protects-people-with-high-genetic-risk-of-dementia.aspx), the study also looked at whether people carrying high genetic risk for dementia got the same benefit. The observational design means other confounding factors can't be fully ruled out yet.
 
-### 4. Immune Cells Temporarily Reprogrammed Inside Living Mice
+[![Source image: Additional education protects people with high genetic risk of dementia](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)](https://www.news-medical.net/news/20261026/Additional-education-protects-people-with-high-genetic-risk-of-dementia.aspx)
 
-Traditional cell therapy usually means removing immune cells, modifying them externally, then infusing them back. This study instead delivered mRNA directly inside living mice, giving NK cells — "natural killer cells" — a temporary ability to recognize diseased cells. In melanoma experiments, 3 out of 5 treated mice achieved complete remission. [MIT's research overview](https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013) walks through the delivery approach, though safety and efficacy in humans remain unknown. 💉
+---
 
-[![Schematic diagram of mRNA delivery to NK cells via lipid nanoparticles](https://news.mit.edu/sites/default/files/download/202610/MIT-CAR-NK-01-press.jpg "Schematic of the mRNA-to-NK-cell delivery research. Image: research team via MIT News; not a depiction of human clinical efficacy.")](https://news.mit.edu/2026/reprogrammed-nk-immune-cells-target-cancer-and-autoimmune-disorders-1013)
+### 3. Six-Gene Scoring System Predicts Acute Myeloid Leukemia Survival
 
-### 5. Naked Mole Rat Longevity Genes — Can They Be Lent to Mice?
+Published in *Science Advances*, researchers at Spain's Centre for Genomic Regulation (CRG) identified a combo of six genes — dubbed PHFScore — that splits acute myeloid leukemia (AML, a blood cancer) patients into two groups with dramatically different survival outcomes. PHF19 was the starting point: patients with low activity of this gene not only had shorter survival times but also lower remission rates after chemo (below 50% in the lowest group vs. up to 85% in the highest). The neat thing is this score only requires testing six gene activity levels from a bone marrow sample — way simpler than whole-genome sequencing. According to [GEN's report](https://www.genengnews.com/topics/cancer/predicting-leukemia-survival-may-be-aided-by-six-gene-scoring-system/), the research was cross-validated using both mouse and human patient data, though prospective clinical studies are still needed to confirm its real-world prognostic value.
 
-Naked mole rats live remarkably long lives, but can their advantages be transferred to other animals? This [review article](https://www.fightaging.org/archives/2026/10/naked-mole-rats-versus-the-hallmarks-of-aging/) summarizes existing clues: when the nmrHAS2 gene — linked to hyaluronic acid synthesis — was introduced into mice, researchers observed reduced tumors and extended lifespan. Hyaluronic acid is a key tissue component; the focus here is its biological mechanism, not cosmetic use. These are still cross-species experiments and can't be extrapolated to humans. 🐭
+![Spleen tissue: mouse lacking the PHF19 gene (left) vs. normal mouse (right), showing altered cell differentiation](https://www.genengnews.com/wp-content/uploads/2026/10/Low-Res_Ph19-normal-left-vs-KO-right-300x238.jpg)
 
-### 6. Topical Urolithin A Gets Skin Research Data
+---
 
-Urolithin A research centers on "mitophagy" — the process by which cells clear out damaged energy factories. A randomized controlled study reports that 8 weeks of topical application reduced periorbital wrinkle depth and UV-induced erythema. [Fight Aging!'s report](https://www.fightaging.org/archives/2026/10/topical-urolithin-a-to-improve-aged-skin-function/) also covers mechanistic observations from skin samples; surface-level skin changes don't equal whole-body aging reversal and can't be directly turned into personal use recommendations. 🧴
+### 4. Biograph: 43% of Asymptomatic Adults Have Coronary Artery Inflammation
 
-### 7. Hearing Aid Use Associated With Lower Mortality Risk
+Biograph used CaRi-Heart AI technology to analyze coronary artery CT scans in asymptomatic US adults who were already considered low-risk by conventional measures. 🫀 Perivascular inflammation — chronic inflammation in the tissue surrounding heart blood vessels — has historically been nearly impossible to detect non-invasively. The results? 42.9% of participants showed elevated coronary inflammation, and about 47% of people with no visible coronary plaque still had inflammation signals. Standard blood markers, including hs-CRP (the high-sensitivity C-reactive protein test for systemic inflammation), missed all of them. According to [media reports](https://longevity.technology/news/biograph-finds-coronary-inflammation-in-43-of-asymptomatic-adults/), the company acknowledges the method's prognostic value and clinical benefit still need further validation — CaRi-Heart has received FDA De Novo authorization.
 
-The link between hearing and healthy longevity deserves study, but correlation isn't causation. A study pooling data from 13,851 people and validated in a separate cohort of 50,277 found that hearing aid users had a 9% lower all-cause mortality risk. The [research report](https://www.fightaging.org/archives/2026/10/hearing-aid-use-correlates-with-reduced-mortality-risk/) notes this may also reflect hearing aid users being more proactive about managing their health overall; observational data can't prove hearing aids themselves extend lifespan. 👂
+---
 
-### 8. A Protein That Helps Old Mice Protect Their Memory
+### 5. The Aging Regulatory Bottleneck: Single-Disease Approval Frameworks Are Slowing Multi-Target Therapies
 
-Does the aging brain activate its own protective mechanisms? Researchers found that boosting PLA2G2F protein expression in the brains of older mice protected memory and reduced certain inflammation and lipid accumulation. The protein may help cells maintain lipid metabolism — essentially normal processing of fatty substances. [Fight Aging!'s report](https://www.fightaging.org/archives/2026/10/pla2g2f-is-protective-of-memory-function-in-the-aging-brain/) covers the experiments; this is still primarily animal and cell-level evidence and doesn't represent an established therapy for improving human memory. 🧠
+Lifespan.io published a policy analysis pointing out that current drug regulatory frameworks are still designed around a "one disease, one approval pathway" default — but emerging therapies like cellular reprogramming and senolytic clearance are inherently targeting the common upstream causes of multiple age-related diseases simultaneously. That means every additional indication essentially requires resubmitting a full clinical data package, ballooning costs and timelines. The FDA has listed aging and longevity as a 2027 regulatory science priority, and Japan's PMD Act conditional approval has already set a precedent with iPS cell products. According to [Lifespan.io's analysis](https://lifespan.io/the-regulatory-bottleneck-in-aging-biology/), the proposed Multi-Disease Treatment Designation (MDTD) framework still needs legislative adoption before it can go anywhere. 🏛️
 
-### 9. Alzheimer's Risk Gene Disrupts Neuronal Insulation
+[![Source image: The Regulatory Bottleneck in Aging Biology](https://lifespan.io/wp-content/uploads/2026/10/Regulatory-Bottleneck-1-262x187.png)](https://lifespan.io/the-regulatory-bottleneck-in-aging-biology/)
 
-Why does APOE4 increase Alzheimer's risk? An MIT team found it interferes with the cell process that builds myelin — the insulating sheath around nerve fibers that helps signals travel. Restoring the relevant signaling improved myelin formation in both human cell models and mice. The [original institute release](https://picower.mit.edu/news/how-biggest-alzheimers-risk-gene-disrupts-process-insulating-neurons) shows microscope images and experimental methods, but this is a laboratory-level intervention lead, not yet evidence of human treatment. 🔭
+---
 
-[![Microscopy comparison of APOE4 organoids before and after experimental intervention](https://picower.mit.edu/sites/default/files/styles/hero_1x_wide/public/Figure3H-wnt-akay-upscale.png?h=49a4395e&itok=5ChbLrHe "APOE4 organoid microscopy: right side shows the GSK3b inhibition experimental group. Image: MIT Picower Institute; not a patient before/after comparison.")](https://picower.mit.edu/news/how-biggest-alzheimers-risk-gene-disrupts-process-insulating-neurons)
+### 6. Beacon Acquires Home Sleep Testing Company, Bets Big on At-Home Brainwave Analysis
 
-### 10. A Younger Aging Clock Score Doesn't Mean You've Actually Reversed Aging
+Beacon Biosignals acquired Snap Diagnostics — a home sleep testing provider covering all 50 US states — more than doubling its patient reach. The plan is to push home EEG (electroencephalogram) sleep testing into primary care and telehealth channels by 2027. EEG directly records brain electrical activity, giving you far more complete sleep-stage information than traditional home sleep tests that typically only measure breathing and blood oxygen. Beacon's Waveband headband already has FDA 510(k) clearance. According to [media reports](https://longevity.technology/news/beacon-biosignals-acquires-snap-diagnostics-for-home-eeg-sleep-testing/), Beacon's platform uses a foundation model trained on millions of hours of EEG data to generate brain health biomarkers — though the gap between home EEG data quality and lab-standard readings remains a critical open question for clinical adoption. 😴
 
-"Aging clocks" estimate biological age from chemical markers on DNA and other data, but different clocks can give different answers. This [research commentary](https://www.fightaging.org/archives/2026/10/thoughts-on-when-aging-clocks-can-be-trusted/) discusses how to improve reliability: don't cherry-pick one favorable number — check whether multiple validated clocks move in the same direction. Even when clocks agree, you still need to pair that with real functional and health outcomes. One test score alone is not a "mission accomplished" for reversing aging. ⏱️
+---
+
+### 7. Real-World Diabetes Data: Tirzepatide Hits Blood Sugar Targets at Roughly Twice the Rate of Semaglutide
+
+In a retrospective study using UK primary care records, tirzepatide beat injectable semaglutide on both key metrics over 12 months: HbA1c (the marker reflecting average blood sugar over the past few months) dropping below 6.5% — tirzepatide 46.3% vs. semaglutide 20.6%. Body weight loss exceeding 15% — tirzepatide 24.1% vs. semaglutide 9.1%. Tirzepatide (Mounjaro) activates two gut hormone receptors simultaneously, which likely explains the stronger effect. That said, this is a retrospective design — researchers used statistical matching to try to balance baseline differences between the two groups. According to [media reports](https://longevity.technology/news/mounjaro-tops-ozempic-in-real-world-diabetes-data/), total enrollment numbers and the percentage completing 12-month follow-up weren't disclosed, so long-term benefit still needs more data. 💉
+
+---
+
+### 8. Brain Immune Cell Aging and Lipid Metabolism Dysfunction
+
+Microglia are the brain's immune guardians — clearing cellular debris and maintaining neural networks. A freely available review discussed on [Fight Aging!](https://www.fightaging.org/archives/2026/10/how-important-is-lipid-metabolism-dysfunction-in-the-aging-of-microglia/) digs into how lipid metabolism dysfunction drives microglia to become chronically over-inflammatory with age. Lipids are the raw materials for cell membranes and signaling molecules; when metabolism goes sideways, excess lipid droplets accumulate inside cells and mess with lysosomes (the cell's garbage disposal system). The APOE gene variant — a well-known Alzheimer's risk factor — is highlighted for its connection to lipid metabolism, though no human-validated interventions targeting this specific pathway exist yet. 🧠
+
+---
+
+### 9. Oral Drug Increases NREM Deep Sleep in Aged Rats by ~1.5–2 Hours
+
+Carnyx Therapeutics, a preclinical biopharmaceutical company, released rat data on candidate drug CNYX-005: aged rats on the drug got roughly 1.5 to 2 extra hours of total sleep compared to controls, with the gains coming mainly from NREM sleep (the non-rapid eye movement stage that includes deep restorative phases). NREM deep sleep decline with age is thought to be linked to reduced growth hormone secretion and tissue repair — exactly the area Carnyx is focused on. According to [media reports](https://longevity.technology/news/carnyxs-sleep-candidate-adds-1-5-2-hours-in-rats/), the announcement didn't disclose animal numbers or dosing details, and the company hasn't given a timeline for human trials. Rat sleep architecture differs significantly from ours, so these results can't be extrapolated to humans just yet. 😪
+
+---
+
+### 10. XPRIZE Healthspan's $101M Competition: The Measurement Standards Matter More Than Who Wins
+
+XPRIZE Healthspan has narrowed roughly 800 registered teams down to 10 finalists, each receiving $1M in unrestricted funding plus shared testing infrastructure worth approximately $2–2.5M. 🏆 Steven Cummings, UCSF Professor Emeritus and the competition's judging lead, was refreshingly candid on a podcast: "Do we now have enough evidence to support function-based regulatory conversations? No." The competition uniformly measures functional changes across three dimensions — muscle, cognition, and immunity — and the real value is building a reference dataset for "a decade of typical decline." According to [media reports](https://longevity.technology/news/the-101-million-question-isnt-who-wins/), finalist approaches range from gene therapy to exercise programs, with "scalability and accessibility" emerging as another key lens the judges are watching.
 
 ---
 
 ## **⚡ Product & Feature Updates**
 
-### Deep Learning Attempts to Infer Tumor Characteristics From Brain Imaging
+### FDA Lowers HRT Risk Warnings; Longevitix Makes the Case for Lifecycle-Integrated Women's Clinical Systems
 
-HER2 is a critical biomarker for breast cancer treatment decisions, normally requiring pathological testing. This study trained a model on MRI data from 135 breast cancer brain metastasis patients to explore whether imaging could provide clues; with tumor segmentation added, the discrimination metric AUC reached 0.692 — still at an early exploratory stage. The [paper index and abstract](https://papers.cool/arxiv/2610.32774) detail the methodology; this can't be used to replace pathological testing with imaging. 🖥️
+Back in February, the FDA approved label changes for 6 menopause hormone replacement therapy products, removing black-box warnings related to cardiovascular disease, breast cancer, and dementia — 29 companies submitted revisions as required. A black-box warning is the FDA's highest-level safety flag, so this update isn't a new efficacy approval but rather a reclassification of existing evidence. Longevitix, a medical AI platform, used this moment to highlight how women's clinical systems have long lacked "lifecycle-first" integrated design. The platform uses reproductive aging trajectory as clinical context, covering 15 organ systems including cardiovascular, metabolic, and cognitive health. According to [media reports](https://longevity.technology/news/womens-health-built-in-rather-than-bolted-on/), all recommendations require physician review before being surfaced to patients — whether the software actually moves the needle on clinical decision quality remains to be seen. 👩‍⚕️
 
 ---
 
 ## **🧪 Frontier Research**
 
-### How the Aging Liver Loses Its Division of Labor
+### New Findings on How Newly Formed Bone Cells Survive in Bone Matrix
 
-Different zones of the liver handle different metabolic tasks, and aging may scramble that arrangement. Using "spatial transcriptomics," researchers mapped gene activity across mouse livers and observed that from 18 months of age onward, the functional markers in certain zones were already blurring — accompanied by accumulation of senescent cells. The [research report](https://www.fightaging.org/archives/2026/10/cellular-senescence-in-liver-aging/) covers these spatial changes; results come from mice and can't be directly applied to human liver aging. 🫀
+Osteocytes — the cells responsible for maintaining bone strength — have long posed a mystery: how do newly formed ones actually survive inside bone matrix? According to [News-Medical's coverage](https://www.news-medical.net/news/20261026/Researchers-discover-how-faulty-matrix-structure-leads-to-cell-death-in-newly-formed-bone.aspx), researchers found that structural defects in the bone matrix lead to newly formed osteocyte death, a finding that could be relevant to osteoporosis mechanisms. Specific cell or animal models, sample sizes, and the publishing journal are still pending verification — we only have headline and abstract-level information right now, so experimental details and the limits of the conclusions need a look at the full paper. 🦴
 
 ---
 
 ## **◎ Industry Shifts & Personal Impact**
 
-### Biotech Funding Rebounds, But Early-Stage Projects Still Under Pressure
+### Africa's Biopharma Sovereignty Gap: South African Startup Tackles It with Low-Cost Recombinant Proteins
 
-According to [GEN's funding report](https://www.genengnews.com/topics/translational-medicine/stockwatch-investment-banker-talks-u-s-chinese-deals-ipos-and-a-tough-climate-for-startups-seeking-capital/), biotech IPOs in 2026 to date total 27 deals raising $7.776 billion. An IPO is an initial public offering, but a warming capital market doesn't mean easy fundraising for everyone: money is still skewing toward clinical-stage companies, while early discovery and preclinical projects are having a rougher time. This reflects a shift in the funding environment — not proof that any particular longevity technology has been validated. 📈
-
----
-
-## **⌘ Top Open Source Projects**
-
-### sisinflab/STABLE-BAG: Explaining What Drives Brain Age Gap
-
-[STABLE-BAG](https://github.com/sisinflab/STABLE-BAG) is built for neuroimaging research, aiming to explain *which features* drive a "brain age gap" estimate rather than just outputting a single number. It addresses the dependence of SHAP explanations on the reference population, trying to make comparisons more stable. Best suited for researchers with relevant datasets and a Python background; the repo includes synthetic data examples. Estimated gap values are not personal diagnoses and have not been independently validated. 🧩
-
-### Blazeiscoding/sofit: Health Tracking App for Wearables
-
-[sofit](https://github.com/Blazeiscoding/sofit) is an early-stage Expo/React Native app that, per its README, aggregates sleep, exercise load, and recovery data to estimate biological age. It's a good reference for developers exploring how to build on wearable data; supported devices and code details are in the repo. Features and accuracy have no independent evaluation, and the "biological age" figure is a model estimate, not a medical diagnosis. ⌚
+Africa currently imports 99% of its routine vaccines and 70–90% of its biologics — during COVID, Africa was the last region to receive vaccines. South African startup Immobazyme has raised $2.9M in total funding, built around "enzyme immobilization" technology — attaching the enzymes that catalyze reactions to a solid substrate so they can be reused rather than consumed in a single run, cutting the production cost of recombinant proteins and growth factors. According to [GEN's report](https://www.genengnews.com/topics/drug-discovery/south-african-labs-strive-for-africas-biopharma-sovereignty/), the company is currently focused on nutraceuticals, food, and agricultural biotech as near-term commercial entry points (lower regulatory hurdles), with GMP-grade local biologics manufacturing targeted for the late 2030s. The structural gap won't close quickly — Africa lacks GMP biomanufacturers and venture capital is scarce. 🌍
 
 ---
 
 ## **❓ Related Questions**
 
-### Can Early Visual Field Improvement Signals Indicate Treatment Efficacy?
+### ARO-MAPT Reduced Tau Protein — Does That Mean Alzheimer's Now Has an Effective Treatment?
 
-Not yet. Data from 3 patients, over 56 days, with no control group isn't enough to rule out measurement fluctuation or confirm long-term effectiveness. The [trial announcement](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/) is focused on safety and tolerability; efficacy still needs validation through larger follow-up studies. 🔍
+Not yet — and here's why that framing is premature. The current data comes from healthy volunteers, proving only that the drug can cross the blood-brain barrier and reduce tau production at the genetic level. Whether lower tau levels actually translate to slower cognitive decline in Alzheimer's patients requires longer, controlled trials in actual patients before anyone can make that claim. Arrowhead is enrolling early-stage Alzheimer's patients now, with updated data expected in 2027. Check out the [official company announcement](https://arrowheadpharma.com/en-us/newsroom/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a) for trial design details. 🔬

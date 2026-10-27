@@ -6,38 +6,38 @@ sidebar:
 ---
 ## 🏠 About AI Longevity Daily
 
-> **Your daily intel hub for AI + Longevity / Life Extension / Aging Research**
+> **Your daily hub for AI + Longevity / Life Extension / Aging research**
 
-AI Longevity Daily is a daily newsletter platform laser-focused on the intersection of AI + longevity / life extension / aging / biological age / rejuvenation. It's built to help investors, product managers, founders, and students stay sharp on the latest moves in this niche space — faster and smarter. 🚀
+AI Longevity Daily is a daily newsletter platform laser-focused on the intersection of AI + longevity / life extension / aging / biological age / rejuvenation. It's built to help investors, product managers, founders, and students stay on top of the latest developments in this niche field — faster and smarter.
 
 ### 🎯 What We're About
 
-- **Topic**: AI Longevity Science — covering longevity, life extension, aging, biological age, and rejuvenation
-- **Audience**: Investors, product managers, founders, and students who geek out on AI + longevity / aging research
-- **Vibe**: Professional but approachable — like that one well-connected friend who always knows what's happening in the industry
+- **Topic**: AI Longevity Science, covering longevity, life extension, aging, biological age, and rejuvenation
+- **Audience**: Investors, product managers, founders, and students interested in AI + longevity / aging research
+- **Vibe**: Professional but approachable — like a knowledgeable friend sharing industry intel
 
 ### ⭐ What We Cover
 
-AI Longevity Daily auto-aggregates the freshest developments in the field every single day: 📡
+Every day, AI Longevity Daily auto-aggregates the freshest developments across the field: 🗞️
 
 #### 🧬 Core Coverage Areas
 
 - **🧬 Longevity Research**: Healthspan, lifespan extension, longevity biology
 - **🕰️ Aging Mechanisms**: Cellular senescence, mitochondria, autophagy, telomeres, epigenetic clocks
 - **💊 Life Extension Interventions**: Anti-aging drugs, senolytic therapies, biological age interventions, rejuvenation strategies
-- **🤖 AI-Driven Drug Discovery for Longevity**: Drug screening, molecular generation, target prediction, platform models
-- **📊 Biological Age & Biomarkers**: Biological age clocks, age-related biomarkers, aging assessment
+- **🤖 AI-Driven Longevity Drug Discovery**: Drug screening, molecular generation, target prediction, platform models
+- **📊 Biological Age & Biomarkers**: Biological age clocks, age-related biomarkers, aging assessment tools
 - **🔬 Tools & Platforms**: Data platforms, models, and open-source tools serving longevity / aging research
 
-#### 📡 What We Pull From
+#### 📡 Content Sources
 
 - 🔥 Hot industry news
 - 📦 Open-source project discoveries
 - 📄 Cutting-edge academic papers
-- 💬 Expert takes from industry voices
-- 🚀 Product and feature updates
+- 💬 Expert opinions & commentary
+- 🚀 Product & feature updates
 
-Everything is automatically scraped, generated, and published by **CloudFlare Workers + AI** — keeping it timely and comprehensive. ⚡
+All content is automatically scraped, generated, and published via **CloudFlare Workers + AI** — keeping things timely and comprehensive. ⚡
 
 ### 🔗 Get in Touch
 
@@ -47,4 +47,4 @@ Everything is automatically scraped, generated, and published by **CloudFlare Wo
 
 ---
 
-**AI Longevity Daily — your fastest way to stay on top of the latest breakthroughs in AI + longevity / life extension / aging research. 🧬✨**
+**AI Longevity Daily — your fastest way to make sense of the latest in AI + longevity / life extension / aging research. 🧬✨**
