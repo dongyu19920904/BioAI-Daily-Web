@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/28'
+title: 'AI生命延续学日报 2026/10/29'
 breadcrumbs: false
-next: /2026-10/2026-10-28
-description: '2026-10-28 AI生命延续学日报：ARDD 2026：司美格鲁肽同类药物 72 周后多个生物年龄时钟出现下降；帕金森细胞疗法 9 名患者平均每天多出 5 小时症状控制时间；减肥药伴随的肌肉流失问题：NAMPT 激活剂试验完成半数入组。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-10/2026-10-29
+description: '2026-10-29 AI生命延续学日报：单基因过表达让老鼠衰弱减少44%、中位寿命延长14%；帕金森病首位患者接受 MTX325 给药，靶向线粒体清除；AI 模型从常规 CT 扫描中识别出 351 类疾病关联信号。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,81 +11,85 @@ cascade:
 ## **今日摘要**
 
 ```
-减肥药替泽帕肽72周治疗后多个生物年龄时钟读数较基线下降
-帕金森细胞疗法早期人体试验中患者每天症状受控时间明显增加
-生物年龄时钟读数下降不等于真实衰老减缓，需与临床终点对照验证
+哈佛团队发现一个调控蛋白过表达后，老龄小鼠衰弱减少、中位寿命延长。
+一种口服帕金森病药物在英国完成首例人体早期试验给药，目标是验证生物学信号而非改善症状。
+小鼠研究结果能否适用于人体仍未知，当前人体试验也尚未评估实际症状改善。
 ```
 
-## **🔥 今日焦点 TOP 6**
+## **🔥 今日焦点 TOP 8**
 
-### 1. ARDD 2026：司美格鲁肽同类药物 72 周后多个生物年龄时钟出现下降
+### 1. 单基因过表达让老鼠衰弱减少44%、中位寿命延长14%
 
-Eli Lilly 的 Kevin Duffin 在 ARDD 2026 上报告，SURMOUNT-5 试验选取 50 至 80 岁肥胖参与者，经过 72 周的替泽帕肽（tirzepatide，一种同时激活 GLP-1 和 GIP 两个降糖信号的减肥药）治疗，多个基于 DNA 甲基化的"生物年龄时钟"——即通过化学修饰估算细胞实际老化程度的指标——不仅增速慢于实际年龄，部分时钟的读数甚至低于基线。器官特异性时钟还显示心脏、肾脏、肝脏和免疫系统均有估算年龄下降，与已知临床终点方向一致。不过 Duffin 本人也指出，这些益处可能主要来自体重减轻和血糖改善，生物年龄估算数值本身无法直接等同于真实衰老减缓；[完整演讲细节见 Lifespan.io 报道](https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs/)。
+哈佛医学院的研究团队在《Nature Aging》发表研究，找到了一个名为 SRSF1 的 RNA 剪接因子——细胞在读取基因信息时负责"拼接"的调控蛋白——作为潜在的返老还童靶点。研究者先训练了一个基于 1 至 96 岁人类皮肤细胞基因表达的机器学习衰老时钟，用它筛选了一批与人类衰老网络相关的基因，发现 SRSF1 过表达的效果堪比目前最著名的重编程组合（OSKM），却不像后者那样让细胞丢失自身身份。在老龄小鼠中，通过病毒载体诱导 SRSF1 表达后，每组 9-10 只雌性小鼠的衰弱程度降低了 44%，中位寿命延长 14%。目前病毒载体只靶向肝脏，全身效果有限，剂量和时机的精确控制也尚待研究；从小鼠到人体疗法还需经历很长的开发路程，据 [Lifespan.io 的报道](https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/)可进一步了解试验设计与分子机制细节。
 
-[![来源配图：ARDD 2026: Traditional Biology to AI-Driven Breakthroughs](https://lifespan.io/wp-content/uploads/2026/10/ARDD2026-262x187.png)](https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs/)
+[![来源配图：Rejuvenation Factor Extends Lifespan and Healthspan in Mice](https://lifespan.io/wp-content/uploads/2026/10/RNA-DNA-Interaction-262x187.jpg)](https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/)
 
-### 2. 帕金森细胞疗法 9 名患者平均每天多出 5 小时症状控制时间
+### 2. 帕金森病首位患者接受 MTX325 给药，靶向线粒体清除
 
-XellSmart 在国际运动障碍大会上报告，其现货型细胞疗法 XS411 完成 Phase I 数据读出：9 名病程约十年的中重度帕金森患者在单次移植六个月后，平均每天症状受控且无异常不随意运动的"有效时间"增加超过五小时，医生评定的运动评分平均改善超过 30 分。XS411 以诱导多能干细胞制成多巴胺神经元，设计上无需供受体免疫匹配，以标准免疫抑制方案替代。¹⁸F-DOPA PET 扫描显示移植部位多巴胺合成活性上升，支持细胞存活的解读。9 人无对照、所有人知晓接受治疗，目前 30 人盲法评分的 Phase II 已完成入组，真正的有效性比较要等那批数据；[媒体报道及公司公告见 Longevity.Technology](https://longevity.technology/news/xellsmarts-parkinsons-cell-shot-adds-5-good-hours-a-day/)。
+Mission Therapeutics 宣布在英国利物浦皇家大学医院完成帕金森病 1b 期临床试验的首例给药。MTX325 是一种口服、可穿透血脑屏障的 USP30 抑制剂，USP30 是阻止细胞清除损坏线粒体（细胞的"能量工厂"）的一道"刹车"，抑制它能促进受损线粒体的清除。该试验计划在英国、欧洲和澳大利亚共纳入 36 名轻至中度患者，目标是验证药物在人体内能否产生与动物实验相符的生物学变化，并不直接评估症状改善；数据读取预计在 2027 年底。早期动物实验和健康志愿者的 1a 期研究已提示药物可进入脑组织，但从安全性信号到帕金森症状改善还有很大距离，详情见 [Longevity.Technology 的报道](https://longevity.technology/news/first-parkinsons-patient-dosed-with-usp30-inhibitor/)。
 
-![XS411 ¹⁸F-DOPA PET 扫描显示移植部位多巴胺合成活性上升](https://longevity.technology/wp-content/uploads/2026/10/XellSmart-MDSCongress-meeting-1024x639.jpg)
+[![来源配图：First Parkinson’s patient dosed with USP30 inhibitor](https://longevity.technology/wp-content/uploads/2026/10/first-parkinsons-patient-dosed-with-usp30-inhibitor-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/first-parkinsons-patient-dosed-with-usp30-inhibitor/)
 
-### 3. 减肥药伴随的肌肉流失问题：NAMPT 激活剂试验完成半数入组
+### 3. AI 模型从常规 CT 扫描中识别出 351 类疾病关联信号
 
-司美格鲁肽等 GLP-1 减肥药在减脂的同时会带走部分肌肉，老年人肌肉储量本就有限，这是该类药物的一个已知短板。Sironax 正在测试的 SIR4156 是一种激活 NAMPT 酶——即细胞内自产 NAD+ 的一个关键合成步骤——的口服药物。其全球 Phase 2 FORGE-LM 试验（司美格鲁肽联合 SIR4156 对比安慰剂）已完成约 50% 入组，主要终点是体脂和体成分，肌肉量列为次要终点。鼠源数据显示优先减脂、保留瘦体重，但人体数据尚未公布，前临床结果不能直接预测临床结局；[媒体报道见 Longevity.Technology](https://longevity.technology/news/can-an-nad-booster-protect-muscle-on-semaglutide/)。
+宾夕法尼亚大学团队在《npj Digital Medicine》发表研究，开发了视觉-语言模型 Percival——一类同时理解图像和文字的 AI——在 52,000 名参与者、超 40 万份 CT 扫描与放射科报告配对数据上训练，发现扫描图像的数字特征与 351 类诊断存在统计关联，且对心衰、肝硬化、急性肾衰竭的未来发病预测优于仅使用年龄、性别或器官测量值的模型。但研究也指出，CT 图像特征与这些疾病相关，并不等于能准确测出血液指标，部分"预测到的"未来诊断可能是成像时已存在但尚未记录的疾病；研究也未与放射科医生做直接对比，据 [Lifespan.io 的报道](https://lifespan.io/ai-extracts-broader-health-insights-from-routine-ct-scans/)可了解更多评测细节。
 
-[![来源配图：Can an NAD+ booster protect muscle on semaglutide?](https://longevity.technology/wp-content/uploads/2026/10/can-an-nad-booster-protect-muscle-on-semaglutide-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/can-an-nad-booster-protect-muscle-on-semaglutide/)
+[![来源配图：AI Extracts Broader Health Insights From Routine CT Scans](https://lifespan.io/wp-content/uploads/2026/10/CT-Scan-Robot-262x187.jpg)](https://lifespan.io/ai-extracts-broader-health-insights-from-routine-ct-scans/)
 
-### 4. GlycoWeave：蛋白质-糖链结合结构预测准确率大幅超越 AlphaFold 3
+### 4. 可编程细胞删除回路让类器官血管保留量提升
 
-细胞表面和分泌蛋白普遍附着糖链，糖链的形态直接影响免疫识别、病毒入侵和药物结合，但因其结构极度灵活，现有工具预测效果差。据[论文索引/摘要](https://papers.cool/arxiv/2610.37410)，GlycoWeave 采用扩散模型框架，在 698 个蛋白质-糖链复合物基准上 Top-25 高质量预测成功率达 71.9%，而 AlphaFold 3 为 19.2%，且每个姿态采样仅需 0.34 秒。关键在于它在"内坐标空间"操作，保留了糖链固有的连接方式和立体化学约束，避免生成化学上不合理的结构。工具已开放访问，可在 [cadd.zju.edu.cn/glycoweave](https://cadd.zju.edu.cn/glycoweave) 试用，但基准性能不等于在所有未见靶点上均能达到同等准确率。
+匹兹堡大学团队在《Cell Stem Cell》发表研究，构建了名为 SynBITE 的基因回路，能在类器官——实验室培育的微型仿真器官——发育过程中原位清除不需要的未成熟细胞，而不需要先拆散组织再重组。这解决了一个沉默的代价：传统纯化方式会破坏已形成的血管网络，而原位删除后血管长度多保留约 23%、血管节点数多保留约 122%。结合 CRISPR 激活，处理后的肝脏类器官药物代谢活性达到原代肝细胞的约 60%，对照未诱导凋亡的约 20%。研究者也提到，类似的减法逻辑未来可能用于清除活体组织中衰老细胞，但这目前仍在概念阶段；该回路的核心元件借自 CAR-T 疗法的安全开关，但此处作用更核心，详见[《Cell Stem Cell》原文摘要](https://www.sciencedirect.com/science/article/abs/pii/S1934590926003796)。
 
-### 5. 血管内壁细胞老化全图谱首次绘制完成
+### 5. GLP-1 用药者配合数字健康辅导，12 周后肌肉占比高于对照
 
-奥地利科学院分子医学研究中心 Laura de Rooij 团队领衔，联合国际研究机构构建了"人类衰老内皮细胞图谱"——内皮细胞是覆盖全身血管内壁的一层细胞，其功能下降与动脉硬化、器官衰竭密切相关。这是第一份覆盖人一生各年龄段血管内皮变化的综合参考图谱，为研究者提供了查询特定血管老化特征的公共资源。[据 News-Medical 报道](https://www.news-medical.net/news/20261027/First-human-endothelial-cell-atlas-maps-how-blood-vessels-age.aspx)，具体样本量、数据集规模和图谱的在线获取方式待核查原始论文。
+Omada Health 在同行评审期刊《Diabetes, Obesity and Metabolism》发表研究，追踪了 245 名在 8 周内开始使用 GLP-1 类减重药的肥胖成人，其中 151 人参加了 Omada 的 GLP-1 配套项目，94 人接受常规护理。12 周后，项目参与者体重平均下降 6.0%，常规护理组为 3.3%；肌肉占总体重的比例前者增加 0.6 个百分点，后者增加 0.2 个百分点。体脂百分比差异相对明显（−3.3% 对 −1.6%）。研究由 Omada 自有实验室完成，观察期仅 12 周，肌肉差值本身也较小，且使用家用生物电阻抗秤测量（精度低于临床影像），6 个月以上的效果尚不明确，详情见 [Longevity.Technology 的报道](https://longevity.technology/news/glp-1-users-on-omadas-program-gained-muscle-share/)。
 
-### 6. 牛皮癣小型人体试验：泛酸胺联合外用药 12 周后症状改善
+[![来源配图：GLP-1 users on Omada’s program gained muscle share](https://longevity.technology/wp-content/uploads/2026/10/glp-1-users-on-omadas-program-gained-muscle-share-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/glp-1-users-on-omadas-program-gained-muscle-share/)
 
-据[GEN 报道](https://www.genengnews.com/topics/drug-discovery/vitamin-derivative-pantethine-alleviates-psoriasis-symptoms-in-small-human-trial/)，北京国家生物医学分析中心团队在《实验医学杂志》发表研究，发现牛皮癣患者树突状细胞（一种协调免疫应答的细胞）中 Vanin 酶活性升高，导致泛酸胺（维生素 B5 的前体，也是常见的降胆固醇营养补充剂）水平下降，进而促进胆固醇积累和免疫过度激活。24 名患者试验中，在外用药基础上加用口服泛酸胺的 12 人组 12 周后症状改善更明显，尤其是初始胆固醇偏高者。这是样本量极小的概念验证试验，研究者本人强调不能作为直接的机制验证，对人体的实际疗效尚需更大规模试验确认。
+### 6. 神经胶质细胞"未成熟"比例与老龄认知下降存在关联
 
-[![来源配图：Vitamin Derivative Pantethine Alleviates Psoriasis Symptoms in Small Human Trial](https://www.genengnews.com/wp-content/uploads/2026/10/Low-Res_Cao_et_al-300x165.jpg)](https://www.genengnews.com/topics/drug-discovery/vitamin-derivative-pantethine-alleviates-psoriasis-symptoms-in-small-human-trial/)
+发表于《fightaging.org》引用的一项开放获取研究，分析了接受癫痫手术的患者的海马脑组织，发现一种名为 Dcx+ 未成熟星形胶质细胞（传统上被认为是神经元的辅助细胞，但近年发现也主动参与学习和记忆调节）的数量，与患者流体智力——即解决新问题的灵活推理能力——的年龄相关下降程度有统计关联。这是一项相关性研究，来自癫痫患者群体，其脑老化本身比普通人更快，机制尚不明确，还不能说明对非癫痫人群也成立，据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/age-related-decline-in-fluid-intelligence-correlates-with-the-presence-of-immature-astroglia/)可了解研究框架。
 
----
+### 7. Seragy 获 1340 万美元融资，开发蛋白聚集物"分型"检测平台
 
-## **⚡ 产品与功能更新**
+德国汉诺威公司 Seragy 于 10 月 14 日宣布完成约 1340 万美元（1200 万欧元）融资，用于扩充实验室和团队，推进其 SeRAS 检测平台。蛋白聚集物是阿尔茨海默病、帕金森病和 ALS 的核心病理特征，现有检测多只能给出"有/无"的二元答案，而 SeRAS 旨在通过高灵敏度光学与自动化算法为每份样品生成"分子指纹"，区分不同亚型。该公司已获迈克尔·J·福克斯基金会的额外资助，用于帕金森病相关测试的研发。目前公告中没有临床性能数据，平台仍在开发阶段，主要服务对象是药物研发公司而非患者个人，详见 [Longevity.Technology 的报道](https://longevity.technology/news/seragy-raises-13-4m-for-protein-clumps/)。
 
-### Rapalogix 面部精华双盲试验：47 名女性 12 周皮肤弹性改善 21%
+### 8. Beacon Biosignals 收购家用睡眠检测公司，计划 2027 年引入脑电监测
 
-Rapalogix Health 将 TOR 通路（一条控制细胞生长和衰老节律的信号路径，因研究延寿药物雷帕霉素而广为人知）的调控应用于护肤，其活性成分 RLX-201 已发表于 Journal of Cosmetic Dermatology。试验对 47 名 35 至 65 岁女性随机双盲分组，31 人用含 RLX-201 的精华，16 人用不含活性成分的对照基底，12 周后真品组医生评定的皮肤紧致度和细纹改善 21%，弹性仪器测量在第 8 周达峰并维持至第 12 周。报告未公布对照组的同期变化数据，因此两组间的实际差距无法直接计算；公司联合创始人参与论文署名，目前属于公司主导的小样本结果，[原始发布见媒体报道](https://longevity.technology/news/rapalogix-tests-longevity-face-serum-on-47-women/)，产品已在美国皮肤科诊所销售，但商业上市不等于疗效获批。
+Beacon Biosignals 宣布收购面向全美患者的家用睡眠检测提供商 Snap Diagnostics，公司称此举使其患者覆盖量增加逾一倍。Beacon 本身的核心技术是脑电图（EEG）——直接记录大脑电活动、而非通过心率或运动间接推断睡眠——已获 FDA 510(k) 许可，目前主要用于药物临床试验。此次收购意在以 Snap 的初级医疗渠道为入口，计划 2027 年将 EEG 家用检测推向更多患者。公告中提到 EEG 在未来"有潜力"用于神经退行性疾病的早期识别，但目前没有任何数据支持这一预测，EEG 家用检测的定价和适用患者范围也尚未公布，可阅读 [Longevity.Technology 的报道](https://longevity.technology/news/beacon-buys-snap-to-bring-eeg-to-home-sleep-tests/)了解收购结构。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 血浆蛋白或可同时反映生物年龄和死亡风险
+### 低氧吸入对帕金森病炎症标志物的初步探索
 
-据 [News-Medical 报道](https://www.news-medical.net/news/20261027/Plasma-proteins-offer-clues-to-biological-aging-and-mortality-risk.aspx)，发表于 Geromedicine 的新研究在老年人群中识别出 17 种与全因死亡率相关的血浆蛋白，其中部分蛋白还与多个器官系统的生物年龄指标同步变化。这类发现的意义在于：如果同一批蛋白既预示死亡风险又追踪多器官老化状态，未来可能成为衰老干预研究的复合监测工具。目前仅为摘要层面信息，具体样本量、人群特征和蛋白名称待核查原文。
+巴西圣保罗州立大学（UNESP）的一项初步研究显示，短时间、受控地呼吸低氧空气（类似高山环境的含氧量）对帕金森病患者是安全的、不干扰睡眠，并且能调节与炎症相关的激素和生物标志物。研究者将其视为未来作为帕金森病辅助疗法研究的起点。目前只有初步结果，具体样本量和干预数据待原文核查，据 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-10-inhalation-thin-air-alleviate-parkinson.html)可了解研究背景。
 
-### AMARO v2.0：粗粒度神经网络势函数覆盖蛋白质-药物复合物动力学模拟
+---
 
-计算药物设计中，直接模拟蛋白质与药物分子在水中如何运动需要极大算力，而简化版模型（粗粒度模型）往往丢失化学细节。据[论文索引/摘要](https://papers.cool/arxiv/2610.37606)，AMARO v2.0 保留所有重原子并隐式处理溶剂，在 262 个复合物（11 个靶点）上覆盖蛋白质、药物和三元复合物，在固定 GPU 时间内找到结合姿态的轨迹数是全原子方法的 3.3 倍。SHP2 和 CDK8 体系仍暴露出结合位点特异性不足的局限，结合自由能估算值也比实验参考值偏优，需要进一步校正。
+## **◎ 行业变化与个人影响**
+
+### 登革热人体挑战试验揭示二次感染免疫动态
+
+GEN 报道，发表于《Science Translational Medicine》的一项 1 期临床研究，招募了 45 名有不同登革病毒既往感染史的健康成人，向他们注射减毒活 DENV3 株，系统观察既有免疫力如何影响二次感染过程。登革病毒二次感染往往比首次更严重，此前缺乏人体直接数据。研究发现，基线抗体对病毒复制有增强作用的人群病毒量最高，而针对非结构蛋白 NS1 的高水平抗体与更均衡的免疫反应和较低病毒量相关。这一发现对设计覆盖四种血清型的广谱疫苗具有参考价值，但参与者为健康志愿者，能否代表真实流行病学中的易感人群尚需进一步研究，详见 [GEN 的报道](https://www.genengnews.com/topics/infectious-diseases/human-dengue-study-reveals-how-preexisting-immunity-shapes-secondary-infections/)。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### limitlessprojects/ClockBench：跨平台表观遗传衰老时钟中立基准测试工具
+### HigginsChenLab/methylCIPHER：一个 R 包，整合多种表观遗传衰老时钟算法
 
-表观遗传衰老时钟（通过 DNA 甲基化模式估算生物年龄的算法）在不同软件包中实现时，对同一样本给出的年龄估算可能出入较大，这让不同研究的结果难以直接比较。[ClockBench](https://github.com/limitlessprojects/ClockBench) 的目标是建立一个持续维护、对数据泄露（训练集与测试集混用）保持警惕的中立基准，让研究者能用相同数据比较不同时钟实现的差异。适合需要选用或验证生物年龄时钟的生物信息学研究者。仓库描述中未提供示例数据集或运行环境要求，具体使用条件需查阅 README；项目目前为 1 星，处于早期阶段。
+[methylCIPHER](https://github.com/HigginsChenLab/methylCIPHER) 是一个面向生物信息学研究者的 R 包，能够批量计算多种主流表观遗传衰老时钟——基于 DNA 甲基化（一种不改变基因序列、但影响基因开关的化学修饰）估算生物年龄的算法——包括 PC 时钟、SystemsAge、CausalAge 和 DunedinPACE 等。适合需要在同一数据集上横向比较多种时钟结果的研究者，仓库 README 可作为了解各时钟原理的起点。目前有 27 个 Star，最近活跃于 2026 年 10 月。
 
-### hbc/app\_mavrikaki\_brain\_aging\_spatialtx\_human\_hbc05086：人脑衰老空间转录组数据可视化应用
+### shayanmostafaei/Omics_ADRD_Integrated_Modeling：用多组学数据预测阿尔茨海默病风险
 
-空间转录组学是一种可以同时记录基因在组织切片中"哪里表达、表达多少"的技术，近年开始用于绘制大脑衰老的细胞地图。[该仓库](https://github.com/hbc/app_mavrikaki_brain_aging_spatialtx_human_hbc05086)基于 Vitessce（一个用于可视化多模态单细胞和空间组学数据的开放框架）构建，关联人脑衰老空间转录组数据集。适合研究大脑衰老的生物信息学人员探索该数据。仓库描述极简，具体数据来源、访问权限及运行依赖需查阅仓库内文件；项目 1 星，运行状态待核查。
+[Omics_ADRD_Integrated_Modeling](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling) 提供 R 和 Python 代码，结合多组学生物衰老时钟、多基因风险评分（PRS，汇总大量遗传变异对疾病风险贡献的指标）和机器学习，基于英国生物银行数据对阿尔茨海默病及相关痴呆（ADRD）进行生存分析和竞争风险建模。适合有生物信息学基础、希望用真实队列数据练习整合建模的研究者。仓库描述未说明当前运行状态，使用前建议核查依赖环境。
 
 ---
 
 ## **❓ 相关问题**
 
-### 生物年龄时钟显示"下降"，是否意味着真的变年轻了？
+### SRSF1 研究中的"衰老时钟"与常用的表观遗传时钟有什么不同？
 
-不能这样解读。生物年龄时钟（无论基于 DNA 甲基化还是蛋白质组）是统计估算工具，反映的是样本与训练集参考人群的相似程度，单次读数下降意味着某些分子特征变得更像更年轻的参考群体，但不等于细胞损伤被修复或寿命延长。本期 SURMOUNT-5 和 rentosertib 两项研究都明确指出，时钟数值变化是生物标志物信号，需要与临床终点（如疾病发生率、死亡率）对照验证才有意义；Duffin 本人将这种标志物与临床数据方向一致视为"我们想看到的"，而非证明。[两项数据来源均见 Lifespan.io 的 ARDD 2026 报道](https://lifespan.io/ardd-2026-traditional-biology-to-ai-driven-breakthroughs/)。
+常用的表观遗传衰老时钟（如 Horvath 时钟）通过检测 DNA 甲基化程度来估算生物年龄，成本较高且难以快速筛选大量基因。这项研究用的是基于基因表达（即细胞当前激活了哪些基因）的转录组衰老时钟，变化更快、更灵敏，更适合高通量筛选——研究者正是用它在人类皮肤细胞中筛选出了 SRSF1。两种时钟衡量的是衰老的不同层面，不能互相替代。原文数据可在 [Lifespan.io 的报道](https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/)中进一步了解。
