@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-28",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-10/2026-10-28/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_b584a90843106350",
+      "report_date": "2026-10-28",
+      "report_section": "opportunity",
+      "title": "表观遗传时钟工具导航:内容选题 + 对比资料包的低成本验证窗口",
+      "source_urls": [
+        "https://github.com/limitlessprojects/ClockBench"
+      ],
+      "source_verified": false,
+      "state": "needs_repository_check",
+      "state_reason": "已提取仓库链接；尚未核验许可证、数据和可运行性",
+      "target_user": "关注表观遗传检测、生物年龄话题的中文内容读者(健康/科技博主、关注衰老时钟概念的可穿戴设备用户);以及对 AI + 生物信息工具感兴趣的开发者读者。付费意愿完全未验证。",
+      "demand_claim": null,
+      "demand_verified": false,
+      "deliverable_hint": "衰老时钟工具导航对比表(列出现有主要时钟算法、两个开源项目的已有描述、公开可用入口),配一篇\"衰老时钟测的到底是什么\"解释文章",
+      "suggested_route": "open_source_adaptation",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "72 小时内获得 ≥30 次真实阅读 + ≥5 条保存/收藏,或至少 1 条询问\"在哪里能做/哪个工具好用\"的评论,才值得继续做资料包",
+        "stop_condition": "72 小时内阅读 <30、零询问、零收藏,停止在此方向投入,不把\"发了\"误认为\"有需求\"",
+        "upgrade_path": "免费对比表 → 低价资料包(衰老时钟工具盘点 + 中文解读)→ 社群/会员(定期更新表观遗传检测进展)→ 轻咨询(帮读者理解检测报告逻辑,信息整理性质,不能做个人健康判断)"
+      },
+      "repository_metadata": null
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_b584a90843106350:inspect_repository",
+      "opportunity_id": "opp_b584a90843106350",
+      "kind": "inspect_repository",
+      "status": "pending_automation",
+      "description_zh": "自动核查仓库许可证、数据入口、依赖、维护状态和试跑条件",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_b584a90843106350:validate_demand",
+      "opportunity_id": "opp_b584a90843106350",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
