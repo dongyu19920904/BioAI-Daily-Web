@@ -2,22 +2,61 @@
 linkTitle: '项目商机'
 title: 'AI生命延续学资讯商机项目'
 breadcrumbs: false
-description: '2026-10-27 AI生命延续学资讯商机项目：今日动作。包含试跑入口、复用资产、维护成本与风险边界。'
+description: '2026-10-29 AI生命延续学资讯商机项目：HigginsChenLab/methylCIPHER；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
 cascade:
   type: docs
-next: /project-opportunity/2026-10/2026-10-27/
+next: /project-opportunity/2026-10/2026-10-29/
 ---
 
 ## 先看结论（可引用项目判断）
 
-- 2026-10-27 的自动筛选未形成可核查的优先项目；这不代表该领域没有项目，也不是需求或收益判断。
+- HigginsChenLab/methylCIPHER（https://github.com/HigginsChenLab/methylCIPHER）：R 包，集成 PC clocks、SystemsAge、CausalAge、DunedinPACE 等表观遗传时钟算法，来自学术实验室。今天可访问仓库确认安装步骤，适合长寿内容读者和生信学习者。许可证、数据入口和完整依赖待核查；README 自述不等于独立试跑验证。
+
+- Lifespan.io 报道的 SRSF1 研究（https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/）：小鼠和体外细胞实验，属早期基础研究阶段。非可运行项目，仅作为研究动态参考。
 
 ## 今日优先项目
 
-**今日无符合筛选标准的项目**
-本次生成草稿未通过安全与来源门禁，原草稿已丢弃；今天不据此推荐项目、个人健康判断工具或付费服务。
+### HigginsChenLab/methylCIPHER
+
+表观遗传时钟是 AI 生命延续学的核心数据方向之一。该 R 包集成多种主流时钟算法，来自学术实验室，27 stars，10 月 16 日有活动记录。适合整理为时钟算法对比资料库条目或试跑教程素材。
+
+- 证据来源：GitHub 仓库 https://github.com/HigginsChenLab/methylCIPHER ；GitHub Trending 信号；最近活动 2026-10-16；来源类型为项目仓库；证据阶段为公开代码仓库，未经独立试跑
+- 可信度：中
+- 目标鱼塘：长寿内容读者、生信学习者、可穿戴数据分析爱好者
+- 它解决什么问题：统一计算多种表观遗传时钟，减少逐个实现算法的重复工作
+- 试跑门槛：中——需要 R 环境，可能依赖 Bioconductor 包和甲基化数据集；具体依赖和数据入口待核查
+- 许可证与数据：许可证待核查，数据入口待核查，商用限制待核查
+- 维护成本：中——R 包安装门槛不高，但甲基化数据获取可能需要受控访问权限，长期维护依赖上游算法更新
+- 可做成什么：时钟算法对比表 / 资料库条目 / 试跑教程
+- 可交付物：README 试跑笔记 + 表观遗传时钟算法对比表
+- 最低成本验证：今天访问仓库确认 LICENSE 和 README 安装说明，记录 3 条要点
+- 成功指标：24 小时内能确认许可证、安装方式、是否提供示例数据；对比表至少覆盖 4 种时钟算法的输入要求和适用场景
+- 停止条件：无明确许可证、依赖不可控数据源、安装报错无法解决
+- 二次开发路径：可整理成表观遗传时钟导航资料库条目，后续做成 R/Python 试跑教程
+- 售后或合规风险：低
+- 合规边界：仅作为研究工具介绍，甲基化时钟的临床有效性未经广泛验证
+- 今天最小动作：访问仓库确认 LICENSE 文件和 README 安装步骤，记录时钟算法名称和用途，整理对比表草稿
+
+## 可二次开发方向
+
+- 表观遗传时钟算法导航资料库：可交付物为对比表（算法名称、输入数据类型、适用场景、原始论文链接）；最低成本验证为今天从 README 和描述中提取 4 种以上时钟的关键参数；后续可扩展成定期更新的时钟算法雷达。
+- 居家睡眠监测 EEG 选题：基于 Beacon 收购 Snap Diagnostics 新闻（https://longevity.technology/news/beacon-buys-snap-to-bring-eeg-to-home-sleep-tests/ ），可交付物为朋友圈/小红书选题草稿；最低成本验证为今天写一条选题角度；后续可做成可穿戴睡眠监测工具导航。研究或新闻事实不构成用户需求或付费验证。
+
+## 值得观察
+
+- IBAR-ROGEN/Aging（https://github.com/IBAR-ROGEN/Aging ）：1 star，10 月 28 日有活动，方向为甲基化衰老时钟和长寿相关变异注释。但 README、许可证、数据入口均待核查，项目极新，暂不适合投入试跑。
+- Seragy 蛋白聚集生物标志物（https://longevity.technology/news/seragy-raises-13-4m-for-protein-clumps/ ）：获 1340 万美元融资，方向覆盖阿尔茨海默病、帕金森和 ALS 的蛋白聚集检测。属行业信号，无公开代码或数据可用，适合作为资料库行业动态条目跟踪。
+
+## 今天别碰
+
+- shayanmostafaei/Omics_ADRD_Integrated_Modeling（https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling ）：依赖 UK Biobank 数据，访问需申请审批，试跑门槛高，普通读者无法复现；许可证和数据授权待核查。
+- SRSF1 研究（https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/ ）：小鼠和体外细胞实验，属早期基础研究，证据阶段不足以支撑任何项目级应用。
+- nopara73/LongevityWorldCup（https://github.com/nopara73/LongevityWorldCup ）：C# 技术栈，许可证和运行环境待核查，生物年龄计算器的科学依据未独立验证，目标鱼塘偏运动场景而非长寿内容读者。
 
 ## 今日动作
 
-- 今天先试跑：暂无推荐；等待可核查的项目来源。
-- 今天先写：只记录筛选未通过，不把研究线索包装为已验证产品。
+- 今天先试跑：访问 methylCIPHER 仓库，确认 LICENSE 和 README 安装步骤
+- 今天先写：表观遗传时钟算法对比表草稿（至少 4 种时钟）
+- 今天先收藏：IBAR-ROGEN/Aging 仓库链接，标记为待观察
+- 今天先做表：PC clocks / SystemsAge / CausalAge / DunedinPACE 的输入数据类型和适用场景对比
+- 今天先避开：SRSF1 小鼠研究相关的任何项目化方向
