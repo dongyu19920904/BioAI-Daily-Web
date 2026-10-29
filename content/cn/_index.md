@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/10/29'
+title: 'AI生命延续学日报 2026/10/30'
 breadcrumbs: false
-next: /2026-10/2026-10-29
-description: '2026-10-29 AI生命延续学日报：单个基因过表达让年老小鼠虚弱程度降低44%，寿命中位数延长14%；帕金森病一期临床试验首次给患者用药，靶向细胞"清垃圾"机制；AI 模型从普通 CT 扫描中关联到 351 种诊断，但直接预测检验值普遍偏弱。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-10/2026-10-30
+description: '2026-10-30 AI生命延续学日报：看似健康的心脏，42.9% 有动脉炎症而血液检测全部漏报；每天不到 42 分钟阳光，与痴呆风险升高的关联超过六项已知因素；近 13,000 人的研究：大量摄入人工甜味剂与记忆力加速下降相关。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,101 +11,101 @@ cascade:
 ## **今日摘要**
 
 ```
-小鼠实验发现重新激活一个沉默基因可改善衰老虚弱并延长寿命。
-帕金森病早期人体试验首次完成给药，目标是确认药物在人体内能否产生预期生物效应。
-两项结论目前均来自动物或早期临床阶段，尚无人体疗效数据支撑。
+低危成年人中近半数被常规血液检测漏报的冠状动脉炎症，只有心脏CT才能发现。
+每天接受明亮阳光不足42分钟，与痴呆风险升高的关联在观察性研究中强于六项已知因素。
+冠状动脉炎症研究来自机构自研、样本构成未披露，且尚无证据证明干预能减少心脏病发作。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 单个基因过表达让年老小鼠虚弱程度降低44%，寿命中位数延长14%
+### 1. 看似健康的心脏，42.9% 有动脉炎症而血液检测全部漏报
 
-据 [Lifespan.io 的报道](https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/)，哈佛医学院 George Church 实验室发表于《Nature Aging》的研究，通过机器学习筛选出一个名叫 SRSF1 的基因——它负责调控 RNA 的剪接加工，随衰老逐渐沉默。研究人员把 SRSF1 重新"打开"注入年老小鼠肝脏，在每组约 9—10 只雌鼠的实验中观察到：虚弱程度下降 44%，伤口愈合加快，中位寿命延长约 14%。与此前用于细胞重编程的山中因子不同，SRSF1 没有让细胞失去自身特征。目前效果只在小鼠肝脏靶向给药的小规模实验中看到，能否外推到人体、最优剂量与给药时机均有待研究。
+预防健康机构 Biograph [公布了一项机构内研究](https://longevity.technology/news/inflamed-heart-arteries-in-42-9-of-low-risk-adults/)：对被传统风险评估归为"低危"的无症状成年人，用 AI 分析冠状动脉 CT 扫描（一种常规心脏成像），测量动脉周围组织的炎症程度。结果 42.9% 的人存在炎症升高，其中 17.9% 在至少一条主要冠状动脉旁炎症极高；更值得注意的是，约 47% 炎症升高的人在 CT 上完全看不到斑块。用于对比的胆固醇指标、血糖、通用炎症标志物（hs-CRP，一种反映全身炎症的血液指标），以及美国心脏协会风险评估模型，均无法识别这批人。研究参与者均为同一家诊所会员，公告未披露总人数，且机构既是研究者也是检测服务提供方；动脉周围炎症是一个预警信号，目前尚无证据证明对其干预能减少心脏病发作。
 
-[![来源配图：Rejuvenation Factor Extends Lifespan and Healthspan in Mice](https://lifespan.io/wp-content/uploads/2026/10/RNA-DNA-Interaction-262x187.jpg)](https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/)
+![心脏CT炎症检测示意](https://longevity.technology/wp-content/uploads/2026/10/Inflamed-heart-arteries-in-42.9-of-low-risk-adults-courtesy-of-Biograph-1024x576.jpg)
 
-### 2. 帕金森病一期临床试验首次给患者用药，靶向细胞"清垃圾"机制
+---
 
-Mission Therapeutics 宣布在英国利物浦皇家大学医院完成首例帕金森患者给药，据[公司官方公告](https://missiontherapeutics.com/mission-therapeutics-doses-first-parkinsons-patient-in-phase-1b-study-of-potential-disease-modifying-treatment-mtx325/)，试验药物 MTX325 是一种可口服、能穿透血脑屏障的 USP30 抑制剂——USP30 是线粒体上的一个"刹车"酶，抑制它可以加快细胞清除受损线粒体（即"线粒体自噬"）。此次 Phase 1b 共计划入组 36 名轻中度帕金森患者，目标是确认该药在人体内是否产生预期的生物学效应，而非评估症状是否改善；2027 年底将有初步数据。线粒体质量下降是衰老的普遍特征，若该机制在人体有效，同样的思路也可能在其他年龄相关疾病中测试。
+### 2. 每天不到 42 分钟阳光，与痴呆风险升高的关联超过六项已知因素
 
-### 3. AI 模型从普通 CT 扫描中关联到 351 种诊断，但直接预测检验值普遍偏弱
+一项纳入超过 87,000 名成年人的观察性研究发现，日间接受更多亮光照射与痴呆风险降低 16% 相关；每天接受明亮阳光不足 42 分钟，其与痴呆关联的预测强度超过了六项已确立的痴呆风险因素，据 [Science Daily 的报道](https://www.sciencedaily.com/releases/2026/10/261028232707.htm)。这是一项相关性研究，不能证明晒太阳本身能预防痴呆，目前具体样本构成、随访时长和研究期刊信息有待从原文核查。
 
-据 [Lifespan.io 的报道](https://lifespan.io/ai-extracts-broader-health-insights-from-routine-ct-scans/)，宾夕法尼亚大学开发的视觉语言模型 Percival，在超过 52,000 名参与者、逾 40 万次 CT 扫描上训练，能将影像与放射科报告配对学习，进而提取与年龄、性别、肾功能、肝功能、血糖脂代谢等相关的信号。研究发现影像嵌入与 351 个诊断类别存在关联，对心力衰竭、肝硬化等未来诊断的预测优于纯影像 AI。但研究明确指出，直接预测实际检验值时表现普遍偏弱（仅白蛋白、血红蛋白、肌酐稍好），且未与真人放射科医生做过比较，也未排除部分"未来诊断"在扫描时已存在的可能，尚不能替代血液检测。
+[![来源配图：Less than 42 minutes of bright daylight linked to higher dementia risk](https://www.sciencedaily.com/images/1920/senior-woman-outside-in-bright-sunlight.webp)](https://www.sciencedaily.com/releases/2026/10/261028232707.htm)
 
-[![来源配图：AI Extracts Broader Health Insights From Routine CT Scans](https://lifespan.io/wp-content/uploads/2026/10/CT-Scan-Robot-262x187.jpg)](https://lifespan.io/ai-extracts-broader-health-insights-from-routine-ct-scans/)
+---
 
-### 4. 可编程细胞删除电路让人工肝脏类器官的药物代谢活性提升至初级肝细胞的约 60%
+### 3. 近 13,000 人的研究：大量摄入人工甜味剂与记忆力加速下降相关
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/the-delete-key-programmable-apoptosis-and-tissue-that-edits-itself/)，匹兹堡大学在《Cell Stem Cell》发表研究，设计了一套名为 SynBITE 的基因逻辑电路——它像一个"删除键"，识别组织中未成熟的、不需要的细胞并触发其死亡（凋亡），同时用 microRNA 信号保住血管内皮细胞不受波及。在肝脏类器官中，这套电路配合 CRISPR 激活后，药物代谢活性达到原代人类肝细胞的约 60%（对照组约 20%），且原位筛选比解离清洗多保留约 23% 的血管长度。研究者亦提出，这种"主动删除老旧细胞"的逻辑未来可能用于衰老干预，但目前仅在培养皿实验中演示，距离体内应用还有递送与定向识别两大障碍。
+据 [Science Daily 报道](https://www.sciencedaily.com/releases/2026/10/261028234238.htm)，一项研究近 13,000 名成年人的分析发现，摄入人工甜味剂最多的人，记忆和思维能力的下降速度比摄入最少者快约 62%，相当于额外老化 1.6 年。六种常见甜味剂均与认知加速下降相关联。研究者明确指出这是相关性，未确立因果关系，期刊来源及详细方法有待从原文核查。
 
-[![来源配图：The delete key: programmable apoptosis and tissue that edits itself](https://longevity.technology/wp-content/uploads/2026/10/the-delete-key-programmable-apoptosis-and-tissue-that-edits-itself-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/the-delete-key-programmable-apoptosis-and-tissue-that-edits-itself/)
+[![来源配图：Six popular sugar substitutes linked to faster brain aging](https://www.sciencedaily.com/images/1920/brain-fire-inflammation-dementia-alzheimers.webp)](https://www.sciencedaily.com/releases/2026/10/261028234238.htm)
 
-### 5. 冷刺激通过肌肉合成的代谢物跨组织传递信号，在线虫中延长寿命
+---
 
-据[《Nature》发表的研究](https://doi.org/10.1038/s41586-026-11152-9)（由 Fight Aging! 报道），适度低温能延长多种物种寿命，但机制一直不清楚。研究在秀丽隐杆线虫（常用模式生物）中发现，低温上调肌肉中一个合成酶的活性，产生代谢物 BH2，BH2 随后运输到肠道和神经元，转化为活性辅因子 BH4，进而促进酪氨酸合成并抑制病理性蛋白聚集，寿命随之延长。值得注意的是，仅在肌肉中增加 BH2 合成，即使在正常温度下也能对远端组织产生保护效果；在人类细胞实验中，BH2 或酪氨酸补充也减少了与亨廷顿病相关的蛋白聚集。目前为线虫和细胞层面的机制研究，能否在哺乳动物中复现有待验证。
+### 4. 猴子实验：联合用药令减重中 93% 为脂肪而非肌肉
 
-### 6. 心脏依靠线粒体中的乳酸通道在压力下维持能量供应，敲除后小鼠加速心衰
+减肥药司美格鲁肽（semaglutide，一类 GLP-1 受体激动剂，通过模拟肠道激素降低食欲来减重）面临的批评之一，是减下来的重量里有相当一部分是肌肉而非纯脂肪。iBio 在一项 8 周非人灵长类研究中测试了其实验性抗体 IBIO-610：单用司美格鲁肽的猴子减重中脂肪占 77%，加上单次 IBIO-610 后这一比例升至 93%，据 [Longevity.Technology 的报道](https://longevity.technology/news/ibios-primate-data-hint-at-muscle-sparing-obesity-add-on/)。每组 6 只动物、仅 8 周，样本量很小；公告未给出两组总减重量的对比；人体首次安全性试验计划于 2027 年上半年启动，动物结果能否在人体重现尚未可知。
 
-据 [GEN 的报道](https://www.genengnews.com/topics/translational-medicine/how-the-heart-stays-strong-with-mct1-dependent-mitochondrial-lactate-import/)，犹他大学在《Nature》发表研究，发现心肌细胞能同时在细胞质中氧化葡萄糖、在线粒体中氧化乳酸，这种"空间分工"有赖于线粒体内膜上的转运蛋白 MCT1——它将乳酸直接送入线粒体作为燃料。在小鼠中敲除 MCT1 后，心脏在应激状态下失去了这条能量通路，心衰发生更快、死亡率更高；而日常安静状态下影响不明显。研究者认为这条通路是心脏的"关键备用系统"，并指出增强乳酸利用可能是心衰治疗的新靶点，但目前结论来自动物模型，人体验证尚未开始。
+[![来源配图：iBio’s primate data hint at muscle-sparing obesity add-on](https://longevity.technology/wp-content/uploads/2026/10/ibios-primate-data-hint-at-muscle-sparing-obesity-add-on-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/ibios-primate-data-hint-at-muscle-sparing-obesity-add-on/)
 
-[![来源配图：How the Heart Stays Strong with MCT1-Dependent Mitochondrial Lactate Import](https://www.genengnews.com/wp-content/uploads/2025/07/GeneTherapy_GettyImages_2101175464_HolographicHumanHeart.jpg)](https://www.genengnews.com/topics/translational-medicine/how-the-heart-stays-strong-with-mct1-dependent-mitochondrial-lactate-import/)
+---
 
-### 7. 三光子显微镜新平台在不切除大脑皮层的情况下，深入 2 mm 记录活鼠神经元活动
+### 5. 脑衰老加速还是减慢？老年人大脑应对睡眠不足比年轻人更有韧性
 
-据 [GEN 的报道](https://www.genengnews.com/topics/translational-medicine/three-photon-microscopy-reveals-neural-activity-deep-in-the-mouse-brain/)，洛克菲勒大学开发的 TrUDI（三光子超深成像）平台发表于《Nature Methods》。三光子显微镜——即用三个光子同时激发荧光分子——比传统两光子方法背景干扰更少，理论上可达更深处，但以往受限于激光功率与组织加热的矛盾，实际深度仅约 1.2 mm。TrUDI 通过计算机模型协调优化激光参数与光学系统，并加入只在扫描到目标细胞时才开启激光的神经元靶向激发方案，检测到的荧光信号约为此前方法的 250 倍，成功在不损伤上覆皮层的情况下以单细胞分辨率记录到约 2 mm 深处的皮层和海马活动。纹状体等更深区域目前仍不可达。
+Simon Fraser University 一项新研究提示，健康老年人的大脑在睡眠不足时，表现下降幅度可能低于年轻人，据 [MedicalXpress 的报道](https://medicalxpress.com/news/2026-10-older-brains-cope-lack.html)。具体实验设计、参与人数和测量方式等细节有待从原文核查；是否能推广至有慢性病或睡眠障碍的老年人尚不清楚。
 
-### 8. 帕金森病与 GLP-1 减重药伴随肌肉流失的问题同日出现新进展
+---
 
-Omada Health 在同行评审期刊《Diabetes, Obesity and Metabolism》发表研究，据 [Longevity.Technology 的报道](https://longevity.technology/news/glp-1-users-on-omadas-program-gained-muscle-share/)，245 名刚开始使用 GLP-1 减重药（一类通过模拟肠道激素抑制食欲的注射药物）的肥胖成人中，151 人加入 Omada 的数字健康辅导项目，94 人接受常规护理。12 周后，辅导组体重下降 6.0%，对照组 3.3%；肌肉占体重比例辅导组上升 0.6%，对照组 0.2%。研究者强调，GLP-1 药物减掉的体重中约 30% 或更多可能来自肌肉，长期保住肌肉量事关体力、代谢与晚年独立生活能力。但该研究由 Omada 自家实验室完成，12 周时间较短，体成分用家用生物电阻抗秤测量（精度不及临床影像），且肌肉百分比差异仅 0.4 个百分点，更长期的效果有待独立验证。
+### 6. 首张成年脊椎动物全身单细胞图谱在透明小鱼中建成
 
-### 9. 癫痫患者海马中"不成熟星形胶质细胞"增多，与认知衰退程度相关
+Whitehead Institute 研究团队在一种仅约 12 毫米长的透明小鱼 Danionella cerebrum 中，对超过 60 万个细胞进行了测序，建成首张完整成年脊椎动物全身单细胞图谱，论文发表于 [Science](https://www.genengnews.com/topics/omics/first-whole-body-single-cell-atlas-of-adult-vertebrate-generated-in-danionella-cerebrum/)。单细胞转录组图谱记录的是每个细胞当下正在使用哪些基因，相当于整个动物体内所有细胞的"工作快照"。图谱揭示了损伤后前脑神经元如何依次经历免疫反应、干细胞激活和新神经元成熟，这一数据集已公开于交互式数据库 DigiFish，为脑再生和衰老研究提供了可查询的参考坐标。目前研究对象为鱼类，相关机制能否平行推断至人脑仍需针对性验证。
 
-据 [Fight Aging! 报道的开放获取研究](https://www.fightaging.org/archives/2026/10/age-related-decline-in-fluid-intelligence-correlates-with-the-presence-of-immature-astroglia/)，研究人员分析了因癫痫接受海马手术患者的脑组织，发现一类在健康对照中几乎检测不到的"未成熟星形胶质细胞"（Dcx+ 细胞）在癫痫海马中随年龄增加，且其数量与流体智力（快速推理和学习新事物的能力）的下降程度存在关联。星形胶质细胞传统上被视为神经元的"支持细胞"，但近年研究表明它也主动调控学习和记忆。这项研究是相关性发现，机制尚不明确，且癫痫患者的脑老化速度本身快于一般人群，结论能否推广到普通人群有待进一步研究。
+---
 
-### 10. 自噬先驱药物候选靶向外周神经损伤修复，生物打印导管在动物模型中促进神经再生
+### 7. 干细胞疗效为何参差不齐？体外扩增期间细胞衰老或是关键因素
 
-据 [Fight Aging! 报道的研究](https://www.fightaging.org/archives/2026/10/electroprinted-conduits-for-peripheral-nerve-regeneration/)，研究团队开发了一种控温细胞电写技术（TCEDW），以负载了施旺细胞（引导神经生长的支持细胞）的生物墨水，打印出分辨率约 36 μm 的神经支架纤维，再结合熔融电写和静电纺丝工艺，制成三层复合神经导管。动物体内实验显示，该导管促进了神经纤维再生、施旺细胞迁移、髓鞘形成和功能恢复。外周神经损伤后跨越大间距再生成功率一直有限，这是向全人工神经导管方向的早期探索，目前为动物实验阶段，临床应用路径尚未明确。
+Fight Aging! 介绍了一篇开放获取论文，讨论影响干细胞疗法质量的隐性问题：[细胞在体外培养扩增阶段可能大量进入衰老状态](https://www.fightaging.org/archives/2026/10/aspects-of-stem-cell-biology-that-impair-the-quality-of-stem-cell-therapies/)（衰老细胞是指失去分裂能力、却持续释放促炎信号的细胞），进而影响注射给患者的细胞质量。论文特别指出，神经干细胞衰老时会在分泌物中积累有毒蛋白，可能在受体细胞中引发连锁的次级衰老。作者建议将衰老程度检测和细胞外囊泡蛋白组分析纳入干细胞生产标准，但临床可行性和规模化路径仍需进一步研究。
+
+---
+
+### 8. 美国 FDA 批准软雾吸入器试验，靶向 COPD 合并肺动脉高压
+
+United Therapeutics 获 FDA 批准，可在约 40 名患者中开展曲前列尼尔（treprostinil）软雾吸入器的 II 期安全性试验，针对慢性阻塞性肺病（COPD）合并肺动脉高压（PH-COPD）——一种肺内血压过高的严重并发症，据 [Longevity.Technology 的报道](https://longevity.technology/news/fda-clears-soft-mist-inhaler-trial-for-lung-disease/)。公司估计美国有 40 万至 80 万人同时患有这两种病，但该并发症因症状与 COPD 高度重叠而长期漏诊，目前也没有获批的治疗方案。16 周双盲试验的首要目标是安全性和耐受性，尚不能证明疗效；如果顺利，III 期试验预计于 2028 年启动。
+
+---
+
+### 9. Klotho 蛋白持续递送：细胞胶囊技术在体外验证长期分泌
+
+Avaí Bio 宣布在 Frontiers in Aging 发表同行评审文章，报告其与 Austrianova 合资建立的 Klothonova 平台在体外成功实现了 Klotho 蛋白的长期生产与分泌，据 [Longevity.Technology 的报道](https://longevity.technology/news/avai-bio-reports-peer-reviewed-publication-on-sustained-klotho-delivery/)。Klotho 是一种随年龄下降的蛋白质，与肾脏、心血管和神经退行性疾病关联密切；Cell-in-a-Box 技术将活细胞封装在多孔胶囊内，让营养和蛋白质可以进出，同时阻挡免疫系统攻击。目前结果仅来自体外实验，最佳剂量、长期安全性和临床疗效仍需进一步研究。
+
+---
+
+### 10. Voyager 将在阿尔茨海默病会议展示两种 tau 靶向疗法的早期数据
+
+Voyager Therapeutics 宣布将于 11 月 16-19 日的阿尔茨海默病临床试验大会（CTAD 2026）上展示两项研究，据 [Longevity.Technology 的报道](https://longevity.technology/news/voyager-to-showcase-two-tau-therapies-at-ctad-2026/)：VY1706 是一种设计用于降低大脑中 tau 蛋白产生的基因疗法（tau 蛋白异常堆积是阿尔茨海默病的核心病理），将展示其首次人体研究的设计方案；VY7523 是一种靶向 tau 蛋白特定区段的单克隆抗体，将报告一项多剂量递增研究的基线特征。两项均属于早期探索阶段，本次展示的是研究设计和基线数据，疗效结果尚未公布。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### Beacon Biosignals 收购 Snap Diagnostics，计划 2027 年将 EEG 居家睡眠检测推向初级医疗
+### 健康平台可通过一个 API 接入 1,000+ 家影像检测机构
 
-Beacon Biosignals 宣布收购居家睡眠检测服务商 Snap Diagnostics，据 [Longevity.Technology 的报道](https://longevity.technology/news/beacon-buys-snap-to-bring-eeg-to-home-sleep-tests/)，Snap 目前覆盖美国 50 个州，全科医生、远程医疗提供者和多个专科均可直接开单，患者在家完成检测后由 Snap 团队按美国睡眠医学学会标准出具报告。Beacon 的核心优势在于其 Waveband 头带——一款已获 FDA 510(k) 许可（即已通过监管上市许可）的脑电图（EEG）可穿戴设备，能直接测量大脑电活动，而非像普通可穿戴设备那样从心率和运动间接推算睡眠。公司计划 2027 年将 EEG 居家检测通过 Snap 的渠道推广，同时表示未来有望用于早期神经退行性疾病信号检测，但公告中未提供支持这一用途的临床证据。
+Fitnescity Health [宣布开放 API 对接](https://longevity.technology/news/health-apps-can-now-book-dexa-calcium-scans/)，任何健康平台只需接入一个接口，即可向用户提供覆盖全美 1,000 余个地点的预约服务，包括 DEXA 扫描（用低剂量 X 射线估算脂肪、肌肉与骨密度比例）、心脏冠状动脉钙化积分 CT（评估心血管风险）和 VO2 Max 测试（衡量有氧代谢能力）。Superpower 等 10 家平台已率先接入，用户可在 app 内完成选址、预约和查看结果；预约合规、医师监督和报告提取由 Fitnescity 负责处理。报告未涉及扫描费用和结果解读标准，对无症状人群常规影像检查是否利大于弊仍有争议，读者可带着这一问题继续了解。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 老年自闭症患者出现帕金森症状的概率更高
+### 癌症幸存者饮食与心脏病风险：观察性研究发表于 JACC: Advances
 
-据 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-10-aging-people-autism-parkinson-disease.html)，一项新研究发现年长的自闭症人群出现帕金森病症状的可能性高于一般人群。该报道仅提供了摘要级别的信息，具体样本量、研究设计（观察性还是追踪研究）及主要数据有待核查原文。
+一项发表于心脏病学期刊 JACC: Advances 的研究报告，在癌症幸存者人群中，更健康的饮食习惯与更低的心脏病发病率及死亡率相关联，据 [MedicalXpress 的报道](https://medicalxpress.com/news/2026-10-healthy-diet-heart-disease-cancer.html)。癌症幸存者因治疗副作用通常面临更高的心血管风险，使这一人群的饮食干预研究具有实际意义。具体参与人数、随访时长和饮食评估方式等细节有待从原文核查；观察性研究不能排除其他生活方式因素的影响。
 
 ---
 
 ## **◎ 行业变化与个人影响**
 
-### seragy 获 1340 万美元融资，用蛋白聚集"分型"技术加速神经退行病的药物开发
+### 延寿生物技术市场预测 2030 年超 310 亿美元，但市场集中度极低
 
-德国汉诺威生物标志物公司 seragy 宣布完成约 1340 万美元融资，据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/seragy-raises-13-4m-for-protein-clumps/)，其核心平台 SeRAS（种子复制、分析与分型）旨在解决当前蛋白聚集检测的局限——现有的种子扩增检测（检测样本中错误折叠蛋白"种子"的方法）多给出阳性/阴性的二元结果，难以区分阿尔茨海默病、帕金森病、ALS 等疾病中蛋白聚集的不同亚型。SeRAS 结合高灵敏光学、自动化数据分析和微机械组件，目标是为每个样本生成可量化的"分子指纹"。融资方包括德国商业银行、中小企业参股公司及萨克森州政府，此外还获得迈克尔·J·福克斯帕金森病研究基金会专项资助。公告中未提供临床性能数据，平台目前面向药物开发商，而非个人患者检测。
-
----
-
-## **⌘ 开源 TOP 项目**
-
-### HigginsChenLab/methylCIPHER：一个 R 包，帮研究者在 DNA 甲基化数据上同时计算多种表观遗传时钟
-
-[methylCIPHER](https://github.com/HigginsChenLab/methylCIPHER) 是一个面向生物信息学研究者的 R 语言工具包，支持在同一套 DNA 甲基化数据上批量计算多种主流"表观遗传时钟"——这类时钟通过检测 DNA 上化学标记（甲基化）随年龄的变化模式来估算细胞的生物学年龄，不同算法侧重点有所不同。该包收录了包括 PC clocks、SystemsAge、CausalAge 和 DunedinPACE 在内的多个前沿算法，适合需要对比多种时钟估算结果的衰老研究项目。仓库当前有 27 颗星，最近活跃于 2026 年 10 月 16 日；许可证和具体运行环境要求建议在仓库主页核查。
-
-### shayanmostafaei/Omics_ADRD_Integrated_Modeling：整合多组学生物年龄时钟与多基因风险评分预测阿尔茨海默病
-
-[Omics_ADRD_Integrated_Modeling](https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling) 使用英国生物样本库（UK Biobank）数据，将多组学生物年龄时钟（同时考察基因组、表观基因组等多层生物数据的衰老估算方法）与多基因风险评分（汇总大量遗传变异对某种疾病风险贡献的指标）结合，构建预测阿尔茨海默病及相关痴呆的机器学习模型，并包含生存分析和竞争风险分析代码，支持 R 和 Python。适合研究老年痴呆早期风险识别或生物年龄建模的科研团队。仓库有 5 颗星，最近活跃于 2026 年 10 月 19 日；代码用途由 README 自述，尚未经独立验证。
+The Business Research Company [发布预测报告](https://longevity.technology/news/longevity-biotech-market-set-to-top-31b-by-2030/)，估算延寿生物技术市场规模将于 2030 年超过 310 亿美元，年复合增长率约 8%；预防性健康项目预计占最大份额（约 410 亿美元更大市场的 41%），生物年龄检测约贡献 50 亿美元。值得注意的是报告同时指出，该市场极度分散，排名前 10 的企业合计仅占 2025 年收入的约 0.3%，意味着尚无主导者。市场预测本身基于增长假设而非已实现收益，数字应作为趋势参考而非确定预期；延寿生物技术的临床疗效证据积累仍滞后于市场热度。
 
 ---
-
-## **❓ 相关问题**
-
-### SRSF1 研究结果能直接应用于人体抗衰吗？
-
-目前不能。该研究在每组约 9—10 只雌鼠中完成，采用的是靶向肝脏的病毒载体给药，仅观察到中位寿命延长 14% 和虚弱程度下降 44%，尚无人体数据。研究者自己也指出，SRSF1 并非简单的"开关"，最优剂量与给药时机仍有待研究。如需了解完整实验设计与局限，可参阅 [Lifespan.io 的详细报道](https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/)，原文发表于《Nature Aging》2026 年第 10 期。
