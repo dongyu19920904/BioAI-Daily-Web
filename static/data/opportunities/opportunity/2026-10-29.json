@@ -8,45 +8,45 @@
   "opportunities": [
     {
       "schema_version": 1,
-      "opportunity_id": "opp_1a91bf5162a619a5",
+      "opportunity_id": "opp_7f342498aac9a55d",
       "report_date": "2026-10-29",
       "report_section": "opportunity",
-      "title": "GLP-1 用药者体成分跟踪:内容选题 + 监测工具对比资料包",
+      "title": "家用 EEG 睡眠测试进入基层医疗:可穿戴睡眠内容的备货窗口",
       "source_urls": [
-        "https://longevity.technology/news/glp-1-users-on-omadas-program-gained-muscle-share/"
+        "https://longevity.technology/news/beacon-buys-snap-to-bring-eeg-to-home-sleep-tests/"
       ],
       "source_verified": false,
       "state": "needs_primary_source",
       "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
-      "target_user": "正在使用或考虑使用 GLP-1 药物减重的人,以及为他们提供减重内容或社群的健康内容创作者。",
-      "demand_claim": "体重下降但不知道肌肉是否在流失,普通体脂秤精度不够,DEXA 扫描昂贵且不易获取。需求假设:这类人愿意为\"怎么监测体成分、哪些工具靠谱\"的整理内容付费。付费意愿待验证。",
+      "target_user": "已在用可穿戴设备追踪睡眠的健康爱好者;关注父母/老人睡眠质量的照护者;做健康硬件测评内容的自媒体人",
+      "demand_claim": "现有消费级睡眠设备(手环、戒指)不含脑电,用户不清楚它们和医疗级 EEG 的区别,也不知道家用 EEG 测试能说明什么问题;这是信息差,不是已验证付费需求",
       "demand_verified": false,
-      "deliverable_hint": "体成分监测工具对比表(家用体脂秤/生物阻抗设备/DEXA/可穿戴方案的价格、精度、适用场景)+ 公众号/小红书选题文章。",
+      "deliverable_hint": "一张\"消费级睡眠追踪 vs. 家用 EEG 测试能测什么\"的对比表;一篇公众号/小红书选题草稿;一份硬件观察清单(当前市场上已有的家用 EEG 产品,不含疗效评价)",
       "suggested_route": "structured_resource",
       "risk_flags": [
         "health_claim_review",
         "commercial_hypothesis"
       ],
       "hypotheses": {
-        "success_metric": "7 天内该篇阅读量超过近期均值 1.5 倍,或收到 3 条以上询问\"哪里能测/哪个设备好\"的私信或留言,才算值得继续做资料包。",
-        "stop_condition": "7 天内阅读量低于近期均值且零询问,说明该人群在当前渠道不活跃或不愿为此付费,停止做资料包。",
-        "upgrade_path": "免费对比文章 → 低价体成分监测工具导航资料包 → GLP-1 用药者社群/会员 → 轻咨询或陪跑。"
+        "success_metric": "7 天内:小红书/公众号内容收藏率 ≥ 5%,或读者群问卷收到 ≥ 5 条\"想了解更多\"的主动回复;任一指标达到,说明存在内容兴趣,可继续做对比表或资料包",
+        "stop_condition": "7 天内收藏率 < 2% 且读者群零主动询问,则暂停在这个细分方向投入,转观察 2027 年产品实际上市时的反应",
+        "upgrade_path": "对比表 → 低价硬件选购指南资料包 → 健康硬件观察专栏会员 → 企业/机构定制硬件对比报告(后两步需要有更稳定的流量基础,不是现在的重点)"
       },
       "primary_source_candidates": []
     }
   ],
   "tasks": [
     {
-      "task_id": "opp_1a91bf5162a619a5:discover_primary_source",
-      "opportunity_id": "opp_1a91bf5162a619a5",
+      "task_id": "opp_7f342498aac9a55d:discover_primary_source",
+      "opportunity_id": "opp_7f342498aac9a55d",
       "kind": "discover_primary_source",
       "status": "pending_automation",
       "description_zh": "自动继续检索一手论文、试验或机构来源",
       "depends_on": []
     },
     {
-      "task_id": "opp_1a91bf5162a619a5:validate_demand",
-      "opportunity_id": "opp_1a91bf5162a619a5",
+      "task_id": "opp_7f342498aac9a55d:validate_demand",
+      "opportunity_id": "opp_7f342498aac9a55d",
       "kind": "validate_demand",
       "status": "pending_automation",
       "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
