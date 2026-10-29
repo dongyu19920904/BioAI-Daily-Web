@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-30",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-10/2026-10-30/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_4631f624f281cb85",
+      "report_date": "2026-10-30",
+      "report_section": "opportunity",
+      "title": "\"胆固醇正常≠血管安全\":AI 心脏 CT 炎症发现的内容选题",
+      "source_urls": [
+        "https://longevity.technology/news/inflamed-heart-arteries-in-42-9-of-low-risk-adults/"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "** 做过常规体检但对结果存疑的30-55岁健康关注者;在小红书/知乎做健康科普的内容创作者;想给客户提供\"超越基础体检\"信息参考的健康管理顾问",
+      "demand_claim": "** 付费意愿待验证。假设的痛点:胆固醇指标正常但仍担心心血管风险;\"检测盲区\"叙事在健康内容中有现成受众。需观察真实互动数据才能确认需求强度。",
+      "demand_verified": false,
+      "deliverable_hint": "** 一篇公众号/小红书文章(\"体检胆固醇正常,血管就没事了吗?\");或一张对比表(传统风险指标 vs. 影像炎症信号,列明各自能测什么、不能测什么、所处证据阶段)",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "** 72小时内收到3条以上实质性追问(如\"这个检测在哪里做\"\"国内有没有类似服务\"),或收藏数超过点赞数,才值得继续投入做资料包。",
+        "stop_condition": "** 72小时内互动全部是表情/泛点赞、无一条追问或私信,则暂停此选题方向,不以\"感兴趣\"代替付费需求。",
+        "upgrade_path": "** 引流文 → 免费对比清单 → 付费资料包(\"超越基础体检的指标解读\")→ 社群问答 → 轻咨询(帮用户理解体检报告,不提供医疗诊断)"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_4631f624f281cb85:discover_primary_source",
+      "opportunity_id": "opp_4631f624f281cb85",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_4631f624f281cb85:validate_demand",
+      "opportunity_id": "opp_4631f624f281cb85",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
