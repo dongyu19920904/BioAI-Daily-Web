@@ -2,61 +2,63 @@
 linkTitle: '项目商机'
 title: 'AI生命延续学资讯商机项目'
 breadcrumbs: false
-description: '2026-10-29 AI生命延续学资讯商机项目：HigginsChenLab/methylCIPHER；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
+description: '2026-10-31 AI生命延续学资讯商机项目：CosinorAge；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
 cascade:
   type: docs
-next: /project-opportunity/2026-10/2026-10-29/
+next: /project-opportunity/2026-10/2026-10-31/
 ---
 
 ## 先看结论（可引用项目判断）
 
-- HigginsChenLab/methylCIPHER（https://github.com/HigginsChenLab/methylCIPHER）：R 包，集成 PC clocks、SystemsAge、CausalAge、DunedinPACE 等表观遗传时钟算法，来自学术实验室。今天可访问仓库确认安装步骤，适合长寿内容读者和生信学习者。许可证、数据入口和完整依赖待核查；README 自述不等于独立试跑验证。
+- CosinorAge（https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge）：ETH Zurich ADAMMA-CDHI 实验室的 Python 包，description 自述实现基于 Cosinor 模型的生物年龄预测。今天能否试跑待核查（许可证、数据入口、依赖均未在素材中提供）。适合做 Python 工具导航条目和试跑笔记；不能用于个人生物年龄评估或健康建议，README 自述不等于临床验证。
 
-- Lifespan.io 报道的 SRSF1 研究（https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/）：小鼠和体外细胞实验，属早期基础研究阶段。非可运行项目，仅作为研究动态参考。
+- epiage-skill（https://github.com/gangchen/epiage-skill）：description 自述包含 24 种表观遗传时钟算法，仅依赖 pandas+numpy，声称可离线运行。许可证和数据入口待核查。适合独立开发者做工具拆解；不能用于个人甲基化数据的健康打分或风险判断。
 
 ## 今日优先项目
 
-### HigginsChenLab/methylCIPHER
+### CosinorAge
 
-表观遗传时钟是 AI 生命延续学的核心数据方向之一。该 R 包集成多种主流时钟算法，来自学术实验室，27 stars，10 月 16 日有活动记录。适合整理为时钟算法对比资料库条目或试跑教程素材。
+ETH Zurich 机构背书的 Python 包，description 明确写了 "biological age prediction"，活跃信号为 2026-10-25。方向与 longevity 生物年龄估算工具生态对齐，适合做工具导航和试跑笔记。具体输入数据类型、示例数据是否附带均待核查 README 确认。
 
-- 证据来源：GitHub 仓库 https://github.com/HigginsChenLab/methylCIPHER ；GitHub Trending 信号；最近活动 2026-10-16；来源类型为项目仓库；证据阶段为公开代码仓库，未经独立试跑
-- 可信度：中
-- 目标鱼塘：长寿内容读者、生信学习者、可穿戴数据分析爱好者
-- 它解决什么问题：统一计算多种表观遗传时钟，减少逐个实现算法的重复工作
-- 试跑门槛：中——需要 R 环境，可能依赖 Bioconductor 包和甲基化数据集；具体依赖和数据入口待核查
-- 许可证与数据：许可证待核查，数据入口待核查，商用限制待核查
-- 维护成本：中——R 包安装门槛不高，但甲基化数据获取可能需要受控访问权限，长期维护依赖上游算法更新
-- 可做成什么：时钟算法对比表 / 资料库条目 / 试跑教程
-- 可交付物：README 试跑笔记 + 表观遗传时钟算法对比表
-- 最低成本验证：今天访问仓库确认 LICENSE 和 README 安装说明，记录 3 条要点
-- 成功指标：24 小时内能确认许可证、安装方式、是否提供示例数据；对比表至少覆盖 4 种时钟算法的输入要求和适用场景
-- 停止条件：无明确许可证、依赖不可控数据源、安装报错无法解决
-- 二次开发路径：可整理成表观遗传时钟导航资料库条目，后续做成 R/Python 试跑教程
-- 售后或合规风险：低
-- 合规边界：仅作为研究工具介绍，甲基化时钟的临床有效性未经广泛验证
-- 今天最小动作：访问仓库确认 LICENSE 文件和 README 安装步骤，记录时钟算法名称和用途，整理对比表草稿
+- 证据来源：https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge （GitHub Trending，最近活跃 2026-10-25T11:46:19Z）
+- 可信度：中（机构仓库，description 描述清晰，但 README、许可证和数据入口未在素材中提供）
+- 目标鱼塘：独立开发者、longevity 内容创作者、科研学习者
+- 它解决什么问题：用 Cosinor 模型从节律信号中提取参数估算生物年龄，具体输入数据类型待核查
+- 试跑门槛：中；Python 环境，但输入数据格式和示例数据集待核查
+- 许可证与数据：待核查
+- 维护成本：中；机构维护，个人需关注上游更新
+- 可做成什么：试跑教程 / 工具导航条目 / 资料库条目
+- 可交付物：README 试跑笔记、安装截图、依赖清单、3 条要点
+- 最低成本验证：打开 README，确认安装步骤和示例数据是否存在
+- 成功指标：24 小时内能完成 pip install 并找到示例输入数据
+- 停止条件：许可证禁止商用；无示例数据且数据格式文档缺失；依赖冲突无法解决
+- 二次开发路径：① 做 longevity Python 工具导航页条目；② 写算法原理拆解教程；③ 积累成工具雷达条目
+- 售后或合规风险：中
+- 合规边界：只写"研究工具观察"和"算法原理拆解"，不能描述为个人生物年龄测量服务，不能暗示抗衰效果
+- 今天最小动作：打开仓库，查看 README、许可证文件和 examples 目录，截图并整理 3 条要点
 
 ## 可二次开发方向
 
-- 表观遗传时钟算法导航资料库：可交付物为对比表（算法名称、输入数据类型、适用场景、原始论文链接）；最低成本验证为今天从 README 和描述中提取 4 种以上时钟的关键参数；后续可扩展成定期更新的时钟算法雷达。
-- 居家睡眠监测 EEG 选题：基于 Beacon 收购 Snap Diagnostics 新闻（https://longevity.technology/news/beacon-buys-snap-to-bring-eeg-to-home-sleep-tests/ ），可交付物为朋友圈/小红书选题草稿；最低成本验证为今天写一条选题角度；后续可做成可穿戴睡眠监测工具导航。研究或新闻事实不构成用户需求或付费验证。
+- 方向 A：epiage-skill 算法清单整理。gangchen/epiage-skill（https://github.com/gangchen/epiage-skill）description 自述包含 GrimAge V1/V2、Horvath、PhenoAge 等 24 种表观遗传时钟。可交付物：算法名称 × 数据类型的对比表头草稿。最低成本验证：今天打开仓库核查许可证和 README 中的算法列表是否与 description 一致。后续升级：如许可证允许，做成轻量导航页或周报栏目"表观遗传时钟雷达"。
+
+- 方向 B：NeuroXT FDA 获批工具监管时间线整理。NeuroXT NEXT-Cue（https://longevity.technology/news/fda-clears-neuroxts-ai-tool-that-sizes-up-alzheimers-risk/）获 FDA clearance，配对脑 MRI 与认知评分，面向临床医生。可交付物：一条资料库条目，写清工具名称、适用场景（临床，非消费者）、监管状态、来源链接。最低成本验证：收藏新闻 URL，写一条含"仅限临床使用、非个人诊断工具"限定的内容选题。后续升级：追踪同类获批 AI 神经认知工具，积累成监测页。
 
 ## 值得观察
 
-- IBAR-ROGEN/Aging（https://github.com/IBAR-ROGEN/Aging ）：1 star，10 月 28 日有活动，方向为甲基化衰老时钟和长寿相关变异注释。但 README、许可证、数据入口均待核查，项目极新，暂不适合投入试跑。
-- Seragy 蛋白聚集生物标志物（https://longevity.technology/news/seragy-raises-13-4m-for-protein-clumps/ ）：获 1340 万美元融资，方向覆盖阿尔茨海默病、帕金森和 ALS 的蛋白聚集检测。属行业信号，无公开代码或数据可用，适合作为资料库行业动态条目跟踪。
+- brain-age-prediction-ixi（https://github.com/anupbagale/brain-age-prediction-ixi）：3D CNN 预测脑年龄，使用 IXI 公开数据集，Jupyter Notebook，活跃于 2026-10-30。许可证和依赖待核查，3D MRI 处理算力需求不明。暂不动原因：算力和许可证未确认，先观察是否有试跑记录再评估。
+
+- Mayo Clinic precure research（https://www.news-medical.net/news/20261030/Mayo-Clinic-enters-new-medical-era-with-precure-research.aspx）：症状前疾病生物标志物方向，目前为新闻通稿，无具体论文或工具链接。暂不动原因：无可用项目线索，等具体论文或工具发布再跟进。
 
 ## 今天别碰
 
-- shayanmostafaei/Omics_ADRD_Integrated_Modeling（https://github.com/shayanmostafaei/Omics_ADRD_Integrated_Modeling ）：依赖 UK Biobank 数据，访问需申请审批，试跑门槛高，普通读者无法复现；许可证和数据授权待核查。
-- SRSF1 研究（https://lifespan.io/rejuvenation-factor-extends-lifespan-and-healthspan-in-mice/ ）：小鼠和体外细胞实验，属早期基础研究，证据阶段不足以支撑任何项目级应用。
-- nopara73/LongevityWorldCup（https://github.com/nopara73/LongevityWorldCup ）：C# 技术栈，许可证和运行环境待核查，生物年龄计算器的科学依据未独立验证，目标鱼塘偏运动场景而非长寿内容读者。
+- Butterfly_DNAm_age（https://github.com/JesperBoman/Butterfly_DNAm_age）：description 自述为蝴蝶表观遗传时钟训练脚本，基于动物数据，stars 1，R 语言，许可证和数据待核查。动物研究不适用个人健康评估，活跃度低，暂无内容复用价值。
+
+- Rivus RV-8451（https://longevity.technology/news/rivus-to-show-animal-data-on-muscle-sparing-glp-1/）：临床前动物实验，结果将于 11 月 ObesityWeek 以海报形式展示，目前无公开论文。动物实验结论不适合改写为任何形式的个人健康判断工具或干预建议。
 
 ## 今日动作
 
-- 今天先试跑：访问 methylCIPHER 仓库，确认 LICENSE 和 README 安装步骤
-- 今天先写：表观遗传时钟算法对比表草稿（至少 4 种时钟）
-- 今天先收藏：IBAR-ROGEN/Aging 仓库链接，标记为待观察
-- 今天先做表：PC clocks / SystemsAge / CausalAge / DunedinPACE 的输入数据类型和适用场景对比
-- 今天先避开：SRSF1 小鼠研究相关的任何项目化方向
+- 今天先试跑：打开 https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge，查看 README 和许可证文件，记录安装步骤和示例数据是否存在
+- 今天先写：一条选题"ETH Zurich 的生物年龄 Python 工具：Cosinor 模型怎么算"（注明研究工具观察，非个人测量服务）
+- 今天先收藏：https://github.com/gangchen/epiage-skill，用于后续算法对比表整理
+- 今天先做表：核查 epiage-skill README 后，整理算法名称 × 数据类型表头草稿（内容以实际 README 为准）
+- 今天先避开：动物实验项目（Butterfly_DNAm_age、Rivus RV-8451）、无公开数据的 Mayo precure 新闻；不发布任何形式的个人生物年龄评估或认知风险判断内容
