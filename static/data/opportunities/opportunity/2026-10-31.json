@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-31",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-10/2026-10-31/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_2f7331c1adcf449d",
+      "report_date": "2026-10-31",
+      "report_section": "opportunity",
+      "title": "MRI 大数据\"睡眠—内脏脂肪—脑体积\"关联研究的内容选题窗口",
+      "source_urls": [
+        "https://longevity.technology/news/mri-study-of-14031-adults-ties-sleep-to-belly-fat/"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "** 使用 Oura/Apple Watch/Garmin 等可穿戴设备关注睡眠质量的自我量化人群;担心中老年父母认知退化的 35-50 岁子女",
+      "demand_claim": "** 可穿戴用户积累了睡眠效率数据但不知道如何解读;\"睡够 8 小时反而不好\"这类反常识结论会引发点击冲动。付费意愿属于假设,尚无用户询价或反馈材料支持。",
+      "demand_verified": false,
+      "deliverable_hint": "** 小红书/公众号科普选题一条;可附\"睡眠数据指标对照表\"(只整理研究提及的指标定义,不做个人健康评估)",
+      "suggested_route": "content",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "** 48 小时内完读率高于账号均值,或收到 3 条以上\"我的可穿戴数据怎么看\"类问题;7 天内有人主动询问是否有相关资料包。",
+        "stop_condition": "** 发出后 48 小时阅读量低于账号均值 50% 且无互动,停止在此方向追加内容投入,换选题角度。",
+        "upgrade_path": "** 免费科普 → \"可穿戴睡眠指标解读指南\"低价资料包 → 社群内周期性睡眠数据解读问答 → 轻咨询(仅限研究信息整理,不做个人健康建议)"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_2f7331c1adcf449d:discover_primary_source",
+      "opportunity_id": "opp_2f7331c1adcf449d",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_2f7331c1adcf449d:validate_demand",
+      "opportunity_id": "opp_2f7331c1adcf449d",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
