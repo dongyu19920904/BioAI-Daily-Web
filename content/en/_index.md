@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/10/30
+title: AI生命延续学日报 2026/10/31
 breadcrumbs: false
-next: /en/2026-10/2026-10-30
+next: /en/2026-10/2026-10-31
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,99 +11,95 @@ cascade:
 ## **Today's Summary**
 
 ```
-Nearly half of low-risk adults have coronary artery inflammation missed by routine blood tests — only cardiac CT catches it.
-Less than 42 minutes of bright sunlight daily is linked to higher dementia risk, with a stronger association than six known risk factors in an observational study.
-The coronary inflammation study comes from in-house research with undisclosed sample composition, and no evidence yet that intervention reduces heart attacks.
+An experimental vaccine targeting senescent cells extended lifespan in aged mice; no human data yet.
+An AI software cleared by US regulators can help assess the risk of mild cognitive impairment progressing to Alzheimer's.
+The vaccine study used only 10 mice per group with a short-lived control group — whether results replicate at larger scale remains to be seen.
 ```
 
-## **🔥 Today's Top 10 Focus**
+## **🚀 Today's Top 10**
 
-### 1. Hearts That Look Healthy: 42.9% Have Artery Inflammation That Blood Tests Completely Miss
+### 1. Anti-aging vaccine CK5 extends lifespan of aged mice by 12%
 
-Biograph, a preventive health organization, [announced an internal study](https://longevity.technology/news/inflamed-heart-arteries-in-42-9-of-low-risk-adults/): for asymptomatic adults classified as "low-risk" by traditional assessment, AI was used to analyze coronary CT scans (a routine cardiac imaging method) to measure inflammation in the tissues surrounding the arteries. The result: 42.9% had elevated inflammation, with 17.9% showing extremely high inflammation around at least one major coronary artery. Even more striking — about 47% of those with elevated inflammation had zero visible plaque on CT 🤯. Cholesterol, blood sugar, general inflammation markers (hs-CRP, a blood indicator of systemic inflammation), and the American Heart Association risk assessment model all failed to flag these individuals. All study participants were members of the same clinic, the announcement didn't disclose total participant numbers, and the organization is both the researcher and the service provider. Perivascular inflammation is a warning signal, but there's currently no proof that intervening on it reduces heart attacks.
+CK5, a three-component nanoparticle vaccine, was injected into 75-week-old (already elderly) C57BL/6 female mice in a [mouse study](https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/) published in *Advanced Science*. The goal? Train the immune system to hunt down "zombie cells" — senescent cells that have stopped dividing but keep pumping out pro-inflammatory signals that wreck surrounding tissue. After vaccination, senescence markers in visceral fat dropped, blood sugar regulation improved, and median lifespan came in 12% longer than the untreated control group. Two big caveats, though: each group had only 10 mice, and the control group's lifespan was on the short side — not quite matching the normal range for this strain, which could inflate the difference. Larger independent experiments are needed, and there's zero evidence it works in humans yet.
 
-![Illustration of cardiac CT inflammation detection](https://longevity.technology/wp-content/uploads/2026/10/Inflamed-heart-arteries-in-42.9-of-low-risk-adults-courtesy-of-Biograph-1024x576.jpg)
-
----
-
-### 2. Less Than 42 Minutes of Daily Sunlight: Its Link to Higher Dementia Risk Outranks Six Known Factors ☀️
-
-An observational study of over 87,000 adults found that more daytime bright light exposure was associated with a 16% lower dementia risk. Getting less than 42 minutes of bright sunlight per day had a stronger predictive association with dementia than six established dementia risk factors, according to [a Science Daily report](https://www.sciencedaily.com/releases/2026/10/261028232707.htm). This is a correlational study — it can't prove that sunlight itself prevents dementia. Specific sample composition, follow-up duration, and journal details still need to be verified from the original paper.
-
-[![Source image: Less than 42 minutes of bright daylight linked to higher dementia risk](https://www.sciencedaily.com/images/1920/senior-woman-outside-in-bright-sunlight.webp)](https://www.sciencedaily.com/releases/2026/10/261028232707.htm)
+![Illustration of senescent cells](https://lifespan.io/wp-content/uploads/2021/05/shutterstock_1615272484.jpg)
 
 ---
 
-### 3. A Study of Nearly 13,000 People: High Artificial Sweetener Intake Linked to Accelerated Memory Decline 🧠
+### 2. NeuroXT's AI tool NEXT-Cue helps assess Alzheimer's risk within five years
 
-A study analyzing nearly 13,000 adults found that those who consumed the most artificial sweeteners experienced memory and cognitive decline about 62% faster than those who consumed the least — equivalent to an extra 1.6 years of aging, according to [a Science Daily report](https://www.sciencedaily.com/releases/2026/10/261028234238.htm). Six common sweeteners were all associated with accelerated cognitive decline. Researchers explicitly noted this is correlational, not causal, and journal source and detailed methodology need verification from the original paper.
+NeuroXT, a Korean company, announced that its AI software NEXT-Cue has received [510(k) clearance](https://www.prnewswire.com/news-releases/neuroxt-inc-receives-us-fda-510k-clearance-for-next-cue-ai-software-supporting-prognostic-assessment-in-mild-cognitive-impairment-302913386.html) from the US FDA — a premarket review pathway, not a full efficacy approval. The tool combines brain MRI images, demographic data, and cognitive test scores to give clinicians supporting assessment info for patients with mild cognitive impairment (the stage where thinking is slightly slipping but daily life is still manageable), helping gauge the risk of progression to Alzheimer's dementia within five years. The announcement didn't include performance data like accuracy rates or sample sizes. The company says it will accumulate real-world evidence as it pushes toward commercialization. Per a [Longevity.Technology report](https://longevity.technology/news/fda-clears-neuroxts-ai-tool-that-sizes-up-alzheimers-risk/), Korean market authorization is also in the works.
 
-[![Source image: Six popular sugar substitutes linked to faster brain aging](https://www.sciencedaily.com/images/1920/brain-fire-inflammation-dementia-alzheimers.webp)](https://www.sciencedaily.com/releases/2026/10/261028234238.htm)
-
----
-
-### 4. Monkey Study: Combined Drug Treatment Makes 93% of Weight Loss Fat, Not Muscle 💪
-
-Semaglutide (a GLP-1 receptor agonist that mimics gut hormones to reduce appetite) has faced criticism because a fair chunk of the weight lost is muscle, not just fat. iBio tested its experimental antibody IBIO-610 in an 8-week non-human primate study: monkeys on semaglutide alone lost weight that was 77% fat, but adding a single dose of IBIO-610 pushed that ratio to 93%, according to [a Longevity.Technology report](https://longevity.technology/news/ibios-primate-data-hint-at-muscle-sparing-obesity-add-on/). Each group had only 6 animals over just 8 weeks — a tiny sample. The announcement didn't compare total weight loss between groups. A first-in-human safety trial is planned for the first half of 2027, and whether animal results will translate to humans remains an open question.
-
-[![Source image: iBio's primate data hint at muscle-sparing obesity add-on](https://longevity.technology/wp-content/uploads/2026/10/ibios-primate-data-hint-at-muscle-sparing-obesity-add-on-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/ibios-primate-data-hint-at-muscle-sparing-obesity-add-on/)
+[![Source image: FDA clears NeuroXT's AI tool that sizes up Alzheimer's risk](https://longevity.technology/wp-content/uploads/2026/10/fda-clears-neuroxts-ai-tool-that-sizes-up-alzheimers-risk-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/fda-clears-neuroxts-ai-tool-that-sizes-up-alzheimers-risk/)
 
 ---
 
-### 5. Brain Aging Sped Up or Slowed Down? Older Brains Handle Sleep Deprivation Better Than Younger Ones 😴
+### 3. Prenuvo's whole-body MRI study of 14,031 people links sleep efficiency to deep abdominal fat
 
-Simon Fraser University's new research suggests that healthy older adults' brains may decline less than younger adults' under sleep deprivation, according to [a MedicalXpress report](https://medicalxpress.com/news/2026-10-older-brains-cope-lack.html). Specific experimental design, participant numbers, and measurement methods need verification from the original paper. Whether findings generalize to older adults with chronic conditions or sleep disorders remains unclear.
+Prenuvo, a whole-body MRI screening company, teamed up with UT Dallas to crunch data from 14,031 adults (average age 50). They found that higher sleep efficiency — the ratio of time actually asleep to time spent in bed — correlates with less visceral fat (the deep fat wrapped around internal organs, more closely tied to metabolic risk) and greater parietal gray matter volume. Meanwhile, people sleeping more than 8 hours a night actually had smaller hippocampal volume (the brain region tied to memory). These are correlational findings, so no causal arrows here: sleeping more could be a consequence of some underlying health issue rather than a cause. All participants were paying screening customers, and sleep data came from self-reported questionnaires — not sleep lab measurements — so results can't be generalized directly. Details in the [Longevity.Technology report](https://longevity.technology/news/mri-study-of-14031-adults-ties-sleep-to-belly-fat/).
 
----
-
-### 6. First Whole-Body Single-Cell Atlas of an Adult Vertebrate Built in a Tiny Transparent Fish 🐟
-
-Danionella cerebrum, a transparent fish only about 12 millimeters long, has become the first adult vertebrate to get a complete whole-body single-cell atlas. A Whitehead Institute research team sequenced over 600,000 cells and published the results in [Science](https://www.genengnews.com/topics/omics/first-whole-body-single-cell-atlas-of-adult-vertebrate-generated-in-danionella-cerebrum/). The single-cell transcriptome atlas records which genes each cell is actively using — essentially a "work snapshot" of every cell across the entire animal. The atlas revealed how forebrain neurons sequentially go through immune response, stem cell activation, and new neuron maturation after injury. This dataset is publicly available on the interactive database DigiFish, providing a searchable reference for brain regeneration and aging research. The study organism is a fish, though, so whether the mechanisms translate to the human brain needs targeted verification.
+[![Source image: MRI study of 14,031 adults ties sleep to belly fat](https://longevity.technology/wp-content/uploads/2026/10/mri-study-of-14031-adults-ties-sleep-to-belly-fat-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/mri-study-of-14031-adults-ties-sleep-to-belly-fat/)
 
 ---
 
-### 7. Why Are Stem Cell Therapy Results So Inconsistent? Cell Senescence During In Vitro Expansion May Be the Culprit 🔬
+### 4. Hypothalamic neuronal cilia: the key link between calorie restriction and delayed aging
 
-Stem cell therapy quality is hit by a hidden problem, as Fight Aging! discusses in an open-access paper: [cells may largely enter a senescent state during in vitro culture expansion](https://www.fightaging.org/archives/2026/10/aspects-of-stem-cell-biology-that-impair-the-quality-of-stem-cell-therapies/) (senescent cells lose the ability to divide but keep pumping out pro-inflammatory signals), which then drags down the quality of cells injected into patients. The paper specifically notes that senescent neural stem cells accumulate toxic proteins in their secretions, potentially triggering chain-reaction secondary senescence in recipient cells. The authors recommend adding senescence-level screening and extracellular vesicle proteomics to stem cell production standards, but clinical feasibility and scaling pathways need more work.
+Primary cilia — tiny antenna-like structures on neurons in the hypothalamus (the brain's metabolic regulation hub) — shorten with age, and declining NAD+ levels (a coenzyme involved in cellular energy metabolism) are partly why. That's the finding of a mouse study published in *Advanced Science*, per [Lifespan.io's report](https://lifespan.io/how-some-neuronal-cilia-may-affect-the-whole-body/). Calorie restriction can boost NAD+ to maintain cilia length, thereby improving metabolic markers in aged mice. When researchers used gene-silencing to block cilia growth in the hypothalamus of old mice, the metabolic benefits of calorie restriction vanished. So far these results come only from cell and mouse experiments — whether cilia could become a target for human metabolic interventions needs further study.
 
----
-
-### 8. US FDA Greenlights Soft-Mist Inhaler Trial Targeting COPD with Pulmonary Hypertension 💨
-
-United Therapeutics scored FDA clearance to run a Phase II safety trial of inhaled treprostinil via a soft-mist inhaler in about 40 patients with COPD complicated by pulmonary hypertension (PH-COPD) — a serious condition where blood pressure in the lungs is too high, according to [a Longevity.Technology report](https://longevity.technology/news/fda-clears-soft-mist-inhaler-trial-for-lung-disease/). The company estimates 400,000 to 800,000 Americans have both conditions, but the complication has been chronically underdiagnosed because symptoms overlap heavily with COPD, and there are currently no approved treatments. The 16-week double-blind trial's primary goal is safety and tolerability — it can't prove efficacy yet. If things go smoothly, a Phase III trial is expected to kick off in 2028.
+[![Source image: How Some Neuronal Cilia May Affect the Whole Body](https://lifespan.io/wp-content/uploads/2026/10/Cilia-on-a-neuron-262x187.jpg)](https://lifespan.io/how-some-neuronal-cilia-may-affect-the-whole-body/)
 
 ---
 
-### 9. Klotho Protein Delivery: Cell Encapsulation Tech Demonstrates Long-Term Secretion In Vitro 🧬
+### 5. David Liu's lab pushes prime editing forward with AI-assisted optimization
 
-Avaí Bio announced a peer-reviewed article published in Frontiers in Aging, reporting that the Klothonova platform — a joint venture with Austrianova — successfully pulled off long-term production and secretion of Klotho protein in vitro, according to [a Longevity.Technology report](https://longevity.technology/news/avai-bio-reports-peer-reviewed-publication-on-sustained-klotho-delivery/). Klotho is a protein that declines with age and is closely tied to kidney, cardiovascular, and neurodegenerative diseases. The Cell-in-a-Box technology wraps living cells in porous capsules that let nutrients and proteins pass through while blocking immune system attacks. Current results are only from in vitro experiments — optimal dosing, long-term safety, and clinical efficacy all need further research.
-
----
-
-### 10. Voyager to Showcase Early Data on Two Tau-Targeted Therapies at Alzheimer's Conference 🎯
-
-Voyager Therapeutics will present two studies at the Alzheimer's Disease Clinical Trials Conference (CTAD 2026) from November 16–19, according to [a Longevity.Technology report](https://longevity.technology/news/voyager-to-showcase-two-tau-therapies-at-ctad-2026/). VY1706 is a gene therapy designed to reduce tau protein production in the brain (abnormal tau buildup is a core pathology of Alzheimer's), and the first-in-human study design will be presented. VY7523 is a monoclonal antibody targeting a specific region of the tau protein, and baseline characteristics from a multi-dose escalation study will be reported. Both are in early exploratory stages — this presentation covers study design and baseline data, not efficacy results.
+Dr. David Liu presented at the European Society for Gene and Cell Therapy (ESGCT) 2026 Congress, sharing how his team used the AI tool ProteinMPNN to redesign key proteins in prime editing (a technique that can precisely modify individual genetic "letters"), developing the PE8 variant that solves the stability problems of previous evolved editors. Another machine learning tool, OptiPrime (try it at the [Opti.Prime website](https://www.genengnews.com/topics/genome-editing/no-nonsense-david-liu-lauds-progress-in-disease-agnostic-gene-editing-at-esgct/)), helps researchers pick the optimal editing guide RNA. On the clinical front, the first patient received ex vivo prime editing in 2025, and the first in vivo prime editing was administered in October. He also showcased a method called PERT, which engineers tRNAs (molecules that translate genetic information) to bypass the same class of mutations across multiple genetic diseases — in a mouse model of Hurler syndrome, it restored roughly 7% of normal enzyme activity, still at the early proof-of-concept stage.
 
 ---
 
-## **⚡ Product & Feature Updates**
+### 6. ANO6 protein: blocking it slows pancreatic cancer growth and reduces immune suppression in mice
 
-### Health Platforms Can Now Access 1,000+ Imaging Facilities Through a Single API 🔌
-
-Fitnescity Health [announced API integration](https://longevity.technology/news/health-apps-can-now-book-dexa-calcium-scans/), letting any health platform connect through one interface to offer users booking services across 1,000+ locations nationwide, including DEXA scans (using low-dose X-rays to estimate fat, muscle, and bone density ratios), cardiac coronary calcium scoring CT (for cardiovascular risk assessment), and VO2 Max testing (measuring aerobic metabolism capacity). Ten platforms including Superpower have already jumped on board, letting users pick a location, book an appointment, and view results right in the app. Fitnescity handles booking compliance, physician oversight, and report extraction. The announcement didn't cover scan costs or result interpretation standards. Whether routine imaging for asymptomatic people does more good than harm is still up for debate — worth keeping that in mind as you read on.
+ANO6 is the protein that fibroblasts around pancreatic tumors (cells forming the tumor's "support tissue") use to "feed" cholesterol and other lipids to cancer cells, while simultaneously causing tumor-infiltrating killer T cells to accumulate too much cholesterol and become "exhausted." That's what a [mouse study](https://www.genengnews.com/topics/cancer/blocking-protein-slows-pancreatic-tumor-growth-and-reduces-immune-suppression-in-mice/) from Fox Chase Cancer Center, published in *Nature Cancer*, demonstrated. In mouse models, inhibiting ANO6 activity with existing drugs significantly reduced tumor weight and revived T cell function. The researchers noted these drugs might work through mechanisms beyond ANO6, and lipid transfer isn't the only way tumors get nutrients — still animal-only at this stage.
 
 ---
 
-## **🧪 Frontier Research**
+### 7. Type 2 diabetes: intensive diet and exercise sends 54% of patients under 45 into remission within six months
 
-### Cancer Survivors' Diet and Heart Disease Risk: Observational Study Published in JACC: Advances 📋
-
-A study published in the cardiology journal JACC: Advances found that healthier dietary patterns among cancer survivors were associated with lower heart disease incidence and mortality, according to [a MedicalXpress report](https://medicalxpress.com/news/2026-10-healthy-diet-heart-disease-cancer.html). Cancer survivors typically face elevated cardiovascular risk due to treatment side effects, making diet intervention research in this population practically meaningful. Specific participant numbers, follow-up duration, and dietary assessment methods need verification from the original paper. Observational studies can't rule out confounding from other lifestyle factors.
+Type 2 diabetes patients under 45 hit remission at a 54% rate within six months after an intensive intervention of low-calorie diet combined with structured exercise — compared to just 4% in the standard-treatment control group. A [Science Daily report](https://www.sciencedaily.com/releases/2026/10/261029072129.htm) covered the findings, though the original abstract only provides this core figure. Sample size, follow-up duration, intervention protocol details, and whether it's published in a peer-reviewed journal remain to be verified. Check the original source for more info.
 
 ---
 
-## **◎ Industry Changes & Personal Impact**
+### 8. "Blue zones" need independent verification and expiration dates on their certifications
 
-### Longevity Biotech Market Projected to Exceed $31B by 2030, but Market Concentration Is Extremely Low 📊
+"Blue zones" — regions with anomalously high proportions of centenarians — need independent verification and expiration dates on their certifications, argues a commentary on Longevity.Technology by Eva Novak, founder of Decades. Demographer Saul Newman pointed out in a preprint that extreme-age records correlate closely with missing birth records. Meanwhile, Bolotana village in Sardinia was recently nominated as a new blue zone, with a 13.8% probability of women surviving from age 70 to 100 during 2021–2025 — but that estimate comes from a village of only ~2,300 people, giving a wide confidence interval of 7.3%–23.8%, and several co-authors have commercial ties to "Blue Zones, Inc." The [original article](https://longevity.technology/news/every-blue-zone-should-come-with-an-expiry-date/) calls for bringing in independent demographers, making case-by-case data public, and slapping "expiration dates" on blue zone certifications with periodic reviews. Links to the primary paper and AFAR's new definition document are included for further verification.
 
-The Business Research Company [released a forecast report](https://longevity.technology/news/longevity-biotech-market-set-to-top-31b-by-2030/) estimating the longevity biotech market will surpass $31 billion by 2030, with a compound annual growth rate of about 8%. Preventive health projects are expected to capture the largest share (about 41% of a larger $41 billion market), with biological age testing contributing roughly $5 billion. Notably, the report also points out that this market is wildly fragmented — the top 10 companies combined account for only about 0.3% of 2025 revenue, meaning there's no dominant player yet. Market projections are based on growth assumptions rather than realized revenue, so these numbers should be taken as trend indicators, not guaranteed outcomes. Clinical efficacy evidence for longevity biotech still lags well behind the market hype.
+---
+
+### 9. Dog Aging Project fetches $29M NIH renewal funding
+
+The Dog Aging Project has landed roughly $29 million in five-year renewal funding from NIH, led by Tufts University, with nearly 55,000 companion dogs enrolled since 2018. Per [Longevity.Technology's report](https://longevity.technology/news/old-dogs-new-funding-dog-aging-project-fetches-29m-from-nih/), the core idea is that dogs share our living environments, breathe the same air, drink the same water, suffer from age-related diseases like cognitive decline — but live their lives on a compressed timeline, making them effective models for studying how environmental exposures interact with aging. The next phase adds drinking water analysis, air pollution patches, activity trackers, and genetic sample collection from "supercentenarian" dogs, aiming to shift from "what happened" to "why." Canine findings can't be directly extrapolated into human interventions — longitudinal follow-up is still needed to build causal chains.
+
+---
+
+### 10. REM sleep delta wave intrusion linked to tau, amyloid, and memory lapses
+
+Delta waves — slow brain waves typically seen only during deep sleep — intruding into REM sleep (the dreaming stage) in older adults are linked to accumulation of tau and amyloid proteins, the two hallmark pathological features of Alzheimer's, as well as to degree of forgetfulness. A [study](https://www.nature.com/articles/s41467-026-78425-9) in *Nature Communications* reports these findings, though this is summary-level info; sample size, study design, and effect sizes need to be checked against the original paper. For now it's purely correlational — no causal conclusions or clinical recommendations can be drawn.
+
+---
+
+## **💻 Open Source Top Projects**
+
+### ADAMMA-CDHI-ETH-Zurich/CosinorAge: Predicting biological age using biological rhythms
+
+[CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge) is a Python package from ETH Zurich that uses the "cosinor" method — analyzing the regularity of a person's circadian physiological rhythms to estimate biological age, a different angle from the usual methylation-based or blood-marker-based clocks. Great for researchers and devs with Python chops looking to do biological age research on wearable or log data. The repo has 13 stars, last active October 25, 2026 — check the README for specific data format requirements and validation status.
+
+### gangchen/epiage-skill: 24 epigenetic aging clocks packaged as an offline Agent tool
+
+[epiage-skill](https://github.com/gangchen/epiage-skill) bundles 24 mainstream epigenetic aging clocks (including GrimAge V1/V2, Horvath, Hannum, PhenoAge, etc.) into a single offline-installable Agent skill module that only needs pandas and numpy — no network calls required. Epigenetic clocks estimate biological age by analyzing DNA methylation patterns (chemical modifications that change with age while the genetic sequence stays the same). Perfect for data scientists wanting to run multiple clocks locally and do comparative research. The repo has 3 stars, last active October 24, 2026 — check the repo for runtime environment and license details.
+
+---
+
+## **💡 Related Questions**
+
+### Can the anti-aging vaccine mouse results be directly applied to humans?
+
+Nope. [This study](https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/) saw a 12% lifespan increase with only 10 mice per group, and the control group's shorter-than-expected lifespan may have exaggerated the effect. Mouse aging biology differs from humans in important ways, and multiple interventions that worked in mice have failed to replicate in human trials. This research is at the animal proof-of-concept stage — no human safety or efficacy data exists yet. Readers can trace the methodological discussion around the short-lived control group issue in the references section of the original Lifespan.io article.
