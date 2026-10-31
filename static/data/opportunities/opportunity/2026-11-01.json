@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-01",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-01/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_dfbc0651c97cbbb3",
+      "report_date": "2026-11-01",
+      "report_section": "opportunity",
+      "title": "阿尔茨海默血液检测新闻解读:照护家属信息整理内容选题",
+      "source_urls": [
+        "https://www.sciencedaily.com/releases/2026/10/261029072142.htm"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "** 有阿尔茨海默症家族史或正在照护认知衰退亲属的中文用户;关注衰老和预防医学的健康内容账号读者。付费意愿待验证,目前是兴趣信号而非询价信号。",
+      "demand_claim": "** 新闻出现后照护家属典型问题是\"这个检测我能做吗、在哪做、多少钱、靠不靠谱\"。需求假设:愿意为节省信息筛选时间的整理包支付小额费用,但此假设尚未经询价验证。",
+      "demand_verified": false,
+      "deliverable_hint": "** 一篇公众号/小红书文章,主题\"血液检测预测阿尔茨海默症是什么意思——现阶段家属需要了解的背景信息\";或一份简短\"阿尔茨海默早期风险信息整理清单\"资料包。",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "** 7天内内容收藏量超过点赞量,或社群/朋友圈收到3条以上有实质内容的追问(如\"在哪做\"\"多少钱\"\"国内有没有\"),才值得继续做资料包方向。",
+        "stop_condition": "** 7天内只有点赞无追问、无私信、无转发,说明此人群当前未进入主动搜索阶段;停止投入,转观察下一条同类报道。",
+        "upgrade_path": "** 免费解读文章 → 低价\"阿尔茨海默早期风险信息包\" → 照护家属微信群 → 定期信息更新会员。"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_dfbc0651c97cbbb3:discover_primary_source",
+      "opportunity_id": "opp_dfbc0651c97cbbb3",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_dfbc0651c97cbbb3:validate_demand",
+      "opportunity_id": "opp_dfbc0651c97cbbb3",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
