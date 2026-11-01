@@ -4,49 +4,46 @@ type: page
 sidebar:
   exclude: true
 ---
-# Contact Aivora
+# Get in Touch with Aivora
 
-Thanks for stopping by the Aivora AI Daily! We'd love to hear from you — whether it's feedback, ideas, or just a quick question.
+Aivora AI Daily here — thanks for stopping by! We'd genuinely love to hear your thoughts, feedback, and ideas.
 
-Got questions, partnership ideas, or need help with AI tool accounts? Hit us up through any of the channels below.
+Got questions, partnership ideas, or need a hand with an AI tool account? Here's how to reach us. 👇
 
 ---
 
-## 📬 Contact Us
+## 📬 Contact Info
 
-### WeChat Customer Support
+### Customer Service WeChat
 
-**WeChat ID: aiwoola**
+**WeChat ID: aiwoola** is your direct line to our support team — scan the QR code or search to add us and get:
 
-Scan the QR code or search our WeChat ID to get in touch. Here's what we can help with:
-- 🛒 AI tool account purchase inquiries
-- 💡 Technical support for usage issues
-- 🤝 Business partnership discussions
-- 📰 Content submissions and suggestions
+- AI tool account purchase consults 🛒
+- Tech support for usage questions
+- Business partnership chats
+- Content submissions & feedback
 
 ### Email
 
-**Email: [support@aivora.cn](mailto:support@aivora.cn)**
+**[support@aivora.cn](mailto:support@aivora.cn)** is the way to go for:
 
-Best for:
 - Detailed technical questions
-- Business collaboration proposals
-- Bulk purchase inquiries
+- Business partnership proposals
+- Bulk purchase pricing
 
 ### Official Website
 
-**[https://aivora.cn](https://aivora.cn)**
+**[https://aivora.cn](https://aivora.cn)** has everything you need — swing by for:
 
-Head to our site to check out:
 - Latest account plan pricing
-- Terms of service and guarantees
-- User guides and tutorials
+- Terms of service & guarantees
+- User guides
 
 ---
 
 ## ⏰ Service Hours
 
-- **Live support hours**: Daily, 9:00 AM – 11:00 PM (GMT+8)
-- **Email response time**: Within 24 hours
+- **Live customer service**: Every day 9 AM – 11 PM (GMT+8)
+- **Email turnaround**: Within 24 hours
 
-We're committed to fast responses and genuinely caring about every user we serve! 💪
+Fast replies and genuine care for every single user — that's our promise! 💪
