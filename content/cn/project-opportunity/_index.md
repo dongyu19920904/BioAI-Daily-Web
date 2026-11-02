@@ -2,63 +2,56 @@
 linkTitle: '项目商机'
 title: 'AI生命延续学资讯商机项目'
 breadcrumbs: false
-description: '2026-10-31 AI生命延续学资讯商机项目：CosinorAge；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
+description: '2026-11-02 AI生命延续学资讯商机项目：RETFound 眼底影像项目：先写研究方法核查笔记；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
 cascade:
   type: docs
-next: /project-opportunity/2026-10/2026-10-31/
+next: /project-opportunity/2026-11/2026-11-02/
 ---
+
+> 补刊说明：本篇于 2026-11-02 人工核查并恢复，沿用当日已保存的项目素材，并补读公开 README 与许可证元数据。未安装、未上传数据、未运行模型；不是重新调用模型生成，新增模型费用为 0 元。
 
 ## 先看结论（可引用项目判断）
 
-- CosinorAge（https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge）：ETH Zurich ADAMMA-CDHI 实验室的 Python 包，description 自述实现基于 Cosinor 模型的生物年龄预测。今天能否试跑待核查（许可证、数据入口、依赖均未在素材中提供）。适合做 Python 工具导航条目和试跑笔记；不能用于个人生物年龄评估或健康建议，README 自述不等于临床验证。
-
-- epiage-skill（https://github.com/gangchen/epiage-skill）：description 自述包含 24 种表观遗传时钟算法，仅依赖 pandas+numpy，声称可离线运行。许可证和数据入口待核查。适合独立开发者做工具拆解；不能用于个人甲基化数据的健康打分或风险判断。
+- [RETFound-CVD 仓库](https://github.com/agnikitha/retfound-cvd-screening)展示了如何复用眼底图像基础模型。它适合成为研究方法阅读材料，不应把 README 的效果宣传直接当作独立临床证据。
+- 对初学者，今天可做的是读懂“预训练模型、下游任务、测试样本”三层关系。本次没有验证安装、权重下载、数据授权或跨人群表现。
 
 ## 今日优先项目
 
-### CosinorAge
+### RETFound 眼底影像项目：先写研究方法核查笔记
 
-ETH Zurich 机构背书的 Python 包，description 明确写了 "biological age prediction"，活跃信号为 2026-10-25。方向与 longevity 生物年龄估算工具生态对齐，适合做工具导航和试跑笔记。具体输入数据类型、示例数据是否附带均待核查 README 确认。
+RETFound 是面向视网膜图像的预训练模型，这个仓库尝试在它之上增加多个下游任务。README 列出了界面、解释性热图与评测文件，还给出不同筛选条件下的测试结果。这里最值得学的是：同一份数据怎样划分、哪些样本被排除、作者报告了什么；这些问题比单看一个准确率更重要。仓库自述不等于本刊已复现，相关任务也没有因此变成可直接用于实际服务的工具。
 
-- 证据来源：https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge （GitHub Trending，最近活跃 2026-10-25T11:46:19Z）
-- 可信度：中（机构仓库，description 描述清晰，但 README、许可证和数据入口未在素材中提供）
-- 目标鱼塘：独立开发者、longevity 内容创作者、科研学习者
-- 它解决什么问题：用 Cosinor 模型从节律信号中提取参数估算生物年龄，具体输入数据类型待核查
-- 试跑门槛：中；Python 环境，但输入数据格式和示例数据集待核查
-- 许可证与数据：待核查
-- 维护成本：中；机构维护，个人需关注上游更新
-- 可做成什么：试跑教程 / 工具导航条目 / 资料库条目
-- 可交付物：README 试跑笔记、安装截图、依赖清单、3 条要点
-- 最低成本验证：打开 README，确认安装步骤和示例数据是否存在
-- 成功指标：24 小时内能完成 pip install 并找到示例输入数据
-- 停止条件：许可证禁止商用；无示例数据且数据格式文档缺失；依赖冲突无法解决
-- 二次开发路径：① 做 longevity Python 工具导航页条目；② 写算法原理拆解教程；③ 积累成工具雷达条目
-- 售后或合规风险：中
-- 合规边界：只写"研究工具观察"和"算法原理拆解"，不能描述为个人生物年龄测量服务，不能暗示抗衰效果
-- 今天最小动作：打开仓库，查看 README、许可证文件和 examples 目录，截图并整理 3 条要点
+- 证据来源：[agnikitha/retfound-cvd-screening 的代码与 README](https://github.com/agnikitha/retfound-cvd-screening)。来源类型：公开 GitHub 项目；证据阶段：作者文档与仓库元数据，未独立试跑。
+- 可信度：中；仓库与 README 可访问，性能、泛化与部署条件未核验。
+- 目标鱼塘：学习图像模型迁移的开发者、AI 生命科学内容创作者、科研方法初学者。
+- 它解决什么问题：作者尝试复用眼底图像基础模型完成若干下游分析任务，并提供评测与展示代码。
+- 试跑门槛：待核查；README 涉及 Python、模型权重与 GPU 评测环境，实际依赖和资源需求未验证。
+- 许可证与数据：GitHub 元数据标注 MIT。代码许可不自动覆盖基础模型权重、数据和示例图像；这些条件需分别核对。
+- 维护成本：待核查；环境兼容、权重获取、数据授权及结果复核都可能需要额外工作。
+- 可做成什么：研究方法拆解、基础模型复用路线图、作者评测条件对照表。
+- 可交付物：一页阅读笔记，区分基座论文、当前仓库自述和本次没有验证的内容。
+- 最低成本验证：只读 README 与依赖清单，检查训练、验证、测试划分及排除条件是否可追溯；不运行仓库启动脚本。
+- 成功指标：建议以能否解释评测分层、追溯数据与权重条件作为继续研究的门槛，而不是以界面能打开作为有效性证明。
+- 停止条件：数据授权、权重条件或测试划分说不清时暂停；不能用作者截图替代复现记录。
+- 二次开发路径：先做研究阅读和评测口径对照；核清许可、数据及环境后再评估合规的公开教学示例。
+- 售后或合规风险：中；影像与健康资料涉及隐私，评测结论容易被超范围解释。
+- 合规边界：仅整理代码来源、证据阶段和局限；本次没有独立验证人体适用性或实际服务效果。
+- 今天最小动作：把基座模型、当前实现、数据条件、评测条件和未知项写成五行对照表。
 
 ## 可二次开发方向
 
-- 方向 A：epiage-skill 算法清单整理。gangchen/epiage-skill（https://github.com/gangchen/epiage-skill）description 自述包含 GrimAge V1/V2、Horvath、PhenoAge 等 24 种表观遗传时钟。可交付物：算法名称 × 数据类型的对比表头草稿。最低成本验证：今天打开仓库核查许可证和 README 中的算法列表是否与 description 一致。后续升级：如许可证允许，做成轻量导航页或周报栏目"表观遗传时钟雷达"。
-
-- 方向 B：NeuroXT FDA 获批工具监管时间线整理。NeuroXT NEXT-Cue（https://longevity.technology/news/fda-clears-neuroxts-ai-tool-that-sizes-up-alzheimers-risk/）获 FDA clearance，配对脑 MRI 与认知评分，面向临床医生。可交付物：一条资料库条目，写清工具名称、适用场景（临床，非消费者）、监管状态、来源链接。最低成本验证：收藏新闻 URL，写一条含"仅限临床使用、非个人诊断工具"限定的内容选题。后续升级：追踪同类获批 AI 神经认知工具，积累成监测页。
+- 写一篇“为什么同一个项目会给出多组评测结果”的方法阅读笔记。明确标为作者自报，逐项比较筛选条件，不把指标变化解释为普遍效果提升。
 
 ## 值得观察
 
-- brain-age-prediction-ixi（https://github.com/anupbagale/brain-age-prediction-ixi）：3D CNN 预测脑年龄，使用 IXI 公开数据集，Jupyter Notebook，活跃于 2026-10-30。许可证和依赖待核查，3D MRI 处理算力需求不明。暂不动原因：算力和许可证未确认，先观察是否有试跑记录再评估。
-
-- Mayo Clinic precure research（https://www.news-medical.net/news/20261030/Mayo-Clinic-enters-new-medical-era-with-precure-research.aspx）：症状前疾病生物标志物方向，目前为新闻通稿，无具体论文或工具链接。暂不动原因：无可用项目线索，等具体论文或工具发布再跟进。
+- [仓库中的评测说明](https://github.com/agnikitha/retfound-cvd-screening)提供了进一步核查的线索。本次未验证数据完整性、权重可得性或模型在其他人群中的表现。
 
 ## 今天别碰
 
-- Butterfly_DNAm_age（https://github.com/JesperBoman/Butterfly_DNAm_age）：description 自述为蝴蝶表观遗传时钟训练脚本，基于动物数据，stars 1，R 语言，许可证和数据待核查。动物研究不适用个人健康评估，活跃度低，暂无内容复用价值。
-
-- Rivus RV-8451（https://longevity.technology/news/rivus-to-show-animal-data-on-muscle-sparing-glp-1/）：临床前动物实验，结果将于 11 月 ObesityWeek 以海报形式展示，目前无公开论文。动物实验结论不适合改写为任何形式的个人健康判断工具或干预建议。
+- 当前不扩大到真实资料处理或服务交付。先厘清来源、数据授权、证据阶段与局限，再决定是否进入公开研究示例的复现。
 
 ## 今日动作
 
-- 今天先试跑：打开 https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge，查看 README 和许可证文件，记录安装步骤和示例数据是否存在
-- 今天先写：一条选题"ETH Zurich 的生物年龄 Python 工具：Cosinor 模型怎么算"（注明研究工具观察，非个人测量服务）
-- 今天先收藏：https://github.com/gangchen/epiage-skill，用于后续算法对比表整理
-- 今天先做表：核查 epiage-skill README 后，整理算法名称 × 数据类型表头草稿（内容以实际 README 为准）
-- 今天先避开：动物实验项目（Butterfly_DNAm_age、Rivus RV-8451）、无公开数据的 Mayo precure 新闻；不发布任何形式的个人生物年龄评估或认知风险判断内容
+- 今天先读：README 的模型说明、评测分层与依赖清单。
+- 今天先做表：基座模型、下游任务、数据、评测和未知条件。
+- 今天先保留：作者自述与独立验证的区别，不把研究原型写成成熟产品。

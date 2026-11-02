@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-02",
+  "report_section": "project-opportunity",
+  "source_page": "/project-opportunity/2026-11/2026-11-02/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_3c04af87c8930c6e",
+      "report_date": "2026-11-02",
+      "report_section": "project-opportunity",
+      "title": "RETFound 眼底影像项目:先写研究方法核查笔记",
+      "source_urls": [
+        "https://github.com/agnikitha/retfound-cvd-screening"
+      ],
+      "source_verified": false,
+      "state": "needs_repository_check",
+      "state_reason": "已提取仓库链接；尚未核验许可证、数据和可运行性",
+      "target_user": "学习图像模型迁移的开发者、AI 生命科学内容创作者、科研方法初学者。",
+      "demand_claim": null,
+      "demand_verified": false,
+      "deliverable_hint": "一页阅读笔记,区分基座论文、当前仓库自述和本次没有验证的内容。",
+      "suggested_route": "content",
+      "risk_flags": [],
+      "hypotheses": {
+        "success_metric": "建议以能否解释评测分层、追溯数据与权重条件作为继续研究的门槛,而不是以界面能打开作为有效性证明。",
+        "stop_condition": "数据授权、权重条件或测试划分说不清时暂停;不能用作者截图替代复现记录。",
+        "upgrade_path": null
+      }
+    }
+  ]
+}

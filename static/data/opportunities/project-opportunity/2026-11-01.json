@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-01",
+  "report_section": "project-opportunity",
+  "source_page": "/project-opportunity/2026-11/2026-11-01/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_ed324235cbcfbcab",
+      "report_date": "2026-11-01",
+      "report_section": "project-opportunity",
+      "title": "PhenoAge 智能体工具:先核对模型假设与实现",
+      "source_urls": [
+        "https://github.com/Alpha-Park/genpark-personal-agent-longevity-biomarker-velocity-skill",
+        "https://github.com/alphaparkinc/genpark-personal-agent-longevity-biomarker-velocity-skill"
+      ],
+      "source_verified": false,
+      "state": "needs_repository_check",
+      "state_reason": "已提取仓库链接；尚未核验许可证、数据和可运行性",
+      "target_user": "想理解年龄模型的科研学习者、整理 AI 生命科学工具的内容创作者。",
+      "demand_claim": null,
+      "demand_verified": false,
+      "deliverable_hint": "一页资料表,分开记录原研究、仓库自述、已核对内容及未知项。",
+      "suggested_route": "interactive_tool",
+      "risk_flags": [],
+      "hypotheses": {
+        "success_metric": "建议以能否追溯计算依据、解释必要假设为继续阅读的门槛,不以输出一个数字作为验证成功。",
+        "stop_condition": "模型出处、公式、参数单位或数据使用条件说不清时,停止扩展,不把说明中的宣传当作结论。",
+        "upgrade_path": null
+      }
+    }
+  ]
+}
