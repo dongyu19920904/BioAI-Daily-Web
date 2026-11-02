@@ -60,6 +60,12 @@ cascade:
 
 ---
 
+## **🧪 前沿研究**
+
+### 脑内星形胶质细胞"不成熟"程度与认知衰退相关
+
+研究人员利用因癫痫手术切除的海马组织（共来自多名成人患者），发现一类携带 Dcx+ 标记的"未成熟星形胶质细胞"随年龄增加而增多，且其数量与流体智力（衡量快速学习和解决新问题能力的认知指标）的下降程度存在关联。星形胶质细胞通常被视为神经元的辅助细胞，但越来越多的证据显示它们主动参与学习与记忆的调节。这项研究的局限在于样本来自癫痫患者，其大脑老化速度本就快于普通人，关联是否适用于一般人群还不确定，机制也有待后续研究跟进，据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/age-related-decline-in-fluid-intelligence-correlates-with-the-presence-of-immature-astroglia/)可了解认知评估方法与细胞计数数据。
+
 ## **⌘ 开源 TOP 项目**
 
 ### agnikitha/retfound-cvd-screening：用眼底图像估算心血管风险与视网膜生物年龄
@@ -67,9 +73,3 @@ cascade:
 这个项目基于 RETFound（专为视网膜图像预训练的视觉大模型），构建了一个同时处理心血管风险相关指标（颈动脉内中膜厚度 CIMT，用于反映动脉硬化程度）、视网膜生物年龄估算和五种疾病分类的 AI 平台。视网膜血管是全身血管的"天然窗口"，RETFound 通过在大规模眼底图像上预训练，捕捉到与全身健康状态相关的图像特征。项目 description 说明用途为非侵入性筛查，但图像特征与这些指标相关不等于能准确测出具体检验值，实际精度和适用人群尚需查阅仓库内的评估结果。仓库地址：[agnikitha/retfound-cvd-screening](https://github.com/agnikitha/retfound-cvd-screening)，最近活跃于 2026 年 10 月底。
 
 ---
-
-## **🧪 前沿研究**
-
-### 脑内星形胶质细胞"不成熟"程度与认知衰退相关
-
-研究人员利用因癫痫手术切除的海马组织（共来自多名成人患者），发现一类携带 Dcx+ 标记的"未成熟星形胶质细胞"随年龄增加而增多，且其数量与流体智力（衡量快速学习和解决新问题能力的认知指标）的下降程度存在关联。星形胶质细胞通常被视为神经元的辅助细胞，但越来越多的证据显示它们主动参与学习与记忆的调节。这项研究的局限在于样本来自癫痫患者，其大脑老化速度本就快于普通人，关联是否适用于一般人群还不确定，机制也有待后续研究跟进，据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/10/age-related-decline-in-fluid-intelligence-correlates-with-the-presence-of-immature-astroglia/)可了解认知评估方法与细胞计数数据。
