@@ -4,46 +4,49 @@ type: page
 sidebar:
   exclude: true
 ---
-# Get in Touch with Aivora
+# Contact Aivora
 
-Aivora AI Daily here — thanks for stopping by! We'd genuinely love to hear your thoughts, feedback, and ideas.
+Thanks for visiting the Aivora AI Daily! 🎉 We'd love to hear from you — whether it's feedback, questions, or just a good idea you want to share.
 
-Got questions, partnership ideas, or need a hand with an AI tool account? Here's how to reach us. 👇
+Got questions, partnership ideas, or need help with AI tool accounts? Hit us up through any of the channels below.
 
 ---
 
-## 📬 Contact Info
+## 📬 Contact Us
 
-### Customer Service WeChat
+### WeChat Customer Support
 
-**WeChat ID: aiwoola** is your direct line to our support team — scan the QR code or search to add us and get:
+**WeChat ID: aiwoola**
 
-- AI tool account purchase consults 🛒
-- Tech support for usage questions
-- Business partnership chats
-- Content submissions & feedback
+Scan the QR code or search our ID to add us, and get access to:
+- 🛒 AI tool account purchase consultation
+- 💡 Technical support for usage issues
+- 🤝 Business partnership discussions
+- 📰 Content submissions and suggestions
 
 ### Email
 
-**[support@aivora.cn](mailto:support@aivora.cn)** is the way to go for:
+**Email: [support@aivora.cn](mailto:support@aivora.cn)**
 
+Best for:
 - Detailed technical questions
 - Business partnership proposals
-- Bulk purchase pricing
+- Bulk purchase inquiries
 
 ### Official Website
 
-**[https://aivora.cn](https://aivora.cn)** has everything you need — swing by for:
+**[https://aivora.cn](https://aivora.cn)**
 
+Head over to the site to check out:
 - Latest account plan pricing
-- Terms of service & guarantees
+- Terms of service and guarantees
 - User guides
 
 ---
 
 ## ⏰ Service Hours
 
-- **Live customer service**: Every day 9 AM – 11 PM (GMT+8)
-- **Email turnaround**: Within 24 hours
+- **Customer support online:** Daily, 9:00 AM – 11:00 PM (GMT+8)
+- **Email response time:** Within 24 hours
 
-Fast replies and genuine care for every single user — that's our promise! 💪
+We're committed to fast responses and genuinely good service for every single user! 💪
