@@ -8,58 +8,45 @@
   "opportunities": [
     {
       "schema_version": 1,
-      "opportunity_id": "opp_04dbaa9bfb119ee5",
+      "opportunity_id": "opp_e263a54617a6b1cf",
       "report_date": "2026-11-02",
       "report_section": "opportunity",
-      "title": "视网膜影像 + AI 基础模型研究方向的内容选题与项目监控",
+      "title": "心脏瓣膜病风险趋势:面向照护家属的趋势科普资料包验证机会",
       "source_urls": [
-        "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-2nd-2026/",
-        "https://github.com/agnikitha/retfound-cvd-screening"
+        "https://medicalxpress.com/news/2026-10-deaths-heart-valve-disease-adults.html"
       ],
       "source_verified": false,
-      "state": "needs_input_check",
-      "state_reason": "已找到仓库元数据和许可证标识；数据入口、授权义务与核心功能仍需受控验证",
-      "target_user": "关注 AI 长寿交叉方向的内容读者、可穿戴/健康硬件爱好者中想了解前沿方法的人",
-      "demand_claim": "假设——这类读者想快速了解\"视网膜影像能否推断全身健康\"这类前沿话题,但缺时间追踪原始论文和 GitHub 项目;付费意愿待验证",
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "** 家里有 65 岁以上老人、正在做养老或慢病照护的家属;以及关注老龄化健康话题的自媒体作者和健康管理小机构",
+      "demand_claim": null,
       "demand_verified": false,
-      "deliverable_hint": "一篇研究方向观察短文 + 一张 AI 视网膜健康研究项目跟踪表(含项目名、星数、状态、模型、数据集、许可证)",
-      "suggested_route": "content",
+      "deliverable_hint": "** 一篇\"65 岁后心脏为什么要多注意:心脏瓣膜病趋势与照护者观察清单\"类内容;或整理成一张观察要点 PDF,不写诊断建议,只写\"这些情况建议就诊\"的信息整理",
+      "suggested_route": "structured_resource",
       "risk_flags": [
         "health_claim_review",
         "commercial_hypothesis"
       ],
       "hypotheses": {
-        "success_metric": "7 天内该帖收藏超过 30 或收到 3 条以上有效私信询问\"在哪能看到更多这类项目\",值得继续做跟踪表",
-        "stop_condition": "7 天内阅读低于日常均值且无私信,说明该方向暂无足够内容读者兴趣,不再投入跟踪表",
-        "upgrade_path": "跟踪表可扩展为付费资料包\"AI 长寿研究方向导航\";后续可做周更项目监控"
+        "success_metric": "** 48 小时内完读率高于同期平均 20% 以上,或收到 3 条以上问\"在哪里能看更多\"或\"有没有资料包\"的留言",
+        "stop_condition": "** 发出后 48 小时完读率低于历史平均,且无任何询问留言,说明这个鱼塘对此话题当前兴趣不足,暂停继续制作相关资料包",
+        "upgrade_path": "** 科普文 → 照护者观察清单 PDF(低价或免费引流)→ 照护家属微信群 → 轻咨询或陪跑"
       },
-      "repository_metadata": {
-        "repository": "agnikitha/retfound-cvd-screening",
-        "url": "https://github.com/agnikitha/retfound-cvd-screening",
-        "default_branch": "main",
-        "archived": false,
-        "disabled": false,
-        "pushed_at": "2026-10-30T15:07:21Z",
-        "license_spdx": "MIT",
-        "screening_status": "metadata_found",
-        "data_verified": false,
-        "run_verified": false,
-        "commercial_use_verified": false
-      }
+      "primary_source_candidates": []
     }
   ],
   "tasks": [
     {
-      "task_id": "opp_04dbaa9bfb119ee5:inspect_repository",
-      "opportunity_id": "opp_04dbaa9bfb119ee5",
-      "kind": "inspect_repository",
+      "task_id": "opp_e263a54617a6b1cf:discover_primary_source",
+      "opportunity_id": "opp_e263a54617a6b1cf",
+      "kind": "discover_primary_source",
       "status": "pending_automation",
-      "description_zh": "自动核查仓库许可证、数据入口、依赖、维护状态和试跑条件",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
       "depends_on": []
     },
     {
-      "task_id": "opp_04dbaa9bfb119ee5:validate_demand",
-      "opportunity_id": "opp_04dbaa9bfb119ee5",
+      "task_id": "opp_e263a54617a6b1cf:validate_demand",
+      "opportunity_id": "opp_e263a54617a6b1cf",
       "kind": "validate_demand",
       "status": "pending_automation",
       "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
