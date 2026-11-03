@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/2'
+title: 'AI生命延续学日报 2026/11/3'
 breadcrumbs: false
-next: /2026-11/2026-11-02
-description: '2026-11-02 AI生命延续学日报：剪接因子 SRSF1 在小鼠中延长寿命 14%，且未触发癌变风险；超短波电磁疗法在小鼠中 10 分钟内促进大脑废物清除；Anthropic 披露药物研发布局：收购单人公司，6 项合作含多项实验室成果。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-03
+description: '2026-11-03 AI生命延续学日报：蛋白口袋模型预测配体性质范围；以典型大脑为参照的MRI自闭症分类；无需训练的方法找到高功能抗菌多肽。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,65 +11,89 @@ cascade:
 ## **今日摘要**
 
 ```
-一种剪接因子导入老年小鼠后，寿命延长约一成四，且未见肿瘤风险。
-超短波电磁场在小鼠中可能促进大脑废物清除，并在阿尔茨海默模型中观察到认知改善信号。
-两项结果均来自动物实验，能否在人体复现尚待验证。
+抗衰老疫苗延长小鼠中位寿命12%，针对衰老细胞而非病原体。
+美国药管部门计划将衰老纳入监管科学议程，政策细节待核查。
+疫苗结果仅在雌性小鼠中观察到，不能说明对人类有效。
 ```
 
-## **🔥 今日焦点 TOP 3**
+## **🔥 今日焦点 TOP 10**
 
-### 1. 剪接因子 SRSF1 在小鼠中延长寿命 14%，且未触发癌变风险
+### 1. 蛋白口袋模型预测配体性质范围
 
-研究者用机器学习算法扫描人类皮肤细胞的基因表达谱，筛出能让老细胞"转录组年龄"回移的候选基因，排名第一的是剪接因子 SRSF1——它可以同时调控成千上万个基因的表达方式。将 SRSF1 导入老年小鼠后（主要蓄积于肝脏），动物的衰老速率下降，寿命延长了 14%，且细胞保持了原有形态和功能，未出现 Yamanaka 因子引发的多能化或肿瘤风险。目前结果来自小鼠实验，能否在人体复现尚待验证，据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-2nd-2026/)可进一步了解研究背景与机制讨论。
+据[论文索引/摘要](https://papers.cool/arxiv/2611.03379)，RangeFinder是一个SE(3)等变transformer模型，从蛋白质结合口袋（药物分子结合的空腔）的结构、化学和进化信息出发，直接预测九项配体物理化学性质的数值范围，而非逐个分子打分。在BioLiP2数据集上，range-IoU达到0.464，每个口袋仅需12.2毫秒，优于所有可部署基线；消融实验显示性能更依赖配体监督数据的密度和质量而非单一输入模态。研究定位为docking前的低成本分子过滤先验，代码开源于[GitHub仓库](https://github.com/alannadels/RangeFinder)，尚未涉及实际药物筛选验证。
 
-### 2. 超短波电磁疗法在小鼠中 10 分钟内促进大脑废物清除
+### 2. 以典型大脑为参照的MRI自闭症分类
 
-大脑有一套"淋巴系统"（胶质淋巴系统），负责冲走蛋白质碎片等代谢废物，随衰老逐渐低效，与神经退行性疾病相关。[发表于《科学·进展》的研究](https://doi.org/10.1126/sciadv.aeh8870)显示，40.68 MHz 超短波电磁场能在健康小鼠中 10 分钟内增强这一清除流量，机制涉及促进星形胶质细胞上的水通道蛋白 AQP4 重新定位到血管周围，同时增强大脑慢波（Delta 波）同步活动。研究者还在阿尔茨海默模型小鼠中观察到认知功能改善信号，但目前所有证据仅来自动物实验，人体有效性待验证。
+据[论文索引/摘要](https://papers.cool/arxiv/2611.03349)，NormMoX用normative modeling（规范建模，先在健康人群中建立各脑区指标随年龄性别的正常范围，再看个体偏离多少）从结构和功能MRI分类自闭症。在ABIDE I的1035名参与者上，AUROC为0.728，优于线性和深度融合基线。模型以"典型大脑"为共同参照，在某个模态缺失时不需插补，还能指出每个人在哪个模态、哪个脑区偏离典型。研究为回顾性分类，不涉及临床诊断验证。代码开源于[GitHub仓库](https://github.com/Novelex/NormMox)。
 
-### 3. Anthropic 披露药物研发布局：收购单人公司，6 项合作含多项实验室成果
+### 3. 无需训练的方法找到高功能抗菌多肽
 
-Anthropic 在 IPO 申报后发布新闻稿，披露其在药物研发领域的具体进展。据 [GEN 的报道](https://www.genengnews.com/topics/genome-editing/stockwatch-gene-editing-shares-jump-on-esgct-data-fda-draft-guidance/)，公司于今年 8 月收购了仅有一名创始人的 Mithril Medicine，该公司用 Claude 协调 11 个外部实验室并处理运营，18 个月内在小鼠中取得一种肌肉萎缩症疗法的阳性结果，预计最早 2028 年进入人体试验。六项合作中，Generate Biomedicines 的 6 名科学家用 Claude Code 设计出比标准版短约 70% 的 CAR-T 遗传指令片段，实验室测试中效果更优；Enveda 将 Claude 审核 1061 页制造文件，发现人工审核遗漏的 7 处问题。目前多数成果仍处于实验室阶段，不代表临床疗效。
+据[论文索引/摘要](https://papers.cool/arxiv/2611.03603)，研究在两个完整适应度景观上比较了变分自编码器和信息论方法搜索罕见高功能序列的能力。信息论方法不需要训练，运行速度显著快于标准ML/AI方法，在发现罕见高功能序列上也更有效。团队将该方法用于发现对细菌细胞膜特异而不作用于真核细胞膜的抗菌多肽。该方法能否在生物实验中验证抗菌活性和选择性，仍需后续实验确认。
 
-[![来源配图：StockWatch: Gene Editing Shares Jump on ESGCT Data, FDA Draft Guidance](https://www.genengnews.com/wp-content/uploads/2026/10/Diamantas_Kyle_900-x-900_Flag-253x300.jpg)](https://www.genengnews.com/topics/genome-editing/stockwatch-gene-editing-shares-jump-on-esgct-data-fda-draft-guidance/)
+### 4. 训练数据中的单次事实决定模型科学发现能力
 
-## **⚡ 产品与功能更新**
+据[论文索引/摘要](https://papers.cool/arxiv/2611.03617)，研究将大语言模型的科学发现能力追溯到训练数据，提出monofact（训练中只出现一次的事实）设定了发现能力的上限。在材料科学和监管基因组学中，团队直接操纵训练集的monofact率，发现monofact越多，两个开源模型族的发现越多，且不能仅用训练集多样性解释；该关系在配对域内数据时可跨科学领域迁移。研究在受控训练集上进行，能否推广到通用大模型尚待验证。
 
-### 通用大模型在化学性质预测上超越专用化学模型
+### 5. 联合恢复细胞轨迹与RNA动力学
 
-[一项发表于 arXiv 的对比研究](https://papers.cool/arxiv/2610.41899)显示，在仅有 60 个实验数据点的极小样本场景下，GPT-6 Astra 等通用大语言模型在 5 项理化与量子化学性质回归任务上的预测准确率超过了 ChemBERTa、MoLFormer 等专门用分子结构数据训练的化学模型；专用化学模型需要约 600 个数据点才能追上通用模型 60 个数据点时的表现。研究者认为，通用模型积累的人类化学知识比单纯"认识分子结构"更有价值，适合用于实验数据稀缺的化学研究辅助场景。目前结果来自预印本，尚未经同行评审。
+据[论文索引/摘要](https://papers.cool/arxiv/2611.03056)，ManifoldVelo是一个拓扑约束框架，在连续表达流形上联合恢复伪时间（pseudotime，用基因表达排序细胞进程的估算时间）和RNA速度（RNA velocity，转录与降解动态指示的细胞变化方向）。在多峰周期和分支模拟中均取得最佳伪时间恢复和最高方向一致性，真实数据分析与胰腺发育阶段一致。新细胞可仅用剪接RNA获得预测，无需重新训练参考模型。方法在模拟和单细胞数据上验证，尚未用于活体因果推断。
 
----
+### 6. 迭代精修整合空间多组学数据
+
+据[论文索引/摘要](https://papers.cool/arxiv/2611.02932)，ILR-SMO将空间多组学（在保留组织空间位置的同时测量多种分子）整合重新定义为对共享潜表示的稳定性感知精修过程，而非一次性融合。通过逐步注入各模态信息、可靠性感知门控和空间一致性约束，在五个空间多组学基准上优于七种现有方法，对模态不平衡和测量噪声更具鲁棒性。该框架为自监督，验证限于公开基准数据集，实际临床组织样本表现待核查。
+
+### 7. 生成人工网络与人脑偏好的视觉图像
+
+据[论文索引/摘要](https://papers.cool/arxiv/2611.03597)，Vis-Lens将变分自编码器和扩散模型结合到图像生成框架中，通过基于激活的先验正则化潜码，直接生成人工神经网络单元或人脑视觉皮层（用fMRI数据）"偏好"的自然图像，无需逐图迭代优化。在人工神经网络和人脑视觉皮层上，激活调制能力和图像真实感均优于近期方法。研究为表征可视化工具，不涉及临床诊断或治疗应用。
+
+### 8. 面向中低收入国家的痴呆风险评分
+
+据[媒体报道](https://www.news-medical.net/news/20261103/New-dementia-risk-tool-designed-for-the-countries-that-need-it-most.aspx)，Northumbria大学领衔的国际团队开发并验证了一个五因素风险评分，用于在中低收入国家识别痴呆高风险老年人——全球约60%的痴呆病例现在发生在这些地区。输入仅提供短摘要级信息，具体五因素内容、验证样本量和预测性能待核查原文。
+
+![面向中低收入国家的痴呆风险工具](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
+
+### 9. 蓝区年轻一代饮食模式在变化
+
+据[媒体报道](https://www.news-medical.net/news/20261102/Younger-adults-in-Americas-famous-Blue-Zone-are-eating-differently.aspx)，一项纳入615名成人的横断面研究调查了Loma Linda蓝区（Blue Zone，以长寿著称的地区）及周边社区的饮食模式。素食在老年人和基督复临安息日会信徒中更常见，素食者BMI显著低于非素食者。研究者担心年轻一代是否在维持传统饮食习惯，但横断面研究无法证明素食比例随时间下降。
+
+![Loma Linda蓝区饮食研究](https://www.news-medical.net/images/news/ImageForNews_850408_17936670384939234.jpg)
+
+### 10. 抗衰老疫苗延长小鼠中位寿命12%
+
+据[媒体报道](https://lifespan.io/rejuvenation-roundup-october-2026/)，一项研究在雌性B6小鼠晚期生活中使用三元素senolytic疫苗（清除衰老细胞的疫苗）治疗后，衰老标志物降低，中位寿命延长12%。疫苗针对衰老细胞而非病原体。目前结果仅在雌性小鼠中观察到，不能说明对人类有效。来源为Lifespan.io月度综述，原始论文细节待核查。
+
+[![来源配图：Rejuvenation Roundup October 2026](https://lifespan.io/wp-content/uploads/2026/11/Rejuvenation-Roundup-October-2026-262x187.png)](https://lifespan.io/rejuvenation-roundup-october-2026/)
 
 ## **🧪 前沿研究**
 
-### 从病理切片图像同时预测基因表达的多尺度图神经网络
+### 量子机器学习试水小数据肺癌预测
 
-肿瘤空间转录组学（测量组织各位置基因表达分布）成本高昂且稀缺。[arXiv 上的一项研究](https://papers.cool/arxiv/2610.41692)提出用图神经网络从标准病理切片（全切片图像，WSI）同时预测整体、空间和单细胞层次的基因表达，在肺、肾、乳腺癌组织上训练后，整体预测效果较好，单细胞层次准确率较低，下游任务包括生存分析和肿瘤分类。图像特征与基因表达存在相关性，不等于能替代实际测序；模型目前在癌症数据集上训练，能否推广到其他疾病待进一步验证。
+据[媒体报道](https://www.news-medical.net/news/20261102/New-study-evaluates-quantum-machine-learning-for-lung-cancer-prediction.aspx)，一项新研究评估了量子机器学习在小数据集上预测肺癌的可行性，探索量子计算能否从有限的症状和风险因子数据中学到有用模式。输入仅提供短摘要级信息，具体模型架构、数据规模和预测性能待核查原文。
 
----
+### 研究揭示绝经与脑衰老的分子联系
+
+据[媒体报道](https://www.news-medical.net/news/20261102/Study-identifies-molecular-links-between-menopause-and-brain-aging.aspx)，UC Santa Barbara和UC San Francisco等机构的研究者正在研究绝经与脑衰老之间的分子联系——绝经期伴随潮热、脑雾和睡眠障碍等变化。研究报道了研究方向，具体分子机制、样本量和结论待核查原文。
+
+![绝经与脑衰老分子联系研究](https://www.news-medical.net/image-handler/picture/2014/7/Menopause-620x480.jpg)
 
 ## **◎ 行业变化与个人影响**
 
-### 美国 65 岁以上人群心脏瓣膜病死亡率近 20 年来首次反弹
+### 8000万美元计划研究能量与脑功能
 
-[在美国心脏协会 2026 年科学会议上发布的初步研究](https://medicalxpress.com/news/2026-10-deaths-heart-valve-disease-adults.html)显示，在经历约 20 年下降后，美国 65 岁及以上人群的心脏瓣膜病死亡率自 2018 年起回升，预测数据显示这一趋势可能持续到 2040 年。对于关注老年心血管健康的读者，这意味着瓣膜病的负担可能在未来十余年中持续增加，相关早期筛查和管理策略值得关注。目前数据来自会议预印本，尚未完成同行评审，具体驱动因素待原文公布后核查。
-
----
+据[媒体报道](https://www.news-medical.net/news/20261102/New-international-initiative-explores-how-energy-shapes-brain-function.aspx)，一项总额8000万美元的国际研究计划将探索能量如何塑造脑功能，ISTA的Tim Vogels教授获得其中300万美元。输入仅提供短摘要级信息，具体研究方向、参与机构和预期产出待核查原文。
 
 ## **⌘ 开源 TOP 项目**
 
-### Alpha-Park/genpark-personal-agent-cardiorespiratory-vo2max-velocity-skill：有氧能力与心肺生物年龄估算工具
+### dclai-aha/DNA-Damage-Aging-Clocks：DNA损伤衰老时钟
 
-这是一个帮助用户用心率数据和跑步测试结果估算有氧能力（VO2max，即最大摄氧量，反映心肺耐力和长期健康风险的常用指标）的个人代理工具，据[仓库描述](https://github.com/Alpha-Park/genpark-personal-agent-cardiorespiratory-vo2max-velocity-skill)，还可将结果换算为心肺健康生物年龄并对照 ACSM 长寿风险指数。感兴趣的读者可在仓库中了解输入参数要求和估算逻辑；许可证和实际运行状态待核查，自述功能未经独立验证。
+该仓库提供Python脚本和数据集，用于构建基于AP位点（DNA上碱基丢失的损伤）和SSB（单链断裂）的DNA损伤衰老时钟——即用DNA损伤程度估算生物年龄的模型，并评估高脂饮食对小鼠预测年龄的影响。据[GitHub仓库](https://github.com/dclai-aha/DNA-Damage-Aging-Clocks)，近期有活动记录，Stars为1。时钟在小鼠数据上构建，未提及人体验证；许可证和运行状态待核查。
 
-### Uditya007/BioSync：Apple Watch 免费开源生物年龄与恢复监测
+### Zhaowado/biological-age-prediction-model：生物年龄预测模型
 
-BioSync 声称是 WHOOP 和 Oura 的开源替代方案，基于 Apple Watch 和 iPhone 本地运行，据[仓库描述](https://github.com/Uditya007/BioSync)提供实时生物年龄估算、恢复状态、压力、睡眠结构等功能，不需要订阅费用且数据不上传云端。生物年龄为估算指标，不能替代临床检测；项目 Stars 数量极少，稳定性和算法依据待用户自行核查，许可证状态未在素材中明确。
-
----
+据[GitHub仓库](https://github.com/Zhaowado/biological-age-prediction-model)，该项目名为生物年龄预测模型，近期有活动记录，Stars为1。仓库未提供description，具体输入输出、所用数据和模型方法待核查README。
 
 ## **❓ 相关问题**
 
-### 溶酶体衰老时钟和常见的 DNA 甲基化衰老时钟有什么区别？
+### 表观遗传时钟的结果会不会误报？
 
-两者测量的层次不同。DNA 甲基化时钟（如 Horvath 时钟）从细胞核基因组的化学修饰模式估算年龄，反映的是细胞整体表观遗传状态；溶酶体衰老时钟则聚焦于细胞内一个特定细胞器——溶酶体——中特定代谢物的积累模式。据 [Fight Aging! 报道的原研究](https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-2nd-2026/)，溶酶体时钟的标志物在全组织分析中几乎被掩盖，只有单独纯化溶酶体后才能检测到，说明它捕捉的是更精细的细胞器层面变化。两种时钟能否互相替代、谁更能预测功能性衰退，目前均无定论。
+据[媒体报道](https://lifespan.io/rejuvenation-roundup-october-2026/)，一项研究为解读抗衰干预中表观遗传时钟（epigenetic clock，用DNA甲基化估算生物年龄的方法）结果提供了框架，提示一些此前发表的单时钟发现可能需要重新审视。建议将时钟变化与组织功能、健康寿命和死亡率对照，而非单独作为返老还童证据。来源为Lifespan.io综述，原始论文方法待核查。
