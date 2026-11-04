@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/3'
+title: 'AI生命延续学日报 2026/11/4'
 breadcrumbs: false
-next: /2026-11/2026-11-03
-description: '2026-11-03 AI生命延续学日报：蛋白口袋模型预测配体性质范围；以典型大脑为参照的MRI自闭症分类；无需训练的方法找到高功能抗菌多肽。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-04
+description: '2026-11-04 AI生命延续学日报：镰刀型细胞贫血基因疗法在 3 名患者中直接修复突变基因；8 万份血样追踪痴呆早期蛋白信号；补充剂 NOVOS Core 随机对照试验：血管指标改善，脂质无变化。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,89 +11,93 @@ cascade:
 ## **今日摘要**
 
 ```
-抗衰老疫苗延长小鼠中位寿命12%，针对衰老细胞而非病原体。
-美国药管部门计划将衰老纳入监管科学议程，政策细节待核查。
-疫苗结果仅在雌性小鼠中观察到，不能说明对人类有效。
+镰刀型贫血基因疗法在早期人体试验中直接修复致病基因并达到输血独立。
+血样研究将追踪痴呆症状出现前的早期蛋白信号，仍属探索性分析。
+该基因疗法仅有三名患者早期数据，目前不能得出疗效定论。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 蛋白口袋模型预测配体性质范围
+### 1. 镰刀型细胞贫血基因疗法在 3 名患者中直接修复突变基因
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.03379)，RangeFinder是一个SE(3)等变transformer模型，从蛋白质结合口袋（药物分子结合的空腔）的结构、化学和进化信息出发，直接预测九项配体物理化学性质的数值范围，而非逐个分子打分。在BioLiP2数据集上，range-IoU达到0.464，每个口袋仅需12.2毫秒，优于所有可部署基线；消融实验显示性能更依赖配体监督数据的密度和质量而非单一输入模态。研究定位为docking前的低成本分子过滤先验，代码开源于[GitHub仓库](https://github.com/alannadels/RangeFinder)，尚未涉及实际药物筛选验证。
+Kamau Therapeutics 公布其 RESTORE 一期/二期试验早期数据：3 名患者接受 nula-cel 治疗后均达到输血独立，治疗后没有出现疼痛危象。所谓"同源定向修复（HDR）"，是把细胞里写错的那段基因直接换成正确版本，而不是像已获批的 Casgevy 那样通过激活胎儿血红蛋白来绕开问题。完成 6 个月随访的两名患者中，致病的镰刀型血红蛋白（HbS）降至总血红蛋白 20% 以下，正常成人血红蛋白（HbA）占比分别达到 77% 和 67%。据[GEN 的报道](https://www.genengnews.com/topics/genome-editing/kamau-therapeutics-releases-encouraging-sickle-cell-clinical-data-ahead-of-ash-meeting/)，这是 HDR 直接校正原生 β-珠蛋白基因在临床患者中可行的早期证据；完整数据将于 12 月 14 日在美国血液学会年会（ASH）正式发布，试验仍在招募中，目前仅 3 名患者，不能得出疗效定论。
 
-### 2. 以典型大脑为参照的MRI自闭症分类
+[![来源配图：Kamau Therapeutics Releases Encouraging Sickle Cell Clinical Data Ahead of ASH Meeting](https://www.genengnews.com/wp-content/uploads/2024/06/MatthewPorteus_Headshot-243x300.jpg)](https://www.genengnews.com/topics/genome-editing/kamau-therapeutics-releases-encouraging-sickle-cell-clinical-data-ahead-of-ash-meeting/)
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.03349)，NormMoX用normative modeling（规范建模，先在健康人群中建立各脑区指标随年龄性别的正常范围，再看个体偏离多少）从结构和功能MRI分类自闭症。在ABIDE I的1035名参与者上，AUROC为0.728，优于线性和深度融合基线。模型以"典型大脑"为共同参照，在某个模态缺失时不需插补，还能指出每个人在哪个模态、哪个脑区偏离典型。研究为回顾性分类，不涉及临床诊断验证。代码开源于[GitHub仓库](https://github.com/Novelex/NormMox)。
+### 2. 8 万份血样追踪痴呆早期蛋白信号
 
-### 3. 无需训练的方法找到高功能抗菌多肽
+UK Biobank 的 UKB-PRISM 研究计划在 8 万份储存血样中测量数百种循环蛋白，目标是找到阿尔茨海默病和帕金森病在症状出现前数年乃至数十年的生物标志物。检测将使用 Alamar Biosciences 的 NULISA 超灵敏蛋白检测平台，在 Nightingale Health 实验室运行，预计 2027 年底完成。[据 Longevity.Technology 报道](https://longevity.technology/news/reading-the-brains-small-print-in-80000-blood-samples/)，这些血样采集时参与者尚未发病，并与基因、影像和病历长期关联，使蛋白检测结果能与后来的真实诊断对比——目前蛋白水平与疾病相关，尚不能直接用于个人诊断，且 UK Biobank 人群比一般大众更健康、更富裕，代表性有限。
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.03603)，研究在两个完整适应度景观上比较了变分自编码器和信息论方法搜索罕见高功能序列的能力。信息论方法不需要训练，运行速度显著快于标准ML/AI方法，在发现罕见高功能序列上也更有效。团队将该方法用于发现对细菌细胞膜特异而不作用于真核细胞膜的抗菌多肽。该方法能否在生物实验中验证抗菌活性和选择性，仍需后续实验确认。
+[![来源配图：Reading the brain’s small print in 80,000 blood samples](https://longevity.technology/wp-content/uploads/2026/11/reading-the-brains-small-print-in-80000-blood-samples-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/reading-the-brains-small-print-in-80000-blood-samples/)
 
-### 4. 训练数据中的单次事实决定模型科学发现能力
+### 3. 补充剂 NOVOS Core 随机对照试验：血管指标改善，脂质无变化
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.03617)，研究将大语言模型的科学发现能力追溯到训练数据，提出monofact（训练中只出现一次的事实）设定了发现能力的上限。在材料科学和监管基因组学中，团队直接操纵训练集的monofact率，发现monofact越多，两个开源模型族的发现越多，且不能仅用训练集多样性解释；该关系在配对域内数据时可跨科学领域迁移。研究在受控训练集上进行，能否推广到通用大模型尚待验证。
+萨里大学团队对 61 名 40 岁以上健康成人开展双盲随机对照试验，每天服用含 12 种成分的 NOVOS Core 补充剂或安慰剂，持续 6 个月。血管内皮功能（以血流介导的舒张反应 FMD 衡量，反映血管壁扩张能力）在补充剂组相对基线提升约 47%，动脉硬度下降，收缩压比安慰剂组低 6.1 mmHg；血脂指标无变化。[据 Longevity.Technology 报道](https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/)，该研究发表于《European Heart Journal Open》，但完成试验的仅 43 人，12 种成分无法区分哪种起效，且末次测量在末次服药约 24 小时后进行，改善是否持久尚不确定。
 
-### 5. 联合恢复细胞轨迹与RNA动力学
+[![来源配图：NOVOS Core trial reports vascular gains in healthy adults](https://longevity.technology/wp-content/uploads/2023/09/NOVOS-product-review_1-1024x683.webp)](https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/)
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.03056)，ManifoldVelo是一个拓扑约束框架，在连续表达流形上联合恢复伪时间（pseudotime，用基因表达排序细胞进程的估算时间）和RNA速度（RNA velocity，转录与降解动态指示的细胞变化方向）。在多峰周期和分支模拟中均取得最佳伪时间恢复和最高方向一致性，真实数据分析与胰腺发育阶段一致。新细胞可仅用剪接RNA获得预测，无需重新训练参考模型。方法在模拟和单细胞数据上验证，尚未用于活体因果推断。
+### 4. Biogen tau 靶向药 diranersen 将在阿尔茨海默病会议公布新数据
 
-### 6. 迭代精修整合空间多组学数据
+Biogen 将于 11 月 17 日在波士顿 CTAD 大会发布 diranersen 的阶段性结果。diranersen 是一种反义寡核苷酸（ASO）——可以简单理解为一段"关闭指令"，让细胞少产生 tau 蛋白；tau 蛋白在细胞内异常堆积是阿尔茨海默病的核心病理之一，与神经细胞损伤直接相关。二期 CELIA 试验共入组 416 名轻度认知障碍或轻度痴呆患者，持续 18 个月，将呈现 96 周长期延伸数据及 tau 生物标志物结果。[据 Longevity.Technology 报道](https://longevity.technology/news/biogens-tau-drug-diranersen-gets-a-ctad-spotlight/)，完整早期疗效数字尚未公开，届时结果能否在更长时间窗维持仍待观察。
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.02932)，ILR-SMO将空间多组学（在保留组织空间位置的同时测量多种分子）整合重新定义为对共享潜表示的稳定性感知精修过程，而非一次性融合。通过逐步注入各模态信息、可靠性感知门控和空间一致性约束，在五个空间多组学基准上优于七种现有方法，对模态不平衡和测量噪声更具鲁棒性。该框架为自监督，验证限于公开基准数据集，实际临床组织样本表现待核查。
+[![来源配图：Biogen’s tau drug diranersen gets a CTAD spotlight](https://longevity.technology/wp-content/uploads/2026/11/biogens-tau-drug-diranersen-gets-a-ctad-spotlight-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/biogens-tau-drug-diranersen-gets-a-ctad-spotlight/)
 
-### 7. 生成人工网络与人脑偏好的视觉图像
+### 5. 多目标分子生成微调：同时兼顾结合力与可合成性
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.03597)，Vis-Lens将变分自编码器和扩散模型结合到图像生成框架中，通过基于激活的先验正则化潜码，直接生成人工神经网络单元或人脑视觉皮层（用fMRI数据）"偏好"的自然图像，无需逐图迭代优化。在人工神经网络和人脑视觉皮层上，激活调制能力和图像真实感均优于近期方法。研究为表征可视化工具，不涉及临床诊断或治疗应用。
+预印本（尚未经同行评审）提出 HVFT（超体积微调）方法，用于引导同一个预训练生成模型同时优化多个相互冲突的分子性质——例如一个分子既要对靶点有结合活性，又要便于化学合成。关键突破在于将"期望超体积"这一衡量多性质整体覆盖度的指标，转化为每个候选分子可计算的自适应奖励信号，从而用标准训练流程直接优化。[论文索引/摘要](https://papers.cool/arxiv/2611.05207)显示，在治疗性多肽和小分子设计任务上，该方法优于现有基线；目前仍为预印本，只在基准任务中验证，尚无湿实验结果支持。
 
-### 8. 面向中低收入国家的痴呆风险评分
+### 6. 蛋白质折叠中间态预测：FoldScape 覆盖从展开到接近天然构象的全程
 
-据[媒体报道](https://www.news-medical.net/news/20261103/New-dementia-risk-tool-designed-for-the-countries-that-need-it-most.aspx)，Northumbria大学领衔的国际团队开发并验证了一个五因素风险评分，用于在中低收入国家识别痴呆高风险老年人——全球约60%的痴呆病例现在发生在这些地区。输入仅提供短摘要级信息，具体五因素内容、验证样本量和预测性能待核查原文。
+了解蛋白质如何从一条散乱的链折叠成有功能的三维结构，对于理解疾病机理和药物设计都至关重要。预印本 FoldScape 提出一个深度学习框架，能根据序列在用户指定的折叠进度下生成构象集合——相当于给折叠过程拍"分段快照"，而不只给出最终结构。在 20 种人类蛋白的测试中，FoldScape 覆盖的折叠坐标范围约是 AlphaFold 3 多次随机采样的 10 倍，但在接近天然态的精度上不及 AlphaFold 3，二者互补。[论文索引/摘要](https://papers.cool/arxiv/2611.04287)表明此为预印本，尚未经同行评审，也未经实验验证。
 
-![面向中低收入国家的痴呆风险工具](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
+### 7. 从 EEG 脑电信号重建视觉图像
 
-### 9. 蓝区年轻一代饮食模式在变化
+E2I-Flow 提出一种框架，将脑电图（EEG，通过头皮电极记录的大脑电活动）解码为视觉图像。方法上，它用小波频率分支和时间混合分支双路提取 EEG 特征，再通过条件流匹配模型生成对应图像。[论文索引/摘要](https://papers.cool/arxiv/2611.04524)显示其在零样本图像检索和重建任务上优于多个基线；目前仍为预印本，系统性能依赖公开基准数据集，尚无临床应用验证。
 
-据[媒体报道](https://www.news-medical.net/news/20261102/Younger-adults-in-Americas-famous-Blue-Zone-are-eating-differently.aspx)，一项纳入615名成人的横断面研究调查了Loma Linda蓝区（Blue Zone，以长寿著称的地区）及周边社区的饮食模式。素食在老年人和基督复临安息日会信徒中更常见，素食者BMI显著低于非素食者。研究者担心年轻一代是否在维持传统饮食习惯，但横断面研究无法证明素食比例随时间下降。
+### 8. 睡眠质量与心代谢病患者的脑健康关联
 
-![Loma Linda蓝区饮食研究](https://www.news-medical.net/images/news/ImageForNews_850408_17936670384939234.jpg)
+卡罗林斯卡研究所的研究发现，在患有 2 型糖尿病、心脏病或曾发生中风的人群中，睡眠质量较好者认知功能更佳、脑容量更大。[据 News-Medical 报道](https://www.news-medical.net/news/20261104/Good-sleep-protects-brain-health-in-people-with-cardiometabolic-disease.aspx)，具体样本量、随访时长和研究设计细节待核查；现有摘要信息显示为相关性研究，不能得出睡眠改善直接导致脑容量增加的因果结论。
 
-### 10. 抗衰老疫苗延长小鼠中位寿命12%
+### 9. 每日食用花生可能改变大脑胰岛素响应
 
-据[媒体报道](https://lifespan.io/rejuvenation-roundup-october-2026/)，一项研究在雌性B6小鼠晚期生活中使用三元素senolytic疫苗（清除衰老细胞的疫苗）治疗后，衰老标志物降低，中位寿命延长12%。疫苗针对衰老细胞而非病原体。目前结果仅在雌性小鼠中观察到，不能说明对人类有效。来源为Lifespan.io月度综述，原始论文细节待核查。
+一项研究发现，每日食用无盐花生可能增强大脑对胰岛素的响应能力，为饮食影响老龄认知健康提供了新线索。大脑胰岛素响应与记忆和认知功能相关，响应下降被认为与认知衰退有关联。[据 News-Medical 报道](https://www.news-medical.net/news/20261104/Eating-peanuts-every-day-may-change-your-brains-insulin-response.aspx)，具体样本量、干预时长和测量方式待核查，目前不能据此推断食用花生能预防认知退化。
 
-[![来源配图：Rejuvenation Roundup October 2026](https://lifespan.io/wp-content/uploads/2026/11/Rejuvenation-Roundup-October-2026-262x187.png)](https://lifespan.io/rejuvenation-roundup-october-2026/)
+### 10. 分子药物-靶点亲和力预测：单次前向传播替代任务特定训练
+
+在药物发现中，预测小分子与靶蛋白的结合强度（亲和力）通常需要针对每个新靶点重新训练模型。Molecular Prior Networks 提出用 Transformer 在已有数千个亲和力数据集上预训练，预测时只需一次前向传播，无需针对新任务再训练。[论文索引/摘要](https://papers.cool/arxiv/2611.05103)显示其在 FS-Mol 基准的小支持集场景上达到当前最优水平，适合数据稀少的早期药物发现阶段；尚为预印本，未经湿实验验证。
+
+---
+
+## **⚡ 产品与功能更新**
+
+### 青春期女性运动员全季可穿戴追踪项目启动
+
+[Longevity.Technology 报道](https://longevity.technology/news/pole-position-why-adolescence-sets-the-pace-for-female-healthspan/)，More than Equal 赛车驾驶员发展计划的全部驾驶员和教练现已佩戴 Ultrahuman Ring，全季追踪睡眠、心率变异度（HRV，反映自主神经对身体恢复状态的调节，随年龄趋势性下降）和每日恢复评分。这批运动员大多还是青少年，而骨量峰值、心肺适能和内分泌节律主要在青春期建立，是影响后半生健康的关键窗口。每位驾驶员的读数与自身基线对比而非人群均值，经期追踪由团队另行管理。该合作目前不对外发布数据，也不用于正式研究，Ultrahuman Ring 的每日恢复评分不能等同于生物年龄测量。
+
+---
 
 ## **🧪 前沿研究**
 
-### 量子机器学习试水小数据肺癌预测
+### 多模态 MRI 缺失序列补全：SphereFlow 关闭八成与完整数据的差距
 
-据[媒体报道](https://www.news-medical.net/news/20261102/New-study-evaluates-quantum-machine-learning-for-lung-cancer-prediction.aspx)，一项新研究评估了量子机器学习在小数据集上预测肺癌的可行性，探索量子计算能否从有限的症状和风险因子数据中学到有用模式。输入仅提供短摘要级信息，具体模型架构、数据规模和预测性能待核查原文。
+脑肿瘤 MRI 通常需要多种序列（T1、T2、FLAIR 等），临床上常因采集条件受限而缺失某一序列。SphereFlow 将所有模态投影到同一球面潜在空间，用流匹配方法完成跨模态补全，而非让模型学习两种模态之间的"长跳"。[论文索引/摘要](https://papers.cool/arxiv/2611.04414)显示，在 BraTS 脑肿瘤多模态 MRI 数据集上，用补全图像做下游分割时，SphereFlow 关闭了约 80% 与完整四模态输入之间的性能差距；代码已开源于 [github.com/WTHH031230/SphereFlow](https://github.com/WTHH031230/SphereFlow)，目前仍为预印本，尚未在临床环境验证。
 
-### 研究揭示绝经与脑衰老的分子联系
-
-据[媒体报道](https://www.news-medical.net/news/20261102/Study-identifies-molecular-links-between-menopause-and-brain-aging.aspx)，UC Santa Barbara和UC San Francisco等机构的研究者正在研究绝经与脑衰老之间的分子联系——绝经期伴随潮热、脑雾和睡眠障碍等变化。研究报道了研究方向，具体分子机制、样本量和结论待核查原文。
-
-![绝经与脑衰老分子联系研究](https://www.news-medical.net/image-handler/picture/2014/7/Menopause-620x480.jpg)
-
-## **◎ 行业变化与个人影响**
-
-### 8000万美元计划研究能量与脑功能
-
-据[媒体报道](https://www.news-medical.net/news/20261102/New-international-initiative-explores-how-energy-shapes-brain-function.aspx)，一项总额8000万美元的国际研究计划将探索能量如何塑造脑功能，ISTA的Tim Vogels教授获得其中300万美元。输入仅提供短摘要级信息，具体研究方向、参与机构和预期产出待核查原文。
+---
 
 ## **⌘ 开源 TOP 项目**
 
-### dclai-aha/DNA-Damage-Aging-Clocks：DNA损伤衰老时钟
+### qlu-lab/SARDINE：用全基因组关联统计量估算表观遗传时钟与表型的关联
 
-该仓库提供Python脚本和数据集，用于构建基于AP位点（DNA上碱基丢失的损伤）和SSB（单链断裂）的DNA损伤衰老时钟——即用DNA损伤程度估算生物年龄的模型，并评估高脂饮食对小鼠预测年龄的影响。据[GitHub仓库](https://github.com/dclai-aha/DNA-Damage-Aging-Clocks)，近期有活动记录，Stars为1。时钟在小鼠数据上构建，未提及人体验证；许可证和运行状态待核查。
+[SARDINE](https://github.com/qlu-lab/SARDINE) 是一个统计框架，针对表观遗传时钟（通过 DNA 甲基化模式估算生物年龄的工具）与健康表型之间的关联分析，利用表观全基因组关联研究（EWAS）汇总统计量来估算效应量，无需访问原始个体数据。适合研究人员在无法获取原始甲基化数据的情况下仍能开展生物年龄与疾病关系的推断性分析。仓库说明和许可证信息可在 GitHub 页面进一步确认，Stars 为 1，活跃时间为 2026-11-03。
 
-### Zhaowado/biological-age-prediction-model：生物年龄预测模型
+### NoWon1/AI-challenge-for-HEALTHY-Brain-Aging：痴呆风险与进展的多模态预测模型
 
-据[GitHub仓库](https://github.com/Zhaowado/biological-age-prediction-model)，该项目名为生物年龄预测模型，近期有活动记录，Stars为1。仓库未提供description，具体输入输出、所用数据和模型方法待核查README。
+[该仓库](https://github.com/NoWon1/AI-challenge-for-HEALTHY-Brain-Aging)为 CBR 健康脑老化 AI 挑战赛参赛代码，整合多模态数据构建痴呆风险与进展预测模型，并包含"数字孪生轻量版"组件——即尝试对个体脑健康状态建模。适合对脑老化预测建模感兴趣的研究者参考赛题方案设计。仓库描述未提供具体输入格式和依赖环境说明，Stars 为 1，活跃时间为 2026-11-04，运行状态待核查。
+
+---
 
 ## **❓ 相关问题**
 
-### 表观遗传时钟的结果会不会误报？
+### NOVOS Core 试验结果能说明补充剂真的有延寿效果吗？
 
-据[媒体报道](https://lifespan.io/rejuvenation-roundup-october-2026/)，一项研究为解读抗衰干预中表观遗传时钟（epigenetic clock，用DNA甲基化估算生物年龄的方法）结果提供了框架，提示一些此前发表的单时钟发现可能需要重新审视。建议将时钟变化与组织功能、健康寿命和死亡率对照，而非单独作为返老还童证据。来源为Lifespan.io综述，原始论文方法待核查。
+还不能。这项试验测量的是血管功能的代理指标（FMD、动脉硬度、血压），这些指标与心血管风险在大型人群研究中有统计关联，但在 43 名完成者的 6 个月试验里，无法得出"延长寿命"的结论。研究本身也说明无法区分 12 种成分中哪种起效，且不能排除安慰剂组基线年龄偏高的混淆影响。[Longevity.Technology 的报道](https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/)和原论文（European Heart Journal Open, doi:10.1093/ehjopen/oeag157）可查阅完整方法和局限说明。
