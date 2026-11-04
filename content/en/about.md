@@ -8,17 +8,17 @@ sidebar:
 
 > **Your daily hub for AI + Longevity / Life Extension / Aging Research**
 
-AI Longevity Daily is a daily digest platform focused on the intersection of AI + Longevity / Life Extension / Aging / Biological Age / Rejuvenation. It's built to help investors, product managers, founders, and students stay on top of the latest developments in this niche field — faster and smarter.
+AI Longevity Daily is a daily newsletter platform focused on the intersection of AI + longevity / life extension / aging / biological age / rejuvenation. It's built to help investors, product managers, founders, and students stay on top of the latest developments in this niche field — fast and without the noise.
 
-### 🎯 Our Focus
+### 🎯 What We're About
 
-- **Theme**: AI Longevity Science — covering longevity, life extension, aging, biological age, and rejuvenation
-- **Target Audience**: Investors, product managers, founders, and students interested in AI + Longevity / Aging Research
-- **Vibe**: Professional but approachable — like getting the inside scoop from a knowledgeable friend
+- **Topic**: AI longevity science, covering longevity, life extension, aging, biological age, and rejuvenation
+- **Target Audience**: Investors, product managers, founders, and students interested in AI + longevity / aging research
+- **Vibe**: Professional but approachable — like a knowledgeable friend keeping you in the loop
 
 ### ⭐ What We Cover
 
-Every day, we auto-aggregate the freshest updates across the AI Longevity space: 🔍
+Every day, we automatically aggregate the latest updates across the AI longevity science space: 🔍
 
 #### 🧬 Core Coverage Areas
 
@@ -31,13 +31,13 @@ Every day, we auto-aggregate the freshest updates across the AI Longevity space:
 
 #### 📡 Content Sources
 
-- 🔥 Industry hot takes & breaking news
+- 🔥 Industry news & trending topics
 - 📦 Open-source project discoveries
 - 📄 Cutting-edge academic papers
-- 💬 Expert opinions from the field
-- 🚀 Product & feature updates
+- 💬 Expert opinions & commentary
+- 🚀 Product updates & feature launches
 
-All content is automatically scraped, generated, and published by **CloudFlare Workers + AI** — keeping things timely and comprehensive. ⚡
+All content is automatically fetched, generated, and published by **CloudFlare Workers + AI** — keeping things timely and comprehensive. ⚡
 
 ### 🔗 Get in Touch
 
@@ -47,4 +47,4 @@ All content is automatically scraped, generated, and published by **CloudFlare W
 
 ---
 
-**AI Longevity Daily — your fast track to understanding the latest breakthroughs in AI + Longevity / Life Extension / Aging Research. 🧬✨**
+**AI Longevity Daily — your fastest way to stay ahead of the curve in AI + longevity / life extension / aging research.** 🧬✨
