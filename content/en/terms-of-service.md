@@ -10,44 +10,53 @@ sidebar:
 
 ---
 
-**ai.hubtoday** (referred to as "**the Site**" or "**we**") welcomes you. Before using our services, please carefully read the following Terms of Service. By accessing or using the Site, you agree to and accept these Terms.
+**ai.hubtoday** (aka "**this Site**" or "**we**"/"**us**") is what you're visiting — welcome! 🎉 Before you dive in, please take a moment to read through the terms of service below. By accessing or using this Site, you're saying "I agree" to these terms.
 
 ## 1. Service Overview
-The Site provides paid subscription content and membership services to users, including but not limited to blog posts, exclusive resources, e-books, community interactions, and more. Some content is accessible to subscribers only.
 
-## 2. User Registration and Account
-- Users must provide a valid email address and set a password to register an account.
-- Users are responsible for the security of their account and all activities under it. Sharing or transferring accounts is **prohibited**.
-- The Site reserves the right to **suspend or terminate** accounts if users violate these Terms.
+**This Site** hooks you up with paid subscription content and membership perks, including (but not limited to) blog posts, exclusive resources, ebooks, community interactions, and more. Heads up — some content is locked behind a subscription.
+
+## 2. Registration & Accounts
+
+- **To register**, you'll need a valid email address and a password.
+- **Your account** is your responsibility — keep it secure and own everything that happens under it. Sharing or transferring your account? **Don't do it** 🚫
+- **We** reserve the right to **suspend or terminate** your account if you break these terms.
 
 ## 3. Paid Subscription Services
-- Subscription services are billed monthly/annually, with fees clearly stated on the checkout page.
-- All payments are processed through third-party payment platforms (such as Stripe, PayPal). The Site does not store your payment information.
-- Subscriptions will **automatically renew** unless you cancel before the end of the current billing cycle.
-- **14-Day Refund Policy**: First-time subscribers may request a full refund within 14 days of purchase if unsatisfied with the service. Please contact us via the email provided at the end of these Terms and explain your reason for requesting a refund. Each user is entitled to only one refund opportunity. After 14 days or for non-first-time subscriptions, payments are **non-refundable** unless required by law.
 
-## 4. Content Use and Intellectual Property
-- **hubtoday owns the copyright** to all original content. Unauthorized copying, redistribution, or commercial use is prohibited.
-- Users are granted **non-exclusive, non-transferable access rights** for personal learning and reading only.
-- For commercial use or extensive citation, please contact the Site for authorization.
+- **Subscriptions** are billed monthly or annually, and fees are shown clearly at checkout.
+- **Payments** go through third-party platforms (like Stripe or PayPal) — we never store your payment info.
+- **Your subscription** **auto-renews** unless you cancel before the current billing cycle wraps up.
+- **14-day refund policy** 💰: First-time subscribers can grab a full refund within 14 days of purchase if the service isn't cutting it for you. Just shoot us an email (see the contact info at the bottom) and let us know why. One refund per user, that's the deal. Past 14 days or not your first subscription? **No refunds** unless the law says otherwise.
 
-## 5. User Conduct Standards
-- Uploading, posting, or distributing any illegal, harassing, false, offensive, or rights-infringing content is **prohibited**.
-- Using technical means to bulk download, scrape, or crack members-only content is **prohibited**.
-- The Site reserves the right to remove inappropriate content and **ban violating users**.
+## 4. Content Use & Intellectual Property
 
-## 6. Service Changes and Interruptions
-- We reserve the right to modify, suspend, or terminate part or all of our services at any time without prior notice.
-- The Site **assumes no liability for compensation** if content is temporarily inaccessible due to force majeure, server failures, or third-party service interruptions.
+- **All original content** belongs to this Site (hubtoday) 📝 — no copying, reproducing, or commercial use without our okay.
+- **You** get a **non-exclusive, non-transferable access right** for personal learning and reading only.
+- **Need it for commercial use** or want to quote extensively? Hit us up for authorization.
+
+## 5. User Conduct
+
+- **No** uploading, posting, or spreading illegal, harassing, fake, offensive, or rights-infringing content 🚫
+- **No** bulk downloading, scraping, or cracking member content through technical tricks.
+- **We** can pull inappropriate content and **ban users who violate the rules** 🔨
+
+## 6. Service Changes & Disruptions
+
+- **We** keep the right to change, pause, or kill any or all services anytime, no heads-up required.
+- **This Site** isn't on the hook for compensation if content goes temporarily dark due to force majeure, server meltdowns, or third-party service hiccups ⚡
 
 ## 7. Disclaimer
-- Information provided on the Site is for reference only and **does not constitute** professional advice (such as financial, legal, or medical).
-- The Site **bears no responsibility** for any direct or indirect losses incurred by users from using the Site's content or services.
+
+- **Info on this Site** is for reference only — it **does not** count as professional advice (financial, legal, medical, you name it).
+- **We** are **not liable** for any direct or indirect losses you might face from using this Site's content or services.
 
 ## 8. Governing Law
-- These Terms of Service are governed by and construed in accordance with the laws of the State of California, United States, without regard to conflict of law principles.
-- Any dispute arising from or related to these Terms shall first be resolved through friendly negotiation between the parties. If negotiation fails, you agree to submit the matter to a court of competent jurisdiction in Santa Clara County, California.
 
-## 9. Contact Information
-- If you have any questions about these Terms, please contact us via:
-- 📧 **Email**: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com)
+- **These terms** fall under the laws of the State of California, USA, interpreted without regard to conflict of law principles.
+- **Disputes** from or related to these terms should first get a shot at friendly negotiation. If that doesn't work out, you agree to take it to the courts of Santa Clara County, California ⚖️
+
+## 9. Contact Us
+
+- **Questions** about these terms? Reach out to us:
+- **Email**: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com) 📬
