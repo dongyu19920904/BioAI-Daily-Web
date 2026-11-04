@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-04",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-04/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_6149a579c1fe27fd",
+      "report_date": "2026-11-04",
+      "report_section": "opportunity",
+      "title": "NOVOS Core RCT 解读资料包——面向关注补剂证据的抗衰爱好者",
+      "source_urls": [
+        "https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "** 已在购买或考虑购买多成分抗衰补剂的 30-50 岁自我健康管理用户;需要真实证据素材的健康内容创作者;需要\"有依据内容\"的小型健康咨询账号运营者",
+      "demand_claim": "** 付费意愿待验证。假设痛点:补剂市场营销话术多,用户难以找到可信的中文 RCT 解读;健康博主缺乏有数据支撑又不过于硬核的选题。是否愿意为此付费,需先测试免费内容的互动反馈再判断",
+      "demand_verified": false,
+      "deliverable_hint": "** 一篇公众号或小红书文章(\"一项 RCT 告诉你怎么读抗衰补剂证据\");一张对比表(这项 RCT 测了哪些指标、哪些改善、哪些无变化、主要局限是什么);后续可延伸为\"如何读抗衰补剂研究\"低价资料包",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "** 7 天内收到 3 条以上真实问题(非泛泛点赞);或有人询价资料包;或粉丝主动转发并 @ 同类账号。达到任意一条才算有需求信号,值得继续做系列",
+        "stop_condition": "** 7 天内无真实问题、无转发、无询价,或反馈集中在\"这不就是广告\"——停止在这个品牌上继续投入,将选题角度转为\"怎么读抗衰 RCT\"的通用方法论",
+        "upgrade_path": "** 免费解读文章 → 低价\"抗衰补剂 RCT 怎么读\"资料包(含阅读框架和局限 checklist)→ 社群内定期跟进新发表补剂研究 → 轻咨询(帮内容账号筛选可引用证据)"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_6149a579c1fe27fd:discover_primary_source",
+      "opportunity_id": "opp_6149a579c1fe27fd",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_6149a579c1fe27fd:validate_demand",
+      "opportunity_id": "opp_6149a579c1fe27fd",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
