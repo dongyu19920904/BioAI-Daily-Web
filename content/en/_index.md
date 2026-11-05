@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/3
+title: AI生命延续学日报 2026/11/4
 breadcrumbs: false
-next: /en/2026-11/2026-11-03
+next: /en/2026-11/2026-11-04
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,97 +11,93 @@ cascade:
 ## **Today's Summary**
 
 ```
-Anti-aging vaccine extends median lifespan in mice by 12%, targeting senescent cells rather than pathogens.
-U.S. drug regulators plan to add aging to their regulatory science agenda — policy details pending verification.
-Vaccine results observed in female mice only; cannot be extrapolated to humans.
+Sickle cell gene therapy directly repairs the disease-causing gene in early human trials, achieving transfusion independence.
+Blood sample study will track early protein signals before dementia symptoms appear — still exploratory analysis at this stage.
+The gene therapy has early data from only three patients; no efficacy conclusions can be drawn yet.
 ```
 
-## **🔥 Top 10 Daily Highlights**
+## **🔥 Top 10 Stories of the Day**
 
-### 1. Protein Pocket Model Predicts Ligand Property Ranges
+### 1. Sickle Cell Gene Therapy Directly Repairs the Mutant Gene in 3 Patients
 
-[RangeFinder](https://papers.cool/arxiv/2611.03379) is an SE(3)-equivariant transformer that takes structural, chemical, and evolutionary info from protein binding pockets and directly predicts numerical ranges for nine ligand physicochemical properties — no per-molecule scoring needed. On the BioLiP2 dataset, it hits a range-IoU of 0.464 at just 12.2ms per pocket, beating all deployable baselines. Ablations show performance depends more on the density and quality of ligand supervision data than on any single input modality. It's positioned as a low-cost molecular pre-filter before docking, with code open-sourced at the [GitHub repo](https://github.com/alannadels/RangeFinder) — actual drug screening validation hasn't been done yet. 🧬
+Kamau Therapeutics has dropped early data from its RESTORE Phase 1/2 trial: all 3 patients treated with nula-cel achieved transfusion independence, with zero pain crises post-treatment. "Homology-directed repair (HDR)" is the key concept here — instead of working around the problem by switching on fetal hemoglobin (like the already-approved Casgevy does), it swaps out the broken gene sequence and replaces it with the correct one directly. In the two patients who completed the 6-month follow-up, disease-causing sickle hemoglobin (HbS) dropped below 20% of total hemoglobin, while normal adult hemoglobin (HbA) hit 77% and 67% respectively. [Per GEN's coverage](https://www.genengnews.com/topics/genome-editing/kamau-therapeutics-releases-encouraging-sickle-cell-clinical-data-ahead-of-ash-meeting/), this is early clinical proof that HDR can directly correct the native β-globin gene in real patients. Full data drops December 14 at the American Society of Hematology (ASH) annual meeting — the trial is still recruiting, and with only 3 patients so far, it's way too early to call it a win. 🧬
 
-### 2. Autism Classification from MRI Using a Typical Brain as Reference
+[![Source image: Kamau Therapeutics Releases Encouraging Sickle Cell Clinical Data Ahead of ASH Meeting](https://www.genengnews.com/wp-content/uploads/2024/06/MatthewPorteus_Headshot-243x300.jpg)](https://www.genengnews.com/topics/genome-editing/kamau-therapeutics-releases-encouraging-sickle-cell-clinical-data-ahead-of-ash-meeting/)
 
-[NormMoX](https://papers.cool/arxiv/2611.03349) uses normative modeling — building a "normal range" for each brain region based on age and sex in healthy populations, then measuring individual deviation — to classify autism from structural and functional MRI. On 1,035 participants from ABIDE I, it achieves an AUROC of 0.728, outperforming both linear and deep fusion baselines. Using a "typical brain" as a shared reference, it handles missing modalities without imputation and can point to exactly which modality and brain region each person deviates from. This is retrospective classification, not clinical diagnostic validation. Code is open at the [GitHub repo](https://github.com/Novelex/NormMox). 🧠
+### 2. UK Biobank's UKB-PRISM Study Will Track Early Protein Signals for Dementia in 80,000 Blood Samples
 
-### 3. Training-Free Method Finds High-Function Antimicrobial Peptides
+UK Biobank's UKB-PRISM project is planning to measure hundreds of circulating proteins across 80,000 stored blood samples, hunting for biomarkers of Alzheimer's and Parkinson's that show up years — even decades — before symptoms hit. The analysis will use Alamar Biosciences' NULISA ultra-sensitive protein detection platform, run at Nightingale Health labs, with completion expected by end of 2027. [Per Longevity.Technology's report](https://longevity.technology/news/reading-the-brains-small-print-in-80000-blood-samples/), what makes this interesting is that the blood was drawn before participants got sick, and it's linked to genetics, imaging, and medical records over time — so protein readings can be compared against real diagnoses that came later. Heads up though: protein levels correlating with disease doesn't mean they can be used for individual diagnosis yet, and the UK Biobank population skews healthier and wealthier than the general public, which limits how far you can generalize. 🧠
 
-[This paper](https://papers.cool/arxiv/2611.03603) pits variational autoencoders against information-theoretic methods on two complete fitness landscapes to find rare, high-function sequences. The information-theoretic approach requires zero training, runs significantly faster than standard ML/AI methods, and is more effective at surfacing those rare high-performers. The team then applied it to discover antimicrobial peptides that target bacterial cell membranes without hitting eukaryotic membranes. Whether this holds up in biological experiments is still TBD. 🦠
+[![Source image: Reading the brain's small print in 80,000 blood samples](https://longevity.technology/wp-content/uploads/2026/11/reading-the-brains-small-print-in-80000-blood-samples-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/reading-the-brains-small-print-in-80000-blood-samples/)
 
-### 4. Single-Occurrence Facts in Training Data Cap a Model's Scientific Discovery Ability
+### 3. NOVOS Core RCT Shows Vascular Improvements but No Change in Lipids
 
-[This research](https://papers.cool/arxiv/2611.03617) traces LLM scientific discovery capability back to training data, arguing that *monofacts* — facts appearing only once in training — set the ceiling for discovery. In materials science and regulatory genomics, the team directly manipulated monofact rates in training sets and found: more monofacts → more discoveries across two open-source model families, and this can't be explained by dataset diversity alone. The relationship also transfers across scientific domains when using paired in-domain data. Results are from controlled training sets; generalizability to large general-purpose models is unconfirmed. 📊
+A University of Surrey team ran a double-blind RCT on 61 healthy adults aged 40+ — participants took either a 12-ingredient NOVOS Core supplement or a placebo daily for 6 months. Vascular endothelial function (measured by flow-mediated dilation, or FMD — basically how well your artery walls can expand) improved about 47% relative to baseline in the supplement group, arterial stiffness went down, and systolic blood pressure was 6.1 mmHg lower than the placebo group. Lipid markers? No change. [Per Longevity.Technology's coverage](https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/), the study was published in *European Heart Journal Open*, but only 43 people completed it, you can't tell which of the 12 ingredients is doing the heavy lifting, and the final measurements were taken about 24 hours after the last dose — so whether the improvements stick around is still an open question. 💊
 
-### 5. Jointly Recovering Cell Trajectories and RNA Dynamics
+[![Source image: NOVOS Core trial reports vascular gains in healthy adults](https://longevity.technology/wp-content/uploads/2023/09/NOVOS-product-review_1-1024x683.webp)](https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/)
 
-[ManifoldVelo](https://papers.cool/arxiv/2611.03056) is a topology-constrained framework that jointly recovers pseudotime (estimated time ordering cells by gene expression) and RNA velocity (the direction of cellular change based on transcription/degradation dynamics) on a continuous expression manifold. It achieves best-in-class pseudotime recovery and directional consistency across multimodal cyclic and branching simulations, with real data analysis aligning with pancreatic development stages. New cells can get predictions using only spliced RNA — no need to retrain the reference model. Validated on simulated and single-cell data; not yet used for in vivo causal inference. 🔬
+### 4. Biogen's Tau-Targeting Drug Diranersen Is Getting a CTAD Spotlight on November 17
 
-### 6. Iterative Refinement for Spatial Multi-Omics Integration
+Biogen is set to present interim results for diranersen at the CTAD conference in Boston on November 17. Diranersen is an antisense oligonucleotide (ASO) — think of it as a "shutdown command" that tells cells to produce less tau protein. Tau abnormally accumulating inside neurons is one of Alzheimer's core pathologies and is directly linked to nerve cell damage. The Phase 2 CELIA trial enrolled 416 patients with mild cognitive impairment or mild dementia over 18 months, and will present 96-week long-term extension data along with tau biomarker results. [Per Longevity.Technology's report](https://longevity.technology/news/biogens-tau-drug-diranersen-gets-a-ctad-spotlight/), the full early efficacy numbers haven't been made public yet, so whether the results hold up over a longer time window is still TBD. 👀
 
-[ILR-SMO](https://papers.cool/arxiv/2611.02932) reframes spatial multi-omics integration (measuring multiple molecular types while preserving tissue spatial location) as a stability-aware iterative refinement of shared latent representations, rather than a one-shot fusion. By progressively injecting modality information with reliability-aware gating and spatial consistency constraints, it outperforms seven existing methods on five spatial multi-omics benchmarks and is more robust to modality imbalance and measurement noise. The framework is self-supervised; validation is limited to public benchmark datasets — real clinical tissue performance is unconfirmed. 🧫
+[![Source image: Biogen's tau drug diranersen gets a CTAD spotlight](https://longevity.technology/wp-content/uploads/2026/11/biogens-tau-drug-diranersen-gets-a-ctad-spotlight-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/biogens-tau-drug-diranersen-gets-a-ctad-spotlight/)
 
-### 7. Generating Visual Images Preferred by Artificial Networks and Human Brains
+### 5. Multi-Objective Molecule Generation Fine-Tuning: Balancing Binding Affinity and Synthesizability at the Same Time
 
-[Vis-Lens](https://papers.cool/arxiv/2611.03597) combines a VAE and a diffusion model in an image generation framework that uses activation-based prior regularization of latent codes to directly generate natural images "preferred" by either artificial neural network units or human visual cortex (via fMRI data) — no per-image iterative optimization required. It outperforms recent methods on both activation modulation and image realism for both artificial networks and human visual cortex. This is a representation visualization tool, not a clinical application. 👁️
+HVFT (Hypervolume Fine-Tuning) is a new preprint method (not yet peer-reviewed) for steering a single pretrained generative model to simultaneously optimize multiple conflicting molecular properties — like making a molecule that's both highly active against a target *and* actually easy to synthesize in a lab. The key breakthrough is converting "expected hypervolume" — a metric that captures how well a set of candidates covers multiple objectives at once — into a per-molecule adaptive reward signal, so you can optimize it directly with standard training pipelines. [Paper index/abstract](https://papers.cool/arxiv/2611.05207) shows it outperforms existing baselines on therapeutic peptide and small molecule design tasks. Still a preprint, validated only on benchmark tasks, with no wet lab results yet. 🔬
 
-### 8. Dementia Risk Score for Low- and Middle-Income Countries
+### 6. FoldScape Predicts Protein Folding Intermediates Across the Full Pathway from Unfolded to Near-Native
 
-A [media report](https://www.news-medical.net/news/20261103/New-dementia-risk-tool-designed-for-the-countries-that-need-it-most.aspx) covers an international team led by Northumbria University that developed and validated a five-factor risk score to identify older adults at high risk of dementia in low- and middle-income countries — where roughly 60% of global dementia cases now occur. The input only provides abstract-level info; the specific five factors, validation sample size, and predictive performance are pending verification from the original paper.
+FoldScape is a deep learning framework that generates conformational ensembles at any user-specified folding progress given a sequence — essentially taking "snapshot segments" of the folding process rather than just handing you the final structure. Understanding how a protein folds from a loose chain into a functional 3D shape is crucial for making sense of disease mechanisms and drug design. In tests on 20 human proteins, FoldScape covered roughly 10× the folding coordinate range of AlphaFold 3 random sampling, though it's less accurate than AlphaFold 3 near the native state — the two approaches are complementary. [Paper index/abstract](https://papers.cool/arxiv/2611.04287) — preprint, not yet peer-reviewed, and no experimental validation yet. 🧬
 
-![Dementia Risk Tool for Low- and Middle-Income Countries](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)
+### 7. E2I-Flow Reconstructs Visual Images Directly from EEG Brain Signals
 
-### 9. Dietary Patterns Shifting Among Younger Adults in America's Famous Blue Zone
+E2I-Flow is a framework that decodes electroencephalography (EEG — the electrical brain activity recorded through scalp electrodes) into visual images. It uses a dual-branch approach: a wavelet frequency branch and a temporal mixing branch to extract EEG features, then generates corresponding images via a conditional flow matching model. [Paper index/abstract](https://papers.cool/arxiv/2611.04524) shows it outperforms several baselines on zero-shot image retrieval and reconstruction tasks. Still a preprint, performance depends on public benchmark datasets, and there's no clinical application validation yet. 🧠
 
-A [media report](https://www.news-medical.net/news/20261102/Younger-adults-in-Americas-famous-Blue-Zone-are-eating-differently.aspx) covers a cross-sectional study of 615 adults examining dietary patterns in the Loma Linda Blue Zone (a region renowned for longevity) and surrounding communities. Vegetarianism is more common among older adults and Seventh-day Adventists, and vegetarians show significantly lower BMI than non-vegetarians. Researchers are worried about whether younger generations are keeping up traditional dietary habits — but cross-sectional design can't prove vegetarianism rates are actually declining over time. 🥗
+### 8. Sleep Quality Is Linked to Brain Health in People with Cardiometabolic Disease
 
-![Loma Linda Blue Zone Dietary Study](https://www.news-medical.net/images/news/ImageForNews_850408_17936670384939234.jpg)
+Karolinska Institute research found that among people with type 2 diabetes, heart disease, or a history of stroke, those who sleep better show stronger cognitive function and larger brain volume. [Per News-Medical's report](https://www.news-medical.net/news/20261104/Good-sleep-protects-brain-health-in-people-with-cardiometabolic-disease.aspx), specific sample size, follow-up duration, and study design details are still pending verification. From what's available, this is a correlational study — you can't conclude that improving sleep *directly causes* brain volume to increase. 💤
 
-### 10. Anti-Aging Vaccine Extends Median Mouse Lifespan by 12%
+### 9. Eating Peanuts Every Day May Change Your Brain's Insulin Response
 
-A [media report](https://lifespan.io/rejuvenation-roundup-october-2026/) covers a study where female B6 mice treated late in life with a triple-element senolytic vaccine (one that clears senescent cells rather than pathogens) showed reduced aging markers and a 12% increase in median lifespan. Results are in female mice only and can't be extrapolated to humans. Source is Lifespan.io's monthly roundup; original paper details pending verification. 💉
+A new study found that daily consumption of unsalted peanuts may enhance the brain's insulin response, offering a fresh clue about how diet affects cognitive health in aging. Brain insulin responsiveness is tied to memory and cognitive function, and a decline in this responsiveness has been associated with cognitive deterioration. [Per News-Medical's report](https://www.news-medical.net/news/20261104/Eating-peanuts-every-day-may-change-your-brains-insulin-response.aspx), specifics on sample size, intervention duration, and measurement methods are pending verification — don't go concluding that eating peanuts prevents cognitive decline just yet. 🥜
 
-[![Source image: Rejuvenation Roundup October 2026](https://lifespan.io/wp-content/uploads/2026/11/Rejuvenation-Roundup-October-2026-262x187.png)](https://lifespan.io/rejuvenation-roundup-october-2026/)
+### 10. Molecular Prior Networks: Predict Drug-Target Affinity with a Single Forward Pass, No Task-Specific Training Required
 
----
-
-## **🧪 Frontier Research**
-
-### Quantum Machine Learning Takes a Swing at Small-Data Lung Cancer Prediction
-
-A [media report](https://www.news-medical.net/news/20261102/New-study-evaluates-quantum-machine-learning-for-lung-cancer-prediction.aspx) covers a new study evaluating the feasibility of quantum machine learning for predicting lung cancer on small datasets, exploring whether quantum computing can extract useful patterns from limited symptom and risk factor data. Only abstract-level info available; specific model architecture, data scale, and predictive performance are pending from the original paper. ⚛️
-
-### Molecular Links Between Menopause and Brain Aging Identified
-
-A [media report](https://www.news-medical.net/news/20261102/Study-identifies-molecular-links-between-menopause-and-brain-aging.aspx) covers researchers from UC Santa Barbara, UC San Francisco, and other institutions investigating the molecular connections between menopause and brain aging — a transition accompanied by hot flashes, brain fog, and sleep disruption. The report describes the research direction; specific molecular mechanisms, sample sizes, and conclusions are pending from the original paper.
-
-![Research on Molecular Links Between Menopause and Brain Aging](https://www.news-medical.net/image-handler/picture/2014/7/Menopause-620x480.jpg)
+In drug discovery, predicting how strongly a small molecule binds to a target protein (affinity) usually means retraining a model from scratch for each new target. Molecular Prior Networks tackle this by pretraining a Transformer across thousands of existing affinity datasets, so at inference time you only need a single forward pass — no fine-tuning for new tasks. [Paper index/abstract](https://papers.cool/arxiv/2611.05103) shows it hits state-of-the-art on the FS-Mol benchmark in small support set scenarios, making it a solid fit for early-stage drug discovery where data is scarce. Still a preprint, no wet lab validation yet. 💡
 
 ---
 
-## **◎ Industry Shifts & Personal Impact**
+## **⚡ Product & Feature Updates**
 
-### $80 Million Initiative to Study How Energy Shapes Brain Function
+### Full-Season Wearable Tracking Program Launches for Adolescent Female Athletes
 
-A [media report](https://www.news-medical.net/news/20261102/New-international-initiative-explores-how-energy-shapes-brain-function.aspx) covers an $80 million international research initiative exploring how energy shapes brain function, with ISTA's Prof. Tim Vogels landing $3 million of that funding. Only abstract-level info provided; specific research directions, participating institutions, and expected outputs are pending verification. 🧠
+[Longevity.Technology reports](https://longevity.technology/news/pole-position-why-adolescence-sets-the-pace-for-female-healthspan/) that all drivers and coaches in the More than Equal racing driver development program are now wearing Ultrahuman Rings for full-season tracking of sleep, heart rate variability (HRV — a measure of how well the autonomic nervous system regulates recovery, with a tendency to decline with age), and daily recovery scores. Most of these athletes are still teenagers, and that matters: peak bone mass, cardiorespiratory fitness, and endocrine rhythms are primarily established during adolescence — a critical window that shapes health for the second half of life. Each driver's readings are compared against their own personal baseline rather than population averages, and menstrual cycle tracking is managed separately by the team. The partnership doesn't publish data externally and isn't part of formal research; Ultrahuman Ring's daily recovery score is not equivalent to a biological age measurement. ⌚
+
+---
+
+## **🧪 Cutting-Edge Research**
+
+### SphereFlow Closes ~80% of the Performance Gap for Missing MRI Sequences in Brain Tumor Imaging
+
+Brain tumor MRI typically requires multiple sequences (T1, T2, FLAIR, etc.), but clinical constraints often mean one sequence is missing. SphereFlow projects all modalities into a shared spherical latent space and uses flow matching for cross-modal completion — rather than training the model to make a "long jump" between two modalities directly. [Paper index/abstract](https://papers.cool/arxiv/2611.04414) shows that on the BraTS brain tumor multi-modal MRI dataset, using SphereFlow-completed images for downstream segmentation closes roughly 80% of the performance gap compared to having all four complete modalities. Code is open-sourced at [github.com/WTHH031230/SphereFlow](https://github.com/WTHH031230/SphereFlow). Still a preprint, not yet validated in a clinical setting. 🏥
 
 ---
 
 ## **⌘ Top Open Source Projects**
 
-### dclai-aha/DNA-Damage-Aging-Clocks: DNA Damage Aging Clocks
+### qlu-lab/SARDINE: Estimating Epigenetic Clock–Phenotype Associations from GWAS Summary Statistics
 
-This repo provides Python scripts and datasets for building DNA damage aging clocks based on AP sites (damage where bases are lost from DNA) and SSBs (single-strand breaks) — essentially models that estimate biological age from DNA damage levels — and evaluates the effect of a high-fat diet on predicted age in mice. Per the [GitHub repo](https://github.com/dclai-aha/DNA-Damage-Aging-Clocks), there's recent activity with 1 star. Clocks are built on mouse data with no mention of human validation; license and run status pending verification.
+[SARDINE](https://github.com/qlu-lab/SARDINE) is a statistical framework designed for analyzing associations between epigenetic clocks (tools that estimate biological age from DNA methylation patterns) and health phenotypes, using epigenome-wide association study (EWAS) summary statistics to estimate effect sizes — no access to raw individual-level data required. It's a solid option for researchers who want to investigate biological age and disease relationships without being able to get their hands on raw methylation data. Repository documentation and license info can be confirmed on the GitHub page. Stars: 1, last active: 2026-11-03.
 
-### Zhaowado/biological-age-prediction-model: Biological Age Prediction Model
+### NoWon1/AI-challenge-for-HEALTHY-Brain-Aging: Multi-Modal Prediction Models for Dementia Risk and Progression
 
-Per the [GitHub repo](https://github.com/Zhaowado/biological-age-prediction-model), this project is a biological age prediction model with recent activity and 1 star. No description is provided in the repo; specific inputs/outputs, data used, and model methodology are pending a README check.
+[This repository](https://github.com/NoWon1/AI-challenge-for-HEALTHY-Brain-Aging) is competition code for the CBR Healthy Brain Aging AI Challenge, integrating multi-modal data to build dementia risk and progression prediction models, and includes a "lightweight digital twin" component — an attempt to model individual brain health states. Worth checking out for researchers interested in brain aging prediction model design and competition-style solution architectures. The repo description doesn't provide details on input formats or environment dependencies. Stars: 1, last active: 2026-11-04, runtime status unverified.
 
 ---
 
 ## **❓ Related Questions**
 
-### Can Epigenetic Clock Results Give False Positives?
+### Does the NOVOS Core Trial Prove the Supplement Actually Extends Lifespan?
 
-A [media report](https://lifespan.io/rejuvenation-roundup-october-2026/) covers a study providing a framework for interpreting epigenetic clock results (methods that estimate biological age from DNA methylation) in anti-aging interventions, suggesting some previously published single-clock findings may need revisiting. The recommendation: cross-reference clock changes with tissue function, healthspan, and mortality data rather than treating them as standalone evidence of rejuvenation. Source is the Lifespan.io roundup; original paper methodology pending verification. 🕰️
+Not even close. The trial measured proxy markers of vascular function (FMD, arterial stiffness, blood pressure) — these have statistical associations with cardiovascular risk in large population studies, but a 6-month trial with 43 completers cannot support a "extends lifespan" conclusion. The study itself acknowledges it can't tell which of the 12 ingredients is doing anything, and it can't rule out confounding from baseline age differences between groups. [Longevity.Technology's coverage](https://longevity.technology/news/novos-core-trial-reports-vascular-gains-in-healthy-adults/) and the original paper (*European Heart Journal Open*, doi:10.1093/ehjopen/oeag157) have the full methodology and limitations if you want to dig in. 🔍
