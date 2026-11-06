@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-06",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-06/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_d721b8b484c052ea",
+      "report_date": "2026-11-06",
+      "report_section": "opportunity",
+      "title": "表观遗传时钟工具导航:methylCIPHER 对比资料",
+      "source_urls": [
+        "https://github.com/HigginsChenLab/methylCIPHER"
+      ],
+      "source_verified": false,
+      "state": "blocked_license_unknown",
+      "state_reason": "未识别明确的代码许可证；自动项目改造已暂停",
+      "target_user": "对\"生物年龄\"感兴趣的长寿爱好者、健康内容创作者、想做抗衰科普的自媒体人",
+      "demand_claim": "这类人频繁看到\"表观遗传时钟\"概念但不知道有哪些算法、区别是什么、哪里能试;付费意愿待验证,当前假设为信息整理需求",
+      "demand_verified": false,
+      "deliverable_hint": "表观遗传时钟算法对比表(名称、原理、适用场景、开源工具链接)+ 工具导航文章",
+      "suggested_route": "open_source_adaptation",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "7 天内文章阅读量超过日常平均 1.5 倍,或收到 3 条以上\"想了解更多\"的私信/评论,才值得做资料包",
+        "stop_condition": "7 天内阅读量低于日常平均且无互动询价,说明选题不吸引目标人群,停止投入资料包制作",
+        "upgrade_path": "文章 → 资料包(算法对比表 + 安装检查记录 + 论文链接清单)→ 社群(表观遗传时钟讨论群)"
+      },
+      "repository_metadata": {
+        "repository": "HigginsChenLab/methylCIPHER",
+        "url": "https://github.com/HigginsChenLab/methylCIPHER",
+        "default_branch": "main",
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-09-16T21:09:57Z",
+        "license_spdx": null,
+        "screening_status": "metadata_found",
+        "data_verified": false,
+        "run_verified": false,
+        "commercial_use_verified": false
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_d721b8b484c052ea:inspect_repository",
+      "opportunity_id": "opp_d721b8b484c052ea",
+      "kind": "inspect_repository",
+      "status": "blocked_license_unknown",
+      "description_zh": "自动核查仓库许可证、数据入口、依赖、维护状态和试跑条件",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_d721b8b484c052ea:validate_demand",
+      "opportunity_id": "opp_d721b8b484c052ea",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
