@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/5'
+title: 'AI生命延续学日报 2026/11/6'
 breadcrumbs: false
-next: /2026-11/2026-11-05
-description: '2026-11-05 AI生命延续学日报：脑扫描发现阿尔茨海默症在记忆丧失前数年已有信号；早发性阿尔茨海默症患者脑内 tau 蛋白扩散更快；女性生育史与激素用药史和脑血管健康存在关联。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-06
+description: '2026-11-06 AI生命延续学日报：AI 设计的广谱禽流感疫苗在动物实验中完全保护效果优于政府储备疫苗；单细胞基因调控模型 MUSS 同时读取 DNA 序列与染色质状态；肠道微生物的遗传变异与健康特征存在 940 项关联，大多数不体现在菌种丰度差异上。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,79 +11,93 @@ cascade:
 ## **今日摘要**
 
 ```
-脑扫描研究发现认知正常者的神经放电模式与日后患阿尔茨海默症风险存在关联。
-早发性患者脑内异常蛋白的扩散范围比晚发性患者更广，两类疾病进展模式可能存在实质差异。
-上述两项均为观察性研究，关联不等于因果，结果不能用于判断个人患病风险。
+AI设计的广谱禽流感疫苗在动物实验中实现完全保护，优于现有储备疫苗。
+观点文章提议植入持续分泌抗衰老蛋白的活细胞，尚无人体试验时间表。
+疫苗保护效果仅来自动物实验，需进入人体临床试验确认安全有效。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 脑扫描发现阿尔茨海默症在记忆丧失前数年已有信号
+### 1. AI 设计的广谱禽流感疫苗在动物实验中完全保护效果优于政府储备疫苗
 
-斯坦福医学院主导的研究发现，认知功能正常的成年人脑中，某些神经元的放电模式可以在记忆丧失和淀粉样斑块堆积出现之前，就预示日后患阿尔茨海默症的风险。这一发现来自对认知正常成人的脑活动影像分析，属于观察性研究，目前只能说明这些放电模式与未来患病风险相关，还不能说明它们直接导致疾病，具体研究对象数量和随访时长待核查。详情见[News-Medical 的媒体报道](https://www.news-medical.net/news/20261105/Brain-scans-reveal-clues-to-Alzheimers-risk-years-before-memory-loss-begins.aspx)。
+剑桥大学团队发布于 Cell Reports Medicine 的研究显示，他们用 AI 整合全球禽流感病毒基因监测数据，设计出一种名为 DVX-panH5Nx 的多价 mRNA 疫苗——"多价"意味着单支疫苗同时覆盖多种变异株。动物实验中，DVX-panH5Nx 对小鼠和雪貂实现了对多种不同谱系 H5N1 变异株的完全保护；而世卫组织现有储备疫苗在相同测试中仅约半数动物存活。目前结果来自动物实验，[GEN 的报道](https://www.genengnews.com/topics/infectious-diseases/bird-flu-vaccine-developed-using-ai-outperforms-current-stockpiled-vaccines-in-preclinical-tests/)显示下一步需进入人体临床试验才能确认人体有效性与安全性。
 
-### 2. 早发性阿尔茨海默症患者脑内 tau 蛋白扩散更快
+[![来源配图：Bird Flu Vaccine Developed Using AI Outperforms Current Stockpiled Vaccines in Preclinical Tests](https://www.genengnews.com/wp-content/uploads/2026/11/4X4A7000-211x300.jpg)](https://www.genengnews.com/topics/infectious-diseases/bird-flu-vaccine-developed-using-ai-outperforms-current-stockpiled-vaccines-in-preclinical-tests/)
 
-一项新研究发现，65 岁前出现症状的早发性阿尔茨海默症患者，脑内 tau 蛋白（一种在患者神经细胞中异常积聚的标志性蛋白）的沉积范围比 65 岁及以后发病的患者更广。tau 蛋白异常扩散被认为是导致神经细胞逐步死亡的关键因素之一。这项研究提示早发与晚发两类患者的疾病进展模式可能存在实质差异，但具体样本量、是否有纵向追踪数据等细节在输入摘要中未提供，详见 [News-Medical 报道](https://www.news-medical.net/news/20261105/Tau-spreads-more-rapidly-in-early-onset-Alzheimers-disease.aspx)。
+### 2. 单细胞基因调控模型 MUSS 同时读取 DNA 序列与染色质状态
 
-### 3. 女性生育史与激素用药史和脑血管健康存在关联
+据[论文索引/摘要](https://papers.cool/arxiv/2611.08086)，MUSS 是一个针对单细胞基因调控的多尺度模型，能同时处理 DNA 序列信息和染色质可及性（即哪些 DNA 区域当前"开放"可被转录机器读取）两个层面的数据，从而识别不同细胞类型特有的调控程序。在基因表达预测、增强子-基因关联等任务上 MUSS 优于仅用序列或仅用单细胞组学的基线模型，还能对训练时未见过的基因和峰位给出预测。代码、数据集与模型权重已开放于 [GitHub 仓库](https://github.com/Lotfollahi-lab/MUSS_neurips26)，感兴趣者可从仓库教程继续学习；目前结果来自计算评测，尚未在临床任务中验证。
 
-发表在《神经病学》（Neurology，美国神经病学学会官方期刊）的一项研究发现，女性生育年限较长、曾使用避孕药或绝经期激素治疗，与脑血管健康的若干指标存在关联。这是一项观察性研究，关联不等于因果，目前无法说明激素暴露直接改善或损害脑血管，也不能据此建议个人调整用药，具体关联方向和样本信息可沿[News-Medical 报道](https://www.news-medical.net/news/20261104/Longer-reproductive-lifespan-and-hormonal-history-may-influence-brain-vascular-health.aspx)查阅原文。
+### 3. 肠道微生物的遗传变异与健康特征存在 940 项关联，大多数不体现在菌种丰度差异上
 
-### 4. 研究者提出应将运动列入精神与认知健康的正式处方
+据[News-Medical 的报道](https://www.news-medical.net/news/20261105/Hidden-genetic-differences-in-gut-bacteria-may-hold-clues-to-aging.aspx)，研究者分析了 10,781 人六个队列中约 1280 万个肠道微生物遗传变异，发现 940 项与 69 种人类健康特征或环境暴露的独立关联。关键发现在于：近三分之二的关联在传统微生物组分析中根本看不见——传统方法只统计各细菌"有多少"，而这批关联依赖于细菌基因序列本身的差异。这是观察性研究，关联不等于因果，尚不知道这些遗传变异如何影响宿主健康。
 
-发表在《Brain Health》的一篇同行评审 Viewpoint（观点文章），综合随机对照试验、荟萃分析（即汇总多项试验结果的统计分析）和队列研究的证据，认为运动对减轻抑郁、焦虑症状和支持认知功能有作用，主张医生应将分级运动处方作为脑健康护理的结构性组成部分，并建议个体化考量身体状况和参与障碍。据[News-Medical 报道](https://www.news-medical.net/news/20261104/Exercise-may-improve-mood-and-memory-and-researchers-say-doctors-should-prescribe-it.aspx)，文章同时指出，运动预防痴呆的证据目前仍以观察性研究为主，尚未达到因果性结论。
+[![来源配图：Hidden genetic differences in gut bacteria may hold clues to aging](https://www.news-medical.net/images/news/ImageForNews_850790_1793916768726718.jpg)](https://www.news-medical.net/news/20261105/Hidden-genetic-differences-in-gut-bacteria-may-hold-clues-to-aging.aspx)
 
-[![来源配图：Exercise may improve mood and memory, and researchers say doctors should prescribe it](https://www.news-medical.net/images/news/ImageForNews_850645_17938313141223800.jpg)](https://www.news-medical.net/news/20261104/Exercise-may-improve-mood-and-memory-and-researchers-say-doctors-should-prescribe-it.aspx)
+### 4. 口腔癌筛查模型 OraRefer 在 714 名患者中实现 90% 以上敏感性目标
 
-### 5. AI 多模态医疗推理测试：主流模型在交叉图像中错误率达 45%
+据[论文索引/摘要](https://papers.cool/arxiv/2611.08360)，OraRefer 是一个用智能手机照片做口腔癌筛查的患者级别模型。它先用分割模型定位病灶区域，再把同一患者的多张照片融合判断，最终给出"是否转诊"的决策而非对单张照片分类。在 714 名患者的 3000 张照片上，患者级别 AUROC 为 0.919；设定 90% 敏感性目标时，61 名癌症患者中漏诊 3 人，特异性 0.610（约四成正常人被误判为需转诊）。该模型推理时不需要手动标注，各诊所可用本地校准样本自行调整转诊阈值；目前为回顾性验证，尚待前瞻性临床研究确认实用价值。
 
-一项名为 Trick-or-Treat 的对抗性评测构建了一个新基准：将真实胸部 X 光片与 AI 合成的临床照片配对，其中"错配组"的照片显示的是不一致的临床表现（如普通痘痘而非水痘皮疹），用来测试模型是否会忽略视觉矛盾、强行给出符合 X 光的诊断。在三个前沿大模型的测试中，面对错配图像对时，模型产生临床显著幻觉（即虚构或歪曲图中不存在的病变）的比例为 45%–57.5%，而单独展示相同照片时该比例为 25%–37.5%。这项工作揭示了当前多模态医学 AI 在跨模态推理上的系统性缺陷，[论文摘要见 papers.cool](https://papers.cool/arxiv/2611.06631)。
+### 5. 大语言模型结合生物医学知识图谱可显著减少"幻觉"错误
 
-### 6. 神经网络模型预测膜蛋白在细胞膜上的扩散轨迹
+据[论文索引/摘要](https://papers.cool/arxiv/2611.08315)，研究者在 DrugBank、NeuroSynth 等五个生物医学与认知神经科学知识图谱上对 GPT-5.1、Gemini 2.0 Pro 等五个大模型进行基准测试。"知识图谱接地"是指让模型在回答时能查阅结构化的药物-疾病-基因关系网络，而不是只靠预训练记忆。结果显示，接地后所有模型幻觉率均下降；GPT-5.1 和 Gemini 2.0 Pro 在多跳推理上整体领先，但随问题复杂度上升性能均有下降。这是基准评测，结论是"接地有帮助"，但不能直接推论到临床决策场景。
 
-细胞膜蛋白的运动方式（即"侧向扩散"）与细胞信号传导密切相关，但分子动力学模拟（用计算机模拟分子运动的方法）计算成本极高。研究者提出了一种结合 Transformer 架构、递归网络和随机潜在过程的神经随机模型，在两种膜蛋白混合系统中，能将轨迹从模拟的有限帧延伸至 40,000 帧，并复现了实验中观察到的异常扩散特征。目前验证仅在模拟数据上进行，尚未与真实单粒子追踪实验系统比较，[论文详情见 papers.cool](https://papers.cool/arxiv/2611.06157)。
+### 6. 发育中的大脑出生后会减少皮层神经元中的基因异常
 
-### 7. 单细胞克隆不再是生物制药首次人体试验的唯一起点
+据[News-Medical 的报道](https://www.news-medical.net/news/20261106/Developing-brains-may-have-a-way-to-remove-genetically-abnormal-neurons.aspx)，研究发现出生后皮层神经元中的基因异常数量明显减少，提示存在一种选择性清除机制。这里说的"基因异常"是指个别神经元携带的体细胞突变——这类突变不来自父母遗传，而是细胞分裂过程中随机出现的。如果这一清除机制确实存在，它可能对理解神经发育疾病和衰老相关认知退化都有参考价值。目前具体机制、样本量和研究方法的细节尚待核查原文。
 
-GEN 发表的一篇技术分析文章提出，对于部分生物制剂（即利用活细胞生产的大分子药物），可将传统必须完成的单细胞克隆筛选步骤推迟，先用"稳定细胞池"（整合了目的基因的细胞群体）生产少量临床材料、完成首次人体安全性试验，再并行推进克隆筛选。据[GEN 报道](https://www.genengnews.com/topics/bioprocessing/rethinking-the-clone-first-paradigm-for-first-in-human-biologics/)，使用转座酶技术（一种能使基因更均匀整合进细胞基因组的工具）构建的稳定池，在抗体滴度、细胞活力和产品质量属性上与后续克隆来源材料表现相当；这一策略不适用于产品质量复杂或材料需求量大的分子。
+[![来源配图：Developing brains may have a way to remove genetically abnormal neurons](https://www.news-medical.net/images/news/ImageForNews_850837_17939590029396646.jpg)](https://www.news-medical.net/news/20261106/Developing-brains-may-have-a-way-to-remove-genetically-abnormal-neurons.aspx)
 
-[![来源配图：Rethinking the Clone-First Paradigm for First-in-Human Biologics](https://www.genengnews.com/wp-content/uploads/2026/10/Jesse-McCool-281x300.jpg)](https://www.genengnews.com/topics/bioprocessing/rethinking-the-clone-first-paradigm-for-first-in-human-biologics/)
+### 7. 基因组工具检测罕见 DNA 变异的准确性获华盛顿大学研究团队验证
 
-### 8. 少步生成模型的蛋白质结构设计通过噪声优化获得改善
+据[News-Medical 的报道](https://www.news-medical.net/news/20261105/New-genomic-tools-improve-detection-of-rare-DNA-changes.aspx)，华盛顿大学医学院研究者验证了一批遗传学工具，能够准确识别构成个体"基因组马赛克"的全部罕见 DNA 变异。"基因组马赛克"是指同一个人体内不同细胞携带略有差异的基因组，这种差异可能随衰老积累，并与部分疾病相关。验证这些工具的准确性，是后续研究这批变异如何影响健康与疾病的前提。具体验证方法和样本细节待核查原文。
 
-扩散模型（通过逐步去除随机噪声来生成图像或结构的 AI 方法）在少步推理时难以对目标属性进行引导。LeNO（学习噪声优化）方法通过训练一个残差网络来学习初始噪声的修正量，在推理时只需一次噪声修正，无需反复搜索。[论文](https://papers.cool/arxiv/2611.06255)在蛋白质结构生成任务中也进行了评测，使用了设计可行性（designability）这类计算成本较高的黑盒奖励函数；目前结果仅来自计算评估，尚未经过实验验证。
+### 8. 分子表示评测：现有学习嵌入在结构相似性上不优于经典指纹
 
-### 9. 退休对澳大利亚老年人的孤独感没有可测量的影响
+据[论文索引/摘要](https://papers.cool/arxiv/2611.08420)，研究者系统评测了多种分子表示方法——"分子指纹"是把分子结构编码为固定长度二进制串的经典方法，而"学习嵌入"则是神经网络从数据中自动学习的向量表示。结论是，目前最先进的嵌入模型在捕捉图结构、三维形状或 ADMET（吸收、分布、代谢、排泄和毒性）相似性方面均不优于经典指纹；同时，经典指纹本身在 108 亿分子规模的 Enamine REAL 数据库中存在 2.25 亿至约 40 亿个非唯一表示，对虚拟筛选有实际影响。这是方法评测研究，指向未来更鲁棒分子编码的开发需求。
 
-莫纳什大学主导的研究发现，退休这一生活事件对澳大利亚老年人的孤独感没有可测量的差异，这与"退休导致社交孤立"的普遍直觉相反。孤独感是健康老龄化和寿命研究中公认的重要风险因素，这一阴性结果提示退休本身可能不是干预的优先靶点，但具体研究设计、样本规模和追踪方式待核查，详见 [News-Medical 报道](https://www.news-medical.net/news/20261104/Retirement-does-not-increase-loneliness-in-older-Australians.aspx)。
+### 9. 提议将能持续分泌 Klotho 蛋白的包囊细胞植入体内以对抗衰老
 
-### 10. 基因表达的随机波动如何被细胞分裂周期塑造
+据[Longevity.Technology 的报道](https://longevity.technology/news/could-implanted-cells-serve-as-a-klotho-factory/)，发表于 Frontiers in Aging 的一篇观点文章提出，将活细胞封入保护性胶囊（Cell-in-a-Box 技术）再植入体内，让其持续分泌 Klotho 蛋白，有望克服重组蛋白快速降解和基因疗法细胞被免疫系统清除的问题。Klotho 是一种随年龄下降的蛋白，在小鼠中过表达可使寿命延长 20%–30%，低水平与肾、心、脑和代谢疾病相关。需注意：这是观点文章而非实验数据，三位作者均与销售该技术的 Austrianova 公司有关联，且目前无针对 Klotho 递送的人体试验时间表。
 
-细胞在生长和分裂过程中，mRNA 和蛋白质的数量会产生随机波动（即"基因表达噪声"），而传统模型通常只描述静止的细胞。一篇综述梳理了在增殖细胞中对这种噪声建模的进展，重点讨论了"周期稳态"（细胞在反复分裂后达到的统计规律）如何与常用的静态稳态近似相互关系，以及实验测量方式本身如何影响对分子数量分布的解读。[论文见 papers.cool](https://papers.cool/arxiv/2611.06537)，涉及数千个基因的计算拟合方法也在文中有所讨论。
+[![来源配图：Could implanted cells serve as a Klotho factory?](https://longevity.technology/wp-content/uploads/2026/11/could-implanted-cells-serve-as-a-klotho-factory-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/could-implanted-cells-serve-as-a-klotho-factory/)
 
----
+### 10. 南欧饮食最接近"星球健康饮食"标准，但糖尿病发病率却最高
 
-## **⚡ 产品与功能更新**
-
-### 细胞外无菌 DNA 合成套件 MiroMine 进入早期访问
-
-Ribbon Bio 推出了无细菌 DNA 组装套件 MiroMine，将此前仅作为服务提供的无菌合成技术带到实验室桌面。该套件绕过了传统 DNA 合成必须经过细菌培养的流程，核心优势在于可以处理细菌不能稳定维持的序列（含高 GC 含量、重复序列或同聚物）。据 [GEN 赞助内容报道](https://www.genengnews.com/sponsored/building-custom-dna-without-bacterial-constraints/)，早期访问版本支持约 7 kb 以内的分子，在内部测试中 3.4 kb 和 6.8 kb 片段达到 100% 测序正确率，约 4 kb 片段为 88%（该公司设定的精度基准为 90%）；内毒素水平在每微克 0.1 单位以下，未检出细菌基因组 DNA。上述数据来自 Ribbon Bio 自身测试，尚未经独立第三方验证。
-
-[![来源配图：Building Custom DNA without Bacterial Constraints](https://s.w.org/images/core/emoji/17.0.2/72x72/2122.png)](https://www.genengnews.com/sponsored/building-custom-dna-without-bacterial-constraints/)
+据[News-Medical 的报道](https://www.news-medical.net/news/20261105/Southern-Europe-eats-closest-to-the-planetary-diet-so-why-is-diabetes-so-high.aspx)，一项探索性研究比较了欧洲各地气温趋势、食物供给与糖尿病患病率，发现南欧在饮食组成上最符合"星球健康饮食"（一套兼顾人体健康与环境可持续性的推荐膳食模式）建议，但同时糖尿病患病率最高且上升最快。研究者认为气候变暖、饮食结构与糖尿病之间的关系在不同地区并不一致，环境、生活方式和人口结构等多重因素仍需进一步研究。这是探索性观察研究，无法据此得出饮食模式与糖尿病风险的因果结论。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 医学 AI 在处理电子健康记录事件序列时的优势范围被重新厘定
+### MRI 脑肿瘤检测：结合 SHAP 可解释分析的多特征深度学习方法
 
-时序点过程（Temporal Point Processes，一种对离散事件发生时间和类型建模的统计框架）被广泛用于预测电子健康记录中的疾病事件序列。这项研究在 UK Biobank 疾病历史和 MIMIC-IV 重症监护记录两个大规模医疗数据集上系统比较了经典 Hawkes 过程与神经网络模型，发现当 Hawkes 过程配备灵活的可学习基线和核函数后，与神经网络的性能差距基本消失——仅在 MIMIC-IV 重症数据上，神经模型在预测"发生了什么类型的事件"时保留了优势，而对"何时发生"的预测提升主要来自强度函数的灵活性，而非模型架构本身。研究同时开源了名为 TorchPP 的框架，[论文和代码详情见 papers.cool](https://papers.cool/arxiv/2611.06348)。
+据[论文索引/摘要](https://papers.cool/arxiv/2611.07843)，研究者在 MRI 脑肿瘤分类任务中对比了局部二值模式（LBP）、小波变换、CNN 等多种图像特征提取方法，结合支持向量分类器（SVC）和 CNN 两类学习算法进行评测。SHAP 是一种可解释 AI 方法，用于量化每个特征对分类结果的贡献权重。在小数据集上 CNN 准确率为 97.8%，SVC 为 98.06%；在较大基准数据集上 CNN 达 98.9%，SVC 为 96.7%。代码已开放于 [GitHub](https://github.com/asifrahman557/BrainTumorDetection)；结果来自回顾性数据集评测，实际临床应用尚待前瞻性验证。
+
+---
+
+## **◎ 行业变化与个人影响**
+
+### 勃林格殷格翰与信达生物母公司签署最高逾 74 亿美元肿瘤药物合作协议
+
+据 [GEN 的报道](https://www.genengnews.com/topics/bioprocessing/boehringer-ingelheim-inks-up-to-7-4b-cancer-drug-collaboration-with-sino-biopharmaceutical/)，勃林格殷格翰与香港上市公司信达生物制药母公司 SBP Group 签署第二项肿瘤合作协议，涵盖六个临床前生物制剂项目，主要技术方向为抗体偶联药物（ADC）和 T 细胞衔接器（TcE）——前者是把化疗毒素精准"快递"到癌细胞，后者是用双功能抗体招募免疫 T 细胞杀伤癌细胞。首付及近期里程碑款 3.58 亿美元，最高总额约 74 亿美元中的大部分与后续临床、监管和商业里程碑挂钩，实际兑现取决于各项目能否达到临床节点，不等于已确定收益。
+
+---
+
+## **⌘ 开源 TOP 项目**
+
+### HigginsChenLab/methylCIPHER：R 包，批量计算多种表观遗传时钟
+
+[methylCIPHER](https://github.com/HigginsChenLab/methylCIPHER) 是一个 R 语言包，供研究者对 DNA 甲基化数据批量运行多种"表观遗传时钟"算法。表观遗传时钟是通过检测基因组上特定位置的甲基化模式来估算生物年龄的方法，生物年龄与实际年龄之间的差值常被用于研究衰老速度。该包收录了 PC 时钟、SystemsAge、CausalAge、DunedinPACE 等当前较前沿的算法，适合有 DNA 甲基化数据集的研究者做多时钟横向比较。仓库最近活跃于 2026 年 10 月 30 日，许可证及运行环境要求请在[仓库页面](https://github.com/HigginsChenLab/methylCIPHER)核查；生物年龄估算值属于统计指标，不能据此直接判断个人健康状态或疾病风险。
+
+### nopara73/LongevityWorldCup：开源长寿运动平台，含生物年龄排行榜
+
+[LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) 是一个开源项目，提供生物年龄计算器、运动员档案和公开排行榜，定位为面向长寿领域的运动竞技平台。感兴趣者可在仓库了解所用生物年龄计算方法的依据和数据来源；仓库当前 27 星，最近活跃于 2026 年 11 月 6 日，具体许可证和功能细节请在[项目页面](https://github.com/nopara73/LongevityWorldCup)核查。
 
 ---
 
 ## **❓ 相关问题**
 
-### 脑扫描发现的"放电模式异常"能用来筛查个人患阿尔茨海默症的风险吗？
+### 表观遗传时钟计算出的"生物年龄"能直接说明我个人的衰老状况吗？
 
-目前还不能。斯坦福这项研究属于观察性研究，发现认知正常成人的特定脑放电模式与日后患病风险相关，但相关不等于因果，也不等于这种模式可以精确预测某个具体的人是否会发病。脑年龄或活动模式的差异是统计层面的群体信号，单次影像结果不能直接解读为个人患病风险的判定。具体研究对象数量、随访时长和模式识别方法的细节可从 [News-Medical 报道](https://www.news-medical.net/news/20261105/Brain-scans-reveal-clues-to-Alzheimers-risk-years-before-memory-loss-begins.aspx) 追溯原文继续了解。
+不能直接这样解读。生物年龄是基于人群甲基化模式的统计估算，单次测量与实际年龄之间的差值受检测方法、样本类型和所用时钟算法影响较大。[methylCIPHER 仓库](https://github.com/HigginsChenLab/methylCIPHER)收录了多种时钟，不同算法对同一样本给出的结果可能有差异。目前这类指标主要用于群体研究，尚无足够证据支持用单次个人测量值做健康诊断或疾病风险预测。
