@@ -4,11 +4,11 @@ type: page
 sidebar:
   exclude: true
 ---
-# Contact Aivora
+# Contact Aivola
 
-Thanks for stopping by the Aivora AI Daily! We'd love to hear from you — your feedback and suggestions genuinely matter to us. 🙌
+Thanks for stopping by the Aivola AI Daily! We'd love to hear from you — your feedback and suggestions mean a lot to us. 🙌
 
-Got questions, partnership ideas, or need help with an AI tool account? Hit us up through any of the channels below.
+Got questions, partnership ideas, or need help with AI tool accounts? Hit us up through any of the channels below.
 
 ---
 
@@ -18,11 +18,11 @@ Got questions, partnership ideas, or need help with an AI tool account? Hit us u
 
 **WeChat ID: aiwoola**
 
-Scan the QR code or search our ID to get in touch. Here's what we can help you with:
+Scan the QR code or search our ID to reach us for:
 - 🛒 AI tool account purchase inquiries
-- 💡 Technical support for usage issues
+- 💡 Technical support for usage questions
 - 🤝 Business partnership discussions
-- 📰 Content submissions and suggestions
+- 📰 Content submissions & suggestions
 
 ### Email
 
@@ -30,23 +30,23 @@ Scan the QR code or search our ID to get in touch. Here's what we can help you w
 
 Best for:
 - Detailed technical questions
-- Business collaboration proposals
+- Business partnership proposals
 - Bulk purchase inquiries
 
 ### Official Website
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Check out the site for:
-- Latest account package pricing
-- Terms of service and guarantees
-- User guides and how-tos
+Head over to our site to check out:
+- Latest account plan pricing
+- Terms of service & guarantees
+- User guides
 
 ---
 
-## ⏰ Service Hours
+## ⏰ Support Hours
 
-- **Live support hours**: Daily, 9:00 AM – 11:00 PM (GMT+8)
+- **Live customer support**: Daily, 9:00 AM – 11:00 PM (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and taking good care of every single user! 💪
+We're committed to getting back to you fast and taking great care of every single user! 💪
