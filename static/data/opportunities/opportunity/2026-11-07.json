@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-07",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-07/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_e8e1c3ddfd135151",
+      "report_date": "2026-11-07",
+      "report_section": "opportunity",
+      "title": "蛋白质组老化时钟科普解读:给\"做抗衰内容的人\"整理一张概念地图",
+      "source_urls": [
+        "https://www.genengnews.com/multimedia/webinars/the-aging-proteome-clocks-cohorts-and-clinical-trials/",
+        "https://github.com/Gladyshev-Lab/tAge"
+      ],
+      "source_verified": false,
+      "state": "blocked_license_unknown",
+      "state_reason": "未识别明确的代码许可证；自动项目改造已暂停",
+      "target_user": "** 正在做健康/抗衰/长寿主题自媒体的内容创作者;想跟进\"生物钟检测\"选题但不知从哪入手的健康账号运营者",
+      "demand_claim": "** 蛋白质时钟、转录组时钟、表观遗传时钟概念混用严重,中文优质解释极少;这类人需要一张\"概念对比表\"来快速出稿、不出错。**以上是需求假设,没有询价或用户反馈材料,付费意愿待验证。**",
+      "demand_verified": false,
+      "deliverable_hint": "** 一张\"生物衰老时钟对比表\"(蛋白质/转录组/表观遗传,三列:原理、检测方式、当前证据阶段);一篇公众号或小红书解读文章",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "** 文章 48 小时内阅读量超过账号均值,或收到 3 条以上主动询问\"哪里能买到详细资料\"的评论/私信;7 天内有人主动问资料包价格",
+        "stop_condition": "** 文章阅读量低于账号均值 50% 且无一条询价私信;或发现中文市场已有多个同类高质量免费资源覆盖,差异化空间太窄",
+        "upgrade_path": "** 免费对比表 → 低价资料包(生物时钟检测服务导航 + 论文摘要中文版)→ 社群内答疑 → 轻咨询(帮健康类 IP 做选题规划)"
+      },
+      "repository_metadata": {
+        "repository": "Gladyshev-Lab/tAge",
+        "url": "https://github.com/Gladyshev-Lab/tAge",
+        "default_branch": "main",
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-11-06T19:26:04Z",
+        "license_spdx": null,
+        "screening_status": "metadata_found",
+        "data_verified": false,
+        "run_verified": false,
+        "commercial_use_verified": false
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_e8e1c3ddfd135151:inspect_repository",
+      "opportunity_id": "opp_e8e1c3ddfd135151",
+      "kind": "inspect_repository",
+      "status": "blocked_license_unknown",
+      "description_zh": "自动核查仓库许可证、数据入口、依赖、维护状态和试跑条件",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_e8e1c3ddfd135151:validate_demand",
+      "opportunity_id": "opp_e8e1c3ddfd135151",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
