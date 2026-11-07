@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/6'
+title: 'AI生命延续学日报 2026/11/7'
 breadcrumbs: false
-next: /2026-11/2026-11-06
-description: '2026-11-06 AI生命延续学日报：AI 设计的广谱禽流感疫苗在动物实验中完全保护效果优于政府储备疫苗；单细胞基因调控模型 MUSS 同时读取 DNA 序列与染色质状态；肠道微生物的遗传变异与健康特征存在 940 项关联，大多数不体现在菌种丰度差异上。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-07
+description: '2026-11-07 AI生命延续学日报：抗衰老补剂 NOVOS Core 在随机对照试验中改善了动脉功能；表观遗传学评述：衰老可能有多个限速环节，而非一个根本原因；脑星形胶质细胞中一个蛋白的增减，可在小鼠全身引发或减缓衰老。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,93 +11,111 @@ cascade:
 ## **今日摘要**
 
 ```
-AI设计的广谱禽流感疫苗在动物实验中实现完全保护，优于现有储备疫苗。
-观点文章提议植入持续分泌抗衰老蛋白的活细胞，尚无人体试验时间表。
-疫苗保护效果仅来自动物实验，需进入人体临床试验确认安全有效。
+一种多成分抗衰老补剂在人体试验中显示出改善动脉功能的效果。
+小鼠研究发现脑部支持细胞中一种蛋白的增减可减缓全身衰老。
+该补剂试验规模小、退出率高且由生产商资助，结论仍待独立验证。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. AI 设计的广谱禽流感疫苗在动物实验中完全保护效果优于政府储备疫苗
+### 1. 抗衰老补剂 NOVOS Core 在随机对照试验中改善了动脉功能
 
-剑桥大学团队发布于 Cell Reports Medicine 的研究显示，他们用 AI 整合全球禽流感病毒基因监测数据，设计出一种名为 DVX-panH5Nx 的多价 mRNA 疫苗——"多价"意味着单支疫苗同时覆盖多种变异株。动物实验中，DVX-panH5Nx 对小鼠和雪貂实现了对多种不同谱系 H5N1 变异株的完全保护；而世卫组织现有储备疫苗在相同测试中仅约半数动物存活。目前结果来自动物实验，[GEN 的报道](https://www.genengnews.com/topics/infectious-diseases/bird-flu-vaccine-developed-using-ai-outperforms-current-stockpiled-vaccines-in-preclinical-tests/)显示下一步需进入人体临床试验才能确认人体有效性与安全性。
+据 [Lifespan.io 的报道](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)，萨里大学研究团队对多成分补剂 NOVOS Core 进行了随机双盲安慰剂对照试验，43 名参与者完成了主要分析（补剂组 24 人，安慰剂组 19 人）。流量介导扩张（FMD，即手臂动脉在血流恢复后的扩张幅度，反映血管内壁弹性）在补剂组六个月后提升了约 2.6 个百分点，安慰剂组几乎无变化；收缩压下降了约 8.5 mmHg，两组调整后差值为 6.1 mmHg。两项主要限制须注意：近三分之一参与者中途退出，安慰剂组平均年龄比补剂组大约七岁，且 NOVOS 提供了补剂并参与了资助，尚不清楚哪种成分起效，独立团队复制前结论需谨慎。
 
-[![来源配图：Bird Flu Vaccine Developed Using AI Outperforms Current Stockpiled Vaccines in Preclinical Tests](https://www.genengnews.com/wp-content/uploads/2026/11/4X4A7000-211x300.jpg)](https://www.genengnews.com/topics/infectious-diseases/bird-flu-vaccine-developed-using-ai-outperforms-current-stockpiled-vaccines-in-preclinical-tests/)
+[![来源配图：Longevity Supplement Improved Blood Vessels in a Human Trial](https://lifespan.io/wp-content/uploads/2023/02/NOVOS-262x187.png)](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)
 
-### 2. 单细胞基因调控模型 MUSS 同时读取 DNA 序列与染色质状态
+---
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.08086)，MUSS 是一个针对单细胞基因调控的多尺度模型，能同时处理 DNA 序列信息和染色质可及性（即哪些 DNA 区域当前"开放"可被转录机器读取）两个层面的数据，从而识别不同细胞类型特有的调控程序。在基因表达预测、增强子-基因关联等任务上 MUSS 优于仅用序列或仅用单细胞组学的基线模型，还能对训练时未见过的基因和峰位给出预测。代码、数据集与模型权重已开放于 [GitHub 仓库](https://github.com/Lotfollahi-lab/MUSS_neurips26)，感兴趣者可从仓库教程继续学习；目前结果来自计算评测，尚未在临床任务中验证。
+### 2. 表观遗传学评述：衰老可能有多个限速环节，而非一个根本原因
 
-### 3. 肠道微生物的遗传变异与健康特征存在 940 项关联，大多数不体现在菌种丰度差异上
+据 [Longevity.Technology 的报道](https://longevity.technology/news/epigenetics-may-be-agings-biggest-speed-limit/)，发表于期刊 *Aging* 的评述提出了"多中心衰老框架"，认为衰老由若干相对独立的过程共同驱动，而非一个单一机制。表观遗传调控——即不改变 DNA 序列本身、而通过"开关"控制基因活跃程度的机制——被作者认为是其中协调作用最广的一层，但并非唯一限制。评述还指出现有表观遗传时钟（通过 DNA 化学标记估算生物年龄的工具）可能无法区分有害的变化与代偿性变化，在 CALERIE 饮食限制试验和 DO-HEALTH 鱼油试验中，不同时钟读数并不一致。这是一篇概念性综述，尚未经独立实验验证，作者明确呼吁开展纵向研究和对照干预。
 
-据[News-Medical 的报道](https://www.news-medical.net/news/20261105/Hidden-genetic-differences-in-gut-bacteria-may-hold-clues-to-aging.aspx)，研究者分析了 10,781 人六个队列中约 1280 万个肠道微生物遗传变异，发现 940 项与 69 种人类健康特征或环境暴露的独立关联。关键发现在于：近三分之二的关联在传统微生物组分析中根本看不见——传统方法只统计各细菌"有多少"，而这批关联依赖于细菌基因序列本身的差异。这是观察性研究，关联不等于因果，尚不知道这些遗传变异如何影响宿主健康。
+[![来源配图：Epigenetics may be aging’s biggest speed limit](https://longevity.technology/wp-content/uploads/2026/11/epigenetics-speed-limit-revision-1024x683.png)](https://longevity.technology/news/epigenetics-may-be-agings-biggest-speed-limit/)
 
-[![来源配图：Hidden genetic differences in gut bacteria may hold clues to aging](https://www.news-medical.net/images/news/ImageForNews_850790_1793916768726718.jpg)](https://www.news-medical.net/news/20261105/Hidden-genetic-differences-in-gut-bacteria-may-hold-clues-to-aging.aspx)
+---
 
-### 4. 口腔癌筛查模型 OraRefer 在 714 名患者中实现 90% 以上敏感性目标
+### 3. 脑星形胶质细胞中一个蛋白的增减，可在小鼠全身引发或减缓衰老
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.08360)，OraRefer 是一个用智能手机照片做口腔癌筛查的患者级别模型。它先用分割模型定位病灶区域，再把同一患者的多张照片融合判断，最终给出"是否转诊"的决策而非对单张照片分类。在 714 名患者的 3000 张照片上，患者级别 AUROC 为 0.919；设定 90% 敏感性目标时，61 名癌症患者中漏诊 3 人，特异性 0.610（约四成正常人被误判为需转诊）。该模型推理时不需要手动标注，各诊所可用本地校准样本自行调整转诊阈值；目前为回顾性验证，尚待前瞻性临床研究确认实用价值。
+据 [Lifespan.io 的报道](https://lifespan.io/an-astrocytic-factor-slows-whole-body-aging-in-mice/)，发表于 *Aging Cell* 的研究发现，在衰老小鼠的星形胶质细胞（大脑中支持和保护神经元的细胞）中提高 FGF13 这一蛋白的表达后，小鼠在空间记忆测试中的表现接近年轻小鼠水平，血液中的炎症信号分子也显著下降，心脏以外多个器官的细胞衰老程度有所减轻。FGF13 本身不能被细胞分泌出去，研究者推测其作用通过影响细胞自噬（细胞清除废旧组件的机制）传导至全身。目前结果仅来自小鼠，距人体应用还需经过非人灵长类动物验证，且论文本身没有提出任何具体给药路径。
 
-### 5. 大语言模型结合生物医学知识图谱可显著减少"幻觉"错误
+[![来源配图：An Astrocytic Factor Slows Whole-Body Aging in Mice](https://lifespan.io/wp-content/uploads/2026/10/Astrocytes-262x187.jpg)](https://lifespan.io/an-astrocytic-factor-slows-whole-body-aging-in-mice/)
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.08315)，研究者在 DrugBank、NeuroSynth 等五个生物医学与认知神经科学知识图谱上对 GPT-5.1、Gemini 2.0 Pro 等五个大模型进行基准测试。"知识图谱接地"是指让模型在回答时能查阅结构化的药物-疾病-基因关系网络，而不是只靠预训练记忆。结果显示，接地后所有模型幻觉率均下降；GPT-5.1 和 Gemini 2.0 Pro 在多跳推理上整体领先，但随问题复杂度上升性能均有下降。这是基准评测，结论是"接地有帮助"，但不能直接推论到临床决策场景。
+---
 
-### 6. 发育中的大脑出生后会减少皮层神经元中的基因异常
+### 4. Voyager 公司两条阿尔茨海默症 tau 蛋白疗法同时亮相临床会议
 
-据[News-Medical 的报道](https://www.news-medical.net/news/20261106/Developing-brains-may-have-a-way-to-remove-genetically-abnormal-neurons.aspx)，研究发现出生后皮层神经元中的基因异常数量明显减少，提示存在一种选择性清除机制。这里说的"基因异常"是指个别神经元携带的体细胞突变——这类突变不来自父母遗传，而是细胞分裂过程中随机出现的。如果这一清除机制确实存在，它可能对理解神经发育疾病和衰老相关认知退化都有参考价值。目前具体机制、样本量和研究方法的细节尚待核查原文。
+据 [Longevity.Technology 的报道](https://longevity.technology/news/voyager-readies-two-pronged-attack-on-alzheimers-tau/)，Voyager Therapeutics 将在 11 月 CTAD 大会上展示针对 tau 蛋白（在阿尔茨海默症患者脑细胞中形成缠结的蛋白）的两条路线：VY1706 是一种设计为静脉注射后能穿越血脑屏障、直接在脑内抑制 tau 合成的基因疗法，目前仍处于研究设计阶段，尚未开始人体给药；VY7523 是一种靶向已存在 tau 蛋白的抗体，已处于一/二期剂量爬坡试验的入组基线记录阶段，尚无任何疗效数据。两张海报均无结果数字，这次发布实质上是研究起点的公开，tau 疗法是否有效目前任何路线都尚无定论。
 
-[![来源配图：Developing brains may have a way to remove genetically abnormal neurons](https://www.news-medical.net/images/news/ImageForNews_850837_17939590029396646.jpg)](https://www.news-medical.net/news/20261106/Developing-brains-may-have-a-way-to-remove-genetically-abnormal-neurons.aspx)
+[![来源配图：Voyager readies two-pronged attack on Alzheimer’s tau](https://longevity.technology/wp-content/uploads/2026/11/voyager-readies-two-pronged-attack-on-alzheimers-tau-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/voyager-readies-two-pronged-attack-on-alzheimers-tau/)
 
-### 7. 基因组工具检测罕见 DNA 变异的准确性获华盛顿大学研究团队验证
+---
 
-据[News-Medical 的报道](https://www.news-medical.net/news/20261105/New-genomic-tools-improve-detection-of-rare-DNA-changes.aspx)，华盛顿大学医学院研究者验证了一批遗传学工具，能够准确识别构成个体"基因组马赛克"的全部罕见 DNA 变异。"基因组马赛克"是指同一个人体内不同细胞携带略有差异的基因组，这种差异可能随衰老积累，并与部分疾病相关。验证这些工具的准确性，是后续研究这批变异如何影响健康与疾病的前提。具体验证方法和样本细节待核查原文。
+### 5. 41,000 只伴侣犬揭示：剔除体型因素后，各州狗寿命与当地人寿命正相关
 
-### 8. 分子表示评测：现有学习嵌入在结构相似性上不优于经典指纹
+据 [Longevity.Technology 的报道](https://longevity.technology/news/the-lie-of-the-land-dog-lifespans-track-human-mortality-by-state/)，发表于 *GeroScience* 的 Dog Aging Project 分析了超过 41,000 只狗的生存数据，校正体型、品种和性别后，各州犬类死亡率与人类死亡率仍呈显著正相关——田纳西、俄克拉荷马、肯塔基死亡率偏高，夏威夷、加利福尼亚偏低。值得注意的是，原本看似存在的"农村惩罚"在控制农村犬体型较大这一因素后消失了，说明环境与人口结构很容易混淆。这是 51 个州级数据点之间的生态相关，并非个体因果分析，下一阶段研究将为每只狗链接当地空气质量、化学暴露等环境数据以寻找共同因素。
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.08420)，研究者系统评测了多种分子表示方法——"分子指纹"是把分子结构编码为固定长度二进制串的经典方法，而"学习嵌入"则是神经网络从数据中自动学习的向量表示。结论是，目前最先进的嵌入模型在捕捉图结构、三维形状或 ADMET（吸收、分布、代谢、排泄和毒性）相似性方面均不优于经典指纹；同时，经典指纹本身在 108 亿分子规模的 Enamine REAL 数据库中存在 2.25 亿至约 40 亿个非唯一表示，对虚拟筛选有实际影响。这是方法评测研究，指向未来更鲁棒分子编码的开发需求。
+---
 
-### 9. 提议将能持续分泌 Klotho 蛋白的包囊细胞植入体内以对抗衰老
+### 6. 咖啡与认知健康的长达 43 年观察性研究有新发现
 
-据[Longevity.Technology 的报道](https://longevity.technology/news/could-implanted-cells-serve-as-a-klotho-factory/)，发表于 Frontiers in Aging 的一篇观点文章提出，将活细胞封入保护性胶囊（Cell-in-a-Box 技术）再植入体内，让其持续分泌 Klotho 蛋白，有望克服重组蛋白快速降解和基因疗法细胞被免疫系统清除的问题。Klotho 是一种随年龄下降的蛋白，在小鼠中过表达可使寿命延长 20%–30%，低水平与肾、心、脑和代谢疾病相关。需注意：这是观点文章而非实验数据，三位作者均与销售该技术的 Austrianova 公司有关联，且目前无针对 Klotho 递送的人体试验时间表。
+据 [Science Daily 的报道](https://www.sciencedaily.com/releases/2026/11/261105224550.htm)，一项跨度长达 43 年的观察性研究发现，每日饮用 2—3 杯含咖啡因的咖啡与痴呆症风险显著降低及认知功能较好存在关联，且这一关联在不同遗传风险的人群中均出现；不含咖啡因的咖啡则未显示同样的关联。素材仅提供了摘要级信息，具体样本量、发表期刊及研究机构待核查。观察性研究不能确认因果关系，相关不等于咖啡直接减少痴呆风险。
 
-[![来源配图：Could implanted cells serve as a Klotho factory?](https://longevity.technology/wp-content/uploads/2026/11/could-implanted-cells-serve-as-a-klotho-factory-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/could-implanted-cells-serve-as-a-klotho-factory/)
+---
 
-### 10. 南欧饮食最接近"星球健康饮食"标准，但糖尿病发病率却最高
+### 7. NHS 正试验 AI 电话助手监测骨质疏松症患者
 
-据[News-Medical 的报道](https://www.news-medical.net/news/20261105/Southern-Europe-eats-closest-to-the-planetary-diet-so-why-is-diabetes-so-high.aspx)，一项探索性研究比较了欧洲各地气温趋势、食物供给与糖尿病患病率，发现南欧在饮食组成上最符合"星球健康饮食"（一套兼顾人体健康与环境可持续性的推荐膳食模式）建议，但同时糖尿病患病率最高且上升最快。研究者认为气候变暖、饮食结构与糖尿病之间的关系在不同地区并不一致，环境、生活方式和人口结构等多重因素仍需进一步研究。这是探索性观察研究，无法据此得出饮食模式与糖尿病风险的因果结论。
+据 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-11-trial-ai-patients-term-illness.html)，英国国家医疗服务体系（NHS）正在试验一款名为 Dora Care 的 AI 虚拟助手，以电话问诊形式帮助临床医生跟踪骨质疏松症（一种导致骨骼变脆的慢性病，在英国影响约 350 万人，女性和 50 岁以上人群尤为多见）患者。目前仍处于试验阶段，素材未提供入组人数、试验设计或有效性数据，能否改善患者结局尚待评估。
+
+---
+
+### 8. 迷幻蘑菇活性成分裸盖菇素在压力损伤的小鼠大脑中快速重塑神经连接
+
+据 [Science Daily 的报道](https://www.sciencedaily.com/releases/2026/11/261104012308.htm)，研究者发现裸盖菇素（psilocybin，迷幻蘑菇中的活性化合物）在健康小鼠与长期慢性压力小鼠中的神经重塑方式不同，在压力损伤的小鼠中能快速新建并强化神经连接；研究者还识别出一种可触发这种神经重塑、但不伴随迷幻行为反应的方式。素材为摘要级，具体机制、样本和期刊待核查，结果目前仅限于小鼠，是否适用于人类认知或衰老干预尚不清楚。
+
+---
+
+### 9. 女性帕金森症患者中阿尔茨海默症相关病理的叠加比例高于男性
+
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261106/Women-with-Parkinsons-have-higher-rates-of-Alzheimers-pathology.aspx)，新研究发现帕金森症与阿尔茨海默症在大脑中的病理改变可以重叠，且这种重叠在女性患者中的比例高于男性。两种神经退行性疾病的病理交叉可能影响症状表现和治疗响应，但素材为摘要级，具体样本量、研究方法及发表期刊待核查。
+
+---
+
+### 10. Sironax 神经保护药物 SIR2501 在 ALS 和化疗神经损伤试验中报告早期安全信号
+
+据 [Longevity.Technology 的报道](https://longevity.technology/news/the-nerve-switch-sironax-wants-to-keep-switched-off/)，Sironax 公司的 SIR2501 是一种 SARM1 抑制剂——SARM1 是驱动神经纤维退化的关键酶，该药通过在酶的非活性位点上结合使其保持关闭状态，以期避免直接阻断活性位点可能带来的副作用。11 月神经科学年会海报报告称，正在进行的 ALS 和化疗诱导外周神经病变（化疗后手脚麻木疼痛）的一/二期试验中观察到"有利的安全性和早期生物活性信号"，但发布中未提供患者数量、剂量或任何疗效指标，安全性和有效性尚未确立。
+
+---
+
+## **⚡ 产品与功能更新**
+
+### Digbi Health 发布 ASRA：为雇主整合 GLP-1 和代谢健康管理的 AI 协作平台
+
+据 [Longevity.Technology 的报道](https://longevity.technology/news/digbis-asra-puts-ai-agents-on-the-care-front-line/)，Digbi Health 于 10 月 28 日发布了 ASRA 平台，将 GLP-1 药物（近年因显著减重效果受到广泛关注的一类降糖减肥药）、激素替代疗法与代谢慢病管理整合进同一系统，面向雇主和健康计划客户。AI 代理负责成员触达、参与提醒和个性化营养指引等运营事务，临床决策仍由医生和健康教练执行。公司称平台数据积累历时三年，目前覆盖 300 余家雇主约 3000 万名可及人员，但 ASRA 本身尚无已发表的结局数据，早期项目效果能否延续至新平台还有待验证。
 
 ---
 
 ## **🧪 前沿研究**
 
-### MRI 脑肿瘤检测：结合 SHAP 可解释分析的多特征深度学习方法
+### 蛋白质组学衰老时钟：可跨队列追踪生物年龄的蛋白质模块
 
-据[论文索引/摘要](https://papers.cool/arxiv/2611.07843)，研究者在 MRI 脑肿瘤分类任务中对比了局部二值模式（LBP）、小波变换、CNN 等多种图像特征提取方法，结合支持向量分类器（SVC）和 CNN 两类学习算法进行评测。SHAP 是一种可解释 AI 方法，用于量化每个特征对分类结果的贡献权重。在小数据集上 CNN 准确率为 97.8%，SVC 为 98.06%；在较大基准数据集上 CNN 达 98.9%，SVC 为 96.7%。代码已开放于 [GitHub](https://github.com/asifrahman557/BrainTumorDetection)；结果来自回顾性数据集评测，实际临床应用尚待前瞻性验证。
-
----
-
-## **◎ 行业变化与个人影响**
-
-### 勃林格殷格翰与信达生物母公司签署最高逾 74 亿美元肿瘤药物合作协议
-
-据 [GEN 的报道](https://www.genengnews.com/topics/bioprocessing/boehringer-ingelheim-inks-up-to-7-4b-cancer-drug-collaboration-with-sino-biopharmaceutical/)，勃林格殷格翰与香港上市公司信达生物制药母公司 SBP Group 签署第二项肿瘤合作协议，涵盖六个临床前生物制剂项目，主要技术方向为抗体偶联药物（ADC）和 T 细胞衔接器（TcE）——前者是把化疗毒素精准"快递"到癌细胞，后者是用双功能抗体招募免疫 T 细胞杀伤癌细胞。首付及近期里程碑款 3.58 亿美元，最高总额约 74 亿美元中的大部分与后续临床、监管和商业里程碑挂钩，实际兑现取决于各项目能否达到临床节点，不等于已确定收益。
+GEN 即将举办的[网络研讨会](https://www.genengnews.com/multimedia/webinars/the-aging-proteome-clocks-cohorts-and-clinical-trials/)（12 月 1 日）将展示一个基于蛋白质组学（大规模测量血液中蛋白质丰度的技术）构建的衰老时钟：Xiao-Jun Ma 团队在三个独立队列中识别出一个"内在蛋白质模块"，该模块与死亡率、认知功能及共病负担相关，并可与 DNA 甲基化时钟（通过 DNA 化学标记估算年龄的方法）比较。Michael Corley 将展示 semaglutide（一种 GLP-1 药物）随机试验的蛋白质组和表观遗传结果，包括停药后的变化。这是研讨会预告，尚未发布研究原始数据，具体结果届时才可核查。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### HigginsChenLab/methylCIPHER：R 包，批量计算多种表观遗传时钟
+### Gladyshev-Lab/tAge：用转录组数据估算生物年龄的 R 工具包
 
-[methylCIPHER](https://github.com/HigginsChenLab/methylCIPHER) 是一个 R 语言包，供研究者对 DNA 甲基化数据批量运行多种"表观遗传时钟"算法。表观遗传时钟是通过检测基因组上特定位置的甲基化模式来估算生物年龄的方法，生物年龄与实际年龄之间的差值常被用于研究衰老速度。该包收录了 PC 时钟、SystemsAge、CausalAge、DunedinPACE 等当前较前沿的算法，适合有 DNA 甲基化数据集的研究者做多时钟横向比较。仓库最近活跃于 2026 年 10 月 30 日，许可证及运行环境要求请在[仓库页面](https://github.com/HigginsChenLab/methylCIPHER)核查；生物年龄估算值属于统计指标，不能据此直接判断个人健康状态或疾病风险。
+[tAge](https://github.com/Gladyshev-Lab/tAge) 是哈佛 Gladyshev 实验室发布的 R 语言包，用于基于转录组数据（即细胞中基因表达的整体模式）分析生物年龄，适合有 R 基础、处理 RNA 测序数据的研究者。仓库于 2026 年 11 月 6 日有活跃提交（29 Stars），具体输入格式和依赖环境请参阅[仓库主页](https://github.com/Gladyshev-Lab/tAge)，许可证情况待核查。
 
-### nopara73/LongevityWorldCup：开源长寿运动平台，含生物年龄排行榜
+### msbCyricTohoku/BACalc：不依赖特定数据集的动态生物年龄计算器
 
-[LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) 是一个开源项目，提供生物年龄计算器、运动员档案和公开排行榜，定位为面向长寿领域的运动竞技平台。感兴趣者可在仓库了解所用生物年龄计算方法的依据和数据来源；仓库当前 27 星，最近活跃于 2026 年 11 月 6 日，具体许可证和功能细节请在[项目页面](https://github.com/nopara73/LongevityWorldCup)核查。
+[BACalc](https://github.com/msbCyricTohoku/BACalc) 提出了一种"数据集无关"的生物年龄估算思路——即算法设计上不固定于某一特定训练集，理论上可适配不同来源的生理或分子数据。仓库最近活跃于 2026 年 11 月 2 日（1 Star），适合希望在自有数据上探索生物年龄估算方法的研究者；具体输入格式和运行依赖请查阅[仓库说明](https://github.com/msbCyricTohoku/BACalc)，许可证情况待核查。
 
 ---
 
 ## **❓ 相关问题**
 
-### 表观遗传时钟计算出的"生物年龄"能直接说明我个人的衰老状况吗？
+### NOVOS Core 试验的结果能说明这款补剂真的有延寿效果吗？
 
-不能直接这样解读。生物年龄是基于人群甲基化模式的统计估算，单次测量与实际年龄之间的差值受检测方法、样本类型和所用时钟算法影响较大。[methylCIPHER 仓库](https://github.com/HigginsChenLab/methylCIPHER)收录了多种时钟，不同算法对同一样本给出的结果可能有差异。目前这类指标主要用于群体研究，尚无足够证据支持用单次个人测量值做健康诊断或疾病风险预测。
+直接答案是：不能。[这项试验](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)测量的是血管功能指标（动脉扩张幅度和血压），这些指标与心血管健康相关，但改善指标并不等于证明减少了心脏病发作或延长了寿命。此外，试验规模小（主要分析仅 43 人），退出率近三分之一，两组平均年龄相差约七岁，且研究由生产商共同资助。研究者本人和外部评论者均明确指出需要独立团队复制才能得出更稳健的结论。
