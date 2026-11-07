@@ -4,25 +4,25 @@ type: page
 sidebar:
   exclude: true
 ---
-# Contact Aivora
+# Contact Aiwola
 
-Thanks for stopping by the Aivora AI Daily! We'd love to hear from you — your feedback and suggestions mean a lot to us.
+Thanks for stopping by the Aiwola AI Daily! We'd love to hear from you — whether it's feedback, questions, or just saying hi.
 
-Got questions, partnership ideas, or need help with an AI tool account? Hit us up through any of the channels below.
+Got questions, partnership ideas, or need help with AI tool accounts? Hit us up through any of the channels below.
 
 ---
 
 ## 📬 Contact Us
 
-### WeChat Customer Support
+### WeChat Customer Service
 
 **WeChat ID: aiwoola**
 
-Scan the QR code or search our ID to add us on WeChat. Here's what we can help you with:
-- 🛒 AI tool account purchase inquiries
-- 💡 Technical support for usage issues
+Scan the QR code or search our ID to add us, and get access to:
+- 🛒 AI tool account purchase consultation
+- 💡 Technical support for usage questions
 - 🤝 Business partnership discussions
-- 📰 Content submissions and suggestions
+- 📰 Content submissions & suggestions
 
 ### Email
 
@@ -30,7 +30,7 @@ Scan the QR code or search our ID to add us on WeChat. Here's what we can help y
 
 Best for:
 - Detailed technical questions
-- Business collaboration proposals
+- Business partnership proposals
 - Bulk purchase inquiries
 
 ### Official Website
@@ -39,14 +39,14 @@ Best for:
 
 Head over to the site to check out:
 - Latest account package pricing
-- Terms of service and guarantees
-- User guides and documentation
+- Terms of service & guarantees
+- User guides & tutorials
 
 ---
 
 ## ⏰ Service Hours
 
-- **Live customer support**: Daily, 9:00 AM – 11:00 PM (GMT+8)
-- **Email response time**: Within 24 hours
+- **Customer support online:** Daily, 9:00 AM – 11:00 PM (GMT+8)
+- **Email response time:** Within 24 hours
 
-We're committed to fast responses and genuinely caring about every user we serve! 💪
+We're committed to fast responses and genuinely care about every single user! 💪
