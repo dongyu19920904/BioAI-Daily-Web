@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/6
+title: AI生命延续学日报 2026/11/7
 breadcrumbs: false
-next: /en/2026-11/2026-11-06
+next: /en/2026-11/2026-11-07
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,93 +11,111 @@ cascade:
 ## **Today's Summary**
 
 ```
-An AI-designed broad-spectrum avian flu vaccine achieved complete protection in animal trials, outperforming current stockpiled vaccines.
-An opinion piece proposes implanting living cells that continuously secrete anti-aging proteins — but no human trial timeline exists yet.
-Vaccine protection results come only from animal experiments; human clinical trials are needed to confirm safety and efficacy.
+A multi-ingredient anti-aging supplement showed improved arterial function in a human trial.
+A mouse study found that modulating a protein in brain support cells can slow whole-body aging.
+The supplement trial was small-scale, had high dropout rates, and was industry-funded — conclusions await independent replication.
 ```
 
-## **🚀 Today's Top 10**
+## **🔥 Top 10 Today**
 
-### 1. AI-Designed Broad-Spectrum Avian Flu Vaccine Achieves Complete Protection in Animal Trials, Outperforming Government Stockpiled Vaccines
+### 1. Anti-Aging Supplement NOVOS Core Improved Arterial Function in a Randomized Controlled Trial
 
-DVX-panH5Nx is the name of a multivalent mRNA vaccine designed by a Cambridge University team using AI to integrate global avian flu virus gene surveillance data, as detailed in a study published in Cell Reports Medicine. "Multivalent" means a single shot covers multiple variant strains at once. In animal experiments, DVX-panH5Nx pulled off complete protection in mice and ferrets against several different H5N1 lineages, while the WHO's current stockpiled vaccine only kept about half the animals alive in the same tests. So far these results are from animal experiments — per [the GEN report](https://www.genengnews.com/topics/infectious-diseases/bird-flu-vaccine-developed-using-ai-outperforms-current-stockpiled-vaccines-in-preclinical-tests/), the next step is human clinical trials to confirm efficacy and safety in people.
+As [reported by Lifespan.io](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/), **NOVOS Core** — a multi-ingredient supplement — was put through a randomized, double-blind, placebo-controlled trial by researchers at the University of Surrey. 43 participants completed the primary analysis (24 in the supplement group, 19 in placebo). Flow-mediated dilation (FMD — how much your arm artery expands after blood flow is restored, a marker of vascular wall elasticity) improved by roughly 2.6 percentage points in the supplement group after six months, while the placebo group saw almost no change. Systolic blood pressure dropped ~8.5 mmHg, with an adjusted between-group difference of 6.1 mmHg. Two major caveats worth noting: nearly a third of participants dropped out, the placebo group was on average ~7 years older than the supplement group, NOVOS supplied the supplement and co-funded the study, it's unclear which ingredient is doing the heavy lifting, and conclusions should be held loosely until an independent team replicates this. 🔬
 
-[![Source image: Bird Flu Vaccine Developed Using AI Outperforms Current Stockpiled Vaccines in Preclinical Tests](https://www.genengnews.com/wp-content/uploads/2026/11/4X4A7000-211x300.jpg)](https://www.genengnews.com/topics/infectious-diseases/bird-flu-vaccine-developed-using-ai-outperforms-current-stockpiled-vaccines-in-preclinical-tests/)
-
-### 2. MUSS: Single-Cell Gene Regulation Model Simultaneously Reads DNA Sequences and Chromatin States
-
-MUSS is a multi-scale model for single-cell gene regulation that handles two layers of data at once — DNA sequence information and chromatin accessibility (which DNA regions are currently "open" and readable by the transcription machinery) — letting it identify regulatory programs unique to different cell types, according to [the paper abstract](https://papers.cool/arxiv/2611.08086). On tasks like gene expression prediction and enhancer-gene association, MUSS beats baseline models that use only sequences or only single-cell omics, and it can even make predictions for genes and peak positions it never saw during training. Code, datasets, and model weights are open on the [GitHub repo](https://github.com/Lotfollahi-lab/MUSS_neurips26) — anyone interested can keep learning from the repo's tutorials. Current results are from computational benchmarks and haven't been validated on clinical tasks yet.
-
-### 3. Gut Microbe Genetic Variants Show 940 Associations with Health Traits — Most Invisible to Traditional Species Abundance Analysis
-
-940 independent associations between gut microbial genetic variants and 69 human health traits or environmental exposures were uncovered by researchers who analyzed roughly 12.8 million gut microbial genetic variants across six cohorts totaling 10,781 people, according to [the News-Medical report](https://www.news-medical.net/news/20261105/Hidden-genetic-differences-in-gut-bacteria-may-hold-clues-to-aging.aspx). The kicker: nearly two-thirds of these associations are completely invisible to traditional microbiome analysis, which only counts "how many" of each bacterium are around — these associations depend on differences in the bacterial gene sequences themselves. This is observational research, so correlation ≠ causation, and it's still unclear how these genetic variants actually affect host health.
-
-[![Source image: Hidden genetic differences in gut bacteria may hold clues to aging](https://www.news-medical.net/images/news/ImageForNews_850790_1793916768726718.jpg)](https://www.news-medical.net/news/20261105/Hidden-genetic-differences-in-gut-bacteria-may-hold-clues-to-aging.aspx)
-
-### 4. OraRefer: Oral Cancer Screening Model Hits 90%+ Sensitivity Target Across 714 Patients
-
-OraRefer is a patient-level oral cancer screening model that works from smartphone photos, according to [the paper abstract](https://papers.cool/arxiv/2611.08360). It first uses a segmentation model to locate lesion areas, then fuses multiple photos from the same patient to make a call, ultimately giving a "refer or not" decision instead of classifying individual shots. On 3,000 photos from 714 patients, the patient-level AUROC came in at 0.919; at a 90% sensitivity target, 3 out of 61 cancer patients were missed, with specificity at 0.610 (meaning about 40% of healthy people got flagged for referral). The model doesn't need manual annotation at inference time, and clinics can tweak the referral threshold using their own local calibration samples. This is retrospective validation for now — prospective clinical studies are still needed to confirm real-world value.
-
-### 5. Large Language Models Combined with Biomedical Knowledge Graphs Significantly Cut "Hallucination" Errors
-
-GPT-5.1, Gemini 2.0 Pro, and three other large models were benchmarked by researchers on five biomedical and cognitive neuroscience knowledge graphs including DrugBank and NeuroSynth, according to [the paper abstract](https://papers.cool/arxiv/2611.08315). "Knowledge graph grounding" means letting models consult structured drug-disease-gene relationship networks when answering, instead of leaning only on pre-trained memory. Results showed that after grounding, every single model's hallucination rate dropped. GPT-5.1 and Gemini 2.0 Pro led the pack overall in multi-hop reasoning, but all models degraded as question complexity went up. This is a benchmark evaluation — the takeaway is "grounding helps," but you can't directly extrapolate that to clinical decision-making scenarios.
-
-### 6. Developing Brains Reduce Genetic Abnormalities in Cortical Neurons After Birth
-
-Cortical neurons show a noticeable drop in genetic abnormalities after birth, pointing to a selective clearance mechanism, as reported by [News-Medical](https://www.news-medical.net/news/20261106/Developing-brains-may-have-a-way-to-remove-genetically-abnormal-neurons.aspx). The "genetic abnormalities" here are somatic mutations carried by individual neurons — these don't come from your parents but pop up randomly during cell division. If this clearance mechanism really exists, it could matter for understanding both neurodevelopmental disorders and age-related cognitive decline. Specific details on the mechanism, sample sizes, and study methods still need to be verified against the original paper.
-
-[![Source image: Developing brains may have a way to remove genetically abnormal neurons](https://www.news-medical.net/images/news/ImageForNews_850837_17939590029396646.jpg)](https://www.news-medical.net/news/20261106/Developing-brains-may-have-a-way-to-remove-genetically-abnormal-neurons.aspx)
-
-### 7. University of Washington Team Validates Accuracy of Genomic Tools for Detecting Rare DNA Variants
-
-A suite of genetics tools capable of accurately identifying all the rare DNA variants that make up an individual's "genomic mosaic" has been validated by researchers at the University of Washington School of Medicine, according to [the News-Medical report](https://www.news-medical.net/news/20261105/New-genomic-tools-improve-detection-of-rare-DNA-changes.aspx). "Genomic mosaic" means different cells within the same person carry slightly different genomes, and these differences may pile up with aging and tie into certain diseases. Validating these tools' accuracy is a prerequisite for studying how these variants actually impact health and disease. Specific validation methods and sample details remain to be checked against the original paper.
-
-### 8. Molecular Representation Benchmark: Current Learned Embeddings No Better Than Classic Fingerprints at Capturing Structural Similarity
-
-Multiple molecular representation methods got systematically benchmarked by researchers, according to [the paper abstract](https://papers.cool/arxiv/2611.08420). "Molecular fingerprints" are classic methods that encode molecular structures as fixed-length binary strings, while "learned embeddings" are vector representations that neural networks pick up automatically from data. The verdict: state-of-the-art embedding models are no better than classic fingerprints at capturing graph structure, 3D shape, or ADMET (absorption, distribution, metabolism, excretion, and toxicity) similarity. On top of that, classic fingerprints themselves have 225 million to roughly 4 billion non-unique representations in the 10.8-billion-molecule Enamine REAL database — a real headache for virtual screening. This is a methods evaluation study, pointing toward the need for more robust molecular encoding down the road.
-
-### 9. Opinion Piece Proposes Implanting Encapsulated Cells That Continuously Secrete Klotho Protein to Fight Aging
-
-Klotho — a protein that declines with age, extends mouse lifespan by 20%–30% when overexpressed, and at low levels is linked to kidney, heart, brain, and metabolic diseases — could potentially be delivered by encapsulating living cells in protective capsules (Cell-in-a-Box technology) and implanting them to continuously pump out the protein, according to an opinion piece published in Frontiers in Aging and covered by [Longevity.Technology](https://longevity.technology/news/could-implanted-cells-serve-as-a-klotho-factory/). This approach could sidestep the rapid degradation of recombinant proteins and the immune clearance that plagues gene therapy cells. Heads up though: this is an opinion piece, not experimental data, all three authors have ties to Austrianova (the company selling the tech), and there's no human trial timeline for Klotho delivery yet.
-
-[![Source image: Could implanted cells serve as a Klotho factory?](https://longevity.technology/wp-content/uploads/2026/11/could-implanted-cells-serve-as-a-klotho-factory-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/could-implanted-cells-serve-as-a-klotho-factory/)
-
-### 10. Southern Europe Eats Closest to the "Planetary Health Diet" but Has the Highest Diabetes Rates
-
-Southern Europe matches the "planetary health diet" (a dietary pattern balancing human health with environmental sustainability) most closely in terms of diet composition — yet simultaneously posts the highest and fastest-rising diabetes prevalence, according to [the News-Medical report](https://www.news-medical.net/news/20261105/Southern-Europe-eats-closest-to-the-planetary-diet-so-why-is-diabetes-so-high.aspx). An exploratory study compared temperature trends, food supply, and diabetes prevalence across European regions and found that the relationship between climate warming, diet composition, and diabetes isn't consistent across regions. Environmental, lifestyle, and demographic factors all still need untangling. This is exploratory observational research — you can't draw causal conclusions about diet patterns and diabetes risk from it.
+[![Source image: Longevity Supplement Improved Blood Vessels in a Human Trial](https://lifespan.io/wp-content/uploads/2023/02/NOVOS-262x187.png)](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)
 
 ---
 
-## **🔬 Frontier Research**
+### 2. Epigenetics Review: Aging Might Have Multiple Rate-Limiting Steps, Not One Root Cause
 
-### MRI Brain Tumor Detection: Multi-Feature Deep Learning Approach with SHAP Explainability Analysis
+As [reported by Longevity.Technology](https://longevity.technology/news/epigenetics-may-be-agings-biggest-speed-limit/), a review published in the journal *Aging* puts forward a "polycentric aging framework" — the idea that aging is driven by several relatively independent processes rather than a single mechanism. **Epigenetic regulation** — the system of "switches" that controls how active genes are without changing the underlying DNA sequence — is identified by the authors as the most broadly coordinating layer, but not the only rate-limiting one. The review also flags that existing epigenetic clocks (tools that estimate biological age from chemical markers on DNA) may not distinguish harmful changes from compensatory ones; in the CALERIE dietary restriction trial and DO-HEALTH fish oil trial, different clocks gave inconsistent readings. This is a conceptual review, not an experimental study — the authors explicitly call for longitudinal research and controlled interventions to back it up. 🧬
 
-Multiple image feature extraction methods — including local binary patterns (LBP), wavelet transforms, and CNNs — were compared by researchers on an MRI brain tumor classification task, paired with two types of learning algorithms: support vector classifiers (SVC) and CNNs, according to [the paper abstract](https://papers.cool/arxiv/2611.07843). SHAP is an explainable AI method that quantifies how much each feature contributes to the classification result. On a small dataset, CNN accuracy hit 97.8% and SVC 98.06%; on a larger benchmark dataset, CNN reached 98.9% and SVC 96.7%. Code is open on [GitHub](https://github.com/asifrahman557/BrainTumorDetection). Results come from retrospective dataset evaluations — prospective validation is needed before any clinical use.
-
----
-
-## **📈 Industry Moves & Personal Impact**
-
-### Boehringer Ingelheim Signs Oncology Collaboration with Sino Biopharmaceutical Worth Up to $7.4 Billion
-
-Boehringer Ingelheim and SBP Group — the parent company of Hong Kong-listed Sino Biopharmaceutical — have signed their second oncology collaboration agreement, covering six preclinical biologic projects, according to [the GEN report](https://www.genengnews.com/topics/bioprocessing/boehringer-ingelheim-inks-up-to-7-4b-cancer-drug-collaboration-with-sino-biopharmaceutical/). The main tech directions are antibody-drug conjugates (ADCs) and T-cell engagers (TcEs) — the former precision-delivers chemo toxins straight to cancer cells, while the latter uses bispecific antibodies to recruit immune T cells to take them out. Upfront and near-term milestone payments come to $358 million, with the bulk of the roughly $7.4 billion total tied to downstream clinical, regulatory, and commercial milestones. Actual payout hinges on each project hitting those clinical checkpoints — this isn't guaranteed money.
+[![Source image: Epigenetics may be aging's biggest speed limit](https://longevity.technology/wp-content/uploads/2026/11/epigenetics-speed-limit-revision-1024x683.png)](https://longevity.technology/news/epigenetics-may-be-agings-biggest-speed-limit/)
 
 ---
 
-## **🌟 Open Source Top Projects**
+### 3. FGF13 in Brain Astrocytes Can Trigger or Slow Whole-Body Aging in Mice
 
-### HigginsChenLab/methylCIPHER: R Package for Batch-Running Multiple Epigenetic Clocks
+As [reported by Lifespan.io](https://lifespan.io/an-astrocytic-factor-slows-whole-body-aging-in-mice/), a study published in *Aging Cell* found that boosting **FGF13** expression in astrocytes (the brain's support and protection cells for neurons) in aging mice brought their spatial memory test performance close to young-mouse levels, significantly reduced inflammatory signaling molecules in the blood, and relieved cellular senescence in multiple organs beyond the heart. Since FGF13 can't be secreted out of cells, researchers think its systemic effects travel through autophagy — the cell's built-in mechanism for clearing out worn-out components. These results are mice-only for now; non-human primate validation is the next hurdle before any human application, and the paper doesn't propose any specific delivery route. 🐭
 
-[methylCIPHER](https://github.com/HigginsChenLab/methylCIPHER) is an R package that lets researchers batch-run multiple "epigenetic clock" algorithms on DNA methylation data. Epigenetic clocks estimate biological age by detecting methylation patterns at specific spots on the genome, and the gap between biological age and chronological age is commonly used to study how fast someone's aging. The package packs in cutting-edge algorithms like PC clocks, SystemsAge, CausalAge, and DunedinPACE — ideal for researchers with DNA methylation datasets who want to cross-compare multiple clocks side by side. The repo was last active October 30, 2026; check the [repo page](https://github.com/HigginsChenLab/methylCIPHER) for license and runtime requirements. Biological age estimates are statistical metrics though — you can't use them to directly judge personal health status or disease risk.
-
-### nopara73/LongevityWorldCup: Open-Source Longevity Sports Platform with Biological Age Leaderboards
-
-[LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) is an open-source project serving up a biological age calculator, athlete profiles, and public leaderboards, positioning itself as a sports competition platform for the longevity crowd. Anyone curious can dig into the repo to see what biological age calculation methods and data sources it's built on. The repo currently sits at 27 stars and was last active November 6, 2026 — hit up the [project page](https://github.com/nopara73/LongevityWorldCup) for specific license and feature details.
+[![Source image: An Astrocytic Factor Slows Whole-Body Aging in Mice](https://lifespan.io/wp-content/uploads/2026/10/Astrocytes-262x187.jpg)](https://lifespan.io/an-astrocytic-factor-slows-whole-body-aging-in-mice/)
 
 ---
 
-## **🤔 Related Questions**
+### 4. Voyager Therapeutics Debuts Two Alzheimer's Tau Programs at Clinical Conference
 
-### Can the "Biological Age" from Epigenetic Clocks Directly Tell Me About My Personal Aging Status?
+As [reported by Longevity.Technology](https://longevity.technology/news/voyager-readies-two-pronged-attack-on-alzheimers-tau/), **Voyager Therapeutics** is presenting both of its tau-targeting programs (tau being the protein that forms tangles inside brain cells in Alzheimer's patients) at the CTAD conference in November. VY1706 is a gene therapy designed to cross the blood-brain barrier after IV injection and directly suppress tau synthesis in the brain — it's still in study design phase and hasn't been dosed in humans yet. VY7523 is an antibody targeting existing tau protein, currently in the baseline enrollment stage of a Phase 1/2 dose-escalation trial with zero efficacy data available. Both posters show no outcome numbers — this announcement is essentially a public "we've started" signal, not results. Whether any tau therapy actually works remains an open question across all approaches. 🧠
 
-No, you can't read it that way. Biological age is a statistical estimate based on population-level methylation patterns, and the gap between a single measurement and your actual age is heavily influenced by the detection method, sample type, and which clock algorithm you're running. The [methylCIPHER repo](https://github.com/HigginsChenLab/methylCIPHER) bundles multiple clocks, and different algorithms can spit out different results for the same sample. Right now these metrics are mainly used for population-level research — there's not enough evidence to back using a one-off personal measurement for health diagnosis or disease risk prediction.
+[![Source image: Voyager readies two-pronged attack on Alzheimer's tau](https://longevity.technology/wp-content/uploads/2026/11/voyager-readies-two-pronged-attack-on-alzheimers-tau-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/voyager-readies-two-pronged-attack-on-alzheimers-tau/)
+
+---
+
+### 5. Dog Aging Project: After Controlling for Size, Dog Lifespans Track Human Mortality by State
+
+As [reported by Longevity.Technology](https://longevity.technology/news/the-lie-of-the-land-dog-lifespans-track-human-mortality-by-state/), the **Dog Aging Project** analyzed survival data from over 41,000 dogs published in *GeroScience*. After adjusting for size, breed, and sex, state-level dog mortality rates still showed a significant positive correlation with human mortality rates — Tennessee, Oklahoma, and Kentucky skewed high; Hawaii and California skewed low. Interestingly, the apparent "rural penalty" disappeared once researchers controlled for the fact that rural dogs tend to be larger, showing just how easily environment and demographics can confound each other. This is an ecological correlation across 51 state-level data points, not an individual causal analysis. The next phase will link each dog to local environmental data like air quality and chemical exposure to hunt for shared factors. 🐾
+
+---
+
+### 6. A 43-Year Observational Study Has New Things to Say About Coffee and Cognitive Health
+
+As [reported by Science Daily](https://www.sciencedaily.com/releases/2026/11/261105224550.htm), a 43-year observational study found that drinking 2–3 cups of caffeinated coffee per day was associated with significantly lower dementia risk and better cognitive function — and that association held across people with different genetic risk profiles. Decaf coffee didn't show the same association. The source only provides abstract-level information; specific sample size, journal, and institution still need verification. Observational research can't confirm causation — correlation doesn't mean coffee directly reduces dementia risk. ☕
+
+---
+
+### 7. NHS Is Piloting an AI Phone Assistant to Monitor Osteoporosis Patients
+
+As [reported by Medical Xpress](https://medicalxpress.com/news/2026-11-trial-ai-patients-term-illness.html), the **NHS** is trialing an AI virtual assistant called **Dora Care**, which uses phone-based check-ins to help clinicians track osteoporosis patients (osteoporosis being a chronic condition that makes bones brittle — it affects roughly 3.5 million people in the UK, with women and people over 50 being particularly at risk). This is still in pilot stage; the source doesn't provide enrollment numbers, trial design, or efficacy data. Whether it actually improves patient outcomes remains to be seen. 📞
+
+---
+
+### 8. Psilocybin Rapidly Rewires Neural Connections in Stress-Damaged Mouse Brains
+
+As [reported by Science Daily](https://www.sciencedaily.com/releases/2026/11/261104012308.htm), researchers found that **psilocybin** (the active compound in magic mushrooms) rewires neural connections differently in healthy mice versus chronically stressed mice — in stress-damaged brains, it rapidly builds and strengthens new neural connections. Researchers also identified a way to trigger this neural remodeling without triggering the psychedelic behavioral response. Source is abstract-level; specific mechanisms, sample sizes, and journal are pending verification. Results are currently mice-only — whether this applies to human cognition or aging intervention remains unclear. 🍄
+
+---
+
+### 9. Women with Parkinson's Have Higher Rates of Overlapping Alzheimer's Pathology Than Men
+
+As [reported by News-Medical](https://www.news-medical.net/news/20261106/Women-with-Parkinsons-have-higher-rates-of-Alzheimers-pathology.aspx), new research found that the brain pathology of Parkinson's and Alzheimer's can overlap — and that overlap occurs at higher rates in **female patients** than male ones. This crossover between two neurodegenerative diseases could affect symptom presentation and treatment response. Source is abstract-level; specific sample size, methodology, and journal are pending verification. 🔬
+
+---
+
+### 10. Sironax's Neuroprotective Drug SIR2501 Reports Early Safety Signals in ALS and Chemo-Induced Nerve Damage Trials
+
+As [reported by Longevity.Technology](https://longevity.technology/news/the-nerve-switch-sironax-wants-to-keep-switched-off/), **SIR2501** from Sironax is a SARM1 inhibitor — SARM1 being the key enzyme driving axon degeneration. The drug binds to the enzyme's inactive site to keep it switched off, which the company hopes will avoid the side effects that might come from blocking the active site directly. A poster at the November Neuroscience Annual Meeting reported "favorable safety and early bioactivity signals" in ongoing Phase 1/2 trials for ALS and chemotherapy-induced peripheral neuropathy (the numbness and pain in hands and feet that follows chemo). That said, the release doesn't include patient counts, dosing data, or any efficacy metrics — safety and efficacy are not yet established. 💊
+
+---
+
+## **⚡ Product & Feature Updates**
+
+### Digbi Health Launches ASRA: An AI Collaboration Platform Integrating GLP-1 and Metabolic Health Management for Employers
+
+As [reported by Longevity.Technology](https://longevity.technology/news/digbis-asra-puts-ai-agents-on-the-care-front-line/), **Digbi Health** launched the **ASRA platform** on October 28, integrating GLP-1 drugs (the class of diabetes and weight-loss medications that's gotten massive attention for dramatic weight-loss results in recent years), hormone replacement therapy, and metabolic chronic disease management into a single system for employer and health plan clients. AI agents handle operations like member outreach, engagement reminders, and personalized nutrition guidance, while clinical decisions stay with doctors and health coaches. The company says the platform's data accumulated over three years and currently reaches ~30 million eligible members across 300+ employers — but ASRA itself has no published outcome data yet, and whether early program results will carry over to the new platform remains to be seen. 🤖
+
+---
+
+## **🧪 Frontier Research**
+
+### Proteomic Aging Clock: A Protein Module That Tracks Biological Age Across Cohorts
+
+GEN is hosting an upcoming [webinar](https://www.genengnews.com/multimedia/webinars/the-aging-proteome-clocks-cohorts-and-clinical-trials/) (December 1) featuring a proteomics-based aging clock (proteomics being the large-scale measurement of protein abundance in blood). Xiao-Jun Ma's team identified an "intrinsic protein module" across three independent cohorts that correlates with mortality, cognitive function, and comorbidity burden, and can be compared to DNA methylation clocks (age-estimation methods based on chemical tags on DNA). Michael Corley will present proteomic and epigenetic results from a randomized trial of semaglutide (a GLP-1 drug), including changes after discontinuation. This is a webinar preview — raw research data hasn't been released yet, and specific results will only be verifiable after the event. 🧫
+
+---
+
+## **⌘ Top Open Source Projects**
+
+### Gladyshev-Lab/tAge: An R Package for Estimating Biological Age from Transcriptomic Data
+
+[tAge](https://github.com/Gladyshev-Lab/tAge) is an R package released by Harvard's Gladyshev Lab for analyzing biological age based on transcriptomic data (the overall pattern of gene expression across cells) — suited for researchers with R experience working with RNA sequencing data. The repo had active commits on November 6, 2026 (29 Stars). For specific input formats and dependencies, check the [repo homepage](https://github.com/Gladyshev-Lab/tAge); license status is pending verification.
+
+### msbCyricTohoku/BACalc: A Dataset-Agnostic Dynamic Biological Age Calculator
+
+[BACalc](https://github.com/msbCyricTohoku/BACalc) proposes a "dataset-agnostic" approach to biological age estimation — meaning the algorithm isn't locked to any specific training dataset and can theoretically be adapted to physiological or molecular data from different sources. The repo was last active on November 2, 2026 (1 Star). It's a good fit for researchers who want to explore biological age estimation methods on their own data. For input formats and runtime dependencies, check the [repo documentation](https://github.com/msbCyricTohoku/BACalc); license status is pending verification.
+
+---
+
+## **❓ Related Questions**
+
+### Does the NOVOS Core Trial Actually Prove This Supplement Extends Lifespan?
+
+Short answer: nope. [The trial](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/) measured vascular function markers — arterial dilation and blood pressure — which are related to cardiovascular health, but improved markers don't equal proof of reduced heart attacks or extended lifespan. On top of that, the trial was small (only 43 people in the primary analysis), dropout rates were close to a third, the two groups were about seven years apart in average age, and the study was co-funded by the manufacturer. Both the researchers themselves and outside commentators explicitly flagged that independent replication is needed before drawing any firm conclusions. 🤷
