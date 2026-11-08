@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/7'
+title: 'AI生命延续学日报 2026/11/8'
 breadcrumbs: false
-next: /2026-11/2026-11-07
-description: '2026-11-07 AI生命延续学日报：抗衰老补剂 NOVOS Core 在随机对照试验中改善了动脉功能；表观遗传学评述：衰老可能有多个限速环节，而非一个根本原因；脑星形胶质细胞中一个蛋白的增减，可在小鼠全身引发或减缓衰老。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-08
+description: '2026-11-08 AI生命延续学日报：抗衰老疫苗让小鼠晚年寿命延长 12%；高剂量流感疫苗与阿尔茨海默症风险降低 55% 相关；简单 AI 模型更稳定地预测脑年龄和性别。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,111 +11,53 @@ cascade:
 ## **今日摘要**
 
 ```
-一种多成分抗衰老补剂在人体试验中显示出改善动脉功能的效果。
-小鼠研究发现脑部支持细胞中一种蛋白的增减可减缓全身衰老。
-该补剂试验规模小、退出率高且由生产商资助，结论仍待独立验证。
+抗衰老疫苗在小鼠晚年接种后，中位寿命比对照组延长了12%。
+高剂量流感疫苗与老年人罹患阿尔茨海默症风险降低约55%存在观察性关联。
+小鼠实验每组仅10只且对照组寿命偏短，可能人为放大了干预效果。
 ```
 
-## **🔥 今日焦点 TOP 10**
+## **🔥 今日焦点 TOP 5**
 
-### 1. 抗衰老补剂 NOVOS Core 在随机对照试验中改善了动脉功能
+### 1. 抗衰老疫苗让小鼠晚年寿命延长 12%
 
-据 [Lifespan.io 的报道](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)，萨里大学研究团队对多成分补剂 NOVOS Core 进行了随机双盲安慰剂对照试验，43 名参与者完成了主要分析（补剂组 24 人，安慰剂组 19 人）。流量介导扩张（FMD，即手臂动脉在血流恢复后的扩张幅度，反映血管内壁弹性）在补剂组六个月后提升了约 2.6 个百分点，安慰剂组几乎无变化；收缩压下降了约 8.5 mmHg，两组调整后差值为 6.1 mmHg。两项主要限制须注意：近三分之一参与者中途退出，安慰剂组平均年龄比补剂组大约七岁，且 NOVOS 提供了补剂并参与了资助，尚不清楚哪种成分起效，独立团队复制前结论需谨慎。
+发表于《Advanced Science》的一项研究描述了一种三组件纳米颗粒疫苗，旨在帮助免疫系统识别并清除"僵尸细胞"——即衰老细胞，这类细胞不再分裂，却持续释放促炎信号、损害周围组织。疫苗的核心抗原是 Gpnmb 蛋白（在衰老细胞表面高表达），由 CK5 蛋白骨架封装成约 90 纳米的颗粒后，靶向负责"呈递敌人特征"的树突细胞，进而激活 CD8 T 细胞去杀伤目标。在自然衰老小鼠中，75 周龄时开始接种的 CK5 疫苗组中位寿命比未治疗对照组长 12%；脂肪组织的衰老标记物下降约 50%，血糖调节也有改善。但这项结果有两个重要限制：每组仅 10 只小鼠，且对照组寿命偏短——对照组偏短本身会人为放大干预效果，目前还不能说明对人有效，据 [Lifespan.io 的报道](https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/)可查阅完整实验设计与数据。
 
-[![来源配图：Longevity Supplement Improved Blood Vessels in a Human Trial](https://lifespan.io/wp-content/uploads/2023/02/NOVOS-262x187.png)](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)
+![抗衰老疫苗与T细胞](https://lifespan.io/wp-content/uploads/2026/10/College-for-T-Cells-262x187.jpg)
 
----
+### 2. 高剂量流感疫苗与阿尔茨海默症风险降低 55% 相关
 
-### 2. 表观遗传学评述：衰老可能有多个限速环节，而非一个根本原因
+UTHealth Houston 的研究人员分析了近 20 万名 65 岁及以上成年人的数据，发现接种高剂量流感疫苗的人群罹患阿尔茨海默症的风险比未接种者低约 55%，而此前标准剂量疫苗已被报告与约 40% 的风险降低相关。"高剂量"流感疫苗本是为免疫功能较弱的老年人设计，提供更强的抗原刺激。这是一项观察性研究，关联不等于因果，无法排除接种者本身健康状况更好等混淆因素，具体样本量和研究设计待查阅原文，详见 [Science Daily 的报道](https://www.sciencedaily.com/releases/2026/11/261105224609.htm)。
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/epigenetics-may-be-agings-biggest-speed-limit/)，发表于期刊 *Aging* 的评述提出了"多中心衰老框架"，认为衰老由若干相对独立的过程共同驱动，而非一个单一机制。表观遗传调控——即不改变 DNA 序列本身、而通过"开关"控制基因活跃程度的机制——被作者认为是其中协调作用最广的一层，但并非唯一限制。评述还指出现有表观遗传时钟（通过 DNA 化学标记估算生物年龄的工具）可能无法区分有害的变化与代偿性变化，在 CALERIE 饮食限制试验和 DO-HEALTH 鱼油试验中，不同时钟读数并不一致。这是一篇概念性综述，尚未经独立实验验证，作者明确呼吁开展纵向研究和对照干预。
+[![来源配图：Stronger flu shot linked to nearly 55% lower Alzheimer's risk](https://www.sciencedaily.com/images/1920/elderly-patient-doctor-vaccine-injection.webp)](https://www.sciencedaily.com/releases/2026/11/261105224609.htm)
 
-[![来源配图：Epigenetics may be aging’s biggest speed limit](https://longevity.technology/wp-content/uploads/2026/11/epigenetics-speed-limit-revision-1024x683.png)](https://longevity.technology/news/epigenetics-may-be-agings-biggest-speed-limit/)
+### 3. 简单 AI 模型更稳定地预测脑年龄和性别
 
----
+据 [Bioengineer.org 的报道](https://news.google.com/rss/articles/CBMiigFBVV95cUxONTU0MFhpaHR4cWtXNXE0WWVnYWdRNmQ4TW82Y2F1V0YxSmJsMTZ0RjE2WHgzclN2bXRpRG5LSkRFTHp5bjFfWDFkT0wwSzFmM3g3ZWVZM0NrNGVEOUtETWpSOVNNOF83SmxpcW5HNzBSMGNUaGgyS2hCNnoySFQtVXdzTUFwVHdtNlE?oc=5)，一项研究比较了不同复杂程度的 AI 模型在从脑部 MRI 预测生理年龄和性别方面的表现，结论是更简单的模型反而表现更稳定可靠。脑年龄是一种估算指标，指 AI 根据脑部影像推算出的"大脑看起来像多少岁"，与实际年龄的差值可能反映健康状态，但不能直接等同于个人大脑加速老化的证明。具体研究设计、数据集和样本量为二手来源，待核查原始论文。
 
-### 3. 脑星形胶质细胞中一个蛋白的增减，可在小鼠全身引发或减缓衰老
+### 4. 自闭症老年群体帕金森样症状发生率更高
 
-据 [Lifespan.io 的报道](https://lifespan.io/an-astrocytic-factor-slows-whole-body-aging-in-mice/)，发表于 *Aging Cell* 的研究发现，在衰老小鼠的星形胶质细胞（大脑中支持和保护神经元的细胞）中提高 FGF13 这一蛋白的表达后，小鼠在空间记忆测试中的表现接近年轻小鼠水平，血液中的炎症信号分子也显著下降，心脏以外多个器官的细胞衰老程度有所减轻。FGF13 本身不能被细胞分泌出去，研究者推测其作用通过影响细胞自噬（细胞清除废旧组件的机制）传导至全身。目前结果仅来自小鼠，距人体应用还需经过非人灵长类动物验证，且论文本身没有提出任何具体给药路径。
+据 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-11-higher-parkinsonism-older-adults-autism.html)，George Washington University 团队发表研究指出，中老年自闭症患者出现帕金森样症状（运动迟缓、震颤、肌肉僵硬等统称为"帕金森综合征"）的比例，高于无自闭症或智力障碍的同龄人。这一发现提示两种神经系统状况之间可能存在关联，但研究为观察性设计，关联的原因机制及样本量等具体数据待查原文。
 
-[![来源配图：An Astrocytic Factor Slows Whole-Body Aging in Mice](https://lifespan.io/wp-content/uploads/2026/10/Astrocytes-262x187.jpg)](https://lifespan.io/an-astrocytic-factor-slows-whole-body-aging-in-mice/)
+### 5. 临床试验注册：AI 语言分析用于神经退行性疾病检测
 
----
-
-### 4. Voyager 公司两条阿尔茨海默症 tau 蛋白疗法同时亮相临床会议
-
-据 [Longevity.Technology 的报道](https://longevity.technology/news/voyager-readies-two-pronged-attack-on-alzheimers-tau/)，Voyager Therapeutics 将在 11 月 CTAD 大会上展示针对 tau 蛋白（在阿尔茨海默症患者脑细胞中形成缠结的蛋白）的两条路线：VY1706 是一种设计为静脉注射后能穿越血脑屏障、直接在脑内抑制 tau 合成的基因疗法，目前仍处于研究设计阶段，尚未开始人体给药；VY7523 是一种靶向已存在 tau 蛋白的抗体，已处于一/二期剂量爬坡试验的入组基线记录阶段，尚无任何疗效数据。两张海报均无结果数字，这次发布实质上是研究起点的公开，tau 疗法是否有效目前任何路线都尚无定论。
-
-[![来源配图：Voyager readies two-pronged attack on Alzheimer’s tau](https://longevity.technology/wp-content/uploads/2026/11/voyager-readies-two-pronged-attack-on-alzheimers-tau-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/voyager-readies-two-pronged-attack-on-alzheimers-tau/)
-
----
-
-### 5. 41,000 只伴侣犬揭示：剔除体型因素后，各州狗寿命与当地人寿命正相关
-
-据 [Longevity.Technology 的报道](https://longevity.technology/news/the-lie-of-the-land-dog-lifespans-track-human-mortality-by-state/)，发表于 *GeroScience* 的 Dog Aging Project 分析了超过 41,000 只狗的生存数据，校正体型、品种和性别后，各州犬类死亡率与人类死亡率仍呈显著正相关——田纳西、俄克拉荷马、肯塔基死亡率偏高，夏威夷、加利福尼亚偏低。值得注意的是，原本看似存在的"农村惩罚"在控制农村犬体型较大这一因素后消失了，说明环境与人口结构很容易混淆。这是 51 个州级数据点之间的生态相关，并非个体因果分析，下一阶段研究将为每只狗链接当地空气质量、化学暴露等环境数据以寻找共同因素。
-
----
-
-### 6. 咖啡与认知健康的长达 43 年观察性研究有新发现
-
-据 [Science Daily 的报道](https://www.sciencedaily.com/releases/2026/11/261105224550.htm)，一项跨度长达 43 年的观察性研究发现，每日饮用 2—3 杯含咖啡因的咖啡与痴呆症风险显著降低及认知功能较好存在关联，且这一关联在不同遗传风险的人群中均出现；不含咖啡因的咖啡则未显示同样的关联。素材仅提供了摘要级信息，具体样本量、发表期刊及研究机构待核查。观察性研究不能确认因果关系，相关不等于咖啡直接减少痴呆风险。
-
----
-
-### 7. NHS 正试验 AI 电话助手监测骨质疏松症患者
-
-据 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-11-trial-ai-patients-term-illness.html)，英国国家医疗服务体系（NHS）正在试验一款名为 Dora Care 的 AI 虚拟助手，以电话问诊形式帮助临床医生跟踪骨质疏松症（一种导致骨骼变脆的慢性病，在英国影响约 350 万人，女性和 50 岁以上人群尤为多见）患者。目前仍处于试验阶段，素材未提供入组人数、试验设计或有效性数据，能否改善患者结局尚待评估。
-
----
-
-### 8. 迷幻蘑菇活性成分裸盖菇素在压力损伤的小鼠大脑中快速重塑神经连接
-
-据 [Science Daily 的报道](https://www.sciencedaily.com/releases/2026/11/261104012308.htm)，研究者发现裸盖菇素（psilocybin，迷幻蘑菇中的活性化合物）在健康小鼠与长期慢性压力小鼠中的神经重塑方式不同，在压力损伤的小鼠中能快速新建并强化神经连接；研究者还识别出一种可触发这种神经重塑、但不伴随迷幻行为反应的方式。素材为摘要级，具体机制、样本和期刊待核查，结果目前仅限于小鼠，是否适用于人类认知或衰老干预尚不清楚。
-
----
-
-### 9. 女性帕金森症患者中阿尔茨海默症相关病理的叠加比例高于男性
-
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261106/Women-with-Parkinsons-have-higher-rates-of-Alzheimers-pathology.aspx)，新研究发现帕金森症与阿尔茨海默症在大脑中的病理改变可以重叠，且这种重叠在女性患者中的比例高于男性。两种神经退行性疾病的病理交叉可能影响症状表现和治疗响应，但素材为摘要级，具体样本量、研究方法及发表期刊待核查。
-
----
-
-### 10. Sironax 神经保护药物 SIR2501 在 ALS 和化疗神经损伤试验中报告早期安全信号
-
-据 [Longevity.Technology 的报道](https://longevity.technology/news/the-nerve-switch-sironax-wants-to-keep-switched-off/)，Sironax 公司的 SIR2501 是一种 SARM1 抑制剂——SARM1 是驱动神经纤维退化的关键酶，该药通过在酶的非活性位点上结合使其保持关闭状态，以期避免直接阻断活性位点可能带来的副作用。11 月神经科学年会海报报告称，正在进行的 ALS 和化疗诱导外周神经病变（化疗后手脚麻木疼痛）的一/二期试验中观察到"有利的安全性和早期生物活性信号"，但发布中未提供患者数量、剂量或任何疗效指标，安全性和有效性尚未确立。
-
----
-
-## **⚡ 产品与功能更新**
-
-### Digbi Health 发布 ASRA：为雇主整合 GLP-1 和代谢健康管理的 AI 协作平台
-
-据 [Longevity.Technology 的报道](https://longevity.technology/news/digbis-asra-puts-ai-agents-on-the-care-front-line/)，Digbi Health 于 10 月 28 日发布了 ASRA 平台，将 GLP-1 药物（近年因显著减重效果受到广泛关注的一类降糖减肥药）、激素替代疗法与代谢慢病管理整合进同一系统，面向雇主和健康计划客户。AI 代理负责成员触达、参与提醒和个性化营养指引等运营事务，临床决策仍由医生和健康教练执行。公司称平台数据积累历时三年，目前覆盖 300 余家雇主约 3000 万名可及人员，但 ASRA 本身尚无已发表的结局数据，早期项目效果能否延续至新平台还有待验证。
-
----
-
-## **🧪 前沿研究**
-
-### 蛋白质组学衰老时钟：可跨队列追踪生物年龄的蛋白质模块
-
-GEN 即将举办的[网络研讨会](https://www.genengnews.com/multimedia/webinars/the-aging-proteome-clocks-cohorts-and-clinical-trials/)（12 月 1 日）将展示一个基于蛋白质组学（大规模测量血液中蛋白质丰度的技术）构建的衰老时钟：Xiao-Jun Ma 团队在三个独立队列中识别出一个"内在蛋白质模块"，该模块与死亡率、认知功能及共病负担相关，并可与 DNA 甲基化时钟（通过 DNA 化学标记估算年龄的方法）比较。Michael Corley 将展示 semaglutide（一种 GLP-1 药物）随机试验的蛋白质组和表观遗传结果，包括停药后的变化。这是研讨会预告，尚未发布研究原始数据，具体结果届时才可核查。
+一项已在 ClinicalTrials.gov 注册的人体研究（[NCT07906769](https://clinicaltrials.gov/study/NCT07906769)）探索将 AI 自动分析语言特征用于神经退行性疾病的辅助诊断。语言分析作为数字生物标志物的思路是：说话的节奏、词汇选择和流利度等特征可能在影像或血液指标之前就出现变化。目前该研究处于注册阶段，具体入组规模、干预设计和评估结果待核查。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### Gladyshev-Lab/tAge：用转录组数据估算生物年龄的 R 工具包
+### MineSelf2016/biological_agents_survey：AI 生物研究智能体综述的活文档
 
-[tAge](https://github.com/Gladyshev-Lab/tAge) 是哈佛 Gladyshev 实验室发布的 R 语言包，用于基于转录组数据（即细胞中基因表达的整体模式）分析生物年龄，适合有 R 基础、处理 RNA 测序数据的研究者。仓库于 2026 年 11 月 6 日有活跃提交（29 Stars），具体输入格式和依赖环境请参阅[仓库主页](https://github.com/Gladyshev-Lab/tAge)，许可证情况待核查。
+这是发表于《Briefings in Bioinformatics》（2026）的综述论文"Artificial Intelligence agents for biological research"的配套 [GitHub 仓库](https://github.com/MineSelf2016/biological_agents_survey)，收录了论文中涉及的 AI 智能体案例、分类和相关资料，适合想系统了解 AI 如何辅助生物学研究（包括蛋白质、基因组、药物发现等）的研究者和学习者。仓库标注为"living"文档，会随论文更新同步维护；Star 数 116，最近活跃时间为 2026-11-04，许可证状态待仓库内核查。
 
-### msbCyricTohoku/BACalc：不依赖特定数据集的动态生物年龄计算器
+### ADAMMA-CDHI-ETH-Zurich/CosinorAge：基于生物节律的生物年龄估算工具
 
-[BACalc](https://github.com/msbCyricTohoku/BACalc) 提出了一种"数据集无关"的生物年龄估算思路——即算法设计上不固定于某一特定训练集，理论上可适配不同来源的生理或分子数据。仓库最近活跃于 2026 年 11 月 2 日（1 Star），适合希望在自有数据上探索生物年龄估算方法的研究者；具体输入格式和运行依赖请查阅[仓库说明](https://github.com/msbCyricTohoku/BACalc)，许可证情况待核查。
+来自 ETH Zurich 团队的 [CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge) 是一个 Python 包，通过分析人体活动的昼夜节律模式（Cosinor 分析是一种用余弦函数拟合生物周期数据的方法）来估算生物年龄。生物年龄是对身体实际老化程度的估算，与身份证年龄不同。该工具可通过 pip 安装使用，适合研究人员探索节律数据与衰老的关系；Star 数 13，但其估算结果尚不能直接预测个人疾病风险，许可证状态建议查阅仓库确认。
 
 ---
 
 ## **❓ 相关问题**
 
-### NOVOS Core 试验的结果能说明这款补剂真的有延寿效果吗？
+### 小鼠寿命实验中"对照组寿命偏短"会怎样影响结论？
 
-直接答案是：不能。[这项试验](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)测量的是血管功能指标（动脉扩张幅度和血压），这些指标与心血管健康相关，但改善指标并不等于证明减少了心脏病发作或延长了寿命。此外，试验规模小（主要分析仅 43 人），退出率近三分之一，两组平均年龄相差约七岁，且研究由生产商共同资助。研究者本人和外部评论者均明确指出需要独立团队复制才能得出更稳健的结论。
+直接影响是：如果对照组动物因非实验因素（如应激、感染或遗传背景变异）提前死亡，干预组的寿命优势会被人为放大，实际效果可能没那么显著。这是小鼠寿命研究中已知的系统性问题，研究者提出"900天规则"等标准加以识别。[Lifespan.io 这篇报道](https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/)在文末明确指出了这一局限，并引用了专门讨论该问题的综述文献（Ageing Research Reviews, 2024），点开可进一步了解如何评估这类实验的可靠性。
