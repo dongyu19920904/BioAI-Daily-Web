@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/8'
+title: 'AI生命延续学日报 2026/11/9'
 breadcrumbs: false
-next: /2026-11/2026-11-08
-description: '2026-11-08 AI生命延续学日报：抗衰老疫苗让小鼠晚年寿命延长 12%；高剂量流感疫苗与阿尔茨海默症风险降低 55% 相关；简单 AI 模型更稳定地预测脑年龄和性别。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-09
+description: '2026-11-09 AI生命延续学日报：血液蛋白筛查找到与死亡风险和生物年龄同时相关的17个指标；阿尔茨海默症血液检测可提前约10年预警认知下降；血管内皮"守护蛋白"MTR4随年龄减少，线虫实验显示延寿效果。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,53 +11,89 @@ cascade:
 ## **今日摘要**
 
 ```
-抗衰老疫苗在小鼠晚年接种后，中位寿命比对照组延长了12%。
-高剂量流感疫苗与老年人罹患阿尔茨海默症风险降低约55%存在观察性关联。
-小鼠实验每组仅10只且对照组寿命偏短，可能人为放大了干预效果。
+血液蛋白筛查发现17个指标与死亡风险相关，其中部分与更年轻的生物年龄估算值同步出现。
+阿尔茨海默症血液检测在大型研究中显示，风险最高人群十年内出现认知损害的概率约为78%。
+这两项均为观察性关联，无法据此对个人作出诊断或确定性预测。
 ```
 
-## **🔥 今日焦点 TOP 5**
+## **🔥 今日焦点 TOP 10**
 
-### 1. 抗衰老疫苗让小鼠晚年寿命延长 12%
+### 1. 血液蛋白筛查找到与死亡风险和生物年龄同时相关的17个指标
 
-发表于《Advanced Science》的一项研究描述了一种三组件纳米颗粒疫苗，旨在帮助免疫系统识别并清除"僵尸细胞"——即衰老细胞，这类细胞不再分裂，却持续释放促炎信号、损害周围组织。疫苗的核心抗原是 Gpnmb 蛋白（在衰老细胞表面高表达），由 CK5 蛋白骨架封装成约 90 纳米的颗粒后，靶向负责"呈递敌人特征"的树突细胞，进而激活 CD8 T 细胞去杀伤目标。在自然衰老小鼠中，75 周龄时开始接种的 CK5 疫苗组中位寿命比未治疗对照组长 12%；脂肪组织的衰老标记物下降约 50%，血糖调节也有改善。但这项结果有两个重要限制：每组仅 10 只小鼠，且对照组寿命偏短——对照组偏短本身会人为放大干预效果，目前还不能说明对人有效，据 [Lifespan.io 的报道](https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/)可查阅完整实验设计与数据。
+一项对 1,025 名老年人进行平均 8 年随访的前瞻性队列研究，检测了血浆中 4,265 种蛋白质，从中筛出 17 个与全因死亡风险显著相关的指标，并在 1,124 人的独立队列中得到重复验证。生物年龄是衰老研究中用来估算"身体实际老化程度"的综合指标，区别于出生年龄。研究发现，ERBB1 和 ANTXR2 水平较高与更低的死亡风险、更年轻的生物年龄估算值同时相关；而 GDF15、HE4、IGFBP-2 水平较高则与更高死亡风险和更老的生物年龄估算值相关。这些是观察性关联，尚不能确认因果关系，生物年龄本身也是估算指标，无法直接等同于个人健康状态。可在 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/identifying-plasma-proteins-associated-with-mortality-risk-and-biological-age/) 中继续了解蛋白质筛选方法和队列设计。
 
-![抗衰老疫苗与T细胞](https://lifespan.io/wp-content/uploads/2026/10/College-for-T-Cells-262x187.jpg)
+### 2. 阿尔茨海默症血液检测可提前约10年预警认知下降
 
-### 2. 高剂量流感疫苗与阿尔茨海默症风险降低 55% 相关
+据 [Science Daily 的报道](https://www.sciencedaily.com/releases/2026/10/261029072142.htm)，一项大型国际研究发现，一种血液检测可在认知症状出现之前预测阿尔茨海默症相关的认知下降风险：风险最高人群在五年内出现认知损害的概率约为 38%，十年内约为 78%。这一结论来自短摘要，检测对象、样本量和具体检测指标待查阅原文核实；"预测风险"是统计学上的人群概率，不等于个人一定会患病，也不意味着目前已有能阻止病情的干预手段。
 
-UTHealth Houston 的研究人员分析了近 20 万名 65 岁及以上成年人的数据，发现接种高剂量流感疫苗的人群罹患阿尔茨海默症的风险比未接种者低约 55%，而此前标准剂量疫苗已被报告与约 40% 的风险降低相关。"高剂量"流感疫苗本是为免疫功能较弱的老年人设计，提供更强的抗原刺激。这是一项观察性研究，关联不等于因果，无法排除接种者本身健康状况更好等混淆因素，具体样本量和研究设计待查阅原文，详见 [Science Daily 的报道](https://www.sciencedaily.com/releases/2026/11/261105224609.htm)。
+[![来源配图：A simple blood test could reveal Alzheimer’s risk 10 years before symptoms](https://www.sciencedaily.com/images/1920/alzheimers-disease-blood-test-tube.webp)](https://www.sciencedaily.com/releases/2026/10/261029072142.htm)
 
-[![来源配图：Stronger flu shot linked to nearly 55% lower Alzheimer's risk](https://www.sciencedaily.com/images/1920/elderly-patient-doctor-vaccine-injection.webp)](https://www.sciencedaily.com/releases/2026/11/261105224609.htm)
+### 3. 血管内皮"守护蛋白"MTR4随年龄减少，线虫实验显示延寿效果
 
-### 3. 简单 AI 模型更稳定地预测脑年龄和性别
+衰老研究中，血管内皮细胞（覆盖血管内壁的一层细胞）的衰老被认为是动脉硬化等心血管疾病的早期驱动因素。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/mtr4-reduces-vascular-cellular-senescence-in-mammals-extends-life-in-nematode-worms/)，研究者发现一种名为 MTR4 的蛋白质在人类血管细胞和老龄小鼠血管中都会随衰老明显减少；在小鼠中，血管内皮特异性过表达 MTR4 减轻了血管功能下降；在短寿命线虫中，过表达 mtr-4 可"显著延长寿命，效果可与经典长寿模型媲美"。线虫实验不能直接推断对人类的效果，且血管内皮覆盖范围极广，基因递送本身是一大工程挑战。
 
-据 [Bioengineer.org 的报道](https://news.google.com/rss/articles/CBMiigFBVV95cUxONTU0MFhpaHR4cWtXNXE0WWVnYWdRNmQ4TW82Y2F1V0YxSmJsMTZ0RjE2WHgzclN2bXRpRG5LSkRFTHp5bjFfWDFkT0wwSzFmM3g3ZWVZM0NrNGVEOUtETWpSOVNNOF83SmxpcW5HNzBSMGNUaGgyS2hCNnoySFQtVXdzTUFwVHdtNlE?oc=5)，一项研究比较了不同复杂程度的 AI 模型在从脑部 MRI 预测生理年龄和性别方面的表现，结论是更简单的模型反而表现更稳定可靠。脑年龄是一种估算指标，指 AI 根据脑部影像推算出的"大脑看起来像多少岁"，与实际年龄的差值可能反映健康状态，但不能直接等同于个人大脑加速老化的证明。具体研究设计、数据集和样本量为二手来源，待核查原始论文。
+### 4. 线虫实验：促进线粒体融合的化合物可延长寿命
 
-### 4. 自闭症老年群体帕金森样症状发生率更高
+线粒体融合是指细胞内多个线粒体合并为一，有助于维持线粒体整体功能。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/mitofusin-activators-extend-life-in-nematode-worms/)，研究者用两种线粒体融合激活剂（Chimera 和 8015-P2）处理线虫后，观察到剂量依赖性的寿命延长；其中 8015-P2 效果更强，并同时改善了线虫的游泳活动能力和抗压力。值得注意的是，8015-P2 正被作为人类神经退行性疾病的候选药物开发，但线虫结果能否在哺乳动物中复现仍是未知，且文献中促进融合与促进分裂的实验均有益处报告，机制尚无定论。
 
-据 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-11-higher-parkinsonism-older-adults-autism.html)，George Washington University 团队发表研究指出，中老年自闭症患者出现帕金森样症状（运动迟缓、震颤、肌肉僵硬等统称为"帕金森综合征"）的比例，高于无自闭症或智力障碍的同龄人。这一发现提示两种神经系统状况之间可能存在关联，但研究为观察性设计，关联的原因机制及样本量等具体数据待查原文。
+### 5. 抑制一种表观遗传标记，在阿尔茨海默小鼠模型中减轻病理
 
-### 5. 临床试验注册：AI 语言分析用于神经退行性疾病检测
+表观遗传修饰是指不改变 DNA 序列、但影响基因"开关"状态的化学标记。研究者关注的 H3K9me3 是组蛋白上一种"压制"基因表达的标记，在阿尔茨海默病患者的死后脑组织和视网膜中均随病情加重而升高。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/inhibiting-the-h3k9me3-epigenetic-modification-reduces-pathology-in-mouse-models-of-alzheimers-disease/)，研究者在两种转基因阿尔茨海默小鼠模型中使用抑制剂 ETP69 后，观察到脑和视网膜的病理减轻、突触保留和认知测试表现改善。目前仅在动物模型中验证，能否用于人类患者尚待研究。
 
-一项已在 ClinicalTrials.gov 注册的人体研究（[NCT07906769](https://clinicaltrials.gov/study/NCT07906769)）探索将 AI 自动分析语言特征用于神经退行性疾病的辅助诊断。语言分析作为数字生物标志物的思路是：说话的节奏、词汇选择和流利度等特征可能在影像或血液指标之前就出现变化。目前该研究处于注册阶段，具体入组规模、干预设计和评估结果待核查。
+### 6. 环形RNA递送山中因子，在细胞实验中实现"部分重编程"而不触发去分化
+
+重编程疗法的核心挑战是：让衰老细胞"返老还童"（有益），但不让它们退回到干细胞状态（可能致癌）。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/)，研究者用脂质纳米颗粒递送一种环形 RNA（circ-OSK），在间充质干细胞中表达三种山中因子（OCT4、SOX2、KLF4），并用数字 PCR 验证处理后细胞未转化为诱导多能干细胞。处理后的衰老细胞在衰老标志物、增殖能力和分化能力上均恢复到接近早代细胞水平。目前为细胞实验阶段，体内效果待验证。
+
+### 7. 衰老细胞通过"小型胞外囊泡"向邻近细胞传播衰老信号
+
+衰老细胞除了分泌已知的炎症信号（SASP），据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/senescent-cells-promote-senescence-in-other-cells-in-part-via-small-extracellular-vesicle-secretion/)，研究者发现 p16INK4A（一种细胞周期停滞标志蛋白）高表达的纤维细胞会释放更多"小型胞外囊泡"（细胞分泌的微小颗粒），这些囊泡能让收到它们的正常细胞也进入衰老状态——且不经由 IL-6、IL-8 等经典炎症通路，说明存在独立的传播机制。这是细胞实验结果，老龄供体细胞的囊泡也能对年轻供体细胞产生类似效果，但体内情况更复杂，不等于靶向囊泡就能逆转衰老。
+
+### 8. AI辅助放射科报告：现有FDA许可工具仅能覆盖不足三分之一的临床发现
+
+据[论文索引/摘要](https://papers.cool/arxiv/2611.09836)，研究者构建了一个放射科 AI 智能体框架，用它模拟调用真实 FDA 许可放射 AI 设备的检测能力，生成结构化报告，并测量与参考报告的覆盖率。结果显示，仅用当前已获许可的工具目录，系统只能恢复约三分之一的"临床可操作发现"；换用无限制工具目录后覆盖率大幅提升；最常缺失的原因是相应影像类型根本没有已许可的检测工具。研究者指出，工具可用性和有效的任务调度是两个互补的瓶颈，工具覆盖不足不是靠更强的编排模型就能解决的。这是预印本，基于模拟工具输出，而非真实设备直接运行结果。
+
+### 9. 教育多一年，晚年痴呆风险下降约0.88%——英国自然实验的因果估算
+
+大多数"教育与痴呆"的研究只能说明两者相关，无法确认原因。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/an-additional-year-of-early-life-education-correlates-with-a-small-reduction-in-late-life-dementia-risk/)，这项研究利用英国 1972 年将最低离校年龄从 15 岁提高到 16 岁的政策，将出生日期作为"是否受到额外一年教育"的天然分组依据，从行政健康档案中构建大型队列，估算出该额外一年教育使受影响人群的阿尔茨海默及相关痴呆累积发病率降低约 0.88%；研究还发现这一效应在具有遗传风险的人群中同样存在，提示基因风险可被环境干预部分调节。0.88% 是人群层面的绝对风险降低，效果量本身较小，政策含义大于个人干预指导。
+
+### 10. AI聊天机器人在多轮对话中漏判五分之一的心理健康紧急情况
+
+据[论文索引/摘要](https://papers.cool/arxiv/2611.09647)，研究者让 13 个主流 AI 聊天机器人与由 112 份结构化心理健康案例驱动的模拟用户进行 10 轮对话，测试其识别紧急情况的能力。结果显示，聊天机器人漏判了约 20.3% 的心理紧急情况，而将所有信息一次性呈现时漏判率仅 5.6%。研究者将这一差距命名为"路径依赖"：早期判断会锚定后续推理，导致即便关键信息已出现也难以修正。机器人的提问轨迹比人类临床医生更刻板，且容易反复追问同类问题。研究基于模拟对话，结果不能直接等同于真实临床场景中的表现。
+
+---
+
+## **🧪 前沿研究**
+
+### 激素替代疗法与衰老时钟的关系比预想复杂
+
+据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/hormone-replacement-therapy-exhibits-a-complex-relationship-with-aging-clocks/)，一项利用英国 NHANES 数据和孟德尔随机化分析的研究发现，激素替代疗法（HRT）与全因死亡率（HR 0.65）及心血管死亡率（HR 0.52）下降相关；但在血糖异常的亚组中，随着表观遗传衰老加速，HRT 的保护效应被显著削弱，呈现拮抗交互。孟德尔随机化通过遗传变异推断因果，但本研究的死亡率分析仍属观察性关联。这一发现提示"HRT 对谁有效"的问题可能因血糖状态和衰老时钟读数不同而分化，衰老时钟与具体疗法的相互校准仍是开放问题。
+
+### 脂肪肝疾病中的细胞衰老：机制合理，但致病重要性仍待定
+
+据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/cellular-senescence-in-fatty-liver-disease/)，一篇综述综合了人体、动物和细胞实验证据，梳理了肝细胞衰老在代谢相关脂肪性肝病（MASLD，主要由肥胖驱动）中如何通过 SASP 炎症信号影响免疫细胞和肝星状细胞，从而促进纤维化。当前证据支持肝细胞衰老是"可能的贡献因素"，但其病理重要性取决于细胞类型、免疫状态和衰老持续时间；目前人体中直接证明衰老肝细胞清除受损的证据仍有限，通用衰老标志物的缺失也制约了研究进展。
+
+---
+
+## **◎ 行业变化与个人影响**
+
+### Sanofi终止蛋白降解药STAT6降解剂一期试验，Nurix股价重挫43%
+
+据 [GEN 的报道](https://www.genengnews.com/topics/translational-medicine/stockwatch-nurix-nosedives-as-sanofi-halts-phase-i-immunology-candidate/)，Sanofi 以"临床前新发现"为由，在一期人体安全性试验初期终止了与 Nurix 合作开发的 SAR448272——一种靶向 STAT6 的口服蛋白降解剂（蛋白降解剂是近年兴起的药物类别，通过标记并摧毁特定蛋白而非仅阻断其功能）。消息公布后 Nurix 股价五日内下跌约 43%。Nurix 仍有充足现金维持运营至 2029 年下半年，且与罗氏合作的 BTK 降解剂 bexobrutideg 正处于三期临床。这一事件提示：蛋白降解剂赛道的临床前安全信号仍是重大不确定性，一期安全性终止不等于整类药物失败。
+
+[![来源配图：StockWatch: Nurix Nosedives as Sanofi Halts Phase I Immunology Candidate](https://www.genengnews.com/wp-content/uploads/2026/11/nurix-scientist.jpg)](https://www.genengnews.com/topics/translational-medicine/stockwatch-nurix-nosedives-as-sanofi-halts-phase-i-immunology-candidate/)
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### MineSelf2016/biological_agents_survey：AI 生物研究智能体综述的活文档
+### Shape-Lab/SPHARM-Mamba：用球谐函数和 Mamba 架构分析脑皮层形态并预测脑年龄
 
-这是发表于《Briefings in Bioinformatics》（2026）的综述论文"Artificial Intelligence agents for biological research"的配套 [GitHub 仓库](https://github.com/MineSelf2016/biological_agents_survey)，收录了论文中涉及的 AI 智能体案例、分类和相关资料，适合想系统了解 AI 如何辅助生物学研究（包括蛋白质、基因组、药物发现等）的研究者和学习者。仓库标注为"living"文档，会随论文更新同步维护；Star 数 116，最近活跃时间为 2026-11-04，许可证状态待仓库内核查。
-
-### ADAMMA-CDHI-ETH-Zurich/CosinorAge：基于生物节律的生物年龄估算工具
-
-来自 ETH Zurich 团队的 [CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge) 是一个 Python 包，通过分析人体活动的昼夜节律模式（Cosinor 分析是一种用余弦函数拟合生物周期数据的方法）来估算生物年龄。生物年龄是对身体实际老化程度的估算，与身份证年龄不同。该工具可通过 pip 安装使用，适合研究人员探索节律数据与衰老的关系；Star 数 13，但其估算结果尚不能直接预测个人疾病风险，许可证状态建议查阅仓库确认。
+据 [GitHub 仓库](https://github.com/Shape-Lab/SPHARM-Mamba) 描述，SPHARM-Mamba 将球谐函数（一种将曲面形状分解为多尺度频率分量的数学工具，具有旋转不变性，不受扫描角度影响）与 Mamba 序列模型结合，用于脑皮层表面的形态分析和脑年龄预测——脑年龄是一种用影像估算大脑老化程度的指标。该工具适合研究脑结构形态与年龄关系的计算神经科学研究者。仓库当前 Stars 为 1，活跃时间截至 2026-11-09，README 内容待独立核查，许可证及运行环境未在描述中说明。
 
 ---
 
 ## **❓ 相关问题**
 
-### 小鼠寿命实验中"对照组寿命偏短"会怎样影响结论？
+### 血液中的蛋白质水平能不能用来预测个人的寿命？
 
-直接影响是：如果对照组动物因非实验因素（如应激、感染或遗传背景变异）提前死亡，干预组的寿命优势会被人为放大，实际效果可能没那么显著。这是小鼠寿命研究中已知的系统性问题，研究者提出"900天规则"等标准加以识别。[Lifespan.io 这篇报道](https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/)在文末明确指出了这一局限，并引用了专门讨论该问题的综述文献（Ageing Research Reviews, 2024），点开可进一步了解如何评估这类实验的可靠性。
+目前不能用于个人预测。今日报道的研究在 1,025 人队列中发现 17 个蛋白质与全因死亡率相关，并在独立队列验证，这是统计层面的群体关联，点到点的预测误差范围很大。"生物年龄"本身是估算指标，单次测量不能判断个人是否已老化加速。可在 [Fight Aging! 的原报道](https://www.fightaging.org/archives/2026/11/identifying-plasma-proteins-associated-with-mortality-risk-and-biological-age/) 中查看研究设计和误差来源，进一步了解适用边界。
