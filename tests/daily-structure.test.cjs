@@ -6,6 +6,19 @@ const path = require('node:path');
 const root = path.join(__dirname, '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8').replace(/\r\n/g, '\n');
 const body = content => content.replace(/^---\n[\s\S]*?\n---\n/, '').trim();
+const researchBoundary = /尚未.*临床|预印本|未.*验证|没有人体效果证据|没有经过同行专家审核|不能(?:说明|证明)对人有效(?:[，。；！？,.!?;]|$)/;
+
+test('research evidence caveats retain explicit limits instead of requiring one daily wording', () => {
+    for (const text of ['尚未进入临床', '预印本', '未经过验证', '没有人体效果证据', '没有经过同行专家审核', '目前还不能说明对人有效', '动物实验不能证明对人有效']) {
+        assert.match(text, researchBoundary, text);
+    }
+});
+
+test('missing caveats and opposite human-efficacy claims cannot satisfy the evidence contract', () => {
+    for (const text of ['', '效果值得关注', '已经说明对人有效', '已经证明对人有效', '不能说明对人无效', '不能证明对人有效的担忧已被推翻', '不能说明对人有效是一种误解', '已经验证有效', '研究有 10 只小鼠']) {
+        assert.doesNotMatch(text, researchBoundary, text);
+    }
+});
 
 test('latest aligned edition keeps its body and section order across daily rollover', () => {
     const date = fs.readdirSync(path.join(root, 'daily')).filter(file => /^\d{4}-\d{2}-\d{2}\.md$/.test(file)).sort().at(-1).slice(0, 10);
@@ -25,7 +38,7 @@ test('latest aligned edition keeps its body and section order across daily rollo
     assert.doesNotMatch(raw, /快速导航|今日可引用要点|趋势预测/);
     assert.doesNotMatch(raw, /^来源类型[:：]|^证据阶段[:：]|^可信度[:：]/m);
     assert.doesNotMatch(raw, /^\*\*[^\n]+\*\*(?:\s*\[[^\n]+)?[。.]?\s*$/m);
-    assert.match(raw, /尚未.*临床|预印本|未.*验证|没有人体效果证据|没有经过同行专家审核/);
+    assert.match(raw, researchBoundary);
 });
 
 test('every latest news item has prose and an inline source without freezing daily facts', () => {
