@@ -2,91 +2,105 @@
 linkTitle: '项目商机'
 title: 'AI生命延续学资讯商机项目'
 breadcrumbs: false
-description: '2026-11-09 AI生命延续学资讯商机项目：SPHARM-Mamba：脑皮层表面分析与脑龄预测 Python 项目；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
+description: '2026-11-10 AI生命延续学资讯商机项目：lucascamillomd/pyaging — Python 衰老时钟合集；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
 cascade:
   type: docs
-next: /project-opportunity/2026-11/2026-11-09/
+next: /project-opportunity/2026-11/2026-11-10/
 ---
 
 ## 先看结论（可引用项目判断）
 
-**SPHARM-Mamba 脑龄预测仓库**：canonical repo 见 [素材来源](<https://github.com/Shape-Lab/SPHARM-Mamba>)，今天能否试跑——待核查（README、依赖、数据入口、许可证均未在素材中披露）。适合有神经影像或 aging biomarker 研究背景的独立开发者做文献追踪和方向观察；项目仅提供研究工具代码，脑龄预测为目标任务而非临床验证结果，证据阶段为早期工具开发。
+**结论 1 — pyaging 是今日唯一具备试跑条件的衰老时钟库**
+来源：[lucascamillomd/pyaging](<https://github.com/lucascamillomd/pyaging>)，GitHub Trending，最近活跃 2026-11-10。该仓库自述为 GPU 优化衰老时钟合集，以 Jupyter Notebook 为主要语言，stars 134，属于小众但方向明确的 aging biomarker 工具。许可证、数据入口和具体时钟数量均待核查；README 自述不能替代独立试跑验证。适合有 Python 环境的内容创作者或独立开发者做教程拆解，不能用于个人生物年龄诊断或任何健康声称。
 
-**可降解微针透皮给药新闻**：来源见 [素材来源](<https://www.news-medical.net/news/20261106/Biodegradable-microneedle-particles-improve-drug-delivery-through-the-skin.aspx>)，目前为新闻报道阶段，无代码或数据仓库，不能试跑。适合做健康硬件/穿戴设备内容方向的编辑整理，研究阶段和适用对象待核查。
+**结论 2 — TrajLift 是阿尔茨海默早期检测方向的研究线索，暂无可试跑资产**
+来源：[TrajLift 论文](<https://papers.cool/arxiv/2611.12197>)，Papers.cool q-bio，更新时间 2026-11-09，原始发表日期未知。研究以 746 人以内规模的队列为背景，对口语记忆召回轨迹建立谱框架模型，属于方法论预研阶段；无公开代码仓库信息、无数据入口。适合内容团队作为"AI 认知检测研究动态"素材整理，不能作为产品或检测工具依据。
 
 ---
 
 ## 今日优先项目
 
-### SPHARM-Mamba：脑皮层表面分析与脑龄预测 Python 项目
+### lucascamillomd/pyaging — Python 衰老时钟合集
 
-该项目将球谐函数与 Mamba 架构结合，用于皮层表面的旋转不变多尺度建模，方向命中 aging biomarker（脑龄预测），今日在 GitHub Trending 出现。作为内容线索可观察，但试跑条件尚不明确，所有字段均需现场核查。
+这是今日素材中唯一同时满足"方向明确（aging clocks）+ 有仓库入口 + 最近有活动"三条件的项目。stars 134 偏小众，但 GitHub Trending 出现说明近期有人关注，Jupyter Notebook 形式对内容创作者拆解友好。
 
-- 证据来源：[素材来源](<https://github.com/Shape-Lab/SPHARM-Mamba>)，GitHub Trending，最近活跃信号 2026-11-09T03:44:38Z（最近有提交，非创建日期），Stars: 1
-- 可信度：低（仅有 description 和活跃时间，无 README 内容、安装记录或论文链接）
-- 目标鱼塘：神经影像研究方向的独立开发者；AI aging biomarker 方向的内容作者；科研学习者
-- 它解决什么问题：皮层表面形态分析中的旋转不变性问题，目标任务包含脑龄预测
-- 试跑门槛：高——依赖（神经影像数据格式、GPU 需求、Python 环境）均待核查，Stars 仅 1 说明社区验证几乎为零
-- 许可证与数据：待核查。许可证类型、数据入口（是否需要 FreeSurfer 输出或类似预处理数据）、商用限制均未在素材中披露
-- 维护成本：待核查。单人或小组仓库、Stars 极低，长期维护风险高
-- 可做成什么：内容拆解（Mamba 在神经影像领域的应用观察）；资料库条目（脑龄预测工具雷达）
-- 可交付物：README 阅读笔记 / 资料库条目 / 工具雷达条目
-- 最低成本验证：打开仓库首页，阅读 README，记录：许可证类型、依赖列表、是否有示例数据、是否有关联论文链接；整理成 3 条要点，不需要安装
-- 成功指标：README 中有明确依赖说明 + 示例数据入口 + 许可证，才值得进一步安装测试
-- 停止条件：README 缺失；无示例数据且要求私有神经影像数据集；许可证为"All Rights Reserved"或不明确；无关联论文
-- 二次开发路径：如有关联论文，可做"脑龄预测工具文献地图"资料库条目；如依赖可复现，可做安装教程笔记用于科研学习者社群
-- 售后或合规风险：中
-- 合规边界：只能写作研究工具观察和技术拆解；脑龄预测为模型训练任务，尚无临床验证数据，证据阶段属于早期工具开发，不涉及个人健康评估
-- 今天最小动作：打开 [素材来源](<https://github.com/Shape-Lab/SPHARM-Mamba>)，读完 README，核查许可证和依赖，记录 3 条要点存入资料库
+- **证据来源：** [<https://github.com/lucascamillomd/pyaging>](<https://github.com/lucascamillomd/pyaging>)，GitHub Trending，最近活跃 2026-11-10T04:34:50Z（非创建或发布日期）
+- **可信度：** 中（仓库存在且最近活跃，但功能、依赖、数据入口均待核查）
+- **目标鱼塘：** 长寿内容创作者、独立开发者、对衰老时钟感兴趣的科研学习者
+- **它解决什么问题：** 将多种基于 DNA 甲基化或其他生物标志物的衰老时钟模型集中到一个 Python 库，仓库自述支持 GPU 加速，降低研究者逐一实现各个时钟的成本
+- **试跑门槛：** 中。主要门槛：GPU 是否必须、数据入口（参考甲基化数据集是否公开或需自带）、依赖版本（Jupyter Notebook 项目依赖兼容性常见问题）均待核查
+- **许可证与数据：** 待核查。进入仓库后需确认 LICENSE 文件和 README 中数据来源说明；未核查前不能假设商用可行
+- **维护成本：** 中。Jupyter Notebook 形式维护门槛偏高（版本漂移、kernel 依赖），数据更新依赖上游甲基化数据集，单人维护风险存在
+- **可做成什么：** 试跑教程 / 内容拆解 / 工具导航条目 / 资料库项目卡
+- **可交付物：** README 试跑笔记（记录安装步骤、报错和通过情况）/ 对比表（列出支持的衰老时钟名称、输入数据类型、是否需 GPU）/ 资料库条目
+- **最低成本验证：** 今天只需：克隆仓库 → 读 README → 记录依赖列表 → 整理支持的时钟名称列表 → 截图 README 结构，不需要跑完整流程
+- **成功指标：** 24 小时内能列出仓库支持的时钟名称、确认许可证类型、记录主要依赖，视为初步验证通过
+- **停止条件：** 若许可证为非商用限制且不符合内容二创需求、数据入口需付费或有严格授权限制、依赖安装在标准环境下持续失败，应暂停深入
+- **二次开发路径：** 确认许可证后，可做"主流衰老时钟对比导航页"（表格形式），后续可扩展为周报栏目"本周衰老时钟研究动态"，再后可做轻量 Web demo（上传甲基化数据 CSV，输出时钟读数），需有生信背景配合
+- **售后或合规风险：** 中
+- **合规边界：** 任何内容必须表述为"研究工具观察"和"生物标志物研究方法介绍"，不能写成"测你的生物年龄"、"抗衰效果评估"或任何面向个人的健康诊断表述；输出数值是研究参考，不是临床结论
+- **今天最小动作：** 打开仓库主页，读 README，记录：①支持哪些时钟名称 ②许可证文件是否存在 ③依赖安装说明在哪里 ④是否有示例数据；整理成 3 条要点，存入资料库备用
 
 ---
 
 ## 可二次开发方向
 
-**方向一：aging 领域脑龄/生物标记工具雷达表**
+**方向 1 — 衰老时钟对比表（基于 pyaging + 公开文献）**
 
-以 SPHARM-Mamba 为起点，整理 GitHub 上近半年有活跃提交的脑龄预测或皮层形态分析工具，做成对比表（字段：语言、依赖复杂度、许可证、有无示例数据、关联论文阶段）。
-- 可交付物：Notion/Markdown 表格，每行一个工具
-- 最低成本验证：今天搜索 GitHub `brain age prediction Python`，筛出 5 个仓库，填完表格字段
-- 后续升级路径：每周更新一行，沉淀成"脑龄工具导航"资料库栏目；条件成熟后可做试跑教程系列
+现有多个衰老时钟（Horvath、Hannum、DunedinPACE 等）散落在不同仓库和论文，缺乏面向非专业读者的集中对比资料。
 
-**方向二：透皮给药/微针技术内容拆解**
+- **可交付物：** 一张对比表，列出时钟名称、输入数据类型（血液/甲基化/MRI）、发表年份、主要验证人群规模、局限；配一篇"衰老时钟是什么、能做什么、不能做什么"的解读笔记
+- **最低成本验证：** 今天只用 pyaging README + DunedinPACNI 新闻素材（[<https://www.news-medical.net/news/20261109/Could-a-single-brain-scan-reveal-how-quickly-your-body-is-aging.aspx>](<https://www.news-medical.net/news/20261109/Could-a-single-brain-scan-reveal-how-quickly-your-body-is-aging.aspx>)）整理出 3-5 个时钟条目，做成表格；不需要跑代码
+- **后续升级路径：** 表格发布为可检索的资料库页面 → 加入周报"本月新时钟追踪" → 有生信合作者后扩展为在线工具导航
 
-基于 [素材来源](<https://www.news-medical.net/news/20261106/Biodegradable-microneedle-particles-improve-drug-delivery-through-the-skin.aspx>) 的可降解微针透皮给药新闻，整理面向健康硬件内容读者的技术科普框架（技术原理、当前研究阶段、与可穿戴健康监测的关联性）。
-- 可交付物：一条小红书/公众号选题提纲（300 字以内），附研究阶段说明和局限
-- 最低成本验证：阅读原文，确认研究阶段（动物/体外/临床），写清局限后才能发布
-- 后续升级路径：系列化为"健康硬件前沿观察"内容栏目；注意所有内容须保守表达，只写技术观察，不写个人适用建议
+**方向 2 — DunedinPACNI 研究素材整理（内容向）**
+
+新闻素材（[<https://www.news-medical.net/news/20261109/Could-a-single-brain-scan-reveal-how-quickly-your-body-is-aging.aspx>](<https://www.news-medical.net/news/20261109/Could-a-single-brain-scan-reveal-how-quickly-your-body-is-aging.aspx>)）报道了 DunedinPACNI（MRI 衍生脑老化指标）与血液生物标志物在 746 人、两个独立中年队列的相关性研究，含 7-15 年纵向子组数据。这是观察性研究，不是干预试验，结论是相关性而非因果。
+
+- **可交付物：** 一篇"MRI 能测生物年龄吗？这项研究说了什么、没说什么"的科普选题草稿，重点写研究类型、样本量、局限和不能得出的结论
+- **最低成本验证：** 今天读新闻全文，提炼研究设计（样本量、队列类型、随访年限）和主要局限，写成 3 条要点备用
+- **后续升级路径：** 积累 3-5 篇同类 MRI 脑老化研究后，做"非侵入衰老检测方法横向观察"专题
 
 ---
 
 ## 值得观察
 
-**心脏炎症空间分布研究（[素材来源](<https://www.news-medical.net/news/20261106/Study-maps-key-regions-driving-inflammation-in-aging-hearts.aspx>)）**
+**1 — biomarkersParkinson/ParaDigMa-Studio（帕金森可穿戴数字生物标志物）**
 
-来源为新闻报道，描述科学家绘制了老化心脏中炎症关键区域的分布图。暂不动的原因：无代码仓库，研究类型和数据可得性均待核查，单篇新闻无法判断研究阶段（细胞/动物/人体）。适合在积累一定老化心脏生物标记资料后作为背景文献加入，不能提前进入试跑或工具化环节。
+来源：[<https://github.com/biomarkersParkinson/ParaDigMa-Studio>](<https://github.com/biomarkersParkinson/ParaDigMa-Studio>)，GitHub Trending，最近活跃 2026-11-09，stars 6，Python，Windows 应用，自述从真实可穿戴录音中提取帕金森数字生物标志物，基于 ParaDigMa 1.1.2 工具箱。
 
-**GLP 蛋白语言模型解释框架（预印本，[素材来源](<https://papers.cool/arxiv/2611.09818>)）**
+暂不动的原因：stars 极低、仅支持 Windows、许可证和数据入口待核查、ParaDigMa 工具箱授权情况未知；目标鱼塘（帕金森照护者或医疗从业者）对合规要求高，在许可证和临床使用边界未核查前不适合写教程或推荐。
 
-将扩散模型应用于 ESM-2 激活值分布，用于蛋白质表示的解释和编辑。方向与 longevity 药物研发工具链相关，但当前暂不动的原因：来源更新日期而非原始发表日期，同行评议状态待核查；试跑门槛高（需要 ESM-2 激活值数据和 GPU），目标鱼塘仅限有生信背景的研究者，不适合轻量内容操作。
+跟踪价值：可穿戴帕金森数字生物标志物方向本身与本雷达的 aging / biomarker 主线契合，待仓库活跃度提升、许可证明确后再评估。
+
+**2 — Zhaowado/biological-age-prediction-model**
+
+来源：[<https://github.com/Zhaowado/biological-age-prediction-model>](<https://github.com/Zhaowado/biological-age-prediction-model>)，GitHub Trending，最近活跃 2026-11-03，stars 1，Python，无描述文字。
+
+暂不动的原因：无任何描述、无法判断数据来源和输入类型、stars 极低且活跃度低；在读完 README 确认数据入口和许可证之前，无法评估试跑可行性。可在 pyaging 教程做完后，作为对比条目检查一次 README。
 
 ---
 
 ## 今天别碰
 
-**Nurix/Sanofi Phase I 候选药物终止新闻（[素材来源](<https://www.genengnews.com/topics/translational-medicine/stockwatch-nurix-nosedives-as-sanofi-halts-phase-i-immunology-candidate/>)）**
+**1 — TrajLift 论文作为产品或检测工具依据**
 
-STAT6 降解剂 SAR448272 在 Phase I 阶段被终止，属于商业失败事件报道。证据为单次临床决策，无公开数据或代码，无可复用代码或数据资产，维护成本无法评估。今天不据此产出内容。
+来源：[<https://papers.cool/arxiv/2611.12197>](<https://papers.cool/arxiv/2611.12197>)，更新时间 2026-11-09，原始发表日期未知，属研究方法论预研。无公开代码仓库，无数据入口，样本来源未在素材中说明，属于方法论提案阶段。不能将其包装为"AI 语音检测阿尔茨海默"产品构想或未经临床验证的个人健康判断工具。
 
-**SpaRE 可控分子生成预印本（[素材来源](<https://papers.cool/arxiv/2611.09235>)）和 KnowEvo 蛋白优化框架（[素材来源](<https://papers.cool/arxiv/2611.09013>)）**
+**2 — Mavrikaki-Lab 脑老化空间转录组代码仓库（<https://github.com/Mavrikaki-Lab/Mavrikaki_Ra_Brain_aging_spatial_transcriptomics_human>）**
 
-两者均为机器学习预印本，原始发表日期未知，研究对象为计算方法而非人体实验，与直接 longevity 内容鱼塘距离较远。试跑门槛高，无示例数据提示，依赖复杂度待核查。目前不适合轻量操作；如有兴趣可存入"AI 药物发现工具"方向资料库备用，不进入今日优先流程。
+stars 1，R 语言，分析代码为特定研究配套，无通用工具化迹象。许可证、数据入口均待核查；空间转录组数据一般体量大、访问限制多。方向（人类脑老化）对口，但今日不具备内容或工具化条件。
+
+**3 — 癌症/细胞分裂、肺癌 TLS 研究新闻（<https://www.genengnews.com/topics/cancer/how-cancer-associated-gene-triggers-cell-division-without-unpacking-the-genome/>、<https://papers.cool/arxiv/2611.12855>）**
+
+两条素材均属肿瘤生物学研究，与本雷达的 aging / longevity / dementia / biomarker 核心方向偏离；受众是肿瘤科研人员，不是本栏目目标鱼塘。今日不纳入。
 
 ---
 
 ## 今日动作
 
-- 今天先试跑：打开 [素材来源](<https://github.com/Shape-Lab/SPHARM-Mamba>) 仓库首页，阅读 README，记录许可证、依赖列表、示例数据是否存在
-- 今天先写：基于 [素材来源](<https://www.news-medical.net/news/20261106/Biodegradable-microneedle-particles-improve-drug-delivery-through-the-skin.aspx>) 微针透皮新闻，写一条小红书选题提纲（需注明研究阶段和局限，不写个人使用建议）
-- 今天先收藏：将 SPHARM-Mamba 存入脑龄工具雷达草稿，字段：许可证/依赖/关联论文/活跃信号
-- 今天先做表：搜索 GitHub `brain age prediction Python`，筛 3-5 个仓库，填入工具对比表（许可证/依赖复杂度/有无示例数据）
-- 今天先避开：Nurix 药物终止新闻仅作行业动态记录，不产出内容产品；脑龄和生物标记工具仅作研究工具追踪，按证据阶段标注局限
+- **今天先试跑：** 打开 [<https://github.com/lucascamillomd/pyaging>](<https://github.com/lucascamillomd/pyaging>)，读 pyaging README，记录支持的时钟名称列表和依赖说明，不需要跑代码
+- **今天先写：** 整理"衰老时钟是什么"3 条要点（基于 pyaging 自述 + DunedinPACNI 新闻素材），存入内容库备选题
+- **今天先收藏：** pyaging 仓库；DunedinPACNI 新闻原文（[<https://www.news-medical.net/news/20261109/Could-a-single-brain-scan-reveal-how-quickly-your-body-is-aging.aspx>](<https://www.news-medical.net/news/20261109/Could-a-single-brain-scan-reveal-how-quickly-your-body-is-aging.aspx>)）
+- **今天先做表：** 衰老时钟对比表草稿，至少填入 pyaging 自述时钟名称 + DunedinPACNI，注明输入数据类型和局限
+- **今天先避开：** 任何把 TrajLift、空间转录组代码或生物年龄预测模型包装成个人健康评估工具的方向；未核查许可证前不写 ParaDigMa-Studio 教程
