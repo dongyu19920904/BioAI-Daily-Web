@@ -4,49 +4,43 @@ type: page
 sidebar:
   exclude: true
 ---
-# Contact Aiwola
+# Contact Aiwoola
 
-Thanks for stopping by the Aiwola AI Daily! We'd love to hear from you — your feedback and suggestions mean a lot to us.
+Aiwoola AI Daily — thanks for visiting! We'd love to hear your thoughts and suggestions.
 
-Got questions, partnership ideas, or need help with an AI tool account? Hit us up through any of the channels below.
+Questions, partnerships, or AI tool account support — we're here for all of it. Here's how to reach us.
 
 ---
 
-## 📬 Contact Us
+## Reach Out 📮
 
-### WeChat Support
+### WeChat Customer Service
 
-**WeChat ID: aiwoola**
-
-Scan the QR code or search our ID to add us, and get access to:
-- 🛒 AI tool account purchase consultations
-- 💡 Technical support for usage issues
-- 🤝 Business partnership discussions
-- 📰 Content submissions and suggestions
+**WeChat ID: aiwoola** is your direct line to our support team. Scan the code or search to add us for:
+- AI tool account purchase inquiries 🛍️
+- Tech support for usage questions 🛠️
+- Business partnership discussions 🤝
+- Content submissions and suggestions 📝
 
 ### Email
 
-**Email: [support@aivora.cn](mailto:support@aivora.cn)**
-
-Best for:
-- Detailed technical questions
-- Business collaboration proposals
-- Bulk purchase inquiries
+**[support@aivora.cn](mailto:support@aivora.cn)** — shoot us a message here. Perfect for:
+- Detailed technical questions 🔧
+- Business partnership proposals 💼
+- Bulk purchase inquiries 📦
 
 ### Official Website
 
-**[https://aivora.cn](https://aivora.cn)**
-
-Head to our site to check out:
-- Latest account package pricing
-- Terms of service and guarantees
-- User guides and documentation
+**[https://aivora.cn](https://aivora.cn)** — check it out for:
+- Latest account package pricing 💰
+- Terms of service and guarantees ⚖️
+- User guides 📚
 
 ---
 
-## ⏰ Service Hours
+## Service Hours ⏰
 
-- **Customer support hours**: Daily, 9:00 AM – 11:00 PM (GMT+8)
+- **Customer service hours**: Daily 9:00 - 23:00 (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and genuinely caring about every single user. 💪
+We've got your back — quick responses and real care for every user! 🚀

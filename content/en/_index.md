@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/8
+title: AI生命延续学日报 2026/11/9
 breadcrumbs: false
-next: /en/2026-11/2026-11-08
+next: /en/2026-11/2026-11-09
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,53 +11,89 @@ cascade:
 ## **Today's Summary**
 
 ```
-An anti-senescence vaccine given to mice in late life extended median lifespan by 12% compared to controls.
-High-dose flu vaccines show an observational link to roughly 55% lower Alzheimer's risk in older adults.
-Each group in the mouse study had only 10 animals, and the control group's unusually short lifespan may have artificially inflated the effect size.
+Blood protein screening identified 17 markers linked to mortality risk, some of which sync up with younger biological age estimates.
+An Alzheimer's blood test in a large study showed that the highest-risk group has about a 78% probability of cognitive impairment within ten years.
+Both findings are observational associations — they can't be used for individual diagnosis or definitive prediction.
 ```
 
-## **🔥 Today's Top 5 Picks**
+## **📰 Today's Top 10**
 
-### 1. Anti-Senescence Vaccine Extends Mouse Lifespan by 12% in Late Life
+### 1. Blood Protein Screening Finds 17 Markers Tied to Both Mortality Risk and Biological Age
 
-Published in *Advanced Science*, this study describes a three-component nanoparticle vaccine designed to help the immune system identify and clear "zombie cells" — senescent cells that have stopped dividing but keep pumping out pro-inflammatory signals that damage surrounding tissue. The vaccine's core antigen is the Gpnmb protein (highly expressed on senescent cell surfaces), packaged into ~90nm particles by a CK5 protein scaffold and targeted at dendritic cells — the ones responsible for "presenting enemy profiles" — which then activate CD8 T cells to go in for the kill. In naturally aging mice, the CK5 vaccine group that started treatment at 75 weeks of age had a median lifespan 12% longer than untreated controls; senescence markers in fat tissue dropped by roughly 50%, and blood sugar regulation also improved. Two big caveats though: only 10 mice per group, and the control group had an unusually short lifespan — which by itself can artificially inflate how impressive the intervention looks. We're nowhere near claiming this works in humans yet. Check out [Lifespan.io's coverage](https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/) for the full experimental design and data.
+Blood protein screening takes center stage in a prospective cohort study that tracked 1,025 older adults over an average of 8 years, testing 4,265 proteins in plasma. From these, researchers identified 17 markers significantly associated with all-cause mortality risk and validated them in an independent cohort of 1,124 people. Biological age — a composite metric used in aging research to estimate "how old your body actually is" rather than your birth age — was a key measure. The study found that higher ERBB1 and ANTXR2 levels correlated with both lower mortality risk and younger biological age estimates, while higher GDF15, HE4, and IGFBP-2 levels were linked to higher mortality risk and older biological age estimates. These are observational associations, so causality hasn't been confirmed, and biological age is itself an estimated metric that can't be directly equated with individual health. Dig deeper into the protein screening methods and cohort design in the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/identifying-plasma-proteins-associated-with-mortality-risk-and-biological-age/).
 
-![Anti-senescence vaccine and T cells](https://lifespan.io/wp-content/uploads/2026/10/College-for-T-Cells-262x187.jpg)
+### 2. Alzheimer's Blood Test Could Flag Cognitive Decline Roughly 10 Years Ahead
 
-### 2. High-Dose Flu Vaccine Linked to ~55% Lower Alzheimer's Risk 🧠
+A large international study, covered by the [Science Daily report](https://www.sciencedaily.com/releases/2026/10/261029072142.htm), found that a blood test can predict Alzheimer's-related cognitive decline risk before symptoms show up: the highest-risk group had about a 38% chance of cognitive impairment within five years and roughly 78% within ten years. This conclusion comes from a short abstract — the specific testing targets, sample size, and exact detection markers still need verification against the full paper. "Predicted risk" is a population-level statistical probability, not a guarantee that any individual will develop the disease, and there's currently no intervention that can halt progression.
 
-UTHealth Houston researchers crunched data from nearly 200,000 adults aged 65 and up, finding that people who got the high-dose flu vaccine had about 55% lower risk of developing Alzheimer's compared to those who didn't — and keep in mind, standard-dose flu vaccines had already been reported to associate with roughly 40% lower risk. The high-dose flu vaccine was originally designed for older adults with weaker immune systems, delivering a stronger antigen stimulus. That said, this is an observational study — correlation isn't causation, and you can't rule out confounders like the vaccinated group simply being healthier to begin with. Sample size and study design details are in the original paper. Full story at [Science Daily](https://www.sciencedaily.com/releases/2026/11/261105224609.htm).
+[![Source image: A simple blood test could reveal Alzheimer's risk 10 years before symptoms](https://www.sciencedaily.com/images/1920/alzheimers-disease-blood-test-tube.webp)](https://www.sciencedaily.com/releases/2026/10/261029072142.htm)
 
-[![Source image: Stronger flu shot linked to nearly 55% lower Alzheimer's risk](https://www.sciencedaily.com/images/1920/elderly-patient-doctor-vaccine-injection.webp)](https://www.sciencedaily.com/releases/2026/11/261105224609.htm)
+### 3. Vascular Endothelium's "Guardian Protein" MTR4 Drops With Age — Worm Experiments Show Lifespan Extension 🧬
 
-### 3. Simpler AI Models More Reliably Predict Brain Age and Sex 🤖
+MTR4, a protein that drops significantly with aging in both human vascular cells and old mouse blood vessels, is the star of this study. Vascular endothelial cell senescence — the aging of the cell layer lining blood vessel walls — is considered an early driver of cardiovascular diseases like atherosclerosis. According to the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/mtr4-reduces-vascular-cellular-senescence-in-mammals-extends-life-in-nematode-worms/), researchers found that endothelium-specific overexpression of MTR4 in mice reduced vascular function decline, and in short-lived nematodes, overexpressing mtr-4 "significantly extended lifespan, comparable to classic longevity models." Worm experiments can't be directly extrapolated to humans though, and vascular endothelium covers a huge surface area — gene delivery alone is a massive engineering challenge.
 
-According to [Bioengineer.org's report](https://news.google.com/rss/articles/CBMiigFBVV95cUxONTU0MFhpaHR4cWtXNXE0WWVnYWdRNmQ4TW82Y2F1V0YxSmJsMTZ0RjE2WHgzclN2bXRpRG5LSkRFTHp5bjFfWDFkT0wwSzFmM3g3ZWVZM0NrNGVEOUtETWpSOVNNOF83SmxpcW5HNzBSMGNUaGgyS2hCNnoySFQtVXdzTUFwVHdtNlE?oc=5), a study comparing AI models of varying complexity at predicting biological age and sex from brain MRIs found that simpler models actually performed more consistently and reliably. Brain age is an estimated metric — essentially what age your brain "looks like" based on imaging — and the gap between that and your actual age might reflect health status, but it's not direct proof your brain is aging faster. The specific study design, datasets, and sample sizes come from a secondary source; the original paper would need to be checked for details.
+### 4. Nematode Experiments: Compounds Boosting Mitochondrial Fusion Extend Lifespan
 
-### 4. Older Adults with Autism Show Higher Rates of Parkinson-Like Symptoms 🔬
+Mitochondrial fusion — where multiple mitochondria within a cell merge into one, helping maintain overall mitochondrial function — is the mechanism at play here. According to the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/mitofusin-activators-extend-life-in-nematode-worms/), researchers treated nematodes with two mitochondrial fusion activators (Chimera and 8015-P2) and saw dose-dependent lifespan extension. 8015-P2 was the stronger performer, also improving the worms' swimming activity and stress resistance. Worth noting: 8015-P2 is being developed as a candidate drug for human neurodegenerative diseases, but whether worm results can be replicated in mammals is still up in the air. Both fusion-promoting and fission-promoting experiments have reported benefits in the literature, so the mechanism is far from settled.
 
-A George Washington University team, as [reported by Medical Xpress](https://medicalxpress.com/news/2026-11-higher-parkinsonism-older-adults-autism.html), found that middle-aged and older adults with autism show higher rates of Parkinsonism symptoms — things like bradykinesia, tremor, and muscle rigidity — compared to same-age peers without autism or intellectual disabilities. This suggests there may be a link between the two neurological conditions, though the study is observational, so the mechanism behind the association and specific sample size details are things you'd want to dig out from the original paper.
+### 5. Inhibiting an Epigenetic Mark Reduces Pathology in Alzheimer's Mouse Models
 
-### 5. Clinical Trial Registration: AI Language Analysis for Neurodegenerative Disease Detection 🧪
+Epigenetic modifications — chemical marks that don't change DNA sequence but flip gene "on/off" switches — are central to this work. H3K9me3, a histone mark that "suppresses" gene expression, was found to rise with disease severity in both post-mortem brain tissue and retina from Alzheimer's patients. According to the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/inhibiting-the-h3k9me3-epigenetic-modification-reduces-pathology-in-mouse-models-of-alzheimers-disease/), researchers used the inhibitor ETP69 in two transgenic Alzheimer's mouse models and observed reduced brain and retinal pathology, synaptic preservation, and improved cognitive test performance. Still only validated in animal models — whether it translates to human patients awaits further research.
 
-A human study registered on ClinicalTrials.gov ([NCT07906769](https://clinicaltrials.gov/study/NCT07906769)) is exploring the use of AI to automatically analyze speech features as an assistive diagnostic tool for neurodegenerative diseases. The core idea behind speech as a digital biomarker: characteristics like speech rhythm, word choice, and fluency may start changing before imaging or blood markers do. The study is currently at the registration stage — enrollment size, intervention design, and outcome measures are still pending verification.
+### 6. Circular RNA Delivers Yamanaka Factors, Achieving "Partial Reprogramming" Without Triggering Dedifferentiation in Cell Experiments 🧪
+
+Reprogramming therapies face a core challenge: making aging cells "turn back the clock" (good) without reverting them to stem cell states (potentially carcinogenic). According to the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/circular-rna-encoding-yamanaka-factors-enables-partial-reprogramming-without-pluripotency/), researchers used lipid nanoparticles to deliver a circular RNA (circ-OSK) expressing three Yamanaka factors (OCT4, SOX2, KLF4) in mesenchymal stem cells, and confirmed via digital PCR that treated cells did not transform into induced pluripotent stem cells. After treatment, senescent cells bounced back to near-early-passage levels in senescence markers, proliferative capacity, and differentiation ability. Currently at the cell experiment stage — in vivo effects remain unverified.
+
+### 7. Senescent Cells Spread Aging Signals to Neighboring Cells via "Small Extracellular Vesicles"
+
+Senescent cells, beyond secreting the usual inflammatory signals (SASP), have another transmission route. According to the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/senescent-cells-promote-senescence-in-other-cells-in-part-via-small-extracellular-vesicle-secretion/), researchers found that fibroblasts with high p16INK4A expression (a cell cycle arrest marker protein) release more "small extracellular vesicles" — tiny particles secreted by cells. These vesicles can push normal cells that receive them into a senescent state, and this happens independently of classic inflammatory pathways like IL-6 and IL-8, suggesting a separate transmission mechanism. This is a cell experiment finding; vesicles from old donor cells had similar effects on young donor cells, but the in vivo environment is way more complex — targeting vesicles doesn't automatically mean reversing aging.
+
+### 8. AI-Assisted Radiology Reports: Existing FDA-Approved Tools Cover Less Than a Third of Clinical Findings
+
+According to the [paper index/abstract](https://papers.cool/arxiv/2611.09836), researchers built a radiology AI agent framework that simulates calling real FDA-approved radiology AI devices to generate structured reports, then measures coverage against reference reports. The results? Using only the current catalog of approved tools, the system could recover just about a third of "clinically actionable findings." Switching to an unrestricted tool catalog bumped coverage up significantly, and the most common reason for missing findings was simply that no approved detection tool existed for that imaging type. The researchers point out that tool availability and effective task scheduling are two complementary bottlenecks — you can't just throw a better orchestration model at insufficient tool coverage and call it solved. This is a preprint based on simulated tool outputs, not direct results from running real devices.
+
+### 9. One Extra Year of Education Linked to ~0.88 Percentage Point Drop in Dementia Cumulative Incidence — Local Estimate from a UK Natural Experiment 📚
+
+Most "education and dementia" studies can only show correlation, not causation. According to the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/an-additional-year-of-early-life-education-correlates-with-a-small-reduction-in-late-life-dementia-risk/), this study leveraged the UK's 1972 policy raising the minimum school-leaving age from 15 to 16, using birth dates as a natural grouping mechanism for "who got an extra year of education," combined with administrative health records from UK Biobank participants. The [original paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC13715751/) used its preferred model for a local estimate among those who left school at 18 or earlier, showing that one additional year of education reduced Alzheimer's and related dementia cumulative incidence by roughly 0.88 percentage points. The study also found this effect held in individuals with genetic risk, hinting that genetic risk can be partially modulated by environmental intervention. This estimate is relatively large compared to the 0.61% baseline incidence rate, with a 95% confidence interval of −1.763 to −0.154 percentage points. The study supports a protective direction within this policy context but can't pin down exact effect size and shouldn't be used for individual risk prediction.
+
+### 10. AI Chatbots Miss One in Five Mental Health Emergencies in Multi-Turn Conversations ⚠️
+
+According to the [paper index/abstract](https://papers.cool/arxiv/2611.09647), researchers had 13 mainstream AI chatbots conduct 10-round conversations with simulated users driven by 112 structured mental health cases, testing their ability to spot emergency situations. The results: chatbots missed about 20.3% of psychological emergencies in multi-turn dialogue, while the miss rate dropped to just 5.6% when all information was presented at once. The researchers dubbed this gap "path dependency" — early judgments anchor subsequent reasoning, making it hard to course-correct even when critical info has already surfaced. The bots' questioning patterns were more rigid than human clinicians and prone to repeatedly asking the same type of question. Based on simulated conversations, so results can't be directly equated with real clinical performance.
 
 ---
 
-## **⌘ Open Source Top Picks**
+## **🔬 Frontier Research**
 
-### MineSelf2016/biological_agents_survey: A Living Review Repo for AI in Biological Research 📚
+### Hormone Replacement Therapy's Relationship With Aging Clocks Is Trickier Than Expected
 
-This is the companion [GitHub repository](https://github.com/MineSelf2016/biological_agents_survey) for the review paper "Artificial Intelligence agents for biological research," published in *Briefings in Bioinformatics* (2026). It collects the AI agent case studies, taxonomies, and related materials covered in the paper — great for researchers and learners who want a systematic look at how AI is being applied across biological research (protein science, genomics, drug discovery, and more). The repo is labeled a "living" document that gets updated in sync with the paper. Star count: 116, last active: 2026-11-04. License status should be confirmed in the repo.
+HRT has a surprisingly nuanced relationship with aging clocks, according to the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/hormone-replacement-therapy-exhibits-a-complex-relationship-with-aging-clocks/). A study using US NHANES data and Mendelian randomization analysis found that HRT was associated with reduced all-cause mortality (HR 0.65) and cardiovascular mortality (HR 0.52). But in a subgroup with abnormal blood sugar, epigenetic aging acceleration significantly weakened HRT's protective effect, showing an antagonistic interaction. Mendelian randomization infers causality through genetic variants, but the mortality analysis here remains observational. The finding suggests that "who benefits from HRT" may split depending on blood sugar status and aging clock readings — calibrating aging clocks against specific therapies is still an open question.
 
-### ADAMMA-CDHI-ETH-Zurich/CosinorAge: A Circadian Rhythm-Based Biological Age Estimator ⏰
+### Cellular Senescence in Fatty Liver Disease: Mechanism Is Plausible, but Pathogenic Importance Still Up in the Air
 
-[CosinorAge](https://github.com/ADAMMA-CDHI-ETH-Zurich/CosinorAge), from the ETH Zurich team, is a Python package that estimates biological age by analyzing circadian rhythm patterns in human activity data — Cosinor analysis being a method that fits cosine functions to biological cycle data. Biological age is an estimate of how much your body has actually aged, as opposed to your chronological age on your ID. It's pip-installable and aimed at researchers exploring the relationship between circadian data and aging. Star count: 13. Worth noting: its estimates can't directly predict individual disease risk, and you'll want to check the repo for license details.
+According to the [Fight Aging! report](https://www.fightaging.org/archives/2026/11/cellular-senescence-in-fatty-liver-disease/), a review synthesizing human, animal, and cell experiment evidence traced how hepatocyte senescence in metabolic dysfunction-associated steatotic liver disease (MASLD, primarily driven by obesity) promotes fibrosis through SASP inflammatory signals affecting immune cells and hepatic stellate cells. Current evidence backs hepatocyte senescence as a "plausible contributing factor," but its pathological importance depends on cell type, immune status, and how long senescence lasts. Direct evidence for impaired clearance of senescent hepatocytes in humans remains limited, and the lack of universal senescence biomarkers continues to hold research back.
 
 ---
 
-## **❓ Related Questions**
+## **◎ Industry Moves and Personal Impact**
 
-### How Does a "Short-Lived Control Group" Skew Results in Mouse Lifespan Studies? 🐭
+### Sanofi Halts Phase I Trial of Protein Degrader STAT6 Degrader, Nurix Stock Plunges 43% 📉
 
-The direct impact: if control animals die early due to non-experimental factors — stress, infection, or genetic background variation — the lifespan advantage of the treatment group gets artificially inflated, meaning the real effect is probably less dramatic than it looks. This is a well-known systemic issue in mouse lifespan research; researchers have proposed standards like the "900-day rule" to flag it. [This Lifespan.io report](https://lifespan.io/an-anti-senescence-vaccine-increases-mouse-lifespan/) explicitly calls out this limitation at the end and cites a dedicated review paper on the topic (*Ageing Research Reviews*, 2024) — worth clicking through if you want to get a better handle on how to evaluate the reliability of this kind of research.
+Sanofi has pulled the plug on the Phase I human safety trial of SAR448272 — an oral protein degrader targeting STAT6, developed in partnership with Nurix — citing "new preclinical findings." Protein degraders are a hot emerging drug class that tags and destroys specific proteins rather than just blocking their function. After the announcement, Nurix's stock tanked roughly 43% over five days. Nurix still has enough cash to keep the lights on through the second half of 2029, and its BTK degrader bexobrutideg, partnered with Roche, is currently in Phase III. The takeaway: preclinical safety signals in the protein degrader space remain a major wildcard, and a Phase I safety halt doesn't mean the whole drug class is toast.
+
+[![Source image: StockWatch: Nurix Nosedives as Sanofi Halts Phase I Immunology Candidate](https://www.genengnews.com/wp-content/uploads/2026/11/nurix-scientist.jpg)](https://www.genengnews.com/topics/translational-medicine/stockwatch-nurix-nosedives-as-sanofi-halts-phase-i-immunology-candidate/)
+
+---
+
+## **⌘ Open Source Top Projects**
+
+### Shape-Lab/SPHARM-Mamba: Analyzing Brain Cortical Morphology and Predicting Brain Age Using Spherical Harmonics and Mamba Architecture
+
+SPHARM-Mamba, as described in its [GitHub repository](https://github.com/Shape-Lab/SPHARM-Mamba), combines spherical harmonic representation (decomposing surface features into multi-scale frequency components, where spherical harmonic convolution preserves rotational equivariance and power aggregation across harmonic orders yields rotation-invariant descriptors) with the Mamba sequence model for cortical surface morphological analysis and brain age prediction — brain age being a metric that estimates brain aging from imaging. This tool is a good fit for computational neuroscience researchers studying brain structural morphology and its relationship to age. The repo currently has 1 Star with last active date as of 2026-11-09; the described mechanism has been verified against the README, but license and runtime environment aren't specified in the description.
+
+---
+
+## **💡 Related Questions**
+
+### Can Protein Levels in Blood Be Used to Predict an Individual's Lifespan?
+
+Not currently suitable for individual prediction. The study reported today found 17 proteins associated with all-cause mortality in a 1,025-person cohort and validated them in an independent cohort — but this is a group-level statistical association, and point-to-point prediction error margins are pretty wide. "Biological age" is itself an estimated metric, and a single measurement can't tell you whether an individual's aging has actually accelerated. Check out the study design and error sources in the [Fight Aging! original report](https://www.fightaging.org/archives/2026/11/identifying-plasma-proteins-associated-with-mortality-risk-and-biological-age/) to get a better sense of the applicable boundaries.
