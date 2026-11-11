@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/10'
+title: 'AI生命延续学日报 2026/11/11'
 breadcrumbs: false
-next: /2026-11/2026-11-10
-description: '2026-11-10 AI生命延续学日报：一次脑部核磁共振能估算全身衰老速度；睡不好与慢性炎症互相加重，综述呼吁开展干预试验；癌相关基因 E2F1 可绕过正常检查点驱动细胞分裂。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-11
+description: '2026-11-11 AI生命延续学日报：补充剂钒酰硫酸盐在小鼠中清除衰老细胞并延长寿命；AI基础模型Bonbon在药物发现中展现零样本涌现能力；化疗可能加速乳腺癌幸存者的生物年龄老化。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,93 +11,99 @@ cascade:
 ## **今日摘要**
 
 ```
-脑影像特征与血液衰老指标在中年人群中存在关联，纵向追踪也观察到一致趋势。
-睡眠质量差与慢性炎症可能互相加重，但现有人体研究仍属关联性证据，尚无干预试验验证因果。
-脑影像衰老指标研究基于群体相关性，不能推断个人血液指标或健康风险。
+一种矿物质补充剂在小鼠实验中清除了衰老细胞，并小幅延长了中位寿命。
+化疗可能让乳腺癌幸存者的生物年龄超出实际年龄，或增加死于其他疾病的风险。
+寿命延长结果仅勉强达到统计显著性，且未在雌性小鼠中验证，尚无人体数据。
 ```
 
 ## **🔥 今日焦点 TOP 10**
 
-### 1. 一次脑部核磁共振能估算全身衰老速度
+### 1. 补充剂钒酰硫酸盐在小鼠中清除衰老细胞并延长寿命
 
-据 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261109/Could-a-single-brain-scan-reveal-how-quickly-your-body-is-aging.aspx)，研究者在 746 名中年人的两个独立队列中，测试了一种叫 DunedinPACNI 的核磁共振衍生指标——它通过脑影像特征估算衰老速率，属于"生物年龄"的脑影像版本。研究发现，DunedinPACNI 数值较高（即估算衰老更快）的人，血液中多个衰老相关生物标志物整体水平也更高；在其中 224 人长达 7—15 年的纵向追踪中，这一关联在血液指标变化趋势上同样成立。这是相关性研究，脑影像特征与血液指标有关联，不能说明扫一次脑就能准确测出血液检验值，也尚未证明能预测个人疾病风险。
+据 [Lifespan.io 的报道](https://lifespan.io/a-supplement-kills-senescent-cells-and-extends-life-in-mice/)，芝加哥大学研究团队在《Nature Aging》发表了关于钒酰硫酸盐（vanadyl sulfate，VS）的研究——这是一种存在于贝类、蘑菇和大豆中、也作为保健品销售的矿物质化合物。衰老细胞（senescent cells）是指那些停止分裂、却不死亡、反而持续向周围释放有害炎症信号的细胞，被认为是加速衰老的重要原因之一。研究者给约71周龄（相当于老年期）雄性小鼠喂水中加入VS，持续90天，中位寿命从887天增至952天，提高了7.4%；同时体脂减少、体能和血糖调节改善，肾脏炎症标记物下降。机制实验显示，VS通过促进蛋白质异常折叠来杀死衰老细胞，而健康细胞因具备更强的修复能力得以幸免。需要注意：每组约20只小鼠，寿命延长仅勉强达到统计显著性，雌性小鼠未做寿命测试，目前仍是动物实验结果，能否适用于人体尚待研究。
 
-![脑部核磁共振与衰老](https://www.news-medical.net/images/news/ImageForNews_851065_17942676013556910.jpg)
+![VS Mouse Effects](https://lifespan.io/wp-content/uploads/2026/11/VS-Mouse-Effects.png)
 
-### 2. 睡不好与慢性炎症互相加重，综述呼吁开展干预试验
+---
 
-发表在 Aging Cell 的一篇综述认为，睡眠质量差与"炎性衰老"（inflammaging，指随年龄积累的持续低度慢性炎症）之间形成恶性循环，彼此加重并推动其他老年相关疾病。据 [Lifespan.io 的报道](https://lifespan.io/inflammaging-and-poor-sleep-contribute-to-one-another/)，动物实验显示，给年轻小鼠增加一种炎症信号（TNFα）就能复现老年鼠的睡眠紊乱模式；人体研究也发现睡眠剥夺会直接升高炎症受体水平。综述作者强调，现有证据基本属于关联性研究，尚无随机对照试验，他们建议针对 50—75 岁人群开展 2—5 年的长期干预研究来验证因果关系。
+### 2. AI基础模型Bonbon在药物发现中展现零样本涌现能力
 
-[![来源配图：Inflammaging and Poor Sleep Contribute to One Another](https://lifespan.io/wp-content/uploads/2026/11/Trouble-sleeping-262x187.jpg)](https://lifespan.io/inflammaging-and-poor-sleep-contribute-to-one-another/)
+[论文索引/摘要](https://papers.cool/arxiv/2611.14504)显示，研究者训练了一个名为Bonbon的基础模型，用约3.2万亿个蛋白质-配体序列配对数据进行预训练，配体是指能与蛋白质结合、可能成为药物的小分子。令人关注的是，这个模型在训练时没有被告知任何具体任务，却自发展现出三项"涌现能力"：判断药物作用机制、定位蛋白质上的结合位点、区分共价与非共价结合方式。在针对9个疾病靶点的湿实验室验证中，Bonbon设计的全新化合物有61.5%在剂量响应实验中显示出活性，并且包含此前未被报道能抑制这些蛋白质的全新结构。这是预印本阶段的结果，尚未经过同行评审，实验室有效性距离临床药物还有很长的路。
 
-### 3. 癌相关基因 E2F1 可绕过正常检查点驱动细胞分裂
+---
 
-据 [GEN 的报道](https://www.genengnews.com/topics/cancer/how-cancer-associated-gene-triggers-cell-division-without-unpacking-the-genome/)，加州大学圣克鲁兹分校研究者在《EMBO Journal》发表研究，发现细胞分裂关键基因 E2F1 能在不打开染色质（即不解开细胞核内紧密包裹的 DNA）的情况下激活一批分裂相关基因，让静止细胞重新进入增殖周期。正常情况下细胞分裂需要先"解包"DNA，而 E2F1 走了一条捷径。实验还发现，细胞只能在没有额外生长信号的情况下最多分裂三次，提示该机制有内在限制。研究者认为癌细胞可能利用这一捷径，但具体机制有待进一步阐明。
+### 3. 化疗可能加速乳腺癌幸存者的生物年龄老化
 
-![E2F1唤醒静止细胞](https://www.genengnews.com/wp-content/uploads/2026/11/Low-Res_PressRelease-1-300x119.jpg)
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/Chemotherapy-may-accelerate-biological-aging-in-breast-cancer-survivors.aspx)，新研究提示化疗在帮助乳腺癌患者存活的同时，可能让身体的"生物年龄"超出实际年龄——生物年龄是通过血液或细胞指标估算身体真实老化程度的概念，与出生年龄不同。研究还指出这可能增加患者死于其他疾病的风险。来源仅提供了题目和摘要，样本量、化疗类型和具体数值待核查，建议参考原文了解研究设计细节。
 
-### 4. Insilico 开源个人长寿 AI，整合多源健康数据估算生物年龄
+[![来源配图：Chemotherapy may accelerate biological aging in breast cancer survivors](https://www.news-medical.net/images/tags/TagImage-1039-45840826385648151818-620x480.jpg)](https://www.news-medical.net/news/20261110/Chemotherapy-may-accelerate-biological-aging-in-breast-cancer-survivors.aspx)
 
-Insilico Medicine 与哈佛遗传学家 David Sinclair 合作，在 Grok Bot 平台推出 Longevity Grok（Personal Longevity Superintelligence，PLSI），并公开源代码，据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/insilico-open-sources-a-longevity-ai-that-keeps-score/)。该系统将血液检测、血糖曲线、甲基化数据和可穿戴设备导出数据汇入一份纵向记录，计算 PhenoAge（基于血液指标的生物年龄估算）和 HOMA-IR（胰岛素抵抗指标）等衍生指标，并提出生活方式建议。输入只提供了媒体报道层面的描述，具体模型能力和建议质量有待独立核查。
+---
 
-[![来源配图：Insilico open-sources a longevity AI that keeps score](https://longevity.technology/wp-content/uploads/2026/11/insilico-open-sources-a-longevity-ai-that-keeps-score-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/insilico-open-sources-a-longevity-ai-that-keeps-score/)
+### 4. AI代理Pyrite用于药物设计中的分子姿态排名
 
-### 5. AI 建模阿尔茨海默症患者记忆提取的时间与层级结构
+[论文索引/摘要](https://papers.cool/arxiv/2611.14511)介绍了Pyrite——一个专门评测"配体结合姿态排名"的基准测试集，共收录1500对结合姿态，用于衡量AI能否判断哪种药物分子构型更可能真正结合靶蛋白。有趣的是，配备3D可视化工具的专家化学家判断准确率接近随机水平，说明这个问题本身极具挑战性。研究者基于此开发了两种大语言模型代理：直接文字推理的PyriteReasoner达到67%准确率，而引导模型自动生成特征代码的PyriteFeaturizer达到74%，均超过了人类专家表现。这是预印本阶段的评测研究，准确率反映的是基准集上的表现，不代表实际药物研发成功率。
 
-预印本 [TrajLift（论文索引/摘要）](https://papers.cool/arxiv/2611.12197) 提出一个名为 TrajLift 的框架，把"语言记忆提取"——即患者回忆词汇时的顺序、停顿和分类组织——建模为在语义层级图上带时间标注的轨迹。核心机制是"潜伏期调制的热扩散"，将每个被回忆词语的等待时间与其在语义层级中的位置同时编码。在真实临床数据上，TrajLift 超过了多项基线方法，且随着提取时序信息越丰富，优势越大。这是计算建模研究，尚未转化为临床诊断工具，也不能说明诊断准确率等同于临床检验结果。
+---
 
-### 6. AI 代理在空间转录组分析任务中匹配专业基线方法
+### 5. 基础模型适配在跨机构医学图像分割中优于专用模型
 
-预印本 [论文索引/摘要](https://papers.cool/arxiv/2611.11796) 提出了一个用已发表论文构造可核查基准的框架，并将其用于空间转录组（一种能同时测量组织中基因表达位置和强度的技术）的配准任务。在 121 个任务、16 种基线方法和 6 个 AI 代理的评测中，表现最好的代理在约 80% 的任务上达到或超过所有基线，而且有时用的是出乎意料的简单策略。评测过程中还发现了先前研究的数据错误和现有评估指标的捷径问题。研究处于预印本阶段，尚未经过同行评审。
+[论文索引/摘要](https://papers.cool/arxiv/2611.14519)报告了对DINOv2等基础模型（在大规模自然图像上预训练的通用视觉模型）适配医学图像分割任务的系统对比。研究覆盖结肠镜、乳腺超声和皮肤镜三个领域，在来自不同机构的外部测试集上，适配后的基础模型在每个数据集上的泛化性能均优于从头训练的专用模型，但在训练数据充足时，专用模型的病灶边界刻画更精准，小病灶漏检率也更低。研究还发现所需适配的模型参数量极少，且取决于成像领域而非适配方法。这是预印本阶段研究，结论尚未经同行评审。
 
-### 7. 蛋白语言模型 HyPLM-Flash 以更少数据达到同类最优水平
+---
 
-腾讯混元团队发布预印本 [HyPLM 技术报告（论文索引/摘要）](https://papers.cool/arxiv/2611.12000)，HyPLM-Flash 是一个 6.5 亿参数的蛋白质语言模型——这类模型学习蛋白质序列的"语言规律"，用于预测突变效果和蛋白质功能。该模型使用的训练数据仅为同类模型 ESM-2 650M 的 73%，推理速度在单张 H20 GPU 上达到每秒约 13 万个残基，是其他同量级模型的 1.9—2.7 倍，且在 32 项评测任务中统计性能与 ESM-2 650M 持平。模型权重已在 [GitHub 仓库](https://github.com/Tencent-Hunyuan/hyra-results/tree/main)开放，尚未经同行评审。
+### 6. DrugCoding：自动协调多阶段药物发现流程的AI编程代理
 
-### 8. 蛋白质逆向折叠工具 HyInv 速度大幅领先现有方法
+[论文索引/摘要](https://papers.cool/arxiv/2611.13651)提出DrugCoding，一个能自主规划任务、调用专业科学模型并生成可执行代码的AI系统，目标是将分子设计、性质预测和虚拟筛选等药物发现工作串联成自动化流程。在涵盖多种语言模型和科学工具接口的多轮工具调用评测中，DrugCoding在完整基准上的单次通过率（Pass@1，即第一次就正确完成任务的比例）达到97.35%，比最强基线高9.24个百分点。这是在标准化评测集上的结果，实际药物研发流程的复杂度和不确定性与评测环境有较大差距，仍为预印本阶段。
 
-同一团队还发布了 HyInv（[论文索引/摘要](https://papers.cool/arxiv/2611.11997)，[代码仓库](https://github.com/Tencent-Hunyuan/Hyra-results/tree/main/AI4Science/hyinv)），这是一个用于"逆向折叠"的工具——即给定蛋白质三维骨架，设计能折叠成该形状的氨基酸序列，是蛋白质工程和药物设计的基础步骤。HyInv 参数量约 196 万，对一个 402 个残基的骨架设计 128 条序列只需 50.6 毫秒，约为参考方法的 52 倍速度，且在 5 个基准数据集上平均 scTM 分数（衡量设计序列能否正确折叠成目标结构）超过所有 10 个对比方法。预印本阶段，实际药物发现应用仍需独立验证。
+---
 
-### 9. GSK 与 Alamar 合作分析 6 万份血清样本探索同病异质
+### 7. 从组织切片图像预测单细胞空间基因表达
 
-据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/same-diagnosis-different-disease-gsk-wants-to-know/)，葛兰素史克（GSK）与 Alamar Biosciences 宣布合作，计划对超过 6 万份血清样本进行蛋白质组学分析——即大规模测量血液中数千种蛋白质的浓度，试图找出为什么同一诊断下有些患者用药有效、有些持续恶化。目前只有机构公告层面的信息，具体研究设计和数据尚未披露，合作结果不确定。
+[论文索引/摘要](https://papers.cool/arxiv/2611.13649)展示了用病理切片的H&E染色图像（医院常规制作的组织染色图）预测单细胞层面基因表达的方法。研究采用Xenium 5K空间转录组数据配对训练，通过领域适配策略，平均基因预测相关性比零样本基线提升了2.67倍，对空间差异表达基因的预测相关系数达到0.63，全部基因的检测能力（AUROC）为0.80。这类方法的潜在价值在于无需昂贵的分子检测就能获得部分基因信息，但预测性能在不同生物背景下差异显著，H&E图像与基因表达的关联不等于可以替代分子检测，这是预印本阶段研究。
 
-### 10. "Younger"项目：500 人、六个月，把抗衰目标变成公开科学数据
+---
 
-据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/500-people-six-months-one-goal-reverse-aging/)，NeuroAge 与 TruDiagnostic 联合推出名为 Younger 的项目，计划招募 500 名参与者、历时六个月，将个人健康干预目标转化为可公开共享的科学数据，使用脑扫描和表观遗传时钟等工具进行追踪。报道目前为媒体层面，具体入组条件、研究方案和伦理审查信息尚待核查，不能将项目宣传目标等同于已证实的抗衰效果。
+### 8. 阿尔茨海默病标志性纵向研究获3200万美元续期资助至2031年
+
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/2432-million-grant-extends-landmark-Alzheimers-research-through-2031.aspx)，起源于1970年代、由神经科医生 Leonard Berg 在圣路易斯华盛顿大学发起的阿尔茨海默病纵向研究项目获得3200万美元资助，将延续至2031年。这项研究拒绝将老年记忆衰退视为"正常衰老"，致力于追踪大脑真实病变过程，是该领域历史最长的队列研究之一。具体研究方向和此轮资金用途的详细信息见[媒体报道](https://www.news-medical.net/news/20261110/2432-million-grant-extends-landmark-Alzheimers-research-through-2031.aspx)。
+
+---
+
+### 9. 瑜伽45天改善情绪与记忆，但脑连接变化的长期意义仍不明
+
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/Scientists-scanned-peoples-brains-before-and-after-45-days-of-yoga-Heres-what-changed.aspx)，一项随机对照试验让139名健康成年人参加45天标准化瑜伽课程，与等待组对比后发现情绪、自评睡眠质量和部分短期记忆指标有所改善；从中43名参与者的脑扫描显示涉及运动、注意力、语言和认知处理网络的功能连接出现变化。功能连接是指脑区之间协同活动的程度，可用MRI测量。研究者明确指出这些脑连接变化的长期意义目前仍不确定，不能由此推论瑜伽能预防认知衰退。
+
+[![来源配图：Scientists scanned people's brains before and after 45 days of yoga. Here's what changed](https://www.news-medical.net/images/news/ImageForNews_851266_17943566428378793.jpg)](https://www.news-medical.net/news/20261110/Scientists-scanned-peoples-brains-before-and-after-45-days-of-yoga-Heres-what-changed.aspx)
+
+---
+
+### 10. 蘑菇中的麦角硫因对神经退行性疾病可能有保护作用，但人体证据有限
+
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/Could-eating-more-mushrooms-help-protect-your-brain-as-you-age.aspx)，一篇综述汇总了关于麦角硫因（ergothioneine）的现有研究——这是一种主要存在于蘑菇中的天然抗氧化剂，在实验室和动物研究中显示出对抗阿尔茨海默病和帕金森病相关氧化应激和炎症的保护效果。目前人体证据仍十分有限，综述作者指出需要更大规模的临床试验才能判断补充麦角硫因是否能预防或延缓神经退行性疾病，现有结果不能作为推荐食用的依据。
+
+[![来源配图：Could eating more mushrooms help protect your brain as you age?](https://www.news-medical.net/images/news/ImageForNews_851241_17943525083515017.jpg)](https://www.news-medical.net/news/20261110/Could-eating-more-mushrooms-help-protect-your-brain-as-you-age.aspx)
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### KC-Maps：无需完整轨迹数据训练的分子动力学模拟
+### Fitnescity Health 全身MRI扫描扩展至全美近百个站点
 
-预印本 [Kolmogorov-Chapman Maps（论文索引/摘要）](https://papers.cool/arxiv/2611.12880) 提出的 KC-Maps 方法，让神经网络直接从"边缘样本"（即不需要完整的模拟轨迹序列，只需要各时间点的快照分布）学习分子系统的随机动力学，从而跳过传统分子模拟中数百万步顺序积分的瓶颈。研究者在肽分子系统上验证，KC-Maps 在 GPU 机时消耗上优于经典分子动力学方法。这是预印本阶段的方法研究，能否推广到更大药物分子系统有待验证。
+据 [Longevity.Technology 的报道](https://longevity.technology/news/fitnescity-healths-whole-body-mri-scans-go-nationwide/)，Fitnescity Health 自称美国最大预防性影像网络，将全身MRI扫描开放至全美近100个站点，并通过统一API向健康平台开放接入。全身MRI是一次扫描覆盖全身主要器官、用于早期发现潜在病变的影像检查，此前主要在少数精品健康中心提供。此次扩展使其预约流程接近普通体检，但商业可及性扩大不等于检查的临床有效性获得新的证明，具体定价和覆盖范围见[媒体报道](https://longevity.technology/news/fitnescity-healths-whole-body-mri-scans-go-nationwide/)。
 
 ---
 
 ## **🧪 前沿研究**
 
-### AI 分析肺癌病理切片，发现新辅助化疗后免疫结构显著改变
+### 大脑脉络丛中年期淀粉样蛋白积累呈非线性特征
 
-预印本 [论文索引/摘要](https://papers.cool/arxiv/2611.12855) 使用 AI 分析肺鳞状细胞癌患者的全切片病理图像，对比了接受新辅助治疗（手术前的化疗或免疫治疗）的 20 例与未治疗的 20 例患者。结果发现，治疗组肿瘤间质中浆细胞密度低 72%、淋巴细胞密度低 48%，同时成熟的三级淋巴结构（肿瘤内免疫应答的重要场所）数量也更少。在独立的 458 例验证队列中，间质浆细胞密度与更长生存期相关。样本量较小，且研究属于回顾性观察，不能直接推断因果。
-
----
-
-## **⌘ 开源 TOP 项目**
-
-### lucascamillomd/pyaging：在 GPU 上批量运行多种衰老时钟
-
-[pyaging](https://github.com/lucascamillomd/pyaging) 是一个 Python 工具包，收录了多种经过 GPU 加速优化的"衰老时钟"——这类模型以甲基化数据或血液指标等生物样本作为输入，输出一个估算的生物年龄数值，常用于衰老研究和干预评估。适合需要在大批量样本上运行标准化衰老评分的研究者，仓库有 134 颗星，最近活跃于 2026-11-10，许可证与支持的具体时钟列表可在仓库 README 中核查。
-
-### shulamohammad/sphere-alzheimers：探索阿尔茨海默症生物标志物分类与模型评估
-
-[sphere-alzheimers](https://github.com/shulamohammad/sphere-alzheimers) 是一个机器学习研究仓库，围绕阿尔茨海默症生物标志物的分类任务，包含分阶段测试策略和使用合成球形数据进行模型评估的实验。适合研究神经退行性疾病 AI 诊断方法的开发者参考，最近活跃于 2026-11-10，仓库具体数据来源和许可证信息待核查。
+[这篇预印本](https://europepmc.org/article/MED/PPR1361149)研究了人类脉络丛（大脑中负责产生脑脊液的结构）中"Biondi体"淀粉样蛋白的形成规律，发现这一过程在中年阶段呈现出跨尺度的非线性变化特征，与神经退行性疾病的早期进程相关。脉络丛和淀粉样蛋白积累被认为是阿尔茨海默病研究的潜在早期窗口。这是未经同行评审的预印本，研究对象为人体样本，具体样本量和研究方法待核查原文。
 
 ---
 
-## **❓ 相关问题**
+## **◎ 行业变化与个人影响**
 
-### DunedinPACNI 脑影像衰老指标和普通体检能直接比较吗？
+### UTHealth Houston 在里奥格兰德河谷推出移动医疗诊所
 
-不能直接替代。DunedinPACNI 是从核磁共振图像特征中估算的衰老速率指标，研究发现它与血液中多项衰老标志物在群体层面有关联，但这是相关性，不代表一次脑扫描就能"读出"某个具体血液检验值。群体层面的关联不能直接外推到个人：你的 DunedinPACNI 数值偏高，不等于你的血液指标一定异常，也不等于你的健康已经加速恶化。研究设计和数据可见 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261109/Could-a-single-brain-scan-reveal-how-quickly-your-body-is-aging.aspx)，原始研究涉及 746 名成年人和 7—15 年随访，细节以论文原文为准。
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/UTHealth-Houston-unveils-state-of-the-art-mobile-clinic-in-the-Lower-Rio-Grande-Valley.aspx)，UTHealth Houston 于10月22日在德克萨斯州里奥格兰德河谷举行了新移动诊所的启用仪式。移动诊所是将医疗设备装入车辆、前往医疗资源匮乏地区提供服务的模式，该地区历史上医疗可及性较低。公告中未披露诊所服务内容、覆盖人口或运营规模的具体数字，详情见[媒体报道](https://www.news-medical.net/news/20261110/UTHealth-Houston-unveils-state-of-the-art-mobile-clinic-in-the-Lower-Rio-Grande-Valley.aspx)。
