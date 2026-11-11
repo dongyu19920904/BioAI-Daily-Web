@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-11",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-11/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_d96b4f4a9262aeb6",
+      "report_date": "2026-11-11",
+      "report_section": "opportunity",
+      "title": "化疗后生物衰老:照护者科普内容切口",
+      "source_urls": [
+        "https://www.news-medical.net/news/20261110/Chemotherapy-may-accelerate-biological-aging-in-breast-cancer-survivors.aspx"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "乳腺癌幸存者家属、关注慢病后遗衰老的照护者、对生物年龄话题有兴趣的中文健康内容受众",
+      "demand_claim": "化疗结束后身体状态不如预期是真实困惑;目前中文内容对\"生物衰老 vs 实际年龄\"的解释普遍粗糙。付费意愿尚未验证,属需求假设阶段。",
+      "demand_verified": false,
+      "deliverable_hint": "一篇公众号/小红书文章骨架(约 300 字提纲),围绕\"化疗治好了病,生物钟快了吗\",含生物年龄概念解释、研究现状、局限说明三个部分",
+      "suggested_route": "content",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "7 天内该内容获得 ≥20 次真实阅读,且有 ≥3 条含实质内容的评论或私信(不含\"好的\"\"谢谢\");或至少 1 人主动询问更多信息",
+        "stop_condition": "发布后 7 天内阅读量 <20 且无任何评论或询问,说明这个切口对当前账号受众无共鸣,停止在此方向继续投入内容资源",
+        "upgrade_path": "若有反馈,可扩展为\"慢病后衰老系列\"资料包(化疗、放疗、长期用药与生物衰老的信息整理);进一步可引导至轻咨询或社群"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_d96b4f4a9262aeb6:discover_primary_source",
+      "opportunity_id": "opp_d96b4f4a9262aeb6",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_d96b4f4a9262aeb6:validate_demand",
+      "opportunity_id": "opp_d96b4f4a9262aeb6",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
