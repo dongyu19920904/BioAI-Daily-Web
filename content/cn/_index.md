@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/11'
+title: 'AI生命延续学日报 2026/11/12'
 breadcrumbs: false
-next: /2026-11/2026-11-11
-description: '2026-11-11 AI生命延续学日报：补充剂钒酰硫酸盐在小鼠中清除衰老细胞并延长寿命；AI基础模型Bonbon在药物发现中展现零样本涌现能力；化疗可能加速乳腺癌幸存者的生物年龄老化。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-12
+description: '2026-11-12 AI生命延续学日报：一次注射控制胆固醇两年，非人灵长类动物数据出炉；肽类药物 Elamipretide 在小鼠中延缓卵巢衰老；酸奶和奶酪对 50 岁以上人群肌肉健康无明确帮助。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,99 +11,77 @@ cascade:
 ## **今日摘要**
 
 ```
-一种矿物质补充剂在小鼠实验中清除了衰老细胞，并小幅延长了中位寿命。
-化疗可能让乳腺癌幸存者的生物年龄超出实际年龄，或增加死于其他疾病的风险。
-寿命延长结果仅勉强达到统计显著性，且未在雌性小鼠中验证，尚无人体数据。
+一次注射基因编辑疗法在灵长类动物中将坏胆固醇维持低水平长达两年。
+短肽药物在老龄小鼠中改善了卵母细胞成熟质量，并在体外人类细胞上观察到类似信号。
+灵长类动物实验结果尚未进入人体临床试验，能否复现于人体仍属未知。
 ```
 
-## **🔥 今日焦点 TOP 10**
+## **🔥 今日焦点 TOP 8**
 
-### 1. 补充剂钒酰硫酸盐在小鼠中清除衰老细胞并延长寿命
+### 1. 一次注射控制胆固醇两年，非人灵长类动物数据出炉
 
-据 [Lifespan.io 的报道](https://lifespan.io/a-supplement-kills-senescent-cells-and-extends-life-in-mice/)，芝加哥大学研究团队在《Nature Aging》发表了关于钒酰硫酸盐（vanadyl sulfate，VS）的研究——这是一种存在于贝类、蘑菇和大豆中、也作为保健品销售的矿物质化合物。衰老细胞（senescent cells）是指那些停止分裂、却不死亡、反而持续向周围释放有害炎症信号的细胞，被认为是加速衰老的重要原因之一。研究者给约71周龄（相当于老年期）雄性小鼠喂水中加入VS，持续90天，中位寿命从887天增至952天，提高了7.4%；同时体脂减少、体能和血糖调节改善，肾脏炎症标记物下降。机制实验显示，VS通过促进蛋白质异常折叠来杀死衰老细胞，而健康细胞因具备更强的修复能力得以幸免。需要注意：每组约20只小鼠，寿命延长仅勉强达到统计显著性，雌性小鼠未做寿命测试，目前仍是动物实验结果，能否适用于人体尚待研究。
+Scribe Therapeutics 在美国心脏协会（AHA）年会上公布，其实验性基因编辑疗法 STX-1150 单次注射后，在非人灵长类动物中将 LDL 胆固醇（俗称"坏胆固醇"）维持在较低水平至少两年。据 [Longevity.Technology 的报道](https://longevity.technology/news/scribes-one-dose-approach-keeps-cholesterol-down-for-years/)，该公司同场还展示了另一候选疗法 STX-1200 的早期数据。目前结果来自动物实验，尚未进入人体临床试验阶段。
 
-![VS Mouse Effects](https://lifespan.io/wp-content/uploads/2026/11/VS-Mouse-Effects.png)
+![Scribe's one-dose approach keeps cholesterol down for years](https://longevity.technology/wp-content/uploads/2026/11/scribes-one-dose-approach-keeps-cholesterol-down-for-years-hero-1200x800-1-1024x683.png)
 
----
+### 2. 肽类药物 Elamipretide 在小鼠中延缓卵巢衰老
 
-### 2. AI基础模型Bonbon在药物发现中展现零样本涌现能力
+发表于同行评审期刊 Aging Cell 的[这项研究](https://lifespan.io/the-short-peptide-elamipretide-delays-ovarian-aging-in-mice/)显示，对老龄小鼠连续注射 7 天短肽 Elamipretide 后，卵母细胞（即卵子的前体细胞）的成熟质量改善，受精率提高，且在治疗后 1 个月内产仔数增加。研究还在体外培养的 35 岁以上女性卵母细胞上观察到类似改善信号，但体外实验与体内临床疗效之间仍有相当距离，目前还不能说明此药能用于人体延长生育窗口。
 
-[论文索引/摘要](https://papers.cool/arxiv/2611.14504)显示，研究者训练了一个名为Bonbon的基础模型，用约3.2万亿个蛋白质-配体序列配对数据进行预训练，配体是指能与蛋白质结合、可能成为药物的小分子。令人关注的是，这个模型在训练时没有被告知任何具体任务，却自发展现出三项"涌现能力"：判断药物作用机制、定位蛋白质上的结合位点、区分共价与非共价结合方式。在针对9个疾病靶点的湿实验室验证中，Bonbon设计的全新化合物有61.5%在剂量响应实验中显示出活性，并且包含此前未被报道能抑制这些蛋白质的全新结构。这是预印本阶段的结果，尚未经过同行评审，实验室有效性距离临床药物还有很长的路。
+![Elamipretide effects](https://lifespan.io/wp-content/uploads/2026/11/Elamipretide-effects.png)
 
----
+### 3. 酸奶和奶酪对 50 岁以上人群肌肉健康无明确帮助
 
-### 3. 化疗可能加速乳腺癌幸存者的生物年龄老化
+一项纳入 6790 名 50 岁及以上爱尔兰成年人的横断面分析发现，在控制生活方式和社会经济因素后，摄入发酵乳制品（包括酸奶和奶酪）与握力、体能表现或衰弱程度之间没有一致关联。据 [News-Medical 的报道](https://www.news-medical.net/news/20261111/Yogurt-and-cheese-are-rich-in-protein-but-do-they-help-aging-muscles.aspx)，其中一项分析甚至发现摄入量较高与低握力几率偏高有关，但其他分析未能重复这一结果。横断面研究只能观察同一时间点的关联，无法判断因果，研究者也强调需要进一步纵向研究。
 
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/Chemotherapy-may-accelerate-biological-aging-in-breast-cancer-survivors.aspx)，新研究提示化疗在帮助乳腺癌患者存活的同时，可能让身体的"生物年龄"超出实际年龄——生物年龄是通过血液或细胞指标估算身体真实老化程度的概念，与出生年龄不同。研究还指出这可能增加患者死于其他疾病的风险。来源仅提供了题目和摘要，样本量、化疗类型和具体数值待核查，建议参考原文了解研究设计细节。
+[![来源配图：Yogurt and cheese are rich in protein, but do they help aging muscles?](https://www.news-medical.net/images/news/ImageForNews_851397_17944494456323000.jpg)](https://www.news-medical.net/news/20261111/Yogurt-and-cheese-are-rich-in-protein-but-do-they-help-aging-muscles.aspx)
 
-[![来源配图：Chemotherapy may accelerate biological aging in breast cancer survivors](https://www.news-medical.net/images/tags/TagImage-1039-45840826385648151818-620x480.jpg)](https://www.news-medical.net/news/20261110/Chemotherapy-may-accelerate-biological-aging-in-breast-cancer-survivors.aspx)
+### 4. 皮肤细胞局部转化为掌心皮肤，一期临床试验完成入组
 
----
+约翰斯·霍普金斯医学院研究者在美国国立卫生研究院资助的一期临床试验中，将普通皮肤细胞部分转化为"掌侧皮肤"——即手掌和脚底那种更耐摩擦、更耐压的皮肤。据 [News-Medical 的报道](https://www.news-medical.net/news/20261111/Experimental-cell-therapy-helps-ordinary-skin-mimic-tough-palm-tissue.aspx)，一期试验主要评估安全性，尚未公布疗效数据，具体入组人数及完成情况待原文核查。
 
-### 4. AI代理Pyrite用于药物设计中的分子姿态排名
+### 5. 罕见基因突变或可降低帕金森病和路易体痴呆风险
 
-[论文索引/摘要](https://papers.cool/arxiv/2611.14511)介绍了Pyrite——一个专门评测"配体结合姿态排名"的基准测试集，共收录1500对结合姿态，用于衡量AI能否判断哪种药物分子构型更可能真正结合靶蛋白。有趣的是，配备3D可视化工具的专家化学家判断准确率接近随机水平，说明这个问题本身极具挑战性。研究者基于此开发了两种大语言模型代理：直接文字推理的PyriteReasoner达到67%准确率，而引导模型自动生成特征代码的PyriteFeaturizer达到74%，均超过了人类专家表现。这是预印本阶段的评测研究，准确率反映的是基准集上的表现，不代表实际药物研发成功率。
+俄勒冈健康与科学大学的研究者发现一种罕见基因突变，可能对帕金森病和路易体痴呆（一种以大脑中出现异常蛋白沉积为特征的痴呆类型）有保护作用。据 [News-Medical 的报道](https://www.news-medical.net/news/20261111/Rare-genetic-mutation-may-protect-against-Parkinsons-and-Lewy-body-dementia.aspx)，当前来源为摘要级别，具体研究设计、样本规模和突变位点待原文核查，目前不能说明此突变可被人为复制或用于治疗。
 
----
+### 6. 肠道菌群代谢物可能通过 Wnt 信号影响脂肪组织重塑
 
-### 5. 基础模型适配在跨机构医学图像分割中优于专用模型
+News-Medical [报道的这项研究](https://www.news-medical.net/news/20261111/Gut-microbial-metabolites-may-reshape-fat-tissue-through-Wnt-pathways.aspx)关注肠道细菌产生的代谢物如何影响脂肪组织——具体涉及 Wnt 信号通路，这是一套控制细胞增殖和分化的信号机制。摘要指出，当脂肪组织中新脂肪细胞生成不足时，多余能量堆积在老化的脂肪细胞中，可引发炎症和胰岛素抵抗。目前来源为摘要级别，研究对象、样本和具体结果待原文核查。
 
-[论文索引/摘要](https://papers.cool/arxiv/2611.14519)报告了对DINOv2等基础模型（在大规模自然图像上预训练的通用视觉模型）适配医学图像分割任务的系统对比。研究覆盖结肠镜、乳腺超声和皮肤镜三个领域，在来自不同机构的外部测试集上，适配后的基础模型在每个数据集上的泛化性能均优于从头训练的专用模型，但在训练数据充足时，专用模型的病灶边界刻画更精准，小病灶漏检率也更低。研究还发现所需适配的模型参数量极少，且取决于成像领域而非适配方法。这是预印本阶段研究，结论尚未经同行评审。
+### 7. 居住安排与老年人心理健康存在关联
 
----
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261111/New-study-links-senior-living-arrangements-to-mental-health-outcomes.aspx)，随着多代同堂家庭减少，越来越多老年人独居或仅与配偶同住，这项研究考察了不同居住安排与心理健康结果之间的关联。来源为摘要级别，具体样本、地区、测量指标及关联方向待原文核查；观察性研究只能说明关联，不能证明居住安排直接导致心理健康变化。
 
-### 6. DrugCoding：自动协调多阶段药物发现流程的AI编程代理
+[![来源配图：New study links senior living arrangements to mental health outcomes](https://www.news-medical.net/images/tags/TagImage-1831-45296002389942131275-620x480.jpg)](https://www.news-medical.net/news/20261111/New-study-links-senior-living-arrangements-to-mental-health-outcomes.aspx)
 
-[论文索引/摘要](https://papers.cool/arxiv/2611.13651)提出DrugCoding，一个能自主规划任务、调用专业科学模型并生成可执行代码的AI系统，目标是将分子设计、性质预测和虚拟筛选等药物发现工作串联成自动化流程。在涵盖多种语言模型和科学工具接口的多轮工具调用评测中，DrugCoding在完整基准上的单次通过率（Pass@1，即第一次就正确完成任务的比例）达到97.35%，比最强基线高9.24个百分点。这是在标准化评测集上的结果，实际药物研发流程的复杂度和不确定性与评测环境有较大差距，仍为预印本阶段。
+### 8. 长寿组学：一篇尝试整合多组学与延寿科学的综述发表
 
----
-
-### 7. 从组织切片图像预测单细胞空间基因表达
-
-[论文索引/摘要](https://papers.cool/arxiv/2611.13649)展示了用病理切片的H&E染色图像（医院常规制作的组织染色图）预测单细胞层面基因表达的方法。研究采用Xenium 5K空间转录组数据配对训练，通过领域适配策略，平均基因预测相关性比零样本基线提升了2.67倍，对空间差异表达基因的预测相关系数达到0.63，全部基因的检测能力（AUROC）为0.80。这类方法的潜在价值在于无需昂贵的分子检测就能获得部分基因信息，但预测性能在不同生物背景下差异显著，H&E图像与基因表达的关联不等于可以替代分子检测，这是预印本阶段研究。
-
----
-
-### 8. 阿尔茨海默病标志性纵向研究获3200万美元续期资助至2031年
-
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/2432-million-grant-extends-landmark-Alzheimers-research-through-2031.aspx)，起源于1970年代、由神经科医生 Leonard Berg 在圣路易斯华盛顿大学发起的阿尔茨海默病纵向研究项目获得3200万美元资助，将延续至2031年。这项研究拒绝将老年记忆衰退视为"正常衰老"，致力于追踪大脑真实病变过程，是该领域历史最长的队列研究之一。具体研究方向和此轮资金用途的详细信息见[媒体报道](https://www.news-medical.net/news/20261110/2432-million-grant-extends-landmark-Alzheimers-research-through-2031.aspx)。
-
----
-
-### 9. 瑜伽45天改善情绪与记忆，但脑连接变化的长期意义仍不明
-
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/Scientists-scanned-peoples-brains-before-and-after-45-days-of-yoga-Heres-what-changed.aspx)，一项随机对照试验让139名健康成年人参加45天标准化瑜伽课程，与等待组对比后发现情绪、自评睡眠质量和部分短期记忆指标有所改善；从中43名参与者的脑扫描显示涉及运动、注意力、语言和认知处理网络的功能连接出现变化。功能连接是指脑区之间协同活动的程度，可用MRI测量。研究者明确指出这些脑连接变化的长期意义目前仍不确定，不能由此推论瑜伽能预防认知衰退。
-
-[![来源配图：Scientists scanned people's brains before and after 45 days of yoga. Here's what changed](https://www.news-medical.net/images/news/ImageForNews_851266_17943566428378793.jpg)](https://www.news-medical.net/news/20261110/Scientists-scanned-peoples-brains-before-and-after-45-days-of-yoga-Heres-what-changed.aspx)
-
----
-
-### 10. 蘑菇中的麦角硫因对神经退行性疾病可能有保护作用，但人体证据有限
-
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/Could-eating-more-mushrooms-help-protect-your-brain-as-you-age.aspx)，一篇综述汇总了关于麦角硫因（ergothioneine）的现有研究——这是一种主要存在于蘑菇中的天然抗氧化剂，在实验室和动物研究中显示出对抗阿尔茨海默病和帕金森病相关氧化应激和炎症的保护效果。目前人体证据仍十分有限，综述作者指出需要更大规模的临床试验才能判断补充麦角硫因是否能预防或延缓神经退行性疾病，现有结果不能作为推荐食用的依据。
-
-[![来源配图：Could eating more mushrooms help protect your brain as you age?](https://www.news-medical.net/images/news/ImageForNews_851241_17943525083515017.jpg)](https://www.news-medical.net/news/20261110/Could-eating-more-mushrooms-help-protect-your-brain-as-you-age.aspx)
+一篇题为"长寿学作为长寿组学的科学"的论文已在欧洲 PubMed 收录，据[论文索引页](https://europepmc.org/article/MED/43014623)显示，它尝试为健康长寿构建统一的系统科学框架，将多组学（即同时分析基因组、蛋白质组、代谢组等多层生物数据）与延寿研究整合。审稿状态待核查，具体研究发现和方法尚需阅读原文确认。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### Fitnescity Health 全身MRI扫描扩展至全美近百个站点
+### Tiny Health 推出肠道菌群生物年龄评分
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/fitnescity-healths-whole-body-mri-scans-go-nationwide/)，Fitnescity Health 自称美国最大预防性影像网络，将全身MRI扫描开放至全美近100个站点，并通过统一API向健康平台开放接入。全身MRI是一次扫描覆盖全身主要器官、用于早期发现潜在病变的影像检查，此前主要在少数精品健康中心提供。此次扩展使其预约流程接近普通体检，但商业可及性扩大不等于检查的临床有效性获得新的证明，具体定价和覆盖范围见[媒体报道](https://longevity.technology/news/fitnescity-healths-whole-body-mri-scans-go-nationwide/)。
-
----
-
-## **🧪 前沿研究**
-
-### 大脑脉络丛中年期淀粉样蛋白积累呈非线性特征
-
-[这篇预印本](https://europepmc.org/article/MED/PPR1361149)研究了人类脉络丛（大脑中负责产生脑脊液的结构）中"Biondi体"淀粉样蛋白的形成规律，发现这一过程在中年阶段呈现出跨尺度的非线性变化特征，与神经退行性疾病的早期进程相关。脉络丛和淀粉样蛋白积累被认为是阿尔茨海默病研究的潜在早期窗口。这是未经同行评审的预印本，研究对象为人体样本，具体样本量和研究方法待核查原文。
+总部位于得克萨斯州奥斯汀的 Tiny Health 在 Eudēmonia 峰会上发布两项新功能：Microbiome Age（菌群年龄）和 Gut-Body Connections（肠道-身体关联）。"菌群生物年龄"是一个估算指标，通过对比个人肠道菌群组成与参考数据库来推算菌群的相对老化程度，不等于已经证实能预测疾病风险。据 [Longevity.Technology 的报道](https://longevity.technology/news/tiny-health-launches-a-biological-age-score-for-the-gut/)，该服务面向消费者，具体算法依据和验证研究待核查。
 
 ---
 
-## **◎ 行业变化与个人影响**
+## **⌘ 开源 TOP 项目**
 
-### UTHealth Houston 在里奥格兰德河谷推出移动医疗诊所
+### qlu-lab/SARDINE：用表观遗传时钟研究衰老表型关联的统计框架
 
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261110/UTHealth-Houston-unveils-state-of-the-art-mobile-clinic-in-the-Lower-Rio-Grande-Valley.aspx)，UTHealth Houston 于10月22日在德克萨斯州里奥格兰德河谷举行了新移动诊所的启用仪式。移动诊所是将医疗设备装入车辆、前往医疗资源匮乏地区提供服务的模式，该地区历史上医疗可及性较低。公告中未披露诊所服务内容、覆盖人口或运营规模的具体数字，详情见[媒体报道](https://www.news-medical.net/news/20261110/UTHealth-Houston-unveils-state-of-the-art-mobile-clinic-in-the-Lower-Rio-Grande-Valley.aspx)。
+[SARDINE](https://github.com/qlu-lab/SARDINE) 是一个 R 语言框架，用于从表观遗传全关联研究（EWAS）的汇总统计数据中估算"表观遗传时钟"与各类衰老表型之间的关联。表观遗传时钟是通过 DNA 甲基化模式来估算生物年龄的工具；SARDINE 的核心价值在于可以利用已公开的汇总统计，而不需要个体水平数据，适合没有大型原始队列的研究者使用。最近活跃时间为 2026 年 11 月初，Stars 数量为 1，使用前建议查阅仓库中的文档和示例。
+
+### anbai106/SleepChart：睡眠时长与 23 种生物年龄时钟关系的建模脚本
+
+[SleepChart](https://github.com/anbai106/SleepChart) 提供用于分析睡眠时长与 23 种生物年龄时钟之间关系的 R 脚本，采用广义加性模型（GAM，一种可捕捉非线性关系的统计方法）建模，适合研究睡眠与衰老交叉领域的数据分析人员。仓库提供了原始分析脚本，Stars 数为 3，最近活跃时间为 2026 年 10 月底，使用许可证情况请在仓库页面核查。
+
+---
+
+## **❓ 相关问题**
+
+### Elamipretide 的人体实验结果如何，现在能用吗？
+
+目前还不能用于临床。[Aging Cell 的这项研究](https://lifespan.io/the-short-peptide-elamipretide-delays-ovarian-aging-in-mice/)中的人体部分仅限于体外培养的卵母细胞实验，不是人体临床试验；小鼠的体内结果也不能直接外推至人体。Elamipretide 此前曾在心衰领域进行过人体研究，但针对卵巢衰老的适应症尚无注册临床试验数据可查。
