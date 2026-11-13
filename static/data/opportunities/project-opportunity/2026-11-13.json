@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-13",
+  "report_section": "project-opportunity",
+  "source_page": "/project-opportunity/2026-11/2026-11-13/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_79c63b72eacd6f2f",
+      "report_date": "2026-11-13",
+      "report_section": "project-opportunity",
+      "title": "HigginsChenLab/methylCIPHER(含 v2 更新)",
+      "source_urls": [
+        "https://github.com/HigginsChenLab/methylCIPHER",
+        "https://github.com/HigginsChenLab/methylCIPHERv2"
+      ],
+      "source_verified": false,
+      "state": "needs_repository_check",
+      "state_reason": "已提取仓库链接；尚未核验许可证、数据和可运行性",
+      "target_user": "** 有 R 基础的科研学习者、生命延续学内容作者、想整理表观遗传时钟算法比较表的独立研究者",
+      "demand_claim": null,
+      "demand_verified": false,
+      "deliverable_hint": "** 算法名称对比表(PC clocks / SystemsAge / CausalAge / DunedinPACE 各自特点整理);README 阅读笔记;v1 vs v2 变更说明条目",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review"
+      ],
+      "hypotheses": {
+        "success_metric": "** 24 小时内能整理出 4 种以上时钟算法的简短说明,并确认许可证是否允许资料引用",
+        "stop_condition": "** 发现许可证禁止衍生内容引用;README 无法访问;v2 仅为空仓库无实质内容",
+        "upgrade_path": null
+      },
+      "repository_metadata": null
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_79c63b72eacd6f2f:inspect_repository",
+      "opportunity_id": "opp_79c63b72eacd6f2f",
+      "kind": "inspect_repository",
+      "status": "pending_automation",
+      "description_zh": "自动核查仓库许可证、数据入口、依赖、维护状态和试跑条件",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_79c63b72eacd6f2f:validate_demand",
+      "opportunity_id": "opp_79c63b72eacd6f2f",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
