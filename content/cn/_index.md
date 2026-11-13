@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/12'
+title: 'AI生命延续学日报 2026/11/13'
 breadcrumbs: false
-next: /2026-11/2026-11-12
-description: '2026-11-12 AI生命延续学日报：一次注射控制胆固醇两年，非人灵长类动物数据出炉；肽类药物 Elamipretide 在小鼠中延缓卵巢衰老；酸奶和奶酪对 50 岁以上人群肌肉健康无明确帮助。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-13
+description: '2026-11-13 AI生命延续学日报：阿尔茨海默病鼠模型中，敲除 HDAC7 显著改善记忆并减少 tau 蛋白缠结；人类基底核完整 3D 细胞图谱发布，涵盖 28 篇 Cell Press 论文；AI 平台从冬眠哺乳动物基因组中挖出第二个肥胖靶点。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,77 +11,93 @@ cascade:
 ## **今日摘要**
 
 ```
-一次注射基因编辑疗法在灵长类动物中将坏胆固醇维持低水平长达两年。
-短肽药物在老龄小鼠中改善了卵母细胞成熟质量，并在体外人类细胞上观察到类似信号。
-灵长类动物实验结果尚未进入人体临床试验，能否复现于人体仍属未知。
+阿尔茨海默病小鼠敲除某蛋白后记忆显著改善，tau缠结减少。
+人类大脑深部区域首次完成三维逐细胞图谱，疾病风险基因有了结构参照。
+两项结果均来自动物模型或基础测绘，尚无法直接用于人体诊断或治疗。
 ```
 
-## **🔥 今日焦点 TOP 8**
+## **🔥 今日焦点 TOP 10**
 
-### 1. 一次注射控制胆固醇两年，非人灵长类动物数据出炉
+### 1. 阿尔茨海默病鼠模型中，敲除 HDAC7 显著改善记忆并减少 tau 蛋白缠结
 
-Scribe Therapeutics 在美国心脏协会（AHA）年会上公布，其实验性基因编辑疗法 STX-1150 单次注射后，在非人灵长类动物中将 LDL 胆固醇（俗称"坏胆固醇"）维持在较低水平至少两年。据 [Longevity.Technology 的报道](https://longevity.technology/news/scribes-one-dose-approach-keeps-cholesterol-down-for-years/)，该公司同场还展示了另一候选疗法 STX-1200 的早期数据。目前结果来自动物实验，尚未进入人体临床试验阶段。
+据 [Lifespan.io 的报道](https://lifespan.io/a-new-target-for-fighting-tau-tangles-in-neurons/)，研究人员发现 HDAC7 这种蛋白会同时抓住 tau 蛋白和激酶 GSK3β，形成一个三元复合物——tau 蛋白过度磷酸化（即被"打上太多化学标签"后变形缠绕）正是阿尔茨海默病的核心病理之一。在表达异常 tau 的小鼠中，敲除 HDAC7 基因后，小鼠在水迷宫和新物体识别测试中的记忆表现显著提升，脑内 tau 磷酸化水平和突触蛋白损失也均有改善。研究还确认这一效应来自 HDAC7 蛋白的 N 端结构域，与其酶活性无关，提示针对该结合位点开发小分子药物具有可行性。目前结果仅来自小鼠模型，人类 tau 病变涉及更多亚型，能否转化为人体疗效尚不清楚。
 
-![Scribe's one-dose approach keeps cholesterol down for years](https://longevity.technology/wp-content/uploads/2026/11/scribes-one-dose-approach-keeps-cholesterol-down-for-years-hero-1200x800-1-1024x683.png)
+![tau缠结与神经元激活示意图](https://lifespan.io/wp-content/uploads/2026/11/Active-brain-262x187.jpg)
 
-### 2. 肽类药物 Elamipretide 在小鼠中延缓卵巢衰老
+### 2. 人类基底核完整 3D 细胞图谱发布，涵盖 28 篇 Cell Press 论文
 
-发表于同行评审期刊 Aging Cell 的[这项研究](https://lifespan.io/the-short-peptide-elamipretide-delays-ovarian-aging-in-mice/)显示，对老龄小鼠连续注射 7 天短肽 Elamipretide 后，卵母细胞（即卵子的前体细胞）的成熟质量改善，受精率提高，且在治疗后 1 个月内产仔数增加。研究还在体外培养的 35 岁以上女性卵母细胞上观察到类似改善信号，但体外实验与体内临床疗效之间仍有相当距离，目前还不能说明此药能用于人体延长生育窗口。
+国际神经科学联合体在 Cell Press 系列期刊上同步发布共 28 篇论文，据 [Longevity Technology 的报道](https://longevity.technology/news/scientists-chart-the-brains-cellular-architecture/)首次完成人类基底核（大脑深部参与运动控制、奖励和学习的区域）的三维逐细胞图谱，不仅记录每类细胞的位置，还标注了调控其行为的基因和表观遗传信息。这是"人类大脑完整细胞地图"这一更大计划的第一个里程碑。图谱将疾病风险基因定位到具体细胞类型，为帕金森病、精神分裂症等疾病的机制研究提供了结构基础，但目前属于基础测绘，尚未直接带来诊断工具或治疗方案。
 
-![Elamipretide effects](https://lifespan.io/wp-content/uploads/2026/11/Elamipretide-effects.png)
+[![来源配图：Scientists chart the brain’s cellular architecture](https://longevity.technology/wp-content/uploads/2026/11/scientists-chart-the-brains-cellular-architecture-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/scientists-chart-the-brains-cellular-architecture/)
 
-### 3. 酸奶和奶酪对 50 岁以上人群肌肉健康无明确帮助
+### 3. AI 平台从冬眠哺乳动物基因组中挖出第二个肥胖靶点
 
-一项纳入 6790 名 50 岁及以上爱尔兰成年人的横断面分析发现，在控制生活方式和社会经济因素后，摄入发酵乳制品（包括酸奶和奶酪）与握力、体能表现或衰弱程度之间没有一致关联。据 [News-Medical 的报道](https://www.news-medical.net/news/20261111/Yogurt-and-cheese-are-rich-in-protein-but-do-they-help-aging-muscles.aspx)，其中一项分析甚至发现摄入量较高与低握力几率偏高有关，但其他分析未能重复这一结果。横断面研究只能观察同一时间点的关联，无法判断因果，研究者也强调需要进一步纵向研究。
+Fauna Bio 与礼来公司的肥胖症合作于 11 月 11 日宣布产出第二个候选靶点，据 [Longevity Technology 的报道](https://longevity.technology/news/hibernator-biology-yields-a-second-obesity-target/)该靶点来自不同组织，由 Fauna Bio 基于冬眠哺乳动物基因组构建的 AI 药物发现平台识别。冬眠动物能在体重和代谢大幅波动后保持健康，这一特性是该平台的核心生物学假设。目前公告仅确认靶点发现阶段，尚未披露候选药物或临床前数据。
 
-[![来源配图：Yogurt and cheese are rich in protein, but do they help aging muscles?](https://www.news-medical.net/images/news/ImageForNews_851397_17944494456323000.jpg)](https://www.news-medical.net/news/20261111/Yogurt-and-cheese-are-rich-in-protein-but-do-they-help-aging-muscles.aspx)
+[![来源配图：Hibernator biology yields a second obesity target](https://longevity.technology/wp-content/uploads/2026/11/hibernator-biology-yields-a-second-obesity-target-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/hibernator-biology-yields-a-second-obesity-target/)
 
-### 4. 皮肤细胞局部转化为掌心皮肤，一期临床试验完成入组
+### 4. 84 名中年人研究：压力和年龄与端粒缩短相关，体能指标关联不一致
 
-约翰斯·霍普金斯医学院研究者在美国国立卫生研究院资助的一期临床试验中，将普通皮肤细胞部分转化为"掌侧皮肤"——即手掌和脚底那种更耐摩擦、更耐压的皮肤。据 [News-Medical 的报道](https://www.news-medical.net/news/20261111/Experimental-cell-therapy-helps-ordinary-skin-mimic-tough-palm-tissue.aspx)，一期试验主要评估安全性，尚未公布疗效数据，具体入组人数及完成情况待原文核查。
+端粒是染色体末端的保护结构，其长度常被用作细胞衰老程度的参考指标。据 [News-Medical 的报道](https://www.news-medical.net/news/20261112/Your-fitness-may-say-less-about-cellular-aging-than-you-think.aspx)，一项对 84 名中年成人的研究发现，更高的感知压力和年龄与更短的端粒相关，而体能水平、体成分和生活习惯与端粒长度没有稳定的独立关联。这提示端粒长度更多反映心理社会负担，而非当前体能状态。研究样本量较小，且论文统计编码中存在一处需厘清的不一致，慢性病关联结论需谨慎参考。
 
-### 5. 罕见基因突变或可降低帕金森病和路易体痴呆风险
+[![来源配图：Your fitness may say less about cellular aging than you think](https://www.news-medical.net/images/news/ImageForNews_851564_17945376646535743.jpg)](https://www.news-medical.net/news/20261112/Your-fitness-may-say-less-about-cellular-aging-than-you-think.aspx)
 
-俄勒冈健康与科学大学的研究者发现一种罕见基因突变，可能对帕金森病和路易体痴呆（一种以大脑中出现异常蛋白沉积为特征的痴呆类型）有保护作用。据 [News-Medical 的报道](https://www.news-medical.net/news/20261111/Rare-genetic-mutation-may-protect-against-Parkinsons-and-Lewy-body-dementia.aspx)，当前来源为摘要级别，具体研究设计、样本规模和突变位点待原文核查，目前不能说明此突变可被人为复制或用于治疗。
+### 5. 肝脏蛋白 APOA1 在阿尔茨海默病鼠模型中改善突触完整性和部分记忆指标
 
-### 6. 肠道菌群代谢物可能通过 Wnt 信号影响脂肪组织重塑
+据 [News-Medical 的报道](https://www.news-medical.net/news/20261112/Liver-derived-protein-helps-protect-brain-cells-and-improves-memory-in-Alzheimers-mice.aspx)，研究人员筛查了能穿越血脑屏障（即分隔血液与脑组织的生理屏障）进入脑组织的 92 种循环蛋白，发现肝脏来源的 APOA1 在正常状态下参与调节星形胶质细胞的胆固醇代谢并支持神经突触。在阿尔茨海默病小鼠模型中，APOA1 转运受损，但人为提高其肝脏产量后，炎症和淀粉样蛋白异常有所减少，突触完整性改善，部分记忆指标也有提升。结果目前仅来自动物模型，能否在人体中重现尚待验证。
 
-News-Medical [报道的这项研究](https://www.news-medical.net/news/20261111/Gut-microbial-metabolites-may-reshape-fat-tissue-through-Wnt-pathways.aspx)关注肠道细菌产生的代谢物如何影响脂肪组织——具体涉及 Wnt 信号通路，这是一套控制细胞增殖和分化的信号机制。摘要指出，当脂肪组织中新脂肪细胞生成不足时，多余能量堆积在老化的脂肪细胞中，可引发炎症和胰岛素抵抗。目前来源为摘要级别，研究对象、样本和具体结果待原文核查。
+### 6. NIBench：首个覆盖神经影像完整工作流的 AI 自主智能体基准
 
-### 7. 居住安排与老年人心理健康存在关联
+这项[论文](https://papers.cool/arxiv/2611.15831)发布了 NIBench 基准，专门测试 AI 自主智能体（即能在无人干预下连续完成多步分析任务的 AI 系统）在神经影像分析中的真实表现，涵盖结构 MRI、扩散 MRI、功能 MRI 和 PET 等七类工具生态的 56 项任务，同时评估 36 条来自阿尔茨海默病已发表研究的结论能否被智能体从原始数据中可靠复现。对 19 个语言模型的测评显示：给定完整分析流程时，顶级智能体执行近乎完美；但一旦省略操作指引，模型间差距明显拉大；智能体有时能复现原报告数值，却得出与专家不一致的科学判断。论文为预印本，尚未经过同行评审。
 
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261111/New-study-links-senior-living-arrangements-to-mental-health-outcomes.aspx)，随着多代同堂家庭减少，越来越多老年人独居或仅与配偶同住，这项研究考察了不同居住安排与心理健康结果之间的关联。来源为摘要级别，具体样本、地区、测量指标及关联方向待原文核查；观察性研究只能说明关联，不能证明居住安排直接导致心理健康变化。
+### 7. 蛋白质语言模型的"字母锚定"缺陷：残基顺序之外的隐藏偏差
 
-[![来源配图：New study links senior living arrangements to mental health outcomes](https://www.news-medical.net/images/tags/TagImage-1831-45296002389942131275-620x480.jpg)](https://www.news-medical.net/news/20261111/New-study-links-senior-living-arrangements-to-mental-health-outcomes.aspx)
+蛋白质语言模型（如 ESM-2）可以从单条序列预测蛋白质中哪些位置会相互接触，但一直不清楚它究竟学到了什么。这项[论文预印本](https://papers.cool/arxiv/2611.16881)引入一种诊断方法：在保持所有比对信息、列熵和编辑距离完全不变的前提下，对氨基酸字母表做全局重标记。经典统计模型在此变换下结果不变，但 ESM-2、MSA Transformer、AMPLIFY 等多个架构的接触图均大幅崩溃，说明这些模型依赖氨基酸的具体字母身份（即"字母锚定"），而非纯粹的共进化统计规律。增大模型规模使其对生化类别更敏感，但问题仍未消除，提示直接用这类模型输出做生物建模时需要额外核查。
 
-### 8. 长寿组学：一篇尝试整合多组学与延寿科学的综述发表
+### 8. DNA 编码库第二代设计：用 AI 估算需要多大规模才能训练出精准结合模型
 
-一篇题为"长寿学作为长寿组学的科学"的论文已在欧洲 PubMed 收录，据[论文索引页](https://europepmc.org/article/MED/43014623)显示，它尝试为健康长寿构建统一的系统科学框架，将多组学（即同时分析基因组、蛋白质组、代谢组等多层生物数据）与延寿研究整合。审稿状态待核查，具体研究发现和方法尚需阅读原文确认。
+在药物发现中，DNA 编码库（DEL）是一种同时合成和筛选数百万种小分子的方法，但从初代筛选数据训练出能分辨单原子变化的结合模型仍是难题。这项[论文预印本](https://papers.cool/arxiv/2611.17121)提出"能量像素"框架，仅凭初代库的结合亲和力分布——无需结构信息、无需已合成分子——估算第二代库需要多大规模才能提供足够稠密的化学空间覆盖和足够多的高亲和力分子。方法同时给出随机设计库的预期产出基线，可用来量化机器学习主动设计相对于随机策略的实际增益。目前为预印本，尚未在真实项目中独立验证。
+
+### 9. 综述：生物学基础模型的"知识边界"与智能体使用可靠性
+
+这篇[综述预印本](https://papers.cool/arxiv/2611.17015)梳理了蛋白质结构、突变效应预测、单细胞响应等生物学基础模型的可靠性边界问题——即在哪些输入范围、任务类型和条件下，模型输出是可信的。作者提出用数据、架构、训练方案、评估方案和后分析五个维度刻画模型知识边界，并分析了当 AI 智能体将这些基础模型作为工具调用时可能发生的误用场景。论文为预印本，提供的是框架性讨论而非新的实验结果。
+
+### 10. 用患者来源类器官数据重训 AI 肿瘤药物响应预测模型
+
+大多数肿瘤药物响应预测（DRP）模型使用永生化癌细胞系数据训练，与真实患者肿瘤存在基因组和分子层面的差异。这项[论文预印本](https://papers.cool/arxiv/2611.15769)通过四项筛药实验生成了患者来源类器官（PDO，即从患者肿瘤组织培育的三维微型肿瘤，比细胞系更接近体内环境）的多组学和药物响应数据，并在三种训练场景下比较了多个公开 DRP 模型的表现：纯细胞系训练、联合训练和在 PDO 上微调。这批数据本身是公开贡献，供社区评测和改进模型使用；研究尚未直接涉及临床患者的用药指导。
 
 ---
 
 ## **⚡ 产品与功能更新**
 
-### Tiny Health 推出肠道菌群生物年龄评分
+### ARC 脑连接评分：影像指标尝试区分认知韧性与阿尔茨海默风险
 
-总部位于得克萨斯州奥斯汀的 Tiny Health 在 Eudēmonia 峰会上发布两项新功能：Microbiome Age（菌群年龄）和 Gut-Body Connections（肠道-身体关联）。"菌群生物年龄"是一个估算指标，通过对比个人肠道菌群组成与参考数据库来推算菌群的相对老化程度，不等于已经证实能预测疾病风险。据 [Longevity.Technology 的报道](https://longevity.technology/news/tiny-health-launches-a-biological-age-score-for-the-gut/)，该服务面向消费者，具体算法依据和验证研究待核查。
+研究人员开发了 ARC 脑连接评分，据 [News-Medical 的报道](https://www.news-medical.net/news/20261113/Your-brain-may-reveal-your-Alzheimere28099s-risk-before-symptoms-appear.aspx)该指标旨在通过脑区间的连接模式区分认知韧性（大脑在面对老化压力时维持功能的能力）与认知脆弱性，用于症状出现前的阿尔茨海默风险早期评估。素材为摘要级，具体样本量、验证方式和使用条件待核查原文；脑影像特征与风险存在关联，不等于能准确替代现有诊断检测。
+
+---
+
+## **🧪 前沿研究**
+
+### 自然产物蛋白组学图谱：4.6 万种化合物在九种癌症网络中的分子影响建模
+
+这项[论文预印本](https://papers.cool/arxiv/2611.15608)整合三个草药医学数据库，建立了涵盖 46,422 种化合物、12,459 种药用草药的标准化图谱，并结合蛋白质相互作用网络、蛋白组学和转录组学数据，重建了九种癌症的疾病特异性分子网络。核心方法是用 AI 推断化合物与靶蛋白的相互作用，再通过带符号的随机游走模拟分子影响如何从直接靶点扩散到全基因组尺度，以胃癌为深度案例，为 45,418 种化合物生成了分子影响图谱。这是系统级建模框架，所有推断均需实验验证，不直接代表临床疗效。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### qlu-lab/SARDINE：用表观遗传时钟研究衰老表型关联的统计框架
+### nopara73/LongevityWorldCup：生物年龄排行榜的开源运动平台
 
-[SARDINE](https://github.com/qlu-lab/SARDINE) 是一个 R 语言框架，用于从表观遗传全关联研究（EWAS）的汇总统计数据中估算"表观遗传时钟"与各类衰老表型之间的关联。表观遗传时钟是通过 DNA 甲基化模式来估算生物年龄的工具；SARDINE 的核心价值在于可以利用已公开的汇总统计，而不需要个体水平数据，适合没有大型原始队列的研究者使用。最近活跃时间为 2026 年 11 月初，Stars 数量为 1，使用前建议查阅仓库中的文档和示例。
+[LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) 是一个面向"长寿运动"概念的开源平台，根据项目描述包含生物年龄计算器、运动员档案和公开排行榜功能。生物年龄是通过生理指标估算出的"身体实际衰老程度"，与出生年龄不同，常用于健康干预效果的参考。项目目前有 28 颗星，最近活跃于 2026-11-13，许可证及具体算法依据未在描述中说明，建议查看仓库 README 核实计算方式和数据使用条件。
 
-### anbai106/SleepChart：睡眠时长与 23 种生物年龄时钟关系的建模脚本
+### Shrutijha-cs28/NeuroSense-AI：阿尔茨海默与帕金森数字生物标志物的多模态 AI 基准平台
 
-[SleepChart](https://github.com/anbai106/SleepChart) 提供用于分析睡眠时长与 23 种生物年龄时钟之间关系的 R 脚本，采用广义加性模型（GAM，一种可捕捉非线性关系的统计方法）建模，适合研究睡眠与衰老交叉领域的数据分析人员。仓库提供了原始分析脚本，Stars 数为 3，最近活跃时间为 2026 年 10 月底，使用许可证情况请在仓库页面核查。
+[NeuroSense-AI](https://github.com/Shrutijha-cs28/NeuroSense-AI) 是一个用于阿尔茨海默病和帕金森病研究的多模态 AI 基准平台，根据项目描述支持参与者分组交叉验证、SHAP 可解释性分析（一种量化每个特征对模型预测贡献的方法）和 Streamlit 交互式看板。项目适合做数字生物标志物研究的开发者和研究者参考评测方法；目前 1 颗星，最近活跃于 2026-11-13，具体数据集要求和运行环境见仓库说明，独立验证结果待核查。
 
 ---
 
 ## **❓ 相关问题**
 
-### Elamipretide 的人体实验结果如何，现在能用吗？
+### 敲除 HDAC7 对没有 tau 病变的小鼠有没有副作用？
 
-目前还不能用于临床。[Aging Cell 的这项研究](https://lifespan.io/the-short-peptide-elamipretide-delays-ovarian-aging-in-mice/)中的人体部分仅限于体外培养的卵母细胞实验，不是人体临床试验；小鼠的体内结果也不能直接外推至人体。Elamipretide 此前曾在心衰领域进行过人体研究，但针对卵巢衰老的适应症尚无注册临床试验数据可查。
+根据 [Lifespan.io 报道的原研究](https://lifespan.io/a-new-target-for-fighting-tau-tangles-in-neurons/)，在不表达异常 tau 的普通小鼠中，单独敲除 HDAC7 对认知表现有轻微负面倾向，但这些结果未达到统计显著性，不能确认为真实副作用。研究者因此将 HDAC7 视为潜在药物靶点，但在开发小分子抑制剂前仍需评估安全窗口；目前所有数据来自小鼠，人体安全性数据不存在。
