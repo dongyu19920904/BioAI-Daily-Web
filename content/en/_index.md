@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/11
+title: AI生命延续学日报 2026/11/12
 breadcrumbs: false
-next: /en/2026-11/2026-11-11
+next: /en/2026-11/2026-11-12
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,99 +11,77 @@ cascade:
 ## **Today's Summary**
 
 ```
-A mineral supplement cleared senescent cells in mice and modestly extended median lifespan.
-Chemotherapy may push breast cancer survivors' biological age ahead of their chronological age, potentially raising the risk of dying from other diseases.
-The lifespan extension results barely cleared statistical significance, weren't validated in female mice, and there's zero human data yet.
+A single injection of a gene-editing therapy kept bad cholesterol at low levels in primates for two years.
+A short peptide drug improved oocyte maturation quality in aged mice, with similar signals observed in vitro on human cells.
+Primate results have not yet entered human clinical trials — whether they'll replicate in humans remains unknown.
 ```
 
-## **🔥 Today's Top 10 Highlights**
+## **🔥 Today's Top 8 Highlights**
 
-### 1. Vanadyl Sulfate Clears Senescent Cells and Extends Lifespan in Mice
+### 1. One Shot, Two Years of Cholesterol Control — Non-Human Primate Data Is In
 
-Vanadyl sulfate (VS) — a mineral compound found in shellfish, mushrooms, and soybeans, also sold as a dietary supplement — was the subject of a new *Nature Aging* paper from a University of Chicago research team, as [reported by Lifespan.io](https://lifespan.io/a-supplement-kills-senescent-cells-and-extends-life-in-mice/). Senescent cells are those that stop dividing but refuse to die, instead pumping out harmful inflammatory signals to surrounding tissue — a key driver of accelerated aging. The researchers added VS to the drinking water of male mice around 71 weeks old (roughly elderly by mouse standards) for 90 days. Median lifespan jumped from 887 to 952 days, a 7.4% increase, while body fat dropped, physical performance and blood sugar regulation improved, and kidney inflammation markers declined. Mechanistically, VS appears to kill senescent cells by promoting abnormal protein folding, while healthy cells survive thanks to their stronger repair machinery. 🧪 Worth noting: each group had ~20 mice, the lifespan extension barely hit statistical significance, female mice weren't tested for longevity, and this is still animal data — translation to humans remains an open question.
+Scribe Therapeutics dropped a big one at the American Heart Association (AHA) annual meeting: their experimental gene-editing therapy STX-1150 kept LDL cholesterol (a.k.a. "bad cholesterol") at low levels for at least two years in non-human primates after a single injection. According to [Longevity.Technology's coverage](https://longevity.technology/news/scribes-one-dose-approach-keeps-cholesterol-down-for-years/), the company also presented early data on another candidate, STX-1200, at the same session. These results are still animal data — no human clinical trials yet. 🧬
 
-![VS Mouse Effects](https://lifespan.io/wp-content/uploads/2026/11/VS-Mouse-Effects.png)
+![Scribe's one-dose approach keeps cholesterol down for years](https://longevity.technology/wp-content/uploads/2026/11/scribes-one-dose-approach-keeps-cholesterol-down-for-years-hero-1200x800-1-1024x683.png)
 
----
+### 2. Elamipretide Slows Ovarian Aging in Mice — A Peptide Drug Worth Watching
 
-### 2. Bonbon, an AI Foundation Model, Shows Zero-Shot Emergent Abilities in Drug Discovery
+Published in the peer-reviewed journal *Aging Cell*, [this study](https://lifespan.io/the-short-peptide-elamipretide-delays-ovarian-aging-in-mice/) found that seven consecutive days of injecting the short peptide Elamipretide into aged mice improved oocyte maturation quality, boosted fertilization rates, and increased litter sizes within one month post-treatment. The researchers also observed similar improvement signals in cultured oocytes from women over 35 — but there's still a significant gap between in vitro results and actual clinical efficacy. This doesn't mean the drug is ready to extend the human fertility window just yet. 🔬
 
-Bonbon is a foundation model trained on roughly 3.2 trillion protein-ligand sequence pairs — where ligands are small molecules that bind proteins and could become drugs — and it was never explicitly taught any specific task during training, yet it spontaneously developed three "emergent abilities": identifying drug mechanisms of action, pinpointing binding sites on proteins, and distinguishing covalent from non-covalent binding. That's the finding from the [paper index/abstract](https://papers.cool/arxiv/2611.14504). In wet-lab validation across 9 disease targets, 61.5% of Bonbon's novel compounds showed activity in dose-response experiments, including entirely new structural scaffolds previously unreported as inhibitors of those proteins. 🔬 This is a preprint — peer review pending — and lab efficacy is a long way from clinical drugs.
+![Elamipretide effects](https://lifespan.io/wp-content/uploads/2026/11/Elamipretide-effects.png)
 
----
+### 3. Yogurt and Cheese Show No Clear Benefit for Muscle Health in Adults 50+
 
-### 3. Chemotherapy May Accelerate Biological Aging in Breast Cancer Survivors
+A cross-sectional analysis of 6,790 Irish adults aged 50 and older found no consistent association between fermented dairy intake (yogurt and cheese) and grip strength, physical performance, or frailty levels — after controlling for lifestyle and socioeconomic factors. According to [News-Medical's coverage](https://www.news-medical.net/news/20261111/Yogurt-and-cheese-are-rich-in-protein-but-do-they-help-aging-muscles.aspx), one analysis even found that higher intake was associated with greater odds of low grip strength, though other analyses couldn't replicate that finding. Worth noting: cross-sectional studies can only observe associations at a single point in time, not causation — researchers emphasized the need for longitudinal follow-up. 🥛
 
-Chemotherapy, while helping breast cancer patients survive, may push the body's "biological age" — an estimate of true physiological aging based on blood or cellular markers, distinct from chronological age — beyond the patient's actual age, and may also raise the risk of dying from other diseases. That's the thrust of new research [reported by News-Medical](https://www.news-medical.net/news/20261110/Chemotherapy-may-accelerate-biological-aging-in-breast-cancer-survivors.aspx). The source currently only provides a title and abstract; sample size, chemo type, and specific numbers are pending verification — check the original paper for study design details.
+[![Source image: Yogurt and cheese are rich in protein, but do they help aging muscles?](https://www.news-medical.net/images/news/ImageForNews_851397_17944494456323000.jpg)](https://www.news-medical.net/news/20261111/Yogurt-and-cheese-are-rich-in-protein-but-do-they-help-aging-muscles.aspx)
 
-[![Source image: Chemotherapy may accelerate biological aging in breast cancer survivors](https://www.news-medical.net/images/tags/TagImage-1039-45840826385648151818-620x480.jpg)](https://www.news-medical.net/news/20261110/Chemotherapy-may-accelerate-biological-aging-in-breast-cancer-survivors.aspx)
+### 4. Johns Hopkins Completes Enrollment for Phase 1 Trial Converting Skin Cells Into Palm-Like Tissue
 
----
+Johns Hopkins Medicine researchers, in an NIH-funded Phase 1 clinical trial, have partially converted ordinary skin cells into "volar skin" — the tougher, pressure- and friction-resistant skin found on palms and soles. According to [News-Medical's coverage](https://www.news-medical.net/news/20261111/Experimental-cell-therapy-helps-ordinary-skin-mimic-tough-palm-tissue.aspx), this Phase 1 trial is primarily evaluating safety — no efficacy data has been released yet. Specific enrollment numbers and completion details are pending verification from the original source. 🏥
 
-### 4. Pyrite: An AI Agent Benchmark for Molecular Pose Ranking in Drug Design
+### 5. Rare Genetic Mutation May Protect Against Parkinson's and Lewy Body Dementia
 
-Pyrite is a benchmark dataset of 1,500 binding pose pairs designed to test whether AI can determine which drug molecule configuration is more likely to actually bind a target protein — a task known as ligand binding pose ranking. The [paper index/abstract](https://papers.cool/arxiv/2611.14511) has a fun twist: expert chemists equipped with 3D visualization tools performed near chance level, showing just how hard this problem really is. 😅 Building on that, the researchers developed two LLM-based agents: PyriteReasoner (direct text-based reasoning) hit 67% accuracy, while PyriteFeaturizer (which guides the model to auto-generate feature extraction code) reached 74% — both beating human expert performance. This is a preprint-stage benchmark study; accuracy figures reflect performance on the benchmark set and don't translate directly to real-world drug development success rates.
+Researchers at Oregon Health & Science University have identified a rare genetic mutation that may offer protection against Parkinson's disease and Lewy body dementia — a type of dementia characterized by abnormal protein deposits in the brain. As reported by [News-Medical](https://www.news-medical.net/news/20261111/Rare-genetic-mutation-may-protect-against-Parkinsons-and-Lewy-body-dementia.aspx), the current source is abstract-level only; specific study design, sample size, and mutation locus are pending verification from the full paper. This does not imply the mutation can be artificially replicated or used therapeutically. 🧠
 
----
+### 6. Gut Microbial Metabolites May Reshape Fat Tissue via Wnt Signaling
 
-### 5. Foundation Model Adaptation Beats Specialist Models for Cross-Institution Medical Image Segmentation
+[This study covered by News-Medical](https://www.news-medical.net/news/20261111/Gut-microbial-metabolites-may-reshape-fat-tissue-through-Wnt-pathways.aspx) looks at how metabolites produced by gut bacteria influence adipose tissue — specifically through the Wnt signaling pathway, a mechanism that controls cell proliferation and differentiation. The abstract notes that when the generation of new fat cells is insufficient, excess energy accumulates in aging fat cells, potentially triggering inflammation and insulin resistance. Source is currently abstract-level; study subjects, samples, and specific results are pending verification from the full paper. 🦠
 
-DINOv2 and similar foundation models — general-purpose vision models pretrained on large-scale natural images — were systematically compared against task-specific models for medical image segmentation, covering colonoscopy, breast ultrasound, and dermoscopy, according to the [paper index/abstract](https://papers.cool/arxiv/2611.14519). On external test sets from different institutions, adapted foundation models outperformed from-scratch specialist models on generalization across every dataset. That said, when training data was plentiful, specialist models were sharper at lesion boundary delineation and had lower small-lesion miss rates. The researchers also found that only a tiny fraction of model parameters need adapting, and the right approach depends on the imaging domain rather than the adaptation method. Still a preprint — not yet peer-reviewed.
+### 7. Living Arrangements Linked to Mental Health Outcomes in Older Adults
 
----
+As reported by [News-Medical](https://www.news-medical.net/news/20261111/New-study-links-senior-living-arrangements-to-mental-health-outcomes.aspx), with multigenerational households on the decline, more older adults are living alone or with only a spouse — this study examines the association between different living arrangements and mental health outcomes. The source is abstract-level; specific sample, region, measurements, and direction of association are pending verification from the full paper. As an observational study, it can only speak to associations, not establish that living arrangements directly cause mental health changes. 🏠
 
-### 6. DrugCoding: An AI Coding Agent That Automates Multi-Stage Drug Discovery Pipelines
+[![Source image: New study links senior living arrangements to mental health outcomes](https://www.news-medical.net/images/tags/TagImage-1831-45296002389942131275-620x480.jpg)](https://www.news-medical.net/news/20261111/New-study-links-senior-living-arrangements-to-mental-health-outcomes.aspx)
 
-DrugCoding is an AI system that autonomously plans tasks, calls specialized scientific models, and generates executable code to chain together molecular design, property prediction, and virtual screening into automated drug discovery workflows, as proposed in the [paper index/abstract](https://papers.cool/arxiv/2611.13651). Across multi-round tool-calling evaluations spanning multiple language models and scientific tool interfaces, DrugCoding hit a Pass@1 rate (getting it right on the first try) of 97.35% on the full benchmark — 9.24 percentage points above the strongest baseline. 🤖 These are results on a standardized benchmark set; real drug development pipelines are far messier and more uncertain. Still preprint stage.
+### 8. Longevity Omics: A Review Attempting to Integrate Multi-Omics with Longevity Science
 
----
-
-### 7. Predicting Single-Cell Spatial Gene Expression from Tissue Slide Images
-
-A method for predicting single-cell-level gene expression from H&E-stained pathology slides — the routine tissue staining images made in hospitals — is presented in the [paper index/abstract](https://papers.cool/arxiv/2611.13649). Trained with paired Xenium 5K spatial transcriptomics data and using a domain adaptation strategy, the approach boosted average gene prediction correlation 2.67× over the zero-shot baseline, hit a Pearson correlation of 0.63 for spatially variable genes, and achieved an AUROC of 0.80 for detecting all genes. The potential upside here is getting partial gene expression information without expensive molecular assays — but prediction performance varies significantly across biological contexts, and a correlation between H&E images and gene expression doesn't mean you can substitute one for the other. Preprint stage.
-
----
-
-### 8. Landmark Alzheimer's Longitudinal Study Lands $32M Grant Extended Through 2031
-
-The Alzheimer's disease longitudinal research project — originally launched in the 1970s by neurologist Leonard Berg at Washington University in St. Louis — has received a $32 million grant extending the work through 2031, as [reported by News-Medical](https://www.news-medical.net/news/20261110/2432-million-grant-extends-landmark-Alzheimers-research-through-2031.aspx). One of the longest-running cohort studies in the field, this project pushed back against treating age-related memory decline as "normal aging" and has been tracking the actual pathological progression in the brain. Details on specific research directions and how this round of funding will be used are in the [media report](https://www.news-medical.net/news/20261110/2432-million-grant-extends-landmark-Alzheimers-research-through-2031.aspx).
-
----
-
-### 9. 45 Days of Yoga Improves Mood and Memory, But the Long-Term Meaning of Brain Connectivity Changes Is Still Unclear
-
-Yoga is what drove measurable changes in mood, self-reported sleep quality, and some short-term memory metrics in a randomized controlled trial of 139 healthy adults who completed a 45-day standardized yoga program versus a waitlist control group, as [reported by News-Medical](https://www.news-medical.net/news/20261110/Scientists-scanned-peoples-brains-before-and-after-45-days-of-yoga-Heres-what-changed.aspx). Brain scans from a subset of 43 participants showed changes in functional connectivity — how in-sync different brain regions are, measurable via MRI — across networks involved in movement, attention, language, and cognitive processing. The researchers explicitly noted that the long-term significance of these connectivity changes remains uncertain, and you can't use this to conclude yoga prevents cognitive decline. 🧘
-
-[![Source image: Scientists scanned people's brains before and after 45 days of yoga. Here's what changed](https://www.news-medical.net/images/news/ImageForNews_851266_17943566428378793.jpg)](https://www.news-medical.net/news/20261110/Scientists-scanned-peoples-brains-before-and-after-45-days-of-yoga-Heres-what-changed.aspx)
-
----
-
-### 10. Ergothioneine in Mushrooms May Protect Against Neurodegeneration — But Human Evidence Is Thin
-
-Ergothioneine — a natural antioxidant found primarily in mushrooms — has shown protective effects against oxidative stress and inflammation linked to Alzheimer's and Parkinson's disease in lab and animal studies, according to a review [reported by News-Medical](https://www.news-medical.net/news/20261110/Could-eating-more-mushrooms-help-protect-your-brain-as-you-age.aspx). Human evidence, however, remains very limited. The review's authors stress that larger clinical trials are needed before anyone can say whether ergothioneine supplementation actually prevents or slows neurodegeneration — current findings aren't a basis for dietary recommendations. 🍄
-
-[![Source image: Could eating more mushrooms help protect your brain as you age?](https://www.news-medical.net/images/news/ImageForNews_851241_17943525083515017.jpg)](https://www.news-medical.net/news/20261110/Could-eating-more-mushrooms-help-protect-your-brain-as-you-age.aspx)
+A paper titled "The Science of Longevity as Longevity Omics" has been indexed in Europe PMC. According to its [paper index page](https://europepmc.org/article/MED/43014623), it attempts to build a unified systems science framework for healthy longevity — integrating multi-omics (simultaneous analysis of genomic, proteomic, metabolomic, and other biological data layers) with lifespan extension research. Peer review status is pending verification; specific findings and methodology require reading the full paper. 📊
 
 ---
 
 ## **⚡ Product & Feature Updates**
 
-### Fitnescity Health Expands Whole-Body MRI Scans to Nearly 100 Sites Nationwide
+### Tiny Health Launches Gut Microbiome Biological Age Score
 
-Fitnescity Health — which bills itself as the largest preventive imaging network in the US — has opened up whole-body MRI scanning to nearly 100 locations nationwide and is offering unified API access for health platforms, as [reported by Longevity.Technology](https://longevity.technology/news/fitnescity-healths-whole-body-mri-scans-go-nationwide/). Whole-body MRI covers all major organs in a single scan for early detection of potential abnormalities — a service previously limited to a handful of boutique health centers. This expansion makes booking feel closer to a routine checkup, though broader commercial access doesn't equal new evidence for clinical effectiveness. Pricing and coverage specifics are in the [media report](https://longevity.technology/news/fitnescity-healths-whole-body-mri-scans-go-nationwide/).
-
----
-
-## **🧪 Frontier Research**
-
-### Amyloid Accumulation in the Brain's Choroid Plexus Shows Nonlinear Patterns in Middle Age
-
-The choroid plexus — the brain structure responsible for producing cerebrospinal fluid — and the formation of "Biondi body" amyloid within it were the focus of [this preprint](https://europepmc.org/article/MED/PPR1361149), which found the process exhibits cross-scale nonlinear changes during middle age, with links to early-stage neurodegenerative disease progression. The choroid plexus and amyloid accumulation are considered potentially early windows into Alzheimer's research. This is an unreviewed preprint on human samples — specific sample size and methodology need verification from the original paper.
+Tiny Health, based in Austin, Texas, unveiled two new features at the Eudēmonia Summit: Microbiome Age and Gut-Body Connections. "Microbiome biological age" is an estimated metric — it infers the relative aging of a person's gut microbiome by comparing their composition against a reference database, and does not equate to a proven predictor of disease risk. According to [Longevity.Technology's coverage](https://longevity.technology/news/tiny-health-launches-a-biological-age-score-for-the-gut/), the service is consumer-facing; the specific algorithmic basis and validation studies are pending verification. 🦠
 
 ---
 
-## **◎ Industry Shifts & Personal Impact**
+## **⌘ Top Open Source Projects**
 
-### UTHealth Houston Launches Mobile Medical Clinic in the Rio Grande Valley
+### qlu-lab/SARDINE: A Statistical Framework for Studying Aging Phenotype Associations Using Epigenetic Clocks
 
-UTHealth Houston unveiled a new mobile clinic in the Lower Rio Grande Valley of Texas on October 22nd, as [reported by News-Medical](https://www.news-medical.net/news/20261110/UTHealth-Houston-unveils-state-of-the-art-mobile-clinic-in-the-Lower-Rio-Grande-Valley.aspx). Mobile clinics bring medical equipment directly to underserved communities — and this region has historically had low healthcare access. The announcement doesn't include specifics on services offered, population covered, or operational scale; details are in the [media report](https://www.news-medical.net/news/20261110/UTHealth-Houston-unveils-state-of-the-art-mobile-clinic-in-the-Lower-Rio-Grande-Valley.aspx).
+[SARDINE](https://github.com/qlu-lab/SARDINE) is an R framework for estimating associations between epigenetic clocks and various aging phenotypes from summary statistics of epigenome-wide association studies (EWAS). Epigenetic clocks are tools that estimate biological age via DNA methylation patterns; SARDINE's core value is that it works with publicly available summary statistics without requiring individual-level data — making it accessible for researchers without large raw cohorts. Last active in early November 2026, with 1 star. Review the repo's documentation and examples before use. ⭐
+
+### anbai106/SleepChart: Modeling Scripts for Sleep Duration vs. 23 Biological Age Clocks
+
+[SleepChart](https://github.com/anbai106/SleepChart) provides R scripts for analyzing the relationship between sleep duration and 23 biological age clocks, using Generalized Additive Models (GAM — a statistical method that can capture non-linear relationships). It's well-suited for data analysts working at the intersection of sleep and aging research. The repo includes the original analysis scripts, has 3 stars, and was last active in late October 2026. Check the repo page for license details. 😴
+
+---
+
+## **❓ Related Questions**
+
+### What Are Elamipretide's Human Trial Results — Can It Be Used Now?
+
+Not yet. The human component in [this *Aging Cell* study](https://lifespan.io/the-short-peptide-elamipretide-delays-ovarian-aging-in-mice/) was limited to in vitro cultured oocyte experiments — not a human clinical trial. The in vivo mouse results also can't be directly extrapolated to humans. Elamipretide has previously been studied in humans for heart failure, but no registered clinical trial data is available for the ovarian aging indication. So for now, it's one to watch, not one to use. 👀
