@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/13'
+title: 'AI生命延续学日报 2026/11/14'
 breadcrumbs: false
-next: /2026-11/2026-11-13
-description: '2026-11-13 AI生命延续学日报：阿尔茨海默病鼠模型中，敲除 HDAC7 显著改善记忆并减少 tau 蛋白缠结；人类基底核完整 3D 细胞图谱发布，涵盖 28 篇 Cell Press 论文；AI 平台从冬眠哺乳动物基因组中挖出第二个肥胖靶点。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-14
+description: '2026-11-14 AI生命延续学日报：大脑血清素信号随衰老增强，抑制老年小鼠的活动意愿；AI 超声估算"心脏年龄"偏大与更差的健康结局相关；肠道益生菌产生的一种分子可快速修复肠壁损伤。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,93 +11,61 @@ cascade:
 ## **今日摘要**
 
 ```
-阿尔茨海默病小鼠敲除某蛋白后记忆显著改善，tau缠结减少。
-人类大脑深部区域首次完成三维逐细胞图谱，疾病风险基因有了结构参照。
-两项结果均来自动物模型或基础测绘，尚无法直接用于人体诊断或治疗。
+老年小鼠脑干血清素信号增强会抑制活动意愿，干预后活动量改善，但结论仍限于动物实验。
+AI分析心脏超声估算的"心脏年龄"偏大与更差健康结局相关，目前属关联性观察。
+两项研究均未在人体验证因果关系，不能据此判断个人风险或指导干预。
 ```
 
-## **🔥 今日焦点 TOP 10**
+## **🔥 今日焦点 TOP 5**
 
-### 1. 阿尔茨海默病鼠模型中，敲除 HDAC7 显著改善记忆并减少 tau 蛋白缠结
+### 1. 大脑血清素信号随衰老增强，抑制老年小鼠的活动意愿
 
-据 [Lifespan.io 的报道](https://lifespan.io/a-new-target-for-fighting-tau-tangles-in-neurons/)，研究人员发现 HDAC7 这种蛋白会同时抓住 tau 蛋白和激酶 GSK3β，形成一个三元复合物——tau 蛋白过度磷酸化（即被"打上太多化学标签"后变形缠绕）正是阿尔茨海默病的核心病理之一。在表达异常 tau 的小鼠中，敲除 HDAC7 基因后，小鼠在水迷宫和新物体识别测试中的记忆表现显著提升，脑内 tau 磷酸化水平和突触蛋白损失也均有改善。研究还确认这一效应来自 HDAC7 蛋白的 N 端结构域，与其酶活性无关，提示针对该结合位点开发小分子药物具有可行性。目前结果仅来自小鼠模型，人类 tau 病变涉及更多亚型，能否转化为人体疗效尚不清楚。
+阿伯丁大学一项发表于《Metabolism》的研究发现，衰老小鼠脑干"背侧缝际核"区域的血清素神经元在小鼠活跃时段放电频率升高，通过激活抑制性中间神经元，减少"腹侧被盖区"的多巴胺释放——多巴胺是驱动运动动机的关键神经递质。研究者用病毒靶向杀死这批血清素神经元后，14-20 月龄小鼠的活动量、移动速度和握力均有所改善，体脂也在八周内下降，且食物摄入未变化。据 [Lifespan.io 的报道](https://lifespan.io/serotonin-signals-suppress-physical-activity-in-aging-mice/)，研究者还先在 17-70 岁的苏格兰志愿者中用加速度计确认了老年人活动量下降的模式，以验证小鼠是合理的研究模型。这项结果目前仍限于动物实验，靶向杀神经元的方法不适用于人体，未来研究需要寻找更温和的干预方式。
 
-![tau缠结与神经元激活示意图](https://lifespan.io/wp-content/uploads/2026/11/Active-brain-262x187.jpg)
-
-### 2. 人类基底核完整 3D 细胞图谱发布，涵盖 28 篇 Cell Press 论文
-
-国际神经科学联合体在 Cell Press 系列期刊上同步发布共 28 篇论文，据 [Longevity Technology 的报道](https://longevity.technology/news/scientists-chart-the-brains-cellular-architecture/)首次完成人类基底核（大脑深部参与运动控制、奖励和学习的区域）的三维逐细胞图谱，不仅记录每类细胞的位置，还标注了调控其行为的基因和表观遗传信息。这是"人类大脑完整细胞地图"这一更大计划的第一个里程碑。图谱将疾病风险基因定位到具体细胞类型，为帕金森病、精神分裂症等疾病的机制研究提供了结构基础，但目前属于基础测绘，尚未直接带来诊断工具或治疗方案。
-
-[![来源配图：Scientists chart the brain’s cellular architecture](https://longevity.technology/wp-content/uploads/2026/11/scientists-chart-the-brains-cellular-architecture-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/scientists-chart-the-brains-cellular-architecture/)
-
-### 3. AI 平台从冬眠哺乳动物基因组中挖出第二个肥胖靶点
-
-Fauna Bio 与礼来公司的肥胖症合作于 11 月 11 日宣布产出第二个候选靶点，据 [Longevity Technology 的报道](https://longevity.technology/news/hibernator-biology-yields-a-second-obesity-target/)该靶点来自不同组织，由 Fauna Bio 基于冬眠哺乳动物基因组构建的 AI 药物发现平台识别。冬眠动物能在体重和代谢大幅波动后保持健康，这一特性是该平台的核心生物学假设。目前公告仅确认靶点发现阶段，尚未披露候选药物或临床前数据。
-
-[![来源配图：Hibernator biology yields a second obesity target](https://longevity.technology/wp-content/uploads/2026/11/hibernator-biology-yields-a-second-obesity-target-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/hibernator-biology-yields-a-second-obesity-target/)
-
-### 4. 84 名中年人研究：压力和年龄与端粒缩短相关，体能指标关联不一致
-
-端粒是染色体末端的保护结构，其长度常被用作细胞衰老程度的参考指标。据 [News-Medical 的报道](https://www.news-medical.net/news/20261112/Your-fitness-may-say-less-about-cellular-aging-than-you-think.aspx)，一项对 84 名中年成人的研究发现，更高的感知压力和年龄与更短的端粒相关，而体能水平、体成分和生活习惯与端粒长度没有稳定的独立关联。这提示端粒长度更多反映心理社会负担，而非当前体能状态。研究样本量较小，且论文统计编码中存在一处需厘清的不一致，慢性病关联结论需谨慎参考。
-
-[![来源配图：Your fitness may say less about cellular aging than you think](https://www.news-medical.net/images/news/ImageForNews_851564_17945376646535743.jpg)](https://www.news-medical.net/news/20261112/Your-fitness-may-say-less-about-cellular-aging-than-you-think.aspx)
-
-### 5. 肝脏蛋白 APOA1 在阿尔茨海默病鼠模型中改善突触完整性和部分记忆指标
-
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261112/Liver-derived-protein-helps-protect-brain-cells-and-improves-memory-in-Alzheimers-mice.aspx)，研究人员筛查了能穿越血脑屏障（即分隔血液与脑组织的生理屏障）进入脑组织的 92 种循环蛋白，发现肝脏来源的 APOA1 在正常状态下参与调节星形胶质细胞的胆固醇代谢并支持神经突触。在阿尔茨海默病小鼠模型中，APOA1 转运受损，但人为提高其肝脏产量后，炎症和淀粉样蛋白异常有所减少，突触完整性改善，部分记忆指标也有提升。结果目前仅来自动物模型，能否在人体中重现尚待验证。
-
-### 6. NIBench：首个覆盖神经影像完整工作流的 AI 自主智能体基准
-
-这项[论文](https://papers.cool/arxiv/2611.15831)发布了 NIBench 基准，专门测试 AI 自主智能体（即能在无人干预下连续完成多步分析任务的 AI 系统）在神经影像分析中的真实表现，涵盖结构 MRI、扩散 MRI、功能 MRI 和 PET 等七类工具生态的 56 项任务，同时评估 36 条来自阿尔茨海默病已发表研究的结论能否被智能体从原始数据中可靠复现。对 19 个语言模型的测评显示：给定完整分析流程时，顶级智能体执行近乎完美；但一旦省略操作指引，模型间差距明显拉大；智能体有时能复现原报告数值，却得出与专家不一致的科学判断。论文为预印本，尚未经过同行评审。
-
-### 7. 蛋白质语言模型的"字母锚定"缺陷：残基顺序之外的隐藏偏差
-
-蛋白质语言模型（如 ESM-2）可以从单条序列预测蛋白质中哪些位置会相互接触，但一直不清楚它究竟学到了什么。这项[论文预印本](https://papers.cool/arxiv/2611.16881)引入一种诊断方法：在保持所有比对信息、列熵和编辑距离完全不变的前提下，对氨基酸字母表做全局重标记。经典统计模型在此变换下结果不变，但 ESM-2、MSA Transformer、AMPLIFY 等多个架构的接触图均大幅崩溃，说明这些模型依赖氨基酸的具体字母身份（即"字母锚定"），而非纯粹的共进化统计规律。增大模型规模使其对生化类别更敏感，但问题仍未消除，提示直接用这类模型输出做生物建模时需要额外核查。
-
-### 8. DNA 编码库第二代设计：用 AI 估算需要多大规模才能训练出精准结合模型
-
-在药物发现中，DNA 编码库（DEL）是一种同时合成和筛选数百万种小分子的方法，但从初代筛选数据训练出能分辨单原子变化的结合模型仍是难题。这项[论文预印本](https://papers.cool/arxiv/2611.17121)提出"能量像素"框架，仅凭初代库的结合亲和力分布——无需结构信息、无需已合成分子——估算第二代库需要多大规模才能提供足够稠密的化学空间覆盖和足够多的高亲和力分子。方法同时给出随机设计库的预期产出基线，可用来量化机器学习主动设计相对于随机策略的实际增益。目前为预印本，尚未在真实项目中独立验证。
-
-### 9. 综述：生物学基础模型的"知识边界"与智能体使用可靠性
-
-这篇[综述预印本](https://papers.cool/arxiv/2611.17015)梳理了蛋白质结构、突变效应预测、单细胞响应等生物学基础模型的可靠性边界问题——即在哪些输入范围、任务类型和条件下，模型输出是可信的。作者提出用数据、架构、训练方案、评估方案和后分析五个维度刻画模型知识边界，并分析了当 AI 智能体将这些基础模型作为工具调用时可能发生的误用场景。论文为预印本，提供的是框架性讨论而非新的实验结果。
-
-### 10. 用患者来源类器官数据重训 AI 肿瘤药物响应预测模型
-
-大多数肿瘤药物响应预测（DRP）模型使用永生化癌细胞系数据训练，与真实患者肿瘤存在基因组和分子层面的差异。这项[论文预印本](https://papers.cool/arxiv/2611.15769)通过四项筛药实验生成了患者来源类器官（PDO，即从患者肿瘤组织培育的三维微型肿瘤，比细胞系更接近体内环境）的多组学和药物响应数据，并在三种训练场景下比较了多个公开 DRP 模型的表现：纯细胞系训练、联合训练和在 PDO 上微调。这批数据本身是公开贡献，供社区评测和改进模型使用；研究尚未直接涉及临床患者的用药指导。
+![衰老小鼠血清素与活动](https://lifespan.io/wp-content/uploads/2026/11/Serotonin-Signals-Suppress-Physical-Activity-in-Aging-Mice-262x187.webp)
 
 ---
 
-## **⚡ 产品与功能更新**
+### 2. AI 超声估算"心脏年龄"偏大与更差的健康结局相关
 
-### ARC 脑连接评分：影像指标尝试区分认知韧性与阿尔茨海默风险
+在 ESC 数字与 AI 峰会 2026 上发布的研究显示，用 AI 分析超声心动图可以估算一个人的"心脏年龄"，当这个估算值高于实际年龄时，对应更差的健康结局。"心脏年龄"是一种综合心脏功能状态给出的估算指标，类似于"生物年龄"的概念，用来衡量心脏的老化程度是否超过实际年龄。据 [News-Medical 的报道](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx)，这一发现目前仍是关联性研究，具体样本量和随访时长待核查，尚不能说明 AI 估算本身能预测或改变个人的心脏疾病风险。
 
-研究人员开发了 ARC 脑连接评分，据 [News-Medical 的报道](https://www.news-medical.net/news/20261113/Your-brain-may-reveal-your-Alzheimere28099s-risk-before-symptoms-appear.aspx)该指标旨在通过脑区间的连接模式区分认知韧性（大脑在面对老化压力时维持功能的能力）与认知脆弱性，用于症状出现前的阿尔茨海默风险早期评估。素材为摘要级，具体样本量、验证方式和使用条件待核查原文；脑影像特征与风险存在关联，不等于能准确替代现有诊断检测。
-
----
-
-## **🧪 前沿研究**
-
-### 自然产物蛋白组学图谱：4.6 万种化合物在九种癌症网络中的分子影响建模
-
-这项[论文预印本](https://papers.cool/arxiv/2611.15608)整合三个草药医学数据库，建立了涵盖 46,422 种化合物、12,459 种药用草药的标准化图谱，并结合蛋白质相互作用网络、蛋白组学和转录组学数据，重建了九种癌症的疾病特异性分子网络。核心方法是用 AI 推断化合物与靶蛋白的相互作用，再通过带符号的随机游走模拟分子影响如何从直接靶点扩散到全基因组尺度，以胃癌为深度案例，为 45,418 种化合物生成了分子影响图谱。这是系统级建模框架，所有推断均需实验验证，不直接代表临床疗效。
+[![来源配图：Older AI-estimated heart age linked to worse health outcomes](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx)
 
 ---
 
-## **⌘ 开源 TOP 项目**
+### 3. 肠道益生菌产生的一种分子可快速修复肠壁损伤
 
-### nopara73/LongevityWorldCup：生物年龄排行榜的开源运动平台
+罗格斯大学健康学院的科学家发现，肠道内"好"细菌产生的某种分子能快速修复受损的肠道黏膜，并促进一种随年龄减少的辅酶（coenzyme）的生成。肠道黏膜是阻止细菌和毒素进入血液的屏障，损伤后与炎症性肠病等严重疾病相关。据 [News-Medical 的报道](https://www.news-medical.net/news/20261113/Researchers-discover-bacterial-molecule-that-rapidly-repairs-intestinal-damage.aspx)，该分子的具体身份、实验模型（细胞、动物或人体）及详细数据均待核查，目前只能确认研究方向为肠道菌群与肠道修复及衰老相关代谢的交叉。
 
-[LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) 是一个面向"长寿运动"概念的开源平台，根据项目描述包含生物年龄计算器、运动员档案和公开排行榜功能。生物年龄是通过生理指标估算出的"身体实际衰老程度"，与出生年龄不同，常用于健康干预效果的参考。项目目前有 28 颗星，最近活跃于 2026-11-13，许可证及具体算法依据未在描述中说明，建议查看仓库 README 核实计算方式和数据使用条件。
+---
 
-### Shrutijha-cs28/NeuroSense-AI：阿尔茨海默与帕金森数字生物标志物的多模态 AI 基准平台
+### 4. 默克启动三期试验，测试 COPD 维持药物能否减少急性发作
 
-[NeuroSense-AI](https://github.com/Shrutijha-cs28/NeuroSense-AI) 是一个用于阿尔茨海默病和帕金森病研究的多模态 AI 基准平台，根据项目描述支持参与者分组交叉验证、SHAP 可解释性分析（一种量化每个特征对模型预测贡献的方法）和 Streamlit 交互式看板。项目适合做数字生物标志物研究的开发者和研究者参考评测方法；目前 1 颗星，最近活跃于 2026-11-13，具体数据集要求和运行环境见仓库说明，独立验证结果待核查。
+慢阻肺（COPD，慢性阻塞性肺病）药物 Ohtuvayre（ensifentrine）在 2024 年 6 月获 FDA 许可用于成人维持治疗，但原批准试验并未专门测量它能否减少"急性加重"——即病情突然恶化的发作。默克现已启动名为 ENHANCE-3 的三期临床试验，计划在美国等地招募约 2,136 名患者，随访一年，直接回答这个问题。据 [Longevity.Technology 的报道](https://longevity.technology/news/merck-tests-a-copd-drug-against-flare-ups/)，首批患者已开始入组，但入组不等于完成治疗，结果需等到试验完成后才能得出。
+
+[![来源配图：Merck tests a COPD drug against flare-ups](https://longevity.technology/wp-content/uploads/2026/11/merck-tests-a-copd-drug-against-flare-ups-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/merck-tests-a-copd-drug-against-flare-ups/)
+
+---
+
+### 5. NKGen Biotech 公布单例阿尔茨海默病患者 12 个月自然杀伤细胞疗法数据
+
+NKGen Biotech 在波士顿 CTAD 会议上展示了一份只涉及一名阿尔茨海默病患者的海报，记录其接受"自然杀伤细胞疗法"（natural killer cell therapy，一种利用免疫细胞攻击病变靶点的治疗方式）连续 12 个月的观察情况。据 [Longevity.Technology 的报道](https://longevity.technology/news/one-alzheimers-patient-12-more-months-of-therapy/)，单例报告无法与对照组比较，不能据此判断疗法是否有效，具体指标数据待核查，但这类早期观察通常用于为后续更大规模试验提供安全性和耐受性参考。
+
+[![来源配图：One Alzheimer’s patient, 12 more months of therapy](https://longevity.technology/wp-content/uploads/2026/11/one-alzheimers-patient-12-more-months-of-therapy-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/one-alzheimers-patient-12-more-months-of-therapy/)
+
+---
+
+## **◎ 行业变化与个人影响**
+
+### Evommune 以 3000 万美元首付授权自免新药 EVO570，一期试验即将启动
+
+Evommune 于 11 月 4 日宣布以 3000 万美元首付从成都生物技术公司 Hinova Pharmaceuticals 授权引入口服药 EVO570，这是一种靶向 VAV1 蛋白的降解剂，用于治疗自身免疫性疾病。VAV1 是免疫细胞活化的关键信号分子，降解它意在抑制过度活跃的免疫反应。据 [Longevity.Technology 的报道](https://longevity.technology/news/evommune-bets-30m-upfront-on-a-new-autoimmune-drug/)，里程碑付款总额最高可达约 11 亿美元，一期人体安全性试验即将启动；一期试验只评估安全性，尚不能说明对患者有临床疗效。
 
 ---
 
 ## **❓ 相关问题**
 
-### 敲除 HDAC7 对没有 tau 病变的小鼠有没有副作用？
+### "心脏年龄"比实际年龄大，说明我的心脏已经提前老化了吗？
 
-根据 [Lifespan.io 报道的原研究](https://lifespan.io/a-new-target-for-fighting-tau-tangles-in-neurons/)，在不表达异常 tau 的普通小鼠中，单独敲除 HDAC7 对认知表现有轻微负面倾向，但这些结果未达到统计显著性，不能确认为真实副作用。研究者因此将 HDAC7 视为潜在药物靶点，但在开发小分子抑制剂前仍需评估安全窗口；目前所有数据来自小鼠，人体安全性数据不存在。
+不能这样直接判断。AI 估算的"心脏年龄"是一个基于超声图像特征的统计指标，反映的是人群层面的关联，单次数值偏高与更差的健康结局相关，但不等于某个人的心脏已确定发生了超龄老化或疾病。据 [News-Medical 的报道](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx)，此次发布的是关联性研究结果，具体预测能力和临床使用标准尚待更多研究确认。
