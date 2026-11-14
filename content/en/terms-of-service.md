@@ -10,53 +10,53 @@ sidebar:
 
 ---
 
-**ai.hubtoday** (aka "**this site**" or "**we**") welcomes you! Please read through these terms of service carefully before using this site. By accessing or using this site, you agree to and accept these terms. ✨
+**ai.hubtoday** (the "**Site**" or "**we**") — welcome! Give these terms of service a solid read before you dive in. By accessing or using this site, you're agreeing to and accepting these terms.
 
 ## 1. Service Overview
 
-This site offers paid subscription content and membership services to users, including but not limited to blog posts, exclusive resources, e-books, community interactions, and more. Some content? That's only accessible to subscribed users.
+This site hooks you up with paid subscription content and membership perks — think blog posts, exclusive resources, e-books, community interactions, and more. 🔒 Some content is locked behind the subscriber wall, though.
 
-## 2. User Registration & Accounts
+## 2. User Registration & Account
 
 - A valid email address and password are what you'll need to register an account.
-- Your account security and all activity under it are on you. Transferring or sharing accounts is **prohibited**.
-- We reserve the right to **suspend or terminate** your account if you violate these terms.
+- Your account security and everything that happens under it? That's on you. Transferring or sharing accounts is a **hard no**.
+- Account suspension or termination is what we'll do if you break these terms. We reserve that right. ⛔
 
 ## 3. Paid Subscription Services
 
-- Subscription services are billed monthly or annually, with fees clearly shown at checkout.
-- All payments go through third-party payment platforms (like Stripe, PayPal) — we don't store your payment info.
-- Subscriptions **auto-renew** unless you cancel before the current billing cycle ends.
-- **14-day refund policy**: First-time subscribers can request a full refund within 14 days of purchase if you're not happy with the service. Hit us up via the email at the bottom of these terms and let us know why. One refund per user only. After 14 days or for non-first-time subscriptions, no refunds after payment unless the law says otherwise.
+- Subscription services run on monthly/annual billing — fees are laid out plain and simple at checkout.
+- Third-party payment platforms (like Stripe, PayPal) handle all payments — we don't touch or store your payment info. 💳
+- Your subscription **auto-renews** unless you cancel before the current billing cycle wraps up.
+- **14-Day Refund Policy**: First-time subscribers, not vibing with the service within 14 days of purchase? You can request a full refund. Hit us up using the contact email at the end of these terms and let us know why. One refund per user, no exceptions. Past 14 days or not your first subscription? No refund after payment, unless the law says otherwise. 🔄
 
-## 4. Content Usage & Intellectual Property
+## 4. Content Use & Intellectual Property
 
-- All original content is **copyrighted by this site (hubtoday)**. No copying, reproducing, or commercial use without authorization.
-- You get a **non-exclusive, non-transferable access right** for personal study and reading only.
-- Need commercial use or want to quote extensively? Reach out to us for authorization.
+- All original content **is copyrighted by this site (hubtoday)** — no copying, reproducing, or using it commercially without our say-so.
+- A **non-exclusive, non-transferable access right** is what you get — for personal learning and reading only.
+- Commercial use or heavy quoting? Reach out to us for authorization first. 📝
 
 ## 5. User Conduct
 
-- Uploading, posting, or spreading any illegal, harassing, fake, offensive, or rights-infringing content is **prohibited**.
-- Bulk downloading, scraping, or cracking member content through technical means is also **prohibited**.
-- We can remove inappropriate content and **ban violating users**.
+- Illegal, harassing, fake, offensive, or rights-violating content? **Don't** upload, post, or distribute it. Period.
+- Bulk downloading, scraping, or cracking member content using technical tricks? Also a **hard no**. 🚫
+- Inappropriate content gets pulled, and violating users get **banned**. That's our call to make.
 
 ## 6. Service Changes & Disruptions
 
-- We reserve the right to change, suspend, or terminate some or all services at any time without prior notice.
-- If content becomes temporarily inaccessible due to force majeure, server failures, or third-party service disruptions, we're **not liable for damages**.
+- We can change, pause, or kill off part or all of the service whenever we want — no heads-up required.
+- Force majeure, server meltdowns, or third-party service outages making content temporarily unreachable? We **aren't liable** for that — no compensation. ⚠️
 
 ## 7. Disclaimer
 
-- Information on this site is for reference only and **does not constitute** any professional advice (financial, legal, medical, etc.).
-- We're **not responsible** for any direct or indirect losses you might experience from using this site's content or services.
+- Info on this site is just for reference — it **doesn't** count as professional advice (think financial, legal, medical, and so on).
+- Any direct or indirect losses from using our content or services? That's not on us — we **aren't responsible**.
 
 ## 8. Governing Law
 
-- The laws of the State of California, USA govern these terms, without regard to conflict-of-law principles.
-- Any disputes arising from or related to these terms should first be worked out through friendly negotiation. If that doesn't work, you agree to submit to the courts of Santa Clara County, California.
+- The laws of the State of California, USA govern and interpret these terms — conflict of law principles don't apply.
+- Any disputes tied to these terms? Let's try to work it out together first. Can't reach an agreement? You agree to take it to a court with jurisdiction in Santa Clara County, California. ⚖️
 
-## 9. Contact Us
+## 9. Contact Information
 
-- Got questions about these terms? Reach out to us:
+- Questions about these terms? Here's how to reach us:
 - **Email**: [justlikemaki@foxmail.com](mailto:justlikemaki@foxmail.com) 📬
