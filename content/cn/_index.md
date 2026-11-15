@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/14'
+title: 'AI生命延续学日报 2026/11/15'
 breadcrumbs: false
-next: /2026-11/2026-11-14
-description: '2026-11-14 AI生命延续学日报：大脑血清素信号随衰老增强，抑制老年小鼠的活动意愿；AI 超声估算"心脏年龄"偏大与更差的健康结局相关；肠道益生菌产生的一种分子可快速修复肠壁损伤。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-15
+description: '2026-11-15 AI生命延续学日报：长寿补剂临床试验发现血管功能显著改善；阿尔茨海默病或在记忆丧失前十年已有脑区萎缩迹象；斯坦福研究称脑活动隐藏模式或可预测阿尔茨海默风险。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,61 +11,69 @@ cascade:
 ## **今日摘要**
 
 ```
-老年小鼠脑干血清素信号增强会抑制活动意愿，干预后活动量改善，但结论仍限于动物实验。
-AI分析心脏超声估算的"心脏年龄"偏大与更差健康结局相关，目前属关联性观察。
-两项研究均未在人体验证因果关系，不能据此判断个人风险或指导干预。
+一项小型随机对照试验发现长寿补剂组的血管弹性有所改善，但对照组年龄偏大且资助方参与其中。
+约翰斯·霍普金斯大学的观察性研究提示，阿尔茨海默病相关脑区萎缩可能早于记忆障碍出现。
+血管试验结果出乎意料地大，独立团队尚未重复验证，现有结论需谨慎看待。
 ```
 
-## **🔥 今日焦点 TOP 5**
+## **🔥 今日焦点 TOP 8**
 
-### 1. 大脑血清素信号随衰老增强，抑制老年小鼠的活动意愿
+### 1. 长寿补剂临床试验发现血管功能显著改善
 
-阿伯丁大学一项发表于《Metabolism》的研究发现，衰老小鼠脑干"背侧缝际核"区域的血清素神经元在小鼠活跃时段放电频率升高，通过激活抑制性中间神经元，减少"腹侧被盖区"的多巴胺释放——多巴胺是驱动运动动机的关键神经递质。研究者用病毒靶向杀死这批血清素神经元后，14-20 月龄小鼠的活动量、移动速度和握力均有所改善，体脂也在八周内下降，且食物摄入未变化。据 [Lifespan.io 的报道](https://lifespan.io/serotonin-signals-suppress-physical-activity-in-aging-mice/)，研究者还先在 17-70 岁的苏格兰志愿者中用加速度计确认了老年人活动量下降的模式，以验证小鼠是合理的研究模型。这项结果目前仍限于动物实验，靶向杀神经元的方法不适用于人体，未来研究需要寻找更温和的干预方式。
+英国萨里大学在《欧洲心脏杂志开放版》发表了一项随机双盲对照试验，测试了复合补剂 NOVOS Core 对血管健康的影响。血管内皮功能用"血流介导扩张率"（FMD，即上臂动脉在血流恢复时的扩张幅度）衡量，FMD 越高表示血管弹性越好。在 43 名完成六个月观察的参与者中，补剂组 FMD 从约 5.5% 升至 8.1%，提高了约 2.6 个百分点；安慰剂组基本没有变化。收缩压在补剂组下降 8.5 mmHg，对照组仅下降 1.5 mmHg。动脉僵硬度指标（脉搏波传导速度）也有所改善。血脂四项无显著组间差异。研究有明显局限：61 名入组者中有近三分之一未完成随访，且对照组平均年龄比补剂组大约七岁，这在一项研究血管老化的试验中是不小的偏差；NOVOS 参与了资助并提供了补剂，测试的是整个配方而非单一成分。据 [Lifespan.io 的报道](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)，独立审查专家认为效果量出乎意料地大，需要独立团队重复验证。
 
-![衰老小鼠血清素与活动](https://lifespan.io/wp-content/uploads/2026/11/Serotonin-Signals-Suppress-Physical-Activity-in-Aging-Mice-262x187.webp)
+[![来源配图：Longevity Supplement Improved Blood Vessels in a Human Trial](https://lifespan.io/wp-content/uploads/2023/02/NOVOS-262x187.png)](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)
 
----
+### 2. 阿尔茨海默病或在记忆丧失前十年已有脑区萎缩迹象
 
-### 2. AI 超声估算"心脏年龄"偏大与更差的健康结局相关
+约翰斯·霍普金斯大学科学家发现，大脑中与记忆和情绪处理相关的两个区域，可能在出现记忆障碍前数年就已开始萎缩，早于医生通常检查的海马体（大脑中负责形成新记忆的核心区域）。这些早期变化与异常 tau 蛋白的积聚相关——tau 蛋白是阿尔茨海默病的典型病理标志之一。如果后续研究证实，这或许为更早识别高风险人群提供了影像学线索。目前报道来自 [Science Daily 的摘要级报道](https://www.sciencedaily.com/releases/2026/11/261114202130.htm)，样本量、研究设计和完整数据待原文核查。
 
-在 ESC 数字与 AI 峰会 2026 上发布的研究显示，用 AI 分析超声心动图可以估算一个人的"心脏年龄"，当这个估算值高于实际年龄时，对应更差的健康结局。"心脏年龄"是一种综合心脏功能状态给出的估算指标，类似于"生物年龄"的概念，用来衡量心脏的老化程度是否超过实际年龄。据 [News-Medical 的报道](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx)，这一发现目前仍是关联性研究，具体样本量和随访时长待核查，尚不能说明 AI 估算本身能预测或改变个人的心脏疾病风险。
+[![来源配图：Alzheimer’s may start shrinking two brain regions years before memory loss](https://www.sciencedaily.com/images/1920/alzheimers-brain-atrophy.webp)](https://www.sciencedaily.com/releases/2026/11/261114202130.htm)
 
-[![来源配图：Older AI-estimated heart age linked to worse health outcomes](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx)
+### 3. 斯坦福研究称脑活动隐藏模式或可预测阿尔茨海默风险
 
----
+斯坦福大学研究者发现，大脑神经活动中存在某些隐藏模式，据称能在记忆问题出现前预测阿尔茨海默病风险，且这些模式还与大脑抗衰老能力相关。这一方向若成立，或能比现有生物标志物提供更早的预警窗口。目前仅有 [Science Daily 的摘要级报道](https://www.sciencedaily.com/releases/2026/11/261112230444.htm)，具体是哪类脑活动信号、在多大样本和多长时间窗内观察到，均待原文核查，现阶段不能评估实际预测能力。
 
-### 3. 肠道益生菌产生的一种分子可快速修复肠壁损伤
+### 4. 每日咖啡与痴呆风险降低的关联研究跨越 43 年
 
-罗格斯大学健康学院的科学家发现，肠道内"好"细菌产生的某种分子能快速修复受损的肠道黏膜，并促进一种随年龄减少的辅酶（coenzyme）的生成。肠道黏膜是阻止细菌和毒素进入血液的屏障，损伤后与炎症性肠病等严重疾病相关。据 [News-Medical 的报道](https://www.news-medical.net/news/20261113/Researchers-discover-bacterial-molecule-that-rapidly-repairs-intestinal-damage.aspx)，该分子的具体身份、实验模型（细胞、动物或人体）及详细数据均待核查，目前只能确认研究方向为肠道菌群与肠道修复及衰老相关代谢的交叉。
+一项长达 43 年的观察性研究发现，每天饮用两到三杯含咖啡因咖啡与更低的痴呆风险及更好的认知功能存在相关性，这一关联在不同遗传风险背景下均有出现；不含咖啡因的咖啡则未显示相同关联。观察性研究只能说明两者相关，不能说明咖啡因果性地降低痴呆风险，也无法排除其他生活方式因素的作用。研究摘要见 [Science Daily](https://www.sciencedaily.com/releases/2026/11/261105224550.htm)，完整设计和样本量待原文核查。
 
----
+### 5. 规律作息与老年人疼痛和抑郁症状较少相关
 
-### 4. 默克启动三期试验，测试 COPD 维持药物能否减少急性发作
+密苏里大学研究者发现，坚持固定起床、进食和日常活动时间的老年人，报告的身体疼痛和抑郁症状更少，即使存在失眠问题这一关联依然存在。规律作息据认为有助于维持身体内部时钟（生物钟）的稳定，而生物钟紊乱与情绪、睡眠和整体健康密切相关。目前为观察性研究，说明相关性而非因果关系；详细报道见 [Science Daily 摘要](https://www.sciencedaily.com/releases/2026/11/261113231624.htm)，样本和研究设计细节待原文核查。
 
-慢阻肺（COPD，慢性阻塞性肺病）药物 Ohtuvayre（ensifentrine）在 2024 年 6 月获 FDA 许可用于成人维持治疗，但原批准试验并未专门测量它能否减少"急性加重"——即病情突然恶化的发作。默克现已启动名为 ENHANCE-3 的三期临床试验，计划在美国等地招募约 2,136 名患者，随访一年，直接回答这个问题。据 [Longevity.Technology 的报道](https://longevity.technology/news/merck-tests-a-copd-drug-against-flare-ups/)，首批患者已开始入组，但入组不等于完成治疗，结果需等到试验完成后才能得出。
+[![来源配图：Scientists find a simple daily routine linked to less pain and depression](https://www.sciencedaily.com/images/1920/yellow-and-red-smileys-happy-sad-depression.webp)](https://www.sciencedaily.com/releases/2026/11/261113231624.htm)
 
-[![来源配图：Merck tests a COPD drug against flare-ups](https://longevity.technology/wp-content/uploads/2026/11/merck-tests-a-copd-drug-against-flare-ups-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/merck-tests-a-copd-drug-against-flare-ups/)
+### 6. AI 辅助筛选天然产物抗衰老候选药物
 
----
+一项同行评审状态待核查的研究将 AI 方法用于天然产物的抗衰老药物发现，涵盖靶点预测、衰老生物标志物识别和已有药物的新用途挖掘。研究对象为计算数据集，属于药物发现的计算阶段，尚未进入细胞或动物实验。论文摘要见 [Europe PMC](https://europepmc.org/article/MED/43024109)，同行评审状态、具体预测结果和使用的数据集均待原文核查。
 
-### 5. NKGen Biotech 公布单例阿尔茨海默病患者 12 个月自然杀伤细胞疗法数据
+### 7. Dario Amodei 预言 AI 十年内可攻克癌症和阿尔茨海默病
 
-NKGen Biotech 在波士顿 CTAD 会议上展示了一份只涉及一名阿尔茨海默病患者的海报，记录其接受"自然杀伤细胞疗法"（natural killer cell therapy，一种利用免疫细胞攻击病变靶点的治疗方式）连续 12 个月的观察情况。据 [Longevity.Technology 的报道](https://longevity.technology/news/one-alzheimers-patient-12-more-months-of-therapy/)，单例报告无法与对照组比较，不能据此判断疗法是否有效，具体指标数据待核查，但这类早期观察通常用于为后续更大规模试验提供安全性和耐受性参考。
+Anthropic 首席执行官 Dario Amodei 公开表示，AI 有望在十年内迎来"奇迹时代"，可能帮助解决癌症和阿尔茨海默病等重大疾病。这是机构负责人对技术前景的个人预测，不基于具体临床试验数据。目前报道来自 [Google News 聚合的二手报道](https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5)，尚无一手原文。
 
-[![来源配图：One Alzheimer’s patient, 12 more months of therapy](https://longevity.technology/wp-content/uploads/2026/11/one-alzheimers-patient-12-more-months-of-therapy-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/one-alzheimers-patient-12-more-months-of-therapy/)
+### 8. 新型纤维补剂改善肠易激综合征肠道健康
 
----
+研究者开发了一种新型纤维配方，据报道能在不加重腹胀和疼痛的前提下改善肠易激综合征（IBS，一种以反复腹痛和排便异常为特征的慢性肠道疾病）患者的肠道健康，并快速改变肠道菌群组成，同时减轻了与肠道相关的焦虑症状。目前来自 [Science Daily 摘要级报道](https://www.sciencedaily.com/releases/2026/11/261112230450.htm)，配方成分、样本量和随访时长均待原文核查，尚不能评估长期效果。
 
-## **◎ 行业变化与个人影响**
-
-### Evommune 以 3000 万美元首付授权自免新药 EVO570，一期试验即将启动
-
-Evommune 于 11 月 4 日宣布以 3000 万美元首付从成都生物技术公司 Hinova Pharmaceuticals 授权引入口服药 EVO570，这是一种靶向 VAV1 蛋白的降解剂，用于治疗自身免疫性疾病。VAV1 是免疫细胞活化的关键信号分子，降解它意在抑制过度活跃的免疫反应。据 [Longevity.Technology 的报道](https://longevity.technology/news/evommune-bets-30m-upfront-on-a-new-autoimmune-drug/)，里程碑付款总额最高可达约 11 亿美元，一期人体安全性试验即将启动；一期试验只评估安全性，尚不能说明对患者有临床疗效。
+[![来源配图：A new fiber supplement could help millions suffering from irritable bowel syndrome](https://www.sciencedaily.com/images/1920/woman-holding-stomach-digestive-heart-health.webp)](https://www.sciencedaily.com/releases/2026/11/261112230450.htm)
 
 ---
 
-## **❓ 相关问题**
+## **🧪 前沿研究**
 
-### "心脏年龄"比实际年龄大，说明我的心脏已经提前老化了吗？
+### 神经科学年会报告大脑与身体健康的双向关联
 
-不能这样直接判断。AI 估算的"心脏年龄"是一个基于超声图像特征的统计指标，反映的是人群层面的关联，单次数值偏高与更差的健康结局相关，但不等于某个人的心脏已确定发生了超龄老化或疾病。据 [News-Medical 的报道](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx)，此次发布的是关联性研究结果，具体预测能力和临床使用标准尚待更多研究确认。
+在 2026 年神经科学年会（Neuroscience 2026）上，多项研究汇报了身体健康状态与大脑功能之间的关联，涉及阿尔茨海默病和衰老研究方向。会议报告通常为初步成果，尚未经过完整同行评审，具体研究方法和数据见 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-11-brain-body-alzheimer-disease.html)，更多细节待原始研究论文发表后核查。
+
+---
+
+## **⌘ 开源 TOP 项目**
+
+### Gladyshev-Lab/tAge：用转录组数据估算生物年龄的 R 包
+
+[tAge](https://github.com/Gladyshev-Lab/tAge) 是一个用于转录组生物年龄分析的 R 包，由哈佛大学 Gladyshev 实验室维护。转录组是细胞在特定时刻活跃表达的全部基因读数，tAge 利用这类数据估算样本的生物年龄（与实际年龄相对的功能性衰老程度）。适合有 R 语言基础、需要在基因表达数据集上计算生物年龄指标的研究者。仓库最近活跃于 2026 年 11 月，有 30 个 Stars；许可证和具体输入格式要求见 [GitHub 仓库](https://github.com/Gladyshev-Lab/tAge)。
+
+### msbCyricTohoku/BACalc：数据集无关的动态生物年龄计算器
+
+[BACalc](https://github.com/msbCyricTohoku/BACalc) 提供了一种不依赖特定数据集的生物年龄计算方法，设计目标是在不同来源的健康数据上都能使用，不需要针对每个新数据集重新训练。这对需要跨队列比较生物年龄的研究者有参考价值。仓库最近活跃于 2026 年 11 月初，Stars 为 1；README 自述功能，实际效果和支持的输入格式见 [GitHub 仓库](https://github.com/msbCyricTohoku/BACalc)，许可证情况待核查。
