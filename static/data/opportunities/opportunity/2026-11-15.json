@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-15",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-15/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_2528ed27dcdd64f7",
+      "report_date": "2026-11-15",
+      "report_section": "opportunity",
+      "title": "阿尔茨海默症早期脑区萎缩研究解读:面向痴呆家属的内容选题",
+      "source_urls": [
+        "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+        "https://medicalxpress.com/news/2026-11-brain-body-alzheimer-disease.html"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "正在照护或担心父母患阿尔茨海默症的中年子女;对脑健康感兴趣但不知该关注什么研究进展的健康消费人群;写健康内容的自媒体同行",
+      "demand_claim": "付费意愿待验证。假设性痛点:家属长期处于\"不知何时该开始关注\"的信息焦虑,对\"哪些信号比失忆更早出现\"类确定性信息有消费需求。是否转化为付费需通过实际内容反馈验证",
+      "demand_verified": false,
+      "deliverable_hint": "一篇公众号/小红书解读文章;后续可扩展为\"阿尔茨海默症早期信号研究汇总\"资料包(整理近年相关研究,附来源和证据阶段)",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "48 小时内完整阅读率超 30%,或收到 3 条以上具体问题(如\"能查吗\"\"在哪做\"),说明存在信息需求,值得继续做同主题内容系列",
+        "stop_condition": "48 小时内阅读量低于 200 且无任何问题类评论或私信,说明该选题在现有渠道未触达对应人群,停止在此方向继续投入",
+        "upgrade_path": "单篇 -> 阿尔茨海默症早期研究汇总资料包(低价,整理研究来源和证据阶段)-> 面向家属的\"如何和医生沟通脑健康检查\"轻咨询文档"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_2528ed27dcdd64f7:discover_primary_source",
+      "opportunity_id": "opp_2528ed27dcdd64f7",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_2528ed27dcdd64f7:validate_demand",
+      "opportunity_id": "opp_2528ed27dcdd64f7",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
