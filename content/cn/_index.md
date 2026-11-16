@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/15'
+title: 'AI生命延续学日报 2026/11/16'
 breadcrumbs: false
-next: /2026-11/2026-11-15
-description: '2026-11-15 AI生命延续学日报：长寿补剂临床试验发现血管功能显著改善；阿尔茨海默病或在记忆丧失前十年已有脑区萎缩迹象；斯坦福研究称脑活动隐藏模式或可预测阿尔茨海默风险。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-16
+description: '2026-11-16 AI生命延续学日报：晚年抑制一种酶让小鼠中位寿命延长四个月；CRISPR 编辑的脱靶问题比多数研究者预期更严重；抗纤维化药物 Rentosertib 在人体试验中让六种蛋白质组衰老时钟一致"倒转"。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,69 +11,89 @@ cascade:
 ## **今日摘要**
 
 ```
-一项小型随机对照试验发现长寿补剂组的血管弹性有所改善，但对照组年龄偏大且资助方参与其中。
-约翰斯·霍普金斯大学的观察性研究提示，阿尔茨海默病相关脑区萎缩可能早于记忆障碍出现。
-血管试验结果出乎意料地大，独立团队尚未重复验证，现有结论需谨慎看待。
+晚年给小鼠使用一种酶抑制剂，中位寿命延长约四个月，同时观察到体能与认知衰退减缓。
+一种抗纤维化药物在早期人体试验中，六种蛋白质组衰老时钟一致显示治疗组生物年龄估算值偏低。
+小鼠寿命延长结果尚未在人体验证，蛋白质组时钟也无法区分抗衰老效应与抗纤维化效应。
 ```
 
-## **🔥 今日焦点 TOP 8**
+## **🔥 今日焦点 TOP 10**
 
-### 1. 长寿补剂临床试验发现血管功能显著改善
+### 1. 晚年抑制一种酶让小鼠中位寿命延长四个月
 
-英国萨里大学在《欧洲心脏杂志开放版》发表了一项随机双盲对照试验，测试了复合补剂 NOVOS Core 对血管健康的影响。血管内皮功能用"血流介导扩张率"（FMD，即上臂动脉在血流恢复时的扩张幅度）衡量，FMD 越高表示血管弹性越好。在 43 名完成六个月观察的参与者中，补剂组 FMD 从约 5.5% 升至 8.1%，提高了约 2.6 个百分点；安慰剂组基本没有变化。收缩压在补剂组下降 8.5 mmHg，对照组仅下降 1.5 mmHg。动脉僵硬度指标（脉搏波传导速度）也有所改善。血脂四项无显著组间差异。研究有明显局限：61 名入组者中有近三分之一未完成随访，且对照组平均年龄比补剂组大约七岁，这在一项研究血管老化的试验中是不小的偏差；NOVOS 参与了资助并提供了补剂，测试的是整个配方而非单一成分。据 [Lifespan.io 的报道](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)，独立审查专家认为效果量出乎意料地大，需要独立团队重复验证。
+研究者从 18 月龄（相当于人类 50 多岁）开始给小鼠使用抑制剂 #11a，靶向天冬酰胺内肽酶（AEP，一种在酸性环境下活跃、随衰老异常增多的蛋白酶），中位存活时间从 24 个月延至 28 个月，同时观察到虚弱指数下降、认知和体能减退减缓，以及多个器官中衰老细胞标志物降低。这一效果量级与晚年使用雷帕霉素相当，研究者认为两者通过不同路径共同指向线粒体功能改善。论文发表于 [Fight Aging!](https://www.fightaging.org/archives/2026/11/late-life-asparagine-endopeptidase-inhibition-extends-lifespan-in-mice/)，目前证据来自小鼠实验，机制也仍为相关性，不能直接外推至人体。
 
-[![来源配图：Longevity Supplement Improved Blood Vessels in a Human Trial](https://lifespan.io/wp-content/uploads/2023/02/NOVOS-262x187.png)](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)
+### 2. CRISPR 编辑的脱靶问题比多数研究者预期更严重
 
-### 2. 阿尔茨海默病或在记忆丧失前十年已有脑区萎缩迹象
+Salk 研究所开发的 Superb-seq 工具，能在单个细胞层面同时读取 CRISPR/Cas9 编辑位点和基因活性变化，解决了此前无法同时看到"编辑在哪里"与"细胞因此发生了什么"的问题。在约 10,000 个人类白血病细胞的测试中，用 7 条向导 RNA 靶向 7 个基因，结果检出 43 处编辑位点，其中 36 处为脱靶，5,761 个细胞受到编辑影响。论文发表于 Nature Methods，据 [GEN 的报道](https://www.genengnews.com/topics/genome-editing/single-cell-method-reveals-on-and-off-target-effects-of-cas9-edits-on-gene-expression/)，研究者认为该工具可用于基因疗法候选药物的早期安全性筛查，目前测试局限于细胞系，尚未在临床样本中验证。
 
-约翰斯·霍普金斯大学科学家发现，大脑中与记忆和情绪处理相关的两个区域，可能在出现记忆障碍前数年就已开始萎缩，早于医生通常检查的海马体（大脑中负责形成新记忆的核心区域）。这些早期变化与异常 tau 蛋白的积聚相关——tau 蛋白是阿尔茨海默病的典型病理标志之一。如果后续研究证实，这或许为更早识别高风险人群提供了影像学线索。目前报道来自 [Science Daily 的摘要级报道](https://www.sciencedaily.com/releases/2026/11/261114202130.htm)，样本量、研究设计和完整数据待原文核查。
+[![来源配图：Single-Cell Method Reveals On- and Off-Target Effects of Cas9 Edits on Gene Expression](https://www.genengnews.com/wp-content/uploads/2024/07/CO_MarApr17_Getty_182516812_Henrik5000_BlueCells-1068x801-1.jpg)](https://www.genengnews.com/topics/genome-editing/single-cell-method-reveals-on-and-off-target-effects-of-cas9-edits-on-gene-expression/)
 
-[![来源配图：Alzheimer’s may start shrinking two brain regions years before memory loss](https://www.sciencedaily.com/images/1920/alzheimers-brain-atrophy.webp)](https://www.sciencedaily.com/releases/2026/11/261114202130.htm)
+### 3. 抗纤维化药物 Rentosertib 在人体试验中让六种蛋白质组衰老时钟一致"倒转"
 
-### 3. 斯坦福研究称脑活动隐藏模式或可预测阿尔茨海默风险
+蛋白质组衰老时钟通过测量血液中数百种蛋白质的浓度组合来估算生物年龄。研究者对 Insilico Medicine 一项 12 周二期临床试验（原适应症为特发性肺纤维化）的血清样本，同时用六种不同的蛋白质组时钟分析，结果显示治疗组的估算生物年龄普遍低于对照组，且通路分析指向衰老细胞减少和代谢改善。这是少数在人体试验数据中同时获得多种衰老时钟一致信号的案例，详见 [Fight Aging!](https://www.fightaging.org/archives/2026/11/anti-fibrotic-drug-rentosertib-reduces-proteomic-clock-age-in-humans/)。蛋白质组时钟尚不能区分抗衰老效应与抗纤维化效应，两者机制重叠，需要更长随访和对照设计。
 
-斯坦福大学研究者发现，大脑神经活动中存在某些隐藏模式，据称能在记忆问题出现前预测阿尔茨海默病风险，且这些模式还与大脑抗衰老能力相关。这一方向若成立，或能比现有生物标志物提供更早的预警窗口。目前仅有 [Science Daily 的摘要级报道](https://www.sciencedaily.com/releases/2026/11/261112230444.htm)，具体是哪类脑活动信号、在多大样本和多长时间窗内观察到，均待原文核查，现阶段不能评估实际预测能力。
+### 4. 阿尔茨海默病小鼠模型揭示脑脊液循环全链路崩溃机制
 
-### 4. 每日咖啡与痴呆风险降低的关联研究跨越 43 年
+脑脊液在大脑中循环流动，是清除代谢废物（包括与阿尔茨海默病相关的淀粉样蛋白）的关键通路，这一系统通称"类淋巴系统"。研究者用高分辨率成像追踪阿尔茨海默病小鼠模型，发现脑底部大动脉周围的液体通道发生结构性塌陷，导致脑脊液无法正常进入脑组织；同时，健康大脑中120分钟内即可清除的胆固醇，在病变模型中积累在微血管周围细胞和神经元中。研究提出胆固醇代谢异常是液体循环崩溃的驱动因素之一，论文可从 [Fight Aging!](https://www.fightaging.org/archives/2026/11/evidence-for-cerebrospinal-fluid-flow-through-the-brain-to-stagnate-in-alzheimers-disease/) 追溯原文，目前为动物实验。
 
-一项长达 43 年的观察性研究发现，每天饮用两到三杯含咖啡因咖啡与更低的痴呆风险及更好的认知功能存在相关性，这一关联在不同遗传风险背景下均有出现；不含咖啡因的咖啡则未显示相同关联。观察性研究只能说明两者相关，不能说明咖啡因果性地降低痴呆风险，也无法排除其他生活方式因素的作用。研究摘要见 [Science Daily](https://www.sciencedaily.com/releases/2026/11/261105224550.htm)，完整设计和样本量待原文核查。
+### 5. 皮肤细胞研究精确定位衰老导致的细胞自清洁故障点
 
-### 5. 规律作息与老年人疼痛和抑郁症状较少相关
+细胞自噬（autophagy）是细胞将受损蛋白和结构送入溶酶体分解回收的维护机制，衰老会削弱这一过程。研究者分析了来自 20 至 96 岁捐献者皮肤成纤维细胞的自噬流，发现启动阶段在衰老细胞中基本正常，但自噬体成熟和自噬体与溶酶体融合两个后期步骤出现障碍；96 岁捐献者的细胞中还出现肿大失功能的溶酶体，伴随废物蓄积。将多个步骤分开测量才能定位故障点，这一方法思路是本研究的主要贡献，论文原文见 [Frontiers in Aging](https://doi.org/10.3389/fragi.2026.1971981)，结论来自细胞实验，不代表人体整体衰老表现。
 
-密苏里大学研究者发现，坚持固定起床、进食和日常活动时间的老年人，报告的身体疼痛和抑郁症状更少，即使存在失眠问题这一关联依然存在。规律作息据认为有助于维持身体内部时钟（生物钟）的稳定，而生物钟紊乱与情绪、睡眠和整体健康密切相关。目前为观察性研究，说明相关性而非因果关系；详细报道见 [Science Daily 摘要](https://www.sciencedaily.com/releases/2026/11/261113231624.htm)，样本和研究设计细节待原文核查。
+### 6. 一种植物提取物被筛查确认具有清除衰老细胞活性
 
-[![来源配图：Scientists find a simple daily routine linked to less pain and depression](https://www.sciencedaily.com/images/1920/yellow-and-red-smileys-happy-sad-depression.webp)](https://www.sciencedaily.com/releases/2026/11/261113231624.htm)
+衰老细胞（senescent cells）是无法正常分裂但持续释放炎症信号的细胞，在老年组织中积累并破坏周围结构。研究者通过高通量筛查，在从千金藤属植物中提取的头花千金藤碱（cepharanthine，CEP）中发现了选择性清除衰老细胞的活性，在斑马鱼、线虫、自然衰老小鼠和早老症小鼠中均观察到衰老细胞减少、器官功能改善和寿命延长。详见 [Fight Aging!](https://www.fightaging.org/archives/2026/11/cepharanthine-identified-as-a-novel-senolytic/)，目前尚无人体试验数据，低成本天然产物进入大规模临床试验面临资金壁垒。
 
-### 6. AI 辅助筛选天然产物抗衰老候选药物
+### 7. Jensen Huang 辞职令英伟达生命科学合作前景受关注
 
-一项同行评审状态待核查的研究将 AI 方法用于天然产物的抗衰老药物发现，涵盖靶点预测、衰老生物标志物识别和已有药物的新用途挖掘。研究对象为计算数据集，属于药物发现的计算阶段，尚未进入细胞或动物实验。论文摘要见 [Europe PMC](https://europepmc.org/article/MED/43024109)，同行评审状态、具体预测结果和使用的数据集均待原文核查。
+英伟达 CEO Jensen Huang 因多起婚外情曝光并涉及国家安全调查，于本周宣布辞职，CFO Colette Kress 接任临时 CEO，英伟达股价本周累计下跌约 12.75%。英伟达在生命科学领域拥有广泛布局：与礼来合设五年十亿美元 AI 药物研发合作实验室、与赛默飞合作推进自主实验室、与阿斯利康和 GSK 共建英国超算 Cambridge-1，以及向超过百家 AI 医疗初创企业投资。据 [GEN 的报道](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-amid-nvidia-turmoil-what-happens-to-its-life-sciences-collaborations/)，多家合作伙伴尚未公开表态是否重审合作，Insilico Medicine 创始人 Alex Zhavoronkov 在 X 上发帖称此事"将对整个行业产生重大后果"，当前正式合作协议是否受影响尚待观察。
 
-### 7. Dario Amodei 预言 AI 十年内可攻克癌症和阿尔茨海默病
+[![来源配图：StockWatch: Amid Nvidia Turmoil, What Happens to Its Life Sciences Collaborations?](https://www.genengnews.com/wp-content/uploads/2026/11/Jensen-Huang-GTC-2024-031924__8fe9c08a-2e0e-4991-b7f5-8c6dbde0ae73.jpg)](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-amid-nvidia-turmoil-what-happens-to-its-life-sciences-collaborations/)
 
-Anthropic 首席执行官 Dario Amodei 公开表示，AI 有望在十年内迎来"奇迹时代"，可能帮助解决癌症和阿尔茨海默病等重大疾病。这是机构负责人对技术前景的个人预测，不基于具体临床试验数据。目前报道来自 [Google News 聚合的二手报道](https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5)，尚无一手原文。
+### 8. 癌症治疗诱发的衰老细胞加速患者生物性老化
 
-### 8. 新型纤维补剂改善肠易激综合征肠道健康
+化疗和放疗在无法杀死癌细胞时，会将其推入衰老状态（细胞不再分裂但持续存活），同时也令周围正常细胞衰老。这种治疗诱发的细胞衰老（therapy-induced senescence）会让癌症存活者比同龄健康人面临更高的心血管损伤、慢性炎症和其他年龄相关疾病风险。综述作者指出，衰老细胞持续分泌的炎症信号（SASP）是心血管毒性的机制之一，而使用溶解衰老细胞药物（senolytics）联合癌症治疗可能是减轻长期副作用的方向，但临床获益和安全性尚未确立，详见 [Fight Aging!](https://www.fightaging.org/archives/2026/11/the-double-edged-sword-of-therapy-induced-senescence-in-cancer-treatment-2/)。
 
-研究者开发了一种新型纤维配方，据报道能在不加重腹胀和疼痛的前提下改善肠易激综合征（IBS，一种以反复腹痛和排便异常为特征的慢性肠道疾病）患者的肠道健康，并快速改变肠道菌群组成，同时减轻了与肠道相关的焦虑症状。目前来自 [Science Daily 摘要级报道](https://www.sciencedaily.com/releases/2026/11/261112230450.htm)，配方成分、样本量和随访时长均待原文核查，尚不能评估长期效果。
+### 9. 语音节奏特征在四种语言中稳定反映认知损伤
 
-[![来源配图：A new fiber supplement could help millions suffering from irritable bowel syndrome](https://www.sciencedaily.com/images/1920/woman-holding-stomach-digestive-heart-health.webp)](https://www.sciencedaily.com/releases/2026/11/261112230450.htm)
+这项预印本研究横跨西班牙语、普通话、英语、日语，同时使用对话任务和结构化朗读任务采集声学特征，用机器学习筛选能辨别认知损伤的声学指标。结果发现：说话时间节奏的特征在所有语言和任务中都保持稳定，能捕捉认知损伤者的停顿和节律紊乱；语速则主要在有外部内容锚定的朗读任务中有效，自由对话时可靠性下降；音调相关特征在声调语言（如普通话）和非声调语言中模式不同。研究据[论文索引/摘要](https://papers.cool/arxiv/2611.17710)尚未经同行评审，尚不能直接用于临床筛查工具开发。
+
+### 10. 70 岁女性数据显示雌激素暴露时长与神经退行程度相关
+
+这项基于哥德堡 H70-1944 出生队列的研究，对 352 名认知正常的 70 岁女性进行脑 MRI，并在 5 年后复查，分析生育年限（内源性雌激素时长）和激素治疗使用情况与脑部结构的关联。生育年限更长与脑小血管病变负担较低相关（比值比 0.92）；使用更年期激素治疗与较少的脑微血管病变和更好的白质完整性相关；仅在携带 APOE-ε4 基因（阿尔茨海默病风险基因）的女性中，激素治疗还与较厚的阿尔茨海默相关皮质区有关。详见 [Fight Aging!](https://www.fightaging.org/archives/2026/11/longer-estrogen-exposure-correlates-with-a-lesser-degree-of-neurodegeneration/)，这是观察性研究，不能推导因果关系，也不构成激素治疗建议。
+
+---
+
+## **⚡ 产品与功能更新**
+
+### AG-JEPA：脑 MRI 预训练模型引入解剖区域引导提升阿尔茨海默早期检测
+
+这项预印本研究提出 AG-JEPA，一种用于从脑部 MRI 学习神经退行表征的预训练架构。与通用结构表征模型相比，它在预训练时引入与阿尔茨海默病相关脑区的解剖标记（anatomical tokens），让模型着重学习这些区域的特征。在五项下游任务测试中，AG-JEPA 在认知正常与轻度认知损伤（MCI，即介于正常老化与痴呆之间的过渡期）分类上 AUROC 提升 8.4 个百分点，在跨数据集的认知正常与阿尔茨海默分类上提升 7.1 个百分点。进一步扩展的 Prog-AG-JEPA 还可建模疾病进展轨迹、预测未来脑体积变化。论文可从[论文索引/摘要](https://papers.cool/arxiv/2611.18097)继续查阅方法细节，目前为预印本，测试任务均为分类基准而非临床诊断验证。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 神经科学年会报告大脑与身体健康的双向关联
+### 从毒理学档案挖掘出 27 种对小鼠有寿命延长效果的物质
 
-在 2026 年神经科学年会（Neuroscience 2026）上，多项研究汇报了身体健康状态与大脑功能之间的关联，涉及阿尔茨海默病和衰老研究方向。会议报告通常为初步成果，尚未经过完整同行评审，具体研究方法和数据见 [Medical Xpress 的报道](https://medicalxpress.com/news/2026-11-brain-body-alzheimer-disease.html)，更多细节待原始研究论文发表后核查。
+研究者重新利用德国联邦风险评估研究所的长期啮齿类动物毒理学档案——这类数据原本用于化学品安全审批——检索其中存在低剂量存活率改善的化合物。在 154 种物质、符合标准（每组 ≥50 只动物）的研究中，27 种（占 18%）在至少一组剂量下显著提升了实验终点存活率，其中溴苯腈（bromoxynil）被确认为线粒体解偶联剂，在秀丽隐杆线虫中进一步验证改善了多项健康指标且未见毒性。研究思路详见 [Fight Aging!](https://www.fightaging.org/archives/2026/11/identifying-hormetic-agents-that-modestly-slow-aging-from-mouse-toxicology-study-data/)，全部结论来自动物实验，溴苯腈是农药，人体安全性未知，不能推断人体效果。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### Gladyshev-Lab/tAge：用转录组数据估算生物年龄的 R 包
+### MineSelf2016/biological_agents_survey：AI 生物研究 Agent 综述的持续更新伴侣库
 
-[tAge](https://github.com/Gladyshev-Lab/tAge) 是一个用于转录组生物年龄分析的 R 包，由哈佛大学 Gladyshev 实验室维护。转录组是细胞在特定时刻活跃表达的全部基因读数，tAge 利用这类数据估算样本的生物年龄（与实际年龄相对的功能性衰老程度）。适合有 R 语言基础、需要在基因表达数据集上计算生物年龄指标的研究者。仓库最近活跃于 2026 年 11 月，有 30 个 Stars；许可证和具体输入格式要求见 [GitHub 仓库](https://github.com/Gladyshev-Lab/tAge)。
+这个仓库是发表于 Briefings in Bioinformatics（2026 年）的论文"Artificial Intelligence agents for biological research: a survey"的配套资源，收录了 AI Agent 在生物研究场景中的文献和分类。适合想系统了解 AI 如何辅助生物实验设计、文献检索和数据分析的研究者，可从 [GitHub 仓库](https://github.com/MineSelf2016/biological_agents_survey) 查阅收录范围和更新状态。仓库最近活跃时间为 2026 年 11 月 9 日，内容以综述文献为主，不含可直接运行的工具；许可证信息未在 description 中注明，使用前需核查。
 
-### msbCyricTohoku/BACalc：数据集无关的动态生物年龄计算器
+### sudo-pranshu/ParkinSense：基于可穿戴传感器的帕金森震颤持续监测平台
 
-[BACalc](https://github.com/msbCyricTohoku/BACalc) 提供了一种不依赖特定数据集的生物年龄计算方法，设计目标是在不同来源的健康数据上都能使用，不需要针对每个新数据集重新训练。这对需要跨队列比较生物年龄的研究者有参考价值。仓库最近活跃于 2026 年 11 月初，Stars 为 1；README 自述功能，实际效果和支持的输入格式见 [GitHub 仓库](https://github.com/msbCyricTohoku/BACalc)，许可证情况待核查。
+ParkinSense 是一个运行在 nRF52840 Sense 硬件上的帕金森病监测平台，设计目标是对手部震颤进行连续测量和数字生物标志物提取，用于早期检测辅助。数字生物标志物指从传感器数据中提取的、反映疾病特征的量化指标，连续测量相比单次诊室评估能捕捉到更多日常波动。仓库见 [GitHub](https://github.com/sudo-pranshu/ParkinSense)，目前 Stars 为 1，项目早期阶段，临床验证情况未在 description 中说明。
+
+---
+
+## **❓ 相关问题**
+
+### 蛋白质组衰老时钟测出"生物年龄更低"，意味着人真的变年轻了吗？
+
+不能这样解读。蛋白质组时钟（proteomic clock）通过测量血液中一组蛋白质浓度的组合来估算生物年龄，是统计模型给出的估算值，而非人体状态的直接测量。Rentosertib 试验中六种时钟一致指向治疗组估算值偏低，说明某些与衰老相关的蛋白质信号发生了变化，但研究者自己也指出，时钟目前无法区分"抗衰老效应"和"抗纤维化效应"，因为两者影响的蛋白质有重叠。详细方法与局限可从 [Fight Aging!](https://www.fightaging.org/archives/2026/11/anti-fibrotic-drug-rentosertib-reduces-proteomic-clock-age-in-humans/) 追溯原始论文。估算值下降不等于疾病风险降低，也不等于寿命延长，需要更长随访的随机对照试验来回答功能性结局。
