@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-16",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-16/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_f58beeeae2c28703",
+      "report_date": "2026-11-16",
+      "report_section": "opportunity",
+      "title": "睡眠粉红噪声 × 认知健康科普:自媒体引流选题 + 低价资料包验证",
+      "source_urls": [
+        "https://www.sciencedaily.com/releases/2026/11/261115085533.htm"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "1有老年父母、担心认知衰退的 35–55 岁子女;2自己关注睡眠和抗衰的健康博主读者;3已在用睡眠 App 或可穿戴睡眠追踪的用户",
+      "demand_claim": "认知衰退焦虑是持续性痛点,睡眠干预门槛低、不涉及药物,读者愿意收藏和转发\"今晚就能试的方法\"类内容。**付费意愿假设待验证**:点赞/收藏不等于购买资料包,需要具体询价或成交才能确认",
+      "demand_verified": false,
+      "deliverable_hint": "1公众号/小红书科普文章(免费引流);2\"睡眠 × 认知健康工具导航\"资料包(3–5 个粉红噪声 App 对比 + 睡眠监测可穿戴对比表),定价建议 9–29 元作为低成本验证",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "48 小时内收藏量 ≥ 点赞量的 50%(收藏说明读者认为有使用价值);或有 ≥ 3 条\"怎么用/哪个 App\"的评论追问。7 天内无此类反馈则不继续投入资料包制作",
+        "stop_condition": "发出后 7 天,收藏 < 20、无追问评论、无私信询价,说明选题对该账号受众吸引力不足,停止制作付费资料包",
+        "upgrade_path": "免费科普 → 睡眠工具导航资料包 → 睡眠 × 认知健康专题会员更新 → 轻咨询(帮用户解读可穿戴睡眠数据的基本含义,不做诊断)"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_f58beeeae2c28703:discover_primary_source",
+      "opportunity_id": "opp_f58beeeae2c28703",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_f58beeeae2c28703:validate_demand",
+      "opportunity_id": "opp_f58beeeae2c28703",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
