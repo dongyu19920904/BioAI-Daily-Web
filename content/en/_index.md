@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/14
+title: AI生命延续学日报 2026/11/15
 breadcrumbs: false
-next: /en/2026-11/2026-11-14
+next: /en/2026-11/2026-11-15
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,61 +11,69 @@ cascade:
 ## **Today's Summary**
 
 ```
-Enhanced serotonin signaling in the brainstem of aging mice suppresses the motivation to move; physical activity improved after intervention, but findings remain limited to animal studies.
-AI analysis of echocardiography-estimated "cardiac age" being older than chronological age correlates with worse health outcomes; this is currently an observational association.
-Neither study has established causation in humans, so neither can be used to assess individual risk or guide intervention.
+A small RCT found improved vascular elasticity in the longevity supplement group, but the control group skewed older and the funder was involved.
+A Johns Hopkins observational study suggests Alzheimer's-related brain region shrinkage may precede memory impairment.
+The vascular trial's effect size was surprisingly large and hasn't been independently replicated — treat current conclusions with caution.
 ```
 
-## **🔥 Today's Top 5** 🔬
+## **🔥 Today's Top 8 Picks** 🔥
 
-### 1. Serotonin signaling in the brain gets stronger with age, dampening older mice's drive to move
+### 1. Longevity Supplement Trial Finds Significant Vascular Function Improvement
 
-A study from the University of Aberdeen, published in *Metabolism*, found that serotonin neurons in the dorsal raphe nucleus of aging mice fire more frequently during active periods. This triggers inhibitory interneurons that cut dopamine release from the ventral tegmental area — dopamine being the key neurotransmitter that drives movement motivation. After researchers used a virus to selectively eliminate those serotonin neurons, mice aged 14–20 months showed improved activity levels, movement speed, and grip strength; body fat also dropped over eight weeks with no change in food intake. As [reported by Lifespan.io](https://lifespan.io/serotonin-signals-suppress-physical-activity-in-aging-mice/), the team first confirmed the pattern of declining activity in older humans using accelerometers on Scottish volunteers aged 17–70, validating the mouse as a reasonable model. These results are still animal-only — targeted neuron ablation isn't applicable to humans, so future work will need to find gentler ways to intervene. 🐭
+A randomized, double-blind, controlled trial out of the University of Surrey, published in the *European Heart Journal Open*, tested the compound supplement NOVOS Core on vascular health. Vascular endothelial function was measured using flow-mediated dilation (FMD) — basically how much an upper-arm artery expands when blood flow resumes, with higher FMD meaning more flexible vessels. Among the 43 participants who completed six months of follow-up, the supplement group saw FMD climb from roughly 5.5% to 8.1%, a jump of about 2.6 percentage points, while the placebo group barely budged. Systolic blood pressure dropped 8.5 mmHg in the supplement group versus just 1.5 mmHg in the control group. Arterial stiffness (pulse wave velocity) also improved. Lipid panels showed no significant between-group differences. The study has real limitations: nearly a third of the 61 enrolled participants didn't finish follow-up, and the control group averaged about seven years older than the supplement group — not a small gap in a trial studying vascular aging. NOVOS co-funded the study and supplied the supplement, and the trial tested the full formulation rather than any single ingredient. Per [reporting from Lifespan.io](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/), independent reviewers found the effect size surprisingly large and are calling for independent replication. 🧐
 
-![Serotonin and physical activity in aging mice](https://lifespan.io/wp-content/uploads/2026/11/Serotonin-Signals-Suppress-Physical-Activity-in-Aging-Mice-262x187.webp)
+[![Source image: Longevity Supplement Improved Blood Vessels in a Human Trial](https://lifespan.io/wp-content/uploads/2023/02/NOVOS-262x187.png)](https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/)
 
----
+### 2. Alzheimer's May Be Shrinking Two Brain Regions a Decade Before Memory Loss
 
-### 2. An AI-estimated "cardiac age" that runs older than your real age is linked to worse health outcomes
+Johns Hopkins scientists found that two brain regions linked to memory and emotional processing may start shrinking years before memory problems appear — and before the hippocampus (the brain's core memory-formation hub) shows the kind of deterioration doctors typically look for. These early changes correlate with abnormal tau protein accumulation, one of Alzheimer's hallmark pathological markers. If follow-up research confirms this, it could offer imaging-based clues for identifying high-risk individuals much earlier. Current coverage comes from [a summary-level Science Daily report](https://www.sciencedaily.com/releases/2026/11/261114202130.htm) — sample size, study design, and full data are pending review of the original paper. 🧠
 
-Research presented at the ESC Digital & AI Summit 2026 showed that AI analysis of echocardiograms can estimate a person's "cardiac age," and when that estimate exceeds chronological age, it tracks with worse health outcomes. "Cardiac age" is a composite metric of cardiac functional state — think of it as a "biological age" concept applied specifically to the heart, measuring whether it's aging faster than the rest of you. As [reported by News-Medical](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx), this is still an associational finding; exact sample size and follow-up duration need verification, and it's too early to say whether the AI estimate itself can predict or change an individual's cardiac disease risk. ❤️
+[![Source image: Alzheimer's may start shrinking two brain regions years before memory loss](https://www.sciencedaily.com/images/1920/alzheimers-brain-atrophy.webp)](https://www.sciencedaily.com/releases/2026/11/261114202130.htm)
 
-[![Source image: Older AI-estimated heart age linked to worse health outcomes](https://www.news-medical.net/images/tags/TagImage-1241-45296008423622681466-620x480.jpg)](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx)
+### 3. Stanford Finds Hidden Brain Activity Patterns That May Predict Alzheimer's Risk
 
----
+Stanford researchers identified hidden patterns in neural activity that reportedly can predict Alzheimer's risk before memory problems surface, and that also correlate with the brain's resilience to aging. If this holds up, it could provide an earlier warning window than current biomarkers. Right now there's only [a summary-level Science Daily report](https://www.sciencedaily.com/releases/2026/11/261112230444.htm) — which specific brain activity signals were involved, the sample size, and the observation timeframe all need verification from the original paper. Actual predictive capability can't be assessed at this stage. 🔍
 
-### 3. A molecule produced by gut probiotics can rapidly repair intestinal wall damage
+### 4. Daily Coffee and Dementia Risk: A 43-Year Observational Study
 
-Scientists at Rutgers School of Health discovered that a molecule produced by "good" gut bacteria can rapidly repair damaged intestinal mucosa and boost production of a coenzyme that naturally declines with age. The intestinal mucosa is the barrier that keeps bacteria and toxins out of the bloodstream; when it breaks down, it's linked to serious conditions like inflammatory bowel disease. As [reported by News-Medical](https://www.news-medical.net/news/20261113/Researchers-discover-bacterial-molecule-that-rapidly-repairs-intestinal-damage.aspx), the molecule's identity, experimental model (cell, animal, or human), and detailed data are still pending verification — but the research direction sits squarely at the intersection of gut microbiome, intestinal repair, and aging-related metabolism. 🦠
+A 43-year observational study found that drinking two to three caffeinated coffees per day correlates with lower dementia risk and better cognitive function, with the association showing up across different genetic risk backgrounds. Decaf coffee didn't show the same link. Worth noting: observational research can only point to correlation, not establish that caffeine causally reduces dementia risk, and can't rule out other lifestyle factors. The study summary is on [Science Daily](https://www.sciencedaily.com/releases/2026/11/261105224550.htm) — full design and sample size pending the original paper. ☕
 
----
+### 5. Consistent Daily Routines Linked to Less Pain and Depression in Older Adults
 
-### 4. Merck kicks off a phase 3 trial to test whether a COPD maintenance drug can cut acute flare-ups
+University of Missouri researchers found that older adults who stick to fixed wake-up, meal, and activity times report less physical pain and fewer depression symptoms — and the link holds even when insomnia is present. Regular routines are thought to help stabilize the body's internal clock (circadian rhythm), and circadian disruption is closely tied to mood, sleep, and overall health. This is observational work showing correlation, not causation. Full details are in [a Science Daily summary](https://www.sciencedaily.com/releases/2026/11/261113231624.htm) — sample and study design specifics are pending the original paper. ⏰
 
-Ohtuvayre (ensifentrine), the COPD drug Merck got FDA approval for in June 2024 as a maintenance treatment for adults, was never specifically tested for its ability to reduce "acute exacerbations" — those sudden, serious episodes of worsening symptoms — in its original approval trials. Merck has now launched a phase 3 trial called ENHANCE-3, aiming to enroll roughly 2,136 patients across the US and other sites with a one-year follow-up, directly answering that question. As [reported by Longevity.Technology](https://longevity.technology/news/merck-tests-a-copd-drug-against-flare-ups/), the first patients have started enrolling — though enrollment isn't the same as completing treatment, and results won't be available until the trial wraps. 💊
+[![Source image: Scientists find a simple daily routine linked to less pain and depression](https://www.sciencedaily.com/images/1920/yellow-and-red-smileys-happy-sad-depression.webp)](https://www.sciencedaily.com/releases/2026/11/261113231624.htm)
 
-[![Source image: Merck tests a COPD drug against flare-ups](https://longevity.technology/wp-content/uploads/2026/11/merck-tests-a-copd-drug-against-flare-ups-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/merck-tests-a-copd-drug-against-flare-ups/)
+### 6. AI-Assisted Screening for Anti-Aging Drug Candidates from Natural Products
 
----
+A study with peer-review status still to be confirmed applied AI methods to anti-aging drug discovery from natural products, covering target prediction, aging biomarker identification, and drug repurposing. The work operates on computational datasets — this is the in-silico stage of drug discovery, not yet in cells or animals. The abstract is on [Europe PMC](https://europepmc.org/article/MED/43024109) — peer-review status, specific predictions, and datasets used all need verification from the full paper. 🤖
 
-### 5. NKGen Biotech releases 12-month natural killer cell therapy data from a single Alzheimer's patient
+### 7. Dario Amodei Predicts AI Could Crack Cancer and Alzheimer's Within a Decade
 
-NKGen Biotech presented a poster at the CTAD conference in Boston covering just one Alzheimer's patient and documenting 12 consecutive months of "natural killer cell therapy" — a treatment approach that uses immune cells to target diseased cells. As [reported by Longevity.Technology](https://longevity.technology/news/one-alzheimers-patient-12-more-months-of-therapy/), a single-patient report has no control group for comparison, so it can't tell us whether the therapy actually works; specific outcome data are still pending verification. That said, early observations like this typically serve to establish safety and tolerability data for larger trials down the road. 🧬
+Dario Amodei, CEO of Anthropic, has publicly stated that AI could usher in a "golden age of medicine" within ten years, potentially helping solve major diseases like cancer and Alzheimer's. This is a personal forecast from an institutional leader, not a claim grounded in specific clinical trial data. Current coverage comes from [a secondary Google News aggregated report](https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY3hwQUlmWW9YeXRjeVgzcUFSVGpsZi1rRGJ3ZUxXaE9ma1hGMmxMZUVqOGNDbjFCa25wdE11aU8xZWtWWDNMRmpTQzdFNmdDcnhzQmFraEFzdkM2eEdUNmExNlRuUTdVUnZLUXdjUTB0VC1VXzhKR1BxRjJ4RC15T2FhSnNZWWRuNkc4YmRLTGlkT2l3MTFnNkhMZzdURXlfd2djb0Fkd3ZpS2NWbG8tUkxLLWZfclNaU00yOGoxaHM2aEpIVkVuRVRXQVFibGxqdlVQaTlfM1gxMUlKN1RjTjVoa0huaDk3ZUFocXV1UQ?oc=5) — no primary source yet. 🚀
 
-[![Source image: One Alzheimer's patient, 12 more months of therapy](https://longevity.technology/wp-content/uploads/2026/11/one-alzheimers-patient-12-more-months-of-therapy-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/one-alzheimers-patient-12-more-months-of-therapy/)
+### 8. New Fiber Supplement Improves Gut Health in IBS Patients
 
----
+Researchers developed a new fiber formulation that reportedly improves gut health in IBS (irritable bowel syndrome — a chronic condition marked by recurring abdominal pain and irregular bowel habits) patients without worsening bloating and pain, rapidly shifts gut microbiome composition, and reduces gut-related anxiety symptoms. Current coverage is [a summary-level Science Daily report](https://www.sciencedaily.com/releases/2026/11/261112230450.htm) — formulation ingredients, sample size, and follow-up duration all need verification from the original paper. Long-term effects can't be evaluated yet. 🦠
 
-## **◎ Industry Moves & What They Mean for You**
-
-### Evommune licenses autoimmune drug EVO570 for $30M upfront, with a phase 1 trial on deck
-
-Evommune announced on November 4 that it licensed the oral drug EVO570 from Chengdu-based Hinova Pharmaceuticals for a $30 million upfront payment. EVO570 is a degrader targeting the VAV1 protein, designed to treat autoimmune diseases. VAV1 is a key signaling molecule in immune cell activation; degrading it aims to put the brakes on an overactive immune response. As [reported by Longevity.Technology](https://longevity.technology/news/evommune-bets-30m-upfront-on-a-new-autoimmune-drug/), milestone payments could total up to roughly $1.1 billion, and a phase 1 human safety trial is about to kick off — though phase 1 only evaluates safety, so it's too early to say anything about clinical benefit for patients. 💉
+[![Source image: A new fiber supplement could help millions suffering from irritable bowel syndrome](https://www.sciencedaily.com/images/1920/woman-holding-stomach-digestive-heart-health.webp)](https://www.sciencedaily.com/releases/2026/11/261112230450.htm)
 
 ---
 
-## **❓ Related Questions**
+## **🧪 Cutting-Edge Research**
 
-### If my "cardiac age" is older than my actual age, does that mean my heart has already aged ahead of schedule?
+### Neuroscience 2026 Reports Two-Way Links Between Body Health and Brain Function
 
-Not so fast. The AI-estimated "cardiac age" is a statistical metric derived from echocardiographic image features, and it reflects population-level associations. A single elevated reading correlates with worse health outcomes, but that doesn't mean any individual's heart has definitively aged beyond its years or developed disease. As [reported by News-Medical](https://www.news-medical.net/news/20261113/Older-AI-estimated-heart-age-linked-to-worse-health-outcomes.aspx), what was released is an associational finding — the metric's actual predictive power and clinical application standards still need more research to nail down. 🫀
+At Neuroscience 2026, multiple studies presented findings on the relationship between physical health and brain function, with implications for Alzheimer's and aging research. Conference presentations typically represent preliminary results that haven't gone through full peer review. Specific methods and data are covered in [a Medical Xpress report](https://medicalxpress.com/news/2026-11-brain-body-alzheimer-disease.html) — more details pending publication of the underlying research papers.
+
+---
+
+## **⌘ Top Open Source Projects**
+
+### Gladyshev-Lab/tAge: An R Package for Transcriptomic Biological Age Estimation
+
+[tAge](https://github.com/Gladyshev-Lab/tAge) is an R package for transcriptomic biological age analysis, maintained by the Gladyshev Lab at Harvard. The transcriptome is the full readout of genes a cell is actively expressing at a given moment — tAge uses this data to estimate a sample's biological age (functional aging relative to chronological age). It's a good fit for researchers with R experience who need to calculate biological age metrics on gene expression datasets. The repo was last active in November 2026 and has 30 stars. License details and specific input format requirements are in the [GitHub repo](https://github.com/Gladyshev-Lab/tAge). ⭐
+
+### msbCyricTohoku/BACalc: A Dataset-Agnostic Dynamic Biological Age Calculator
+
+[BACalc](https://github.com/msbCyricTohoku/BACalc) offers a biological age calculation method that doesn't depend on any specific dataset — it's designed to work across health data from different sources without needing to be retrained for each new dataset. That makes it potentially useful for researchers doing cross-cohort biological age comparisons. The repo was last active in early November 2026 and has 1 star. README describes the functionality; actual performance and supported input formats are in the [GitHub repo](https://github.com/msbCyricTohoku/BACalc) — license status pending verification. 🔬
