@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-16",
+  "report_section": "project-opportunity",
+  "source_page": "/project-opportunity/2026-11/2026-11-16/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_4452b0b9b304e4b4",
+      "report_date": "2026-11-16",
+      "report_section": "project-opportunity",
+      "title": "MineSelf2016/biological_agents_survey — 生物 AI 智能体研究综述活体文档",
+      "source_urls": [
+        "https://github.com/MineSelf2016/biological_agents_survey"
+      ],
+      "source_verified": false,
+      "state": "needs_repository_check",
+      "state_reason": "已提取仓库链接；尚未核验许可证、数据和可运行性",
+      "target_user": "** 长寿内容创作者、科研学习者、独立开发者、需要了解 AI 生物研究工具全貌的读者",
+      "demand_claim": null,
+      "demand_verified": false,
+      "deliverable_hint": "** aging / longevity / dementia / biomarker 相关条目的对比表;\"生物 AI 智能体工具全景\"选题草稿",
+      "suggested_route": "structured_resource",
+      "risk_flags": [],
+      "hypotheses": {
+        "success_metric": "** 24 小时内能从 README 或文献列表中找到 3 条与 aging / longevity / biomarker 明确相关的条目",
+        "stop_condition": "** 仓库内容与 aging 无重叠;或许可证禁止二次整理发布",
+        "upgrade_path": null
+      },
+      "repository_metadata": null
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_4452b0b9b304e4b4:inspect_repository",
+      "opportunity_id": "opp_4452b0b9b304e4b4",
+      "kind": "inspect_repository",
+      "status": "pending_automation",
+      "description_zh": "自动核查仓库许可证、数据入口、依赖、维护状态和试跑条件",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_4452b0b9b304e4b4:validate_demand",
+      "opportunity_id": "opp_4452b0b9b304e4b4",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
