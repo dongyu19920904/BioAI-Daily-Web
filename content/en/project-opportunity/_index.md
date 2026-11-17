@@ -2,63 +2,75 @@
 linkTitle: '项目商机'
 title: 'AI生命延续学资讯商机项目'
 breadcrumbs: false
-description: '2026-11-15 AI生命延续学资讯商机项目：Gladyshev-Lab/tAge；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
+description: '2026-11-16 AI生命延续学资讯商机项目：MineSelf2016/biologicalagentssurvey — 生物 AI 智能体研究综述活体文档；可二次开发方向；值得观察。包含试跑入口、复用资产、维护成本与风险边界。'
 cascade:
   type: docs
-next: /project-opportunity/2026-11/2026-11-15/
+next: /project-opportunity/2026-11/2026-11-16/
 ---
 
 ## 先看结论（可引用项目判断）
 
-- Gladyshev-Lab/tAge（[<https://github.com/Gladyshev-Lab/tAge>](<https://github.com/Gladyshev-Lab/tAge>)）是转录组生物学年龄分析 R 包，仓库最近活跃于 2026-11-10。今天可做 README 阅读和许可证核查，适合长寿内容读者和科研学习者；README 自述不等于独立医学验证，许可证、数据入口和安装结果均待核查，不能当作临床诊断工具使用。
+**biological_agents_survey（[素材来源](<https://github.com/MineSelf2016/biological_agents_survey>)）：** 今天可以试跑 README、整理文献地图。适合科研学习者和长寿内容创作者。不能用于临床判断，许可证和数据入口待核查。
 
-- NOVOS Core 补剂试验（[<https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/>](<https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/>)）为人体随机双盲安慰剂对照试验，由 University of Surrey 团队完成并已发表于期刊，但补剂公司资助并提供产品。结果关联动脉功能改善和收缩压变化，不能确定具体成分作用，适合作为研究观察内容素材，不适合作为补剂推荐依据。
+**Cross-Linguistic Acoustic Biomarkers（[素材来源](<https://papers.cool/arxiv/2611.17710>)）：** 论文描述了跨语言语音认知特征分析方法，涉及四种语言和可解释声学特征。今天只能整理论文要点，相关方法未经临床验证；原始发表日期未知，仅知更新时间为 2026-11-13。
 
 ## 今日优先项目
 
-### Gladyshev-Lab/tAge
+### MineSelf2016/biological_agents_survey — 生物 AI 智能体研究综述活体文档
 
-R 语言转录组生物学年龄分析包，仓库最近活跃于 2026-11-10，方向与长寿生物标志物分析直接相关。适合作为长寿工具导航和生物学年龄方法对比的起点。
+《Briefings in Bioinformatics》2026 年已发表综述的配套 GitHub 仓库，作为"活体文档"持续更新，116 stars，最近活跃于 2026-11-09。有期刊来源的同行评议综述，可信度高于预印本。内容覆盖 AI 智能体在生物研究中的应用，与 aging / longevity / biomarker 方向有结构性重叠，适合做文献地图和工具导航底稿。
 
-- 证据来源：[<https://github.com/Gladyshev-Lab/tAge>](<https://github.com/Gladyshev-Lab/tAge>)（GitHub Trending，项目仓库）
-- 可信度：中（实验室名称可辨识，但项目文档和许可证未确认）
-- 目标鱼塘：长寿内容读者、科研学习者、可穿戴数据分析从业者
-- 它解决什么问题：提供转录组层面的生物学年龄分析方法
-- 试跑门槛：中，主要门槛是 R 环境、依赖安装和转录组数据获取方式均未知
-- 许可证与数据：待核查
-- 维护成本：中，依赖 R 生态和转录组数据格式，数据更新和算力需求未知
-- 可做成什么：试跑教程、工具导航条目、生物年龄方法对比表
-- 可交付物：README 试跑笔记、依赖清单、3 条要点
-- 最低成本验证：今天 clone 仓库，阅读 README，记录许可证、依赖列表和数据要求
-- 成功指标：24 小时内确认许可证类型、数据入口和基本运行环境
-- 停止条件：无开源许可证、数据需付费或受限、依赖过于复杂
-- 二次开发路径：整理为生物学年龄计算工具导航条目，或与其他生物年龄方法做对比表
-- 售后或合规风险：低
-- 合规边界：转录组生物年龄分析是研究工具，不能用于个人健康判断或诊断
-- 今天最小动作：clone 仓库，读 README，截图记录许可证、依赖和数据要求
+- **证据来源：** GitHub 仓库 [素材来源](<https://github.com/MineSelf2016/biological_agents_survey>)；同行评议综述（Briefings in Bioinformatics, 2026）
+- **可信度：** 中（综述有期刊出处，但仓库 README 内容、具体覆盖范围、代码功能待核查）
+- **目标鱼塘：** 长寿内容创作者、科研学习者、独立开发者、需要了解 AI 生物研究工具全貌的读者
+- **它解决什么问题：** 把散落在生物 AI 领域的智能体工具和研究汇总成可检索的结构化资料，降低检索成本
+- **试跑门槛：** 低，主要门槛是判断 README 和综述覆盖范围是否包含 aging / dementia / biomarker 子类
+- **许可证与数据：** 待核查；仓库语言为 Python，是否含可运行代码或仅为文献列表待确认
+- **维护成本：** 低，以内容整理为主；若要持续同步仓库更新，需定期人工核查
+- **可做成什么：** 文献地图 / 工具导航 / 资料库条目 / 内容拆解
+- **可交付物：** aging / longevity / dementia / biomarker 相关条目的对比表；"生物 AI 智能体工具全景"选题草稿
+- **最低成本验证：** 打开仓库，检查 README 是否有 aging 或 dementia 分类；抄出 3 条相关条目，整理成表格
+- **成功指标：** 24 小时内能从 README 或文献列表中找到 3 条与 aging / longevity / biomarker 明确相关的条目
+- **停止条件：** 仓库内容与 aging 无重叠；或许可证禁止二次整理发布
+- **二次开发路径：** 以该综述为底稿，建立"AI 生物研究工具雷达"专栏条目；后续可扩展为周报栏目或社群学习材料
+- **售后或合规风险：** 低
+- **合规边界：** 仅做信息整理和研究观察，不将综述结论包装成个人健康建议或产品推荐
+- **今天最小动作：** 打开仓库 README，抄出与 aging / longevity / dementia 相关的分类或工具名，整理成 3 条要点，写一条选题
 
 ## 可二次开发方向
 
-1. 生物学年龄计算工具对比表：将 tAge 和 BACalc 的输入数据类型、语言、依赖、许可证、适用场景整理成表。可交付物：对比表。最低成本验证：今天填 2 行（tAge + BACalc）。后续升级路径：每周新增 1 个工具，形成长寿工具导航页。
+**跨语言声学认知生物标志物文献地图**
 
-2. NOVOS Core 试验内容拆解：将该人体 RCT 的研究设计、结果、资助方和局限整理为研究观察条目。可交付物：资料库条目 + 朋友圈选题。最低成本验证：今天写 3 条要点。后续升级路径：纳入补剂干预研究文献地图。
+论文（[素材来源](<https://papers.cool/arxiv/2611.17710>)）描述了西班牙语、普通话、英语、日语四种语言的语音认知特征分析方法，使用可解释声学特征而非黑箱模型。研究阶段为论文分析，涉及四种语言数据集，研究类型和样本局限以原文为准，相关方法未经临床验证，只做研究方法介绍和数据整理。
+
+- **可交付物：** 整理论文中声学特征列表和四语言数据集信息，做一张"多语言认知声学特征对比表"
+- **最低成本验证：** 阅读摘要和方法部分，列出使用的声学特征类型和数据集名称，确认是否有开放数据
+- **后续升级路径：** 若数据集开放，可尝试复现特征提取流程，做成教程条目；若数据集受限，只做文献导读资料
 
 ## 值得观察
 
-- msbCyricTohoku/BACalc（[<https://github.com/msbCyricTohoku/BACalc>](<https://github.com/msbCyricTohoku/BACalc>)）：Python 生物年龄计算器，1 star，最近活跃于 2026-11-02。方向相关但文档和许可证未知，数据入口和安装结果待核查。暂不动手，等确认 README 和许可证后再试跑。
+**ParkinSense — 帕金森可穿戴监测平台（[素材来源](<https://github.com/sudo-pranshu/ParkinSense>)）**
 
-- Johns Hopkins 阿尔茨海默病早期脑区萎缩研究（[<https://www.sciencedaily.com/releases/2026/11/261114202130.htm>](<https://www.sciencedaily.com/releases/2026/11/261114202130.htm>)）：发现记忆减退前约十年两个脑区开始萎缩，与 tau 蛋白异常沉积相关。该研究为观察性脑影像研究，目前无公开数据或可运行工具，适合作为文献地图条目跟踪，不适合立即做产品。
+基于 nRF52840 Sense 的可穿戴震颤监测项目，方向与 aging / biomarker 高度相关，最近活跃于 2026-11-15。stars 仅 1，README 内容、依赖、许可证、数据来源和实际可运行状态全部待核查。暂不动原因：项目极早期，无法确认是否有可运行代码，硬件依赖复杂，合规风险需评估。若 README 更新出现安装说明、数据格式说明或许可证，再重新评估。
+
+**嗅觉干预与记忆研究新闻（[素材来源](<https://www.news-medical.net/news/20261115/Novel-scents-may-improve-memory-formation-in-older-adults.aspx>)）**
+
+老年人嗅觉刺激与记忆形成的研究新闻，方向符合 aging 认知健康关注点。暂不动原因：当前来源为新闻报道，原始研究未提供，研究类型、样本量、局限性均未知，无法判断证据等级。若找到原始论文，可整理成"感官干预与认知健康"主题资料库条目。
 
 ## 今天别碰
 
-- 将 NOVOS Core 试验结果转化为补剂推荐内容。该人体 RCT 由补剂公司资助（[<https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/>](<https://lifespan.io/longevity-supplement-improved-blood-vessels-in-a-human-trial/>)），无法确定具体成分作用，涉及干预建议，合规风险高。
+**iAudit — 脑龄预测模型公平性审计（[素材来源](<https://github.com/sudarsan2507-hue/iAudit>)）**
 
-- 基于阿尔茨海默病早期脑影像研究（[<https://www.sciencedaily.com/releases/2026/11/261114202130.htm>](<https://www.sciencedaily.com/releases/2026/11/261114202130.htm>)）的未经临床验证的个人健康判断工具。该研究为观察性脑影像研究，数据不公开，且属于诊断领域。
+脑龄预测模型在性别、扫描站点、族裔维度的偏差审计项目。stars 为 1，依赖开放 MRI 数据，许可证待核查，试跑需要完整 MRI 数据集和预训练模型，门槛高。脑龄差值是研究领域关注的指标，但将其用作未经临床验证的个人健康判断工具不具备临床基础，不适合本栏目读者直接使用。
+
+**AG-JEPA 和 brain-age-prediction-ixi（[素材来源](<https://papers.cool/arxiv/2611.18097>)、[素材来源](<https://github.com/anupbagale/brain-age-prediction-ixi>)）**
+
+两个基于脑部 MRI 的深度学习研究项目。前者为预印本阶段的神经退行性表征学习模型，后者为 IXI 数据集上的 3D CNN 脑龄预测。均需要大体积 MRI 数据集和 GPU，依赖复杂，许可证待核查，原始发表日期未知，不适合轻量试跑。研究结论为模型性能指标，不是人体临床效果，不能用于构建未经临床验证的个人健康判断工具。
 
 ## 今日动作
 
-- 今天先试跑：clone tAge 仓库，读 README，记录许可证和依赖
-- 今天先写：NOVOS Core 试验 3 条要点（研究设计、结果、资助方局限）
-- 今天先收藏：BACalc 仓库，标记待核查许可证和数据入口
-- 今天先做表：生物学年龄计算工具对比表 2 行（tAge + BACalc）
-- 今天先避开：补剂推荐内容和基于早期脑影像研究的个人健康判断工具
+- **今天先试跑：** 打开 [biological_agents_survey](<https://github.com/MineSelf2016/biological_agents_survey>) 仓库，查看 README 和文件结构，确认是否有 aging / dementia 分类条目
+- **今天先写：** 以综述为底稿，写一条"生物 AI 智能体工具全景"小红书或朋友圈选题草稿（不超过 200 字）
+- **今天先收藏：** 声学认知生物标志物论文（[素材来源](<https://papers.cool/arxiv/2611.17710>)），待确认数据集开放状态后决定是否做复现教程
+- **今天先做表：** 从 biological_agents_survey README 中抄出 3 条与 aging / longevity / biomarker 相关条目，整理成两列对比表（工具名 / 适用方向）
+- **今天先避开：** 所有需要 MRI 数据集或 GPU 的项目（iAudit、AG-JEPA、brain-age-prediction-ixi）；任何将脑龄差值用作未经临床验证的个人健康判断工具的做法
