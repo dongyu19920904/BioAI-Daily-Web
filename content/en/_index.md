@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/16
+title: AI生命延续学日报 2026/11/17
 breadcrumbs: false
-next: /en/2026-11/2026-11-16
+next: /en/2026-11/2026-11-17
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,89 +11,91 @@ cascade:
 ## **Today's Summary**
 
 ```
-An enzyme inhibitor given to mice in late life extended median lifespan by roughly four months, with observed slowdowns in physical and cognitive decline.
-An anti-fibrotic drug in early human trials showed consistently lower biological age estimates across six proteomic aging clocks in the treatment group.
-The mouse lifespan results haven't been validated in humans, and proteomic clocks can't distinguish anti-aging effects from anti-fibrotic ones.
+Proteins secreted by aging fat cells damage blood vessels and trigger cellular senescence — confirmed in mouse studies.
+Gut microbiome metabolic activity patterns in long-lived individuals have been identified, with similar metabolic improvements observed in aged mice.
+The fat protein/vascular aging research is still at the cell and animal stage; the causal chain is unclear and human effects are unknown.
 ```
 
-## **🔥 Today's Top 10** 🔥
+## **🔥 Today's Top 9 Picks**
 
-### 1. Inhibiting One Enzyme in Late Life Extended Median Mouse Lifespan by Four Months
+### 1. Asprosin — a Protein Secreted by Fat Cells — Can Drive Vascular Aging
 
-Starting at 18 months of age (roughly equivalent to a human in their 50s), researchers gave mice inhibitor #11a, which targets asparagine endopeptidase (AEP) — a protease that's most active in acidic environments and accumulates abnormally with age. Median survival stretched from 24 to 28 months, and the team also saw a drop in frailty index scores, slower cognitive and physical decline, and lower senescent cell markers across multiple organs. That's a comparable effect size to late-life rapamycin, and the researchers think the two work through different pathways that both converge on improved mitochondrial function. The paper is covered at [Fight Aging!](https://www.fightaging.org/archives/2026/11/late-life-asparagine-endopeptidase-inhibition-extends-lifespan-in-mice/) — but the evidence is mouse-only, the mechanisms are correlational, and none of this translates directly to humans. 🐭
+Asprosin, a protein produced by aging fat cells, damages mitochondria in blood vessel lining cells and triggers cellular senescence — the state where cells stop dividing and start pumping out inflammatory signals to their neighbors. That's the finding covered in [this Lifespan.io report](https://lifespan.io/fat-cells-can-secrete-a-senescence-promoter/). In mouse experiments, injecting anti-Asprosin antibodies or knocking out the gene both led to measurable drops in arterial wall thickening and inflammation markers. Lab dish experiments added another data point: fat cells engineered to not produce Asprosin caused less damage to human endothelial cells. The research is still at the cell-and-animal stage, and the authors themselves flag that the full causal chain behind elevated Asprosin remains unsettled — clinical validation against existing vascular therapies is still needed. 🔬
 
-### 2. CRISPR's Off-Target Problem Is Worse Than Most Researchers Expected 😬
+![Schematic of fat and vascular aging](https://lifespan.io/wp-content/uploads/2026/11/Fat-and-vascular-aging-262x187.jpg)
 
-Superb-seq, a new tool out of the Salk Institute, can simultaneously read CRISPR/Cas9 edit sites and gene activity changes at the single-cell level — solving the long-standing problem of not being able to see both "where did the edit land?" and "what did the cell do about it?" at the same time. In a test on roughly 10,000 human leukemia cells using 7 guide RNAs targeting 7 genes, the tool detected 43 edit sites total — 36 of them off-target — affecting 5,761 cells. The paper is in *Nature Methods*, and per [GEN's coverage](https://www.genengnews.com/topics/genome-editing/single-cell-method-reveals-on-and-off-target-effects-of-cas9-edits-on-gene-expression/), the researchers see this as an early safety screening tool for gene therapy candidates. Current testing is limited to cell lines, with no clinical sample validation yet.
+### 2. AI Links Gut Microbiome Metabolic Activity to Human Longevity
 
-[![Source image: Single-Cell Method Reveals On- and Off-Target Effects of Cas9 Edits on Gene Expression](https://www.genengnews.com/wp-content/uploads/2024/07/CO_MarApr17_Getty_182516812_Henrik5000_BlueCells-1068x801-1.jpg)](https://www.genengnews.com/topics/genome-editing/single-cell-method-reveals-on-and-off-target-effects-of-cas9-edits-on-gene-expression/)
+Researchers at UC San Diego have identified specific metabolic activity shifts in the gut microbiome of long-lived individuals, then used engineered bacteria to reproduce similar metabolic health improvements in aged mice — per [this News-Medical report](https://www.news-medical.net/news/20261116/Gut-microbiome-changes-could-potentially-be-harnessed-to-support-healthier-aging.aspx). This is an association study, so whether those metabolic changes can be controllably "amplified" in humans, and whether doing so actually extends lifespan, needs more data from the original paper. 🦠
 
-### 3. Anti-Fibrotic Drug Rentosertib Turned Back Six Proteomic Aging Clocks in Human Trials 🕐
+[![Source image: Gut microbiome changes could potentially be harnessed to support healthier aging](https://www.news-medical.net/images/tags/TagImage-4166-452960421181018548294-620x480.jpg)](https://www.news-medical.net/news/20261116/Gut-microbiome-changes-could-potentially-be-harnessed-to-support-healthier-aging.aspx)
 
-Proteomic aging clocks estimate biological age by measuring the combined concentrations of hundreds of proteins in blood. Researchers analyzed serum samples from a 12-week Phase 2 clinical trial run by Insilico Medicine (originally targeting idiopathic pulmonary fibrosis) using six different proteomic clocks simultaneously. The treatment group consistently showed lower estimated biological ages than the control group, with pathway analysis pointing toward reduced senescent cells and improved metabolism. This is one of the rare cases where multiple aging clocks give consistent signals from the same human trial dataset — see [Fight Aging!](https://www.fightaging.org/archives/2026/11/anti-fibrotic-drug-rentosertib-reduces-proteomic-clock-age-in-humans/) for details. The catch: proteomic clocks can't yet separate anti-aging effects from anti-fibrotic ones, the mechanisms overlap, and longer follow-up with better-controlled study designs is needed.
+### 3. AI Model Benchmark: Translating H&E Slides into Multiplex Immunofluorescence
 
-### 4. Alzheimer's Mouse Model Reveals Full-Chain Collapse of CSF Circulation 🧠
+[The HEmIF-Bench paper](https://papers.cool/arxiv/2611.19905) systematically evaluates five AI generative models that "translate" H&E images into multiplex immunofluorescence (mIF) — a staining technique that can simultaneously tag multiple proteins to analyze the tumor microenvironment, though it's far more expensive than standard H&E. The benchmark covers cell typing, tumor lymphoid structure identification, and patient survival prediction. The headline finding: high pixel-level staining fidelity doesn't equal good performance on downstream clinical tasks, and none of the generative models consistently beat UNI2, a foundation model pre-trained on large-scale H&E data. That's a reality check for tools sold on "accurate virtual staining" — real diagnostic value still needs independent validation. 🧫
 
-Cerebrospinal fluid (CSF) circulates through the brain as the main pathway for clearing metabolic waste — including amyloid proteins linked to Alzheimer's disease — through what's known as the glymphatic system. Using high-resolution imaging in an Alzheimer's mouse model, researchers found structural collapse in the fluid channels surrounding large arteries at the base of the brain, preventing CSF from entering brain tissue normally. Meanwhile, cholesterol that healthy brains clear within 120 minutes was instead accumulating around microvessel-associated cells and neurons in the diseased model. The study puts abnormal cholesterol metabolism forward as one driver of the circulation breakdown. You can trace the original paper through [Fight Aging!](https://www.fightaging.org/archives/2026/11/evidence-for-cerebrospinal-fluid-flow-through-the-brain-to-stagnate-in-alzheimers-disease/) — this is animal work only.
+### 4. Drug-Target Interaction Prediction Model: MT-RGCN-DTI
 
-### 5. Skin Cell Study Pinpoints Exactly Where Aging Breaks the Cellular Recycling Process 🔬
+MT-RGCN-DTI takes on a classic early-stage drug discovery problem: predicting which drug molecules will bind to a target protein, which can dramatically cut experimental costs before anything goes near a lab. [The paper](https://papers.cool/arxiv/2611.20109) uses a relational graph convolutional network — a type of graph neural network that handles multiple node and edge types — to jointly integrate drug similarity, protein similarity, and known interaction networks. It hits competitive predictive performance across multiple standard benchmarks, and the code is open-sourced on [GitHub](https://github.com/Dheeran-S/MT-RGCN-DTI/). It's a preprint reporting benchmark results, not validation in a real drug development pipeline. 💊
 
-Autophagy is the cell's maintenance process for routing damaged proteins and structures into lysosomes for breakdown and recycling — and aging degrades it. Researchers analyzed autophagy flux in skin fibroblasts from donors aged 20 to 96 and found that the initiation stage remains largely intact in aged cells, but two later steps — autophagosome maturation and autophagosome-lysosome fusion — hit a wall. Cells from the 96-year-old donors also showed enlarged, dysfunctional lysosomes with waste buildup. The main contribution here is methodological: measuring each step separately is what made it possible to actually locate the bottleneck. The paper is at [Frontiers in Aging](https://doi.org/10.3389/fragi.2026.1971981) — findings are from cell experiments and don't represent whole-body aging in living people.
+### 5. Lumosity Shows Overall Cognitive Improvement in a Large Clinical Trial
 
-### 6. A Plant Extract Just Got Confirmed as a Senolytic 🌿
+Lumosity, the brain-training program from Lumos Labs, showed overall cognitive improvement in a large randomized clinical trial of healthy adults — according to [this News-Medical report](https://www.news-medical.net/news/20261116/Brain-training-program-Lumosity-improves-overall-cognition-in-clinical-trial.aspx). Sample size, training duration, and individual cognitive subdomain data need verification from the original paper. The conclusions apply to healthy adults only and can't be directly extrapolated to dementia or cognitive impairment populations. 🧠
 
-Senescent cells — cells that stop dividing but keep pumping out inflammatory signals — accumulate in aging tissue and damage surrounding structures. Through high-throughput screening, researchers identified cepharanthine (CEP), an alkaloid extracted from *Stephania* plants, as having selective senolytic activity. Reductions in senescent cells, improved organ function, and extended lifespan were observed in zebrafish, *C. elegans*, naturally aged mice, and progeria mouse models. See [Fight Aging!](https://www.fightaging.org/archives/2026/11/cepharanthine-identified-as-a-novel-senolytic/) for details. No human trial data yet, and getting a low-cost natural compound into large-scale clinical trials faces real funding hurdles.
+### 6. Agent Orange Exposure and Parkinson's Disease Risk
 
-### 7. Jensen Huang's Resignation Has Life Sciences Watching Nvidia's Partnerships Closely 👀
+A study analyzing electronic health records from millions of Vietnam War veterans found that soldiers exposed to the defoliant Agent Orange had a 57% higher risk of Parkinson's disease and related conditions compared to those who weren't — per [this News-Medical report](https://www.news-medical.net/news/20261116/Agent-Orange-exposure-significantly-raises-Parkinsons-risk-in-veterans.aspx). This is large-scale observational research showing a statistical association, not a direct causal link. The specific mechanisms by which dioxins and other chemicals in Agent Orange cause neurotoxicity weren't disclosed in the abstract. ⚠️
 
-Nvidia CEO Jensen Huang resigned this week following the exposure of multiple extramarital affairs and an associated national security investigation. CFO Colette Kress has stepped in as interim CEO, and Nvidia's stock dropped roughly 12.75% over the week. Nvidia's life sciences footprint is substantial: a five-year, $1 billion AI drug discovery lab co-founded with Eli Lilly, an autonomous lab partnership with Thermo Fisher, the Cambridge-1 UK supercomputer built with AstraZeneca and GSK, and investments in more than 100 AI healthcare startups. Per [GEN's report](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-amid-nvidia-turmoil-what-happens-to-its-life-sciences-collaborations/), most partners haven't publicly said whether they're reassessing their deals. Insilico Medicine founder Alex Zhavoronkov posted on X that this "will have major consequences for the entire industry." Whether existing formal agreements are actually affected remains to be seen.
+### 7. Alzheimer's Research Finds Strong Links Between Physical Health and Brain Health
 
-[![Source image: StockWatch: Amid Nvidia Turmoil, What Happens to Its Life Sciences Collaborations?](https://www.genengnews.com/wp-content/uploads/2026/11/Jensen-Huang-GTC-2024-031924__8fe9c08a-2e0e-4991-b7f5-8c6dbde0ae73.jpg)](https://www.genengnews.com/topics/artificial-intelligence/stockwatch-amid-nvidia-turmoil-what-happens-to-its-life-sciences-collaborations/)
+A study on Alzheimer's disease and aging found strong associations between physical health status and brain health, as covered in [this News-Medical report](https://www.news-medical.net/news/20261116/Research-on-Alzheimers-finds-strong-links-between-physical-and-brain-health.aspx). Study design, cohort size, and quantitative results need verification from the source. Correlation research can't support the direct conclusion that "improving fitness prevents Alzheimer's." 🏃
 
-### 8. Cancer Treatment-Induced Senescent Cells Are Accelerating Patients' Biological Aging ⚠️
+### 8. Semi-Supervised Framework for De Novo Peptide Sequencing: SemiNovo
 
-Chemotherapy and radiation, when they fail to kill cancer cells outright, often push them into senescence — the cells stop dividing but keep surviving, and normal surrounding cells get pushed into senescence too. This therapy-induced senescence leaves cancer survivors at higher risk for cardiovascular damage, chronic inflammation, and other age-related diseases compared to healthy peers of the same age. The review authors identify the inflammatory signals continuously secreted by senescent cells (SASP) as a key mechanism behind cardiovascular toxicity, and suggest that combining senolytics with cancer treatment could be a path toward reducing long-term side effects — though clinical benefit and safety are not yet established. Full coverage at [Fight Aging!](https://www.fightaging.org/archives/2026/11/the-double-edged-sword-of-therapy-induced-senescence-in-cancer-treatment-2/).
+SemiNovo tackles a fundamental proteomics challenge: reconstructing amino acid sequences directly from mass spectrometry data (de novo sequencing), which is key for identifying unknown proteins. Most existing deep learning models only train on high-confidence spectra that databases can already match, leaving a huge pile of unannotated spectra on the table. [The SemiNovo paper](https://papers.cool/arxiv/2611.21079) builds a semi-supervised framework that learns from both annotated and unannotated spectra simultaneously, and also releases DarkSpec, a large-scale unannotated mass spectrometry corpus. It achieves state-of-the-art performance across multiple benchmarks. Code and dataset are public; it's a preprint. 🔭
 
-### 9. Speech Rhythm Features Reliably Reflect Cognitive Impairment Across Four Languages 🗣️
+### 9. Longevity-Predicting Neural Network with Built-In Actuarial Constraints
 
-This preprint spans Spanish, Mandarin, English, and Japanese, collecting acoustic features through both conversational tasks and structured reading tasks, then using machine learning to identify which acoustic markers can distinguish cognitive impairment. Speech timing and rhythm features held up consistently across all languages and both task types, capturing the pauses and rhythmic disruptions seen in cognitively impaired speakers. Speaking rate was most effective in the reading task (where external content provides an anchor) and less reliable in free conversation. Pitch-related features showed different patterns in tonal languages like Mandarin versus non-tonal ones. The [paper](https://papers.cool/arxiv/2611.17710) hasn't been peer-reviewed yet and isn't ready for direct use in clinical screening tool development.
-
-### 10. Data from 70-Year-Old Women Links Estrogen Exposure Duration to Degree of Neurodegeneration 🧬
-
-This study from the Gothenburg H70-1944 birth cohort enrolled 352 cognitively normal 70-year-old women for brain MRI at baseline and again five years later, examining associations between reproductive lifespan (a proxy for endogenous estrogen exposure), hormone therapy use, and brain structure. Longer reproductive lifespan correlated with lower cerebral small vessel disease burden (odds ratio 0.92). Menopausal hormone therapy use was associated with less cerebrovascular disease and better white matter integrity. Among women carrying the APOE-ε4 allele (a known Alzheimer's risk gene), hormone therapy was additionally associated with thicker cortex in Alzheimer's-related brain regions. See [Fight Aging!](https://www.fightaging.org/archives/2026/11/longer-estrogen-exposure-correlates-with-a-lesser-degree-of-neurodegeneration/) for details — this is observational research, causality can't be inferred, and it doesn't constitute hormone therapy recommendations.
+[The AINN paper](https://papers.cool/arxiv/2611.18802) embeds a core actuarial prior — that mortality rises monotonically with age — as a differentiable penalty term into LSTM training, then applies it to lifespan prediction on data from Switzerland, Sweden, Norway, West Germany, the Netherlands, and Japan spanning 1956–2020. The key finding is a quantifiable accuracy-stability tradeoff around the constraint strength coefficient λ: at λ=0.1, prediction confidence intervals narrow by 25% while RMSE increases by only 0.84%, and the 10-year out-of-sample backtest yields a mean absolute error of 0.38 years. This is statistical modeling research; results depend on the selected countries and historical data, and don't reflect individual lifespan prediction capability. 📊
 
 ---
 
 ## **⚡ Product & Feature Updates**
 
-### AG-JEPA: Brain MRI Pre-Training Model Uses Anatomical Region Guidance to Improve Early Alzheimer's Detection
+### Lab Information System Integration: LabVantage on the Prerequisites for AI Adoption
 
-This preprint introduces AG-JEPA, a pre-training architecture for learning neurodegeneration representations from brain MRI. Unlike general structural representation models, AG-JEPA incorporates anatomical tokens tied to Alzheimer's-relevant brain regions during pre-training, so the model learns to focus on those areas. Across five downstream benchmark tasks, AG-JEPA improved AUROC by 8.4 percentage points on the cognitively normal vs. mild cognitive impairment (MCI) classification — MCI being the transitional stage between normal aging and dementia — and by 7.1 percentage points on cross-dataset cognitively normal vs. Alzheimer's classification. An extended version, Prog-AG-JEPA, can additionally model disease progression trajectories and predict future brain volume changes. Method details are at [paper index/abstract](https://papers.cool/arxiv/2611.18097) — this is a preprint, and the test tasks are classification benchmarks, not clinical diagnostic validation. 🧠
+LabVantage VP of Product Denise Bell discussed how lab data silos block practical AI adoption in [this GEN podcast](https://www.genengnews.com/topics/toward-connected-laboratory-ecosystems/): when LIMS (Laboratory Information Management System), ELN (Electronic Lab Notebook), LES (Laboratory Execution System), and SDMS (Scientific Data Management System) all run in isolation, AI lacks the operational and scientific context it needs to reliably support decisions. This comes from a commercial vendor's podcast, so it's a product philosophy pitch, not independent research validation. 🏭
+
+[![Source image: Toward Connected Laboratory Ecosystems](https://www.genengnews.com/wp-content/uploads/2026/11/Denise-Bell-VP-Product-Management-and-Marketing-e1794865379160-300x300.jpg)](https://www.genengnews.com/topics/toward-connected-laboratory-ecosystems/)
 
 ---
 
 ## **🧪 Frontier Research**
 
-### Mining Toxicology Archives Turned Up 27 Substances That Extend Mouse Lifespan
+### Parametric Analysis Framework for Corpus Callosum Diffusion MRI
 
-Researchers repurposed long-term rodent toxicology archives from the German Federal Institute for Risk Assessment — data originally collected for chemical safety approvals — and searched them for compounds showing improved low-dose survival rates. Across 154 substances and studies meeting the minimum threshold (≥50 animals per group), 27 (18%) significantly improved endpoint survival in at least one dose group. Among them, bromoxynil was confirmed as a mitochondrial uncoupler and further validated in *C. elegans*, where it improved multiple health indicators without detectable toxicity. The research approach is covered at [Fight Aging!](https://www.fightaging.org/archives/2026/11/identifying-hormetic-agents-that-modestly-slow-aging-from-mouse-toxicology-study-data/) — all findings are from animal experiments, bromoxynil is a pesticide, and its human safety profile is unknown. Don't extrapolate.
+[This paper](https://papers.cool/arxiv/2611.19066) targets the corpus callosum — the brain's largest white matter tract connecting the two hemispheres, whose microstructural changes are linked to aging and Alzheimer's disease. The proposed method standardizes analysis by resampling the corpus callosum's midsagittal cross-section onto a normalized grid, establishing spatial correspondence across subjects without the computationally expensive inter-subject registration that existing methods require. On aging and Alzheimer's datasets, the effect size maps broadly align with established methods while also detecting localized differences those methods missed. It's a preprint reporting method validation results, not yet a clinical diagnostic tool. 🧠
+
+---
+
+## **◎ Industry Shifts & Personal Impact**
+
+### Four States Cut Medicaid Coverage, Sending Weight-Loss Drug Prescriptions into Freefall
+
+A University of Pittsburgh research team found that after four states eliminated Medicaid coverage for GLP-1 weight-loss drugs, prescriptions dropped sharply — per [this News-Medical report](https://www.news-medical.net/news/20261116/Medicaid-coverage-cuts-sharply-reduce-weight-loss-drug-prescriptions.aspx). GLP-1 drugs have drawn major attention in recent years for their weight-loss and cardiovascular benefits, but their high price tag means many patients can only access them through insurance coverage. The study puts a spotlight on how directly insurance policy shapes drug access; specific drop percentages and affected patient counts need verification from the source. 💊
 
 ---
 
 ## **⌘ Top Open Source Projects**
 
-### MineSelf2016/biological_agents_survey: A Living Companion Repo for the AI Biological Research Agent Survey
+### Shape-Lab/SPHARM-Mamba: Cortical Surface Brain Age Prediction Tool
 
-This repository is the companion resource for the paper "Artificial Intelligence agents for biological research: a survey," published in *Briefings in Bioinformatics* (2026). It collects literature and categorizations of AI agents applied to biological research contexts. It's a solid starting point for researchers who want a systematic look at how AI is being used in experimental design, literature retrieval, and data analysis — check the [GitHub repo](https://github.com/MineSelf2016/biological_agents_survey) for scope and update status. Last active November 9, 2026. The content is primarily survey literature with no directly runnable tools, and license information isn't stated in the description — worth checking before you use it.
-
-### sudo-pranshu/ParkinSense: Wearable Sensor Platform for Continuous Parkinson's Tremor Monitoring
-
-ParkinSense is a Parkinson's disease monitoring platform running on nRF52840 Sense hardware, designed for continuous hand tremor measurement and digital biomarker extraction to support early detection. Digital biomarkers here means quantitative indicators of disease characteristics extracted from sensor data — continuous measurement catches day-to-day variation that a single clinic visit would miss. See the [GitHub repo](https://github.com/sudo-pranshu/ParkinSense) — currently sitting at 1 star, early-stage project, and clinical validation status isn't described. 👀
+[SPHARM-Mamba](https://github.com/Shape-Lab/SPHARM-Mamba) is an open-source tool for cortical surface morphology analysis and brain age prediction. Its core approach combines spherical harmonics — a mathematical framework for describing shapes on a sphere — with the Mamba architecture, giving the model rotational invariance to brain orientation and making it well-suited for multi-scale morphological analysis of brain regions from structural MRI data. Brain age, the brain's estimated "biological age" derived from imaging, is widely used in aging and neurodegeneration research. The repo description covers its use case; it currently has 1 star and was last active November 9, 2026. License info needs verification — check the repo and confirm your runtime environment before using. ⭐
 
 ---
 
 ## **❓ Related Questions**
 
-### If a Proteomic Aging Clock Shows a "Lower Biological Age," Does That Mean Someone Actually Got Younger?
+### What Does the Asprosin Research Mean for Regular People — Can You Test for It or Target It?
 
-Not quite. 🤔 Proteomic clocks estimate biological age by measuring a combination of protein concentrations in blood — they're statistical model outputs, not direct measurements of a person's physical state. The fact that six clocks consistently pointed to lower estimated ages in the Rentosertib treatment group tells us that certain aging-associated protein signals shifted. But the researchers themselves note that the clocks can't currently separate "anti-aging effects" from "anti-fibrotic effects," because the two overlap in the proteins they affect. You can trace the methodology and limitations through [Fight Aging!](https://www.fightaging.org/archives/2026/11/anti-fibrotic-drug-rentosertib-reduces-proteomic-clock-age-in-humans/) back to the original paper. A lower estimated age doesn't equal reduced disease risk, and it doesn't equal longer lifespan. Answering those questions requires randomized controlled trials with longer follow-up and functional outcome measures.
+Asprosin is still a lab research subject at this point, with no approved tests or interventions available. The research establishes its link to vascular aging in cells and mice, but the authors themselves note that the full causal chain behind elevated Asprosin levels hasn't been worked out, and any potential therapy would need to be compared against existing vascular treatments before its value could be assessed. For the full picture, check out [the original Lifespan.io article](https://lifespan.io/fat-cells-can-secrete-a-senescence-promoter/). 🔬
