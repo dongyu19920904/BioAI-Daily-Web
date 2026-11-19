@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/17
+title: AI生命延续学日报 2026/11/18
 breadcrumbs: false
-next: /en/2026-11/2026-11-17
+next: /en/2026-11/2026-11-18
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,91 +11,89 @@ cascade:
 ## **Today's Summary**
 
 ```
-Proteins secreted by aging fat cells damage blood vessels and trigger cellular senescence — validated in mouse experiments.
-Gut microbiomes of long-lived populations show specific metabolic activity changes; similar metabolic improvements observed in aged mice.
-Research on lipoproteins and vascular aging remains at the cell and animal stage; the causal chain is unclear, and human effects are unknown.
+An Alzheimer's antibody that recruits immune cells into the brain showed a drop in neuronal damage markers in an early human trial.
+Partial reprogramming affects different human cell types in dramatically different ways — endothelial cells improved in function while T cells were irreversibly lost.
+The marker drop came from an exploratory 40-person sample with no statistical significance, so it doesn't establish that the drug changes disease course.
 ```
 
-## **📌 Today's Top 9 Stories**
+## **🔥 Top 10 Highlights of the Day**
 
-### 1. Asprosin, a Protein Secreted by Fat Cells, Drives Vascular Aging
+### 1. Alzheimer's Immunotherapy Shows Biomarker Improvements in First Human Trial
 
-Asprosin, a protein produced by aging fat cells, damages mitochondria in blood vessel lining cells and triggers cellular senescence — the state where cells stop dividing and pump out inflammatory signals to their surroundings, per [a Lifespan.io report](https://lifespan.io/fat-cells-can-secrete-a-senescence-promoter/). In mouse experiments, injecting anti-Asprosin antibodies or knocking out its gene significantly reduced blood vessel wall thickening and inflammatory markers. In vitro tests went further: secretions from fat cells that couldn't produce Asprosin caused less damage to human endothelial cells. The discovery stays at the cell and animal stage for now, though. Researchers note the complete causal chain behind elevated Asprosin isn't pinned down yet, and whether it beats existing vascular treatments is an open question awaiting clinical testing.
+IBC-Ab002, an antibody from ImmunoBrain, proved safe in a Phase I trial of 40 early-stage Alzheimer's patients and showed a drop in CSF markers linked to neuronal damage over 48 weeks, according to [this report](https://www.genengnews.com/topics/translational-medicine/beyond-amyloid-and-tau-alzheimers-drug-developer-sees-early-clinical-success-for-immunotherapy-based-approach/). Rather than directly clearing amyloid, the drug briefly blocks the PD-1/PD-L1 immune "brake," mobilizing peripheral immune cells into the brain to reduce inflammation. The 30 mg/kg group saw roughly a 23% drop in neurogranin, with no brain bleeds or ARIA. Data were published in Nature Medicine, but the sample is small and lacks statistical significance — this is an exploratory signal. The team has filed for a Phase II trial, and whether the drug actually changes disease course remains to be seen. 🧠
 
-![Fat and vascular aging diagram](https://lifespan.io/wp-content/uploads/2026/11/Fat-and-vascular-aging-262x187.jpg)
+[![Source image: Beyond Amyloid and Tau: Alzheimer's Drug Developer Sees Early Clinical Success for Immunotherapy-Based Approach](https://www.genengnews.com/wp-content/uploads/2026/11/Prof-Michal-Schwartz-CROP-SQUARE-300x298.jpg)](https://www.genengnews.com/topics/translational-medicine/beyond-amyloid-and-tau-alzheimers-drug-developer-sees-early-clinical-success-for-immunotherapy-based-approach/)
 
-### 2. Gut Microbiome Metabolic Activity Linked to Human Longevity 🦠
+### 2. Partial Reprogramming Hits Very Differently Depending on Cell Type
 
-Specific metabolic activity changes in the gut microbiome (the trillions-strong microbial community in the intestines) of long-lived populations have been identified by UC San Diego researchers, per [a News-Medical report](https://www.news-medical.net/news/20261116/Gut-microbiome-changes-could-potentially-be-harnessed-to-support-healthier-aging.aspx). The team used engineered bacteria to reproduce similar metabolic health improvements in aged mice. This is a correlation study — whether these metabolic activities can be controllably "amplified" in humans and whether they actually extend lifespan remain open questions pending verification against the original data.
+A preprint co-authored by reprogramming pioneer Shinya Yamanaka tested "partial reprogramming" — briefly activating the four OSKM genes to rejuvenate cells without fully reverting them to stem cells — across three human cell types: skin fibroblasts, killer T cells, and aortic endothelial cells, according to [Lifespan.io](https://lifespan.io/partial-reprogrammings-outcome-depends-on-cell-type/). The three cell types responded very differently: endothelial cells showed both a drop in epigenetic age and improved function; T cells couldn't recover after deep reprogramming and were lost; fibroblasts showed lower epigenetic age but suffered long-term proliferation damage. This is an unreviewed preprint using in vitro cells from donors aged 48–63, so it can't be extrapolated to human organs. ⚠️
 
-[![Source image: Gut microbiome changes could potentially be harnessed to support healthier aging](https://www.news-medical.net/images/tags/TagImage-4166-452960421181018548294-620x480.jpg)](https://www.news-medical.net/news/20261116/Gut-microbiome-changes-could-potentially-be-harnessed-to-support-healthier-aging.aspx)
+![Diagram showing how three cell types respond to partial reprogramming](https://lifespan.io/wp-content/uploads/2026/11/Three-cell-types-262x187.jpg)
 
-### 3. Evaluating AI Models That Convert H&E Slides to Multiplex Immunofluorescence 🔬
+### 3. Privacy-Preserving Collaborative Framework Classifies Neurological Diseases Across Brain Scan Sites
 
-Five AI generative models that "translate" H&E images into multiplex immunofluorescence (mIF) have been systematically evaluated by [the HEmIF-Bench paper](https://papers.cool/arxiv/2611.19905). In pathology, mIF staining can simultaneously tag multiple proteins to help analyze the tumor microenvironment, while conventional H&E staining is cheaper and far more common. The evaluation covered tasks like cell phenotyping, tumor lymphoid structure recognition, and patient survival prediction. The key finding: high pixel-level staining fidelity doesn't translate to good downstream task performance, and no generative model consistently beat UNI2, a foundation model pretrained on large-scale H&E data. That's a wake-up call for tools marketed on "virtual staining accuracy" — real diagnostic value still needs independent validation.
+The SCAN framework lets multiple hospitals collaboratively fine-tune a 3D vision-language model to classify neurological diseases without ever sharing patient brain MRI scans, according to [this paper](https://papers.cool/arxiv/2611.21955). It spans 7,641 scans from 67 sites across 12 countries, covering Alzheimer's, stroke, and epilepsy — with new sites sharing only noise-processed category summaries. Zero-shot classification AUC hit 0.833–0.945 across 7 unseen sites, and training-free local prototypes bumped one site's epilepsy AUC from 0.508 to 0.762, approaching locally-trained classifier performance. This is a methodological preprint; precision gains from sharing are modest, and it hasn't entered clinical diagnosis. 🏥
 
-### 4. MT-RGCN-DTI: A Drug-Target Interaction Prediction Model 💊
+### 4. Scientist-Guided AI Agent Approaches Top Baseline in Protein Prediction
 
-MT-RGCN-DTI, a drug-target interaction prediction model, uses a relational graph convolutional network (a graph neural network that handles multiple node and edge types) to integrate drug similarity, protein similarity, and known interaction networks simultaneously, per [the MT-RGCN-DTI paper](https://papers.cool/arxiv/2611.20109). In early-stage AI drug discovery, quickly predicting which drug molecules can bind to a target protein can dramatically cut experimental costs. The model achieved competitive prediction performance on multiple standard datasets. Code is open-sourced in the [GitHub repository](https://github.com/Dheeran-S/MT-RGCN-DTI/). The paper is a preprint reporting benchmark performance, not yet validated in real drug development pipelines.
+DiscoveryAgent is an AI agent framework that lets scientists choose, modify, or swap hypotheses between research rounds, backed by an audit agent that verifies each step's logs, according to [this paper](https://papers.cool/arxiv/2611.21950). On protein variant effect prediction, the scientist-guided version was beaten by just one of 106 ProteinGym baselines. Three domain case studies also identified relay genes in CD4+ T cells linked to autoimmune disease. This is a preprint, and performance is benchmarked on specific tasks — it doesn't translate directly to real drug discovery success rates. 🔬
 
-### 5. Lumosity Large Clinical Trial Shows Overall Cognitive Improvement 🧠
+### 5. Single-Cell Perturbation Prediction Model Generalizes Better Across Contexts
 
-Lumosity, the brain training program from Lumos Labs, showed overall cognitive improvement in a large randomized clinical trial of healthy adults, per [a News-Medical report](https://www.news-medical.net/news/20261116/Brain-training-program-Lumosity-improves-overall-cognition-in-clinical-trial.aspx). Specific sample size, training duration, and individual cognitive subtest data await verification against the original article. Current conclusions apply only to healthy adults and can't be directly extrapolated to dementia or cognitive impairment patients.
+OCCAM uses a multi-layer perceptron framework to learn single-cell representations and predict gene perturbation effects — where perturbation means experimentally altering a gene to observe cell response — according to [this paper](https://papers.cool/arxiv/2611.21959). In "cross-context" few-shot prediction — where a perturbation and a cell context have each been seen separately but never together — OCCAM outperforms four retrained competitors at capturing responses to unseen combinations. For dual perturbations changing two genes simultaneously, it can combine single-gene responses to cut expression prediction error. This is a preprint method evaluation; accurately predicting expression levels remains a hard problem. 🧬
 
-### 6. Agent Orange Exposure Raises Parkinson's Disease Risk ⚠️
+### 6. MRI-Confirmed Soft-Tissue Lesions Detected in Dental CBCT Scans
 
-Agent Orange exposure is linked to a 57% higher risk of Parkinson's disease and related conditions in Vietnam War veterans, per [a News-Medical report](https://www.news-medical.net/news/20261116/Agent-Orange-exposure-significantly-raises-Parkinsons-risk-in-veterans.aspx). A study analyzing electronic health records of millions of veterans found that soldiers exposed to the herbicide had significantly higher disease risk than unexposed counterparts. This is a large-scale observational study showing statistical association, not direct causation. The specific mechanisms linking dioxins and other chemicals in Agent Orange to neurotoxicity weren't disclosed in the abstract.
+A research team used physics-guided self-supervised learning to extract soft-tissue lesion signals from routine dental CBCT scans — a cone-beam X-ray type optimized for bone — that would normally require MRI to detect, according to [this paper](https://papers.cool/arxiv/2611.23042). On 212 registered temporomandibular joint CBCT-MRI pairs, a specialized pretraining setup pushed joint effusion detection ROC AUC to 0.793, suggesting that low-dose X-ray imaging may preserve soft-tissue information invisible to the human eye. This is a retrospective preprint with no prospective validation — it can't replace MRI diagnosis. 🦷
 
-### 7. Alzheimer's Disease Research Finds Strong Links Between Physical and Brain Health 🫀
+### 7. Genetic Barcoding Tracks How Individual Human Stem Cells Rebuild the Immune System After Transplant
 
-Alzheimer's disease and aging research has turned up strong associations between physical health and brain health, per [a News-Medical report](https://www.news-medical.net/news/20261116/Research-on-Alzheimers-finds-strong-links-between-physical-and-brain-health.aspx). Specific study design, cohort size, and quantitative results await verification against the original article. As a correlation study, it can't directly conclude that "improving physical fitness prevents Alzheimer's disease."
+A USC team used genetic barcoding to tag individual human hematopoietic stem and progenitor cells, then transplanted them into mice to track how they rebuild blood and immune systems, according to [this report](https://www.genengnews.com/topics/translational-medicine/genetic-barcoding-reveals-how-pre-bone-marrow-transplant-conditioning-impacts-immune-system-regeneration/). Human multipotent progenitors showed stronger long-term regenerative capacity than prior mouse studies suggested, while hematopoietic stem cells produced more blood and broader lineages. Different pre-transplant conditioning regimens — radiation vs. the chemo drug busulfan — affected the type and speed of immune cell output, with stem cells less affected. Results come from a human-mouse chimeric model, and whether they can directly guide patient transplant protocols needs further study. 🔬
 
-### 8. SemiNovo: A Semi-Supervised Framework for Peptide De Novo Sequencing 🧬
+### 8. GPU-Accelerated Implementation Lands for Protein Design Energy Function
 
-SemiNovo, a semi-supervised framework for de novo peptide sequencing, learns from both annotated and unannotated mass spectra, per [the SemiNovo paper](https://papers.cool/arxiv/2611.21079). In proteomics, directly recovering amino acid sequences from mass spectrometry data is key to identifying unknown proteins, but most existing deep learning models train only on high-confidence spectra that match database entries, leaving vast amounts of unannotated spectra untapped. The framework also comes with DarkSpec, a large-scale unannotated mass spectrometry corpus, achieving leading performance on multiple benchmarks. Code and dataset are publicly available; the paper is a preprint.
+tmol is a GPU-native PyTorch library implementing the Rosetta protein energy function RosettaGenFF, with batch scoring throughput up to 362× faster, fully differentiable, and pluggable into ML frameworks, according to [this paper](https://papers.cool/arxiv/2611.21857). Using it as a reward signal for generative protein design produced interfaces with improved hydrogen bond and water bridge counts. This is a preprint; throughput and interface improvements are benchmarked on specific tasks, and real-world design success rates need more validation. ⚡
 
-### 9. Longevity Prediction Neural Network Embeds Actuarial Constraints 📊
+### 9. Bioengineered Blood Vessel Enters Human Testing for the First Time
 
-AINN, a longevity prediction neural network, embeds actuarial monotonicity priors (the assumption that mortality rises monotonically with age) as a differentiable penalty term into LSTM training, per [the AINN paper](https://papers.cool/arxiv/2611.18802). It forecasts lifespan using data from six countries — Switzerland, Sweden, Norway, West Germany, the Netherlands, and Japan — spanning 1956–2020. The key finding: the constraint strength coefficient λ shows a quantifiable accuracy-stability tradeoff. At λ=0.1, prediction confidence intervals narrow by 25% with only a 0.84% increase in RMSE; 10-year out-of-sample backtesting shows a mean absolute error of 0.38 years. This is statistical prediction modeling — results depend on the selected countries and historical data and don't represent individual lifespan prediction capability.
+Humacyte has launched a 10-person trial testing an off-the-shelf bioengineered blood vessel for use in heart bypass surgery as a replacement for the patient's own leg vein, according to [this report](https://longevity.technology/news/humacytes-bioengineered-bypass-vessel-gets-first-human-test/). The North Carolina company designed it to make bypass grafting possible without harvesting autologous veins. This is a first-in-human trial — small, with no safety or patency results published yet, and far from widespread availability. 🫀
 
----
+![Humacyte bioengineered blood vessel](https://longevity.technology/wp-content/uploads/2026/11/humacytes-bioengineered-bypass-vessel-gets-first-human-test-hero-1200x800-1-1024x683.png)
 
-## **🚀 Product & Feature Updates**
+### 10. Performance Gains from Curvature-Weighted Graph Networks in Protein Interaction Prediction Are Reinterpreted
 
-### LabVantage on AI Adoption Prerequisites: Connecting Lab Information Systems
+Researchers analyzed curvature-enhanced graph convolutional networks (CGCN) edge-by-edge across four protein-protein interaction datasets, finding overall AUC, AUPR, and F1 improvements — but those gains come almost entirely from low-degree edges, according to [this paper](https://papers.cool/arxiv/2611.21849). On low-curvature (bottleneck) edges, performance actually got worse across three datasets, which is the opposite of what the "alleviating over-squashing" motivation predicts. Further analysis suggests curvature weighting is actually sharpening inter-cluster separation, improving intra-cluster prediction at the expense of inter-cluster prediction. This is a preprint methodological analysis; conclusions are limited to the tested datasets. 📊
 
-LabVantage VP of Product Denise Bell discusses how siloed lab informatics constrains AI adoption, per [a GEN podcast](https://www.genengnews.com/topics/toward-connected-laboratory-ecosystems/). When LIMS (Laboratory Information Management Systems), ELN (Electronic Lab Notebooks), LES (Laboratory Execution Systems), and SDMS (Scientific Data Management Systems) each run independently, AI lacks sufficient operational and scientific context to reliably support decision-making. This content comes from a commercial podcast — it's a product philosophy discussion, not independent research validation.
+## **⚡ Product & Feature Updates**
 
-[![Source image: Toward Connected Laboratory Ecosystems](https://www.genengnews.com/wp-content/uploads/2026/11/Denise-Bell-VP-Product-Management-and-Marketing-e1794865379160-300x300.jpg)](https://www.genengnews.com/topics/toward-connected-laboratory-ecosystems/)
+### Skin Aging Platforms: Two Companies Drop Systemic Aging Maps
 
----
+Estée Lauder launched its "Mastering Skin Longevity" platform at the Shanghai CIIE, using a clock-style display to show how multiple biological switches shape skin aging together, according to [this report](https://longevity.technology/news/beauty-giant-and-supplement-startup-both-chase-skin-aging/). A few weeks prior, startup Epillon released a skin aging map featuring ten interacting components. Both companies frame skin aging as an interconnected system rather than a single metric. These are conceptual product launches — not clinically validated treatments. ✨
 
-## **🔍 Frontier Research**
+![Skin aging platform launch](https://longevity.technology/wp-content/uploads/2026/11/beauty-giant-and-supplement-startup-chase-skin-aging-revised-hero-1200x800-1-1024x683.png)
 
-### A Parametric Analysis Framework for Corpus Callosum Diffusion MRI
+## **🧪 Frontier Research**
 
-A parametric analysis framework for corpus callosum diffusion MRI applies standardized grid resampling to the mid-sagittal section, establishing cross-subject spatial correspondence without computationally expensive inter-subject registration, per [this paper](https://papers.cool/arxiv/2611.19066). The corpus callosum is the largest white matter tract connecting the brain's two hemispheres, and its microstructural changes relate to aging and Alzheimer's disease. On aging and Alzheimer's datasets, the new method's effect size maps broadly agree with existing mainstream methods while revealing local differences that current methods miss. The paper is a preprint reporting method validation only — not yet a clinical diagnostic tool.
+### Chronic Loneliness Linked to Higher Dementia Risk
 
----
+A study tracking a population over 30 years found that only persistent, chronic loneliness — not occasional loneliness — was significantly associated with dementia risk, with roughly a 38% elevated risk, according to [this report](https://www.news-medical.net/news/20261117/Chronic-loneliness-linked-to-3825-higher-risk-of-dementia.aspx). This is observational research that shows correlation, not causation — it doesn't establish that loneliness directly causes dementia. Sample size and mechanisms should be verified in the original paper. 💙
 
-## **📋 Industry Changes & Personal Impact**
+## **⌘ Top Open Source Projects**
 
-### Weight Loss Drug Prescriptions Plummet After Four States Cut Medicaid Coverage 💰
+### lucascamillomd/pyaging: GPU-Accelerated Aging Clock Collection
 
-Weight loss drug prescriptions took a sharp dive after four states dropped Medicaid (the US public insurance program for low-income individuals) coverage for GLP-1 drugs, according to a University of Pittsburgh research team and [a News-Medical report](https://www.news-medical.net/news/20261116/Medicaid-coverage-cuts-sharply-reduce-weight-loss-drug-prescriptions.aspx). GLP-1 drugs have drawn attention in recent years for weight loss and cardiovascular benefits, but their high price means many patients rely on insurance coverage to access them. This study reveals the direct impact of insurance policy on drug accessibility; the specific magnitude of decline and number of people affected await verification against the original article.
+This Python library bundles multiple GPU-optimized aging clocks — models that estimate biological age from molecular data like methylation or gene expression — and is aimed at researchers in aging science. According to the [repo](https://github.com/lucascamillomd/pyaging), it currently has 134 stars and was last active on November 15. Which specific clocks are supported, input formats, and license terms should be confirmed in the repo. ⏱️
 
----
+### ZT135292/Dog_blood_transcriptomic_aging_clock: Canine Blood Aging Clock Model Code
 
-## **📦 Top Open Source Projects**
+This repo provides code for building a canine blood transcriptomic aging clock from gene expression profiles and age labels, comparing six methods — elastic net, lasso, random forest, XGBoost, support vector regression, and mixture of experts — on age prediction performance. According to the [repo](https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock), it's a useful reference for veterinary or comparative aging researchers, with the most recent activity on November 18. Model accuracy and license terms should be confirmed in the repo. 🐕
 
-### Shape-Lab/SPHARM-Mamba: Cortical Surface Brain Age Prediction Tool
+## **❓ Related Questions**
 
-SPHARM-Mamba is an open-source tool for cortical surface morphological analysis and brain age prediction, available at [its GitHub repository](https://github.com/Shape-Lab/SPHARM-Mamba). Its core method combines spherical harmonics (a mathematical tool for describing shapes on a sphere) with the Mamba architecture, making the model rotation-invariant to brain orientation — well-suited for multi-scale analysis of brain region morphology using structural MRI data. Brain age is the brain's "physiological age" estimated from neuroimaging, commonly used in aging and neurodegenerative disease research. The repo has 1 star, was last active November 9, 2026, and license info is pending verification. Best to check the repository for runtime environment requirements before diving in.
+### Does ImmunoBrain's Phase I Data Prove the Drug Works?
 
----
+No. According to [this report](https://www.genengnews.com/topics/translational-medicine/beyond-amyloid-and-tau-alzheimers-drug-developer-sees-early-clinical-success-for-immunotherapy-based-approach/), Phase I trials are primarily about safety. The 40-person sample has no statistical significance, and the biomarker drop is an exploratory signal. The team has filed for a Phase II trial using clinical endpoints for validation. Biomarker improvement is not the same as cognitive improvement or halted disease progression.
 
-## **💡 Related Questions**
+### What Do the Cell-Type Differences in Partial Reprogramming Mean for Existing Trials?
 
-### What Does the Asprosin Research Mean for Everyday People — Can It Be Tested or Targeted?
-
-Asprosin is still a lab research target with no approved testing or intervention methods. This study established its link to vascular aging in cells and mice, but the researchers themselves note the complete causal chain behind elevated Asprosin isn't yet clear, and any potential therapy would need to be compared against existing vascular treatments before its value can be assessed. Check out [the original Lifespan.io article](https://lifespan.io/fat-cells-can-secrete-a-senescence-promoter/) for details.
+You can't draw a direct conclusion. This preprint tested brief OSKM four-factor activation in three human cell types in vitro, while Life Biosciences' optic nerve trial uses OSK three factors for eight continuous weeks — the formula, duration, and target cells are all different, so the results don't translate. According to [Lifespan.io](https://lifespan.io/partial-reprogrammings-outcome-depends-on-cell-type/), the study's real takeaway is that researchers need to verify whether cell function actually improves after reprogramming — not just check whether epigenetic age goes down. 🔍
