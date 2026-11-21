@@ -6,13 +6,13 @@ sidebar:
 ---
 ## 🏠 About AI Longevity Daily
 
-> **Your daily feed for AI + Longevity / Life Extension / Aging Research**
+> **Your daily hub for AI + Longevity / Life Extension / Aging Research**
 
-AI Longevity Daily is a newsletter platform focused on the intersection of AI and longevity / life extension / aging / biological age / rejuvenation. It's built to help investors, product managers, founders, and students stay on top of what's happening in this niche space — without drowning in noise.
+AI Longevity Daily is a newsletter platform focused on the intersection of AI with longevity, life extension, aging, biological age, and rejuvenation. It's built to help investors, product managers, founders, and students stay on top of what's happening in this niche — without the noise.
 
 ### 🎯 What We're About
 
-- **Topic**: AI Longevity Science, covering longevity, life extension, aging, biological age, and rejuvenation
+- **Focus**: AI longevity science, covering lifespan extension, aging biology, biological age, and rejuvenation
 - **Audience**: Investors, product managers, founders, and students interested in AI + longevity / aging research
 - **Vibe**: Professional but approachable — like a knowledgeable friend keeping you in the loop
 
@@ -24,20 +24,20 @@ Every day, we automatically pull together the latest from the AI longevity space
 
 - **🧬 Longevity Research**: Healthspan, lifespan extension, longevity biology
 - **🕰️ Aging Mechanisms**: Cellular senescence, mitochondria, autophagy, telomeres, epigenetic clocks
-- **💊 Life Extension Interventions**: Anti-aging drugs, senolytic therapies, biological age intervention, rejuvenation strategies
+- **💊 Life Extension Interventions**: Anti-aging drugs, senolytic therapies, biological age interventions, rejuvenation strategies
 - **🤖 AI-Driven Drug Discovery for Longevity**: Drug screening, molecular generation, target prediction, platform models
-- **📊 Biological Age & Biomarkers**: Biological age clocks, age-related biomarkers, aging assessment
+- **📊 Biological Age & Biomarkers**: Biological age clocks, age-related biomarkers, aging assessment tools
 - **🔬 Tools & Platforms**: Data platforms, models, and open-source tools serving longevity / aging research
 
-#### 📡 Sources We Tap
+#### 📡 Source Types
 
-- 🔥 Industry news and hot takes
+- 🔥 Industry news and trending topics
 - 📦 Open-source project discoveries
 - 📄 Cutting-edge academic papers
-- 💬 Expert opinions from the field
+- 💬 Expert opinions and commentary
 - 🚀 Product and feature updates
 
-All content is automatically fetched, generated, and published via **CloudFlare Workers + AI** — so you get coverage that's timely and comprehensive.
+All content is automatically fetched, generated, and published via **CloudFlare Workers + AI** — keeping things timely and comprehensive.
 
 ### 🔗 Get in Touch
 
@@ -47,4 +47,4 @@ All content is automatically fetched, generated, and published via **CloudFlare 
 
 ---
 
-**AI Longevity Daily — your fastest path to understanding what's new in AI + longevity / life extension / aging research. 🧬**
+**AI Longevity Daily — your fastest way to stay sharp on the latest in AI + longevity / life extension / aging research. 🧬**
