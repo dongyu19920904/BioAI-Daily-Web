@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-22",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-22/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_459753fbb824c0b9",
+      "report_date": "2026-11-22",
+      "report_section": "opportunity",
+      "title": "\"长寿内容 → 付费咨询\"路径的中文可行性调研",
+      "source_urls": [
+        "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026/"
+      ],
+      "source_verified": false,
+      "state": "needs_primary_source",
+      "state_reason": "已提取报道链接；尚未核验一手论文、试验或项目来源",
+      "target_user": "** 关注抗衰/长寿话题、已有一定知识积累、在考虑转型做内容或咨询的中文健康内容创作者;以及想了解如何把长寿账号货币化的 AI 一人公司创业者",
+      "demand_claim": "** 这类人知道英文圈有成熟案例,但缺乏中文拆解;他们的真实问题是\"这条路我能不能走、第一步从哪里进\"——付费意愿属于待验证假设,需通过内容反馈测试",
+      "demand_verified": false,
+      "deliverable_hint": "** 一篇\"Fight Aging! 商业模式拆解\"复盘文章,或一份\"长寿内容账号变现路径对比表\"(包含通讯、咨询、资料包、社群四种模式的收入结构与启动成本)",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "health_claim_review",
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "** 48 小时内收藏 ≥ 20 或收到 ≥ 2 条\"怎么做\"的私信,视为有进一步整理的价值",
+        "stop_condition": "** 48 小时收藏 < 10 且无私信,停止投入;不要把单篇阅读量当付费信号",
+        "upgrade_path": "** 复盘文 → 付费版\"长寿内容变现工具包\"(含模板+对比表)→ 社群讨论 → 一对一陪跑"
+      },
+      "primary_source_candidates": []
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_459753fbb824c0b9:discover_primary_source",
+      "opportunity_id": "opp_459753fbb824c0b9",
+      "kind": "discover_primary_source",
+      "status": "pending_automation",
+      "description_zh": "自动继续检索一手论文、试验或机构来源",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_459753fbb824c0b9:validate_demand",
+      "opportunity_id": "opp_459753fbb824c0b9",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
