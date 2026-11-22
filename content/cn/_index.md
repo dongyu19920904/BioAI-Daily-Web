@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/21'
+title: 'AI生命延续学日报 2026/11/22'
 breadcrumbs: false
-next: /2026-11/2026-11-21
-description: '2026-11-21 AI生命延续学日报：大脑血清素信号随年龄增加，主动抑制小鼠运动意愿；Cambrian Bio 的 AMPK 激活剂在 23 名受试者中显示代谢活跃信号；D&D Pharmatech 肝脏药物在 48 周活检数据中消退 MASH。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-22
+description: '2026-11-22 AI生命延续学日报：硝酸甘油加全身振动可促进大脑代谢废物排出；衰老相关蛋白 Gas6 或驱动主动脉瓣钙化扩散；生物年龄时钟在癌症患者中可能测的是疾病负担而非衰老本身。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,65 +11,85 @@ cascade:
 ## **今日摘要**
 
 ```
-小鼠研究发现大脑血清素随衰老升高，可能主动抑制运动意愿而非肌肉衰退所致。
-一项早期探索性人体试验观察到代谢激活信号，该结果仅来自二十余名受试者。
-小鼠神经元干预结果能否转化为人体安全疗法，目前尚无答案。
+小型人体试验发现联合扩血管与振动后脑代谢废物短暂向血液转移，效果随年龄增大。
+老年人规律作息与较少疼痛和抑郁症状相关，但这是观察性研究，尚不能说明调整作息能直接改善症状。
+第一项试验仅29人且缺乏对照，废物能否真正从脑内清除仍待更大规模研究验证。
 ```
 
-## **🔥 今日焦点 TOP 7**
+## **🔥 今日焦点 TOP 8**
 
-### 1. 大脑血清素信号随年龄增加，主动抑制小鼠运动意愿
+### 1. 硝酸甘油加全身振动可促进大脑代谢废物排出
 
-据 [Lifespan.io 的报道](https://lifespan.io/serotonin-signals-suppress-physical-activity-in-aging-mice/)，阿伯丁大学一项发表于《Metabolism》的研究发现，衰老小鼠脑干中产生血清素（一种影响情绪与运动的神经递质）的神经元放电频率升高，通过抑制另一脑区的多巴胺（与动力和运动相关）分泌，使小鼠主动减少活动。研究者用病毒靶向杀死这批血清素神经元后，14-20 月龄小鼠在八周内运动量增加、体脂下降、前肢握力增强，进食量无显著变化。这说明年龄相关的运动减少，部分原因可能不是肌肉无力，而是大脑在主动"刹车"。目前结果仅来自小鼠，直接杀死神经元不适用于人体，未来研究需要寻找更温和的干预方式。
+大脑依赖一套称为"类淋巴系统"的通道在睡眠时冲刷代谢废物，这套系统随年龄退化，废物积累被认为与阿尔茨海默病等神经退行性疾病相关。据 [Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/vasodilatory-and-vibratory-treatment-improves-glymphatic-drainage-in-humans/)，一项在 29 名健康成人中开展的小型人体试验（EudraCT 2021-000625-27）发现，同时使用舌下含服硝酸甘油（扩张血管）与全身低频振动后，血液中脑源性蛋白 Aβ40、Aβ42 及 GFAP 水平上升，提示废物短暂向血液转移，且效果随年龄和血压下降幅度增大。这一变化与更好的脑液引流方向一致，但样本极小、缺乏对照，废物能否真正从脑内清除、长期是否有益，均待更大规模研究验证。
 
-![血清素与衰老运动](https://lifespan.io/wp-content/uploads/2026/11/Serotonin-Signals-Suppress-Physical-Activity-in-Aging-Mice-262x187.webp)
+### 2. 衰老相关蛋白 Gas6 或驱动主动脉瓣钙化扩散
 
----
+心脏主动脉瓣钙化（组织变硬、瓣膜僵化）是与衰老高度相关的致命性疾病，目前缺乏有效逆转疗法。[Fight Aging! 介绍的这项研究](https://www.fightaging.org/archives/2026/11/gas6-contributes-to-the-spread-of-calcification-in-the-aortic-valve/)发现，瓣膜中衰老细胞分泌的蛋白 Gas6 会触发一条信号链，导致邻近正常细胞也开始沉积钙质，从而让钙化从局部向周围蔓延；在小鼠实验中敲除 Gas6 后，瓣膜狭窄、钙化和纤维化均减轻。研究者指出，Gas6 下游的两个蛋白靶点因承担心脏其他重要功能，直接抑制副作用较大，Gas6 本身作为上游分泌蛋白可能是更合适的干预点，但目前结论来自细胞和小鼠模型，人体疗效尚未验证。
 
-### 2. Cambrian Bio 的 AMPK 激活剂在 23 名受试者中显示代谢活跃信号
+### 3. 生物年龄时钟在癌症患者中可能测的是疾病负担而非衰老本身
 
-据 [Lifespan.io 的报道](https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/)，Cambrian Bio 的候选药物 ATX-304 在一项为期四个月、23 名受试者参与的早期探索性人体试验中，在约为动物产生减重效果剂量一半的用药水平下，观察到静息代谢率提升约 8%、脂肪代谢指标（adiponectin，脂肪组织分泌的一种代谢活跃信号蛋白）翻倍，以及甘油三酯、肝脏脂肪和内脏脂肪下降，各项结果统计显著。AMPK 是细胞感知能量状态的关键开关，激活它能同时促进葡萄糖摄取和线粒体产能，理论上模拟运动效果。该试验规模小、为探索性设计，尚无长期安全数据，药物正进入二期临床。
+PhenoAge 是一种通过普通血液指标（如红细胞分布宽度、白蛋白、淋巴细胞比例等）估算生物年龄的"衰老时钟"。[这项研究](https://www.fightaging.org/archives/2026/11/aging-clocks-may-reflect-disease-burden-in-addition-to-aging-in-many-circumstances/)分析了四种不同癌症患者的数据，发现 PhenoAge 加速确实与更差的预后相关，但其数值随肿瘤分期升高，且对生存的预测主要来自其中一两个随癌症类型而异的指标——这些指标恰好也反映炎症、营养状态和器官受损，而非单纯衰老。用简单的加减替换原始权重后预测能力几乎不变，说明 PhenoAge 在癌症患者中很可能在量化疾病本身的全身影响，而非生物年龄。研究者强调，这不意味着衰老与癌症无关，而是说在肿瘤研究中需要能与疾病后果区分开的衰老指标。
 
-[![来源配图：James Peyer on Turning Aging Biology Into Medicine](https://lifespan.io/wp-content/uploads/2026/11/James-Peyer-Interview-262x187.png)](https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/)
+### 4. 敲除 Granzyme K 基因的小鼠器官衰老减慢，但炎症水平未变
 
----
+慢性低度炎症是衰老的标志性特征，通常被认为是推动组织老化的核心原因之一。[Fight Aging! 介绍的这项研究](https://www.fightaging.org/archives/2026/11/granzyme-k-knockout-mice-exhibit-reduced-loss-of-function-with-age/)发现，缺乏 Granzyme K（一种主要由 CD8+ T 细胞产生的蛋白酶）的小鼠，随年龄出现的多项器官功能下降明显减慢，血液中反映细胞损伤和器官压力的蛋白也减少——但体内炎症指标（如 IL-6、MCP-1）与正常老年小鼠并无差异。这一出乎意料的结果表明，Granzyme K 是在组织局部、通过非炎症途径加速老化，而不仅仅靠煽动炎症。目前结论来自小鼠，机制尚未在人体中确认。
 
-### 3. D&D Pharmatech 肝脏药物在 48 周活检数据中消退 MASH
+### 5. 睡眠中脑脊液冲刷波在老年人中减弱
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/dd-pharmatechs-liver-drug-resolves-mash-in-62-5-of-patients/)，D&D Pharmatech 公布了其 GLP-1 类药物 zabopegdutide 的 48 周肝脏活检数据，62.5% 的受试患者的 MASH（代谢相关脂肪性肝炎，一种可进展为肝硬化的慢性肝病）病情消退。肝脏活检是目前判断脂肪肝药物疗效的"金标准"，需取组织样本在显微镜下确认。公司表示正与大型药企进行授权谈判。素材中未提供完整试验规模和对照组设计详情，具体数字待核查原始报告。
+脑脊液在睡眠时产生低频大振幅的流动波，负责把大脑白天积累的代谢废物带走。[这项研究](https://www.fightaging.org/archives/2026/11/cerebrospinal-fluid-flow-waves-decline-in-the-aging-brain/)对 18-39 岁与 60-84 岁两组健康人进行夜间睡眠脑成像，发现老年人睡眠期脑脊液流动波幅明显降低，与脑电图慢波功率减弱、全脑血流动力学振荡减少及灰质萎缩三者同步相关。研究者用感觉和血管活性刺激分别驱动脑脊液流动，确认神经活动和血管功能同时受损都是原因。这一发现在疾病出现前就可以观察到，但目前无法说明改善脑脊液流动是否能延缓神经退行。
 
-![D&D Pharmatech MASH 数据](https://longevity.technology/wp-content/uploads/2026/11/dd-pharmatech-liver-drug-mash-relief-hero-1200x800-1-1024x683.png)
+### 6. 心肌注射 Myc 和 Cyclin T1 的 mRNA 促进小鼠心梗后心脏再生
 
----
+成年心脏几乎不能自我修复——心肌细胞（心脏收缩细胞）分裂能力极低，心梗后往往留下永久性瘢痕。[Fight Aging! 介绍的这项研究](https://www.fightaging.org/archives/2026/11/overexpression-of-myc-and-cyclin-t1-via-mrna-therapy-improves-regeneration-of-heart-tissue/)发现，联合过量表达基因调控蛋白 Myc 和 Cyclin T1 能推动小鼠心肌细胞重新分裂，在心梗动物模型中实现组织修复和功能恢复；研究者通过注射 mRNA 实现短暂表达而非永久改变基因。目前的递送方式尚不适合直接用于人体，从小鼠到人体的安全性和有效性均待验证。
 
-### 4. 衰老细胞领域将在斯坦福举办首次峰会，讨论如何统一测量标准
+### 7. 阿尔茨海默病或在记忆丧失前十年已致两个脑区萎缩
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/senescence-field-heads-to-stanford-to-settle-what-counts-as-proof/)，衰老细胞治疗生物标志物联盟（SBC）将于 12 月 7 日在斯坦福大学举办首届峰会，召集学术界、药企和监管机构讨论统一标准。衰老细胞是一种停止分裂、但留在体内并持续释放炎症信号的细胞，被认为与多种老年疾病相关；目前在小鼠体内可以相对明确地检测到它们，但在人体患者中如何可靠识别和衡量，尚无共识。没有共同的测量标准，同类药物的疗效就无法横向比较，这是整个领域进入临床的核心瓶颈。
+[据 Science Daily 报道的约翰斯·霍普金斯大学研究](https://www.sciencedaily.com/releases/2026/11/261114202130.htm)，脑部扫描发现，两个负责记忆和情绪的脑区（具体区域原文未在摘要中列明）在通常检查的海马体萎缩之前就已开始缩小，时间可能早于记忆症状出现约十年；这些早期变化与异常 tau 蛋白堆积相关，tau 是与阿尔茨海默病神经损伤直接关联的标志物。这一发现提示存在更早的影像学预警窗口，但具体样本量、追踪时长及临床验证情况原文摘要未提供，能否用于个人风险筛查尚不清楚。
 
-[![来源配图：Senescence field heads to Stanford to settle what counts as proof](https://longevity.technology/wp-content/uploads/2026/11/senescence-field-stanford-proof-revised-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/senescence-field-heads-to-stanford-to-settle-what-counts-as-proof/)
+[![来源配图：Alzheimer’s may start shrinking two brain regions years before memory loss](https://www.sciencedaily.com/images/1920/alzheimers-brain-atrophy.webp)](https://www.sciencedaily.com/releases/2026/11/261114202130.htm)
 
----
+### 8. 老年人规律作息与更少疼痛和抑郁症状相关
 
-### 5. Annovis 阿尔茨海默症药物获得专利保护至 2044 年
+[据 Science Daily 报道的密苏里大学研究](https://www.sciencedaily.com/releases/2026/11/261113231624.htm)，研究者观察发现，坚持固定起床、进食和活动时间的老年人，报告的身体疼痛和抑郁症状更少，即便存在失眠问题也如此。研究者认为，规律时间表有助于维持控制情绪、睡眠和整体健康的生物节律。这是观察性研究，原文摘要未说明样本量和追踪时长，作息规律和较少症状之间是相关而非因果，尚不能说明调整作息本身能直接改善这些症状。
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/annovis-wins-patent-on-alzheimers-drug-through-2044/)，Annovis Bio 获得了美国专利，保护其候选药物 buntanetap 的一种新晶体形态至 2044 年。晶体形态不同，即便活性成分相同，在专利法上也被视为不同产品，这一专利为公司正在进行的关键三期临床试验版本提供了保护。目前该试验顶线数据即将公布，专利的获得与疗效无关，不代表药物已获批用于患者。
-
----
-
-### 6. VectorY 获 8350 万美元融资，推进 ALS 抗体进入更大规模试验
-
-据 [Longevity.Technology 的报道](https://longevity.technology/news/vectory-raises-83-5m-to-push-its-als-antibody/)，阿姆斯特丹和波士顿生物技术公司 VectorY Therapeutics 于 11 月 11 日宣布完成 8350 万美元（约合 7450 万欧元）融资，用于扩大其 ALS（肌萎缩侧索硬化症，俗称"渐冻症"）抗体药物的临床试验规模。该药物针对的靶点是 TDP-43 蛋白，这种蛋白在高达 97% 的 ALS 患者神经细胞内会异常聚集成团。融资公告未透露当前试验阶段和已入组人数，疗效数据待后续公布。
+[![来源配图：Scientists find a simple daily routine linked to less pain and depression](https://www.sciencedaily.com/images/1920/yellow-and-red-smileys-happy-sad-depression.webp)](https://www.sciencedaily.com/releases/2026/11/261113231624.htm)
 
 ---
 
-### 7. 蓝区表观遗传时钟研究使用 SuperLearner 方法进行地区校准
+## **🧪 前沿研究**
 
-[一篇发表于 Europe PMC 的论文](https://europepmc.org/article/MED/43050493)报道了一项针对"蓝区"（全球已知长寿人口集中地区）的表观遗传衰老时钟研究，使用了名为 DNAm SuperLearner 的方法对时钟进行地区特异性校准。表观遗传时钟通过检测 DNA 甲基化模式来估算生物年龄（细胞层面的老化程度，可能与实际年龄不同）。素材仅提供标题和摘要级信息，研究对象、样本量和具体发现待核查原文；同行评审状态未知。
+### mRNA 疗法激活老年小鼠中衰老树突状细胞，同步清除脂肪组织中衰老细胞
+
+衰老细胞（已停止分裂、持续分泌炎症信号的细胞）在老年组织中积累是推动代谢功能下降的原因之一。[Fight Aging! 介绍的这项预印本研究](https://www.fightaging.org/archives/2026/11/a-senolytic-vaccine-that-also-improves-dendritic-cell-function/)设计了一种双佐剂纳米疫苗：一方面用带正电的蜘蛛丝蛋白支架修复局部树突状细胞（免疫系统中负责识别和呈递抗原的细胞）的衰老状态，恢复其激活免疫的能力；另一方面训练 CD8+ 杀伤性 T 细胞靶向清除表达 Gpnmb 蛋白的衰老脂肪细胞。在多个老年小鼠模型中，接种后脂肪组织中的衰老细胞被清除，代谢功能改善，寿命延长。同时针对免疫系统和靶细胞双管齐下是这项研究的方法亮点，但所有结论目前仅来自小鼠，能否用于人体尚无数据。
+
+### 皮肤成纤维细胞研究揭示衰老细胞的"垃圾清理"在哪一步卡住
+
+细胞内有一套叫做"自噬"的自我清理系统，负责把受损蛋白质和结构打包、送进称为溶酶体的细胞器分解回收，这一过程对维持细胞健康至关重要。[这项研究](https://www.fightaging.org/archives/2026/11/assessing-impaired-macroautophagy-in-aged-skin-cells/)用 20 至 96 岁捐献者的人体皮肤成纤维细胞进行分析，发现自噬的启动阶段和最初的"打包"步骤在衰老细胞中仍基本正常，但自噬体的成熟和与溶酶体的融合这两个后续步骤出现障碍，溶酶体本身在最高龄捐献者细胞中明显肿大、功能下降，导致废物堆积（脂褐素积累）。准确定位哪一步出问题，有助于将来设计针对特定环节的修复策略，不过目前这些发现来自体外细胞实验。
+
+---
+
+## **◎ 行业变化与个人影响**
+
+### GLP-1 减重药物处方在增加，但多个群体获取仍明显不足
+
+GLP-1 类药物（一类通过模拟肠道激素来抑制食欲和降低血糖、体重的药物，包括司美格鲁肽等）近年处方量快速增长。[News-Medical 报道的这项新研究](https://www.news-medical.net/news/20261120/GLP-1-access-disparities-widen-despite-rising-prescriptions-for-weight-management.aspx)发现，年轻成年人、老年人、男性、黑人和西班牙裔患者、BMI 较低者，以及就诊于社会经济条件较差社区的患者，获得这类药物处方的比例仍偏低。整体处方量上升的同时，不同人群之间的差距反而在扩大。来源为短摘要，具体样本量和研究设计待核查原文。
+
+---
+
+## **⌘ 开源 TOP 项目**
+
+### Gladyshev-Lab/tAge：用基因表达数据估算生物年龄的 R 包
+
+[tAge](https://github.com/Gladyshev-Lab/tAge) 是一个 R 语言软件包，输入转录组数据（即细胞中基因活跃程度的测量结果），输出对应样本的生物年龄估算值。生物年龄是相对于实际年龄、反映组织分子状态的估算指标，常用于评估衰老干预实验的效果。该工具适合有转录组数据处理经验的研究者，仓库页面可进一步了解输入格式和使用方法；Stars 30，最近活跃于 2026 年 11 月。生物年龄估算结果属于统计指标，不能直接用于个人健康诊断。
+
+### msbCyricTohoku/BACalc：不依赖特定数据集的生物年龄计算器
+
+[BACalc](https://github.com/msbCyricTohoku/BACalc) 的设计目标是在不同来源的数据集上都能运行，无需针对每个数据集重新校准，适合需要横跨多个队列比较生物年龄的研究者。具体支持的数据类型和输入格式可在仓库中核查；Stars 1，最近活跃于 2026 年 11 月初，许可证状态待确认。
 
 ---
 
 ## **❓ 相关问题**
 
-### AMPK 激活剂的人体试验结果，能说明它对衰老有效吗？
+### PhenoAge 这类"衰老时钟"测出来的数字能用来判断自己老得快不快吗？
 
-目前不能。[Lifespan.io 的报道](https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/)中提到的 23 人、四个月探索性试验，测量的是代谢指标（静息代谢率、脂肪代谢蛋白、肝脏脂肪等），这些是安全性和活性的早期信号，不是衰老或健康寿命的结果指标。该试验设计不是为了证明延寿效果，ATX-304 目前进入的是二期临床，主要适应症为肥胖症。动物实验中观察到的运动耐力倍增和寿命延长结果，尚未在人体试验中重复验证。
+今天报道的研究表明，PhenoAge 包含的指标（如白蛋白、淋巴细胞比例）同时也反映炎症、营养和器官负担，在癌症患者中很难区分"加速衰老"和"疾病本身的全身影响"。在健康人群中这一问题相对较小，但单次数值仍是群体统计模型的估算结果，不代表个人大脑或器官已经加速老化。[原始分析可通过 Fight Aging! 的报道](https://www.fightaging.org/archives/2026/11/aging-clocks-may-reflect-disease-burden-in-addition-to-aging-in-many-circumstances/)进一步核查研究细节，该研究尚未说明其结论能否直接推广到无病的健康人群。
