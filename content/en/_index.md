@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/20
+title: AI生命延续学日报 2026/11/21
 breadcrumbs: false
-next: /en/2026-11/2026-11-20
+next: /en/2026-11/2026-11-21
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,99 +11,65 @@ cascade:
 ## **Today's Summary**
 
 ```
-A mouse study found that a protease secreted by immune cells accelerates multi-organ aging through a pathway independent of inflammation.
-A once-weekly injectable drug candidate in an early human trial produced significant liver fat reduction, but enrolled only about a dozen people.
-Organ-protective effects have so far only been functionally validated in mice; whether they translate to humans remains unknown.
+A mouse study found that brain serotonin rises with age and may actively suppress the drive to exercise, rather than muscle decline being the culprit.
+An early exploratory human trial observed metabolic activation signals, but the results come from just over twenty participants.
+Whether mouse neuron interventions can translate into safe human therapies remains an open question.
 ```
 
-## **🔥 Today's Top 8 Highlights**
+## **🔥 Today's Top 7 Highlights**
 
-### 1. Granzyme K Released by Aged T Cells Accelerates Multi-Organ Aging
+### 1. Rising Brain Serotonin Actively Suppresses the Drive to Move in Aging Mice
 
-Aged CD8⁺ T cells — the immune cells responsible for identifying and eliminating threats — secrete large amounts of a protease called Granzyme K that drives aging in organs like the liver and heart, according to [a report from Lifespan.io](https://lifespan.io/one-way-that-aged-t-cells-age-the-whole-body/). Researchers compared mice lacking Granzyme K against normal mice and found that older mice without the protease showed noticeably less liver and heart fibrosis, reduced ventricular wall thickening, and lower blood levels of proteins linked to cell damage and mitochondrial dysfunction. Surprisingly, Granzyme K had almost no effect on how the immune system itself ages and didn't meaningfully change inflammatory markers in the blood — suggesting it harms organs through a pathway that bypasses inflammation entirely. The team also confirmed Granzyme K's presence in public datasets from human fibrotic diseases, but all functional evidence still comes from mice, so whether the same effects would hold in humans is an open question. 🧬
+[Lifespan.io reports](https://lifespan.io/serotonin-signals-suppress-physical-activity-in-aging-mice/) that a University of Aberdeen study published in *Metabolism* found that brainstem neurons producing serotonin — a neurotransmitter that affects mood and movement — fire more frequently in aging mice. This suppresses dopamine release (tied to motivation and movement) in another brain region, nudging mice to move less. When researchers used a virus to selectively destroy those serotonin neurons, mice aged 14–20 months showed increased activity, lower body fat, and stronger forelimb grip over eight weeks, with no meaningful change in food intake. 🧠 The takeaway: age-related physical decline may be partly the brain hitting the brakes, not just muscles giving out. That said, these are mouse results, and directly killing neurons isn't a viable human therapy — future work needs a gentler approach.
 
-![One Way That Aged T Cells Age the Whole Body](https://lifespan.io/wp-content/uploads/2026/11/One-Way-That-Aged-T-Cells-Age-the-Whole-Body-262x187.png)
-
----
-
-### 2. Alzheimer's Genetic Risk Results Retrieved Online Carry Psychological Impact Comparable to Doctor-Delivered Disclosure
-
-A randomized clinical trial of 651 adults found that viewing Alzheimer's genetic risk results through a structured digital platform produced equivalent outcomes in knowledge gained, anxiety levels, and disease-specific psychological distress compared to physician-led remote video consultations, per [a News-Medical report](https://www.news-medical.net/news/20261119/Your-Alzheimere28099s-test-results-are-ready-online-Would-you-open-them.aspx). Psychological outcomes after blood biomarker disclosure were similarly comparable between groups, though participants who received physician consultations rated their satisfaction with genetic result disclosure higher. This suggests digital disclosure has real potential for expanding access to testing, but the satisfaction gap means digital platforms aren't a full replacement for human counseling just yet. 🖥️
-
-[![Source image: Your Alzheimer's test results are ready online. Would you open them?](https://www.news-medical.net/images/news/ImageForNews_852260_17951285387211077.jpg)](https://www.news-medical.net/news/20261119/Your-Alzheimere28099s-test-results-are-ready-online-Would-you-open-them.aspx)
+![Serotonin and Physical Activity in Aging Mice](https://lifespan.io/wp-content/uploads/2026/11/Serotonin-Signals-Suppress-Physical-Activity-in-Aging-Mice-262x187.webp)
 
 ---
 
-### 3. DA-1726 Cuts Liver Fat by 68% Over 16 Weeks in a Trial of Just 19 People
+### 2. Cambrian Bio's AMPK Activator Shows Metabolic Activity Signals in 23 Participants
 
-MetaVia's drug candidate DA-1726 reduced liver fat by an average of 68% after 16 weeks of once-weekly injections in 15 obese but otherwise healthy adults, with additional reductions in abdominal fat and body weight, according to [a Longevity.Technology report](https://longevity.technology/news/weekly-shot-cuts-liver-fat-68-in-small-early-trial/). The control group had 4 participants. Excess liver fat — clinically known as metabolic-associated fatty liver disease — is a significant risk factor for cardiovascular and metabolic conditions. With only 19 total participants, this is strictly an early safety and preliminary signal study; the results need validation in much larger trials. 💉
+[Lifespan.io reports](https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/) that ATX-304, a candidate drug from Cambrian Bio, produced some interesting early signals in a four-month exploratory human trial with 23 participants. At roughly half the dose that produced weight-loss effects in animals, the drug was associated with an ~8% increase in resting metabolic rate, a doubling of adiponectin (a metabolically active protein secreted by fat tissue), and statistically significant drops in triglycerides, liver fat, and visceral fat. 💡 AMPK is essentially the cell's energy-state sensor — flipping it on promotes glucose uptake and mitochondrial energy production, theoretically mimicking exercise. The trial is small and exploratory, there's no long-term safety data yet, and the drug is now moving into Phase 2.
 
-![Weekly shot cuts liver fat 68% in small early trial](https://longevity.technology/wp-content/uploads/2026/11/weekly-shot-cuts-liver-fat-hero-1200x800-1-1024x683.png)
-
----
-
-### 4. DeepQuest, an AI Scientist Framework for Alzheimer's Research, Automatically Generates Verifiable Hypotheses
-
-DeepQuest is an AI framework focused on Alzheimer's research that converts unresolved questions from domain literature reviews into traceable, testable hypotheses, then uses data feasibility filtering and ranked grouping to prioritize which ones to pursue, as shown in [this paper index/abstract](https://papers.cool/arxiv/2611.26343). On the OASIS-3 dataset, the system generated 42 viable hypotheses and outperformed comparison baselines on 14 of 15 evaluation dimensions, with an audited scientific finding rate of 95.24%. Findings related to neuropsychiatric symptoms and dementia risk, as well as the temporal stability of amyloid spatial distribution, were supported in independent cohorts. This is a preprint-stage evaluation — whether the framework can genuinely accelerate drug discovery still needs lab-level validation. The code is available in an [anonymous repository](https://anonymous.4open.science/r/DeepQuest-3066/). 🤖
+[![Source image: James Peyer on Turning Aging Biology Into Medicine](https://lifespan.io/wp-content/uploads/2026/11/James-Peyer-Interview-262x187.png)](https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/)
 
 ---
 
-### 5. Improved Interpretability Method for Genotype Embedding Models Aids Neurological Disease Prediction
+### 3. D&D Pharmatech's Liver Drug Resolves MASH in 62.5% of Patients at 48-Week Biopsy
 
-A new attribution method for explaining how deep learning models that combine genetic data with brain imaging make neurological disease predictions — specifically, tracing which genetic variants the model actually relies on — is introduced in [this paper index/abstract](https://papers.cool/arxiv/2611.25681). The widely-used Integrated Gradients method has a technical flaw when applied to genotypes: since genotypes only take discrete values of 0, 1, or 2, the standard linear interpolation path passes through intermediate states that don't actually exist in real data, leading to unreliable attributions. The new method instead integrates along paths through genotype states that actually appear in training data, and it outperforms the original on attribution faithfulness in a Parkinson's disease classification task. The practical value here is making it easier for clinicians to audit what a model is basing its decisions on — though this remains a preprint and hasn't been peer-reviewed yet. 🧠
+[Longevity.Technology reports](https://longevity.technology/news/dd-pharmatechs-liver-drug-resolves-mash-in-62-5-of-patients/) that D&D Pharmatech has released 48-week liver biopsy data for zabopegdutide, its GLP-1-class drug, showing MASH resolution — metabolic dysfunction-associated steatohepatitis, a chronic liver disease that can progress to cirrhosis — in 62.5% of patients. Liver biopsy is the gold standard for evaluating fatty liver drugs, requiring a tissue sample confirmed under a microscope. 🔬 The company says it's in licensing talks with major pharma players. Full trial size and control group design weren't included in the source material, so the specific numbers warrant checking against the original report.
 
----
-
-### 6. HIT-Fuse, a Multi-Omics and Pathology Image Fusion Framework, Supports Prognosis Analysis Across Multiple Cancers
-
-HIT-Fuse, introduced in [this paper index/abstract](https://papers.cool/arxiv/2611.25584), integrates six data types for cancer prognosis analysis: genomic copy number variation, DNA methylation, RNA sequencing, microRNA expression, protein abundance, and pathology slide image features. Multi-omics fusion means combining molecular measurements from different technology platforms into a single model; HIT-Fuse's distinguishing features are its ability to reconstruct missing data modalities and its retention of traceable attribution paths. In a glioma cohort, incorporating reconstructed data improved the weighted F1 score by 56.4%. These results come from evaluation across four TCGA cancer cohorts and have not yet been translated into a clinical diagnostic tool. 🔬
+![D&D Pharmatech MASH Data](https://longevity.technology/wp-content/uploads/2026/11/dd-pharmatech-liver-drug-mash-relief-hero-1200x800-1-1024x683.png)
 
 ---
 
-### 7. Headaches Linked to Higher Risk of Hearing Loss in Later Life
+### 4. The Senescence Field Is Heading to Stanford to Hash Out a Common Measurement Standard
 
-Headaches are associated with roughly 70% higher odds of self-reported hearing impairment, based on an analysis of over 91,000 health survey records from China and South Korea, per [a News-Medical report](https://www.news-medical.net/news/20261119/Headaches-linked-to-7025-higher-odds-of-hearing-loss-in-later-life.aspx). Longitudinal data from the Chinese cohort suggests headaches may be a potential indicator of hearing decline, but this is correlational evidence — it doesn't establish that headaches cause hearing loss, and it can't support clinical screening recommendations on its own. 👂
+[Longevity.Technology reports](https://longevity.technology/news/senescence-field-heads-to-stanford-to-settle-what-counts-as-proof/) that the Senescence Biomarker Consortium (SBC) will hold its first-ever summit at Stanford on December 7, bringing together academics, drug companies, and regulators to work toward a unified standard. Senescent cells are cells that stop dividing but linger in the body, continuously releasing inflammatory signals linked to various age-related diseases. They're relatively straightforward to detect in mice, but there's no consensus yet on how to reliably identify and measure them in human patients. 🤔 Without a shared measurement standard, you can't meaningfully compare drugs in the same class — which is a core bottleneck for the entire field getting into the clinic.
 
-[![Source image: Headaches linked to 70% higher odds of hearing loss in later life](https://www.news-medical.net/images/news/ImageForNews_852264_17951356251166851.jpg)](https://www.news-medical.net/news/20261119/Headaches-linked-to-7025-higher-odds-of-hearing-loss-in-later-life.aspx)
-
----
-
-### 8. Cardiovascular Disease Patients Face Higher Mortality Risk During Summer Heatwaves
-
-Cardiovascular disease patients exposed to higher long-term summer average temperatures or more frequent heatwave events face elevated mortality risk, according to a UK analysis of health records covering over 60,000 patients across 16 years, per [a News-Medical report](https://www.news-medical.net/news/20261119/Summer-heatwaves-raise-death-risk-for-heart-disease-patients.aspx). This is observational research that identifies an association rather than causation, and differences in climate and healthcare conditions across regions will affect how broadly the findings apply. ☀️
+[![Source image: Senescence field heads to Stanford to settle what counts as proof](https://longevity.technology/wp-content/uploads/2026/11/senescence-field-stanford-proof-revised-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/senescence-field-heads-to-stanford-to-settle-what-counts-as-proof/)
 
 ---
 
-## **🧪 Frontier Research**
+### 5. Annovis Secures Patent Protection for Its Alzheimer's Drug Through 2044
 
-### Comparing Missing Data Imputation Methods in Alzheimer's Research
-
-Missing values are common in Alzheimer's research datasets because biomarker collection methods like cerebrospinal fluid testing are expensive and invasive. [This preprint's paper index](https://papers.cool/arxiv/2611.25219) systematically evaluates eight methods for imputing missing data — covering traditional statistical approaches, machine learning, and deep learning (variational autoencoders, generative adversarial networks, etc.) — using simulated experiments to compare estimation bias and computational cost at different rates of missingness, then validates the results against real-world data from the Vanderbilt Memory and Aging Project. The paper offers practical guidance on method selection and is a useful reference for life science researchers working with incomplete longitudinal data. It's a preprint and hasn't been peer-reviewed yet.
+[Longevity.Technology reports](https://longevity.technology/news/annovis-wins-patent-on-alzheimers-drug-through-2044/) that Annovis Bio has received a U.S. patent covering a novel crystal form of its candidate drug buntanetap, extending protection through 2044. Even when the active ingredient is the same, a different crystal form is treated as a distinct product under patent law — so this patent specifically protects the version being used in the company's ongoing pivotal Phase 3 trial, with top-line data coming soon. Worth noting: a patent has nothing to do with whether the drug works, and buntanetap has not been approved for patients.
 
 ---
 
-## **◎ Industry Shifts & Personal Impact**
+### 6. VectorY Raises $83.5M to Scale Up Its ALS Antibody Trial
 
-### Thorne's AI Health Advisor Taia: Personalized Recommendations Are a Different Thing from Actual Health Improvement
-
-Taia is an AI health advisor from supplement company Thorne that delivers lifestyle and supplement recommendations based on users' biological data and health history, introduced by Thorne's Chief Science Officer Nathan Price (who also holds a position at the Buck Institute for Research on Aging), per [a Longevity.Technology report](https://longevity.technology/news/when-the-best-answer-is-not-a-product/). The report's core point is that getting users engaged, keeping them following through, and actually improving their health are three distinct things. That distinction matters practically for consumers evaluating these products — whether a system improves adherence and whether it's clinically validated to improve health outcomes are separate questions that need to be checked independently. 💊
+[Longevity.Technology reports](https://longevity.technology/news/vectory-raises-83-5m-to-push-its-als-antibody/) that VectorY Therapeutics, a biotech with offices in Amsterdam and Boston, announced an $83.5 million (roughly €74.5 million) funding round on November 11, earmarked for expanding its ALS (amyotrophic lateral sclerosis) antibody drug's clinical trial. 💪 The drug targets TDP-43, a protein that abnormally clumps inside nerve cells in up to 97% of ALS patients. The funding announcement didn't disclose the current trial phase or enrollment numbers — efficacy data will come later.
 
 ---
 
-## **⌘ Top Open Source Projects**
+### 7. Blue Zone Epigenetic Clock Study Uses SuperLearner Method for Region-Specific Calibration
 
-### nopara73/LongevityWorldCup: Biological Age Calculation and Athlete Leaderboard Platform
-
-[LongevityWorldCup](https://github.com/nopara73/LongevityWorldCup) is an open-source platform for the longevity space that provides biological age estimation tools, athlete profiles, and a public leaderboard, positioning biological age improvement as a quantifiable "competitive performance." Biological age is an estimate of how much your body has actually aged based on blood or other physiological markers — distinct from your chronological age. The repository currently has 28 stars, was last active on November 20, 2026, and license terms and data privacy policies should be verified in the repository directly. 🏆
-
-### NoWon1/AI-challenge-for-HEALTHY-Brain-Aging: Competition Code for Multimodal Dementia Risk Modeling
-
-[This repository](https://github.com/NoWon1/AI-challenge-for-HEALTHY-Brain-Aging) contains competition code for the CBR Healthy Brain Aging AI Challenge, focused on dementia risk assessment and disease progression modeling using multimodal data inputs and including a lightweight digital twin model design. "Digital twin" here refers to building a simulation model from individual data to predict future health states. The repository has 1 star, was last active on November 20, 2026, and usage details and runtime requirements should be checked in the repository documentation. 🧩
+[A paper published on Europe PMC](https://europepmc.org/article/MED/43050493) describes an epigenetic aging clock study focused on "Blue Zones" — regions of the world known for concentrated longevity populations — using a method called DNAm SuperLearner for region-specific calibration. Epigenetic clocks estimate biological age (how old your cells are at a molecular level, which can differ from your actual age) by analyzing DNA methylation patterns. The source material only covers the title and abstract level, so study population, sample size, and specific findings need to be verified against the full text. Peer review status is unknown. 🔍
 
 ---
 
 ## **❓ Related Questions**
 
-### Is It Okay to Check Your Alzheimer's Genetic Risk Results Online on Your Own?
+### Do the human trial results for the AMPK activator prove it's effective against aging?
 
-The short answer: with a structured digital platform in place, this 651-person randomized trial shows the psychological impact is comparable to doctor-delivered disclosure — but satisfaction is slightly lower. That means digital disclosure is workable in terms of knowledge and anxiety management, but it doesn't suit everyone. For high-risk results or people with psychological vulnerabilities, physician consultation still carries real value. See [the News-Medical report](https://www.news-medical.net/news/20261119/Your-Alzheimere28099s-test-results-are-ready-online-Would-you-open-them.aspx) for trial details. 🔍
+Not yet. The 23-person, four-month exploratory trial mentioned in [Lifespan.io's coverage](https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/) measured metabolic markers — resting metabolic rate, fat metabolism proteins, liver fat, and so on. These are early signals of safety and biological activity, not outcomes related to aging or healthspan. The trial wasn't designed to demonstrate a lifespan effect, and ATX-304 is currently entering Phase 2 with obesity as its primary indication. The exercise endurance gains and lifespan extension seen in animal studies haven't been replicated in humans yet. 🧪
