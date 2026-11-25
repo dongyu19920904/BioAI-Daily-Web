@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/24'
+title: 'AI生命延续学日报 2026/11/25'
 breadcrumbs: false
-next: /2026-11/2026-11-24
-description: '2026-11-24 AI生命延续学日报：百岁老人记忆超群背后，发现114个罕见基因变体；肝脏酶EPHX1升高促进纤维化，动物实验发现血液标志物线索；AI蛋白质折叠模型RumiFold：结构预测与功能问答一体化。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-25
+description: '2026-11-25 AI生命延续学日报：单次注射CRISPR基因编辑，猴子低密度脂蛋白胆固醇降幅维持三年；黑种草籽抗衰老证据综述：人体数据仍不充分；昼夜节律与蛋白质质检：果蝇研究揭示新关联。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,79 +11,64 @@ cascade:
 ## **今日摘要**
 
 ```
-百岁老人体内发现一批罕见基因变体，与记忆保持相关但尚未证实有保护作用。
-空气污染或改变脑内免疫细胞行为，与痴呆风险存在关联性观察。
-两项发现均未建立因果关系，不能用于个人风险判断。
+单次注射的基因编辑疗法在猴子体内将坏胆固醇压低效果维持了三年。
+一篇综述提示黑种草籽对衰老相关指标有适度改善，但人体证据仍不充分。
+降胆固醇基因编辑的全部数据来自动物实验，对人体是否有效尚待临床验证。
 ```
 
-## **🔥 今日焦点 TOP 8**
+## **🔥 今日焦点 TOP 5**
 
-### 1. 百岁老人记忆超群背后，发现114个罕见基因变体
+### 1. 单次注射CRISPR基因编辑，猴子低密度脂蛋白胆固醇降幅维持三年
 
-研究者从百岁老人家族中筛查"认知超老化者"——指年龄超过100岁但记忆力相当于七八十岁健康成年人的群体，[据 News-Medical 的报道](https://www.news-medical.net/news/20261123/Why-do-some-people-reach-100-with-memories-as-sharp-as-someone-30-years-younger.aspx)，共识别出114个在这类人群中富集的罕见基因变体，涉及血管功能、免疫调节和神经元结构相关基因。这批变体提示了一些潜在的遗传机制，但研究者明确指出，在同一队列内的直接比较并未建立显著关联，尚不能确认这些变体对认知衰退有保护作用，还需要独立研究进一步验证。
+Verve Therapeutics（现为礼来子公司）在《Nature》发表研究，用一次注射的CRISPR碱基编辑疗法，在猴子体内持久压低了血液中的低密度脂蛋白（LDL）胆固醇——也就是通常说的"坏胆固醇"。编辑靶点是肝脏产生的ANGPTL3蛋白，该蛋白会抑制血液中脂肪颗粒的分解；关闭它可同时降低LDL和甘油三酯。在健康猴子的高剂量组，单次给药后三年内非HDL胆固醇平均降低31.8%，LDL降低12.9%，肝脏未见蓄积损伤。研究者还额外破坏了四只猴子的LDL受体以模拟遗传性高胆固醇症，给药35天后LDL从458降至247 mg/dL，降幅约46%，但LDL仍显著偏高，说明这条路径不能完全解决该类遗传病。用738只仔鼠验证了编辑未传给后代。目前全部数据来自动物实验，对饮食和年龄引起的普通高胆固醇人群是否有效，尚需人体试验回答，可沿[Lifespan.io的报道](https://lifespan.io/single-dose-gene-therapy-lowers-ldl-cholesterol-in-monkeys/)查看完整实验设计与数据。
 
-[![来源配图：Why do some people reach 100 with memories as sharp as someone 30 years younger?](https://www.news-medical.net/images/news/ImageForNews_852560_17954851592271184.jpg)](https://www.news-medical.net/news/20261123/Why-do-some-people-reach-100-with-memories-as-sharp-as-someone-30-years-younger.aspx)
+![单次注射CRISPR基因编辑降胆固醇研究示意](https://lifespan.io/wp-content/uploads/2026/11/DNA-262x187.png)
 
-### 2. 肝脏酶EPHX1升高促进纤维化，动物实验发现血液标志物线索
+---
 
-[据 GEN 的报道](https://www.genengnews.com/topics/drug-discovery/metabolic-pathway-identified-as-potential-target-for-liver-diseases/)，日本大阪都立大学团队在小鼠和晚期纤维化患者肝脏中，发现酶 EPHX1（一种将抗炎脂质代谢为无活性产物的酶）水平显著升高。敲除 EPHX1 基因的小鼠体内抗炎脂质 11,12-EET 水平上升，肝脏纤维化程度和氧化应激均减轻；与此同时，血液中 11,12-DHET（EET 的代谢产物）水平可能作为识别晚期纤维化患者的生物标志物。目前针对人体的 EPHX1 抑制剂尚不存在，相关化合物的稳定性和安全性仍需验证，距离临床应用还有较长距离。
+### 2. 黑种草籽抗衰老证据综述：人体数据仍不充分
 
-![增加的 EPHX1 使抗炎脂质 11,12-EET 转化为促氧化应激的 11,12-DHET](https://www.genengnews.com/wp-content/uploads/2026/11/low-res-2-300x217.jpeg)
+[News-Medical的报道](https://www.news-medical.net/news/20261124/Black-seed-has-been-used-for-2000-years-Could-it-help-us-age-better.aspx)介绍了一篇叙述性综述，系统梳理了黑种草籽（Nigella sativa）及其主要活性成分百里醌（thymoquinone）对衰老相关生物过程的影响，涉及氧化应激、炎症、代谢紊乱、神经退行和细胞衰老。叙述性综述不做新实验，而是汇总已有文献评估整体证据强度。综述指出，现有人体研究仅显示心血管代谢风险指标和认知测量上的"适度改善"，尚不足以支持黑种草籽补充剂能延长人类健康寿命的结论。这一草药被使用超过两千年，但传统使用历史不等于现代循证证据。
 
-### 3. AI蛋白质折叠模型RumiFold：结构预测与功能问答一体化
+[![来源配图：Black seed has been used for 2,000 years. Could it help us age better?](https://www.news-medical.net/images/news/ImageForNews_852701_17955756489545102.jpg)](https://www.news-medical.net/news/20261124/Black-seed-has-been-used-for-2000-years-Could-it-help-us-age-better.aspx)
 
-预印本论文介绍了 RumiFold，一个在通用语言模型基础上训练蛋白质结构折叠能力的模型。它通过多轮折叠过程生成每个氨基酸位点的结构表示，再用这些表示回答自然语言提问，在基因本体论蛋白质功能预测上达到同类最优水平，折叠精度与专用单表示模型 SimpleFold 相当。[论文和代码](https://papers.cool/arxiv/2611.29444)均已公开，仓库地址为 rumifold.baulab.info。这是预印本，尚未经过同行评审，实际应用价值待独立验证。
+---
 
-### 4. 抗体设计模型GABIF：用结合亲和力预测器引导序列生成
+### 3. 昼夜节律与蛋白质质检：果蝇研究揭示新关联
 
-[预印本](https://papers.cool/arxiv/2611.29935)报告了抗体序列设计模型 GABIF，核心思路是在离散扩散框架中加入抗体与抗原结合亲和力预测器作为条件信号，引导氨基酸序列的生成朝高亲和力方向优化。计算机模拟实验显示，该模型生成的序列结合亲和力经独立预测器验证有所提升，整体表现与当前最优方法相当。论文强调所有实验均为计算机模拟（in silico），尚未进行湿实验验证，不代表已改善实际药物疗效。
+韩国科学技术院（KAIST）研究团队用果蝇发现，细胞在合成蛋白质时会同步进行质量检查，剔除有缺陷的蛋白质——这个质控过程参与调节了生物钟的节奏。生物钟（昼夜节律）控制着睡眠与清醒的交替，而蛋白质合成质控此前并不在已知的时钟调节机制之列。具体发现和作用机制的细节待核查，可沿[News-Medical的报道](https://www.news-medical.net/news/20261125/KAIST-team-uncovers-link-between-protein-quality-control-and-sleep-wake-rhythm-regulation.aspx)查看原始研究。目前结果来自果蝇，能否适用于哺乳动物或人类尚不明确。
 
-### 5. 单细胞RNA模型LeCellModel：从基因表达分布中发现稀有细胞状态
+---
 
-[预印本](https://papers.cool/arxiv/2611.30955)提出 LeCellModel，将单细胞 RNA 测序的表示学习目标从"识别细胞类型"转向"建模细胞状态分布"。单细胞 RNA 测序是一种能同时测量数千个细胞各自基因活跃程度的技术。模型在 scIB 表示质量基准上超越现有方法，并在未标注的情况下重现了特发性肺纤维化中一种已知促纤维化巨噬细胞程序，还发现了一个此前仅在肿瘤环境中描述过的 CD177+ 调节性 T 细胞亚群。这是预印本，所有发现均来自计算分析，待实验验证。
+### 4. 大脑衰老的空间分布：人脑转录组研究代码公开
 
-### 6. 大肠杆菌基因组到菌落图像的跨模态生成
+Mavrikaki-Lab 在 GitHub 发布了一项[人脑衰老空间转录组学研究的分析代码](https://github.com/Mavrikaki-Lab/Mavrikaki_Ra_Brain_aging_spatial_transcriptomics_human)。空间转录组学可以在保留组织位置信息的前提下测量每个区域的基因活跃程度，相当于给大脑基因表达绘制一张"地图"，而不是把所有区域混在一起分析。仓库目前1个Star，最近活跃于2026年11月9日。README自述内容待独立核查，研究发表阶段不明。
 
-[预印本](https://papers.cool/arxiv/2611.31132)报告了一种将大肠杆菌全基因组序列直接转换为菌落显微图像的条件生成模型，训练数据来自22株临床血液分离株的167,356张单细胞图像，涵盖4种抗生素条件。合成图像加入真实训练集后，对多种抗生素的耐药分类准确率有所提升，抗性类别的召回率改善尤为显著。模型仅在小规模临床分离株上训练，能否推广至更广泛的菌株和抗生素组合尚待检验。
+---
 
-### 7. 痰杆菌耐药性预测：轻量级模型适配低资源医院设备
+### 5. 雌雄大鼠健康寿命差异研究发布于《Aging》期刊
 
-[预印本](https://papers.cool/arxiv/2611.29143)报告了一种针对结核分枝杆菌（即导致肺结核的病原体）的抗生素耐药性预测模型，使用全基因组序列中的 4-mer 频率特征（统计基因组中每种四碱基组合出现的频率）结合随机森林分类器，在独立测试集上对20种抗生素的预测曲线下面积平均达到0.82。模型设计目标是能在算力受限的医院边缘设备上运行，对中低收入国家具有潜在实用价值。这是预印本，尚未经临床环境独立验证。
-
-### 8. 空气污染或损伤大脑免疫细胞，与痴呆风险存在关联
-
-[据 News-Medical 的报道](https://www.news-medical.net/news/20261123/Air-pollution-may-damage-brain-immunity-and-increase-dementia-risk.aspx)，凯斯西储大学研究团队发现，来自交通和工业的细颗粒污染物可能改变大脑小胶质细胞（即脑内的免疫细胞）的行为，与痴呆风险存在关联。具体样本量、研究设计和数据结果原文未详述，完整方法待核查。这是关联性发现，不能直接得出因果结论。
+[News-Medical的报道](https://www.news-medical.net/news/20261124/Study-reveals-sex-specific-differences-in-aging-and-healthspan-decline.aspx)指向一篇2026年11月11日发表于《Aging》第18卷的论文，研究对象为衰老大鼠，系统评估了雌雄之间健康寿命下降的差异。健康寿命指保持良好身体功能的年限，而非单纯存活时长。具体评估指标和关键数字仅有摘要级信息，待核查原文；研究在大鼠中进行，结论不能直接外推至人类。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 瑜伽改善平衡与力量，但抗衰老证据仍不足
+### 体脂过多加重围绝经期躯体症状
 
-[据 News-Medical 的报道](https://www.news-medical.net/news/20261123/Yoga-improves-strength-and-balance-but-can-it-actually-slow-aging.aspx)，一篇叙述性综述（即对现有研究进行系统梳理而非开展新实验）汇总了瑜伽对老年人的影响，发现其在平衡、柔韧性、肌肉力量、血压及认知心理健康方面有改善迹象。然而，研究者明确指出现有证据不足以支持"瑜伽能减缓生物衰老或延长寿命"的结论，呼吁开展更大规模、更长时间的临床试验。
-
-[![来源配图：Yoga improves strength and balance, but can it actually slow aging?](https://www.news-medical.net/images/news/ImageForNews_852559_17954839205992023.jpg)](https://www.news-medical.net/news/20261123/Yoga-improves-strength-and-balance-but-can-it-actually-slow-aging.aspx)
-
-### CAMEO：少量配对数据下的病理图像与基因表达融合
-
-[预印本](https://papers.cool/arxiv/2611.30601)提出 CAMEO 框架，用于在配对样本极少的情况下融合病理图像与基因表达两种数据模态。配对数据稀少是生物医学多模态学习的普遍瓶颈，CAMEO 通过对抗学习机制对齐两种模态的潜在表示，在细胞龛分类和细胞类型组成预测任务上优于 CLIP 等对比学习方法。研究团队同步发布了包含三个器官、图像与基因表达配对的 HuggingFace 数据集，可用于进一步研究。所有结果来自计算病理学基准，待更广泛的生物医学任务验证。
+[News-Medical的报道](https://www.news-medical.net/news/20261125/New-study-links-excess-adiposity-to-heightened-somatic-symptoms-during-perimenopause.aspx)介绍了一项新研究，关注体脂超标（adiposity，即脂肪组织过多，与单纯体重超标略有区别）与围绝经期躯体症状严重程度之间的关联。围绝经期是绝经前数年的过渡阶段，常伴随潮热、疲劳等身体症状。BMI与绝经症状的关系此前已有研究，但体脂分布对围绝经期症状的具体影响研究相对较少。详细样本量和量化结果待核查原文；观察性研究只能说明关联，不能确认因果。
 
 ---
 
 ## **⌘ 开源 TOP 项目**
 
-### ai-2070/biomarker-tracker：本地运行的血液指标与生物年龄追踪工具
+### lucascamillomd/pyaging：GPU加速的衰老时钟Python工具包
 
-这个工具帮助个人在本地管理多年的血液检验结果和身体数据，核心功能包括计算 PhenoAge（一种基于血液指标估算生物年龄的算法，反映身体的功能性老化程度，而非实际年龄）、为每项指标生成白话解释，以及提供带来源引用的饮食和生活方式研究参考。工具设计为离线优先，不需要注册账号，不上传数据，不联网。[仓库地址](https://github.com/ai-2070/biomarker-tracker)目前为公开状态，Stars 较少，实际运行稳定性待社区反馈。需要注意的是，PhenoAge 是基于人群数据的估算指标，单次结果不等于个人患病风险的确定预测。
+[pyaging](https://github.com/lucascamillomd/pyaging) 收录了多种经过GPU优化的衰老时钟算法，帮助研究者用基因组或表观遗传数据估算生物年龄——即细胞层面的"实际老化程度"，区别于按出生日期算的实际年龄。适合有Python基础、需要批量处理样本的老龄化研究者，134个Star，最近活跃于2026年11月22日。支持哪些数据格式及运行环境要求，可在仓库README中继续查看；生物年龄估算结果属于统计指标，不能直接解读为个人疾病风险的确定预测。
 
-### gangchen/epiage-skill：24个表观遗传衰老时钟的离线计算工具
+### ZT135292/Dog\_blood\_transcriptomic\_aging\_clock：犬血液转录组衰老时钟
 
-[这个仓库](https://github.com/gangchen/epiage-skill)将24种表观遗传衰老时钟（通过 DNA 甲基化模式估算生物年龄的算法，包括 GrimAge V1/V2、Horvath、Hannum、PhenoAge、DunedinPoAm 等）打包为可安装的离线 agent 技能，仅依赖 pandas 和 numpy，适合在本地研究环境或无网络连接的场景中使用。最近活跃时间为2026年11月19日，Stars 4。许可证信息和数据输入格式要求建议查阅仓库 README 确认。
+[该仓库](https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock)提供用犬血液基因表达数据构建衰老时钟的完整代码，实现并对比了弹性网络、Lasso、随机森林、XGBoost、支持向量回归和混合专家模型六种机器学习方法在年龄预测上的表现。转录组衰老时钟通过测量哪些基因活跃、活跃程度如何来推算生物年龄，犬类模型也常用于人类衰老研究的参照。最近活跃于2026年11月19日，Stars数量未提供，许可证状态待核查。
 
 ---
 
-## **❓ 相关问题**
-
-### 生物年龄估算值和实际年龄相差很大，说明我的健康出了问题吗？
-
-不能这样直接解读。PhenoAge、GrimAge 等生物年龄是基于人群统计模型的估算指标，单次测量结果受检测时间、身体状态、实验室误差等多重因素影响。[gangchen/epiage-skill 的说明](https://github.com/gangchen/epiage-skill)列出了多种不同算法，各算法的预测范围和校准人群不同，同一个人用不同时钟计算结果可能有较大差异。这类工具适合追踪个人长期趋势，不能用于诊断疾病或替代医生评估。
