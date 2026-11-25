@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/23
+title: AI生命延续学日报 2026/11/24
 breadcrumbs: false
-next: /en/2026-11/2026-11-23
+next: /en/2026-11/2026-11-24
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,71 +11,79 @@ cascade:
 ## **Today's Summary**
 
 ```
-AI agents track tumor changes, reaching 87% agreement with radiologists in clinical follow-ups.
-Albumin modification patterns in blood may reveal biological aging status, with a key turning window during middle age.
-Tumor tracking results come from the benchmark testing phase and have not yet undergone prospective clinical validation.
+A set of rare genetic variants was found in centenarians, linked to memory retention but not yet confirmed to have a protective effect.
+Air pollution may alter the behavior of immune cells in the brain, with an observed association with dementia risk.
+Neither finding establishes causation and neither should be used to assess individual risk.
 ```
 
-## **🎯 Top 10 Focus Today**
+## **🔥 Top 8 Today**
 
-### 1. AI Agent Tracks Tumor Changes, Reaching 87% Diagnostic Agreement with Radiologists
+### 1. 114 Rare Genetic Variants Found Behind Centenarians' Exceptional Memory
 
-LesionAgent is an AI agent that needs no task-specific training. It reads patient CT scans from different time points, automatically spots lesions, matches the same lesion across time, and judges whether tumors have progressed per clinical guidelines. On 4 public longitudinal CT datasets, it tracked more lesions and measured them more accurately than all automated baseline methods. In 23 clinical follow-ups, it matched radiologists' response assessments 20 times, including every single response change. The key improvement comes from system architecture, not the model itself. Using the same LLM but stripping its designed processing pipeline dropped detection F1 from 78% to 41%. These are benchmark-stage results. Whether it can replace real radiology workflows needs prospective clinical validation. For more on the paper and the napari reading app, check the [LesionAgent repository](https://github.com/MIC-DKFZ/LesionAgent). The [paper index/abstract](https://papers.cool/arxiv/2611.27876) has the full metrics.
+Researchers screened families of centenarians for "cognitive super-agers" — people over 100 whose memory performs like a healthy adult in their 70s or 80s. [According to News-Medical](https://www.news-medical.net/news/20261123/Why-do-some-people-reach-100-with-memories-as-sharp-as-someone-30-years-younger.aspx), they identified 114 rare genetic variants enriched in this group, touching genes related to vascular function, immune regulation, and neuronal structure. These variants hint at some potentially interesting genetic mechanisms, but the researchers are clear: direct comparisons within the same cohort didn't establish a significant association, so there's no confirmation yet that these variants protect against cognitive decline. Independent replication is needed.
 
-### 2. AI Drug Activity Prediction Model Ruby Leads Multiple Public Benchmarks
+[![Source image: Why do some people reach 100 with memories as sharp as someone 30 years younger?](https://www.news-medical.net/images/news/ImageForNews_852560_17954851592271184.jpg)](https://www.news-medical.net/news/20261123/Why-do-some-people-reach-100-with-memories-as-sharp-as-someone-30-years-younger.aspx)
 
-Ruby, a potency prediction model, tackles one of the core challenges in small-molecule drug development: predicting how strongly a compound binds its target (potency), which directly decides which candidates are worth pushing forward. Ruby builds on intermediate representations from the structure-based foundation model Pearl and doesn't need to compute binding poses for each compound individually. According to the [paper index/abstract](https://papers.cool/arxiv/2611.27015), Ruby scored highest in early enrichment composite score on 7 public hit compound identification targets, beat comparison methods in average correlation across four benchmarks (OpenFE, CASP16, FEP+ 4, and OpenBind), and led in zero-shot prediction across 8 biochemical and cell assays in the Genesis-Incyte collaboration. Training data includes proprietary data and the GenesisPotency-2026 dataset released with the paper (CC BY-SA 4.0 license). All results are computational benchmarks, not yet translated into clinical drug candidates.
+### 2. Liver Enzyme EPHX1 Drives Fibrosis, Animal Study Points to a Blood Biomarker 🔬
 
-### 3. New Protein Conformation Prediction Model Balances Overall Accuracy with Local Geometric Plausibility
+[According to GEN](https://www.genengnews.com/topics/drug-discovery/metabolic-pathway-identified-as-potential-target-for-liver-diseases/), a team from Osaka Metropolitan University found that the enzyme EPHX1 — which metabolizes anti-inflammatory lipids into inactive products — is significantly elevated in the livers of mice and patients with advanced fibrosis. Mice with EPHX1 knocked out showed higher levels of the anti-inflammatory lipid 11,12-EET, along with reduced liver fibrosis and oxidative stress. Blood levels of 11,12-DHET (a metabolite of EET) may serve as a biomarker for identifying advanced fibrosis patients. No EPHX1 inhibitor for humans exists yet, and the stability and safety of relevant compounds still need to be validated — clinical application is a long way off.
 
-CrypticFlow takes on a tough problem in structure-based drug design: predicting protein conformations after drug binding (the "holo state") is way harder than predicting the unbound state (the "apo state"). Existing models either nail overall accuracy but produce implausible local atomic geometry, or work locally but let errors pile up and amplify along the chain. CrypticFlow uses a hierarchical flow matching scheme, first generating sparse backbone anchor points in Cartesian coordinate space, then recursively filling in details in internal coordinate space. According to the [paper index/abstract](https://papers.cool/arxiv/2611.27162), on the D3PM test set it hit the lowest median and mean Cα RMSD among baselines of the same parameter count, with adjacency distance fidelity reaching 99.58%. This is computational model evaluation. Whether predicted conformations actually boost hit rates in real drug design remains unverified.
+![Elevated EPHX1 converts the anti-inflammatory lipid 11,12-EET into the pro-oxidative stress metabolite 11,12-DHET](https://www.genengnews.com/wp-content/uploads/2026/11/low-res-2-300x217.jpeg)
 
-### 4. New Aging Theory Framework Unifies DNA, RNA, Proteins, and Metabolites into One Model 🧬
+### 3. RumiFold: AI Protein Folding Model That Does Structure Prediction and Functional Q&A Together 🧬
 
-A paper published in *The Innovation Life* proposes an "aging central dogma" that extends the molecular biology central dogma (DNA → RNA → proteins) by adding metabolites as a fourth layer. It argues that aging results from the progressive breakdown of balance among synthesis, modification, and degradation across these four molecular layers. RNA isn't just an intermediate messenger, the paper points out. Defects in its transcription, splicing, modification, and localization can independently drive downstream protein homeostasis disruption. Metabolic changes like NAD⁺ decline and pro-inflammatory lipid accumulation aren't merely consequences of other aging hallmarks either. This is a theoretical framework integrating existing data. The authors explicitly state that the field has no consensus on the relative importance of each mechanism, and the framework itself still needs experimental validation. See the original paper at [doi:10.59717/j.xinn-life.2026.100262](https://doi.org/10.59717/j.xinn-life.2026.100262).
+A preprint introduces RumiFold, a model trained on top of a general-purpose language model to handle protein structure folding. It generates structural representations for each amino acid position through a multi-round folding process, then uses those representations to answer natural-language questions. It hits state-of-the-art on Gene Ontology protein function prediction and matches the folding accuracy of the specialized single-representation model SimpleFold. The [paper and code](https://papers.cool/arxiv/2611.29444) are both public, with the repo at rumifold.baulab.info. This is a preprint, not yet peer-reviewed, and practical value awaits independent validation.
 
-### 5. Pathology Slide Tissue Structure Features Can Complement AI Foundation Model Predictions
+### 4. GABIF: Antibody Design Model That Uses a Binding Affinity Predictor to Guide Sequence Generation 💉
 
-A 139-dimensional set of cell- and tissue-level features can add predictive value on top of what pathology foundation models already learn from slide images. These handcrafted tissue structure metrics cover nuclear morphology, intercellular connections, and multicellular community organization. According to the [paper index/abstract](https://papers.cool/arxiv/2611.27881), researchers fused them with representations from two pathology foundation models, CTransPath and PLIP. On the breast cancer BCNB dataset, estrogen receptor classification ROC-AUC reached 0.9144, beating foundation models alone. Lung tissue typing showed similar gains. These results come from cross-validation on specific datasets. Whether interpretable features hold up across broader disease types and institutions needs further study.
+[This preprint](https://papers.cool/arxiv/2611.29935) presents GABIF, an antibody sequence design model whose core idea is to plug an antibody-antigen binding affinity predictor into a discrete diffusion framework as a conditioning signal, steering amino acid sequence generation toward higher affinity. In silico experiments show that sequences generated by the model have improved binding affinity as validated by an independent predictor, with overall performance on par with current best methods. The paper is explicit that all experiments are purely computational (in silico) — no wet lab validation has been done, so this doesn't yet mean better real-world drug efficacy.
 
-### 6. 3D Brain MRI Representation Learning Shows Improvements on Small Datasets
+### 5. LeCellModel: Single-Cell RNA Model That Finds Rare Cell States by Modeling Expression Distributions 🔭
 
-R2RG takes on the challenge of learning effective feature representations from 3D MRI images, where data is scarce, dimensions are high, and spatial information is complex. Slicing 3D volumes into 2D for processing throws away spatial relationships, and mainstream Transformer and diffusion architectures tend to choke on small datasets. According to the [paper index/abstract](https://papers.cool/arxiv/2611.27057), R2RG combines convolutional neural networks with generative adversarial networks (GANs) for reconstruction-based representation learning. On three standard datasets and one locally collected dataset, it outperformed contrastive representation learning methods in classifying Parkinson's and Alzheimer's disease. This is currently at the benchmark evaluation stage and doesn't yet show improved clinical diagnostic accuracy.
+[This preprint](https://papers.cool/arxiv/2611.30955) introduces LeCellModel, which shifts the representation learning objective for single-cell RNA sequencing from "identify cell types" to "model cell state distributions." Single-cell RNA sequencing is a technique that simultaneously measures gene activity across thousands of individual cells. LeCellModel outperforms existing methods on the scIB representation quality benchmark, reproduces a known pro-fibrotic macrophage program in idiopathic pulmonary fibrosis without labels, and uncovers a CD177+ regulatory T cell subpopulation previously described only in tumor contexts. This is a preprint — all findings are from computational analysis and await experimental validation.
 
-### 7. Albumin Modification Patterns Reveal a "Middle-Age Turning Window" in Biological Aging
+### 6. Cross-Modal Generation from E. coli Genomes to Colony Images 🧫
 
-Albumin, the most abundant protein in blood, carries post-translational modification (chemical changes happening after protein synthesis) patterns that may reflect the body's biological aging status. According to the [News-Medical report](https://www.news-medical.net/news/20261120/Albumin-modifications-reveal-new-clues-about-biological-aging.aspx), a paper published on November 4, 2026 in *Aging* journal volume 18 maps the full landscape of how albumin modifications change with age and spots a key turning window during middle age. The source material only provides abstract-level info. Specific sample sizes, the age range of the turning point, and modification types need confirmation from the original paper.
+[This preprint](https://papers.cool/arxiv/2611.31132) presents a conditional generative model that converts full E. coli genome sequences directly into colony microscopy images. It was trained on 167,356 single-cell images from 22 clinical blood isolates across 4 antibiotic conditions. Adding synthetic images to the real training set improved antibiotic resistance classification accuracy across multiple antibiotics, with particularly notable recall gains for resistant classes. The model was trained on a small set of clinical isolates, so generalization to broader strains and antibiotic combinations remains to be tested.
 
-### 8. Mouse Study Maps the Genetic Landscape of Immune Aging
+### 7. TB Drug Resistance Prediction: A Lightweight Model Built for Low-Resource Hospital Devices 🏥
 
-A Monash University research team, using preclinical mouse models, has mapped a genetic atlas of immune aging, revealing the gene-level basis for why the immune system loses its ability to recognize and fight cancer and infections as we age. According to the [News-Medical report](https://www.news-medical.net/news/20261123/Preclinical-mouse-models-reveal-how-aging-impairs-immune-threat-adaptation.aspx), these mechanisms have been unclear until now. These results come from mouse experiments. Whether they translate to humans needs follow-up research.
+[This preprint](https://papers.cool/arxiv/2611.29143) presents an antibiotic resistance prediction model for Mycobacterium tuberculosis (the pathogen that causes TB), using 4-mer frequency features from whole-genome sequences (counting how often each four-nucleotide combination appears in the genome) combined with a random forest classifier. It achieves a mean AUC of 0.82 across 20 antibiotics on an independent test set. The model is designed to run on compute-constrained edge devices in hospitals, which makes it potentially useful in low- and middle-income countries. This is a preprint and hasn't been independently validated in a clinical environment.
 
-### 9. Corsera Health Launches Phase 1 Trial of Cardiovascular RNAi Preventive Drug in Australia and New Zealand 💊
+### 8. Air Pollution May Damage Brain Immune Cells, Linking to Dementia Risk 😷
 
-Corsera Health has kicked off a phase 1 clinical trial in Australia and New Zealand to evaluate the safety of COR-2003 used alone and combined with COR-1004 as a preventive drug for cardiovascular disease. RNAi (RNA interference) is a technique that cuts harmful protein production by interfering with specific gene expression. It's still in early exploration for cardiovascular prevention. The phase 1 trial primarily checks safety and tolerability and can't yet speak to effectiveness. See the [Longevity.Technology report](https://longevity.technology/news/corsera-health-begins-phase-1-trial-of-dual-rnai-preventive-medicine/) for details.
-
-### 10. New Adaptive Optics Imaging Tech Could Detect Glaucoma Progression Months Earlier
-
-A high-resolution adaptive optics imaging technology developed by FDA researchers shows potential to pick up glaucoma progression signs months earlier than existing methods. Glaucoma's optic nerve damage often silently progresses before patients notice vision changes, making early detection critical for preserving eyesight. According to the [News-Medical report](https://www.news-medical.net/news/20261120/New-imaging-technology-detects-glaucoma-progression-months-earlier.aspx), the technology was tested in University of Maryland patients. The source material is abstract-level. Specific sample sizes, the lead time advantage, and false positive rates need confirmation from the original paper. This is currently a promising early-stage study.
+[According to News-Medical](https://www.news-medical.net/news/20261123/Air-pollution-may-damage-brain-immunity-and-increase-dementia-risk.aspx), a research team at Case Western Reserve University found that fine particulate pollutants from traffic and industry may alter the behavior of microglia — the brain's immune cells — with an observed association with dementia risk. Specific sample sizes, study design, and data results aren't detailed in the original report; full methodology is pending review. This is an associative finding and does not support a causal conclusion.
 
 ---
 
-## **🔬 Frontier Research**
+## **🧪 Frontier Research**
 
-### COVID Vaccine Shoulder Injury Risk Higher Than Flu Vaccine, But Absolute Difference Is Small
+### Yoga Improves Balance and Strength, But the Anti-Aging Evidence Isn't There Yet 🧘
 
-A study covering nearly two million doses found that COVID vaccines carry a 63% higher relative risk of SIRVA than flu vaccines, though the absolute risk bump is tiny. SIRVA (shoulder injury related to vaccine administration) happens when a shot goes in too high or at the wrong angle, letting fluid leak into the shoulder joint and causing pain and restricted movement. According to the [News-Medical report](https://www.news-medical.net/news/20261123/COVID-19-vaccines-carry-a-higher-shoulder-injury-risk-than-flu.aspx), the source material is abstract-level. Specific incidence rates by vaccine type need confirmation from the original paper.
+[According to News-Medical](https://www.news-medical.net/news/20261123/Yoga-improves-strength-and-balance-but-can-it-actually-slow-aging.aspx), a narrative review (a systematic synthesis of existing research rather than a new experiment) summarized yoga's effects on older adults, finding signs of improvement in balance, flexibility, muscle strength, blood pressure, and cognitive and mental health. However, the researchers are clear that the existing evidence doesn't support the conclusion that yoga slows biological aging or extends lifespan, and they're calling for larger, longer-duration clinical trials.
 
-[![Source image: COVID-19 vaccines carry a higher shoulder injury risk than flu](https://www.news-medical.net/images/news/ImageForNews_852423_1795431272968629.jpg)](https://www.news-medical.net/news/20261123/COVID-19-vaccines-carry-a-higher-shoulder-injury-risk-than-flu.aspx)
+[![Source image: Yoga improves strength and balance, but can it actually slow aging?](https://www.news-medical.net/images/news/ImageForNews_852559_17954839205992023.jpg)](https://www.news-medical.net/news/20261123/Yoga-improves-strength-and-balance-but-can-it-actually-slow-aging.aspx)
 
-### Cartilage Regeneration Research Lands $3.7M Five-Year NIH Grant
+### CAMEO: Fusing Pathology Images and Gene Expression with Minimal Paired Data 🔗
 
-A $3.7 million, five-year R01 grant from the NIH will back a project investigating new methods for cartilage repair in osteoarthritis. Osteoarthritis gradually wears down joint cartilage, and effective repair options are currently lacking. According to the [News-Medical report](https://www.news-medical.net/news/20261120/2437-million-NIH-grant-backs-innovative-cartilage-regeneration-research.aspx), the source material only provides funding info. Specific research plans and preliminary data need to be verified.
+[This preprint](https://papers.cool/arxiv/2611.30601) introduces the CAMEO framework for fusing pathology images and gene expression data modalities when paired samples are extremely scarce. Scarce paired data is a common bottleneck in biomedical multimodal learning. CAMEO uses an adversarial learning mechanism to align the latent representations of both modalities, outperforming contrastive learning methods like CLIP on cellular niche classification and cell type composition prediction. The team simultaneously released a HuggingFace dataset covering three organs with paired image and gene expression data for further research. All results come from computational pathology benchmarks and await validation on broader biomedical tasks.
 
 ---
 
-## **📊 Industry Changes & Personal Impact**
+## **⌘ Top Open Source Projects**
 
-### Coding Agent Benchmark TEA-Bench-BR Tests Medical Clinical Pathway Code
+### ai-2070/biomarker-tracker: Local Blood Test and Biological Age Tracking Tool 📊
 
-TEA-Bench-BR, a coding benchmark built on Brazil's early autism screening pathway, tackles a real problem: translating clinical rules into code is prone to "silent errors," where programs run and produce plausible-looking results but actually make wrong clinical judgments. The benchmark packs 144 tasks and 6,798 hidden test cases and supports FHIR R4 medical data standard export. According to the [paper index/abstract](https://papers.cool/arxiv/2611.27895), the Gemma 4 31B model hit a 77.8%–85.2% solve rate on single-tool tasks, with errors mainly in input validation rather than clinical judgment logic. The 12B model had a 10.1% miss rate on cases requiring referral, while the 31B model's was just 0.02%. This benchmark targets medical coding compliance scenarios and helps quantify model reliability in rule translation before deployment, though it uses simulated instruments rather than real clinical tools.
+This tool helps individuals manage years of blood test results and body data entirely locally. Its core features include calculating PhenoAge (an algorithm that estimates biological age from blood markers, reflecting functional aging rather than chronological age), generating plain-language explanations for each marker, and providing diet and lifestyle research references with citations. The tool is designed offline-first — no account registration, no data upload, no internet connection needed. The [repository](https://github.com/ai-2070/biomarker-tracker) is currently public with few stars, and real-world stability is pending community feedback. Worth noting: PhenoAge is a population-level statistical estimate, and a single result doesn't equate to a definitive prediction of individual disease risk.
+
+### gangchen/epiage-skill: Offline Calculator for 24 Epigenetic Aging Clocks ⏱️
+
+[This repository](https://github.com/gangchen/epiage-skill) packages 24 epigenetic aging clocks (algorithms that estimate biological age from DNA methylation patterns, including GrimAge V1/V2, Horvath, Hannum, PhenoAge, DunedinPoAm, and more) as an installable offline agent skill. It only depends on pandas and numpy, making it suitable for local research environments or settings without internet access. Last active November 19, 2026, with 4 stars. License information and data input format requirements should be confirmed in the repository README.
+
+---
+
+## **❓ Related Questions**
+
+### My biological age estimate is way off from my actual age — does that mean something's wrong with my health? 🤔
+
+You can't read it that way directly. PhenoAge, GrimAge, and similar biological age metrics are estimates based on population-level statistical models, and a single measurement is influenced by many factors: when you tested, your physical state at the time, lab error, and more. The [gangchen/epiage-skill documentation](https://github.com/gangchen/epiage-skill) lists multiple different algorithms, each with its own prediction range and calibration population — the same person can get quite different results from different clocks. These tools are best suited for tracking personal trends over time and shouldn't be used to diagnose disease or replace a doctor's assessment.
