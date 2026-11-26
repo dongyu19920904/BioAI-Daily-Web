@@ -1,8 +1,8 @@
 ---
 linkTitle: AI生命延续学日报
-title: AI生命延续学日报 2026/11/24
+title: AI生命延续学日报 2026/11/25
 breadcrumbs: false
-next: /en/2026-11/2026-11-24
+next: /en/2026-11/2026-11-25
 description: Daily AI + longevity news and insights, tracking aging biology, rejuvenation,
   biological age, lifespan interventions, and related tools and models.
 cascade:
@@ -11,79 +11,61 @@ cascade:
 ## **Today's Summary**
 
 ```
-A set of rare genetic variants was found in centenarians, linked to memory retention but not yet confirmed to have a protective effect.
-Air pollution may alter the behavior of immune cells in the brain, with an observed association with dementia risk.
-Neither finding establishes causation and neither should be used to assess individual risk.
+A single-injection gene-editing therapy kept bad cholesterol suppressed in monkeys for three years.
+A review suggests black seed has modest benefits on aging-related markers, but human evidence remains thin.
+All cholesterol-lowering gene-editing data comes from animal studies; human efficacy still awaits clinical trials.
 ```
 
-## **🔥 Top 8 Today**
+## **🔥 Today's Top 5**
 
-### 1. 114 Rare Genetic Variants Found Behind Centenarians' Exceptional Memory
+### 1. Single-Injection CRISPR Gene Editing Keeps LDL Cholesterol Down in Monkeys for Three Years
 
-Researchers screened families of centenarians for "cognitive super-agers" — people over 100 whose memory performs like a healthy adult in their 70s or 80s. [According to News-Medical](https://www.news-medical.net/news/20261123/Why-do-some-people-reach-100-with-memories-as-sharp-as-someone-30-years-younger.aspx), they identified 114 rare genetic variants enriched in this group, touching genes related to vascular function, immune regulation, and neuronal structure. These variants hint at some potentially interesting genetic mechanisms, but the researchers are clear: direct comparisons within the same cohort didn't establish a significant association, so there's no confirmation yet that these variants protect against cognitive decline. Independent replication is needed.
+Verve Therapeutics (now a Lilly subsidiary) published research in *Nature* showing that a one-shot CRISPR base-editing therapy produced lasting reductions in blood LDL cholesterol — the so-called "bad cholesterol" — in monkeys. 🧬 The edit targets ANGPTL3, a liver-produced protein that inhibits the breakdown of fat particles in the blood; switching it off lowers both LDL and triglycerides simultaneously. In healthy monkeys at the high-dose level, a single injection reduced non-HDL cholesterol by an average of 31.8% and LDL by 12.9% over three years, with no accumulated liver damage observed. Researchers also knocked out the LDL receptor in four additional monkeys to simulate familial hypercholesterolemia; LDL dropped from 458 to 247 mg/dL (roughly 46%) within 35 days, though it remained significantly elevated, indicating this pathway can't fully address that genetic condition. A cohort of 738 offspring confirmed the edits weren't passed down to the next generation. All data is from animal studies, so whether this works for people with diet- or age-related high cholesterol still needs human trials to answer. Check out [Lifespan.io's coverage](https://lifespan.io/single-dose-gene-therapy-lowers-ldl-cholesterol-in-monkeys/) for the full experimental design and data.
 
-[![Source image: Why do some people reach 100 with memories as sharp as someone 30 years younger?](https://www.news-medical.net/images/news/ImageForNews_852560_17954851592271184.jpg)](https://www.news-medical.net/news/20261123/Why-do-some-people-reach-100-with-memories-as-sharp-as-someone-30-years-younger.aspx)
-
-### 2. Liver Enzyme EPHX1 Drives Fibrosis, Animal Study Points to a Blood Biomarker 🔬
-
-[According to GEN](https://www.genengnews.com/topics/drug-discovery/metabolic-pathway-identified-as-potential-target-for-liver-diseases/), a team from Osaka Metropolitan University found that the enzyme EPHX1 — which metabolizes anti-inflammatory lipids into inactive products — is significantly elevated in the livers of mice and patients with advanced fibrosis. Mice with EPHX1 knocked out showed higher levels of the anti-inflammatory lipid 11,12-EET, along with reduced liver fibrosis and oxidative stress. Blood levels of 11,12-DHET (a metabolite of EET) may serve as a biomarker for identifying advanced fibrosis patients. No EPHX1 inhibitor for humans exists yet, and the stability and safety of relevant compounds still need to be validated — clinical application is a long way off.
-
-![Elevated EPHX1 converts the anti-inflammatory lipid 11,12-EET into the pro-oxidative stress metabolite 11,12-DHET](https://www.genengnews.com/wp-content/uploads/2026/11/low-res-2-300x217.jpeg)
-
-### 3. RumiFold: AI Protein Folding Model That Does Structure Prediction and Functional Q&A Together 🧬
-
-A preprint introduces RumiFold, a model trained on top of a general-purpose language model to handle protein structure folding. It generates structural representations for each amino acid position through a multi-round folding process, then uses those representations to answer natural-language questions. It hits state-of-the-art on Gene Ontology protein function prediction and matches the folding accuracy of the specialized single-representation model SimpleFold. The [paper and code](https://papers.cool/arxiv/2611.29444) are both public, with the repo at rumifold.baulab.info. This is a preprint, not yet peer-reviewed, and practical value awaits independent validation.
-
-### 4. GABIF: Antibody Design Model That Uses a Binding Affinity Predictor to Guide Sequence Generation 💉
-
-[This preprint](https://papers.cool/arxiv/2611.29935) presents GABIF, an antibody sequence design model whose core idea is to plug an antibody-antigen binding affinity predictor into a discrete diffusion framework as a conditioning signal, steering amino acid sequence generation toward higher affinity. In silico experiments show that sequences generated by the model have improved binding affinity as validated by an independent predictor, with overall performance on par with current best methods. The paper is explicit that all experiments are purely computational (in silico) — no wet lab validation has been done, so this doesn't yet mean better real-world drug efficacy.
-
-### 5. LeCellModel: Single-Cell RNA Model That Finds Rare Cell States by Modeling Expression Distributions 🔭
-
-[This preprint](https://papers.cool/arxiv/2611.30955) introduces LeCellModel, which shifts the representation learning objective for single-cell RNA sequencing from "identify cell types" to "model cell state distributions." Single-cell RNA sequencing is a technique that simultaneously measures gene activity across thousands of individual cells. LeCellModel outperforms existing methods on the scIB representation quality benchmark, reproduces a known pro-fibrotic macrophage program in idiopathic pulmonary fibrosis without labels, and uncovers a CD177+ regulatory T cell subpopulation previously described only in tumor contexts. This is a preprint — all findings are from computational analysis and await experimental validation.
-
-### 6. Cross-Modal Generation from E. coli Genomes to Colony Images 🧫
-
-[This preprint](https://papers.cool/arxiv/2611.31132) presents a conditional generative model that converts full E. coli genome sequences directly into colony microscopy images. It was trained on 167,356 single-cell images from 22 clinical blood isolates across 4 antibiotic conditions. Adding synthetic images to the real training set improved antibiotic resistance classification accuracy across multiple antibiotics, with particularly notable recall gains for resistant classes. The model was trained on a small set of clinical isolates, so generalization to broader strains and antibiotic combinations remains to be tested.
-
-### 7. TB Drug Resistance Prediction: A Lightweight Model Built for Low-Resource Hospital Devices 🏥
-
-[This preprint](https://papers.cool/arxiv/2611.29143) presents an antibiotic resistance prediction model for Mycobacterium tuberculosis (the pathogen that causes TB), using 4-mer frequency features from whole-genome sequences (counting how often each four-nucleotide combination appears in the genome) combined with a random forest classifier. It achieves a mean AUC of 0.82 across 20 antibiotics on an independent test set. The model is designed to run on compute-constrained edge devices in hospitals, which makes it potentially useful in low- and middle-income countries. This is a preprint and hasn't been independently validated in a clinical environment.
-
-### 8. Air Pollution May Damage Brain Immune Cells, Linking to Dementia Risk 😷
-
-[According to News-Medical](https://www.news-medical.net/news/20261123/Air-pollution-may-damage-brain-immunity-and-increase-dementia-risk.aspx), a research team at Case Western Reserve University found that fine particulate pollutants from traffic and industry may alter the behavior of microglia — the brain's immune cells — with an observed association with dementia risk. Specific sample sizes, study design, and data results aren't detailed in the original report; full methodology is pending review. This is an associative finding and does not support a causal conclusion.
+![Illustration of single-injection CRISPR gene editing for cholesterol reduction](https://lifespan.io/wp-content/uploads/2026/11/DNA-262x187.png)
 
 ---
 
-## **🧪 Frontier Research**
+### 2. Black Seed and Aging: A Review Finds the Human Evidence Still Isn't There
 
-### Yoga Improves Balance and Strength, But the Anti-Aging Evidence Isn't There Yet 🧘
+[News-Medical's report](https://www.news-medical.net/news/20261124/Black-seed-has-been-used-for-2000-years-Could-it-help-us-age-better.aspx) covers a narrative review that systematically surveyed the effects of black seed (*Nigella sativa*) and its main active compound thymoquinone on aging-related biological processes, including oxidative stress, inflammation, metabolic dysfunction, neurodegeneration, and cellular senescence. 🌿 A narrative review doesn't run new experiments — it pools existing literature to assess the overall strength of the evidence. The review found that current human studies show only "modest improvements" in cardiometabolic risk markers and cognitive measures, which isn't enough to support the conclusion that black seed supplements can extend healthy human lifespan. This herb has been in use for over two thousand years, but a long history of traditional use isn't the same as modern evidence-based proof.
 
-[According to News-Medical](https://www.news-medical.net/news/20261123/Yoga-improves-strength-and-balance-but-can-it-actually-slow-aging.aspx), a narrative review (a systematic synthesis of existing research rather than a new experiment) summarized yoga's effects on older adults, finding signs of improvement in balance, flexibility, muscle strength, blood pressure, and cognitive and mental health. However, the researchers are clear that the existing evidence doesn't support the conclusion that yoga slows biological aging or extends lifespan, and they're calling for larger, longer-duration clinical trials.
-
-[![Source image: Yoga improves strength and balance, but can it actually slow aging?](https://www.news-medical.net/images/news/ImageForNews_852559_17954839205992023.jpg)](https://www.news-medical.net/news/20261123/Yoga-improves-strength-and-balance-but-can-it-actually-slow-aging.aspx)
-
-### CAMEO: Fusing Pathology Images and Gene Expression with Minimal Paired Data 🔗
-
-[This preprint](https://papers.cool/arxiv/2611.30601) introduces the CAMEO framework for fusing pathology images and gene expression data modalities when paired samples are extremely scarce. Scarce paired data is a common bottleneck in biomedical multimodal learning. CAMEO uses an adversarial learning mechanism to align the latent representations of both modalities, outperforming contrastive learning methods like CLIP on cellular niche classification and cell type composition prediction. The team simultaneously released a HuggingFace dataset covering three organs with paired image and gene expression data for further research. All results come from computational pathology benchmarks and await validation on broader biomedical tasks.
+[![Source image: Black seed has been used for 2,000 years. Could it help us age better?](https://www.news-medical.net/images/news/ImageForNews_852701_17955756489545102.jpg)](https://www.news-medical.net/news/20261124/Black-seed-has-been-used-for-2000-years-Could-it-help-us-age-better.aspx)
 
 ---
 
-## **⌘ Top Open Source Projects**
+### 3. Circadian Rhythms and Protein Quality Control: Fruit Fly Research Uncovers a New Link
 
-### ai-2070/biomarker-tracker: Local Blood Test and Biological Age Tracking Tool 📊
-
-This tool helps individuals manage years of blood test results and body data entirely locally. Its core features include calculating PhenoAge (an algorithm that estimates biological age from blood markers, reflecting functional aging rather than chronological age), generating plain-language explanations for each marker, and providing diet and lifestyle research references with citations. The tool is designed offline-first — no account registration, no data upload, no internet connection needed. The [repository](https://github.com/ai-2070/biomarker-tracker) is currently public with few stars, and real-world stability is pending community feedback. Worth noting: PhenoAge is a population-level statistical estimate, and a single result doesn't equate to a definitive prediction of individual disease risk.
-
-### gangchen/epiage-skill: Offline Calculator for 24 Epigenetic Aging Clocks ⏱️
-
-[This repository](https://github.com/gangchen/epiage-skill) packages 24 epigenetic aging clocks (algorithms that estimate biological age from DNA methylation patterns, including GrimAge V1/V2, Horvath, Hannum, PhenoAge, DunedinPoAm, and more) as an installable offline agent skill. It only depends on pandas and numpy, making it suitable for local research environments or settings without internet access. Last active November 19, 2026, with 4 stars. License information and data input format requirements should be confirmed in the repository README.
+A research team at KAIST (Korea Advanced Institute of Science and Technology) used fruit flies to discover that cells perform quality checks on proteins as they're being synthesized, weeding out defective ones — and that this quality-control process plays a role in regulating the biological clock's rhythm. ⏰ The circadian clock governs the sleep-wake cycle, and protein synthesis quality control wasn't previously on the list of known clock-regulating mechanisms. The specific findings and mechanistic details still need independent verification; head over to [News-Medical's report](https://www.news-medical.net/news/20261125/KAIST-team-uncovers-link-between-protein-quality-control-and-sleep-wake-rhythm-regulation.aspx) to read the original research. These results come from fruit flies, so whether they apply to mammals or humans is still an open question.
 
 ---
 
-## **❓ Related Questions**
+### 4. How the Brain Ages Spatially: Mavrikaki-Lab Releases Code for Human Brain Transcriptomics Study
 
-### My biological age estimate is way off from my actual age — does that mean something's wrong with my health? 🤔
+Mavrikaki-Lab has published analysis code for a [human brain aging spatial transcriptomics study](https://github.com/Mavrikaki-Lab/Mavrikaki_Ra_Brain_aging_spatial_transcriptomics_human) on GitHub. 🧠 Spatial transcriptomics measures gene activity region by region while preserving each region's physical location in the tissue — essentially drawing a "map" of gene expression across the brain, rather than blending all regions into one averaged measurement. The repo currently has 1 star and was last active on November 9, 2026. The README's self-described content still needs independent verification, and the publication status of the underlying research is unclear.
 
-You can't read it that way directly. PhenoAge, GrimAge, and similar biological age metrics are estimates based on population-level statistical models, and a single measurement is influenced by many factors: when you tested, your physical state at the time, lab error, and more. The [gangchen/epiage-skill documentation](https://github.com/gangchen/epiage-skill) lists multiple different algorithms, each with its own prediction range and calibration population — the same person can get quite different results from different clocks. These tools are best suited for tracking personal trends over time and shouldn't be used to diagnose disease or replace a doctor's assessment.
+---
+
+### 5. Sex-Specific Differences in Rat Healthspan Published in *Aging*
+
+[News-Medical's report](https://www.news-medical.net/news/20261124/Study-reveals-sex-specific-differences-in-aging-and-healthspan-decline.aspx) points to a paper published November 11, 2026, in *Aging* (Volume 18), which used aging rats to systematically evaluate how healthspan decline differs between males and females. 🐀 Healthspan refers to the years spent in good physical function, as distinct from total lifespan. Specific assessment metrics and key numbers are only available at the abstract level and need verification against the full paper; the research was conducted in rats, so the findings don't translate directly to humans.
+
+---
+
+## **🧪 Cutting-Edge Research**
+
+### Excess Body Fat Worsens Physical Symptoms During Perimenopause
+
+[News-Medical's report](https://www.news-medical.net/news/20261125/New-study-links-excess-adiposity-to-heightened-somatic-symptoms-during-perimenopause.aspx) covers a new study examining the link between excess adiposity (too much fat tissue, which is a bit different from just being overweight) and the severity of physical symptoms during perimenopause. The perimenopause transition spans several years before menopause and commonly brings symptoms like hot flashes and fatigue. 💡 The relationship between BMI and menopausal symptoms has been studied before, but how fat distribution specifically affects perimenopausal symptoms has gotten relatively little attention. Detailed sample sizes and quantified results still need verification from the full paper; this is an observational study, so it can establish association but not causation.
+
+---
+
+## **⌘ Top Open-Source Projects**
+
+### lucascamillomd/pyaging: A GPU-Accelerated Python Toolkit for Aging Clocks
+
+[pyaging](https://github.com/lucascamillomd/pyaging) packages several GPU-optimized aging clock algorithms, letting researchers estimate biological age from genomic or epigenetic data — that is, how old cells actually are at a molecular level, as opposed to chronological age by birthdate. 🐍 It's a good fit for aging researchers with Python experience who need to process samples in bulk. The project has 134 stars and was last active on November 22, 2026. Supported data formats and runtime requirements are in the repo's README; keep in mind that biological age estimates are statistical metrics, not definitive predictions of individual disease risk.
+
+### ZT135292/Dog\_blood\_transcriptomic\_aging\_clock: A Canine Blood Transcriptomics Aging Clock
+
+[This repo](https://github.com/ZT135292/Dog_blood_transcriptomic_aging_clock) provides complete code for building an aging clock from canine blood gene expression data, implementing and comparing six machine learning approaches for age prediction: elastic net, Lasso, random forest, XGBoost, support vector regression, and mixture of experts. 🐕 Transcriptomic aging clocks infer biological age by measuring which genes are active and to what degree; dog models are also frequently used as a reference point in human aging research. The repo was last active on November 19, 2026; star count was not provided, and license status needs verification.

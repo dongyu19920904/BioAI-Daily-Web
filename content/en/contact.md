@@ -4,9 +4,9 @@ type: page
 sidebar:
   exclude: true
 ---
-# Contact Aivora
+# Contact Aivola
 
-Thanks for visiting the Aivora AI Daily! We'd love to hear your thoughts and feedback.
+Thanks for visiting the Aivola AI Daily! We'd love to hear your thoughts and suggestions.
 
 Got questions, partnership ideas, or need help with AI tool accounts? Reach out through any of the channels below.
 
@@ -18,11 +18,11 @@ Got questions, partnership ideas, or need help with AI tool accounts? Reach out 
 
 **WeChat ID: aiwoola**
 
-Scan the QR code or search the ID to add our support team and get help with:
+Scan the QR code or search the ID to add our support team. Here's what we can help with:
 - 🛒 AI tool account purchase inquiries
-- 💡 Technical support for usage questions
+- 💡 Technical support for usage issues
 - 🤝 Business partnership discussions
-- 📰 Content submissions and suggestions
+- 📰 Content submissions and feedback
 
 ### Email
 
@@ -37,7 +37,7 @@ Best for:
 
 **[https://aivora.cn](https://aivora.cn)**
 
-Visit the site to check out:
+Head over to the site for:
 - Latest account plan pricing
 - Terms of service and guarantees
 - User guides
@@ -46,7 +46,7 @@ Visit the site to check out:
 
 ## ⏰ Service Hours
 
-- **Live support hours**: Daily 9:00 AM – 11:00 PM (GMT+8)
+- **Live support hours**: Daily, 9:00 AM – 11:00 PM (GMT+8)
 - **Email response time**: Within 24 hours
 
-We're committed to fast responses and genuinely great service for every user! 💪
+We're committed to getting back to you fast and taking good care of every user! 💪
