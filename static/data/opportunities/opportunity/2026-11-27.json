@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-27",
+  "report_section": "opportunity",
+  "source_page": "/opportunity/2026-11/2026-11-27/",
+  "extraction_note": "机器提取不等于科学或商业核验；所有主推需继续查一手来源与真实需求。",
+  "extraction_status": "candidates_extracted",
+  "opportunities": [
+    {
+      "schema_version": 1,
+      "opportunity_id": "opp_69a8c4009826ff50",
+      "report_date": "2026-11-27",
+      "report_section": "opportunity",
+      "title": "\"蓝区神话祛魅\"内容选题:用一篇纠偏文触达抗衰爱好者",
+      "source_urls": [
+        "https://www.news-medical.net/news/20261126/Do-people-in-blue-zones-really-age-more-slowly.aspx"
+      ],
+      "source_verified": false,
+      "state": "needs_claim_check",
+      "state_reason": "已自动找到可核查的论文 DOI；DOI 存在不等于报道关系或医学结论得到验证",
+      "target_user": "已接触蓝区概念的抗衰爱好者、关注生物年龄检测的人群、对\"科学 vs 流行叙事\"类内容有消费习惯的健康内容读者",
+      "demand_claim": "这类读者已为蓝区概念买过单(书、课程、饮食计划),\"你看到的数据被高估了\"这类纠偏信息对他们有认知刷新价值。付费意愿为假设,尚未验证",
+      "demand_verified": false,
+      "deliverable_hint": "一篇公众号/小红书纠偏文;后续可延伸为\"生物年龄时钟测量方法对比\"资料包",
+      "suggested_route": "structured_resource",
+      "risk_flags": [
+        "commercial_hypothesis"
+      ],
+      "hypotheses": {
+        "success_metric": "7天内完读率高于账号同期均值,或收到3条以上实质性讨论评论(不含表情包),或有人主动询问来源论文",
+        "stop_condition": "发布后7天阅读量低于账号均值50%且无实质互动,停止在此方向继续投入内容资源",
+        "upgrade_path": "单篇内容 → \"生物年龄检测方法科普\"系列 → 生物年龄相关检测服务导航资料包(低价)→ 社群内定期更新"
+      },
+      "primary_source_candidates": [
+        {
+          "doi": "10.1371/journal.pcbi.1014949",
+          "url": "https://doi.org/10.1371/journal.pcbi.1014949",
+          "title": "Aging out of the blue: Region-specific epigenetic clock calibration for a blue zone with the DNAm SuperLearner",
+          "work_type": "journal-article",
+          "discovered_from": "https://www.news-medical.net/news/20261126/Do-people-in-blue-zones-really-age-more-slowly.aspx",
+          "relationship_verified": false
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "opp_69a8c4009826ff50:verify_claims",
+      "opportunity_id": "opp_69a8c4009826ff50",
+      "kind": "verify_claims",
+      "status": "pending_automation",
+      "description_zh": "自动对照一手来源核查研究类型、对象、结论和局限",
+      "depends_on": []
+    },
+    {
+      "task_id": "opp_69a8c4009826ff50:validate_demand",
+      "opportunity_id": "opp_69a8c4009826ff50",
+      "kind": "validate_demand",
+      "status": "pending_automation",
+      "description_zh": "自动整理真实用户问题与替代方案；缺少行为数据时保持需求未验证",
+      "depends_on": []
+    }
+  ]
+}
