@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/26'
+title: 'AI生命延续学日报 2026/11/27'
 breadcrumbs: false
-next: /2026-11/2026-11-26
-description: '2026-11-26 AI生命延续学日报：持续孤独感与痴呆风险：30年追踪发现关键区别；胃绕道术后低血糖药物三期试验达到主要终点；年轻时血糖持续升高与中年认知健康相关。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-27
+description: '2026-11-27 AI生命延续学日报：蓝区长寿优势被重新测量，结果缩水到四个月；20 多岁血糖缓慢升高，55 岁时大脑受影响；升高 NAD+ 的某种方法在小鼠中损伤骨骼。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,99 +11,57 @@ cascade:
 ## **今日摘要**
 
 ```
-长期反复感到孤独的老年人，患痴呆的风险在观察性研究中高出未孤独者约三成。
-一款针对胃绕道术后低血糖的药物在三期试验中达到主要终点，年底前拟向监管机构提交申请。
-孤独与痴呆的关联来自观察性研究，无法排除孤独本身是认知下降早期表现的可能。
+蓝区百岁老人的生物年龄优势经校正后仅剩约四个月，远小于此前印象。
+年轻时血糖持续缓慢上升与中年认知测试表现较差存在关联，但因果关系未确立。
+两项结论均来自观察性研究，只能说明相关，不能作为个人干预依据。
 ```
 
-## **🔥 今日焦点 TOP 8**
+## **🔥 今日焦点 TOP 6**
 
-### 1. 持续孤独感与痴呆风险：30年追踪发现关键区别
+### 1. 蓝区长寿优势被重新测量，结果缩水到四个月
 
-据 [Lifespan.io 的报道](https://lifespan.io/chronic-not-occasional-loneliness-increases-dementia-risk/)，一项追踪逾1500名65岁以上老人、历时近30年的队列研究显示，长期反复感到孤独的人，比从未报告孤独的人患痴呆的风险高38%；而只是偶尔感到孤独的人，在控制其他因素后并未显示出同等风险。研究者在8年内多次测量孤独感，将三四次都报告孤独的人归为"慢性孤独"组，以此区别于只报告过一两次的偶发组，这是此前多数研究未做到的区分。560名参与者在随访期间发展为痴呆，慢性孤独组的发生率（49.1%）明显高于从未孤独组（33.1%）。这项研究是观察性的，说明关联而非直接因果，也未排除孤独本身可能是认知下降早期表现的可能性。
+研究人员为哥斯达黎加尼科亚蓝区（以百岁老人比例高闻名的地区）居民构建了一套基于机器学习的表观遗传时钟——通过检测 DNA 甲基化模式来估算生物年龄，而非实际年龄。校正预测偏差前，尼科亚居民的生物年龄看起来比实际年龄小约两年；但研究者发现，这类时钟对不同年龄段人群的预测精度本身存在系统性偏差，校正参照人群和年龄分布后，优势缩减到约四个月。据 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261126/Do-people-in-blue-zones-really-age-more-slowly.aspx)，研究者指出"选择性存活"（即健康的人活得更久从而留在样本中）可能部分解释了剩余差异，目前还不能据此断定蓝区居民的衰老速度确实更慢。
 
-![Dementia analysis timeline](https://lifespan.io/wp-content/uploads/2026/11/Dementia-analysis-timeline.png)
+![蓝区与生物年龄研究](https://www.news-medical.net/images/news/ImageForNews_852886_17957382919706528.jpg)
 
----
+### 2. 20 多岁血糖缓慢升高，55 岁时大脑受影响
 
-### 2. 胃绕道术后低血糖药物三期试验达到主要终点
+在一项追踪 2,808 名成年人长达 30 年的研究中，研究者发现即便空腹血糖始终低于糖尿病诊断线，只要从年轻时持续缓慢上升，到中年时记忆力、执行功能和信息处理速度的测试表现都会更差。后来进展为糖尿病的参与者还出现了灰质（大脑负责思维的神经细胞层）体积减少和白质异常增多的影像变化。据 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261126/What-rising-blood-sugar-in-your-20s-could-mean-for-your-brain-at-55.aspx)，这是一项观察性研究，能说明血糖轨迹与脑健康之间存在关联，但不能直接证明两者之间有因果关系。
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/avexitide-cuts-post-bypass-sugar-crashes-by-55/)，Amylyx 制药公司的 avexitide 在名为 LUCIDITY 的三期临床试验中，将胃绕道手术后的餐后低血糖发作频率降低了55%。餐后低血糖（post-bariatric hypoglycemia）是胃绕道术的并发症之一，患者进食后血糖会急剧下降，目前尚无任何经 FDA 批准的药物可治疗。此次试验纳入78名成人，结果在2026年肥胖周大会上以口头报告形式发布，公司计划于年底前向 FDA 提交申请。入组78人属于较小规模试验，提交申请不等于获批，最终能否上市尚待监管审查。
+[![来源配图：What rising blood sugar in your 20s could mean for your brain at 55](https://www.news-medical.net/images/news/ImageForNews_852879_17957334110328822.jpg)](https://www.news-medical.net/news/20261126/What-rising-blood-sugar-in-your-20s-could-mean-for-your-brain-at-55.aspx)
 
-[![来源配图：Avexitide cuts post-bypass sugar crashes by 55%](https://longevity.technology/wp-content/uploads/2026/11/avexitide-cuts-post-bypass-sugar-crashes-by-55-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/avexitide-cuts-post-bypass-sugar-crashes-by-55/)
+### 3. 升高 NAD+ 的某种方法在小鼠中损伤骨骼
 
----
+NAD+ 是细胞能量代谢的关键辅酶，会随衰老下降，提升它被认为对多个系统有益。研究者比较了敲除 CD38 基因的小鼠（CD38 是体内消耗 NAD+ 的主要蛋白之一）与正常小鼠，发现敲除小鼠骨骼中 NAD+ 水平确实更高，但老年后骨骼厚度反而更薄、腿骨孔隙率更高。进一步分析表明，破骨细胞（负责分解骨骼的细胞）活性增加超过了成骨细胞的补偿速度。相比之下，过表达 Nampt（另一条提升 NAD+ 的路径）的小鼠没有出现同样的骨骼损伤。研究者在 [Lifespan.io 的报道](https://lifespan.io/one-method-of-increasing-nad-harms-bone-in-mice/)中指出，他们尚未弄清楚 CD38 在破骨细胞中的具体作用机制，且全部结果来自小鼠实验，不能推论到人体。
 
-### 3. 年轻时血糖持续升高与中年认知健康相关
+[![来源配图：One Method of Increasing NAD+ Harms Bone in Mice](https://lifespan.io/wp-content/uploads/2026/11/HumanAnatomy-262x187.png)](https://lifespan.io/one-method-of-increasing-nad-harms-bone-in-mice/)
 
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261125/Rising-blood-sugar-in-young-adulthood-harms-midlife-brain-health.aspx)，一项观察性研究发现，年轻成年阶段空腹血糖在数十年间持续上升的人，到中年时认知健康状况更差。空腹血糖是在未进食状态下测量的血糖水平，长期偏高是2型糖尿病的早期信号之一。素材为短摘要级，具体样本量、追踪时长和认知测量指标待核查原文；现有证据只显示关联，不能说明血糖升高直接导致认知下降。
+### 4. 血液中的 NAD+ 随年龄稳定，高血压时才下降
 
----
+立陶宛维尔纽斯的研究团队对 1,068 名成年人采集了 1,340 份指尖血样本，测量全血 NAD+ 水平。结果显示，健康人的血液 NAD+ 并不随年龄下降：男性保持稳定，女性反而略有上升。但在患有高血压的人群中，两性的 NAD+ 水平均明显偏低。据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/blood-nad-keeps-time-with-the-heart-not-the-calendar/)，这是一项观察性研究，能说明 NAD+ 与心血管状态相关，但不能判断哪个是原因、哪个是结果，也不能据此指导补充 NAD+ 前体是否有效。
 
-### 4. 有氧运动结合认知训练或可保护记忆相关脑区
+[![来源配图：Blood NAD keeps time with the heart, not the calendar](https://longevity.technology/wp-content/uploads/2026/11/blood-nad-keeps-time-with-the-heart-not-the-calendar-hero-1200x800-final-1024x683.png)](https://longevity.technology/news/blood-nad-keeps-time-with-the-heart-not-the-calendar/)
 
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261126/Exercise-and-brain-training-may-preserve-vulnerable-brain-regions.aspx)，一项研究提示，有氧运动与认知训练的组合干预，可能对阿尔茨海默病易受损的皮层区域起到保护作用，研究对象为有记忆障碍的老年人。阿尔茨海默病易损皮层区是大脑中较早出现萎缩的区域，通常与记忆和空间定向有关。素材为短摘要级，样本量、干预时长和具体脑区变化数据待核查原文；"可能保护"说明尚属初步发现，尚不能说明能预防或逆转疾病。
+### 5. 干细胞疗法一期试验报告心脏泵血改善
 
-[![来源配图：Exercise and brain training may preserve vulnerable brain regions](https://www.news-medical.net/images/news/ImageForNews_852842_17956898009745387.jpg)](https://www.news-medical.net/news/20261126/Exercise-and-brain-training-may-preserve-vulnerable-brain-regions.aspx)
+加拿大生物技术公司 Hemostemix 在 11 月 19 日一场投资者会议上报告了其实验性干细胞疗法的一期数据：心脏病发作后因心肌受损而扩大的左心室出现缩小，射血分数（衡量心脏每次搏动泵出血液比例的指标）上升，患者六分钟步行距离也有增加。据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/hemostemix-reports-improved-heart-function-with-stem-cells/)，这项一期试验没有对照组，本阶段主要评估安全性，尚不能据此确认疗效，也不能推算患者人数中实际完成全程治疗的比例。
 
----
+### 6. 九种运动对老年骨骼的潜在作用综述
 
-### 5. AI 病理模型评估新基准：用细胞身份而非任务分数衡量
-
-[论文索引/摘要](https://papers.cool/arxiv/2611.34930)介绍了 BioScore，一个用来衡量病理图像 AI 模型是否真正"学会"细胞生物学的基准。现有基准通常只看模型在分类任务上的准确率，而 BioScore 利用空间转录组学（即同时记录组织中每个位置的基因表达情况的技术）作为参照，检验模型是否能从图像中自动识别52种由基因标记定义的细胞类型。测试8个病理专用模型和3个通用图像模型，所有病理模型得分（0.299–0.371）均高于通用模型（0.214–0.232），且病理模型内部分出三个层级。BioScore 不需要人工标注，这是其实用价值所在，但目前只是评估工具，不能直接用于临床诊断。
-
----
-
-### 6. 超声视频生成模型引入解剖先验，解决探头移开后图像不一致问题
-
-[论文索引/摘要](https://papers.cool/arxiv/2611.34622)报道了一项超声视频生成研究。传统方法只根据探头位置生成图像，探头离开某区域后再回来，生成的解剖结构往往前后矛盾。这项工作引入两种知识：一是从人群数据建立的解剖先验（即对正常解剖结构的统计预期），用来填补未扫描区域；二是三维潜在记忆，将已生成的切片整合成体积模型，确保同一位置重复扫描时图像一致。在甲状腺、肾脏和腰椎数据上，视觉保真度和解剖一致性均优于对比方法。目前仍是算法研究阶段，能否用于真实临床超声引导待进一步验证。
-
----
-
-### 7. 医疗多模态大模型 Sage-Med-Preview 在238项临床任务上的基准测试
-
-[论文索引/摘要](https://papers.cool/arxiv/2611.34575)报道了 Sage-Med-Preview，一个350亿参数（实际激活30亿）的医疗多模态大语言模型，训练数据经过逐阶段筛选，共使用约3.27亿条候选记录。在涵盖40余种影像模态的238项临床任务上，它在31个公开多模态基准上平均得分58.26%，高于开源医疗模型 Hulu-Med-235B-A22B（50.99%）和通用科学模型 Intern-S2-Preview（52.24%），在部分任务上接近 GPT-6.2-Sol。论文指出复杂医疗推理和多步骤临床流程仍存在明显不足，基准分数不等于临床实际可用。
-
----
-
-### 8. 葡萄酒多酚综述：生物标志物有变化，但不能说明饮酒有益
-
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261125/Wine-polyphenols-may-support-metabolic-health-but-alcohol-risks-remain.aspx)，一篇叙述性综述（即对既有研究的系统梳理，非新实验）分析了葡萄酒中的多酚类物质与肠道微生物、地中海饮食之间的相互作用，发现某些氧化应激和炎症相关生物标志物出现有利变化。但综述明确指出，现有证据不能证明饮酒带来长期健康获益，也不支持为此开始饮酒。多酚在葡萄、浆果等食物中同样存在，这一混淆因素使葡萄酒本身的作用难以单独评估。
-
-[![来源配图：Wine polyphenols may support metabolic health, but alcohol risks remain](https://www.news-medical.net/images/news/ImageForNews_852784_17956481479912374.jpg)](https://www.news-medical.net/news/20261125/Wine-polyphenols-may-support-metabolic-health-but-alcohol-risks-remain.aspx)
+[News-Medical 的媒体报道](https://www.news-medical.net/news/20261127/From-lifting-weights-to-Tai-Chi-which-exercises-help-aging-bones.aspx)介绍了一项针对九种运动类型的综述，评估它们对老年人骨密度的潜在益处。综述发现力量训练等方式有较多支持证据，但太极和骨折预防之间的关系仍不确定。由于素材仅提供标题和短摘要，具体样本量、运动强度和效果数据待核查。
 
 ---
 
 ## **🧪 前沿研究**
 
-### 髋关节肌肉力量与体积分别影响老年人行走和爬楼能力
+### 更年期与 HIV 女性的免疫衰老研究
 
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261126/Stronger-hip-muscles-favor-walking3b-larger-muscles-favor-stairs.aspx)，在患有慢性腰背痛的老年人中，髋屈肌（负责抬腿的肌群）的力量与行走能力更相关，而髂腰肌（位于髋部深处的核心肌群）的横截面积则与爬楼速度更相关。这说明肌肉"有劲"和肌肉"体积大"对不同日常动作的贡献不同。素材为短摘要级，样本量和具体测量方法待核查原文；研究对象限于慢性腰背痛人群，结论不能直接推广至一般老年人。
-
----
-
-### 线粒体功能障碍基因疗法综述发表于《衰老》期刊
-
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261126/New-strategies-target-mitochondrial-dysfunction-during-aging.aspx)，《Aging》期刊2026年11月刊发了一篇研究展望文章，梳理基因疗法和线粒体移植两种干预线粒体功能障碍的策略。线粒体是细胞产生能量的场所，其功能随衰老下降被认为与多种老年病有关。素材仅为短摘要级，文章属于综述性质而非新实验，具体覆盖的证据和作者结论待查阅[原文](https://www.news-medical.net/news/20261126/New-strategies-target-mitochondrial-dysfunction-during-aging.aspx)确认。
+据 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261126/Researcher-explores-menopause-and-immune-health-in-women-aging-with-HIV.aspx)，随着抗病毒治疗进步，携带 HIV 的女性寿命显著延长，这使得更年期与免疫系统老化之间的交叉成为新的研究方向：雌激素水平下降会如何改变已受病毒长期影响的免疫系统？目前素材为短摘要，具体研究设计和数据待原文核查。
 
 ---
 
 ## **◎ 行业变化与个人影响**
 
-### 32年女性健康追踪研究完成，更新老龄化认知框架
+### 长寿健康产业转向可测量的生物指标
 
-据 [News-Medical 的报道](https://www.news-medical.net/news/20261126/Study-to-explore-the-impact-of-aging-on-women.aspx)，一项启动于约1994年、持续32年的全国性大型纵向研究宣告完成阶段性总结，重新梳理了女性健康随年龄变化的规律。纵向研究是对同一批人多年持续追踪，比单次调查更能反映变化趋势。素材为短摘要级，具体研究名称、样本规模和主要发现待查阅原报道确认；该研究有助于弥补此前医学研究中女性数据不足的问题，但具体结论尚待核实。
-
-## **⌘ 开源 TOP 项目**
-
-### AndrewsLabUCSF/ADNI-BioAge：用表观遗传时钟估算阿尔茨海默病队列的生物年龄
-
-这个来自 UCSF Andrews 实验室的[开源仓库](https://github.com/AndrewsLabUCSF/ADNI-BioAge)，基于阿尔茨海默病神经影像计划（ADNI）队列数据，使用表观遗传时钟计算生物年龄。表观遗传时钟是一类通过 DNA 甲基化模式（即基因上的化学修饰标记）来估算细胞"实际老化程度"的算法，与出生年龄有时存在差距，这个差距被用作衰老研究的指标。适合研究人员了解表观遗传时钟在痴呆相关队列中的应用方式，仓库说明（README）中的自述内容尚未经过独立验证，Stars 数量较少，运行环境和许可证状态建议查看仓库原页面确认。
-
----
-
-### DeepakBabu1/Predicting-Biological-Age-from-Neuromuscular-Features-Using-Wearable-EMG-and-IMU-Sensor-Data：用可穿戴肌肉传感器预测生物年龄
-
-这个[仓库](https://github.com/DeepakBabu1/Predicting-Biological-Age-from-Neuromuscular-Features-Using-Wearable-EMG-and-IMU-Sensor-Data)探索用可穿戴设备采集的 EMG（肌电信号，记录肌肉收缩时的电活动）和 IMU（惯性测量单元，记录运动和姿态）数据来预测生物年龄。与依赖血液或影像的生物年龄估算方法相比，这条路线在理论上对普通用户更易获取，但仓库目前无描述文字，Stars 为1，具体方法、数据来源和实际预测精度待查看仓库内容核实，不能根据项目名称直接确认其有效性。
-
----
+据 [Longevity.Technology 的报道](https://longevity.technology/news/when-wellness-has-to-show-its-working/)，设计咨询机构 Designerly 的 Cooper Adwin 指出，消费者和投资者对健康产品的期待正在从"感觉更好"转向可量化证明，例如经过临床验证的生物年龄时钟和持续生物标志物监测。这一趋势对初创公司意味着，单靠品牌叙事已不足以支撑融资逻辑，需要拿出可核查的健康结果数据。这篇报道属于行业观察，分析来自公司顾问，不是独立学术研究。
