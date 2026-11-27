@@ -12,32 +12,32 @@ AI Longevity Daily is a newsletter platform focused on the intersection of AI an
 
 ### 🎯 What We're About
 
-- **Topic**: AI Longevity Science — covering longevity, life extension, aging, biological age, and rejuvenation
+- **Topic**: AI Longevity Science, covering longevity, life extension, aging, biological age, and rejuvenation
 - **Audience**: Investors, product managers, founders, and students interested in AI + longevity / aging research
-- **Vibe**: Professional but approachable — like getting the scoop from a knowledgeable friend
+- **Vibe**: Professional but approachable — like a knowledgeable friend keeping you in the loop
 
 ### ⭐ What We Cover
 
-Every day, we automatically pull together the latest from the AI longevity space:
+Every day, AI Longevity Daily automatically aggregates the latest from across the field: 🔍
 
 #### 🧬 Core Coverage Areas
 
 - **🧬 Longevity Research**: Healthspan, lifespan extension, longevity biology
 - **🕰️ Aging Mechanisms**: Cellular senescence, mitochondria, autophagy, telomeres, epigenetic clocks
-- **💊 Life Extension Interventions**: Anti-aging compounds, senolytic therapies, biological age intervention, rejuvenation strategies
-- **🤖 AI-Driven Drug Discovery for Longevity**: Drug screening, molecule generation, target prediction, platform models
+- **💊 Life Extension Interventions**: Anti-aging drugs, senolytic therapies, biological age interventions, rejuvenation strategies
+- **🤖 AI-Driven Drug Discovery for Longevity**: Drug screening, molecular generation, target prediction, platform models
 - **📊 Biological Age & Biomarkers**: Biological age clocks, age-related biomarkers, aging assessment tools
-- **🔬 Tools & Platforms**: Data platforms, models, and open-source tools built for longevity / aging research
+- **🔬 Tools & Platforms**: Data platforms, models, and open-source tools serving longevity / aging research
 
-#### 📡 Where We Get Our Content
+#### 📡 Sources We Pull From
 
-- 🔥 Industry news and hot takes
+- 🔥 Industry news and trending topics
 - 📦 Open-source project discoveries
 - 📄 Cutting-edge academic papers
-- 💬 Expert opinions from the field
+- 💬 Expert opinions and commentary
 - 🚀 Product and feature updates
 
-All content is automatically fetched, generated, and published by **CloudFlare Workers + AI** — so it's timely and comprehensive every single day.
+All content is automatically fetched, generated, and published by **CloudFlare Workers + AI**, keeping things timely and comprehensive.
 
 ### 🔗 Get in Touch
 
@@ -47,4 +47,4 @@ All content is automatically fetched, generated, and published by **CloudFlare W
 
 ---
 
-**AI Longevity Daily — your fastest way to stay sharp on what's new in AI + longevity / life extension / aging research. 🧬🚀**
+**AI Longevity Daily — your fastest way to stay sharp on what's new in AI + longevity / life extension / aging research. 🧬**
