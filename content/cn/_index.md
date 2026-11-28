@@ -1,9 +1,9 @@
 ---
 linkTitle: AI生命延续学日报
-title: 'AI生命延续学日报 2026/11/27'
+title: 'AI生命延续学日报 2026/11/28'
 breadcrumbs: false
-next: /2026-11/2026-11-27
-description: '2026-11-27 AI生命延续学日报：蓝区长寿优势被重新测量，结果缩水到四个月；20 多岁血糖缓慢升高，55 岁时大脑受影响；升高 NAD+ 的某种方法在小鼠中损伤骨骼。聚焦来源、证据阶段和实际应用距离。'
+next: /2026-11/2026-11-28
+description: '2026-11-28 AI生命延续学日报：鼻腔喷入 mRNA 让老年鼠记忆力恢复到年轻水平；老年免疫细胞释放的 Granzyme K 加速多器官衰老；Annovis 阿尔茨海默病口服药三期试验通过第二次安全审查。聚焦来源、证据阶段和实际应用距离。'
 cascade:
   type: docs
 ---
@@ -11,57 +11,66 @@ cascade:
 ## **今日摘要**
 
 ```
-蓝区百岁老人的生物年龄优势经校正后仅剩约四个月，远小于此前印象。
-年轻时血糖持续缓慢上升与中年认知测试表现较差存在关联，但因果关系未确立。
-两项结论均来自观察性研究，只能说明相关，不能作为个人干预依据。
+鼻腔注射编码神经营养蛋白的mRNA后，老年小鼠记忆力恢复至年轻水平。
+老年免疫细胞分泌的一种蛋白酶，在小鼠中与肾、肝、心多器官加速老化相关。
+两项结论均来自小鼠实验，能否在人体中重现尚不得而知。
 ```
 
-## **🔥 今日焦点 TOP 6**
+## **🔥 今日焦点 TOP 7**
 
-### 1. 蓝区长寿优势被重新测量，结果缩水到四个月
+### 1. 鼻腔喷入 mRNA 让老年鼠记忆力恢复到年轻水平
 
-研究人员为哥斯达黎加尼科亚蓝区（以百岁老人比例高闻名的地区）居民构建了一套基于机器学习的表观遗传时钟——通过检测 DNA 甲基化模式来估算生物年龄，而非实际年龄。校正预测偏差前，尼科亚居民的生物年龄看起来比实际年龄小约两年；但研究者发现，这类时钟对不同年龄段人群的预测精度本身存在系统性偏差，校正参照人群和年龄分布后，优势缩减到约四个月。据 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261126/Do-people-in-blue-zones-really-age-more-slowly.aspx)，研究者指出"选择性存活"（即健康的人活得更久从而留在样本中）可能部分解释了剩余差异，目前还不能据此断定蓝区居民的衰老速度确实更慢。
+悉尼大学团队将编码 BDNF（一种支持神经元存活和新生的蛋白质）的 mRNA 包裹进脂质纳米颗粒，直接注入小鼠鼻腔，让鼻腔内壁细胞自行生产这种蛋白并送入大脑。对 18 月龄自然衰老小鼠每周一次、连续四周给药后，新物体识别、工作记忆和空间记忆三项测试成绩均显著提升，与 3 月龄年轻鼠相当；海马区新生神经元数量达到对照老年鼠的 2.4 倍，但仍未追上年轻鼠水平。在遗传性阿尔茨海默病模型鼠中，从出现脑病理但尚无记忆障碍时开始用药，可预防记忆缺陷，但不减少淀粉样斑块。这项发表于 *Advanced Science* 的研究据 [Lifespan.io 的报道](https://lifespan.io/nasal-mrna-improves-cognition-in-aging-and-alzheimers-mice/)目前仅在小鼠中观察到效果，症状出现后能否逆转、以及对人体的有效性还待研究。
 
-![蓝区与生物年龄研究](https://www.news-medical.net/images/news/ImageForNews_852886_17957382919706528.jpg)
+![BDNF工作记忆测试结果](https://lifespan.io/wp-content/uploads/2026/11/BDNF-Working-Memory.png)
+*老年鼠（橙色）经 BDNF mRNA 治疗后工作记忆测试成绩与年轻鼠（蓝色）接近*
 
-### 2. 20 多岁血糖缓慢升高，55 岁时大脑受影响
+### 2. 老年免疫细胞释放的 Granzyme K 加速多器官衰老
 
-在一项追踪 2,808 名成年人长达 30 年的研究中，研究者发现即便空腹血糖始终低于糖尿病诊断线，只要从年轻时持续缓慢上升，到中年时记忆力、执行功能和信息处理速度的测试表现都会更差。后来进展为糖尿病的参与者还出现了灰质（大脑负责思维的神经细胞层）体积减少和白质异常增多的影像变化。据 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261126/What-rising-blood-sugar-in-your-20s-could-mean-for-your-brain-at-55.aspx)，这是一项观察性研究，能说明血糖轨迹与脑健康之间存在关联，但不能直接证明两者之间有因果关系。
+研究人员发现，衰老 CD8+ T 细胞（一类随年龄功能下降的杀伤性免疫细胞）大量分泌一种叫 Granzyme K 的蛋白酶，会在免疫系统之外加速其他器官老化。敲除 Granzyme K 的小鼠，肾脏肿大显著减轻，肝脏和心脏纤维化减少，心室壁增厚也得到抑制，而免疫细胞自身的衰老节律并不受影响。出乎意料的是，Granzyme K 对血液中炎症指标的影响并不显著，但在蛋白质组层面，缺失它的老年鼠拥有更多与年轻功能相关的蛋白。研究人员还在公开的人类纤维化疾病数据集中确认了 Granzyme K 的存在，据 [Lifespan.io 的报道](https://lifespan.io/one-way-that-aged-t-cells-age-the-whole-body/)，该结论目前仍来自动物实验，尚不能说明抑制这一靶点对人体有同等效果（发表于 2026 年 11 月 19 日）。
 
-[![来源配图：What rising blood sugar in your 20s could mean for your brain at 55](https://www.news-medical.net/images/news/ImageForNews_852879_17957334110328822.jpg)](https://www.news-medical.net/news/20261126/What-rising-blood-sugar-in-your-20s-could-mean-for-your-brain-at-55.aspx)
+[![来源配图：One Way That Aged T Cells Age the Whole Body](https://lifespan.io/wp-content/uploads/2026/11/One-Way-That-Aged-T-Cells-Age-the-Whole-Body-262x187.png)](https://lifespan.io/one-way-that-aged-t-cells-age-the-whole-body/)
 
-### 3. 升高 NAD+ 的某种方法在小鼠中损伤骨骼
+### 3. Annovis 阿尔茨海默病口服药三期试验通过第二次安全审查
 
-NAD+ 是细胞能量代谢的关键辅酶，会随衰老下降，提升它被认为对多个系统有益。研究者比较了敲除 CD38 基因的小鼠（CD38 是体内消耗 NAD+ 的主要蛋白之一）与正常小鼠，发现敲除小鼠骨骼中 NAD+ 水平确实更高，但老年后骨骼厚度反而更薄、腿骨孔隙率更高。进一步分析表明，破骨细胞（负责分解骨骼的细胞）活性增加超过了成骨细胞的补偿速度。相比之下，过表达 Nampt（另一条提升 NAD+ 的路径）的小鼠没有出现同样的骨骼损伤。研究者在 [Lifespan.io 的报道](https://lifespan.io/one-method-of-increasing-nad-harms-bone-in-mice/)中指出，他们尚未弄清楚 CD38 在破骨细胞中的具体作用机制，且全部结果来自小鼠实验，不能推论到人体。
+Annovis Bio 的 DUET-AD 是一项针对阿尔茨海默病的三期临床试验（临床试验的最后阶段，主要验证疗效和安全性）。独立数据安全监察委员会第二次审查后，建议试验不作任何修改地继续进行，6 个月疗效数据预计在 2027 年 3 月公布。据 [Longevity.Technology 的报道](https://longevity.technology/news/annovis-alzheimers-pill-clears-a-second-safety-check-in-phase-3/)，安全审查通过只说明试验可继续，不代表已证实疗效。
 
-[![来源配图：One Method of Increasing NAD+ Harms Bone in Mice](https://lifespan.io/wp-content/uploads/2026/11/HumanAnatomy-262x187.png)](https://lifespan.io/one-method-of-increasing-nad-harms-bone-in-mice/)
+[![来源配图：Annovis Alzheimer’s pill clears a second safety check in Phase 3](https://longevity.technology/wp-content/uploads/2026/11/annovis-alzheimers-pill-clears-a-second-safety-check-in-phase-3-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/annovis-alzheimers-pill-clears-a-second-safety-check-in-phase-3/)
 
-### 4. 血液中的 NAD+ 随年龄稳定，高血压时才下降
+### 4. 一管血同时检测六种淀粉样蛋白片段的研究用试剂盒上市
 
-立陶宛维尔纽斯的研究团队对 1,068 名成年人采集了 1,340 份指尖血样本，测量全血 NAD+ 水平。结果显示，健康人的血液 NAD+ 并不随年龄下降：男性保持稳定，女性反而略有上升。但在患有高血压的人群中，两性的 NAD+ 水平均明显偏低。据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/blood-nad-keeps-time-with-the-heart-not-the-calendar/)，这是一项观察性研究，能说明 NAD+ 与心血管状态相关，但不能判断哪个是原因、哪个是结果，也不能据此指导补充 NAD+ 前体是否有效。
+C2N Diagnostics 于 11 月 17 日推出 C2N-Aβ-MAA（6x）血浆检测工具，可从单管血液样本中同时定量六种 Aβ（淀粉样蛋白 β，阿尔茨海默病相关的异常蛋白片段）变体。据 [Longevity.Technology 的报道](https://longevity.technology/news/c2ns-new-blood-test-counts-six-amyloid-variants/)，该工具目前仅限研究使用，尚未作为临床诊断手段获批。
 
-[![来源配图：Blood NAD keeps time with the heart, not the calendar](https://longevity.technology/wp-content/uploads/2026/11/blood-nad-keeps-time-with-the-heart-not-the-calendar-hero-1200x800-final-1024x683.png)](https://longevity.technology/news/blood-nad-keeps-time-with-the-heart-not-the-calendar/)
+[![来源配图：C2N’s new blood test counts six amyloid variants](https://longevity.technology/wp-content/uploads/2026/11/c2ns-new-blood-test-counts-six-amyloid-variants-hero-1200x800-1-1024x683.png)](https://longevity.technology/news/c2ns-new-blood-test-counts-six-amyloid-variants/)
 
-### 5. 干细胞疗法一期试验报告心脏泵血改善
+### 5. 八人小样本研究测试 NAD+ 补充剂对线粒体罕见病的效果
 
-加拿大生物技术公司 Hemostemix 在 11 月 19 日一场投资者会议上报告了其实验性干细胞疗法的一期数据：心脏病发作后因心肌受损而扩大的左心室出现缩小，射血分数（衡量心脏每次搏动泵出血液比例的指标）上升，患者六分钟步行距离也有增加。据 [Longevity.Technology 的媒体报道](https://longevity.technology/news/hemostemix-reports-improved-heart-function-with-stem-cells/)，这项一期试验没有对照组，本阶段主要评估安全性，尚不能据此确认疗效，也不能推算患者人数中实际完成全程治疗的比例。
+剑桥大学团队让 8 名患有罕见遗传性线粒体疾病（一种影响细胞能量产生的遗传病）的成年人服用高剂量 Niagen（一种常见 NAD+ 前体补充剂，NAD+ 是细胞能量代谢的关键分子）四周，结果显示耐受性良好，部分亚组出现早期信号。这项研究发表于同行评审期刊 *Genome Medicine*，据 [Longevity.Technology 的报道](https://longevity.technology/news/nad-booster-tested-in-rare-mitochondrial-disease/)，8 人、4 周的样本规模太小，早期信号尚不能支持有效性结论。
 
-### 6. 九种运动对老年骨骼的潜在作用综述
+### 6. 中国出台延寿诊所操作规范，涵盖评估到静脉滴注
 
-[News-Medical 的媒体报道](https://www.news-medical.net/news/20261127/From-lifting-weights-to-Tai-Chi-which-exercises-help-aging-bones.aspx)介绍了一项针对九种运动类型的综述，评估它们对老年人骨密度的潜在益处。综述发现力量训练等方式有较多支持证据，但太极和骨折预防之间的关系仍不确定。由于素材仅提供标题和短摘要，具体样本量、运动强度和效果数据待核查。
+TimePie 与 Frost & Sullivan 联合发布《2026 年全球长寿医学干预与商业实施指南》，对中国延寿诊所的评估流程、干预手段和证据门槛作出系统性规定，覆盖从健康评估到静脉注射等操作环节，整体风格接近合规手册而非产品目录。据 [Longevity.Technology 的报道](https://longevity.technology/news/a-rulebook-for-chinas-longevity-clinics-from-assessment-to-iv-drip/)，该指南属于行业规范文件，不能视为其中所列干预措施已获临床证明有效。
 
----
+### 7. 体重与更年期过渡期症状的关联
 
-## **🧪 前沿研究**
-
-### 更年期与 HIV 女性的免疫衰老研究
-
-据 [News-Medical 的媒体报道](https://www.news-medical.net/news/20261126/Researcher-explores-menopause-and-immune-health-in-women-aging-with-HIV.aspx)，随着抗病毒治疗进步，携带 HIV 的女性寿命显著延长，这使得更年期与免疫系统老化之间的交叉成为新的研究方向：雌激素水平下降会如何改变已受病毒长期影响的免疫系统？目前素材为短摘要，具体研究设计和数据待原文核查。
+一项研究发现，较高的 BMI（体重指数）与更年期过渡期（正式绝经前的激素波动阶段）躯体症状加重相关，但焦虑和抑郁对整体症状负担的预测力更强。据 [News-Medical 的报道](https://www.news-medical.net/news/20261127/How-your-weight-may-shape-your-experience-of-perimenopause.aspx)，具体样本量和研究设计详情待核查，相关性不等于因果关系。
 
 ---
 
-## **◎ 行业变化与个人影响**
+## **⌘ 开源 TOP 项目**
 
-### 长寿健康产业转向可测量的生物指标
+### nopara73/LongevityWorldCup：生物年龄竞技排行榜平台
 
-据 [Longevity.Technology 的报道](https://longevity.technology/news/when-wellness-has-to-show-its-working/)，设计咨询机构 Designerly 的 Cooper Adwin 指出，消费者和投资者对健康产品的期待正在从"感觉更好"转向可量化证明，例如经过临床验证的生物年龄时钟和持续生物标志物监测。这一趋势对初创公司意味着，单靠品牌叙事已不足以支撑融资逻辑，需要拿出可核查的健康结果数据。这篇报道属于行业观察，分析来自公司顾问，不是独立学术研究。
+这个开源平台以"长寿世界杯"为概念，提供生物年龄计算器、运动员档案和公开排行榜，让用户可以比较生物年龄估算结果。生物年龄是通过血液或其他生理指标估算出的"身体实际状态年龄"，与身份证年龄不同，属于估算指标而非诊断结论。仓库目前有 28 颗星，可在 [GitHub 仓库](https://github.com/nopara73/LongevityWorldCup) 查看代码和功能说明；许可证和运行状态以仓库实际内容为准。
+
+### Shrutijha-cs28/NeuroSense-AI：阿尔茨海默症与帕金森病数字生物标志物研究基准平台
+
+这个工具面向研究人员，提供多模态 AI 评测框架，用于阿尔茨海默症和帕金森病的数字生物标志物（通过传感器或数字设备采集的疾病相关信号）研究，内置参与者分组交叉验证、SHAP 可解释性分析（一种解释模型预测依据的方法）和 Streamlit 交互界面。可在 [GitHub 仓库](https://github.com/Shrutijha-cs28/NeuroSense-AI) 查看具体输入输出格式和示例；仓库目前 1 星，实际可用状态以仓库内容为准。
+
+---
+
+## **❓ 相关问题**
+
+### 鼻腔 mRNA 给药和新冠疫苗用的 mRNA 技术是同一回事吗？
+
+基础平台相同：都用脂质纳米颗粒把 mRNA 递送进细胞，让细胞按照 RNA 指令生产目标蛋白质。区别在于给药部位和目标蛋白不同——新冠疫苗通过肌肉注射递送刺突蛋白指令，这项研究通过鼻腔递送 BDNF 指令，利用鼻腔与大脑的解剖通路绕过血脑屏障。两项技术共享递送载体，但靶点和路径有实质差异，目前鼻腔 mRNA 给药仍处于动物实验阶段，详见 [Lifespan.io 的原文报道](https://lifespan.io/nasal-mrna-improves-cognition-in-aging-and-alzheimers-mice/)。
